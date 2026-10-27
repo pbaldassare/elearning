@@ -31,7 +31,7 @@ async function main(dir) {
     readFileSync('.env', 'utf8').split('\n').filter((l) => l.includes('=')).map((l) => l.split(/=(.*)/s).slice(0, 2)),
   );
   const get = (k) => process.env[k] ?? env[k];
-  const db = createClient(get('VITE_SUPABASE_URL'), get('VITE_SUPABASE_ANON_KEY'));
+  const db = createClient(get('VITE_SUPABASE_URL'), get('VITE_SUPABASE_ANON_KEY'), { db: { schema: 'learning' } });
   const { error: authError } = await db.auth.signInWithPassword({ email: get('ADMIN_EMAIL'), password: get('ADMIN_PASSWORD') });
   if (authError) throw authError;
 

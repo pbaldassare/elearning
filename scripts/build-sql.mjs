@@ -14,7 +14,7 @@ const COURSES = { core: ['IVASS 30 ore', 'IVASS 60 ore', 'IVASS 30 ore' + DEMO, 
 const q = (v) => v == null ? 'null' : `'${String(v).replace(/'/g, "''")}'`;
 const j = (v) => `${q(JSON.stringify(v ?? []))}::jsonb`;
 const AREAS = ['giuridica', 'tecnica', 'amministrativa', 'informatica'];
-const lessonId = (mp, pos) => `(select le.id from public.lessons le join public.modules m on m.id = le.module_id join public.lesson_libraries l on l.id = m.library_id where l.name = 'IVASS' and m.position = ${mp} and le.position = ${pos})`;
+const lessonId = (mp, pos) => `(select le.id from learning.lessons le join learning.modules m on m.id = le.module_id join learning.lesson_libraries l on l.id = m.library_id where l.name = 'IVASS' and m.position = ${mp} and le.position = ${pos})`;
 let n = 0;
 const questions = [];
 AREAS.forEach((area, ai) => {
@@ -26,26 +26,26 @@ AREAS.forEach((area, ai) => {
     const mp = MODULES.indexOf(t.module) + 1;
     if (!mpos.has(mp)) {
       mpos.add(mp);
-      sql.push(`insert into public.modules (library_id, position, title) select id, ${mp}, ${q(t.module)} from public.lesson_libraries where name = 'IVASS' on conflict (library_id, position) do update set title = excluded.title;`);
+      sql.push(`insert into learning.modules (library_id, position, title) select id, ${mp}, ${q(t.module)} from learning.lesson_libraries where name = 'IVASS' on conflict (library_id, position) do update set title = excluded.title;`);
     }
     const lid = (pos) => lessonId(mp, pos);
     t.lessons.forEach((l, i) => {
       const pos = t.topic_order * 100 + (t.lesson_offset ?? 0) + i + 1;
       n++;
       sql.push(`\n-- ${t.topic} › ${l.title}`,
-        `insert into public.lessons (module_id, position, topic, title, slides, narration, sources, min_seconds, status, approved_at)
+        `insert into learning.lessons (module_id, position, topic, title, slides, narration, sources, min_seconds, status, approved_at)
 select m.id, ${pos}, ${q(t.topic)}, ${q(l.title)}, ${j(l.slides)}, ${q(l.narration)}, ${j(l.sources)}, ${minSeconds(l)}, 'approvata', now()
-from public.modules m join public.lesson_libraries lib on lib.id = m.library_id where lib.name = 'IVASS' and m.position = ${mp}
+from learning.modules m join learning.lesson_libraries lib on lib.id = m.library_id where lib.name = 'IVASS' and m.position = ${mp}
 on conflict (module_id, position) do update set topic = excluded.topic, title = excluded.title, slides = excluded.slides,
   narration = excluded.narration, sources = excluded.sources, min_seconds = excluded.min_seconds;`,
-        `delete from public.content_changes where lesson_id = ${lid(pos)};`);
-      if (l.changes?.length) sql.push(`insert into public.content_changes (lesson_id, kind, description, source_ref) values\n${l.changes.map((c) =>
+        `delete from learning.content_changes where lesson_id = ${lid(pos)};`);
+      if (l.changes?.length) sql.push(`insert into learning.content_changes (lesson_id, kind, description, source_ref) values\n${l.changes.map((c) =>
         `  (${lid(pos)}, ${q(c.kind)}, ${q(c.description)}, ${q(c.source_ref)})`).join(',\n')};`);
       l.slides.forEach((sl, si) => sl.layout === 'quiz' && questions.push({
         ref: `lezione:${mp}.${pos}:${si + 1}`, mp, pos, text: sl.question, explanation: sl.explanation,
         source: `Verifica della lezione «${l.title}»`, options: sl.options.map((o, i) => ({ text: o, correct: i === sl.answer })),
       }));
-      sql.push(`insert into public.course_lessons (course_id, lesson_id) select c.id, ${lid(pos)} from public.courses c where c.title in (${COURSES[t.scope].map(q).join(', ')}) on conflict do nothing;`);
+      sql.push(`insert into learning.course_lessons (course_id, lesson_id) select c.id, ${lid(pos)} from learning.courses c where c.title in (${COURSES[t.scope].map(q).join(', ')}) on conflict do nothing;`);
     });
   }
   sql.push('commit;');
@@ -58,12 +58,12 @@ for (const x of JSON.parse(readFileSync(join(repo, 'content/ivass/domande-excel.
 const qs = ['-- Banco domande IVASS (bozza). Richiede setup.sql e le lezioni. Rieseguibile.', 'begin;'];
 for (const x of questions) {
   const lesson = x.excel ? 'null' : lessonId(x.mp, x.pos);
-  const mod = x.excel ? 'null' : `(select m.id from public.modules m join public.lesson_libraries l on l.id = m.library_id where l.name = 'IVASS' and m.position = ${x.mp})`;
-  qs.push(`insert into public.questions (library_id, module_id, lesson_id, text, explanation, source, origin, external_ref)
-select id, ${mod}, ${lesson}, ${q(x.text)}, ${q(x.explanation)}, ${q(x.source)}, '${x.excel ? 'excel' : 'nuova'}', ${q(x.ref)} from public.lesson_libraries where name = 'IVASS'
+  const mod = x.excel ? 'null' : `(select m.id from learning.modules m join learning.lesson_libraries l on l.id = m.library_id where l.name = 'IVASS' and m.position = ${x.mp})`;
+  qs.push(`insert into learning.questions (library_id, module_id, lesson_id, text, explanation, source, origin, external_ref)
+select id, ${mod}, ${lesson}, ${q(x.text)}, ${q(x.explanation)}, ${q(x.source)}, '${x.excel ? 'excel' : 'nuova'}', ${q(x.ref)} from learning.lesson_libraries where name = 'IVASS'
 on conflict (external_ref) do update set text = excluded.text, explanation = excluded.explanation, source = excluded.source, module_id = excluded.module_id, lesson_id = excluded.lesson_id;`,
-    `delete from public.question_options where question_id = (select id from public.questions where external_ref = ${q(x.ref)});`,
-    `insert into public.question_options (question_id, position, text, is_correct) select id, v.p, v.t, v.c from public.questions, (values ${x.options.map((o, i) => `(${i + 1}, ${q(o.text)}, ${o.correct})`).join(', ')}) v (p, t, c) where external_ref = ${q(x.ref)};`);
+    `delete from learning.question_options where question_id = (select id from learning.questions where external_ref = ${q(x.ref)});`,
+    `insert into learning.question_options (question_id, position, text, is_correct) select id, v.p, v.t, v.c from learning.questions, (values ${x.options.map((o, i) => `(${i + 1}, ${q(o.text)}, ${o.correct})`).join(', ')}) v (p, t, c) where external_ref = ${q(x.ref)};`);
 }
 qs.push('commit;');
 writeFileSync(join(out, '4-domande.sql'), qs.join('\n') + '\n');

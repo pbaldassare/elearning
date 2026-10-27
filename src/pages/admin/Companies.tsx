@@ -48,7 +48,7 @@ export default function Companies() {
     const form = e.currentTarget;
     const f = new FormData(form);
     try {
-      await callFn('create-user', {
+      await callFn('learning-create-user', {
         role: 'azienda', company_id: c.id,
         first_name: f.get('first_name'), last_name: f.get('last_name'), email: f.get('email'),
       });

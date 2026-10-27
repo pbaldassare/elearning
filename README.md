@@ -8,7 +8,7 @@ React + TypeScript + Tailwind, Supabase (Auth, Postgres con RLS, Storage, Edge F
 - `src/`: frontend (Vite).
 - `supabase/migrations/`: schema del database versionato, con RLS su tutte le tabelle.
 - `supabase/seed.sql`: configurazione, categorie e corsi iniziali (rieseguibile).
-- `supabase/functions/`: Edge Functions (`impersonate` = "Entra come", `create-user` = creazione account con password standard).
+- `supabase/functions/`: Edge Functions (`learning-impersonate` = "Entra come", `learning-create-user` = creazione account con password standard).
 - `tests/db/`: test di permessi per ruolo e impersonificazione su un Postgres locale.
 
 Il materiale originale dei corsi **non** va nel repository (`materiale/` è in `.gitignore`).
@@ -25,7 +25,7 @@ Frontend (`.env`, vedi `.env.example`):
 Secrets delle Edge Functions (`supabase secrets set ...`): `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`
 sono forniti da Supabase. La password iniziale uguale per tutti i nuovi account si imposta come secret `DEFAULT_PASSWORD`
 oppure nel Vault del database (`select vault.create_secret('<password>', 'default_password');`):
-senza, `create-user` risponde con errore.
+senza, `learning-create-user` risponde con errore.
 
 ## Sviluppo
 
@@ -53,7 +53,7 @@ supabase db push                     # migrazioni
 psql "$DATABASE_URL" -f supabase/seed.sql
 supabase config push                 # auth: niente registrazioni pubbliche
 supabase secrets set DEFAULT_PASSWORD=...
-supabase functions deploy impersonate create-user
+supabase functions deploy learning-impersonate learning-create-user
 npm run build                        # poi pubblica dist/ (Vercel, Netlify, …)
 ```
 
@@ -75,7 +75,7 @@ parametri del test (`quiz_*`, vuoti finché non vengono forniti).
 
 ## "Entra come"
 
-L'Admin apre una sessione con la Edge Function `impersonate`; il frontend manda poi l'header
+L'Admin apre una sessione con la Edge Function `learning-impersonate`; il frontend manda poi l'header
 `x-act-as`. Il database lo accetta solo se chi chiama è Admin **e** ha una sessione aperta, e
 calcola tutti i permessi sull'utente impersonato. Avanzamento ore, completamento lezioni, test e
 certificati sono rifiutati lato server durante l'impersonificazione. Ogni apertura, chiusura e

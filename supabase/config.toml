@@ -11,5 +11,5 @@ minimum_password_length = 8
 [auth.email]
 enable_signup = false
 
-[functions.impersonate]
+[functions.learning-impersonate]
 verify_jwt = true

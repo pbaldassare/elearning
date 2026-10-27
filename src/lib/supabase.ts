@@ -14,6 +14,8 @@ export const supabase = createClient(
   import.meta.env.VITE_SUPABASE_URL,
   import.meta.env.VITE_SUPABASE_ANON_KEY,
   {
+    // Il progetto Supabase ospita anche altre app: le tabelle di D-Academy stanno nello schema "learning".
+    db: { schema: 'learning' },
     global: {
       fetch: (input, init) => {
         const target = actAs.get();

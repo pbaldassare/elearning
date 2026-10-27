@@ -44,7 +44,7 @@ export default function People() {
     const form = e.currentTarget;
     const f = Object.fromEntries(new FormData(form));
     try {
-      await callFn('create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
+      await callFn('learning-create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
       form.reset();
       report(null, 'Corsista creato con la password standard.');
     } catch (err) {

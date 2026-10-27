@@ -55,7 +55,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const refresh = useCallback(() => loadWho(session), [loadWho, session]);
 
   const startImpersonation = async (targetId: string) => {
-    const { error } = await supabase.functions.invoke('impersonate', {
+    const { error } = await supabase.functions.invoke('learning-impersonate', {
       body: { action: 'start', target_id: targetId },
     });
     if (error) throw error;
@@ -65,7 +65,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const stopImpersonation = async () => {
     actAs.set(null);
-    await supabase.functions.invoke('impersonate', { body: { action: 'stop' } });
+    await supabase.functions.invoke('learning-impersonate', { body: { action: 'stop' } });
     await refresh();
   };
 

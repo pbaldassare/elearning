@@ -14,7 +14,7 @@ const json = (body: unknown, status = 200) =>
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
 
-  const db = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!);
+  const db = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!, { db: { schema: 'learning' } });
   const token = req.headers.get('Authorization')?.replace('Bearer ', '') ?? '';
   const { data: { user } } = await db.auth.getUser(token);
   if (!user) return json({ error: 'Non autenticato' }, 401);

@@ -17,7 +17,7 @@ const url = Deno.env.get('SUPABASE_URL')!;
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
 
-  const db = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!);
+  const db = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!, { db: { schema: 'learning' } });
   // Secret della funzione oppure, in sua assenza, segreto "default_password" in Supabase Vault.
   const password = Deno.env.get('DEFAULT_PASSWORD') ?? (await db.rpc('default_password')).data;
   if (!password) return json({ error: 'Password standard non configurata (secret DEFAULT_PASSWORD o Vault default_password)' }, 500);
@@ -27,6 +27,7 @@ Deno.serve(async (req) => {
 
   // Identità effettiva calcolata dal DB, come per tutte le altre richieste.
   const asCaller = createClient(url, Deno.env.get('SUPABASE_ANON_KEY')!, {
+    db: { schema: 'learning' },
     global: { headers: { Authorization: `Bearer ${token}`, ...(req.headers.get('x-act-as') ? { 'x-act-as': req.headers.get('x-act-as')! } : {}) } },
   });
   const { data: who } = await asCaller.rpc('whoami');
