@@ -95,7 +95,7 @@ select tests.login(:admin);
 set local role authenticated;
 select tests.ok((select count(*) from public.companies) = 2, 'admin: vede tutte le aziende');
 select tests.ok((select count(*) from public.profiles) = 5, 'admin: vede tutti i profili');
-select tests.ok((select count(*) from public.courses) = 3, 'admin: vede tutti i corsi');
+select tests.ok((select count(*) from public.courses) = 5, 'admin: vede tutti i corsi');
 select tests.ok((select count(*) from public.lessons) = 2, 'admin: vede anche le bozze');
 rollback;
 

@@ -18,13 +18,20 @@ on conflict (name) do nothing;
 
 -- IVASS 30 e 60 ore: stessa libreria, cambia solo la durata richiesta.
 -- I parametri del test (quiz_*) restano null finché non vengono forniti.
-insert into public.courses (category_id, library_id, title, required_hours, status, certificate_type)
-select c.id, l.id, v.title, v.hours, v.status::public.course_status, v.cert::public.certificate_type
+insert into public.courses (category_id, library_id, title, required_hours, status, certificate_type, is_demo)
+select c.id, l.id, v.title, v.hours, v.status::public.course_status, v.cert::public.certificate_type, v.demo
 from (values
-  ('ivass', 'IVASS', 'IVASS 60 ore', 60, 'attivo', 'modello_ivass'),
-  ('ivass', 'IVASS', 'IVASS 30 ore', 30, 'attivo', 'modello_ivass'),
-  ('privacy', 'Privacy', 'Privacy', 1, 'non_attivo', 'generato_sistema')
-) as v (cat, lib, title, hours, status, cert)
+  ('ivass', 'IVASS', 'IVASS 60 ore', 60, 'attivo', 'modello_ivass', false),
+  ('ivass', 'IVASS', 'IVASS 30 ore', 30, 'attivo', 'modello_ivass', false),
+  ('ivass', 'IVASS', 'IVASS 60 ore – dimostrazione', 60, 'attivo', 'modello_ivass', true),
+  ('ivass', 'IVASS', 'IVASS 30 ore – dimostrazione', 30, 'attivo', 'modello_ivass', true),
+  ('privacy', 'Privacy', 'Privacy', 1, 'non_attivo', 'generato_sistema', false)
+) as v (cat, lib, title, hours, status, cert, demo)
 join public.categories c on c.slug = v.cat
 join public.lesson_libraries l on l.name = v.lib
 where not exists (select 1 from public.courses x where x.title = v.title);
+
+-- Test IVASS: massimo 4 tentativi (poi si rifà il corso), 5 minuti per domanda.
+-- Il numero di domande estratte resta da fornire.
+update public.courses set quiz_max_attempts = 4, quiz_minutes_per_question = 5
+where certificate_type = 'modello_ivass' and quiz_max_attempts is null and quiz_minutes_per_question is null;

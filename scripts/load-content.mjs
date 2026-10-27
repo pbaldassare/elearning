@@ -12,7 +12,11 @@ import { createClient } from '@supabase/supabase-js';
 
 const WPM = 120;
 const LIBRARY = 'IVASS';
-const COURSES = { core: ['IVASS 30 ore', 'IVASS 60 ore'], 60: ['IVASS 60 ore'] };
+const DEMO = ' – dimostrazione';
+const COURSES = {
+  core: ['IVASS 30 ore', 'IVASS 60 ore', 'IVASS 30 ore' + DEMO, 'IVASS 60 ore' + DEMO],
+  60: ['IVASS 60 ore', 'IVASS 60 ore' + DEMO],
+};
 const MODULES = ['Area giuridica', 'Area tecnica assicurativa e riassicurativa', 'Area amministrativa e gestionale', 'Area informatica'];
 
 const words = (o) =>

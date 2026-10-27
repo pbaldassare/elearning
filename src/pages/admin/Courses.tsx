@@ -6,7 +6,7 @@ import { Badge, btn, Field, Message, PageTitle, Panel, Select } from '../../ui';
 type Course = {
   id: string; title: string; required_hours: number; status: 'attivo' | 'non_attivo' | 'archiviato';
   certificate_type: 'modello_ivass' | 'generato_sistema'; pass_threshold: number; expiry_days: number;
-  quiz_questions_drawn: number | null; quiz_max_attempts: number | null; quiz_time_limit_minutes: number | null;
+  quiz_questions_drawn: number | null; quiz_max_attempts: number | null; quiz_minutes_per_question: number | null; is_demo: boolean;
   course_lessons: { count: number }[];
 };
 type Category = { id: string; name: string; slug: string; archived_at: string | null; courses: Course[] };
@@ -65,7 +65,7 @@ export default function Courses() {
       expiry_days: Number(f.get('expiry_days')),
       quiz_questions_drawn: numOrNull(f.get('quiz_questions_drawn')),
       quiz_max_attempts: numOrNull(f.get('quiz_max_attempts')),
-      quiz_time_limit_minutes: numOrNull(f.get('quiz_time_limit_minutes')),
+      quiz_minutes_per_question: numOrNull(f.get('quiz_minutes_per_question')),
     }).eq('id', id);
     await done(error, 'Corso salvato.');
   };
@@ -94,6 +94,7 @@ export default function Courses() {
                 <summary className="flex cursor-pointer flex-wrap items-center gap-2">
                   <span className="font-semibold">{c.title}</span>
                   <Badge tone={statusTone[c.status]}>{statusLabel[c.status]}</Badge>
+                  {c.is_demo && <Badge tone="brand">Dimostrativo · senza attesa</Badge>}
                   <span className="text-sm text-ink-muted">
                     {c.required_hours} h · {c.course_lessons[0]?.count ?? 0} lezioni · {certLabel[c.certificate_type]}
                   </span>
@@ -111,8 +112,8 @@ export default function Courses() {
                   <Field label="Giorni per completare" name="expiry_days" type="number" min="1" defaultValue={c.expiry_days} required />
                   <span className="hidden sm:block" />
                   <Field label="Domande estratte" name="quiz_questions_drawn" type="number" min="1" defaultValue={c.quiz_questions_drawn ?? ''} placeholder="da fornire" />
-                  <Field label="Tentativi massimi" name="quiz_max_attempts" type="number" min="1" defaultValue={c.quiz_max_attempts ?? ''} placeholder="da fornire" />
-                  <Field label="Tempo massimo (minuti)" name="quiz_time_limit_minutes" type="number" min="1" defaultValue={c.quiz_time_limit_minutes ?? ''} placeholder="da fornire" />
+                  <Field label="Tentativi (poi si rifà il corso)" name="quiz_max_attempts" type="number" min="1" defaultValue={c.quiz_max_attempts ?? ''} placeholder="da fornire" />
+                  <Field label="Minuti per domanda" name="quiz_minutes_per_question" type="number" min="1" defaultValue={c.quiz_minutes_per_question ?? ''} placeholder="da fornire" />
                   <div><button className={btn.primary}>Salva corso</button></div>
                 </form>
               </details>
