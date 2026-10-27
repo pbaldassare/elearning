@@ -11,6 +11,7 @@ import People from './pages/People';
 import Content from './pages/admin/Content';
 import Companies from './pages/admin/Companies';
 import Audit from './pages/admin/Audit';
+import Player from './player/Player';
 
 const nav: Record<Role, [string, string][]> = {
   admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/registro', 'Registro']],
@@ -81,6 +82,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/profilo" element={<Profile />} />
+        <Route path="/corso/:id" element={<Only roles={['corsista']}><Player /></Only>} />
         <Route path="/corsisti" element={<Only roles={['admin', 'azienda']}><People /></Only>} />
         <Route path="/contenuti" element={<Only roles={['admin']}><Content /></Only>} />
         <Route path="/aziende" element={<Only roles={['admin']}><Companies /></Only>} />

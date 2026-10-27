@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useAuth } from '../auth';
 import { supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
@@ -29,10 +30,9 @@ function MyCourses() {
                 Da completare entro il <strong>{fmtDate(e.expires_at)}</strong>
                 {e.status !== 'completato' && left >= 0 && left <= 5 && <> · <Badge tone="warn">{left === 0 ? 'scade oggi' : `mancano ${left} giorni`}</Badge></>}
               </p>
-              {/* ponytail: il player arriva con la fase 5; finché manca il corso non si apre. */}
-              <button disabled className="mt-4 w-full rounded-lg bg-brand-strong px-4 py-2 font-medium text-white opacity-60">
-                Apri il corso (in preparazione)
-              </button>
+              <Link to={`/corso/${e.id}`} className="mt-4 block rounded-lg bg-brand-strong px-4 py-2 text-center font-medium text-white hover:bg-ink">
+                {e.status === 'assegnato' ? 'Inizia il corso' : 'Apri il corso'}
+              </Link>
             </Panel>
           );
         })}

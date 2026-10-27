@@ -287,4 +287,69 @@ select tests.login(:az_a);
 select tests.ok(not exists (select 1 from public.enrollments where user_id = :cors_a), 'spostamento: la vecchia azienda non vede più');
 rollback;
 
+-- ---------------------------------------------------------------- player e ore
+
+insert into public.lessons (module_id, position, title, status, min_seconds)
+select id, 3, 'Seconda approvata', 'approvata', 30 from public.modules where title = 'Area giuridica';
+insert into public.course_lessons (course_id, lesson_id)
+select :'c30', id from public.lessons where title = 'Seconda approvata';
+update public.lessons set min_seconds = 20 where title = 'Lezione approvata';
+select id as l1 from public.lessons where title = 'Lezione approvata' \gset
+select id as l2 from public.lessons where title = 'Seconda approvata' \gset
+select id as e1 from public.enrollments where user_id = :cors_a \gset
+
+begin;
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.fails(format('select public.heartbeat(%L, %L)', :'e1', :'l2'), 'player: lezione successiva bloccata');
+select tests.fails(format('select public.complete_lesson(%L, %L)', :'e1', :'l1'), 'player: non completa prima del tempo minimo');
+select tests.fails(format('insert into public.lesson_progress (enrollment_id, lesson_id, completed_at) values (%L, %L, now())', :'e1', :'l2'),
+  'player: niente scritture dirette sul progresso');
+reset role;
+insert into public.activity_heartbeats (enrollment_id, lesson_id, at) values (:'e1', :'l1', now() - interval '25 seconds');
+set local role authenticated;
+select tests.ok((public.heartbeat(:'e1', :'l1') ->> 'lesson_seconds')::int = 25, 'heartbeat: accredita il tempo dal precedente');
+select tests.ok((select status = 'in_corso' and active_seconds = 25 from public.enrollments where id = :'e1'), 'heartbeat: ore sull''iscrizione, stato in corso');
+select public.complete_lesson(:'e1', :'l1');
+select tests.ok((public.heartbeat(:'e1', :'l2') ->> 'total_seconds')::int = 25, 'player: completata la prima, si sblocca la seconda');
+rollback;
+
+begin;
+reset role;
+insert into public.activity_heartbeats (enrollment_id, lesson_id, at) values (:'e1', :'l1', now() - interval '5 minutes');
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.ok((public.heartbeat(:'e1', :'l1') ->> 'lesson_seconds')::int = 0, 'heartbeat: dopo una pausa non accredita nulla');
+rollback;
+
+begin;
+select tests.login(:cors_b);
+set local role authenticated;
+select tests.fails(format('select public.heartbeat(%L, %L)', :'e1', :'l1'), 'heartbeat: non sull''iscrizione di altri');
+rollback;
+
+begin;
+insert into public.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
+select tests.login(:admin, :cors_a);
+set local role authenticated;
+select tests.fails(format('select public.heartbeat(%L, %L)', :'e1', :'l1'), 'entra come: niente ore sul corso vero');
+select tests.fails(format('select public.complete_lesson(%L, %L)', :'e1', :'l1'), 'entra come: niente completamenti sul corso vero');
+reset role;
+update public.courses set is_demo = true where id = :'c30';
+set local role authenticated;
+select public.complete_lesson(:'e1', :'l1');
+select public.complete_lesson(:'e1', :'l2');
+select tests.ok((select count(*) from public.lesson_progress where enrollment_id = :'e1' and completed_at is not null) = 2,
+  'corso dimostrativo: si avanza senza attese anche con entra come');
+select tests.ok((select active_seconds = 0 from public.enrollments where id = :'e1'), 'corso dimostrativo: nessuna ora accreditata');
+rollback;
+
+begin;
+reset role;
+update public.enrollments set expires_at = now() - interval '1 day' where id = :'e1';
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.fails(format('select public.heartbeat(%L, %L)', :'e1', :'l1'), 'corso scaduto: bloccato');
+rollback;
+
 \warn 'TUTTI I TEST SUPERATI'

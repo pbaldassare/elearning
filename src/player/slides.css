@@ -1,0 +1,149 @@
+/* Slide D-Academy: stesso stile dell'anteprima approvata. Token dalla palette in index.css. */
+.slides {
+  --card: #fff; --ok-soft: #e6f4ec; --warn-soft: #fef3e2; --bad-soft: #fdecea; --slate: var(--color-ink);
+  --brand: var(--color-brand); --brand-strong: var(--color-brand-strong); --brand-soft: var(--color-brand-soft);
+  --ink: var(--color-ink); --ink-muted: var(--color-ink-muted); --surface: var(--color-surface); --line: var(--color-line);
+  --ok: var(--color-success); --warn: var(--color-warn); --bad: var(--color-danger);
+  --display: var(--font-sans); --body: var(--font-sans);
+  font: 16px/1.55 var(--body);
+}
+.slides h2, .slides h3 { text-wrap: balance; letter-spacing: -0.01em }
+.quiz { display: grid; gap: 10px }
+.quiz button { text-align: left; font: 500 15.5px var(--body); color: var(--ink); background: var(--card); border: 1.5px solid var(--line); border-radius: 14px; padding: 12px 14px; cursor: pointer; display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start }
+.quiz button b { width: 26px; height: 26px; border-radius: 8px; background: var(--surface); display: grid; place-items: center; font: 700 13px var(--display) }
+.quiz button.right { border-color: var(--ok); background: var(--ok-soft) }
+.quiz button.right b { background: var(--ok); color: var(--card) }
+.quiz button.wrong { border-color: var(--bad); background: var(--bad-soft) }
+.quiz button.wrong b { background: var(--bad); color: var(--card) }
+.quiz .why { border-radius: 14px; background: var(--surface); padding: 12px 14px; font-size: 15px }
+.qq { font: 700 18px/1.4 var(--display); margin: 0 }
+.wide .qq { font-size: 22px }
+.scen { border-radius: 16px; background: var(--brand-soft); padding: 16px 18px; font-size: 16px; display: grid; gap: 6px }
+.scen b { font: 700 11.5px var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--brand-strong) }
+details.sol { border: 1px solid var(--line); border-radius: 14px; padding: 12px 16px }
+details.sol summary { cursor: pointer; font: 700 15px var(--display); color: var(--brand-strong) }
+details.sol p { margin: 10px 0 0 }
+.chips { display: flex; flex-wrap: wrap; gap: 8px }
+.chip { font: 500 12px var(--mono); padding: 4px 10px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); color: var(--ink-muted) }
+.chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent }
+.chip.brand { background: var(--brand-soft); color: var(--brand-strong); border-color: transparent }
+/* ---- slide (dentro la cornice) ---- */
+.sl { --pad: 22px; display: flex; flex-direction: column; min-height: 100%; background: var(--card); color: var(--ink) }
+.wide .sl { --pad: 56px; min-height: 600px }
+.sl-head { display: flex; align-items: center; gap: 10px; padding: 14px var(--pad); border-bottom: 1px solid var(--line); font: 600 12px var(--body); color: var(--ink-muted) }
+.sl-head .mk { width: 22px; height: 22px; border-radius: 6px; background: var(--brand); color: #fff; display: grid; place-items: center; font: 800 13px var(--display) }
+.sl-head .ls { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
+.sl-head .no { font-variant-numeric: tabular-nums; letter-spacing: .04em }
+.sl-body { flex: 1; padding: 26px var(--pad) 28px; display: grid; gap: 20px; align-content: start }
+.wide .sl-body { padding-top: 40px; gap: 28px }
+.sl-foot { padding: 12px var(--pad) 16px; display: flex; gap: 8px; align-items: baseline; font-size: 12.5px; color: var(--ink-muted); border-top: 1px solid var(--line) }
+.sl-foot b { font: 700 10.5px var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--brand-strong) }
+.hd { display: grid; gap: 8px }
+.eb { font: 700 11.5px var(--body); text-transform: uppercase; letter-spacing: .12em; color: var(--brand-strong) }
+.ti { font: 800 26px/1.15 var(--display); letter-spacing: -0.025em; margin: 0 }
+.wide .ti { font-size: 40px }
+.ti::after { content: ""; display: block; width: 36px; height: 4px; border-radius: 2px; background: var(--brand); margin-top: 14px }
+.lead { margin: 0; font-size: 17px; color: var(--ink-muted); max-width: 60ch }
+.wide .lead { font-size: 19px }
+.ic { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round }
+.bubble { width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; flex: none; background: var(--brand-soft); color: var(--brand-strong) }
+
+/* superfici scure: copertina, concetto chiave, chiusura */
+.dark { background: var(--slate); color: #F2F4F4 }
+.dark .eb { color: var(--brand) }
+.dark .lead { color: #B9C4C3 }
+.dark .sl-head, .dark .sl-foot { border-color: rgba(255,255,255,.1); color: #9FAEAD }
+.pix { position: absolute; top: 51px; right: 0; width: 132px; height: 132px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 18px; opacity: .9 }
+.pix i { border-radius: 3px; background: var(--brand) }
+.pix i.o { background: transparent }
+.wide .pix { width: 220px; height: 220px; gap: 10px; padding: 32px }
+.cover { position: relative; overflow: hidden }
+.cover .sl-body { align-content: end; padding-top: 120px }
+.wide .cover .sl-body { padding-top: 150px }
+.cover .ti { font-size: 34px; max-width: 12ch }
+.wide .cover .ti { font-size: 58px; max-width: 14ch }
+.meta { display: flex; flex-wrap: wrap; gap: 8px }
+.meta span { font: 600 12.5px var(--body); padding: 5px 11px; border-radius: 999px; background: rgba(255,255,255,.08); color: #DCE3E2 }
+.goals { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px }
+.wide .goals { grid-template-columns: repeat(3, 1fr) }
+.goals li { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 14px; padding: 14px 16px; display: grid; gap: 6px; align-content: start }
+.goals b { font: 800 13px var(--display); color: var(--brand) }
+
+.keyc { background: var(--slate); color: #F2F4F4; border-radius: 18px; padding: 22px 22px 22px 58px; position: relative; font: 600 18px/1.45 var(--display); letter-spacing: -0.01em }
+.keyc::before { content: "“"; position: absolute; left: 18px; top: 6px; font: 800 56px/1 var(--display); color: var(--brand) }
+.wide .keyc { font-size: 23px; padding: 30px 36px 30px 82px }
+.wide .keyc::before { font-size: 76px; left: 26px; top: 12px }
+
+.cards { display: grid; gap: 12px }
+.wide .cards.c2 { grid-template-columns: 1fr 1fr }
+.wide .cards.c3 { grid-template-columns: repeat(3, 1fr) }
+.card { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; display: grid; gap: 10px; align-content: start; background: var(--card); box-shadow: 0 1px 2px rgba(23,35,35,.04), 0 8px 24px -16px rgba(23,35,35,.18) }
+.card h3 { font: 700 16px var(--display); display: flex; align-items: center; gap: 10px; margin: 0 }
+.card p, .card span { margin: 0; color: var(--ink-muted); font-size: 15.5px }
+.card.ok h3 .bubble { background: var(--ok-soft); color: var(--ok) }
+.card.ko h3 .bubble { background: var(--bad-soft); color: var(--bad) }
+.dots { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px }
+.dots li { display: grid; grid-template-columns: 18px 1fr; gap: 10px; font-size: 15.5px }
+.dots li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--brand); margin: 9px 0 0 5px }
+.card.ok .dots li::before { background: var(--ok) } .card.ko .dots li::before { background: var(--bad) }
+
+.flow { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 }
+.flow li { display: grid; grid-template-columns: 40px 1fr; gap: 14px; padding-bottom: 18px; position: relative }
+.flow li:not(:last-child)::after { content: ""; position: absolute; left: 19px; top: 42px; bottom: 2px; width: 2px; background: linear-gradient(var(--brand), var(--line)) }
+.flow .n { width: 40px; height: 40px; border-radius: 12px; background: var(--slate); color: #fff; display: grid; place-items: center; font: 800 16px var(--display) }
+.flow li:first-child .n { background: var(--brand) }
+.flow b { font: 700 16.5px var(--display); display: block; margin-bottom: 2px }
+.flow span { color: var(--ink-muted); font-size: 15.5px }
+.wide .flow { grid-template-columns: repeat(4, 1fr); gap: 18px }
+.wide .flow li { grid-template-columns: 1fr; padding: 0; align-content: start }
+.wide .flow li:not(:last-child)::after { left: 52px; right: -8px; top: 19px; bottom: auto; width: auto; height: 2px; background: linear-gradient(90deg, var(--brand), var(--line)) }
+
+.rows { display: grid; gap: 10px }
+.row { display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start; border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px }
+.row .sec { width: 44px; height: 44px; border-radius: 12px; background: var(--brand-soft); color: var(--brand-strong); display: grid; place-items: center; font: 800 18px var(--display) }
+.row b { font: 700 16px var(--display); display: block }
+.row p { margin: 4px 0 0; color: var(--ink-muted); font-size: 15px }
+.row .tm { display: inline-flex; align-items: center; gap: 6px; margin-top: 8px; font: 600 13px var(--body); color: var(--ink); background: var(--surface); padding: 4px 10px; border-radius: 8px }
+.wide .row { grid-template-columns: 52px 1fr; align-items: center; padding: 14px 20px }
+.wide .rc { display: grid; grid-template-columns: 200px 1fr 280px; gap: 18px; align-items: center }
+.wide .row .sec { width: 52px; height: 52px; font-size: 21px }
+.wide .row p { margin: 0 }
+.wide .row .tm { margin: 0 }
+
+.ticks { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px }
+.wide .ticks { grid-template-columns: 1fr 1fr; gap: 6px 28px }
+.ticks li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 16px; align-items: start }
+.ticks li > svg { color: var(--brand-strong); width: 24px; height: 24px; margin-top: 1px }
+.ticks small { display: inline-block; margin-top: 6px; font: 600 11.5px var(--body); letter-spacing: .02em; color: var(--ink-muted); background: var(--surface); padding: 2px 8px; border-radius: 6px }
+
+.note { display: grid; grid-template-columns: 38px 1fr; gap: 12px; align-items: start; background: var(--surface); border-radius: 16px; padding: 14px 16px; font-size: 15.5px }
+.note small { display: block; margin-top: 4px; font-size: 12.5px; color: var(--ink-muted) }
+
+.nums { display: grid; gap: 10px }
+.wide .nums { grid-template-columns: repeat(4, 1fr); gap: 16px }
+.num { border-radius: 16px; background: var(--surface); padding: 16px 18px; display: grid; gap: 6px; align-content: start }
+.num .v { font: 800 30px/1 var(--display); letter-spacing: -0.03em; color: var(--brand-strong); font-variant-numeric: tabular-nums }
+.num .v small { font: 700 14px var(--body); color: var(--ink); letter-spacing: 0; margin-left: 4px }
+.num span { font-size: 15px }
+.num em { font: normal 600 11.5px var(--body); color: var(--ink-muted) }
+
+.tiles { display: grid; gap: 10px; grid-template-columns: 1fr }
+.wide .tiles { grid-template-columns: repeat(3, 1fr); gap: 14px }
+.tile { border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: grid; grid-template-columns: 38px 1fr; gap: 12px; align-items: start }
+.tile b { display: block; font: 700 12px var(--body); text-transform: uppercase; letter-spacing: .1em; color: var(--brand-strong); margin-bottom: 4px }
+.tile span { font-size: 15px }
+
+.vs { display: grid; gap: 12px; position: relative }
+.wide .vs { grid-template-columns: 1fr 1fr; gap: 20px }
+.vs > div { border-radius: 18px; padding: 20px; display: grid; gap: 12px; align-content: start; border: 1px solid var(--line) }
+.vs > div:last-child { background: var(--slate); color: #F2F4F4; border-color: transparent }
+.vs h3 { font: 800 19px var(--display); margin: 0; display: flex; gap: 10px; align-items: center }
+.vs > div:last-child .bubble { background: rgba(255,255,255,.1); color: var(--brand) }
+
+.recap { display: grid; gap: 10px; grid-template-columns: 1fr 1fr }
+.wide .recap { grid-template-columns: repeat(5, 1fr); gap: 14px }
+.recap > div { border-radius: 16px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); padding: 16px; display: grid; gap: 8px; align-content: start }
+.recap > div:first-child { grid-column: 1 / -1 }
+.wide .recap > div:first-child { grid-column: auto }
+.recap b { font: 800 30px/1 var(--display); color: var(--brand); letter-spacing: -0.02em; font-variant-numeric: tabular-nums }
+.recap span { font-size: 14.5px; color: #DCE3E2 }
