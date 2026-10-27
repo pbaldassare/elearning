@@ -264,4 +264,27 @@ with u as (insert into public.course_lessons select course_id, lesson_id from pu
 select tests.ok((select count(*) from u) = 0, 'azienda B: non modifica le lezioni dei corsi');
 rollback;
 
+-- ---------------------------------------------------------------- assegnazioni e spostamenti
+
+begin;
+select tests.login(:az_a);
+set local role authenticated;
+select tests.fails(format('insert into public.enrollments (user_id, course_id) values (%L, %L)', :cors_b, :'c30'),
+  'azienda A: non iscrive corsisti di B');
+select tests.fails(format('insert into public.enrollments (user_id, course_id) values (%L, %L)', :cors_a, :'c60'),
+  'azienda A: non assegna corsi non suoi');
+with u as (update public.enrollments set expires_at = now() + interval '1 year' where user_id = :cors_a returning 1)
+select tests.ok((select count(*) from u) = 0, 'azienda A: non proroga');
+rollback;
+
+begin;
+select tests.login(:admin);
+set local role authenticated;
+update public.profiles set company_id = :comp_b where id = :cors_a;
+select tests.ok((select company_id = :comp_b::uuid from public.enrollments where user_id = :cors_a),
+  'spostamento: le iscrizioni seguono il corsista');
+select tests.login(:az_a);
+select tests.ok(not exists (select 1 from public.enrollments where user_id = :cors_a), 'spostamento: la vecchia azienda non vede più');
+rollback;
+
 \warn 'TUTTI I TEST SUPERATI'

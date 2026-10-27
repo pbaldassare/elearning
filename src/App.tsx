@@ -1,11 +1,31 @@
-import { Link, Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
-import { useAuth } from './auth';
-import { Card } from './ui';
+import type { ReactNode } from 'react';
+import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
+import { useAuth, type Role } from './auth';
+import { Card, Logo } from './ui';
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
+import People from './pages/People';
+import Content from './pages/admin/Content';
+import Companies from './pages/admin/Companies';
+import Audit from './pages/admin/Audit';
+
+const nav: Record<Role, [string, string][]> = {
+  admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/registro', 'Registro']],
+  azienda: [['/', 'Corsi'], ['/corsisti', 'Corsisti']],
+  corsista: [['/', 'I miei corsi']],
+};
+
+// Pagina riservata a certi ruoli (effettivi): la RLS protegge comunque i dati.
+function Only({ roles, children }: { roles: Role[]; children: ReactNode }) {
+  const { who } = useAuth();
+  return who && roles.includes(who.profile.role) ? children : <Navigate to="/" replace />;
+}
+
+const linkCls = ({ isActive }: { isActive: boolean }) =>
+  `rounded-lg px-3 py-1.5 font-medium ${isActive ? 'bg-brand-soft text-brand-strong' : 'text-ink-muted hover:text-ink'}`;
 
 function Layout() {
   const { session, who, loading, signOut, stopImpersonation } = useAuth();
@@ -26,23 +46,26 @@ function Layout() {
   return (
     <>
       {who.impersonating && (
-        <div className="flex items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white">
+        <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white">
           <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
           <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>
             Esci da impersonificazione
           </button>
         </div>
       )}
-      <header className="border-b border-slate-200 bg-white">
-        <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-          <Link to="/" className="text-lg font-bold">D-Academy</Link>
-          <div className="flex gap-4 text-sm">
-            <Link to="/profilo">Profilo</Link>
-            <button onClick={signOut}>Esci</button>
+      <header className="border-b border-line bg-white">
+        <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
+          <Link to="/" aria-label="D-Academy, home"><Logo /></Link>
+          <div className="order-last flex w-full flex-wrap gap-1 text-sm sm:order-none sm:w-auto">
+            {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
+          </div>
+          <div className="ml-auto flex gap-1 text-sm">
+            <NavLink to="/profilo" className={linkCls}>Profilo</NavLink>
+            <button className="rounded-lg px-3 py-1.5 font-medium text-ink-muted hover:text-ink" onClick={signOut}>Esci</button>
           </div>
         </nav>
       </header>
-      <main className="mx-auto max-w-5xl px-4 py-8">
+      <main className="mx-auto max-w-6xl px-4 py-8">
         <Outlet />
       </main>
     </>
@@ -58,6 +81,10 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="/profilo" element={<Profile />} />
+        <Route path="/corsisti" element={<Only roles={['admin', 'azienda']}><People /></Only>} />
+        <Route path="/contenuti" element={<Only roles={['admin']}><Content /></Only>} />
+        <Route path="/aziende" element={<Only roles={['admin']}><Companies /></Only>} />
+        <Route path="/registro" element={<Only roles={['admin']}><Audit /></Only>} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

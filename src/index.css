@@ -1,15 +1,22 @@
 @import 'tailwindcss';
 
-/* Token di design provvisori: in fase 3 verranno campionati dal logo D-Academy. */
+/* Palette D-Academy campionata dal logo: unico punto da cambiare.
+   brand (#F04C24) solo su elementi grandi o decorativi; testo e pulsanti usano brand-strong (AA). */
 @theme {
-  --color-brand: #f07c00;
-  --color-brand-dark: #b45d00;
-  --color-ink: #14284b;
-  --color-surface: #f6f7f9;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --color-brand: #f04c24;
+  --color-brand-strong: #c2370f;
+  --color-brand-soft: #fdede8;
+  --color-ink: #172323;
+  --color-ink-muted: #4a5656;
+  --color-line: #e3e1dd;
+  --color-surface: #f6f5f3;
+  --color-success: #127a4b;
+  --color-warn: #9a5b00;
   --color-danger: #b42318;
-  --color-success: #067647;
 }
 
 body {
-  @apply bg-surface text-ink antialiased;
+  @apply bg-surface font-sans text-ink antialiased;
 }

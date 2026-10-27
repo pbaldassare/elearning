@@ -8,7 +8,7 @@ React + TypeScript + Tailwind, Supabase (Auth, Postgres con RLS, Storage, Edge F
 - `src/`: frontend (Vite).
 - `supabase/migrations/`: schema del database versionato, con RLS su tutte le tabelle.
 - `supabase/seed.sql`: configurazione, categorie e corsi iniziali (rieseguibile).
-- `supabase/functions/`: Edge Functions (`impersonate` = "Entra come").
+- `supabase/functions/`: Edge Functions (`impersonate` = "Entra come", `create-user` = creazione account con password standard).
 - `tests/db/`: test di permessi per ruolo e impersonificazione su un Postgres locale.
 
 Il materiale originale dei corsi **non** va nel repository (`materiale/` è in `.gitignore`).
@@ -23,7 +23,8 @@ Frontend (`.env`, vedi `.env.example`):
 | `VITE_SUPABASE_ANON_KEY` | chiave pubblica (anon/publishable) |
 
 Secrets delle Edge Functions (`supabase secrets set ...`): `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`
-sono forniti da Supabase. Dalla fase 2 servirà anche `DEFAULT_PASSWORD` (password iniziale dei corsisti).
+sono forniti da Supabase. Va impostato `DEFAULT_PASSWORD` (password iniziale uguale per tutti i nuovi account):
+senza, `create-user` risponde con errore.
 
 ## Sviluppo
 
@@ -50,7 +51,8 @@ supabase link --project-ref <ref>
 supabase db push                     # migrazioni
 psql "$DATABASE_URL" -f supabase/seed.sql
 supabase config push                 # auth: niente registrazioni pubbliche
-supabase functions deploy impersonate
+supabase secrets set DEFAULT_PASSWORD=...
+supabase functions deploy impersonate create-user
 npm run build                        # poi pubblica dist/ (Vercel, Netlify, …)
 ```
 

@@ -25,3 +25,13 @@ export const supabase = createClient(
     },
   },
 );
+
+// Chiama una Edge Function e restituisce il messaggio d'errore leggibile che manda.
+export async function callFn<T = unknown>(name: string, body: Record<string, unknown>): Promise<T> {
+  const { data, error } = await supabase.functions.invoke(name, { body });
+  if (error) {
+    const detail = await (error as { context?: Response }).context?.json?.().catch(() => null);
+    throw new Error(detail?.error ?? error.message);
+  }
+  return data as T;
+}
