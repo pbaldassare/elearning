@@ -1,0 +1,15 @@
+# Configurazione Supabase CLI. Applicata al progetto remoto con `supabase config push`.
+project_id = "d-academy"
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://localhost:5173/reimposta-password"]
+# Nessuna registrazione pubblica: gli account li creano Admin e Aziende.
+enable_signup = false
+minimum_password_length = 8
+
+[auth.email]
+enable_signup = false
+
+[functions.impersonate]
+verify_jwt = true

@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+/* Token di design provvisori: in fase 3 verranno campionati dal logo D-Academy. */
+@theme {
+  --color-brand: #f07c00;
+  --color-brand-dark: #b45d00;
+  --color-ink: #14284b;
+  --color-surface: #f6f7f9;
+  --color-danger: #b42318;
+  --color-success: #067647;
+}
+
+body {
+  @apply bg-surface text-ink antialiased;
+}
