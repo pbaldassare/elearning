@@ -1,0 +1,1422 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Assicurazioni contro i danni",
+  "topic_order": 2,
+  "scope": "core",
+  "source_minutes": 65,
+  "lessons": [
+    {
+      "title": "L'assicurazione della responsabilità civile: funzione, oggetto e sinistro",
+      "source_files": [
+        "corso totale/Le assicurazioni contro i danni - Tipologie Parte VI.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Assicurazioni contro i danni /Le assicurazioni contro i danni  prima parte.pdf"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Assicurazioni contro i danni",
+          "title": "L'assicurazione della responsabilità civile",
+          "goals": [
+            "Capire a che cosa serve la copertura RC e che cosa promette l'assicuratore",
+            "Spiegare perché nella RC non esiste un valore assicurabile e si usa il massimale",
+            "Riconoscere quando si verifica il sinistro e come funziona la clausola claims made"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un ruolo fondamentale",
+          "key": "L'assicurazione RC garantisce, attraverso rapporti privati, la stabilità e l'equilibrio patrimoniale della collettività, perché capita spesso di diventare responsabili verso terzi.",
+          "body": "Chi provoca un danno deve risarcirlo. Senza copertura, un solo sinistro può distruggere il patrimonio di una famiglia o di un'impresa, e il danneggiato rischia di non essere pagato. La polizza RC protegge entrambi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "Codice civile, artt. 1904-1918",
+              "detail": "Sezione dedicata all'assicurazione contro i danni. L'art. 1917 disciplina la responsabilità civile."
+            },
+            {
+              "label": "Codice civile, art. 2952",
+              "detail": "Prescrizione dei diritti derivanti dal contratto di assicurazione, con una regola speciale per la RC."
+            },
+            {
+              "label": "Codice delle assicurazioni private, art. 2",
+              "detail": "Classificazione per rami: la RC generale è il ramo danni n. 13, distinto dalla RC dei veicoli (rami 10, 11 e 12)."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa promette l'assicuratore",
+          "key": "L'assicuratore deve tenere indenne l'assicurato di quanto questi deve pagare a un terzo, per un fatto accaduto durante il tempo dell'assicurazione, in dipendenza della responsabilità dedotta nel contratto.",
+          "body": "Tre elementi: un fatto accaduto mentre la polizza è in corso; un debito verso un terzo; una responsabilità che rientra in quella descritta in polizza. Sono esclusi i danni derivanti da fatti dolosi dell'assicurato.",
+          "ref": "Art. 1917, c. 1, c.c."
+        },
+        {
+          "layout": "split",
+          "title": "L'interesse e le parti",
+          "left": {
+            "title": "L'interesse dell'assicurato",
+            "items": [
+              "È l'interesse a proteggere il proprio patrimonio da un debito di risarcimento o di spesa verso terzi",
+              "È elemento fondamentale per la validità del contratto",
+              "Senza interesse, il contratto contro i danni è nullo"
+            ],
+            "ref": "Art. 1904 c.c."
+          },
+          "right": {
+            "title": "Chi firma e chi è assicurato",
+            "items": [
+              "Non serve che contraente e assicurato siano la stessa persona",
+              "Esempio: l'impresa stipula la RC che copre anche i propri dipendenti",
+              "Esempio: il condominio assicura la RC del fabbricato"
+            ]
+          },
+          "note": "L'interesse va verificato in capo all'assicurato, cioè a chi rischia di dover risarcire.",
+          "noteRef": "Materiale originale del corso; art. 1904 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Un contratto tra assicuratore e assicurato",
+          "key": "Il contratto RC è un contratto obbligatorio a prestazioni corrispettive: premio contro garanzia. Non attribuisce un vantaggio diretto al terzo danneggiato.",
+          "body": "Per questo non rientra tra i contratti a favore di terzo. Il danneggiato beneficia della polizza in modo indiretto: il suo credito ha un privilegio sull'indennità dovuta dall'assicuratore. Vedremo nella prossima lezione che cosa può fare.",
+          "ref": "Materiale originale del corso; art. 2767 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Perché nella RC non c'è un valore assicurabile",
+          "cols": [
+            {
+              "title": "Assicurazione di cose",
+              "items": [
+                "C'è un bene individuato: casa, merce, macchinario",
+                "Il bene ha un valore: si confronta valore assicurato e valore reale",
+                "Si applicano regole come la sottoassicurazione"
+              ]
+            },
+            {
+              "title": "Assicurazione RC",
+              "items": [
+                "Si protegge il patrimonio nel suo complesso",
+                "Non si può sapere prima quanto potrà valere il debito di risarcimento",
+                "Non si realizza il rapporto tra valore assicurabile e valore assicurato"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il massimale",
+          "key": "Il massimale è l'importo massimo, in denaro, entro cui l'assicuratore può essere tenuto a pagare per conto dell'assicurato.",
+          "body": "Oltre il massimale il danno resta a carico dell'assicurato. Può essere fissato per sinistro, per persona danneggiata, per danni a cose, o per anno. Scegliere un massimale adeguato all'attività del cliente è uno dei punti più delicati della consulenza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Articoli che non si applicano alla RC",
+          "lead": "Nella RC manca un bene individuato oggetto della protezione: le norme legate al valore della cosa non funzionano.",
+          "head": [
+            "Articolo",
+            "Che cosa prevede",
+            "Perché non si applica"
+          ],
+          "rows": [
+            [
+              "1906 · Vizio della cosa",
+              "L'assicuratore non risponde dei danni da vizio intrinseco della cosa assicurata non denunciato.",
+              "Non c'è una cosa assicurata."
+            ],
+            [
+              "1907 · Assicurazione parziale",
+              "Se si assicura solo una parte del valore, l'indennizzo è proporzionale.",
+              "Non c'è un valore della cosa con cui confrontarsi."
+            ],
+            [
+              "1909 · Somma eccedente",
+              "Regole se la somma assicurata supera il valore reale della cosa.",
+              "Non esiste un valore reale di riferimento."
+            ],
+            [
+              "1918 · Alienazione",
+              "Che cosa accade alla polizza se la cosa assicurata viene venduta.",
+              "Non c'è una cosa che passa di mano."
+            ]
+          ],
+          "ref": "Artt. 1906, 1907, 1909, 1918 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Quando si verifica il sinistro?",
+          "left": {
+            "title": "Tre momenti possibili",
+            "items": [
+              "Quando l'assicurato-danneggiante tiene il comportamento che provoca il danno",
+              "Quando il terzo danneggiato fa valere la propria pretesa di risarcimento",
+              "Quando l'assicurato esegue il pagamento del risarcimento"
+            ]
+          },
+          "right": {
+            "title": "La soluzione del corso",
+            "items": [
+              "Il sinistro coincide con il momento in cui il danneggiato fa valere il proprio diritto al ristoro del pregiudizio",
+              "È coerente con la regola sulla prescrizione dell'art. 2952 c.c."
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Attenzione: l'art. 1917 richiede comunque che il fatto sia accaduto durante il tempo dell'assicurazione.",
+          "noteRef": "Art. 1917, c. 1, c.c."
+        },
+        {
+          "layout": "facts",
+          "title": "La prescrizione nella RC",
+          "lead": "L'art. 2952 c.c. fissa termini brevi e una decorrenza speciale per la responsabilità civile.",
+          "facts": [
+            {
+              "label": "1 anno",
+              "text": "per il diritto al pagamento delle rate di premio, dalle singole scadenze."
+            },
+            {
+              "label": "2 anni",
+              "text": "per gli altri diritti derivanti dal contratto di assicurazione danni."
+            },
+            {
+              "label": "Decorrenza RC",
+              "text": "dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso contro di lui l'azione."
+            },
+            {
+              "label": "Sospensione",
+              "text": "la comunicazione all'assicuratore della richiesta del terzo sospende la prescrizione finché il credito del danneggiato non è liquido ed esigibile."
+            }
+          ],
+          "ref": "Art. 2952 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Loss occurrence o claims made",
+          "cols": [
+            {
+              "title": "Regola dell'art. 1917",
+              "items": [
+                "Conta il fatto accaduto durante il tempo dell'assicurazione",
+                "La richiesta di risarcimento può arrivare anche dopo la scadenza",
+                "Tipica delle RC generali, come la RC del capofamiglia"
+              ]
+            },
+            {
+              "title": "Clausola claims made",
+              "items": [
+                "L'assicuratore indennizza i danni per eventi verificatisi durante il contratto",
+                "Oppure prima della stipula, entro un limite massimo di retroattività",
+                "Diffusa nella RC professionale e nella RC degli amministratori"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La natura della clausola claims made",
+          "key": "Il contratto RC con clausola claims made è un contratto atipico. La clausola è considerata onerosa e, come tale, richiede la specifica approvazione per iscritto da parte dell'assicurato.",
+          "body": "Per le clausole onerose predisposte da una parte, l'art. 1341 c.c. richiede la specifica approvazione per iscritto. In pratica: la doppia firma sulle clausole elencate in polizza. Spiega sempre al cliente che cosa succede alle richieste che arrivano dopo la scadenza.",
+          "ref": "Materiale originale del corso; art. 1341, c. 2, c.c."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un idraulico ha una polizza RC dal 2021 al 2024. Nel 2023 esegue un lavoro difettoso; il cliente scopre l'infiltrazione nel 2025 e chiede il risarcimento. Nel frattempo l'idraulico ha cambiato compagnia.",
+          "questions": [
+            "Con una polizza secondo la regola dell'art. 1917, quale contratto risponde?",
+            "Con due polizze claims made senza retroattività, che cosa rischia l'idraulico?"
+          ],
+          "solution": "Con la regola dell'art. 1917 conta il fatto accaduto in vigenza di polizza: risponde la polizza 2021-2024, anche se la richiesta arriva dopo. Con le claims made, la vecchia polizza non copre richieste arrivate dopo la scadenza, e la nuova copre fatti precedenti solo se prevede una retroattività adeguata: senza, l'idraulico resta scoperto. Per questo, quando si sostituisce una claims made, si controllano retroattività e garanzia postuma."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché gli artt. 1907 e 1909 c.c. non si applicano all'assicurazione RC?",
+          "options": [
+            "Perché la RC è sempre obbligatoria",
+            "Perché manca un bene individuato e quindi un valore della cosa da confrontare con la somma assicurata",
+            "Perché nella RC il premio è pagato dal terzo danneggiato",
+            "Perché la RC copre anche i fatti dolosi"
+          ],
+          "answer": 1,
+          "explanation": "Le norme su assicurazione parziale e somma eccedente si riferiscono al valore della cosa. Nella RC si protegge il patrimonio dal debito di risarcimento: c'è un massimale, non un valore assicurabile."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Da quando decorre la prescrizione dei diritti dell'assicurato RC verso l'assicuratore?",
+          "options": [
+            "Dal giorno in cui l'assicurato ha tenuto il comportamento dannoso",
+            "Dalla data di stipula della polizza",
+            "Dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso l'azione",
+            "Dal pagamento del primo premio"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 2952 c.c. prevede che nella RC il termine decorra dalla richiesta del terzo o dall'azione promossa contro l'assicurato."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1917",
+              "text": "l'assicuratore tiene indenne l'assicurato di quanto deve al terzo; esclusi i fatti dolosi"
+            },
+            {
+              "value": "Massimale",
+              "text": "nella RC non c'è valore assicurabile: c'è un limite massimo di esposizione"
+            },
+            {
+              "value": "1906-1918",
+              "text": "le norme legate al valore della cosa non si applicano"
+            },
+            {
+              "value": "Richiesta",
+              "text": "il sinistro coincide con la pretesa del danneggiato; da lì decorre la prescrizione"
+            },
+            {
+              "value": "Claims made",
+              "text": "copre richieste in corso di contratto, con retroattività limitata; clausola da approvare per iscritto"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nella più diffusa delle assicurazioni del patrimonio: l'assicurazione della responsabilità civile. Vedremo a che cosa serve, che cosa promette esattamente l'assicuratore, perché funziona in modo diverso dalle assicurazioni sulle cose e in quale momento si considera verificato il sinistro.\n\nPartiamo dalla funzione. L'assicurazione della responsabilità civile ha un ruolo fondamentale: garantisce, attraverso rapporti tra privati, la stabilità e l'equilibrio patrimoniale della collettività. Il motivo è semplice: nella vita quotidiana e nel lavoro capita di frequente di diventare responsabili verso qualcuno. Il figlio che rompe la vetrina di un negozio, l'acqua che dal nostro appartamento allaga quello di sotto, il cliente che scivola sul pavimento bagnato di un bar. Chi provoca il danno deve risarcirlo, e a volte il conto è molto alto. Senza una copertura, un solo sinistro può compromettere il patrimonio di una famiglia o di una piccola impresa; e il danneggiato rischia di trovarsi davanti un debitore che non può pagare. La polizza RC protegge quindi due interessi: quello dell'assicurato e, indirettamente, quello della vittima.\n\nLe regole di base sono nel Codice civile, nella sezione dedicata all'assicurazione contro i danni, dagli articoli 1904 a 1918. La norma chiave è l'articolo 1917. Per la prescrizione conta l'articolo 2952. Ricordiamo anche che il Codice delle assicurazioni private, all'articolo 2, classifica la responsabilità civile generale come ramo danni numero 13, distinto dalla responsabilità civile dei veicoli terrestri, aerei e marittimi, che corrispondono ai rami 10, 11 e 12. Della classificazione per rami e della RC auto ci occupiamo in un'altra parte del corso; qui ci interessa il funzionamento del contratto.\n\nChe cosa promette l'assicuratore? L'articolo 1917 lo dice con precisione: nell'assicurazione della responsabilità civile l'assicuratore è obbligato a tenere indenne l'assicurato di quanto questi, in conseguenza del fatto accaduto durante il tempo dell'assicurazione, deve pagare a un terzo, in dipendenza della responsabilità dedotta nel contratto. Sono esclusi i danni derivanti da fatti dolosi. Leggiamola come farebbe un liquidatore. Primo: ci deve essere un fatto accaduto mentre la polizza era in vigore. Secondo: l'assicurato deve essere tenuto a pagare qualcosa a un terzo. Terzo: quella responsabilità deve rientrare in quella descritta in polizza; la RC della famiglia, per esempio, non copre l'attività professionale. Infine, il dolo resta fuori: nessuno può assicurarsi contro le conseguenze di un danno provocato volontariamente.\n\nPassiamo all'interesse. Come in ogni assicurazione contro i danni, deve esistere un interesse dell'assicurato: qui è l'interesse a proteggere il proprio patrimonio contro il sorgere di un debito di risarcimento o di spesa verso terzi. È un elemento fondamentale per la validità del contratto: l'articolo 1904 dice che il contratto contro i danni è nullo se, quando l'assicurazione deve iniziare, non esiste un interesse dell'assicurato. Non serve invece che chi firma il contratto e chi è assicurato coincidano. Un'impresa può stipulare una RC che copre anche i propri dipendenti; un amministratore stipula per il condominio la RC del fabbricato. Per l'intermediario questo significa una cosa concreta: individuare con chiarezza chi sono gli assicurati e verificare che la descrizione del rischio corrisponda a ciò che fanno davvero.\n\nUn altro aspetto riguarda la natura del contratto. L'assicurazione RC è un contratto obbligatorio a prestazioni corrispettive: il contraente paga il premio, l'assicuratore presta la garanzia. Il contratto non attribuisce un vantaggio diretto al terzo danneggiato, e per questo non rientra tra i contratti a favore di terzo. Il danneggiato, come vedremo, è tutelato in altri modi: per esempio, il Codice civile, all'articolo 2767, gli riconosce un privilegio sull'indennità dovuta dall'assicuratore.\n\nOra un punto che distingue la RC dalle assicurazioni sulle cose. Quando assicuriamo una casa contro l'incendio c'è un bene preciso con un valore: si può confrontare la somma assicurata con il valore reale e applicare, per esempio, la regola proporzionale. Nella RC no. Non è possibile stabilire prima quanto potrà valere il debito di risarcimento che sorgerà a carico dell'assicurato: può essere un graffio su un'auto o un danno grave alla persona. Non si realizza, quindi, il rapporto tra valore assicurabile e valore assicurato. Al suo posto c'è il massimale: l'importo massimo, in denaro, entro cui l'assicuratore può essere tenuto a pagare per conto dell'assicurato. Oltre quella cifra, il danno resta a carico dell'assicurato. Per questo la scelta del massimale è uno dei momenti più delicati della consulenza: un artigiano che lavora in condomini, un'impresa che organizza eventi, una famiglia con un cane di grossa taglia hanno esposizioni molto diverse.\n\nDalla stessa ragione discende una conseguenza tecnica: alcune norme del Codice civile non si applicano alla RC. Sono l'articolo 1906, sui danni da vizio intrinseco della cosa assicurata; l'articolo 1907, sull'assicurazione parziale; l'articolo 1909, sull'assicurazione per una somma superiore al valore della cosa; l'articolo 1918, sull'alienazione delle cose assicurate. Tutte presuppongono un bene individuato e il suo valore. Nella RC manca un bene individuato come oggetto della protezione, e quindi queste regole non hanno dove appoggiarsi.\n\nVeniamo a una domanda classica: quando si verifica il sinistro nella RC? Le risposte possibili sono tre. Il momento in cui l'assicurato tiene il comportamento che provoca il danno. Il momento in cui il terzo danneggiato fa valere la propria pretesa di risarcimento. Oppure il momento in cui l'assicurato paga il risarcimento. Il materiale del corso adotta la seconda soluzione: il sinistro coincide con il momento in cui il danneggiato fa valere il proprio diritto al ristoro del pregiudizio subito. Questa impostazione è coerente con l'articolo 2952 del Codice civile, secondo cui, nell'assicurazione della responsabilità civile, il termine di prescrizione decorre dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso contro di lui l'azione. Ricordiamo però che, nella formula dell'articolo 1917, il fatto deve essere accaduto durante il tempo dell'assicurazione: la richiesta del terzo fissa il momento del sinistro, ma la copertura dipende da quando è accaduto il fatto.\n\nGià che ci siamo, fissiamo i termini dell'articolo 2952. Il diritto al pagamento delle rate di premio si prescrive in un anno dalle singole scadenze. Gli altri diritti derivanti dal contratto di assicurazione si prescrivono in due anni, e per la RC i due anni partono dalla richiesta del terzo. C'è poi una regola di tutela: la comunicazione all'assicuratore della richiesta del danneggiato sospende la prescrizione finché il credito del danneggiato non sia diventato liquido ed esigibile, oppure finché il diritto del terzo non si sia prescritto. Messaggio pratico per il cliente: appena arriva una richiesta di risarcimento, va inoltrata subito all'assicuratore.\n\nArriviamo alla clausola claims made. Con questa clausola l'assicuratore si obbliga a indennizzare solo i danni per i quali la richiesta arriva durante il contratto, purché provocati dall'assicurato per un evento verificatosi nel corso del contratto, oppure prima della stipula, ma entro limiti temporali massimi di retroattività. È il modello oggi più diffuso nella RC professionale e nella RC degli amministratori, dove tra l'errore e la richiesta di risarcimento possono passare anni. Il materiale del corso la qualifica così: il contratto RC con clausola claims made è un contratto atipico, e la clausola ha natura onerosa, quindi richiede la specifica approvazione per iscritto da parte dell'assicurato. Il riferimento è l'articolo 1341 del Codice civile, che per le condizioni generali che limitano la responsabilità di chi le ha predisposte richiede l'approvazione specifica per iscritto: la classica doppia firma. Sulla qualificazione di queste clausole la giurisprudenza è tornata più volte negli ultimi anni; nel lavoro quotidiano quello che conta è spiegare bene al cliente come funziona la copertura.\n\nVediamo il caso pratico. Un idraulico è assicurato dal 2021 al 2024. Nel 2023 esegue un lavoro difettoso; il cliente scopre l'infiltrazione nel 2025 e chiede il risarcimento, quando l'idraulico ha già cambiato compagnia. Con una polizza costruita sulla regola dell'articolo 1917, risponde la polizza 2021-2024, perché il fatto è avvenuto mentre era in vigore. Con due polizze claims made il quadro cambia: la vecchia non copre una richiesta arrivata dopo la scadenza, salvo una garanzia postuma; la nuova copre fatti precedenti solo se prevede una retroattività che arrivi almeno al 2023. Se nessuna delle due condizioni c'è, l'idraulico resta scoperto. È l'errore più frequente nei cambi di compagnia, ed è responsabilità di chi consiglia evitarlo.\n\nPrima di chiudere, due domande di verifica: perché gli articoli 1907 e 1909 non si applicano alla RC, e da quando decorre la prescrizione. Pensa alla risposta prima di guardare la soluzione.\n\nRicapitoliamo. L'articolo 1917 obbliga l'assicuratore a tenere indenne l'assicurato di quanto deve al terzo, per fatti accaduti durante l'assicurazione, esclusi i fatti dolosi. Nella RC non esiste un valore assicurabile: esiste il massimale. Le norme legate al valore della cosa non si applicano. Il sinistro coincide con la richiesta del danneggiato, da cui decorre la prescrizione. La claims made lega la copertura alla richiesta presentata durante il contratto, con una retroattività limitata, e va approvata specificamente per iscritto.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1917 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1917"
+        },
+        {
+          "title": "Codice civile, art. 1904 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1904"
+        },
+        {
+          "title": "Codice civile, artt. 1906, 1907, 1909, 1918 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1906"
+        },
+        {
+          "title": "Codice civile, art. 2952 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art2952"
+        },
+        {
+          "title": "Codice civile, art. 1341 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1341"
+        },
+        {
+          "title": "D.Lgs. 209/2005, Codice delle assicurazioni private, art. 2 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art2"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esclusione espressa dei danni derivanti da fatti dolosi, con il testo testuale dell'art. 1917, c. 1 (la fonte diceva 'in considerazione del fatto' invece di 'in conseguenza del fatto').",
+          "source_ref": "Art. 1917 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nullità del contratto contro i danni senza interesse dell'assicurato.",
+          "source_ref": "Art. 1904 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto degli artt. 1906, 1907, 1909 e 1918 c.c., che la fonte citava solo per numero.",
+          "source_ref": "Artt. 1906, 1907, 1909, 1918 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Termini di prescrizione (1 anno premi, 2 anni altri diritti) e sospensione per comunicazione della richiesta del terzo.",
+          "source_ref": "Art. 2952 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collocazione della RC generale nel ramo danni 13 e distinzione dai rami 10-12.",
+          "source_ref": "D.Lgs. 209/2005, art. 2, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Base normativa dell'approvazione specifica per iscritto delle clausole onerose.",
+          "source_ref": "Art. 1341, c. 2, c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Ricostruiti i testi delle slide 5 e 7 della fonte, troncati nell'originale ('ha dell'assicurato medesimo'): la terza ipotesi è il momento della condotta dannosa dell'assicurato; il massimale è il limite di quanto l'assicuratore può essere tenuto a pagare per l'assicurato.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che, accanto al momento della richiesta del terzo (scelto dalla fonte come momento del sinistro), l'art. 1917 richiede che il fatto sia accaduto durante il tempo dell'assicurazione.",
+          "source_ref": "Art. 1917, c. 1, c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la claims made rende il contratto atipico e la clausola è onerosa, da approvare per iscritto. Riferimento da indicare / possibile aggiornamento: la giurisprudenza di legittimità più recente (Sezioni Unite 2016 e 2018) ha rivisto queste qualificazioni; da verificare su fonte ufficiale della Corte di cassazione prima di riportarne il contenuto.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Confronto loss occurrence / claims made e caso pratico sul cambio di compagnia (retroattività e garanzia postuma).",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "La RC dopo il sinistro: obblighi, gestione della lite, mala gestio e terzo danneggiato",
+      "source_files": [
+        "corso totale/Le assicurazioni contro i danni - Tipologie Parte VI.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Assicurazioni contro i danni /Le assicurazioni contro i danni seconda parte.pdf"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Assicurazioni contro i danni",
+          "title": "Dopo il sinistro: obblighi, lite e mala gestio",
+          "goals": [
+            "Conoscere gli obblighi di avviso e salvataggio dell'assicurato RC",
+            "Capire chi paga le spese di resistenza e come funziona la gestione della lite",
+            "Riconoscere la responsabilità per mala gestio e la posizione del terzo danneggiato"
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Gli obblighi dell'assicurato",
+          "left": {
+            "title": "Obbligo di avviso",
+            "items": [
+              "Comunicare all'assicuratore qualsiasi evento lesivo che abbia prodotto un danno a un terzo",
+              "Regola generale: entro tre giorni dal sinistro o da quando se ne è avuta conoscenza",
+              "All'assicuratore o all'agente autorizzato a concludere il contratto"
+            ],
+            "ref": "Art. 1913 c.c."
+          },
+          "right": {
+            "title": "Obbligo di salvataggio",
+            "items": [
+              "In generale: fare il possibile per evitare o diminuire il danno",
+              "Nella RC si traduce nell'obbligo di resistere alla pretesa del danneggiato",
+              "Non riconoscere responsabilità e non pagare senza consultare l'assicuratore"
+            ],
+            "ref": "Art. 1914 c.c."
+          },
+          "note": "Se l'assicurato non adempie con dolo perde l'indennità; se omette per colpa, l'indennità può essere ridotta in ragione del pregiudizio sofferto dall'assicuratore.",
+          "noteRef": "Art. 1915 c.c."
+        },
+        {
+          "layout": "facts",
+          "title": "Le spese di resistenza",
+          "lead": "L'art. 1917, terzo comma, regola chi paga le spese per resistere all'azione del danneggiato.",
+          "facts": [
+            {
+              "label": "Regola",
+              "text": "Le spese per resistere all'azione del danneggiato sono a carico dell'assicuratore, nei limiti di un quarto della somma assicurata."
+            },
+            {
+              "label": "Esempio",
+              "text": "Con una somma assicurata di 1.000.000 di euro, le spese di resistenza sono a carico dell'assicuratore fino a 250.000 euro."
+            },
+            {
+              "label": "Danno oltre il massimale",
+              "text": "Se al danneggiato spetta più del capitale assicurato, le spese giudiziali si dividono tra assicuratore e assicurato in proporzione al rispettivo interesse."
+            },
+            {
+              "label": "Inderogabile",
+              "text": "Il terzo e il quarto comma dell'art. 1917 si possono derogare solo in senso più favorevole all'assicurato."
+            }
+          ],
+          "ref": "Artt. 1917, c. 3, e 1932 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Il patto di gestione della lite",
+          "key": "Con il patto di gestione della lite l'assicuratore diventa mandatario senza rappresentanza: valuta se resistere alla domanda del danneggiato e, se sì, organizza la difesa.",
+          "body": "È un patto atipico, presente in quasi tutte le polizze RC. La clausola consente all'assicuratore di gestire la lite anche nel processo penale, quando dalla responsabilità penale dell'assicurato o di un suo dipendente deriva necessariamente quella civile, che il danneggiato si sia costituito parte civile o no.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Un interesse comune alla difesa",
+          "key": "Per la giurisprudenza di legittimità la difesa dell'assicurato è svolta anche nell'interesse dell'assicuratore, inteso come interesse obiettivo e imparziale ad accertare se esistono i presupposti del suo obbligo di indennizzo.",
+          "body": "Per questo l'assicuratore che gestisce la lite deve farlo con correttezza: non può sacrificare l'assicurato per risparmiare.",
+          "ref": "Materiale originale del corso (giurisprudenza di Cassazione)"
+        },
+        {
+          "layout": "concept",
+          "title": "La responsabilità per mala gestio",
+          "key": "Nell'adempiere la propria obbligazione l'assicuratore deve rispettare le regole sull'adempimento, compresi correttezza (art. 1175) e buona fede (art. 1375). Se ritarda, risponde del danno secondo l'art. 1224 c.c.",
+          "body": "Caso tipico: l'assicuratore rifiuta una transazione ragionevole e vantaggiosa proposta dal danneggiato. Poi la sentenza condanna l'assicurato a una somma più alta: l'assicuratore ne risponde per mala gestio.",
+          "ref": "Artt. 1175, 1375, 1224 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Mala gestio: massimale capiente o incapiente",
+          "cols": [
+            {
+              "title": "Massimale incapiente all'epoca del sinistro",
+              "items": [
+                "Il massimale non basta già a coprire il danno",
+                "L'assicuratore paga il massimale",
+                "In più deve solo il danno da lucro cessante sul massimale rivalutato"
+              ]
+            },
+            {
+              "title": "Massimale capiente all'epoca del sinistro",
+              "items": [
+                "Il massimale bastava a coprire il danno",
+                "L'assicuratore ristora l'intero danno in conto capitale, rivalutato alla data della sentenza",
+                "E corrisponde il relativo danno da lucro cessante"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Quali spese rientrano nel quarto",
+          "left": {
+            "title": "Spese di resistenza (art. 1917, c. 3)",
+            "items": [
+              "Spese sostenute dall'assicuratore per resistere alla domanda del danneggiato",
+              "Avvocati e periti della difesa",
+              "Limite: un quarto della somma assicurata"
+            ]
+          },
+          "right": {
+            "title": "Spese rimborsate al danneggiato vittorioso",
+            "items": [
+              "Sono accessorio dell'obbligazione di risarcimento",
+              "Restano fuori dalla norma sul quarto",
+              "Gravano sull'assicuratore se e nei limiti in cui non superano il massimale"
+            ]
+          },
+          "note": "È l'orientamento della Corte di cassazione riportato dalla fonte.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Il terzo danneggiato",
+          "lead": "Il danneggiato non è parte del contratto, ma la legge lo tutela in alcuni modi.",
+          "facts": [
+            {
+              "label": "Pagamento diretto",
+              "text": "L'assicuratore può pagare direttamente al danneggiato, previa comunicazione all'assicurato; è obbligato se l'assicurato lo chiede."
+            },
+            {
+              "label": "Chiamata in causa",
+              "text": "L'assicurato convenuto dal danneggiato può chiamare in causa l'assicuratore."
+            },
+            {
+              "label": "Privilegio",
+              "text": "Il credito del danneggiato ha privilegio sull'indennità dovuta dall'assicuratore."
+            },
+            {
+              "label": "Nessuna azione diretta",
+              "text": "Fuori dai casi previsti dalla legge, il danneggiato non ha un diritto immediato esercitabile contro l'assicuratore."
+            }
+          ],
+          "ref": "Artt. 1917, c. 2 e 4, e 2767 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Prescrizione e surrogazione",
+          "left": {
+            "title": "Prescrizione",
+            "items": [
+              "Il termine decorre dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso contro di lui l'azione"
+            ],
+            "ref": "Art. 2952 c.c."
+          },
+          "right": {
+            "title": "Surrogazione dell'assicuratore",
+            "items": [
+              "Quando l'autore materiale del danno è un soggetto del cui operato l'assicurato risponde civilmente",
+              "Quando più persone hanno concorso al danno e l'assicurato ha risarcito per intero"
+            ],
+            "ref": "Materiale originale del corso; art. 1916 c.c."
+          },
+          "note": "Chi ha pagato può rivalersi, fino all'importo pagato, verso gli altri responsabili.",
+          "noteRef": "Art. 1916, c. 1, c.c."
+        },
+        {
+          "layout": "steps",
+          "title": "In pratica: quando il cliente riceve una richiesta",
+          "steps": [
+            {
+              "label": "Avvisa subito",
+              "text": "Inoltra la richiesta all'assicuratore o all'agente: sospende anche la prescrizione verso la compagnia."
+            },
+            {
+              "label": "Non ammettere",
+              "text": "Il cliente non riconosce responsabilità e non paga per conto proprio."
+            },
+            {
+              "label": "Raccogli le prove",
+              "text": "Foto, testimoni, documenti, contratti con il danneggiato."
+            },
+            {
+              "label": "Segui la lite",
+              "text": "Se l'assicuratore gestisce la difesa, il cliente collabora e viene informato sulle proposte di transazione."
+            }
+          ],
+          "ref": "Artt. 1913, 1914, 2952 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "Le assicurazioni del patrimonio più diffuse",
+          "lead": "Oltre alla RC generale, tre coperture proteggono il patrimonio da debiti e spese.",
+          "head": [
+            "Copertura",
+            "Che cosa protegge"
+          ],
+          "rows": [
+            [
+              "Assicurazione del professionista",
+              "Il patrimonio del professionista dalle richieste di risarcimento dei clienti e dei terzi."
+            ],
+            [
+              "Assicurazione di tutela legale",
+              "L'assicurato dalle spese legali e peritali per difendere i propri interessi."
+            ],
+            [
+              "RC del produttore",
+              "Il produttore dai danni causati da difetti del prodotto messo in commercio."
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente assicurato con massimale di 500.000 euro viene citato per danni. Il danneggiato propone di chiudere a 300.000 euro. L'assicuratore rifiuta senza motivo; dopo anni la sentenza condanna l'assicurato a 450.000 euro, oltre a interessi e rivalutazione.",
+          "questions": [
+            "Il massimale era capiente all'epoca del sinistro?",
+            "Che cosa può chiedere l'assicurato all'assicuratore?"
+          ],
+          "solution": "Sì: 500.000 euro bastavano a coprire il danno. L'assicuratore che ha rifiutato una transazione ragionevole risponde per mala gestio: deve ristorare l'intero danno in conto capitale, rivalutato alla data della sentenza, e il relativo lucro cessante, anche oltre il massimale. Le spese di resistenza restano a suo carico nei limiti del quarto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Con un massimale di 400.000 euro, fino a quanto paga l'assicuratore per le spese di resistenza all'azione del danneggiato?",
+          "options": [
+            "40.000 euro",
+            "100.000 euro",
+            "Nulla: le spese sono sempre a carico dell'assicurato",
+            "Senza limiti"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 1917, c. 3, pone le spese di resistenza a carico dell'assicuratore nei limiti del quarto della somma assicurata: 400.000 / 4 = 100.000 euro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "L'assicurato chiede all'assicuratore di pagare direttamente il danneggiato. Che cosa prevede l'art. 1917?",
+          "options": [
+            "L'assicuratore può rifiutare",
+            "L'assicuratore è obbligato al pagamento diretto",
+            "Serve il consenso del danneggiato",
+            "Il pagamento diretto è vietato"
+          ],
+          "answer": 1,
+          "explanation": "L'assicuratore ha la facoltà di pagare direttamente, previa comunicazione all'assicurato, ed è obbligato se è l'assicurato a chiederlo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3 giorni",
+              "text": "termine generale per l'avviso del sinistro; il salvataggio nella RC è resistere alla pretesa"
+            },
+            {
+              "value": "1/4",
+              "text": "della somma assicurata: limite delle spese di resistenza a carico dell'assicuratore"
+            },
+            {
+              "value": "Lite",
+              "text": "l'assicuratore gestisce la difesa come mandatario senza rappresentanza, anche in sede penale"
+            },
+            {
+              "value": "Mala gestio",
+              "text": "ritardi e rifiuti di transazioni ragionevoli si pagano, anche oltre il massimale"
+            },
+            {
+              "value": "2767",
+              "text": "il danneggiato ha privilegio sull'indennità; il pagamento diretto è obbligatorio se lo chiede l'assicurato"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cosa copre l'assicurazione della responsabilità civile e quando si verifica il sinistro. Ora guardiamo che cosa succede dopo: quali obblighi ha l'assicurato, chi paga le spese della causa, come funziona la gestione della lite, quando l'assicuratore risponde per mala gestio e quale posizione ha il terzo danneggiato.\n\nCominciamo dagli obblighi dell'assicurato. Il primo è l'obbligo di avviso: l'assicurato deve comunicare all'assicuratore che si è verificato un evento lesivo che ha prodotto un danno a un terzo. La regola generale dell'articolo 1913 del Codice civile fissa il termine in tre giorni da quando il sinistro si è verificato o da quando l'assicurato ne ha avuto conoscenza, e l'avviso può essere dato all'assicuratore o all'agente autorizzato a concludere il contratto. Le polizze spesso precisano tempi e modalità. Il secondo è l'obbligo di salvataggio. In generale significa fare il possibile per evitare o diminuire il danno. Nella responsabilità civile assume una forma particolare: diventa l'obbligo di resistere alla pretesa del danneggiato. In concreto, l'assicurato non deve riconoscere la propria responsabilità, né pagare di tasca propria, senza aver coinvolto l'assicuratore. Le conseguenze dell'inadempimento sono nell'articolo 1915: chi non adempie con dolo perde il diritto all'indennità; chi omette per colpa può vedersi ridurre l'indennità in ragione del pregiudizio sofferto dall'assicuratore.\n\nChi paga le spese della causa? L'articolo 1917, al terzo comma, stabilisce che le spese sostenute per resistere all'azione del danneggiato contro l'assicurato sono a carico dell'assicuratore nei limiti del quarto della somma assicurata. Il materiale del corso collega queste spese all'onere di salvataggio, proprio perché resistere alla pretesa è il modo in cui l'assicurato RC limita il danno. Un esempio: con una somma assicurata di un milione di euro, le spese di resistenza restano a carico dell'assicuratore fino a 250.000 euro. Controlla sempre in polizza come sono regolate queste spese. C'è poi una seconda regola: se al danneggiato è dovuta una somma superiore al capitale assicurato, le spese giudiziali si ripartiscono tra assicuratore e assicurato in proporzione del rispettivo interesse. È logico: se una parte del danno resta comunque a carico dell'assicurato, anche lui ha interesse alla difesa. Queste regole sono protette dall'articolo 1932: si possono derogare solo in senso più favorevole all'assicurato. Una polizza che le peggiorasse verrebbe corretta di diritto dalla legge.\n\nPassiamo al patto di gestione della lite, una clausola presente in quasi tutte le polizze RC. Con questo patto l'assicuratore assume la veste di mandatario senza rappresentanza: ha il compito di valutare se conviene resistere alla domanda del danneggiato e, se sì, di svolgere le difese adeguate. In pratica nomina gli avvocati e i periti, decide le strategie e tratta con la controparte. Il materiale del corso precisa che il patto con cui l'assicuratore assume la gestione della lite è un negozio atipico. La clausola consente all'assicuratore di assumere la gestione della lite anche nel processo penale, quando dalla responsabilità penale dell'assicurato o di un suo dipendente deriva necessariamente la sua responsabilità civile. Questo vale sia che il danneggiato si sia costituito parte civile, sia che non lo abbia fatto. Pensiamo a un incidente sul lavoro in un cantiere: il procedimento penale contro il titolare è il luogo in cui si decide, di fatto, anche il risarcimento.\n\nLa giurisprudenza di legittimità ha chiarito che la difesa dell'assicurato è svolta anche nell'interesse dell'assicuratore, inteso come interesse obiettivo e imparziale ad accertare se esistono i presupposti del suo obbligo di indennizzo. Detto in modo semplice: assicuratore e assicurato sono sulla stessa barca, ma l'assicuratore non può gestire la lite pensando solo a sé.\n\nDa qui nasce la responsabilità per mala gestio. L'assicuratore, nell'adempiere la propria obbligazione, deve rispettare le norme che regolano l'adempimento delle obbligazioni, compresi l'articolo 1175 del Codice civile, che impone di comportarsi secondo correttezza, e l'articolo 1375, che impone di eseguire il contratto secondo buona fede. Se ritarda, è esposto al risarcimento del danno secondo l'articolo 1224, che regola i danni nelle obbligazioni di denaro: interessi dal giorno della mora e l'eventuale maggior danno provato. Il caso tipico è quello dell'assicuratore che rifiuta di concludere una transazione ragionevole e vantaggiosa proposta dal danneggiato. Se poi la causa va male e la condanna è più pesante, l'assicuratore risponde delle conseguenze del suo comportamento.\n\nQuanto deve pagare in caso di mala gestio? Il materiale del corso distingue due situazioni. Se il massimale era incapiente già all'epoca del sinistro, cioè non sarebbe comunque bastato, l'assicuratore è tenuto unicamente a corrispondere il danno da lucro cessante sul massimale rivalutato: in sostanza, paga il costo del ritardo su una somma che avrebbe dovuto mettere a disposizione prima. Se invece il massimale era capiente, cioè sufficiente, l'assicuratore deve ristorare l'intero danno in conto capitale, rivalutato alla data della sentenza, e corrispondere il relativo danno da lucro cessante. In questo secondo caso la mala gestio può portare l'assicuratore a pagare anche oltre il massimale.\n\nUn chiarimento sulle spese. Secondo la Corte di cassazione, la norma sul quarto della somma assicurata si riferisce alle spese sostenute dall'assicuratore per resistere alla domanda del danneggiato. Restano invece fuori da questa previsione le spese che l'assicurato, perdendo la causa, deve rimborsare al danneggiato vittorioso: queste sono un accessorio dell'obbligazione di risarcimento e quindi gravano sull'assicuratore se e nei limiti in cui non comportino il superamento del massimale. Due voci diverse, due regole diverse: le spese della propria difesa nel quarto aggiuntivo, le spese della controparte dentro il massimale.\n\nGuardiamo ora il terzo danneggiato. Abbiamo detto che il contratto non è a suo favore. L'articolo 1917, al secondo comma, prevede però che l'assicuratore abbia la facoltà, previa comunicazione all'assicurato, di pagare direttamente al danneggiato l'indennità dovuta, e che sia addirittura obbligato a farlo se è l'assicurato a chiederlo. Il quarto comma aggiunge che l'assicurato convenuto in giudizio dal danneggiato può chiamare in causa l'assicuratore. L'articolo 2767 riconosce al credito del danneggiato un privilegio sull'indennità dovuta dall'assicuratore. Il materiale del corso collega a questa norma il principio per cui il danneggiato non ha alcun diritto immediato esercitabile nei confronti dell'assicuratore: in altre parole, nella RC generale, salvo i casi previsti dalla legge, il danneggiato agisce contro il responsabile, non direttamente contro la sua compagnia. I casi di azione diretta, come quello della RC auto, sono trattati in un'altra parte del corso.\n\nDue ultimi aspetti. La prescrizione: come già visto, il termine decorre dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso contro di lui l'azione giudiziaria. E la surrogazione. L'articolo 1916 prevede che l'assicuratore che ha pagato l'indennità subentri, fino a quell'importo, nei diritti dell'assicurato verso i terzi responsabili. Nella RC, secondo il materiale del corso, questo diritto sorge in due ipotesi: quando l'autore materiale del danno è un soggetto del cui operato l'assicurato deve rispondere civilmente, per esempio un subappaltatore; oppure quando più persone hanno concorso a causare il danno e l'assicurato lo ha risarcito per intero. In quel caso l'assicuratore può rivalersi verso gli altri corresponsabili per la loro quota.\n\nChe cosa deve fare in pratica il cliente quando riceve una richiesta di risarcimento? Avvisare subito l'assicuratore o l'agenzia, e conservare la prova dell'avviso. Non ammettere responsabilità e non pagare per conto proprio. Raccogliere le prove: foto, nomi dei testimoni, contratti, comunicazioni con il danneggiato. Se l'assicuratore gestisce la difesa, collaborare e farsi informare sulle eventuali proposte di transazione. L'intermediario che segue il cliente in questa fase lo aiuta concretamente a non perdere la copertura.\n\nChiudiamo la parte sulla RC generale con uno sguardo d'insieme. Tra le assicurazioni del patrimonio più diffuse il materiale del corso ne indica tre: l'assicurazione del professionista, l'assicurazione di tutela legale e l'assicurazione per la responsabilità del produttore per i danni derivanti da difetti del prodotto messo in commercio. Le vedremo nelle prossime due lezioni.\n\nPrima, il caso pratico. Un assicurato ha un massimale di 500.000 euro. Il danneggiato propone di chiudere a 300.000 euro, l'assicuratore rifiuta senza motivo e anni dopo arriva una condanna a 450.000 euro, oltre interessi e rivalutazione. Il massimale era capiente all'epoca del sinistro, quindi l'assicuratore, che ha rifiutato una transazione ragionevole, risponde per mala gestio dell'intero danno rivalutato e del lucro cessante, anche se il totale supera il massimale. Poi le due domande di verifica, sul calcolo del quarto e sul pagamento diretto.\n\nRicapitoliamo. L'assicurato RC deve avvisare l'assicuratore e resistere alla pretesa del danneggiato. Le spese di resistenza sono a carico dell'assicuratore entro un quarto della somma assicurata. Con il patto di gestione della lite l'assicuratore conduce la difesa, anche in sede penale, ma deve farlo con correttezza e buona fede: altrimenti risponde per mala gestio. Il danneggiato non è parte del contratto, ma ha un privilegio sull'indennità e può essere pagato direttamente, obbligatoriamente se lo chiede l'assicurato.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1917 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1917"
+        },
+        {
+          "title": "Codice civile, artt. 1913, 1914, 1915 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1913"
+        },
+        {
+          "title": "Codice civile, art. 1916 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1916"
+        },
+        {
+          "title": "Codice civile, art. 1932 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1932"
+        },
+        {
+          "title": "Codice civile, artt. 1175, 1375, 1224 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1224"
+        },
+        {
+          "title": "Codice civile, art. 2767 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art2767"
+        },
+        {
+          "title": "Codice civile, art. 2952 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art2952"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Termine generale di tre giorni per l'avviso e destinatari dell'avviso.",
+          "source_ref": "Art. 1913 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conseguenze dell'inadempimento doloso o colposo degli obblighi di avviso e salvataggio.",
+          "source_ref": "Art. 1915 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Inderogabilità, se non in senso più favorevole all'assicurato, dell'art. 1917, commi 3 e 4.",
+          "source_ref": "Art. 1932 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Facoltà dell'assicurato convenuto di chiamare in causa l'assicuratore.",
+          "source_ref": "Art. 1917, c. 4, c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Privilegio del danneggiato sull'indennità, testo dell'art. 2767 c.c.",
+          "source_ref": "Art. 2767 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regola generale della surrogazione fino a concorrenza dell'indennità pagata.",
+          "source_ref": "Art. 1916, c. 1, c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le spese per l'adempimento dell'onere di salvataggio sono a carico dell'assicuratore nei limiti del quarto. Precisato con il testo vigente dell'art. 1917, c. 3, che si tratta delle spese sostenute per resistere all'azione del danneggiato.",
+          "source_ref": "Art. 1917, c. 3, c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: in base all'art. 2767 c.c. il danneggiato non ha un diritto immediato verso l'assicuratore. Precisato che l'art. 2767 prevede testualmente un privilegio del danneggiato sull'indennità; i casi di azione diretta (es. RC auto) sono rinviati ad altro argomento.",
+          "source_ref": "Art. 2767 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Ricostruita la slide 13/21 della fonte, che conteneva un frammento ripetuto per errore ('L'assicuratore si obbliga ad indennizzare solo i').",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di calcolo del quarto, procedura pratica per il cliente che riceve una richiesta, caso pratico di mala gestio con massimale capiente.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "L'assicurazione del professionista: responsabilità del sanitario e delle professioni liberali",
+      "source_files": [
+        "corso totale/Le assicurazioni contro i danni - Tipologie Parte VI.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Assicurazioni contro i danni /Le assicurazioni contro i danni terza parte.pdf"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Assicurazioni contro i danni",
+          "title": "L'assicurazione del professionista",
+          "goals": [
+            "Collocare la copertura del professionista nello schema dell'art. 1917 c.c.",
+            "Capire come si distribuisce l'onere della prova tra paziente, medico e struttura",
+            "Riconoscere i doveri di informazione di avvocato e notaio che generano responsabilità"
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "La responsabilità civile del professionista",
+          "left": {
+            "title": "In ambito sanitario",
+            "items": [
+              "Responsabilità del medico",
+              "Responsabilità della struttura sanitaria: ospedale, casa di cura, ente"
+            ]
+          },
+          "right": {
+            "title": "Nelle altre professioni liberali",
+            "items": [
+              "Avvocati, notai, commercialisti, ingegneri e architetti",
+              "Rispondono verso il cliente per l'inadempimento della prestazione"
+            ]
+          },
+          "note": "Per l'intermediario conoscere questi meccanismi serve a capire da dove nasce il rischio che il cliente professionista chiede di assicurare.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le polizze RC del sanitario",
+          "items": [
+            {
+              "text": "Si collocano nell'ambito dell'art. 1917 c.c.: l'assicuratore tiene indenne l'assicurato.",
+              "ref": "Art. 1917 c.c."
+            },
+            {
+              "text": "Servono a tenere indenne il sanitario assicurato di quanto dovrà pagare a terzi per il danno cagionato."
+            },
+            {
+              "text": "Contengono di regola clausole claims made: conta la richiesta di risarcimento ricevuta durante il contratto."
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Obbligazioni di mezzi e di risultato",
+          "cols": [
+            {
+              "title": "Obbligazioni di mezzi",
+              "items": [
+                "Il professionista promette un comportamento diligente, non un esito",
+                "Sul creditore, cioè il cliente, grava l'onere di dimostrare la negligenza del debitore nell'eseguire la prestazione"
+              ]
+            },
+            {
+              "title": "Obbligazioni di risultato",
+              "items": [
+                "Il professionista promette un risultato preciso",
+                "Sul debitore, cioè il professionista, grava l'onere di provare che l'inadempimento è dovuto a una causa a lui non imputabile"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'intervento di facile esecuzione",
+          "key": "Se un intervento chirurgico non difficile porta a un peggioramento, il paziente deve provare che l'intervento era di facile esecuzione e che il peggioramento deriva da un'esecuzione inadeguata.",
+          "body": "L'ente ospedaliero deve fornire la prova contraria; oppure dimostrare una particolare condizione fisica del paziente non accertabile con l'ordinaria diligenza professionale, o un evento imprevisto e imprevedibile che ha causato l'esito peggiorativo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "La responsabilità della struttura: due orientamenti",
+          "cols": [
+            {
+              "title": "Orientamento precedente",
+              "items": [
+                "La struttura risponde dei danni da trattamenti praticati con colpa, secondo gli artt. 1176 e 2236 c.c.",
+                "Per affermare la responsabilità dell'istituto serve accertare la colpa del medico che ha eseguito la prestazione"
+              ]
+            },
+            {
+              "title": "Corte Suprema",
+              "items": [
+                "La responsabilità della casa di cura o dell'ente verso il paziente ha natura contrattuale",
+                "Può nascere dall'inadempimento di obblighi propri della struttura",
+                "O dall'inadempimento della prestazione svolta dal sanitario"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Le norme richiamate",
+          "lead": "Tre articoli del Codice civile per misurare l'inadempimento e la diligenza del professionista.",
+          "facts": [
+            {
+              "label": "Art. 1176, c. 2",
+              "text": "Nelle attività professionali la diligenza si valuta con riguardo alla natura dell'attività esercitata."
+            },
+            {
+              "label": "Art. 2236",
+              "text": "Se la prestazione implica problemi tecnici di speciale difficoltà, il professionista risponde solo per dolo o colpa grave."
+            },
+            {
+              "label": "Art. 1218",
+              "text": "Il debitore che non esegue esattamente la prestazione risarcisce il danno, se non prova che l'inadempimento deriva da impossibilità per causa a lui non imputabile."
+            }
+          ],
+          "ref": "Artt. 1176, 1218 e 2236 c.c."
+        },
+        {
+          "layout": "steps",
+          "title": "Chi prova che cosa",
+          "steps": [
+            {
+              "label": "Il paziente prova",
+              "text": "L'esistenza del contratto e l'insorgenza o l'aggravamento della patologia."
+            },
+            {
+              "label": "Il paziente allega",
+              "text": "L'inadempimento del debitore: basta indicarlo, non deve dimostrarlo."
+            },
+            {
+              "label": "Il debitore dimostra",
+              "text": "Che l'inadempimento non c'è stato, oppure che, pur esistendo, non ha avuto rilevanza causale sul danno."
+            }
+          ],
+          "ref": "Materiale originale del corso (struttura sanitaria e medico da contatto sociale)"
+        },
+        {
+          "layout": "concept",
+          "title": "Il nesso di causalità: più probabile che non",
+          "key": "In sede civile la causalità non coincide con quella penale. Il nesso causale è anche una relazione probabilistica concreta tra comportamento ed evento dannoso: basta che sia più probabile che non.",
+          "body": "Il giudice che, con motivazione ampia e congrua, ritiene più probabile che non il nesso tra l'omissione del sanitario e le lesioni non è censurabile, anche se i consulenti tecnici si sono espressi solo in termini di possibilità, senza percentuali sulla migliore riuscita del trattamento omesso.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento normativo",
+          "title": "La legge 24/2017 sulla responsabilità sanitaria",
+          "lead": "Dopo la giurisprudenza riportata dalla fonte, il legislatore ha ridefinito i due regimi di responsabilità.",
+          "facts": [
+            {
+              "label": "Struttura",
+              "text": "Risponde ai sensi degli artt. 1218 e 1228 c.c. delle condotte dolose o colpose dei sanitari di cui si avvale, anche non dipendenti."
+            },
+            {
+              "label": "Sanitario",
+              "text": "Risponde del proprio operato ai sensi dell'art. 2043 c.c., salvo che abbia assunto un'obbligazione contrattuale con il paziente."
+            },
+            {
+              "label": "Risarcimento",
+              "text": "Il danno si liquida sulla base delle tabelle degli artt. 138 e 139 del Codice delle assicurazioni."
+            }
+          ],
+          "ref": "L. 8 marzo 2017, n. 24, art. 7"
+        },
+        {
+          "layout": "concept",
+          "title": "Le professioni non sanitarie",
+          "key": "Per le professioni liberali non sanitarie vale la bipartizione tradizionale tra obbligazioni di mezzi e obbligazioni di risultato.",
+          "body": "L'avvocato di regola non promette di vincere la causa: promette di difendere con diligenza. Il professionista incaricato di un adempimento preciso, come un deposito entro un termine, risponde se il risultato non arriva.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I doveri di informazione",
+          "head": [
+            "Professione",
+            "Che cosa comprende il dovere"
+          ],
+          "rows": [
+            [
+              "Professione legale",
+              "Prospettare al cliente le questioni che possono prevedibilmente sorgere nel rapporto e la fondatezza o meno della sua posizione."
+            ],
+            [
+              "Professione notarile",
+              "Una prestazione che non si esaurisce nella compilazione dell'atto: comprende i controlli e le informazioni necessari."
+            ]
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I doveri dell'avvocato",
+          "items": [
+            {
+              "text": "Al conferimento del mandato e durante tutto il rapporto, assolve ai doveri di sollecitazione, dissuasione e informazione del cliente."
+            },
+            {
+              "text": "Chiede al cliente gli elementi necessari o utili che ha a disposizione."
+            },
+            {
+              "text": "Lo sconsiglia dall'iniziare o proseguire un giudizio con esito probabilmente sfavorevole."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un notaio redige un atto di compravendita senza verificare che sull'immobile grava un'ipoteca. L'acquirente lo scopre dopo il rogito e chiede il risarcimento. Il notaio è assicurato con una polizza RC professionale claims made.",
+          "questions": [
+            "Il notaio può difendersi dicendo di aver compilato correttamente l'atto?",
+            "Quale polizza risponde, se la richiesta arriva dopo un cambio di compagnia?"
+          ],
+          "solution": "No: la prestazione del notaio non è circoscritta alla compilazione dell'atto e comprende i controlli necessari al risultato voluto dalle parti. Trattandosi di claims made, risponde la polizza in vigore quando arriva la richiesta, purché il fatto rientri nel periodo di retroattività: è il motivo per cui nel cambio di polizza si controlla la retroattività."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In una causa contro la struttura sanitaria, che cosa deve provare il paziente danneggiato secondo l'orientamento riportato?",
+          "options": [
+            "La colpa grave del medico",
+            "L'esistenza del contratto e l'insorgenza o l'aggravamento della patologia, allegando l'inadempimento",
+            "La percentuale esatta di successo del trattamento omesso",
+            "Niente: la responsabilità della struttura è sempre presunta"
+          ],
+          "answer": 1,
+          "explanation": "Il paziente prova contratto e danno alla salute e allega l'inadempimento; spetta alla struttura dimostrare che l'inadempimento non c'è stato o non ha avuto rilevanza causale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale criterio di causalità si applica nel giudizio civile di responsabilità?",
+          "options": [
+            "Oltre ogni ragionevole dubbio",
+            "Più probabile che non",
+            "Certezza scientifica assoluta",
+            "Possibilità statistica superiore al 90%"
+          ],
+          "answer": 1,
+          "explanation": "La causalità civile non coincide con quella penale: è sufficiente che il nesso tra condotta ed evento sia più probabile che non."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1917",
+              "text": "anche la polizza del professionista lo tiene indenne di quanto deve ai terzi; spesso è claims made"
+            },
+            {
+              "value": "Mezzi / risultato",
+              "text": "decide chi deve provare: il cliente la negligenza o il professionista la causa non imputabile"
+            },
+            {
+              "value": "Più probabile che non",
+              "text": "il criterio della causalità civile"
+            },
+            {
+              "value": "L. 24/2017",
+              "text": "struttura sanitaria: responsabilità contrattuale; sanitario: art. 2043 c.c., salvo contratto con il paziente"
+            },
+            {
+              "value": "Informare",
+              "text": "avvocato e notaio rispondono anche per i doveri di informazione e dissuasione"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo della prima delle assicurazioni del patrimonio più diffuse: l'assicurazione del professionista. Non ci occupiamo qui delle caratteristiche commerciali delle polizze RC professionale, che trovi nella parte del corso sulla classificazione per rami; ci concentriamo invece su come nasce la responsabilità del professionista, perché è da lì che nasce il rischio che l'assicurazione copre.\n\nIl materiale del corso divide la responsabilità civile del professionista in due grandi aree: l'ambito sanitario, dove la responsabilità può riguardare il medico oppure la struttura sanitaria, e le altre professioni liberali, come avvocati e notai.\n\nPartiamo dalle polizze per la responsabilità civile del sanitario. Tre caratteristiche. Primo: si collocano nello schema dell'articolo 1917 del Codice civile, cioè nell'assicurazione della responsabilità civile che abbiamo studiato nelle lezioni precedenti. Secondo: servono a tenere indenne il sanitario assicurato di quanto dovrà pagare a terzi per il danno che ha cagionato. Terzo: contengono di regola clausole claims made. Come abbiamo visto, con queste clausole conta la richiesta di risarcimento ricevuta durante il contratto, e la copertura dei fatti precedenti dipende dalla retroattività. Nel settore sanitario è una scelta quasi obbligata, perché tra l'intervento e la richiesta del paziente passano spesso anni.\n\nPer capire il rischio dobbiamo conoscere una distinzione classica: quella tra obbligazioni di mezzi e obbligazioni di risultato. Nelle obbligazioni di mezzi il professionista promette un comportamento diligente, non un esito: sul creditore, cioè sul cliente o paziente, incombe l'onere di dimostrare la negligenza del debitore nell'eseguire la prestazione. Nelle obbligazioni di risultato il professionista promette un risultato preciso: se il risultato non arriva, è il debitore a dover provare che l'inadempimento è avvenuto per una causa a lui non imputabile. Capire chi deve provare che cosa è fondamentale, perché nelle cause di responsabilità professionale spesso vince chi riesce a soddisfare il proprio onere della prova.\n\nIl materiale del corso porta un esempio. Un intervento chirurgico non di difficile esecuzione porta a condizioni finali peggiorative del paziente. In questo caso il paziente ha l'onere di dimostrare che l'intervento era di facile esecuzione e che ne è derivato un risultato peggiorativo a causa di un'esecuzione inadeguata del chirurgo. L'ente ospedaliero, da parte sua, deve fornire la prova contraria; oppure dimostrare una particolare condizione fisica del paziente, non accertabile con il criterio dell'ordinaria diligenza professionale; oppure dimostrare che l'esito peggiorativo è stato causato da un evento imprevisto e imprevedibile.\n\nCome si è evoluta la responsabilità della struttura? In passato la giurisprudenza aveva affermato che il gestore della struttura rispondeva dei danni derivati al paziente da trattamenti sanitari praticati con colpa, secondo le regole degli articoli 1176 e 2236 del Codice civile. L'articolo 1176, al secondo comma, stabilisce che nelle attività professionali la diligenza si valuta con riguardo alla natura dell'attività esercitata. L'articolo 2236 prevede che, se la prestazione implica la soluzione di problemi tecnici di speciale difficoltà, il professionista non risponde dei danni se non in caso di dolo o di colpa grave. In quell'impostazione, per affermare la responsabilità dell'istituto serviva accertare la colpa del medico che aveva eseguito l'attività contestata. La Corte Suprema ha poi affermato che la responsabilità della casa di cura o dell'ente verso il paziente ha natura contrattuale: può derivare sia dall'inadempimento di obbligazioni direttamente a carico della struttura, per esempio l'organizzazione, le attrezzature, l'igiene, sia dall'inadempimento della prestazione medico-professionale svolta dal sanitario.\n\nNe deriva una precisa distribuzione dell'onere della prova. In tema di responsabilità contrattuale della struttura sanitaria e di responsabilità professionale del medico da contatto sociale, il paziente danneggiato deve provare l'esistenza del contratto e l'insorgenza o l'aggravamento della patologia, e deve allegare l'inadempimento del debitore: deve cioè indicarlo, non dimostrarlo. Il debitore, invece, deve dimostrare che l'inadempimento non c'è stato, oppure che, pur esistendo, non è stato rilevante sul piano causale.\n\nE qui entra il tema del nesso di causalità. Il concetto di causalità in sede civile non coincide con quello che opera nel processo penale. Nel penale serve una prova oltre ogni ragionevole dubbio; nel civile vale il criterio del più probabile che non: il nesso di causalità consiste anche in una relazione probabilistica concreta tra comportamento ed evento dannoso. Il materiale del corso riporta un principio applicato dalla Cassazione: non è censurabile la decisione del giudice di merito che, con una motivazione ampia e congrua, abbia ritenuto più probabile che non il nesso tra il comportamento omissivo del sanitario e le lesioni subite dal danneggiato, anche se i consulenti tecnici si sono espressi in termini solo possibilistici, senza indicare in percentuale la migliore riuscita del trattamento omesso.\n\nUn aggiornamento importante. Con la legge 8 marzo 2017, numero 24, il legislatore è intervenuto sulla responsabilità sanitaria. L'articolo 7 stabilisce che la struttura sanitaria o sociosanitaria, pubblica o privata, che si avvale dell'opera di esercenti la professione sanitaria, anche se scelti dal paziente e anche se non dipendenti, risponde delle loro condotte dolose o colpose ai sensi degli articoli 1218 e 1228 del Codice civile, cioè secondo le regole della responsabilità contrattuale. Il singolo sanitario, invece, risponde del proprio operato ai sensi dell'articolo 2043, cioè secondo le regole della responsabilità extracontrattuale, salvo che abbia agito nell'adempimento di un'obbligazione contrattuale assunta con il paziente. Il danno si risarcisce sulla base delle tabelle degli articoli 138 e 139 del Codice delle assicurazioni private. Quindi il quadro giurisprudenziale che abbiamo descritto, compreso il contatto sociale, va oggi letto alla luce di questa legge, soprattutto per il medico che lavora all'interno di una struttura.\n\nPassiamo alle professioni liberali non sanitarie. Per questo settore vale la bipartizione tradizionale tra obbligazioni di mezzi e di risultato. L'avvocato, di regola, non promette di vincere la causa ma di difendere il cliente con diligenza; altre prestazioni, invece, sono legate a un risultato preciso.\n\nMolte richieste di risarcimento nascono dai doveri di informazione. Per la professione legale, il dovere comprende la prospettazione delle varie questioni che possono prevedibilmente sorgere nel corso del rapporto e della fondatezza o meno della posizione del cliente. Per la professione notarile, il professionista è tenuto a una prestazione che non può ritenersi circoscritta alla compilazione dell'atto: comprende le verifiche e le informazioni necessarie perché l'atto raggiunga il risultato voluto dalle parti.\n\nPiù nel dettaglio, l'avvocato, sia quando riceve il mandato sia durante tutto lo svolgimento del rapporto, deve assolvere ai doveri di sollecitazione, dissuasione e informazione del cliente; deve chiedergli gli elementi necessari o utili che ha a disposizione; e deve sconsigliarlo dall'intraprendere o proseguire un giudizio dall'esito probabilmente sfavorevole. Un avvocato che non avverte il cliente del rischio concreto di perdere, e lo lascia esposto a una condanna alle spese, può essere chiamato a risponderne.\n\nVediamo il caso pratico. Un notaio redige un atto di compravendita senza verificare che sull'immobile grava un'ipoteca; l'acquirente lo scopre dopo il rogito e chiede il risarcimento. Il notaio non può difendersi dicendo di aver compilato correttamente l'atto, perché la sua prestazione non si esaurisce nella compilazione. Sul piano assicurativo, con una polizza claims made risponde quella in vigore quando arriva la richiesta, purché il fatto rientri nella retroattività prevista. Ancora una volta, il controllo della retroattività nei cambi di polizza è decisivo.\n\nPoi due domande di verifica, sull'onere della prova del paziente e sul criterio di causalità civile.\n\nRicapitoliamo. La polizza del professionista si colloca nello schema dell'articolo 1917 e spesso è claims made. La distinzione tra obbligazioni di mezzi e di risultato stabilisce chi deve provare che cosa. Nella responsabilità sanitaria il paziente prova contratto e danno e allega l'inadempimento; la struttura deve dimostrare che l'inadempimento non c'è stato o non ha causato il danno. La causalità civile segue il criterio del più probabile che non. La legge 24 del 2017 ha distinto la responsabilità contrattuale della struttura da quella extracontrattuale del sanitario. E nelle professioni legali i doveri di informazione, sollecitazione e dissuasione sono una fonte frequente di richieste di risarcimento.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1917 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1917"
+        },
+        {
+          "title": "Codice civile, art. 1176 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1176"
+        },
+        {
+          "title": "Codice civile, art. 2236 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art2236"
+        },
+        {
+          "title": "Codice civile, art. 1218 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1218"
+        },
+        {
+          "title": "Legge 8 marzo 2017, n. 24, art. 7 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-03-08;24~art7"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Testo degli artt. 1176, c. 2, e 2236 c.c., che la fonte citava solo per numero, e dell'art. 1218 c.c. sulla responsabilità del debitore.",
+          "source_ref": "Artt. 1176 e 2236 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiornamento sul regime di responsabilità di struttura (artt. 1218 e 1228 c.c.) e sanitario (art. 2043 c.c.) e sulle tabelle degli artt. 138-139 CAP.",
+          "source_ref": "L. 24/2017, art. 7"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: responsabilità del medico da contatto sociale e relativo riparto dell'onere della prova. Possibile aggiornamento: per il sanitario che opera nella struttura l'art. 7, c. 3, L. 24/2017 prevede ora la responsabilità ai sensi dell'art. 2043 c.c., salvo obbligazione contrattuale con il paziente. Riferimenti alle singole sentenze di Cassazione da indicare.",
+          "source_ref": "L. 24/2017, art. 7"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'obbligazioni di risultati' reso come 'obbligazioni di risultato'; 'rivalere l'assicurato' reso come 'tenere indenne l'assicurato'.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Ambito volutamente limitato al regime di responsabilità del professionista riportato dalla fonte: caratteristiche delle polizze RC professionale e obblighi assicurativi sono trattati nell'argomento 'Classificazione per rami'.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici (avvocato che non dissuade il cliente, notaio che non verifica l'ipoteca) e caso pratico con richiamo alla retroattività claims made.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Tutela legale e responsabilità del produttore per prodotto difettoso",
+      "source_files": [
+        "corso totale/Le assicurazioni contro i danni - Tipologie Parte VI.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Assicurazioni contro i danni /Le assicurazioni contro i danni quarta parte.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Assicurazioni contro i danni",
+          "title": "Tutela legale e RC del produttore",
+          "goals": [
+            "Conoscere la definizione di assicurazione di tutela legale e i diritti dell'assicurato",
+            "Sapere quando il produttore risponde dei danni da prodotto difettoso e quando no",
+            "Collegare queste regole al lavoro di consulenza dell'intermediario"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le dichiarazioni dell'avvocato assicurato",
+          "key": "Per l'operatività della copertura stipulata dall'avvocato contro il rischio professionale rileva la volontarietà e consapevolezza delle dichiarazioni mendaci o della reticenza su circostanze determinanti per il consenso dell'assicuratore.",
+          "body": "È la regola generale delle dichiarazioni precontrattuali: se il contraente tace o dichiara il falso con dolo o colpa grave su circostanze decisive, il contratto può essere annullato. Esempio: tacere un reclamo già ricevuto da un cliente.",
+          "ref": "Materiale originale del corso; art. 1892 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è l'assicurazione di tutela legale",
+          "key": "L'impresa, verso pagamento di un premio, si obbliga a prendere a carico le spese legali e peritali, o a fornire prestazioni di altra natura, occorrenti all'assicurato per difendere i suoi interessi in sede giudiziale o extragiudiziale.",
+          "body": "Soprattutto per ottenere il risarcimento dei danni subiti o per difendersi da una domanda di risarcimento, purché non proposta dalla stessa impresa che presta la tutela legale. È il ramo danni n. 17.",
+          "ref": "D.Lgs. 209/2005, artt. 173, c. 1, e 2, c. 3"
+        },
+        {
+          "layout": "split",
+          "title": "Tutela legale e RC: due coperture diverse",
+          "left": {
+            "title": "Tutela legale",
+            "items": [
+              "Paga le spese per far valere o difendere i diritti dell'assicurato",
+              "Può servire per chiedere un risarcimento, non solo per difendersi",
+              "Se venduta insieme ad altre garanzie, ha una sezione distinta del contratto con condizioni e premio propri"
+            ],
+            "ref": "Art. 173 CAP"
+          },
+          "right": {
+            "title": "Spese di resistenza nella RC",
+            "items": [
+              "Sono le spese dell'assicuratore RC per resistere al danneggiato",
+              "Restano regolate dall'art. 1917 c.c.",
+              "Non rientrano nella disciplina della tutela legale"
+            ],
+            "ref": "Art. 163, c. 2, CAP"
+          },
+          "note": "La disciplina del CAP non si applica neppure alla tutela legale per controversie sull'utilizzazione di navi marittime.",
+          "noteRef": "Art. 163, c. 2, CAP"
+        },
+        {
+          "layout": "checklist",
+          "title": "I diritti dell'assicurato",
+          "items": [
+            {
+              "text": "Se ha bisogno dell'assistenza di un professionista, ha la facoltà di sceglierlo, purché abilitato secondo la normativa applicabile.",
+              "ref": "Art. 174, c. 1, CAP"
+            },
+            {
+              "text": "In caso di disaccordo con l'impresa sulla gestione del sinistro, le parti possono rivolgersi all'autorità giudiziaria o affidare la decisione a un arbitro che decide secondo equità, se il contratto lo prevede.",
+              "ref": "Art. 174, c. 2, CAP"
+            },
+            {
+              "text": "Quando sorge un conflitto di interessi o un disaccordo, l'impresa gli ricorda per iscritto questi diritti.",
+              "ref": "Art. 174, c. 5, CAP"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Come l'impresa gestisce i sinistri di tutela legale",
+          "steps": [
+            {
+              "label": "Direttamente",
+              "text": "Con personale che non gestisce sinistri o consulenza in altri rami."
+            },
+            {
+              "label": "Impresa distinta",
+              "text": "Affida la gestione a un'altra impresa, indicata nel contratto e vigilata dall'IVASS."
+            },
+            {
+              "label": "Avvocato di fiducia",
+              "text": "Il contratto riconosce all'assicurato il diritto di affidare subito la tutela a un professionista da lui scelto."
+            }
+          ],
+          "ref": "Art. 164 CAP; la scelta è comunicata in anticipo all'IVASS"
+        },
+        {
+          "layout": "table",
+          "title": "Quando la libera scelta non deve essere scritta in polizza",
+          "lead": "Il contratto può non prevedere espressamente la libera scelta del professionista solo se ricorrono insieme tre condizioni. Il diritto dell'assicurato resta comunque fermo.",
+          "head": [
+            "Condizione",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "1 · Veicoli",
+              "La tutela legale è limitata a controversie derivanti dall'utilizzazione di veicoli stradali nel territorio della Repubblica."
+            ],
+            [
+              "2 · Assistenza",
+              "La copertura è collegata a un contratto di assistenza in caso di incidente o guasto dello stesso veicolo."
+            ],
+            [
+              "3 · Niente RC",
+              "Né l'impresa di tutela legale né quella di assistenza esercitano il ramo della responsabilità civile."
+            ]
+          ],
+          "ref": "Art. 174, c. 3, CAP"
+        },
+        {
+          "layout": "concept",
+          "title": "Il codice del consumo e la responsabilità del produttore",
+          "key": "Il codice del consumo del 2005 punta a un livello più elevato di tutela del consumatore, anche quando il produttore è responsabile del danno cagionato da prodotti difettosi.",
+          "body": "Il produttore è responsabile del danno cagionato da difetti del suo prodotto. Prodotto è ogni bene mobile, anche incorporato in un altro bene; lo è anche l'elettricità. Produttore è il fabbricante del prodotto finito o di una componente e il produttore della materia prima.",
+          "ref": "D.Lgs. 206/2005, artt. 114 e 115"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando un prodotto è difettoso",
+          "items": [
+            {
+              "text": "Quando non offre la sicurezza che ci si può legittimamente attendere, tenuto conto di tutte le circostanze.",
+              "ref": "Art. 117, c. 1"
+            },
+            {
+              "text": "Contano: presentazione, istruzioni e avvertenze; uso ragionevolmente prevedibile; tempo di messa in circolazione.",
+              "ref": "Art. 117, c. 1, lett. a-c"
+            },
+            {
+              "text": "Non è difettoso solo perché in seguito è uscito un prodotto più perfezionato.",
+              "ref": "Art. 117, c. 2"
+            },
+            {
+              "text": "È difettoso se non offre la sicurezza normalmente offerta dagli altri esemplari della stessa serie.",
+              "ref": "Art. 117, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quando la responsabilità è esclusa",
+          "head": [
+            "Ipotesi",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "A · Circolazione",
+              "Il produttore non ha messo il prodotto in circolazione."
+            ],
+            [
+              "B · Difetto successivo",
+              "Il difetto non esisteva quando il prodotto è stato messo in circolazione."
+            ],
+            [
+              "C · Uso non professionale",
+              "Il prodotto non è stato fabbricato per la vendita o altra distribuzione a titolo oneroso, né fabbricato o distribuito nell'attività professionale."
+            ],
+            [
+              "D · Norma imperativa",
+              "Il difetto è dovuto alla conformità a una norma giuridica imperativa o a un provvedimento vincolante."
+            ],
+            [
+              "E · Stato dell'arte",
+              "Le conoscenze scientifiche e tecniche dell'epoca non permettevano di considerare il prodotto difettoso."
+            ],
+            [
+              "F · Componente",
+              "Per chi fornisce una componente o materia prima, il difetto dipende interamente dalla concezione del prodotto finale o dalle istruzioni ricevute."
+            ]
+          ],
+          "ref": "D.Lgs. 206/2005, art. 118"
+        },
+        {
+          "layout": "facts",
+          "title": "Prova, risarcimento e termini",
+          "lead": "Le regole che determinano quanto e quando paga la polizza RC prodotti.",
+          "facts": [
+            {
+              "label": "Prova",
+              "text": "Il danneggiato prova difetto, danno e nesso causale; il produttore prova le cause di esclusione."
+            },
+            {
+              "label": "Esposizione volontaria",
+              "text": "Nessun risarcimento se il danneggiato, consapevole del difetto e del pericolo, vi si è volontariamente esposto."
+            },
+            {
+              "label": "Danni risarcibili",
+              "text": "Morte o lesioni personali; danni a cose diverse dal prodotto, di uso o consumo privato."
+            },
+            {
+              "label": "387 euro",
+              "text": "Il danno a cose è risarcibile solo per la parte che supera questa somma."
+            },
+            {
+              "label": "3 anni",
+              "text": "Prescrizione dal giorno in cui il danneggiato ha avuto o avrebbe dovuto avere conoscenza di danno, difetto e responsabile."
+            },
+            {
+              "label": "10 anni",
+              "text": "Decadenza dalla messa in circolazione del prodotto."
+            }
+          ],
+          "ref": "D.Lgs. 206/2005, artt. 120, 122, 123, 125, 126"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un piccolo produttore di stufe a pellet chiede una polizza RC prodotti. Una stufa si surriscalda per un difetto di serie e danneggia il parquet di un cliente privato (2.000 euro) e gli procura un'ustione. Il cliente sapeva del difetto da un richiamo e ha continuato a usarla.",
+          "questions": [
+            "Che cosa deve provare il cliente?",
+            "Su quale circostanza il produttore può difendersi?"
+          ],
+          "solution": "Il cliente deve provare il difetto, il danno e il nesso causale. Il danno al parquet sarebbe risarcibile solo per la parte che supera 387 euro. Ma se il cliente era consapevole del difetto e del pericolo e vi si è esposto volontariamente, il risarcimento non è dovuto: il produttore deve dimostrarlo. Per l'intermediario: la RC prodotti va calibrata sul tipo di prodotto e sui mercati di vendita."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In una polizza di tutela legale, chi sceglie l'avvocato quando l'assicurato ha bisogno di difesa in un procedimento giudiziario?",
+          "options": [
+            "Sempre l'impresa di assicurazione",
+            "L'assicurato, purché il professionista sia abilitato",
+            "Il giudice",
+            "L'IVASS"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 174, c. 1, CAP riconosce all'assicurato la facoltà di scegliere il professionista abilitato, anche in caso di conflitto di interessi con l'impresa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un prodotto difettoso danneggia un divano di uso privato per 300 euro. Che cosa prevede il codice del consumo?",
+          "options": [
+            "Il danno è risarcibile per intero",
+            "Il danno non è risarcibile, perché non supera 387 euro",
+            "Il danno è risarcibile solo se c'è colpa grave del produttore",
+            "Il danno è risarcibile solo dopo 10 anni"
+          ],
+          "answer": 1,
+          "explanation": "Per l'art. 123, c. 2, il danno a cose è risarcibile solo nella misura che eccede 387 euro."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Ramo 17",
+              "text": "tutela legale: spese legali e peritali per difendere gli interessi dell'assicurato"
+            },
+            {
+              "value": "Libera scelta",
+              "text": "del professionista abilitato; disaccordi davanti al giudice o all'arbitro"
+            },
+            {
+              "value": "Difetto",
+              "text": "manca la sicurezza che ci si può legittimamente attendere"
+            },
+            {
+              "value": "Prova",
+              "text": "al danneggiato difetto, danno e nesso; al produttore le esclusioni"
+            },
+            {
+              "value": "387 €",
+              "text": "soglia oltre la quale è risarcibile il danno a cose"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa ultima lezione dell'argomento completiamo il quadro delle assicurazioni del patrimonio: chiudiamo il discorso sul professionista con le dichiarazioni dell'avvocato, poi vediamo l'assicurazione di tutela legale e infine la responsabilità del produttore per i danni da prodotto difettoso.\n\nUn ultimo principio sull'assicurazione del professionista. Il materiale del corso afferma che, per l'operatività della copertura stipulata dall'avvocato contro il rischio professionale, è sufficiente la volontarietà e consapevolezza delle dichiarazioni mendaci o della reticenza dell'assicurato su circostanze determinanti per il consenso dell'assicuratore. Il riferimento generale è l'articolo 1892 del Codice civile: le dichiarazioni inesatte e le reticenze del contraente, relative a circostanze tali che l'assicuratore non avrebbe dato il consenso o non lo avrebbe dato alle stesse condizioni, sono causa di annullamento del contratto quando il contraente ha agito con dolo o con colpa grave. L'assicuratore deve dichiarare di voler impugnare entro tre mesi da quando ha scoperto l'inesattezza. In pratica: l'avvocato che, compilando il questionario, tace di aver già ricevuto una contestazione da un cliente, mette a rischio la propria copertura. Il compito dell'intermediario è far compilare il questionario con cura e spiegare che cosa va dichiarato.\n\nPassiamo alla tutela legale. Il Codice delle assicurazioni private, all'articolo 173, la definisce come il contratto con il quale l'impresa di assicurazione, verso il pagamento di un premio, si obbliga a prendere a carico le spese legali e peritali, o a fornire prestazioni di altra natura, occorrenti all'assicurato per la difesa dei suoi interessi in sede giudiziale, in ogni tipo di procedimento, o in sede extragiudiziale. Soprattutto allo scopo di conseguire il risarcimento dei danni subiti o per difendersi contro una domanda di risarcimento avanzata nei suoi confronti, purché non proposta dall'impresa che presta la copertura. Nella classificazione dell'articolo 2 del Codice, la tutela legale è il ramo danni numero 17. Pensiamo a un cliente tamponato che deve far valere le proprie ragioni, a un commerciante che ha una lite con un fornitore, a un dipendente che deve difendersi in un procedimento: sono tutte situazioni in cui la tutela legale paga avvocati e periti.\n\nAttenzione a non confonderla con le spese di resistenza nella RC. L'articolo 163 del Codice chiarisce che la disciplina della tutela legale non si applica all'attività dell'assicuratore RC che resiste all'azione dei danneggiati ai sensi dell'articolo 1917 del Codice civile, e neppure alla tutela legale per controversie sull'utilizzazione di navi marittime. Inoltre, quando la tutela legale è venduta insieme ad altre garanzie in un unico contratto, contenuto, condizioni e premio devono essere indicati in una sezione distinta del contratto.\n\nQuali sono i diritti dell'assicurato? Il primo è la libera scelta del professionista: se l'assicurato ha bisogno dell'assistenza di un professionista, per la difesa o la rappresentanza in un procedimento giudiziario o amministrativo, o in caso di conflitto di interessi con l'impresa, ha la facoltà di sceglierlo, purché sia abilitato secondo la normativa applicabile. Il secondo riguarda i disaccordi: se assicurato e impresa non sono d'accordo sulla gestione del sinistro, le parti possono rivolgersi all'autorità giudiziaria oppure demandare la decisione sul comportamento da tenere a un arbitro, che decide secondo equità; questa seconda strada deve essere prevista esplicitamente nel contratto. E ogni volta che sorge un conflitto di interessi o un disaccordo, l'impresa deve richiamare per iscritto l'attenzione dell'assicurato su questi diritti.\n\nL'articolo 164 regola anche come l'impresa organizza la gestione dei sinistri di tutela legale, con una scelta comunicata in anticipo all'IVASS. Le strade sono tre: gestire direttamente i sinistri, con personale che non si occupa di sinistri o consulenza in altri rami; affidare la gestione a un'impresa distinta, indicata nel contratto e soggetta alla vigilanza dell'IVASS; oppure riconoscere nel contratto il diritto dell'assicurato di affidare la tutela dei suoi interessi, appena può chiedere l'intervento dell'impresa, a un avvocato o a un altro professionista da lui scelto. Lo scopo di queste regole è evitare conflitti di interesse, soprattutto quando la stessa impresa assicura anche la RC della controparte.\n\nIl materiale del corso riporta tre condizioni: la tutela legale deve essere limitata a controversie derivanti dall'utilizzazione di veicoli stradali nel territorio della Repubblica; la copertura deve essere collegata a un contratto di assistenza in caso di incidente o guasto dello stesso veicolo; né l'impresa che garantisce la tutela legale né quella che presta l'assistenza devono esercitare il ramo della responsabilità civile. Va chiarito il loro significato: secondo l'articolo 174, terzo comma, quando ricorrono tutte e tre insieme non è necessario che il contratto preveda espressamente la facoltà di libera scelta del professionista. È quindi un'eccezione limitata, non una regola generale della tutela legale. E anche in questo caso il diritto dell'assicurato di scegliere il professionista resta fermo.\n\nVeniamo alla responsabilità del produttore. Il codice del consumo del 2005, il decreto legislativo 206, contiene una disciplina volta a dare un livello più elevato di tutela al consumatore, anche per il caso di responsabilità del produttore per danno da prodotti difettosi. La regola base è nell'articolo 114: il produttore è responsabile del danno cagionato da difetti del suo prodotto. Prodotto è ogni bene mobile, anche se incorporato in un altro bene mobile o immobile, e si considera prodotto anche l'elettricità. Produttore è il fabbricante del prodotto finito o di una sua componente e il produttore della materia prima.\n\nQuando un prodotto è difettoso? Quando non offre la sicurezza che ci si può legittimamente attendere, tenuto conto di tutte le circostanze. L'articolo 117 ne indica alcune: il modo in cui il prodotto è stato messo in circolazione, la presentazione, le caratteristiche evidenti, le istruzioni e le avvertenze; l'uso a cui può essere ragionevolmente destinato e i comportamenti prevedibili; il momento della messa in circolazione. Un prodotto non è difettoso solo perché, in seguito, ne è uscito uno più perfezionato. È invece difettoso se non offre la sicurezza offerta normalmente dagli altri esemplari della stessa serie.\n\nLa responsabilità del produttore è esclusa in alcuni casi. Il materiale del corso ne indica tre: quando il produttore non ha messo in circolazione il prodotto, oppure non lo ha fabbricato per la vendita o per un'altra forma di distribuzione a titolo oneroso, né lo ha fabbricato o distribuito nell'esercizio della sua attività professionale; quando il difetto è dovuto alla conformità del prodotto a una norma giuridica imperativa o a un provvedimento vincolante; quando lo stato delle conoscenze scientifiche e tecniche, al momento della messa in circolazione, non permetteva ancora di considerare il prodotto difettoso. L'articolo 118 ne aggiunge altre due: quando il difetto non esisteva al momento della messa in circolazione, e, per chi fornisce una componente o una materia prima, quando il difetto dipende interamente dalla concezione del prodotto finale o dalle istruzioni del produttore che l'ha utilizzata.\n\nSul piano della prova, sul danneggiato incombe l'onere di provare il difetto, il danno e la connessione causale tra difetto e danno. Sul produttore grava la prova di una situazione che esclude la sua responsabilità. Il risarcimento non è dovuto quando il danneggiato, pur consapevole del difetto del prodotto e del pericolo che ne derivava, vi si è volontariamente esposto. Quanto ai danni risarcibili, l'articolo 123 comprende il danno da morte o da lesioni personali e la distruzione o il deterioramento di una cosa diversa dal prodotto difettoso, purché normalmente destinata all'uso o consumo privato e così utilizzata dal danneggiato. Il danno a cose è risarcibile solo nella misura che supera la somma di 387 euro. Ci sono poi due termini: il diritto al risarcimento si prescrive in tre anni da quando il danneggiato ha avuto, o avrebbe dovuto avere, conoscenza del danno, del difetto e dell'identità del responsabile; e si estingue comunque dopo dieci anni dalla messa in circolazione del prodotto.\n\nPerché tutto questo interessa l'intermediario? Perché la polizza RC prodotti copre esattamente questo rischio: per un'impresa che fabbrica, assembla o importa, una serie difettosa può generare molte richieste insieme. Conoscere le cause di esclusione e i termini aiuta a spiegare al cliente che cosa è davvero coperto e quanto a lungo resta esposto.\n\nNel caso pratico, un produttore di stufe a pellet ha un difetto di serie che danneggia il parquet di un cliente privato e gli provoca un'ustione. Il cliente deve provare difetto, danno e nesso causale; il danno al parquet sarebbe risarcibile solo oltre i 387 euro. Ma se il cliente conosceva il difetto da un richiamo e ha continuato a usare la stufa, esponendosi volontariamente al pericolo, il risarcimento non è dovuto, e spetta al produttore dimostrarlo. Seguono due domande di verifica, sulla scelta dell'avvocato e sulla soglia dei 387 euro.\n\nRicapitoliamo. La tutela legale, ramo 17, copre le spese legali e peritali per difendere gli interessi dell'assicurato, in giudizio e fuori. L'assicurato sceglie liberamente un professionista abilitato, e i disaccordi con l'impresa si risolvono davanti al giudice o a un arbitro. Un prodotto è difettoso quando non offre la sicurezza che ci si può legittimamente attendere. Il danneggiato prova difetto, danno e nesso causale; il produttore prova le cause di esclusione. E il danno a cose è risarcibile solo oltre i 387 euro.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1892 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1892"
+        },
+        {
+          "title": "D.Lgs. 209/2005, Codice delle assicurazioni private, art. 2 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art2"
+        },
+        {
+          "title": "D.Lgs. 209/2005, artt. 163 e 164 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art163"
+        },
+        {
+          "title": "D.Lgs. 209/2005, artt. 173 e 174 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art173"
+        },
+        {
+          "title": "D.Lgs. 206/2005, Codice del consumo, artt. 114-118 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-06;206~art114"
+        },
+        {
+          "title": "D.Lgs. 206/2005, Codice del consumo, artt. 120-126 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-06;206~art120"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Base normativa delle dichiarazioni inesatte e reticenze con dolo o colpa grave e termine di tre mesi per l'impugnazione.",
+          "source_ref": "Art. 1892 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: per l'operatività della copertura dell'avvocato 'è sufficiente la volontarietà e consapevolezza delle dichiarazioni mendaci o della reticenza'. Riferimento giurisprudenziale da indicare; collegata all'art. 1892 c.c.",
+          "source_ref": "Art. 1892 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tutela legale come ramo danni 17; sezione distinta del contratto in caso di cumulo con altre garanzie; esclusione dalla disciplina delle spese di resistenza RC e delle controversie su navi marittime.",
+          "source_ref": "D.Lgs. 209/2005, artt. 2, 163, 173"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Modalità di gestione dei sinistri di tutela legale (diretta, impresa distinta, avvocato di fiducia) con comunicazione preventiva all'IVASS.",
+          "source_ref": "D.Lgs. 209/2005, art. 164"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Arbitro secondo equità previsto espressamente nel contratto; obbligo dell'impresa di richiamare per iscritto i diritti dell'assicurato.",
+          "source_ref": "D.Lgs. 209/2005, art. 174, c. 2 e 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le tre condizioni (veicoli stradali in Italia, collegamento con l'assistenza, nessuna delle due imprese esercita la RC), presentate dalla fonte come requisiti generali della tutela legale. Chiarito che, per l'art. 174, c. 3, CAP, sono le condizioni cumulative in presenza delle quali il contratto può non prevedere espressamente la libera scelta del professionista.",
+          "source_ref": "D.Lgs. 209/2005, art. 174, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la denominazione 'nuovo codice delle assicurazioni private' (D.Lgs. 209/2005): il testo è stato reso come 'Codice delle assicurazioni private'.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni di prodotto e produttore, criteri del difetto, esclusioni ulteriori (difetto successivo, componente), danni risarcibili, prescrizione triennale e decadenza decennale.",
+          "source_ref": "D.Lgs. 206/2005, artt. 115, 117, 118, 123, 125, 126"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la soglia di 387 euro per il danno a cose, verificata nel testo vigente dell'art. 123 Cod. consumo. Possibile aggiornamento: la nuova direttiva UE sulla responsabilità per danno da prodotti difettosi (2024) dovrà essere recepita e potrebbe modificare la disciplina; non verificata su fonte ufficiale, non riportata nei contenuti.",
+          "source_ref": "D.Lgs. 206/2005, art. 123"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico RC prodotti (stufa a pellet) ed esempi di utilizzo della tutela legale.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

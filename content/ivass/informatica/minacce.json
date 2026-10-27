@@ -1,0 +1,1307 @@
+{
+  "module": "Area informatica",
+  "topic": "Sicurezza informatica e protezione dei dati",
+  "topic_order": 2,
+  "scope": "core",
+  "source_minutes": 74,
+  "lesson_offset": 50,
+  "lessons": [
+    {
+      "title": "Le principali minacce informatiche e chi le porta",
+      "source_files": [
+        "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf",
+        "corso totale/Area informatica /Principali minacce informatiche 1 (Video).mp4",
+        "corso totale/Area informatica /Principali minacce informatiche2  (Video).mp4",
+        "corso totale/Area informatica /_Principali minacce informatiche3  (Video).mp4",
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+      ],
+      "source_minutes": 22,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Le principali minacce informatiche",
+          "goals": [
+            "Avere la mappa delle principali minacce informatiche",
+            "Leggere i dati ufficiali più recenti su Europa e Italia",
+            "Capire chi sono gli hacker, perché attaccano e che cosa ne deriva per la politica di sicurezza"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da che cosa ci dobbiamo difendere",
+          "key": "Le principali minacce sono rappresentate da malware (virus, worm, trojan horse, dialer, macro), dagli hacker, dallo spamming, dall'intercettazione, dal social engineering e dal denial of service.",
+          "body": "Nell'elenco originale compaiono anche patch e firewall: non sono minacce, ma strumenti di difesa. Li ritroviamo nell'ultima lezione, insieme ad antivirus, antispam e honeypot.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La mappa delle minacce",
+          "lead": "Ogni minaccia colpisce un aspetto diverso: i dati, le comunicazioni, le persone, la disponibilità del servizio.",
+          "head": [
+            "Minaccia",
+            "Che cosa fa",
+            "Dove la trattiamo"
+          ],
+          "rows": [
+            [
+              "M · Malware",
+              "Programmi creati per danneggiare i sistemi o sottrarre informazioni",
+              "Argomento Malware"
+            ],
+            [
+              "S · Spamming",
+              "Invio massiccio di posta pubblicitaria non richiesta",
+              "Lezione 4 (antispam)"
+            ],
+            [
+              "I · Intercettazione",
+              "Ascolto o cattura dei dati che viaggiano in rete",
+              "Lezione 2"
+            ],
+            [
+              "E · Social engineering",
+              "Manipolazione delle persone per ottenere dati o denaro",
+              "Area amministrativa"
+            ],
+            [
+              "D · Denial of service",
+              "Saturazione di un sistema per renderlo irraggiungibile",
+              "Lezione 3"
+            ],
+            [
+              "H · Hacker",
+              "Chi attacca: gerarchia e motivazioni",
+              "Questa lezione"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il malware, in sintesi",
+          "key": "Malware unisce \"malicious\" e \"software\": programmi realizzati per danneggiare i sistemi su cui vengono eseguiti o per sottrarre informazioni sensibili.",
+          "body": "Il modello in 4 fasi: infezione, quiescenza, replicazione e propagazione, azioni malevole. Le famiglie: virus (di file, di boot, multipartiti, di macro), worm, trojan, backdoor e keylogger, dialer, spyware, adware. Anatomia, tecniche di rilevamento, botnet e malware per dispositivi mobili sono trattati nell'argomento dedicato al malware.",
+          "ref": "Materiale originale del corso · rimando all'argomento Malware"
+        },
+        {
+          "layout": "concept",
+          "title": "Il social engineering, in sintesi",
+          "key": "L'arte di studiare il comportamento delle persone per manipolarle: sfrutta la psicologia e l'inganno per ottenere dati riservati, estorcere denaro o rubare l'identità.",
+          "body": "Le tecniche citate dalla fonte: phishing (mail o SMS con logo contraffatto), pretexting (telefono o intervista), baiting (un'esca come una chiavetta USB), quid pro quo (un servizio inesistente in cambio di dati), tailgating (entrare in un luogo protetto al seguito di altri). Le trovi approfondite nell'Area amministrativa e gestionale, argomento Social engineering.",
+          "ref": "Materiale originale del corso · rimando all'Area amministrativa"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Europa",
+          "title": "Il quadro ENISA 2025",
+          "lead": "Il rapporto annuale dell'Agenzia dell'Unione europea per la cibersicurezza analizza 4.875 incidenti, da luglio 2024 a giugno 2025.",
+          "facts": [
+            {
+              "label": "77%",
+              "text": "degli incidenti sono attacchi DDoS, condotti per lo più da hacktivisti"
+            },
+            {
+              "label": "2%",
+              "text": "degli incidenti degli hacktivisti ha causato un'interruzione del servizio"
+            },
+            {
+              "label": "60%",
+              "text": "circa delle intrusioni inizia con il phishing"
+            },
+            {
+              "label": "21,3%",
+              "text": "delle intrusioni sfrutta una vulnerabilità"
+            },
+            {
+              "label": "Ransomware",
+              "text": "la minaccia con l'impatto più grave nell'UE"
+            },
+            {
+              "label": "4,5%",
+              "text": "degli incidenti ha colpito il settore finanziario"
+            }
+          ],
+          "ref": "ENISA Threat Landscape 2025"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Italia",
+          "title": "Il quadro ACN",
+          "lead": "L'Agenzia per la Cybersicurezza Nazionale, attraverso il CSIRT Italia, raccoglie e gestisce le segnalazioni.",
+          "facts": [
+            {
+              "label": "1.979",
+              "text": "eventi cyber gestiti nel 2024, circa 165 al mese"
+            },
+            {
+              "label": "573",
+              "text": "incidenti con impatto confermato nel 2024"
+            },
+            {
+              "label": "+40% · +90%",
+              "text": "eventi e incidenti 2024 rispetto al 2023"
+            },
+            {
+              "label": "366",
+              "text": "attacchi DDoS nel II semestre 2025, contro 182 un anno prima"
+            },
+            {
+              "label": "927",
+              "text": "indirizzi di phishing individuati nel II semestre 2025"
+            }
+          ],
+          "ref": "ACN, Relazione annuale 2024; Operational Summary II sem. 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "Gli hacker: da dove viene la parola",
+          "key": "Hack, in inglese, significa tacca, spacco, fenditura. To hack significa fare a pezzi, fendere, tagliare con fendenti. L'hacker è colui che fa a pezzi qualcosa.",
+          "body": "Nel linguaggio comune hacker è diventato sinonimo di pirata informatico. La fonte distingue invece diversi livelli di competenza e di intenzione.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La gerarchia degli hacker",
+          "head": [
+            "Livello",
+            "Chi è",
+            "Pericolosità"
+          ],
+          "rows": [
+            [
+              "1 · Lamer",
+              "Usa programmi e strumenti fatti da altri, che non conosce, per attaccare un computer",
+              "Bassa competenza, ma può fare danni"
+            ],
+            [
+              "2 · Newbie",
+              "L'hacker \"allo stadio larvale\": sta accumulando conoscenze",
+              "In crescita"
+            ],
+            [
+              "3 · Hacker",
+              "L'hacker vero e proprio",
+              "Alta competenza"
+            ],
+            [
+              "4 · Wizard e guru",
+              "L'élite: il mago e il santone",
+              "Massima competenza"
+            ],
+            [
+              "5 · Dark side e malicious",
+              "Il primo usa le conoscenze per scopi illegali; il secondo danneggia per stupidità o cattiveria, senza profitto",
+              "Intenzione dannosa"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Perché un hacker attacca",
+          "steps": [
+            {
+              "label": "Si diverte",
+              "text": "Sta provando nuovi programmi: è un lamer."
+            },
+            {
+              "label": "Vuole le informazioni",
+              "text": "Gli interessano davvero i dati che abbiamo."
+            },
+            {
+              "label": "Vuole il sistema",
+              "text": "Ha bisogno di usare il nostro computer o la nostra rete."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Dalle motivazioni alla politica di sicurezza",
+          "key": "La politica di sicurezza in azienda segue la stessa logica: definita la necessità di usare internet e chiariti i rischi, si capisce se abbiamo informazioni sensibili e a che livello vogliamo proteggerle.",
+          "body": "Un'agenzia assicurativa ha quasi sempre informazioni sensibili: dati anagrafici, coordinate bancarie, dati sanitari raccolti per polizze vita, salute e infortuni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le domande da farsi",
+          "items": [
+            {
+              "text": "Per quali attività usiamo internet: posta, portali delle compagnie, sito, social, firma digitale?"
+            },
+            {
+              "text": "Quali rischi comporta ciascun uso?"
+            },
+            {
+              "text": "Quali informazioni sensibili trattiamo e dove sono conservate?"
+            },
+            {
+              "text": "A che livello vogliamo proteggerle, e con quali strumenti?"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia plurimandataria scopre che il proprio sito vetrina è stato reso irraggiungibile per due ore, il giorno dopo aver pubblicato un post su un tema politico internazionale. Nessun dato risulta sottratto.",
+          "questions": [
+            "Quale minaccia è più probabile?",
+            "Quale motivazione dell'attaccante suggerisce il contesto?"
+          ],
+          "solution": "Lo scenario è tipico di un attacco DDoS di matrice hacktivista: secondo ENISA è il tipo di incidente più frequente in Europa, quasi sempre con impatto limitato. L'attaccante non cerca i dati ma vuole colpire un bersaglio simbolico. L'agenzia deve comunque verificare con il fornitore del sito che non ci siano state altre intrusioni e annotare l'episodio."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di questi elementi, citati nell'elenco della fonte, NON è una minaccia ma uno strumento di difesa?",
+          "options": [
+            "Il trojan horse",
+            "Il firewall",
+            "Il dialer",
+            "Lo spamming"
+          ],
+          "answer": 1,
+          "explanation": "Il firewall controlla il traffico in entrata e in uscita e respinge gli attacchi esterni: è una difesa. Lo stesso vale per la patch."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo la gerarchia della fonte, chi usa programmi fatti da altri, senza conoscerli, per attaccare un computer?",
+          "options": [
+            "Il guru",
+            "Il newbie",
+            "Il lamer",
+            "Il wizard"
+          ],
+          "answer": 2,
+          "explanation": "Il lamer usa strumenti altrui senza capirli. Il newbie sta imparando; wizard e guru sono l'élite."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "6",
+              "text": "famiglie di minacce: malware, hacker, spamming, intercettazione, social engineering, denial of service"
+            },
+            {
+              "value": "77%",
+              "text": "degli incidenti in Europa sono DDoS (ENISA 2025)"
+            },
+            {
+              "value": "573",
+              "text": "incidenti confermati in Italia nel 2024 (ACN)"
+            },
+            {
+              "value": "5",
+              "text": "livelli della gerarchia degli hacker"
+            },
+            {
+              "value": "3",
+              "text": "motivazioni: divertimento, informazioni, uso del sistema"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione costruiamo la mappa delle principali minacce informatiche. Vediamo quali sono, che cosa dicono i dati ufficiali più recenti in Europa e in Italia, e chi sono gli attaccanti: gli hacker, con la loro gerarchia e le loro motivazioni. Alla fine capiremo perché proprio le motivazioni di chi attacca ci aiutano a impostare la politica di sicurezza della nostra agenzia o del nostro studio.\n\nPartiamo dall'elenco. Le principali minacce sono rappresentate dal malware, cioè virus, worm, trojan horse, dialer e virus di macro; dagli hacker; dallo spamming; dall'intercettazione delle comunicazioni; dal social engineering; e dal denial of service. Nell'elenco originale del corso compaiono anche la patch e il firewall. Facciamo subito chiarezza: patch e firewall non sono minacce, ma strumenti di difesa. Il firewall controlla il traffico che entra ed esce dalla rete, la patch corregge un difetto di un programma. Li riprendiamo nell'ultima lezione, quella dedicata agli strumenti di difesa.\n\nPerché è utile avere una mappa? Perché ogni minaccia colpisce un aspetto diverso. Il malware colpisce i dati e i sistemi. L'intercettazione colpisce le comunicazioni, cioè i dati mentre viaggiano. Il social engineering colpisce le persone, sfruttandone la fiducia o la distrazione. Il denial of service colpisce la disponibilità: il servizio esiste, i dati sono intatti, ma nessuno riesce a raggiungerlo. Lo spamming è il fastidio quotidiano della posta indesiderata, che spesso fa anche da veicolo per le altre minacce. E gli hacker sono le persone che stanno dietro a tutto questo.\n\nDue di queste minacce hanno un argomento tutto loro in questo corso, quindi qui le riassumiamo soltanto. La prima è il malware. La parola nasce dalla contrazione di due termini inglesi, malicious e software, e indica i programmi realizzati per danneggiare i sistemi su cui vengono eseguiti o per sottrarre informazioni sensibili. Il malware segue un modello in quattro fasi: l'infezione, cioè l'ingresso nel sistema; la quiescenza, in cui resta nascosto in attesa del momento giusto; la replicazione e la propagazione verso altri sistemi; e infine le azioni malevole vere e proprie. Le famiglie principali sono i virus, che possono essere di file, di boot, multipartiti o di macro; i worm, che si diffondono da soli attraverso la rete; i trojan, che si presentano come programmi utili; le backdoor, spesso accompagnate da un keylogger che registra i tasti premuti; i dialer, gli spyware e gli adware. L'anatomia del malware, le tecniche con cui gli antivirus lo riconoscono, le botnet e il malware per smartphone sono trattati in dettaglio nell'argomento dedicato.\n\nLa seconda minaccia che riassumiamo è il social engineering, l'ingegneria sociale. È l'arte di studiare il comportamento delle persone per manipolarle e carpire informazioni utili. Sfrutta la psicologia umana e fa uso dell'inganno per ottenere dalla vittima dati riservati, come password, accessi ai conti correnti e informazioni finanziarie, per estorcere denaro o addirittura per rubarne l'identità. La fonte cita cinque tecniche. Il phishing: una mail o un SMS con il logo contraffatto di un'azienda o di una banca, che invita a cliccare un link o ad aprire un allegato. Il pretexting, molto simile al phishing ma condotto al telefono o con un'intervista. Il baiting, che usa un'esca, ad esempio una chiavetta USB lasciata in giro. Il quid pro quo, in cui si offre un servizio che non esiste in cambio di dati confidenziali. E il tailgating, il cui obiettivo è entrare fisicamente in un luogo protetto, magari seguendo da vicino chi ha il badge. Questo tema è approfondito nell'Area amministrativa e gestionale, nell'argomento sul social engineering.\n\nGuardiamo ora i numeri, partendo dall'Europa. L'ENISA, l'Agenzia dell'Unione europea per la cibersicurezza, pubblica ogni anno il suo rapporto sul panorama delle minacce. L'edizione 2025, presentata il primo ottobre 2025, analizza 4.875 incidenti avvenuti tra luglio 2024 e giugno 2025. Il dato che colpisce di più è che il 77 per cento degli incidenti è costituito da attacchi DDoS, cioè di negazione del servizio distribuita, condotti per lo più da hacktivisti, attivisti che usano l'attacco informatico come forma di protesta. Però solo il 2 per cento di questi incidenti ha davvero interrotto un servizio: molto rumore, impatto spesso modesto. Il ransomware, il malware che cifra i dati e chiede un riscatto, è invece indicato come la minaccia con l'impatto più grave nell'Unione. Sulle porte d'ingresso, ENISA indica il phishing come primo vettore, con circa il 60 per cento delle intrusioni iniziali, seguito dallo sfruttamento delle vulnerabilità, con il 21,3 per cento. Il settore finanziario ha subito il 4,5 per cento degli incidenti; il più colpito è la pubblica amministrazione, con il 38,2 per cento.\n\nPassiamo all'Italia. L'Agenzia per la Cybersicurezza Nazionale, attraverso il CSIRT Italia, raccoglie e gestisce le segnalazioni. Nella Relazione annuale al Parlamento per il 2024, pubblicata il 13 maggio 2025, l'Agenzia riporta 1.979 eventi cyber, circa 165 al mese, di cui 573 incidenti con impatto confermato. Rispetto al 2023 gli eventi sono cresciuti di circa il 40 per cento e gli incidenti di quasi il 90 per cento. Nel secondo semestre 2025 l'Agenzia ha censito 366 attacchi DDoS, il doppio dei 182 dello stesso periodo dell'anno prima, e ha individuato 927 indirizzi di phishing. Anche qui gli attacchi DDoS hanno causato impatti misurabili solo in una piccola parte dei casi. L'Agenzia osserva inoltre che il ransomware ha colpito in larga misura le piccole imprese, con capacità di sicurezza limitate. Un'agenzia di assicurazione, molto spesso, è proprio una piccola impresa.\n\nPerché tutto questo dovrebbe interessare un intermediario assicurativo? Per tre ragioni. La prima è il valore dei dati: un archivio di clienti contiene in un solo posto anagrafiche, documenti d'identità, coordinate bancarie, a volte informazioni sulla salute. Per chi li vuole rivendere o usare per truffe, sono dati preziosi. La seconda è la posizione nella catena: l'intermediario è collegato ai portali delle compagnie mandanti e scambia ogni giorno documenti con i clienti. Chi compromette l'agenzia può usarla come trampolino verso altri. La terza è la fiducia: il cliente affida all'intermediario informazioni che non darebbe a nessun altro, e un incidente informatico si trasforma subito in un problema di reputazione. ENISA, nel titolo stesso del suo rapporto 2025, descrive l'Unione europea come bersaglio costante di gruppi di attaccanti diversi ma sempre più convergenti.\n\nVeniamo agli attaccanti. Da dove viene la parola hacker? Hack, in inglese, è un sostantivo che significa tacca, spacco, fenditura. To hack, come verbo, significa fare a pezzi, fendere, tagliare con fendenti. L'hacker è quindi colui che fa a pezzi qualcosa: in informatica, chi smonta un sistema per capirne il funzionamento e, a volte, per aggirarne le difese. Nel linguaggio comune hacker è diventato sinonimo di pirata informatico, ma la fonte distingue diversi livelli.\n\nLa gerarchia ha cinque gradini. Al primo c'è il lamer: una persona che usa programmi e strumenti fatti da altri, che quindi non conosce, per attaccare un computer. Ha poca competenza, ma può comunque fare danni, perché oggi gli strumenti d'attacco si trovano facilmente. Al secondo c'è il newbie, l'hacker allo stadio larvale, in fase di sviluppo, che sta accumulando conoscenze. Al terzo c'è l'hacker vero e proprio. Al quarto c'è l'élite: il wizard, cioè il mago, e il guru, il santone. Infine, al quinto gradino, la fonte colloca due figure caratterizzate non dalla competenza ma dall'intenzione: il dark side hacker, che per scelta usa le sue conoscenze per scopi illegali, e il malicious hacker, che danneggia altri sistemi per stupidità o cattiveria, senza trarne particolari profitti.\n\nPerché un hacker attacca proprio noi? Le motivazioni indicate sono tre. Primo: si sta divertendo, sta provando nuovi programmi, e quindi è un lamer. Secondo: gli interessano davvero le informazioni di cui siamo in possesso. Terzo: ha bisogno di usare il nostro sistema, ad esempio per lanciare da lì altri attacchi o per inviare spam. Ognuna di queste motivazioni ci dice qualcosa. Il lamer si ferma alle prime difese ben configurate. Chi cerca le nostre informazioni ci obbliga a chiederci quali dati abbiamo e quanto valgono. Chi vuole usare il nostro sistema ci ricorda che anche un piccolo computer d'ufficio, se non protetto, può diventare uno strumento nelle mani di altri.\n\nEd ecco il collegamento con l'organizzazione. La politica della sicurezza informatica in azienda segue le stesse modalità: definita la necessità di usare internet e chiariti i rischi che questo comporta, dobbiamo capire se abbiamo o no informazioni sensibili, e in che modo e a che livello vogliamo che siano protette. Per un intermediario assicurativo la risposta alla prima domanda è quasi sempre sì. Pensiamo ai dati anagrafici e alle coordinate bancarie dei clienti, alle copie dei documenti d'identità, ai dati sanitari raccolti per le polizze vita, salute e infortuni, alle informazioni sui sinistri.\n\nIn pratica, le domande da farsi sono quattro. Per quali attività usiamo internet: la posta, i portali delle compagnie mandanti, il sito, i social, la firma digitale. Quali rischi comporta ciascun uso. Quali informazioni sensibili trattiamo e dove sono conservate: sul computer, su un server in ufficio, in cloud, sui telefoni. E infine a che livello vogliamo proteggerle e con quali strumenti. Rispondere per iscritto a queste domande è il primo passo di una politica di sicurezza seria.\n\nUn'ultima osservazione su questo punto. La politica di sicurezza non è un documento scritto una volta per sempre. Le minacce cambiano, come mostrano i dati che abbiamo visto, e cambiano anche gli strumenti che usiamo: un nuovo gestionale in cloud, un nuovo canale social, il lavoro da casa di un collaboratore. Ogni novità riapre le quattro domande. Per questo conviene rivedere la politica almeno quando cambia qualcosa di importante nell'organizzazione, e coinvolgere tutti: dipendenti e collaboratori sono i primi a dover sapere quali dati sono sensibili e come vanno protetti.\n\nProviamo con un caso. Un'agenzia plurimandataria scopre che il proprio sito vetrina è rimasto irraggiungibile per due ore, il giorno dopo aver pubblicato un post su un tema politico internazionale. Nessun dato risulta sottratto. La minaccia più probabile è un attacco DDoS di matrice hacktivista, che, come abbiamo visto, è il tipo di incidente più frequente in Europa e di solito ha un impatto limitato. L'attaccante non cerca i dati: vuole colpire un bersaglio simbolico e farsi notare. Questo però non autorizza a ignorare l'episodio: l'agenzia deve verificare con il fornitore del sito che non ci siano state altre intrusioni, annotare l'accaduto e valutare se rafforzare le protezioni.\n\nRiepiloghiamo. Le famiglie di minacce sono sei: malware, hacker, spamming, intercettazione, social engineering e denial of service. In Europa il 77 per cento degli incidenti è costituito da attacchi DDoS, mentre il ransomware resta la minaccia più grave. In Italia, nel 2024, gli incidenti confermati sono stati 573, quasi il doppio dell'anno precedente. Gli hacker si collocano su una gerarchia di cinque livelli, e attaccano per divertimento, per le informazioni o per usare il nostro sistema. Nelle prossime lezioni approfondiamo tre minacce: l'intercettazione, il denial of service e, infine, gli strumenti per difendersi.",
+      "sources": [
+        {
+          "title": "ENISA, ETL 2025: EU consistently targeted by diverse yet convergent threat groups (1 ottobre 2025)",
+          "url": "https://www.enisa.europa.eu/news/etl-2025-eu-consistently-targeted-by-diverse-yet-convergent-threat-groups"
+        },
+        {
+          "title": "ACN, La Relazione annuale al Parlamento 2024 (13 maggio 2025)",
+          "url": "https://www.acn.gov.it/portale/en/w/la-relazione-annuale-al-parlamento-2024-di-acn"
+        },
+        {
+          "title": "ACN, Operational Summary II semestre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/operational_summary_h2_clear"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Dati ENISA Threat Landscape 2025: 4.875 incidenti, 77% DDoS, 2% con interruzione, phishing 60% e vulnerabilità 21,3% come vettori iniziali, ransomware minaccia più grave, quote per settore.",
+          "source_ref": "ENISA, ETL 2025: EU consistently targeted by diverse yet convergent threat groups (1 ottobre 2025)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dati ACN 2024 (1.979 eventi, 573 incidenti, +40% e +90%) e del II semestre 2025 (366 DDoS contro 182, 927 URL di phishing, ransomware sulle piccole imprese).",
+          "source_ref": "ACN, Relazione annuale 2024; Operational Summary II semestre 2025"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la Premessa, che elenca patch e firewall tra le minacce: precisato che sono strumenti di difesa, trattati nella lezione 4.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Contenuti sul malware (anatomia, 4 fasi, rilevamento statico e dinamico, offuscamento e pacchettizzazione, botnet, malware mobile, virus di file/boot/multipartiti/macro, worm, trojan, backdoor e keylogger, dialer, spyware, adware, considerazioni su dimensione, stealth e polimorfismo) riassunti in una slide con rimando all'argomento Malware, su indicazione del coordinamento, per evitare doppioni. Da verificare che l'argomento Malware copra tutte queste affermazioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Social engineering e sue 5 tecniche (phishing, pretexting, baiting, quid pro quo, tailgating) riassunti in una slide con rimando all'Area amministrativa e gestionale, per evitare doppioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi applicati all'agenzia assicurativa: domande per la politica di sicurezza, caso pratico sul DDoS hacktivista.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "L'intercettazione delle comunicazioni",
+      "source_files": [
+        "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf",
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "L'intercettazione delle comunicazioni",
+          "goals": [
+            "Distinguere intercettazione informatica e telematica",
+            "Riconoscere sniffing e accesso abusivo nelle situazioni di lavoro",
+            "Usare autenticazione e cifratura per neutralizzare l'intercettazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa vuol dire intercettare",
+          "key": "Intercettare significa catturare, ascoltare o copiare i dati mentre passano da un sistema all'altro, senza che mittente e destinatario se ne accorgano.",
+          "body": "A differenza del malware, l'intercettazione non deve per forza toccare il computer della vittima: le basta il tratto di rete in cui i dati viaggiano.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Informatica o telematica?",
+          "cols": [
+            {
+              "title": "Intercettazione informatica",
+              "items": [
+                "Riguarda i sistemi informatici",
+                "Computer ed elaboratori collegati fisicamente tra loro da cavi",
+                "Si scambiano dati e informazioni attraverso questi collegamenti"
+              ]
+            },
+            {
+              "title": "Intercettazione telematica",
+              "items": [
+                "Riguarda i sistemi telematici, cioè le reti di computer",
+                "Elaboratori non collegati in modo permanente da cavi",
+                "Comunicano via linee telefoniche, modulatori di toni, satelliti, canali televisivi o altro"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché la distinzione conta",
+          "key": "La distinzione riguarda l'oggetto dell'attività investigativa: i sistemi informatici oppure quelli telematici.",
+          "body": "Oggi quasi ogni sistema è anche in rete: il computer d'ufficio è collegato via cavo alla rete locale e, attraverso il router, a internet. In pratica le due forme si sovrappongono.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Lo sniffing",
+          "key": "Lo sniffing è l'attività di intercettazione passiva dei dati che passano in una rete telematica.",
+          "body": "Passiva vuol dire che l'attaccante non modifica nulla: osserva e registra. Per questo è difficile accorgersene. Se i dati viaggiano in chiaro, chi \"annusa\" la rete legge tutto: credenziali, messaggi, allegati.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'accesso abusivo",
+          "key": "Accedere abusivamente a un sistema per carpire dati sensibili: segreti politici, economici, industriali o strategici, oppure l'identità di singoli cittadini.",
+          "body": "Qui l'attaccante non si limita ad ascoltare: entra nel sistema. Per un intermediario il bersaglio sono l'archivio clienti, la posta elettronica, le credenziali dei portali delle compagnie.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Dove si rischia, nel lavoro di tutti i giorni",
+          "head": [
+            "Situazione",
+            "Perché è a rischio"
+          ],
+          "rows": [
+            [
+              "Wi-Fi pubblico (bar, hotel, stazione)",
+              "Rete condivisa con sconosciuti: chiunque può tentare lo sniffing"
+            ],
+            [
+              "Wi-Fi dell'ufficio con password debole o mai cambiata",
+              "Un estraneo nei paraggi può entrare nella rete locale"
+            ],
+            [
+              "Siti senza connessione protetta",
+              "I dati inseriti viaggiano in chiaro"
+            ],
+            [
+              "Invio di documenti dei clienti per e-mail",
+              "Allegati con dati personali possono essere letti se intercettati"
+            ],
+            [
+              "Accesso remoto ai gestionali da casa",
+              "Se il collegamento non è protetto, è un varco"
+            ]
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Le due contromisure",
+          "left": {
+            "title": "Autenticazione",
+            "items": [
+              "Garanzia che chi comunica, utente o sito, sia effettivamente chi dice di essere",
+              "Impedisce a un terzo di inserirsi fingendosi l'altro interlocutore"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Cifratura",
+            "items": [
+              "Si cifra il traffico",
+              "Il ricevente è in grado di decifrarlo, l'intercettatore no",
+              "Chi ascolta vede solo dati incomprensibili"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Servono entrambe: la cifratura protegge il contenuto, l'autenticazione garantisce che lo stiamo mandando alla persona giusta.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come funziona una comunicazione cifrata",
+          "steps": [
+            {
+              "label": "Verifica",
+              "text": "Il nostro computer verifica l'identità del sito o del destinatario."
+            },
+            {
+              "label": "Chiave",
+              "text": "Le due parti concordano una chiave che solo loro conoscono."
+            },
+            {
+              "label": "Cifratura",
+              "text": "I dati partono cifrati con quella chiave."
+            },
+            {
+              "label": "Decifratura",
+              "text": "Solo il destinatario, che ha la chiave, li rimette in chiaro."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La cifratura nel GDPR",
+          "key": "Titolare e responsabile del trattamento adottano misure tecniche e organizzative adeguate al rischio. Tra queste, se del caso, la pseudonimizzazione e la cifratura dei dati personali.",
+          "body": "Nel valutare il rischio si tiene conto in particolare della divulgazione non autorizzata e dell'accesso, accidentale o illegale, ai dati personali trasmessi, conservati o comunque trattati.",
+          "ref": "Reg. (UE) 2016/679, art. 32, par. 1, lett. a) e par. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, in agenzia",
+          "items": [
+            {
+              "text": "Controlla il lucchetto e l'indirizzo che inizia con https prima di inserire dati in un sito."
+            },
+            {
+              "text": "Su reti Wi-Fi pubbliche non accedere a gestionali e portali delle compagnie, o usa la connessione aziendale protetta indicata dal tuo referente informatico."
+            },
+            {
+              "text": "Proteggi il Wi-Fi dell'ufficio e tieni separata la rete per gli ospiti."
+            },
+            {
+              "text": "Per documenti con dati personali usa canali protetti o file cifrati, non allegati in chiaro."
+            },
+            {
+              "text": "Se un sito segnala un certificato non valido, fermati: potrebbe non essere chi dice di essere."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Dall'ascolto all'inganno: l'uomo nel mezzo",
+          "key": "Se mancano autenticazione e cifratura, chi intercetta può anche inserirsi tra i due interlocutori: riceve i dati, li legge, magari li modifica e li inoltra.",
+          "body": "Mittente e destinatario credono di parlarsi direttamente. Esempio tipico: una rete Wi-Fi falsa con il nome di quella del bar o dell'hotel.",
+          "ref": "Approfondimento didattico"
+        },
+        {
+          "layout": "table",
+          "title": "Segnali da non ignorare",
+          "head": [
+            "Segnale",
+            "Che cosa può indicare"
+          ],
+          "rows": [
+            [
+              "Il browser avvisa che la connessione non è privata",
+              "Il certificato del sito non è valido o qualcuno si è interposto"
+            ],
+            [
+              "Due reti Wi-Fi con lo stesso nome",
+              "Una delle due potrebbe essere una copia creata da un attaccante"
+            ],
+            [
+              "Il portale chiede di nuovo le credenziali senza motivo",
+              "Possibile pagina falsa o sessione intercettata"
+            ],
+            [
+              "Un cliente riceve una mail \"nostra\" con IBAN diverso",
+              "La corrispondenza potrebbe essere stata letta e sfruttata"
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un collaboratore, in attesa di un cliente al bar, si collega al Wi-Fi gratuito del locale e invia per e-mail al cliente il preventivo con codice fiscale, IBAN e dati sanitari dichiarati nel questionario.",
+          "questions": [
+            "A quali minacce si è esposto?",
+            "Che cosa avrebbe dovuto fare?"
+          ],
+          "solution": "Su una rete condivisa con sconosciuti è possibile lo sniffing, e senza autenticazione della rete non sa nemmeno se l'hotspot è davvero quello del bar. Dati sanitari e bancari richiedono misure adeguate al rischio, tra cui la cifratura. Avrebbe dovuto usare la connessione del proprio telefono o la connessione protetta aziendale, e inviare il documento attraverso un canale protetto o cifrato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa caratterizza lo sniffing?",
+          "options": [
+            "Modifica i dati prima che arrivino a destinazione",
+            "Intercetta in modo passivo i dati che passano in una rete",
+            "Satura un server con richieste",
+            "Si installa sul computer della vittima come un virus"
+          ],
+          "answer": 1,
+          "explanation": "Lo sniffing è intercettazione passiva: osserva e registra il traffico senza modificarlo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "La cifratura del traffico protegge dall'intercettazione perché:",
+          "options": [
+            "Impedisce ai dati di uscire dall'ufficio",
+            "Rende i dati leggibili dal ricevente ma non dall'intercettatore",
+            "Cancella i dati dopo l'invio",
+            "Blocca tutte le connessioni Wi-Fi"
+          ],
+          "answer": 1,
+          "explanation": "Chi ha la chiave decifra il messaggio; chi lo intercetta vede solo dati incomprensibili."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2",
+              "text": "forme: intercettazione informatica e telematica"
+            },
+            {
+              "value": "Sniffing",
+              "text": "intercettazione passiva del traffico di rete"
+            },
+            {
+              "value": "Accesso",
+              "text": "abusivo: entrare nel sistema per carpire dati"
+            },
+            {
+              "value": "2",
+              "text": "contromisure: autenticazione e cifratura"
+            },
+            {
+              "value": "Art. 32",
+              "text": "GDPR: cifratura tra le misure adeguate al rischio"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione ci occupiamo dell'intercettazione delle comunicazioni. È una minaccia meno visibile del malware o del blocco di un sito, perché spesso la vittima non si accorge di nulla. Vedremo la differenza tra intercettazione informatica e telematica, due esempi tipici come lo sniffing e l'accesso abusivo, e soprattutto le due contromisure che la neutralizzano: l'autenticazione e la cifratura.\n\nChe cosa vuol dire intercettare? Significa catturare, ascoltare o copiare i dati mentre passano da un sistema all'altro, senza che mittente e destinatario se ne accorgano. È l'equivalente digitale di chi apre una lettera, ne legge il contenuto e la richiude. Una differenza importante rispetto al malware: per intercettare non occorre per forza installare qualcosa sul computer della vittima. Basta riuscire ad accedere al tratto di rete in cui i dati viaggiano, ad esempio una rete senza fili condivisa.\n\nLa fonte distingue tra intercettazione informatica e intercettazione telematica. La differenza sta nel fatto che l'attività investigativa può interessare due tipi di sistemi. I sistemi informatici sono quelli formati da computer ed elaboratori collegati tra loro fisicamente da cavi, per scambiarsi dati e informazioni. I sistemi telematici, invece, sono formati da reti di elaboratori che non sono collegati in modo permanente tra loro da cavi e collegamenti fisici, ma che per comunicare usano linee telefoniche, modulatori di toni, satelliti, canali televisivi o altro: in una parola, le reti di computer.\n\nPerché questa distinzione conta? Perché definisce l'oggetto dell'attività investigativa. Nella realtà di oggi, però, le due forme si sovrappongono quasi sempre. Il computer della nostra scrivania è collegato via cavo alla rete locale dell'ufficio, e attraverso il router è collegato a internet. Lo smartphone usa il Wi-Fi e la rete mobile. Ogni comunicazione attraversa quindi sia tratti fisici sia tratti di rete, e ognuno di questi tratti può essere un punto di intercettazione.\n\nVediamo il primo esempio: lo sniffing. Il termine viene dall'inglese to sniff, annusare. Lo sniffing è l'attività di intercettazione passiva dei dati che passano in una rete telematica. Passiva vuol dire che l'attaccante non modifica nulla e non blocca nulla: osserva e registra. Proprio per questo è difficile accorgersene. Se i dati viaggiano in chiaro, cioè senza cifratura, chi annusa la rete legge tutto quello che passa: nomi utente e password, testi dei messaggi, allegati. Lo sniffing è particolarmente facile nelle reti condivise, dove molte persone sconosciute sono collegate allo stesso punto di accesso.\n\nIl secondo esempio è l'accesso abusivo. Qui l'attaccante non si limita ad ascoltare: entra in un sistema per carpire dati sensibili. La fonte cita segreti politici, economici, industriali o strategici, oppure l'identità di singoli cittadini. Per un intermediario assicurativo il bersaglio concreto è l'archivio dei clienti, la casella di posta elettronica, le credenziali di accesso ai portali delle compagnie mandanti. Spesso le due tecniche si combinano: con lo sniffing si catturano le credenziali, con le credenziali si entra nel sistema.\n\nDove si corre il rischio nel lavoro di tutti i giorni? Pensiamo al Wi-Fi pubblico di un bar, di un hotel o di una stazione: è una rete condivisa con sconosciuti, e chiunque sia collegato può tentare lo sniffing. Pensiamo al Wi-Fi dell'ufficio con una password debole o mai cambiata dall'installazione: un estraneo nei paraggi può entrare nella rete locale. Pensiamo ai siti che non usano una connessione protetta, dove i dati inseriti viaggiano in chiaro. Pensiamo all'abitudine di inviare per e-mail i documenti dei clienti, con dati personali e bancari, come semplici allegati. E pensiamo all'accesso da casa ai gestionali dell'agenzia: se il collegamento non è protetto, diventa un varco.\n\nCome si risolve l'intercettazione? La fonte indica due strumenti. Il primo è l'autenticazione, cioè la garanzia che chi comunica, che sia un utente o un sito, sia effettivamente chi dice di essere. L'autenticazione impedisce a un terzo di inserirsi nella comunicazione fingendosi l'altro interlocutore. Il secondo è la cifratura: si cifra il traffico, in modo che il ricevente sia in grado di decifrarlo, ma l'intercettatore no. Chi ascolta vede soltanto una sequenza di dati incomprensibili.\n\nServono entrambe. La cifratura da sola protegge il contenuto, ma se non verifichiamo con chi stiamo parlando, potremmo cifrare perfettamente i dati e mandarli proprio all'attaccante. L'autenticazione da sola garantisce l'identità dell'interlocutore, ma non impedisce a chi ascolta lungo la strada di leggere i dati. Insieme, garantiscono che i dati arrivino alla persona giusta e che solo lei possa leggerli.\n\nVediamo in modo semplice come funziona una comunicazione cifrata, ad esempio quando apriamo il portale di una compagnia. Per prima cosa il nostro computer verifica l'identità del sito, attraverso un certificato digitale. Poi le due parti concordano una chiave che solo loro conoscono. A quel punto i dati partono cifrati con quella chiave. Infine il destinatario, che possiede la chiave, li rimette in chiaro. Tutto questo avviene in pochi istanti, ogni volta che vediamo il lucchetto accanto all'indirizzo e l'indirizzo che inizia con https.\n\nLa cifratura non è solo una buona pratica tecnica: è richiamata anche dal Regolamento europeo sulla protezione dei dati personali, il GDPR. L'articolo 32 stabilisce che il titolare e il responsabile del trattamento mettono in atto misure tecniche e organizzative adeguate per garantire un livello di sicurezza adeguato al rischio. Tra queste misure, se del caso, la norma indica espressamente la pseudonimizzazione e la cifratura dei dati personali. Il paragrafo 2 aggiunge che nel valutare il livello di sicurezza si tiene conto in special modo dei rischi derivanti dalla divulgazione non autorizzata o dall'accesso, accidentale o illegale, a dati personali trasmessi, conservati o comunque trattati. L'intercettazione è proprio uno di questi rischi.\n\nUn cenno merita anche l'accesso remoto, sempre più diffuso con il lavoro da casa o in mobilità. Quando un collaboratore si collega dall'esterno al gestionale dell'agenzia, il collegamento attraversa reti che non controlliamo. Per questo si usano connessioni cifrate e autenticate, come le reti private virtuali, le cosiddette VPN. Attenzione però: anche questi strumenti vanno configurati e protetti bene. L'Agenzia per la Cybersicurezza Nazionale, nel suo rapporto sul secondo semestre 2025, indica proprio l'uso di servizi di accesso remoto, come le VPN, non correttamente configurati o protetti tra i principali fattori che hanno reso possibili gli attacchi ransomware, insieme alle credenziali già compromesse e alle vulnerabilità non sanate.\n\nTraduciamo tutto in comportamenti concreti per l'agenzia. Prima di inserire dati in un sito, controlla il lucchetto e l'indirizzo che inizia con https. Sulle reti Wi-Fi pubbliche evita di accedere ai gestionali e ai portali delle compagnie, oppure usa la connessione aziendale protetta che il tuo referente informatico ti ha indicato. Proteggi il Wi-Fi dell'ufficio e tieni separata la rete per gli ospiti, così che chi aspetta in sala d'attesa non sia nella stessa rete del gestionale. Per i documenti con dati personali usa canali protetti o file cifrati, non semplici allegati in chiaro. E se il browser segnala che il certificato di un sito non è valido, fermati: il sito potrebbe non essere quello che dice di essere.\n\nC'è poi un passo ulteriore rispetto allo sniffing. Se mancano autenticazione e cifratura, chi intercetta non si limita ad ascoltare: può inserirsi tra i due interlocutori. Riceve i dati del mittente, li legge, eventualmente li modifica e poi li inoltra al destinatario, che non si accorge di nulla. Mittente e destinatario credono di parlarsi direttamente, mentre in mezzo c'è un terzo. Per questo si parla di attacco dell'uomo nel mezzo. L'esempio più comune è una rete Wi-Fi falsa, creata con lo stesso nome di quella del bar o dell'hotel: chi si collega fa passare tutto il proprio traffico dal dispositivo dell'attaccante.\n\nCi sono alcuni segnali che non vanno mai ignorati. Il primo: il browser avvisa che la connessione non è privata o che il certificato non è valido. Può essere un errore di configurazione del sito, ma può anche voler dire che qualcuno si è interposto. In entrambi i casi non si inseriscono dati. Il secondo: nell'elenco delle reti disponibili compaiono due reti Wi-Fi con lo stesso nome; una delle due potrebbe essere una copia. Il terzo: il portale di una compagnia chiede di nuovo le credenziali senza motivo apparente, magari con una pagina leggermente diversa dal solito. Il quarto, molto concreto per chi lavora con i clienti: un cliente riceve una mail che sembra nostra, con un IBAN diverso da quello abituale per pagare il premio. È il segnale che la nostra corrispondenza potrebbe essere stata letta da qualcuno e sfruttata. In questo caso si avvisa subito il cliente per telefono, si cambiano le credenziali della posta e si coinvolge chi segue l'informatica dell'agenzia.\n\nOra un caso pratico. Un collaboratore, in attesa di un cliente al bar, si collega al Wi-Fi gratuito del locale e invia per e-mail al cliente il preventivo, con codice fiscale, IBAN e i dati sanitari dichiarati nel questionario. A quali minacce si è esposto? Su una rete condivisa con sconosciuti è possibile lo sniffing. Inoltre, senza alcuna autenticazione della rete, il collaboratore non sa nemmeno se l'hotspot a cui si è collegato è davvero quello del bar: potrebbe essere una rete creata ad arte da qualcuno seduto al tavolo accanto. Dati sanitari e bancari richiedono misure adeguate al rischio, e la cifratura è una di queste. Che cosa avrebbe dovuto fare? Usare la connessione del proprio telefono o la connessione protetta aziendale, e inviare il documento attraverso un canale protetto o in forma cifrata.\n\nRiepiloghiamo. L'intercettazione può essere informatica o telematica, a seconda dei sistemi coinvolti, ma oggi le due forme si sovrappongono. Lo sniffing è l'intercettazione passiva del traffico di rete; l'accesso abusivo è l'ingresso in un sistema per carpire dati. Le contromisure sono due e vanno usate insieme: l'autenticazione, che garantisce l'identità di chi comunica, e la cifratura, che rende i dati illeggibili per chi li intercetta. E il GDPR, all'articolo 32, indica la cifratura tra le misure di sicurezza adeguate al rischio.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante per la protezione dei dati personali",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018"
+        },
+        {
+          "title": "ACN, Operational Summary II semestre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/operational_summary_h2_clear"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Accesso remoto e VPN: servizi di accesso remoto non correttamente configurati o protetti tra i principali fattori abilitanti del ransomware (ACN).",
+          "source_ref": "ACN, Operational Summary II semestre 2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Approfondimento didattico sull'attacco dell'uomo nel mezzo e tabella dei segnali di allarme (non presenti nella fonte, contenuto tecnico generale senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 32 GDPR: misure adeguate al rischio, tra cui pseudonimizzazione e cifratura; rischi di divulgazione e accesso non autorizzati ai dati trasmessi.",
+          "source_ref": "Reg. (UE) 2016/679, art. 32, par. 1 lett. a) e par. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione didattica del funzionamento di una comunicazione cifrata (certificato, chiave, https) e situazioni di rischio tipiche del lavoro in agenzia, con checklist e caso pratico.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la distinzione tra intercettazione informatica (sistemi collegati da cavi) e telematica (reti non collegate in modo permanente da cavi). Il criterio dei cavi è semplificato e non corrisponde a una definizione normativa: precisato che oggi le due forme si sovrappongono. Riferimento da indicare / possibile aggiornamento con le norme del codice penale sulle intercettazioni informatiche e telematiche.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Denial of Service e DDoS",
+      "source_files": [
+        "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Denial of Service e DDoS",
+          "goals": [
+            "Capire che cosa sono DoS e DDoS e che ruolo hanno le botnet",
+            "Riconoscere le quattro categorie di attacco DDoS",
+            "Conoscere le difese e sapere come reagire se il servizio va giù"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un attacco DoS",
+          "key": "Un attacco Denial of Service è un'azione deliberata che punta a saturare le risorse di un sistema informatico che fornisce un servizio ai client a esso connessi.",
+          "body": "Non ruba dati e non li modifica: rende il servizio irraggiungibile. È un attacco alla disponibilità.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "DoS e DDoS",
+          "cols": [
+            {
+              "title": "DoS",
+              "items": [
+                "Una sola sorgente di traffico",
+                "Ci si difende bloccando quella sorgente",
+                "Scala limitata"
+              ]
+            },
+            {
+              "title": "DDoS (Distributed)",
+              "items": [
+                "Stessi scopi e stessi bersagli",
+                "Scala molto più ampia",
+                "Traffico da più botnet coordinate su più livelli",
+                "Bloccare una sorgente non basta"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le botnet: l'esercito del DDoS",
+          "key": "Una botnet è una rete di dispositivi collegati a internet e controllati da un'unica entità, il botmaster. I sistemi infetti si chiamano bot o zombie.",
+          "body": "Una botnet può contare milioni di sistemi infetti. Il proprietario di un computer o di una telecamera infetta spesso non sa di far parte dell'attacco.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le caratteristiche di un attacco DDoS",
+          "lead": "La fonte individua quattro categorie.",
+          "head": [
+            "Categoria",
+            "Che cosa colpisce",
+            "In parole semplici"
+          ],
+          "rows": [
+            [
+              "1 · Alla connessione TCP",
+              "Le risorse con cui il server gestisce le connessioni",
+              "Tante telefonate aperte e mai concluse: le linee sono tutte occupate"
+            ],
+            [
+              "2 · Volumetrici",
+              "La banda della connessione",
+              "Un'autostrada intasata: il traffico legittimo non passa"
+            ],
+            [
+              "3 · Di frammentazione",
+              "La capacità di ricomporre i pacchetti di dati",
+              "Un puzzle con pezzi che non combaciano mai"
+            ],
+            [
+              "4 · Applicativi",
+              "Il servizio vero e proprio, ad esempio il sito",
+              "Richieste che sembrano normali ma sono troppe"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "I numeri",
+          "title": "Quanto è diffuso",
+          "lead": "Il DDoS è oggi il tipo di attacco più frequente, ma raramente il più dannoso.",
+          "facts": [
+            {
+              "label": "77%",
+              "text": "degli incidenti in Europa (lug. 2024 - giu. 2025) sono DDoS"
+            },
+            {
+              "label": "Quasi 80%",
+              "text": "degli incidenti sono di matrice hacktivista, tutti tramite DDoS"
+            },
+            {
+              "label": "366",
+              "text": "attacchi DDoS contro soggetti italiani nel II semestre 2025 (+101%)"
+            },
+            {
+              "label": "7%",
+              "text": "di questi ha causato impatti misurabili, di solito disservizi di qualche ora"
+            }
+          ],
+          "ref": "ENISA Threat Landscape 2025; ACN, Operational Summary II sem. 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "L'hacktivismo",
+          "key": "Gli hacktivisti usano il DDoS come forma di protesta, spesso legata a tensioni geopolitiche.",
+          "body": "Secondo ACN, nel II semestre 2025 i settori più colpiti in Italia sono stati pubblica amministrazione, trasporti e telecomunicazioni, e l'attività hacktivista è in progressiva attenuazione.",
+          "ref": "ACN, Operational Summary II sem. 2025"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa rischia un intermediario",
+          "items": [
+            {
+              "text": "Sito irraggiungibile: i clienti non trovano contatti né informazioni."
+            },
+            {
+              "text": "Area clienti, preventivatore o sistema di pagamento online bloccati."
+            },
+            {
+              "text": "Posta o centralino in cloud rallentati, se condividono la stessa connessione."
+            },
+            {
+              "text": "Un DDoS può fare da diversivo mentre si tenta un altro attacco."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Come difendersi da un attacco DDoS",
+          "head": [
+            "Difesa",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Sinkholing",
+              "In caso di attacco devia il traffico verso un \"vicolo cieco\", per preservare stabilità e funzionalità delle risorse"
+            ],
+            [
+              "Router e firewall",
+              "Filtrano e scartano il traffico anomalo prima che arrivi al server"
+            ],
+            [
+              "Sistemi di rilevazione delle intrusioni",
+              "Riconoscono i modelli di traffico tipici di un attacco e danno l'allarme"
+            ],
+            [
+              "Configurazione del server",
+              "Limiti, tempi di attesa e servizi attivi impostati correttamente"
+            ],
+            [
+              "Stima in eccesso delle risorse",
+              "Il sistema regge picchi superiori a quelli previsti"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Se il sito va giù",
+          "steps": [
+            {
+              "label": "Verifica",
+              "text": "È un guasto o un attacco? Chiedi al fornitore del sito o della connessione."
+            },
+            {
+              "label": "Attiva il fornitore",
+              "text": "È lui che può filtrare o deviare il traffico."
+            },
+            {
+              "label": "Avvisa i clienti",
+              "text": "Indica canali alternativi: telefono, e-mail, sede."
+            },
+            {
+              "label": "Registra",
+              "text": "Annota orari, durata, effetti e azioni svolte."
+            },
+            {
+              "label": "Rivedi",
+              "text": "A fine attacco valuta se rafforzare le protezioni."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Non diventare uno zombie",
+          "items": [
+            {
+              "text": "Cambia le password predefinite di router, stampanti di rete e telecamere."
+            },
+            {
+              "text": "Aggiorna il software di questi dispositivi, non solo quello dei computer."
+            },
+            {
+              "text": "Spegni o scollega i dispositivi in rete che non usi più."
+            },
+            {
+              "text": "Se la connessione dell'ufficio è lenta senza motivo, fai controllare il traffico in uscita."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa chiedere al fornitore",
+          "items": [
+            {
+              "text": "Il servizio include una protezione dagli attacchi DDoS?"
+            },
+            {
+              "text": "Chi interviene in caso di attacco, e in quanto tempo?"
+            },
+            {
+              "text": "Le risorse del sito reggono picchi superiori al traffico normale?"
+            },
+            {
+              "text": "Riceveremo una relazione su cosa è successo e cosa è stato fatto?"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il portale di un broker per l'emissione online delle polizze viaggio smette di rispondere il venerdì prima di un ponte. Il fornitore rileva un traffico enorme da migliaia di indirizzi diversi in tutto il mondo.",
+          "questions": [
+            "È un DoS o un DDoS?",
+            "Basta bloccare un indirizzo?",
+            "Che cosa può fare il broker nell'immediato?"
+          ],
+          "solution": "Migliaia di sorgenti indicano un DDoS, probabilmente da una botnet: bloccare un singolo indirizzo non serve. Il fornitore può filtrare il traffico con router e firewall o deviarlo con il sinkholing. Il broker avvisa i clienti con canali alternativi per emettere le polizze urgenti, registra l'accaduto e, a fine emergenza, valuta con il fornitore risorse dimensionate in eccesso e sistemi di rilevazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa distingue un DDoS da un DoS?",
+          "options": [
+            "Il DDoS ruba i dati, il DoS no",
+            "Il DDoS arriva da molte sorgenti coordinate, il DoS da una sola",
+            "Il DDoS colpisce solo i computer, il DoS solo i telefoni",
+            "Non c'è differenza"
+          ],
+          "answer": 1,
+          "explanation": "Scopi e bersagli sono gli stessi; nel DDoS il traffico arriva da più botnet coordinate, su scala molto più ampia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale difesa consiste nel deviare il traffico dell'attacco verso un vicolo cieco?",
+          "options": [
+            "Honeypot",
+            "Patch",
+            "Sinkholing",
+            "Antispam"
+          ],
+          "answer": 2,
+          "explanation": "Il sinkholing devia il traffico verso un vicolo cieco per preservare stabilità e funzionalità delle risorse."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Disponibilità",
+              "text": "è ciò che il DoS colpisce: il servizio diventa irraggiungibile"
+            },
+            {
+              "value": "Botnet",
+              "text": "reti di bot o zombie guidate da un botmaster"
+            },
+            {
+              "value": "4",
+              "text": "categorie: TCP, volumetrici, frammentazione, applicativi"
+            },
+            {
+              "value": "77%",
+              "text": "degli incidenti in Europa sono DDoS"
+            },
+            {
+              "value": "5",
+              "text": "difese: sinkholing, router e firewall, IDS, configurazione, risorse in eccesso"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo del denial of service, la negazione del servizio, e della sua versione distribuita, il DDoS. Come abbiamo visto nella prima lezione, oggi è il tipo di attacco più frequente in Europa. Vedremo come funziona, che ruolo hanno le botnet, quali sono le quattro categorie di attacco, che cosa rischia un intermediario e come ci si difende.\n\nPartiamo dalla definizione. Un attacco DoS è un'azione deliberata che punta a saturare le risorse di un sistema informatico che fornisce un servizio ai client a esso connessi. Il client è chi usa il servizio: il browser di un cliente che apre il nostro sito, ad esempio. La particolarità del DoS è che non ruba dati e non li modifica. Il suo obiettivo è rendere il servizio irraggiungibile. Riprendendo le tre proprietà classiche della sicurezza, riservatezza, integrità e disponibilità, il DoS colpisce la disponibilità.\n\nUn'immagine aiuta. Immaginiamo il centralino dell'agenzia con tre linee. Se qualcuno chiama continuamente su tutte e tre e resta in linea senza parlare, nessun cliente vero riesce a telefonare. Il centralino funziona benissimo, ma è inutilizzabile. È esattamente quello che fa un attacco DoS a un server.\n\nChe differenza c'è tra DoS e DDoS? Un attacco Distributed Denial of Service ha gli stessi scopi e gli stessi bersagli, ma avviene su una scala molto più ampia. Nel primo caso bisogna difendersi da una sola sorgente di traffico, che si può identificare e bloccare. Nel secondo caso l'attacco è portato da più botnet coordinate su più livelli: le sorgenti sono migliaia o milioni, sparse in tutto il mondo, e bloccarne una non serve a nulla.\n\nMa che cos'è una botnet? È una rete formata da dispositivi collegati a internet e controllati da un'unica entità, chiamata botmaster. I singoli sistemi infetti si chiamano bot, oppure zombie, e una botnet può essere formata da milioni di sistemi. Questi dispositivi sono stati infettati da un malware, e il modo in cui avviene l'infezione lo vediamo nell'argomento dedicato al malware. Qui ci interessa una conseguenza: il proprietario di un computer, di un router o di una telecamera di sorveglianza infetta spesso non sa di far parte dell'attacco. Anche i dispositivi del nostro ufficio, se non aggiornati e protetti, possono diventare soldati di un esercito altrui. È la terza motivazione degli hacker vista nella prima lezione: avere bisogno di usare il nostro sistema.\n\nLa fonte individua quattro categorie di attacchi DDoS. Le spieghiamo in modo semplice. Gli attacchi alla connessione TCP colpiscono le risorse con cui il server gestisce le connessioni: è come aprire tantissime telefonate e non concluderle mai, finché tutte le linee sono occupate. Gli attacchi volumetrici puntano a saturare la banda, cioè la capacità della connessione: come un'autostrada intasata, dove il traffico legittimo non riesce più a passare. Gli attacchi di frammentazione inviano pacchetti di dati spezzati in modo che il sistema faccia fatica, o non riesca, a ricomporli: come un puzzle con pezzi che non combaciano mai. Infine gli attacchi applicativi colpiscono il servizio vero e proprio, ad esempio le pagine del sito o il modulo di preventivo, con richieste che sembrano normali ma sono troppe. Sono i più difficili da distinguere dal traffico legittimo.\n\nPer capire meglio la prima categoria, vediamo come nasce una connessione in internet. Quando il browser di un cliente vuole parlare con il nostro sito, si scambiano una sorta di stretta di mano in tre tempi: il client chiede di collegarsi, il server risponde che è pronto e si mette in attesa, il client conferma. Per ogni richiesta in attesa il server tiene da parte un po' di memoria. Se un attaccante invia moltissime richieste di collegamento e non conferma mai, il server resta con tante connessioni a metà, esaurisce le risorse e non riesce più ad accettare i clienti veri. Gli attacchi volumetrici, invece, non hanno bisogno di finezze: puntano solo sulla quantità, e per questo sfruttano botnet molto grandi. Gli attacchi applicativi sono i più subdoli, perché ogni singola richiesta è identica a quella di un utente normale: il problema è solo il numero.\n\nQuanto è diffuso il fenomeno? Secondo il rapporto ENISA 2025, il 77 per cento degli incidenti analizzati in Europa tra luglio 2024 e giugno 2025 è costituito da attacchi DDoS. Quasi l'80 per cento degli incidenti è di matrice ideologica, attribuito agli hacktivisti, e tutti sono stati condotti tramite DDoS. In Italia, l'Agenzia per la Cybersicurezza Nazionale ha contato 366 attacchi DDoS nel secondo semestre 2025, con un aumento del 101 per cento rispetto ai 182 dello stesso periodo del 2024. La buona notizia è che solo il 7 per cento di questi attacchi ha causato impatti misurabili, di solito disservizi temporanei di qualche ora per gli utenti dei portali colpiti. L'Agenzia sottolinea che gli impatti sono stati mitigati efficacemente, anche grazie alle segnalazioni tempestive del CSIRT Italia.\n\nChi sono gli hacktivisti? Sono gruppi che usano l'attacco informatico come forma di protesta, spesso legata a tensioni geopolitiche internazionali. Il loro obiettivo è la visibilità: colpire un sito simbolico e rivendicare l'attacco. Secondo l'Agenzia, nel secondo semestre 2025 i settori più colpiti in Italia sono stati la pubblica amministrazione, i trasporti e le telecomunicazioni, e i dati mostrano una progressiva attenuazione dell'attività hacktivista.\n\nChe cosa rischia concretamente un intermediario? Il sito irraggiungibile, con i clienti che non trovano contatti né informazioni. L'area clienti, il preventivatore o il sistema di pagamento online bloccati, magari in un momento di scadenze. La posta elettronica o il centralino in cloud rallentati, se condividono la stessa connessione. E un rischio meno evidente: un attacco DDoS può fare da diversivo, mentre l'attenzione di tutti è concentrata sul sito che non risponde, qualcuno tenta un altro tipo di attacco. Per questo, anche quando il DDoS sembra innocuo, conviene controllare che non sia accaduto altro.\n\nCome ci si difende? La fonte indica cinque strade. La prima è il sinkholing: in caso di attacco, si devia il traffico verso un vicolo cieco, in modo da preservare la stabilità e la piena funzionalità delle risorse informatiche. La seconda è l'uso di router e firewall, che filtrano e scartano il traffico anomalo prima che arrivi al server. La terza è l'installazione di sistemi di rilevazione delle intrusioni, che riconoscono i modelli di traffico tipici di un attacco e danno l'allarme. La quarta è configurare adeguatamente il server: limiti al numero di connessioni, tempi di attesa, servizi attivi solo se necessari. La quinta è effettuare una stima in eccesso delle risorse che saranno necessarie a un determinato sistema, in modo che regga picchi superiori a quelli previsti.\n\nC'è poi un aspetto di prevenzione che riguarda tutti: non diventare uno zombie. Le botnet si alimentano soprattutto di dispositivi dimenticati: router, stampanti di rete, telecamere, piccoli apparecchi collegati a internet con la password di fabbrica mai cambiata. Le regole sono semplici. Cambia le password predefinite di questi dispositivi al momento dell'installazione. Aggiorna anche il loro software, non solo quello dei computer. Spegni o scollega i dispositivi in rete che non usi più. E se la connessione dell'ufficio diventa lenta senza un motivo evidente, fai controllare il traffico in uscita: potrebbe esserci un dispositivo che partecipa, a nostra insaputa, all'attacco contro qualcun altro. Oltre al danno di immagine, una rete d'ufficio compromessa è anche una porta aperta verso i dati dei clienti.\n\nVa detto che, per una piccola agenzia, la maggior parte delle difese contro il DDoS non si costruisce in casa: si sceglie. Si sceglie un fornitore del sito e della connessione che offra protezione dagli attacchi DDoS, e si verifica nel contratto che cosa fa in caso di attacco. Le domande da porre sono quattro. Il servizio include una protezione dagli attacchi DDoS, e di che tipo? Chi interviene in caso di attacco, e in quanto tempo? Le risorse del sito sono dimensionate per reggere picchi superiori al traffico normale, come suggerisce la stima in eccesso indicata dalla fonte? E, a fine attacco, riceveremo una relazione su che cosa è successo e che cosa è stato fatto? Le risposte a queste domande valgono più di qualunque strumento installato in ufficio.\n\nE se il sito va giù? Ecco una sequenza semplice. Primo, verifica: è un guasto o un attacco? Chiedilo al fornitore del sito o della connessione. Secondo, attiva il fornitore, perché è lui che può filtrare o deviare il traffico. Terzo, avvisa i clienti e indica canali alternativi: il telefono, la posta elettronica, la sede. Quarto, registra orari, durata, effetti e azioni svolte: serviranno per valutare l'accaduto e, se necessario, per le comunicazioni previste. Quinto, a fine attacco rivedi le protezioni insieme al fornitore.\n\nVediamo un caso. Il portale di un broker per l'emissione online delle polizze viaggio smette di rispondere il venerdì prima di un ponte. Il fornitore rileva un traffico enorme proveniente da migliaia di indirizzi diversi in tutto il mondo. È un DoS o un DDoS? Migliaia di sorgenti indicano un DDoS, probabilmente condotto attraverso una botnet. Basta bloccare un indirizzo? No: le sorgenti sono troppe. Il fornitore può filtrare il traffico con router e firewall, oppure deviarlo con il sinkholing. Nell'immediato il broker avvisa i clienti e offre canali alternativi per emettere le polizze urgenti, registra l'accaduto e, finita l'emergenza, valuta con il fornitore di dimensionare le risorse in eccesso e di adottare sistemi di rilevazione.\n\nRiepiloghiamo. Il denial of service colpisce la disponibilità: il servizio esiste, ma non si raggiunge. Il DDoS ha gli stessi scopi su scala molto più ampia, e sfrutta botnet di bot o zombie guidate da un botmaster. Le categorie di attacco sono quattro: alla connessione TCP, volumetrici, di frammentazione e applicativi. È il tipo di incidente più frequente in Europa, ma raramente il più dannoso. Le difese sono il sinkholing, router e firewall, i sistemi di rilevazione delle intrusioni, la corretta configurazione del server e la stima in eccesso delle risorse.",
+      "sources": [
+        {
+          "title": "ENISA, ETL 2025: EU consistently targeted by diverse yet convergent threat groups (1 ottobre 2025)",
+          "url": "https://www.enisa.europa.eu/news/etl-2025-eu-consistently-targeted-by-diverse-yet-convergent-threat-groups"
+        },
+        {
+          "title": "ACN, Operational Summary II semestre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/operational_summary_h2_clear"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Dati DDoS: ENISA 2025 (77% degli incidenti, quasi 80% hacktivisti); ACN II semestre 2025 (366 attacchi contro 182, +101%, 7% con impatti misurabili, settori più colpiti, attenuazione dell'hacktivismo).",
+          "source_ref": "ENISA ETL 2025; ACN Operational Summary II semestre 2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione didattica delle 4 categorie di attacco DDoS (la fonte le elenca soltanto), rischi per l'intermediario, sequenza di reazione e caso pratico.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Ripresa dai contenuti sul malware la definizione di botnet (botmaster, bot o zombie, milioni di sistemi) perché necessaria a capire il DDoS.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di sinkholing come deviazione di \"tutto il traffico\" verso un vicolo cieco: nella pratica si cerca di deviare solo il traffico malevolo (deviare tutto equivale a rendere comunque irraggiungibile il servizio). Riferimento da indicare / possibile precisazione.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Gli strumenti di difesa: antivirus, firewall, patch, antispam e honeypot",
+      "source_files": [
+        "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf",
+        "corso totale/Area informatica /Principali minacce informatiche 1 (Video).mp4",
+        "corso totale/Area informatica /Principali minacce informatiche2  (Video).mp4",
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+      ],
+      "source_minutes": 20,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Gli strumenti di difesa",
+          "goals": [
+            "Sapere che cosa fanno antivirus, anti-spyware, firewall e patch",
+            "Riconoscere lo spamming e il ruolo dei filtri antispam",
+            "Capire a che cosa serve un honeypot e come si combinano le difese"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Difendersi a strati",
+          "key": "Nessuno strumento basta da solo: ognuno copre una parte del problema. La sicurezza nasce dalla combinazione.",
+          "body": "L'antivirus guarda i file, il firewall guarda il traffico, la patch chiude le falle, l'antispam filtra la posta, l'honeypot attira e studia gli attaccanti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'antivirus",
+          "key": "È essenziale contro i virus in senso stretto, perché è in grado di ripulire i file infetti, e serve per la scansione delle mail in arrivo.",
+          "body": "Lavora in due modi: con tecniche statiche, che confrontano i file con le \"firme\" dei codici malevoli noti, e con tecniche dinamiche, che osservano il comportamento dei programmi. I dettagli sono nell'argomento Malware.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Come reagisce l'antivirus",
+          "left": {
+            "title": "Rilevamento statico",
+            "items": [
+              "Ogni file ha una firma basata su algoritmi di hash",
+              "Se il file cambia, la firma non vale più",
+              "L'antivirus cerca corrispondenze con i codici virali noti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Rilevamento dinamico",
+            "items": [
+              "Analizza le operazioni svolte nel sistema",
+              "Davanti a un'azione allarmante può bloccare l'operazione",
+              "Oppure terminare il programma sospetto, o chiedere all'utente che cosa fare"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Per questo un antivirus va aggiornato: le firme nuove arrivano ogni giorno.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'anti-spyware",
+          "key": "Programmi usati per eliminare dal sistema diverse tipologie di malware, in particolare spyware e adware.",
+          "body": "Gli spyware raccolgono informazioni e abitudini dell'utente e le inviano a terzi; gli adware mostrano pubblicità e raccolgono dati sui siti visitati. Oggi molte suite di sicurezza integrano antivirus e anti-spyware.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il firewall",
+          "key": "Il \"muro tagliafuoco\" è un componente di difesa perimetrale di una rete: controlla il traffico internet in entrata e in uscita e respinge gli attacchi provenienti dall'esterno.",
+          "body": "Può collegare due o più parti di rete e si configura per proteggere l'intera rete o le singole applicazioni di un PC. La fonte lo descrive come componente passivo (fisico); esistono anche firewall software, già inclusi nei sistemi operativi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La patch",
+          "key": "La patch, detta anche fix, è la riparazione di una parte di un programma che mostra instabilità o problemi di sicurezza.",
+          "body": "Ogni falla non corretta è una porta aperta: secondo ENISA lo sfruttamento delle vulnerabilità è il secondo vettore d'ingresso, con il 21,3% delle intrusioni. Installare gli aggiornamenti appena disponibili è una delle difese più efficaci e meno costose.",
+          "ref": "Materiale originale del corso; ENISA Threat Landscape 2025"
+        },
+        {
+          "layout": "split",
+          "title": "Spamming e antispam",
+          "left": {
+            "title": "Lo spamming",
+            "items": [
+              "Invio massiccio di posta elettronica pubblicitaria e commerciale",
+              "Senza alcuna richiesta preventiva del destinatario",
+              "Spesso veicolo di phishing e allegati infetti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "L'antispam",
+            "items": [
+              "Svolge un'azione di filtraggio",
+              "Sposta o blocca i messaggi indesiderati",
+              "Va controllato: a volte trattiene anche mail legittime"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Per un intermediario anche le proprie comunicazioni commerciali devono rispettare il consenso dei destinatari: chi manda mail promozionali non richieste fa spamming.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'honeypot",
+          "key": "Il \"barattolo del miele\" è un sistema o componente hardware o software usato come trappola o esca, a fini di protezione contro gli attacchi dei pirati informatici.",
+          "body": "Sembra un bersaglio appetibile ma non contiene nulla di reale. Chi lo attacca rivela le proprie tecniche e viene individuato prima di arrivare ai sistemi veri. È uno strumento da specialisti, che si trova di solito presso i fornitori di sicurezza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Quale strumento contro quale minaccia",
+          "head": [
+            "Strumento",
+            "Contro che cosa",
+            "Dove agisce"
+          ],
+          "rows": [
+            [
+              "A · Antivirus",
+              "Virus e malware in generale",
+              "File e posta in arrivo"
+            ],
+            [
+              "S · Anti-spyware",
+              "Spyware e adware",
+              "Programmi installati"
+            ],
+            [
+              "F · Firewall",
+              "Attacchi esterni, traffico non autorizzato",
+              "Confine della rete o del PC"
+            ],
+            [
+              "P · Patch",
+              "Sfruttamento delle vulnerabilità",
+              "Sistema operativo e programmi"
+            ],
+            [
+              "M · Antispam",
+              "Spamming e messaggi indesiderati",
+              "Posta elettronica"
+            ],
+            [
+              "H · Honeypot",
+              "Attaccanti da individuare e studiare",
+              "Sistemi esca"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Verificare che le difese funzionino",
+          "key": "Il GDPR chiede una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure tecniche e organizzative.",
+          "body": "Non basta installare: occorre controllare che antivirus e firewall siano attivi, che gli aggiornamenti siano stati applicati e che i dati si possano ripristinare in caso di incidente.",
+          "ref": "Reg. (UE) 2016/679, art. 32, par. 1, lett. c) e d)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il controllo mensile in agenzia",
+          "items": [
+            {
+              "text": "Antivirus attivo e aggiornato su tutti i computer, compresi i portatili dei collaboratori."
+            },
+            {
+              "text": "Firewall del sistema operativo e del router attivo."
+            },
+            {
+              "text": "Aggiornamenti di sistema operativo, browser e programmi installati."
+            },
+            {
+              "text": "Cartella dello spam controllata: nessuna mail legittima di clienti o compagnie trattenuta."
+            },
+            {
+              "text": "Una prova di ripristino dei dati dalla copia di sicurezza."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Gli errori che vanificano le difese",
+          "head": [
+            "Errore",
+            "Perché è un problema"
+          ],
+          "rows": [
+            [
+              "Disattivare l'antivirus \"solo per oggi\"",
+              "Spesso resta spento e il computer resta scoperto"
+            ],
+            [
+              "Rimandare sempre gli aggiornamenti",
+              "Le falle note restano aperte: meglio programmarli a fine giornata"
+            ],
+            [
+              "Aprire un allegato segnalato perché \"è di un cliente\"",
+              "Il mittente può essere falso o compromesso"
+            ],
+            [
+              "Dimenticare smartphone e tablet",
+              "Contengono posta di lavoro e app delle compagnie"
+            ],
+            [
+              "\"Siamo piccoli, non interessiamo\"",
+              "Il ransomware colpisce soprattutto le piccole imprese (ACN)"
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il computer della segreteria di un'agenzia mostra da settimane l'avviso \"aggiornamenti disponibili\", sempre rimandato. L'antivirus risulta scaduto da due mesi. Un cliente si lamenta di non ricevere più risposte: le sue mail finiscono nello spam.",
+          "questions": [
+            "Quali difese non stanno funzionando?",
+            "Che cosa va fatto, e in che ordine?"
+          ],
+          "solution": "Le patch non applicate lasciano aperte vulnerabilità note; l'antivirus scaduto non riceve le nuove firme; il filtro antispam trattiene mail legittime. Va rinnovato e aggiornato subito l'antivirus, installati gli aggiornamenti, eseguita una scansione completa, segnalato il mittente come attendibile nel filtro e introdotto un controllo periodico, come previsto dall'art. 32 GDPR."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è una patch?",
+          "options": [
+            "Un programma che filtra la posta indesiderata",
+            "La riparazione di un programma che mostra instabilità o problemi di sicurezza",
+            "Un sistema esca per attirare gli attaccanti",
+            "Un componente che controlla il traffico in entrata"
+          ],
+          "answer": 1,
+          "explanation": "La patch, o fix, ripara un difetto di un programma. Il filtro della posta è l'antispam, l'esca è l'honeypot, il controllo del traffico è il firewall."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "A che cosa serve un honeypot?",
+          "options": [
+            "A cifrare il traffico",
+            "A ripulire i file infetti",
+            "A fare da trappola o esca contro gli attacchi dei pirati informatici",
+            "A bloccare le pubblicità"
+          ],
+          "answer": 2,
+          "explanation": "L'honeypot è un sistema esca: chi lo attacca rivela le proprie tecniche senza raggiungere i sistemi reali."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Strati",
+              "text": "nessuno strumento basta da solo"
+            },
+            {
+              "value": "2",
+              "text": "modi di rilevare dell'antivirus: statico e dinamico"
+            },
+            {
+              "value": "Firewall",
+              "text": "controlla il traffico in entrata e in uscita"
+            },
+            {
+              "value": "Patch",
+              "text": "chiude le falle: aggiorna subito"
+            },
+            {
+              "value": "Honeypot",
+              "text": "l'esca che attira e smaschera gli attaccanti"
+            }
+          ]
+        }
+      ],
+      "narration": "Nelle lezioni precedenti abbiamo visto le minacce. In questa lezione vediamo gli strumenti per difendersi: l'antivirus, l'anti-spyware, il firewall, la patch, l'antispam e l'honeypot. Per ognuno capiremo che cosa fa, contro quale minaccia è efficace e che cosa vuol dire, in pratica, usarlo bene in un'agenzia o in uno studio di brokeraggio.\n\nUna premessa importante: nessuno strumento basta da solo. Ognuno copre una parte del problema. L'antivirus guarda i file, il firewall guarda il traffico, la patch chiude le falle dei programmi, l'antispam filtra la posta, l'honeypot attira e studia gli attaccanti. La sicurezza nasce dalla combinazione di questi strati, un po' come in una casa, dove la porta blindata, l'allarme e la cassaforte servono a cose diverse e funzionano meglio insieme.\n\nCominciamo dall'antivirus. La sua presenza è essenziale nel caso dei virus in senso stretto, perché è in grado di ripulire i file infetti, ed è utile per la scansione delle mail in arrivo. L'antivirus lavora in due modi. Con le tecniche statiche, a ogni file viene attribuita una firma, basata su algoritmi di hash, che lo identifica in modo univoco e perde validità se il file viene modificato: l'antivirus esamina i file e cerca corrispondenze con le sequenze dei codici virali noti. Con le tecniche dinamiche, invece, analizza tutte le operazioni svolte nel sistema e osserva il comportamento dei programmi. Se rileva un'azione allarmante, può bloccare l'operazione in corso, terminare il programma sospetto oppure chiedere all'utente quale azione intraprendere. Le tecniche con cui il malware cerca di sfuggire a questi controlli sono trattate nell'argomento dedicato al malware.\n\nDa qui una regola pratica: l'antivirus va tenuto aggiornato. Le firme dei nuovi codici malevoli arrivano continuamente, e un antivirus scaduto o non aggiornato riconosce soltanto le minacce di ieri. E quando l'antivirus ci chiede che cosa fare con un programma sospetto, non dobbiamo rispondere in automatico consenti solo per far sparire il messaggio: nel dubbio, si blocca e si chiede a chi segue l'informatica dell'agenzia.\n\nIl secondo strumento è l'anti-spyware. Si tratta di programmi usati per eliminare dal sistema diverse tipologie di malware, in particolare spyware e adware. Ricordiamo brevemente: gli spyware sono programmi che spiano l'utente, raccolgono informazioni e abitudini e le inviano via internet a terzi; gli adware mostrano messaggi pubblicitari, reindirizzano le ricerche e raccolgono informazioni sui siti visitati. Oggi molte suite di sicurezza integrano in un unico prodotto antivirus e anti-spyware.\n\nIl terzo strumento è il firewall, letteralmente muro tagliafuoco, come le pareti che negli edifici impediscono a un incendio di propagarsi. La fonte lo descrive come un componente passivo, fisico, di difesa perimetrale di una rete informatica, che può anche svolgere funzioni di collegamento tra due o più parti di rete. Il firewall viene configurato in modo da proteggere l'intera rete o le singole applicazioni di un PC. Il suo compito è controllare il traffico internet in entrata e in uscita dal computer e respingere eventuali attacchi provenienti dall'esterno. Una precisazione: oltre ai firewall fisici, cioè apparecchi dedicati, esistono firewall software, già inclusi nei sistemi operativi e in molti router. Per una piccola agenzia, il minimo è avere attivo il firewall del sistema operativo su ogni computer e quello del router.\n\nIl quarto strumento è la patch, chiamata anche fix. È la riparazione di una parte di un programma informatico che mostra instabilità o problemi connessi con la sicurezza. Ogni programma ha dei difetti; quando il produttore ne scopre uno che può essere sfruttato da un attaccante, pubblica una patch per correggerlo. Da quel momento la falla è nota a tutti, anche agli attaccanti, e chi non aggiorna resta esposto. Secondo il rapporto ENISA 2025, lo sfruttamento delle vulnerabilità è il secondo vettore d'ingresso degli attacchi, con il 21,3 per cento delle intrusioni iniziali. L'Agenzia per la Cybersicurezza Nazionale cita lo sfruttamento di vulnerabilità non sanate tra i principali fattori abilitanti del ransomware. Installare gli aggiornamenti appena disponibili, invece di rimandarli per settimane, è una delle difese più efficaci e meno costose che esistano.\n\nIl quinto strumento è l'antispam. Lo spamming consiste nell'invio massiccio di messaggi di posta elettronica a carattere pubblicitario e commerciale, senza alcuna richiesta preventiva da parte del destinatario. Lo spam non è solo un fastidio: spesso è il veicolo del phishing e degli allegati infetti. Gli antispam svolgono un'azione di filtraggio: riconoscono i messaggi indesiderati e li bloccano o li spostano in una cartella separata. Attenzione però: a volte trattengono anche mail legittime, ad esempio la comunicazione di un cliente o di una compagnia. Per questo la cartella dello spam va controllata con regolarità. E c'è anche l'altro lato della medaglia: un intermediario che invia mail promozionali a chi non le ha richieste sta facendo, a sua volta, spamming.\n\nUna buona abitudine legata all'antispam: quando nella casella arriva comunque un messaggio sospetto, non basta cancellarlo. Se il programma di posta lo consente, va segnalato come spam o come phishing: così il filtro impara e protegge meglio anche i colleghi. Se il messaggio finge di provenire da una compagnia mandante, conviene avvisare anche la compagnia, che potrebbe essere bersaglio di una campagna più ampia. E naturalmente non si clicca sui link e non si aprono gli allegati per vedere che cosa contengono: la curiosità è proprio ciò su cui contano gli attaccanti.\n\nIl sesto strumento è l'honeypot, il barattolo del miele. È un sistema o un componente, hardware o software, usato come trappola o esca, a fini di protezione contro gli attacchi dei pirati informatici. L'idea è semplice: si mette in rete qualcosa che sembra un bersaglio appetibile, ma che non contiene nulla di reale. Chi lo attacca si espone, rivela le proprie tecniche e viene individuato prima di arrivare ai sistemi veri. L'honeypot è uno strumento da specialisti: difficilmente lo troveremo in una piccola agenzia, ma è usato dai fornitori di servizi di sicurezza per studiare le minacce e migliorare le difese di tutti.\n\nMettiamo insieme gli strumenti con le minacce. L'antivirus agisce su file e posta in arrivo, contro virus e malware in generale. L'anti-spyware agisce sui programmi installati, contro spyware e adware. Il firewall agisce sul confine della rete o del PC, contro attacchi esterni e traffico non autorizzato; come abbiamo visto, router e firewall sono anche tra le difese contro il DDoS. La patch agisce su sistema operativo e programmi, contro lo sfruttamento delle vulnerabilità. L'antispam agisce sulla posta elettronica, contro lo spamming. L'honeypot fa da esca per individuare e studiare gli attaccanti.\n\nInstallare gli strumenti non basta: bisogna verificare che funzionino. Lo chiede anche il GDPR. L'articolo 32 indica, tra le misure di sicurezza, la capacità di ripristinare tempestivamente la disponibilità e l'accesso dei dati personali in caso di incidente fisico o tecnico, e una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure tecniche e organizzative. In parole semplici: controllare periodicamente che le difese siano attive e che, se qualcosa va storto, i dati si possano recuperare.\n\nEcco allora un controllo mensile alla portata di qualunque agenzia. Verificare che l'antivirus sia attivo e aggiornato su tutti i computer, compresi i portatili dei collaboratori. Verificare che il firewall del sistema operativo e del router sia attivo. Verificare che gli aggiornamenti del sistema operativo, del browser e dei programmi installati siano stati applicati. Controllare la cartella dello spam, per essere sicuri che nessuna mail legittima di clienti o compagnie sia rimasta bloccata. E fare una prova di ripristino dei dati dalla copia di sicurezza: una copia mai provata è una copia di cui non sappiamo nulla.\n\nVale la pena ricordare anche gli errori più comuni, quelli che vanificano strumenti perfettamente validi. Disattivare l'antivirus perché rallenta il computer, magari solo per un giorno, e poi dimenticarsene. Rimandare all'infinito gli aggiornamenti perché arrivano sempre nel momento sbagliato: conviene programmarli a fine giornata, in modo che si installino quando nessuno lavora. Aprire comunque un allegato che l'antivirus ha segnalato, perché sembra provenire da un cliente conosciuto. Dimenticare smartphone e tablet, che contengono la posta di lavoro e le app delle compagnie e meritano la stessa attenzione dei computer. E infine pensare che una piccola agenzia non interessi a nessuno: come abbiamo visto con i dati dell'Agenzia per la Cybersicurezza Nazionale, il ransomware colpisce in larga misura proprio le piccole imprese.\n\nVediamo un caso. Il computer della segreteria di un'agenzia mostra da settimane l'avviso aggiornamenti disponibili, sempre rimandato. L'antivirus risulta scaduto da due mesi. Nel frattempo un cliente si lamenta di non ricevere più risposte: le sue mail finiscono nello spam. Quali difese non funzionano? Tre. Le patch non applicate lasciano aperte vulnerabilità ormai note. L'antivirus scaduto non riceve le nuove firme e riconosce solo le minacce vecchie. Il filtro antispam trattiene mail legittime. Che cosa fare, e in che ordine? Prima di tutto rinnovare e aggiornare l'antivirus, poi installare gli aggiornamenti, quindi eseguire una scansione completa del computer. Poi segnalare il mittente come attendibile nel filtro antispam e rispondere al cliente. Infine introdurre un controllo periodico, così che la situazione non si ripeta.\n\nRiepiloghiamo. La difesa funziona a strati, perché nessuno strumento basta da solo. L'antivirus rileva il malware in due modi, statico e dinamico, e va tenuto aggiornato. L'anti-spyware elimina spyware e adware. Il firewall controlla il traffico in entrata e in uscita e respinge gli attacchi esterni. La patch chiude le falle dei programmi: gli aggiornamenti vanno installati subito. L'antispam filtra la posta indesiderata, ma la cartella va controllata. L'honeypot è l'esca che attira e smaschera gli attaccanti. E tutto va verificato con regolarità, come chiede anche l'articolo 32 del GDPR.",
+      "sources": [
+        {
+          "title": "ENISA, ETL 2025: EU consistently targeted by diverse yet convergent threat groups (1 ottobre 2025)",
+          "url": "https://www.enisa.europa.eu/news/etl-2025-eu-consistently-targeted-by-diverse-yet-convergent-threat-groups"
+        },
+        {
+          "title": "ACN, Operational Summary II semestre 2025",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/operational_summary_h2_clear"
+        },
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante per la protezione dei dati personali",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Sfruttamento delle vulnerabilità come secondo vettore d'ingresso (21,3%, ENISA) e vulnerabilità non sanate tra i fattori abilitanti del ransomware (ACN), a supporto dell'importanza delle patch.",
+          "source_ref": "ENISA ETL 2025; ACN Operational Summary II semestre 2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 32 GDPR, par. 1 lett. c) e d): ripristino dei dati e verifica periodica dell'efficacia delle misure; checklist di controllo mensile e caso pratico.",
+          "source_ref": "Reg. (UE) 2016/679, art. 32"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di firewall come \"componente passivo (fisico)\": precisato che esistono anche firewall software, inclusi nei sistemi operativi e nei router.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Rilevamento statico (firma hash) e dinamico dell'antivirus richiamato in una slide come funzionamento dello strumento di difesa; offuscamento, stub e pacchettizzazione rimandati all'argomento Malware.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretti i refusi della fonte (\"Antivirsu\", \"Malwer\", \"Blackdoors\", \"Pishing\", \"veiene\").",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}

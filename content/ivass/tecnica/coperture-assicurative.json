@@ -1,0 +1,959 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Principali tipologie di coperture assicurative",
+  "topic_order": 3,
+  "scope": "core",
+  "source_minutes": 45,
+  "lessons": [
+    {
+      "title": "Le assicurazioni sulla vita",
+      "source_files": [
+        "corso totale/Principali tipologie di coperture assicurative (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Principali tipologie di coperture riassicurative /Principali tipologie di coperture assicurative prima parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di coperture assicurative",
+          "title": "Le assicurazioni sulla vita",
+          "goals": [
+            "Riconoscere i sei rami vita previsti dal Codice delle assicurazioni",
+            "Distinguere caso vita, caso morte e forme miste",
+            "Collegare i prodotti vita ai bisogni concreti di famiglie e imprese"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un'assicurazione sulla vita",
+          "key": "L'assicuratore, a fronte di un premio, si obbliga a pagare una rendita o un capitale al verificarsi di un evento attinente alla vita di una o più persone.",
+          "body": "Il Codice civile definisce l'assicurazione come il contratto con cui l'assicuratore, verso un premio, risarcisce un danno oppure paga un capitale o una rendita al verificarsi di un evento attinente alla vita umana.",
+          "ref": "Codice civile, art. 1882"
+        },
+        {
+          "layout": "facts",
+          "title": "Protezione e risparmio",
+          "lead": "La polizza vita non serve solo a proteggere: è anche uno strumento di risparmio.",
+          "facts": [
+            {
+              "label": "Risparmio",
+              "text": "Con premi periodici, per un certo periodo, si accumula un capitale da ritirare a scadenza per diversi impieghi."
+            },
+            {
+              "label": "Durata",
+              "text": "Medio-lunga: 10-20 anni, a volte l'intera vita della persona."
+            },
+            {
+              "label": "Su un terzo",
+              "text": "Si può assicurare la vita propria o di un terzo. Per il caso morte di un terzo serve il suo consenso scritto."
+            }
+          ],
+          "ref": "Materiale originale del corso; c.c., art. 1919"
+        },
+        {
+          "layout": "table",
+          "title": "I sei rami vita",
+          "head": [
+            "Ramo",
+            "Che cosa copre"
+          ],
+          "rows": [
+            [
+              "I · Durata della vita umana",
+              "La prestazione dipende dalla durata della vita dell'assicurato."
+            ],
+            [
+              "II · Nuzialità e natalità",
+              "Prestazioni legate a eventi della famiglia, come un matrimonio o la nascita di un figlio."
+            ],
+            [
+              "III · Collegate a fondi o indici",
+              "Polizze dei rami I e II con prestazioni collegate a quote di OICR, fondi interni o indici."
+            ],
+            [
+              "IV · Malattia e non autosufficienza",
+              "Contratti di lunga durata, non rescindibili, per invalidità grave da malattia, infortunio o longevità."
+            ],
+            [
+              "V · Capitalizzazione",
+              "Operazioni finanziarie senza legame con eventi della vita umana."
+            ],
+            [
+              "VI · Fondi collettivi",
+              "Gestione di fondi per prestazioni in caso di morte, di vita, di cessazione o riduzione dell'attività lavorativa."
+            ]
+          ],
+          "ref": "CAP, art. 2, c. 1"
+        },
+        {
+          "layout": "compare",
+          "title": "Ramo I: le tre forme classiche",
+          "cols": [
+            {
+              "title": "Caso vita",
+              "items": [
+                "L'assicuratore paga solo se l'assicurato è in vita alla data stabilita",
+                "Tipico del risparmio e della previdenza"
+              ]
+            },
+            {
+              "title": "Caso morte",
+              "items": [
+                "L'assicuratore paga il capitale solo se l'assicurato muore",
+                "Protegge chi resta: famiglia, soci, creditori"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le prestazioni in caso di vita",
+          "head": [
+            "Forma",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Capitale differito",
+              "Un capitale a una data stabilita, se l'assicurato è ancora vivo."
+            ],
+            [
+              "Rendita vitalizia immediata",
+              "Una rendita che parte subito e dura fino alla morte dell'assicurato."
+            ],
+            [
+              "Rendita vitalizia differita",
+              "Una rendita che parte da una certa data, se l'assicurato è in vita, e dura fino alla sua morte."
+            ],
+            [
+              "Rendita vitalizia temporanea",
+              "Una rendita pagata finché l'assicurato vive o fino alla scadenza del contratto."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le assicurazioni miste",
+          "lead": "Combinano una o più coperture caso vita con una o più coperture caso morte.",
+          "head": [
+            "Forma",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Mista ordinaria",
+              "Paga alla data stabilita se l'assicurato è vivo, oppure alla morte se avviene prima."
+            ],
+            [
+              "Mista a termine fisso",
+              "Paga il capitale a una data fissata, che l'assicurato sia vivo o già deceduto."
+            ],
+            [
+              "Mista combinata",
+              "Il capitale per il caso vita è maggiore di quello per il caso morte."
+            ],
+            [
+              "Mista a capitale raddoppiato",
+              "Alla scadenza, se l'assicurato è vivo, paga due volte il capitale assicurato."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Ramo III: le polizze collegate ai mercati",
+          "key": "Sono polizze dei rami I e II le cui prestazioni principali sono collegate al valore di quote di OICR o di fondi interni, oppure a indici o altri valori di riferimento.",
+          "body": "Il materiale originale le descrive così: i premi sono investiti in fondi comuni di investimento, obbligazionari, azionari o bilanciati, anziché in titoli a reddito fisso. Il rischio di investimento è in tutto o in parte a carico del cliente.",
+          "ref": "CAP, art. 2, c. 1, ramo III"
+        },
+        {
+          "layout": "split",
+          "title": "Rami IV, V e VI",
+          "left": {
+            "title": "Ramo IV · Malattia",
+            "items": [
+              "Polizze con profilo contrattuale di lunga durata",
+              "Secondo la fonte non si possono stipulare per meno di cinque anni",
+              "Il CAP parla di contratti di lunga durata e non rescindibili, anche per la non autosufficienza"
+            ],
+            "ref": "CAP, art. 2, c. 1, ramo IV"
+          },
+          "right": {
+            "title": "Rami V e VI",
+            "items": [
+              "V: capitalizzazione, operazioni finanziarie senza legame con la vita umana",
+              "VI: fondi collettivi che pagano prestazioni in caso di morte, di vita, di cessazione o riduzione dell'attività lavorativa"
+            ],
+            "ref": "CAP, art. 2, c. 1, rami V e VI"
+          },
+          "note": "Ramo II: la prestazione è collegata a eventi dello sviluppo del nucleo familiare, come la nascita di un figlio.",
+          "noteRef": "CAP, art. 2, c. 1, ramo II"
+        },
+        {
+          "layout": "concept",
+          "title": "La vita serve anche alle imprese",
+          "key": "L'offerta di prodotti vita non è importante solo per le famiglie: è fondamentale anche per le imprese e per lo svolgimento della loro attività.",
+          "body": "Un esempio classico: la banca può chiedere una polizza caso morte quando concede un mutuo. Se il mutuatario muore prima della scadenza, la somma liquidata dalla compagnia serve a saldare il debito verso la banca.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Marco, 38 anni, sta per firmare un mutuo trentennale per la casa. Ha moglie e due figli piccoli. La banca gli propone una polizza caso morte collegata al mutuo. Marco ti chiede anche come mettere da parte un capitale per l'università dei figli.",
+          "questions": [
+            "Quale bisogno copre la polizza caso morte e chi ne beneficia?",
+            "Quale forma vita risponde al bisogno di risparmio?"
+          ],
+          "solution": "La caso morte protegge la famiglia: se Marco muore prima della fine del mutuo, l'indennizzo estingue il debito e la casa resta alla famiglia. Per l'università dei figli è adatto un capitale differito, oppure una mista se Marco vuole anche una prestazione in caso di premorienza. Va verificata l'adeguatezza al profilo e alle esigenze del cliente."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella mista a termine fisso, quando viene pagato il capitale?",
+          "options": [
+            "Solo se l'assicurato è vivo alla scadenza",
+            "Solo se l'assicurato muore prima della scadenza",
+            "A una data fissata, che l'assicurato sia vivo o deceduto",
+            "Due volte alla scadenza"
+          ],
+          "answer": 2,
+          "explanation": "Nella mista a termine fisso il capitale è pagato alla data fissata indipendentemente dal fatto che l'assicurato sia vivo o già deceduto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In quale ramo vita rientra una polizza unit linked collegata a fondi interni?",
+          "options": [
+            "Ramo I",
+            "Ramo III",
+            "Ramo V",
+            "Ramo VI"
+          ],
+          "answer": 1,
+          "explanation": "Il ramo III comprende le polizze dei rami I e II con prestazioni collegate a quote di OICR, fondi interni o indici."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "6",
+              "text": "rami vita, dal ramo I (durata della vita) al ramo VI (fondi collettivi)"
+            },
+            {
+              "value": "3",
+              "text": "forme del ramo I: caso vita, caso morte, mista"
+            },
+            {
+              "value": "10-20",
+              "text": "anni: la durata tipica dei contratti vita"
+            },
+            {
+              "value": "Mutuo",
+              "text": "la caso morte protegge famiglia e banca"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento facciamo una panoramica delle principali coperture che un intermediario incontra ogni giorno. Le tipologie di riassicurazione, cioè quota, eccedente, excess of loss e stop loss, sono trattate nell'area giuridica, nell'argomento sul contratto di assicurazione e riassicurazione. Qui ci concentriamo sui rischi che, a valle, le imprese possono poi cedere in riassicurazione: le coperture vita, in questa prima lezione, e le coperture danni nelle due successive.\n\nPartiamo dalla definizione. Quando l'assicuratore, a fronte di un premio, si obbliga a pagare all'assicurato una rendita o un capitale qualora si verifichi un evento inerente alla vita di una o più persone, siamo nel campo delle assicurazioni sulla vita. È la seconda metà della definizione di assicurazione dell'articolo 1882 del Codice civile: l'assicuratore, verso il pagamento di un premio, si obbliga a risarcire un danno, oppure a pagare un capitale o una rendita al verificarsi di un evento attinente alla vita umana.\n\nLa polizza vita ha una doppia anima. Da un lato protegge. Dall'altro è uno strumento di risparmio: attraverso il pagamento periodico di premi, per un determinato periodo, si accumula un capitale da ritirare a scadenza, sufficiente per far fronte a diversi impieghi, come gli studi dei figli, l'acquisto della casa o l'integrazione della pensione. Per questo i contratti vita hanno una durata medio-lunga, in genere dieci-vent'anni, se non addirittura l'intera vita della persona. Ricordiamo anche una regola del Codice civile, l'articolo 1919: si può assicurare la vita propria o quella di un terzo, ma l'assicurazione per il caso di morte di un terzo non è valida senza il suo consenso, che deve essere provato per iscritto.\n\nIl Codice delle assicurazioni private, all'articolo 2, classifica i rami vita in sei rami. Il ramo I comprende le assicurazioni sulla durata della vita umana: la prestazione dipende da quanto vive l'assicurato. Il ramo II comprende le assicurazioni di nuzialità e di natalità. Il ramo III comprende le polizze dei rami I e II le cui prestazioni sono collegate a fondi o indici. Il ramo IV riguarda la malattia e la non autosufficienza. Il ramo V le operazioni di capitalizzazione. Il ramo VI la gestione di fondi collettivi. Vediamoli uno per uno.\n\nNel ramo I le assicurazioni sulla durata della vita si dividono tradizionalmente in tre forme: l'assicurazione in caso di vita, l'assicurazione in caso di morte e le assicurazioni miste.\n\nNelle assicurazioni in caso di vita l'assicuratore paga la prestazione solo se l'assicurato è in vita alla data stabilita. Le prestazioni possibili sono diverse. Il capitale differito garantisce il pagamento di un capitale a una determinata data, se l'assicurato è ancora vivo. La rendita vitalizia immediata prevede che l'assicurazione paghi fin da subito una rendita, fino alla morte dell'assicurato. La rendita vitalizia differita prevede una rendita che parte dopo una determinata data, se l'assicurato è ancora in vita, e dura fino alla sua morte. La rendita vitalizia temporanea, infine, prevede una rendita pagata finché l'assicurato sopravvive oppure fino alla scadenza del contratto, se arriva prima.\n\nLe assicurazioni in caso di morte sono invece stipulate per tutelarsi contro il rischio di morte dell'assicurato: l'assicuratore pagherà il capitale solo se l'assicurato muore. È la classica polizza di protezione, quella che garantisce a chi resta, la famiglia ma anche un socio o un creditore, una somma che compensa la perdita economica.\n\nCon l'assicurazione mista si indicano le combinazioni di una o più assicurazioni in caso di vita con una o più assicurazioni in caso di morte. Ne esistono varie forme. La mista ordinaria prevede il pagamento della prestazione a una data stabilita, se l'assicurato è ancora in vita, o alla morte se questa avviene prima. La mista a termine fisso prevede che il capitale sia pagato a una data fissata, indipendentemente dal fatto che l'assicurato sia vivo o già deceduto: tipico l'esempio del genitore che vuole garantire una somma al figlio a diciotto anni, comunque vada. La mista combinata prevede un capitale per il caso vita maggiore del capitale per il caso morte. Nella mista a capitale raddoppiato, alla scadenza, se l'assicurato è ancora in vita, l'assicuratore paga due volte il capitale assicurato.\n\nIl ramo II comprende le assicurazioni di nuzialità e natalità: l'erogazione della prestazione è collegata a eventi inerenti allo sviluppo di un nucleo familiare, come la nascita di un figlio.\n\nIl ramo III, nella definizione del Codice, comprende le assicurazioni dei rami I e II le cui prestazioni principali sono direttamente collegate al valore di quote di organismi di investimento collettivo del risparmio, di fondi interni, oppure a indici o altri valori di riferimento. Sono le polizze che il mercato chiama unit linked e index linked. Il materiale originale le descrive così: i premi raccolti sono investiti in fondi comuni di investimento, obbligazionari, azionari o bilanciati, anziché in titoli a reddito fisso. La conseguenza pratica per l'intermediario è importante: il valore della prestazione segue l'andamento dei mercati, e il rischio di investimento grava in tutto o in parte sul cliente.\n\nIl ramo IV riguarda le assicurazioni malattia. Il materiale originale sottolinea che si tratta di polizze con un profilo contrattuale di lunga durata, al punto che non si possono stipulare coperture per una durata inferiore a cinque anni. Il testo vigente del Codice parla di assicurazione malattia e contro il rischio di non autosufficienza garantite mediante contratti di lunga durata, non rescindibili, per il rischio di invalidità grave dovuta a malattia, infortunio o longevità.\n\nIl ramo V riguarda le operazioni di capitalizzazione: sono operazioni finanziarie in cui non esiste alcuna relazione con i fatti attinenti alla vita umana. Il ramo VI riguarda le operazioni di gestione di fondi collettivi, che erogano prestazioni collettive in caso di morte, di vita, di cessazione dell'attività lavorativa o di riduzione dell'attività lavorativa.\n\nUn'ultima osservazione. L'offerta di prodotti del ramo vita non è importante solo per le famiglie, ma è fondamentale anche per le imprese, per lo svolgimento della loro attività. Un esempio che tutti conosciamo: le banche, in alcuni casi, possono richiedere la sottoscrizione di una polizza caso morte contestualmente all'accensione di un mutuo. In questo modo, se l'assicurato, che è anche il mutuatario, muore prima della scadenza del mutuo, la somma liquidata dalla compagnia può essere usata per saldare il debito con la banca.\n\nVediamo un caso. Marco ha 38 anni e sta per firmare un mutuo trentennale. Ha moglie e due figli piccoli. La banca gli propone una polizza caso morte collegata al mutuo, e lui chiede anche come mettere da parte un capitale per l'università dei figli. La caso morte protegge la famiglia: se Marco muore prima della fine del mutuo, l'indennizzo estingue il debito e la casa resta alla famiglia. Per il risparmio è adatto un capitale differito, oppure una mista se Marco vuole anche una prestazione in caso di premorienza. Come sempre, la scelta va verificata rispetto alle esigenze e al profilo del cliente.\n\nRicapitolando: sei rami vita; nel ramo I caso vita, caso morte e miste; una durata tipica di dieci-vent'anni; e prodotti utili non solo alle famiglie ma anche alle imprese e alle banche.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Normattiva, Codice civile (R.D. 16 marzo 1942, n. 262), artt. 1882 e 1919",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1882"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di assicurazione del Codice civile e regola del consenso scritto del terzo nell'assicurazione caso morte.",
+          "source_ref": "c.c., artt. 1882 e 1919"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Classificazione dei sei rami vita secondo il testo vigente del CAP.",
+          "source_ref": "CAP, art. 2, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Ramo III: la fonte lo descrive come investimento dei premi in fondi comuni anziché in titoli a reddito fisso. Precisata la definizione del CAP (prestazioni collegate a quote di OICR, fondi interni, indici o altri valori di riferimento).",
+          "source_ref": "CAP, art. 2, c. 1, ramo III"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le polizze malattia del ramo IV non possono avere durata inferiore a cinque anni. Il testo vigente del CAP parla di contratti di lunga durata e non rescindibili, senza indicare la durata minima: riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "CAP, art. 2, c. 1, ramo IV"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il titolo dell'argomento parla di coperture riassicurative, ma la fonte tratta coperture assicurative (vita e danni). Mantenuto tutto il contenuto della fonte; le tipologie di riassicurazione sono rinviate all'area giuridica per evitare doppioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico mutuo e risparmio per i figli.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Assicurazioni danni: principi, persona e responsabilità civile",
+      "source_files": [
+        "corso totale/Principali tipologie di coperture assicurative (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Principali tipologie di coperture riassicurative /Principali tipologie di coperture assicurative prima parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Principali tipologie di coperture riassicurative /Principali tipologie di coperture assicurative seconda parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di coperture assicurative",
+          "title": "Assicurazioni danni: principi, persona e responsabilità civile",
+          "goals": [
+            "Capire che cosa distingue le assicurazioni danni da quelle vita",
+            "Applicare interesse assicurabile e principio indennitario",
+            "Conoscere infortuni, malattia, RC generale e RC auto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un'assicurazione contro i danni",
+          "key": "L'assicuratore, a fronte di un premio, si impegna a risarcire l'assicurato del danno causato da un sinistro, trasferendo su di sé il rischio.",
+          "body": "Il rischio passa dal soggetto che potrebbe esserne colpito alla compagnia di assicurazione. L'assicuratore risarcisce nei modi e nei limiti stabiliti dal contratto.",
+          "ref": "c.c., artt. 1882 e 1905"
+        },
+        {
+          "layout": "compare",
+          "title": "Danni e vita a confronto",
+          "cols": [
+            {
+              "title": "Danni",
+              "items": [
+                "Non si sa se e quando avverrà il sinistro",
+                "Non si conosce nemmeno l'importo da pagare: anche questo è aleatorio",
+                "Il sinistro si può ripetere più volte"
+              ]
+            },
+            {
+              "title": "Vita",
+              "items": [
+                "L'evento riguarda la vita di una persona",
+                "La somma da pagare è stabilita nel contratto",
+                "La morte avviene una sola volta"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tre grandi famiglie di coperture danni",
+          "head": [
+            "Famiglia",
+            "Che cosa tutela"
+          ],
+          "rows": [
+            [
+              "Beni",
+              "L'assicurato da eventi dannosi che possono colpire un suo bene."
+            ],
+            [
+              "Persona",
+              "L'assicurato in caso di infortunio o malattia, con una prestazione, o i suoi beneficiari con un indennizzo in caso di decesso."
+            ],
+            [
+              "Responsabilità",
+              "Il patrimonio dell'assicurato: l'assicuratore paga il danno che l'assicurato ha causato a terzi."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Interesse e principio indennitario",
+          "left": {
+            "title": "Interesse assicurabile",
+            "items": [
+              "L'assicurato deve avere interesse al risarcimento del danno",
+              "Se l'interesse manca del tutto quando l'assicurazione deve iniziare, il contratto è nullo",
+              "RC: interesse a tutelare l'integrità del proprio patrimonio",
+              "Danni alla persona: interesse a tutelare la propria integrità fisica"
+            ],
+            "ref": "c.c., art. 1904"
+          },
+          "right": {
+            "title": "Principio indennitario",
+            "items": [
+              "Limita il risarcimento al solo danno derivato dalla perdita o dal deterioramento della cosa assicurata",
+              "L'assicurazione non deve diventare fonte di guadagno",
+              "Il profitto sperato si risarcisce solo se espressamente pattuito"
+            ],
+            "ref": "c.c., art. 1905"
+          },
+          "note": "Il principio indennitario vale pienamente per i beni. Per i danni alla persona l'indennizzo è spesso forfettario, perché l'integrità fisica non ha un valore di mercato.",
+          "noteRef": "CAP, art. 2, c. 3, rami 1-2"
+        },
+        {
+          "layout": "concept",
+          "title": "I danni alla persona",
+          "key": "Chi non può lavorare o deve affrontare spese mediche si trova in una situazione di bisogno. Pagando un premio, può trasferire questo rischio a una compagnia.",
+          "body": "Nel ramo danni il rischio salute si trasferisce con due coperture: l'assicurazione infortuni e l'assicurazione malattia, che il Codice classifica come rami 1 e 2.",
+          "ref": "CAP, art. 2, c. 3, rami 1 e 2"
+        },
+        {
+          "layout": "timeline",
+          "title": "Infortuni: dalle prime polizze all'INAIL",
+          "items": [
+            {
+              "value": "Fine 1800",
+              "text": "le prime polizze infortuni, private; poi le assicurazioni sociali promosse dagli Stati",
+              "ref": "Materiale originale"
+            },
+            {
+              "value": "1883",
+              "text": "nasce in Italia la Cassa Nazionale Infortuni, per diffondere la copertura tra i lavoratori dell'industria",
+              "ref": "Materiale originale"
+            },
+            {
+              "value": "1933",
+              "text": "nasce l'INAIL, dall'unificazione della Cassa nazionale infortuni e delle Casse private di assicurazione",
+              "ref": "INAIL, La storia"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Infortuni: sistema obbligatorio e privato",
+          "cols": [
+            {
+              "title": "Obbligatorio (INAIL)",
+              "items": [
+                "Copre gli infortuni avvenuti durante il lavoro",
+                "Copre le malattie professionali contratte nello svolgimento dell'attività",
+                "Coinvolge tre soggetti: lavoratore, datore di lavoro, INAIL"
+              ]
+            },
+            {
+              "title": "Privato",
+              "items": [
+                "Polizze infortuni offerte dalle compagnie",
+                "Tutelano dai pregiudizi economici di un infortunio",
+                "Possono coprire anche il tempo libero e chi non è coperto dall'INAIL"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze malattia",
+          "key": "Nel Novecento l'intervento sociale dello Stato ha portato ai Sistemi Sanitari Nazionali, che erogano prestazioni gratuite o a pagamento con rimborso successivo.",
+          "body": "I servizi sanitari sono finanziati con contributi di lavoratori e datori di lavoro e con le imposte. Accanto al pubblico operano strutture private accreditate presso le Regioni, che le remunerano al posto del sistema pubblico. La polizza malattia privata si affianca a questo sistema.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'assicurazione di responsabilità civile",
+          "key": "L'assicuratore tiene indenne l'assicurato di quanto deve pagare a un terzo per i danni da lui causati, in dipendenza della responsabilità prevista dal contratto. Sono esclusi i danni dolosi.",
+          "body": "Responsabilità contrattuale: nasce dall'inadempimento di un obbligo tra le parti. Responsabilità extracontrattuale: nasce da un fatto illecito, tra soggetti senza alcun rapporto obbligatorio.",
+          "ref": "c.c., art. 1917"
+        },
+        {
+          "layout": "checklist",
+          "title": "Danno ingiusto e dolo",
+          "items": [
+            {
+              "text": "Il diritto al risarcimento nasce dal danno ingiusto subito dal danneggiato, più che dal comportamento illecito del danneggiante."
+            },
+            {
+              "text": "Non sono assicurabili i danni causati con dolo dell'assicurato, cioè volontariamente.",
+              "ref": "c.c., art. 1917"
+            },
+            {
+              "text": "Sono assicurabili i danni causati con dolo da un'altra persona di cui l'assicurato deve rispondere, come un dipendente.",
+              "ref": "c.c., art. 1900, c. 2"
+            },
+            {
+              "text": "Nelle assicurazioni obbligatorie, come la RC auto, il dolo rientra nella garanzia verso il danneggiato: l'impresa paga il terzo e poi può rivalersi sull'assicurato.",
+              "ref": "CAP, art. 144, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "RC generale: obbligatoria o no",
+          "left": {
+            "title": "Assicurazioni obbligatorie",
+            "items": [
+              "Il danneggiato può rivolgersi direttamente all'assicuratore",
+              "Ha una posizione giuridica autonoma nel contratto tra assicurato e assicuratore",
+              "Gode di garanzie integrative previste dalla legge"
+            ]
+          },
+          "right": {
+            "title": "La legge fissa il contenuto",
+            "items": [
+              "I rischi minimi coperti",
+              "Il massimale minimo",
+              "Le esclusioni ammesse"
+            ]
+          },
+          "note": "Nelle polizze non obbligatorie valgono le regole del Codice civile: l'assicuratore può pagare direttamente il terzo, e deve farlo se l'assicurato lo chiede.",
+          "noteRef": "c.c., art. 1917, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "La RC auto",
+          "key": "Chiunque metta in circolazione un veicolo o un natante in Italia deve stipulare una polizza. La RC auto garantisce il conducente o il proprietario contro il rischio di risarcire i terzi per i danni della circolazione.",
+          "body": "Il danneggiato ha azione diretta verso l'impresa del responsabile, entro i massimali. L'assicurato può estendere la polizza con garanzie accessorie: furto, incendio, cristalli, atti vandalici.",
+          "ref": "CAP, artt. 122 e 144"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una ditta di traslochi ha una polizza RC generale. Un dipendente, durante un trasloco, rompe di proposito un mobile antico del cliente dopo una lite. Il cliente chiede il risarcimento alla ditta.",
+          "questions": [
+            "La polizza della ditta copre il danno?",
+            "Cambierebbe qualcosa se fosse stato il titolare della ditta, assicurato, a rompere il mobile di proposito?"
+          ],
+          "solution": "Sì: il dolo è del dipendente, persona del cui fatto l'assicurato deve rispondere, e l'assicuratore resta obbligato (art. 1900, c. 2 c.c.). Se invece il danno fosse causato con dolo dall'assicurato stesso, sarebbe escluso (art. 1917 c.c.)."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa succede se, quando l'assicurazione danni deve iniziare, l'assicurato non ha alcun interesse al risarcimento?",
+          "options": [
+            "Il premio si riduce",
+            "Il contratto è nullo",
+            "Il contratto vale solo per metà",
+            "L'assicuratore può recedere entro 60 giorni"
+          ],
+          "answer": 1,
+          "explanation": "Per l'art. 1904 c.c. il contratto di assicurazione contro i danni è nullo se manca l'interesse dell'assicurato al risarcimento del danno."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di queste caratteristiche è tipica delle assicurazioni danni e non di quelle vita?",
+          "options": [
+            "Il pagamento di una rendita",
+            "La ripetibilità del sinistro",
+            "La lunga durata del contratto",
+            "La funzione di risparmio"
+          ],
+          "answer": 1,
+          "explanation": "Nei danni un sinistro si può ripetere più volte e anche l'importo da pagare è aleatorio. La morte, invece, avviene una sola volta."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "famiglie di coperture danni: beni, persona, responsabilità"
+            },
+            {
+              "value": "1904",
+              "text": "senza interesse al risarcimento il contratto danni è nullo"
+            },
+            {
+              "value": "1905",
+              "text": "principio indennitario: si risarcisce solo il danno"
+            },
+            {
+              "value": "Dolo",
+              "text": "dell'assicurato escluso; di chi l'assicurato deve rispondere coperto"
+            },
+            {
+              "value": "RC auto",
+              "text": "obbligatoria, con azione diretta del danneggiato"
+            }
+          ]
+        }
+      ],
+      "narration": "Dopo il ramo vita entriamo nel mondo delle assicurazioni contro i danni. In questa lezione vediamo i principi generali, le coperture della persona, cioè infortuni e malattia, e le assicurazioni di responsabilità civile, compresa la RC auto.\n\nNelle assicurazioni contro i danni l'assicuratore, a fronte del pagamento di un premio, si impegna a risarcire l'assicurato del danno causato da un sinistro. Il meccanismo è il trasferimento del rischio: il rischio passa dal soggetto che potrebbe esserne colpito alla compagnia di assicurazione. L'articolo 1905 del Codice civile aggiunge che l'assicuratore risarcisce il danno nei modi e nei limiti stabiliti dal contratto.\n\nRispetto alle assicurazioni vita ci sono differenze importanti. Nei danni, oltre a essere ignoto se e quando l'evento sfavorevole si verificherà, non è possibile conoscere nemmeno l'entità della prestazione che l'assicuratore dovrà sostenere: anche l'importo ha carattere aleatorio. Un incendio può bruciare un tappeto o l'intera casa. Nella vita, invece, la somma è fissata nel contratto. L'altra differenza è la ripetibilità del sinistro: nei danni un sinistro si può ripetere più volte nello stesso anno, mentre la morte avviene una sola volta.\n\nI contratti del ramo danni si possono distinguere in tre famiglie. Le assicurazioni di beni tutelano l'assicurato da eventi dannosi che possono colpire un suo bene, come la casa, l'auto o le merci. Le assicurazioni di danni alla persona prevedono il pagamento di una prestazione in caso di infortunio o di malattia dell'assicurato, oppure di un indennizzo in caso di decesso. Le assicurazioni di responsabilità prevedono che l'assicuratore paghi il danno causato dall'assicurato a terzi.\n\nDue principi reggono tutto il ramo danni. Il primo è l'interesse. L'assicurato deve avere un interesse al risarcimento del danno: se l'interesse è del tutto assente, il contratto è nullo. Lo dice l'articolo 1904 del Codice civile, riferendosi al momento in cui l'assicurazione deve avere inizio. Nella responsabilità civile l'assicurato ha interesse a tutelare l'integrità del proprio patrimonio, che rischia di essere intaccato da un risarcimento. Nelle assicurazioni contro i danni alla persona l'interesse è tutelare la propria integrità fisica. Il secondo è il principio indennitario: limita il risarcimento eventualmente dovuto dall'assicuratore al solo danno che deriva dalla perdita o dal deterioramento della cosa oggetto di garanzia. L'assicurazione serve a rimettere l'assicurato nella situazione in cui era prima del sinistro, non ad arricchirlo. Il Codice civile precisa anche che l'assicuratore risponde del profitto sperato solo se si è espressamente obbligato.\n\nPassiamo ai danni alla persona. Le persone possono trovarsi in situazioni di bisogno, derivanti ad esempio dall'impossibilità di lavorare o dalla necessità improvvisa di affrontare spese mediche. Per proteggersi possono assicurarsi, trasferendo il rischio alla compagnia di assicurazione dietro pagamento di un premio. Nel ramo danni le coperture con cui si trasferisce il rischio salute sono due: l'assicurazione infortuni e l'assicurazione malattia, che il Codice delle assicurazioni classifica rispettivamente come ramo 1 e ramo 2.\n\nUn po' di storia degli infortuni. Le prime polizze infortuni erano private e risalgono alla fine dell'Ottocento; a queste si sono poi affiancate le assicurazioni sociali promosse dagli Stati. In Italia nel 1883 fu istituita la Cassa Nazionale Infortuni sul Lavoro, con il compito di promuovere le assicurazioni contro gli infortuni per alcune categorie di lavoratori dell'industria. Il materiale originale indica che la Cassa fu rinominata INAIL nel 1927. Secondo la storia pubblicata dall'INAIL, l'Istituto è nato nel marzo 1933 dall'unificazione della Cassa nazionale infortuni e delle Casse private di assicurazione. INAIL significa Istituto Nazionale per l'Assicurazione contro gli Infortuni sul Lavoro.\n\nL'assicurazione obbligatoria gestita dall'INAIL comprende tutti i casi di infortunio avvenuti durante il lavoro, e le malattie professionali contratte in occasione dello svolgimento dell'attività lavorativa. I soggetti coinvolti sono tre: il lavoratore, il datore di lavoro e l'INAIL. Accanto al sistema obbligatorio c'è il sistema privato, con polizze contro gli infortuni che tutelano gli assicurati dai pregiudizi economici che possono derivare da un infortunio. Per l'intermediario è un terreno concreto: pensiamo al lavoratore autonomo, o agli infortuni del tempo libero, che la copertura obbligatoria non tocca.\n\nVeniamo alla malattia. Nel corso del Novecento l'espansione dell'intervento sociale dello Stato in ambito assistenziale ha portato all'istituzione dei Sistemi Sanitari Nazionali, che erogano le prestazioni sanitarie ai cittadini gratuitamente, oppure a pagamento con un rimborso successivo delle spese sostenute. I servizi sanitari nazionali sono finanziati con i contributi di lavoratori e datori di lavoro e con l'imposizione fiscale. Accanto al sistema pubblico ci sono soggetti privati accreditati presso le Regioni, che li remunerano per il servizio prestato al posto del sistema pubblico. La polizza malattia privata si inserisce in questo quadro: può rimborsare le spese per prestazioni private, o ridurre i tempi di accesso alle cure.\n\nPassiamo alla responsabilità civile. Nell'assicurazione di responsabilità civile l'assicuratore ha l'obbligo di tenere indenne l'assicurato di quanto egli deve pagare a un terzo per i danni da lui provocati, in dipendenza della responsabilità prevista nel contratto, esclusi i danni dolosi. È l'articolo 1917 del Codice civile. La responsabilità può essere di due tipi. La responsabilità contrattuale deriva dall'inadempimento del debitore e presuppone quindi un rapporto obbligatorio tra le parti: l'idraulico che esegue male un lavoro. La responsabilità extracontrattuale dipende da un fatto illecito: sorge quando un soggetto subisce un danno a causa del comportamento altrui, e fra i due non esiste alcun rapporto obbligatorio: il vaso che cade dal balcone sul passante.\n\nIl diritto al risarcimento sorge non tanto per il comportamento illecito del danneggiante, quanto per il danno ingiusto subito dal danneggiato. Sono esclusi da ogni possibile garanzia i danni derivanti da fatto doloso dell'assicurato: non si possono assicurare i danni ingiusti causati da un comportamento illecito tenuto volontariamente dall'assicurato. Sono invece assicurabili i danni ingiusti causati dal comportamento doloso di un altro soggetto, del quale l'assicurato è obbligato a rispondere, come un dipendente: lo prevede l'articolo 1900 del Codice civile. Il materiale originale aggiunge che anche per le assicurazioni obbligatorie il dolo rientra nella garanzia. Va letto così: nella RC auto, per l'articolo 144 del Codice delle assicurazioni, l'impresa non può opporre al danneggiato le eccezioni derivanti dal contratto, quindi lo risarcisce anche in caso di dolo; poi ha diritto di rivalsa verso l'assicurato nella misura in cui avrebbe potuto rifiutare o ridurre la prestazione.\n\nNei prodotti di RC generale bisogna distinguere tra assicurazioni obbligatorie per legge e non obbligatorie. Nelle polizze obbligatorie il danneggiato può rivolgersi direttamente all'assicuratore per il risarcimento del danno: ha una posizione giuridica autonoma nel contratto tra assicurato e assicuratore e gode di garanzie integrative previste dalla legge. La legge incide anche sul contenuto della polizza: fissa i rischi minimi coperti, l'importo minimo del massimale e le esclusioni ammesse. Nelle polizze non obbligatorie vale il Codice civile: l'assicuratore può pagare direttamente il terzo, previa comunicazione all'assicurato, ed è obbligato a farlo se l'assicurato lo chiede.\n\nL'esempio più noto di assicurazione obbligatoria è la RC auto. Chiunque metta in circolazione un veicolo o un natante in Italia ha l'obbligo di stipulare una polizza. La RC auto ha lo scopo di garantire il conducente o, se diverso, il proprietario del mezzo, contro il rischio di dover risarcire i terzi per i danni causati dalla circolazione del veicolo. Il danneggiato ha azione diretta nei confronti dell'impresa del responsabile, entro i massimali. L'assicurato può estendere la garanzia ad altre situazioni, con le garanzie accessorie: furto, incendio, cristalli, atti vandalici.\n\nUn caso per fissare le idee. Una ditta di traslochi ha una polizza RC generale. Durante un trasloco un dipendente, dopo una lite, rompe di proposito un mobile antico del cliente. La polizza copre? Sì: il dolo è del dipendente, cioè di una persona del cui fatto l'assicurato deve rispondere, e l'assicuratore resta obbligato. Se invece fosse stato lo stesso titolare assicurato a rompere il mobile volontariamente, il danno sarebbe escluso.\n\nRicapitolando: tre famiglie di coperture danni; l'interesse assicurabile e il principio indennitario come regole di fondo; infortuni e malattia per i danni alla persona; la RC che protegge il patrimonio dell'assicurato, con l'esclusione del suo dolo; e la RC auto obbligatoria, con l'azione diretta del danneggiato. Nella prossima lezione vedremo i danni ai beni e i danni patrimoniali.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Normattiva, Codice civile (R.D. 16 marzo 1942, n. 262), artt. 1882-1932",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1882"
+        },
+        {
+          "title": "INAIL, La storia",
+          "url": "https://www.inail.it/portale/it/istituto/l-istituto/la-storia.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Riferimenti del Codice civile a interesse (art. 1904), limiti del risarcimento e profitto sperato (art. 1905), dolo di persone di cui l'assicurato risponde (art. 1900), RC e pagamento diretto al terzo (art. 1917).",
+          "source_ref": "c.c., artt. 1900, 1904, 1905, 1917"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Infortuni e malattia come rami danni 1 e 2.",
+          "source_ref": "CAP, art. 2, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo assicurativo RC auto e azione diretta del danneggiato.",
+          "source_ref": "CAP, artt. 122 e 144"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la Cassa nazionale infortuni fu rinominata INAIL nel 1927. Secondo la storia pubblicata dall'INAIL, l'Istituto nasce nel marzo 1933 dall'unificazione della Cassa nazionale infortuni e delle Casse private: la data del 1927 va verificata / possibile aggiornamento.",
+          "source_ref": "INAIL, La storia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «anche per le assicurazioni obbligatorie è inclusa l'ammissibilità del dolo». Spiegata con l'inopponibilità delle eccezioni al danneggiato e il diritto di rivalsa nella RC auto.",
+          "source_ref": "CAP, art. 144, c. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione del finanziamento del SSN e degli accreditati regionali, senza norma di riferimento specifica.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di responsabilità contrattuale ed extracontrattuale e caso pratico sul dolo del dipendente.",
+          "source_ref": "c.c., artt. 1900 e 1917"
+        }
+      ]
+    },
+    {
+      "title": "Danni ai beni e danni patrimoniali",
+      "source_files": [
+        "corso totale/Principali tipologie di coperture assicurative (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Principali tipologie di coperture riassicurative /Principali tipologie di coperture assicurative seconda parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Principali tipologie di coperture riassicurative /Principali tipologie di coperture assicurative terza parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di coperture assicurative",
+          "title": "Danni ai beni e danni patrimoniali",
+          "goals": [
+            "Conoscere i sette rami dei danni ai beni e le regole che li governano",
+            "Saper applicare la regola proporzionale e l'obbligo di salvataggio",
+            "Distinguere incendio, furto, credito, cauzione e perdite pecuniarie"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I sette rami dei danni ai beni",
+          "lead": "Hanno in comune l'oggetto: i danni a beni mobili, immobili o mobili registrati.",
+          "head": [
+            "Ramo",
+            "Che cosa copre"
+          ],
+          "rows": [
+            [
+              "3 · Corpi di veicoli terrestri",
+              "Danni ai veicoli terrestri, esclusi quelli ferroviari"
+            ],
+            [
+              "4 · Corpi di veicoli ferroviari",
+              "Danni ai veicoli ferroviari"
+            ],
+            [
+              "5 · Corpi di veicoli aerei",
+              "Danni agli aeromobili"
+            ],
+            [
+              "6 · Corpi di veicoli marittimi, lacustri e fluviali",
+              "Danni alle imbarcazioni"
+            ],
+            [
+              "7 · Merci trasportate",
+              "Danni a merci e bagagli, con qualunque mezzo di trasporto"
+            ],
+            [
+              "8 · Incendio ed elementi naturali",
+              "Incendio, esplosione, tempesta, altri elementi naturali, energia nucleare, cedimento del terreno"
+            ],
+            [
+              "9 · Altri danni ai beni",
+              "Grandine, gelo e altri eventi come il furto"
+            ]
+          ],
+          "ref": "CAP, art. 2, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Una tecnica che dipende dal rischio",
+          "key": "I prodotti danni alle cose tutelano il patrimonio dell'assicurato dalle conseguenze dei sinistri e sono fortemente influenzati da elementi tecnici: tipologia di rischio, frequenza, intensità e clientela.",
+          "body": "Un appartamento in città e un capannone pieno di merci infiammabili non si assicurano allo stesso modo. Frequenza e intensità attese dei sinistri determinano condizioni, franchigie e premio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Dolo e colpa grave",
+          "left": {
+            "title": "L'assicuratore non paga",
+            "items": [
+              "Per i sinistri causati da dolo o colpa grave del contraente, dell'assicurato o del beneficiario",
+              "Per la colpa grave il contratto può prevedere il contrario"
+            ],
+            "ref": "c.c., art. 1900, c. 1"
+          },
+          "right": {
+            "title": "L'assicuratore paga",
+            "items": [
+              "Per i sinistri causati da dolo o colpa grave delle persone di cui l'assicurato è responsabile",
+              "Per gli atti compiuti per solidarietà umana o a tutela di interessi comuni all'assicuratore"
+            ],
+            "ref": "c.c., art. 1900, c. 2-3"
+          },
+          "note": "Se c'è stato dolo dell'assicurato, egli non ha diritto ad alcun risarcimento.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La regola proporzionale",
+          "key": "Se al momento del sinistro il valore assicurato è inferiore al valore reale del bene, l'assicuratore risarcisce il danno solo in proporzione al rapporto tra i due valori.",
+          "body": "È la sottoassicurazione. Il contratto può prevedere diversamente, ad esempio con le formule a primo rischio assoluto, in cui la regola proporzionale non si applica.",
+          "ref": "c.c., art. 1907"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "La casa di Laura vale 200.000 euro, ma è assicurata contro l'incendio per 150.000 euro, con regola proporzionale. Un incendio causa danni per 40.000 euro.",
+          "questions": [
+            "Quanto riceve Laura?",
+            "Come avrebbe potuto evitarlo l'intermediario?"
+          ],
+          "solution": "Il rapporto è 150.000 / 200.000 = 75%. Laura riceve il 75% di 40.000, cioè 30.000 euro; 10.000 restano a suo carico. L'intermediario deve verificare con il cliente il valore reale del bene e aggiornare la somma assicurata nel tempo."
+        },
+        {
+          "layout": "split",
+          "title": "Sovrassicurazione e salvataggio",
+          "left": {
+            "title": "Valore eccedente",
+            "items": [
+              "Principio indennitario: non è valida l'assicurazione per una somma che eccede il valore reale del bene, se c'è dolo dell'assicurato",
+              "Senza dolo, il contratto vale fino al valore reale e il premio futuro si riduce in proporzione"
+            ],
+            "ref": "c.c., art. 1909"
+          },
+          "right": {
+            "title": "Obbligo di salvataggio",
+            "items": [
+              "In caso di sinistro l'assicurato fa tutto il possibile per evitare o ridurre il danno",
+              "Le spese di salvataggio sono a carico dell'assicuratore, in proporzione al valore assicurato, anche se lo scopo non è raggiunto"
+            ],
+            "ref": "c.c., art. 1914"
+          },
+          "note": "Salvo che l'assicuratore provi che le spese sono state fatte inconsideratamente.",
+          "noteRef": "c.c., art. 1914, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "La polizza incendio",
+          "key": "In polizza l'incendio è definito come combustione con fiamma di beni materiali al di fuori del focolare, che può estendersi e propagarsi.",
+          "body": "I rischi del ramo vanno oltre l'incendio e si dividono in due categorie. Rischi ordinari: civili, agricoli, commerciali, piccole industrie e vari. Rischi industriali: rischi di grande entità, legati a mobili, immobili e merci di valore ingente.",
+          "ref": "Materiale originale del corso; CAP, art. 2, c. 3, ramo 8"
+        },
+        {
+          "layout": "facts",
+          "title": "Incendio: casa e industria",
+          "lead": "La stessa garanzia cambia molto a seconda di che cosa si assicura.",
+          "facts": [
+            {
+              "label": "Casa",
+              "text": "Assicura l'edificio o i locali dell'abitazione e anche il loro contenuto."
+            },
+            {
+              "label": "Ricorso vicini",
+              "text": "Copre i danni materiali e diretti causati agli edifici circostanti da un sinistro avvenuto nell'edificio dell'assicurato."
+            },
+            {
+              "label": "Merci speciali",
+              "text": "Le compagnie chiedono norme costruttive per impianti e fabbricati, spesso come condizione per assicurare."
+            },
+            {
+              "label": "Impresa",
+              "text": "Serve un elenco dettagliato di tutti i casi coperti, data l'ampia gamma di rischi."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "La polizza furto",
+          "cols": [
+            {
+              "title": "Abitazione privata",
+              "items": [
+                "Danni materiali e diretti del furto",
+                "Valore dei beni sottratti, anche per rapina o estorsione",
+                "Danni a edificio e impianti, anche se il furto non riesce",
+                "Esclusi: sciacallaggio durante eventi naturali, difese assenti o inefficienti, dolo o colpa grave dell'assicurato o dei familiari"
+              ]
+            },
+            {
+              "title": "Impresa industriale",
+              "items": [
+                "Riguarda soprattutto apparecchiature e beni già lavorati negli stabilimenti",
+                "Valore dei beni sottratti, anche se di proprietà di terzi",
+                "Costi di riparazione dei guasti fatti dai ladri per entrare nei locali"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "L'assicurazione del credito",
+          "steps": [
+            {
+              "label": "Il rischio",
+              "text": "Chi vende beni o servizi a credito rischia l'insolvenza o il ritardo del debitore."
+            },
+            {
+              "label": "Globalità",
+              "text": "Si assicura l'intero portafoglio crediti, non un singolo credito."
+            },
+            {
+              "label": "Quando paga",
+              "text": "Se il debitore non paga e le trattative di recupero del contraente falliscono."
+            },
+            {
+              "label": "Surrogazione",
+              "text": "Pagato l'indennizzo, la compagnia subentra nei diritti dell'assicurato verso il debitore."
+            }
+          ],
+          "ref": "CAP, art. 2, c. 3, ramo 14; c.c., art. 1916"
+        },
+        {
+          "layout": "table",
+          "title": "Credito, cauzione e perdite pecuniarie",
+          "head": [
+            "Ramo",
+            "Che cosa copre"
+          ],
+          "rows": [
+            [
+              "14 · Credito interno ed export",
+              "Il credito all'esportazione copre, oltre ai rischi ordinari, i rischi straordinari dovuti al coinvolgimento di Paesi diversi."
+            ],
+            [
+              "15 · Cauzione",
+              "Tutela il terzo dal mancato adempimento di un obbligo di dare o fare del contraente. Rilasciata solo dopo un'istruttoria sulla sua solidità."
+            ],
+            [
+              "16 · Perdite pecuniarie",
+              "Perdita del lavoro, insufficienza di entrate, intemperie, perdita di fitti o redditi, perdite commerciali indirette; spese generali che continuano, spese impreviste, annullamento viaggi."
+            ]
+          ],
+          "ref": "CAP, art. 2, c. 3, rami 14-16"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un capannone vale 1.000.000 di euro ed è assicurato per 800.000 con regola proporzionale. Danno di 100.000 euro. Quanto paga l'assicuratore?",
+          "options": [
+            "100.000 euro",
+            "80.000 euro",
+            "20.000 euro",
+            "Nulla, perché il bene è sottoassicurato"
+          ],
+          "answer": 1,
+          "explanation": "Il rapporto tra valore assicurato e valore reale è 80%: l'assicuratore paga l'80% del danno, cioè 80.000 euro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale caratteristica distingue l'assicurazione del credito?",
+          "options": [
+            "Si può assicurare un singolo credito a scelta",
+            "La globalità: si assicura l'intero portafoglio crediti",
+            "Paga appena scade la fattura",
+            "Tutela il terzo dall'inadempimento del contraente"
+          ],
+          "answer": 1,
+          "explanation": "Nell'assicurazione del credito si assicura l'intero portafoglio. La tutela del terzo dall'inadempimento del contraente è tipica della cauzione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "7",
+              "text": "rami di danni ai beni, dal ramo 3 al ramo 9"
+            },
+            {
+              "value": "1907",
+              "text": "regola proporzionale in caso di sottoassicurazione"
+            },
+            {
+              "value": "1914",
+              "text": "obbligo di salvataggio, con spese a carico dell'assicuratore"
+            },
+            {
+              "value": "Ricorso vicini",
+              "text": "estende l'incendio ai danni agli edifici circostanti"
+            },
+            {
+              "value": "14-15-16",
+              "text": "credito, cauzione e perdite pecuniarie"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione completiamo la panoramica dei danni: le assicurazioni dei beni, con le loro regole tecniche, i prodotti incendio e furto, e i danni patrimoniali, cioè credito, cauzione e perdite pecuniarie.\n\nFanno parte delle assicurazioni contro i danni alle cose ben sette rami di rischio. Nel Codice delle assicurazioni sono i rami dal 3 al 9: corpi di veicoli terrestri, corpi di veicoli ferroviari, corpi di veicoli aerei, corpi di veicoli marittimi, lacustri e fluviali, merci trasportate, incendio ed elementi naturali, e infine altri danni ai beni. Ciò che accomuna tutte queste coperture è l'oggetto della polizza: i danni subiti da beni mobili, immobili o mobili registrati. Nel ramo 8 rientrano incendio, esplosione, tempesta, altri elementi naturali, energia nucleare e cedimento del terreno; nel ramo 9 grandine, gelo e ogni altro evento, come il furto.\n\nI prodotti danni alle cose, che hanno lo scopo di tutelare il patrimonio dell'assicurato dalle conseguenze negative dei sinistri, sono fortemente influenzati da elementi tecnici: la tipologia di rischio, la frequenza, l'intensità e la clientela. Un appartamento in centro città e un capannone pieno di merci infiammabili presentano frequenze e intensità di sinistro molto diverse, e per questo hanno condizioni, franchigie e premi diversi.\n\nUna regola fondamentale riguarda dolo e colpa grave. L'assicuratore non è tenuto a tenere indenne l'assicurato o il beneficiario per i sinistri causati da dolo o da colpa grave del contraente, salvo patto contrario per il solo caso di colpa grave. È l'articolo 1900 del Codice civile, che parla di contraente, assicurato e beneficiario. L'assicuratore resta invece obbligato quando il sinistro è causato da dolo o colpa grave delle persone di cui l'assicurato è responsabile. E il Codice aggiunge un caso di buon senso: l'assicuratore paga anche per i sinistri dovuti ad atti compiuti per solidarietà umana o per tutelare interessi comuni con l'assicuratore, come chi danneggia una porta per salvare una persona da un incendio. In ogni caso, se c'è stato dolo da parte dell'assicurato, egli non avrà diritto ad alcun risarcimento.\n\nVeniamo alla regola proporzionale. Prevede che se, al momento del sinistro, il valore assicurato è inferiore al valore reale del bene, l'assicuratore è tenuto a risarcire solo in proporzione al rapporto tra questi due valori. È l'articolo 1907 del Codice civile, che però fa salvo un diverso accordo: il mercato conosce, ad esempio, le formule a primo rischio assoluto, in cui la regola proporzionale non si applica.\n\nVediamo un esempio. La casa di Laura vale 200.000 euro, ma è assicurata contro l'incendio per 150.000. Un incendio causa danni per 40.000 euro. Il rapporto tra valore assicurato e valore reale è del 75 per cento, quindi Laura riceve il 75 per cento di 40.000, cioè 30.000 euro. Gli altri 10.000 restano a suo carico. È un errore frequente, e spesso nasce da una somma assicurata mai aggiornata. Per questo l'intermediario deve verificare con il cliente il valore reale del bene, e riproporre la verifica nel tempo.\n\nIl principio indennitario ha anche un'altra faccia. Il materiale del corso afferma che non è valida l'assicurazione stipulata per un valore eccedente quello reale del bene al momento del sinistro. Il Codice civile, all'articolo 1909, precisa: l'assicurazione per una somma che eccede il valore reale non è valida se c'è stato dolo dell'assicurato; se non c'è stato dolo, il contratto ha effetto fino al valore reale e il contraente ha diritto a una riduzione proporzionale del premio per il futuro. Insomma, sovrassicurare non serve: oltre il valore reale non si viene risarciti.\n\nC'è poi l'obbligo di salvataggio: l'assicurato, in caso di sinistro, deve fare tutto il possibile per ridurre o, quando si può, evitare i danni. Chi vede l'acqua uscire da un tubo deve chiudere il rubinetto generale, non aspettare il perito. Le spese sostenute per il salvataggio sono a carico dell'assicuratore, in proporzione al valore assicurato, anche se lo scopo non è stato raggiunto, salvo che l'assicuratore provi che sono state fatte inconsideratamente.\n\nPassiamo ai prodotti. La polizza incendio definisce l'incendio come la combustione con fiamma di beni materiali al di fuori del focolare, che può estendersi e propagarsi. Quindi il caminetto acceso non è un incendio; la fiamma che dal caminetto si propaga al divano sì. I rischi contenuti nel ramo incendio sono però parecchi, vanno oltre la definizione di incendio e si dividono in due grandi categorie. I rischi ordinari comprendono rischi civili, agricoli, commerciali, piccole industrie e rischi vari. I rischi industriali riguardano in genere rischi di grande entità, legati soprattutto a mobili, immobili e merci di valore ingente.\n\nLa polizza incendio sulla casa assicura non solo l'edificio o i locali dell'abitazione, ma anche il loro contenuto. Una clausola tipica di queste polizze è il cosiddetto ricorso vicini: copre i danni materiali e diretti provocati agli edifici circostanti da un sinistro avvenuto nell'edificio dell'assicurato. Se l'incendio partito dalla cucina del cliente danneggia l'appartamento accanto, è il ricorso vicini a intervenire. Nel caso di merci speciali, invece, le compagnie richiedono il rispetto di determinate norme costruttive per impianti e fabbricati. Sono misure finalizzate a contenere il rischio e spesso sono un prerequisito per l'assicurabilità. E data l'ampia gamma di rischi a cui può essere esposta un'impresa industriale, è fondamentale definire nel contratto l'elenco dettagliato di tutti i casi inclusi nella copertura.\n\nLa polizza furto per un'abitazione privata tiene indenne l'assicurato dai danni materiali e diretti connessi al furto. Copre sia il valore dei beni sottratti, anche in caso di rapina o estorsione, sia i danni subiti dall'edificio o dagli impianti a causa dell'azione dei ladri, indipendentemente dal fatto che il furto sia poi avvenuto o meno: la porta scassinata si ripaga anche se i ladri sono scappati a mani vuote. Le esclusioni tipiche della polizza furto per i privati sono gli atti di sciacallaggio in occasione di eventi naturali, l'assenza di idonei sistemi di difesa o la loro inefficienza, e il dolo o la colpa grave dell'assicurato o dei suoi familiari.\n\nPer le imprese industriali il rischio furto riguarda soprattutto le apparecchiature e i beni già lavorati all'interno degli stabilimenti. Come per i privati, la copertura tiene indenne l'assicurato dai danni materiali e diretti dell'atto illecito. Viene indennizzato sia il valore dei beni sottratti, anche se di proprietà di terzi, sia il costo di riparazione dei danneggiamenti e dei guasti fatti dagli autori del furto, della rapina o dell'estorsione per entrare nei locali.\n\nChiudiamo con i danni patrimoniali. L'assicurazione del credito, ramo 14, tutela il patrimonio del creditore in caso di insolvenza del suo debitore o di mancato rispetto delle scadenze di pagamento. Ogni impresa che vende beni o servizi a credito è esposta a questo rischio. Una delle principali caratteristiche della polizza è la globalità: viene assicurato l'intero portafoglio crediti, e non è possibile assicurare un solo credito. È una regola tecnica sensata: se si potessero assicurare solo i clienti dubbi, l'assicuratore riceverebbe soltanto i rischi peggiori. L'obbligo di indennizzo scatta quando il debitore non paga e le trattative di riscossione avviate dal contraente non sono andate a buon fine. Dopo aver pagato l'indennizzo, la compagnia subentra in tutti i diritti che spettavano all'assicurato creditore verso il debitore inadempiente: è la surrogazione dell'articolo 1916 del Codice civile. L'assicurazione del credito si divide in assicurazione dei crediti interni e assicurazione dei crediti all'esportazione; quest'ultima copre, oltre ai rischi ordinari, anche i rischi straordinari legati al fatto che l'operazione coinvolge Paesi diversi.\n\nLe assicurazioni cauzionali o fideiussorie, ramo 15, tutelano invece il terzo dal danno causato dal mancato adempimento di un'obbligazione, di dare o di fare, da parte del contraente della polizza. Pensiamo all'impresa edile che partecipa a un appalto e deve garantire al committente che eseguirà i lavori. Per la compagnia è importante valutare la situazione patrimoniale ed economico-finanziaria del potenziale contraente: la polizza fideiussoria viene rilasciata solo dopo un'istruttoria.\n\nNel ramo perdite pecuniarie, il ramo 16, confluiscono tutte le coperture che hanno in comune una prestazione pecuniaria: la perdita dell'occupazione, l'insufficienza di entrate, le perdite dovute a intemperie, le perdite di fitti o di redditi e altre perdite commerciali indirette. Oltre ai flussi di denaro in entrata si possono assicurare anche quelli in uscita: il persistere di spese generali, spese commerciali impreviste o l'annullamento di un viaggio.\n\nRicapitolando: sette rami di danni ai beni; la regola proporzionale in caso di sottoassicurazione; la sovrassicurazione che non conviene; l'obbligo di salvataggio; incendio con ricorso vicini e furto, per privati e imprese; e i rami 14, 15 e 16, credito, cauzione e perdite pecuniarie. Sono i rischi che le imprese, a loro volta, gestiscono e trasferiscono anche attraverso la riassicurazione.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Normattiva, Codice civile (R.D. 16 marzo 1942, n. 262), artt. 1882-1932",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262~art1882"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Numerazione e contenuto dei rami danni 3-9 e 14-16 secondo il CAP.",
+          "source_ref": "CAP, art. 2, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riferimenti del Codice civile: dolo e colpa grave e atti di solidarietà (art. 1900), regola proporzionale e patto contrario (art. 1907), sovrassicurazione (art. 1909), salvataggio e relative spese (art. 1914), surrogazione (art. 1916).",
+          "source_ref": "c.c., artt. 1900, 1907, 1909, 1914, 1916"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «non è valida l'assicurazione stipulata per un valore eccedente quello reale». Precisato che per l'art. 1909 c.c. l'invalidità opera solo in caso di dolo; senza dolo il contratto vale fino al valore reale con riduzione del premio.",
+          "source_ref": "c.c., art. 1909"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte riferisce il dolo e la colpa grave al solo contraente; l'art. 1900 c.c. indica contraente, assicurato e beneficiario.",
+          "source_ref": "c.c., art. 1900, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Riformulata la frase della fonte sull'assicurazione del credito («dopo il pagamento dell'indennizzo, se si verifica l'inadempimento, la compagnia ha la facoltà di subentrare»): l'indennizzo segue l'inadempimento e la compagnia subentra nei diritti dell'assicurato (surrogazione).",
+          "source_ref": "c.c., art. 1916"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di incendio («combustione con fiamma di beni materiali al di fuori del focolare»): è una definizione contrattuale, senza norma di riferimento; il testo varia tra le polizze.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di calcolo della regola proporzionale, esempi su salvataggio, ricorso vicini, furto tentato e cauzione negli appalti; cenno alle formule a primo rischio assoluto.",
+          "source_ref": "c.c., art. 1907"
+        }
+      ]
+    }
+  ]
+}

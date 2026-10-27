@@ -1,0 +1,2512 @@
+{
+  "module": "Area giuridica",
+  "topic": "Contratto di assicurazione e di riassicurazione",
+  "topic_order": 5,
+  "scope": "core",
+  "source_minutes": 100,
+  "lessons": [
+    {
+      "title": "Il contratto in generale",
+      "source_files": [
+        "corso totale/Contratto di assicurazione e riassicurazione.pdf.pdf",
+        "corso totale/Contratto di assicurazione e riassicurazione.1 (Video).mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "Il contratto in generale",
+          "goals": [
+            "Distinguere negozio giuridico e contratto",
+            "Riconoscere requisiti essenziali ed elementi accidentali",
+            "Capire quando un contratto è nullo, annullabile, rescindibile o simulato"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il negozio giuridico",
+          "key": "Il negozio giuridico è una manifestazione di volontà diretta a produrre effetti giuridici riconosciuti e garantiti dall'ordinamento.",
+          "body": "Il contratto è il negozio giuridico più importante, ma non l'unico. Anche un testamento o una procura sono negozi giuridici. Capire la categoria generale aiuta a leggere la polizza: anche la polizza nasce da volontà che l'ordinamento riconosce e tutela.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Come si classificano i negozi giuridici",
+          "lead": "Il materiale indica sei criteri di distinzione. Accanto, un esempio per ciascuno.",
+          "head": [
+            "Criterio",
+            "Esempio di distinzione"
+          ],
+          "rows": [
+            [
+              "In relazione al tempo",
+              "Ad esempio atti tra vivi e atti a causa di morte; contratti a esecuzione istantanea e contratti di durata, come la polizza."
+            ],
+            [
+              "Numero delle parti",
+              "Unilaterali (una sola parte, come la procura), bilaterali o plurilaterali."
+            ],
+            [
+              "Forma",
+              "Negozi a forma libera e negozi per cui la legge richiede una forma determinata."
+            ],
+            [
+              "Schema negoziale",
+              "Tipici, cioè regolati dalla legge come l'assicurazione, e atipici."
+            ],
+            [
+              "Natura del rapporto",
+              "Patrimoniali e non patrimoniali."
+            ],
+            [
+              "Controprestazione",
+              "A titolo oneroso, se è prevista una controprestazione, oppure gratuiti."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La nozione di contratto",
+          "key": "«Il contratto è l'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale.»",
+          "body": "Tre parole chiave: accordo (servono almeno due volontà che si incontrano), costituire, regolare o estinguere (il contratto crea, modifica o chiude un rapporto) e patrimoniale (il rapporto ha contenuto economico). Il contratto ha forza di legge tra le parti e si scioglie solo per mutuo consenso o per cause ammesse dalla legge.",
+          "ref": "Art. 1321 c.c.; art. 1372 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "I requisiti essenziali",
+          "lead": "Se ne manca anche uno solo, il contratto è nullo.",
+          "head": [
+            "Requisito",
+            "Che cosa significa",
+            "Nella polizza"
+          ],
+          "rows": [
+            [
+              "1 · Accordo",
+              "L'incontro delle volontà delle parti.",
+              "Proposta del contraente e accettazione dell'impresa."
+            ],
+            [
+              "2 · Causa",
+              "La funzione economico-sociale del contratto.",
+              "Il trasferimento del rischio verso un premio."
+            ],
+            [
+              "3 · Oggetto",
+              "Il contenuto, che deve essere possibile, lecito, determinato o determinabile.",
+              "Le prestazioni: premio e garanzia."
+            ],
+            [
+              "4 · Forma",
+              "Requisito solo quando la legge la prescrive a pena di nullità.",
+              "Per l'assicurazione la forma scritta serve come prova."
+            ]
+          ],
+          "ref": "Art. 1325 c.c.; art. 1888 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Elementi accidentali e naturali",
+          "left": {
+            "title": "Accidentali: li aggiungono le parti",
+            "items": [
+              "Condizione: l'efficacia dipende da un evento futuro e incerto",
+              "Termine: un momento futuro e certo da cui partono o cessano gli effetti",
+              "Modo o onere: un peso posto a carico di chi riceve un vantaggio"
+            ],
+            "ref": "Art. 1353 c.c. (condizione)"
+          },
+          "right": {
+            "title": "Naturali: li prevede la legge",
+            "items": [
+              "Sono le clausole tipiche che la legge collega a quel contratto",
+              "Valgono anche se le parti non le scrivono",
+              "Le parti possono di regola modificarle, se la norma lo consente"
+            ]
+          },
+          "note": "Molte norme del Codice civile sull'assicurazione si possono derogare solo in senso più favorevole all'assicurato.",
+          "noteRef": "Art. 1932 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "La rappresentanza",
+          "cols": [
+            {
+              "title": "La procura",
+              "items": [
+                "Speciale: per uno o più affari determinati",
+                "Generale: per tutti gli affari del rappresentato",
+                "Apparente: il terzo confida, senza colpa, in un potere che sembra esistere",
+                "Il contratto concluso dal rappresentante, nei limiti dei poteri, produce effetti direttamente sul rappresentato"
+              ]
+            },
+            {
+              "title": "Il mandato",
+              "items": [
+                "Con rappresentanza: il mandatario agisce in nome del mandante",
+                "Senza rappresentanza: il mandatario agisce in nome proprio e poi trasferisce gli effetti",
+                "Esempio: l'agente autorizzato a concludere contratti agisce in nome dell'impresa"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Come si conclude il contratto",
+          "steps": [
+            {
+              "label": "Proposta",
+              "text": "Una parte manifesta la volontà di contrarre con tutti gli elementi essenziali."
+            },
+            {
+              "label": "Accettazione",
+              "text": "L'altra parte aderisce, nei tempi e nella forma richiesti. Un'accettazione non conforme vale come nuova proposta."
+            },
+            {
+              "label": "Conoscenza",
+              "text": "Il contratto è concluso quando il proponente conosce l'accettazione."
+            },
+            {
+              "label": "Altre vie",
+              "text": "Anche con un comportamento concludente o con una proposta non seguita da rifiuto della controparte."
+            }
+          ],
+          "ref": "Art. 1326 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale tra questi è un elemento accidentale del contratto?",
+          "options": [
+            "La causa",
+            "La condizione",
+            "L'oggetto",
+            "L'accordo delle parti"
+          ],
+          "answer": 1,
+          "explanation": "Causa, oggetto e accordo sono requisiti essenziali (art. 1325 c.c.). Condizione, termine e modo sono elementi accidentali: le parti possono inserirli, ma il contratto esiste anche senza."
+        },
+        {
+          "layout": "table",
+          "title": "La patologia del contratto",
+          "lead": "Quattro ipotesi, dalla più grave alla simulazione.",
+          "head": [
+            "Ipotesi",
+            "Quando",
+            "Chi la fa valere"
+          ],
+          "rows": [
+            [
+              "1 · Nullità",
+              "Manca un requisito essenziale o il contratto viola norme imperative.",
+              "Chiunque vi abbia interesse; il giudice la rileva d'ufficio. Non si prescrive."
+            ],
+            [
+              "2 · Annullabilità",
+              "Vizi del consenso, incapacità, conflitto di interessi.",
+              "Solo la parte protetta, entro 5 anni."
+            ],
+            [
+              "3 · Rescissione",
+              "Condizioni inique per stato di pericolo o di bisogno noto all'altra parte.",
+              "La parte danneggiata, entro 1 anno dalla conclusione."
+            ],
+            [
+              "4 · Simulazione",
+              "Le parti creano un'apparenza diversa dalla realtà.",
+              "Tra le parti il contratto simulato non produce effetti."
+            ]
+          ],
+          "ref": "Artt. 1418, 1421, 1422, 1441, 1442, 1449, 1414 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando il contratto è nullo",
+          "items": [
+            {
+              "text": "Manca uno dei requisiti essenziali.",
+              "ref": "art. 1418, c. 2"
+            },
+            {
+              "text": "È contrario a norme imperative, salvo che la legge disponga diversamente.",
+              "ref": "art. 1418, c. 1"
+            },
+            {
+              "text": "La causa è illecita, oppure lo sono i motivi comuni a entrambe le parti.",
+              "ref": "artt. 1418, 1345"
+            },
+            {
+              "text": "L'oggetto è impossibile, illecito, indeterminato e non determinabile.",
+              "ref": "artt. 1418, 1346"
+            },
+            {
+              "text": "Negli altri casi stabiliti dalla legge: ad esempio il contratto con un'impresa non autorizzata.",
+              "ref": "art. 1418, c. 3; art. 167 CAP"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando il contratto è annullabile",
+          "items": [
+            {
+              "text": "Vizi del consenso: errore essenziale e riconoscibile, violenza, dolo.",
+              "ref": "artt. 1427, 1428"
+            },
+            {
+              "text": "Incapacità legale o naturale di una delle parti.",
+              "ref": "art. 1425"
+            },
+            {
+              "text": "Conflitto di interessi tra rappresentante e rappresentato, se il terzo lo conosceva o poteva riconoscerlo.",
+              "ref": "art. 1394"
+            },
+            {
+              "text": "Gli altri casi previsti dalla legge: nell'assicurazione, le dichiarazioni inesatte rese con dolo o colpa grave.",
+              "ref": "art. 1892"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "La rescissione",
+          "left": {
+            "title": "Stato di pericolo",
+            "items": [
+              "Condizioni contrattuali inique",
+              "Assunte per salvare sé o altri dal pericolo attuale di un danno grave alla persona",
+              "Il pericolo era noto alla controparte"
+            ],
+            "ref": "Art. 1447 c.c."
+          },
+          "right": {
+            "title": "Stato di bisogno",
+            "items": [
+              "Sproporzione tra le prestazioni",
+              "Dovuta allo stato di bisogno, di cui l'altra parte ha approfittato",
+              "La lesione deve superare la metà del valore"
+            ],
+            "ref": "Art. 1448 c.c."
+          },
+          "note": "I contratti aleatori, come l'assicurazione, non si possono rescindere per lesione.",
+          "noteRef": "Art. 1448, c. 4 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "La simulazione",
+          "cols": [
+            {
+              "title": "Assoluta",
+              "items": [
+                "Le parti fingono di concludere un contratto che in realtà non vogliono",
+                "Tra le parti non produce alcun effetto"
+              ]
+            },
+            {
+              "title": "Relativa",
+              "items": [
+                "Le parti concludono un contratto diverso da quello che appare",
+                "Tra le parti vale il contratto dissimulato, se ne ha i requisiti di sostanza e di forma"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha stipulato una polizza incendio sulla casa con un premio che oggi gli sembra molto alto. Non ha mai avuto sinistri e chiede all'intermediario di \"rescindere il contratto per sproporzione\", perché ha pagato premi per anni senza ricevere nulla.",
+          "questions": [
+            "La rescissione per lesione è possibile?",
+            "Che cosa può fare concretamente il cliente?"
+          ],
+          "solution": "No. L'assicurazione è un contratto aleatorio: il fatto di aver pagato premi senza sinistri è proprio il funzionamento normale del contratto, e i contratti aleatori non si rescindono per lesione (art. 1448 c.c.). L'intermediario spiega la funzione della polizza e verifica con il cliente le strade corrette: la disdetta alla scadenza nei termini contrattuali, il recesso per le polizze poliennali oltre i cinque anni, oppure una revisione delle garanzie e delle somme assicurate."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi può far valere la nullità di un contratto?",
+          "options": [
+            "Solo la parte nel cui interesse è prevista",
+            "Chiunque vi abbia interesse; il giudice può rilevarla d'ufficio",
+            "Solo il giudice, entro cinque anni",
+            "Solo la parte danneggiata, entro un anno"
+          ],
+          "answer": 1,
+          "explanation": "Salvo diverse disposizioni di legge, la nullità può essere fatta valere da chiunque vi abbia interesse e può essere rilevata d'ufficio (art. 1421 c.c.); l'azione non si prescrive (art. 1422). La legittimazione riservata a una parte è tipica dell'annullabilità. Attenzione: il Codice delle assicurazioni prevede eccezioni, come la nullità del contratto con impresa non autorizzata, che può far valere solo il contraente o l'assicurato."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1321",
+              "text": "il contratto è un accordo su un rapporto patrimoniale"
+            },
+            {
+              "value": "4",
+              "text": "requisiti essenziali: accordo, causa, oggetto, forma"
+            },
+            {
+              "value": "3",
+              "text": "elementi accidentali: condizione, termine, modo"
+            },
+            {
+              "value": "5 anni",
+              "text": "per l'azione di annullamento; la nullità non si prescrive"
+            },
+            {
+              "value": "Aleatorio",
+              "text": "l'assicurazione non si rescinde per lesione"
+            }
+          ]
+        }
+      ],
+      "narration": "Prima di entrare nel contratto di assicurazione dobbiamo fare un passo indietro e richiamare alcune nozioni generali del diritto dei contratti. Sono concetti che userai ogni giorno, anche senza accorgertene: quando raccogli una proposta, quando consegni una polizza, quando un cliente ti chiede se un contratto è ancora valido.\n\nPartiamo dal negozio giuridico. È una manifestazione di volontà diretta a produrre effetti giuridici che l'ordinamento riconosce e garantisce. Il contratto è il negozio giuridico più diffuso, ma non l'unico: anche il testamento o la procura sono negozi giuridici. La differenza è che il contratto richiede l'incontro di almeno due volontà.\n\nI negozi giuridici si possono classificare secondo diversi criteri. In relazione al tempo, ad esempio, si distinguono gli atti tra vivi da quelli a causa di morte, e i contratti a esecuzione istantanea da quelli di durata: la polizza è tipicamente un contratto di durata, perché la copertura si protrae nel tempo. A seconda del numero delle parti, si parla di negozi unilaterali, bilaterali o plurilaterali. A seconda della forma, ci sono negozi a forma libera e negozi per i quali la legge impone una forma precisa. A seconda dello schema negoziale, si distinguono i contratti tipici, cioè disciplinati dalla legge, come appunto l'assicurazione, da quelli atipici. Poi conta la natura del rapporto, patrimoniale o no, e la previsione o meno di una controprestazione: se c'è, il negozio è a titolo oneroso, altrimenti è gratuito.\n\nArriviamo alla definizione di contratto. L'articolo 1321 del Codice civile dice che il contratto è l'accordo di due o più parti per costituire, regolare o estinguere tra loro un rapporto giuridico patrimoniale. Nota i tre verbi: con un contratto si può far nascere un rapporto, modificarlo oppure chiuderlo. Una volta concluso, il contratto ha forza di legge tra le parti e non può essere sciolto se non per mutuo consenso o per le cause ammesse dalla legge, come prevede l'articolo 1372.\n\nQuali sono i requisiti essenziali? L'articolo 1325 ne indica quattro. Il primo è l'accordo delle parti. Il secondo è la causa, cioè la funzione economico-sociale del contratto: nella polizza, il trasferimento di un rischio dall'assicurato all'impresa verso il pagamento di un premio. Il terzo è l'oggetto, che deve essere possibile, lecito, determinato o almeno determinabile. Il quarto è la forma, ma attenzione a un dettaglio della norma: la forma è requisito essenziale solo quando la legge la prescrive sotto pena di nullità. Per il contratto di assicurazione, come vedremo, la forma scritta è richiesta per la prova, non per la validità.\n\nAccanto ai requisiti essenziali ci sono gli elementi accidentali, che le parti possono aggiungere se vogliono: la condizione, cioè un evento futuro e incerto da cui dipende l'efficacia del contratto o la sua risoluzione; il termine, cioè un momento futuro e certo; e il modo, o onere, un peso posto a carico di chi riceve un vantaggio. Ci sono poi gli elementi naturali: sono le clausole tipiche che la legge collega a un certo contratto e che valgono anche se le parti non le scrivono. Nell'assicurazione molte di queste regole, elencate nell'articolo 1932, si possono derogare solo in senso più favorevole all'assicurato: se una clausola le peggiora, viene sostituita di diritto dalla norma di legge.\n\nParliamo di rappresentanza, un tema molto vicino al lavoro dell'intermediario. Con la procura una persona attribuisce a un'altra il potere di agire in suo nome. La procura può essere speciale, se riguarda uno o più affari determinati, oppure generale, se riguarda tutti gli affari del rappresentato. Si parla poi di procura apparente quando un terzo, senza colpa, fa affidamento su un potere di rappresentanza che sembra esistere. Il contratto concluso dal rappresentante, in nome del rappresentato e nei limiti dei poteri conferiti, produce effetti direttamente nei confronti del rappresentato. Diverso è il mandato, con cui una parte si obbliga a compiere atti giuridici per conto dell'altra. Il mandato può essere con rappresentanza, se il mandatario agisce anche in nome del mandante, oppure senza rappresentanza, se agisce in nome proprio e poi deve trasferire gli effetti al mandante. Pensa all'agente autorizzato a concludere contratti: quando firma una polizza, la firma vincola l'impresa, nei limiti della procura.\n\nCome si conclude un contratto? Si conclude con l'incontro delle volontà delle due parti. Il caso tipico è lo scambio di dichiarazioni: una proposta e un'accettazione. Il contratto è concluso nel momento in cui chi ha fatto la proposta ha conoscenza dell'accettazione, e un'accettazione che modifica la proposta vale come nuova proposta. Il materiale ricorda anche due modalità diverse: la conclusione con un comportamento concludente, cioè quando una parte inizia a eseguire il contratto, e la conclusione mediante una proposta non seguita dal rifiuto della controparte: è il caso, previsto dall'articolo 1333, del contratto da cui nascono obbligazioni solo per chi propone, che si conclude se il destinatario non rifiuta nel termine richiesto dalla natura dell'affare o dagli usi.\n\nPassiamo alla patologia del contratto, cioè ai casi in cui qualcosa non va. Il caso di invalidità più grave è la nullità. Il contratto è nullo quando manca un requisito essenziale, quando è contrario a norme imperative, quando la causa è illecita o lo sono i motivi comuni alle parti, quando l'oggetto è impossibile, illecito, indeterminato e non determinabile, e negli altri casi stabiliti dalla legge. Un esempio del nostro settore: è nullo il contratto stipulato con un'impresa non autorizzata. Il contratto nullo non produce effetti; la nullità può essere fatta valere da chiunque vi abbia interesse, il giudice la può rilevare d'ufficio e l'azione non si prescrive.\n\nUn'invalidità meno grave è l'annullabilità. Le cause sono i vizi del consenso, cioè errore, violenza e dolo; l'incapacità di una delle parti; il conflitto di interessi tra rappresentante e rappresentato, quando il terzo lo conosceva o poteva riconoscerlo; e gli altri casi previsti dalla legge. Nell'assicurazione il caso più importante è quello delle dichiarazioni inesatte o reticenti rese con dolo o colpa grave, che vedremo in una prossima lezione. Il contratto annullabile produce effetti finché non viene annullato; l'annullamento lo può chiedere solo la parte protetta dalla legge e l'azione si prescrive in cinque anni.\n\nUn'altra forma di patologia è la rescissione. Un contratto può essere rescisso quando le condizioni sono inique ed è stato concluso mentre una parte si trovava in stato di pericolo o di bisogno, e questo stato era noto alla controparte, che ne ha approfittato. Per la rescissione per lesione, la sproporzione deve superare la metà del valore della prestazione. C'è però un punto che riguarda direttamente il nostro settore: i contratti aleatori non possono essere rescissi per lesione. L'azione di rescissione si prescrive in un anno dalla conclusione del contratto.\n\nL'ultima ipotesi è la simulazione. Le parti creano un'apparenza che non corrisponde alla realtà. La simulazione è assoluta quando le parti non vogliono alcun contratto: fingono soltanto. È relativa quando vogliono un contratto diverso da quello apparente: in questo caso tra loro vale il contratto nascosto, detto dissimulato, se ne possiede i requisiti di sostanza e di forma.\n\nNel caso pratico di questa lezione, un cliente chiede di rescindere la sua polizza incendio perché ha pagato premi per anni senza sinistri. La risposta è no: l'assicurazione è un contratto aleatorio, e pagare il premio senza ricevere nulla, perché il sinistro non si è verificato, è proprio il funzionamento normale della copertura. Il tuo compito è spiegarlo con chiarezza e indicare le strade corrette, come la disdetta alla scadenza o una revisione delle garanzie.\n\nRicapitolando: il contratto è un accordo su un rapporto patrimoniale; ha quattro requisiti essenziali, accordo, causa, oggetto e forma quando prescritta; può contenere elementi accidentali come condizione, termine e modo; e può essere nullo, annullabile, rescindibile o simulato, con conseguenze molto diverse.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1321 (Nozione di contratto) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1321"
+        },
+        {
+          "title": "Codice civile, art. 1325 (Indicazione dei requisiti) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1325"
+        },
+        {
+          "title": "Codice civile, art. 1326 (Conclusione del contratto) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1326"
+        },
+        {
+          "title": "Codice civile, art. 1333 (Contratto con obbligazioni del solo proponente) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1333"
+        },
+        {
+          "title": "Codice civile, art. 1418 (Cause di nullità) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1418"
+        },
+        {
+          "title": "Codice civile, art. 1442 (Prescrizione dell'azione di annullamento) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1442"
+        },
+        {
+          "title": "Codice civile, art. 1448 (Rescissione per lesione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1448"
+        },
+        {
+          "title": "Codice civile, art. 1414 (Simulazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1414"
+        },
+        {
+          "title": "Codice civile, art. 1932 (Norme inderogabili) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1932"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi per ciascun criterio di classificazione dei negozi giuridici, per rendere concreto l'elenco della fonte.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Forza di legge del contratto e scioglimento solo per mutuo consenso o cause di legge.",
+          "source_ref": "Art. 1372 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che la forma è requisito essenziale solo quando la legge la prescrive a pena di nullità; per l'assicurazione la forma scritta è ad probationem.",
+          "source_ref": "Artt. 1325, n. 4, e 1888 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Momento di conclusione del contratto (conoscenza dell'accettazione) e accettazione non conforme come nuova proposta.",
+          "source_ref": "Art. 1326 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetti della rappresentanza sul rappresentato ed esempio dell'agente con procura.",
+          "source_ref": "Artt. 1388 e 1903 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Legittimazione e imprescrittibilità dell'azione di nullità; prescrizione quinquennale dell'annullamento; prescrizione annuale della rescissione.",
+          "source_ref": "Artt. 1421, 1422, 1441, 1442, 1449 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Non rescindibilità per lesione dei contratti aleatori, con collegamento all'assicurazione; soglia della lesione oltre la metà.",
+          "source_ref": "Art. 1448 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetti della simulazione assoluta e relativa tra le parti.",
+          "source_ref": "Art. 1414 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Inderogabilità in senso sfavorevole all'assicurato di alcune norme del Codice civile.",
+          "source_ref": "Art. 1932 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la procura \"apparente\" tra i tipi di procura: è una figura di elaborazione giurisprudenziale, non definita da un articolo del Codice civile.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegata la conclusione \"con una proposta non seguita da rifiuto\" al contratto con obbligazioni del solo proponente.",
+          "source_ref": "Art. 1333 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il criterio di classificazione \"in relazione al tempo\": la fonte non lo spiega; gli esempi aggiunti sono di carattere didattico.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Il contratto di assicurazione: nozione, elementi e parti",
+      "source_files": [
+        "corso totale/Contratto di assicurazione e riassicurazione.pdf.pdf",
+        "corso totale/Contratto di assicurazione e riassicurazione.2 (Video).mp4",
+        "Corso Ivass 60 ore/Materiale /Contratto di assicurazione ok.pdf"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "Il contratto di assicurazione: nozione, elementi e parti",
+          "goals": [
+            "Spiegare che cosa promette l'assicuratore e che cosa deve il contraente",
+            "Riconoscere rischio, interesse e natura giuridica della polizza",
+            "Individuare le parti del contratto e le regole del Codice delle assicurazioni sul contratto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La nozione",
+          "key": "L'assicurazione è il contratto col quale l'assicuratore, verso pagamento di un premio, si obbliga a rivalere l'assicurato, entro i limiti convenuti, del danno prodotto da un sinistro, ovvero a pagare un capitale o una rendita al verificarsi di un evento attinente alla vita umana.",
+          "body": "La prestazione dell'assicuratore è il risarcimento del danno oppure il pagamento di un capitale o di una rendita. La prestazione del contraente è il pagamento del premio.",
+          "ref": "Art. 1882 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Due grandi famiglie",
+          "cols": [
+            {
+              "title": "Assicurazioni contro i danni",
+              "items": [
+                "Funzione indennitaria",
+                "Rivalgono l'assicurato del danno subito per un sinistro",
+                "L'indennizzo non può superare il danno",
+                "Esempi: incendio, furto, responsabilità civile"
+              ]
+            },
+            {
+              "title": "Assicurazioni sulla vita",
+              "items": [
+                "Funzione previdenziale",
+                "Pagano un capitale o una rendita al verificarsi di un evento della vita umana",
+                "La somma è stabilita nel contratto, senza misurare un danno",
+                "Esempi: caso morte, caso vita, mista"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Il premio",
+          "lead": "Il premio è il corrispettivo pagato dal contraente. Si compone di due parti.",
+          "facts": [
+            {
+              "label": "Premio puro",
+              "text": "Il corrispettivo del rischio assunto, che serve a creare gli accantonamenti per i sinistri futuri."
+            },
+            {
+              "label": "Caricamento",
+              "text": "Copre le spese di acquisizione e di gestione del contratto."
+            },
+            {
+              "label": "Pagamento",
+              "text": "Se il premio non è pagato, la garanzia resta sospesa: lo vedremo nella prossima lezione."
+            }
+          ],
+          "ref": "Materiale originale del corso; art. 1901 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Elementi del contratto e polizza",
+          "left": {
+            "title": "Elementi",
+            "items": [
+              "L'accordo delle parti",
+              "Il rischio",
+              "La forma scritta, richiesta per la prova"
+            ],
+            "ref": "Art. 1888 c.c."
+          },
+          "right": {
+            "title": "La polizza può essere",
+            "items": [
+              "Nominativa: intestata a una persona determinata",
+              "All'ordine: si trasferisce con girata",
+              "Al portatore: si trasferisce con la consegna",
+              "Per le ultime due il trasferimento della polizza trasferisce il credito verso l'assicuratore"
+            ],
+            "ref": "Art. 1889 c.c."
+          },
+          "note": "L'assicuratore deve rilasciare al contraente la polizza o un altro documento da lui sottoscritto, e a richiesta duplicati o copie a spese del contraente.",
+          "noteRef": "Art. 1888 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Il rischio",
+          "key": "Il rischio è la probabilità che si verifichi un evento dannoso: la possibilità di un evento futuro e incerto.",
+          "body": "Ha due elementi: la probabilità che l'evento si verifichi e la conseguenza dell'evento. Senza rischio il contratto non ha causa: è nullo se il rischio non è mai esistito o è cessato prima della conclusione, e l'assicurato ha diritto alla restituzione di quanto pagato.",
+          "ref": "Art. 1895 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'interesse",
+          "key": "L'interesse è la relazione economica che lega l'oggetto dell'assicurazione all'assicurato. Il danno è la lesione dell'interesse; il valore del bene ne è la misura.",
+          "body": "Nelle assicurazioni contro i danni l'interesse è indispensabile: il contratto è nullo se, quando l'assicurazione deve avere inizio, non esiste un interesse dell'assicurato al risarcimento del danno. Esempio: chi assicura contro l'incendio una casa che non gli appartiene e su cui non ha alcun diritto o responsabilità non ha interesse.",
+          "ref": "Art. 1904 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "La natura giuridica",
+          "lead": "Nove caratteristiche, ognuna con una conseguenza pratica.",
+          "head": [
+            "Carattere",
+            "Significato"
+          ],
+          "rows": [
+            [
+              "Tipico",
+              "È disciplinato dal Codice civile, artt. 1882 e seguenti."
+            ],
+            [
+              "Per adesione",
+              "L'impresa predispone le condizioni; le clausole vessatorie richiedono la specifica approvazione scritta."
+            ],
+            [
+              "Consensuale",
+              "Si perfeziona con il consenso delle parti."
+            ],
+            [
+              "A forma libera",
+              "La forma scritta serve per provarlo, non per la validità."
+            ],
+            [
+              "Ad effetti obbligatori",
+              "Fa nascere obblighi reciproci tra le parti."
+            ],
+            [
+              "A titolo oneroso",
+              "A ogni prestazione corrisponde un corrispettivo: il premio."
+            ],
+            [
+              "Aleatorio",
+              "Il sinistro può verificarsi o no: l'esito economico è incerto."
+            ],
+            [
+              "Sinallagmatico",
+              "Le prestazioni sono corrispettive: premio contro garanzia."
+            ],
+            [
+              "Di durata",
+              "La copertura si protrae nel tempo."
+            ]
+          ],
+          "ref": "Materiale originale del corso; artt. 1341, 1888 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "Le parti del contratto",
+          "head": [
+            "Soggetto",
+            "Chi è",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "1 · Contraente",
+              "Chi stipula il contratto e paga il premio.",
+              "Spesso coincide con l'assicurato, ma non sempre."
+            ],
+            [
+              "2 · Assicurato",
+              "Il titolare dell'interesse esposto al rischio.",
+              "Nelle polizze vita è la persona sulla cui vita è stipulato il contratto."
+            ],
+            [
+              "3 · Beneficiario",
+              "Chi riceve la prestazione.",
+              "Tipico delle polizze vita; acquista un diritto proprio."
+            ],
+            [
+              "4 · Assicuratore",
+              "L'impresa che assume il rischio.",
+              "Può essere solo un istituto di diritto pubblico o una società per azioni, nel rispetto delle leggi speciali."
+            ]
+          ],
+          "ref": "Artt. 1883, 1920 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Quando contraente e assicurato non coincidono",
+          "left": {
+            "title": "Nell'assicurazione danni",
+            "items": [
+              "In nome altrui: il contraente agisce senza potere; l'interessato può ratificare anche dopo il sinistro",
+              "Per conto altrui: il contraente stipula per un assicurato determinato",
+              "Per conto di chi spetta: l'assicurato si individua al momento del sinistro",
+              "I diritti spettano all'assicurato; gli obblighi restano al contraente"
+            ],
+            "ref": "Artt. 1890, 1891 c.c."
+          },
+          "right": {
+            "title": "Nell'assicurazione vita",
+            "items": [
+              "Per il caso di vita: si paga se l'assicurato è in vita a una certa data",
+              "Per il caso di morte: si paga se l'assicurato muore durante il contratto",
+              "Mista: combina le due garanzie",
+              "Sulla vita di un terzo per il caso di morte serve il suo consenso scritto"
+            ],
+            "ref": "Art. 1919 c.c."
+          },
+          "note": "Il beneficiario può essere designato nel contratto, con dichiarazione scritta successiva o per testamento.",
+          "noteRef": "Art. 1920 c.c."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente chiede se la polizza è valida anche se non ha firmato un documento scritto. Qual è la risposta corretta?",
+          "options": [
+            "No: senza forma scritta il contratto è nullo",
+            "Il contratto si perfeziona con il consenso, ma deve essere provato per iscritto",
+            "Sì, e non serve alcuna prova scritta",
+            "È valido solo se stipulato da un notaio"
+          ],
+          "answer": 1,
+          "explanation": "L'assicurazione è un contratto consensuale e a forma libera: la forma scritta è richiesta ad probationem, cioè per provarlo (art. 1888 c.c.). Per questo l'impresa deve rilasciare la polizza o un altro documento sottoscritto."
+        },
+        {
+          "layout": "steps",
+          "title": "La fase precontrattuale",
+          "steps": [
+            {
+              "label": "Proposta",
+              "text": "Dichiarazione di volontà a contrarre con tutti gli elementi essenziali. Può farla direttamente l'assicurando, in qualunque forma."
+            },
+            {
+              "label": "Proposta ferma",
+              "text": "La proposta scritta resta ferma 15 giorni, o 30 se serve una visita medica, dalla consegna o spedizione."
+            },
+            {
+              "label": "Accettazione",
+              "text": "Il contratto si forma con il semplice incontro tra proposta e accettazione."
+            },
+            {
+              "label": "Polizza",
+              "text": "L'assicuratore rilascia la polizza o un altro documento sottoscritto, che prova il contratto."
+            }
+          ],
+          "ref": "Artt. 1887, 1888 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "Il Codice delle assicurazioni sul contratto",
+          "items": [
+            {
+              "text": "Contratti di assicurazione, coassicurazione e riassicurazione restano disciplinati dal Codice civile, salvo quanto diversamente previsto dal CAP.",
+              "ref": "art. 165 CAP"
+            },
+            {
+              "text": "Contratto e documenti vanno redatti in modo chiaro ed esauriente; decadenze, nullità, limitazioni di garanzia e oneri si evidenziano con caratteri di particolare evidenza.",
+              "ref": "art. 166 CAP"
+            },
+            {
+              "text": "Impresa non autorizzata: il contratto è nullo. La nullità la fanno valere solo contraente o assicurato; i premi si restituiscono, gli indennizzi pagati non si ripetono.",
+              "ref": "art. 167 CAP"
+            },
+            {
+              "text": "Trasferimento di portafoglio, fusione o scissione: il contratto prosegue; se il portafoglio va a un'impresa con sede all'estero, il contraente può recedere entro 60 giorni dalla pubblicazione.",
+              "ref": "art. 168 CAP; art. 1902 c.c."
+            },
+            {
+              "text": "Liquidazione coatta amministrativa: i contratti coprono i rischi fino al 60° giorno dalla pubblicazione del provvedimento; l'assicurato può recedere con raccomandata. RC auto: copertura fino a scadenza, nei minimi di legge.",
+              "ref": "art. 169 CAP"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Quale legge si applica",
+          "left": {
+            "title": "Rischi con elementi esteri",
+            "items": [
+              "Assicurati italiani con assicuratori esteri, o assicuratori italiani per rischi ubicati all'estero",
+              "Criterio di base: la libertà di scelta delle parti",
+              "Il materiale collega le assicurazioni danni alla residenza abituale e le altre al luogo in cui è situato il rischio alla conclusione del contratto",
+              "Riferimenti: Convenzione di Roma del 19 giugno 1980 e Regolamento CE n. 593/2008 (Roma I)"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Che cosa dice il CAP",
+            "items": [
+              "Danni: legge italiana se il rischio è ubicato in Italia; legge dello Stato membro di ubicazione se è altrove nell'UE",
+              "Vita: legge italiana se l'Italia è lo Stato membro dell'obbligazione",
+              "Le parti possono scegliere un'altra legge, nei limiti delle norme imperative",
+              "Rischio in uno Stato terzo: Convenzione di Roma, resa esecutiva con legge 18 dicembre 1984, n. 975"
+            ],
+            "ref": "Artt. 180, 181 CAP"
+          },
+          "note": "Nelle assicurazioni obbligatorie prevalgono le regole dello Stato che impone l'obbligo.",
+          "noteRef": "Art. 180, c. 3 CAP"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente ha acquistato online una polizza furto da un'impresa che non risulta autorizzata a operare in Italia. Dopo un furto, l'impresa non paga. Un'altra cliente, invece, riceve la notizia che la sua impresa italiana è stata posta in liquidazione coatta amministrativa.",
+          "questions": [
+            "Che sorte ha il contratto della prima cliente?",
+            "Fino a quando è coperta la seconda cliente, e che cosa può fare?"
+          ],
+          "solution": "Il primo contratto è nullo (art. 167 CAP). La nullità può farla valere solo la contraente o l'assicurata e obbliga alla restituzione dei premi. Per la seconda cliente il contratto continua a coprire i rischi fino al sessantesimo giorno dalla pubblicazione del provvedimento in Gazzetta Ufficiale; può recedere con raccomandata con avviso di ricevimento (art. 169 CAP). L'intermediario l'aiuta a trovare in tempo una nuova copertura."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nelle assicurazioni contro i danni, che cosa succede se all'inizio della copertura l'assicurato non ha alcun interesse al risarcimento?",
+          "options": [
+            "Il contratto è annullabile su domanda dell'impresa",
+            "Il contratto è valido, ma il premio è ridotto",
+            "Il contratto è nullo",
+            "Il contratto è sospeso fino a quando sorge l'interesse"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 1904 c.c. stabilisce che il contratto di assicurazione contro i danni è nullo se, nel momento in cui l'assicurazione deve avere inizio, non esiste un interesse dell'assicurato al risarcimento del danno."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1882",
+              "text": "premio contro risarcimento del danno o capitale/rendita"
+            },
+            {
+              "value": "Puro + caricamento",
+              "text": "le due parti del premio"
+            },
+            {
+              "value": "Prova",
+              "text": "la forma scritta serve a provare il contratto"
+            },
+            {
+              "value": "15 · 30",
+              "text": "giorni in cui resta ferma la proposta scritta"
+            },
+            {
+              "value": "60",
+              "text": "giorni di copertura dopo la liquidazione coatta"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel cuore dell'argomento: che cosa promette l'assicuratore, che cosa deve il contraente, quali sono gli elementi e le parti del contratto e quali regole aggiunge il Codice delle assicurazioni private.\n\nLa definizione è nell'articolo 1882 del Codice civile. L'assicurazione è il contratto col quale l'assicuratore, verso pagamento di un premio, si obbliga a rivalere l'assicurato, entro i limiti convenuti, del danno ad esso prodotto da un sinistro, oppure a pagare un capitale o una rendita al verificarsi di un evento attinente alla vita umana. In questa frase c'è tutto: da una parte la prestazione dell'assicuratore, che consiste nel risarcimento di un danno o nel pagamento di un capitale o di una rendita; dall'altra la prestazione del contraente, che è il pagamento del premio. E c'è un inciso importante, entro i limiti convenuti: l'assicuratore risponde solo nei limiti del contratto, cioè massimali, somme assicurate, franchigie ed esclusioni.\n\nLa definizione individua due grandi famiglie. Le assicurazioni contro i danni hanno funzione indennitaria: servono a rimettere l'assicurato nella situazione economica in cui si trovava prima del sinistro, senza arricchirlo. Le assicurazioni sulla vita hanno invece funzione previdenziale: al verificarsi di un evento della vita umana, come la morte o la sopravvivenza a una certa data, pagano una somma stabilita nel contratto, senza bisogno di misurare un danno.\n\nVediamo il premio. Si compone di due parti. Il premio puro è il corrispettivo per il rischio assunto dall'assicuratore e serve a creare gli accantonamenti necessari per far fronte ai sinistri futuri. Il caricamento copre le spese di acquisizione e di gestione del contratto, comprese quelle della rete distributiva. Spiegare questa distinzione al cliente aiuta a far capire perché due polizze con garanzie simili possono avere prezzi diversi.\n\nGli elementi del contratto sono l'accordo delle parti, il rischio e la forma scritta. Sulla forma bisogna essere precisi: l'articolo 1888 dice che il contratto di assicurazione deve essere provato per iscritto. Si tratta quindi di forma richiesta per la prova, non per la validità. Il documento è la polizza, generalmente predisposta dall'assicuratore, che è obbligato a rilasciarla al contraente, oppure a rilasciare un altro documento da lui sottoscritto; a richiesta e a spese del contraente deve fornire anche duplicati o copie. La polizza può essere nominativa, all'ordine o al portatore. Nelle polizze all'ordine e al portatore il trasferimento del documento comporta il trasferimento del credito verso l'assicuratore, con gli effetti della cessione: chi riceve la polizza diventa titolare del diritto alla prestazione.\n\nIl secondo elemento è il rischio. Il materiale lo definisce come la probabilità che si verifichi un evento dannoso, cioè la possibilità di un evento futuro e incerto. Ha due componenti: la probabilità che l'evento accada e la gravità delle sue conseguenze. Il rischio è così centrale che, se manca, manca la causa del contratto: per l'articolo 1895 il contratto è nullo se il rischio non è mai esistito o ha cessato di esistere prima della conclusione, e in questo caso l'assicurato ha diritto alla restituzione di quanto ha pagato.\n\nCollegato al rischio c'è l'interesse, cioè la relazione di carattere economico che lega l'oggetto dell'assicurazione all'assicurato. Il danno è la lesione di questo interesse, e il valore del bene ne rappresenta la misura. Nelle assicurazioni contro i danni l'interesse è un requisito: l'articolo 1904 stabilisce che il contratto è nullo se, quando l'assicurazione deve avere inizio, non esiste un interesse dell'assicurato al risarcimento. È la regola che impedisce di trasformare la polizza in una scommessa sui beni altrui.\n\nQual è la natura giuridica del contratto di assicurazione? Il materiale indica nove caratteristiche. È un contratto tipico, perché è disciplinato dal Codice civile. È per adesione, perché le condizioni sono predisposte dall'impresa e il cliente aderisce: per questo le clausole che limitano la responsabilità dell'impresa o pongono decadenze a carico del cliente richiedono la specifica approvazione per iscritto, la classica doppia firma. È consensuale, perché si perfeziona con il consenso delle parti. È a forma libera, perché la forma scritta serve per la prova. È ad effetti obbligatori, perché fa nascere obblighi reciproci. È a titolo oneroso, sinallagmatico, cioè a prestazioni corrispettive, e aleatorio, perché nessuno sa in anticipo se il sinistro si verificherà. Infine è un contratto di durata.\n\nLe parti del contratto sono quattro figure. Il contraente è chi stipula il contratto e paga il premio. L'assicurato è il titolare dell'interesse esposto al rischio, oppure, nelle polizze vita, la persona sulla cui vita è stipulata l'assicurazione. Il beneficiario è chi riceve la prestazione, tipicamente nelle polizze vita, dove acquista un diritto proprio ai vantaggi dell'assicurazione. L'assicuratore è l'impresa che assume il rischio: per l'articolo 1883 l'attività assicurativa può essere esercitata solo da un istituto di diritto pubblico o da una società per azioni, nel rispetto delle leggi speciali, oggi il Codice delle assicurazioni.\n\nContraente e assicurato non sempre coincidono. Nell'assicurazione danni si può avere l'assicurazione in nome altrui: il contraente agisce in nome di un'altra persona senza averne il potere, e l'interessato può ratificare il contratto anche dopo il sinistro. Si può avere l'assicurazione per conto altrui, quando il contraente stipula per un assicurato determinato, e l'assicurazione per conto di chi spetta, quando l'assicurato si individuerà al momento del sinistro: pensa alla polizza sulle merci in transito, che copre chi ne sarà proprietario. In questi casi gli obblighi del contratto restano al contraente, mentre i diritti spettano all'assicurato. Nell'assicurazione vita, invece, si distinguono l'assicurazione per il caso di vita, quella per il caso di morte e l'assicurazione mista, che combina le due. Attenzione: se la polizza caso morte riguarda la vita di un terzo, serve il consenso scritto di quel terzo.\n\nVediamo la fase precontrattuale. Il contratto si forma con il semplice incontro di proposta e accettazione. La proposta è una dichiarazione di volontà a contrarre, contiene tutti gli elementi essenziali del contratto, può essere fatta direttamente dall'assicurando e in qualunque forma. Se però è scritta e diretta all'assicuratore, l'articolo 1887 prevede che resti ferma per quindici giorni, oppure trenta quando occorre una visita medica, a partire dalla consegna o dalla spedizione. Per l'intermediario è un'indicazione operativa: la data di consegna della proposta va sempre documentata.\n\nIl Codice delle assicurazioni private, il decreto legislativo 209 del 2005, contiene alcune disposizioni generali sul contratto. L'articolo 165 ricorda che i contratti di assicurazione, coassicurazione e riassicurazione restano disciplinati dal Codice civile, salvo quanto diversamente previsto dal Codice delle assicurazioni. L'articolo 166 impone che contratto e documenti siano redatti in modo chiaro ed esauriente e che le clausole su decadenze, nullità, limitazioni delle garanzie e oneri a carico del cliente siano messe in particolare evidenza. Gli articoli da 167 a 169, richiamati dal materiale, regolano gli effetti sul contratto in tre situazioni. Primo: se il contratto è stipulato con un'impresa non autorizzata, o a cui è vietato assumere nuovi affari, è nullo; la nullità può essere fatta valere solo dal contraente o dall'assicurato, i premi pagati vanno restituiti, ma gli indennizzi eventualmente già pagati non si possono richiedere indietro. Secondo: se l'impresa trasferisce il portafoglio, si fonde o si scinde, il contratto non si risolve; se però il portafoglio passa a un'impresa con sede all'estero, il contraente residente in Italia può recedere entro sessanta giorni dalla pubblicazione dell'autorizzazione. Terzo: se l'impresa viene posta in liquidazione coatta amministrativa, i contratti in corso continuano a coprire i rischi fino al sessantesimo giorno dalla pubblicazione del provvedimento in Gazzetta Ufficiale, e l'assicurato può recedere con raccomandata; per la RC auto la copertura continua, nei limiti dei minimi di legge, fino alla scadenza.\n\nUltimo tema: la legge applicabile ai contratti con elementi esteri, cioè stipulati da assicurati italiani con assicuratori esteri o da assicuratori italiani per rischi ubicati all'estero. Il materiale richiama la Convenzione di Roma del 1980 e il Regolamento Roma I del 2008, e indica come criterio di fondo la libertà di scelta delle parti. Il Codice delle assicurazioni, agli articoli 180 e 181, precisa che i contratti danni sono regolati dalla legge italiana quando il rischio è ubicato in Italia, e i contratti vita quando l'Italia è lo Stato membro dell'obbligazione; le parti possono scegliere un'altra legge, nel rispetto delle norme imperative; se il rischio è in uno Stato terzo si applica la Convenzione di Roma, resa esecutiva con la legge 975 del 1984.\n\nNel caso pratico, la prima cliente ha un contratto nullo e può chiedere la restituzione dei premi; la seconda resta coperta per sessanta giorni e può recedere: aiutala a trovare in tempo una nuova copertura.\n\nRicapitolando: premio contro garanzia; premio puro più caricamento; forma scritta per la prova; rischio e interesse indispensabili; e il Codice delle assicurazioni tutela il cliente quando l'impresa non è autorizzata, cambia assetto o entra in liquidazione.",
+      "sources": [
+        {
+          "title": "Codice civile, artt. 1882-1891 (Disposizioni generali sull'assicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1882"
+        },
+        {
+          "title": "Codice civile, art. 1888 (Prova del contratto) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1888"
+        },
+        {
+          "title": "Codice civile, art. 1895 (Inesistenza del rischio) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1895"
+        },
+        {
+          "title": "Codice civile, art. 1904 (Interesse all'assicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1904"
+        },
+        {
+          "title": "Codice civile, art. 1341 (Condizioni generali di contratto) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1341"
+        },
+        {
+          "title": "Codice civile, artt. 1919-1920 (Assicurazione sulla vita) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1919"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo IVASS aggiornato, artt. 165-169, 180-181",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Definizione dell'art. 1882 riportata per intero, con \"verso pagamento di un premio\" ed \"entro i limiti convenuti\".",
+          "source_ref": "Art. 1882 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Integrati dal materiale del corso 60 ore: composizione del premio (premio puro e caricamento), prestazioni delle parti, contratto consensuale e obbligatorio, polizza predisposta dall'assicuratore.",
+          "source_ref": "Corso Ivass 60 ore, Contratto di assicurazione"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di rilascio della polizza e dei duplicati; effetti del trasferimento delle polizze all'ordine e al portatore.",
+          "source_ref": "Artt. 1888, 1889 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nullità per inesistenza del rischio (dal corso 60 ore, con riferimento normativo) e per mancanza di interesse nelle assicurazioni danni.",
+          "source_ref": "Artt. 1895, 1904 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contratto per adesione collegato alla specifica approvazione scritta delle clausole vessatorie.",
+          "source_ref": "Art. 1341 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Soggetti che possono esercitare l'impresa di assicurazione; ratifica nell'assicurazione in nome altrui; ripartizione di obblighi e diritti nell'assicurazione per conto; consenso del terzo e designazione del beneficiario nella vita.",
+          "source_ref": "Artt. 1883, 1890, 1891, 1919, 1920 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Proposta scritta ferma 15 o 30 giorni.",
+          "source_ref": "Art. 1887 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto degli artt. 165-169 CAP: raccordo con il Codice civile, criteri di redazione, nullità per impresa non autorizzata, recesso entro 60 giorni nel trasferimento di portafoglio verso l'estero, copertura per 60 giorni in liquidazione coatta e regola RC auto.",
+          "source_ref": "Artt. 165-169 CAP; art. 1902 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole del CAP sulla legge applicabile ai contratti danni e vita.",
+          "source_ref": "Artt. 180, 181 CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte indicava \"Convenzione di Roma del 19 giugno 1980, n. 975\": il n. 975 è la legge 18 dicembre 1984 che l'ha resa esecutiva in Italia.",
+          "source_ref": "Art. 180, c. 5 CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte lo schema sulla designazione della legge applicabile (libertà di scelta; danni: residenza abituale; altro genere: luogo del rischio alla conclusione). Lo schema non coincide con gli artt. 180-181 CAP; il testo dell'art. 7 del Regolamento Roma I non è stato verificabile su EUR-Lex in questa revisione: riferimento da verificare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento al Regolamento CE del 17 giugno 2008, n. 593 (Roma I): testo non consultato in questa revisione.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di rischio come \"probabilità che si verifichi un evento dannoso\", affiancata a quella del corso 60 ore (\"possibilità di un evento futuro e incerto\").",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "La vita del contratto: durata, premio, dichiarazioni e rischio",
+      "source_files": [
+        "corso totale/Contratto di assicurazione e riassicurazione.pdf.pdf",
+        "corso totale/Contratto di assicurazione e riassicurazione.3 (Video).mp4",
+        "Corso Ivass 60 ore/Materiale /Contratto di assicurazione ok.pdf"
+      ],
+      "source_minutes": 8,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "La vita del contratto: durata, premio, dichiarazioni e rischio",
+          "goals": [
+            "Calcolare decorrenza, scadenza e durata e conoscere le regole sulle polizze poliennali",
+            "Sapere che cosa succede se il premio non viene pagato",
+            "Gestire dichiarazioni inesatte, aggravamento e diminuzione del rischio"
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Decorrenza, scadenza, durata",
+          "lead": "Tre parole che compaiono in ogni polizza.",
+          "facts": [
+            {
+              "label": "Decorrenza",
+              "text": "La data di inizio del contratto. L'assicurazione ha effetto dalle ore 24 del giorno della conclusione."
+            },
+            {
+              "label": "Scadenza",
+              "text": "La fine del contratto: le ore 24 dell'ultimo giorno della durata stabilita."
+            },
+            {
+              "label": "Durata",
+              "text": "Il periodo tra decorrenza e scadenza."
+            },
+            {
+              "label": "Proroga tacita",
+              "text": "Possibile, ma ogni proroga tacita non può superare due anni."
+            },
+            {
+              "label": "Eccezioni",
+              "text": "Queste regole non valgono per le polizze vita. Per la RC auto il tacito rinnovo è escluso."
+            }
+          ],
+          "ref": "Art. 1899 c.c.; art. 170-bis CAP"
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze poliennali",
+          "key": "Se il contratto supera i cinque anni, trascorso il quinquennio l'assicurato può recedere con preavviso di sessanta giorni, con effetto dalla fine dell'annualità in cui ha esercitato il recesso.",
+          "body": "La regola è stata introdotta dalla legge 23 luglio 2009, n. 99, per i contratti stipulati dopo la sua entrata in vigore. L'impresa può proporre la poliennale in alternativa alla copertura annuale, a fronte di una riduzione del premio rispetto al contratto annuale.",
+          "ref": "Art. 1899, c. 1 c.c.; L. 99/2009, art. 21"
+        },
+        {
+          "layout": "table",
+          "title": "Come può finire il contratto",
+          "lead": "Oltre alla scadenza naturale, il materiale elenca queste ipotesi.",
+          "head": [
+            "Evento",
+            "Effetto"
+          ],
+          "rows": [
+            [
+              "Premio non pagato e non richiesto entro 6 mesi",
+              "Risoluzione di diritto (art. 1901)"
+            ],
+            [
+              "Vita: premi successivi al primo non pagati",
+              "Risoluzione di diritto (art. 1924)"
+            ],
+            [
+              "Dichiarazioni inesatte e reticenze",
+              "Annullamento o recesso (artt. 1892-1893)"
+            ],
+            [
+              "Cessazione del rischio",
+              "Scioglimento del contratto (art. 1896)"
+            ],
+            [
+              "Riduzione o aggravamento del rischio",
+              "Recesso (artt. 1897-1898)"
+            ],
+            [
+              "Vita: cambio di professione, proposta dell'impresa non accettata",
+              "Risoluzione di diritto (art. 1926)"
+            ],
+            [
+              "Sovrassicurazione dolosa",
+              "Il contratto non è valido (art. 1909)"
+            ],
+            [
+              "Alienazione del bene assicurato",
+              "Possibile recesso dell'assicuratore (art. 1918)"
+            ],
+            [
+              "Sinistro, se previsto dal contratto",
+              "Recesso dell'assicuratore con rimborso del rateo di premio pagato e non goduto"
+            ]
+          ],
+          "ref": "Materiale originale del corso; Codice civile"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il mancato pagamento del premio (danni)",
+          "items": [
+            {
+              "value": "0 giorni",
+              "text": "Primo premio non pagato: la garanzia è sospesa fino alle ore 24 del giorno del pagamento",
+              "ref": "art. 1901, c. 1"
+            },
+            {
+              "value": "15 giorni",
+              "text": "Premi successivi: la sospensione parte dalle ore 24 del quindicesimo giorno dopo la scadenza",
+              "ref": "art. 1901, c. 2"
+            },
+            {
+              "value": "6 mesi",
+              "text": "Se l'impresa non agisce per la riscossione, il contratto è risolto di diritto",
+              "ref": "art. 1901, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il mancato pagamento nelle polizze vita",
+          "key": "Se il contraente non paga i premi successivi nel termine di tolleranza della polizza o, in mancanza, entro 20 giorni dalla scadenza, il contratto è risolto di diritto.",
+          "body": "I premi pagati restano all'assicuratore, salvo che ci siano le condizioni per il riscatto o la riduzione della somma assicurata. Per il premio del primo anno, invece, l'impresa può agire per l'esecuzione del contratto entro sei mesi dalla scadenza. Le polizze devono regolare riscatto e riduzione in modo che l'assicurato ne conosca sempre il valore.",
+          "ref": "Artt. 1924, 1925 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Le dichiarazioni del contraente",
+          "key": "L'assicuratore si basa di regola sulle dichiarazioni dell'assicurando, che deve descrivere il rischio in modo esatto e completo.",
+          "body": "Per raccogliere le informazioni, è prassi far compilare un questionario predisposto dall'impresa. Il questionario va tarato sulla singola polizza e deve essere dettagliato. Per l'intermediario è un momento chiave: domande chiare e risposte complete proteggono il cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Dichiarazioni inesatte e reticenze",
+          "cols": [
+            {
+              "title": "Con dolo o colpa grave (art. 1892)",
+              "items": [
+                "Il contratto è annullabile",
+                "Le circostanze devono essere tali che l'impresa non avrebbe contratto, o non alle stesse condizioni",
+                "L'impresa deve dichiarare al contraente di voler impugnare entro 3 mesi da quando ha scoperto il fatto, poi agire in giudizio",
+                "Le spettano i premi del periodo in corso e comunque quelli del primo anno",
+                "Sinistro prima dei 3 mesi: non paga"
+              ]
+            },
+            {
+              "title": "Senza dolo o colpa grave (art. 1893)",
+              "items": [
+                "Il contratto non è annullabile",
+                "L'impresa può recedere entro 3 mesi da quando ha scoperto il fatto",
+                "Sinistro prima della scoperta o del recesso: la somma è ridotta in proporzione",
+                "Proporzione: tra premio convenuto e premio che sarebbe stato applicato"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente ha omesso, per una semplice dimenticanza senza colpa grave, un'informazione rilevante. Prima che l'impresa se ne accorga si verifica un sinistro. Che cosa succede?",
+          "options": [
+            "L'impresa non paga nulla e annulla il contratto",
+            "L'impresa paga per intero",
+            "L'impresa paga una somma ridotta in proporzione alla differenza di premio",
+            "Il contratto è nullo"
+          ],
+          "answer": 2,
+          "explanation": "Senza dolo o colpa grave si applica l'art. 1893 c.c.: niente annullamento, ma se il sinistro avviene prima che l'inesattezza sia conosciuta o prima del recesso, la somma dovuta è ridotta in proporzione della differenza tra il premio convenuto e quello che sarebbe stato applicato conoscendo il vero stato delle cose."
+        },
+        {
+          "layout": "split",
+          "title": "Diminuzione e aggravamento del rischio",
+          "left": {
+            "title": "Diminuzione (art. 1897)",
+            "items": [
+              "Il contraente può comunicarla se vuole pagare un premio ridotto",
+              "Dalla scadenza successiva l'impresa può esigere solo il premio minore",
+              "L'impresa può recedere entro 2 mesi dalla comunicazione; il recesso ha effetto dopo 1 mese"
+            ]
+          },
+          "right": {
+            "title": "Aggravamento (art. 1898)",
+            "items": [
+              "È l'aumento imprevisto o imprevedibile della probabilità dell'evento o della sua entità",
+              "Il contraente deve darne immediato avviso",
+              "Conta se l'impresa non avrebbe assicurato, o avrebbe chiesto un premio più alto"
+            ]
+          },
+          "note": "Sull'aggravamento c'è un obbligo di avviso; sulla diminuzione una facoltà, che conviene esercitare.",
+          "noteRef": "Artt. 1897-1898 c.c."
+        },
+        {
+          "layout": "timeline",
+          "title": "Aggravamento: i tempi del recesso",
+          "items": [
+            {
+              "value": "1 mese",
+              "text": "dall'avviso o dalla conoscenza, per comunicare per iscritto il recesso",
+              "ref": "art. 1898, c. 2"
+            },
+            {
+              "value": "0 giorni",
+              "text": "effetto immediato, se l'impresa non avrebbe consentito l'assicurazione",
+              "ref": "art. 1898, c. 3"
+            },
+            {
+              "value": "15 giorni",
+              "text": "effetto dopo 15 giorni, se avrebbe solo chiesto un premio maggiore",
+              "ref": "art. 1898, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Sinistro durante l'aggravamento",
+          "key": "Se il sinistro avviene prima che scadano i termini per comunicare il recesso e per renderlo efficace, l'impresa non paga se non avrebbe mai assicurato quel rischio; altrimenti paga una somma ridotta.",
+          "body": "La riduzione tiene conto del rapporto tra il premio del contratto e quello che sarebbe stato fissato per il rischio più grave. All'impresa spettano i premi del periodo in corso al momento del recesso.",
+          "ref": "Art. 1898, c. 4-5 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "Altre vicende del rischio",
+          "head": [
+            "Caso",
+            "Regola"
+          ],
+          "rows": [
+            [
+              "Cessazione del rischio durante il contratto",
+              "Il contratto si scioglie; l'impresa ha diritto ai premi finché non viene a conoscenza della cessazione, e a quelli del periodo in corso."
+            ],
+            [
+              "Vita: cambio di professione",
+              "Se aggrava il rischio, l'impresa entro 15 giorni dalla notizia dice se fa cessare il contratto, riduce la somma o aumenta il premio. L'assicurato ha 15 giorni per rispondere: il silenzio vale adesione, il rifiuto risolve il contratto."
+            ]
+          ],
+          "ref": "Artt. 1896, 1926 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "Regole che proteggono l'assicurato",
+          "items": [
+            {
+              "text": "Le norme su proposta, dichiarazioni inesatte, diminuzione e aggravamento del rischio, proroga tacita, mancato pagamento del premio e cambio di professione non si possono derogare in senso meno favorevole all'assicurato.",
+              "ref": "art. 1932 c.c."
+            },
+            {
+              "text": "Una clausola peggiorativa è sostituita di diritto dalla norma di legge.",
+              "ref": "art. 1932, c. 2 c.c."
+            },
+            {
+              "text": "Le clausole su decadenze, nullità e limitazioni della garanzia vanno scritte con caratteri di particolare evidenza.",
+              "ref": "art. 166 CAP"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un artigiano ha una polizza incendio sul suo magazzino, che usava come deposito di attrezzi. Da tre mesi vi conserva anche vernici e solventi infiammabili, ma non lo ha comunicato. Scoppia un incendio. L'impresa scopre la modifica durante la perizia e dimostra che, sapendolo, avrebbe chiesto un premio più alto, ma avrebbe comunque assicurato.",
+          "questions": [
+            "Il cliente aveva un obbligo?",
+            "Quanto riceverà?",
+            "Come si poteva evitare il problema?"
+          ],
+          "solution": "Sì: l'aggravamento del rischio va comunicato immediatamente (art. 1898 c.c.). Poiché l'impresa avrebbe comunque assicurato, ma a un premio maggiore, l'indennizzo è ridotto in proporzione tra il premio pagato e quello che sarebbe stato fissato per il rischio aggravato. Per evitarlo, l'intermediario ricorda periodicamente al cliente di segnalare ogni cambiamento dell'uso dei locali e aggiorna la polizza."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un contratto incendio ha durata di dieci anni ed è stato stipulato nel 2015. Dopo il quinto anno l'assicurato vuole uscire. Che cosa può fare?",
+          "options": [
+            "Nulla: deve attendere la scadenza decennale",
+            "Recedere con preavviso di 60 giorni, con effetto dalla fine dell'annualità in corso",
+            "Recedere in qualunque momento con effetto immediato",
+            "Chiedere l'annullamento del contratto"
+          ],
+          "answer": 1,
+          "explanation": "Per i contratti poliennali stipulati dopo l'entrata in vigore della legge 99/2009, se il contratto supera i cinque anni l'assicurato, trascorso il quinquennio, può recedere con preavviso di sessanta giorni e con effetto dalla fine dell'annualità nella quale ha esercitato il recesso (art. 1899 c.c.)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Ore 24",
+              "text": "inizio e fine dell'effetto della polizza"
+            },
+            {
+              "value": "5 anni",
+              "text": "dopo i quali si può recedere dalla poliennale, con 60 giorni di preavviso"
+            },
+            {
+              "value": "15 · 6",
+              "text": "giorni di tolleranza e mesi prima della risoluzione per premio non pagato"
+            },
+            {
+              "value": "3 mesi",
+              "text": "per impugnare o recedere dopo la scoperta delle dichiarazioni inesatte"
+            },
+            {
+              "value": "Subito",
+              "text": "l'avviso dell'aggravamento del rischio"
+            }
+          ]
+        }
+      ],
+      "narration": "Un contratto di assicurazione non è una fotografia, ma un rapporto che vive nel tempo. In questa lezione vediamo come si misura la durata, come può finire il contratto, che cosa succede se il premio non viene pagato e come incidono le dichiarazioni del contraente e i cambiamenti del rischio.\n\nCominciamo dalle parole. La decorrenza è la data di inizio del contratto, la scadenza è la sua fine, e il periodo tra le due è la durata. L'articolo 1899 del Codice civile precisa che l'assicurazione ha effetto dalle ore ventiquattro del giorno della conclusione fino alle ore ventiquattro dell'ultimo giorno della durata stabilita. Il contratto può essere prorogato tacitamente, ma ogni proroga tacita non può superare due anni. Queste regole non si applicano alle polizze vita; e per la RC auto il Codice delle assicurazioni esclude del tutto il tacito rinnovo.\n\nUn tema molto pratico sono le polizze poliennali. La legge 23 luglio 2009, numero 99, ha modificato l'articolo 1899: oggi l'impresa può proporre una copertura poliennale in alternativa a quella annuale, ma solo a fronte di una riduzione del premio. Se il contratto supera i cinque anni, trascorso il quinquennio l'assicurato può recedere con un preavviso di sessanta giorni, con effetto dalla fine dell'annualità in cui ha esercitato la facoltà. La regola vale per i contratti stipulati dopo l'entrata in vigore di quella legge. Quando un cliente vuole uscire da una vecchia poliennale, la prima cosa da controllare è la data di stipula.\n\nIl materiale elenca poi le diverse ipotesi in cui il contratto finisce prima della scadenza naturale o comunque si interrompe. La risoluzione di diritto per mancato pagamento del premio, se l'impresa non agisce per riscuoterlo entro sei mesi. Nelle polizze vita, la risoluzione di diritto per mancato pagamento dei premi successivi al primo. L'annullamento o il recesso per dichiarazioni inesatte e reticenze. Lo scioglimento per cessazione del rischio. Il recesso per riduzione o aggravamento del rischio. Nella vita, la risoluzione di diritto se l'assicurato che cambia professione non accetta la proposta di modifica dell'impresa. L'annullamento in caso di sovrassicurazione dolosa. Il recesso dell'assicuratore in caso di alienazione del bene da parte dell'assicurato. E infine il recesso dell'assicuratore dopo un sinistro, con rimborso del rateo di premio pagato e non goduto, quando è previsto da una clausola del contratto.\n\nGuardiamo da vicino il mancato pagamento del premio nelle assicurazioni danni. Se il contraente non paga il premio o la prima rata, l'assicurazione resta sospesa fino alle ore ventiquattro del giorno in cui paga. Se non paga i premi successivi alle scadenze, la copertura resta in vigore ancora per quindici giorni, il cosiddetto periodo di tolleranza, e si sospende dalle ore ventiquattro del quindicesimo giorno dopo la scadenza. Se l'impresa, entro sei mesi dalla scadenza, non agisce per la riscossione, il contratto è risolto di diritto, e l'impresa ha diritto solo al premio del periodo in corso e al rimborso delle spese. In pratica: un cliente che non paga la rata non è coperto per i sinistri che avvengono durante la sospensione, anche se poi paga.\n\nNelle polizze vita la regola è diversa, perché l'articolo 1901 non si applica. Se il contraente non paga il premio del primo anno, l'impresa può agire per l'esecuzione del contratto entro sei mesi dalla scadenza. Se non paga i premi successivi nel termine di tolleranza previsto dalla polizza o, in mancanza, entro venti giorni dalla scadenza, il contratto è risolto di diritto e i premi pagati restano all'impresa, salvo che ci siano le condizioni per il riscatto o per la riduzione della somma assicurata. Le polizze vita devono regolare questi diritti in modo che l'assicurato possa conoscere in ogni momento il valore di riscatto o di riduzione.\n\nPassiamo alle dichiarazioni del contraente, uno dei temi più delicati per chi distribuisce polizze. L'assicuratore valuta il rischio sulla base di quello che dichiara l'assicurando, che deve descriverlo in modo esatto e completo. Di solito le informazioni si raccolgono con un questionario predisposto dall'impresa, che può avere i contenuti più vari secondo il tipo di polizza, e che deve essere tarato sulla singola polizza e dettagliato. Il ruolo dell'intermediario è far capire al cliente l'importanza di ogni risposta.\n\nChe cosa succede se le dichiarazioni sono inesatte o reticenti? Bisogna distinguere. Primo caso, articolo 1892: il contraente ha agito con dolo o colpa grave. Se le circostanze taciute erano tali che l'impresa non avrebbe dato il consenso, o non lo avrebbe dato alle stesse condizioni, il contratto è annullabile. L'impresa però decade dal diritto di impugnarlo se, entro tre mesi dal giorno in cui ha scoperto l'inesattezza o la reticenza, non dichiara al contraente di voler esercitare l'impugnazione; poi l'annullamento si ottiene con una domanda giudiziale. All'impresa spettano i premi del periodo in corso e comunque quelli del primo anno, e se il sinistro si verifica prima che siano passati i tre mesi non è tenuta a pagare. Secondo caso, articolo 1893: il contraente ha agito senza dolo o colpa grave. Il contratto non è annullabile, ma l'impresa può recedere con una dichiarazione all'assicurato entro tre mesi dalla scoperta. Se il sinistro avviene prima che l'impresa scopra l'inesattezza o prima che receda, la somma dovuta è ridotta in proporzione della differenza tra il premio convenuto e quello che sarebbe stato applicato conoscendo il vero stato delle cose.\n\nVediamo ora i cambiamenti del rischio durante il contratto. In caso di diminuzione, l'articolo 1897 dà al contraente una facoltà: se comunica all'impresa cambiamenti che riducono il rischio, tali che conoscendoli all'inizio si sarebbe stipulato un premio minore, dalla scadenza successiva l'impresa può chiedere solo il premio ridotto. L'impresa, però, può recedere entro due mesi dalla comunicazione, con effetto dopo un mese. In caso di aggravamento, il contraente ha un obbligo: deve dare immediato avviso all'impresa dei mutamenti che aggravano il rischio in modo tale che, se l'impresa li avesse conosciuti all'inizio, non avrebbe assicurato o lo avrebbe fatto per un premio più elevato. Il materiale definisce l'aggravamento come l'aumento imprevisto o imprevedibile della probabilità che l'evento si realizzi o della sua entità.\n\nRicevuto l'avviso, l'impresa ha un mese per recedere per iscritto. Il recesso ha effetto immediato se l'impresa non avrebbe mai assicurato quel rischio, e dopo quindici giorni se avrebbe chiesto soltanto un premio più alto. Se il sinistro avviene prima che scadano questi termini, l'impresa non paga nel primo caso, mentre nel secondo paga una somma ridotta in proporzione tra il premio del contratto e quello che sarebbe stato fissato per il rischio aggravato.\n\nCi sono altre due vicende. Se il rischio cessa di esistere durante il contratto, per esempio perché il bene assicurato viene distrutto da un evento non coperto, il contratto si scioglie; l'impresa ha diritto ai premi finché non viene a conoscenza della cessazione e a quelli del periodo in corso. Nelle polizze vita, se l'assicurato cambia professione e il nuovo lavoro aggrava il rischio, l'impresa entro quindici giorni dalla notizia dichiara se vuole far cessare il contratto, ridurre la somma assicurata o aumentare il premio; l'assicurato ha a sua volta quindici giorni per rispondere. Il silenzio vale come adesione, mentre il rifiuto risolve il contratto, salvo il diritto al riscatto.\n\nMolte di queste regole sono protette dall'articolo 1932: non possono essere derogate in senso meno favorevole all'assicurato, e una clausola peggiorativa viene sostituita di diritto dalla norma di legge. Inoltre il Codice delle assicurazioni chiede che le clausole su decadenze, nullità e limitazioni della garanzia siano stampate con caratteri di particolare evidenza.\n\nNel caso pratico, l'artigiano che ha iniziato a conservare vernici e solventi nel magazzino senza dirlo ha violato l'obbligo di avviso dell'aggravamento. Poiché l'impresa avrebbe comunque assicurato, ma per un premio maggiore, l'indennizzo viene ridotto proporzionalmente. La lezione per l'intermediario è chiara: ricordare periodicamente ai clienti di segnalare ogni cambiamento e aggiornare la polizza.\n\nRicapitolando: la polizza ha effetto dalle ore ventiquattro; la poliennale oltre i cinque anni si può lasciare con sessanta giorni di preavviso; il premio non pagato sospende la garanzia e, dopo sei mesi senza azione dell'impresa, risolve il contratto; le dichiarazioni inesatte portano all'annullamento o al recesso secondo la gravità della colpa; e l'aggravamento del rischio va comunicato subito.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1899 (Durata dell'assicurazione), con nota sulla L. 99/2009 - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1899"
+        },
+        {
+          "title": "Codice civile, art. 1901 (Mancato pagamento del premio) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1901"
+        },
+        {
+          "title": "Codice civile, art. 1892 (Dichiarazioni inesatte e reticenze con dolo o colpa grave) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1892"
+        },
+        {
+          "title": "Codice civile, art. 1893 (Dichiarazioni inesatte e reticenze senza dolo o colpa grave) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1893"
+        },
+        {
+          "title": "Codice civile, artt. 1896-1898 (Cessazione, diminuzione e aggravamento del rischio) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1898"
+        },
+        {
+          "title": "Codice civile, artt. 1924-1926 (Assicurazione sulla vita) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1924"
+        },
+        {
+          "title": "Codice civile, art. 1932 (Norme inderogabili) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1932"
+        },
+        {
+          "title": "Codice delle assicurazioni private, artt. 166 e 170-bis, testo IVASS aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Effetto dalle ore 24, limite di due anni per la proroga tacita, non applicabilità alla vita; esclusione del tacito rinnovo nella RC auto.",
+          "source_ref": "Art. 1899 c.c.; art. 170-bis CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "Poliennali: la fonte parlava di \"disdetta con effetto dalla annualità successiva\". Testo vigente: recesso dopo il quinquennio con preavviso di 60 giorni ed effetto dalla fine dell'annualità in cui è esercitato; poliennale proposta in alternativa all'annuale con premio ridotto; applicazione ai contratti stipulati dopo la L. 99/2009.",
+          "source_ref": "Art. 1899 c.c.; L. 23 luglio 2009, n. 99, art. 21, c. 3-4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elenco completo delle cause di fine del contratto, incluse le due voci presenti solo nel video (recesso per alienazione e recesso dopo sinistro per clausola contrattuale), con i relativi articoli.",
+          "source_ref": "OCR del video Contratto di assicurazione e riassicurazione.3; Codice civile"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sospensione della garanzia per premio non pagato, tolleranza di 15 giorni, risoluzione dopo 6 mesi e diritti dell'impresa.",
+          "source_ref": "Art. 1901 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Mancato pagamento nelle polizze vita: 20 giorni, riscatto e riduzione.",
+          "source_ref": "Artt. 1924, 1925 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Integrato dal corso 60 ore: questionario, requisiti dell'annullamento, termine di tre mesi, riduzione proporzionale.",
+          "source_ref": "Corso Ivass 60 ore, Contratto di assicurazione"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte 60 ore la necessità di \"apposita domanda giudiziale\" per l'annullamento, precisando che l'art. 1892 richiede di dichiarare al contraente la volontà di impugnare entro tre mesi dalla scoperta, a pena di decadenza.",
+          "source_ref": "Art. 1892, c. 2 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte 60 ore, parlando del recesso, diceva che se il sinistro avviene prima dei tre mesi l'impresa \"non è tenuta a liquidare l'indennità se dimostra che non avrebbe stipulato\", altrimenti paga un'indennità ridotta. Riformulato secondo il Codice: il mancato pagamento riguarda il caso di dolo o colpa grave (art. 1892); senza dolo o colpa grave la somma è ridotta in proporzione (art. 1893).",
+          "source_ref": "Artt. 1892, 1893 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diminuzione del rischio: recesso dell'impresa entro due mesi con effetto dopo un mese. Aggravamento: recesso entro un mese, efficacia immediata o dopo 15 giorni, sinistro nel periodo.",
+          "source_ref": "Artt. 1897, 1898 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di aggravamento come \"aumento imprevisto o imprevedibile\" della probabilità o dell'entità dell'evento: è una definizione dottrinale, l'art. 1898 non usa questi termini.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Cessazione del rischio e cambio di professione nella vita, con termini e silenzio-assenso.",
+          "source_ref": "Artt. 1896, 1926 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Norme inderogabili a favore dell'assicurato e caratteri di particolare evidenza.",
+          "source_ref": "Art. 1932 c.c.; art. 166 CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'espressione \"annullamento del contratto in caso di sovrassicurazione dolosa\": l'art. 1909 dice che il contratto \"non è valido\".",
+          "source_ref": "Art. 1909 c.c."
+        }
+      ]
+    },
+    {
+      "title": "Assicurazione danni e responsabilità civile: indennizzo, sinistro, prescrizione",
+      "source_files": [
+        "corso totale/Contratto di assicurazione e riassicurazione.pdf.pdf",
+        "corso totale/Contratto di assicurazione e riassicurazione.3 (Video).mp4",
+        "corso totale/Contratto di assicurazione e riassicurazione.4(Video).mp4",
+        "Corso Ivass 60 ore/Materiale /Contratto di assicurazione ok.pdf"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "Assicurazione danni e responsabilità civile: indennizzo, sinistro, prescrizione",
+          "goals": [
+            "Applicare il principio indennitario: sottoassicurazione, sovrassicurazione, più assicuratori",
+            "Guidare il cliente negli obblighi dopo il sinistro e conoscere surroga, franchigia e scoperto",
+            "Conoscere le regole della RC, la clausola claims made e i termini di prescrizione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il principio indennitario",
+          "key": "L'assicurazione contro i danni ha la funzione di tenere indenne l'assicurato, sollevandolo dal pregiudizio derivante da un sinistro, senza diventare uno strumento di lucro.",
+          "body": "L'assicuratore risarcisce il danno nei modi e nei limiti del contratto; il profitto sperato solo se lo ha promesso espressamente. Il valore dei beni si considera al tempo del sinistro, salvo stima accettata per iscritto dalle parti alla stipula.",
+          "ref": "Artt. 1905, 1908 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Sottoassicurazione e sovrassicurazione",
+          "left": {
+            "title": "Sottoassicurazione",
+            "items": [
+              "Somma assicurata minore del valore del bene",
+              "L'impresa risponde in proporzione: è la regola proporzionale",
+              "Le parti possono convenire diversamente"
+            ],
+            "ref": "Art. 1907 c.c."
+          },
+          "right": {
+            "title": "Sovrassicurazione",
+            "items": [
+              "Somma assicurata maggiore del valore del bene",
+              "Con dolo dell'assicurato il contratto non è valido; l'impresa in buona fede tiene i premi del periodo in corso",
+              "Senza dolo vale fino al valore reale e il premio si riduce per il futuro"
+            ],
+            "ref": "Art. 1909 c.c."
+          },
+          "note": "In entrambi i casi conta il rapporto tra somma assicurata e valore del bene al momento del sinistro.",
+          "noteRef": "Artt. 1907-1909 c.c."
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Esempio",
+          "title": "La regola proporzionale in pratica",
+          "lead": "Un capannone vale 400.000 euro ma è assicurato per 300.000. Un incendio causa un danno di 100.000 euro.",
+          "facts": [
+            {
+              "label": "Rapporto",
+              "text": "300.000 / 400.000 = 75%"
+            },
+            {
+              "label": "Indennizzo",
+              "text": "75% di 100.000 = 75.000 euro"
+            },
+            {
+              "label": "A carico del cliente",
+              "text": "25.000 euro, anche se il danno è ben sotto la somma assicurata"
+            },
+            {
+              "label": "Il ruolo dell'intermediario",
+              "text": "Verificare i valori a ogni rinnovo e proporre l'adeguamento"
+            }
+          ],
+          "ref": "Art. 1907 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Più assicuratori sullo stesso rischio",
+          "cols": [
+            {
+              "title": "Assicurazione presso diversi assicuratori",
+              "items": [
+                "Detta anche coassicurazione indiretta o assicurazione plurima",
+                "Stesso rischio, contratti distinti",
+                "L'assicurato deve avvisare ogni assicuratore delle altre polizze; se omette con dolo, nessuno paga",
+                "In caso di sinistro chiede a ciascuno, ma non più del danno complessivo",
+                "Chi ha pagato ha regresso verso gli altri"
+              ]
+            },
+            {
+              "title": "Coassicurazione diretta",
+              "items": [
+                "Stesso rischio, più assicuratori, unico contratto",
+                "Ogni assicuratore ha una quota determinata",
+                "Ciascuno paga solo la propria quota, anche se il contratto è unico"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Dopo il sinistro: gli obblighi dell'assicurato",
+          "steps": [
+            {
+              "label": "Avviso entro 3 giorni",
+              "text": "All'assicuratore o all'agente autorizzato, dal sinistro o da quando se ne è avuta conoscenza. Bestiame: 24 ore, salvo patto contrario."
+            },
+            {
+              "label": "Salvataggio",
+              "text": "Fare quanto possibile per evitare o diminuire il danno."
+            },
+            {
+              "label": "Spese di salvataggio",
+              "text": "Sono a carico dell'impresa, in proporzione al valore assicurato, anche oltre la somma assicurata e anche se lo scopo non è raggiunto."
+            },
+            {
+              "label": "Se l'obbligo non è rispettato",
+              "text": "Con dolo si perde l'indennità; con colpa l'impresa la riduce in ragione del pregiudizio."
+            }
+          ],
+          "ref": "Artt. 1913-1915 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "L'alienazione delle cose assicurate",
+          "key": "L'alienazione delle cose assicurate determina il trasferimento del contratto in capo all'acquirente, senza che occorra alcuna specifica manifestazione di volontà.",
+          "body": "La vendita non scioglie il contratto. Chi vende avvisa impresa e acquirente, altrimenti paga i premi successivi. L'acquirente può rifiutare il subentro entro 10 giorni dalla scadenza del primo premio successivo; l'impresa può recedere entro 10 giorni dalla notizia, con 15 giorni di preavviso.",
+          "ref": "Art. 1918 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "La surrogazione dell'assicuratore",
+          "key": "Se il danno è causato da un terzo responsabile, l'assicuratore che ha pagato l'indennizzo subentra nei diritti dell'assicurato verso il terzo, fino all'ammontare pagato. È la surroga o rivalsa.",
+          "body": "L'assicuratore può rinunciare alla surroga preventivamente, con una clausola di polizza, o successivamente. Salvo dolo, la surroga non si applica verso figli, ascendenti, altri parenti o affini stabilmente conviventi, domestici e, per effetto della Corte costituzionale, coniuge. L'assicurato risponde se pregiudica il diritto di surroga.",
+          "ref": "Art. 1916 c.c.; C. cost. 117/1975"
+        },
+        {
+          "layout": "table",
+          "title": "Franchigia e scoperto",
+          "lead": "Due modi per lasciare una parte del danno a carico del cliente, a fronte di un premio più contenuto.",
+          "head": [
+            "Clausola",
+            "Come funziona",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "A · Franchigia fissa o assoluta",
+              "Una parte del danno resta sempre a carico dell'assicurato, qualunque sia l'entità del danno.",
+              "Franchigia 500 €, danno 3.000 €: indennizzo 2.500 €."
+            ],
+            [
+              "B · Franchigia semplice o relativa",
+              "Il danno resta a carico dell'assicurato solo se è pari o inferiore alla soglia; sopra la soglia si paga per intero.",
+              "Soglia 500 €: danno 400 € non pagato; danno 3.000 € pagato per intero."
+            ],
+            [
+              "C · Scoperto",
+              "Una percentuale del danno, dedotta dall'indennizzo, eventualmente con un minimo in euro.",
+              "Scoperto 10%, danno 3.000 €: indennizzo 2.700 €."
+            ]
+          ],
+          "ref": "Materiale originale del corso; Glossario IVASS"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un bene vale 100.000 euro ed è assicurato per 50.000. Si verifica un danno di 20.000 euro. Senza clausole diverse, quanto paga l'impresa?",
+          "options": [
+            "20.000 euro",
+            "10.000 euro",
+            "50.000 euro",
+            "Nulla"
+          ],
+          "answer": 1,
+          "explanation": "C'è sottoassicurazione: la somma copre il 50% del valore. Per la regola proporzionale dell'art. 1907 c.c. l'impresa risponde in proporzione: 50% di 20.000, cioè 10.000 euro."
+        },
+        {
+          "layout": "concept",
+          "title": "L'assicurazione della responsabilità civile",
+          "key": "L'assicuratore tiene indenne l'assicurato di quanto questi deve pagare a un terzo, per un fatto accaduto durante il tempo dell'assicurazione, in dipendenza della responsabilità dedotta nel contratto. Sono esclusi i danni da fatti dolosi.",
+          "body": "L'impresa può pagare direttamente il danneggiato e deve farlo se l'assicurato lo chiede. Le spese di resistenza alla lite sono a suo carico fino a un quarto della somma assicurata. Il beneficiario è chi la legge individua come civilmente responsabile.",
+          "ref": "Artt. 1917, 1891 c.c."
+        },
+        {
+          "layout": "table",
+          "title": "Come si delimita la copertura RC",
+          "head": [
+            "Elemento",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Descrizione del rischio",
+              "Circoscrive la garanzia e determina il premio. Deve rispecchiare l'attività realmente svolta."
+            ],
+            [
+              "Esclusioni",
+              "Copertura solo per i danni che si verificano con le modalità del contratto. Variano da polizza a polizza."
+            ],
+            [
+              "Soggetti non terzi",
+              "Salvo patto contrario: persone vicine all'assicurato, danni da inadempimento contrattuale o garantiti in altra sezione."
+            ],
+            [
+              "Esclusioni normative e causali",
+              "Nelle CGA: generali, specifiche, derogabili con clausole o coperte da polizze ad hoc."
+            ],
+            [
+              "Limitazioni territoriali",
+              "Il fatto deve avvenire entro certi confini perché il contratto sia efficace."
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "compare",
+          "title": "I regimi temporali della RC",
+          "cols": [
+            {
+              "title": "Loss occurrence",
+              "items": [
+                "Copre i fatti accaduti durante il periodo di garanzia",
+                "Non conta quando arriva la richiesta di risarcimento",
+                "È lo schema dell'art. 1917 c.c."
+              ]
+            },
+            {
+              "title": "Claims made",
+              "items": [
+                "Copre le richieste di risarcimento presentate durante la vigenza della polizza",
+                "Il fatto può essere anche anteriore alla stipula, se l'assicurato non conosceva circostanze che potessero causare una richiesta",
+                "Tipica della RC professionale, ambientale e da prodotto",
+                "Garanzia postuma: estende la copertura per un periodo dopo la scadenza, per fatti avvenuti durante la vigenza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il sinistro nella RC",
+          "left": {
+            "title": "Che cos'è il sinistro",
+            "items": [
+              "Non è il fatto illecito dell'assicurato",
+              "È la richiesta di risarcimento del danneggiato",
+              "Il rischio assicurato è il danno al patrimonio dell'assicurato"
+            ]
+          },
+          "right": {
+            "title": "Il patto di gestione della lite",
+            "items": [
+              "L'assicurato convenuto può chiamare in causa l'assicuratore",
+              "Il contratto di solito lo obbliga ad affidargli la gestione della lite",
+              "Se l'impresa la assume, deve tutelare anche l'interesse dell'assicurato",
+              "Se gestisce male, risponde per mala gestio"
+            ]
+          },
+          "note": "Avviso: la sua omissione impedisce all'impresa di limitare il danno e svolgere gli accertamenti. Salvataggio: le spese sono un credito autonomo; in mancanza di un bene assicurato, la misura si calcola sul massimale.",
+          "noteRef": "Art. 1917, c. 4 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "La prescrizione",
+          "items": [
+            {
+              "value": "1 anno",
+              "text": "per il pagamento delle rate di premio, da ogni scadenza",
+              "ref": "art. 2952, c. 1"
+            },
+            {
+              "value": "2 anni",
+              "text": "per gli altri diritti da assicurazione e riassicurazione, dal fatto su cui il diritto si fonda",
+              "ref": "art. 2952, c. 2"
+            },
+            {
+              "value": "10 anni",
+              "text": "per i diritti derivanti dalle polizze vita",
+              "ref": "art. 2952, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Prescrizione e decadenza",
+          "key": "La prescrizione estingue un diritto per l'inerzia del titolare e il decorso del tempo. Prescrizione e decadenza non sono la stessa cosa.",
+          "body": "La prescrizione si può interrompere e sospendere; la decadenza, di regola, no. Nella RC i due anni decorrono dalla richiesta di risarcimento del terzo o dall'azione contro l'assicurato. Comunicare all'impresa la richiesta del danneggiato sospende la prescrizione finché il credito del danneggiato non è liquido ed esigibile o il suo diritto non è prescritto.",
+          "ref": "Artt. 2934, 2964, 2952 c.c."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un geometra ha avuto per dieci anni una polizza RC professionale claims made con la stessa impresa. Va in pensione e la polizza scade il 31 dicembre. Un anno dopo un cliente gli chiede i danni per un errore di progettazione di cinque anni prima.",
+          "questions": [
+            "La polizza scaduta copre la richiesta?",
+            "Che cosa avrebbe dovuto proporre l'intermediario?"
+          ],
+          "solution": "No: in regime claims made conta la data della richiesta, che è arrivata dopo la scadenza. Il rischio, come segnalato dal materiale, è restare senza copertura per lavori eseguiti quando si era assicurati. L'intermediario avrebbe dovuto proporre per tempo la garanzia postuma, che estende la copertura dopo la scadenza per fatti avvenuti durante la vigenza."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Indennizzo",
+              "text": "mai più del danno: regola proporzionale e sovrassicurazione"
+            },
+            {
+              "value": "3 giorni",
+              "text": "per avvisare il sinistro; poi salvataggio"
+            },
+            {
+              "value": "Surroga",
+              "text": "l'impresa che paga agisce contro il terzo responsabile"
+            },
+            {
+              "value": "Claims made",
+              "text": "conta la data della richiesta; valuta la postuma"
+            },
+            {
+              "value": "1 · 2 · 10",
+              "text": "anni di prescrizione: rate di premio, altri diritti, vita"
+            }
+          ]
+        }
+      ],
+      "narration": "Questa lezione è dedicata alle regole delle assicurazioni contro i danni e della responsabilità civile: quelle che contano al momento del sinistro.\n\nIl punto di partenza è il principio indennitario. L'assicurazione contro i danni ha la funzione di tenere indenne l'assicurato, sollevandolo dal pregiudizio derivante da un sinistro, ma senza diventare uno strumento di lucro. Per questo l'articolo 1905 dice che l'assicuratore risarcisce il danno nei modi e nei limiti del contratto, e risponde del profitto sperato solo se si è obbligato espressamente. E l'articolo 1908 stabilisce che, nell'accertare il danno, non si può attribuire ai beni un valore superiore a quello che avevano al tempo del sinistro, salvo che le parti abbiano concordato per iscritto una stima al momento della stipula.\n\nDa qui nascono due situazioni opposte. Si ha sottoassicurazione quando la somma assicurata è inferiore al valore del bene. In questo caso, secondo l'articolo 1907, l'impresa risponde dei danni in proporzione alla parte di valore assicurata: è la cosiddetta regola proporzionale, salvo che il contratto preveda diversamente. Si ha sovrassicurazione quando la somma assicurata è superiore al valore del bene. Se c'è dolo dell'assicurato, il contratto non è valido e l'impresa in buona fede trattiene i premi del periodo in corso; se non c'è dolo, il contratto vale fino al valore reale e il contraente ha diritto a una riduzione proporzionale del premio per il futuro.\n\nUn esempio: un capannone vale quattrocentomila euro ma è assicurato per trecentomila. Un incendio provoca un danno di centomila euro. La somma copre il settantacinque per cento del valore, quindi l'impresa paga settantacinquemila euro, e venticinquemila restano al cliente. Verificare i valori a ogni rinnovo è uno dei servizi più utili che un intermediario può offrire.\n\nCosa succede se lo stesso rischio è assicurato con più imprese? Nell'assicurazione presso diversi assicuratori, detta anche coassicurazione indiretta o assicurazione plurima, ci sono contratti distinti. L'assicurato deve avvisare ogni assicuratore delle altre polizze, e se lo omette con dolo nessuno paga. In caso di sinistro avvisa tutti e può chiedere a ciascuno l'indennità dovuta, purché il totale non superi il danno; chi ha pagato ha regresso verso gli altri. Nella coassicurazione diretta, invece, c'è un unico contratto e ciascun assicuratore paga solo la propria quota.\n\nQuando il sinistro si verifica, l'assicurato ha due obblighi. Il primo è l'avviso, o denuncia, all'assicuratore o all'agente autorizzato a concludere il contratto, entro tre giorni da quando il sinistro si è verificato o da quando l'assicurato ne ha avuto conoscenza; per la mortalità del bestiame il termine è di ventiquattro ore, salvo patto contrario. Il secondo è il salvataggio: fare quanto possibile per evitare o diminuire il danno. Le spese di salvataggio sono a carico dell'impresa, in proporzione al valore assicurato, anche se lo scopo non è raggiunto, salvo che siano state fatte in modo sconsiderato. Chi non rispetta questi obblighi con dolo perde l'indennità; chi lo fa per colpa subisce una riduzione in ragione del pregiudizio.\n\nCosa succede se l'assicurato vende il bene? Il materiale dice che l'alienazione trasferisce il contratto all'acquirente senza bisogno di una specifica manifestazione di volontà. L'articolo 1918 precisa: il venditore che non avvisa impresa e acquirente resta obbligato a pagare i premi successivi; l'acquirente subentra, salvo che entro dieci giorni dalla scadenza del primo premio successivo dichiari con raccomandata di non voler subentrare; l'impresa può recedere entro dieci giorni dalla notizia, con quindici giorni di preavviso. Con polizza all'ordine o al portatore nessuno può recedere. Per la RC auto valgono regole speciali del Codice delle assicurazioni.\n\nVediamo la surrogazione. Se il danno è stato causato da un terzo responsabile, l'assicuratore che ha pagato l'indennizzo subentra nei diritti dell'assicurato verso quel terzo, fino all'ammontare pagato: si parla di surroga o di rivalsa. L'assicuratore può rinunciare alla surroga, sia preventivamente, con una clausola in polizza, sia successivamente. La legge esclude la surroga, salvo il caso di dolo, quando il danno è causato da figli, ascendenti, altri parenti o affini stabilmente conviventi o da domestici; la Corte costituzionale, con la sentenza 117 del 1975, vi ha aggiunto il coniuge. Infine, l'assicurato risponde verso l'impresa se pregiudica il diritto di surroga, per esempio firmando una rinuncia a favore del responsabile.\n\nUn cenno a franchigia e scoperto. Nel materiale originale questa slide riporta per errore il testo sull'alienazione, ma lo schema distingue la franchigia fissa o assoluta da quella semplice o relativa. Secondo il glossario IVASS, la franchigia è la parte del costo del sinistro di cui il contraente si fa carico a fronte di un premio più contenuto. Se è assoluta, resta sempre a carico dell'assicurato; se è relativa, solo quando il danno è pari o inferiore alla soglia, mentre sopra la soglia il danno è pagato per intero. Lo scoperto è invece una percentuale del danno, dedotta dall'indennizzo, spesso con un minimo in euro.\n\nPassiamo all'assicurazione della responsabilità civile. Secondo l'articolo 1917, l'assicuratore è obbligato a tenere indenne l'assicurato di quanto questi deve pagare a un terzo, in conseguenza di un fatto accaduto durante il tempo dell'assicurazione, in dipendenza della responsabilità dedotta nel contratto. Sono esclusi i danni derivanti da fatti dolosi. L'impresa può pagare direttamente il danneggiato, dandone comunicazione all'assicurato, ed è obbligata a farlo se l'assicurato lo chiede. Le spese per resistere all'azione del danneggiato sono a carico dell'impresa entro un quarto della somma assicurata. Come ricorda il materiale, la polizza RC può essere stipulata per conto altrui o per conto di chi spetta, ma il beneficiario sarà sempre chi la legge individua come civilmente responsabile per l'attività assicurata.\n\nIn una polizza RC il perimetro della copertura si costruisce con diversi elementi. La descrizione del rischio circoscrive l'ambito della garanzia e su di essa si calcola il premio: per questo le dichiarazioni precontrattuali devono corrispondere all'attività realmente svolta. Le esclusioni stabiliscono che l'assicurato è tenuto indenne solo dai danni che si verificano con le modalità indicate nel contratto, e variano da polizza a polizza e da trattativa a trattativa. Ci sono poi i soggetti non considerati terzi, come le persone legate all'assicurato da un rapporto così stretto da far presumere interessi concordanti a danno dell'assicuratore. Le condizioni generali contengono sempre esclusioni normative e causali, alcune derogabili con apposite clausole, altre perché la copertura si acquista con una polizza ad hoc. E le limitazioni territoriali fissano i confini geografici entro cui il fatto deve verificarsi.\n\nUn tema decisivo è il regime temporale. Lo schema del Codice civile è quello che il glossario IVASS chiama loss occurrence: si coprono i fatti accaduti durante il periodo di garanzia, indipendentemente da quando arriva la richiesta. Molte polizze di RC professionale usano invece la clausola claims made, che copre le richieste di risarcimento presentate durante la vigenza della polizza, anche per fatti precedenti alla stipula, purché l'assicurato non fosse a conoscenza di fatti o circostanze che potessero portare a una richiesta. Può essere prevista la garanzia postuma, che estende la copertura per un periodo dopo la scadenza, per fatti avvenuti durante la vigenza. Il materiale osserva che la claims made è adatta a chi non è stato assicurato in modo continuativo, ma avverte di un rischio: se la richiesta arriva dopo la scadenza, il cliente che era assicurato durante i lavori può trovarsi, anni dopo, senza copertura.\n\nNella RC anche il concetto di sinistro cambia: non è il fatto illecito dell'assicurato, ma la richiesta di risarcimento del danneggiato, e il rischio assicurato è il danno al patrimonio dell'assicurato. L'assicurato che riceve una richiesta può chiamare in causa l'assicuratore, e di solito il contratto lo obbliga ad affidargli la gestione della lite. Il patto non obbliga l'impresa ad assumerla; ma se lo fa deve tutelare anche l'interesse dell'assicurato, e se gestisce male risponde per mala gestio. L'avviso resta fondamentale, perché senza di esso l'impresa non può limitare il danno né svolgere gli accertamenti. Le spese di salvataggio sono un credito distinto dall'indennizzo e, mancando un bene assicurato, si misurano sul massimale.\n\nChiudiamo con la prescrizione, cioè l'estinzione di un diritto per l'inerzia del titolare e il decorso del tempo. Non va confusa con la decadenza: la prescrizione si può interrompere e sospendere, la decadenza di regola no. Oggi l'articolo 2952 prevede un anno per il pagamento delle rate di premio, dalle singole scadenze; due anni per gli altri diritti derivanti dal contratto di assicurazione e di riassicurazione, dal giorno del fatto su cui si fondano; dieci anni per i diritti derivanti dalle polizze vita. Nella RC il termine decorre dalla richiesta di risarcimento del terzo o dall'azione contro l'assicurato, e comunicare all'impresa la richiesta del danneggiato sospende la prescrizione. Nelle slide originali si legge ancora un anno per l'assicurazione e due per la riassicurazione: è una formulazione superata.\n\nNel caso pratico, la richiesta arriva al geometra dopo la scadenza della claims made: la polizza non risponde. La garanzia postuma avrebbe evitato il problema.\n\nRicapitolando: l'indennizzo non supera mai il danno; la sottoassicurazione porta alla regola proporzionale; il sinistro va denunciato entro tre giorni e il danno va contenuto; l'impresa che paga si surroga contro il terzo responsabile; franchigia e scoperto lasciano una parte del danno al cliente; nella RC conta il regime temporale; e i diritti si prescrivono in uno, due o dieci anni.",
+      "sources": [
+        {
+          "title": "Codice civile, artt. 1905-1911 (Assicurazione contro i danni) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1907"
+        },
+        {
+          "title": "Codice civile, art. 1910 (Assicurazione presso diversi assicuratori) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1910"
+        },
+        {
+          "title": "Codice civile, artt. 1913-1915 (Avviso e salvataggio) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1913"
+        },
+        {
+          "title": "Codice civile, art. 1916 (Diritto di surrogazione), con note sulle sentenze della Corte costituzionale - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1916"
+        },
+        {
+          "title": "Codice civile, art. 1917 (Assicurazione della responsabilità civile) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1917"
+        },
+        {
+          "title": "Codice civile, art. 1918 (Alienazione delle cose assicurate) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1918"
+        },
+        {
+          "title": "Codice civile, art. 2952 (Prescrizione in materia di assicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art2952"
+        },
+        {
+          "title": "IVASS, Glossario - Educazione assicurativa (franchigia, scoperto, claims made, loss occurrence)",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/glossario/glossario_educazione_assicurativa.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Limiti del risarcimento, profitto sperato e valore al tempo del sinistro.",
+          "source_ref": "Artt. 1905, 1908 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regola proporzionale con esempio numerico didattico; effetti della sovrassicurazione con e senza dolo.",
+          "source_ref": "Artt. 1907, 1909 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi di avviso tra assicuratori, regresso, ripartizione per quote nella coassicurazione.",
+          "source_ref": "Artt. 1910, 1911 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte attribuiva l'obbligo di avviso al \"contraente\": l'art. 1913 lo pone a carico dell'assicurato. Aggiunti termine di 24 ore per il bestiame, avviso all'agente, spese di salvataggio e conseguenze dell'inadempimento.",
+          "source_ref": "Artt. 1913-1915 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'affermazione che l'alienazione trasferisce il contratto all'acquirente senza manifestazione di volontà; precisati i termini per il rifiuto dell'acquirente e per il recesso dell'impresa e il caso delle polizze all'ordine o al portatore.",
+          "source_ref": "Art. 1918 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusioni della surroga verso familiari conviventi e domestici, estese al coniuge dalla Corte costituzionale; responsabilità dell'assicurato che pregiudica la surroga.",
+          "source_ref": "Art. 1916 c.c.; C. cost. n. 117/1975"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella fonte la slide \"La franchigia e lo scoperto\" riportava per errore il testo sull'alienazione (mantenuto nella slide sull'alienazione). Lo schema della fonte (franchigia fissa o assoluta / semplice o relativa) è completato con le definizioni del glossario IVASS e con esempi numerici didattici; aggiunto lo scoperto.",
+          "source_ref": "Glossario IVASS - Educazione assicurativa"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Integrati dal corso 60 ore: RC, descrizione del rischio, esclusioni, soggetti non terzi, esclusioni normative e causali, limitazioni territoriali e temporali, claims made e postuma, sinistro nella RC, patto di gestione della lite, avviso e salvataggio nella RC.",
+          "source_ref": "Corso Ivass 60 ore, Contratto di assicurazione"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pagamento diretto al danneggiato, spese di resistenza entro un quarto della somma assicurata, chiamata in causa dell'assicuratore.",
+          "source_ref": "Art. 1917 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni IVASS di claims made e loss occurrence.",
+          "source_ref": "Glossario IVASS - Educazione assicurativa"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte (corso totale) indicava \"un anno per i diritti derivanti dal contratto di assicurazione; due anni per quelli derivanti dalla riassicurazione\": formulazione superata. Testo vigente dell'art. 2952: un anno per le rate di premio, due anni per gli altri diritti da assicurazione e riassicurazione, dieci anni per la vita; decorrenza speciale e sospensione nella RC. Mantenuta la formulazione della fonte come riferimento storico nella narrazione.",
+          "source_ref": "Art. 2952 c.c. (testo vigente; C. cost. n. 32/2024)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Differenza tra prescrizione e decadenza su interruzione e sospensione.",
+          "source_ref": "Artt. 2934, 2964 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte 60 ore l'affermazione che, nella RC, la misura del rimborso delle spese di salvataggio si calcola sul massimale: è un orientamento interpretativo, non scritto nel Codice. Riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte 60 ore la responsabilità per mala gestio dell'assicuratore che gestisce la lite: figura di origine giurisprudenziale. Riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "La riassicurazione: nozione, disciplina e riassicurazione facoltativa",
+      "source_files": [
+        "corso totale/Contratto di assicurazione e riassicurazione.pdf.pdf",
+        "corso totale/Contratto di assicurazione e riassicurazione.4(Video).mp4",
+        "corso totale/Slide - Le tipologie di riassicurazione.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Contratto di assicurazione e di riassicurazione /Le tipologie di riassicurazione prima parte.pdf"
+      ],
+      "source_minutes": 21,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "La riassicurazione: nozione, disciplina e riassicurazione facoltativa",
+          "goals": [
+            "Spiegare che cos'è la riassicurazione e perché l'assicurato ne resta estraneo",
+            "Distinguere riassicurazione facoltativa, trattati e pools",
+            "Conoscere scopi, vantaggi, svantaggi e documenti della facoltativa e della quota pura"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la riassicurazione",
+          "key": "La riassicurazione è il contratto con cui il riassicurato, mediante il pagamento di un premio, trasferisce al riassicuratore un rischio da lui assicurato.",
+          "body": "In altre parole è l'assicurazione dell'assicuratore. L'impresa che cede il rischio si chiama riassicurato o cedente; chi lo accetta è il riassicuratore. Serve a ridurre l'esposizione su singoli rischi o su intere categorie, e ad aumentare la capacità di sottoscrizione.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Come si classifica",
+          "cols": [
+            {
+              "title": "Attiva o passiva",
+              "items": [
+                "Attiva: dal punto di vista di chi accetta rischi in riassicurazione",
+                "Passiva: dal punto di vista di chi cede i propri rischi"
+              ]
+            },
+            {
+              "title": "Totale o parziale",
+              "items": [
+                "Totale: il rischio è ceduto per intero",
+                "Parziale: la cedente trattiene una parte, detta conservazione o ritenzione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "La disciplina del Codice civile",
+          "items": [
+            {
+              "text": "L'assicurato originario è del tutto estraneo al rapporto tra assicuratore e riassicuratore: la riassicurazione non crea rapporti tra loro.",
+              "ref": "art. 1929"
+            },
+            {
+              "text": "Forma scritta: i contratti generali relativi a una serie di rapporti (i trattati) vanno provati per iscritto; le cessioni in esecuzione e i contratti per singoli rischi secondo le regole generali.",
+              "ref": "art. 1928"
+            },
+            {
+              "text": "Liquidazione coatta del riassicurato: il riassicuratore paga integralmente l'indennità, salva la compensazione con premi e altri crediti.",
+              "ref": "art. 1930"
+            },
+            {
+              "text": "Liquidazione coatta del riassicuratore o del riassicurato: debiti e crediti da più contratti si compensano di diritto alla chiusura dei conti.",
+              "ref": "art. 1931"
+            },
+            {
+              "text": "I diritti derivanti dalla riassicurazione si prescrivono in due anni.",
+              "ref": "art. 2952"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le forme della riassicurazione",
+          "head": [
+            "Forma",
+            "Come funziona",
+            "Varianti"
+          ],
+          "rows": [
+            [
+              "F · Facoltativa",
+              "Ogni rischio è offerto e analizzato separatamente.",
+              "Proporzionale o non proporzionale."
+            ],
+            [
+              "T · Trattati",
+              "Accordo tra assicuratore e riassicuratore per un insieme di rischi, di solito sottoscritto da più riassicuratori.",
+              "Obbligatori, facoltativi, facoltativi/obbligatori (fac-ob)."
+            ],
+            [
+              "P · Pools",
+              "Aderenti che si scambiano quote di premi e dividono i danni di una categoria di rischi.",
+              "Per rischi catastrofali e speciali categorie."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La riassicurazione facoltativa",
+          "key": "Il singolo rischio viene offerto individualmente al riassicuratore, che è libero di accettarlo, sottoscrivendo la quota che desidera, oppure di rifiutarlo.",
+          "body": "Spesso si usa la clausola di riassicurazione integrale (full reinsurance clause): le condizioni della copertura riassicurativa sono uguali a quelle della polizza originale. Il metodo si usa sia nelle riassicurazioni proporzionali sia in quelle in eccesso di sinistro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Facoltativa: scopi, vantaggi e svantaggi",
+          "cols": [
+            {
+              "title": "Scopi e vantaggi",
+              "items": [
+                "Riassicurare rischi speciali",
+                "Coprire somme eccedenti i limiti dei trattati",
+                "Collocare rischi di particolare pericolosità",
+                "Ottenere capacità in settori dove il volume d'affari non giustifica un trattato"
+              ]
+            },
+            {
+              "title": "Svantaggi",
+              "items": [
+                "Rilevanti spese di piazzamento e di gestione amministrativa",
+                "Il piazzamento può essere lungo",
+                "La polizza si emette solo a piazzamento completato"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I documenti della facoltativa",
+          "head": [
+            "Documento",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "Placement slip",
+              "Il documento con cui il rischio viene proposto e piazzato presso i riassicuratori."
+            ],
+            [
+              "Bollettino di cessione",
+              "Riassume i dati essenziali della riassicurazione concordata tra le parti."
+            ],
+            [
+              "Bollettino avviso sinistri",
+              "Con esso la cedente comunica il sinistro al riassicuratore."
+            ],
+            [
+              "Bollettino sinistri pagati",
+              "Con esso la cedente chiede il rimborso della parte di indennizzi a carico del riassicuratore."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente danneggiato chiede di essere pagato direttamente dal riassicuratore della sua compagnia. È possibile?",
+          "options": [
+            "Sì, il riassicuratore risponde in solido con l'impresa",
+            "No: la riassicurazione non crea rapporti tra assicurato e riassicuratore",
+            "Sì, ma solo se l'impresa è in liquidazione",
+            "Solo nella riassicurazione facoltativa"
+          ],
+          "answer": 1,
+          "explanation": "L'assicurato originario è estraneo al rapporto di riassicurazione: l'art. 1929 c.c. stabilisce che il contratto di riassicurazione non crea rapporti tra l'assicurato e il riassicuratore, salve le leggi speciali sul privilegio della massa degli assicurati. Il cliente si rivolge sempre alla propria impresa."
+        },
+        {
+          "layout": "split",
+          "title": "Trattati e pools",
+          "left": {
+            "title": "I trattati",
+            "items": [
+              "Accordo tra un assicuratore e un riassicuratore su un insieme di rischi",
+              "Di solito sottoscritto da più riassicuratori",
+              "Obbligatori, facoltativi o fac-ob"
+            ]
+          },
+          "right": {
+            "title": "I pools",
+            "items": [
+              "Costituiti per rischi catastrofali e di speciali categorie",
+              "Ogni aderente distribuisce agli altri una parte dei premi di quella categoria",
+              "I danni si dividono in proporzione ai premi versati o secondo altri criteri"
+            ]
+          },
+          "note": "Il trattato dà copertura automatica a un intero portafoglio; la facoltativa si negozia rischio per rischio.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Proporzionale o non proporzionale",
+          "cols": [
+            {
+              "title": "Proporzionale",
+              "items": [
+                "Si divide il rischio: l'assicuratore decide quanto ritenere e quanto cedere",
+                "Premi e sinistri si dividono nella stessa proporzione",
+                "Forme: quota pura (quota share) ed eccedente (surplus)"
+              ]
+            },
+            {
+              "title": "Non proporzionale",
+              "items": [
+                "Si divide il danno, non il rischio",
+                "Il riassicuratore paga oltre una soglia",
+                "Forme: eccesso sinistri, eccesso in aggregato, stop loss"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La quota pura (quota share)",
+          "key": "La cedente trasferisce al riassicuratore, entro i limiti concordati, una quota percentuale fissa di tutti i rischi assunti.",
+          "body": "La parte trattenuta, la conservazione, non è ulteriormente riassicurabile. Il trattato prevede spesso un limite massimo. La cedente riceve dal riassicuratore una commissione di riassicurazione, che remunera i costi sostenuti per acquisire e gestire i contratti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Quota share: un esempio",
+          "lead": "Conservazione 20%, cessione 80%. Il trattato copre fino a 2.000.000 di somma assicurata per rischio.",
+          "head": [
+            "Rischio",
+            "Ripartizione",
+            "Eccedenza"
+          ],
+          "rows": [
+            [
+              "1 · 20.000 €",
+              "Assicuratore 4.000 · riassicuratore 16.000",
+              "Nessuna"
+            ],
+            [
+              "2 · 200.000 €",
+              "Assicuratore 40.000 · riassicuratore 160.000",
+              "Nessuna"
+            ],
+            [
+              "3 · 2.400.000 €",
+              "Assicuratore 400.000 · riassicuratore 1.600.000",
+              "400.000 € fuori trattato"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Quota share: vantaggi e svantaggi",
+          "cols": [
+            {
+              "title": "Vantaggi",
+              "items": [
+                "Riduce la rischiosità del portafoglio",
+                "Grande semplicità amministrativa",
+                "Aumenta la capacità di sottoscrizione",
+                "Provvigioni di riassicurazione più alte che in altri trattati",
+                "Può essere strumento di scambio tra imprese"
+              ]
+            },
+            {
+              "title": "Svantaggi",
+              "items": [
+                "La cedente non può scegliere quanto ritenere di ciascun rischio",
+                "Cede la stessa percentuale anche dei rischi piccoli e buoni"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il placement slip della quota share",
+          "items": [
+            {
+              "text": "Numero di riferimento, periodo assicurato, limiti territoriali, classe di rischio, nome della cedente."
+            },
+            {
+              "text": "Massimale; quota conservata e quota ceduta."
+            },
+            {
+              "text": "Commissione riconosciuta alla cedente; eventuale partecipazione agli utili; commissione di brokeraggio."
+            },
+            {
+              "text": "Stima del volume premi; depositi e relativi interessi; entrate e uscite di portafoglio."
+            },
+            {
+              "text": "Limite sinistro per cassa; frequenza dei bollettini di cessione e dei conti."
+            },
+            {
+              "text": "Condizioni, clausole particolari, esclusioni; statistiche sinistri degli ultimi anni."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola impresa vuole assicurare un museo con opere per 50 milioni di euro. I suoi trattati coprono al massimo 10 milioni per rischio e non trattano rischi di questo tipo.",
+          "questions": [
+            "Quale forma di riassicurazione è più adatta?",
+            "Quale svantaggio deve mettere in conto l'impresa?"
+          ],
+          "solution": "La riassicurazione facoltativa: serve proprio per rischi speciali, per somme eccedenti i limiti dei trattati e per rischi di particolare pericolosità. Il rischio viene offerto singolarmente ai riassicuratori, che scelgono se e per quale quota accettarlo. Lo svantaggio è che il piazzamento può essere lungo e costoso, e la polizza si emette solo quando è completato: l'intermediario deve avvisare il cliente sui tempi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1929",
+              "text": "l'assicurato è estraneo al rapporto di riassicurazione"
+            },
+            {
+              "value": "Per iscritto",
+              "text": "si provano i trattati; i singoli rischi secondo le regole generali"
+            },
+            {
+              "value": "Facoltativa",
+              "text": "rischio per rischio, il riassicuratore è libero"
+            },
+            {
+              "value": "Trattati · Pools",
+              "text": "copertura automatica e condivisione dei rischi catastrofali"
+            },
+            {
+              "value": "Quota share",
+              "text": "stessa percentuale di ogni rischio, con commissione alla cedente"
+            }
+          ]
+        }
+      ],
+      "narration": "Anche le imprese di assicurazione hanno bisogno di proteggersi. Quando una compagnia assume molti rischi, o rischi molto grandi, trasferisce una parte di questa esposizione a un'altra impresa: è la riassicurazione. In questa lezione vediamo la nozione, le regole del Codice civile e le prime forme tecniche, la riassicurazione facoltativa e il trattato in quota.\n\nLa riassicurazione è il contratto con cui il riassicurato, mediante il pagamento di un premio, trasferisce al riassicuratore un rischio da lui assicurato. Si dice spesso che è l'assicurazione dell'assicuratore. L'impresa che cede il rischio si chiama riassicurato o cedente; l'impresa che lo accetta è il riassicuratore. La riassicurazione permette alla cedente di ridurre l'esposizione su un singolo rischio o su un portafoglio e di assumere rischi più grandi di quelli che potrebbe sostenere da sola.\n\nLa riassicurazione si classifica in due modi. Può essere attiva o passiva: è attiva dal punto di vista di chi accetta rischi da altre imprese, passiva dal punto di vista di chi cede i propri. E può essere totale o parziale, secondo che il rischio sia ceduto per intero o che la cedente ne trattenga una parte, chiamata conservazione o ritenzione.\n\nVediamo la disciplina del Codice civile, agli articoli da 1928 a 1931. Il primo principio, il più importante per chi lavora a contatto con i clienti, è che l'assicurato originario è del tutto estraneo al rapporto tra assicuratore e riassicuratore. L'articolo 1929 dice che il contratto di riassicurazione non crea rapporti tra l'assicurato e il riassicuratore, salve le leggi speciali sul privilegio a favore della massa degli assicurati. Il cliente quindi si rivolge sempre e solo alla propria compagnia, che resta interamente obbligata verso di lui. Sulla forma, il materiale indica la forma scritta. L'articolo 1928 precisa che devono essere provati per iscritto i contratti generali relativi a una serie di rapporti, cioè i trattati, mentre le singole cessioni in esecuzione dei trattati e i contratti per singoli rischi si possono provare secondo le regole generali. Il materiale ricorda poi due ipotesi particolari legate alla liquidazione coatta amministrativa. Se è in liquidazione il riassicurato, il riassicuratore deve pagare integralmente l'indennità dovuta, salva la compensazione con premi e altri crediti. Se è in liquidazione l'impresa del riassicuratore o del riassicurato, i debiti e i crediti che risultano dalla chiusura dei conti di più contratti di riassicurazione si compensano di diritto. Infine, come abbiamo visto, i diritti derivanti dal contratto di riassicurazione si prescrivono in due anni.\n\nLe forme della riassicurazione sono tre. La riassicurazione facoltativa, in cui ogni rischio viene analizzato separatamente. I trattati, accordi che coprono un insieme di rischi e che sono solitamente sottoscritti da più riassicuratori; possono essere obbligatori, facoltativi o facoltativi-obbligatori, detti fac-ob. E i pools, costituiti per assicurare rischi di natura catastrofale e di speciali categorie.\n\nCominciamo dalla facoltativa. Il singolo rischio viene offerto individualmente al riassicuratore, che è libero di accettarlo, sottoscrivendo la quota che desidera, oppure di rifiutarlo. Spesso si usa la clausola di riassicurazione integrale, in inglese full reinsurance clause, con cui le condizioni della copertura riassicurativa sono le stesse della polizza originale: il riassicuratore segue la sorte della polizza emessa dalla cedente. La facoltativa si usa sia nella riassicurazione proporzionale sia in quella in eccesso di sinistro.\n\nPerché si ricorre alla facoltativa? Gli scopi sono riassicurare rischi speciali, coprire somme che eccedono i limiti dei trattati, collocare rischi di particolare pericolosità e ottenere capacità in settori in cui il volume degli affari non giustifica la stipula di un trattato. Ci sono però anche svantaggi: le spese di piazzamento e di gestione amministrativa sono rilevanti, il piazzamento può richiedere molto tempo e la polizza può essere emessa solo quando il piazzamento è completato. Per l'intermediario che segue un grande rischio, questo significa dover gestire con il cliente i tempi di emissione.\n\nLa facoltativa usa alcuni documenti tipici. Il placement slip è il documento con cui il rischio viene proposto e collocato. Il bollettino di cessione riassume i dati essenziali della riassicurazione facoltativa concordata. Il bollettino avviso sinistri serve alla cedente per comunicare il sinistro al riassicuratore. Il bollettino sinistri pagati serve alla cedente per chiedere il rimborso della parte degli indennizzi di spettanza del riassicuratore.\n\nPassiamo ai trattati e ai pools. Il trattato di riassicurazione è l'accordo concluso tra un assicuratore e un riassicuratore per un insieme di rischi, e di solito è sottoscritto da più riassicuratori. A differenza della facoltativa, offre una copertura automatica a un intero portafoglio. I pools, invece, si basano su un principio di mutualità: ogni aderente distribuisce a tutti gli altri una parte dei premi relativi a una particolare categoria di rischi, e il totale dei danni accaduti si divide nella stessa proporzione dei premi versati o secondo altri criteri.\n\nI trattati possono essere proporzionali o non proporzionali. Nei trattati proporzionali si divide il rischio: l'assicuratore decide quale proporzione ritenere e quale cedere, e premi e sinistri si dividono nella stessa proporzione. Le due forme principali sono la quota pura e l'eccedente. Nei trattati non proporzionali, invece, si divide il danno: il riassicuratore interviene solo oltre una certa soglia. Li vedremo nella prossima lezione.\n\nLa quota pura, in inglese quota share, consiste nella cessione al riassicuratore, entro i limiti concordati, di una quota percentuale fissa di tutti i rischi assunti. La conservazione non è ulteriormente riassicurabile, il trattato prevede spesso un limite massimo e la cedente riceve dal riassicuratore una commissione di riassicurazione.\n\nGuardiamo l'esempio del materiale. La cedente trattiene il venti per cento e cede l'ottanta. Su un rischio da ventimila euro trattiene quattromila e cede sedicimila. Su un rischio da duecentomila trattiene quarantamila e cede centosessantamila. Su un rischio da due milioni e quattrocentomila, il trattato copre fino a due milioni: la cedente trattiene quattrocentomila, il riassicuratore ne prende un milione e seicentomila, e restano quattrocentomila euro che eccedono il trattato e che dovranno essere coperti in altro modo, ad esempio con una facoltativa.\n\nLa quota share ha molti vantaggi: riduce la rischiosità del portafoglio, è molto semplice da gestire, aumenta la capacità di sottoscrizione, garantisce di solito provvigioni di riassicurazione più alte rispetto ad altri trattati e può essere usata come strumento di scambio tra imprese. Lo svantaggio principale è che la cedente non può scegliere quanto ritenere di ciascun rischio: cede la stessa percentuale anche dei rischi piccoli, che potrebbe tenere per sé.\n\nAnche il trattato in quota si piazza con uno slip, che riporta i dati essenziali: numero di riferimento, periodo assicurato, limiti territoriali, classe di rischio, nome della cedente, massimale, quota conservata e quota ceduta, commissione riconosciuta alla cedente, eventuale partecipazione agli utili, stima del volume premi, depositi e interessi sui depositi, entrate e uscite di portafoglio, limite sinistro per cassa, frequenza dei bollettini di cessione e dei conti, commissione di brokeraggio, condizioni, clausole particolari ed esclusioni, e statistiche sinistri degli ultimi anni.\n\nNel caso pratico, una piccola impresa deve assicurare un museo con opere per cinquanta milioni, ma i suoi trattati arrivano a dieci milioni e non coprono rischi di questo tipo. La soluzione è la riassicurazione facoltativa, pensata proprio per rischi speciali e per somme eccedenti i trattati. L'impresa deve mettere in conto tempi e costi del piazzamento, e la polizza potrà essere emessa solo a piazzamento completato.\n\nRicapitolando: la riassicurazione trasferisce il rischio dalla cedente al riassicuratore, ma l'assicurato resta estraneo e si rivolge solo alla sua compagnia; i trattati si provano per iscritto; la facoltativa si negozia rischio per rischio; trattati e pools danno copertura automatica e condivisione; e la quota share cede la stessa percentuale di ogni rischio, con una commissione a favore della cedente.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1928 (Prova del contratto di riassicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1928"
+        },
+        {
+          "title": "Codice civile, art. 1929 (Efficacia del contratto di riassicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1929"
+        },
+        {
+          "title": "Codice civile, art. 1930 (Diritto del riassicurato in caso di liquidazione coatta amministrativa) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1930"
+        },
+        {
+          "title": "Codice civile, art. 1931 (Compensazione dei crediti e debiti) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1931"
+        },
+        {
+          "title": "Codice civile, art. 2952 (Prescrizione in materia di assicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art2952"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "La fonte indicava che per la riassicurazione \"la forma richiesta è quella scritta\": precisato che la prova scritta è richiesta per i contratti generali (trattati), mentre cessioni in esecuzione e contratti per singoli rischi si provano secondo le regole generali.",
+          "source_ref": "Art. 1928 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Estraneità dell'assicurato con il testo dell'art. 1929 e la salvezza del privilegio della massa degli assicurati.",
+          "source_ref": "Art. 1929 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto delle due ipotesi di liquidazione coatta amministrativa citate dalla fonte senza spiegazione.",
+          "source_ref": "Artt. 1930, 1931 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Prescrizione biennale dei diritti da riassicurazione.",
+          "source_ref": "Art. 2952 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione delle classificazioni attiva/passiva e totale/parziale, indicate nella fonte solo come schema.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Unite senza duplicazioni le slide sulla facoltativa del modulo \"Contratto di assicurazione e riassicurazione\" e del modulo \"Le tipologie di riassicurazione\" (corso totale e prima parte del 30 ore, di contenuto identico).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Lettura guidata dell'esempio numerico della quota share (limite del trattato a 2.000.000 dedotto dai dati della fonte) e svantaggio sui rischi piccoli.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il placement slip, citato nel titolo della slide della fonte senza definizione, è descritto come documento di proposta e collocamento del rischio.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Eccedente, trattati non proporzionali, rami vita e fac-ob",
+      "source_files": [
+        "corso totale/Slide - Le tipologie di riassicurazione.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Contratto di assicurazione e di riassicurazione /Le tipologie di riassicurazione seconda parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Contratto di assicurazione e di riassicurazione / Le tipologie di riassicurazione terza parte.pdf"
+      ],
+      "source_minutes": 25,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Contratto di assicurazione e di riassicurazione",
+          "title": "Eccedente, trattati non proporzionali, rami vita e fac-ob",
+          "goals": [
+            "Capire il trattato in eccedente di somma e il trattato misto",
+            "Distinguere eccesso sinistri, stop loss, aggregate e umbrella",
+            "Riconoscere i trattati per i rami vita e il ruolo del fac-ob"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'eccedente di somma (surplus)",
+          "key": "L'assicuratore fissa la propria ritenzione, detta pieno di conservazione o line. Il riassicuratore fissa il limite della sua esposizione in numero di line.",
+          "body": "Pieno di conservazione e quota ceduta sono espressi in valori monetari. Premio e sinistri di ogni rischio si dividono nella stessa proporzione con cui è stato diviso il capitale assicurato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Surplus: un esempio didattico",
+          "lead": "Pieno di conservazione 100.000 €. Il trattato accetta fino a 9 pieni, cioè 900.000 €.",
+          "head": [
+            "Rischio",
+            "Ripartizione",
+            "Proporzione ceduta"
+          ],
+          "rows": [
+            [
+              "1 · 80.000 €",
+              "Tutto in conservazione",
+              "0%"
+            ],
+            [
+              "2 · 400.000 €",
+              "Cedente 100.000 · riassicuratore 300.000",
+              "75%"
+            ],
+            [
+              "3 · 1.000.000 €",
+              "Cedente 100.000 · riassicuratore 900.000",
+              "90%"
+            ]
+          ],
+          "ref": "Esempio didattico basato sul meccanismo descritto nel materiale"
+        },
+        {
+          "layout": "facts",
+          "title": "Surplus: tre conseguenze",
+          "lead": "Il meccanismo dell'eccedente produce effetti diversi dalla quota pura.",
+          "facts": [
+            {
+              "label": "Proporzione variabile",
+              "text": "La proporzione ceduta sul portafoglio non corrisponde a quella ceduta sui singoli contratti."
+            },
+            {
+              "label": "Trattato misto",
+              "text": "Combina quota ed eccedente, in due sezioni: una in quota e una in eccedente."
+            },
+            {
+              "label": "Da non confondere",
+              "text": "L'eccedente di somma è diverso dall'eccedente di danno, che è una forma non proporzionale."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Surplus: vantaggi e svantaggi",
+          "cols": [
+            {
+              "title": "Scopi e vantaggi",
+              "items": [
+                "Livella i capitali assicurati trattenuti",
+                "Rende omogeneo il portafoglio conservato dall'impresa",
+                "Maggiore potenzialità di profitto per la cedente"
+              ]
+            },
+            {
+              "title": "Svantaggi",
+              "items": [
+                "Gestione costosa e complicata",
+                "Il riassicuratore riceve meno premi"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il placement slip del surplus",
+          "items": [
+            {
+              "text": "Gli stessi dati della quota share: riferimento, periodo, limiti territoriali, classe di rischio, cedente, commissioni, utili, volume premi, depositi, portafoglio, limite sinistro per cassa, bollettini e conti, condizioni ed esclusioni, statistiche sinistri."
+            },
+            {
+              "text": "In più: il pieno di conservazione."
+            },
+            {
+              "text": "In più: il numero dei pieni riassicurati."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In un trattato in eccedente il pieno di conservazione è di 200.000 euro. Un rischio vale 800.000 euro, interamente dentro i limiti del trattato. In che proporzione si dividono premio e sinistri?",
+          "options": [
+            "50% cedente, 50% riassicuratore",
+            "25% cedente, 75% riassicuratore",
+            "Sempre 20% cedente, 80% riassicuratore",
+            "Il riassicuratore paga solo i sinistri oltre 200.000 euro"
+          ],
+          "answer": 1,
+          "explanation": "La cedente trattiene 200.000 su 800.000, cioè il 25%; il riassicuratore prende 600.000, il 75%. Premio e sinistri seguono la stessa proporzione del capitale. Pagare solo oltre una soglia è invece tipico dell'eccesso sinistri, una forma non proporzionale."
+        },
+        {
+          "layout": "table",
+          "title": "I trattati non proporzionali",
+          "lead": "Si basano sulla ripartizione del danno. Vantaggi: semplicità ed economia amministrativa.",
+          "head": [
+            "Forma",
+            "Che cosa protegge"
+          ],
+          "rows": [
+            [
+              "Eccesso danni o eccesso sinistri",
+              "Il singolo sinistro oltre una soglia."
+            ],
+            [
+              "Eccesso sinistri in aggregato",
+              "Il totale dei sinistri oltre una somma prefissata."
+            ],
+            [
+              "Eccesso di danno globale o eccesso di perdita",
+              "Il risultato complessivo di un portafoglio o di più rami."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'eccesso sinistri (excess of loss)",
+          "key": "L'assicuratore tiene a proprio carico ogni sinistro fino a un importo detto franchigia o priorità (priority o deductible). La parte che eccede, la portata, va a carico del riassicuratore.",
+          "body": "Se il contratto pone un limite all'intervento del riassicuratore, si possono stipulare altri contratti excess of loss sovrapposti, detti layers.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I layers: l'esempio del materiale",
+          "head": [
+            "Layer",
+            "Portata",
+            "Priorità"
+          ],
+          "rows": [
+            [
+              "1 · Primo layer",
+              "10.000.000 €",
+              "in eccesso a 1.000.000 €"
+            ],
+            [
+              "2 · Secondo layer",
+              "30.000.000 €",
+              "in eccesso a 11.000.000 €"
+            ],
+            [
+              "3 · Terzo layer",
+              "100.000.000 €",
+              "in eccesso a 41.000.000 €"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Eccesso sinistri: usi e svantaggi",
+          "cols": [
+            {
+              "title": "Scopi e vantaggi",
+              "items": [
+                "Eccesso per evento: rischi di natura catastrofale",
+                "Eccesso per rischio: assicurazioni di responsabilità civile",
+                "Aggregate excess of loss: assicurazioni grandine"
+              ]
+            },
+            {
+              "title": "Svantaggi",
+              "items": [
+                "Il riassicuratore di solito non paga provvigioni alla cedente"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Copertura catastrofale e copertura operativa",
+          "cols": [
+            {
+              "title": "Catastrofale",
+              "items": [
+                "Indennizza il riassicurato per danni che colpiscono contemporaneamente più rischi del portafoglio",
+                "Il tasso si stabilisce su informazioni di carattere generale"
+              ]
+            },
+            {
+              "title": "Operativa",
+              "items": [
+                "La franchigia è tale da rendere abbastanza probabile l'intervento del riassicuratore",
+                "Il tasso si stabilisce sulle statistiche degli anni precedenti",
+                "Il burning cost permette di determinare il tasso tecnico"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Stop loss, aggregate e umbrella",
+          "head": [
+            "Copertura",
+            "Quando interviene",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "S · Stop loss (eccesso di perdita)",
+              "Quando il totale dei sinistri di un portafoglio supera una percentuale prefissata dei premi del ramo.",
+              "Protegge da impennate improvvise di frequenza e costo dei sinistri. Il limite lascia sempre un rischio alla cedente, contro l'antiselezione."
+            ],
+            [
+              "A · Aggregate excess of loss",
+              "Per i danni complessivi oltre una somma prefissata in cifra assoluta, non in percentuale dei premi.",
+              "Protegge dall'accumulo di sinistri in un periodo."
+            ],
+            [
+              "U · Umbrella excess of loss",
+              "Eccesso danni che ingloba più rami: protezione globale o whole account cover.",
+              "Previene l'impatto di un solo evento su più rami."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "I trattati per i rami vita",
+          "cols": [
+            {
+              "title": "A premio commerciale",
+              "items": [
+                "L'assicuratore cede una quota prefissata di ciascun contratto"
+              ]
+            },
+            {
+              "title": "A premio di rischio",
+              "items": [
+                "Su ogni contratto l'assicuratore cede il capitale sotto rischio che eccede un limite prestabilito"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il trattato facoltativo/obbligatorio (fac-ob)",
+          "key": "Si usa dopo il trattato in eccedente: la cedente può scegliere quali rischi cedere, il riassicuratore è obbligato ad accettarli.",
+          "body": "Ha due scopi: procurare alla cedente una capacità riassicurativa automatica e non appesantire i trattati in quota pura o in eccedente già in essere con rischi particolarmente pericolosi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'impresa ha un portafoglio di polizze incendio su abitazioni concentrate in una zona esposta ad alluvioni. Teme che un solo evento colpisca migliaia di case insieme. Ha anche un ramo grandine, dove molti piccoli sinistri si sommano in una stagione.",
+          "questions": [
+            "Quale copertura protegge dal singolo evento che colpisce molti rischi?",
+            "Quale è indicata per il ramo grandine?"
+          ],
+          "solution": "Per l'alluvione serve un eccesso sinistri per evento, cioè una copertura catastrofale, che indennizza i danni che colpiscono contemporaneamente più rischi del portafoglio. Per la grandine il materiale indica l'aggregate excess of loss, che interviene sui danni complessivi oltre una somma prefissata. In alternativa, uno stop loss proteggerebbe il ramo se il totale dei sinistri superasse una percentuale dei premi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Line",
+              "text": "nel surplus la ritenzione è un importo; il trattato accetta un numero di pieni"
+            },
+            {
+              "value": "Priorità",
+              "text": "nell'eccesso sinistri la cedente paga fino alla priorità, il riassicuratore la portata"
+            },
+            {
+              "value": "Stop loss",
+              "text": "interviene sopra una percentuale dei premi"
+            },
+            {
+              "value": "Aggregate",
+              "text": "interviene sopra una cifra assoluta"
+            },
+            {
+              "value": "Fac-ob",
+              "text": "la cedente sceglie, il riassicuratore deve accettare"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto la riassicurazione facoltativa e il trattato in quota pura. Ora completiamo il quadro con il trattato in eccedente, le forme non proporzionali, i trattati per i rami vita e il trattato facoltativo-obbligatorio.\n\nIl trattato in eccedente di somma, in inglese surplus, è la seconda forma proporzionale. Qui l'assicuratore decide la propria ritenzione, detta pieno di conservazione o line, che è un importo in euro. Il riassicuratore, a sua volta, fissa il limite della propria esposizione in numero di line, cioè in multipli del pieno. Per ogni rischio, la parte che eccede il pieno viene ceduta, fino al limite del trattato, e premio e sinistri di quel rischio si dividono nella stessa proporzione con cui è stato diviso il capitale assicurato.\n\nFacciamo un esempio, che costruiamo noi a scopo didattico. Il pieno di conservazione è di centomila euro e il trattato accetta fino a nove pieni, cioè novecentomila euro. Un rischio da ottantamila euro resta interamente alla cedente, perché non supera il pieno. Un rischio da quattrocentomila euro viene diviso così: centomila alla cedente e trecentomila al riassicuratore, quindi il settantacinque per cento è ceduto. Un rischio da un milione viene diviso in centomila e novecentomila, quindi è ceduto il novanta per cento. Ecco perché la proporzione ceduta sull'intero portafoglio non corrisponde a quella ceduta sui singoli contratti: ogni rischio ha la sua percentuale.\n\nIl materiale ricorda anche il trattato misto, che combina quota ed eccedente e si articola in due parti: una sezione in quota e una sezione in eccedente. E avverte di non confondere l'eccedente di somma con l'eccedente di danno, che appartiene alle forme non proporzionali.\n\nQuali sono gli scopi e i vantaggi del surplus? Livella i capitali assicurati trattenuti e rende quantitativamente omogeneo il portafoglio conservato dall'impresa, perché la cedente non tiene mai più del suo pieno. Offre inoltre una maggiore potenzialità di profitto alla cedente, che trattiene per intero i rischi piccoli. Gli svantaggi sono una gestione costosa e complicata, perché ogni rischio va calcolato a parte, e il fatto che il riassicuratore riceve meno premi rispetto alla quota pura. Lo slip del surplus contiene gli stessi dati di quello in quota, con due elementi in più: il pieno di conservazione e il numero dei pieni riassicurati.\n\nPassiamo ai trattati non proporzionali. Qui non si divide il rischio, ma il danno. Le forme principali sono tre: l'eccesso danni o eccesso sinistri, l'eccesso danni o eccesso sinistri in aggregato, e l'eccesso di danno globale o eccesso di perdita. Il loro vantaggio comune è la semplicità e l'economia amministrativa: non serve dividere ogni singolo rischio.\n\nNell'eccesso sinistri, in inglese excess of loss, l'assicuratore tiene a proprio carico il costo di ogni sinistro fino a un determinato importo, chiamato franchigia o priorità, in inglese priority o deductible. La parte che eccede la priorità, chiamata portata, va a carico del riassicuratore. Se il contratto pone un limite all'intervento del riassicuratore, si possono stipulare altri contratti excess of loss uno sopra l'altro, chiamati layers. L'esempio del materiale è questo: un primo layer di dieci milioni in eccesso a un milione; un secondo layer di trenta milioni in eccesso a undici milioni; un terzo layer di cento milioni in eccesso a quarantuno milioni. Nota come la priorità di ogni layer coincida con la fine del layer precedente: in questo modo la protezione è continua da un milione fino a centoquarantuno milioni.\n\nL'eccesso sinistri si usa in diverse varianti. L'eccesso per evento è indicato per i rischi di natura catastrofale. L'eccesso per rischio si usa nelle assicurazioni di responsabilità civile. L'aggregate excess of loss si usa nelle assicurazioni grandine. Lo svantaggio, per la cedente, è che il riassicuratore di solito non paga provvigioni.\n\nIl materiale distingue poi due tipi di eccesso sinistri. La copertura catastrofale indennizza il riassicurato per i danni che colpiscono contemporaneamente più rischi del suo portafoglio, come un terremoto o un'alluvione; il tasso si stabilisce sulla base di informazioni di carattere generale, perché eventi del genere sono rari. La copertura operativa ha invece una franchigia tale da rendere abbastanza probabile l'intervento del riassicuratore; il tasso si stabilisce sulla base delle statistiche degli anni precedenti, e il cosiddetto burning cost permette di determinare il tasso tecnico.\n\nVediamo tre coperture che guardano al risultato complessivo. Con lo stop loss, o eccesso di perdita, la cedente si cautela contro l'eventualità che la totalità dei sinistri di un portafoglio superi una percentuale prefissata dei premi incassati in quel ramo. Il limite viene sempre posto a un livello che lascia comunque un rischio a carico della cedente, per evitare il pericolo di antiselezione a danno del riassicuratore: se la cedente fosse protetta del tutto, potrebbe avere meno interesse a selezionare bene i rischi. Lo stop loss mette al riparo l'assicuratore da improvvise impennate della frequenza dei sinistri e del loro costo complessivo. L'aggregate excess of loss, o eccesso di danni aggregato, è simile, ma il riassicuratore interviene per la parte dei danni complessivi che supera una somma predeterminata in cifra assoluta, non in percentuale dei premi. Infine l'umbrella excess of loss, detto anche protezione globale o whole account cover, è una forma di eccesso danni che ingloba più rami ed è usata per prevenire l'impatto di un solo evento che colpisce rami diversi.\n\nPer i rami vita il materiale indica due tipi di trattato. Nel trattato a premio commerciale l'assicuratore cede una quota prefissata di ciascun contratto. Nel trattato a premio di rischio, invece, cede al riassicuratore, su ciascun contratto, il capitale sotto rischio che eccede un limite predeterminato.\n\nL'ultima forma è il trattato facoltativo-obbligatorio, o fac-ob. Si usa dopo il trattato in eccedente e combina le due logiche: la cedente può scegliere quali rischi cedere, mentre il riassicuratore è obbligato ad accettare quelli che riceve. I suoi scopi sono procurare alla cedente una capacità riassicurativa automatica e non gravare i trattati in quota pura o in eccedente già in essere con rischi particolarmente pericolosi.\n\nNel caso pratico, un'impresa con molte abitazioni in una zona alluvionale ha bisogno di una copertura catastrofale, cioè un eccesso sinistri per evento, mentre per il ramo grandine il materiale indica l'aggregate excess of loss. Anche se l'intermediario non negozia la riassicurazione, conoscerla aiuta a capire perché un'impresa può accettare un grande rischio, chiedere tempo per collocarlo o limitare la propria capacità in certe zone.\n\nRicapitolando: nel surplus la ritenzione è un importo e il trattato accetta un numero di pieni; nell'eccesso sinistri la cedente paga fino alla priorità e il riassicuratore la portata, anche a più layers; lo stop loss interviene sopra una percentuale dei premi, l'aggregate sopra una cifra assoluta, l'umbrella su più rami; e nel fac-ob la cedente sceglie e il riassicuratore deve accettare.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempio numerico didattico del surplus (pieno di 100.000 euro, 9 pieni), costruito sul meccanismo descritto dalla fonte; non è un dato di mercato.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Lettura dell'esempio dei layers: continuità della protezione da 1 a 141 milioni, ricavata dai dati della fonte.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione del rischio di antiselezione nello stop loss e del fac-ob come scelta della cedente e obbligo del riassicuratore.",
+          "source_ref": "Materiale originale (rielaborazione didattica)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Unite senza duplicazioni le slide del corso totale e della seconda e terza parte del 30 ore, di contenuto identico. Corretti refusi della fonte (\"Riscio\", \"didanno\", \"ineccedente\", \"ai riparo\").",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'attribuzione dell'aggregate excess of loss alle assicurazioni grandine e dell'eccesso per rischio alla RC: indicazioni tecniche della fonte, senza riferimento normativo.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}

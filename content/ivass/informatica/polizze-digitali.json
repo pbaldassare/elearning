@@ -1,0 +1,1128 @@
+{
+  "module": "Area informatica",
+  "topic": "Il mercato delle polizze digitali",
+  "topic_order": 4,
+  "scope": "core",
+  "source_minutes": 46,
+  "lessons": [
+    {
+      "title": "Il trend di mercato delle polizze digitali",
+      "source_files": [
+        "corso totale/Il trend di mercato delle polizze digitali.pdf.pdf",
+        "Corso Ivass 60 ore/Materiale /Il trend di mercato delle polizze digitali .pdf ok.pdf"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "title": "Il trend di mercato delle polizze digitali",
+          "goals": [
+            "Conoscere le nuove offerte digitali: piattaforme, instant insurance, prodotti modulari",
+            "Riconoscere i trend nei comparti mobilità, salute, casa e famiglia",
+            "Applicare le regole IVASS sulla vendita a distanza e su internet"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "È l'ora delle polizze digitali",
+          "key": "In Italia è finalmente scoccata l'ora delle polizze digitali: ogni giorno nascono soluzioni che abbracciano modelli come la instant insurance e tecnologie come gli smart contract.",
+          "body": "La conferma arriva dai report dell'IVASS sui trend di offerta dei prodotti assicurativi. Le imprese usano già largamente i canali elettronici, e questa tendenza potrebbe segnare l'inizio di una nuova fase della digitalizzazione del settore.",
+          "ref": "Materiale originale del corso; IVASS, Report analisi trend offerta"
+        },
+        {
+          "layout": "sources",
+          "title": "Le fonti di riferimento",
+          "items": [
+            {
+              "label": "Report IVASS sui trend dell'offerta",
+              "detail": "Dal 1° semestre 2017 l'IVASS pubblica ogni semestre l'analisi dei nuovi prodotti lanciati sul mercato, per individuare tendenze e potenziali ambiti di rischio."
+            },
+            {
+              "label": "Regolamento IVASS n. 40/2018",
+              "detail": "Parte III, Capo III (artt. 69-83): promozione e collocamento di contratti mediante tecniche di comunicazione a distanza. Testo consolidato con le modifiche fino al Provv. 169/2026."
+            },
+            {
+              "label": "Materiale originale del corso",
+              "detail": "Esempi di offerte digitali nei comparti mobilità, salute, casa e famiglia."
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Due strade verso il digitale",
+          "cols": [
+            {
+              "title": "Accordi con provider esterni",
+              "items": [
+                "La strada più frequente",
+                "La compagnia si appoggia a fornitori di tecnologia e di piattaforme",
+                "Spesso sono startup insurtech"
+              ]
+            },
+            {
+              "title": "Compagnie in prima linea",
+              "items": [
+                "La compagnia crea propri incubatori di startup dedicati all'insurance",
+                "Offre direttamente servizi tecnologici anche non assicurativi",
+                "Esempi: app per parcheggi, multe, bollo auto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa offrono le piattaforme",
+          "lead": "Le piattaforme dei provider mettono a disposizione del cliente diverse funzioni.",
+          "head": [
+            "Funzione",
+            "Che cosa permette"
+          ],
+          "rows": [
+            [
+              "Preventivo veloce",
+              "Calcolo anonimo con un click"
+            ],
+            [
+              "Promemoria",
+              "Salvare e recuperare un preventivo di polizza"
+            ],
+            [
+              "Percorsi guidati",
+              "Scegliere il prodotto passo dopo passo"
+            ],
+            [
+              "Personalizzazione",
+              "Aggiungere opzioni e garanzie"
+            ],
+            [
+              "Pagamento",
+              "Diretto e sicuro, con carta di credito e PayPal"
+            ],
+            [
+              "Sconti",
+              "Campagne e convenzioni"
+            ],
+            [
+              "Area riservata",
+              "Cruscotto personale e storico delle polizze"
+            ],
+            [
+              "Sinistri (opzionale)",
+              "Denuncia del sinistro online"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la instant insurance",
+          "key": "Micropolizze temporanee, di brevissima durata, calibrate su un'esigenza precisa e acquistate direttamente dallo smartphone.",
+          "body": "Si sono diffuse grazie alle partnership tra startup insurtech e compagnie. Il cliente si assicura nel momento esatto in cui nasce il bisogno: un viaggio, un noleggio, una giornata di sport.",
+          "ref": "IVASS, Report trend offerta, 1° semestre 2018"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Comparto mobilità",
+          "title": "Persone e cose in movimento",
+          "lead": "Molte offerte di instant insurance proteggono persone e mezzi in mobilità.",
+          "facts": [
+            {
+              "label": "Durata",
+              "text": "In genere 1, 3 o 7 giorni."
+            },
+            {
+              "label": "Mezzi",
+              "text": "Propri e noleggiati."
+            },
+            {
+              "label": "Noleggio",
+              "text": "Rimborso della franchigia del noleggiatore in caso di furto o danno."
+            },
+            {
+              "label": "Auto di terzi",
+              "text": "Piattaforma di noleggio con RC auto temporanea: da un'ora a 30 giorni, franchigia a carico."
+            },
+            {
+              "label": "Servizi",
+              "text": "Coperture tradizionali arricchite da dispositivi digitali e servizi aggiuntivi."
+            }
+          ],
+          "ref": "Materiale originale del corso; IVASS, Report trend luglio-dicembre 2019"
+        },
+        {
+          "layout": "split",
+          "title": "Salute, casa e famiglia",
+          "left": {
+            "title": "Comparto salute",
+            "items": [
+              "Moltissime nuove offerte, segnalate dall'IVASS",
+              "Prodotti inclusivi, su misura, spesso modulari",
+              "Garanzia base più garanzie opzionali",
+              "Anche formula a vita intera: prestazioni per tutta la vita, premio costante",
+              "A volte in pacchetto con perdita d'impiego, casa, cyber risk"
+            ],
+            "ref": "Materiale originale; IVASS, Report 2° sem. 2019"
+          },
+          "right": {
+            "title": "Comparto casa e famiglia",
+            "items": [
+              "Crescono le soluzioni tecnologiche per prevenire i rischi",
+              "Prodotti acquistabili in forma modulare",
+              "Obiettivo: più personalizzazione e aderenza alle esigenze del cliente"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Modulare vuol dire che il cliente compone la copertura: all'intermediario spetta capire quali moduli servono davvero.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Vendere a distanza: il percorso",
+          "steps": [
+            {
+              "label": "Consenso espresso",
+              "text": "Niente contratto a distanza senza consenso espresso. Silenzio o mancato dissenso non valgono come consenso."
+            },
+            {
+              "label": "Informativa al primo contatto",
+              "text": "Prima della proposta: informazioni del Codice, diritto di recesso, scelta tra carta e supporto durevole."
+            },
+            {
+              "label": "Procedura online chiara",
+              "text": "Sul sito: le fasi del contratto e come correggere gli errori. Prima della conclusione, avviso delle conseguenze."
+            },
+            {
+              "label": "Invio della polizza",
+              "text": "Entro 5 giorni dalla conclusione, salvo polizza formata come documento informatico."
+            }
+          ],
+          "ref": "Reg. IVASS 40/2018, artt. 72, 73, 75, 81"
+        },
+        {
+          "layout": "checklist",
+          "title": "Sito, social e app dell'intermediario",
+          "items": [
+            {
+              "text": "Sei titolare del dominio: persona fisica o società di intermediazione.",
+              "ref": "art. 78, c. 1-2"
+            },
+            {
+              "text": "Usi solo domini e sotto-domini comunicati all'IVASS, entro 30 giorni dalla registrazione.",
+              "ref": "art. 78, c. 3-bis, 3-ter"
+            },
+            {
+              "text": "In home page o in una pagina collegata: dati e numero RUI, sedi, recapiti, vigilanza IVASS.",
+              "ref": "art. 79, c. 1"
+            },
+            {
+              "text": "Indichi come presentare i reclami e il ricorso all'Arbitro Assicurativo, con link.",
+              "ref": "art. 79, c. 1, lett. e"
+            },
+            {
+              "text": "Le stesse regole valgono anche se fai solo promozione.",
+              "ref": "art. 79, c. 3"
+            },
+            {
+              "text": "Sezioni A, B, D, F: comunichi prima per iscritto alle imprese l'uso della vendita a distanza e ne segui le istruzioni.",
+              "ref": "art. 74, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa non si può fare",
+          "head": [
+            "Pratica vietata",
+            "Perché"
+          ],
+          "rows": [
+            [
+              "Filtri su prefisso o residenza",
+              "Discriminano i clienti. Per l'RC auto non si può impedire di concludere a distanza."
+            ],
+            [
+              "Contratti non richiesti",
+              "Serve il consenso espresso, anche per le polizze collettive."
+            ],
+            [
+              "Opt-out nelle coperture abbinate",
+              "Non si può far ritenere accettata un'offerta che il cliente non ha rifiutato."
+            ],
+            [
+              "Comunicazioni commerciali senza consenso",
+              "Il consenso è esplicito, gratuito e revocabile."
+            ],
+            [
+              "Vendita al telefono senza preavviso",
+              "Prima va detto che la conversazione sarà registrata."
+            ]
+          ],
+          "ref": "Reg. IVASS 40/2018, artt. 71, 72, 82, 83"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente vuole vendere sul proprio sito e su un profilo Instagram una polizza instant per il noleggio auto (copertura di 3 giorni con rimborso della franchigia). Il sito è registrato a nome del cugino, che lo ha costruito.",
+          "questions": [
+            "Il dominio può restare intestato al cugino?",
+            "Che cosa deve comparire sul profilo social?",
+            "Che cosa deve fare prima di partire con le vendite?"
+          ],
+          "solution": "Il dominio va intestato all'agente o alla sua società e comunicato all'IVASS entro 30 giorni dalla registrazione. Sito e profilo riportano in home page, o in una pagina collegata, dati e numero RUI, sedi, recapiti, vigilanza IVASS, reclami e Arbitro Assicurativo. Prima di partire l'agente lo comunica per iscritto alle imprese preponenti e ne segue le istruzioni. Nella vendita: consenso espresso, informativa al primo contatto, fasi chiare e polizza inviata entro 5 giorni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente riceve un'e-mail con un'offerta di polizza e non risponde. Si può considerare concluso il contratto?",
+          "options": [
+            "Sì, dopo 15 giorni di silenzio",
+            "Sì, se l'offerta era abbinata a un altro prodotto",
+            "No: il silenzio o il mancato dissenso non sono consenso",
+            "Sì, se il cliente era già cliente dell'impresa"
+          ],
+          "answer": 2,
+          "explanation": "Il Regolamento IVASS 40/2018 vieta di collocare contratti a distanza senza il consenso espresso del contraente. L'assenza di risposta o il mancato dissenso non valgono come consenso (art. 72)."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quanto dura in genere una copertura instant per la mobilità, secondo il materiale del corso?",
+          "options": [
+            "1, 3 o 7 giorni",
+            "Sempre un anno",
+            "Almeno 6 mesi",
+            "Solo poche ore"
+          ],
+          "answer": 0,
+          "explanation": "Le coperture instant nel comparto mobilità durano in genere 1, 3 o 7 giorni. L'RC auto temporanea per le auto di terzi noleggiate va invece da un minimo di un'ora a un massimo di 30 giorni."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Instant",
+              "text": "Coperture brevi, su misura, acquistate dallo smartphone"
+            },
+            {
+              "value": "Modulari",
+              "text": "Salute, casa e famiglia: garanzia base più moduli"
+            },
+            {
+              "value": "Consenso",
+              "text": "Sempre espresso: il silenzio non vale"
+            },
+            {
+              "value": "30 giorni",
+              "text": "Per comunicare all'IVASS il dominio del sito"
+            },
+            {
+              "value": "5 giorni",
+              "text": "Per inviare la polizza conclusa a distanza"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo al mercato delle polizze digitali: come stanno cambiando i prodotti, quali offerte nascono nei diversi comparti e, soprattutto, quali regole deve rispettare un intermediario quando promuove e vende polizze a distanza, su un sito internet o sui social.\n\nPartiamo da una constatazione: in Italia è finalmente scoccata l'ora delle polizze digitali. Il mercato si arricchisce ogni giorno di nuove soluzioni che non hanno timore di abbracciare modelli di business come la instant insurance e innovazioni tecnologiche come gli smart contract. La conferma arriva dai report dell'IVASS sui trend di offerta dei prodotti assicurativi. Le imprese, in larga parte, stanno già facendo ricorso ai canali di comunicazione elettronici, e questa tendenza potrebbe non limitarsi a un periodo particolare, ma segnare l'inizio di un'ulteriore fase della digitalizzazione del settore.\n\nQualche parola sulle fonti. Dal primo semestre del 2017 l'IVASS pubblica ogni sei mesi un'analisi dei trend dell'offerta: guarda i nuovi prodotti lanciati dalle imprese, indipendentemente dal loro successo commerciale, per offrire un osservatorio periodico e individuare possibili rischi per i consumatori. È una lettura utile anche per l'intermediario, perché anticipa che cosa troverà nei listini. Accanto ai report c'è la regola: il Regolamento IVASS numero 40 del 2018 dedica un intero capo, dall'articolo 69 all'articolo 83, alla promozione e al collocamento a distanza. Lo useremo nella seconda parte della lezione.\n\nCome si digitalizza l'offerta? Le strade sono due. Nella maggior parte dei casi le compagnie stringono accordi con provider esterni, fornitori di tecnologia e di piattaforme, spesso startup insurtech. In altri casi sono le compagnie stesse a scendere in prima linea: creano propri incubatori di startup dedicati al settore assicurativo, oppure offrono direttamente servizi tecnologici diversi da quelli assicurativi. Il report IVASS sul secondo semestre 2019 cita, per esempio, app che permettono di pagare parcheggi, multe e bollo auto.\n\nChe cosa trova il cliente su queste piattaforme? Il calcolo di un preventivo veloce e anonimo con un click; la possibilità di salvare un promemoria di polizza e riprenderlo più tardi; percorsi guidati per scegliere il prodotto; la personalizzazione con opzioni e garanzie aggiuntive; il pagamento diretto e sicuro con carta di credito o PayPal; campagne sconto e convenzioni. L'utente registrato ha un'area riservata con un cruscotto personale e lo storico delle polizze acquistate. In alcuni casi può anche denunciare il sinistro online. Pensate a quanto queste funzioni cambiano le aspettative del cliente: chi è abituato a ottenere un preventivo in un minuto si aspetta la stessa rapidità anche dalla sua agenzia.\n\nVeniamo alla instant insurance. Il report IVASS sul primo semestre 2018 la descrive come micropolizze temporanee, di brevissima durata, calibrate su un'esigenza precisa e acquistate direttamente dallo smartphone. Si sono diffuse proprio grazie alle partnership tra startup insurtech e compagnie. L'idea è semplice: il cliente si assicura nel momento in cui nasce il bisogno e solo per il tempo che serve.\n\nIl comparto in cui questo modello è più visibile è la mobilità. Le compagnie continuano a sviluppare offerte instant per proteggere persone e cose in movimento. Le coperture durano in genere 1, 3 o 7 giorni e riguardano sia i mezzi propri sia quelli noleggiati: per esempio, rimborsano la franchigia applicata dal noleggiatore se il mezzo viene rubato o danneggiato. Sempre nella mobilità condivisa esiste una piattaforma online che permette di noleggiare l'auto di un privato con una RC auto temporanea: la copertura dura da un minimo di un'ora a un massimo di 30 giorni, con franchigia a carico di chi guida. Più in generale, l'IVASS osserva che le compagnie arricchiscono le coperture tradizionali con dispositivi digitali e servizi aggiuntivi che risolvono problemi concreti. Un esempio citato nel report del 2019 sono i dispositivi antiabbandono per i bambini in auto, che si collegano via Bluetooth allo smartphone e vengono offerti insieme alla RC auto.\n\nPassiamo alla salute. L'IVASS fa notare che le nuove offerte sono moltissime e comprendono prodotti sempre più inclusivi, su misura e spesso modulari. C'è una garanzia base e il cliente può attivare una o più garanzie opzionali, anche con una formula a vita intera, cioè con prestazioni per tutta la vita a fronte di un premio costante. A volte si aggiungono coperture di altra natura, come la perdita d'impiego, le garanzie per l'abitazione o il cyber risk, offerte in un unico pacchetto.\n\nAnche nella casa e nella famiglia le soluzioni tecnologiche per prevenire i rischi continuano a svilupparsi, e i prodotti si acquistano in forma modulare, per adattarli meglio alle esigenze di ciascuno. Qui c'è un punto di attenzione per l'intermediario: più il prodotto è componibile, più è importante l'analisi delle richieste e delle esigenze del cliente. Un pacchetto ricco non è per forza un pacchetto adatto.\n\nOra le regole. Quando promozione e collocamento avvengono interamente a distanza, si applica il Capo III della Parte III del Regolamento 40. Il primo principio è il consenso: non si possono collocare contratti a distanza, neppure in forma collettiva, senza il consenso espresso del contraente. L'assenza di risposta o il mancato dissenso non sono consenso. Al primo contatto, e comunque prima della proposta, il distributore fornisce le informazioni previste dal Codice delle assicurazioni, comprese quelle sul diritto di recesso, e spiega al cliente che può scegliere di ricevere i documenti su carta o su supporto durevole, cambiando idea quando vuole. Chi vende online deve poi rendere chiare sul sito le fasi da seguire per concludere il contratto e gli strumenti per correggere eventuali errori di inserimento; subito prima del passaggio che perfeziona il contratto, avvisa il cliente delle conseguenze. Concluso il contratto, la polizza va trasmessa entro cinque giorni, salvo che sia già stata formata come documento informatico.\n\nC'è poi il sito, o il profilo social, dell'intermediario. Chi promuove e colloca polizze tramite un sito deve essere titolare del dominio: la persona fisica che opera a titolo individuale o la società di intermediazione. Dalle modifiche del 2023 gli intermediari possono usare solo domini e sotto-domini comunicati all'IVASS, entro 30 giorni dalla registrazione. Sul sito, sui profili social e sulle app, in home page o in una pagina raggiungibile direttamente dalla home page, devono comparire in modo chiaro i dati identificativi, il numero di iscrizione al Registro, le sedi, i recapiti, l'indicazione della vigilanza IVASS, i recapiti per i reclami e la possibilità di ricorrere all'Arbitro Assicurativo, con il collegamento al suo sito. Tutto questo vale anche per la sola promozione. Gli intermediari delle sezioni A, B, D ed F, inoltre, devono comunicare prima per iscritto alle imprese per cui operano come useranno la vendita a distanza, e seguire le loro istruzioni sull'uso di siti, social e app.\n\nAlcune pratiche sono espressamente vietate. Non si possono usare filtri basati sul prefisso telefonico o sul luogo di residenza per bloccare preventivi o vendite: sarebbe discriminazione territoriale, e per l'RC auto non si può impedire a nessuno di concludere il contratto a distanza. Nelle coperture abbinate ad altri beni o servizi sono vietati i meccanismi di opt-out, cioè quelli che fanno ritenere accettata l'offerta se il cliente non la rifiuta. Le comunicazioni commerciali a distanza richiedono un consenso esplicito, gratuito e revocabile. E chi vende per telefono deve prima informare il cliente che le conversazioni che portano alla conclusione del contratto saranno registrate.\n\nProviamo con un caso. Un agente vuole vendere sul suo sito e su Instagram una polizza instant per il noleggio auto, ma il dominio è intestato al cugino che ha costruito il sito. Non va bene: il dominio deve essere dell'agente o della sua società e va comunicato all'IVASS. Il profilo social deve riportare le stesse informazioni del sito. Prima di partire, l'agente avvisa per iscritto le imprese preponenti. E nella vendita applica il percorso che abbiamo visto: consenso, informativa, procedura chiara, polizza entro cinque giorni.\n\nRiassumendo: le polizze digitali sono brevi, su misura e modulari; la tecnologia cambia il modo di comprarle, ma le regole di correttezza verso il cliente restano le stesse, e il Regolamento 40 le traduce in obblighi precisi per il mondo online.",
+      "sources": [
+        {
+          "title": "IVASS, Report analisi trend offerta prodotti assicurativi (luglio-dicembre 2019), marzo 2020",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2020/Analisi_Trend_2sem2019.pdf"
+        },
+        {
+          "title": "IVASS, Report analisi trend offerta prodotti assicurativi (gennaio-giugno 2018), novembre 2018",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2018/AnalisiTrend1sem2018.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Report IVASS sui trend dell'offerta: cadenza semestrale dal 1° semestre 2017 e finalità di osservatorio sui rischi.",
+          "source_ref": "IVASS, Report trend 1° semestre 2018, Premessa"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Le due strade della digitalizzazione: accordi con provider esterni o compagnie che creano incubatori di startup e offrono servizi tecnologici non assicurativi.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019, par. 2-3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di instant insurance come micropolizze temporanee via smartphone, nate da partnership insurtech-compagnie.",
+          "source_ref": "IVASS, Report trend 1° semestre 2018"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Mobilità: coperture arricchite da dispositivi digitali e servizi aggiuntivi; esempio dei dispositivi antiabbandono Bluetooth abbinati alla RC auto.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019, par. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole della vendita a distanza: consenso espresso, informativa al primo contatto, procedure online, invio polizza entro 5 giorni.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 72, 73, 75, 81"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sito e social dell'intermediario: titolarità del dominio, comunicazione all'IVASS entro 30 giorni, informazioni in home page incluso l'Arbitro Assicurativo, comunicazione alle imprese preponenti.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 74, 78, 79 (testo consolidato)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pratiche vietate: discriminazione territoriale, contratti non richiesti, opt-out, comunicazioni senza consenso, vendita telefonica senza preavviso di registrazione.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 71, 72, 82, 83"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e due verifiche di autoapprendimento.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «la conferma arriva anche dall'ultimo report dell'Ivass sui trend di offerta». Il materiale non indica quale report; i contenuti coincidono in buona parte con il report luglio-dicembre 2019 (marzo 2020). Riferimento da indicare / possibile aggiornamento: verificare se sono usciti report più recenti.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «la tendenza potrebbe non limitarsi unicamente al periodo in corso» (scritta durante l'emergenza Covid-19). Riformulata senza riferimento temporale.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i dati sul comparto mobilità (coperture di 1, 3 o 7 giorni; RC auto temporanea da un'ora a 30 giorni): non ritrovati nei report IVASS consultati. Riferimento da indicare: report IVASS di origine.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "«Salvare e recuperare un promemoria di polizza» reso come promemoria del preventivo; omessi i riferimenti al vecchio fornitore.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Nuovi rischi e nuove frontiere: cyber, PMI, vita, blockchain",
+      "source_files": [
+        "corso totale/Il trend di mercato delle polizze digitali.pdf.pdf",
+        "Corso Ivass 60 ore/Materiale /Il trend di mercato delle polizze digitali .pdf ok.pdf"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "title": "Nuovi rischi e nuove frontiere",
+          "goals": [
+            "Riconoscere i rischi della vita digitale e come vengono assicurati",
+            "Conoscere le nuove coperture per le PMI e i trend del settore vita",
+            "Capire che cosa portano blockchain, smart contract e polizze pay per use"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I rischi della digitalizzazione",
+          "key": "I danni legati alla rete coperti da una polizza possono essere molti: cyberbullismo, stalking digitale, pornovendetta, insulti e diffamazioni sui social, frodi informatiche.",
+          "body": "La tutela degli utenti digitali si sposta su un piano economico: risarcire le vittime di crimini online, sempre più frequenti. In Italia queste garanzie sono proposte nei pacchetti assicurativi per la persona e per la casa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il cyber cresce, soprattutto nelle PMI",
+          "key": "Con l'uso diffuso dei sistemi informatici cresce l'offerta di protezione cyber: soprattutto per le piccole e medie imprese, più esposte, ma anche per le famiglie.",
+          "body": "Per le famiglie la copertura cyber arriva soprattutto dentro prodotti modulari per la casa e la famiglia. È un modulo da proporre partendo dalle abitudini digitali reali del cliente.",
+          "ref": "IVASS, Report trend luglio-dicembre 2019, par. 6"
+        },
+        {
+          "layout": "split",
+          "title": "Dal rischio al colloquio con il cliente",
+          "left": {
+            "title": "Rischi citati",
+            "items": [
+              "Cyberbullismo",
+              "Stalking digitale",
+              "Pornovendetta",
+              "Insulti e diffamazione sui social",
+              "Frodi informatiche"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Domande utili",
+            "items": [
+              "Ci sono figli minori che usano i social?",
+              "Acquisti e pagamenti online sono frequenti?",
+              "La famiglia ha già un pacchetto casa da integrare?",
+              "Serve assistenza legale oltre al rimborso?"
+            ]
+          },
+          "note": "Prima di proporre, verifica sempre nelle condizioni di polizza che cosa è coperto e con quali limiti.",
+          "noteRef": "Reg. IVASS 40/2018, art. 58 (richieste ed esigenze)"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "PMI",
+          "title": "La responsabilità solidale negli appalti",
+          "lead": "Nel settore delle PMI è stata lanciata una polizza per la responsabilità solidale di committente e appaltatore, nei contratti privati di appalto e di trasporto per conto terzi.",
+          "facts": [
+            {
+              "label": "Chi protegge",
+              "text": "Il committente, per le somme che deve pagare."
+            },
+            {
+              "label": "Che cosa copre",
+              "text": "Stipendi, trattamenti retributivi compreso il TFR, contributi previdenziali, premi assicurativi."
+            },
+            {
+              "label": "Quando",
+              "text": "Per il periodo di esecuzione dei lavori o del servizio previsti dal contratto."
+            },
+            {
+              "label": "In più",
+              "text": "Le spese legali per affrontare l'eventuale giudizio."
+            }
+          ],
+          "ref": "Materiale originale; IVASS, Report trend luglio-dicembre 2019, par. 8"
+        },
+        {
+          "layout": "table",
+          "title": "Altre coperture nuove per le PMI",
+          "lead": "L'offerta si sviluppa in base al settore in cui opera l'impresa.",
+          "head": [
+            "Copertura",
+            "Rischio"
+          ],
+          "rows": [
+            [
+              "Ritiro della patente",
+              "Danni economici se un dipendente che usa l'auto per lavoro perde la patente"
+            ],
+            [
+              "Privacy (GDPR)",
+              "Rischi da violazioni del Regolamento sulla protezione dei dati"
+            ],
+            [
+              "Patrimonio aziendale",
+              "Immobili, beni e asset dell'impresa"
+            ],
+            [
+              "Editori e testate",
+              "Querele per diffamazione e liti temerarie"
+            ]
+          ],
+          "ref": "IVASS, Report trend luglio-dicembre 2019"
+        },
+        {
+          "layout": "concept",
+          "title": "Il settore vita",
+          "key": "Il rapporto IVASS evidenzia una minore propensione verso nuove soluzioni rivalutabili o unit linked. Più stabile il trend dei multiramo, che combinano rivalutabili di ramo I e unit linked di ramo III.",
+          "body": "Nel 2019 le nuove offerte vita sono calate di circa il 34% rispetto al 2018. I prodotti tradizionali e le unit linked hanno guidato il calo, mentre le nuove offerte multiramo hanno tenuto.",
+          "ref": "Materiale originale; IVASS, Report trend luglio-dicembre 2019"
+        },
+        {
+          "layout": "concept",
+          "title": "Blockchain: un registro distribuito",
+          "key": "La blockchain appartiene alle tecnologie Distributed Ledger: un registro distribuito, letto e modificato da più nodi di una rete, strutturato come una catena di blocchi di transazioni.",
+          "body": "Il consenso è distribuito su tutti i nodi. Le caratteristiche: trasparenza e verificabilità; immutabilità, perché i dati non cambiano senza il consenso della rete; azioni programmate che scattano al verificarsi di certe condizioni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze viaggio su blockchain",
+          "key": "Sono state sperimentate tre polizze per i viaggi: maltempo, ritardo del volo, smarrimento del bagaglio.",
+          "body": "Blockchain e smart contract hanno garantito riservatezza dei dati ed esecuzione automatica del contratto in caso di sinistro. Risultato: emissione e gestione più efficienti e liquidazione immediata del danno.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Ritardo del volo: come funziona",
+          "steps": [
+            {
+              "label": "Biglietto",
+              "text": "Il cliente ha già comprato il volo."
+            },
+            {
+              "label": "Attivazione online",
+              "text": "Attiva la copertura sul web entro 15 giorni prima della partenza."
+            },
+            {
+              "label": "Contratto intelligente",
+              "text": "Registrata la polizza, il sistema crea uno smart contract che gestisce i pagamenti."
+            },
+            {
+              "label": "Indennizzo automatico",
+              "text": "Appena il sistema registra il ritardo, paga. Qualunque sia la causa: meteo, guasto, problemi in aeroporto."
+            }
+          ],
+          "ref": "IVASS, Report trend 1° semestre 2018"
+        },
+        {
+          "layout": "concept",
+          "title": "Polizze istantanee e pay per use",
+          "key": "Polizze istantanee e pay per use, con pagamento in base all'uso effettivo: la copertura nasce quando nasce il bisogno e dura il tempo necessario, con un processo tutto digitale.",
+          "body": "L'IVASS segnala anche, negli infortuni, polizze di breve periodo e di costo contenuto che si attivano con un click, chiamate smart contracts. Nei viaggi è iniziata la gestione dei sinistri interamente digitale, anche via WhatsApp.",
+          "ref": "Materiale originale; IVASS, Report trend luglio-dicembre 2019"
+        },
+        {
+          "layout": "compare",
+          "title": "Polizza tradizionale e polizza parametrica",
+          "cols": [
+            {
+              "title": "Tradizionale",
+              "items": [
+                "Il cliente denuncia il sinistro",
+                "L'impresa accerta il danno",
+                "Il pagamento arriva dopo la liquidazione"
+              ]
+            },
+            {
+              "title": "Parametrica su smart contract",
+              "items": [
+                "Paga al verificarsi di un evento misurabile, come il ritardo",
+                "Nessuna denuncia: il dato arriva da fonti esterne",
+                "Pagamento automatico, ma solo per l'evento previsto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente viaggia spesso per lavoro. Ha visto online una polizza ritardo volo su blockchain e chiede se le copre anche la perdita di una riunione e l'albergo prenotato.",
+          "questions": [
+            "Che cosa paga una polizza parametrica?",
+            "Che cosa le spieghi prima dell'acquisto?"
+          ],
+          "solution": "La polizza paga in automatico quando il sistema registra il ritardo, solo per la tratta indicata e qualunque sia la causa. Non misura il danno effettivo: la riunione persa o l'albergo non sono coperti, salvo garanzie specifiche. Le spieghi che cosa fa scattare il pagamento, i tempi di attivazione e che per altre esigenze servono altre coperture, come una polizza viaggio tradizionale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale tendenza segnala l'IVASS per il settore vita?",
+          "options": [
+            "Forte crescita di rivalutabili e unit linked",
+            "Minore propensione verso rivalutabili e unit linked, trend più stabile per i multiramo",
+            "Scomparsa dei prodotti multiramo",
+            "Nessun cambiamento rispetto al passato"
+          ],
+          "answer": 1,
+          "explanation": "Il report IVASS evidenzia una minore propensione verso nuove rivalutabili o unit linked e un trend più stabile per i multiramo, che combinano ramo I e ramo III. Nel 2019 le nuove offerte vita sono calate di circa il 34% rispetto al 2018."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Cyber",
+              "text": "Rischi online coperti in pacchetti persona e casa; cresce l'offerta per PMI e famiglie"
+            },
+            {
+              "value": "Solidale",
+              "text": "Polizza PMI che protegge il committente in appalti e trasporti"
+            },
+            {
+              "value": "Multiramo",
+              "text": "Ramo I + ramo III: il trend più stabile nel vita"
+            },
+            {
+              "value": "3",
+              "text": "Polizze viaggio sperimentate su blockchain"
+            },
+            {
+              "value": "Pay per use",
+              "text": "Si paga in base all'uso effettivo"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa seconda lezione sul mercato delle polizze digitali guardiamo a tre fronti: i nuovi rischi creati dalla vita online, le nuove coperture per le imprese e per il risparmio, e le tecnologie che stanno cambiando il modo stesso di funzionare di una polizza, come la blockchain e gli smart contract.\n\nCominciamo dai rischi della digitalizzazione. I danni legati alla rete che una polizza può coprire sono molti. I più citati sono il cyberbullismo, lo stalking digitale, la pornovendetta, cioè la diffusione di immagini intime senza consenso, gli insulti e le diffamazioni sui social network e le frodi informatiche. La tutela di chi vive in rete si sposta quindi su un vero e proprio piano economico: risarcire le vittime di crimini commessi online, che sono sempre più frequenti. In Italia queste coperture vengono proposte come garanzie legate alla persona e alla casa, all'interno di pacchetti assicurativi.\n\nIl report IVASS sul secondo semestre 2019 conferma la tendenza: con l'uso diffuso dei sistemi informatici cresce l'offerta di protezione cyber, soprattutto per le piccole e medie imprese, che sono le più esposte, ma anche per le famiglie. Per queste ultime la copertura arriva soprattutto come modulo dei prodotti per la casa e la famiglia.\n\nPer l'intermediario questo significa una cosa pratica: il rischio cyber non si vende in astratto. Si parte dalle abitudini del cliente. Ci sono figli minori che usano i social? La famiglia fa spesso acquisti e pagamenti online? Esiste già un pacchetto casa a cui aggiungere il modulo? Serve anche assistenza legale, oltre al rimborso economico? Le risposte servono a capire le richieste e le esigenze del cliente, come chiede il Regolamento IVASS 40 del 2018. E prima di proporre, vanno sempre lette le condizioni: che cosa è coperto, con quali limiti e quali esclusioni.\n\nPassiamo alle piccole e medie imprese. È stata lanciata una polizza innovativa per la responsabilità solidale di committente e appaltatore, nei contratti privati di appalto e di trasporto per conto terzi. Il committente, per legge, può essere chiamato a rispondere insieme all'appaltatore di alcune somme dovute ai lavoratori. La polizza lo protegge proprio da queste somme: stipendi, trattamenti retributivi compreso il TFR, contributi previdenziali, premi assicurativi, riferiti al periodo in cui si eseguono i lavori o si presta il servizio previsto dal contratto. L'assicurato è protetto anche per le spese legali che dovrebbe sostenere in un eventuale giudizio.\n\nL'IVASS segnala che l'offerta per le PMI si amplia e si adatta al settore in cui l'azienda opera. Oltre alla responsabilità solidale, il report cita coperture per i danni economici legati al ritiro della patente di un dipendente o collaboratore che usa l'auto per lavoro, coperture per i rischi derivanti da violazioni del Regolamento europeo sulla privacy, coperture per immobili, beni e patrimonio aziendale, e polizze per editori e testate contro le querele per diffamazione e le liti temerarie.\n\nE il settore vita? Il rapporto dell'IVASS evidenzia una minore propensione verso nuove soluzioni di tipo rivalutabile o unit linked. Più stabile è invece il trend dei prodotti multiramo, che nascono dalla combinazione di polizze rivalutabili di ramo primo e unit linked di ramo terzo. Il report sul secondo semestre 2019 dà anche una misura: nel 2019 le nuove offerte vita sono calate di circa il 34 per cento rispetto al 2018, con i prodotti tradizionali e le unit linked a guidare il calo, mentre le nuove offerte multiramo hanno tenuto. Ricordate che questi dati contano i nuovi prodotti lanciati, non i premi raccolti.\n\nVeniamo ora alle nuove frontiere: blockchain, intelligenza artificiale e chatbot. La blockchain fa parte della più ampia famiglia delle tecnologie Distributed Ledger, cioè sistemi basati su un registro distribuito, che può essere letto e modificato da più nodi di una rete. Nella blockchain il registro è organizzato come una catena di blocchi che contengono le transazioni, e il consenso è distribuito su tutti i nodi. Le caratteristiche principali sono tre: trasparenza e verificabilità; immutabilità, perché i dati non possono essere modificati senza il consenso della rete; e la possibilità di programmare azioni che vengono eseguite automaticamente al verificarsi di certe condizioni. Approfondiremo il funzionamento nella prossima lezione.\n\nSu questo fronte sono state sperimentate tre tipologie di polizze legate ai viaggi: la copertura del rischio maltempo, il ritardo del volo e lo smarrimento del bagaglio. La blockchain e gli smart contract hanno garantito la riservatezza delle informazioni e l'esecuzione automatica del contratto in caso di sinistro. Ne è derivata un'ottimizzazione dell'emissione e della gestione delle polizze, con una liquidazione immediata del danno.\n\nIl report IVASS sul primo semestre 2018 descrive bene uno di questi prodotti: una micropolizza parametrica sul ritardo del volo. Il cliente che ha già comprato il biglietto attiva la copertura via web entro 15 giorni prima della partenza. Registrata la polizza, il sistema crea un contratto intelligente che gestisce da solo i pagamenti. La garanzia vale solo per la tratta indicata, e l'indennizzo parte in automatico appena il sistema registra il ritardo, qualunque ne sia la causa: meteo, guasto all'aereo o problemi in aeroporto.\n\nSi stanno sviluppando anche le polizze istantanee e pay per use, cioè con pagamento in base all'utilizzo effettivo. Permettono alle compagnie di rispondere al bisogno del cliente esattamente quando nasce e per il tempo necessario, con un processo completamente digitale. L'IVASS segnala, negli infortuni, la diffusione di polizze di breve periodo e di costo contenuto che si attivano con un click, e che il report chiama smart contracts; e nei viaggi l'avvio della gestione dei sinistri interamente digitale, anche attraverso WhatsApp.\n\nFermiamoci sulla differenza tra una polizza tradizionale e una parametrica. Nella tradizionale il cliente denuncia il sinistro, l'impresa accerta il danno e poi paga. Nella parametrica il pagamento scatta al verificarsi di un evento misurabile, come i minuti di ritardo, rilevato da una fonte esterna: niente denuncia, niente perizia, pagamento rapido. Ma paga solo per quell'evento, non per il danno effettivo che il cliente ha subito.\n\nEcco perché il caso pratico è importante. Una cliente che viaggia spesso chiede se la polizza ritardo volo le copre anche la riunione persa e l'albergo prenotato. La risposta onesta è no: la polizza paga quando il ritardo viene registrato, per la tratta indicata, qualunque sia la causa, ma non misura le conseguenze economiche del ritardo. Spiegare con chiarezza che cosa fa scattare il pagamento, e che cosa invece resta fuori, è la parte del lavoro che la tecnologia non può fare al posto dell'intermediario.\n\nIn sintesi: la rete crea nuovi rischi e nuove coperture, per le famiglie e per le imprese; nel vita reggono i multiramo; e la blockchain apre la strada a polizze che si eseguono da sole. Nella prossima lezione vediamo da vicino come funziona.",
+      "sources": [
+        {
+          "title": "IVASS, Report analisi trend offerta prodotti assicurativi (luglio-dicembre 2019), marzo 2020",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2020/Analisi_Trend_2sem2019.pdf"
+        },
+        {
+          "title": "IVASS, Report analisi trend offerta prodotti assicurativi (gennaio-giugno 2018), novembre 2018",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2018/AnalisiTrend1sem2018.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Crescita dell'offerta cyber per PMI e famiglie, soprattutto in prodotti modulari casa e famiglia.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019, sintesi punto 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Altre coperture per PMI: ritiro patente del dipendente, violazioni GDPR, patrimonio aziendale, querele per diffamazione e liti temerarie.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019, sintesi punto 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Settore vita: calo di circa il 34% delle nuove offerte nel 2019 rispetto al 2018, tenuta dei multiramo.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019, Introduzione"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio della micropolizza parametrica ritardo volo su blockchain (attivazione entro 15 giorni prima, indennizzo automatico, solo tratta indicata).",
+          "source_ref": "IVASS, Report trend 1° semestre 2018"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Polizze infortuni attivabili con un click (dette smart contracts nel report) e gestione digitale dei sinistri viaggio anche via WhatsApp.",
+          "source_ref": "IVASS, Report trend luglio-dicembre 2019"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Confronto polizza tradizionale / parametrica, domande per l'analisi delle esigenze, caso pratico e verifica.",
+          "source_ref": "Reg. IVASS 40/2018, art. 58"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «Nuove frontiere: la blockchain, l'intelligenza artificiale e l'uso di chatbot». Le slide originali non contengono affermazioni su IA e chatbot oltre al titolo; il tema è citato nel narrato senza aggiungere contenuti non verificati. Possibile aggiornamento: Regolamento europeo sull'intelligenza artificiale.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la sperimentazione di tre polizze viaggio su blockchain (maltempo, ritardo volo, bagaglio). Riferimento da indicare: il report IVASS 1° semestre 2018 descrive solo quella sul ritardo volo.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «immutabilità, perché i dati non possono essere modificati senza il consenso della rete». Precisato nella lezione successiva il rapporto con il GDPR.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "L'impatto della blockchain nel settore assicurativo",
+      "source_files": [
+        "corso totale/Impatto della blockchain nel settore assicurativo.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Mercato delle polizze digitali/Impatto della blockchain nel settore assicurativo prima parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Mercato delle polizze digitali/Impatto della blockchain nel settore assicurativo seconda parte.pdf"
+      ],
+      "source_minutes": 24,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "title": "L'impatto della blockchain nel settore assicurativo",
+          "goals": [
+            "Spiegare come funziona una blockchain e perché è considerata sicura",
+            "Conoscere digital asset, smart contract e quadro normativo",
+            "Valutare quando la blockchain serve davvero a un processo assicurativo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Una fiducia senza intermediari",
+          "key": "La blockchain, una tecnologia a registro distribuito (DLT), permette transazioni dirette senza una terza parte garante: è la tecnologia stessa a garantire la certezza della transazione.",
+          "body": "La letteratura accademica parla di foundational innovations: tecnologie che cambiano nel lungo periodo i fondamenti del sistema tecnologico globale. La blockchain è considerata una di queste.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è e come funziona",
+          "key": "Un software peer to peer che conserva e garantisce un'informazione con un database distribuito: ogni nodo della rete ha una copia completa del registro.",
+          "body": "Le transazioni sono criptate, trascritte, copiate e controllate da ogni computer della rete e raggruppate in blocchi. Un algoritmo rende i nodi concordi sullo stato della catena: se qualcuno manomette un nodo, la rete non raggiunge il consenso e la transazione non entra nel registro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "La logica: firma, marca, consenso",
+          "steps": [
+            {
+              "label": "Firma digitale",
+              "text": "Identifica in modo certo mittente e destinatario del messaggio."
+            },
+            {
+              "label": "Validazione",
+              "text": "I messaggi validati vengono raggruppati in un insieme."
+            },
+            {
+              "label": "Marca temporale",
+              "text": "Lega l'insieme a data e ora e ne permette la registrazione nel libro mastro di tutti i nodi."
+            },
+            {
+              "label": "Consenso distribuito",
+              "text": "La rete conferma l'operazione. Il processo garantisce data e ora del consenso e la neutralità della rete. La registrazione diventa irreversibile."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché è immutabile e sicura",
+          "key": "La sicurezza dipende soprattutto dalla presenza dell'intero archivio in tutti i nodi della rete, e dalla marca temporale che ancora ogni informazione al momento in cui è stata archiviata.",
+          "body": "Ogni modifica è associata alla marca temporale dell'istante in cui avviene. Alterare un dato cambierebbe anche la marca, che non corrisponderebbe più all'originale: per questo l'alterazione è impedita.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le caratteristiche della blockchain",
+          "head": [
+            "Caratteristica",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Affidabilità",
+              "Più nodi ci sono, più la rete è affidabile"
+            ],
+            [
+              "Trasparenza",
+              "Ogni informazione è nell'archivio e può essere consultata da qualsiasi utente di internet"
+            ],
+            [
+              "Convenienza",
+              "Ogni nodo può eseguire una transazione o raccogliere informazioni"
+            ],
+            [
+              "Solidità",
+              "Ogni dato è in un blocco con marca temporale e codice hash"
+            ],
+            [
+              "Irrevocabilità",
+              "Si può solo consultare: impossibile sottrarre o modificare i dati"
+            ],
+            [
+              "Digitalità",
+              "Vive per sua natura in un ecosistema digitale"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "I digital asset",
+          "items": [
+            {
+              "text": "Unità elementare di informazione su una rete blockchain/DLT."
+            },
+            {
+              "text": "Non duplicabile."
+            },
+            {
+              "text": "Associata in modo univoco a un'identità."
+            },
+            {
+              "text": "Trasferibile tra gli utenti della rete."
+            },
+            {
+              "text": "Con un valore di scambio per gli utenti della rete."
+            },
+            {
+              "text": "Può rappresentare beni di diversa natura: da un oggetto fisico a un bene immateriale.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Le cripto-attività e il MiCAR",
+          "lead": "Il Regolamento (UE) 2023/1114 (MiCAR) introduce una disciplina armonizzata per emissione, offerta al pubblico e servizi aventi a oggetto cripto-attività.",
+          "facts": [
+            {
+              "label": "EMT",
+              "text": "Token di moneta elettronica: valore stabile legato a una sola valuta ufficiale."
+            },
+            {
+              "label": "ART",
+              "text": "Token collegati ad attività: valore stabile legato ad altri valori o diritti."
+            },
+            {
+              "label": "Altre",
+              "text": "Categoria residuale: cripto-attività diverse da EMT e ART."
+            },
+            {
+              "label": "Quando",
+              "text": "Interamente applicabile dal 30 dicembre 2024; per EMT e ART dal 30 giugno 2024."
+            },
+            {
+              "label": "Chi vigila",
+              "text": "In Italia Banca d'Italia e Consob, ciascuna per i propri ambiti."
+            }
+          ],
+          "ref": "Banca d'Italia, Comunicazione MiCAR, 2024"
+        },
+        {
+          "layout": "concept",
+          "title": "Smart contract e oracoli",
+          "key": "Uno smart contract è un insieme di regole che governa una transazione: è registrato sulla blockchain e si esegue automaticamente come parte della transazione.",
+          "body": "Le clausole possono essere del tutto o in parte auto-eseguibili, al verificarsi di condizioni controllate anche su fonti esterne: gli oracoli, software che leggono dati di terzi, li elaborano e scrivono il risultato sul registro. Per la legge italiana lo smart contract soddisfa la forma scritta, previa identificazione informatica delle parti secondo le linee guida AgID.",
+          "ref": "Materiale originale; D.L. 135/2018, art. 8-ter, c. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Blockchain e GDPR",
+          "left": {
+            "title": "Che cosa può garantire",
+            "items": [
+              "Controllo dei dati da parte del proprietario",
+              "Consenso al loro uso",
+              "Trattamento solo da parte di soggetti autorizzati",
+              "Traccia di tutte le attività in un registro distribuito immutabile"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "A che cosa fare attenzione",
+            "items": [
+              "La piattaforma va progettata conforme alla normativa fin dall'inizio",
+              "L'interessato ha diritto alla cancellazione dei suoi dati",
+              "Un registro immutabile rende difficile cancellare: va previsto in fase di progetto"
+            ],
+            "ref": "Reg. (UE) 2016/679, art. 17"
+          },
+          "note": "Immutabilità e diritti dell'interessato vanno conciliati: non è la tecnologia a decidere quali dati personali scrivere sul registro.",
+          "noteRef": "Reg. (UE) 2016/679, art. 17"
+        },
+        {
+          "layout": "table",
+          "title": "Il quadro di riferimento",
+          "head": [
+            "Data · Atto",
+            "Che cosa prevede",
+            "Rilievo"
+          ],
+          "rows": [
+            [
+              "2018 · European Blockchain Partnership",
+              "Iniziativa UE per un'infrastruttura blockchain europea (EBSI) per servizi pubblici transfrontalieri",
+              "L'Italia ha aderito il 27 settembre 2018"
+            ],
+            [
+              "2019 · D.L. 135/2018, art. 8-ter",
+              "Definisce le tecnologie a registro distribuito e gli smart contract",
+              "Introdotto dalla L. 12/2019, in G.U. n. 36 del 12 febbraio 2019"
+            ],
+            [
+              "2018 · Direttiva (UE) 2018/843",
+              "V direttiva antiriciclaggio: estende gli obblighi ai cambiavalute virtuali e ai portafogli digitali",
+              "Adottata il 30 maggio 2018"
+            ],
+            [
+              "2018 · Banca d'Italia, RSF n. 1/2018",
+              "Rapporto sulla stabilità finanziaria del 27 aprile 2018",
+              "Analizza la diffusione delle criptoattività"
+            ]
+          ],
+          "ref": "Materiale originale; Commissione UE; Normattiva; EUR-Lex; Banca d'Italia"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il settore è blockchain ready?",
+          "items": [
+            {
+              "text": "C'è un forte bisogno di scambiare asset, fisici o virtuali, tra gli attori?"
+            },
+            {
+              "text": "Serve un archivio comune tra le parti del processo?"
+            },
+            {
+              "text": "Il processo è specializzato e complesso, con diversi intermediari?"
+            },
+            {
+              "text": "Servono misure di sicurezza forti, come la strong authentication?"
+            },
+            {
+              "text": "La catena delle operazioni è complessa e richiede prove immutabili nel tempo?"
+            },
+            {
+              "text": "Si vogliono processi automatizzati, quasi in tempo reale?"
+            },
+            {
+              "text": "Servono soluzioni condivise tra molti attori?"
+            },
+            {
+              "text": "Per compliance servono verificabilità e monitoraggio continuo dei passaggi?"
+            },
+            {
+              "text": "Si vuole un processo basato sulla fiducia tra gli attori?"
+            },
+            {
+              "text": "Si pensa alla blockchain per automatizzare i processi di business? Con almeno 5 sì, il settore è blockchain ready.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché interessa alle assicurazioni",
+          "key": "Il settore gestisce moltissimi contratti e ha bisogno di informazioni certe e certificate per trattare i danni e valutare i rischi: per questo si attende da blockchain e Internet of Things vantaggi economici e di efficienza.",
+          "body": "Analizzare grandi quantità di dati, insieme alle analisi storiche e a modelli matematici, rende più precise le previsioni sul mercato. I manager le usano per creare nuovi prodotti, rendere più appetibili o sostenibili le clausole esistenti, eliminare gli abusi rilevati.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Quale blockchain per le assicurazioni",
+          "cols": [
+            {
+              "title": "Insurance-only blockchain",
+              "items": [
+                "Solo compagnie di assicurazione e loro partner",
+                "Disegnata sulle esigenze specifiche del settore",
+                "Dati limitati all'ecosistema assicurativo"
+              ]
+            },
+            {
+              "title": "Insurance ecosystem blockchain",
+              "items": [
+                "Ecosistema molto più ampio",
+                "Non può essere su misura per il settore",
+                "Dà accesso a una tipologia di dati più ampia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "IoT, data analytics e intelligenza artificiale",
+          "key": "La blockchain può aggiungere valore ai prodotti in molti settori e cambiare il lavoro di chi gestisce un'impresa.",
+          "body": "Manager, investitori, revisori dei conti e altri stakeholder possono ottenere vantaggi in termini di costo, velocità delle operazioni e integrità dei dati. IoT, analisi dei dati e intelligenza artificiale completano il quadro: i sensori producono i dati, la blockchain li certifica, l'analisi li trasforma in decisioni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un gruppo di imprese, periti, carrozzerie e noleggiatori valuta un registro blockchain comune per i sinistri auto: foto, perizie, preventivi e pagamenti condivisi da tutti.",
+          "questions": [
+            "Il processo supera il test blockchain ready?",
+            "Quale modello di blockchain è più adatto?",
+            "Che cosa va deciso sui dati personali?"
+          ],
+          "solution": "Molte risposte sono sì: più attori, archivio comune, prove immutabili, automazione, fiducia tra le parti, verificabilità per la compliance. Il test supera i 5 sì. Con soggetti esterni al mondo assicurativo serve un modello ecosystem, più ampio. Va deciso fin dal progetto quali dati personali scrivere sul registro, perché il GDPR riconosce il diritto alla cancellazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è un oracolo in uno smart contract?",
+          "options": [
+            "Il nodo che controlla tutti gli altri",
+            "Un software che legge dati di terze parti, li elabora e scrive il risultato sul registro",
+            "La firma digitale del contraente",
+            "L'autorità che approva le transazioni"
+          ],
+          "answer": 1,
+          "explanation": "L'oracolo collega lo smart contract al mondo esterno: legge dati di terzi, per esempio i ritardi dei voli, li elabora e scrive il risultato sul ledger, così le clausole possono eseguirsi da sole."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "DLT",
+              "text": "Registro distribuito: ogni nodo ne ha una copia completa"
+            },
+            {
+              "value": "Firma + marca",
+              "text": "Identificano le parti e rendono irreversibile la registrazione"
+            },
+            {
+              "value": "Oracolo",
+              "text": "Porta i dati esterni dentro lo smart contract"
+            },
+            {
+              "value": "8-ter",
+              "text": "La norma italiana su DLT e smart contract"
+            },
+            {
+              "value": "5 sì",
+              "text": "Soglia del test blockchain ready"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel funzionamento della blockchain e nel suo impatto sul settore assicurativo. Vedremo come funziona, perché è considerata sicura, che cosa sono i digital asset e gli smart contract, quali norme se ne occupano e, soprattutto, come capire se un processo assicurativo ha davvero bisogno di questa tecnologia.\n\nPartiamo dalla premessa. La blockchain è una tecnologia a registro distribuito, in inglese Distributed Ledger Technology, abbreviata DLT. Permette transazioni dirette, senza l'aiuto di una terza parte garante, perché è la tecnologia stessa a garantire la certezza della transazione. Per questo la letteratura accademica ha aggiunto alle categorie di innovazione le cosiddette foundational innovations, tecnologie che nel lungo periodo cambiano i fondamenti del sistema tecnologico globale.\n\nCome funziona? La blockchain è un software peer to peer, cioè tra pari, che conserva e garantisce un'informazione attraverso un database distribuito. Tutte le transazioni sono criptate. Ogni transazione viene trascritta, copiata e controllata da ogni computer della rete, e le transazioni vengono raggruppate in blocchi. Ogni nodo possiede una copia completa di tutto il registro, ed è collegato agli altri da un algoritmo che li rende concordi sullo stato attuale della catena. Se qualcuno prova a manomettere un nodo, la rete non arriva al consenso e la transazione non viene inserita nel registro distribuito.\n\nIl modello logico si basa sull'associazione di due strumenti che conoscete già: la firma digitale e la marca temporale. La firma digitale identifica in modo certo il mittente e il destinatario di qualsiasi messaggio. La marca temporale, legata a un insieme di messaggi validati, ne permette la registrazione nel libro mastro di tutti i nodi e la rende irreversibile. Le operazioni sono quindi confermate dalla rete con un processo di consenso distribuito, che garantisce la data e l'ora in cui il consenso è stato raggiunto e la neutralità della rete.\n\nDa qui nasce la sicurezza. La conservazione delle informazioni è sicura soprattutto perché l'intero archivio è presente contemporaneamente in tutti i nodi. E la marca temporale contribuisce a rendere l'informazione immodificabile, perché la ancora esattamente al momento in cui è stata archiviata. Ogni modifica dell'archivio è associata alla marca temporale dell'istante in cui avviene: alterare un'informazione modificherebbe anche la marca, che non corrisponderebbe più all'originale. Per questo ogni alterazione è impedita.\n\nIl materiale riassume le caratteristiche in sei parole. Affidabilità: più i nodi sono numerosi, più la rete è affidabile. Trasparenza: ogni informazione è inserita nell'archivio e può essere consultata da qualsiasi utente di internet; questo vale pienamente per le blockchain pubbliche, mentre le reti riservate a soggetti autorizzati limitano l'accesso. Convenienza: ogni nodo può eseguire una transazione o raccogliere informazioni. Solidità: ogni informazione acquisita da un nodo è assemblata in un blocco marcato da una marca temporale e da un codice hash, una specie di impronta digitale del contenuto. Irrevocabilità: il sistema consente solo la consultazione e rende impossibile sottrarre o modificare le informazioni. Digitalità: la blockchain vive per sua natura in un ecosistema digitale.\n\nSulla blockchain circolano i digital asset. Con questo termine si intende un'unità elementare di informazione che ha quattro caratteristiche: non è duplicabile, è associata in modo univoco a un'identità, è trasferibile tra gli utenti della rete e ha un valore di scambio per loro. I digital asset possono rappresentare beni di natura molto diversa, da un oggetto fisico a un bene immateriale.\n\nUna parte dei digital asset oggi ha una disciplina europea precisa. Il Regolamento europeo 2023/1114, chiamato MiCAR, introduce regole armonizzate per l'emissione, l'offerta al pubblico e i servizi che hanno a oggetto cripto-attività. Distingue i token di moneta elettronica, che mantengono un valore stabile legato a una sola valuta ufficiale, i token collegati ad attività, legati ad altri valori o diritti, e una categoria residuale con tutte le altre cripto-attività. Il regolamento è interamente applicabile dal 30 dicembre 2024, mentre per i due tipi di token stabili si applica dal 30 giugno 2024. In Italia la vigilanza spetta a Banca d'Italia e Consob, ciascuna per i propri ambiti.\n\nArriviamo agli smart contract. Uno smart contract è un insieme di regole, o condizioni, che governa e delinea una transazione. È registrato sulla blockchain e viene eseguito automaticamente come parte della transazione. Può avere molte clausole, del tutto o in parte auto-eseguibili al verificarsi di certe condizioni, che possono essere verificate anche accedendo a fonti esterne: gli oracoli. L'oracolo è un software che accede a dati di terze parti, li elabora e scrive il risultato sul registro. Nella polizza ritardo volo che abbiamo visto nella lezione precedente, l'oracolo è ciò che legge il ritardo effettivo dell'aereo e fa scattare il pagamento. La legge italiana, con l'articolo 8-ter del decreto legge 135 del 2018, definisce lo smart contract come un programma per elaboratore che opera su tecnologie a registro distribuito e la cui esecuzione vincola automaticamente due o più parti; stabilisce che soddisfa il requisito della forma scritta, previa identificazione informatica delle parti secondo le linee guida dell'AgID.\n\nC'è poi il tema della protezione dei dati. Il materiale osserva che è importante progettare una piattaforma di gestione dei dati personali conforme al GDPR, che sfrutti blockchain e smart contract. Una piattaforma del genere può dare meccanismi decentralizzati a chi fornisce servizi digitali e a chi è proprietario dei dati, garantendo il controllo dei dati, il consenso al loro uso, il trattamento solo da parte di soggetti autorizzati e la traccia di tutte le attività in un registro distribuito immutabile. Attenzione però a un punto: l'articolo 17 del GDPR riconosce all'interessato il diritto alla cancellazione dei propri dati. Un registro per definizione immutabile rende difficile cancellare. Per questo la scelta di quali dati personali scrivere sulla blockchain va fatta fin dalla progettazione.\n\nVediamo il quadro di riferimento indicato dal materiale. La Commissione europea ha promosso la European Blockchain Partnership, con l'obiettivo di creare un'infrastruttura europea basata sulla blockchain per i servizi pubblici transfrontalieri; l'Italia vi ha aderito il 27 settembre 2018. Il cosiddetto Decreto Semplificazioni, con l'articolo 8-ter introdotto dalla legge di conversione 12 del 2019, pubblicata in Gazzetta Ufficiale il 12 febbraio 2019, ha dato in Italia un inquadramento giuridico alle tecnologie a registro distribuito e agli smart contract. Il materiale lo considera completato dalle norme antiriciclaggio europee, la direttiva 2018/843, che ha esteso gli obblighi antiriciclaggio a chi cambia valute virtuali e a chi offre portafogli digitali, e dal Rapporto sulla stabilità finanziaria numero 1 del 2018 della Banca d'Italia, del 27 aprile 2018, che si occupa della diffusione delle criptoattività.\n\nQuando serve davvero la blockchain? Il materiale propone dieci domande. C'è un forte bisogno di scambiare asset tra gli attori? Serve un archivio comune tra le parti? Il processo è specializzato e complesso, con diversi intermediari? Servono misure di sicurezza forti, come l'autenticazione forte? La catena delle operazioni richiede prove immutabili nel tempo? Si vogliono processi automatizzati quasi in tempo reale? Servono soluzioni condivise tra molti attori? Per ragioni di compliance si vuole verificare e monitorare continuamente ogni passaggio? Si vuole costruire il processo sulla fiducia tra gli attori? Si pensa alla blockchain per automatizzare i processi di business? Se le risposte affermative sono cinque o più, il settore può essere considerato blockchain ready. Il valore del test è anche il contrario: se le risposte positive sono poche, probabilmente basta un normale database.\n\nPerché il settore assicurativo è interessato? Perché gestisce un numero enorme di contratti e ha bisogno di informazioni certe e certificate per trattare i danni e valutare i rischi. Da qui l'aspettativa che blockchain e Internet of Things portino vantaggi consistenti, economici e di efficienza. Poter analizzare grandi quantità di dati aumenta la precisione e l'affidabilità nell'individuare le tendenze del mercato; insieme alle analisi storiche e a modelli matematici costruiti ad hoc, questo produce previsioni sul futuro. I manager usano l'analisi predittiva per individuare nuovi prodotti, per modificare le clausole di un prodotto esistente perché sia più appetibile o non sia antieconomico per l'impresa, o per eliminare gli abusi rilevati.\n\nQuale blockchain scegliere? Le alternative sono due. La prima è una blockchain specialistica, chiamata insurance-only, il cui ecosistema è composto solo da compagnie di assicurazione e dai loro partner: può essere disegnata sulle esigenze del settore. La seconda, chiamata insurance ecosystem blockchain, ha un ecosistema molto più ampio: non può essere costruita su misura per il settore, ma consente di accedere a una gamma di dati molto più ampia.\n\nInfine, la blockchain non lavora da sola. Oltre a rivoluzionare il modo di dare valore ai prodotti in diversi settori industriali, può avere un impatto determinante su chi gestisce un'impresa. Non solo i manager, ma anche investitori, revisori dei conti e altri stakeholder possono ottenere vantaggi di costo, di velocità delle operazioni e di integrità dei dati su cui lavorano ogni giorno. Internet of Things, analisi dei dati e intelligenza artificiale la completano: i sensori producono i dati, la blockchain li certifica, l'analisi li trasforma in decisioni.\n\nChiudiamo con un caso. Imprese, periti, carrozzerie e noleggiatori pensano a un registro comune per i sinistri auto. Applicando il test, le risposte positive sono molte: tanti attori, un archivio comune, prove immutabili, automazione, fiducia, verificabilità. Il processo è blockchain ready. Poiché partecipano soggetti esterni al mondo assicurativo, il modello adatto è quello più ampio, di ecosistema. E va deciso subito quali dati personali scrivere sul registro, per rispettare il GDPR.\n\nIn sintesi: la blockchain sposta la fiducia dentro la tecnologia, con firma digitale, marca temporale e consenso distribuito; gli smart contract e gli oracoli permettono polizze che si eseguono da sole; ma la scelta di usarla va fatta con un metodo, e sempre nel rispetto delle regole sulla protezione dei dati.",
+      "sources": [
+        {
+          "title": "Normattiva, D.L. 14 dicembre 2018, n. 135, art. 8-ter (convertito dalla L. 11 febbraio 2019, n. 12)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2018-12-14;135~art8ter"
+        },
+        {
+          "title": "Commissione europea, Italy joins European partnership on blockchain (27 settembre 2018)",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/italy-joins-european-partnership-blockchain-supporting-delivery-cross-border-digital-public"
+        },
+        {
+          "title": "EUR-Lex, Direttiva (UE) 2018/843 del 30 maggio 2018",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L0843"
+        },
+        {
+          "title": "Banca d'Italia, Rapporto sulla stabilità finanziaria n. 1 - 2018",
+          "url": "https://www.bancaditalia.it/pubblicazioni/rapporto-stabilita/index.html"
+        },
+        {
+          "title": "Banca d'Italia, Regolamento (UE) 2023/1114 (MiCAR): Comunicazione della Banca d'Italia, 2024",
+          "url": "https://www.bancaditalia.it/media/approfondimenti/2024/micar/index.html"
+        },
+        {
+          "title": "Garante per la protezione dei dati personali, Diritto all'oblio (art. 17 GDPR)",
+          "url": "https://www.garanteprivacy.it/i-miei-diritti/diritti/oblio"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "MiCAR: oggetto, categorie EMT/ART/altre cripto-attività, date di applicazione (30 giugno e 30 dicembre 2024), autorità italiane.",
+          "source_ref": "Banca d'Italia, Comunicazione MiCAR 2024"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione legale di smart contract e requisito della forma scritta previa identificazione secondo le linee guida AgID.",
+          "source_ref": "D.L. 135/2018, art. 8-ter, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "European Blockchain Partnership: finalità (infrastruttura EBSI per servizi pubblici transfrontalieri) confermata sul sito della Commissione.",
+          "source_ref": "Commissione europea, notizia del 27 settembre 2018"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto della Direttiva (UE) 2018/843 (estensione degli obblighi antiriciclaggio a cambiavalute virtuali e portafogli digitali) e del RSF 1/2018 (criptoattività).",
+          "source_ref": "EUR-Lex; Banca d'Italia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritto alla cancellazione (art. 17 GDPR) come punto di attenzione rispetto all'immutabilità del registro.",
+          "source_ref": "Reg. (UE) 2016/679, art. 17; Garante privacy"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi applicativi (oracolo nella polizza ritardo volo), caso pratico sui sinistri auto e verifica.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «Blockchain, chiamata anche Digital Ledger Technology (DLT)». Corretto in Distributed Ledger Technology, come nell'art. 8-ter D.L. 135/2018 (tecnologie basate su registri distribuiti); la blockchain è un tipo di DLT.",
+          "source_ref": "D.L. 135/2018, art. 8-ter"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «ogni informazione può essere consultata da un qualsiasi utente di internet». Precisato che vale per le blockchain pubbliche; le reti permissioned limitano l'accesso.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «Irrevocabilità... rende impossibile la sottrazione dell'informazione e modifiche». Affiancata dal richiamo al diritto alla cancellazione del GDPR.",
+          "source_ref": "Reg. (UE) 2016/679, art. 17"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Decreto Semplificazioni «finalmente introduce l'inquadramento giuridico» di DLT e smart contract, «completato» da Dir. 2018/843 e RSF 1/2018. Precisato che l'art. 8-ter è stato introdotto dalla legge di conversione 12/2019 (G.U. n. 36 del 12 febbraio 2019) e che Direttiva e Rapporto riguardano valute virtuali e criptoattività, non specificamente gli smart contract. Possibile aggiornamento: verificare l'adozione delle linee guida AgID previste dall'art. 8-ter.",
+          "source_ref": "Normattiva; EUR-Lex; Banca d'Italia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto «transizione» in «transazione» nella caratteristica Solidità; omessi i riferimenti al vecchio fornitore.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

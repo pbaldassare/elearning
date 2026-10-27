@@ -1,0 +1,1430 @@
+{
+  "module": "Area giuridica",
+  "topic": "Prodotti di investimento assicurativi",
+  "topic_order": 8,
+  "scope": "core",
+  "lesson_offset": 50,
+  "source_minutes": 58,
+  "lessons": [
+    {
+      "title": "Dalla polizza vita tradizionale al prodotto di investimento",
+      "source_files": [
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (1).pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Condizioni contrattuali dei prodotti di investimento (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/prodotti di investimento /Condizioni contrattuali dei prodotti di investimento .pdf ",
+        "corso totale/_Condizioni contrattuali dei prodotti di investimento (1).(Video).mp4"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Dalla polizza vita tradizionale al prodotto di investimento",
+          "goals": [
+            "Capire quanto c'è di finanziario nelle polizze vita tradizionali",
+            "Riconoscere gli interventi che hanno «finanziarizzato» la polizza vita",
+            "Conoscere la bancassicurazione, i rami vita e la nozione di prodotto di investimento assicurativo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le forme «caso morte»",
+          "key": "Le polizze caso morte sono esclusivamente uno strumento assicurativo-previdenziale: c'è un tipico rischio assicurativo e le caratteristiche personali dell'assicurato sono determinanti.",
+          "body": "Età, stato di salute e abitudini di vita dell'assicurato entrano nella costruzione del premio e nel funzionamento della polizza. L'aspetto finanziario è marginale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Forme «miste» e forme «caso vita»",
+          "cols": [
+            {
+              "title": "Miste",
+              "items": [
+                "Prevedono il rischio e il capitale caso morte: natura assicurativo-previdenziale",
+                "In più, un capitale o una rendita se l'assicurato è in vita a una certa data",
+                "Questa seconda prestazione aggiunge caratteri decisamente finanziari",
+                "Restano uno strumento essenzialmente assicurativo e solo atipicamente finanziario"
+              ]
+            },
+            {
+              "title": "Caso vita",
+              "items": [
+                "L'aspetto finanziario assume una dimensione più naturale",
+                "Trova qui la sua realizzazione più completa",
+                "La prestazione matura se l'assicurato è in vita alla scadenza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le tradizionali non sono ancora prodotti finanziari",
+          "key": "Le polizze vita tradizionali operano anche come strumento finanziario, ma non sono ancora prodotti finanziari veri e propri.",
+          "body": "Le tiene legate al mondo assicurativo la stretta dipendenza da elementi e principi assicurativi, attuariali e demografici. Regole e strategie di tipo finanziario vi hanno scarso rilievo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "La «finanziarizzazione»: tre interventi",
+          "steps": [
+            {
+              "label": "Sul premio",
+              "text": "Si elimina l'ipotesi demografica e si riducono caricamenti e provvigioni di acquisto."
+            },
+            {
+              "label": "Sull'assicurato",
+              "text": "La figura dell'assicurato scompare."
+            },
+            {
+              "label": "Sugli investimenti",
+              "text": "Si usano strumenti con maggiori potenzialità finanziarie e più attitudine al rischio."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "L'intervento sul premio",
+          "left": {
+            "title": "Che cosa cambia",
+            "items": [
+              "Si «elimina» l'ipotesi demografica e la sua incidenza sui risultati finanziari",
+              "Si riducono i caricamenti o provvigioni di acquisto"
+            ]
+          },
+          "right": {
+            "title": "Che cosa resta",
+            "items": [
+              "È sempre un'assicurazione sulla vita",
+              "La compagnia paga in caso di vita dell'assicurato alla fine del differimento",
+              "Oppure subito, in caso di morte dell'assicurato"
+            ]
+          },
+          "note": "L'obiettivo è rendere la polizza vita più finanziaria e meno assicurativa, modificando prodotti esistenti o creandone di nuovi.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La «bancassicurazione»",
+          "key": "Integrazione aziendale, produttiva e distributiva, tra banca e assicurazione: i prodotti assicurativi sono distribuiti anche agli sportelli bancari.",
+          "body": "Le banche volevano diversificare la raccolta del risparmio e contenerne i costi, offrendo la polizza vita come nuova forma di gestione del risparmio. Per l'assicurazione il canale bancario è una nuova soluzione distributiva, soprattutto per le polizze vita.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Come nasce una bancassicurazione",
+          "head": [
+            "Modalità",
+            "In che cosa consiste"
+          ],
+          "rows": [
+            [
+              "1 · Partnership",
+              "Sinergie commerciali o accordi tra banca e compagnia di assicurazione."
+            ],
+            [
+              "2 · Acquisizione",
+              "Una banca acquisisce una compagnia di assicurazione."
+            ],
+            [
+              "3 · Creazione",
+              "Una banca crea una propria compagnia di assicurazione."
+            ],
+            [
+              "4 · Joint venture",
+              "Banca e compagnia già esistente creano insieme una nuova compagnia."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "La distribuzione tramite banca",
+          "items": [
+            {
+              "text": "Si offrono soprattutto polizze vita: rispondono più di altri prodotti alla funzione tipica della banca, la raccolta del risparmio."
+            },
+            {
+              "text": "Età e rischio di morte o sopravvivenza perdono rilevanza assoluta: diventa fondamentale l'elemento finanziario."
+            },
+            {
+              "text": "Scendono sensibilmente i costi di acquisizione, gestione e incasso, cioè i «caricamenti»."
+            },
+            {
+              "text": "La banca fidelizza il cliente in modo più penetrante del canale assicurativo tradizionale."
+            },
+            {
+              "text": "Le banche hanno una presenza territoriale maggiore delle compagnie."
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Polizza bancaria e polizza assicurativa",
+          "cols": [
+            {
+              "title": "Polizza vita bancaria",
+              "items": [
+                "Prevalenza assoluta del contenuto finanziario, caricamenti ridotti",
+                "Flessibilità: versamenti, riscatti e prelievi parziali",
+                "Trasparenza: costi indicati con chiarezza",
+                "Standardizzata, per un target indifferenziato",
+                "Metodo «pull»: attira il cliente con un prodotto semplice e a basso costo"
+              ]
+            },
+            {
+              "title": "Polizza vita tradizionale",
+              "items": [
+                "Costruita su elementi assicurativi, attuariali e demografici",
+                "Caricamenti più elevati",
+                "Ritagliata su specifiche esigenze assicurative e finanziarie",
+                "Parte dai bisogni del cliente, non solo dal desiderio di risparmiare e rivalutare il capitale"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di oggi",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "D.Lgs. 209/2005: art. 2 (rami vita) e art. 1, lett. ss-bis (prodotto di investimento assicurativo)."
+            },
+            {
+              "label": "Regolamento (UE) n. 1286/2014 (PRIIPs)",
+              "detail": "Definisce i prodotti di investimento assicurativi e impone il KID, applicabile dal 1° gennaio 2018."
+            },
+            {
+              "label": "Regolamento IVASS n. 41/2018",
+              "detail": "Informativa precontrattuale: per gli IBIP, KID più DIP aggiuntivo IBIP."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I rami vita",
+          "lead": "La classificazione per ramo dell'art. 2 del Codice.",
+          "head": [
+            "Ramo",
+            "Che cosa comprende"
+          ],
+          "rows": [
+            [
+              "I · Vita umana",
+              "Assicurazioni sulla durata della vita umana."
+            ],
+            [
+              "II · Nuzialità e natalità",
+              "Assicurazioni di nuzialità e di natalità."
+            ],
+            [
+              "III · Linked",
+              "Assicurazioni dei rami I e II con prestazioni principali collegate a quote di OICR, fondi interni, indici o altri valori di riferimento."
+            ],
+            [
+              "IV · Malattia e LTC",
+              "Malattia e non autosufficienza con contratti di lunga durata non rescindibili."
+            ],
+            [
+              "V · Capitalizzazione",
+              "Operazioni di capitalizzazione."
+            ],
+            [
+              "VI · Fondi collettivi",
+              "Gestione di fondi collettivi per prestazioni in caso di morte, di vita o di cessazione o riduzione dell'attività lavorativa."
+            ]
+          ],
+          "ref": "D.Lgs. 209/2005, art. 2, c. 1"
+        },
+        {
+          "layout": "split",
+          "title": "Che cos'è un prodotto di investimento assicurativo",
+          "left": {
+            "title": "È",
+            "items": [
+              "Un prodotto ai sensi dell'art. 4, par. 1, n. 2 del Reg. (UE) 1286/2014: in sintesi, un prodotto assicurativo con una scadenza o un valore di riscatto esposto alle fluttuazioni del mercato",
+              "Nel linguaggio europeo: IBIP, Insurance Based Investment Product",
+              "Tipicamente prodotti di ramo I, III e V con componente di investimento"
+            ],
+            "ref": "CAP, art. 1, lett. ss-bis"
+          },
+          "right": {
+            "title": "Non è",
+            "items": [
+              "Un prodotto assicurativo danni",
+              "Una polizza vita con prestazioni dovute solo per decesso o per incapacità da lesione, malattia o disabilità",
+              "Un prodotto pensionistico riconosciuto dal diritto nazionale per dare un reddito in pensione",
+              "Un regime pensionistico aziendale o professionale riconosciuto"
+            ],
+            "ref": "CAP, art. 1, lett. ss-bis, nn. 1-5"
+          },
+          "note": "Il modello IVASS di DIP aggiuntivo IBIP indica come rami possibili il I, il III e il V.",
+          "noteRef": "Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente entra in filiale con 30.000 euro sul conto. Vuole «una polizza che renda di più del deposito», senza pensare a coperture particolari. Il consulente le propone una polizza vita a premio unico standardizzata, a basso costo.",
+          "questions": [
+            "Quali caratteristiche della polizza bancaria emergono in questo caso?",
+            "La polizza è un prodotto di investimento assicurativo?"
+          ],
+          "solution": "È il metodo «pull»: un prodotto semplice, standard e poco costoso che risponde solo al bisogno di risparmiare e rivalutare il capitale. Se il valore della prestazione o del riscatto dipende dall'andamento dei mercati, è un IBIP: serve il KID e, in Italia, il DIP aggiuntivo IBIP. Le regole di distribuzione si vedono nella lezione dedicata."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale intervento NON fa parte della «finanziarizzazione» della polizza vita?",
+          "options": [
+            "Eliminare l'ipotesi demografica dal premio",
+            "Far scomparire la figura dell'assicurato",
+            "Aumentare i caricamenti di acquisto",
+            "Usare strumenti di investimento più rischiosi e redditizi"
+          ],
+          "answer": 2,
+          "explanation": "Gli interventi sul premio puntano a ridurre caricamenti e provvigioni di acquisto, non ad aumentarli."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una polizza temporanea caso morte che paga solo in caso di decesso è un prodotto di investimento assicurativo?",
+          "options": [
+            "Sì, perché è una polizza vita",
+            "No, il Codice la esclude espressamente dalla definizione",
+            "Sì, se il premio è unico",
+            "Dipende dalla banca che la distribuisce"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 1, lett. ss-bis del Codice esclude i contratti vita con prestazioni dovute soltanto in caso di decesso o per incapacità da lesione, malattia o disabilità."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Caso morte",
+              "text": "strumento assicurativo-previdenziale puro"
+            },
+            {
+              "value": "3",
+              "text": "interventi di finanziarizzazione: premio, assicurato, investimenti"
+            },
+            {
+              "value": "4",
+              "text": "modi di costituire una bancassicurazione"
+            },
+            {
+              "value": "I · III · V",
+              "text": "i rami vita dei prodotti di investimento assicurativi"
+            },
+            {
+              "value": "IBIP",
+              "text": "definizione del Reg. (UE) 1286/2014, richiamata dal Codice"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione seguiamo un percorso storico e tecnico: come la polizza vita, nata per proteggere da un rischio legato alla vita umana, sia diventata nel tempo anche uno strumento di investimento. È il punto di partenza per capire i prodotti di investimento assicurativi che oggi l'intermediario propone ogni giorno.\n\nCominciamo dalle forme caso morte. Qui c'è un tipico rischio assicurativo: la compagnia paga se l'assicurato muore nel periodo coperto. E le caratteristiche personali dell'assicurato, come l'età o lo stato di salute, sono determinanti sia per calcolare il premio sia per il funzionamento della polizza. Per questo le forme caso morte sono esclusivamente uno strumento assicurativo-previdenziale: il risparmio e il rendimento non c'entrano.\n\nLe forme miste sono un passo oltre. Prevedono anch'esse il rischio e il capitale caso morte, e per questa parte hanno la stessa natura assicurativo-previdenziale. Ma prevedono anche un capitale o una rendita se l'assicurato è in vita a una certa data. Questa seconda prestazione aggiunge caratteristiche decisamente finanziarie: il cliente, se tutto va bene, ritrova il suo risparmio accresciuto. Tuttavia la mista resta uno strumento essenzialmente assicurativo e solo atipicamente finanziario.\n\nNelle forme caso vita, invece, l'aspetto finanziario assume una dimensione più naturale e trova la sua realizzazione più completa: la prestazione è pagata proprio perché l'assicurato è vivo alla scadenza, ed è quindi molto simile a un risparmio che si accumula nel tempo.\n\nEppure anche le polizze vita tradizionali, pur operando come strumento finanziario, non possono ancora essere considerate prodotti finanziari veri e propri. Le tiene legate al mondo assicurativo la stretta dipendenza da elementi e principi assicurativi, attuariali e demografici: tavole di mortalità, tassi tecnici, basi demografiche. E regole e strategie di tipo finanziario vi hanno uno scarso rilievo.\n\nPer rendere le polizze vita il più possibile finanziarie e meno assicurative, le compagnie hanno fatto una serie di interventi tecnici, modificando polizze tradizionali o creandone di nuove. Possiamo chiamarla finanziarizzazione della polizza vita. Gli interventi riguardano tre elementi: il premio di assicurazione, la figura dell'assicurato e gli strumenti di investimento.\n\nIl primo intervento sul premio è stato eliminare l'ipotesi demografica, cioè la sua incidenza sui risultati finanziari prodotti dalla polizza. Attenzione però: si tratta pur sempre di assicurazioni sulla vita. Quindi la prestazione della compagnia sarà sempre e comunque eseguita o in caso di vita dell'assicurato al termine del periodo di differimento, o immediatamente in caso di morte dello stesso assicurato. Insieme all'eliminazione dell'ipotesi demografica, gli interventi sul premio hanno puntato a ridurre i caricamenti, cioè le provvigioni di acquisto: meno costi significa un rendimento netto più interessante.\n\nIl secondo intervento ha riguardato la figura dell'assicurato, che scompare. Il terzo è la scelta di investire in strumenti con maggiori potenzialità finanziarie e più attitudine al rischio. Vedremo nelle prossime lezioni dove portano questi interventi: alla capitalizzazione, che non ha più un assicurato, e alle polizze linked, che investono in fondi e indici.\n\nUn fenomeno ha accelerato tutto questo: la bancassicurazione. È un processo di integrazione aziendale, di tipo produttivo e distributivo, tra banca e assicurazione, per cui i prodotti assicurativi vengono distribuiti anche agli sportelli bancari. Nasce da un interesse reciproco. Le banche volevano diversificare la raccolta del risparmio e contenerne i costi, proponendo strumenti analoghi a quelli dei concorrenti, in particolare la polizza vita, presentata come una nuova forma di gestione del risparmio. Dall'altra parte, per l'assicurazione il canale bancario è diventato una nuova ed efficace soluzione distributiva per alcune categorie di prodotto, soprattutto per le polizze vita.\n\nUna bancassicurazione può nascere in quattro modi: con sinergie commerciali o partnership tra banca e compagnia; con l'acquisizione di una compagnia da parte di una banca; con la creazione di una compagnia da parte di una banca; oppure con la creazione di una nuova compagnia da parte sia di una banca, sia di una compagnia già esistente.\n\nChe cosa caratterizza la distribuzione tramite le banche? Si offrono essenzialmente polizze vita, perché sono i prodotti che più di altri rispondono alla funzione tipica della banca: la raccolta del risparmio. Gli elementi tipicamente assicurativi, come l'età e soprattutto il rischio di morte o di sopravvivenza, non hanno più rilevanza assoluta nella costruzione e nel funzionamento della polizza: diventa fondamentale l'elemento finanziario. La conseguenza immediata è stata una sensibile riduzione dei costi di acquisizione, di gestione e di incasso, cioè di quegli oneri che formano i caricamenti. La banca inoltre riesce a fidelizzare il cliente in modo molto più penetrante del canale assicurativo tradizionale, e ha una presenza territoriale maggiore delle compagnie.\n\nMettiamo a confronto la polizza vita bancaria e quella tradizionalmente assicurativa. La bancaria ha una prevalenza assoluta del contenuto finanziario e caricamenti ridotti; di conseguenza è più flessibile e più trasparente. Flessibile nel versamento dei premi e nella possibilità di riscattare o prelevare in parte le somme maturate. Trasparente nella chiarezza con cui indica i costi assicurativi, cioè i caricamenti. È però generalmente standardizzata: non è ritagliata su specifiche esigenze, ma si rivolge a un target indifferenziato. Segue il metodo pull, tipico di un prodotto semplice: attira il cliente con un prodotto facilmente vendibile e a basso costo, senza che il cliente sia mosso da particolari bisogni assicurativi, se non quello di risparmiare e rivalutare il capitale.\n\nFin qui il materiale storico. Vediamo ora come la legge inquadra oggi questi prodotti. I riferimenti principali sono tre: il Codice delle assicurazioni private, il Regolamento europeo numero 1286 del 2014, detto PRIIPs, e il Regolamento IVASS numero 41 del 2018 sull'informativa.\n\nL'articolo 2 del Codice classifica i rami vita. Il ramo primo comprende le assicurazioni sulla durata della vita umana; il secondo quelle di nuzialità e natalità; il terzo le assicurazioni dei rami primo e secondo le cui prestazioni principali sono direttamente collegate al valore di quote di organismi di investimento collettivo del risparmio o di fondi interni, oppure a indici o ad altri valori di riferimento: sono le unit e le index linked. Il quarto ramo riguarda malattia e non autosufficienza con contratti di lunga durata non rescindibili; il quinto le operazioni di capitalizzazione; il sesto la gestione di fondi collettivi per prestazioni in caso di morte, di vita o di cessazione o riduzione dell'attività lavorativa.\n\nIl Codice definisce poi il prodotto di investimento assicurativo rinviando al Regolamento PRIIPs. In sintesi, è un prodotto assicurativo che offre una scadenza o un valore di riscatto esposti, in tutto o in parte, alle fluttuazioni del mercato. In inglese si chiama IBIP. Il Codice elenca anche che cosa non lo è: i prodotti danni; le polizze vita le cui prestazioni sono dovute soltanto in caso di decesso o per incapacità dovuta a lesione, malattia o disabilità; i prodotti pensionistici riconosciuti dal diritto nazionale con lo scopo principale di dare un reddito durante la pensione; e alcuni regimi pensionistici aziendali o professionali. Il modello IVASS di documento aggiuntivo per questi prodotti indica come rami possibili il primo, il terzo e il quinto.\n\nProviamo con un caso. Una cliente entra in filiale con trentamila euro sul conto e chiede una polizza che renda più del deposito. Il consulente le propone una polizza vita a premio unico, standard e poco costosa. È il metodo pull allo stato puro: nessuna analisi di bisogni di protezione, solo risparmio e rivalutazione del capitale. Se la prestazione o il valore di riscatto dipendono dall'andamento dei mercati, siamo davanti a un prodotto di investimento assicurativo, e la cliente deve ricevere il KID e il DIP aggiuntivo IBIP. Le regole su come va proposto il prodotto le vediamo in una lezione dedicata.\n\nConcludiamo con le verifiche e con i punti da ricordare: la caso morte è uno strumento assicurativo-previdenziale, la finanziarizzazione passa per premio, assicurato e investimenti, la bancassicurazione ha quattro modelli di costituzione, e i prodotti di investimento assicurativi appartengono ai rami primo, terzo e quinto.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle Assicurazioni Private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Regolamento n. 41/2018, All. 4 DIP aggiuntivo IBIP (testo aggiornato con Provv. 169/2026)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2026/provv-169/ALL_5_al_Provv_169_All_4_al_Reg_41_2018_DIP_aggiuntivo_IBIP.pdf"
+        },
+        {
+          "title": "CONSOB, Relazione illustrativa del 22 dicembre 2022 sul Regolamento PRIIPs e il KID",
+          "url": "https://www.consob.it/documents/11973/5638890/Rel_illustr_emi_20221222.pdf/79ee15fd-c5e1-ad59-4f6e-96d9cc5ca414?t=1728520578084"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Classificazione dei rami vita I-VI secondo il Codice.",
+          "source_ref": "D.Lgs. 209/2005, art. 2, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di prodotto di investimento assicurativo (IBIP) e relative esclusioni.",
+          "source_ref": "D.Lgs. 209/2005, art. 1, lett. ss-bis; Reg. (UE) 1286/2014, art. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Rami I, III e V come rami dei prodotti IBIP, dal modello di DIP aggiuntivo IBIP.",
+          "source_ref": "Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Quadro normativo attuale: Codice, Regolamento PRIIPs (KID dal 1° gennaio 2018), Regolamento IVASS 41/2018.",
+          "source_ref": "Relazione CONSOB 22/12/2022; CAP art. 185"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla polizza bancaria a premio unico e due verifiche.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione storica di bancassicurazione e polizza bancaria (metodo «pull», standardizzazione, caricamenti ridotti). È una lettura economica e non normativa; non è stato aggiunto alcun dato di mercato aggiornato.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Classificazione dei prodotti vita, premi unici ricorrenti e capitalizzazione",
+      "source_files": [
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (1).pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Condizioni contrattuali dei prodotti di investimento (1).pdf",
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (2 (Video).mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Classificazione dei prodotti vita, premi unici ricorrenti e capitalizzazione",
+          "goals": [
+            "Classificare i prodotti vita per evento, per gestione finanziaria e per obiettivo del cliente",
+            "Conoscere il funzionamento della polizza a premi unici ricorrenti",
+            "Spiegare soggetti, elementi tecnici e natura del contratto di capitalizzazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Una nuova classificazione",
+          "key": "Innovazioni tecniche, nuova disciplina fiscale e previdenziale e bancassicurazione suggeriscono una classificazione nuova e «informale» dei prodotti nati dall'assicurazione sulla vita.",
+          "body": "La classificazione non sostituisce i rami del Codice: aiuta l'intermediario a capire a quale bisogno del cliente risponde ciascun prodotto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Due criteri tecnici di classificazione",
+          "left": {
+            "title": "Per evento assicurato",
+            "items": [
+              "Polizze caso morte",
+              "Polizze caso vita",
+              "Polizze miste",
+              "Operazioni di capitalizzazione",
+              "Piani individuali pensionistici (PIP)"
+            ]
+          },
+          "right": {
+            "title": "Per gestione finanziaria",
+            "items": [
+              "Assicurazioni rivalutabili",
+              "Assicurazioni index linked",
+              "Assicurazioni unit linked"
+            ]
+          },
+          "note": "Un terzo criterio, commerciale, guarda alle esigenze e agli obiettivi del cliente più che agli eventi assicurati o ai meccanismi di investimento.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Il criterio commerciale: tre famiglie",
+          "head": [
+            "Famiglia",
+            "Che cosa comprende"
+          ],
+          "rows": [
+            [
+              "1 · Assicurativi puri",
+              "Caso morte con o senza invalidità permanente o temporanea; Long Term Care; dread disease."
+            ],
+            [
+              "2 · Assicurativo-finanziari",
+              "Caso vita rivalutabili, soprattutto il capitale differito; capitalizzazione; index linked; unit linked."
+            ],
+            [
+              "3 · Previdenza individuale",
+              "Caso vita di rendita vitalizia; forme individuali pensionistiche, cioè piani individuali pensionistici (FIP o PIP)."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "I prodotti assicurativi puri",
+          "items": [
+            {
+              "text": "Polizze vita caso morte, con o senza copertura di invalidità permanente o temporanea."
+            },
+            {
+              "text": "Polizze Long Term Care: coprono il rischio di non autosufficienza."
+            },
+            {
+              "text": "Polizze dread disease: coprono l'insorgenza di gravi malattie."
+            },
+            {
+              "text": "Le polizze vita che pagano solo per decesso o per incapacità da lesione, malattia o disabilità non sono prodotti di investimento assicurativi.",
+              "ref": "CAP, art. 1, lett. ss-bis, n. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La polizza a premi unici ricorrenti",
+          "key": "Unisce i caratteri della polizza a premi annui e di quella a premio unico: è pluriennale, con versamenti annuali, ma ogni versamento è un premio unico a sé.",
+          "body": "Come nella polizza a premi annui, i versamenti sono dovuti per un certo numero di anni. Ma ciascuno rappresenta, più propriamente, il corrispettivo di un premio unico.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Premi unici ricorrenti: le caratteristiche",
+          "head": [
+            "Elemento",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Capitale assicurato",
+              "Pagabile trascorso solo 1 anno dalla stipula."
+            ],
+            [
+              "Riscatto parziale",
+              "Prelievi parziali delle somme maturate; la parte non disinvestita continua a rivalutarsi."
+            ],
+            [
+              "Premio unico ricorrente",
+              "Bassi caricamenti e miglior risultato finanziario."
+            ],
+            [
+              "Premio variabile",
+              "Ogni premio può essere variato ogni anno."
+            ],
+            [
+              "Sospensione",
+              "Si possono saltare alcuni premi: le somme già maturate continuano a rivalutarsi."
+            ],
+            [
+              "Versamenti aggiuntivi",
+              "Possibili in ogni momento: aumentano il risultato finale."
+            ],
+            [
+              "Durata",
+              "Anche una durata minima di 3 o 5 anni."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto di capitalizzazione",
+          "key": "Il risparmiatore affida una somma a un gestore e investitore e la ritira dopo un certo tempo, capitalizzata degli interessi maturati. Non c'è alcun riferimento alla durata della vita umana.",
+          "body": "Per il Codice l'impresa si impegna, senza convenzione relativa alla durata della vita umana, a pagare somme determinate a un termine prestabilito, in cambio di premi unici o periodici in denaro o altre attività. È il ramo V.",
+          "ref": "CAP, artt. 2 e 179, c. 1"
+        },
+        {
+          "layout": "table",
+          "title": "I soggetti della capitalizzazione",
+          "head": [
+            "Soggetto",
+            "Ruolo"
+          ],
+          "rows": [
+            [
+              "1 · Impresa",
+              "È abilitata a esercitare il ramo della capitalizzazione."
+            ],
+            [
+              "2 · Contraente",
+              "Versa la somma di denaro (premio) da capitalizzare."
+            ],
+            [
+              "3 · Beneficiario",
+              "Riceve il capitale finale: può essere il contraente (se muore, i suoi eredi o chi ha indicato) o qualsiasi altra persona."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Gli elementi tecnici",
+          "head": [
+            "Elemento",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "a · Retrocessione e rivalutazione",
+              "Si costituisce un fondo di gestione distinto e specifico; l'aliquota di retrocessione è più alta."
+            ],
+            [
+              "b · Tasso tecnico, minimo garantito, consolidamento",
+              "Determinano il capitale finale erogabile."
+            ],
+            [
+              "c · Premio",
+              "Unico o unico ricorrente."
+            ],
+            [
+              "d · Caricamenti",
+              "Modesti."
+            ],
+            [
+              "e · Capitale finale",
+              "Prestazione dovuta al beneficiario alla scadenza."
+            ],
+            [
+              "f · Riscatto",
+              "Esercitabile anche trascorso un anno dalla stipula."
+            ],
+            [
+              "g · Durata",
+              "Minimo 5 anni, massimo senza limiti."
+            ],
+            [
+              "h · Caso morte",
+              "Alla morte del contraente l'impresa non paga nulla: gli aventi diritto subentrano nella sua posizione."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Il Codice",
+          "title": "Che cosa dice l'art. 179 CAP",
+          "lead": "Alcuni elementi tecnici della capitalizzazione sono fissati dalla legge.",
+          "facts": [
+            {
+              "label": "Durata",
+              "text": "Non inferiore a cinque anni."
+            },
+            {
+              "label": "Premi periodici",
+              "text": "Costanti o variabili, se la variabilità è prevista dal contratto."
+            },
+            {
+              "label": "Riscatto",
+              "text": "Dal secondo anno, se il contraente ha pagato il premio per un'intera annualità."
+            },
+            {
+              "label": "Sorteggi",
+              "text": "Se previsti per il pagamento anticipato: al massimo 5 contratti ogni 100 emessi all'anno, a intervalli di almeno un semestre."
+            }
+          ],
+          "ref": "D.Lgs. 209/2005, art. 179, c. 2-4"
+        },
+        {
+          "layout": "concept",
+          "title": "Natura finanziaria, ma ancora assicurativa",
+          "key": "Nella capitalizzazione contano solo variabili finanziarie, non fattori assicurativi, demografici o attuariali: la natura è finanziaria.",
+          "body": "Resta però un prodotto assicurativo-finanziario per tre elementi tipicamente assicurativi: il tasso tecnico, il rendimento minimo garantito e il consolidamento delle prestazioni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente di 50 anni sottoscrive una capitalizzazione a premio unico di 50.000 euro, durata 10 anni, beneficiario il figlio. Dopo 4 anni il cliente muore. Il figlio chiede all'agenzia quando riceverà «il capitale della polizza».",
+          "questions": [
+            "La morte del contraente fa scattare una prestazione dell'impresa?",
+            "Che cosa possono fare gli aventi diritto?"
+          ],
+          "solution": "No: non esiste un assicurato e il contratto non è legato alla vita umana. Gli aventi diritto subentrano nella posizione del contraente. Il contratto prosegue fino alla scadenza e il capitale finale va al beneficiario. Il subentrante può anche valutare il riscatto: il contratto ha più di due anni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale durata minima prevede il Codice per i contratti di capitalizzazione?",
+          "options": [
+            "Un anno",
+            "Tre anni",
+            "Cinque anni",
+            "Dieci anni"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 179, comma 3, del Codice: i contratti di capitalizzazione non possono durare meno di cinque anni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché la capitalizzazione resta un prodotto assicurativo-finanziario?",
+          "options": [
+            "Perché copre il rischio di morte del contraente",
+            "Per tasso tecnico, rendimento minimo garantito e consolidamento",
+            "Perché è venduta solo dalle agenzie",
+            "Perché i caricamenti sono elevati"
+          ],
+          "answer": 1,
+          "explanation": "Sono i tre elementi tipicamente ed esclusivamente assicurativi che, secondo il materiale, la tengono nel mondo assicurativo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "famiglie: puri, assicurativo-finanziari, previdenziali"
+            },
+            {
+              "value": "PUR",
+              "text": "premi unici ricorrenti: flessibili, bassi caricamenti"
+            },
+            {
+              "value": "Ramo V",
+              "text": "capitalizzazione, senza riferimento alla vita umana"
+            },
+            {
+              "value": "5 anni",
+              "text": "durata minima della capitalizzazione"
+            },
+            {
+              "value": "3",
+              "text": "elementi assicurativi: tasso tecnico, minimo garantito, consolidamento"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione mettiamo ordine nella famiglia delle assicurazioni sulla vita e approfondiamo due prodotti molto usati come strumenti di risparmio: la polizza a premi unici ricorrenti e il contratto di capitalizzazione.\n\nLe innovazioni tecniche, assicurative e finanziarie, la nuova disciplina fiscale e previdenziale e le trasformazioni del settore bancario e assicurativo, a cominciare dalla bancassicurazione, suggeriscono di proporre una classificazione nuova e informale dei prodotti nati dall'assicurazione sulla vita. Informale perché non sostituisce i rami del Codice che abbiamo visto nella lezione precedente: è uno strumento di lettura per chi lavora con il cliente.\n\nEsistono anzitutto due criteri tecnici, ben distinti tra loro. Il primo è l'evento assicurato: abbiamo le polizze caso morte, le polizze caso vita, le miste, le operazioni di capitalizzazione e i piani individuali pensionistici. Il secondo criterio guarda invece alla forma di gestione finanziaria: assicurazioni rivalutabili, index linked e unit linked.\n\nC'è poi un terzo criterio, di tipo commerciale, che parte dalle esigenze e dagli obiettivi che il cliente vuole realizzare con un'assicurazione sulla vita, più che dagli eventi assicurati o dai meccanismi di investimento. Ne derivano tre famiglie: prodotti assicurativi puri, prodotti assicurativo-finanziari e prodotti di previdenza individuale pensionistica.\n\nNei prodotti assicurativi puri rientrano le polizze caso morte, con o senza copertura dell'invalidità permanente o temporanea; le polizze Long Term Care, che coprono il rischio di non autosufficienza; e le polizze dread disease, che coprono l'insorgenza di gravi malattie. Un collegamento utile con le regole attuali: le polizze vita che pagano soltanto per il decesso o per l'incapacità dovuta a lesione, malattia o disabilità sono escluse dalla definizione di prodotto di investimento assicurativo. Per loro non si usa il KID.\n\nI prodotti assicurativo-finanziari sono le polizze caso vita rivalutabili, in particolare il capitale differito, le operazioni di capitalizzazione, le index linked e le unit linked. I prodotti di previdenza individuale pensionistica sono le polizze caso vita di rendita vitalizia e le forme individuali pensionistiche, chiamate anche piani individuali pensionistici, FIP o PIP. Ai PIP dedichiamo una lezione a parte.\n\nPassiamo alla polizza a premi unici ricorrenti. Unisce le caratteristiche di due tipi di polizza: quella a premi annui e quella a premio unico. Come la polizza a premi annui è un prodotto pluriennale, con versamenti annuali dovuti per un certo numero di anni. Ma ogni versamento rappresenta un premio unico e, più propriamente, il corrispettivo di un premio unico: ciascun versamento genera la sua parte di capitale.\n\nVediamone le caratteristiche. Il capitale assicurato è pagabile trascorso solo un anno dalla stipula. Il riscatto parziale permette di prelevare una parte delle somme maturate, lasciando che la parte non disinvestita continui a rivalutarsi. Il premio unico ricorrente comporta bassi caricamenti e quindi un miglior risultato finanziario. Il premio è variabile: ogni anno può essere modificato. È possibile sospendere i versamenti, cioè non pagare qualcuno dei premi previsti dal programma: le somme già maturate continuano comunque a rivalutarsi. Si possono fare versamenti aggiuntivi in ogni momento, che aumentano il risultato finale. E la durata può essere anche breve, con un minimo di tre o di cinque anni. Pensiamo a un lavoratore autonomo con redditi variabili: questa flessibilità gli consente di versare di più negli anni buoni e di fermarsi in quelli difficili, senza perdere quanto ha accumulato.\n\nArriviamo ai contratti di capitalizzazione. Sono operazioni con cui un risparmiatore affida una somma di denaro a un soggetto gestore e investitore, per ritirarla dopo un certo periodo, capitalizzata degli interessi maturati. Queste operazioni devono essere compiute senza alcun vincolo o riferimento alla durata della vita umana: la figura dell'assicurato non esiste più. Il Codice delle assicurazioni, all'articolo 179, la definisce così: è il contratto con cui l'impresa di assicurazione si impegna, senza convenzione relativa alla durata della vita umana, a pagare somme determinate al decorso di un termine prestabilito, in corrispettivo di premi unici o periodici, effettuati in denaro o mediante altre attività. Nella classificazione per rami è il ramo quinto.\n\nI soggetti sono tre. L'impresa, abilitata a esercitare il ramo della capitalizzazione. Il contraente, che versa la somma da capitalizzare, cioè il premio. E il beneficiario, che avrà diritto al capitale finale: può essere lo stesso contraente, e in caso di sua morte i suoi eredi o chiunque altro egli abbia indicato, oppure una qualsiasi persona indicata come beneficiario. Già da qui si capisce che il contratto di capitalizzazione è uno strumento di investimento finanziario.\n\nGli elementi tecnici sono otto. Primo: aliquota di retrocessione e clausola di rivalutazione. Si costituisce un fondo di gestione distinto e specifico, e l'aliquota di retrocessione, cioè la quota del rendimento riconosciuta al cliente, è più alta. Secondo: tasso tecnico, rendimento minimo garantito e consolidamento, che determinano il capitale finale erogabile. Terzo: il premio può essere unico o unico ricorrente. Quarto: i caricamenti sono modesti. Quinto: il capitale finale, cioè la prestazione che l'impresa si impegna a pagare al beneficiario alla scadenza. Sesto: il riscatto, esercitabile anche trascorso un anno dalla stipula. Settimo: la durata, minimo cinque anni, senza un limite massimo. Ottavo: il caso morte. Se il contraente muore, l'impresa non paga nessuna prestazione: gli aventi diritto subentrano al contraente nella sua posizione.\n\nIl Codice fissa alcuni di questi elementi. I contratti di capitalizzazione non possono durare meno di cinque anni. Con premi periodici, i versamenti possono essere costanti o variabili, se la variabilità è prevista dal contratto. Il riscatto è consentito a partire dal secondo anno, a condizione che il contraente abbia pagato il premio per un'intera annualità: è la regola da tenere presente quando il materiale parla di riscatto dopo un anno. Infine, se il contratto prevede sorteggi periodici per pagare in anticipo il capitale, ogni anno si possono estrarre al massimo cinque contratti ogni cento emessi, a intervalli non inferiori al semestre.\n\nQual è allora la natura della capitalizzazione? L'intero processo si compie senza alcuna influenza di fattori assicurativi, demografici o attuariali, ma solo di variabili finanziarie: la natura è finanziaria. Questi contratti restano però prodotti assicurativo-finanziari per la presenza di tre elementi tecnici tipicamente ed esclusivamente assicurativi: il tasso tecnico, il rendimento minimo garantito e il principio del consolidamento delle prestazioni, per cui i rendimenti attribuiti restano acquisiti.\n\nUn caso pratico. Un cliente di cinquant'anni sottoscrive una capitalizzazione a premio unico di cinquantamila euro, durata dieci anni, beneficiario il figlio. Dopo quattro anni muore. Il figlio chiede quando riceverà il capitale. La risposta corretta è che la morte del contraente non fa scattare alcuna prestazione: non c'è un assicurato. Gli aventi diritto subentrano nella posizione del contraente e il contratto prosegue fino alla scadenza. Chi subentra può anche valutare il riscatto, perché sono passati più di due anni.\n\nChiudiamo con le verifiche e il riepilogo.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle Assicurazioni Private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Nozione legale di capitalizzazione e ramo V.",
+          "source_ref": "D.Lgs. 209/2005, artt. 2 e 179, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole del Codice su durata minima, premi periodici, riscatto dal secondo anno con un'annualità pagata, sorteggi.",
+          "source_ref": "D.Lgs. 209/2005, art. 179, c. 2-4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusione delle polizze di puro rischio dalla definizione di prodotto di investimento assicurativo.",
+          "source_ref": "D.Lgs. 209/2005, art. 1, lett. ss-bis, n. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici (lavoratore autonomo con PUR), caso pratico sulla morte del contraente di una capitalizzazione, due verifiche.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «riscatto esercitabile anche trascorso un anno dalla stipula». Possibile aggiornamento: l'art. 179, c. 4, CAP consente il riscatto dal secondo anno, se è stata pagata un'intera annualità di premio. Le due regole sono presentate insieme.",
+          "source_ref": "D.Lgs. 209/2005, art. 179, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nella PUR «capitale assicurato pagabile trascorso solo 1 anno dalla stipula» e «durata minima di 3 o 5 anni». Riferimento da indicare: dipendono dalle condizioni del singolo prodotto, non da norme.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Unit linked, index linked e polizze multiramo",
+      "source_files": [
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (1).pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Condizioni contrattuali dei prodotti di investimento (1).pdf",
+        "corso totale/_Condizioni contrattuali dei prodotti di investimento 3(Video).mp4"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Unit linked, index linked e polizze multiramo",
+          "goals": [
+            "Distinguere le polizze linked dalle rivalutabili",
+            "Classificare unit e index linked in base alle garanzie e agli investimenti",
+            "Spiegare la polizza multiramo e la rendita vitalizia differita"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze linked",
+          "key": "Sono pur sempre polizze vita, ma le prestazioni sono variabili e direttamente collegate al valore di mercato di determinate entità di riferimento.",
+          "body": "Per il Codice sono il ramo III: assicurazioni dei rami I e II con prestazioni principali collegate a quote di OICR, a fondi interni, a indici o ad altri valori di riferimento.",
+          "ref": "Materiale originale; CAP, art. 2, c. 1, ramo III"
+        },
+        {
+          "layout": "compare",
+          "title": "Linked e rivalutabili: le differenze",
+          "cols": [
+            {
+              "title": "Rivalutabili",
+              "items": [
+                "Prestazioni legate al tasso di rendimento periodico della gestione",
+                "Garanzia di rendimento minimo per contratto",
+                "Consolidamento dei risultati conseguiti",
+                "Aliquota di retrocessione"
+              ]
+            },
+            {
+              "title": "Linked",
+              "items": [
+                "Prestazioni legate al valore corrente delle entità di riferimento",
+                "Garanzie di risultato poco diffuse",
+                "Rischio di investimento in genere trasferito sugli assicurati",
+                "Nessuna aliquota di retrocessione"
+              ]
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le unit linked",
+          "key": "Il capitale assicurato dipende dal valore delle quote di fondi interni o di fondi esterni (OICR) in cui vengono investiti i premi.",
+          "body": "Si investe il premio al netto di caricamenti, costo della copertura caso morte, eventuali coperture accessorie e commissioni di gestione.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Unit linked: chi sopporta il rischio",
+          "head": [
+            "Tipo",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "G · Garantite",
+              "Garanzia di restituzione a scadenza del capitale investito, o del capitale rivalutato di un rendimento minimo garantito."
+            ],
+            [
+              "P · Parzialmente garantite",
+              "Il rischio finanziario degli investimenti del fondo è ripartito tra contraente e compagnia."
+            ],
+            [
+              "N · Pure",
+              "Nessuna garanzia: il capitale segue le variazioni, positive e negative, delle quote."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Unit linked: fondi e comparti",
+          "left": {
+            "title": "Per tipo di fondo",
+            "items": [
+              "Linea monetaria",
+              "Linea obbligazionaria",
+              "Linea azionaria",
+              "Linea bilanciata"
+            ]
+          },
+          "right": {
+            "title": "Per numero di comparti",
+            "items": [
+              "Monocomparto: un solo fondo",
+              "Pluricomparto: più fondi tra cui scegliere"
+            ]
+          },
+          "note": "Nel DIP aggiuntivo IBIP l'impresa indica il sito dove consultare il regolamento del fondo interno o dell'OICR.",
+          "noteRef": "Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "layout": "concept",
+          "title": "Le index linked",
+          "key": "Contratti vita, di solito a premio unico, con prestazioni collegate al valore corrente di indici di mercato o di altri valori di riferimento.",
+          "body": "La prestazione finale è il capitale investito, maggiorato delle variazioni percentuali degli indici nel periodo, secondo i criteri di indicizzazione e partecipazione delle condizioni di polizza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Index linked: le prestazioni",
+          "head": [
+            "Tipo",
+            "Prestazione minima"
+          ],
+          "rows": [
+            [
+              "N · Pure",
+              "Nessuna protezione del capitale, né in corso di contratto né a scadenza: con l'indice sfavorevole si può perdere capitale."
+            ],
+            [
+              "P · Capitale parzialmente garantito",
+              "Restituzione parziale del capitale investito."
+            ],
+            [
+              "G · Capitale garantito",
+              "Restituzione del capitale investito, di solito a scadenza, o un rendimento predeterminato."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze multiramo",
+          "key": "Prodotti ibridi con una parte di ramo I in gestione separata, con rendimento minimo garantito e protezione del capitale, e una parte unit linked di ramo III investita in fondi.",
+          "body": "Si valorizza il risparmio e insieme si garantisce una parte del capitale. Il DIP aggiuntivo IBIP indica quanto va al ramo I e quanto al ramo III, con esempi numerici.",
+          "ref": "Materiale originale; Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa dire al cliente su un multiramo",
+          "items": [
+            {
+              "text": "La garanzia opera solo sulla quota di premio investita nel ramo I, e solo negli eventi previsti.",
+              "ref": "Reg. IVASS 41/2018, All. 4"
+            },
+            {
+              "text": "Sulla quota investita nel ramo III il rischio è solo dell'assicurato.",
+              "ref": "Reg. IVASS 41/2018, All. 4"
+            },
+            {
+              "text": "Va chiarito se il cliente sceglie liberamente come ripartire il premio o se le combinazioni sono predefinite, con quali limiti.",
+              "ref": "Reg. IVASS 41/2018, All. 4"
+            },
+            {
+              "text": "Per la gestione separata va indicato il sito dove l'impresa pubblica il regolamento della gestione.",
+              "ref": "Reg. IVASS 41/2018, All. 4"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Due regole del Codice sul ramo III",
+          "left": {
+            "title": "Riserve tecniche",
+            "items": [
+              "Se la prestazione segue quote di un OICR o di un fondo interno, le riserve sono rappresentate il più possibile da quelle quote o dagli attivi del fondo",
+              "Se segue un indice, da quote che rappresentano il valore di riferimento o da attivi sicuri e negoziabili che lo replicano"
+            ],
+            "ref": "CAP, art. 41, c. 1-2"
+          },
+          "right": {
+            "title": "Onere della prova",
+            "items": [
+              "Nelle cause di risarcimento del contraente di contratti di ramo III e V",
+              "Spetta all'impresa provare di aver agito con la specifica diligenza richiesta"
+            ],
+            "ref": "CAP, art. 178"
+          },
+          "note": "L'IVASS può limitare gli attivi o i valori di riferimento collegabili alle prestazioni, quando il rischio di investimento è di un assicurato persona fisica.",
+          "noteRef": "CAP, art. 41, c. 5"
+        },
+        {
+          "layout": "concept",
+          "title": "I prodotti previdenziali",
+          "key": "Servono a costituire e poi a pagare capitali o rendite a fini pensionistici, a integrazione della pensione obbligatoria.",
+          "body": "Ne fanno parte le polizze di rendita vitalizia differita e i piani individuali pensionistici (PIP).",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "La rendita vitalizia differita",
+          "items": [
+            {
+              "text": "Paga una rendita vitalizia rivalutabile se l'assicurato è in vita a una certa data."
+            },
+            {
+              "text": "Il rischio assicurato è quello vita."
+            },
+            {
+              "text": "Il meccanismo finanziario è quello delle assicurazioni rivalutabili."
+            },
+            {
+              "text": "La rendita si costituisce subito, all'inizio del periodo di differimento."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha versato 100.000 euro in un multiramo: 60% gestione separata di ramo I, 40% unit linked azionaria di ramo III. Dopo un anno di mercati in calo, la parte unit vale 32.000 euro. Il cliente protesta: «Mi avevate detto che il capitale era garantito».",
+          "questions": [
+            "Su quale parte opera la garanzia?",
+            "Che cosa avrebbe dovuto chiarire l'intermediario all'inizio?"
+          ],
+          "solution": "La garanzia riguarda solo i 60.000 euro di ramo I, negli eventi previsti dal contratto. Sui 40.000 euro di ramo III il rischio è dell'assicurato. Fin dalla proposta andava spiegata la ripartizione, con gli esempi numerici del DIP aggiuntivo IBIP, e andava detto che la parte unit può perdere valore."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In una unit linked «pura» chi sopporta il rischio di investimento?",
+          "options": [
+            "La compagnia",
+            "L'intermediario",
+            "Il contraente",
+            "Il gestore dell'OICR"
+          ],
+          "answer": 2,
+          "explanation": "Nelle unit linked pure non c'è alcuna garanzia: il capitale segue le variazioni positive e negative delle quote."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale elemento è tipico delle rivalutabili e manca nelle linked?",
+          "options": [
+            "Il collegamento a indici di mercato",
+            "L'aliquota di retrocessione",
+            "Il premio unico",
+            "Il fondo interno"
+          ],
+          "answer": 1,
+          "explanation": "Nelle polizze linked non c'è l'aliquota di retrocessione, tipica delle rivalutabili."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Ramo III",
+              "text": "unit e index linked: prestazioni collegate a fondi o indici"
+            },
+            {
+              "value": "3",
+              "text": "livelli di garanzia: garantite, parzialmente garantite, pure"
+            },
+            {
+              "value": "I + III",
+              "text": "il multiramo: garanzia solo sulla quota di ramo I"
+            },
+            {
+              "value": "Art. 178",
+              "text": "rami III e V: l'impresa prova la propria diligenza"
+            },
+            {
+              "value": "Rendita",
+              "text": "vitalizia differita: meccanismo rivalutabile, rischio vita"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel cuore dei prodotti di investimento assicurativi: le polizze unit linked e index linked, le polizze multiramo che combinano gestione separata e fondi, e infine i prodotti previdenziali, a partire dalla rendita vitalizia differita.\n\nLe polizze linked sono pur sempre polizze vita. Le loro prestazioni però sono variabili e direttamente collegate al valore di mercato di determinate entità di riferimento, o parametri. Nel Codice delle assicurazioni corrispondono al ramo terzo: assicurazioni sulla vita umana o di nuzialità e natalità le cui prestazioni principali sono direttamente collegate al valore di quote di organismi di investimento collettivo del risparmio, di fondi interni, di indici o di altri valori di riferimento.\n\nChe cosa le distingue dalle classiche polizze rivalutabili? Tre aspetti. Il primo: le prestazioni linked non dipendono dal tasso di rendimento periodico di una gestione, ma dal valore corrente delle entità di riferimento. Il secondo: le rivalutabili prevedono per contratto una garanzia di rendimento minimo e il consolidamento dei risultati raggiunti; nelle linked le garanzie di risultato sono poco diffuse, e quindi il rischio di investimento è in genere trasferito sugli assicurati. Il terzo: nelle linked manca l'aliquota di retrocessione tipica delle rivalutabili. Per il cliente il messaggio è semplice: nella rivalutabile ciò che è stato riconosciuto resta acquisito, nella linked il valore sale e scende con il mercato.\n\nLe unit linked sono polizze vita in cui il capitale assicurato dipende dall'andamento del valore delle quote di fondi di investimento interni o di fondi esterni, gli OICR. Nei fondi si investono i premi versati, al netto dei caricamenti, del costo della copertura caso morte, delle eventuali coperture accessorie e delle commissioni di gestione. È importante farlo capire al cliente: non tutto il premio diventa quote.\n\nIn base a chi sopporta il rischio finanziario, le unit linked si dividono in tre tipi. Le garantite prevedono una garanzia finanziaria: a scadenza si riceve almeno il capitale investito, o il capitale rivalutato di un rendimento minimo prefissato. Nelle parzialmente garantite il rischio finanziario degli investimenti del fondo è ripartito tra contraente e compagnia. Nelle pure non c'è nessuna di queste garanzie: il capitale dipende dalle variazioni, positive e negative, delle quote acquistate.\n\nIn base alla tipologia e alla composizione dei fondi collegati, abbiamo unit linked a linea monetaria, obbligazionaria, azionaria e bilanciata. E all'interno di questa classificazione distinguiamo le monocomparto, con un solo fondo, e le pluricomparto, con più fondi tra cui il cliente può scegliere o spostarsi. Nel documento informativo aggiuntivo l'impresa indica il sito dove consultare il regolamento del fondo interno o dell'OICR.\n\nLe index linked sono contratti di assicurazione sulla vita, di solito a premio unico, con prestazioni direttamente collegate al valore corrente di indici di mercato o di altri valori di riferimento. La prestazione finale è data dal capitale iniziale investito, maggiorato delle variazioni percentuali registrate dagli indici nel periodo contrattuale, secondo i criteri di indicizzazione e di partecipazione fissati nelle condizioni di polizza.\n\nAnche qui contano le garanzie. Le index linked pure non prevedono alcuna protezione del capitale, né durante il contratto né a scadenza: se l'indice va male, si possono subire anche perdite in conto capitale. Quelle a capitale parzialmente garantito prevedono come prestazione minima la restituzione di una parte del capitale investito. Quelle a capitale garantito prevedono come prestazione minima la restituzione del capitale investito, di solito alla scadenza, oppure un rendimento finanziario predeterminato. Per questi prodotti il documento aggiuntivo indica dove si possono rilevare la denominazione e il valore dell'indice.\n\nLe polizze multiramo sono prodotti ibridi. Hanno una componente tradizionale a gestione separata di ramo primo, che abbina un rendimento minimo garantito alla protezione del capitale investito, e una componente unit linked di ramo terzo, in cui i premi vanno in fondi comuni per sfruttare le potenzialità dei mercati, dando una marcia in più all'investimento. Così si valorizza il risparmio e allo stesso tempo si garantisce una parte del capitale.\n\nIl modello IVASS di documento aggiuntivo per i prodotti di investimento assicurativi chiede, per i prodotti ibridi, di indicare la quota investita nel ramo primo e quella investita nel ramo terzo, con esempi numerici. E chiede di specificare che la garanzia opera solo sulla quota di premio investita nel ramo primo, negli eventi previsti, mentre sulla quota di ramo terzo il rischio è solo dell'assicurato. Va detto anche se il cliente può scegliere liberamente come ripartire il premio o solo tra combinazioni predefinite, e con quali limiti. Per la gestione separata va indicato il sito dove l'impresa pubblica il regolamento della gestione.\n\nDue regole del Codice completano il quadro. L'articolo 41 riguarda le riserve tecniche dei contratti collegati a fondi o indici. Se la prestazione segue le quote di un OICR o di un fondo interno, le riserve sono rappresentate, con la massima approssimazione possibile, da quelle quote o dagli attivi del fondo. Se segue un indice o un altro valore di riferimento, sono rappresentate da quote del valore di riferimento o da attivi sicuri e negoziabili che lo replichino il più possibile. L'IVASS può inoltre limitare i tipi di attivi o di valori di riferimento a cui collegare le prestazioni, quando il rischio di investimento è di un assicurato persona fisica. L'articolo 178 prevede poi un'inversione dell'onere della prova: nelle cause per i danni subiti dal contraente di un contratto di ramo terzo o quinto, è l'impresa a dover provare di aver agito con la diligenza specifica richiesta.\n\nChiudiamo con i prodotti previdenziali. Hanno l'obiettivo di costituire e poi pagare prestazioni economiche, capitali o rendite, a fini pensionistici, che integrano e completano la pensione del regime obbligatorio. Ne fanno parte le polizze di rendita vitalizia differita e i piani individuali pensionistici. La rendita vitalizia differita paga una rendita vitalizia rivalutabile se l'assicurato è in vita a una certa data. Il rischio assicurato è quello vita, il meccanismo finanziario è quello delle assicurazioni rivalutabili, e la rendita si costituisce subito, all'inizio del periodo di differimento. Ai PIP è dedicata la prossima lezione.\n\nUn caso. Un cliente ha versato centomila euro in un multiramo, sessanta per cento in gestione separata e quaranta per cento in una unit linked azionaria. Dopo un anno di mercati in calo la parte unit vale trentaduemila euro, e il cliente protesta perché gli avevano detto che il capitale era garantito. La garanzia riguarda solo i sessantamila euro di ramo primo, negli eventi previsti. Sui quarantamila di ramo terzo il rischio è suo. È esattamente ciò che va spiegato prima, con gli esempi numerici del documento aggiuntivo: chiarirlo all'inizio evita il reclamo dopo.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle Assicurazioni Private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Regolamento n. 41/2018, All. 4 DIP aggiuntivo IBIP (testo aggiornato con Provv. 169/2026)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2026/provv-169/ALL_5_al_Provv_169_All_4_al_Reg_41_2018_DIP_aggiuntivo_IBIP.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento delle polizze linked al ramo III del Codice.",
+          "source_ref": "D.Lgs. 209/2005, art. 2, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti richiesti nel DIP aggiuntivo IBIP per prodotti ibridi (quote ramo I/III con esempi, garanzia solo sul ramo I, ripartizione libera o predefinita), per unit linked (regolamento del fondo) e index linked (fonti dell'indice).",
+          "source_ref": "Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riserve tecniche dei contratti linked e potere dell'IVASS di limitare attivi e valori di riferimento.",
+          "source_ref": "D.Lgs. 209/2005, art. 41"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Inversione dell'onere della prova nei giudizi risarcitori su contratti di ramo III e V.",
+          "source_ref": "D.Lgs. 209/2005, art. 178"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico su un multiramo 60/40 e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "I PIP e l'informativa sui prodotti di investimento: KID e DIP aggiuntivo IBIP",
+      "source_files": [
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (1).pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Condizioni contrattuali dei prodotti di investimento (1).pdf",
+        "corso totale/Condizioni contrattuali dei prodotti di investimento (4).(Video).mp4"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "I PIP e l'informativa sui prodotti di investimento",
+          "goals": [
+            "Spiegare come funzionano prestazioni, gestione e costi dei PIP",
+            "Conoscere i documenti precontrattuali: KID e DIP aggiuntivo IBIP",
+            "Sapere che cosa il DIP aggiuntivo IBIP aggiunge al KID"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I Piani Individuali Pensionistici",
+          "key": "Contratti di assicurazione sulla vita che pagano capitali o rendite per costituire una previdenza integrativa individuale.",
+          "body": "Dopo aver versato premi o contributi per un certo numero di anni, l'assicurato ha diritto alle prestazioni. Servono i requisiti di età del suo regime pensionistico obbligatorio, oppure determinati requisiti di anzianità contributiva.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Dalla contribuzione alla rendita",
+          "steps": [
+            {
+              "label": "Versamenti",
+              "text": "L'iscritto versa premi o contributi per un certo numero di anni."
+            },
+            {
+              "label": "Requisiti",
+              "text": "Matura i requisiti del regime obbligatorio, con almeno cinque anni di partecipazione alla previdenza complementare."
+            },
+            {
+              "label": "Conversione",
+              "text": "Al termine dell'attività lavorativa la posizione individuale diventa rendita."
+            },
+            {
+              "label": "Pagamento",
+              "text": "La rendita la paga la compagnia che ha istituito il PIP."
+            }
+          ],
+          "ref": "Materiale originale; D.Lgs. 252/2005, art. 11, c. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Il coefficiente di conversione",
+          "left": {
+            "title": "Come si calcola la rendita",
+            "items": [
+              "Capitale maturato × coefficiente di conversione",
+              "Il coefficiente è fissato nel contratto dalla compagnia",
+              "Dipende dalla probabilità o speranza di vita"
+            ]
+          },
+          "right": {
+            "title": "Quando può cambiare la base demografica",
+            "items": [
+              "Solo se non è ancora iniziata l'erogazione della rendita",
+              "E se l'assicurato, avvisato della modifica, può trasferire la posizione ad altra forma pensionistica senza effetti sulla prestazione maturata"
+            ]
+          },
+          "note": "La prestazione originaria e primaria a cui si impegna la compagnia è una rendita vitalizia.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La base finanziaria",
+          "key": "Prestazioni e coefficienti si calcolano anche su una base finanziaria: un tasso di interesse garantito che rivaluta la prestazione iniziale e quella in erogazione.",
+          "body": "Anche il tasso garantito si può rivedere, nel rispetto delle disposizioni dell'organo di vigilanza, se gli scenari previsti si discostano molto dagli andamenti finanziari effettivi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Come si gestiscono i premi del PIP",
+          "head": [
+            "Linea",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "R · Rivalutabile",
+              "Fondo di gestione separata: il PIP funziona come una polizza vita rivalutabile."
+            ],
+            [
+              "U · Unit linked",
+              "Quote di fondi comuni o di fondi interni dell'impresa: il PIP funziona come una unit linked."
+            ],
+            [
+              "M · Combinata",
+              "Una combinazione delle due forme."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I costi del PIP",
+          "head": [
+            "Costo",
+            "Come si applica"
+          ],
+          "rows": [
+            [
+              "1 · Acquisizione o caricamenti",
+              "Sul premio versato, in percentuale e/o in valore assoluto."
+            ],
+            [
+              "2 · Commissioni di gestione",
+              "Prelievo dal capitale maturato e/o rendimento trattenuto."
+            ],
+            [
+              "3 · Trasferimento",
+              "Da una gestione all'altra, da una linea unit all'altra, o verso altre forme di previdenza complementare."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Le prestazioni della previdenza complementare oggi",
+          "lead": "I PIP sono forme pensionistiche complementari, disciplinate dal D.Lgs. 252/2005.",
+          "facts": [
+            {
+              "label": "Diritto",
+              "text": "Si matura con i requisiti del regime obbligatorio e almeno cinque anni di partecipazione."
+            },
+            {
+              "label": "Capitale",
+              "text": "In capitale al massimo il 50% del montante finale, il resto in rendita vitalizia."
+            },
+            {
+              "label": "Eccezione",
+              "text": "Tutto in capitale se la rendita dal 70% del montante è inferiore al 50% dell'assegno sociale."
+            },
+            {
+              "label": "Novità",
+              "text": "La L. 199/2025 consente, nelle forme a contribuzione definita, rendita a durata definita, prelievi e erogazione frazionata."
+            },
+            {
+              "label": "Reclami",
+              "text": "Su trasparenza e offerta, l'IVASS trasmette i reclami alla COVIP."
+            }
+          ],
+          "ref": "D.Lgs. 252/2005, art. 11, c. 2-3-bis; Reg. ISVAP 24/2008, art. 4"
+        },
+        {
+          "layout": "concept",
+          "title": "PIP: assicurativo-previdenziali",
+          "key": "I PIP sono contratti vita pienamente assicurativi, ma la loro funzione è realizzare una previdenza pensionistica complementare attraverso una gestione assicurativa.",
+          "body": "Per questa finalità economico-sociale esclusiva è più esatto definirli assicurativo-previdenziali. Per la stessa ragione i prodotti pensionistici riconosciuti dal diritto nazionale restano fuori dalla definizione di prodotto di investimento assicurativo.",
+          "ref": "Materiale originale; CAP, art. 1, lett. ss-bis, n. 3"
+        },
+        {
+          "layout": "table",
+          "title": "I documenti precontrattuali di base",
+          "head": [
+            "Documento",
+            "Per quali prodotti"
+          ],
+          "rows": [
+            [
+              "DIP · Danni",
+              "Prodotti assicurativi danni, secondo il Reg. di esecuzione (UE) 2017/1469."
+            ],
+            [
+              "DIP Vita · Vita",
+              "Prodotti vita diversi dai prodotti di investimento assicurativi."
+            ],
+            [
+              "KID · IBIP",
+              "Prodotti di investimento assicurativi, secondo il Reg. (UE) 1286/2014."
+            ]
+          ],
+          "lead": "Ogni documento di base è accompagnato da un DIP aggiuntivo disciplinato dall'IVASS.",
+          "ref": "CAP, art. 185, c. 1-2"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Regolamento (UE) 1286/2014",
+          "title": "Il KID",
+          "lead": "Il Key Information Document è il documento con le informazioni chiave, obbligatorio dal 1° gennaio 2018.",
+          "facts": [
+            {
+              "label": "Chi lo redige",
+              "text": "L'ideatore del prodotto, che lo pubblica prima di metterlo a disposizione dei clienti."
+            },
+            {
+              "label": "Chi lo consegna",
+              "text": "Chi offre consulenza o vende il prodotto."
+            },
+            {
+              "label": "Quando",
+              "text": "In tempo utile, prima che il cliente sia vincolato dal contratto."
+            },
+            {
+              "label": "Come",
+              "text": "Standardizzato, chiaro e conciso: non più di 3 pagine."
+            },
+            {
+              "label": "Perché",
+              "text": "Rende i prodotti comprensibili e confrontabili."
+            }
+          ],
+          "ref": "Reg. (UE) 1286/2014; Relazione CONSOB 22/12/2022"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa aggiunge il DIP aggiuntivo IBIP",
+          "items": [
+            {
+              "text": "Dati dell'impresa: patrimonio netto, risultato dell'ultimo bilancio, indice di solvibilità con il link alla relazione SFCR."
+            },
+            {
+              "text": "Garanzie finanziarie, coperture, opzioni come switch e riscatti parziali, esclusioni e limiti."
+            },
+            {
+              "text": "Costi oltre il KID: tabella dei costi di riscatto, costi della rendita e delle opzioni."
+            },
+            {
+              "text": "Costi di intermediazione: la quota percepita in media dagli intermediari."
+            },
+            {
+              "text": "Reclami: IVASS o CONSOB, Arbitro Assicurativo, mediazione, negoziazione assistita. Poi il regime fiscale."
+            },
+            {
+              "text": "Se una rubrica non ha informazioni in più: «Non vi sono informazioni ulteriori rispetto a quelle fornite nel KID»."
+            }
+          ],
+          "ref": "Reg. IVASS 41/2018, All. 4"
+        },
+        {
+          "layout": "timeline",
+          "title": "Informativa in corso di contratto",
+          "items": [
+            {
+              "value": "30 giorni",
+              "text": "prima della scadenza, la comunicazione per le obbligazioni a scadenza o a data certa",
+              "ref": "Reg. IVASS 41/2018, art. 23"
+            },
+            {
+              "value": "3 giorni",
+              "text": "prima di esercitare opzioni che cambiano il capitale garantito",
+              "ref": "Reg. IVASS 41/2018, art. 23"
+            },
+            {
+              "value": "1 anno",
+              "text": "cadenza dell'estratto conto, diverso per tipo di prodotto",
+              "ref": "Reg. IVASS 41/2018, art. 25"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia propone una unit linked pluricomparto. Il cliente ha già letto il KID e chiede perché deve firmare anche il ricevimento di un «secondo documento». Domanda poi quanto guadagna l'agenzia sul prodotto.",
+          "questions": [
+            "Perché c'è un secondo documento?",
+            "Dove trova la risposta sulla remunerazione dell'intermediario?"
+          ],
+          "solution": "Il KID è il documento europeo di base. Il DIP aggiuntivo IBIP, previsto dall'art. 185 CAP e dal Reg. IVASS 41/2018, aggiunge le informazioni che il KID non contiene: solvibilità dell'impresa, opzioni, costi di riscatto, reclami, fisco. Nella sezione costi c'è la quota media dei costi che va agli intermediari. Per la unit linked l'impresa invierà anche la lettera di conferma dell'investimento dei premi."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi deve redigere e pubblicare il KID?",
+          "options": [
+            "L'intermediario che vende il prodotto",
+            "L'ideatore del prodotto",
+            "L'IVASS",
+            "Il cliente, firmandolo"
+          ],
+          "answer": 1,
+          "explanation": "Il Regolamento PRIIPs mette la redazione e la pubblicazione a carico dell'ideatore. Chi consiglia o vende il prodotto deve consegnarlo in tempo utile."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Come si calcola la rendita vitalizia di un PIP?",
+          "options": [
+            "Capitale maturato diviso per gli anni di contribuzione",
+            "Capitale maturato per un coefficiente di conversione",
+            "Media dei premi versati",
+            "Lo stabilisce l'INPS"
+          ],
+          "answer": 1,
+          "explanation": "Si moltiplica il capitale maturato per un coefficiente di conversione, fissato nel contratto sulla base della speranza di vita."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "5 anni",
+              "text": "di partecipazione per la prestazione pensionistica"
+            },
+            {
+              "value": "3",
+              "text": "linee di gestione del PIP: rivalutabile, unit linked, combinata"
+            },
+            {
+              "value": "KID",
+              "text": "redatto dall'ideatore, consegnato in tempo utile, al massimo 3 pagine"
+            },
+            {
+              "value": "DIP IBIP",
+              "text": "integra il KID: solvibilità, opzioni, costi, reclami, fisco"
+            },
+            {
+              "value": "30 · 3",
+              "text": "giorni di preavviso: scadenza e opzioni sul capitale garantito"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione completiamo il quadro con i piani individuali pensionistici e poi vediamo i documenti che l'intermediario consegna al cliente quando propone un prodotto di investimento assicurativo: il KID e il DIP aggiuntivo IBIP.\n\nI piani individuali pensionistici, o PIP, sono contratti di assicurazione sulla vita che pagano prestazioni, capitali o rendite, per costituire una previdenza integrativa individuale. L'assicurato versa premi o contributi per un certo numero di anni. Ha poi diritto alle prestazioni se raggiunge i requisiti di età del suo regime pensionistico obbligatorio, oppure determinati requisiti di anzianità contributiva.\n\nLa prestazione originaria e primaria a cui si impegna la compagnia è una rendita vitalizia. Se l'iscritto ha partecipato alla previdenza complementare per almeno cinque anni, al termine dell'attività lavorativa può trasformare la sua posizione individuale in rendita. La rendita la paga la compagnia di assicurazione che ha istituito il PIP. Il requisito dei cinque anni lo ritroviamo oggi nell'articolo 11 del decreto legislativo 252 del 2005: il diritto alla prestazione si acquisisce con i requisiti di accesso del regime obbligatorio e almeno cinque anni di partecipazione alle forme pensionistiche complementari.\n\nCome si calcola la rendita? Si moltiplica il capitale maturato per un coefficiente di conversione in rendita. Il coefficiente lo fissa la compagnia nel contratto, sulla base della probabilità o speranza di vita. Durante il contratto l'impresa può modificare la base demografica originaria e ricalcolare i coefficienti, ma solo a due condizioni. La prima: non deve essere ancora iniziata l'erogazione della rendita. La seconda: l'assicurato, a cui è stata notificata la modifica, deve poter trasferire la propria posizione a un'altra forma pensionistica, senza effetti sulla prestazione maturata fino a quel momento.\n\nOltre alla base demografica c'è una base finanziaria: un tasso di interesse garantito che rivaluta sia la prestazione iniziale sia quella in fase di erogazione. Anche il tasso garantito può essere rivisto, nel rispetto di precise disposizioni dell'organo di vigilanza, quando ci sono scostamenti significativi tra gli scenari previsti e gli andamenti finanziari effettivi.\n\nI premi del PIP possono essere investiti in tre modi. In forma rivalutabile, attraverso un fondo di gestione separata: è il PIP a linea rivalutabile, che funziona come una tradizionale polizza vita rivalutabile. In forma unit linked, attraverso quote di fondi comuni di investimento o di fondi interni dell'impresa: il PIP funziona allora come una unit linked. Oppure con una combinazione delle due forme.\n\nI costi sono di tre tipi. I costi di acquisizione o caricamenti, calcolati sul premio versato, in percentuale e o in valore assoluto. Le commissioni di gestione, prelevate dal capitale maturato o trattenute dal rendimento. E i costi di trasferimento, quando si passa da una forma di gestione all'altra, da una linea unit linked a un'altra, oppure verso un'altra forma di previdenza complementare.\n\nQualche aggiornamento normativo verificato sul decreto 252 del 2005. Le prestazioni possono essere pagate in capitale fino a un massimo del cinquanta per cento del montante finale accumulato, e per il resto in rendita vitalizia. Ma se la rendita ottenuta convertendo almeno il settanta per cento del montante è inferiore alla metà dell'assegno sociale, si può prendere tutto in capitale. La legge di bilancio 199 del 2025 ha poi introdotto, per le forme a contribuzione definita, alternative alla rendita vitalizia: la rendita a durata definita, i prelievi liberamente determinabili e l'erogazione frazionata del montante. Si applicano dal primo luglio 2026, salvo date diverse per alcune di esse. Infine, se l'IVASS riceve un reclamo su trasparenza e offerta di una forma pensionistica complementare, lo trasmette alla COVIP.\n\nLe considerazioni conclusive sui PIP. Sono contratti di assicurazione sulla vita totalmente e indiscutibilmente assicurativi. Ma non basta chiamarli assicurativi: hanno una finalità economico-sociale particolare ed esclusiva, realizzare una previdenza pensionistica complementare attraverso una gestione assicurativa. Per questo è più esatto definirli assicurativo-previdenziali. È coerente con questo il fatto che il Codice escluda dalla definizione di prodotto di investimento assicurativo i prodotti pensionistici riconosciuti dal diritto nazionale come destinati a dare un reddito in pensione.\n\nPassiamo ai documenti. L'articolo 185 del Codice prevede tre documenti di base. Il DIP Danni per i prodotti danni, secondo il regolamento europeo di esecuzione 2017/1469. Il DIP Vita per i prodotti vita diversi dai prodotti di investimento. E il KID per i prodotti di investimento assicurativi, secondo il Regolamento PRIIPs. A ciascuno si affianca un DIP aggiuntivo, disciplinato dall'IVASS con il Regolamento 41 del 2018.\n\nIl KID è applicabile dal primo gennaio 2018. Lo redige e lo pubblica l'ideatore del prodotto, cioè per noi l'impresa di assicurazione, prima di mettere il prodotto a disposizione dei clienti. L'obbligo di consegnarlo spetta invece a chi offre consulenza o vende il prodotto, e va adempiuto in tempo utile, prima che il cliente sia vincolato da qualsiasi contratto o offerta. Il KID è standardizzato, chiaro e conciso, non supera le tre pagine e serve a rendere i prodotti comprensibili e confrontabili. Le regole tecniche su contenuto e presentazione sono nel regolamento delegato 2017/653, modificato nel 2021 per gli scenari di performance e gli indicatori di costo.\n\nIl DIP aggiuntivo IBIP, previsto dall'allegato 4 del Regolamento 41, contiene informazioni aggiuntive e complementari rispetto al KID. Serve a far capire meglio le garanzie finanziarie, le coperture, le limitazioni, le esclusioni, i costi e la loro incidenza sulla performance, e la situazione patrimoniale dell'impresa. Vi troviamo i dati dell'impresa con il patrimonio netto, il risultato dell'ultimo bilancio e l'indice di solvibilità, con il link alla relazione sulla solvibilità e sulla condizione finanziaria. Vi troviamo le prestazioni e le opzioni non riportate nel KID, come switch, riscatti parziali e riduzioni, con tempi e modalità. Nella sezione sui costi ci sono la tabella dei costi di riscatto, i costi della rendita e delle opzioni, e i costi di intermediazione, cioè la quota dei costi percepita in media dagli intermediari. Seguono le modalità di reclamo, all'IVASS o alla CONSOB, e i sistemi alternativi come l'Arbitro Assicurativo, la mediazione e la negoziazione assistita. Infine il regime fiscale. Se in una rubrica non c'è nulla da aggiungere, si scrive che non vi sono informazioni ulteriori rispetto a quelle fornite nel KID: tutte le sezioni devono comunque comparire.\n\nIl Regolamento 41 disciplina anche l'informativa in corso di contratto. Per i contratti unit linked l'impresa invia la lettera di conferma dell'investimento dei premi. Trenta giorni prima della scadenza c'è una comunicazione per le obbligazioni a scadenza o a data certa. Tre giorni prima dell'esercizio di opzioni che cambiano il capitale garantito, una comunicazione analoga. E ogni anno arriva un estratto conto, diverso secondo il tipo di prodotto.\n\nUn caso. Un cliente ha già letto il KID di una unit linked e chiede perché deve ricevere anche un secondo documento, e quanto guadagna l'agenzia. Il KID è il documento europeo di base. Il DIP aggiuntivo IBIP aggiunge ciò che il KID non dice: solvibilità, opzioni, costi di riscatto, reclami e fisco. Nella sezione costi il cliente trova la quota media che va agli intermediari. Mostrarla con trasparenza, invece di evitarla, è il modo migliore di costruire fiducia.",
+      "sources": [
+        {
+          "title": "Normattiva, D.Lgs. 5 dicembre 2005, n. 252, art. 11 (testo vigente)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art11"
+        },
+        {
+          "title": "IVASS, Codice delle Assicurazioni Private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Regolamento n. 41/2018, All. 4 DIP aggiuntivo IBIP (testo aggiornato con Provv. 169/2026)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2026/provv-169/ALL_5_al_Provv_169_All_4_al_Reg_41_2018_DIP_aggiuntivo_IBIP.pdf"
+        },
+        {
+          "title": "IVASS, Relazione al Regolamento n. 41/2018",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n41/Relazione_Regolamento_IVASS_41_2018.pdf"
+        },
+        {
+          "title": "CONSOB, Relazione illustrativa del 22 dicembre 2022 sul Regolamento PRIIPs e il KID",
+          "url": "https://www.consob.it/documents/11973/5638890/Rel_illustr_emi_20221222.pdf/79ee15fd-c5e1-ad59-4f6e-96d9cc5ca414?t=1728520578084"
+        },
+        {
+          "title": "IVASS, Regolamento ISVAP n. 24/2008, testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n24/Regolamento_ISVAP_24_del_19_maggio_2008.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Requisito dei cinque anni di partecipazione ricondotto all'art. 11, c. 2, D.Lgs. 252/2005.",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limite del 50% in capitale, eccezione del 70% / 50% dell'assegno sociale, nuove forme di erogazione introdotte dalla L. 199/2025 (dal 1° luglio 2026).",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 3 e 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Reclami su trasparenza e offerta delle forme pensionistiche complementari trasmessi dall'IVASS alla COVIP.",
+          "source_ref": "Reg. ISVAP 24/2008, art. 4, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Documenti precontrattuali di base (DIP Danni, DIP Vita, KID) e DIP aggiuntivo.",
+          "source_ref": "D.Lgs. 209/2005, art. 185"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "KID: applicabile dal 1° gennaio 2018, redatto e pubblicato dall'ideatore, consegnato in tempo utile da chi consiglia o vende, massimo 3 pagine; regolamento delegato 2017/653 modificato dal 2021/2268.",
+          "source_ref": "Reg. (UE) 1286/2014; Relazione CONSOB 22/12/2022"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti del DIP aggiuntivo IBIP (solvibilità, opzioni, costi di riscatto, costi di intermediazione, reclami, fisco, formula per rubriche vuote).",
+          "source_ref": "Reg. IVASS 41/2018, All. 4 (versione Provv. IVASS 169/2026)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Informativa in corso di contratto: lettera di conferma per le unit linked, preavvisi di 30 e 3 giorni, estratto conto annuale.",
+          "source_ref": "Reg. IVASS 41/2018, artt. 22-25 (Relazione IVASS)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusione dei prodotti pensionistici dalla definizione di IBIP collegata alla natura assicurativo-previdenziale dei PIP.",
+          "source_ref": "D.Lgs. 209/2005, art. 1, lett. ss-bis, n. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la sigla «F.I.P. o P.I.P.» e la revisione del tasso garantito «nel rispetto di disposizioni dell'organo di vigilanza». Riferimento da indicare / possibile aggiornamento: oggi i PIP sono forme pensionistiche complementari vigilate dalla COVIP (D.Lgs. 252/2005).",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

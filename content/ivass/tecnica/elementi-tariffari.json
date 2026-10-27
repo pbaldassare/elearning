@@ -1,0 +1,636 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Elementi tariffari",
+  "topic_order": 1,
+  "scope": "core",
+  "source_minutes": 23,
+  "lessons": [
+    {
+      "title": "Il premio e le riserve tecniche",
+      "source_files": [
+        "corso totale/Area tecnica assicurativa e riassicurativa /Elementi tariffari.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Elementi tariffari /Elementi tariffari.mp4"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Elementi tariffari",
+          "title": "Il premio e le riserve tecniche",
+          "goals": [
+            "Distinguere premio puro, caricamenti, premio di tariffa e premio lordo",
+            "Capire perché l'impresa accantona le riserve tecniche e quali caratteristiche hanno",
+            "Sapere come sono tutelati gli assicurati se l'impresa va in liquidazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da dove nasce il prezzo di una polizza",
+          "key": "Il premio di tariffa è il premio puro maggiorato dei caricamenti. Aggiungendo le imposte si ottiene il premio lordo, cioè quanto paga il contraente.",
+          "body": "Il premio puro è il costo base della copertura, stimato su basi statistiche. I caricamenti coprono le spese dell'impresa e il margine che compensa il rischio d'impresa.",
+          "ref": "IVASS, Glossario dei termini assicurativi"
+        },
+        {
+          "layout": "table",
+          "title": "Le componenti del premio",
+          "head": [
+            "Componente",
+            "Che cos'è",
+            "Come si determina"
+          ],
+          "rows": [
+            [
+              "1 · Premio puro",
+              "Il costo base della copertura, a fronte del rischio tecnico assunto dall'impresa.",
+              "Danni: frequenza dei sinistri × ammontare medio del danno. Vita: capitale assicurato e probabilità di morte o sopravvivenza."
+            ],
+            [
+              "2 · Caricamenti",
+              "Spese di acquisizione, incasso e amministrazione, altri oneri della tariffa e margine industriale.",
+              "Si aggiungono al premio puro e danno il premio di tariffa."
+            ],
+            [
+              "3 · Imposte",
+              "Le imposte sul premio. Nella RC auto c'è anche il contributo al Servizio Sanitario Nazionale.",
+              "Si aggiungono al premio di tariffa e danno il premio lordo."
+            ]
+          ],
+          "ref": "IVASS, Glossario dei termini assicurativi"
+        },
+        {
+          "layout": "concept",
+          "title": "Prima si incassa, poi si paga",
+          "key": "Per colmare lo scarto tra il flusso finanziario e la sua manifestazione economica, l'assicuratore accantona ogni anno la parte del premio incassato destinata a coprire rischi ancora in corso.",
+          "body": "Il premio arriva subito, i sinistri arrivano dopo, a volte anni dopo. L'accantonamento evita di considerare guadagnato un premio che deve ancora servire a pagare sinistri futuri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Le caratteristiche delle riserve tecniche",
+          "lead": "Le riserve tecniche sono il cuore del bilancio di un'impresa di assicurazione.",
+          "facts": [
+            {
+              "label": "Origine",
+              "text": "Sono costituite con il complesso dei premi raccolti tra gli assicurati."
+            },
+            {
+              "label": "Natura",
+              "text": "Costituiscono un ricavo anticipato: il premio è incassato prima che il servizio sia reso."
+            },
+            {
+              "label": "Limiti",
+              "text": "Non hanno limiti massimi."
+            },
+            {
+              "label": "Andamento",
+              "text": "Sono destinate ad aumentare in proporzione all'aumento dei rischi assicurati."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due riserve dei rami danni",
+          "cols": [
+            {
+              "title": "Riserva premi",
+              "items": [
+                "Copre il costo futuro dei sinistri sui rischi non ancora estinti",
+                "Riserva per frazioni di premi: la parte di premio che spetta ai mesi successivi",
+                "Riserva per rischi in corso: legata all'andamento tecnico del rischio"
+              ]
+            },
+            {
+              "title": "Riserva sinistri",
+              "items": [
+                "Copre i sinistri già avvenuti e non ancora pagati",
+                "Comprende le spese di liquidazione",
+                "Include i sinistri avvenuti ma non ancora denunciati (IBNR)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente firma il 1° ottobre una polizza incendio annuale e paga subito 1.200 euro di premio. Al 31 dicembre l'impresa chiude il bilancio.",
+          "questions": [
+            "Quella cifra è tutta guadagno dell'anno?",
+            "Quale riserva deve accantonare l'impresa?"
+          ],
+          "solution": "No. Al 31 dicembre è passato un quarto del periodo coperto. Con un criterio semplice, proporzionale al tempo, circa 900 euro servono ancora a coprire i nove mesi successivi: vanno nella riserva per frazioni di premi, che fa parte della riserva premi."
+        },
+        {
+          "layout": "table",
+          "title": "Se l'impresa vita va in liquidazione",
+          "lead": "Sugli attivi a copertura delle riserve tecniche vita sono pagati per primi, prima degli altri creditori:",
+          "head": [
+            "Ordine",
+            "Chi"
+          ],
+          "rows": [
+            [
+              "a) Prestazioni maturate",
+              "Chi ha diritto a capitali o indennizzi per polizze scadute o sinistrate, e a rendite maturate, entro il 60° giorno dalla pubblicazione del provvedimento di liquidazione."
+            ],
+            [
+              "b) Capitalizzazione",
+              "I titolari di crediti derivanti da operazioni di capitalizzazione."
+            ],
+            [
+              "c) Riscatti",
+              "Chi ha diritto a somme dovute per riscatti."
+            ],
+            [
+              "d) Contratti in corso",
+              "Chi risulta assicurato al 60° giorno, in proporzione alle riserve matematiche."
+            ],
+            [
+              "e) Contratti senza riserve matematiche",
+              "I loro titolari, per la parte di premio relativa al rischio non ancora corso. Sono soddisfatti dopo a), b), c) e d)."
+            ]
+          ],
+          "ref": "CAP, art. 258, c. 3"
+        },
+        {
+          "layout": "split",
+          "title": "Se l'impresa danni va in liquidazione",
+          "left": {
+            "title": "Pagati per primi",
+            "items": [
+              "Chi ha diritto a capitali o indennizzi per sinistri avvenuti entro il 60° giorno dalla pubblicazione del provvedimento di liquidazione"
+            ],
+            "ref": "CAP, art. 258, c. 4, lett. a"
+          },
+          "right": {
+            "title": "Pagati dopo",
+            "items": [
+              "Chi risulta assicurato al 60° giorno, per la parte di premio relativa al rischio non ancora corso"
+            ],
+            "ref": "CAP, art. 258, c. 4, lett. b"
+          },
+          "note": "I contratti in corso continuano a coprire i rischi fino al 60° giorno dalla pubblicazione in Gazzetta Ufficiale del provvedimento di liquidazione. La RC auto obbligatoria copre fino alla scadenza, nei limiti dei massimali minimi.",
+          "noteRef": "CAP, art. 169"
+        },
+        {
+          "layout": "split",
+          "title": "Le riserve sono un patrimonio separato?",
+          "left": {
+            "title": "Ieri",
+            "items": [
+              "La Corte di Cassazione aveva negato in passato che le riserve costituissero un patrimonio separato",
+              "Il D.Lgs. 9 aprile 2003, n. 93 ha poi attribuito espressamente alle riserve la natura di patrimonio separato"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Oggi",
+            "items": [
+              "Gli attivi a copertura delle riserve, iscritti nel registro, servono solo ad adempiere i contratti a cui le riserve si riferiscono",
+              "Costituiscono patrimonio separato rispetto alle altre attività dell'impresa"
+            ],
+            "ref": "CAP, art. 42, c. 2"
+          },
+          "note": "Anche se le riserve tecniche sono iscritte nel passivo dello stato patrimoniale, non sono costituite da beni di proprietà degli assicurati.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Chi sbaglia sulle riserve paga",
+          "key": "La violazione delle norme sulla costituzione delle riserve tecniche è punita con una sanzione amministrativa pecuniaria.",
+          "body": "Il materiale originale indicava una sanzione da 5.000 a 50.000 euro. Il testo oggi in vigore dell'art. 310 prevede, per la violazione delle norme sulle riserve tecniche (artt. 36-bis e seguenti), una sanzione da 30.000 euro fino al 10% del fatturato.",
+          "ref": "CAP, art. 310, c. 1, lett. a"
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Sai spiegare al cliente di che cosa è fatto il premio: costo del rischio, spese, imposte."
+            },
+            {
+              "text": "Sai che il premio pagato in anticipo non è subito utile dell'impresa: una parte resta accantonata a riserva."
+            },
+            {
+              "text": "Se un cliente teme il dissesto della compagnia, sai che gli attivi a copertura delle riserve sono riservati agli assicurati.",
+              "ref": "CAP, artt. 42 e 258"
+            },
+            {
+              "text": "Ricordi la scadenza dei 60 giorni dalla liquidazione e consigli per tempo una nuova copertura.",
+              "ref": "CAP, art. 169"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa si ottiene aggiungendo i caricamenti al premio puro?",
+          "options": [
+            "Il premio lordo",
+            "Il premio di tariffa",
+            "La riserva premi",
+            "Il premio naturale"
+          ],
+          "answer": 1,
+          "explanation": "Premio puro più caricamenti dà il premio di tariffa. Il premio lordo si ottiene aggiungendo anche le imposte."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella liquidazione di un'impresa danni, chi viene soddisfatto per primo sugli attivi a copertura delle riserve?",
+          "options": [
+            "I fornitori dell'impresa",
+            "Chi ha subito un sinistro entro il 60° giorno dalla pubblicazione del provvedimento",
+            "Chi ha un contratto in corso, per il premio non goduto",
+            "Gli azionisti dell'impresa"
+          ],
+          "answer": 1,
+          "explanation": "Prima vengono gli aventi diritto agli indennizzi per sinistri avvenuti entro il 60° giorno. Poi gli assicurati, per la parte di premio relativa al rischio non ancora corso."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Tariffa",
+              "text": "premio puro + caricamenti; con le imposte diventa premio lordo"
+            },
+            {
+              "value": "Riserve",
+              "text": "accantonano il premio che deve ancora coprire rischi in corso"
+            },
+            {
+              "value": "60",
+              "text": "giorni: copertura dei contratti in corso e soglia per le priorità in liquidazione"
+            },
+            {
+              "value": "Separato",
+              "text": "il patrimonio degli attivi a copertura delle riserve tecniche"
+            }
+          ]
+        }
+      ],
+      "narration": "Questa lezione apre l'area tecnica e parte da una domanda semplice: che cosa c'è dentro il prezzo di una polizza, e che cosa fa l'impresa con i premi che incassa. Vedremo le componenti del premio, poi le riserve tecniche: perché esistono, che caratteristiche hanno e come proteggono gli assicurati quando un'impresa entra in crisi.\n\nCominciamo dal premio. Nel linguaggio tecnico, usato anche dall'IVASS nel suo glossario, il premio si costruisce a strati. Alla base c'è il premio puro: è il costo base della copertura, il corrispettivo del rischio tecnico che l'impresa si assume. Nei rami danni il premio puro è il prodotto tra la frequenza dei sinistri e l'ammontare medio del danno. Detto in parole semplici: quante volte, in media, ci si aspetta un sinistro, moltiplicato per quanto costa in media un sinistro. Nei rami vita, invece, il premio puro si calcola sulla base del capitale assicurato e delle probabilità di morte o di sopravvivenza dell'assicurato. In entrambi i casi è una valutazione statistica del rischio.\n\nAl premio puro si aggiungono i caricamenti. Sono la quota che copre le spese di gestione dell'impresa, cioè le spese di acquisizione, di incasso e amministrative, ogni altro onere considerato nella costruzione della tariffa, e il margine industriale che compensa l'alea d'impresa. Premio puro più caricamenti fa il premio di tariffa. Se al premio di tariffa aggiungiamo le imposte, otteniamo il premio lordo, cioè quello che il contraente effettivamente paga. Nella RC auto il premio lordo comprende anche il contributo al Servizio Sanitario Nazionale.\n\nPerché questo interessa a un intermediario? Perché il cliente vede solo il premio lordo. Saper spiegare che una parte del prezzo è il costo del rischio, una parte sono spese e margine dell'impresa, e una parte sono imposte, aiuta a rispondere con trasparenza a domande come: perché questa polizza costa più dell'anno scorso? Spesso la risposta sta nella frequenza o nel costo medio dei sinistri, cioè nel premio puro.\n\nVeniamo ora alla caratteristica che distingue l'assicurazione da quasi ogni altra attività economica. Di solito un'impresa prima sostiene i costi e poi incassa i ricavi. L'assicuratore fa il contrario: incassa il premio subito e paga i sinistri dopo, a volte molti anni dopo. C'è quindi uno scarto tra il flusso finanziario, il premio che entra in cassa, e la sua manifestazione economica, cioè il momento in cui quel premio si trasforma davvero in costo per sinistri. Per colmare questo scarto, l'assicuratore deve accantonare, per ogni esercizio, la parte del premio incassato che è destinata a coprire rischi ancora in corso. Questi accantonamenti sono le riserve tecniche.\n\nIl materiale del corso ne mette in luce quattro caratteristiche. Le riserve tecniche sono costituite con il complesso dei premi raccolti tra gli assicurati. Costituiscono un ricavo anticipato: il premio è incassato prima che il servizio assicurativo sia reso. Non hanno limiti massimi. E sono destinate ad aumentare in proporzione all'aumento dei rischi assicurati: più contratti l'impresa sottoscrive, più riserve deve accantonare.\n\nNei rami danni, per il bilancio, le due riserve principali sono la riserva premi e la riserva sinistri. La riserva premi serve a far fronte al costo futuro dei sinistri relativi ai rischi non ancora estinti. Si compone della riserva per frazioni di premi, che segue la ripartizione del premio nel tempo, e della riserva per rischi in corso, legata all'andamento tecnico del rischio. La riserva sinistri, invece, copre i sinistri già avvenuti e non ancora pagati, comprese le spese di liquidazione, e anche quelli avvenuti ma non ancora denunciati, che gli addetti ai lavori chiamano IBNR.\n\nUn esempio aiuta. Un cliente firma il primo ottobre una polizza incendio annuale e paga subito 1.200 euro. Al 31 dicembre l'impresa chiude il bilancio. Quei 1.200 euro non sono tutti guadagno dell'anno: la copertura è stata goduta solo per tre mesi su dodici. Con un criterio semplice, proporzionale al tempo, circa 900 euro servono ancora a coprire i nove mesi successivi. Quella somma finisce nella riserva per frazioni di premi. È esattamente lo scarto tra flusso finanziario e manifestazione economica di cui parlavamo.\n\nLe riserve tecniche hanno anche una funzione di garanzia. Che cosa succede se un'impresa viene posta in liquidazione coatta? Il Codice delle assicurazioni private, all'articolo 258, stabilisce che sugli attivi a copertura delle riserve tecniche gli assicurati vengono prima degli altri creditori sorti prima della liquidazione, anche se questi hanno un privilegio o un'ipoteca.\n\nPer i rami vita l'ordine è questo. Prima chi ha diritto a capitali o indennizzi per polizze scadute o sinistrate entro il sessantesimo giorno successivo alla pubblicazione del provvedimento di liquidazione, e chi ha diritto a rendite maturate entro lo stesso termine. Poi i titolari di crediti derivanti da operazioni di capitalizzazione. Poi chi ha diritto a somme dovute per riscatti. Poi coloro che risultano assicurati al sessantesimo giorno, cioè i titolari dei contratti in corso, in proporzione alle riserve matematiche. Infine i titolari dei contratti che non prevedono la costituzione di riserve matematiche, per la parte di premio corrispondente al rischio non ancora corso. Se gli attivi non bastano, le prime quattro categorie sono preferite all'ultima.\n\nPer i rami danni le categorie sono due. Prima gli aventi diritto a capitali o indennizzi per sinistri verificatisi entro il sessantesimo giorno successivo alla pubblicazione del provvedimento di liquidazione. Poi coloro che risultano assicurati al sessantesimo giorno, per la parte di premio relativa al rischio non ancora corso. Perché proprio sessanta giorni? Perché l'articolo 169 del Codice prevede che i contratti in corso alla data di pubblicazione del provvedimento in Gazzetta Ufficiale continuino a coprire i rischi fino al sessantesimo giorno successivo. Fa eccezione la RC auto obbligatoria, che resta in vigore fino alla scadenza del contratto, nei limiti dei massimali minimi di legge.\n\nC'è poi una questione giuridica che il materiale del corso ricostruisce. In passato la Corte di Cassazione aveva negato che le riserve costituissero un patrimonio separato. Il decreto legislativo 9 aprile 2003, numero 93, ha invece attribuito espressamente alle riserve questa natura. Oggi la regola è nell'articolo 42 del Codice: gli attivi a copertura delle riserve tecniche, iscritti in un apposito registro, sono riservati in modo esclusivo all'adempimento delle obbligazioni verso gli assicurati dei contratti a cui le riserve si riferiscono, e costituiscono patrimonio separato rispetto alle altre attività dell'impresa.\n\nAttenzione però a non confondere i piani. Anche se le riserve tecniche sono iscritte nel passivo dello stato patrimoniale, esse non sono costituite da beni di proprietà degli assicurati. Gli attivi restano dell'impresa; sono vincolati a favore degli assicurati.\n\nInfine, le sanzioni. Il materiale originale ricordava che, secondo l'articolo 310 del Codice, la violazione delle norme sulla costituzione delle riserve era punita con una sanzione amministrativa da 5.000 a 50.000 euro. Il testo oggi in vigore dell'articolo 310, riscritto nel 2018, prevede per la violazione delle norme sulle riserve tecniche una sanzione da 30.000 euro fino al dieci per cento del fatturato. Il messaggio non cambia, anzi si rafforza: le riserve sono una regola centrale di stabilità.\n\nIn pratica, per l'intermediario: sai spiegare al cliente le componenti del premio; sai che il premio pagato in anticipo non è subito utile dell'impresa; e se un cliente teme il dissesto della compagnia, puoi spiegargli che gli attivi a copertura delle riserve sono vincolati a favore degli assicurati, che c'è un ordine di priorità e che i contratti danni coprono ancora per sessanta giorni, un tempo da usare per trovare una nuova copertura.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Relazione annuale 2023, Glossario dei termini assicurativi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2024/Relazione_annuale_2023_glossario.pdf"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 9 aprile 2003, n. 93",
+          "url": "https://www.normattiva.it/eli/id/2003/04/29//003G0115/CONSOLIDATED"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Componenti del premio: premio puro (danni e vita), caricamenti, premio di tariffa, premio lordo e contributo SSN nella RC auto.",
+          "source_ref": "IVASS, Glossario dei termini assicurativi (Relazione annuale 2023)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riserva premi (frazioni di premi e rischi in corso) e riserva sinistri (inclusi IBNR), con un esempio di calcolo semplificato.",
+          "source_ref": "IVASS, Glossario dei termini assicurativi (Relazione annuale 2023)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Copertura dei contratti in corso fino al 60° giorno dalla pubblicazione del provvedimento di liquidazione; eccezione per la RC auto.",
+          "source_ref": "CAP, art. 169"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ordine di priorità vita e danni allineato al testo vigente, con la regola di preferenza in caso di attivi insufficienti.",
+          "source_ref": "CAP, art. 258, c. 3-4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fondamento attuale del patrimonio separato.",
+          "source_ref": "CAP, art. 42, c. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Sanzione per la violazione delle norme sulle riserve: la fonte indicava da 5.000 a 50.000 euro; il testo vigente dell'art. 310 prevede da 30.000 euro al 10% del fatturato. Mantenuto il dato della fonte, indicato come superato.",
+          "source_ref": "CAP, art. 310, c. 1, lett. a"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la Cassazione aveva negato in passato la natura di patrimonio separato e il D.Lgs. 93/2003 l'ha poi attribuita. Il titolo del decreto è verificato; l'articolo del decreto e la sentenza della Cassazione sono da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le caratteristiche delle riserve (ricavo anticipato, nessun limite massimo, crescita in proporzione ai rischi). Sono affermazioni dottrinali senza norma di riferimento.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Riserve tecniche e solvibilità: le regole Solvency II",
+      "source_files": [
+        "corso totale/Area tecnica assicurativa e riassicurativa /Elementi tariffari.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Elementi tariffari /Elementi tariffari.mp4"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Elementi tariffari",
+          "title": "Riserve tecniche e solvibilità: le regole Solvency II",
+          "goals": [
+            "Sapere come si calcolano oggi le riserve tecniche: migliore stima e margine di rischio",
+            "Capire che cos'è il Requisito Patrimoniale di Solvibilità (SCR)",
+            "Conoscere le regole sugli attivi a copertura delle riserve e sul loro registro"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La regola generale",
+          "key": "L'impresa costituisce riserve tecniche sufficienti a far fronte a ogni impegno assicurativo e riassicurativo verso contraenti, assicurati, beneficiari e aventi diritto. Le calcola in modo prudente, affidabile e obiettivo.",
+          "body": "Il valore delle riserve è quello che l'impresa dovrebbe pagare se trasferisse subito i propri impegni a un'altra impresa. Per calcolarlo usa, in modo coerente con il mercato, i dati dei mercati finanziari e quelli disponibili sui rischi.",
+          "ref": "CAP, art. 36-bis"
+        },
+        {
+          "layout": "split",
+          "title": "Riserve = migliore stima + margine di rischio",
+          "left": {
+            "title": "Best estimate (migliore stima)",
+            "items": [
+              "Media dei flussi di cassa futuri ponderata per la probabilità",
+              "Tiene conto del valore temporale del denaro",
+              "Usa la struttura per scadenza dei tassi di interesse privi di rischio"
+            ],
+            "ref": "CAP, art. 36-ter, c. 2"
+          },
+          "right": {
+            "title": "Risk margin (margine di rischio)",
+            "items": [
+              "Fa sì che le riserve equivalgano a quanto servirebbe a un'altra impresa per assumere e onorare gli impegni",
+              "Si calcola come costo dei fondi propri pari all'SCR necessario per tutta la durata degli impegni"
+            ],
+            "ref": "CAP, art. 36-ter, c. 6 e 9"
+          },
+          "note": "Migliore stima e margine di rischio si valutano separatamente.",
+          "noteRef": "CAP, art. 36-ter, c. 7"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si arriva alla migliore stima",
+          "steps": [
+            {
+              "label": "Dati",
+              "text": "Informazioni aggiornate e attendibili, ipotesi realistiche, metodi attuariali e statistici adeguati."
+            },
+            {
+              "label": "Proiezione",
+              "text": "Tutti i flussi in entrata e in uscita per l'intera durata degli impegni."
+            },
+            {
+              "label": "Attualizzazione",
+              "text": "I flussi futuri sono riportati a oggi con i tassi privi di rischio."
+            },
+            {
+              "label": "Al lordo",
+              "text": "Senza dedurre i recuperi dalla riassicurazione, che si calcolano a parte."
+            }
+          ],
+          "ref": "CAP, art. 36-ter, c. 3-5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa considerare nel calcolo",
+          "items": [
+            {
+              "text": "Segmentare gli impegni in gruppi di rischi omogenei e almeno per linee di attività.",
+              "ref": "art. 36-novies"
+            },
+            {
+              "text": "Tutte le spese che l'impresa sosterrà per far fronte agli impegni."
+            },
+            {
+              "text": "L'inflazione, anche quella relativa alle spese e ai sinistri."
+            },
+            {
+              "text": "Ogni pagamento a contraenti, assicurati, beneficiari e aventi diritto, comprese le future partecipazioni agli utili discrezionali."
+            },
+            {
+              "text": "Il valore delle garanzie finanziarie e delle opzioni contrattuali, come il riscatto.",
+              "ref": "art. 36-decies"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il Requisito Patrimoniale di Solvibilità",
+          "key": "L'SCR corrisponde al valore a rischio (Value at Risk) dei fondi propri di base dell'impresa, con un livello di confidenza del 99,5% su un periodo di un anno.",
+          "body": "In altre parole: il capitale deve bastare ad assorbire le perdite inattese in tutti gli scenari tranne quelli peggiori, che hanno una probabilità dello 0,5% in un anno. Copre l'attività esistente e quella prevista nei dodici mesi successivi.",
+          "ref": "CAP, art. 45-ter, c. 3-4"
+        },
+        {
+          "layout": "table",
+          "title": "I moduli di rischio dell'SCR",
+          "lead": "Il requisito di base aggrega moduli di rischio con opportuni coefficienti di correlazione.",
+          "head": [
+            "Modulo",
+            "Rischio",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "NL · SCRnl",
+              "Sottoscrizione non vita",
+              "Sinistri più numerosi o più costosi del previsto, catastrofi"
+            ],
+            [
+              "Life · SCRlife",
+              "Sottoscrizione vita",
+              "Mortalità, longevità, riscatti diversi dalle ipotesi"
+            ],
+            [
+              "Health · SCRhealth",
+              "Sottoscrizione malattia",
+              "Andamento delle coperture salute"
+            ],
+            [
+              "Mkt · SCRmkt",
+              "Mercato",
+              "Calo di azioni, variazioni dei tassi, spread"
+            ],
+            [
+              "Def · SCRdef",
+              "Inadempimento della controparte",
+              "Un riassicuratore o una banca che non paga"
+            ],
+            [
+              "Op · SCRop",
+              "Operativo",
+              "Errori, frodi, guasti; include i rischi legali"
+            ]
+          ],
+          "ref": "CAP, artt. 45-ter, c. 5, e 45-sexies"
+        },
+        {
+          "layout": "concept",
+          "title": "La formula complessiva",
+          "key": "SCR = BSCR + ADJ + SCROp",
+          "body": "BSCR è il requisito di solvibilità di base. ADJ è l'aggiustamento per la capacità di assorbire perdite delle riserve tecniche e delle imposte differite. SCROp è il requisito per il rischio operativo. In alternativa alla formula standard l'impresa può usare un modello interno autorizzato.",
+          "ref": "CAP, artt. 45-bis e 45-quinquies"
+        },
+        {
+          "layout": "timeline",
+          "title": "Ogni quanto si calcola",
+          "items": [
+            {
+              "value": "1 anno",
+              "text": "almeno una volta l'anno l'impresa calcola l'SCR e lo comunica all'IVASS",
+              "ref": "art. 45-quater, c. 1"
+            },
+            {
+              "value": "99,5 %",
+              "text": "livello di confidenza su un orizzonte di un anno",
+              "ref": "art. 45-ter, c. 4"
+            },
+            {
+              "value": "Subito",
+              "text": "se il profilo di rischio cambia in modo significativo, ricalcolo immediato e comunicazione all'IVASS",
+              "ref": "art. 45-quater, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Con quali attivi si coprono le riserve",
+          "key": "Le riserve tecniche sono coperte con attivi di proprietà dell'impresa, investiti in modo adeguato ai rischi e alla durata degli impegni, nel migliore interesse degli assicurati.",
+          "body": "Gli attivi possono includere anche finanziamenti a soggetti diversi dalle persone fisiche e dalle microimprese. In questo caso l'IVASS stabilisce condizioni e limiti operativi.",
+          "ref": "CAP, art. 38, c. 1, 1-bis e 2"
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro degli attivi",
+          "key": "L'impresa tiene un registro degli attivi a copertura delle riserve tecniche. In qualsiasi momento il loro importo deve essere almeno pari alle riserve.",
+          "body": "Gli attivi sono iscritti al netto dei debiti contratti per acquistarli e delle eventuali poste rettificative. L'impresa comunica all'IVASS la situazione risultante dal registro.",
+          "ref": "CAP, art. 42, c. 1, 1-bis e 3"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente con una polizza vita a lungo termine legge che la sua compagnia ha avuto un anno di perdite sui mercati. Chiede all'agente se i suoi soldi sono al sicuro.",
+          "questions": [
+            "Quali regole puoi richiamare per rassicurarlo senza fare promesse?",
+            "Dove trova informazioni pubbliche sulla solvibilità dell'impresa?"
+          ],
+          "solution": "Le riserve tecniche devono coprire tutti gli impegni e sono calcolate in modo prudente. Sopra le riserve l'impresa deve detenere capitale per l'SCR, pensato per assorbire perdite inattese al 99,5%. Gli attivi a copertura sono iscritti in un registro e formano patrimonio separato a favore degli assicurati. Ogni anno l'impresa pubblica la relazione sulla solvibilità e condizione finanziaria (SFCR)."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Da che cosa sono composte le riserve tecniche secondo il CAP?",
+          "options": [
+            "Premi incassati meno sinistri pagati",
+            "Migliore stima più margine di rischio",
+            "Capitale sociale più utili non distribuiti",
+            "SCR più fondi propri"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 36-ter stabilisce che le riserve corrispondono alla somma della migliore stima (best estimate) e del margine di rischio (risk margin)."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "A quale livello di confidenza è calibrato il Requisito Patrimoniale di Solvibilità?",
+          "options": [
+            "95% su cinque anni",
+            "99% su sei mesi",
+            "99,5% su un anno",
+            "100% sulla durata dei contratti"
+          ],
+          "answer": 2,
+          "explanation": "L'SCR corrisponde al valore a rischio dei fondi propri di base con un livello di confidenza del 99,5% su un periodo di un anno."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "BE + RM",
+              "text": "le riserve tecniche: migliore stima più margine di rischio"
+            },
+            {
+              "value": "99,5 %",
+              "text": "livello di confidenza dell'SCR su un anno"
+            },
+            {
+              "value": "6",
+              "text": "moduli: non vita, vita, malattia, mercato, controparte, operativo"
+            },
+            {
+              "value": "Registro",
+              "text": "attivi sempre almeno pari alle riserve tecniche"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto perché esistono le riserve tecniche. Ora vediamo come si calcolano oggi e quale capitale deve detenere l'impresa in più rispetto alle riserve. Sono le regole del sistema europeo Solvency II, recepite nel Codice delle assicurazioni private dal decreto legislativo 74 del 2015.\n\nLa regola generale è nell'articolo 36-bis del Codice. L'impresa costituisce riserve tecniche sufficienti a far fronte a ogni impegno assicurativo e riassicurativo derivante dai contratti, nei confronti dei contraenti, degli assicurati, dei beneficiari e degli aventi diritto a prestazioni assicurative. E le calcola in modo prudente, affidabile ed obiettivo. Il Codice aggiunge un criterio importante: il valore delle riserve è quello che l'impresa dovrebbe pagare se trasferisse immediatamente i propri impegni a un'altra impresa. È un valore di mercato, non un valore contabile storico. Per questo l'impresa usa, in modo coerente con le valutazioni di mercato, le informazioni dei mercati finanziari e i dati disponibili sui rischi.\n\nIl calcolo si basa su due elementi, che l'impresa valuta separatamente. Il primo è la migliore stima, in inglese best estimate. Corrisponde alla media dei flussi di cassa futuri ponderata per la probabilità, tenendo conto del valore temporale del denaro, cioè del valore attuale atteso dei flussi di cassa futuri, sulla base della pertinente struttura per scadenza dei tassi di interesse privi di rischio. Proviamo a tradurre. L'impresa immagina tutti i pagamenti futuri possibili, per sinistri, rendite, riscatti e spese, e tutti gli incassi futuri, come i premi ancora da ricevere. A ciascuno scenario dà un peso in base alla sua probabilità. Poi riporta tutti questi importi a oggi, perché un euro da pagare fra dieci anni vale meno di un euro da pagare oggi.\n\nIl secondo elemento è il margine di rischio, il risk margin. È tale da garantire che il valore delle riserve tecniche sia equivalente all'importo di cui un'impresa di assicurazione o di riassicurazione avrebbe bisogno per assumersi e onorare quegli impegni. Chi rilevasse il portafoglio, infatti, non si accontenterebbe della media: vorrebbe essere pagato anche per l'incertezza. Il Codice precisa che il margine di rischio si calcola come costo dei fondi propri necessari a coprire il requisito di capitale per tutta la durata degli impegni.\n\nCome si arriva in pratica alla migliore stima? L'impresa parte da informazioni aggiornate e attendibili e da ipotesi realistiche, con metodi attuariali e statistici adeguati. Proietta tutti i flussi in entrata e in uscita per l'intera durata degli impegni. Li attualizza con i tassi privi di rischio. E calcola la migliore stima al lordo della riassicurazione: gli importi recuperabili dai riassicuratori si calcolano a parte. Così il bilancio mostra sia l'impegno pieno verso gli assicurati, sia quanto l'impresa conta di recuperare.\n\nNel calcolo delle riserve tecniche l'impresa segmenta gli impegni assicurativi e riassicurativi in gruppi di rischi omogenei, e almeno per linee di attività. Tiene conto di tutte le spese che sosterrà per far fronte agli impegni; dell'inflazione, compresa quella relativa alle spese e ai sinistri; e di ogni pagamento ai contraenti, agli assicurati, ai beneficiari e agli aventi diritto, comprese le future partecipazioni agli utili discrezionali. Deve considerare anche il valore delle garanzie finanziarie e delle opzioni contrattuali, come la possibilità per il cliente di riscattare la polizza. Pensiamo all'inflazione: se il costo delle riparazioni delle auto cresce, i sinistri RC auto aperti oggi costeranno di più quando verranno pagati. Una riserva che lo ignorasse sarebbe insufficiente.\n\nPassiamo al capitale. Le riserve coprono gli impegni attesi. Ma che cosa succede se le cose vanno peggio del previsto? Per questo Solvency II chiede all'impresa di detenere, oltre alle riserve, fondi propri sufficienti a coprire il Requisito Patrimoniale di Solvibilità, in sigla SCR, dall'inglese Solvency Capital Requirement. L'SCR corrisponde al valore a rischio, il Value at Risk, dei fondi propri di base dell'impresa, con un livello di confidenza del 99,5 per cento su un periodo di un anno. Significa che il capitale deve bastare ad assorbire le perdite inattese in tutti gli scenari tranne quelli peggiori, che hanno una probabilità dello 0,5 per cento in un anno: in media, un anno ogni duecento. L'SCR copre l'attività esistente e quella che l'impresa prevede di svolgere nei dodici mesi successivi.\n\nIl requisito di base comprende moduli di rischio individuali, aggregati con opportuni coefficienti di correlazione. I moduli sono sei: il rischio di sottoscrizione per l'assicurazione non vita, in sigla SCR non life; il rischio di sottoscrizione per l'assicurazione vita; il rischio di sottoscrizione per l'assicurazione malattia; il rischio di mercato; il rischio di inadempimento della controparte; e il rischio operativo, che include i rischi legali ma non quelli strategici e reputazionali. I coefficienti di correlazione servono a riconoscere che non tutti i rischi si manifestano insieme: è l'effetto di diversificazione. Un esempio di rischio di controparte che interessa da vicino questa area: un riassicuratore che non paga la sua quota di un grande sinistro.\n\nLa formula complessiva è: SCR uguale BSCR più ADJ più SCR operativo. BSCR è il requisito di solvibilità di base, ADJ è l'aggiustamento per l'effetto di assorbimento del rischio delle riserve tecniche e delle imposte differite, e SCR operativo è il requisito per il rischio operativo. Questa è la formula standard; in alternativa l'impresa può usare un modello interno, autorizzato dall'IVASS.\n\nQuanto spesso si fa il calcolo? Almeno una volta l'anno, con comunicazione all'IVASS. L'impresa però verifica nel continuo fondi propri e requisito. Se il suo profilo di rischio cambia in modo significativo, deve ricalcolare subito l'SCR e darne pronta comunicazione all'IVASS, che a sua volta può chiedere un ricalcolo.\n\nVeniamo agli attivi. Le riserve tecniche sono coperte con attivi di proprietà dell'impresa. Il Codice chiede che siano investiti in modo adeguato alla natura dei rischi e alla durata degli impegni, nel migliore interesse dei contraenti, degli assicurati e dei beneficiari. Gli attivi possono includere anche i finanziamenti concessi a soggetti diversi dalle persone fisiche e dalle microimprese; in tal caso l'IVASS stabilisce condizioni e limiti operativi.\n\nL'impresa tiene un registro da cui risultano gli attivi a copertura delle riserve tecniche. In qualsiasi momento l'importo degli attivi iscritti, tenendo conto delle annotazioni dei movimenti, deve essere almeno pari all'ammontare delle riserve tecniche. A questo fine gli attivi sono iscritti nel registro al netto dei debiti contratti per acquistarli e delle eventuali poste rettificative. È questo registro che, come abbiamo visto, delimita il patrimonio separato a favore degli assicurati, e l'impresa ne comunica la situazione all'IVASS.\n\nUn caso pratico. Un cliente con una polizza vita a lungo termine legge che la sua compagnia ha avuto un anno di perdite sui mercati, e chiede al suo agente se i suoi soldi sono al sicuro. L'intermediario non deve fare promesse, ma può spiegare le regole: le riserve tecniche devono coprire tutti gli impegni e sono calcolate in modo prudente; sopra le riserve l'impresa deve detenere il capitale richiesto dall'SCR, pensato proprio per assorbire perdite inattese; gli attivi a copertura sono iscritti in un registro e formano un patrimonio separato a favore degli assicurati. E può indicargli dove trovare informazioni pubbliche: ogni anno le imprese pubblicano la relazione sulla solvibilità e sulla condizione finanziaria, in sigla SFCR.\n\nRiassumendo: le riserve tecniche sono la somma di migliore stima e margine di rischio; il capitale richiesto è l'SCR, calibrato al 99,5 per cento su un anno e costruito su sei moduli di rischio; gli attivi a copertura sono di proprietà dell'impresa, iscritti in un registro e sempre almeno pari alle riserve.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Relazione annuale 2023, Glossario dei termini assicurativi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2024/Relazione_annuale_2023_glossario.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Riferimenti normativi alle slide della fonte: artt. 36-bis, 36-ter, 36-novies, 38, 42, 45-ter, 45-quinquies, 45-sexies CAP.",
+          "source_ref": "CAP, testo aggiornato IVASS"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Valore di trasferimento delle riserve e uso coerente dei dati di mercato.",
+          "source_ref": "CAP, art. 36-bis, c. 2-3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Passi del calcolo della migliore stima (dati, proiezione, attualizzazione, calcolo al lordo della riassicurazione) e valutazione separata dal margine di rischio; calcolo del margine di rischio come costo dei fondi propri.",
+          "source_ref": "CAP, art. 36-ter, c. 3-9"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Garanzie finanziarie e opzioni contrattuali nel calcolo delle riserve; partecipazioni agli utili discrezionali.",
+          "source_ref": "CAP, artt. 36-novies, lett. c, e 36-decies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "SCR: copertura dell'attività esistente e dei 12 mesi successivi, perdite inattese, rischio operativo comprensivo dei rischi legali, modello interno, frequenza almeno annuale e ricalcolo.",
+          "source_ref": "CAP, artt. 45-bis, 45-ter, 45-quater"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Investimento degli attivi nel migliore interesse degli assicurati; comunicazione all'IVASS della situazione del registro.",
+          "source_ref": "CAP, artt. 38, c. 1-bis, e 42, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella fonte la definizione dell'SCR compariva sotto il titolo «Calcolo delle riserve tecniche». Separata: l'SCR è un requisito di capitale aggiuntivo alle riserve, non parte del loro calcolo.",
+          "source_ref": "CAP, artt. 36-ter e 45-ter"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il modulo «rischio di inadempimento della controparte» della fonte corrisponde al «rischio di credito» nell'elenco dei rischi coperti dall'art. 45-ter, c. 5; nell'art. 45-sexies è indicato come inadempimento della controparte. Mantenuta la terminologia della fonte.",
+          "source_ref": "CAP, artt. 45-ter, c. 5, e 45-sexies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi dei moduli di rischio e caso pratico sulla solvibilità; citata la relazione SFCR come informazione pubblica annuale.",
+          "source_ref": "CAP, art. 47-septies, c. 1"
+        }
+      ]
+    }
+  ]
+}

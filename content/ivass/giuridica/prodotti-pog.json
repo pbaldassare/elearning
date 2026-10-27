@@ -1,0 +1,1445 @@
+{
+  "module": "Area giuridica",
+  "topic": "Prodotti di investimento assicurativi",
+  "topic_order": 8,
+  "scope": "core",
+  "source_minutes": 67,
+  "lesson_offset": 0,
+  "lessons": [
+    {
+      "title": "Il governo e controllo dei prodotti (POG) e il Provvedimento IVASS 97/2020",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Disciplina normativa in materia di POG e regole di comportamento per gli intermediari ok .pdf",
+        "corso totale/Disciplina normativa in materia di POG e regole di comportamento per gli intermediari.1 (Video).mp4"
+      ],
+      "source_minutes": 20,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "POG: il governo e controllo dei prodotti assicurativi",
+          "goals": [
+            "Capire che cosa chiede il Regolamento IVASS 45/2020 a chi crea e a chi distribuisce i prodotti",
+            "Riconoscere mercato di riferimento e mercato negativo",
+            "Conoscere le modifiche introdotte dal Provvedimento IVASS 97/2020"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da dove partiamo",
+          "key": "Il 4 agosto 2020 l'IVASS ha emanato il Regolamento n. 45/2020 sul governo e controllo dei prodotti (POG) e il Provvedimento n. 97/2020, che modifica i Regolamenti esistenti, tra cui il 40 e il 41 del 2018.",
+          "body": "Il Regolamento 45/2020 e le modifiche del Provvedimento 97/2020 sono in vigore dal 31 marzo 2021. POG sta per Product Oversight and Governance.",
+          "ref": "Materiale originale del corso; Reg. IVASS 45/2020, art. 17"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "Art. 30-decies: processo di approvazione dei prodotti. Art. 121-bis: informazioni che il distributore deve ottenere dal produttore. Art. 121-ter: esclusione dei grandi rischi."
+            },
+            {
+              "label": "Regolamento delegato (UE) 2017/2358",
+              "detail": "Requisiti POG per imprese e distributori, direttamente applicabile dal 23 febbraio 2018."
+            },
+            {
+              "label": "Regolamento IVASS 45/2020",
+              "detail": "Attua gli artt. 30-decies e 121-bis CAP. Testo consolidato con il Provvedimento IVASS 131/2023 (fattori di sostenibilità)."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa disciplina il Regolamento 45/2020",
+          "key": "Il procedimento di approvazione dei nuovi prodotti assicurativi, e di quelli già esistenti che subiscono modifiche significative, prima che siano commercializzati o distribuiti.",
+          "body": "Pone obblighi ai produttori e regola la distribuzione. Esclusi i grandi rischi.",
+          "ref": "Reg. IVASS 45/2020, artt. 3-4; CAP, artt. 30-decies e 121-ter"
+        },
+        {
+          "layout": "table",
+          "title": "Chi è il «produttore»",
+          "head": [
+            "Soggetto",
+            "Quando è produttore"
+          ],
+          "rows": [
+            [
+              "Impresa di assicurazione",
+              "Sempre, per i prodotti che realizza."
+            ],
+            [
+              "Intermediario produttore di fatto",
+              "Quando ha un ruolo decisionale nella progettazione: decide in autonomia copertura, tariffe, costi, mercato di riferimento, e l'impresa non li modifica in modo sostanziale."
+            ],
+            [
+              "Non è produttore",
+              "L'intermediario che personalizza un prodotto esistente o costruisce un contratto su misura per un singolo cliente."
+            ]
+          ],
+          "ref": "Reg. del. (UE) 2017/2358, art. 3; Reg. IVASS 45/2020, art. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "I contenuti del Regolamento 45/2020",
+          "items": [
+            {
+              "text": "Ruolo, compiti e responsabilità degli organi sociali delle imprese produttrici e degli intermediari della sezione D del RUI."
+            },
+            {
+              "text": "Compiti della funzione compliance: monitora le misure POG per individuare i rischi di mancato adempimento e redige una relazione periodica."
+            },
+            {
+              "text": "Regole per individuare il mercato di riferimento e il mercato di riferimento negativo."
+            },
+            {
+              "text": "Modalità del testing del prodotto."
+            },
+            {
+              "text": "Flussi informativi tra produttori, compresi quelli di fatto, e distributori."
+            },
+            {
+              "text": "Meccanismi di distribuzione e obblighi di controllo per le strutture degli intermediari delle sezioni A, B e F."
+            },
+            {
+              "text": "Rapporti di libera collaborazione tra intermediari."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Mercato di riferimento e mercato negativo",
+          "left": {
+            "title": "Mercato di riferimento: il produttore considera",
+            "items": [
+              "Tipologie di clienti e rischi a cui sono esposti",
+              "Esigenze e obiettivi, anche di sostenibilità",
+              "Garanzie, esclusioni e limiti del prodotto",
+              "Conoscenza del cliente rispetto alla complessità",
+              "Età, professione, situazione familiare"
+            ],
+            "ref": "Reg. 45/2020, art. 6, c. 1"
+          },
+          "right": {
+            "title": "In più, per gli IBIP",
+            "items": [
+              "Conoscenza teorica ed esperienza su prodotti e mercati finanziari",
+              "Coerenza del profilo rischio/rendimento",
+              "Situazione finanziaria e capacità di sostenere perdite"
+            ],
+            "ref": "Reg. 45/2020, art. 6, c. 2-3"
+          },
+          "note": "Il mercato negativo sono le categorie di clienti a cui il prodotto non può essere distribuito.",
+          "noteRef": "CAP, art. 30-decies, c. 4; Reg. 45/2020, art. 2"
+        },
+        {
+          "layout": "steps",
+          "title": "Il ciclo di vita del prodotto",
+          "steps": [
+            {
+              "label": "Approvazione",
+              "text": "Prima del lancio: mercato di riferimento, conflitti di interesse, canali di vendita adatti, istruzioni ai distributori."
+            },
+            {
+              "label": "Test del prodotto",
+              "text": "Costi compatibili con il target e trasparenti. Per gli IBIP anche analisi di scenario in condizioni negative."
+            },
+            {
+              "label": "Distribuzione",
+              "text": "Il prodotto deve arrivare ai clienti del mercato di riferimento."
+            },
+            {
+              "label": "Monitoraggio e revisione",
+              "text": "Verifica delle stime iniziali, dei canali e dei reclami ricevuti."
+            },
+            {
+              "label": "Misure correttive",
+              "text": "Informare clienti e distributori, modificare o sospendere il prodotto, nei casi gravi interrompere il rapporto con l'intermediario."
+            }
+          ],
+          "ref": "Reg. 45/2020, artt. 7-9"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa deve fare il distributore",
+          "items": [
+            {
+              "text": "Ottenere dal produttore le informazioni per comprendere a fondo i prodotti e il loro mercato di riferimento.",
+              "ref": "CAP, art. 121-bis; Reg. 45/2020, art. 13"
+            },
+            {
+              "text": "Fissare i meccanismi di distribuzione in un documento scritto, disponibile al personale.",
+              "ref": "Reg. del. 2017/2358, art. 10"
+            },
+            {
+              "text": "Prima della firma, raccogliere dal cliente le informazioni per capire se rientra nel mercato di riferimento o nel mercato negativo.",
+              "ref": "Reg. 45/2020, art. 11, c. 2"
+            },
+            {
+              "text": "Non vendere mai al mercato negativo. Fuori dal mercato di riferimento si vende solo se il prodotto risponde a richieste ed esigenze ed è adeguato. Per gli IBIP non complessi basta che sia adeguato o appropriato.",
+              "ref": "art. 11, c. 4"
+            },
+            {
+              "text": "Comunicare al produttore le vendite fuori dal mercato di riferimento.",
+              "ref": "art. 11, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Gli obblighi secondo la sezione del RUI",
+          "head": [
+            "Chi",
+            "Obblighi principali"
+          ],
+          "rows": [
+            [
+              "D · Banche, SIM, Poste",
+              "L'organo amministrativo ha la responsabilità ultima. La compliance fa una relazione annuale. Definiscono il mercato di riferimento effettivo e lo comunicano all'impresa."
+            ],
+            [
+              "A · B · F · Agenti, broker, accessori",
+              "Monitorano i rischi di mancato adempimento, segnalano le criticità, curano i flussi informativi. Struttura proporzionata alla dimensione."
+            ],
+            [
+              "E · Collaboratori e addetti",
+              "Ricevono le informazioni su target e strategia. L'intermediario ne verifica la coerenza."
+            ],
+            [
+              "Collaborazione orizzontale",
+              "Responsabilità congiunta. Le informazioni passano dall'emittente al proponente, e viceversa."
+            ]
+          ],
+          "ref": "Reg. 45/2020, artt. 12, 14, 15, 16"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente rientra nel mercato di riferimento negativo di una polizza unit linked. Che cosa può fare l'agente?",
+          "options": [
+            "Venderla, se il cliente firma una dichiarazione di responsabilità",
+            "Venderla solo con consulenza",
+            "Non venderla a quel cliente",
+            "Venderla, avvisando il produttore dopo la firma"
+          ],
+          "answer": 2,
+          "explanation": "Il distributore non distribuisce prodotti ai clienti del mercato negativo. Le eccezioni previste valgono solo per i clienti fuori dal mercato di riferimento ma non nel negativo (Reg. 45/2020, art. 11, c. 4)."
+        },
+        {
+          "layout": "table",
+          "title": "Le modifiche, Regolamento per Regolamento",
+          "lead": "Il Provvedimento 97/2020, composto da 7 articoli e 6 Allegati, modifica cinque Regolamenti.",
+          "head": [
+            "Regolamento",
+            "Che cosa cambia"
+          ],
+          "rows": [
+            [
+              "Reg. 23/2008",
+              "Le imprese SEE indicano nel preventivo se aderiscono alla CARD (artt. 149-150 CAP). Se no, l'assicurato chiede il risarcimento all'impresa del danneggiante."
+            ],
+            [
+              "Reg. 24/2008",
+              "Rendiconto dei reclami anche per le imprese comunitarie. Gli intermediari della sezione D comunicano i reclami all'impresa preponente. Esclusi dall'IVASS i reclami sulla «corretta redazione del KID»."
+            ],
+            [
+              "Reg. 38/2018",
+              "Nel valutare il rischio di non conformità, l'impresa considera anche le norme POG."
+            ],
+            [
+              "Reg. 41/2018",
+              "Rendiconto annuale dei costi per tutti gli IBIP, con il loro effetto cumulativo. Dati MiFID2 alla sezione D. Nuovi DIP aggiuntivi IBIP e RC auto."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le modifiche al Regolamento 40/2018",
+          "items": [
+            {
+              "text": "Obiettivi: razionalizzare e semplificare gli obblighi, rafforzare la tutela del consumatore."
+            },
+            {
+              "text": "Nuove regole per la distribuzione degli IBIP da parte di sezioni A, B e loro collaboratori E, sezione C, imprese e loro dipendenti."
+            },
+            {
+              "text": "Diploma di scuola secondaria superiore per gli addetti delle sezioni A, B, D, F, dentro o fuori dai locali, per i dipendenti delle imprese e per i produttori diretti, come già previsto per gli intermediari di primo livello.",
+              "ref": "Reg. 40/2018, es. artt. 41 e 48"
+            },
+            {
+              "text": "Art. 89-bis: le ore di formazione e aggiornamento svolte per altri albi ed elenchi (OAM, Albo dei consulenti finanziari, CONSOB) valgono anche per l'IVASS, se conformi alla Parte IV e all'Allegato 6. Vale anche per gli addetti che lavorano nei locali.",
+              "ref": "Reg. 40/2018, art. 89-bis"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker ha concordato con una compagnia una polizza infortuni per gli iscritti a un'associazione di ciclisti. Ha deciso lui copertura, tariffa e target, e la compagnia non li ha modificati in modo sostanziale. Un suo collaboratore di sezione E propone la stessa polizza a un cliente di 80 anni, che le istruzioni escludono dal target.",
+          "questions": [
+            "Il broker è un produttore?",
+            "Che cosa doveva sapere il collaboratore?",
+            "Che cosa deve fare il broker?"
+          ],
+          "solution": "Sì, è un produttore di fatto: ha deciso le caratteristiche essenziali. Firma con la compagnia un accordo scritto e applica la politica POG dell'impresa. Il collaboratore doveva aver ricevuto dal broker le informazioni su target e strategia distributiva. Se il cliente è nel mercato negativo, la polizza non si vende. Il broker verifica che i collaboratori vendano in modo coerente."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "31/3/2021",
+              "text": "entrata in vigore di Reg. 45/2020 e Provv. 97/2020"
+            },
+            {
+              "value": "Negativo",
+              "text": "il mercato negativo non va mai servito"
+            },
+            {
+              "value": "Flussi",
+              "text": "le informazioni passano dal produttore al distributore e ritornano"
+            },
+            {
+              "value": "5",
+              "text": "Regolamenti modificati dal Provvedimento 97/2020"
+            },
+            {
+              "value": "Diploma",
+              "text": "titolo minimo per gli addetti alla distribuzione"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione affrontiamo la disciplina POG, cioè il governo e controllo dei prodotti assicurativi, e le principali modifiche che l'IVASS ha introdotto nel 2020 per completare le regole sulla distribuzione. Ogni volta che proponete una polizza dovete sapere a chi è destinata e a chi non può essere venduta.\n\nPartiamo dal quadro. Il 4 agosto 2020 l'IVASS ha emanato due atti. Il primo è il Regolamento numero 45 del 2020, che contiene le disposizioni sui requisiti di governo e controllo dei prodotti, con particolare attenzione ai prodotti di investimento assicurativi, gli IBIP. Il secondo è il Provvedimento numero 97 del 2020, che integra e modifica alcuni Regolamenti IVASS già esistenti, tra cui i Regolamenti numero 40 e 41 del 2 agosto 2018. Sia il Regolamento 45 sia le modifiche del Provvedimento 97 sono in vigore dal 31 marzo 2021.\n\nIl Codice delle assicurazioni private, all'articolo 30-decies, obbliga le imprese e gli intermediari che realizzano prodotti a elaborare un processo di approvazione per ogni prodotto e per ogni modifica significativa, prima della vendita. L'articolo 121-bis chiede ai distributori di ottenere dal produttore le informazioni necessarie per comprendere il prodotto e il suo mercato di riferimento. A livello europeo c'è poi il Regolamento delegato 2017/2358, direttamente applicabile dal 23 febbraio 2018, che fissa i requisiti POG per imprese e distributori. Il Regolamento IVASS 45 attua il Codice e completa le regole europee. Nel 2023 l'IVASS lo ha aggiornato con il Provvedimento 131, per inserire i fattori e gli obiettivi di sostenibilità.\n\nChe cosa disciplina, in concreto, il Regolamento 45? Disciplina il procedimento di approvazione dei nuovi prodotti assicurativi, e dei prodotti già esistenti che subiscono modifiche significative, prima che siano commercializzati o distribuiti. E impone obblighi specifici in capo ai produttori. Attenzione a un'eccezione: queste regole non si applicano ai prodotti che coprono i grandi rischi, come prevede l'articolo 121-ter del Codice.\n\nChi è il produttore? Prima di tutto l'impresa di assicurazione. Ma può esserlo anche un intermediario, che in questo caso si chiama produttore di fatto. Secondo il Regolamento europeo 2017/2358, l'intermediario è produttore quando ha un ruolo decisionale nella progettazione del prodotto. Succede quando determina in modo autonomo le caratteristiche essenziali, come copertura, tariffe, costi e mercato di riferimento, e l'impresa non le modifica in modo sostanziale. Invece non è produttore l'intermediario che si limita a personalizzare un prodotto esistente per un singolo cliente, o a costruire un contratto su misura per le richieste di una persona. Quando impresa e intermediario sono entrambi produttori, firmano un accordo scritto che regola la loro collaborazione.\n\nDefinisce le responsabilità degli organi sociali delle imprese produttrici e degli intermediari della sezione D, cioè banche, SIM e Poste. Affida alla compliance il monitoraggio delle misure POG e una relazione periodica. Poi regola mercato di riferimento, testing, flussi informativi con i produttori, anche di fatto, controlli nelle strutture delle sezioni A, B ed F e rapporti di collaborazione tra intermediari.\n\nIl cuore della disciplina è il mercato di riferimento. Il produttore deve descriverlo con un buon grado di dettaglio. Considera le tipologie di clienti a cui il prodotto è rivolto e i rischi a cui sono esposti. Poi le loro esigenze e i loro obiettivi, compresi quelli di sostenibilità, e le caratteristiche del prodotto, in particolare garanzie, esclusioni e limitazioni. Contano anche il livello di conoscenza richiesto, l'età, il profilo professionale e la situazione familiare. Per gli IBIP si aggiungono la conoscenza teorica e l'esperienza del cliente sui mercati finanziari, la coerenza del profilo di rischio e rendimento, e la situazione finanziaria, inclusa la capacità di sostenere perdite. Su questa base il produttore individua anche il mercato negativo, cioè le categorie di clienti a cui il prodotto non può essere distribuito.\n\nUn esempio. Una temporanea caso morte con età massima di ingresso di 65 anni avrà nel mercato negativo chi ha superato quel limite. Una unit linked senza garanzia di capitale non sarà adatta a chi non può permettersi alcuna perdita.\n\nIl prodotto, poi, ha un vero ciclo di vita. Prima del lancio c'è l'approvazione, con l'esame dei conflitti di interesse, la scelta dei canali di vendita adatti alla complessità del prodotto e le istruzioni per i distributori. Poi c'è il test del prodotto. Il produttore verifica che costi e oneri siano compatibili con il mercato di riferimento, trasparenti e non troppo complessi. Per gli IBIP verifica anche che i costi non compromettano le aspettative di rendimento e fa un'analisi di scenario: che cosa succede se il mercato peggiora, se il produttore o un terzo entra in difficoltà, se il prodotto non regge sul piano commerciale. Dopo la vendita c'è il monitoraggio continuo, che guarda anche al numero e al tipo di reclami. Se emergono problemi, il produttore adotta misure correttive. Può informare clienti e distributori, modificare il prodotto, sospenderne l'emissione e, nei casi più gravi, interrompere il rapporto con l'intermediario. In questi casi deve informare prontamente l'IVASS.\n\nE il distributore? Deve conoscere i prodotti che vende, ottenendo dal produttore tutte le informazioni necessarie. Fissa i propri meccanismi di distribuzione in un documento scritto, messo a disposizione del personale. Prima della sottoscrizione raccoglie dal cliente le informazioni per capire se appartiene al mercato di riferimento o al mercato negativo. La regola chiave è semplice: al mercato negativo non si vende mai. A un cliente che è fuori dal mercato di riferimento, ma non nel negativo, si può vendere solo se il prodotto risponde alle sue richieste ed esigenze ed è adeguato sulla base della consulenza. Per gli IBIP non complessi basta che sia adeguato o appropriato. In entrambi i casi l'intermediario comunica al produttore che la vendita è avvenuta fuori target.\n\nGli obblighi cambiano in parte secondo la sezione del Registro. Negli intermediari della sezione D l'organo amministrativo ha la responsabilità ultima. La funzione di conformità redige ogni anno una relazione sulle verifiche. L'intermediario definisce un proprio mercato di riferimento effettivo, che è una specificazione di quello del produttore, e lo comunica all'impresa prima di distribuire. Agenti, broker e intermediari a titolo accessorio delle sezioni A, B ed F monitorano i rischi di mancato adempimento, segnalano le criticità e assicurano la completezza dei flussi informativi, con una struttura proporzionata alla loro dimensione. Verso i collaboratori di sezione E e gli addetti nei locali, l'intermediario trasmette le informazioni su mercato di riferimento e strategia distributiva, e verifica che la loro attività sia coerente. Nella collaborazione orizzontale gli intermediari rispondono congiuntamente: le informazioni del produttore passano dall'intermediario emittente a quello che entra in contatto con il cliente, e le definizioni del mercato effettivo circolano in entrambe le direzioni.\n\nPassiamo al Provvedimento 97 del 2020. È composto da 7 articoli e 6 Allegati e modifica cinque Regolamenti: il Regolamento 23 del 9 maggio 2008, il 24 del 2008 sui reclami, il 38 del 3 luglio 2018 sul governo societario, il 40 e il 41 del 2 agosto 2018.\n\nVediamo le modifiche una per una. Nel Regolamento 23 entra un obbligo di trasparenza per le imprese con sede in un altro Stato dello Spazio economico europeo che operano in Italia in stabilimento o in libera prestazione di servizi. Nel preventivo devono indicare se aderiscono o no al sistema di risarcimento diretto, la CARD, previsto dagli articoli 149 e 150 del Codice. Se non aderiscono, devono specificare che l'assicurato non potrà rivolgersi alla propria impresa per il risarcimento, ma dovrà rivolgersi a quella del danneggiante. \n\nNel Regolamento 24 l'obbligo di pubblicare il rendiconto sulla gestione dei reclami viene esteso alle imprese comunitarie in stabilimento o libera prestazione, per una piena trasparenza dei dati. Gli intermediari della sezione D devono comunicare all'impresa preponente i reclami ricevuti, e la relazione prevista dall'articolo 9, comma 3, viene integrata di conseguenza. Si precisa poi che i reclami sulla corretta redazione del KID sono esclusi dalla competenza dell'IVASS. Infine vengono aggiornati i riferimenti alla nota informativa e all'Allegato 4, non più attuali.\n\nNel Regolamento 38, quando l'impresa identifica e valuta il rischio di non conformità alle norme, deve considerare anche le norme sul governo e controllo dei prodotti.\n\nNel Regolamento 41, a tutti gli IBIP viene estesa una regola che prima valeva per le sole unit linked. Ogni anno l'impresa fornisce ai contraenti una rendicontazione analitica dei costi e delle spese, compresi i costi di distribuzione. Nella rendicontazione annuale compare anche un'illustrazione dell'effetto cumulativo dei costi sulla redditività del prodotto, che deve rispettare requisiti precisi. Le imprese devono fornire agli intermediari della sezione D le informazioni necessarie per i loro obblighi di rendicontazione MiFID2. Sono stati modificati anche due allegati: il DIP aggiuntivo IBIP e il DIP aggiuntivo RC auto.\n\nVeniamo al Regolamento 40, il più importante per voi. Le modifiche servono a razionalizzare e semplificare gli obblighi degli operatori e a rafforzare la tutela del consumatore. Introducono anche nuove regole di comportamento per la distribuzione degli IBIP. Valgono per gli intermediari delle sezioni A e B e i loro collaboratori di sezione E, per gli iscritti nella sezione C e per le imprese con i loro dipendenti. Cambiano anche i requisiti professionali. Gli addetti all'intermediazione che operano dentro o fuori dai locali degli intermediari delle sezioni A, B, D o F, i dipendenti delle imprese e i produttori diretti devono avere almeno il diploma di istruzione secondaria superiore. È lo stesso requisito già previsto per gli intermediari di primo livello.\n\nSul fronte della formazione, l'articolo 89-bis introduce il mutuo riconoscimento delle ore di formazione e aggiornamento. Le ore svolte per l'iscrizione negli elenchi degli agenti in attività finanziaria e dei mediatori creditizi, per l'Albo dei consulenti finanziari o secondo il Regolamento Intermediari CONSOB valgono anche per i requisiti IVASS. Servono due condizioni: i corsi devono rispettare la Parte Quarta del Regolamento 40 e trattare le materie dell'Allegato 6. La regola vale anche per il personale che lavora all'interno dei locali dell'intermediario. \n\nNel caso pratico, ricordate: chi decide in autonomia copertura, tariffa e target diventa produttore di fatto. E se un collaboratore vende fuori target, ne risponde anche l'intermediario che doveva informarlo e controllarlo.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private, art. 30-decies (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30decies"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 121-bis (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art121bis"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 121-ter (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art121ter"
+        },
+        {
+          "title": "IVASS, Regolamento n. 45 del 4 agosto 2020 (testo consolidato con Provv. 131/2023)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2020/n45/index.html"
+        },
+        {
+          "title": "Regolamento delegato (UE) 2017/2358, GU UE L 341 del 20.12.2017",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32017R2358"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 97 del 4 agosto 2020",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2020/provv_97/index.html"
+        },
+        {
+          "title": "IVASS, Regolamento n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Base normativa primaria ed europea della disciplina POG: artt. 30-decies, 121-bis, 121-ter CAP e Regolamento delegato (UE) 2017/2358, applicabile dal 23 febbraio 2018.",
+          "source_ref": "CAP artt. 30-decies, 121-bis, 121-ter; Reg. del. (UE) 2017/2358, art. 13"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiornamento del Reg. 45/2020 con il Provvedimento IVASS 131/2023 (fattori e obiettivi di sostenibilità nel mercato di riferimento).",
+          "source_ref": "Reg. IVASS 45/2020, testo consolidato"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusione dei grandi rischi dalla disciplina POG.",
+          "source_ref": "CAP art. 121-ter, c. 1; Reg. 45/2020, art. 3, c. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nozione di intermediario produttore di fatto e accordo scritto tra coproduttori.",
+          "source_ref": "Reg. del. (UE) 2017/2358, art. 3; Reg. 45/2020, art. 2, lett. e)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elementi del mercato di riferimento e del mercato negativo, anche per gli IBIP.",
+          "source_ref": "Reg. 45/2020, art. 6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ciclo di vita del prodotto: approvazione, test (anche analisi di scenario IBIP), monitoraggio, misure correttive e informativa all'IVASS.",
+          "source_ref": "Reg. 45/2020, artt. 7-9"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi del distributore: documento scritto sui meccanismi di distribuzione, divieto di vendita al mercato negativo, condizioni per vendite fuori target e comunicazione al produttore.",
+          "source_ref": "Reg. 45/2020, artt. 11-13; Reg. del. (UE) 2017/2358, art. 10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi distinti per sezione D, sezioni A/B/F, collaboratori E e collaborazione orizzontale.",
+          "source_ref": "Reg. 45/2020, artt. 12, 14, 15, 16"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dettaglio dell'art. 89-bis: elenchi e albi le cui ore formative sono riconosciute e condizioni (Parte IV e Allegato 6).",
+          "source_ref": "Reg. IVASS 40/2018, art. 89-bis (testo consolidato)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Provvedimento 97/2020 modifica il «Regolamento n. 24 del 18 maggio 2008» e la relazione «art. 9, comma 3 Reg. n. 24/2018». Riferimento da indicare / possibile aggiornamento: il Regolamento ISVAP n. 24 è del 19 maggio 2008 (come da testo coordinato IVASS); «24/2018» è un refuso per 24/2008. Nelle slide il riferimento è indicato come Reg. 24/2008.",
+          "source_ref": "IVASS, Regolamento ISVAP n. 24 del 19 maggio 2008, testo coordinato"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: modifiche al Reg. 41/2018 (rendicontazione annuale dei costi per tutti gli IBIP, effetto cumulativo dei costi, informazioni MiFID2 alla sezione D, modifica DIP aggiuntivi IBIP e RC auto). Riferimento da indicare / possibile aggiornamento: i DIP aggiuntivi sono stati poi sostituiti dal Provvedimento IVASS 147/2024; il testo vigente del Reg. 41/2018 non è stato verificato articolo per articolo.",
+          "source_ref": "IVASS, Provvedimento n. 147 del 20 giugno 2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il contenuto della slide OCR «Regolamento 45/2020 3/3» del video (flussi informativi con i produttori de facto, obblighi di controllo per le sezioni A, B ed F, rapporti di libera collaborazione) è stato preferito alla versione riassuntiva del PDF, che ne riporta solo una sintesi. Nessuna affermazione omessa.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Le regole di comportamento degli intermediari (Regolamento IVASS 40/2018)",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Disciplina normativa in materia di POG e regole di comportamento per gli intermediari ok .pdf",
+        "corso totale/Disciplina normativa in materia di POG e regole di comportamento per gli intermediari.2 (Video).mp4"
+      ],
+      "source_minutes": 21,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Le regole di comportamento nella distribuzione",
+          "goals": [
+            "Applicare le regole generali per i prodotti diversi dagli IBIP",
+            "Usare correttamente informativa, MUP e trasmissione dei documenti",
+            "Distinguere vendita con e senza consulenza per gli IBIP"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Due insiemi di regole",
+          "cols": [
+            {
+              "title": "Prodotti diversi dagli IBIP",
+              "items": [
+                "Regole generali e conflitti di interesse",
+                "Informativa precontrattuale e sulle remunerazioni",
+                "Richieste ed esigenze del contraente",
+                "Consulenza e vendita abbinata",
+                "Documenti da consegnare e modalità dell'informativa",
+                "Firma elettronica avanzata, qualificata e digitale",
+                "Conservazione dei documenti"
+              ]
+            },
+            {
+              "title": "Prodotti di investimento assicurativi (IBIP)",
+              "items": [
+                "Regole generali",
+                "Informativa precontrattuale al contraente",
+                "Incentivi",
+                "Valutazione di adeguatezza e di appropriatezza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Regole generali e conflitti di interesse",
+          "items": [
+            {
+              "text": "Comportarsi con equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse di contraenti e assicurati, senza recare loro pregiudizio.",
+              "ref": "Reg. 40/2018, art. 54"
+            },
+            {
+              "text": "Osservare leggi e regolamenti e, per gli intermediari, le istruzioni delle imprese.",
+              "ref": "art. 54"
+            },
+            {
+              "text": "Raccogliere le informazioni per valutare le esigenze assicurative e previdenziali e tenere il cliente sempre informato.",
+              "ref": "art. 54"
+            },
+            {
+              "text": "Mantenere presidi organizzativi efficaci perché i conflitti di interesse non danneggino i contraenti. Se non bastano, informare il cliente prima della firma.",
+              "ref": "CAP, art. 119-bis, c. 6-7"
+            },
+            {
+              "text": "Non essere insieme distributore e beneficiario o vincolatario della polizza, salvo i rami danni legati al leasing.",
+              "ref": "Reg. 40/2018, art. 55, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "L'informativa precontrattuale: prima e oggi",
+          "cols": [
+            {
+              "title": "Come la descrive il corso (Provv. 97/2020)",
+              "items": [
+                "Allegato 3: informativa sul distributore, informazioni statiche",
+                "Allegato 4: informazioni sul prodotto non-IBIP, informazioni dinamiche su distribuzione, consulenza e remunerazioni",
+                "Allegato 4-ter: regole di comportamento, consegnato fuori sede e a distanza",
+                "Nei locali o sul sito: elenco delle imprese, Allegato 3 e Allegato 4-ter"
+              ]
+            },
+            {
+              "title": "Oggi (Provv. IVASS 147/2024)",
+              "items": [
+                "Allegati 3, 4, 4-bis e 4-ter abrogati",
+                "Un solo Modulo unico precontrattuale (MUP): Allegato 3 per i prodotti assicurativi, Allegato 4 per gli IBIP",
+                "Si consegna prima della proposta, insieme alla documentazione precontrattuale e contrattuale",
+                "Al rinnovo, solo se le informazioni cambiano in modo rilevante"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "Che cosa contiene il MUP",
+          "lead": "Un unico modulo, diviso in sezioni, al posto dei vecchi allegati.",
+          "facts": [
+            {
+              "label": "I",
+              "text": "Chi è il distributore che incontra il cliente e dove è iscritto"
+            },
+            {
+              "label": "II · III",
+              "text": "Modello di distribuzione e possibili conflitti di interesse"
+            },
+            {
+              "label": "IV",
+              "text": "Attività di distribuzione e consulenza"
+            },
+            {
+              "label": "V",
+              "text": "Remunerazioni (per gli IBIP anche incentivi)"
+            },
+            {
+              "label": "VI · VII",
+              "text": "Pagamento dei premi e strumenti di tutela del contraente"
+            },
+            {
+              "label": "VIII",
+              "text": "Diritto all'oblio oncologico"
+            }
+          ],
+          "ref": "Reg. 40/2018, Allegati 3 e 4 (Provv. 147/2024 e 169/2026)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si consegnano i documenti",
+          "items": [
+            {
+              "text": "Sceglie il contraente come ricevere i documenti e può cambiare idea in ogni momento. Va informato di questa possibilità.",
+              "ref": "art. 61"
+            },
+            {
+              "text": "Supporto durevole non cartaceo o sito internet, a certe condizioni. Su richiesta, copia cartacea gratuita.",
+              "ref": "CAP, art. 120-quater"
+            },
+            {
+              "text": "La scelta non autorizza l'invio di pubblicità o comunicazioni commerciali.",
+              "ref": "art. 61, c. 6"
+            },
+            {
+              "text": "Testi chiari e sintetici, carattere di almeno 1,2 mm, leggibili anche in bianco e nero.",
+              "ref": "art. 56, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Remunerazioni ed esigenze del cliente",
+          "left": {
+            "title": "Chi comunica i compensi",
+            "items": [
+              "L'intermediario che distribuisce il contratto",
+              "L'impresa, per i dipendenti coinvolti nella vendita",
+              "In collaborazione orizzontale o con la sezione E: il totale dei compensi degli intermediari coinvolti"
+            ],
+            "ref": "Reg. 40/2018, art. 57"
+          },
+          "right": {
+            "title": "Richieste ed esigenze",
+            "items": [
+              "Proporre contratti coerenti con le esigenze di copertura e previdenza",
+              "Raccogliere notizie su età, salute, lavoro, famiglia, situazione finanziaria e assicurativa",
+              "Spiegare caratteristiche, durata, costi e limiti del prodotto"
+            ],
+            "ref": "art. 58"
+          },
+          "note": "Dell'analisi delle esigenze si conserva traccia scritta.",
+          "noteRef": "art. 58, c. 8"
+        },
+        {
+          "layout": "split",
+          "title": "Consulenza e vendita abbinata",
+          "left": {
+            "title": "Vendita con consulenza",
+            "items": [
+              "Raccomandazione personalizzata",
+              "Spiega perché quel contratto è il più indicato per le richieste ed esigenze del cliente",
+              "Si conserva la documentazione"
+            ],
+            "ref": "art. 59"
+          },
+          "right": {
+            "title": "Vendita abbinata",
+            "items": [
+              "Polizza venduta con un prodotto o servizio non assicurativo",
+              "Descrizione adeguata delle componenti",
+              "Costi e oneri di ciascuna, indicati separatamente",
+              "Come l'abbinamento modifica rischi o copertura"
+            ],
+            "ref": "art. 59-bis"
+          }
+        },
+        {
+          "layout": "concept",
+          "title": "Firma elettronica e conservazione",
+          "key": "Firma elettronica e vendita a distanza sono cose diverse: si può vendere a distanza senza firma elettronica e firmare elettronicamente in agenzia.",
+          "body": "La firma tradizionale si può usare anche a distanza: ad esempio contratto via e-mail e restituzione per posta. I documenti precontrattuali e contrattuali si conservano per tutta la durata del rapporto, o per un termine più lungo previsto dalla legge, e comunque per almeno cinque anni dalla cessazione.",
+          "ref": "Reg. 40/2018, artt. 62 e 67"
+        },
+        {
+          "layout": "timeline",
+          "title": "Premi: separazione patrimoniale",
+          "items": [
+            {
+              "value": "10 giorni",
+              "text": "termine massimo per versare i premi sul conto separato",
+              "ref": "Reg. 40/2018, art. 63"
+            },
+            {
+              "value": "4 %",
+              "text": "dei premi incassati: fideiussione bancaria che esonera dal conto separato (sezioni A, B, D, F)",
+              "ref": "art. 64"
+            },
+            {
+              "value": "18.750 €",
+              "text": "importo minimo della fideiussione, aggiornabile dalla normativa europea",
+              "ref": "CAP, art. 117, c. 3-bis"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Trasmettere la documentazione",
+          "items": [
+            {
+              "text": "La polizza entro cinque giorni dalla conclusione del contratto, salvo che sia un documento informatico.",
+              "ref": "Reg. 40/2018, art. 75"
+            },
+            {
+              "text": "Le comunicazioni previste in corso di contratto.",
+              "ref": "art. 75"
+            },
+            {
+              "text": "Invio elettronico solo se il cliente lo ha scelto e ha dato un indirizzo e-mail.",
+              "ref": "art. 61"
+            },
+            {
+              "text": "Il messaggio richiama la scelta fatta e ricorda che si può cambiare in ogni momento.",
+              "ref": "art. 61, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un agente incassa 8.000 euro di premi il lunedì. Senza fideiussione, entro quando deve versarli sul conto separato?",
+          "options": [
+            "Entro la fine del mese",
+            "Subito, e comunque non oltre dieci giorni",
+            "Entro 30 giorni",
+            "Quando la compagnia lo richiede"
+          ],
+          "answer": 1,
+          "explanation": "Il versamento sul conto separato avviene con immediatezza e comunque entro i dieci giorni successivi all'incasso (Reg. 40/2018, art. 63, c. 2)."
+        },
+        {
+          "layout": "table",
+          "title": "IBIP: regole generali e informativa",
+          "head": [
+            "Articolo",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "68-bis",
+              "Quali regole dei prodotti non-IBIP valgono anche per gli IBIP venduti da sezioni A, B, E, C e imprese."
+            ],
+            [
+              "68-ter",
+              "Si consegna il MUP per gli IBIP (Allegato 4) con la documentazione prevista. Si descrivono natura, rischi e costi, anche in scenari negativi."
+            ],
+            [
+              "68-quater",
+              "Informazioni accurate e comprensibili. I rischi sono in evidenza e i risultati passati non sono presentati come garanzia."
+            ],
+            [
+              "68-quinquies",
+              "Pubblicità coerente con la documentazione contrattuale."
+            ]
+          ],
+          "ref": "Reg. 40/2018, Capo II-bis"
+        },
+        {
+          "layout": "table",
+          "title": "IBIP: gli incentivi",
+          "head": [
+            "Articolo",
+            "Regola"
+          ],
+          "rows": [
+            [
+              "68-sexies",
+              "Compensi da terzi ammessi solo se migliorano la qualità del servizio e non pregiudicano il dovere di agire nel miglior interesse del cliente. Vanno comunicati prima della vendita."
+            ],
+            [
+              "68-septies",
+              "Condizioni di ammissibilità: servizio aggiuntivo o di livello superiore, beneficio concreto e continuativo per il cliente."
+            ],
+            [
+              "68-octies",
+              "Consulenza indipendente: nessun incentivo trattenuto, salvo benefici non monetari minori. Le somme ricevute si girano al cliente."
+            ]
+          ],
+          "ref": "Reg. 40/2018, artt. 68-sexies – 68-octies; Reg. del. (UE) 2017/2359, art. 8"
+        },
+        {
+          "layout": "compare",
+          "title": "Adeguatezza o appropriatezza",
+          "cols": [
+            {
+              "title": "Con consulenza",
+              "items": [
+                "Richieste ed esigenze, più conoscenza ed esperienza",
+                "Situazione finanziaria e capacità di sostenere perdite",
+                "Obiettivi, tolleranza al rischio, preferenze di sostenibilità",
+                "Si dichiara per iscritto rispondenza e adeguatezza (art. 68-decies)"
+              ]
+            },
+            {
+              "title": "Senza consulenza",
+              "items": [
+                "Richieste ed esigenze",
+                "Conoscenza ed esperienza sul tipo di prodotto",
+                "Se non è appropriato, o mancano informazioni: avvertenza scritta",
+                "Possibile solo per IBIP non complessi: per gli altri la consulenza è obbligatoria (art. 68-duodecies)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente chiede a un broker una polizza multiramo con una parte in unit linked. Ha poca esperienza di investimenti e non vuole rispondere alle domande sulla sua situazione finanziaria: «Voglio solo firmare».",
+          "questions": [
+            "Il broker può venderle la polizza senza consulenza?",
+            "Che cosa succede se la cliente non fornisce le informazioni?"
+          ],
+          "solution": "Una multiramo con componente unit linked di norma non ha un valore minimo garantito a scadenza, quindi non è un IBIP non complesso (Reg. del. 2017/2359, art. 16). La consulenza è obbligatoria. Senza le informazioni necessarie per valutare l'adeguatezza, il broker deve astenersi dalla vendita anche se l'iniziativa è della cliente (Reg. 40/2018, art. 68-duodecies)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "MUP",
+              "text": "unico modulo precontrattuale, dal Provv. 147/2024"
+            },
+            {
+              "value": "5 giorni",
+              "text": "per trasmettere la polizza"
+            },
+            {
+              "value": "10 giorni",
+              "text": "per versare i premi sul conto separato"
+            },
+            {
+              "value": "5 anni",
+              "text": "minimo di conservazione dalla fine del rapporto"
+            },
+            {
+              "value": "68-duodecies",
+              "text": "consulenza obbligatoria per gli IBIP complessi"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nelle regole di comportamento che il Regolamento IVASS 40 del 2018, come modificato dal Provvedimento 97 del 2020, impone a chi distribuisce polizze. Sono le regole che applicate ogni giorno, dal primo colloquio con il cliente fino alla consegna della polizza.\n\nIl Regolamento divide le regole in due blocchi. Per i prodotti assicurativi diversi dagli IBIP troviamo: regole generali di comportamento, conflitti di interesse, informativa precontrattuale e sulle remunerazioni, valutazione delle richieste ed esigenze, vendita con consulenza e vendita abbinata, documenti da consegnare e modalità dell'informativa, firme elettroniche e conservazione dei documenti. Per i prodotti di investimento assicurativi troviamo: regole generali, informativa precontrattuale, incentivi, valutazione di adeguatezza e appropriatezza.\n\nPartiamo dalle regole generali. I distributori devono comportarsi con equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse dei contraenti e degli assicurati, senza recare loro pregiudizio. Devono osservare le leggi e i regolamenti. Gli intermediari devono rispettare anche le procedure e le istruzioni delle imprese per cui lavorano. E devono acquisire le informazioni per valutare le esigenze assicurative e previdenziali dei clienti, facendo in modo che siano sempre adeguatamente informati.\n\nSui conflitti di interesse, il materiale del corso si riferisce agli intermediari di prodotti venduti a distanza. Devono mantenere e applicare presidi organizzativi e amministrativi efficaci, per adottare tutte le misure ragionevoli ed evitare che i conflitti danneggino i contraenti. In realtà questo obbligo, previsto dall'articolo 119-bis del Codice, vale per tutti i distributori, a distanza o in presenza. Se i presidi non bastano a escludere con ragionevole certezza il rischio di danneggiare il cliente, il distributore deve spiegargli chiaramente, prima della firma, la natura o la fonte del conflitto. C'è poi un divieto molto concreto. Il distributore non può essere insieme chi vende la polizza e il beneficiario o vincolatario delle prestazioni. Fanno eccezione le polizze danni legate al leasing.\n\nPassiamo all'informativa precontrattuale, dove le regole sono cambiate dopo il materiale del corso. Il corso descrive il sistema introdotto nel 2020. Prima della sottoscrizione della proposta, o se non c'è proposta prima della conclusione del contratto, il distributore consegnava o trasmetteva l'Allegato 3, l'informativa sul distributore, con informazioni di natura statica. Poi c'era l'Allegato 4, con le informazioni dinamiche sul prodotto non-IBIP: modello e attività di distribuzione, consulenza fornita e remunerazioni percepite. Andavano consegnati anche la documentazione precontrattuale e contrattuale e, per l'offerta fuori sede o a distanza, l'Allegato 4-ter, cioè l'elenco delle regole di comportamento del distributore, simile al vecchio Allegato 3. Nei locali o sul sito internet il distributore doveva anche mettere a disposizione del pubblico l'elenco delle imprese con cui ha rapporti d'affari, l'Allegato 3 e l'Allegato 4-ter. Le modifiche del 2020 all'articolo 56 avevano lo scopo di semplificare il contenuto dell'informativa e razionalizzare le modalità di consegna.\n\nOggi quel percorso di semplificazione è andato avanti. Con il Provvedimento 147 del 20 giugno 2024 l'IVASS ha abrogato gli Allegati 3, 4, 4-bis e 4-ter e li ha sostituiti con il Modulo unico precontrattuale, il MUP. Ne esistono due versioni: l'Allegato 3 per i prodotti assicurativi e l'Allegato 4 per gli IBIP. Il Provvedimento ha dato a imprese e distributori dodici mesi dalla sua entrata in vigore per predisporre i nuovi moduli. L'obbligo di affiggere nei locali o pubblicare sul sito l'informativa e l'elenco delle regole di comportamento è stato abrogato. Il MUP si consegna prima della proposta, insieme alla documentazione precontrattuale e contrattuale. In caso di rinnovo o di nuovo contratto si consegna di nuovo solo se le informazioni sono cambiate in modo rilevante. Il distributore deve comunque riesaminarlo ogni volta che intervengono cambiamenti significativi.\n\nChe cosa trovate nel MUP? Le informazioni generali sul distributore che entra in contatto con il cliente, il modello di distribuzione, le possibili situazioni di conflitto di interesse, l'attività di distribuzione e consulenza, le remunerazioni e, per gli IBIP, gli incentivi. Poi le modalità di pagamento dei premi e gli strumenti di tutela del contraente, come reclami e sistemi alternativi di risoluzione delle controversie. Dal 2026, con il Provvedimento 169, c'è anche una sezione sul diritto all'oblio oncologico.\n\nCome si consegna tutto questo? La scelta spetta al contraente, che può cambiarla in ogni momento e deve essere informato di questa possibilità. Le informazioni possono essere fornite su supporto durevole non cartaceo, o tramite sito internet se ricorrono determinate condizioni. In questi casi il cliente può chiedere gratuitamente una copia cartacea. Attenzione: la scelta del contraente non autorizza l'invio di materiale promozionale, pubblicitario o di altre comunicazioni commerciali. Chi ha dato la propria e-mail per ricevere la polizza non ha dato il consenso al marketing. L'informativa, poi, deve essere chiara e sintetica, scritta con caratteri di almeno 1,2 millimetri e comprensibile anche se fotocopiata in bianco e nero.\n\nLe remunerazioni. È importante dare informazioni dettagliate sui compensi. Le comunica l'intermediario che distribuisce il contratto oppure, per i dipendenti coinvolti direttamente nella vendita, l'impresa. Nelle collaborazioni orizzontali o con collaboratori di sezione E, l'informazione riguarda il totale dei compensi percepiti da tutti gli intermediari coinvolti.\n\nLe richieste ed esigenze. Bisogna considerare le effettive esigenze di copertura assicurativa e previdenziale del contraente o dell'assicurato. In pratica, prima della proposta raccogliete notizie su età, salute, lavoro, famiglia, situazione finanziaria e assicurativa, coperture già in essere e aspettative su copertura e durata. Poi spiegate in modo chiaro caratteristiche, durata, costi e limiti del prodotto, e conservate traccia di questa analisi.\n\nSe offrite una consulenza prima della firma, dovete dare al cliente una raccomandazione personalizzata, con i motivi per cui quel contratto è il più indicato per le sue richieste ed esigenze. Nella vendita abbinata, cioè quando la polizza è venduta insieme a un prodotto o servizio non assicurativo, dovete descrivere in modo adeguato le diverse componenti del pacchetto. Dovete indicare separatamente costi e oneri di ciascuna e spiegare come la combinazione modifica i rischi o la copertura. Pensate alla polizza abbinata a un finanziamento per l'acquisto di un'auto.\n\nLa firma elettronica è una modalità di sottoscrizione del contratto. Si può usare sia quando la polizza è venduta nei locali sia nel collocamento a distanza. D'altra parte, anche a distanza si può usare la firma tradizionale: per esempio, si invia il contratto per e-mail e il cliente lo restituisce firmato per posta ordinaria. Quindi può esserci vendita a distanza senza firma elettronica e firma elettronica senza vendita a distanza. Quanto alla conservazione, gli intermediari conservano la documentazione precontrattuale e contrattuale per tutta la durata del rapporto, o per un termine più lungo previsto dalla legge. In ogni caso la conservano per almeno cinque anni dalla cessazione del rapporto.\n\nUn tema delicato è la separazione patrimoniale. I premi versati all'intermediario e le somme destinate ai risarcimenti o ai pagamenti delle imprese, se passano dall'intermediario, sono un patrimonio autonomo e separato da quello dell'intermediario. Per questo i premi vanno versati su un conto corrente bancario o postale separato, intestato all'impresa o all'intermediario espressamente in tale qualità. Il versamento avviene con immediatezza e comunque non oltre i dieci giorni successivi all'incasso. Queste regole non si applicano agli intermediari delle sezioni A, B, D o F che possono documentare in modo permanente, con fideiussione bancaria, una capacità finanziaria pari al quattro per cento dei premi incassati, con il minimo previsto dalla normativa europea. Il Codice indica questo minimo in 18.750 euro, aggiornabile dalle norme europee in base all'inflazione.\n\nLa trasmissione della documentazione. L'intermediario trasmette la polizza entro cinque giorni dalla conclusione del contratto, salvo che sia stata creata come documento informatico secondo le norme vigenti. Trasmette poi le comunicazioni previste durante il contratto. I documenti si possono inviare in formato elettronico a tre condizioni: il cliente ha scelto l'invio elettronico, ha fornito un indirizzo e-mail e la comunicazione indica la modalità scelta, ricordando che si può modificare in qualsiasi momento.\n\nOra gli IBIP. L'articolo 68-bis indica quali regole previste per gli altri prodotti si applicano anche agli IBIP venduti dai distributori vigilati dall'IVASS. L'articolo 68-ter, nella versione del 2020, imponeva di consegnare ai contraenti l'Allegato 4-bis, oltre all'Allegato 4-ter e alla documentazione dell'articolo 56. Oggi al loro posto c'è il MUP per gli IBIP, l'Allegato 4. Restano gli obblighi di preparare e consegnare la documentazione precontrattuale e contrattuale. Il distributore descrive natura, rischi e costi del prodotto, anche in scenari di mercato negativi. L'articolo 68-quater aggiunge requisiti sulle informazioni: accurate, comprensibili, con i rischi messi in evidenza e senza presentare i risultati passati come una promessa. L'articolo 68-quinquies chiede che la pubblicità sia coerente con la documentazione contrattuale.\n\nSugli incentivi, l'articolo 68-sexies fissa le condizioni generali per cui intermediari e imprese possono pagare o ricevere compensi da terzi per la distribuzione di IBIP. Devono migliorare la qualità del servizio e non pregiudicare il dovere di agire nel miglior interesse del cliente. Esistenza, natura e importo vanno comunicati prima della vendita. L'articolo 68-septies stabilisce le condizioni di ammissibilità: un servizio aggiuntivo o di livello superiore, proporzionato all'incentivo, con un beneficio concreto e continuativo per il cliente. Un esempio è la verifica almeno annuale che il prodotto sia ancora adeguato. L'articolo 68-octies disciplina gli incentivi quando l'intermediario offre consulenza su base indipendente. In questo caso non può trattenere compensi da terzi, salvo piccoli benefici non monetari, e deve trasferire al cliente le somme ricevute.\n\nInfine, adeguatezza e appropriatezza. Per tutti i prodotti resta l'obbligo di valutare le richieste ed esigenze del cliente, ma per gli IBIP la vendita con consulenza e quella senza consulenza seguono regole diverse. Nella vendita con consulenza, l'articolo 68-novies indica le informazioni da chiedere oltre alle esigenze: conoscenze ed esperienze, situazione finanziaria e capacità di sostenere perdite, obiettivi, tolleranza al rischio ed eventuali preferenze di sostenibilità. Il distributore valuta se il prodotto è adeguato secondo le proprie politiche e procedure. L'esito confluisce nella dichiarazione di rispondenza alle richieste ed esigenze e di adeguatezza, prevista dall'articolo 68-decies. Nella vendita senza consulenza, l'articolo 68-undecies impone di valutare le esigenze e richieste e anche la conoscenza ed esperienza del cliente sul prodotto. Se il prodotto non è appropriato, o il cliente non dà le informazioni, va avvertito per iscritto. Attenzione, però: in base all'articolo 68-duodecies la consulenza è obbligatoria per tutti gli IBIP, salvo quelli non complessi. Se il prodotto non è adeguato o mancano le informazioni, il distributore si astiene dalla vendita, anche quando è il cliente a chiederla.\n\nRicapitolando: MUP al posto dei vecchi allegati, polizza entro cinque giorni, premi sul conto separato entro dieci, documenti conservati almeno cinque anni, consulenza obbligatoria per gli IBIP complessi.",
+      "sources": [
+        {
+          "title": "IVASS, Regolamento n. 40 del 2 agosto 2018, testo consolidato (Provv. 97/2020, 128/2023, 131/2023, 134/2023, 147/2024, 163/2025, 169/2026)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/index.html"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 147 del 20 giugno 2024 (MUP e DIP aggiuntivi)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2024/provv-147/index.html"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 119-bis (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art119bis"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 117 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art117"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 121-septies (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art121septies"
+        },
+        {
+          "title": "Regolamento delegato (UE) 2017/2359, GU UE L 341 del 20.12.2017",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32017R2359"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «Gli intermediari di prodotti assicurativi venduti a distanza devono mantenere e applicare presidi organizzativi e amministrativi efficaci» contro i conflitti di interesse. Precisato che l'obbligo vale per tutti i distributori, non solo per la vendita a distanza.",
+          "source_ref": "CAP, art. 119-bis, c. 6-7; Reg. 40/2018, art. 55"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione di Allegati 3, 4, 4-bis e 4-ter e dell'obbligo di pubblicazione nei locali o sul sito. Possibile aggiornamento verificato: allegati abrogati e sostituiti dal Modulo unico precontrattuale (Allegati 3 e 4), art. 56, c. 2 abrogato, da predisporre entro 12 mesi dall'entrata in vigore del Provvedimento.",
+          "source_ref": "Provv. IVASS 147/2024, artt. 1 e 3; Reg. 40/2018, art. 56 (testo consolidato)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: l'Allegato 4-ter è «simile al vecchio allegato 3». Riferimento da indicare: la fonte non precisa a quale regolamento appartenga il «vecchio allegato 3»; l'allegato 4-ter è comunque abrogato dal Provv. 147/2024.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 68-ter impone la consegna dell'Allegato 4-bis (e 4-ter). Aggiornato: oggi si consegna il MUP per gli IBIP (Allegato 4).",
+          "source_ref": "Reg. 40/2018, art. 68-ter (testo consolidato)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto del MUP per sezioni, inclusa la sezione sull'oblio oncologico (Provv. 169/2026).",
+          "source_ref": "Reg. 40/2018, Allegati 3 e 4; art. 56-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti di forma dell'informativa (linguaggio chiaro, carattere almeno 1,2 mm, leggibilità in bianco e nero).",
+          "source_ref": "Reg. 40/2018, art. 56, c. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto di cumulare la qualità di distributore e di beneficiario o vincolatario (eccezione leasing rami danni); obbligo di informare il cliente se i presidi sui conflitti non bastano.",
+          "source_ref": "Reg. 40/2018, art. 55, c. 2; CAP, art. 119-bis, c. 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto delle informazioni su richieste ed esigenze e traccia documentale.",
+          "source_ref": "Reg. 40/2018, art. 58, c. 2, 4, 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Minimo della fideiussione: 18.750 euro, aggiornabile dalla normativa UE.",
+          "source_ref": "CAP, art. 117, c. 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto sintetico degli artt. 68-ter – 68-octies (descrizione dei rischi, requisiti delle informazioni, ammissibilità degli incentivi, consulenza indipendente).",
+          "source_ref": "Reg. 40/2018, artt. 68-ter – 68-octies; Reg. del. (UE) 2017/2359, art. 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Consulenza obbligatoria per gli IBIP diversi da quelli non complessi e obbligo di astensione; nozione di IBIP non complesso.",
+          "source_ref": "Reg. 40/2018, art. 68-duodecies; Reg. del. (UE) 2017/2359, art. 16"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il video 2 non ha ancora la trascrizione OCR: la lezione è basata sul PDF corrispondente del Corso 60 ore, che contiene le stesse slide della seconda parte.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "La proposta, la revoca e il recesso nelle polizze vita",
+      "source_files": [
+        "corso totale/Il diritto di recesso e il diritto di revoca nelle polizze vita.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/prodotti di investimento /Il diritto di recesso e il diritto di revoca nelle polizze vita prima parte.pdf"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Revoca della proposta e recesso nelle polizze vita",
+          "goals": [
+            "Capire quando una proposta assicurativa è irrevocabile e quando no",
+            "Applicare la revoca dell'art. 176 e il recesso dell'art. 177 del Codice",
+            "Distinguere copertura provvisoria e nota di copertura"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La regola generale dei contratti",
+          "key": "Di norma la proposta si può revocare finché il contratto non è concluso, cioè finché chi l'ha fatta non ha conoscenza dell'accettazione dell'altra parte.",
+          "body": "Per le assicurazioni il codice civile fa un'eccezione: la proposta scritta resta ferma per un certo periodo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "Art. 1887 c.c.: la proposta scritta resta ferma",
+          "items": [
+            {
+              "value": "15 giorni",
+              "text": "di irrevocabilità della proposta scritta diretta all'assicuratore, dalla consegna o spedizione",
+              "ref": "art. 1887 c.c."
+            },
+            {
+              "value": "30 giorni",
+              "text": "quando occorre una visita medica",
+              "ref": "art. 1887 c.c."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando nasce il contratto",
+          "key": "Il contratto di assicurazione è consensuale: si conclude quando il proponente riceve notizia dell'accettazione. Non dipende dalla consegna della polizza né dal pagamento della rata.",
+          "body": "Con clausole scritte inserite nella proposta, le parti possono far dipendere l'efficacia dall'emissione e dalla firma della polizza. Possono anche rendere il pagamento del premio un requisito essenziale: in questo caso il contratto assume carattere reale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Copertura provvisoria e nota di copertura",
+          "left": {
+            "title": "Copertura provvisoria",
+            "items": [
+              "Prima della stipula: tra proposta e accettazione non ancora arrivata",
+              "Dopo la stipula: tra conclusione del contratto e consegna della polizza",
+              "Serve perché il contratto deve essere provato per iscritto"
+            ]
+          },
+          "right": {
+            "title": "Nota di copertura",
+            "items": [
+              "Prova di una copertura provvisoria",
+              "Documento provvisorio di un contratto definitivo",
+              "L'assicuratore rinuncia alla clausola che rinvia la copertura all'emissione della polizza"
+            ]
+          },
+          "note": "Esempio: il cliente firma la proposta di una temporanea caso morte richiesta dalla banca per un mutuo e la polizza arriverà tra alcune settimane.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Art. 176 CAP: la proposta vita è revocabile",
+          "key": "La proposta relativa a un contratto individuale di assicurazione sulla vita dei rami I, II, III e V è revocabile.",
+          "body": "L'impresa restituisce le somme eventualmente pagate entro trenta giorni da quando riceve la comunicazione della revoca.",
+          "ref": "CAP, art. 176, c. 1-2"
+        },
+        {
+          "layout": "table",
+          "title": "A quali contratti si applica la revoca",
+          "head": [
+            "Requisito",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "I · Ramo I",
+              "Assicurazioni sulla durata della vita umana."
+            ],
+            [
+              "II · Ramo II",
+              "Assicurazioni di nuzialità e natalità."
+            ],
+            [
+              "III · Ramo III",
+              "Prestazioni collegate a quote di OICR, fondi interni, indici o altri valori: unit e index linked."
+            ],
+            [
+              "V · Ramo V",
+              "Operazioni di capitalizzazione."
+            ],
+            [
+              "Individuale · Durata",
+              "Solo contratti individuali, non collettivi. Esclusi i contratti di durata pari o inferiore a sei mesi."
+            ]
+          ],
+          "ref": "CAP, art. 176, c. 1 e 3; art. 2, c. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché la proposta vita è revocabile",
+          "key": "Per una larga parte dei rami vita il legislatore ha preferito proteggere il contraente dall'aggressività delle reti distributive, piuttosto che l'esigenza informativa dell'impresa.",
+          "body": "Per questi contratti il principio di irrevocabilità della proposta assicurativa è stato ritenuto incongruo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Art. 177 CAP: il diritto di ripensamento",
+          "key": "Il contraente può recedere da un contratto individuale di assicurazione sulla vita entro trenta giorni da quando riceve la comunicazione che il contratto è concluso.",
+          "body": "Finché non passano quei trenta giorni, neanche la conclusione del contratto crea una situazione definitiva: il contratto resta esposto al recesso del contraente. È il cosiddetto ius poenitendi.",
+          "ref": "CAP, art. 177, c. 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le caratteristiche del recesso",
+          "items": [
+            {
+              "text": "Spetta solo al contraente, la parte negoziale debole."
+            },
+            {
+              "text": "Non serve una giusta causa né altro presupposto: il contraente è libero di sciogliere l'impegno."
+            },
+            {
+              "text": "Vale per tutte le polizze vita, comprese le linked e i contratti di capitalizzazione.",
+              "ref": "CAP, art. 179, c. 4"
+            },
+            {
+              "text": "Riguarda i contratti individuali ed è escluso per i contratti di durata pari o inferiore a sei mesi.",
+              "ref": "CAP, art. 177, c. 1 e 4"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Revoca o recesso?",
+          "cols": [
+            {
+              "title": "Revoca (art. 176)",
+              "items": [
+                "Prima che il contratto sia concluso",
+                "Riguarda la proposta",
+                "Rami I, II, III e V",
+                "Restituzione delle somme pagate entro 30 giorni"
+              ]
+            },
+            {
+              "title": "Recesso (art. 177)",
+              "items": [
+                "Dopo la conclusione del contratto",
+                "Entro 30 giorni dalla comunicazione di conclusione",
+                "Tutte le polizze vita individuali",
+                "Rimborso del premio entro 30 giorni, al netto di quanto previsto dalla legge"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente firma la proposta di una polizza unit linked. Dopo una settimana, prima di ricevere qualsiasi comunicazione dall'impresa, ci ripensa. Che cosa può fare?",
+          "options": [
+            "Niente: la proposta scritta è irrevocabile per 15 giorni",
+            "Revocare la proposta e ottenere la restituzione delle somme entro 30 giorni",
+            "Solo aspettare la conclusione del contratto e poi recedere",
+            "Chiedere il riscatto"
+          ],
+          "answer": 1,
+          "explanation": "Per i contratti individuali vita dei rami I, II, III e V la proposta è revocabile. L'impresa restituisce le somme entro trenta giorni dalla comunicazione della revoca (CAP, art. 176). La regola dei 15 giorni dell'art. 1887 c.c. qui non opera."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un contraente riceve il 3 marzo la lettera con cui l'impresa conferma che la polizza mista è conclusa. Il 28 marzo scrive all'agente che vuole recedere perché ha trovato un'offerta migliore. L'agente gli risponde che non può, perché la polizza è già emessa e il premio è pagato.",
+          "questions": [
+            "La risposta dell'agente è corretta?",
+            "Il contraente deve motivare il recesso?"
+          ],
+          "solution": "No. Il recesso è esercitabile entro trenta giorni dal momento in cui il contraente ha ricevuto la comunicazione che il contratto è concluso: il 28 marzo è nei termini. Emissione della polizza e pagamento del premio non contano. Non serve alcuna motivazione. L'agente deve indicare termini e modalità, che devono essere scritti nella proposta e nel contratto."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "15 · 30",
+              "text": "giorni di irrevocabilità della proposta (art. 1887 c.c.)"
+            },
+            {
+              "value": "176",
+              "text": "revoca della proposta vita, rami I, II, III, V"
+            },
+            {
+              "value": "177",
+              "text": "recesso entro 30 giorni dalla comunicazione di conclusione"
+            },
+            {
+              "value": "6 mesi",
+              "text": "durata minima perché si applichino revoca e recesso"
+            },
+            {
+              "value": "Solo",
+              "text": "il contraente recede, senza giusta causa"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di due tutele tipiche delle polizze vita: la revoca della proposta e il recesso dal contratto. Le confondono spesso sia i clienti sia, a volte, gli intermediari. Capire bene il momento in cui si trova il contratto è il primo passo per dare la risposta giusta a chi ci ripensa.\n\nPartiamo dal diritto comune dei contratti. Normalmente chi fa una proposta può revocarla finché il contratto non è concluso, cioè finché non ha conoscenza dell'accettazione dell'altra parte. Per i contratti di assicurazione il codice civile fa un'eccezione. L'articolo 1887 stabilisce che la proposta scritta diretta all'assicuratore resta ferma, cioè è irrevocabile, per quindici giorni, o per trenta giorni quando occorre una visita medica. Il termine decorre dalla consegna o dalla spedizione della proposta. La ragione è pratica: l'assicuratore deve avere il tempo di valutare il rischio senza che il proponente possa ritirarsi all'improvviso.\n\nQuando si conclude, allora, il contratto di assicurazione? È un contratto consensuale. Si conclude quando il proponente riceve notizia dell'accettazione della proposta. Il suo perfezionamento non dipende né dalla consegna della polizza né dal pagamento della rata di premio. Le parti però possono decidere diversamente, con clausole scritte inserite nella proposta. Possono subordinare l'efficacia del contratto all'emissione e alla sottoscrizione della polizza. Oppure possono rendere il versamento del premio un requisito essenziale per il perfezionamento: in questo caso il contratto assume carattere reale. Per l'intermediario è importante leggere queste clausole, perché da lì dipende il momento da cui il cliente è coperto.\n\nProprio per questo esiste la copertura provvisoria. Può riguardare il periodo prima della stipula, quando c'è un ritardo tra la proposta e l'accettazione che non è ancora arrivata. Oppure il periodo tra il perfezionamento del contratto e la consegna della polizza, che non è ancora stata emessa: il contratto di assicurazione deve essere provato per iscritto. La nota di copertura è insieme il documento che prova una copertura provvisoria e il documento provvisorio di un contratto definitivo. Quando c'è una nota di copertura, l'assicuratore rinuncia alla clausola che spostava l'inizio della sua obbligazione all'emissione della polizza. Pensate al cliente che deve stipulare un mutuo e ha bisogno subito di una temporanea caso morte: la nota di copertura gli consente di essere coperto mentre la polizza viene emessa.\n\nArriviamo al Codice delle assicurazioni. L'articolo 176, intitolato revocabilità della proposta, ribalta la regola del codice civile per una parte importante dei rami vita. La proposta relativa a un contratto individuale sulla vita è revocabile, ma con alcune precisazioni. L'articolo si applica solo ai contratti di durata superiore a sei mesi: il comma 3 esclude quelli di durata pari o inferiore. Riguarda le assicurazioni sulla durata della vita umana, il ramo primo, quelle di nuzialità e natalità, il ramo secondo, anche quando la prestazione principale è collegata al valore di quote di organismi di investimento collettivo, di fondi interni o di altri indici e valori, il ramo terzo, e le operazioni di capitalizzazione, il ramo quinto. Se il cliente revoca, l'impresa deve restituire le somme eventualmente pagate entro trenta giorni da quando riceve la comunicazione della revoca.\n\nLa revocabilità vale quindi per i contratti vita individuali, non per quelli collettivi. Perché questa scelta? Per un'ampia parte dei rami vita il legislatore ha ritenuto più opportuno proteggere il contraente dall'aggressività con cui le reti distributive offrono questi contratti, piuttosto che tutelare l'esigenza informativa dell'impresa. Ha così ribadito che il principio di irrevocabilità della proposta assicurativa, in questo campo, è incongruo. Per voi significa una cosa semplice. Un cliente che ha firmato la proposta di una polizza vita e ci ripensa prima della conclusione del contratto non deve aspettare nulla: può revocarla.\n\nPoi c'è il recesso, previsto dall'articolo 177 del Codice: è il cosiddetto ius poenitendi, il diritto di ripensamento. Il contraente può recedere da un contratto individuale di assicurazione sulla vita entro trenta giorni dal momento in cui ha ricevuto la comunicazione che il contratto è concluso. Questo vuol dire che, finché non sono passati trenta giorni dalla notizia del perfezionamento, neppure la conclusione del contratto rende la situazione definitiva. Fino a quel momento il contratto resta soggetto al recesso del contraente.\n\nQuali sono le caratteristiche di questo diritto? La possibilità di recedere spetta solo al contraente, che è libero di sciogliere l'impegno contrattuale senza bisogno di una giusta causa o di altri presupposti. È una facoltà riconosciuta esclusivamente alla parte negoziale debole. Il materiale del corso precisa che si applica senza distinzioni a tutte le polizze vita, comprese le polizze linked e i contratti di capitalizzazione. Per la capitalizzazione lo conferma anche l'articolo 179 del Codice, che richiama i termini e le modalità dell'articolo 177. Va però aggiunta una precisazione presa dal testo della legge: l'articolo 177 parla di contratti individuali e, al comma 4, esclude i contratti di durata pari o inferiore a sei mesi, proprio come l'articolo 176.\n\nMettiamo a confronto i due istituti. La revoca riguarda la proposta e si esercita prima che il contratto sia concluso, nei rami primo, secondo, terzo e quinto: l'impresa restituisce le somme entro trenta giorni. Il recesso riguarda il contratto già concluso e si esercita entro trenta giorni dalla comunicazione della conclusione, per tutte le polizze vita individuali. Anche qui il rimborso del premio avviene entro trenta giorni, con le trattenute che vedremo nella prossima lezione.\n\nUn'osservazione pratica: il termine del recesso non parte dalla firma della proposta né dal pagamento, ma dal momento in cui il cliente riceve la comunicazione che il contratto è concluso. Ecco perché è utile conservare la prova di quando il cliente ha ricevuto la lettera di conferma o la polizza.\n\nNel caso pratico, l'agente sbaglia: la polizza emessa e il premio pagato non impediscono il recesso. Contano solo i trenta giorni dalla comunicazione di conclusione, e il cliente non deve dare spiegazioni.\n\nRicapitolando: la proposta scritta è di regola irrevocabile per quindici giorni, o trenta con visita medica. Nelle polizze vita individuali dei rami primo, secondo, terzo e quinto la proposta è invece revocabile. Il recesso si esercita entro trenta giorni dalla comunicazione di conclusione, spetta solo al contraente e non richiede motivazioni. Entrambe le tutele valgono per i contratti di durata superiore a sei mesi.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1887 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1887"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 176 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art176"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 177 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art177"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 179 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art179"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Testo dell'art. 176 CAP: restituzione delle somme pagate entro trenta giorni dalla comunicazione di revoca.",
+          "source_ref": "CAP, art. 176, c. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il recesso «viene applicato senza distinzione alcuna a tutte le polizze vita». Precisato dal testo di legge che riguarda i contratti individuali ed è escluso per quelli di durata pari o inferiore a sei mesi.",
+          "source_ref": "CAP, art. 177, c. 1 e 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conferma che il recesso spetta anche nei contratti di capitalizzazione, con richiamo all'art. 177.",
+          "source_ref": "CAP, art. 179, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 176 applicabile «ai soli contratti sulla vita di durata non inferiore ai sei mesi». Il testo di legge (c. 3) esclude i contratti di durata «pari od inferiore a sei mesi»: nelle slide è indicata questa formulazione.",
+          "source_ref": "CAP, art. 176, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le espressioni dottrinali sulla nota di copertura («documento probatorio di una copertura provvisoria» e «documento provvisorio di un contratto definitivo»). Riferimento da indicare: la fonte non indica l'autore o la pronuncia da cui sono tratte.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Effetti del recesso, coordinamento con la revoca e riscatto",
+      "source_files": [
+        "corso totale/Il diritto di recesso e il diritto di revoca nelle polizze vita.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/prodotti di investimento /Il diritto di recesso e il diritto di revoca nelle polizze vita seconda parte.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "title": "Effetti del recesso e riscatto",
+          "goals": [
+            "Riconoscere i casi di recesso previsti dal codice civile",
+            "Calcolare che cosa restituisce l'impresa in caso di recesso",
+            "Capire il riscatto come forma particolare di recesso"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Il recesso nel codice civile",
+          "head": [
+            "Caso",
+            "Chi può recedere"
+          ],
+          "rows": [
+            [
+              "1893 · Dichiarazioni inesatte",
+              "L'assicuratore, se le dichiarazioni inesatte o reticenti sono rese senza dolo o colpa grave."
+            ],
+            [
+              "1897 · Diminuzione del rischio",
+              "La legge dà la facoltà di recesso all'assicuratore."
+            ],
+            [
+              "1898 · Aggravamento del rischio",
+              "La legge dà la facoltà di recesso all'assicuratore."
+            ],
+            [
+              "Alienazione · Cose assicurate",
+              "La legge dà la facoltà di recesso all'assicuratore."
+            ],
+            [
+              "1899 · Durata oltre 5 anni",
+              "L'assicurato, trascorso il quinquennio, con preavviso di sessanta giorni. La norma non si applica alle assicurazioni sulla vita."
+            ]
+          ],
+          "ref": "Materiale originale del corso; art. 1899 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "L'impresa deve informare",
+          "items": [
+            {
+              "text": "L'impresa informa il contraente del diritto di recesso.",
+              "ref": "CAP, art. 177, c. 2"
+            },
+            {
+              "text": "Termini e modalità del recesso devono essere espressamente evidenziati nella proposta e nel contratto.",
+              "ref": "CAP, art. 177, c. 2"
+            },
+            {
+              "text": "L'intermediario controlla che proposta e condizioni lo riportino in modo chiaro e lo spiega al cliente."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Che cosa succede dopo il recesso",
+          "steps": [
+            {
+              "label": "Comunicazione",
+              "text": "Il contraente comunica il recesso entro 30 giorni."
+            },
+            {
+              "label": "Rimborso entro 30 giorni",
+              "text": "L'impresa rimborsa il premio entro 30 giorni dal ricevimento della comunicazione."
+            },
+            {
+              "label": "Trattenuta per il rischio",
+              "text": "Trattiene la parte di premio relativa al periodo in cui il contratto ha avuto effetto."
+            },
+            {
+              "label": "Spese di emissione",
+              "text": "Può trattenere le spese effettivamente sostenute per l'emissione, solo se individuate e quantificate nella proposta e nel contratto."
+            }
+          ],
+          "ref": "CAP, art. 177, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Una deroga all'indivisibilità del premio",
+          "key": "Con il recesso l'impresa restituisce il premio al netto della parte non maturata, per una detrazione massima di trenta giorni, e delle spese di emissione indicate in proposta e contratto.",
+          "body": "Il premio non resta tutto all'assicuratore: è una deroga al principio di indivisibilità. Il testo vigente parla di trattenuta per «il periodo per il quale il contratto ha avuto effetto».",
+          "ref": "Materiale originale del corso; CAP, art. 177, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "La Cassazione e il «periodo assicurativo»",
+          "key": "Nella risoluzione per mancato pagamento (art. 1901, c. 3, c.c.) il periodo assicurativo va ridotto al minimo essenziale: quello a cui si riferisce davvero la singola rata.",
+          "body": "Prima si considerava di solito l'anno. Ora, se il premio è rateizzato, il periodo in corso coincide con quello della rata. Così la Corte ha riconfermato il principio di indivisibilità del premio. L'art. 1901 non si applica alle assicurazioni sulla vita.",
+          "ref": "Materiale originale del corso; art. 1901 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Perché servono sia la revoca sia il recesso",
+          "key": "Senza l'art. 176, il contraente che voleva revocare la proposta avrebbe dovuto aspettare la conclusione del contratto, per poi recedere.",
+          "body": "Ne sarebbero stati svantaggiati sia il contraente sia l'assicuratore, che avrebbe emesso un contratto destinato a cadere.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il riscatto: un'altra forma di recesso",
+          "key": "Il riscatto permette di interrompere in anticipo il contratto senza perdere quanto versato fino a quel momento: per questo è una forma particolare di recesso.",
+          "body": "Presupposti: la riserva matematica del contratto deve essere maturata e l'obbligazione dell'impresa deve essere certa, e quindi anticipabile.",
+          "ref": "Materiale originale del corso; art. 1925 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "La trasparenza sul riscatto",
+          "items": [
+            {
+              "text": "La polizza deve regolare riscatto e riduzione in modo che l'assicurato possa sapere in ogni momento il valore di riscatto.",
+              "ref": "art. 1925 c.c."
+            },
+            {
+              "text": "L'informativa deve permettere al cliente di valutare diritti e obblighi del contratto, compreso il diritto di conoscere il valore di riscatto quando vuole.",
+              "ref": "CAP, art. 185, c. 3"
+            },
+            {
+              "text": "Per gli IBIP l'informativa precontrattuale segnala anche ostacoli o limiti a riduzione, riscatto e disinvestimento.",
+              "ref": "Reg. IVASS 40/2018, art. 68-ter, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Il riscatto nella capitalizzazione",
+          "items": [
+            {
+              "value": "5 anni",
+              "text": "durata minima di un contratto di capitalizzazione",
+              "ref": "CAP, art. 179, c. 3"
+            },
+            {
+              "value": "1 anno",
+              "text": "dalla decorrenza: dal secondo anno si può riscattare (non dopo tre)",
+              "ref": "CAP, art. 179, c. 4"
+            },
+            {
+              "value": "1 annualità",
+              "text": "di premio deve essere stata pagata per intero",
+              "ref": "CAP, art. 179, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Recesso o riscatto?",
+          "cols": [
+            {
+              "title": "Recesso (art. 177 CAP)",
+              "items": [
+                "Nei primi 30 giorni dalla comunicazione di conclusione",
+                "Nessuna motivazione",
+                "Rimborso del premio, con le sole trattenute previste dalla legge"
+              ]
+            },
+            {
+              "title": "Riscatto (art. 1925 c.c.)",
+              "items": [
+                "Durante la vita del contratto, alle condizioni di polizza",
+                "Presuppone una riserva matematica maturata",
+                "Si incassa il valore di riscatto, che può essere inferiore ai premi versati"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente recede da una polizza vita a premio unico entro i termini. Che cosa può trattenere l'impresa?",
+          "options": [
+            "Tutto il premio, per l'indivisibilità",
+            "Il premio per il periodo in cui il contratto ha avuto effetto e le spese di emissione indicate in proposta e contratto",
+            "Le provvigioni pagate all'intermediario, anche se non indicate",
+            "Nulla: deve restituire anche gli interessi"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 177, c. 3, CAP consente di trattenere la parte di premio per il periodo di efficacia e le spese di emissione effettivamente sostenute, solo se individuate e quantificate nella proposta e nel contratto."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente ha un contratto di capitalizzazione a premi annui, stipulato da 14 mesi. Ha pagato la prima annualità per intero e vuole i soldi per un'emergenza. Chiede all'intermediario se deve aspettare tre anni.",
+          "questions": [
+            "Può riscattare?",
+            "Che cosa deve verificare l'intermediario?"
+          ],
+          "solution": "Sì. Nei contratti di capitalizzazione il riscatto è consentito dal secondo anno, se è stata pagata un'intera annualità di premio (CAP, art. 179, c. 4): non servono tre anni. L'intermediario verifica nelle condizioni di polizza come si calcola il valore di riscatto ed eventuali penali, e lo comunica chiaramente alla cliente prima che decida."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "177, c. 2",
+              "text": "termini e modalità del recesso scritti in proposta e contratto"
+            },
+            {
+              "value": "30",
+              "text": "giorni per il rimborso dopo il recesso"
+            },
+            {
+              "value": "Spese",
+              "text": "trattenibili solo se indicate e quantificate"
+            },
+            {
+              "value": "1925",
+              "text": "il valore di riscatto deve essere sempre conoscibile"
+            },
+            {
+              "value": "2° anno",
+              "text": "riscatto possibile nella capitalizzazione, con un'annualità pagata"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto la revoca della proposta e il diritto di recesso dalle polizze vita. Ora vediamo che cosa succede quando il recesso viene esercitato, come si coordina con la revoca e perché anche il riscatto è, in fondo, una forma di recesso.\n\nPartiamo da un dato: il recesso non è un'invenzione del Codice delle assicurazioni. Già il codice civile prevede diversi casi in cui è la legge stessa a dare all'assicuratore la facoltà di recedere. Succede per le dichiarazioni inesatte e le reticenze rese dal contraente senza dolo o colpa grave, articolo 1893. Poi per la diminuzione del rischio, articolo 1897, per l'aggravamento del rischio, articolo 1898, e per l'alienazione delle cose assicurate. Allo stesso modo, il diritto di recesso è riconosciuto all'assicurato quando il contratto supera i cinque anni, articolo 1899. Su quest'ultimo punto conviene essere precisi. L'articolo 1899 riguarda le coperture poliennali proposte in alternativa a quelle annuali, con un premio ridotto. Trascorso il quinquennio, l'assicurato può recedere con un preavviso di sessanta giorni, con effetto dalla fine dell'annualità. L'ultimo comma dello stesso articolo esclude però le assicurazioni sulla vita. Per le polizze vita lo strumento di ripensamento è l'articolo 177 del Codice delle assicurazioni.\n\nIl primo obbligo che nasce dall'articolo 177 è informativo. Il comma 2 impone all'impresa di informare il contraente della facoltà di recesso. Termini e modalità devono essere espressamente evidenziati nella proposta e nel contratto. Per l'intermediario questo si traduce in un controllo semplice: la proposta che fate firmare deve riportare in modo visibile come e quando si può recedere, e voi dovete saperlo spiegare.\n\nVediamo gli effetti. Il comma 3 stabilisce che, in caso di recesso, l'impresa rimborsa al contraente il premio eventualmente pagato entro trenta giorni dal ricevimento della comunicazione. Il materiale del corso descrive la trattenuta così: il premio è restituito al netto della parte non maturata, per una detrazione massima di trenta giorni. Il testo vigente della norma è formulato in modo un po' diverso. Parla di premio al netto della parte relativa al periodo per il quale il contratto ha avuto effetto. In ogni caso l'impresa trattiene solo il costo del rischio effettivamente corso. Ha poi diritto al rimborso delle spese effettivamente sostenute per l'emissione del contratto, ma solo se sono individuate e quantificate nella proposta e nel contratto. Un esempio. Su un premio unico di 20.000 euro, con spese di emissione di 50 euro indicate in proposta, il cliente che recede riceve il premio meno quelle spese e meno la piccola quota di premio di rischio per i giorni di copertura. Se le spese non erano indicate, l'impresa non può trattenerle.\n\nQuesta regola è una deroga al principio di indivisibilità del premio, secondo cui il premio del periodo in corso spetta per intero all'assicuratore. Su questo principio è intervenuta anche la Corte di Cassazione, che ha ridefinito il cosiddetto periodo assicurativo. Nell'ipotesi di risoluzione prevista dall'articolo 1901, comma 3, del codice civile, cioè per mancato pagamento del premio, il periodo va ridotto al minimo essenziale: quello a cui si riferisce realmente la singola rata. Prima questo periodo era considerato di solito annuale. Dopo quella pronuncia, se il premio è rateizzato, il periodo in corso non è più l'anno ma coincide con quello della singola rata. Così la Corte ha riconfermato il principio di indivisibilità del premio, delimitandone però la portata. Ricordate che l'articolo 1901 riguarda soprattutto i rami danni: il suo ultimo comma esclude le assicurazioni sulla vita.\n\nCome si coordinano revoca e recesso? Senza l'articolo 176, il contraente che voleva revocare la proposta avrebbe dovuto aspettare, con ogni probabilità, il perfezionamento del contratto, per poi porre fine al rapporto con il recesso. Questo avrebbe svantaggiato sia il contraente, costretto ad attendere, sia l'assicuratore, che avrebbe dovuto emettere un contratto destinato a cadere. Il materiale del corso conclude che, per questo motivo, il legislatore ha optato per il ritorno al principio dell'irrevocabilità della proposta. Questa frase va letta con attenzione. Per i contratti vita individuali dei rami primo, secondo, terzo e quinto, l'articolo 176 rende la proposta revocabile, superando proprio l'irrevocabilità dell'articolo 1887. È questa la soluzione oggi in vigore.\n\nPassiamo al riscatto. Il riscatto, disciplinato dall'articolo 1925 del codice civile, permette all'assicurato di interrompere in anticipo il vincolo contrattuale senza perdere quanto ha versato fino a quel momento all'assicuratore. Per questo si configura come una forma particolare di recesso. Il suo esercizio dipende da due presupposti: la riserva matematica del contratto deve essere maturata e l'obbligazione dell'impresa deve essere certa, e quindi anticipabile. Pensate alla differenza tra una mista o una rivalutabile, dove l'impresa prima o poi pagherà comunque, e una temporanea caso morte, dove la prestazione è solo eventuale: in quest'ultima di solito non c'è un valore di riscatto.\n\nIl riscatto comporta obblighi di trasparenza. L'articolo 1925 non si limita a imporre che il contratto regoli il riscatto. Obbliga anche l'assicuratore a disciplinarlo in polizza in modo che l'assicurato possa sempre conoscere il valore di riscatto della sua assicurazione. L'articolo 185, comma 3, del Codice delle assicurazioni, sulla documentazione informativa, va nella stessa direzione. Il materiale del corso lo cita dicendo che la documentazione deve contenere tutte le informazioni affinché il cliente possa pervenire a un fondato giudizio sui diritti e gli obblighi contrattuali. Oggi la norma, riscritta dopo la direttiva IDD, parla di una decisione informata su diritti e obblighi contrattuali, ma il senso non cambia. Implicitamente comprende anche il diritto dell'assicurato di conoscere, ogni volta che lo desidera, l'entità del valore di riscatto. Per gli IBIP, poi, il Regolamento IVASS 40 chiede che l'informativa precontrattuale segnali anche eventuali ostacoli o limiti al riscatto, alla riduzione e al disinvestimento.\n\nInfine, i contratti di capitalizzazione. L'articolo 179, comma 4, del Codice stabilisce che anche chi stipula un contratto di capitalizzazione, come gli altri contraenti vita, ha diritto di sciogliere in anticipo il contratto chiedendo il riscatto. Secondo il materiale del corso, perché il contraente possa riscattare il capitale senza penalizzazioni deve essere passato soltanto un anno, e non tre, dalla decorrenza, e deve essere stata pagata un'intera annualità di premio. Il testo di legge dice che il riscatto è consentito a partire dal secondo anno, a condizione che il contraente abbia pagato il premio per un'intera annualità. Ricordate anche che questi contratti non possono durare meno di cinque anni. Eventuali penali dipendono dalle condizioni di polizza, quindi vanno sempre verificate.\n\nMettiamo a confronto recesso e riscatto. Il recesso si esercita nei primi trenta giorni, senza motivazione, e restituisce il premio con le sole trattenute previste dalla legge. Il riscatto si chiede durante la vita del contratto, alle condizioni di polizza, presuppone una riserva maturata e restituisce un valore che può essere inferiore ai premi versati. Spiegare questa differenza al cliente evita molti reclami.\n\nRicapitolando. Termini e modalità del recesso devono essere scritti nella proposta e nel contratto. Dopo il recesso il rimborso arriva entro trenta giorni, e le spese di emissione si trattengono solo se indicate e quantificate. Il valore di riscatto deve essere sempre conoscibile. Nei contratti di capitalizzazione si può riscattare dal secondo anno, dopo aver pagato un'intera annualità.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private, art. 177 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art177"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 179 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art179"
+        },
+        {
+          "title": "Codice delle assicurazioni private, art. 185 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art185"
+        },
+        {
+          "title": "Codice civile, art. 1899 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1899"
+        },
+        {
+          "title": "Codice civile, art. 1901 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1901"
+        },
+        {
+          "title": "Codice civile, art. 1925 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1925"
+        },
+        {
+          "title": "IVASS, Regolamento n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il premio è restituito «al netto della parte non maturata (per una detrazione massima di trenta giorni)». Possibile aggiornamento: il testo vigente dell'art. 177, c. 3, CAP parla di premio «al netto della parte relativa al periodo per il quale il contratto ha avuto effetto» e non prevede un limite di trenta giorni; i trenta giorni sono il termine per il rimborso.",
+          "source_ref": "CAP, art. 177, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «il neo-legislatore ha optato per il ritorno al principio dell'irrevocabilità della proposta». Possibile aggiornamento: l'affermazione sembra in contrasto con l'art. 176 CAP, che rende revocabile la proposta vita (rami I, II, III, V). Nella lezione è spiegato che la regola vigente è la revocabilità.",
+          "source_ref": "CAP, art. 176"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: pronuncia della Corte di Cassazione sul «periodo assicurativo» nella risoluzione ex art. 1901, c. 3, c.c. Riferimento da indicare: la fonte non riporta numero e data della sentenza. Aggiunto che l'art. 1901 non si applica alle assicurazioni sulla vita.",
+          "source_ref": "art. 1901, ultimo comma, c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: recesso dell'assicurato se «il contratto superi i cinque anni» (art. 1899 c.c.). Precisato dal testo vigente: riguarda le coperture poliennali, preavviso di sessanta giorni, non si applica alle assicurazioni sulla vita.",
+          "source_ref": "art. 1899 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la citazione dell'art. 185, c. 3, CAP («fondato giudizio sui diritti e gli obblighi contrattuali»). Possibile aggiornamento: il testo vigente, dopo il recepimento IDD (D.Lgs. 68/2018), parla di «decisione informata su diritti e obblighi contrattuali» con riferimento al DIP aggiuntivo.",
+          "source_ref": "CAP, art. 185, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nella capitalizzazione il riscatto «senza penalizzazioni» dopo un anno (e non tre) con un'annualità pagata. Precisato dal testo vigente: riscatto «a partire dal secondo anno» con un'intera annualità pagata; la legge non parla di assenza di penalizzazioni, che dipendono dalle condizioni di polizza.",
+          "source_ref": "CAP, art. 179, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la caratteristica di «alienazione delle cose assicurate» tra i casi di recesso dell'assicuratore. Riferimento da indicare: la fonte non indica l'articolo del codice civile.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Termine di trenta giorni per il rimborso e condizioni per trattenere le spese di emissione, con esempio numerico.",
+          "source_ref": "CAP, art. 177, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Durata minima di cinque anni dei contratti di capitalizzazione.",
+          "source_ref": "CAP, art. 179, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Per gli IBIP, informativa precontrattuale su ostacoli e limiti a riduzione, riscatto e disinvestimento.",
+          "source_ref": "Reg. IVASS 40/2018, art. 68-ter, c. 3, lett. c)"
+        }
+      ]
+    }
+  ]
+}

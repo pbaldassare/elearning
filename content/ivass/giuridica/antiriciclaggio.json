@@ -1,0 +1,1281 @@
+{
+  "module": "Area giuridica",
+  "topic": "Antiriciclaggio e contrasto al finanziamento del terrorismo",
+  "topic_order": 6,
+  "scope": "core",
+  "source_minutes": 49,
+  "lessons": [
+    {
+      "title": "Il quadro antiriciclaggio e il titolare effettivo",
+      "source_files": [
+        "corso totale/Area Giuridica/Antiriciclaggio.pdf",
+        "corso totale/Area Giuridica/_Antiriciclaggio.1(Video).mp4",
+        "Corso Ivass 60 ore/Materiale /Antiriciclaggio e antiterrorismo (2).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Antiriciclaggio e contrasto al finanziamento del terrorismo /antiriciclaggio e antiterrorismo.mp4"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Antiriciclaggio e contrasto al finanziamento del terrorismo",
+          "title": "Il quadro antiriciclaggio e il titolare effettivo",
+          "goals": [
+            "Distinguere riciclaggio e finanziamento del terrorismo",
+            "Conoscere le tappe della normativa e le novità della V direttiva",
+            "Individuare il titolare effettivo e sapere come funziona il registro"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Due fenomeni, una sola difesa",
+          "cols": [
+            {
+              "title": "Riciclaggio",
+              "items": [
+                "Parte da proventi di attività illegali",
+                "Le organizzazioni criminali devono reintrodurli nel circuito economico legale",
+                "L'obiettivo è nasconderne l'origine"
+              ]
+            },
+            {
+              "title": "Finanziamento del terrorismo",
+              "items": [
+                "Può partire da fondi di provenienza lecita",
+                "I fondi sono attratti nell'area dell'illegalità",
+                "Conta la destinazione impressa ai fondi, non l'origine"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa dice la legge",
+          "key": "È riciclaggio convertire, trasferire, occultare, acquistare, detenere o utilizzare beni sapendo che provengono da un'attività criminosa, oppure partecipare, aiutare o agevolare chi lo fa.",
+          "body": "È riciclaggio anche se l'attività che ha generato i beni si è svolta all'estero. Conoscenza e intenzione si possono dedurre da circostanze di fatto oggettive. Il finanziamento del terrorismo è qualsiasi attività che fornisce, raccoglie o custodisce fondi utilizzabili per condotte con finalità di terrorismo, anche se poi i fondi non vengono usati.",
+          "ref": "D.Lgs. 231/2007, art. 2, c. 4-6"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le tecniche di riciclaggio",
+          "items": [
+            {
+              "text": "Trasferimenti di denaro e prestiti legati all'immigrazione clandestina e al traffico di esseri umani"
+            },
+            {
+              "text": "Altri metodi di trasferimento del denaro, come il denaro postale"
+            },
+            {
+              "text": "Contrabbando di contante tramite persone usate come corrieri"
+            },
+            {
+              "text": "Banche ombra o sistemi di trasferimento non autorizzati"
+            },
+            {
+              "text": "Investimenti in immobili, veicoli o beni di valore elevato, spesso tramite prestanome"
+            },
+            {
+              "text": "Investimenti in attività commerciali",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Trent'anni di direttive",
+          "lead": "Le regole europee sono cresciute per tappe. In Italia il riferimento è il D.Lgs. 231/2007, più volte modificato.",
+          "head": [
+            "Atto",
+            "Che cosa rappresenta"
+          ],
+          "rows": [
+            [
+              "Direttiva 91/308/CEE",
+              "La prima direttiva antiriciclaggio"
+            ],
+            [
+              "Direttive 2001/97/CE e 2005/60/CE",
+              "Seconda e terza direttiva"
+            ],
+            [
+              "Direttiva (UE) 2015/849",
+              "IV direttiva, recepita con il D.Lgs. 25 maggio 2017, n. 90"
+            ],
+            [
+              "Direttiva (UE) 2018/843",
+              "V direttiva, recepita con il D.Lgs. 4 ottobre 2019, n. 125"
+            ],
+            [
+              "Pacchetto AML 2024",
+              "Regolamento (UE) 2024/1624, direttiva (UE) 2024/1640 e nuova Autorità europea AMLA"
+            ]
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Le novità della V direttiva",
+          "items": [
+            {
+              "text": "Più soggetti obbligati"
+            },
+            {
+              "text": "Più accesso alle informazioni sul titolare effettivo e regole più precise per individuarlo"
+            },
+            {
+              "text": "Nuove misure di adeguata verifica rafforzata per intermediari bancari e finanziari"
+            },
+            {
+              "text": "Vigilanza e controlli più incisivi, nuovi poteri alla Guardia di Finanza"
+            },
+            {
+              "text": "Ruolo più forte degli organismi di autoregolamentazione"
+            },
+            {
+              "text": "Precisazioni sulle persone politicamente esposte"
+            },
+            {
+              "text": "Raccordo tra antiriciclaggio e GDPR"
+            },
+            {
+              "text": "Nuova sanzione per carenze di organizzazione, procedure e controlli interni",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I nuovi soggetti obbligati",
+          "items": [
+            {
+              "text": "Le succursali «insediate» degli intermediari assicurativi"
+            },
+            {
+              "text": "Chi commercia cose antiche e opere d'arte, o fa da intermediario, anche tramite gallerie e case d'asta, per operazioni da 10.000 euro in su, anche frazionate o collegate"
+            },
+            {
+              "text": "I prestatori di servizi di portafoglio digitale"
+            },
+            {
+              "text": "Gli agenti d'affari che intermediano locazioni con canone mensile pari o superiore a 10.000 euro",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi è il titolare effettivo",
+          "key": "È la persona fisica, o sono le persone fisiche, diverse dal cliente, nel cui interesse, in ultima istanza, si instaura il rapporto, si rende la prestazione o si esegue l'operazione.",
+          "body": "Se il cliente è una persona fisica, di solito non c'è un titolare effettivo diverso. Nella ditta individuale è il titolare stesso. Nelle società di persone si applica per analogia il criterio delle società di capitali: conta chi apporta oltre il 25% del capitale o partecipa agli utili per più del 25%.",
+          "ref": "Materiale originale del corso; D.Lgs. 231/2007, art. 20"
+        },
+        {
+          "layout": "steps",
+          "title": "Società di capitali: il percorso a scorrimento",
+          "steps": [
+            {
+              "label": "Proprietà",
+              "text": "Persona fisica con più del 25% del capitale, direttamente o tramite controllate, fiduciarie o interposta persona."
+            },
+            {
+              "label": "Controllo",
+              "text": "Se la proprietà non basta: chi ha la maggioranza dei voti, voti sufficienti per un'influenza dominante o vincoli contrattuali che la danno."
+            },
+            {
+              "label": "Criterio residuale",
+              "text": "Se ancora non si individua nessuno: chi ha poteri di rappresentanza legale, amministrazione o direzione."
+            },
+            {
+              "label": "Traccia",
+              "text": "Si conserva traccia delle verifiche e, nel criterio residuale, dei motivi per cui i criteri precedenti non sono bastati."
+            }
+          ],
+          "ref": "D.Lgs. 231/2007, art. 20, c. 1-3, 5-6"
+        },
+        {
+          "layout": "table",
+          "title": "Enti e trust: chi sono i titolari effettivi",
+          "head": [
+            "Cliente",
+            "Titolari effettivi"
+          ],
+          "rows": [
+            [
+              "Persona giuridica privata (es. fondazione)",
+              "Cumulativamente: i fondatori, se in vita; i beneficiari, se individuati o facilmente individuabili; chi ha poteri di rappresentanza legale, direzione e amministrazione."
+            ],
+            [
+              "Trust",
+              "Il fondatore, il trustee, il guardiano se nominato, i beneficiari o le classi di beneficiari e ogni altra persona fisica che, in ultima istanza, controlla il trust o i beni conferiti."
+            ]
+          ],
+          "ref": "D.Lgs. 231/2007, art. 20, c. 4; materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro dei titolari effettivi",
+          "key": "La V direttiva impone che società e altri soggetti giuridici abbiano informazioni adeguate, accurate e aggiornate sui propri titolari effettivi, raccolte in registri centrali nazionali tra loro interconnessi.",
+          "body": "In Italia il registro è una sezione autonoma del registro delle imprese per imprese con personalità giuridica e persone giuridiche private, e una sezione speciale per trust e istituti affini. Lo disciplina il D.M. 11 marzo 2022, n. 55, con modalità solo telematiche. Il collegamento europeo dei registri è il sistema BORIS.",
+          "ref": "D.Lgs. 231/2007, art. 21; D.M. 55/2022"
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi comunica e che cosa",
+          "items": [
+            {
+              "text": "Comunicano gli amministratori delle imprese con personalità giuridica, il fondatore se in vita, chi rappresenta e amministra le persone giuridiche private, il trustee",
+              "ref": "materiale originale"
+            },
+            {
+              "text": "Si usa la comunicazione unica d'impresa alla Camera di commercio competente; le informazioni restano disponibili per 10 anni"
+            },
+            {
+              "text": "Dati identificativi e cittadinanza dei titolari effettivi"
+            },
+            {
+              "text": "Per le imprese: quota di partecipazione, modalità del controllo o, in ultima istanza, poteri di rappresentanza, amministrazione o direzione"
+            },
+            {
+              "text": "Per le persone giuridiche private: denominazione, sede legale, PEC, codice fiscale. Per i trust: denominazione, data, luogo ed estremi dell'atto, codice fiscale"
+            },
+            {
+              "text": "L'eventuale status di controinteressato e la dichiarazione di responsabilità"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Chi controlla e chi consulta",
+          "left": {
+            "title": "Camere di commercio",
+            "items": [
+              "Accertano e contestano l'omessa comunicazione e applicano la sanzione",
+              "Fanno controlli formali sulle dichiarazioni degli amministratori",
+              "Possono escludere l'accesso se il titolare effettivo è incapace o minore, o se rischia frode, rapimento, ricatto, estorsione, molestia, violenza o intimidazione"
+            ],
+            "ref": "D.Lgs. 231/2007, art. 21; D.Lgs. 122/2026"
+          },
+          "right": {
+            "title": "Chi accede oggi",
+            "items": [
+              "Le autorità (MEF, vigilanza di settore, UIF, DIA, Guardia di Finanza, magistratura e altre): accesso immediato e diretto",
+              "I soggetti obbligati: solo per l'adeguata verifica, con accreditamento biennale",
+              "Chi dimostra un legittimo interesse antiriciclaggio: richiesta motivata, la Camera di commercio decide entro 12 giorni"
+            ],
+            "ref": "D.Lgs. 231/2007, artt. 21-bis – 21-sexies"
+          },
+          "note": "Chi consulta il registro e trova dati diversi da quelli raccolti in adeguata verifica lo segnala alla Camera di commercio.",
+          "noteRef": "UIF, Rassegna normativa I sem. 2026"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Dal pubblico al legittimo interesse",
+          "lead": "Il materiale originale descriveva un registro aperto al pubblico, a pagamento e previo accreditamento al MEF. Il quadro è cambiato.",
+          "facts": [
+            {
+              "label": "Novembre 2022",
+              "text": "La Corte di giustizia UE (cause C-37/20 e C-601/20) dichiara invalido l'accesso di chiunque senza un legittimo interesse."
+            },
+            {
+              "label": "Ottobre 2023",
+              "text": "Decreto MIMIT del 29 settembre 2023: parte l'obbligo di comunicazione."
+            },
+            {
+              "label": "2024",
+              "text": "Il TAR Lazio respinge i ricorsi delle fiduciarie; il Consiglio di Stato sospende in via cautelare."
+            },
+            {
+              "label": "Maggio 2026",
+              "text": "La Corte UE (C-684/24 e C-685/24): il mandato fiduciario è un istituto affine al trust; l'accesso per legittimo interesse è compatibile."
+            },
+            {
+              "label": "Luglio 2026",
+              "text": "Il D.Lgs. 10 giugno 2026, n. 122, in vigore dal 23 luglio, riscrive le regole di accesso."
+            }
+          ],
+          "ref": "UIF, Rassegne normative I sem. 2024 e I sem. 2026"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Alfa S.r.l. chiede una polizza di capitalizzazione. Dalla visura risulta: il signor Bianchi ha il 20% delle quote; il 60% è di Beta S.r.l., interamente posseduta dalla signora Verdi; il restante 20% è diviso tra cinque piccoli soci. L'amministratore unico è il signor Rossi, che firma come legale rappresentante.",
+          "questions": [
+            "Chi è il titolare effettivo di Alfa?",
+            "Che ruolo ha il signor Rossi?",
+            "Che cosa devi conservare?"
+          ],
+          "solution": "La signora Verdi è titolare effettiva: tramite Beta detiene indirettamente il 60% di Alfa, oltre la soglia del 25%. Il signor Bianchi, con il 20%, non supera la soglia. Il signor Rossi è l'esecutore: va identificato e verificato, ma non è titolare effettivo perché il criterio della proprietà è già sufficiente. Conservi la visura, la ricostruzione della catena societaria e i documenti di identità, per 10 anni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una persona fisica possiede esattamente il 25% del capitale di una S.r.l. cliente. Per il D.Lgs. 231/2007 questo è, da solo, indice di proprietà diretta?",
+          "options": [
+            "Sì, il 25% è sufficiente",
+            "No, la quota deve essere superiore al 25%",
+            "Solo se la persona è anche amministratore",
+            "Solo se la società opera all'estero"
+          ],
+          "answer": 1,
+          "explanation": "La legge italiana parla di partecipazione superiore al 25%. Attenzione: il regolamento europeo che si applicherà dal 10 luglio 2027 userà invece la formula «25% o più»."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Origine",
+              "text": "il riciclaggio nasconde l'origine illecita; il finanziamento del terrorismo guarda alla destinazione"
+            },
+            {
+              "value": "231/2007",
+              "text": "il decreto antiriciclaggio italiano, aggiornato con le direttive IV e V"
+            },
+            {
+              "value": "> 25%",
+              "text": "la soglia di proprietà, poi il controllo, poi il criterio residuale"
+            },
+            {
+              "value": "10 anni",
+              "text": "la conservazione dei dati sulla titolarità effettiva nel registro"
+            },
+            {
+              "value": "Interesse",
+              "text": "oggi si accede al registro solo con un legittimo interesse, oltre ad autorità e obbligati"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione costruiamo le basi: che cosa sono il riciclaggio e il finanziamento del terrorismo, come si è evoluta la normativa europea e italiana e chi è il titolare effettivo, la figura su cui ruota buona parte dell'adeguata verifica.\n\nPartiamo dai due fenomeni. Il riciclaggio è la naturale conseguenza, e insieme la necessità, delle organizzazioni criminali: i proventi di attività illegali devono essere reintrodotti nel circuito economico legale, altrimenti non si possono spendere né investire. Il finanziamento del terrorismo segue la strada inversa: fondi o risorse che possono avere una provenienza del tutto lecita vengono attratti nell'area dell'illegalità per la destinazione che viene impressa loro. Nel primo caso il problema è da dove vengono i soldi; nel secondo, dove vanno. La difesa però è la stessa: conoscere il cliente e accorgersi di ciò che non torna.\n\nIl decreto legislativo 231 del 2007, il cosiddetto decreto antiriciclaggio, definisce il riciclaggio in modo ampio: non solo convertire o trasferire beni di provenienza criminosa per nasconderne l'origine, ma anche occultarne la natura o la proprietà, acquistarli, detenerli, utilizzarli, oppure aiutare o agevolare chi lo fa. Vale anche se il reato d'origine è stato commesso all'estero, e la consapevolezza si può dedurre da circostanze oggettive. Il finanziamento del terrorismo comprende qualsiasi attività che fornisce, raccoglie o custodisce fondi utilizzabili per finalità di terrorismo, anche se i fondi non vengono poi utilizzati.\n\nCome si ricicla, in concreto? Il materiale del corso indica alcune tecniche ricorrenti: trasferimenti di denaro e prestiti legati all'immigrazione clandestina e al traffico di esseri umani; l'uso di altri canali di trasferimento, come il denaro postale; il contrabbando di contante affidato a corrieri; le banche ombra e i sistemi di trasferimento non autorizzati; gli investimenti in immobili, veicoli o beni di valore elevato, spesso intestati a prestanome; gli investimenti in attività commerciali. Per chi distribuisce polizze vita il rischio è concreto: un prodotto di risparmio può diventare il luogo in cui il denaro sporco viene parcheggiato.\n\nLa normativa europea è cresciuta per tappe. La prima direttiva antiriciclaggio è la 91/308 del 1991; sono seguite la 2001/97 e la 2005/60, poi la quarta direttiva, la 2015/849, e la quinta, la 2018/843. In Italia la quarta è stata recepita con il decreto legislativo 90 del 2017, che ha riscritto il decreto 231, e la quinta con il decreto legislativo 125 del 2019. Nel 2024 l'Unione ha poi approvato un nuovo pacchetto, con un regolamento direttamente applicabile e una nuova Autorità europea antiriciclaggio: lo vedremo nell'ultima lezione.\n\nLe novità della quinta direttiva sono elencate nella slide: più soggetti obbligati, più trasparenza sul titolare effettivo, verifiche rafforzate, più poteri a vigilanza e Guardia di Finanza, un ruolo più forte degli organismi di autoregolamentazione, regole sulle persone politicamente esposte, il raccordo con il GDPR e una nuova sanzione per le carenze organizzative. Molte le riprenderemo una per una.\n\nTra i nuovi soggetti obbligati ci sono innanzitutto le succursali insediate degli intermediari assicurativi. Poi chi commercia in cose antiche e opere d'arte o fa da intermediario in questo commercio, anche tramite gallerie d'arte o case d'asta, quando il valore dell'operazione, anche frazionata o collegata, è pari o superiore a 10.000 euro. Entrano i prestatori di servizi di portafoglio digitale e gli agenti d'affari che intermediano locazioni di immobili con un canone mensile di almeno 10.000 euro.\n\nLe valute virtuali, i portafogli digitali e i nuovi obblighi dei loro prestatori li vedremo nella prossima lezione, insieme all'adeguata verifica.\n\nArriviamo al titolare effettivo. È la persona fisica, o sono le persone fisiche, diverse dal cliente, nel cui interesse, in ultima istanza, viene instaurato il rapporto continuativo, resa la prestazione o eseguita l'operazione. L'idea è semplice: dietro ogni società c'è qualcuno in carne e ossa, ed è quella persona che dobbiamo conoscere. Se il cliente è una persona fisica, di regola non c'è un titolare effettivo distinto; nella ditta individuale è il titolare stesso. Per le società di persone, in assenza di regole specifiche, si applica il criterio delle società di capitali: conta chi apporta oltre il 25% del capitale o partecipa agli utili per più del 25%.\n\nPer le società di capitali la legge prevede un percorso a scorrimento. Primo criterio, la proprietà: è titolare effettivo la persona fisica che detiene più del 25% del capitale, direttamente oppure indirettamente, tramite società controllate, fiduciarie o interposta persona. Se l'assetto proprietario non permette di individuare nessuno in modo univoco, si passa al controllo: chi ha la maggioranza dei voti nell'assemblea ordinaria, chi ha voti sufficienti per esercitare un'influenza dominante, o chi la esercita grazie a particolari vincoli contrattuali. Se anche questo non basta, si applica il criterio residuale: sono titolari effettivi le persone che hanno poteri di rappresentanza legale, amministrazione o direzione. In ogni caso l'intermediario conserva traccia delle verifiche fatte e, quando usa il criterio residuale, delle ragioni per cui i criteri precedenti non hanno funzionato.\n\nPer le persone giuridiche private, come le fondazioni, i titolari effettivi vanno individuati tutti insieme: i fondatori, se in vita; i beneficiari, quando sono individuati o facilmente individuabili; i titolari di poteri di rappresentanza legale, direzione e amministrazione. Per i trust sono titolari effettivi il fondatore, il trustee, il guardiano se è stato nominato, i beneficiari o le classi di beneficiari e ogni altra persona fisica che, in ultima istanza, esercita il controllo sul trust o sui beni conferiti.\n\nLa quinta direttiva chiede agli Stati di fare in modo che società e altri soggetti giuridici ottengano e mantengano informazioni adeguate, accurate e aggiornate sui propri titolari effettivi, e di raccoglierle in registri centrali, interconnessi a livello europeo. In Italia il registro è stato costruito dentro il registro delle imprese: una sezione autonoma per le imprese dotate di personalità giuridica e per le persone giuridiche private, una sezione speciale per i trust e gli istituti giuridici affini. Le regole operative sono nel decreto ministeriale 11 marzo 2022, numero 55, che prevede modalità esclusivamente telematiche. L'istituzione effettiva del registro segna l'adesione dell'Italia al sistema europeo di interconnessione dei registri, chiamato BORIS.\n\nChi deve comunicare i dati? Gli amministratori delle imprese con personalità giuridica, il fondatore se in vita, chi rappresenta e amministra le persone giuridiche private, e i trustee di trust e istituti affini. La comunicazione passa dalla comunicazione unica d'impresa all'ufficio del registro della Camera di commercio competente, e le informazioni restano consultabili per dieci anni. Secondo il materiale del corso, le imprese costituite dopo il 15 marzo 2021 devono comunicare i dati entro 30 giorni dalla costituzione. La comunicazione è un'autodichiarazione: contiene i dati identificativi e la cittadinanza dei titolari effettivi e, a seconda dei casi, la quota di partecipazione o le modalità del controllo, i dati dell'ente o quelli dell'atto istitutivo del trust, come vedi nella slide, oltre all'eventuale status di controinteressato e alla dichiarazione di responsabilità.\n\nLe Camere di commercio accertano e contestano l'omessa comunicazione, applicano la sanzione e fanno controlli formali sulle dichiarazioni degli amministratori. Possono anche escludere l'accesso ai dati in circostanze eccezionali: quando il titolare effettivo è un incapace o un minore, oppure quando l'accesso lo esporrebbe a un rischio sproporzionato di frode, rapimento, ricatto, estorsione, molestia, violenza o intimidazione.\n\nQui serve un aggiornamento importante. Il materiale originale descriveva un registro accessibile di norma al pubblico, dietro pagamento dei diritti di segreteria, con un accreditamento presso il MEF per i privati interessati alle informazioni sui trust, e un elenco di dati diffondibili: nome, cognome, mese e anno di nascita, Paese di residenza, cittadinanza e criterio di qualificazione. Nel novembre 2022 la Corte di giustizia dell'Unione europea ha dichiarato invalida la regola europea che permetteva a chiunque di accedere senza un legittimo interesse. In Italia l'obbligo di comunicazione è partito con il decreto del Ministero delle imprese del 29 settembre 2023, ma è stato impugnato da alcune società fiduciarie: il TAR del Lazio ha respinto i ricorsi nel 2024, mentre il Consiglio di Stato ha sospeso in via cautelare le sentenze. Nel maggio 2026 la Corte di giustizia ha confermato che il mandato fiduciario è un istituto affine al trust e che l'accesso per chi ha un legittimo interesse è compatibile con il diritto europeo. Infine il decreto legislativo 10 giugno 2026, numero 122, in vigore dal 23 luglio 2026, ha riscritto l'accesso: le autorità hanno un accesso immediato e diretto; i soggetti obbligati possono consultare il registro solo per l'adeguata verifica, con un accreditamento biennale presso la Camera di commercio; chi ha un legittimo interesse antiriciclaggio presenta una richiesta motivata, e la Camera di commercio decide entro dodici giorni, prorogabili. Chi consulta il registro e trova dati diversi da quelli raccolti dal cliente deve segnalarlo alla Camera di commercio. E attenzione: il registro aiuta, ma non sostituisce la propria valutazione del rischio.\n\nNel caso pratico prova a ricostruire la catena societaria prima di guardare la soluzione: è l'esercizio che farai ogni volta che una società ti chiede una polizza di investimento. Ricorda di distinguere sempre il titolare effettivo dall'esecutore, cioè da chi firma per conto del cliente.\n\nUn'ultima nota: oggi la legge italiana richiede una quota superiore al 25%, mentre dal 10 luglio 2027 il regolamento europeo userà la formula del 25% o più. Nella prossima lezione vediamo come si svolge l'adeguata verifica e che cosa succede quando il rischio è alto.",
+      "sources": [
+        {
+          "title": "D.Lgs. 21 novembre 2007, n. 231, testo coordinato con il D.Lgs. 125/2019 (MEF, Dipartimento del Tesoro)",
+          "url": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/prevenzione_reati_finanziari/normativa/Decreto_legislativo_21_novembre_2007x_n._231_di_recepimento_della_V_Direttiva_eurpea_antiriciclaggio.pdf"
+        },
+        {
+          "title": "UIF, Quaderni dell'antiriciclaggio, Rassegna normativa I semestre 2024",
+          "url": "https://uif.bancaditalia.it/pubblicazioni/quaderni/2024/quaderno-rn-1-2024/Quaderni_RassegnaNormativa_I_2024.pdf"
+        },
+        {
+          "title": "UIF, Quaderni dell'antiriciclaggio, Rassegna normativa I semestre 2026",
+          "url": "https://uif.bancaditalia.it/pubblicazioni/quaderni/2026/quaderno-rn-1-2026/Quaderni_RassegnaNormativa_I_2026.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni legali di riciclaggio e finanziamento del terrorismo.",
+          "source_ref": "D.Lgs. 231/2007, art. 2, c. 4-6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indicazione del D.Lgs. 125/2019 come atto di recepimento della V direttiva e del pacchetto AML 2024.",
+          "source_ref": "D.Lgs. 231/2007 coordinato (MEF); UIF Rassegna I/2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il titolo della fonte 60 ore abbinava la V direttiva al D.Lgs. 90/2017: chiarito che il D.Lgs. 90/2017 recepisce la IV direttiva e il D.Lgs. 125/2019 la V.",
+          "source_ref": "D.Lgs. 231/2007 coordinato, note"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Percorso a scorrimento per le società di capitali con i tre criteri del controllo, criterio residuale e obbligo di conservare traccia delle verifiche.",
+          "source_ref": "D.Lgs. 231/2007, art. 20"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sanzione per omessa comunicazione (art. 2630 c.c.) e sezioni autonoma e speciale del registro; decreto MIMIT 29/9/2023.",
+          "source_ref": "D.Lgs. 231/2007, art. 21; UIF Rassegna I/2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Accesso al registro dei titolari effettivi aggiornato: sentenza CGUE 22/11/2022 (C-37/20, C-601/20), contenzioso TAR Lazio/Consiglio di Stato, CGUE 21/5/2026 (C-684/24, C-685/24), D.Lgs. 122/2026 (artt. 21-bis – 21-sexies). Le affermazioni della fonte su accesso pubblico a pagamento e accreditamento al MEF sono mantenute come quadro previgente.",
+          "source_ref": "UIF Rassegne I/2024 e I/2026"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le imprese costituite dopo il 15/03/2021 comunicano i dati entro 30 giorni. Riferimento da indicare / possibile aggiornamento: data e termine non trovati nei testi consultati (D.M. 55/2022, decreto MIMIT 29/9/2023).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: disponibilità dei dati nel registro per 10 anni e adesione al sistema BORIS. Riferimento puntuale (D.M. 55/2022) da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Soglia «25% o più» del regolamento AMLR applicabile dal 10 luglio 2027.",
+          "source_ref": "UIF Rassegna I/2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Le slide su valute virtuali, portafogli digitali e moneta elettronica anonima sono trattate nella lezione 2, insieme all'adeguata verifica.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Adeguata verifica, rischio alto, controlli e sanzioni",
+      "source_files": [
+        "corso totale/Area Giuridica/Antiriciclaggio.pdf",
+        "corso totale/Area Giuridica/_Antiriciclaggio.2 (Video).mp4",
+        "corso totale/Area Giuridica/_Antiriciclaggio3 (Video).mp4",
+        "Corso Ivass 60 ore/Materiale /Antiriciclaggio e antiterrorismo (2).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Antiriciclaggio e contrasto al finanziamento del terrorismo /antiriciclaggio e antiterrorismo.mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Antiriciclaggio e contrasto al finanziamento del terrorismo",
+          "title": "Adeguata verifica, rischio alto, controlli e sanzioni",
+          "goals": [
+            "Sapere quando e come si fa l'adeguata verifica della clientela",
+            "Applicare le misure rafforzate quando il rischio è alto",
+            "Conoscere controlli, raccordo con la privacy e sanzioni"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Quando scatta l'adeguata verifica",
+          "steps": [
+            {
+              "label": "Rapporto continuativo",
+              "text": "Quando si instaura, per esempio con la stipula di una polizza vita."
+            },
+            {
+              "label": "Operazione occasionale",
+              "text": "Da 15.000 euro in su, anche frazionata in più operazioni collegate; oltre 1.000 euro se è un trasferimento di fondi."
+            },
+            {
+              "label": "Sempre, se c'è un sospetto",
+              "text": "Di riciclaggio o di finanziamento del terrorismo, a prescindere da soglie ed esenzioni."
+            },
+            {
+              "label": "Sempre, se ci sono dubbi",
+              "text": "Sulla veridicità o sull'adeguatezza dei dati raccolti in precedenza."
+            }
+          ],
+          "ref": "D.Lgs. 231/2007, art. 17, c. 1-2"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si svolge",
+          "steps": [
+            {
+              "label": "Identifica",
+              "text": "Il cliente e, se c'è, l'esecutore, verificandone l'identità."
+            },
+            {
+              "label": "Fai dichiarare",
+              "text": "Il cliente compila la dichiarazione richiesta."
+            },
+            {
+              "label": "Titolare effettivo",
+              "text": "Individualo e verificane l'identità."
+            },
+            {
+              "label": "Valuta il rischio",
+              "text": "Da qui dipende quali misure adottare."
+            },
+            {
+              "label": "Controlla nel tempo",
+              "text": "Esamina l'operatività per tutta la durata del rapporto."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Su che cosa si misura il rischio",
+          "left": {
+            "title": "Il cliente",
+            "items": [
+              "Natura giuridica",
+              "Attività prevalente",
+              "Comportamento del cliente o dell'esecutore all'operazione o all'apertura del rapporto",
+              "Area geografica di residenza o sede del cliente e del titolare effettivo"
+            ]
+          },
+          "right": {
+            "title": "Il rapporto o l'operazione",
+            "items": [
+              "Tipologia",
+              "Modalità di svolgimento",
+              "Ammontare",
+              "Ragionevolezza rispetto al profilo del cliente"
+            ]
+          },
+          "note": "Sono i criteri generali del decreto antiriciclaggio, ripresi dal Provvedimento della Banca d'Italia del 4 febbraio 2020 per gli operatori non finanziari.",
+          "noteRef": "D.Lgs. 231/2007, art. 17, c. 3; materiale originale"
+        },
+        {
+          "layout": "table",
+          "title": "Tre livelli di verifica",
+          "lead": "Ogni operatore definisce classi di rischio e vi associa i clienti: è l'approccio basato sul rischio.",
+          "head": [
+            "Livello",
+            "Quando",
+            "Che cosa comporta"
+          ],
+          "rows": [
+            [
+              "S · Semplificata",
+              "Rischio basso",
+              "Adempimenti ridotti. Esempio di basso rischio: polizza vita con premio annuo fino a 1.000 euro o premio unico fino a 2.500 euro."
+            ],
+            [
+              "O · Ordinaria",
+              "Rischio nella norma",
+              "Tutte le misure standard dei passaggi visti prima."
+            ],
+            [
+              "R · Rafforzata",
+              "Rischio alto",
+              "Più informazioni su cliente e titolare effettivo, più approfondimento su scopo e natura, aggiornamenti più frequenti, autorizzazione dell'alto dirigente."
+            ]
+          ],
+          "ref": "D.Lgs. 231/2007, artt. 23-25; materiale originale"
+        },
+        {
+          "layout": "concept",
+          "title": "Anche i clienti già acquisiti",
+          "key": "L'adeguata verifica si rifà anche sui clienti esistenti: quando cambia il loro livello di rischio e quando norme nuove introducono obblighi che al momento dell'acquisizione non c'erano.",
+          "body": "Non basta aver fatto bene la verifica il giorno della firma. Un cliente che cambia attività, residenza o abitudini di pagamento, o un obbligo introdotto dopo, impongono di aggiornare il profilo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Paesi terzi ad alto rischio",
+          "items": [
+            {
+              "text": "Si acquisiscono informazioni aggiuntive su scopo e natura del rapporto"
+            },
+            {
+              "text": "Si chiede l'origine dei fondi e la situazione economico-patrimoniale di cliente e titolare effettivo"
+            },
+            {
+              "text": "Si chiedono i motivi delle operazioni previste o eseguite"
+            },
+            {
+              "text": "Serve l'autorizzazione di chi ha poteri di amministrazione o direzione, o di un delegato, prima di avviare o proseguire il rapporto"
+            },
+            {
+              "text": "Aumentano frequenza e intensità dei controlli; si individuano schemi operativi da approfondire",
+              "ref": "materiale originale"
+            },
+            {
+              "text": "Con fiduciarie, trust, società anonime o con azioni al portatore con sede in quei Paesi ci si astiene e si chiude il rapporto",
+              "ref": "D.Lgs. 231/2007, art. 42, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I poteri delle autorità di vigilanza",
+          "items": [
+            {
+              "text": "Negare l'autorizzazione a controllate di intermediari con sede in Paesi ad alto rischio, o l'apertura di loro succursali in Italia"
+            },
+            {
+              "text": "Negare agli intermediari italiani succursali in quei Paesi"
+            },
+            {
+              "text": "Chiedere controlli più stretti sui conti di corrispondenza con quei Paesi e, se serve, chiuderli"
+            },
+            {
+              "text": "Chiedere più verifiche, anche ispettive, su controllate e succursali in quei Paesi"
+            },
+            {
+              "text": "Ispezionare anche chi svolge in outsourcing funzioni essenziali per l'antiriciclaggio"
+            },
+            {
+              "text": "Dare disposizioni alla capogruppo e partecipare a collegi di supervisori con altri Stati",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Guardia di Finanza e autoregolamentazione",
+          "left": {
+            "title": "Nucleo speciale di polizia valutaria",
+            "items": [
+              "Fa ispezioni e controlli e approfondisce le segnalazioni sospette ricevute dalla UIF",
+              "Acquisisce documenti anche presso soggetti che non vigila",
+              "Accede ai dati finanziari dell'anagrafe tributaria, al registro dei titolari effettivi e all'anagrafe immobiliare integrata"
+            ]
+          },
+          "right": {
+            "title": "Organismi di autoregolamentazione",
+            "items": [
+              "Entro il 30 maggio di ogni anno pubblicano una relazione sull'anno precedente",
+              "Numero di decreti e misure sanzionatorie verso gli iscritti, per tipo di infrazione",
+              "Numero di segnalazioni sospette ricevute e inoltrate alla UIF",
+              "Misure disciplinari per violazioni gravi, ripetute, sistematiche o plurime"
+            ]
+          },
+          "note": "Gli organismi di autoregolamentazione sono, per esempio, gli ordini professionali.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Persone politicamente esposte",
+          "key": "Tra chi ha «stretti legami» con una persona politicamente esposta rientrano le persone fisiche che ne condividono la titolarità effettiva di enti, trust e istituti affini, o che hanno con lei stretti rapporti d'affari.",
+          "body": "Con una PEP si applicano misure rafforzate, salvo quando agisce come organo di una pubblica amministrazione. Nel ramo vita la qualifica conta per cliente, beneficiario e rispettivi titolari effettivi; serve l'autorizzazione dell'amministratore delegato o del direttore generale, o di un loro delegato, anche per nuovi beneficiari o versamenti aggiuntivi.",
+          "ref": "Materiale originale; Reg. IVASS 44/2019, art. 49"
+        },
+        {
+          "layout": "split",
+          "title": "Valute virtuali e portafogli digitali",
+          "left": {
+            "title": "Le definizioni",
+            "items": [
+              "Valuta virtuale: valore digitale non emesso né garantito da una banca centrale o da un ente pubblico",
+              "Non ha lo status di moneta, ma è accettata come mezzo di scambio e si trasferisce elettronicamente",
+              "Portafoglio digitale: custodia delle chiavi crittografiche private dei clienti"
+            ]
+          },
+          "right": {
+            "title": "Gli obblighi",
+            "items": [
+              "Con la IV direttiva i prestatori si iscrivono in una sezione speciale del registro dei cambiavalute",
+              "Gli exchange fanno l'adeguata verifica per rapporti continuativi, operazioni da 15.000 euro e sempre se c'è un sospetto",
+              "Con la V direttiva sono obbligati anche i portafogli digitali"
+            ]
+          },
+          "note": "Vietata la moneta elettronica anonima. Il cliente si può identificare anche a distanza, con mezzi elettronici sicuri e riconosciuti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Antiriciclaggio e privacy",
+          "cols": [
+            {
+              "title": "Il trattamento è di interesse pubblico",
+              "items": [
+                "I dati trattati per finalità antiriciclaggio sono trattati per un interesse pubblico ai sensi del GDPR",
+                "Non serve il consenso del cliente per raccoglierli e conservarli"
+              ]
+            },
+            {
+              "title": "I diritti sono limitati",
+              "items": [
+                "Accesso, rettifica, cancellazione, limitazione, portabilità e opposizione si esercitano nei limiti dell'art. 2-undecies del Codice privacy",
+                "Non si esercitano se ne deriverebbe un pregiudizio effettivo e concreto alla prevenzione del riciclaggio, per esempio rivelando una segnalazione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le sanzioni",
+          "head": [
+            "Tipo",
+            "Condotta",
+            "Pena o sanzione"
+          ],
+          "rows": [
+            [
+              "P · Penale",
+              "Falsificare o usare dati falsi in adeguata verifica; conservare dati falsi; cliente che fornisce dati falsi",
+              "Reclusione da 6 mesi a 3 anni e multa da 10.000 a 30.000 euro"
+            ],
+            [
+              "P · Penale",
+              "Avvisare il cliente di una segnalazione o di indagini in corso",
+              "Arresto da 6 mesi a 1 anno e ammenda da 5.000 a 30.000 euro"
+            ],
+            [
+              "A · Amministrativa",
+              "Intermediari bancari e finanziari: violazioni gravi, ripetute, sistematiche o plurime",
+              "Da 30.000 a 5 milioni di euro o 10% del fatturato; esponenti da 10.000 a 5 milioni"
+            ],
+            [
+              "A · Amministrativa",
+              "Operatori non finanziari vigilati dalla Banca d'Italia: organizzazione, procedure, controlli interni",
+              "Da 2.500 a 350.000 euro"
+            ]
+          ],
+          "ref": "D.Lgs. 231/2007, artt. 55 e 62"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le altre modifiche",
+          "items": [
+            {
+              "text": "Cambiano le regole del D.Lgs. 141/2010 su credito ai consumatori, agenti in attività finanziaria e mediatori creditizi"
+            },
+            {
+              "text": "Il D.Lgs. 90/2017 proroga di 24 mesi il termine per decreti e provvedimenti attuativi"
+            },
+            {
+              "text": "Il D.Lgs. 92/2017 sui «compro oro» viene integrato all'art. 11, comma 1"
+            },
+            {
+              "text": "Il Decreto Milleproroghe 2022 introduce un nuovo caso di esenzione dall'adeguata verifica e rafforza la tutela di chi segnala operazioni sospette",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un nuovo cliente vuole sottoscrivere una polizza vita a premio unico di 300.000 euro. Il denaro arriverà con bonifico da un conto in un Paese incluso nell'elenco europeo dei Paesi terzi ad alto rischio. Alla domanda sull'origine dei fondi il cliente risponde: «Sono risparmi, non serve altro».",
+          "questions": [
+            "Che livello di verifica applichi?",
+            "Che cosa chiedi al cliente?",
+            "Che cosa fai se il cliente non collabora?"
+          ],
+          "solution": "Si applica la verifica rafforzata: c'è un Paese terzo ad alto rischio e un importo elevato. Chiedi documenti sull'origine dei fondi e sulla situazione patrimoniale, lo scopo dell'investimento e informazioni sul titolare effettivo; servirà l'autorizzazione dell'alta dirigenza. Se il cliente non fornisce quanto serve, ti astieni e valuti con l'impresa una segnalazione di operazione sospetta, senza dirlo al cliente."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente occasionale versa 9.000 euro oggi e 8.000 euro la settimana prossima per la stessa operazione. Devi fare l'adeguata verifica?",
+          "options": [
+            "No, ogni versamento è sotto i 15.000 euro",
+            "Sì, è un'operazione frazionata che complessivamente supera i 15.000 euro",
+            "Solo se paga in contanti",
+            "Solo se il cliente è una società"
+          ],
+          "answer": 1,
+          "explanation": "La soglia di 15.000 euro si calcola anche sommando più operazioni che appaiono collegate per realizzare un'operazione frazionata."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "15.000 €",
+              "text": "la soglia per le operazioni occasionali, anche frazionate"
+            },
+            {
+              "value": "Sospetto",
+              "text": "fa scattare l'adeguata verifica a prescindere da qualsiasi soglia"
+            },
+            {
+              "value": "3 livelli",
+              "text": "semplificata, ordinaria e rafforzata, secondo il rischio"
+            },
+            {
+              "value": "Astensione",
+              "text": "se l'adeguata verifica non si può fare, non si procede"
+            },
+            {
+              "value": "2-undecies",
+              "text": "il Codice privacy limita i diritti dell'interessato per tutelare l'antiriciclaggio"
+            }
+          ]
+        }
+      ],
+      "narration": "Entriamo nel cuore degli obblighi: l'adeguata verifica della clientela, le misure per il rischio alto, i controlli e le sanzioni.\n\nL'adeguata verifica scatta in quattro situazioni. La prima è l'instaurazione di un rapporto continuativo: per un intermediario assicurativo il caso tipico è la stipula di una polizza vita. La seconda è l'operazione occasionale di importo pari o superiore a 15.000 euro, che sia unica o divisa in più operazioni collegate, oppure un trasferimento di fondi superiore a 1.000 euro. Le altre due valgono sempre: quando c'è un sospetto di riciclaggio o di finanziamento del terrorismo, a prescindere da qualsiasi soglia, deroga o esenzione, e quando ci sono dubbi sulla veridicità o sull'adeguatezza dei dati raccolti in precedenza.\n\nIl percorso, nel materiale del corso, è scandito in cinque passaggi. Si identifica il cliente e, se c'è, l'esecutore, cioè chi agisce in suo nome, verificandone l'identità con un documento valido. Si fa compilare al cliente la dichiarazione richiesta. Si individua il titolare effettivo e se ne verifica l'identità. Si valuta il livello di rischio, perché da quello dipendono le misure da adottare. E infine si esamina l'operatività complessiva per tutta la durata del rapporto: è il controllo costante.\n\nCome si misura il rischio? La legge chiede di guardare due cose. Il cliente: la sua natura giuridica, l'attività prevalente, il comportamento suo o dell'esecutore al momento dell'operazione o dell'apertura del rapporto, l'area geografica di residenza o sede, sua e del titolare effettivo. E poi l'operazione o il rapporto: di che tipo è, come si svolge, quanto vale e se è ragionevole rispetto al profilo del cliente. Il materiale del corso richiama questi criteri citando il Provvedimento della Banca d'Italia del 4 febbraio 2020 sull'adeguata verifica e la conservazione dei dati per gli operatori non finanziari.\n\nL'approccio basato sul rischio porta a tre livelli. Ogni operatore definisce le proprie classi di rischio e vi colloca i clienti. Con un cliente a basso rischio può applicare misure semplificate, che riducono estensione e frequenza degli adempimenti. Un esempio che riguarda da vicino il nostro settore: il decreto antiriciclaggio indica come fattore di basso rischio i contratti di assicurazione vita con premio annuo non superiore a 1.000 euro o premio unico non superiore a 2.500 euro. Nella norma si applicano le misure ordinarie. Con un cliente ad alto rischio si applicano le misure rafforzate: si acquisiscono e valutano informazioni aggiuntive sul cliente e sul titolare effettivo, si approfondiscono scopo e natura del rapporto, si aggiornano più spesso le informazioni e si chiede l'autorizzazione di un alto dirigente prima di avviare, proseguire o intrattenere il rapporto o di eseguire un'operazione occasionale.\n\nUn aspetto spesso trascurato: l'adeguata verifica non si esaurisce al momento della firma. Va ripetuta anche su chi è già cliente, non solo quando cambia il livello di rischio che gli era stato attribuito, ma anche quando norme successive introducono obblighi che al momento dell'acquisizione del cliente non esistevano.\n\nLa quinta direttiva ha rafforzato le misure verso i Paesi terzi ad alto rischio, cioè i Paesi extra UE con carenze strategiche nei sistemi antiriciclaggio, individuati dalla Commissione europea. Il materiale ricorda che è stato inserito un nuovo fattore di rischio e che le verifiche rafforzate sui rapporti di corrispondenza sono state limitate a quelli che comportano l'esecuzione di pagamenti. Per rapporti, prestazioni e operazioni che coinvolgono questi Paesi, i soggetti obbligati devono acquisire informazioni aggiuntive su scopo e natura del rapporto, sull'origine dei fondi e sulla situazione economico-patrimoniale di cliente e titolare effettivo, sulle motivazioni delle operazioni; devono ottenere l'autorizzazione di chi ha poteri di amministrazione o direzione, o di un suo delegato; devono aumentare frequenza e intensità dei controlli e individuare schemi operativi da approfondire. C'è poi un divieto netto: con società fiduciarie, trust, società anonime o controllate tramite azioni al portatore con sede in Paesi terzi ad alto rischio non si instaura alcun rapporto, e quelli in essere vanno chiusi.\n\nAnche le autorità di vigilanza hanno strumenti specifici, elencati nella slide: possono negare autorizzazioni e succursali legate a quei Paesi, chiedere controlli più stretti sui conti di corrispondenza, fino a chiuderli, e intensificare le verifiche, anche ispettive, su controllate e succursali lì insediate. I poteri ispettivi arrivano anche a chi svolge in outsourcing funzioni essenziali per l'antiriciclaggio; per i gruppi le autorità danno disposizioni alla capogruppo e possono costituire o partecipare a collegi di supervisori con autorità di altri Stati.\n\nLa Guardia di Finanza, con il Nucleo speciale di polizia valutaria, fa ispezioni e controlli e svolge gli approfondimenti investigativi sulle segnalazioni di operazioni sospette che riceve dalla UIF. Oggi può acquisire documenti a fini antiriciclaggio anche presso soggetti che non vigila e accede ai dati finanziari dell'anagrafe tributaria, alle informazioni sui titolari effettivi di società e trust e all'anagrafe immobiliare integrata. Gli organismi di autoregolamentazione, come gli ordini professionali, devono rendere pubblica la propria attività: entro il 30 maggio di ogni anno pubblicano una relazione con le sanzioni inflitte agli iscritti nell'anno precedente, divise per tipo di infrazione, le segnalazioni sospette ricevute e inoltrate alla UIF e le misure disciplinari per violazioni gravi, ripetute, sistematiche o plurime su controlli interni, adeguata verifica, conservazione e segnalazioni.\n\nLe persone politicamente esposte sono chi occupa importanti cariche pubbliche o le ha lasciate da meno di un anno, con i familiari e chi ha con loro notoriamente stretti legami. La quinta direttiva ha precisato quest'ultima categoria: sono le persone fisiche che detengono, insieme alla persona politicamente esposta, la titolarità effettiva di enti, trust e istituti affini, o che hanno con lei stretti rapporti d'affari. Con una PEP si applicano misure rafforzate, salvo quando agisce come organo di una pubblica amministrazione. Nel ramo vita il Regolamento IVASS 44 del 2019 chiede di verificare la qualifica per il cliente, il beneficiario e i rispettivi titolari effettivi, anche durante il rapporto, e richiede l'autorizzazione dell'amministratore delegato o del direttore generale, o di un loro delegato, per avviare o proseguire il rapporto, anche quando si designano nuovi beneficiari o si fanno versamenti aggiuntivi.\n\nRiprendiamo ora le valute virtuali, che la legge definisce come rappresentazioni digitali di valore non emesse né garantite da una banca centrale o da un ente pubblico, senza lo status di moneta ma accettate come mezzo di scambio. Già con la quarta direttiva i prestatori di servizi in valuta virtuale devono iscriversi in una sezione speciale del registro dei cambiavalute, e gli exchange fanno l'adeguata verifica per i rapporti continuativi e le operazioni da 15.000 euro, e comunque ogni volta che c'è un sospetto, segnalando alla UIF. La quinta direttiva ha incluso anche i prestatori di portafoglio digitale, che custodiscono le chiavi crittografiche dei clienti; ha vietato la moneta elettronica anonima e ha ammesso l'identificazione a distanza con mezzi elettronici sicuri e riconosciuti.\n\nAntiriciclaggio e privacy convivono, con regole precise. Il decreto antiriciclaggio stabilisce che il trattamento dei dati personali per finalità antiriciclaggio è di interesse pubblico ai sensi del GDPR: non serve il consenso del cliente per raccogliere e conservare i dati dell'adeguata verifica. E i diritti dell'interessato, come accesso, rettifica, cancellazione, limitazione, portabilità e opposizione, si esercitano nei limiti dell'articolo 2-undecies del Codice privacy, che li esclude quando ne deriverebbe un pregiudizio effettivo e concreto agli interessi tutelati dalla normativa antiriciclaggio. Un cliente segnalato, per esempio, non può ottenere informazioni sulla segnalazione.\n\nVeniamo alle sanzioni. Sul piano penale, chi è tenuto all'adeguata verifica e falsifica i dati, o usa dati falsi, rischia la reclusione da sei mesi a tre anni e una multa da 10.000 a 30.000 euro; le stesse pene valgono per chi acquisisce o conserva dati falsi o usa mezzi fraudolenti per pregiudicarne la conservazione, e per il cliente che fornisce dati o informazioni falsi. Chi rivela al cliente o a terzi una segnalazione, o l'esistenza di indagini, rischia l'arresto da sei mesi a un anno e un'ammenda da 5.000 a 30.000 euro. Sul piano amministrativo, per gli intermediari bancari e finanziari responsabili di violazioni gravi, ripetute, sistematiche o plurime su adeguata verifica, conservazione o controlli interni, la sanzione va da 30.000 a 5 milioni di euro o fino al 10% del fatturato, e gli esponenti che le hanno agevolate rischiano da 10.000 a 5 milioni. Il materiale del corso cita una sanzione della Banca d'Italia da 2.500 a 350.000 euro per l'inosservanza delle disposizioni su organizzazione, procedure e controlli interni: nel testo del decreto questa sanzione riguarda gli operatori non finanziari vigilati dalla Banca d'Italia. Il materiale ricorda anche che le sanzioni amministrative dell'articolo 58 sono state estese ai revisori responsabili degli incarichi delle società di revisione legale, e che la Consob può sanzionare anche chi ha funzioni di amministrazione, direzione e controllo.\n\nCompletano il quadro le altre modifiche elencate nella slide, sul credito ai consumatori, sui termini per i provvedimenti attuativi e sui compro oro. Il Decreto Milleproroghe 2022, infine, ha introdotto un nuovo caso di esenzione dall'adeguata verifica e ha rafforzato la tutela di chi segnala operazioni sospette.\n\nNel caso pratico ci sono due segnali insieme: un importo elevato e un bonifico da un Paese terzo ad alto rischio, con un cliente che non vuole spiegare. È esattamente la situazione in cui l'adeguata verifica rafforzata serve. Se il cliente non fornisce ciò che è necessario, non si va avanti: ci si astiene e si valuta la segnalazione, senza avvisarlo. Nella prossima lezione vediamo nel dettaglio gli obblighi specifici dell'intermediario assicurativo e come funziona la segnalazione alla UIF.",
+      "sources": [
+        {
+          "title": "D.Lgs. 21 novembre 2007, n. 231, testo coordinato con il D.Lgs. 125/2019 (MEF, Dipartimento del Tesoro)",
+          "url": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/prevenzione_reati_finanziari/normativa/Decreto_legislativo_21_novembre_2007x_n._231_di_recepimento_della_V_Direttiva_eurpea_antiriciclaggio.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 44 del 12 febbraio 2019, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2019/n44/Regolamento_IVASS_44_del_12_febbraio_2019_consolidato_IT.pdf"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali, testo coordinato (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+(Testo+coordinato)"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Casi in cui scatta l'adeguata verifica (rapporto continuativo, operazione occasionale da 15.000 euro anche frazionata, trasferimento fondi oltre 1.000 euro, sospetto, dubbi sui dati).",
+          "source_ref": "D.Lgs. 231/2007, art. 17"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio di basso rischio: polizze vita con premio annuo fino a 1.000 euro o premio unico fino a 2.500 euro.",
+          "source_ref": "D.Lgs. 231/2007, art. 23, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di Paesi terzi ad alto rischio e obbligo di astensione con fiduciarie, trust e società anonime con sede in quei Paesi.",
+          "source_ref": "D.Lgs. 231/2007, art. 1, lett. bb; art. 42, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "PEP: definizione (cariche lasciate da meno di un anno), misure rafforzate salvo organi della PA, regole del ramo vita.",
+          "source_ref": "D.Lgs. 231/2007, artt. 1 e 24; Reg. IVASS 44/2019, art. 49"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limitazione dei diritti dell'interessato per finalità antiriciclaggio (pregiudizio effettivo e concreto).",
+          "source_ref": "D.Lgs. 196/2003, art. 2-undecies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sanzioni penali (art. 55, inclusa la violazione del divieto di comunicazione) e amministrative per intermediari ed esponenti (art. 62).",
+          "source_ref": "D.Lgs. 231/2007, artt. 55, 62"
+        },
+        {
+          "kind": "modificato",
+          "description": "La sanzione Banca d'Italia da 2.500 a 350.000 euro, nel testo del decreto, riguarda gli operatori non finanziari vigilati (art. 62, c. 7-bis), non tutti gli intermediari.",
+          "source_ref": "D.Lgs. 231/2007, art. 62, c. 7-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: estensione delle sanzioni dell'art. 58 ai revisori delle società di revisione e poteri sanzionatori Consob verso gli esponenti. Riferimento puntuale da indicare (nel testo consultato i revisori sono disciplinati all'art. 62, c. 5).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: Provvedimento Banca d'Italia del 4 febbraio 2020 su adeguata verifica e conservazione per gli operatori non finanziari. Non verificato sul sito della Banca d'Italia: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: «nuovo fattore di rischio» nella verifica rafforzata (non specificato) e novità del Decreto Milleproroghe 2022 (esenzione e tutela del segnalante). Riferimenti da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (60 ore) la sequenza dell'adeguata verifica scritta per i professionisti, adattata al contesto dell'intermediario.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "L'intermediario assicurativo: Reg. IVASS 44/2019, segnalazioni e contante",
+      "source_files": [
+        "corso totale/Area Giuridica/Antiriciclaggio.pdf",
+        "corso totale/Area Giuridica/_Antiriciclaggio3 (Video).mp4",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Antiriciclaggio e contrasto al finanziamento del terrorismo /antiriciclaggio e antiterrorismo.mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Antiriciclaggio e contrasto al finanziamento del terrorismo",
+          "title": "L'intermediario assicurativo: obblighi, segnalazioni e contante",
+          "goals": [
+            "Conoscere gli obblighi del Regolamento IVASS 44/2019 per chi distribuisce polizze vita",
+            "Sapere quando e come si segnala un'operazione sospetta alla UIF",
+            "Applicare i limiti al contante, anche per i premi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Reg. IVASS 44/2019: a chi si applica",
+          "key": "Il Regolamento precisa e amplia gli obblighi antiriciclaggio di imprese e intermediari assicurativi, ma solo per l'attività nei rami vita.",
+          "body": "In vigore dal 1° maggio 2019, si applica anche ai rapporti già in essere. È stato modificato dal Provvedimento IVASS 111/2021 e dal Provvedimento IVASS 144/2024, che ha introdotto il consigliere responsabile per l'antiriciclaggio. Chi distribuisce solo polizze danni non rientra.",
+          "ref": "Reg. IVASS 44/2019, artt. 3 e 61"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il governo dell'impresa",
+          "items": [
+            {
+              "text": "Obiettivi del sistema di governo societario e di controllo interno, cultura del controllo, flussi informativi e canali di comunicazione"
+            },
+            {
+              "text": "L'organo amministrativo approva una politica su organizzazione, procedure, controlli, conservazione dei dati e adeguata verifica, coerente con l'esposizione al rischio",
+              "ref": "art. 10, lett. b"
+            },
+            {
+              "text": "La politica fissa anche i requisiti del consigliere responsabile per l'antiriciclaggio e i casi in cui il titolare della funzione riferisce direttamente agli organi",
+              "ref": "Provv. IVASS 144/2024"
+            },
+            {
+              "text": "L'alta direzione attua gli indirizzi, descrive le scelte in un documento analitico e assicura la coerenza delle scelte operative"
+            },
+            {
+              "text": "La funzione antiriciclaggio si può esternalizzare nei compiti, non nella responsabilità: serve sempre un responsabile interno che controlli",
+              "ref": "UIF, Rassegna normativa I sem. 2024"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I presidi dell'intermediario",
+          "items": [
+            {
+              "text": "Richiama negli accordi con il personale le regole di comportamento antiriciclaggio da seguire nella distribuzione"
+            },
+            {
+              "text": "Assicura che chi distribuisce polizze vita per suo conto sia formato in antiriciclaggio; queste ore valgono per l'aggiornamento professionale"
+            },
+            {
+              "text": "Adotta strumenti e procedure operative e li fornisce a dipendenti e collaboratori"
+            },
+            {
+              "text": "Le procedure garantiscono l'identità di chi ha raccolto i dati e la conservazione di documenti, dati e informazioni"
+            },
+            {
+              "text": "Resta responsabile del rispetto delle regole anche quando il lavoro lo fa il suo personale",
+              "ref": "Reg. IVASS 44/2019, artt. 26-27"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "La conservazione",
+          "steps": [
+            {
+              "label": "Ricostruibile",
+              "text": "Documenti, dati e informazioni conservati in modo da ricostruire l'operatività del cliente."
+            },
+            {
+              "label": "Dieci anni",
+              "text": "Dalla chiusura del rapporto o dall'esecuzione dell'operazione occasionale."
+            },
+            {
+              "label": "Con l'impresa",
+              "text": "L'intermediario può avvalersi delle imprese di cui distribuisce i prodotti, con clausole espresse negli accordi."
+            },
+            {
+              "label": "Con un terzo",
+              "text": "Oppure esternalizza a un soggetto terzo con un accordo specifico. Se rinuncia all'impresa, prosegue da solo o con un terzo."
+            }
+          ],
+          "ref": "Reg. IVASS 44/2019, art. 28; D.Lgs. 231/2007, art. 31"
+        },
+        {
+          "layout": "checklist",
+          "title": "L'adeguata verifica dell'intermediario",
+          "items": [
+            {
+              "text": "Identifica cliente, beneficiario, rispettivi titolari effettivi ed esecutore"
+            },
+            {
+              "text": "Ne verifica l'identità quando l'impresa gli affida anche fasi della liquidazione"
+            },
+            {
+              "text": "Raccoglie le informazioni e i documenti che l'impresa chiede per valutare il rischio"
+            },
+            {
+              "text": "Conserva copia del documento d'identità e degli altri documenti, su carta o in digitale"
+            },
+            {
+              "text": "Mette subito a disposizione dell'impresa documenti, dati e informazioni"
+            },
+            {
+              "text": "Controlla in modo costante il comportamento di ogni soggetto, beneficiario incluso, e ne informa l'impresa"
+            },
+            {
+              "text": "Valuta se segnalare direttamente alla UIF quando non c'è un'impresa di riferimento",
+              "ref": "Reg. IVASS 44/2019, art. 55"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Chi paga il premio e quando fermarsi",
+          "left": {
+            "title": "Il terzo pagatore",
+            "items": [
+              "Se il premio lo paga una persona diversa dal contraente, la si identifica e si registra la sua relazione con il contraente",
+              "Con il bonifico, il contraente comunica la relazione con chi paga",
+              "Impresa e intermediario chiedono informazioni integrative se la relazione o il mezzo di pagamento sono anomali"
+            ],
+            "ref": "Reg. IVASS 44/2019, art. 57"
+          },
+          "right": {
+            "title": "L'obbligo di astensione",
+            "items": [
+              "Se l'adeguata verifica non si può fare, non si apre il rapporto e non si esegue l'operazione",
+              "Nei rapporti in essere: niente modifiche, niente versamenti aggiuntivi facoltativi, niente nuovi beneficiari",
+              "Si valuta la segnalazione e, in liquidazione, la richiesta di sospensione alla UIF"
+            ],
+            "ref": "D.Lgs. 231/2007, art. 42; Reg. IVASS 44/2019, art. 42"
+          },
+          "note": "L'astensione non è una scelta commerciale: è un obbligo di legge.",
+          "noteRef": "D.Lgs. 231/2007, art. 42"
+        },
+        {
+          "layout": "steps",
+          "title": "La segnalazione di operazione sospetta",
+          "steps": [
+            {
+              "label": "Il sospetto",
+              "text": "Sai, sospetti o hai motivi ragionevoli di sospettare riciclaggio o finanziamento del terrorismo, a prescindere dall'importo."
+            },
+            {
+              "label": "Gli elementi",
+              "text": "Caratteristiche, entità, natura, collegamento o frazionamento delle operazioni, rapportati a capacità economica e attività del cliente. Anche il contante frequente o ingiustificato."
+            },
+            {
+              "label": "Prima di operare",
+              "text": "La segnalazione si invia senza ritardo alla UIF, di regola prima di compiere l'operazione."
+            },
+            {
+              "label": "La collaborazione",
+              "text": "Si descrivono operazioni e motivi del sospetto e si risponde subito alle richieste della UIF."
+            }
+          ],
+          "ref": "D.Lgs. 231/2007, art. 35"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità 2026",
+          "title": "Le nuove istruzioni della UIF",
+          "lead": "Dal 1° luglio 2026 si applicano le istruzioni UIF per rilevare e segnalare le operazioni sospette (Provvedimento del 18 dicembre 2025), al posto di quelle del 2011.",
+          "facts": [
+            {
+              "label": "Percorso",
+              "text": "Individuazione delle anomalie, approfondimento, rappresentazione del sospetto."
+            },
+            {
+              "label": "Niente automatismi",
+              "text": "Indicatori, schemi e software aiutano, ma non sostituiscono il giudizio di chi segnala."
+            },
+            {
+              "label": "Tempi",
+              "text": "Nessun termine fisso, ma niente ritardi ingiustificati."
+            },
+            {
+              "label": "Riservatezza",
+              "text": "Nessun riferimento, nelle segnalazioni, alle persone che le hanno valutate."
+            },
+            {
+              "label": "Sospensione",
+              "text": "La UIF risponde entro 2 giorni lavorativi; la sospensione dura al massimo 5 giorni lavorativi."
+            },
+            {
+              "label": "Flusso di ritorno",
+              "text": "La UIF comunica gli esiti e invia schede di feedback almeno annuali."
+            }
+          ],
+          "ref": "UIF, Rassegna normativa I sem. 2026"
+        },
+        {
+          "layout": "concept",
+          "title": "Il divieto di comunicazione",
+          "key": "Non si può dire al cliente, né a terzi, che è stata fatta una segnalazione, che la UIF ha chiesto informazioni o che ci sono indagini in corso o probabili.",
+          "body": "Chi segnala in buona fede non viola obblighi di riservatezza e non ne risponde, anche se non conosce il reato sottostante. Se la UIF sospende un'operazione, non si può spiegare al cliente il motivo del ritardo.",
+          "ref": "D.Lgs. 231/2007, artt. 35, c. 4, e 39"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il limite al contante",
+          "items": [
+            {
+              "value": "3.000 euro",
+              "text": "il limite fissato dalla Legge di Stabilità 2016",
+              "ref": "materiale originale"
+            },
+            {
+              "value": "2.000 euro",
+              "text": "dal 1° luglio 2020, con il Decreto Fiscale (L. 157/2019)",
+              "ref": "materiale originale"
+            },
+            {
+              "value": "1.000 euro",
+              "text": "il limite previsto dal 1° gennaio 2022 dalla stessa legge",
+              "ref": "materiale originale"
+            },
+            {
+              "value": "5.000 euro",
+              "text": "oggi: vietati i pagamenti in contanti da 5.000 euro in su, sanzionati chi paga e chi riceve",
+              "ref": "Banca d'Italia, Economia per tutti"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Contante e premi assicurativi",
+          "head": [
+            "Ramo",
+            "Contante",
+            "Limite"
+          ],
+          "rows": [
+            [
+              "V · Vita",
+              "Vietato",
+              "Per qualsiasi importo"
+            ],
+            [
+              "D · Danni diversi dall'RC auto",
+              "Ammesso",
+              "Fino a 750 euro annui per ciascun contratto"
+            ],
+            [
+              "A · RC auto e garanzie accessorie dello stesso veicolo",
+              "Il divieto non opera",
+              "Resta il limite generale al contante"
+            ]
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 54, c. 7"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Verso il 2027",
+          "title": "Il nuovo pacchetto antiriciclaggio UE",
+          "lead": "Il 19 giugno 2024 sono stati pubblicati il Regolamento (UE) 2024/1624 (AMLR), la Direttiva (UE) 2024/1640 (VI direttiva) e il Regolamento (UE) 2024/1620, che istituisce l'AMLA.",
+          "facts": [
+            {
+              "label": "AMLA",
+              "text": "La nuova Autorità europea antiriciclaggio ha sede a Francoforte, è stata istituita il 26 giugno 2024 ed è operativa dalla metà del 2025."
+            },
+            {
+              "label": "Dal 10 luglio 2027",
+              "text": "Il regolamento AMLR si applica direttamente in tutti gli Stati."
+            },
+            {
+              "label": "Operazioni occasionali",
+              "text": "La soglia scende da 15.000 a 10.000 euro."
+            },
+            {
+              "label": "Contante",
+              "text": "Limite europeo di 10.000 euro per i pagamenti a chi vende beni o servizi; gli Stati possono fissarne uno più basso."
+            },
+            {
+              "label": "Richieste della FIU",
+              "text": "Risposta entro 5 giorni lavorativi."
+            }
+          ],
+          "ref": "UIF, Rassegna normativa I sem. 2024"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente con una polizza vita in corso porta in agenzia 4.000 euro in contanti per un versamento aggiuntivo e chiede di aggiungere come beneficiario un conoscente, di cui non vuole dare i dati. Nelle ultime settimane ha già chiesto due volte di versare contanti.",
+          "questions": [
+            "Puoi accettare i contanti?",
+            "Come ti comporti sul nuovo beneficiario?",
+            "Che cosa dici al cliente se decidi di segnalare?"
+          ],
+          "solution": "No: nel ramo vita i premi non si possono pagare in contanti, a prescindere dall'importo. Il beneficiario va identificato: se il cliente non fornisce i dati, non dai seguito alla designazione. Il ricorso ripetuto al contante è un elemento di sospetto: informi l'impresa e valutate la segnalazione alla UIF. Al cliente non dici nulla della segnalazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente vuole pagare in contanti il premio annuo di 600 euro di una polizza incendio dell'abitazione. Puoi accettarlo?",
+          "options": [
+            "No, il contante è sempre vietato per i premi",
+            "Sì, nei rami danni diversi dall'RC auto il contante è ammesso fino a 750 euro annui per contratto",
+            "Sì, ma solo fino a 500 euro",
+            "Solo se il cliente firma una dichiarazione"
+          ],
+          "answer": 1,
+          "explanation": "Per i danni diversi dall'RC auto il divieto riguarda i premi superiori a 750 euro annui per contratto. Nel ramo vita, invece, il contante è sempre vietato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Dopo aver inviato una segnalazione di operazione sospetta, il cliente ti chiede perché la pratica è ferma. Che cosa fai?",
+          "options": [
+            "Gli spieghi che è in corso una verifica della UIF",
+            "Non riveli nulla della segnalazione: il divieto di comunicazione è sanzionato penalmente",
+            "Gli consigli di rivolgersi a un'altra agenzia",
+            "Gli mostri la segnalazione per trasparenza"
+          ],
+          "answer": 1,
+          "explanation": "È vietato comunicare al cliente o a terzi l'avvenuta segnalazione o l'esistenza di approfondimenti. Chi viola il divieto rischia l'arresto e l'ammenda."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Vita",
+              "text": "il Regolamento IVASS 44/2019 riguarda solo i rami vita"
+            },
+            {
+              "value": "10 anni",
+              "text": "la conservazione di documenti, dati e informazioni"
+            },
+            {
+              "value": "Senza ritardo",
+              "text": "la segnalazione alla UIF, e mai una parola al cliente"
+            },
+            {
+              "value": "750 €",
+              "text": "il contante ammesso per i premi danni non RC auto; nel vita mai"
+            },
+            {
+              "value": "2027",
+              "text": "dal 10 luglio si applica il regolamento europeo AMLR"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione ci concentriamo su chi distribuisce polizze: gli obblighi specifici previsti dal Regolamento IVASS 44 del 2019, la segnalazione delle operazioni sospette, i limiti al contante e le novità europee in arrivo.\n\nIl Regolamento IVASS numero 44 del 2019 precisa e amplia gli obblighi antiriciclaggio a carico di imprese e intermediari assicurativi. Il punto da ricordare subito è l'ambito: si applica solo all'operatività nei rami vita. Chi distribuisce esclusivamente polizze danni non è soggetto a questi obblighi. Il Regolamento è in vigore dal 1° maggio 2019, vale anche per i rapporti già in essere a quella data ed è stato modificato due volte: nel 2021, con il Provvedimento 111, e nel 2024, con il Provvedimento 144, che ha introdotto la figura del consigliere responsabile per l'antiriciclaggio.\n\nPer le imprese il Regolamento dettaglia gli obiettivi del sistema di governo societario e del controllo interno, la cultura del controllo, i flussi informativi e i canali di comunicazione. L'articolo 10, lettera b), chiede all'organo amministrativo di approvare una politica aziendale che indichi le scelte rilevanti su assetti organizzativi, procedure e controlli interni, conservazione dei dati e adeguata verifica, per assicurare coerenza con l'effettiva esposizione al rischio. Il materiale del corso ricordava che la politica fissa anche i requisiti di onorabilità, professionalità e indipendenza del titolare della funzione antiriciclaggio e, se diverso, del delegato alle segnalazioni; dopo le modifiche del 2024 il testo parla dei requisiti di professionalità del consigliere responsabile per l'antiriciclaggio, dei conflitti di interesse e dei casi in cui il titolare della funzione riferisce direttamente agli organi sociali. L'alta direzione cura l'attuazione degli indirizzi strategici e della politica di gestione del rischio definiti dall'organo amministrativo, descrive in un documento analitico le scelte concrete sui diversi profili e garantisce la coerenza delle scelte operative di dettaglio. Sull'esternalizzazione il materiale diceva che, esternalizzando la funzione, si nomina un titolare al posto del preposto; oggi le regole sono più nette: si possono esternalizzare i compiti della funzione antiriciclaggio, non la sua responsabilità, e resta necessario un responsabile interno che monitori e controlli le attività affidate all'esterno.\n\nVeniamo agli intermediari. Per presidiare il rischio di riciclaggio richiamano negli accordi con il proprio personale le regole di comportamento da seguire nella distribuzione; si assicurano che chi distribuisce polizze vita per loro conto sia adeguatamente formato in antiriciclaggio, e le ore dedicate valgono ai fini dell'aggiornamento professionale; adottano strumenti operativi e procedure e li forniscono a dipendenti e collaboratori. Queste procedure devono garantire due cose: che si sappia chi ha raccolto i dati e che documenti, dati e informazioni siano conservati. La responsabilità del rispetto delle regole resta in capo all'intermediario.\n\nSulla conservazione, gli intermediari conservano documenti, dati e informazioni in modo da poter ricostruire l'operatività del cliente. Il decreto antiriciclaggio fissa la durata: dieci anni dalla cessazione del rapporto continuativo o dall'esecuzione dell'operazione occasionale. Per farlo l'intermediario può avvalersi delle stesse imprese di cui distribuisce i prodotti, con clausole espresse negli accordi di distribuzione che valgano anche dopo la fine del rapporto, oppure può esternalizzare la conservazione a un terzo con un accordo specifico. Se rinuncia ad avvalersi dell'impresa, deve proseguire da solo o tramite un terzo.\n\nL'articolo 55 elenca che cosa fa l'intermediario nell'adeguata verifica. Identifica il cliente, il beneficiario, i rispettivi titolari effettivi e l'esecutore. Ne verifica l'identità nei casi in cui l'impresa gli affida anche fasi della liquidazione della prestazione. Raccoglie tutte le informazioni e la documentazione che l'impresa richiede per valutare il rischio del cliente. Conserva, su carta o in formato elettronico, copia del documento d'identità e dell'altra documentazione. Mette immediatamente a disposizione dell'impresa ciò che ha raccolto. Svolge un controllo costante sul comportamento di ogni soggetto, beneficiario compreso, anche quando distribuisce polizze di più imprese o quando la prestazione viene liquidata da un'impresa per cui non lavora, e informa l'impresa del comportamento del cliente. Infine, quando non c'è un'impresa di riferimento, valuta se segnalare direttamente alla UIF.\n\nDue situazioni pratiche meritano attenzione. La prima è il terzo pagatore: se il premio viene pagato da una persona diversa dal contraente, l'impresa la identifica e acquisisce la sua relazione con il contraente; con il bonifico, è il contraente a dichiarare questa relazione. Impresa e intermediario chiedono informazioni integrative se la relazione dichiarata o il mezzo di pagamento lasciano intravedere anomalie. La seconda è l'impossibilità di fare l'adeguata verifica: in questo caso la legge impone di astenersi. Non si instaura il rapporto e non si esegue l'operazione. Se il rapporto è già in essere, l'impresa non accetta modifiche contrattuali né versamenti aggiuntivi non obbligatori e non dà seguito alla designazione di nuovi beneficiari; in ogni caso valuta se inviare una segnalazione e, se si tratta di una liquidazione, se chiederne la sospensione alla UIF.\n\nParliamo della segnalazione di operazione sospetta. L'obbligo nasce quando si sa, si sospetta o si hanno motivi ragionevoli per sospettare che siano in corso, compiute o tentate operazioni di riciclaggio o di finanziamento del terrorismo, o che i fondi provengano da attività criminosa, qualunque sia l'importo. Il sospetto si desume dalle caratteristiche, dall'entità, dalla natura delle operazioni, dal loro collegamento o frazionamento, tenendo conto della capacità economica e dell'attività del cliente. La legge cita espressamente il ricorso frequente o ingiustificato al contante, anche sotto i limiti, come elemento di sospetto. La segnalazione va inviata alla UIF, l'Unità di informazione finanziaria per l'Italia, senza ritardo e, di regola, prima di compiere l'operazione; contiene i dati, la descrizione delle operazioni e i motivi del sospetto, e chi segnala collabora rispondendo tempestivamente alle richieste della UIF. Per supportare i segnalanti la UIF emana indicatori di anomalia.\n\nDal 1° luglio 2026 si applicano le nuove istruzioni della UIF, adottate con il Provvedimento del 18 dicembre 2025, che sostituiscono quelle del 2011. Descrivono la segnalazione come un percorso: si individuano le anomalie, si approfondiscono e si rappresenta il sospetto. Indicatori, schemi e strumenti informatici, compresa l'intelligenza artificiale, sono un aiuto, ma non sostituiscono il giudizio professionale e non fanno scattare automaticamente l'obbligo. Non c'è un termine fisso, ma vanno evitati ritardi ingiustificati. La riservatezza copre anche l'identità di chi ha rilevato e valutato il sospetto, che non deve comparire nelle comunicazioni interne né nella segnalazione. Se si chiede alla UIF di sospendere un'operazione, ci si astiene dall'eseguirla; la UIF risponde entro due giorni lavorativi e la sospensione può durare al massimo cinque giorni lavorativi. Infine la UIF restituisce ai segnalanti gli esiti e, per chi segnala molto, schede di feedback almeno annuali.\n\nStrettamente collegato è il divieto di comunicazione. Non si può dire al cliente o a terzi che è stata fatta una segnalazione, che la UIF ha chiesto ulteriori informazioni o che sono in corso, o probabili, approfondimenti. Come abbiamo visto, la violazione è un reato. D'altra parte, chi segnala in buona fede è protetto: la segnalazione non viola obblighi di riservatezza e non comporta responsabilità, anche se chi la fa non conosce l'attività criminosa sottostante.\n\nPassiamo al contante. Il materiale del corso ricostruiva così l'evoluzione: la Legge di Stabilità 2016 aveva fissato il limite a 3.000 euro; il cosiddetto Decreto Fiscale, convertito nella legge 157 del 2019, lo ha ridotto a 2.000 euro dal 1° luglio 2020 e prevedeva 1.000 euro dal 1° gennaio 2022. Oggi il quadro è diverso: come ricorda la Banca d'Italia, la legge vieta i pagamenti in contanti di 5.000 euro o più, con sanzioni amministrative sia per chi paga sia per chi riceve.\n\nPer i premi assicurativi c'è una regola specifica, nel Regolamento IVASS 40 del 2018. Nel ramo vita i distributori non possono ricevere contanti per i premi, di nessun importo. Nei rami danni il divieto riguarda i premi superiori a 750 euro annui per ciascun contratto. Il divieto non opera per l'RC auto e per le garanzie accessorie riferite allo stesso veicolo, per le quali resta comunque il limite generale al contante. Il materiale del corso indicava per l'RC auto un limite di 3.000 euro per contratto fino a giugno 2020: è un riferimento ormai superato.\n\nChiudiamo con il futuro. Il 19 giugno 2024 sono stati pubblicati i tre atti del nuovo pacchetto antiriciclaggio europeo: il regolamento 2024/1624, la sesta direttiva 2024/1640 e il regolamento 2024/1620, che istituisce l'AMLA, l'Autorità europea antiriciclaggio con sede a Francoforte, operativa dalla metà del 2025. Il regolamento si applicherà direttamente dal 10 luglio 2027: le regole saranno le stesse in tutti gli Stati. Tra le novità, la soglia per le operazioni occasionali scende da 15.000 a 10.000 euro, viene introdotto un limite europeo di 10.000 euro ai pagamenti in contanti a chi vende beni o servizi, con la possibilità per gli Stati di fissarne uno più basso, e i soggetti obbligati dovranno rispondere alle richieste delle unità di informazione finanziaria entro cinque giorni lavorativi.\n\nNel caso pratico trovi riassunto quasi tutto: i contanti per un premio vita non si accettano mai, un beneficiario che non si può identificare non si aggiunge, e un comportamento ripetuto e anomalo si porta all'attenzione dell'impresa per valutare la segnalazione. Senza dire nulla al cliente.",
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 44 del 12 febbraio 2019, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2019/n44/Regolamento_IVASS_44_del_12_febbraio_2019_consolidato_IT.pdf"
+        },
+        {
+          "title": "D.Lgs. 21 novembre 2007, n. 231, testo coordinato con il D.Lgs. 125/2019 (MEF, Dipartimento del Tesoro)",
+          "url": "https://www.dt.mef.gov.it/export/sites/sitodt/modules/documenti_it/prevenzione_reati_finanziari/normativa/Decreto_legislativo_21_novembre_2007x_n._231_di_recepimento_della_V_Direttiva_eurpea_antiriciclaggio.pdf"
+        },
+        {
+          "title": "UIF, Quaderni dell'antiriciclaggio, Rassegna normativa I semestre 2026",
+          "url": "https://uif.bancaditalia.it/pubblicazioni/quaderni/2026/quaderno-rn-1-2026/Quaderni_RassegnaNormativa_I_2026.pdf"
+        },
+        {
+          "title": "UIF, Quaderni dell'antiriciclaggio, Rassegna normativa I semestre 2024",
+          "url": "https://uif.bancaditalia.it/pubblicazioni/quaderni/2024/quaderno-rn-1-2024/Quaderni_RassegnaNormativa_I_2024.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018.pdf"
+        },
+        {
+          "title": "Banca d'Italia, Economia per tutti: Contante",
+          "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/pagamenti/contante/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Ambito, entrata in vigore e modifiche del Reg. IVASS 44/2019 (Provv. 111/2021 e 144/2024, consigliere responsabile per l'antiriciclaggio).",
+          "source_ref": "Reg. IVASS 44/2019, artt. 3, 61; UIF Rassegna I/2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Contenuto della politica (art. 10, lett. b) aggiornato dopo il Provv. 144/2024; esternalizzazione: si esternalizzano i compiti, non la responsabilità (la fonte parlava di «titolare» in luogo del «preposto»).",
+          "source_ref": "Reg. IVASS 44/2019, art. 10; UIF Rassegna I/2024"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Formazione antiriciclaggio valida per l'aggiornamento professionale, conservazione decennale con clausole negli accordi, verifica dell'identità in fase di liquidazione, controllo costante sul beneficiario.",
+          "source_ref": "Reg. IVASS 44/2019, artt. 26-28, 55"
+        },
+        {
+          "kind": "modificato",
+          "description": "Lett. b) dell'art. 55: la verifica dell'identità da parte dell'intermediario riguarda i casi in cui l'impresa gli affida fasi della liquidazione (la fonte la indicava in modo generale).",
+          "source_ref": "Reg. IVASS 44/2019, art. 55, c. 1, lett. b"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Terzo pagatore del premio e obbligo di astensione.",
+          "source_ref": "Reg. IVASS 44/2019, artt. 42, 57; D.Lgs. 231/2007, art. 42"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Segnalazione di operazione sospetta, divieto di comunicazione ed esonero da responsabilità per la segnalazione in buona fede.",
+          "source_ref": "D.Lgs. 231/2007, artt. 35, 39"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nuove istruzioni UIF sulle segnalazioni, applicabili dal 1° luglio 2026 (Provv. 18 dicembre 2025): percorso valutativo, tempi, riservatezza, sospensione, flusso di ritorno.",
+          "source_ref": "UIF Rassegna I/2026"
+        },
+        {
+          "kind": "modificato",
+          "description": "Limite al contante aggiornato: oggi vietati i pagamenti da 5.000 euro in su. Mantenuta dalla fonte la ricostruzione storica (3.000, 2.000 dal 1/7/2020, 1.000 dal 1/1/2022).",
+          "source_ref": "Banca d'Italia, Economia per tutti"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: limite RC auto di 3.000 euro per contratto fino a giugno 2020, segnalato come superato. Oggi per RC auto e accessorie il divieto del Reg. 40/2018 non opera.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pacchetto AML UE: AMLR, VI direttiva, AMLA (Francoforte), applicazione dal 10 luglio 2027, soglia operazioni occasionali 10.000 euro, limite europeo al contante 10.000 euro, risposta alla FIU entro 5 giorni lavorativi.",
+          "source_ref": "UIF Rassegna I/2024"
+        }
+      ]
+    }
+  ]
+}

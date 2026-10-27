@@ -1,0 +1,564 @@
+{
+  "module": "Area informatica",
+  "topic": "Applicazioni, procedure e tecnologie dell'impresa per l'intermediario",
+  "topic_order": 1,
+  "scope": "core",
+  "source_minutes": 20,
+  "lessons": [
+    {
+      "title": "Dati, archivio clienti e CRM in agenzia",
+      "source_files": [
+        "corso totale/Applicazioni e procedure e altre tecnologie predisposte dallimpresa.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Applicazioni/procedure e altre tecnologie predisposte dall’impresa/e con cui l’intermediario opera /applicazioni e procedure ed altre tecnologie predisposte.mp4"
+      ],
+      "source_minutes": 9,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Applicazioni, procedure e tecnologie dell'impresa per l'intermediario",
+          "title": "Dati, archivio clienti e CRM in agenzia",
+          "goals": [
+            "Capire come viaggiano i dati tra compagnia e agenzia",
+            "Costruire un archivio clienti unico, anche in plurimandato",
+            "Usare CRM e report gestionali per guidare l'attività"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da dove partiamo",
+          "key": "Gran parte degli applicativi di compagnia di vecchia generazione, con funzioni di emissione e contabilità, sta su un server fisicamente collocato in agenzia.",
+          "body": "Le compagnie stanno spostando questi servizi online. Ne nasce un bisogno nuovo: un flusso di ritorno dei dati che alimenti un database alla portata dell'agenzia.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Due modelli a confronto",
+          "left": {
+            "title": "Server in agenzia",
+            "items": [
+              "Emissione e contabilità girano su una macchina locale",
+              "I dati sono fisicamente in agenzia",
+              "Manutenzione, backup e sicurezza a carico dell'agenzia"
+            ]
+          },
+          "right": {
+            "title": "Servizi online della compagnia",
+            "items": [
+              "Si lavora sul portale della compagnia",
+              "I dati restano sui sistemi della compagnia",
+              "Serve un flusso di ritorno per averli anche in agenzia"
+            ]
+          },
+          "note": "Senza flusso di ritorno l'agenzia vede i propri clienti solo dentro il portale di ciascuna compagnia.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "XML: il linguaggio dello scambio",
+          "key": "XML (Extensible Markup Language) è un metalinguaggio: serve a creare nuovi linguaggi per descrivere documenti strutturati.",
+          "body": "Ogni dato viaggia dentro un'etichetta che ne dice il significato: contraente, numero di polizza, scadenza, premio. Così il database dell'agenzia sa dove collocare ogni informazione ricevuta dalla compagnia.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il flusso dei dati",
+          "steps": [
+            {
+              "label": "Database compagnia",
+              "text": "Polizze, titoli, incassi e sinistri nascono sui sistemi della compagnia."
+            },
+            {
+              "label": "Tracciato XML",
+              "text": "La compagnia esporta i dati in un formato strutturato e documentato."
+            },
+            {
+              "label": "Importazione",
+              "text": "Il gestionale di agenzia legge il file e aggiorna le schede."
+            },
+            {
+              "label": "Database agenzia",
+              "text": "L'agenzia consulta, incrocia ed elabora i dati in autonomia."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il cliente al centro",
+          "key": "Il cliente deve essere l'oggetto del nostro focus, soprattutto in plurimandato: ogni sistema di compagnia offre per forza una visione parziale.",
+          "body": "Navigare nella posizione assicurativa di un cliente richiede spesso di consultare direttamente l'immagine digitale dei documenti cartacei: proposte, quietanze, denunce di sinistro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Che cosa contiene la scheda cliente",
+          "lead": "Un archivio unico mette insieme ciò che le compagnie mostrano separatamente.",
+          "facts": [
+            {
+              "label": "Anagrafica",
+              "text": "Dati identificativi e recapiti aggiornati"
+            },
+            {
+              "label": "Polizze",
+              "text": "Tutti i contratti, di tutte le compagnie"
+            },
+            {
+              "label": "Sinistri",
+              "text": "Denunce aperte e chiuse, con stato"
+            },
+            {
+              "label": "Incassi",
+              "text": "Premi pagati, scadenze, arretrati"
+            },
+            {
+              "label": "Documenti",
+              "text": "Immagini digitali dei documenti firmati"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il CRM: che cosa permette di fare",
+          "items": [
+            {
+              "text": "Gestire e tracciare le relazioni con clienti e prospect"
+            },
+            {
+              "text": "Vedere la situazione attuale del cliente: polizze, sinistri, incassi"
+            },
+            {
+              "text": "Chiedere preventivi in tempo reale, anche in mobilità"
+            },
+            {
+              "text": "Misurare trattative in corso, previsioni di vendita e budget da raggiungere"
+            },
+            {
+              "text": "Integrare piattaforma telefonica e strumenti social"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il report gestionale",
+          "key": "Il report gestionale permette all'agente-manager di seguire l'evoluzione dei risultati e di indirizzare l'attività del proprio team.",
+          "body": "Spesso una parte grossa della redditività dell'agenzia viene da pochissimi grandi clienti. Vanno conosciuti bene, per poterne avere particolare cura.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Automatismi e reporting amministrativi",
+          "head": [
+            "Funzione",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "Portafoglio univoco",
+              "Una sola vista del portafoglio anche con più mandati"
+            ],
+            [
+              "Analisi del portafoglio",
+              "Analisi globale e sistematica dei clienti, statistiche per il CRM"
+            ],
+            [
+              "Liste ed estrattori",
+              "Selezioni mirate: scadenze, clienti senza una certa copertura"
+            ],
+            [
+              "Flusso dati automatico",
+              "Meno inserimenti manuali, meno errori"
+            ],
+            [
+              "Archiviazione ottica",
+              "Documenti digitalizzati e ricercabili"
+            ],
+            [
+              "Controllo contabile",
+              "Tutti i dati di controllo della gestione contabile in un punto"
+            ],
+            [
+              "Strumenti decisionali",
+              "Dati pronti per scegliere priorità e azioni"
+            ],
+            [
+              "Comunicazione",
+              "Contatto più veloce con i clienti tramite strumenti multimediali"
+            ],
+            [
+              "Più sedi, più utenti",
+              "Lavoro su più sedi e in modalità multiutente"
+            ]
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché in un'agenzia plurimandataria serve un archivio clienti unico?",
+          "options": [
+            "Perché ogni compagnia vieta di consultare i propri sistemi",
+            "Perché ogni sistema di compagnia mostra solo una parte della posizione del cliente",
+            "Perché il formato XML funziona solo con un archivio unico",
+            "Perché il CRM sostituisce i sistemi di emissione delle compagnie"
+          ],
+          "answer": 1,
+          "explanation": "Ogni compagnia vede solo i propri contratti. Solo l'archivio dell'agenzia ricompone la posizione completa del cliente."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia ha tre mandati. Un cliente chiama: vuole sapere quali polizze ha in scadenza nei prossimi due mesi e se il sinistro dell'auto è stato liquidato. L'addetto apre tre portali diversi e impiega venti minuti.",
+          "questions": [
+            "Quale strumento avrebbe evitato i tre accessi separati?",
+            "Che cosa serve perché quello strumento sia aggiornato?"
+          ],
+          "solution": "Un gestionale con archivio clienti unico e CRM, alimentato dal flusso di ritorno dei dati delle tre compagnie (ad esempio con tracciati XML). Con l'importazione periodica, la scheda del cliente mostra in un'unica schermata polizze, scadenze, sinistri e incassi, e un estrattore può produrre in anticipo la lista delle scadenze."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Online",
+              "text": "I servizi di compagnia si spostano online: serve un flusso di ritorno verso l'agenzia."
+            },
+            {
+              "value": "XML",
+              "text": "Metalinguaggio per descrivere documenti strutturati e scambiare dati."
+            },
+            {
+              "value": "Cliente",
+              "text": "Al centro, con un archivio unico anche in plurimandato."
+            },
+            {
+              "value": "CRM",
+              "text": "Relazioni, situazione del cliente, preventivi, trattative, canali."
+            },
+            {
+              "value": "Report",
+              "text": "Per guidare il team e curare i pochi grandi clienti che pesano di più."
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo degli strumenti informatici con cui l'intermediario lavora ogni giorno: come arrivano in agenzia i dati delle compagnie, come si costruisce un archivio dei clienti che sia davvero utile e come si usano il CRM e i report gestionali per guidare l'attività.\n\nPartiamo dalla situazione storica. Gran parte degli applicativi e delle procedure di compagnia di vecchia generazione, quelli con le funzioni di emissione delle polizze e di contabilità, sono installati su una macchina server che si trova fisicamente in agenzia. È un modello che molti di voi conoscono bene: il server in un locale dell'ufficio, con i dati dei clienti al suo interno.\n\nNegli anni le compagnie hanno cominciato a spostare questi servizi online, sui propri portali. È un cambiamento con vantaggi evidenti, ma porta con sé un problema. Se i dati restano solo sui sistemi della compagnia, l'agenzia perde la disponibilità diretta delle proprie informazioni. Da qui la presa di coscienza: serve un flusso di ritorno, cioè un canale con cui la compagnia restituisce i dati all'agenzia, in modo da alimentare un database che sia alla portata dell'agenzia stessa.\n\nMettiamo a confronto i due modelli. Con il server in agenzia, emissione e contabilità girano su una macchina locale e i dati sono fisicamente in ufficio; in cambio, manutenzione, copie di sicurezza e protezione sono a carico dell'agenzia. Con i servizi online si lavora sul portale della compagnia e i dati restano sui sistemi della compagnia. Senza un flusso di ritorno, però, l'agenzia vede i propri clienti solo dentro il portale di ciascuna compagnia, uno alla volta.\n\nCome viaggiano questi dati? Lo strumento tipico è l'XML, che sta per Extensible Markup Language. L'XML ha uno scopo preciso: è un metalinguaggio, cioè un linguaggio che serve a creare altri linguaggi, adatti a descrivere documenti strutturati. In pratica, ogni informazione viene racchiusa in un'etichetta che ne spiega il significato: il nome del contraente, il numero di polizza, la data di scadenza, l'importo del premio. Chi riceve il file sa così esattamente dove collocare ogni dato.\n\nIl flusso, nella sua forma più semplice, è questo. Polizze, titoli, incassi e sinistri nascono nel database della compagnia. La compagnia li esporta in un tracciato XML, cioè in un formato strutturato e documentato. Il gestionale di agenzia legge il file e aggiorna le schede dei clienti. Alla fine il database dell'agenzia contiene i dati e l'agenzia può consultarli, incrociarli ed elaborarli in autonomia.\n\nArriviamo all'archivio clienti. Il principio è semplice: il cliente deve essere l'oggetto del nostro focus. Questo vale soprattutto nelle situazioni di plurimandato. Ogni singolo sistema di compagnia, per forza di cose, offre una visione parziale: mostra solo i contratti di quella compagnia. Solo l'archivio dell'agenzia può ricomporre la posizione completa della persona o dell'azienda che abbiamo davanti.\n\nC'è un secondo aspetto. Muoversi nella situazione assicurativa di un cliente richiede spesso di consultare direttamente l'immagine digitale dei documenti cartacei: la proposta firmata, la quietanza, la denuncia di sinistro, una dichiarazione. Per questo un buon archivio non contiene solo dati, ma anche le immagini dei documenti, collegate alla scheda del cliente.\n\nChe cosa dovrebbe contenere, allora, una scheda cliente completa? L'anagrafica, con dati identificativi e recapiti aggiornati. Tutte le polizze, di tutte le compagnie. I sinistri, aperti e chiusi, con il loro stato. Gli incassi: premi pagati, scadenze, eventuali arretrati. E i documenti, in forma di immagine digitale.\n\nSu questa base lavora il CRM, Customer Relationship Management, cioè il sistema di gestione delle relazioni con i clienti. Il CRM permette di gestire e tracciare le relazioni con clienti e prospect, ossia i potenziali clienti: chi abbiamo contattato, quando, con quale esito. Mostra la situazione attuale del cliente in termini di polizze, sinistri e incassi. Consente di chiedere preventivi in tempo reale, anche in mobilità, per esempio durante una visita presso il cliente. Produce report e analisi che misurano lo stato delle trattative in corso, le previsioni di vendita e il budget da raggiungere. E integra la piattaforma telefonica con gli strumenti social, così che ogni contatto, da qualunque canale arrivi, finisca nella stessa storia del cliente.\n\nPassiamo al report gestionale. Il report gestionale consente all'agente, nel suo ruolo di manager, di seguire l'evoluzione dei risultati e di indirizzare l'attività del suo team. Un'osservazione ricorrente: spesso una grossa parte della redditività dell'agenzia proviene dagli affari conclusi con un numero davvero piccolo di grandi clienti. Il report serve anche a individuarli, perché sono proprio questi clienti che conviene conoscere bene e seguire con particolare cura.\n\nIl gestionale offre poi una serie di automatismi e di strumenti di reporting amministrativo. Li elenchiamo. La gestione univoca del portafoglio in caso di plurimandato. L'analisi globale e sistematica del proprio portafoglio clienti. La creazione di liste ed estrattori, per esempio tutti i clienti con polizza auto in scadenza il mese prossimo, oppure tutti i clienti con un'abitazione assicurata ma senza copertura per la responsabilità civile. L'elaborazione di statistiche e analisi del portafoglio, utili a gestire al meglio il CRM. L'automazione del flusso dei dati, che riduce gli inserimenti manuali e quindi gli errori. L'archiviazione ottica dei documenti. L'aggregazione di tutti i dati di controllo della gestione contabile. La disponibilità di strumenti decisionali. Una comunicazione più veloce con i clienti attraverso i più recenti strumenti multimediali. E infine l'operatività su più sedi e in modalità multiutente, indispensabile per le agenzie con sub-agenzie o punti vendita.\n\nFacciamo una verifica. Perché in un'agenzia plurimandataria serve un archivio clienti unico? La risposta corretta è la seconda: perché ogni sistema di compagnia mostra solo una parte della posizione del cliente. Non è vero che le compagnie vietino la consultazione dei loro sistemi, né che l'XML funzioni solo con un archivio unico, né che il CRM sostituisca i sistemi di emissione.\n\nVediamo ora un caso pratico. Un'agenzia ha tre mandati. Un cliente telefona: vuole sapere quali polizze ha in scadenza nei prossimi due mesi e se il sinistro della sua auto è stato liquidato. L'addetto deve aprire tre portali diversi e impiega venti minuti per rispondere. Quale strumento avrebbe evitato i tre accessi separati? Un gestionale con archivio clienti unico e CRM. E che cosa serve perché sia aggiornato? Il flusso di ritorno dei dati delle tre compagnie, ad esempio tramite tracciati XML importati con regolarità. Con questo assetto la scheda del cliente mostra in una sola schermata polizze, scadenze, sinistri e incassi. Anzi: con un estrattore l'agenzia avrebbe potuto preparare in anticipo la lista delle scadenze e chiamare il cliente prima che fosse lui a farlo.\n\nRiassumiamo. I servizi di compagnia si stanno spostando online, e per questo serve un flusso di ritorno dei dati verso l'agenzia. L'XML è il metalinguaggio che permette di descrivere e scambiare dati strutturati. Il cliente va messo al centro, con un archivio unico anche in plurimandato. Il CRM gestisce relazioni, situazione del cliente, preventivi, trattative e canali di contatto. E il report gestionale aiuta a guidare il team e a curare i pochi grandi clienti che pesano di più sui risultati. Nella prossima lezione vedremo gli applicativi di supporto: preventivatori, firma elettronica, gestione documentale e cloud.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunti un confronto tra server in agenzia e servizi online, la descrizione del flusso dati in quattro passi, la scheda cliente tipo, una verifica e un caso pratico, come approfondimento didattico del materiale originale.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: gli applicativi di compagnia di vecchia generazione risiedono su un server in agenzia. Possibile aggiornamento: oggi molte compagnie operano già prevalentemente via portale web; la situazione varia da compagnia a compagnia.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Gli applicativi di supporto all'intermediario",
+      "source_files": [
+        "corso totale/Applicazioni e procedure e altre tecnologie predisposte dallimpresa.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Applicazioni/procedure e altre tecnologie predisposte dall’impresa/e con cui l’intermediario opera /applicazioni e procedure ed altre tecnologie predisposte.mp4"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Applicazioni, procedure e tecnologie dell'impresa per l'intermediario",
+          "title": "Gli applicativi di supporto all'intermediario",
+          "goals": [
+            "Conoscere preventivatori, gestionali RSMO, firma e documentale",
+            "Applicare le regole IVASS su firma, PEC, pagamenti e documenti elettronici",
+            "Valutare il cloud e le regole sui fornitori ICT"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il preventivatore",
+          "key": "Il preventivatore serve a formulare preventivi multi-compagnia. Il servizio di preventivazione comparata online è disponibile solo per gli intermediari regolarmente iscritti al RUI.",
+          "body": "Le chiavi di autenticazione, univoche, sono fornite esclusivamente agli iscritti al RUI che chiedono l'attivazione. Questo tipo di applicativo permette anche la vendita via web dei prodotti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due strumenti diversi",
+          "cols": [
+            {
+              "title": "Preventivatore per intermediari",
+              "items": [
+                "Riservato agli iscritti al RUI",
+                "Accesso con chiavi di autenticazione univoche",
+                "Preventivi multi-compagnia e vendita web"
+              ]
+            },
+            {
+              "title": "Preventivass (IVASS)",
+              "items": [
+                "Servizio pubblico gratuito, senza registrazione",
+                "Confronta il contratto base RC auto",
+                "Preventivi validi 60 giorni"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Gestione polizze RSMO",
+          "left": {
+            "title": "Per il broker",
+            "items": [
+              "Si sostituisce alla compagnia anche nella definizione e liquidazione dei sinistri",
+              "Riguarda le polizze di Rimborso Spese Mediche e Ospedaliere"
+            ]
+          },
+          "right": {
+            "title": "Per il contraente",
+            "items": [
+              "Area riservata con un proprio account",
+              "Coperture in essere e condizioni sottoscritte",
+              "Stato dei pagamenti e scadenze",
+              "Rinnovi e pagamenti online"
+            ]
+          },
+          "note": "Il broker può gestire i sinistri solo nei limiti dei poteri conferiti dalla compagnia.",
+          "noteRef": "Materiale originale del corso; nota di chiarimento"
+        },
+        {
+          "layout": "checklist",
+          "title": "La firma: che cosa gestisce l'applicativo",
+          "items": [
+            {
+              "text": "Firma grafometrica multidocumento e multifirmatario (assicurato)"
+            },
+            {
+              "text": "Firma elettronica dell'intermediario"
+            },
+            {
+              "text": "Firma digitale automatica della compagnia"
+            },
+            {
+              "text": "Recupero e verifica dei documenti firmati e dei fascicoli di polizza"
+            },
+            {
+              "text": "Apposizione e verifica delle marche temporali: data e ora certa"
+            },
+            {
+              "text": "Ricerca ed esibizione dei documenti e delle prove di integrità e autenticità"
+            }
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole IVASS sul digitale",
+          "items": [
+            {
+              "label": "Reg. IVASS 8/2015, art. 5",
+              "detail": "Imprese e intermediari favoriscono la firma elettronica avanzata, qualificata e digitale. La polizza può essere un documento informatico così firmato."
+            },
+            {
+              "label": "Reg. IVASS 8/2015, art. 5, c. 3",
+              "detail": "Chi usa la firma avanzata con dati biometrici (grafometrica) rispetta anche le norme sulla protezione dei dati personali."
+            },
+            {
+              "label": "Reg. IVASS 8/2015, artt. 4 e 6",
+              "detail": "PEC obbligatoria per imprese e intermediari delle sezioni A, B e D. Pagamenti elettronici dei premi, anche online, senza oneri per il cliente."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "L'applicativo documentale",
+          "items": [
+            {
+              "text": "Gestione dei documenti con criteri di indicizzazione e ricerca di documenti e fascicoli"
+            },
+            {
+              "text": "Versamento in conservazione dei documenti e fascicoli assicurativi completati"
+            },
+            {
+              "text": "Gestione dell'intero processo di conservazione per l'assicurazione paperless"
+            },
+            {
+              "text": "Ricerca ed esibizione dei fascicoli di polizza e di tutti gli allegati"
+            },
+            {
+              "text": "Prove tecniche di autenticità, integrità e corretta conservazione a norma"
+            },
+            {
+              "text": "Archiviazione dei propri documenti aggiuntivi alle polizze, con accesso riservato"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Documentazione elettronica al cliente",
+          "steps": [
+            {
+              "label": "Consenso",
+              "text": "Prima del contratto si può raccogliere il consenso all'invio elettronico, anche via e-mail o registrazione vocale."
+            },
+            {
+              "label": "Traccia",
+              "text": "Si registrano consenso, eventuale revoca e indirizzo e-mail del cliente con le sue variazioni."
+            },
+            {
+              "label": "Invio",
+              "text": "Ogni comunicazione richiama il consenso dato. Non vale come consenso al marketing."
+            },
+            {
+              "label": "Conservazione",
+              "text": "Procedure di conservazione, anche digitale a norma, che tengono evidenza della scelta del cliente."
+            }
+          ],
+          "ref": "Reg. IVASS 8/2015, artt. 7, 8, 10"
+        },
+        {
+          "layout": "concept",
+          "title": "Il cloud computing",
+          "key": "Il cloud computing permette di accedere ad applicativi e dati da remoto, da qualsiasi PC connesso a Internet. Un valore importante: far lavorare il broker in mobilità.",
+          "body": "I dati però stanno presso un fornitore esterno. Contano quindi la scelta del fornitore, il contratto, la protezione degli accessi e la possibilità di recuperare i dati.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Regolamento (UE) 2022/2554",
+          "title": "DORA e gli intermediari",
+          "lead": "Il regolamento europeo sulla resilienza operativa digitale si applica dal 17 gennaio 2025.",
+          "facts": [
+            {
+              "label": "Che cosa regola",
+              "text": "La gestione dei rischi legati alle tecnologie ICT nel settore finanziario"
+            },
+            {
+              "label": "Imprese",
+              "text": "Si applica alle imprese di assicurazione e riassicurazione soggette a Solvency II"
+            },
+            {
+              "label": "Intermediari",
+              "text": "Solo a quelli che non sono microimprese o PMI"
+            },
+            {
+              "label": "Soglie",
+              "text": "Almeno 250 dipendenti e fatturato oltre 50 milioni o bilancio oltre 43 milioni di euro"
+            },
+            {
+              "label": "Adempimenti",
+              "text": "Segnalazione dei gravi incidenti ICT e registro delle informazioni sui fornitori ICT"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente ha dato il consenso a ricevere la documentazione via e-mail. Che cosa NON è corretto?",
+          "options": [
+            "L'intermediario deve tenere traccia del consenso e dell'indirizzo e-mail",
+            "Il cliente può revocare il consenso, anche via e-mail",
+            "Quel consenso autorizza anche l'invio di materiale promozionale",
+            "Le comunicazioni inviate devono richiamare il consenso dato"
+          ],
+          "answer": 2,
+          "explanation": "Il Reg. IVASS 8/2015 (art. 7, c. 6) precisa che il consenso alla documentazione elettronica non è consenso alle comunicazioni commerciali."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa garantisce la marca temporale apposta su un documento firmato?",
+          "options": [
+            "Che il documento è stato letto dal cliente",
+            "Una data e un'ora certe",
+            "Che il documento è stato inviato via PEC",
+            "Che il premio è stato pagato"
+          ],
+          "answer": 1,
+          "explanation": "La marca temporale attribuisce al documento data e ora certa, verificabili anche in seguito."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un piccolo broker vuole diventare paperless: firma grafometrica su tablet, documenti archiviati in un servizio cloud, invio delle polizze via e-mail.",
+          "questions": [
+            "Quali passaggi deve curare con il cliente prima di inviare i documenti via e-mail?",
+            "A che cosa deve fare attenzione con la firma grafometrica?",
+            "Il broker rientra in DORA?"
+          ],
+          "solution": "Deve raccogliere e tracciare il consenso del cliente all'invio elettronico, registrare l'indirizzo e-mail e informarlo che può revocarlo. Per la firma grafometrica, che raccoglie dati biometrici, deve rispettare anche le norme sulla protezione dei dati personali. I documenti vanno conservati con procedure adeguate, anche di conservazione digitale a norma. Un piccolo broker è di norma una microimpresa o PMI: secondo l'IVASS, DORA si applica solo agli intermediari che non lo sono. Resta comunque prudente scegliere un fornitore cloud affidabile e proteggere gli accessi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "RUI",
+              "text": "Il preventivatore comparato per intermediari è riservato agli iscritti, con chiavi univoche."
+            },
+            {
+              "value": "Firma",
+              "text": "Avanzata, qualificata o digitale: la polizza può essere un documento informatico."
+            },
+            {
+              "value": "Consenso",
+              "text": "Per i documenti elettronici serve il consenso del cliente, tracciato e revocabile."
+            },
+            {
+              "value": "Cloud",
+              "text": "Lavoro in mobilità, con attenzione al fornitore e agli accessi."
+            },
+            {
+              "value": "DORA",
+              "text": "Dal 17 gennaio 2025, per gli intermediari che non sono micro, piccole o medie imprese."
+            }
+          ]
+        }
+      ],
+      "narration": "In questa seconda lezione passiamo in rassegna gli applicativi di supporto che le imprese e i fornitori mettono a disposizione dell'intermediario: il preventivatore, la gestione delle polizze di rimborso spese mediche, la firma elettronica, la gestione documentale e il cloud. Per ciascuno vedremo a che cosa serve e quali regole tenere presenti.\n\nCominciamo dal preventivatore. È lo strumento che serve a formulare preventivi multi-compagnia, cioè a confrontare in pochi minuti le offerte di più imprese per lo stesso rischio. Il servizio di preventivazione comparata online è disponibile solo per gli intermediari regolarmente iscritti al RUI, il Registro unico degli intermediari. Le chiavi di autenticazione, che sono univoche, vengono fornite esclusivamente agli iscritti al RUI che chiedono di attivare il servizio. Questo tipo di applicativo, inoltre, permette di vendere i prodotti via web.\n\nAttenzione a non confondere questo strumento professionale con Preventivass, il preventivatore pubblico RC auto dell'IVASS. Preventivass è un servizio web gratuito, che non richiede registrazione e si rivolge ai consumatori. Confronta i prezzi del contratto base RC auto, previsto dal decreto del Ministero dello Sviluppo Economico numero 54 del 2020, e delle eventuali condizioni aggiuntive; non quota invece garanzie accessorie come furto, incendio o kasko, che si acquistano presso intermediari o compagnie. Riguarda autovetture, motocicli e ciclomotori a uso privato con formula bonus-malus, e i preventivi valgono 60 giorni dalla data di emissione, secondo l'articolo 14 del Regolamento IVASS numero 51 del 2022. Un cliente può arrivare in agenzia con un preventivo Preventivass in mano: conoscerlo aiuta a confrontarlo con la propria proposta.\n\nSecondo applicativo: la gestione delle polizze RSMO, cioè di Rimborso Spese Mediche e Ospedaliere. Questo applicativo ha due funzioni. La prima consente al broker di sostituirsi alla compagnia anche nella fase di definizione e liquidazione del sinistro. Va precisato che il broker può farlo solo nei limiti dei poteri che la compagnia gli ha conferito. La seconda funzione è un'area riservata dedicata a ciascun contraente, accessibile con un proprio account. Lì il cliente può consultare le coperture in essere, le condizioni contrattuali sottoscritte, lo stato dei pagamenti e le relative scadenze, e può anche fare rinnovi e pagamenti.\n\nTerzo applicativo: la firma. Un applicativo di firma completo gestisce la firma grafometrica, cioè quella apposta a mano su un tablet, che registra anche il modo in cui si firma; è multidocumento e multifirmatario, quindi permette all'assicurato di firmare più documenti in una sola sessione. Gestisce poi la firma elettronica dell'intermediario e la firma digitale automatica della compagnia. Permette di recuperare e verificare i documenti firmati e i fascicoli di polizza. Appone e verifica le marche temporali, che danno al documento una data e un'ora certe. E consente di ricercare ed esibire i documenti e le prove della loro integrità e autenticità.\n\nSu questi temi c'è una regola precisa dell'IVASS, il Regolamento numero 8 del 2015 sulla semplificazione delle procedure e degli adempimenti nei rapporti contrattuali. L'articolo 5 stabilisce che imprese e intermediari favoriscono l'uso, da parte di clienti e contraenti, della firma elettronica avanzata, della firma elettronica qualificata e della firma digitale per sottoscrivere la documentazione del contratto. E precisa che la polizza può essere formata come documento informatico sottoscritto con una di queste firme. Lo stesso articolo aggiunge un punto importante: chi adotta la firma elettronica avanzata con acquisizione di dati biometrici, cioè proprio la firma grafometrica, deve rispettare anche le norme sulla protezione dei dati personali. Lo stesso regolamento prevede altri due obblighi utili da ricordare. Le imprese italiane e gli intermediari iscritti nelle sezioni A, B e D del registro devono dotarsi di un indirizzo di posta elettronica certificata e indicarlo negli atti, nella corrispondenza e sul sito, se c'è. E imprese e intermediari devono consentire il pagamento dei premi con strumenti di pagamento elettronici, anche online, senza oneri per i clienti.\n\nQuarto applicativo: il documentale. Serve a gestire i documenti, con criteri di indicizzazione e di ricerca di documenti e fascicoli. Permette di versare in conservazione i documenti e i fascicoli assicurativi completati, e di gestire l'intero processo di conservazione necessario per un'assicurazione senza carta. Consente di ricercare ed esibire i documenti e i fascicoli di polizza con tutti gli allegati. Produce tutte le prove tecniche di autenticità, integrità e corretta conservazione a norma dei documenti digitali, cioè polizze e allegati. E permette di archiviare e conservare digitalmente anche i propri documenti aggiuntivi alle polizze, con accesso riservato.\n\nIl documentale è lo strumento che rende possibile inviare la documentazione al cliente in formato elettronico. Anche qui il Regolamento IVASS 8 del 2015 indica i passaggi. Prima della conclusione del contratto, l'impresa o l'intermediario possono acquisire il consenso del cliente alla trasmissione elettronica della documentazione, anche via e-mail o con registrazione vocale. Devono tenere traccia del consenso, della sua eventuale revoca e dell'indirizzo e-mail del cliente, con le variazioni. Ogni comunicazione con cui si inviano i documenti fa riferimento al consenso dato. E quel consenso non vale come consenso a ricevere materiale promozionale o pubblicitario. Il cliente può revocarlo in qualunque momento, anche via e-mail. Infine, imprese e intermediari adottano procedure di conservazione dei documenti e delle comunicazioni, anche con la conservazione digitale a norma, che tengano evidenza della scelta fatta dal contraente.\n\nQuinto e ultimo: il cloud computing. Il suo valore principale, per l'intermediario, è che può permettere al broker di lavorare in mobilità. Il cloud consente infatti di accedere ad applicativi e dati da remoto, usando qualsiasi PC connesso a Internet. Ricordiamo però il rovescio della medaglia: i dati dei clienti stanno presso un fornitore esterno. Diventano quindi decisivi la scelta del fornitore, le clausole del contratto, la protezione degli accessi, per esempio con password robuste e autenticazione a più fattori, e la possibilità di recuperare i dati in caso di problemi.\n\nSul tema dei fornitori informatici c'è una novità europea: il Regolamento dell'Unione europea 2022/2554, noto come DORA, sulla resilienza operativa digitale del settore finanziario. È applicabile dal 17 gennaio 2025 e stabilisce un quadro comune per la gestione dei rischi legati alle tecnologie dell'informazione e della comunicazione. Si applica alle imprese di assicurazione e riassicurazione soggette a Solvency II. Per gli intermediari, come chiarisce l'IVASS, si applica solo a quelli che non sono microimprese o piccole e medie imprese: quindi, secondo le soglie indicate dall'Istituto, a quelli con almeno 250 dipendenti e con un fatturato annuo superiore a 50 milioni di euro oppure un bilancio annuo superiore a 43 milioni. Per i soggetti coinvolti, l'IVASS ha dato istruzioni sulla segnalazione dei gravi incidenti informatici e sul registro delle informazioni sui fornitori di servizi ICT. La grande maggioranza delle agenzie e dei broker resta fuori da DORA, ma lavora con compagnie che ne sono soggette: per questo è facile che le compagnie chiedano anche agli intermediari regole più rigorose nell'uso dei loro sistemi.\n\nFacciamo due verifiche. Prima domanda: un cliente ha dato il consenso a ricevere la documentazione via e-mail; che cosa non è corretto? La risposta è la terza: quel consenso non autorizza l'invio di materiale promozionale. Le altre affermazioni sono tutte corrette. Seconda domanda: che cosa garantisce la marca temporale? Una data e un'ora certe, verificabili anche in seguito.\n\nPassiamo al caso pratico. Un piccolo broker vuole diventare paperless: firma grafometrica su tablet, documenti archiviati in un servizio cloud, polizze inviate via e-mail. Che cosa deve curare? Prima di inviare i documenti via e-mail deve raccogliere e tracciare il consenso del cliente, registrare l'indirizzo e-mail e informarlo che può revocare il consenso. Con la firma grafometrica raccoglie dati biometrici, quindi deve rispettare anche la disciplina sulla protezione dei dati personali. I documenti vanno conservati con procedure adeguate, anche con la conservazione digitale a norma. E DORA? Un piccolo broker è di norma una microimpresa o una piccola o media impresa, quindi, secondo l'IVASS, DORA non gli si applica. Resta comunque buona prassi scegliere un fornitore cloud affidabile e proteggere bene gli accessi.\n\nRiassumiamo. Il preventivatore comparato per intermediari è riservato agli iscritti al RUI, con chiavi di autenticazione univoche; Preventivass è invece il servizio pubblico dell'IVASS per i consumatori. La polizza può essere un documento informatico firmato con firma avanzata, qualificata o digitale. Per inviare i documenti in formato elettronico serve il consenso del cliente, tracciato e revocabile. Il cloud permette di lavorare in mobilità, purché si curino fornitore e accessi. E DORA, dal 17 gennaio 2025, riguarda le compagnie e gli intermediari che non sono micro, piccole o medie imprese.",
+      "sources": [
+        {
+          "title": "IVASS - Regolamento n. 8 del 3 marzo 2015 (semplificazione delle procedure e degli adempimenti)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2015/n08/REGOLAMENTO-IVASS-n.8-del-3-MARZO-2015.pdf"
+        },
+        {
+          "title": "IVASS - FAQ Preventivatore pubblico (Preventivass)",
+          "url": "https://www.ivass.it/consumatori/preventivatore/faq-preventivatore/index.html"
+        },
+        {
+          "title": "IVASS - Regolamento DORA, informazioni per gli operatori",
+          "url": "https://www.ivass.it/operatori/dora/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunto il confronto con Preventivass, preventivatore pubblico RC auto dell'IVASS: servizio gratuito senza registrazione, contratto base RC auto (D.M. 54/2020), esclusione delle garanzie accessorie, veicoli ammessi, validità 60 giorni (Reg. IVASS 51/2022, art. 14).",
+          "source_ref": "https://www.ivass.it/consumatori/preventivatore/faq-preventivatore/index.html"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunte le regole del Reg. IVASS 8/2015: favore per firma avanzata, qualificata e digitale e polizza come documento informatico (art. 5); dati biometrici e protezione dei dati (art. 5, c. 3); PEC per sezioni A, B, D (art. 4); pagamenti elettronici senza oneri (art. 6); consenso, traccia, revoca della documentazione elettronica (artt. 7-8); conservazione (art. 10).",
+          "source_ref": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2015/n08/REGOLAMENTO-IVASS-n.8-del-3-MARZO-2015.pdf"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunta la scheda su DORA (Reg. UE 2022/2554): applicabile dal 17 gennaio 2025; imprese soggette a Solvency II; intermediari solo se non micro, piccole o medie imprese, con le soglie indicate dall'IVASS; segnalazione gravi incidenti e registro delle informazioni sui fornitori ICT.",
+          "source_ref": "https://www.ivass.it/operatori/dora/index.html"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il broker può sostituirsi alla compagnia nella definizione e liquidazione dei sinistri RSMO. Aggiunto il chiarimento che ciò avviene nei limiti dei poteri conferiti dalla compagnia. Riferimento normativo da indicare.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la preventivazione comparata online è disponibile solo per gli iscritti al RUI con chiavi univoche. Si riferisce ai servizi commerciali per intermediari descritti nel materiale; riferimento da indicare.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunte considerazioni prudenziali sul cloud (fornitore, contratto, accessi, recupero dati), due verifiche e un caso pratico.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

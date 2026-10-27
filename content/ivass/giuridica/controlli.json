@@ -1,0 +1,476 @@
+{
+  "module": "Area giuridica",
+  "topic": "Controlli sull'impresa di assicurazione",
+  "topic_order": 3,
+  "scope": "core",
+  "source_minutes": 20,
+  "lessons": [
+    {
+      "title": "La vigilanza sulle imprese di assicurazione: autorità, IVASS e poteri",
+      "source_files": [
+        "corso totale/Controlli sull'impresa di assicurazione.pdf.pdf",
+        "corso totale/Controlli sull'impresa di assicurazione.1(Video).mp4",
+        "corso totale/Controlli sull'impresa di assicurazione.2 (Video).mp4"
+      ],
+      "source_minutes": 20,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Controlli sull'impresa di assicurazione",
+          "title": "La vigilanza sulle imprese di assicurazione",
+          "goals": [
+            "Sapere quali autorità controllano il settore assicurativo e con quali compiti",
+            "Conoscere natura, organi e finalità dell'IVASS",
+            "Distinguere poteri di indagine, di intervento, di informativa e sanzionatori"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi controlla il settore assicurativo",
+          "head": [
+            "Autorità",
+            "Compiti principali"
+          ],
+          "rows": [
+            [
+              "IVASS · Istituto per la vigilanza sulle assicurazioni",
+              "Vigila sul settore assicurativo con poteri autorizzativi, prescrittivi, accertativi, cautelari e repressivi. Per l'IVASS: imprese, gruppi, intermediari."
+            ],
+            [
+              "MIMIT · Ministero delle imprese e del made in Italy (ex MSE)",
+              "Con decreto, su proposta dell'IVASS: revoca dell'autorizzazione, scioglimento degli organi in amministrazione straordinaria, liquidazione coatta. Vigila sulla CONSAP per i servizi assicurativi."
+            ],
+            [
+              "CONSOB",
+              "Mercati e negoziazioni; trasparenza e correttezza di emittenti, intermediari e promotori finanziari; imprese di assicurazione che emettono prodotti finanziari."
+            ],
+            [
+              "BI · Banca d'Italia",
+              "Banche, intermediari finanziari, IMEL, intermediari non bancari, conglomerati finanziari."
+            ],
+            [
+              "COVIP",
+              "Trasparenza, correttezza e sana e prudente gestione delle forme pensionistiche complementari."
+            ]
+          ],
+          "ref": "Materiale originale; CAP, artt. 4, 5, 231, 242, 245"
+        },
+        {
+          "layout": "timeline",
+          "title": "Dall'ISVAP all'IVASS",
+          "items": [
+            {
+              "value": "1982",
+              "text": "Nasce l'ISVAP con la legge 12 agosto 1982, n. 576",
+              "ref": "CAP, art. 5, c. 5"
+            },
+            {
+              "value": "2005",
+              "text": "Il Codice delle assicurazioni private (D.Lgs. 209/2005) affida all'Istituto anche un vero potere regolamentare",
+              "ref": "CAP, art. 5, c. 2"
+            },
+            {
+              "value": "2012",
+              "text": "Il D.L. 95/2012, convertito dalla legge 135/2012, istituisce l'IVASS",
+              "ref": "Banca d'Italia, Istituito l'IVASS"
+            },
+            {
+              "value": "2013",
+              "text": "Dal 1° gennaio l'IVASS succede all'ISVAP in tutti i poteri, funzioni e competenze",
+              "ref": "Banca d'Italia, Istituito l'IVASS"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Come è fatto l'IVASS",
+          "lead": "Autorità indipendente, con personalità giuridica di diritto pubblico e sede a Roma, entrata nell'orbita della Banca d'Italia.",
+          "head": [
+            "Organo",
+            "Composizione",
+            "Funzioni"
+          ],
+          "rows": [
+            [
+              "P · Presidente",
+              "Il Direttore generale della Banca d'Italia.",
+              "Rappresenta l'Istituto, promuove e coordina l'attività del Consiglio."
+            ],
+            [
+              "C · Consiglio",
+              "Il Presidente e 2 Consiglieri, in carica 6 anni, rinnovabili una volta.",
+              "Amministrazione generale: aspetti gestionali, organizzativi e contabili, bilanci."
+            ],
+            [
+              "D · Direttorio integrato",
+              "Il Governatore, che lo presiede, il Direttore generale e i 3 Vice direttori generali della Banca d'Italia, più i 2 Consiglieri.",
+              "Indirizzo e direzione strategica; atti con rilevanza esterna in materia di vigilanza."
+            ]
+          ],
+          "ref": "IVASS, Chi siamo, Consiglio, Direttorio integrato"
+        },
+        {
+          "layout": "table",
+          "title": "Il potere regolamentare e i regolamenti di procedura",
+          "lead": "L'IVASS adotta i regolamenti necessari per la sana e prudente gestione e per la correttezza dei vigilati.",
+          "head": [
+            "Regolamento",
+            "Oggetto"
+          ],
+          "rows": [
+            [
+              "Reg. IVASS n. 3/2013",
+              "Procedimenti per l'adozione degli atti regolamentari e generali, compresa la fase preparatoria."
+            ],
+            [
+              "Reg. ISVAP n. 2/2006, oggi Reg. IVASS n. 7/2014",
+              "Termini e unità organizzative responsabili dei procedimenti amministrativi."
+            ],
+            [
+              "Reg. ISVAP n. 1/2006 e n. 6/2006",
+              "Procedure per le sanzioni amministrative pecuniarie: imprese (n. 1) e intermediari e periti (n. 6)."
+            ],
+            [
+              "Reg. IVASS n. 39/2018",
+              "Procedura di irrogazione delle sanzioni amministrative oggi in vigore, per le violazioni dal 1° ottobre 2018."
+            ]
+          ],
+          "ref": "CAP, art. 5, c. 2; Reg. IVASS 39/2018, premesse e art. 39"
+        },
+        {
+          "layout": "concept",
+          "title": "Da poteri ispettivi a poteri dispositivi",
+          "key": "All'inizio l'ISVAP aveva ampi poteri ispettivi ma pochi poteri «dispositivi». Solo molti anni dopo la sua istituzione il Ministero gli ha trasferito competenze decisive.",
+          "body": "Sono passate all'Istituto: il rilascio dell'autorizzazione all'esercizio dell'attività assicurativa, la nomina del commissario per singoli atti e dei commissari straordinari, l'approvazione delle fusioni tra società vigilate, la tenuta degli albi di agenti e mediatori. Oggi gli albi sono confluiti nel Registro unico degli intermediari (RUI), tenuto dall'IVASS.",
+          "ref": "Materiale originale; CAP, art. 109"
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi è sottoposto alla vigilanza dell'IVASS",
+          "items": [
+            {
+              "text": "Le imprese, comunque denominate e costituite, che in Italia esercitano l'assicurazione o la riassicurazione, in qualsiasi ramo e forma.",
+              "ref": "art. 6, c. 1, lett. a)"
+            },
+            {
+              "text": "I gruppi assicurativi e i conglomerati finanziari che includono imprese di assicurazione e riassicurazione.",
+              "ref": "art. 6, c. 1, lett. b)"
+            },
+            {
+              "text": "Chi svolge funzioni parzialmente comprese nel ciclo operativo delle imprese, per i soli profili assicurativi, ad esempio i fornitori di attività esternalizzate.",
+              "ref": "art. 6, c. 1, lett. c)"
+            },
+            {
+              "text": "Gli intermediari di assicurazione e di riassicurazione e ogni altro operatore del mercato assicurativo.",
+              "ref": "art. 6, c. 1, lett. d)"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa vigila l'IVASS",
+          "items": [
+            {
+              "text": "La gestione tecnica, finanziaria e patrimoniale delle imprese di assicurazione e riassicurazione."
+            },
+            {
+              "text": "Il rispetto di leggi e regolamenti da parte di tutti gli operatori, compresi agenti e mediatori."
+            },
+            {
+              "text": "Le operazioni straordinarie delle imprese."
+            },
+            {
+              "text": "I gruppi di cui fa parte almeno un'impresa di assicurazione (vigilanza supplementare, oggi vigilanza di gruppo)."
+            },
+            {
+              "text": "Amministrazione straordinaria, liquidazione coatta amministrativa e acquisizioni di partecipazioni."
+            },
+            {
+              "text": "La prevenzione delle frodi."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché e come si vigila",
+          "key": "Scopo principale della vigilanza è l'adeguata protezione degli assicurati e degli aventi diritto alle prestazioni. Altro obiettivo, ma subordinato, è la stabilità del sistema e dei mercati finanziari.",
+          "body": "Per questo l'IVASS persegue la sana e prudente gestione delle imprese e, insieme alla CONSOB, la loro trasparenza e correttezza verso i clienti. La vigilanza usa un metodo prospettico fondato sul rischio: verifica in modo continuo l'attività, combinando controlli a distanza e ispezioni in loco, in proporzione alla natura, alla portata e alla complessità dei rischi.",
+          "ref": "CAP, artt. 3 e 3-bis"
+        },
+        {
+          "layout": "compare",
+          "title": "Poteri di indagine e poteri di intervento",
+          "cols": [
+            {
+              "title": "Indagine · conoscere",
+              "items": [
+                "Chiedere informazioni a tutti i vigilati",
+                "Ordinare l'esibizione di documenti",
+                "Disporre accertamenti e verifiche",
+                "Ispezionare imprese e uffici degli intermediari, anche chi opera senza autorizzazione"
+              ]
+            },
+            {
+              "title": "Intervento · correggere",
+              "items": [
+                "Convocare amministratori, sindaci, direttori generali, revisori, responsabili delle funzioni fondamentali",
+                "Ordinare la convocazione di assemblea e organi",
+                "Convocarli direttamente se l'impresa non obbedisce",
+                "Convocare chi svolge funzioni del ciclo operativo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Misure preventive e correttive",
+          "items": [
+            {
+              "text": "Limitare l'attività, fino a vietare di continuare a vendere un prodotto assicurativo.",
+              "ref": "art. 188, c. 3-bis, lett. a)"
+            },
+            {
+              "text": "Vietare determinate operazioni o limitare i riscatti per al massimo 3 mesi, prorogabili di altri 3.",
+              "ref": "art. 188, c. 3-bis, lett. b)"
+            },
+            {
+              "text": "Vietare la distribuzione di utili e limitare la parte variabile delle remunerazioni.",
+              "ref": "art. 188, c. 3-bis, lett. c)"
+            },
+            {
+              "text": "Imporre il rafforzamento del governo societario e il contenimento dei rischi.",
+              "ref": "art. 188, c. 3-bis, lett. d)"
+            },
+            {
+              "text": "Convocare i legali rappresentanti delle società di intermediazione e gli iscritti al RUI.",
+              "ref": "art. 188, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli obblighi di informativa",
+          "key": "L'IVASS può chiedere ai vigilati dati e notizie, anche periodici, atti e documenti, e qualsiasi informazione sui contratti detenuti da intermediari o conclusi con terzi.",
+          "body": "Lo stesso potere vale verso il revisore legale dei conti e verso esperti esterni come gli attuari. L'organo di controllo dell'impresa deve informare senza indugio l'IVASS di atti o fatti che possono essere irregolarità di gestione o violazioni delle norme.",
+          "ref": "CAP, art. 190"
+        },
+        {
+          "layout": "concept",
+          "title": "Le sanzioni e il Collegio di garanzia",
+          "key": "L'IVASS accerta e applica le sanzioni previste dal Codice per la violazione delle norme di comportamento.",
+          "body": "Presso l'IVASS è costituito un Collegio di garanzia, davanti al quale l'intermediario a cui sono stati contestati addebiti può presentare difese e chiedere di essere ascoltato, anche con un avvocato. Il Collegio propone l'archiviazione o la sanzione; decide l'IVASS. La procedura è approfondita nell'argomento dedicato alle sanzioni.",
+          "ref": "CAP, art. 324-octies; Reg. IVASS 39/2018"
+        },
+        {
+          "layout": "table",
+          "title": "Oltre confine e nei gruppi",
+          "head": [
+            "Ambito",
+            "Che cosa fa l'IVASS"
+          ],
+          "rows": [
+            [
+              "Società veicolo",
+              "Coopera e scambia informazioni con le autorità UE sui contratti tra imprese e società veicolo di Stati diversi."
+            ],
+            [
+              "Attività esternalizzate",
+              "Ispeziona i locali del fornitore in un altro Stato membro, informando quell'autorità, o le delega l'ispezione."
+            ],
+            [
+              "Gruppi assicurativi",
+              "Revisione prudenziale del gruppo; solvibilità, concentrazione dei rischi, operazioni infragruppo; governance e requisiti degli esponenti delle controllanti."
+            ]
+          ],
+          "ref": "CAP, artt. 203-bis, 205-bis, 212-bis"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi dispone la revoca dell'autorizzazione all'esercizio dell'attività assicurativa?",
+          "options": [
+            "La CONSOB, d'intesa con la Banca d'Italia",
+            "Il Ministro delle imprese e del made in Italy, con decreto su proposta dell'IVASS",
+            "Il Collegio di garanzia",
+            "L'assemblea dei soci dell'impresa"
+          ],
+          "answer": 1,
+          "explanation": "La revoca è disposta con decreto del Ministro (prima dello sviluppo economico, oggi delle imprese e del made in Italy) su proposta dell'IVASS. Lo stesso schema vale per lo scioglimento degli organi in amministrazione straordinaria e per la liquidazione coatta amministrativa."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia riceve dall'IVASS una richiesta di trasmettere, entro un termine, le copie dei contratti collocati per un certo prodotto e la documentazione precontrattuale consegnata ai clienti. Il titolare pensa di non rispondere: «l'IVASS vigila sulle compagnie, non su di noi».",
+          "questions": [
+            "Il titolare ha ragione?",
+            "Che cosa può fare l'IVASS?"
+          ],
+          "solution": "No. Gli intermediari sono vigilati dall'IVASS, che può chiedere documenti e dati sui contratti, ispezionare gli uffici e convocare gli iscritti al RUI. L'agenzia deve rispondere nei tempi indicati. Se emergono violazioni, l'intermediario potrà difendersi davanti al Collegio di garanzia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è lo scopo principale della vigilanza assicurativa secondo il Codice?",
+          "options": [
+            "Aumentare la redditività delle imprese",
+            "L'adeguata protezione degli assicurati e degli aventi diritto alle prestazioni",
+            "La stabilità dei mercati finanziari, prima di ogni altro obiettivo",
+            "Controllare i prezzi delle polizze"
+          ],
+          "answer": 1,
+          "explanation": "Lo scopo principale è la protezione degli assicurati e degli aventi diritto. La stabilità del sistema e dei mercati finanziari è un altro obiettivo, ma subordinato al primo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "IVASS",
+              "text": "vigila su imprese, gruppi, intermediari e operatori; dal 2013 succede all'ISVAP"
+            },
+            {
+              "value": "MIMIT",
+              "text": "revoca, amministrazione straordinaria e liquidazione coatta, su proposta IVASS"
+            },
+            {
+              "value": "3 organi",
+              "text": "Presidente, Consiglio e Direttorio integrato"
+            },
+            {
+              "value": "Assicurati",
+              "text": "la loro protezione è lo scopo principale; la stabilità viene dopo"
+            },
+            {
+              "value": "Collegio",
+              "text": "di garanzia: l'intermediario può essere ascoltato prima della sanzione"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo quali autorità controllano le imprese di assicurazione, com'è fatto l'IVASS, perché si vigila e con quali strumenti.\n\nPartiamo dalla mappa delle autorità. Il sistema dei controlli pubblici sul settore assicurativo è affidato all'IVASS, l'Istituto per la vigilanza sulle assicurazioni. I suoi poteri, dice il Codice, sono autorizzativi, prescrittivi, accertativi, cautelari e repressivi. Accanto all'IVASS c'è il Ministero, che il materiale del corso chiama Ministero dello sviluppo economico e che oggi si chiama Ministero delle imprese e del made in Italy. Il Ministro adotta i provvedimenti previsti dal Codice nell'ambito della politica assicurativa del Governo. In particolare, con decreto e su proposta dell'IVASS, dispone la revoca dell'autorizzazione all'esercizio dell'attività assicurativa, lo scioglimento degli organi dell'impresa quando si apre l'amministrazione straordinaria, e la liquidazione coatta amministrativa. Al Ministero compete inoltre la vigilanza sulla CONSAP per i servizi assicurativi.\n\nCi sono poi altre tre autorità. La CONSOB vigila sulle società di gestione dei mercati, sulla trasparenza e sull'ordinato svolgimento delle negoziazioni, sulla trasparenza e correttezza di emittenti, intermediari e promotori finanziari; vigila anche sulle imprese di assicurazione quando emettono prodotti finanziari. La Banca d'Italia vigila su banche, intermediari finanziari, istituti di moneta elettronica, intermediari non bancari e conglomerati finanziari. La COVIP vigila sulla trasparenza, sulla correttezza e sulla sana e prudente gestione delle forme pensionistiche complementari, a tutela di iscritti e beneficiari, e sul buon funzionamento del sistema di previdenza complementare.\n\nUn po' di storia. Nel 1982, con la legge 576, nasce l'ISVAP. Con il Codice delle assicurazioni private del 2005 l'Istituto riceve, oltre ai tradizionali poteri di vigilanza, un vero e proprio potere regolamentare sul settore. Nel 2012 il decreto legge 95, convertito dalla legge 135, istituisce l'IVASS, che dal 1° gennaio 2013 succede all'ISVAP in tutti i poteri, le funzioni e le competenze. Cambia la struttura: l'Istituto entra nell'orbita della Banca d'Italia. L'IVASS è una delle cosiddette autorità indipendenti, ha personalità giuridica di diritto pubblico e sede a Roma.\n\nGli organi dell'IVASS sono tre. Il Presidente è il Direttore generale della Banca d'Italia: rappresenta l'Istituto e promuove e coordina l'attività del Consiglio. Il Consiglio è composto dal Presidente e da due Consiglieri, che restano in carica sei anni e possono essere rinnovati una sola volta. Al Consiglio spettano funzioni per lo più organizzative interne: l'amministrazione generale, cioè gli aspetti gestionali, organizzativi e contabili, compresi i bilanci. Il Direttorio integrato è presieduto dal Governatore della Banca d'Italia ed è composto dal Direttore generale, dai tre Vice direttori generali della Banca e dai due Consiglieri dell'IVASS. Il Direttorio integrato svolge l'indirizzo e la direzione strategica dell'Istituto e adotta gli atti con rilevanza esterna in materia di vigilanza assicurativa.\n\nParliamo del potere regolamentare. L'IVASS adotta ogni regolamento necessario per la sana e prudente gestione delle imprese o per la trasparenza e la correttezza dei comportamenti dei soggetti vigilati, e rende note raccomandazioni e interpretazioni. Anche il modo in cui l'Istituto lavora è regolato. Il Regolamento IVASS numero 3 del 2013 disciplina i procedimenti per l'adozione degli atti regolamentari e generali, compresa la fase preparatoria, cioè la consultazione pubblica. Il materiale del corso cita il Regolamento ISVAP numero 2 del 2006 per i termini e le unità organizzative responsabili dei procedimenti; oggi questa materia è disciplinata dal Regolamento IVASS numero 7 del 2014. I Regolamenti ISVAP numero 1 e numero 6 del 2006 definivano le procedure per le sanzioni amministrative pecuniarie, il primo per le imprese, il secondo per intermediari e periti. Oggi la procedura sanzionatoria è regolata dal Regolamento IVASS numero 39 del 2018, che si applica alle violazioni commesse dal 1° ottobre 2018.\n\nCome si è arrivati ai poteri di oggi? All'inizio l'ISVAP aveva ampi poteri ispettivi, ma pochi poteri dispositivi, cioè pochi poteri di decidere. Solo molti anni dopo la sua istituzione c'è stato un progressivo trasferimento di competenze dal Ministero all'Istituto: il rilascio dell'autorizzazione all'esercizio dell'attività assicurativa, la nomina del commissario per il compimento di singoli atti e dei commissari straordinari, l'approvazione delle fusioni tra società vigilate e la tenuta degli albi degli agenti e dei mediatori di assicurazione. Oggi quegli albi sono confluiti nel Registro unico elettronico degli intermediari, il RUI, disciplinato e tenuto dall'IVASS.\n\nChi è sottoposto alla vigilanza? Il Codice indica quattro gruppi. Primo, le imprese, comunque denominate e costituite, che esercitano in Italia attività di assicurazione o di riassicurazione in qualsiasi ramo e in qualsiasi forma. Secondo, i gruppi assicurativi e i conglomerati finanziari che comprendono imprese di assicurazione e di riassicurazione. Terzo, i soggetti che svolgono funzioni parzialmente comprese nel ciclo operativo delle imprese, limitatamente ai profili assicurativi: pensiamo a chi gestisce in outsourcing la liquidazione dei sinistri o l'informatica di una compagnia. Quarto, gli intermediari di assicurazione e di riassicurazione e ogni altro operatore del mercato assicurativo.\n\nSu che cosa si esercita la vigilanza? Sulla gestione tecnica, finanziaria e patrimoniale delle imprese; sul rispetto delle regole da parte di tutti gli operatori, compresi agenti e mediatori; sulle operazioni straordinarie; sui gruppi con almeno un'impresa di assicurazione, la vecchia vigilanza supplementare; su amministrazione straordinaria, liquidazione coatta e acquisizioni di partecipazioni. C'è infine la prevenzione delle frodi.\n\nPerché si vigila? Lo scopo principale, dice il Codice, è l'adeguata protezione degli assicurati e degli aventi diritto alle prestazioni assicurative. Per raggiungerlo l'IVASS persegue la sana e prudente gestione delle imprese e, insieme alla CONSOB, ciascuna per le proprie competenze, la loro trasparenza e correttezza verso i clienti. Altro obiettivo è la stabilità del sistema e dei mercati finanziari, ma il Codice precisa che è subordinato al primo. La vigilanza si basa su un metodo prospettico fondato sul rischio: non guarda solo a ciò che è già successo, ma a ciò che potrebbe accadere. Include la verifica continua del corretto esercizio dell'attività e del rispetto delle norme, combina controlli a distanza sui documenti e ispezioni in loco, e applica i requisiti in modo proporzionato alla natura, alla portata e alla complessità dei rischi.\n\nVediamo gli strumenti. I poteri di indagine servono a conoscere: l'IVASS chiede informazioni, ordina l'esibizione di documenti, dispone accertamenti e verifiche presso tutti i vigilati, e anche presso chi svolge attività riservate senza autorizzazione, ed effettua ispezioni presso le imprese e gli uffici degli intermediari. I poteri di intervento servono a correggere: l'IVASS può convocare amministratori, sindaci, direttori generali, i legali rappresentanti della società di revisione e i responsabili delle funzioni fondamentali; può ordinare la convocazione dell'assemblea e degli organi, indicando l'ordine del giorno e i provvedimenti necessari, e se l'impresa non obbedisce convocarli direttamente. Può convocare anche chi svolge funzioni del ciclo operativo, per i soli profili assicurativi, e gli iscritti al Registro degli intermediari.\n\nIl Codice prevede anche misure preventive e correttive, che l'IVASS può adottare verso singole imprese quando la situazione lo richiede. Può restringere l'attività, fino a vietare l'ulteriore vendita di un prodotto assicurativo; può vietare determinate operazioni o limitare per un massimo di tre mesi, prorogabili per altri tre, i riscatti dei contraenti; può vietare la distribuzione di utili e limitare la parte variabile delle remunerazioni; può imporre il rafforzamento del governo societario e il contenimento dei rischi.\n\nC'è poi il potere di informativa. L'IVASS può chiedere ai vigilati la comunicazione, anche periodica, di dati e notizie, la trasmissione di atti e documenti e qualsiasi informazione sui contratti detenuti da intermediari o conclusi con terzi. Vale anche verso il revisore legale e gli esperti esterni, come gli attuari. In più, l'organo di controllo dell'impresa deve informare senza indugio l'IVASS di tutti gli atti o i fatti che possano costituire un'irregolarità di gestione o una violazione delle norme.\n\nAll'IVASS spetta anche il potere di accertare e applicare le sanzioni previste dal Codice per la violazione delle norme di comportamento. A garanzia degli intermediari, presso l'IVASS è costituito un Collegio di garanzia, formato da un magistrato o da un docente universitario, che lo presiede, e da due esperti in materia assicurativa. L'intermediario a cui l'IVASS ha contestato degli addebiti può presentare le proprie difese e chiedere di essere ascoltato dal Collegio, anche con l'assistenza di un avvocato. Il Collegio propone l'archiviazione o la sanzione, e la decisione finale spetta all'IVASS con provvedimento motivato. I dettagli della procedura, con termini e fasi, li vedremo nell'argomento dedicato alle sanzioni.\n\nLa vigilanza non si ferma ai confini nazionali. Per le società veicolo, l'IVASS coopera e scambia informazioni con le autorità degli altri Stati membri per verificare i contratti tra imprese italiane e società veicolo di altri Stati, e viceversa. Per le attività esternalizzate dalle imprese italiane, l'IVASS può ispezionare, direttamente o tramite persone incaricate, i locali del fornitore con sede in un altro Stato membro, dopo averne informato l'autorità competente; può anche delegare l'ispezione all'autorità di quello Stato. Per i gruppi assicurativi, l'IVASS svolge il processo di revisione e valutazione prudenziale e valuta la situazione finanziaria del gruppo; verifica il rispetto delle regole su solvibilità, concentrazione dei rischi e operazioni infragruppo; valuta il governo societario del gruppo e i requisiti di chi amministra, dirige e controlla le società controllanti e dei responsabili delle funzioni fondamentali.\n\nIn sintesi: l'IVASS vigila sul settore dal 2013, nell'orbita della Banca d'Italia; il Ministero adotta, su sua proposta, revoca, amministrazione straordinaria e liquidazione coatta; la protezione degli assicurati è lo scopo principale; e gli strumenti sono indagine, intervento, informativa e sanzione, con il Collegio di garanzia a tutela degli intermediari.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Banca d'Italia, Istituito l'IVASS",
+          "url": "https://www.bancaditalia.it/media/notizia/istituito-l-ivass/"
+        },
+        {
+          "title": "IVASS, Chi siamo",
+          "url": "https://www.ivass.it/chi-siamo/index.html"
+        },
+        {
+          "title": "IVASS, Consiglio",
+          "url": "https://www.ivass.it/chi-siamo/organizzazione/consiglio/index.html"
+        },
+        {
+          "title": "IVASS, Direttorio integrato",
+          "url": "https://www.ivass.it/chi-siamo/organizzazione/direttorio-integrato/index.html"
+        },
+        {
+          "title": "Regolamento IVASS n. 39 del 2 agosto 2018 (procedura sanzionatoria)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n39/Regolamento_IVASS_n._39_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Natura dei poteri dell'IVASS (autorizzativi, prescrittivi, accertativi, cautelari, repressivi) e potere regolamentare per sana e prudente gestione e trasparenza.",
+          "source_ref": "CAP, art. 5, c. 1 e 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Revoca, scioglimento degli organi in amministrazione straordinaria e liquidazione coatta: decreto del Ministro su proposta dell'IVASS.",
+          "source_ref": "CAP, artt. 231, 242, 245"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Cronologia: legge 576/1982, D.Lgs. 209/2005, D.L. 95/2012 convertito dalla legge 135/2012, operatività dal 1° gennaio 2013 e successione in tutti i poteri dell'ISVAP.",
+          "source_ref": "CAP, art. 5, c. 5; Banca d'Italia, Istituito l'IVASS"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Composizione degli organi: Presidente = Direttore generale della Banca d'Italia; Consiglio = Presidente e 2 Consiglieri (6 anni, rinnovo una volta); Direttorio integrato presieduto dal Governatore con Direttore generale, 3 Vice direttori generali e 2 Consiglieri.",
+          "source_ref": "IVASS, pagine Consiglio e Direttorio integrato; Banca d'Italia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Finalità (sana e prudente gestione, trasparenza e correttezza con la CONSOB, stabilità come obiettivo subordinato) e principi della vigilanza (attività cartolari e ispezioni in loco, proporzionalità).",
+          "source_ref": "CAP, artt. 3 e 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ispezioni anche verso chi svolge attività riservate senza autorizzazione; convocazione degli intermediari; misure preventive e correttive (restrizione dell'attività e divieto di commercializzazione, limiti ai riscatti per 3+3 mesi, divieto di distribuzione utili, rafforzamento della governance).",
+          "source_ref": "CAP, artt. 188, c. 2 e 3-bis; 189"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo dell'organo di controllo di informare senza indugio l'IVASS di irregolarità o violazioni.",
+          "source_ref": "CAP, art. 190, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Composizione e ruolo del Collegio di garanzia nel procedimento sanzionatorio verso gli intermediari (proposta del Collegio, decisione IVASS); i termini della procedura sono rinviati all'argomento Sanzioni per evitare doppioni.",
+          "source_ref": "CAP, art. 324-octies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Il RUI ha sostituito gli albi di agenti e mediatori.",
+          "source_ref": "CAP, art. 109"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi, caso pratico per l'intermediario e verifiche.",
+          "source_ref": "CAP, artt. 6, 189, 190, 242"
+        },
+        {
+          "kind": "modificato",
+          "description": "Ministero dello sviluppo economico: oggi Ministero delle imprese e del made in Italy, come indicato nell'avvertenza del testo coordinato del CAP (D.L. 173/2022).",
+          "source_ref": "CAP, testo coordinato IVASS, avvertenza"
+        },
+        {
+          "kind": "modificato",
+          "description": "Riformulata l'affermazione della fonte secondo cui i controlli sono affidati all'IVASS \"mentre i poteri di vigilanza sono attribuiti al MSE\": la vigilanza è dell'IVASS e il Ministro adotta i provvedimenti previsti dal Codice (revoca, amministrazione straordinaria, liquidazione coatta) su proposta dell'IVASS.",
+          "source_ref": "CAP, artt. 4, 5, 231, 242, 245"
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che il Consiglio è composto dal Presidente e da 2 Consiglieri (la fonte indicava \"2 membri\"); mantenuto che svolge funzioni per lo più organizzative interne.",
+          "source_ref": "IVASS, pagina Consiglio"
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che l'IVASS è istituito nel 2012 ed è operativo dal 1° gennaio 2013.",
+          "source_ref": "Banca d'Italia, Istituito l'IVASS"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti i regolamenti citati dalla fonte, con aggiornamento: Reg. 3/2013 confermato (procedimenti per atti regolamentari e generali); termini e unità responsabili oggi nel Reg. IVASS 7/2014; procedura sanzionatoria oggi nel Reg. IVASS 39/2018 (violazioni dal 1° ottobre 2018), dopo i Reg. IVASS 1/2013 e 2/2013.",
+          "source_ref": "Reg. IVASS 39/2018, premesse e art. 39"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la vigilanza del Ministero sulla CONSAP per i servizi assicurativi. Riferimento normativo da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i compiti di CONSOB, Banca d'Italia (inclusi IMEL e intermediari non bancari) e COVIP. Possibile aggiornamento: i \"promotori finanziari\" oggi sono denominati consulenti finanziari abilitati all'offerta fuori sede (non verificato su fonte ufficiale in questa revisione).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco delle competenze trasferite dal Ministero all'ISVAP. Riferimento normativo da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "La \"vigilanza supplementare\" sui gruppi è oggi vigilanza di gruppo (artt. 210 e seguenti del CAP); la fonte richiama l'art. 76 per i requisiti degli esponenti, confermato.",
+          "source_ref": "CAP, artt. 76, 212-bis"
+        }
+      ]
+    }
+  ]
+}

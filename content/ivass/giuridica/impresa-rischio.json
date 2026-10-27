@@ -1,0 +1,1549 @@
+{
+  "module": "Area giuridica",
+  "topic": "Impresa di assicurazione: accesso, esercizio e operatività",
+  "topic_order": 1,
+  "scope": "core",
+  "lesson_offset": 50,
+  "source_minutes": 71,
+  "lessons": [
+    {
+      "title": "Risk management: definizioni, approcci e processo",
+      "source_files": [
+        "corso totale/Risk management.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Risk management.prima parte.pdf",
+        "Corso Ivass 60 ore/Materiale /4. Risk management.pdf (ok).pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Risk management: definizioni, approcci e processo",
+          "goals": [
+            "Capire che cosa sono il rischio e la gestione del rischio",
+            "Distinguere i principali approcci al risk management",
+            "Seguire le fasi del processo secondo lo standard ISO 31000"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché oggi si parla tanto di rischio",
+          "key": "La trasformazione digitale ha aumentato in maniera esponenziale il rischio di minacce alla sicurezza e alla riservatezza dei dati aziendali.",
+          "body": "La gamma di rischi e di attacchi possibili è sempre più vasta. In un mondo profondamente interconnesso aumentano anche i possibili bersagli dei criminali informatici.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Tre fronti del rischio digitale",
+          "head": [
+            "Tema",
+            "Che cosa succede"
+          ],
+          "rows": [
+            [
+              "IoT · Internet of Things",
+              "Molti dispositivi collegati allo stesso router wifi: se il router è attaccato, i dispositivi possono smettere di funzionare. Il rischio primario è il furto dei dati personali raccolti da oggetti e sensori, che i produttori devono conservare e proteggere."
+            ],
+            [
+              "Shadow IT · Applicazioni non approvate",
+              "Applicazioni che l'IT non ha approvato e di cui a volte non conosce l'esistenza. Si contrasta aumentando la security awareness: solo così le persone rispettano davvero le nuove policy."
+            ],
+            [
+              "Supply chain · Confini allargati",
+              "I criminali colpiscono le imprese a monte o a valle della catena, meno difese, e da lì arrivano ai dati dell'organizzazione. La sicurezza della catena è pari a quella dell'anello più debole: serve una strategia comune."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è il risk management",
+          "key": "Il risk management è il processo che misura e stima il rischio e sviluppa strategie per governarlo: l'insieme coordinato di attività, metodologie e risorse per guidare e tenere sotto controllo un'organizzazione rispetto ai rischi.",
+          "body": "Il rischio è \"l'insieme delle possibilità di un evento e delle sue conseguenze sugli obiettivi\". In sintesi: identificare i rischi di un progetto o di un'attività, quantificarli e trovare il modo di mitigarne l'impatto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Gli obiettivi del risk management",
+          "lead": "Proteggere e incrementare il valore dell'azienda a vantaggio dei suoi stakeholder, con un quadro metodologico che sostiene gli obiettivi aziendali.",
+          "facts": [
+            {
+              "label": "Capitale",
+              "text": "Uso e allocazione più efficaci del capitale e delle risorse."
+            },
+            {
+              "label": "Patrimonio",
+              "text": "Protezione del patrimonio aziendale."
+            },
+            {
+              "label": "Immagine",
+              "text": "Tutela dell'immagine e della reputazione."
+            },
+            {
+              "label": "Persone",
+              "text": "Protezione del know how e dei \"key people\"."
+            },
+            {
+              "label": "Efficienza",
+              "text": "Ottimizzazione dell'efficienza operativa."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Come si classificano i rischi",
+          "left": {
+            "title": "Il rischio è…",
+            "items": [
+              "La potenzialità che un'azione o un'attività scelta, inclusa la scelta di non agire, porti a una perdita o a un evento indesiderabile",
+              "Per la valutazione del rischio in senso stretto: prevenire il rischio infortunistico e quello igienistico"
+            ]
+          },
+          "right": {
+            "title": "Nell'impresa",
+            "items": [
+              "Rischio economico",
+              "Rischio finanziario",
+              "Rischio patrimoniale",
+              "Rischio penale",
+              "Rischio in ambito sicurezza sul lavoro"
+            ]
+          },
+          "note": "Per un'impresa di assicurazione il Regolamento IVASS 38/2018 chiede un catalogo più specifico: sottoscrizione, mercato, credito, liquidità, operativo, gruppo, non conformità, reputazionale, strategico, sostenibilità.",
+          "noteRef": "Reg. IVASS 38/2018, art. 19"
+        },
+        {
+          "layout": "facts",
+          "title": "Una breve storia",
+          "lead": "Il modello gestionale nasce nel secondo dopoguerra e da allora cambia poco: cresce in velocità e accuratezza grazie alla tecnologia.",
+          "facts": [
+            {
+              "label": "Anni '50-'80",
+              "text": "Il grande sviluppo del risk management, la sua \"grande infanzia\"."
+            },
+            {
+              "label": "Poi",
+              "text": "Stesso approccio, più veloce e preciso grazie alla tecnologia."
+            },
+            {
+              "label": "Ultimi 15 anni",
+              "text": "Passaggio graduale dall'approccio tradizionale all'Enterprise Risk Management."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I quattro approcci al risk management",
+          "head": [
+            "Approccio",
+            "Di che cosa si occupa",
+            "Tratto distintivo"
+          ],
+          "rows": [
+            [
+              "TRM · Traditional",
+              "Identificazione, stima e gestione dei rischi puri",
+              "Rischio visto solo come negativo. Fasi: identificazione, valutazione, gestione, control risk"
+            ],
+            [
+              "FRM · Financial",
+              "Solo rischi finanziari, sia dell'area operativa sia di quella finanziaria",
+              "Scenari e orizzonte temporale; flussi di cassa di attivo e passivo per tipologia e scadenza (matching); previsione di tassi e flussi con tecniche statistico-finanziarie su serie storiche consolidate"
+            ],
+            [
+              "PRM · Project",
+              "Rischi delle grandi opere di fornitura",
+              "È rischio tutto ciò che minaccia la realizzazione del progetto"
+            ],
+            [
+              "CRM · Control",
+              "Tutti i rischi aziendali, soprattutto quello downside",
+              "Garantisce che le attività rispettino le procedure e le norme definite dall'impresa"
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "split",
+          "title": "Perché usare uno standard",
+          "left": {
+            "title": "Il bisogno",
+            "items": [
+              "Gestire il rischio in modo sempre più efficace e rigoroso",
+              "Processi strutturati, coerenti con l'organizzazione nel suo complesso"
+            ]
+          },
+          "right": {
+            "title": "I vantaggi",
+            "items": [
+              "Gestione del rischio più efficace ed efficiente",
+              "Processo decisionale più affidabile",
+              "Migliore qualità della gestione dei rischi",
+              "Più fiducia degli stakeholder interni ed esterni"
+            ]
+          },
+          "note": "La struttura di riferimento porta le informazioni sul rischio agli organi decisionali competenti, secondo i programmi di comunicazione e reporting. Gli obiettivi di gestione del rischio sono coerenti con obiettivi, strategie e cultura dell'organizzazione.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il processo secondo ISO 31000",
+          "steps": [
+            {
+              "label": "Definizione del contesto",
+              "text": "Esterno (l'ambiente in cui l'azienda persegue i suoi obiettivi), interno (l'organizzazione stessa) e del processo di gestione del rischio (l'approccio adatto a circostanze e rischi)."
+            },
+            {
+              "label": "Valutazione del rischio",
+              "text": "Identificazione delle fonti, eventi, cause ed effetti; analisi di conseguenze e probabilità; ponderazione per decidere quali rischi trattare e con quale priorità."
+            },
+            {
+              "label": "Trattamento",
+              "text": "Scelta delle opzioni per modificare il profilo di rischio e attuazione dei piani, cercando il miglior rapporto costi-benefici e rispettando gli obblighi di legge."
+            },
+            {
+              "label": "Monitoraggio e riesame",
+              "text": "Verifica dell'efficacia dei controlli, flusso di informazioni, analisi degli eventi e dei cambiamenti di contesto, revisione dei trattamenti."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Comunicazione e consultazione",
+          "key": "Comunicazione e consultazione accompagnano tutte le fasi del processo: sono indispensabili per l'efficacia e i risultati dell'intero processo.",
+          "body": "Riguardano il rischio in sé, le sue cause, le conseguenze e le misure prese per trattarlo. Insieme alla definizione preventiva del contesto e al monitoraggio, sono gli elementi basilari per un risk management corretto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Le tre attività della valutazione",
+          "cols": [
+            {
+              "title": "Identificare e analizzare",
+              "items": [
+                "Identificare: selezionare fonti di rischio, eventi, cause e potenziali effetti che incidono sui fattori critici di successo",
+                "Analizzare: conoscere il rischio, valutando conseguenze positive o negative e probabilità"
+              ]
+            },
+            {
+              "title": "Ponderare",
+              "items": [
+                "Confrontare i risultati dell'analisi con i criteri di rischio fissati nell'esame del contesto",
+                "Decidere quali rischi trattare e con quale priorità"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia con cinque collaboratori usa un servizio gratuito di condivisione file, scelto da un dipendente senza avvisare nessuno, per scambiare con i clienti copie di documenti d'identità e questionari sanitari.",
+          "questions": [
+            "Quale rischio descritto nella lezione si sta verificando?",
+            "Come lo affronteresti seguendo le fasi del processo?"
+          ],
+          "solution": "È un caso di Shadow IT: uno strumento non approvato tratta dati personali, anche sensibili. Contesto: quali dati e quali obblighi. Valutazione: probabilità di una fuga di dati e gravità delle conseguenze. Trattamento: strumento autorizzato, regole scritte, formazione sulla security awareness. Monitoraggio: verifiche periodiche. La comunicazione con i collaboratori accompagna ogni passo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo ISO 31000, quali attività compongono la fase di valutazione del rischio?",
+          "options": [
+            "Identificazione, analisi e ponderazione",
+            "Trattamento, monitoraggio e riesame",
+            "Comunicazione, consultazione e reporting",
+            "Ritenzione, trasferimento e prevenzione"
+          ],
+          "answer": 0,
+          "explanation": "La valutazione comprende identificazione, analisi e ponderazione. Il trattamento viene dopo, il monitoraggio chiude il ciclo, la comunicazione accompagna tutte le fasi."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale approccio si occupa solo dei rischi puri, visti esclusivamente come negativi?",
+          "options": [
+            "Financial risk management",
+            "Traditional risk management",
+            "Project risk management",
+            "Enterprise Risk Management"
+          ],
+          "answer": 1,
+          "explanation": "Il traditional risk management stima e gestisce i rischi puri con un'accezione solo negativa e trascura la globalità dei rischi aziendali."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Rischio",
+              "text": "possibilità di un evento e delle sue conseguenze sugli obiettivi"
+            },
+            {
+              "value": "4",
+              "text": "approcci: traditional, financial, project, control"
+            },
+            {
+              "value": "ISO 31000",
+              "text": "contesto, valutazione, trattamento, monitoraggio"
+            },
+            {
+              "value": "Sempre",
+              "text": "comunicazione e consultazione in ogni fase"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione apriamo la seconda parte dell'argomento dedicato all'impresa di assicurazione: la gestione dei rischi. Vedremo che cosa significano rischio e risk management, quali approcci si sono affermati nel tempo e come si svolge il processo di gestione secondo lo standard internazionale ISO 31000. Sono concetti che riguardano ogni impresa, ma per una compagnia di assicurazione sono il cuore del mestiere: il rischio è la sua materia prima.\n\nPartiamo da un dato di contesto. La trasformazione digitale ha aumentato in maniera esponenziale il rischio di incorrere in minacce alla sicurezza e alla riservatezza dei dati aziendali. La gamma di rischi e di attacchi possibili è sempre più vasta e, in un mondo profondamente interconnesso, aumentano anche i bersagli a disposizione dei criminali informatici. Per un intermediario, che maneggia ogni giorno dati personali dei clienti, questo non è un tema astratto.\n\nIl materiale del corso individua tre fronti. Il primo è l'Internet delle cose. Connettere un numero crescente di dispositivi allo stesso router wifi espone a rischi: se il router viene attaccato, il funzionamento stesso dei dispositivi può essere compromesso. Il rischio primario, però, è il furto delle enormi quantità di dati generati da oggetti e sensori connessi: dati personali degli utenti, che le aziende produttrici dovranno immagazzinare e proteggere. Pensiamo alle scatole nere installate sulle auto per le polizze RC auto, o ai dispositivi per la casa collegati alle polizze abitazione.\n\nIl secondo fronte è lo Shadow IT: l'insieme delle applicazioni che il reparto informatico non ha approvato e di cui, a volte, non conosce nemmeno l'esistenza. Il modo per fronteggiarlo è aumentare la security awareness, cioè la consapevolezza di tutti sui rischi, spesso inconsapevoli, a cui si espongono le informazioni personali e quelle dell'organizzazione. Solo così le persone rispettano davvero le nuove policy aziendali.\n\nIl terzo fronte riguarda i confini allargati della sicurezza. Invece di attaccare reti e sistemi ben protetti, i criminali colpiscono le imprese a monte o a valle della catena di fornitura, che hanno difese più deboli, e da lì si impadroniscono delle informazioni dell'organizzazione che si credeva in una botte di ferro. Si può dire che l'azienda meno difesa della catena del valore determina il grado di sicurezza dell'intera catena. Per questo tutte le imprese coinvolte devono collaborare a una strategia di sicurezza comune. Una precisazione di aggiornamento: per le imprese di assicurazione il Codice delle assicurazioni private, all'articolo 30, comma 4, oggi richiede espressamente che i sistemi informatici e di rete siano gestiti in conformità al Regolamento europeo 2022/2554, noto come DORA, sulla resilienza operativa digitale.\n\nVeniamo alle definizioni. La gestione del rischio, o risk management, è il processo che serve a misurare e stimare il rischio e, di conseguenza, a sviluppare strategie per governarlo. In modo più ampio, è l'insieme di attività, metodologie e risorse coordinate per guidare e tenere sotto controllo un'organizzazione con riferimento ai rischi. Il rischio, a sua volta, è definito come l'insieme delle possibilità di un evento e delle sue conseguenze sugli obiettivi. Il materiale più recente del corso lo dice in modo molto concreto: il risk management consiste soprattutto nell'identificare tutti i rischi di un progetto e poi nel trovare il modo di quantificare e mitigare l'impatto dei pericoli individuati.\n\nA che cosa serve? La funzione del risk management è proteggere e incrementare il valore dell'azienda a vantaggio dei suoi stakeholder, sostenendone gli obiettivi con un quadro metodologico. Contribuisce a usare e allocare in modo più efficace capitale e risorse, a proteggere il patrimonio, l'immagine aziendale, il know how e le persone chiave, i cosiddetti key people, e a ottimizzare l'efficienza operativa.\n\nCome si classificano i rischi? Il rischio può essere visto come la potenzialità che un'azione o un'attività scelta, compresa la scelta di non agire, porti a una perdita o a un evento indesiderabile. Notate questo dettaglio: anche non decidere è una scelta che comporta rischi. Il materiale del corso aggiunge che l'obiettivo principale della valutazione del rischio è prevenire due tipologie di rischio, quello infortunistico e quello igienistico: è il linguaggio tipico della sicurezza sul lavoro. All'interno di un'impresa i rischi si possono dividere in economici, finanziari, patrimoniali, penali e legati alla sicurezza sul lavoro. Per un'impresa di assicurazione la normativa di settore è più specifica: il Regolamento IVASS numero 38 del 2018, all'articolo 19, chiede di catalogare almeno i rischi di sottoscrizione, di mercato, di credito, di liquidità, operativo, di appartenenza al gruppo, di non conformità alle norme, reputazionale, strategico e, dal 2023, i rischi di sostenibilità.\n\nUn po' di storia. Il grande sviluppo del risk management si è avuto tra gli anni Cinquanta e gli anni Ottanta, che possiamo considerare la sua grande infanzia. Da allora l'approccio non è cambiato molto: è cresciuto in velocità e accuratezza grazie alla tecnologia. Negli ultimi quindici anni circa, come vedremo nell'ultima lezione, c'è stato poi il passaggio graduale verso l'Enterprise Risk Management.\n\nSi possono identificare quattro filoni principali. Il traditional risk management si occupa di identificare, stimare e gestire i rischi puri, con un'accezione solo negativa del rischio, trascurando la globalità dei rischi aziendali. Ha quattro fasi: identificazione dei rischi che possono generare danni all'impresa, valutazione dei rischi a cui l'impresa è esposta, gestione dei rischi e infine control risk.\n\nIl financial risk management si concentra esclusivamente sui rischi finanziari, che possono riguardare sia l'area operativa sia quella finanziaria. Le sue fasi sono: individuare i possibili scenari e definire l'orizzonte temporale; determinare i flussi di cassa dell'attivo e del passivo per tipologia e scadenza, così da ottenere il matching tra attivo e passivo; prevedere l'andamento futuro dei tassi di interesse e dei flussi di cassa con tecniche statistico-finanziarie, rese attendibili dalla disponibilità di serie storiche consolidate. Per una compagnia vita, che deve pagare prestazioni tra venti o trent'anni, l'equilibrio tra attivi e passivi è essenziale, tanto che il Codice delle assicurazioni lo indica tra le aree che il sistema di gestione dei rischi deve presidiare, con il nome di asset-liability management.\n\nIl project risk management si occupa più limitatamente dell'identificazione, analisi e trattamento dei rischi legati alle grandi opere di fornitura: è rischio tutto ciò che può minacciare la realizzazione del progetto. Il control risk management, infine, è una modalità gestionale che punta a garantire che le attività aziendali si svolgano nel rispetto delle procedure e delle norme definite dall'impresa. Riguarda tutti i rischi aziendali, ma si concentra soprattutto sul rischio downside, cioè sul lato negativo.\n\nNegli ultimi anni è cresciuto costantemente il bisogno di gestire il rischio in modo efficace e rigoroso. Le aziende di tutti i settori hanno quindi cercato processi sempre più strutturati, capaci di assicurare che il rischio sia gestito in modo efficace e coerente con l'organizzazione nel suo complesso. Applicare uno standard migliora l'efficacia e l'efficienza della gestione, rende più affidabile il processo decisionale, migliora la qualità della gestione dei rischi e aumenta la fiducia dei portatori di interesse interni ed esterni.\n\nChi progetta il sistema deve costruire una struttura di riferimento, che ha un compito preciso: far arrivare le informazioni sul rischio, ottenute dal processo di gestione, agli organi decisionali competenti per materia, nel rispetto dei programmi di comunicazione e di reporting. Gli obiettivi di gestione del rischio, ovviamente, devono essere coerenti con gli obiettivi, le strategie e la cultura dell'organizzazione.\n\nLo standard più noto è ISO 31000. Prevede alcune fasi principali e sottolinea che la definizione preventiva del contesto, il monitoraggio e la comunicazione sono elementi basilari per fare bene risk management.\n\nLa prima fase è la definizione del contesto. Per analizzare correttamente i rischi, l'organizzazione deve definire il contesto in cui opera in relazione ai propri obiettivi. I contesti sono tre: quello esterno, cioè l'ambiente in cui l'azienda cerca di perseguire i propri obiettivi; quello interno, cioè l'ambiente organizzativo in cui li persegue; e il contesto del processo di gestione del rischio, che serve ad assicurare che l'approccio scelto sia adatto alle circostanze, all'organizzazione e ai rischi che influenzano i suoi obiettivi.\n\nPoi c'è la valutazione del rischio, che comprende tre attività. L'identificazione consiste nel selezionare ed evidenziare fonti di rischio, eventi, cause e potenziali effetti che possono incidere sui fattori critici di successo e sugli obiettivi. L'analisi sviluppa la conoscenza del rischio, valutando le conseguenze positive o negative e la probabilità che i rischi individuati si verifichino. La ponderazione confronta i risultati dell'analisi con i criteri di rischio fissati nell'esame del contesto, per decidere quali rischi trattare e con quali priorità.\n\nSegue il trattamento: si valutano le opzioni più opportune per modificare il profilo di rischio e si attuano i piani. La scelta migliore è quella con il miglior rapporto tra costi di attuazione e benefici, tenendo conto degli eventuali obblighi di legge. Infine monitoraggio e riesame: servono ad assicurare l'efficacia e l'efficienza dei controlli, garantire il flusso di informazioni per l'analisi, analizzare gli eventi, rilevare i cambiamenti di contesto che possono modificare il livello di rischio e chiedere, se serve, di rivedere trattamenti e priorità.\n\nComunicazione e consultazione non sono una fase a sé alla fine del percorso: riguardano il rischio, le sue cause, le conseguenze e le misure di trattamento, e devono accompagnare tutte le fasi, perché sono indispensabili per l'efficacia dell'intero processo.\n\nMettiamo alla prova questi concetti con un caso. Un'agenzia con cinque collaboratori usa un servizio gratuito di condivisione file, scelto da un dipendente senza dirlo a nessuno, per scambiare con i clienti documenti d'identità e questionari sanitari. È un caso tipico di Shadow IT. Applicando il processo: si definisce il contesto, cioè quali dati vengono trattati e quali obblighi gravano sull'agenzia; si valuta il rischio, stimando la probabilità di una fuga di dati e la gravità delle conseguenze per i clienti e per la reputazione; si sceglie il trattamento, ad esempio uno strumento autorizzato, regole scritte e formazione; si monitora nel tempo. E per tutto il percorso si comunica con i collaboratori, perché senza consapevolezza le regole restano sulla carta.\n\nRicapitolando: il rischio è la possibilità di un evento e delle sue conseguenze sugli obiettivi; gli approcci tradizionali sono quattro, traditional, financial, project e control risk management; il processo ISO 31000 passa da contesto, valutazione, trattamento e monitoraggio, con la comunicazione sempre presente. Nella prossima lezione vedremo chi fa che cosa: ruoli, livelli di controllo e le regole che il Codice delle assicurazioni impone alle compagnie.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, Codice delle assicurazioni private, art. 30 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30"
+        },
+        {
+          "title": "Regolamento IVASS n. 38 del 3 luglio 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n38/Regolamento_IVASS_38_del_3_7_2018_testo_consolidato.pdf"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-bis, Sistema di gestione dei rischi (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30bis"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento del rischio digitale all'obbligo per le imprese di gestire sistemi informatici e di rete in conformità al Regolamento (UE) 2022/2554 (DORA).",
+          "source_ref": "CAP, art. 30, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Catalogo minimo dei rischi che l'impresa di assicurazione deve definire, incluso il rischio di sostenibilità introdotto nel 2023.",
+          "source_ref": "Reg. IVASS 38/2018, art. 19, c. 1 (mod. Provv. IVASS 131/2023)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Gestione integrata di attività e passività (asset-liability management) come area obbligatoria del sistema di gestione dei rischi, collegata al financial risk management.",
+          "source_ref": "CAP, art. 30-bis, c. 3, lett. b"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sullo Shadow IT in agenzia e due verifiche di autoapprendimento.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'l'obiettivo principale della valutazione del rischio è prevenire due tipologie di rischio: infortunistico e igienistico'. È un'affermazione propria della sicurezza sul lavoro, non del risk management d'impresa in generale. Riferimento da indicare / possibile aggiornamento: contestualizzare (D.Lgs. 81/2008) o riformulare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di rischio come 'insieme delle possibilità di un evento e delle sue conseguenze sugli obiettivi' e la descrizione delle fasi ISO 31000. Possibile aggiornamento: verificare la formulazione dell'edizione vigente dello standard ISO 31000 (non è stato possibile consultare il sito ISO).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'indicazione 'negli ultimi quindici anni' per il passaggio all'ERM: è un riferimento temporale relativo, non datato. Riferimento da indicare.",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Le parti su IoT, Shadow IT e supply chain sono state riunite in un'unica tabella; il testo è riformulato senza togliere affermazioni.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Ruoli, livelli di controllo e governo dei rischi nell'impresa",
+      "source_files": [
+        "corso totale/Risk management.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Risk management seconda parte.pdf",
+        "Corso Ivass 60 ore/Materiale /4. Risk management.pdf (ok).pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Ruoli, livelli di controllo e governo dei rischi",
+          "goals": [
+            "Riconoscere chi gestisce il rischio e con quali responsabilità",
+            "Distinguere i tre livelli del controllo interno",
+            "Conoscere le funzioni fondamentali previste dal Codice delle assicurazioni"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Chi gestisce il risk management",
+          "cols": [
+            {
+              "title": "Consulente esterno",
+              "items": [
+                "Interviene per un tempo limitato",
+                "Su singole categorie di rischio",
+                "Implementa analisi e processi di risk management"
+              ]
+            },
+            {
+              "title": "Funzione interna",
+              "items": [
+                "Creata all'interno dell'azienda",
+                "Sviluppa piani di risk management destinati a durare nel tempo",
+                "Per le imprese di assicurazione è obbligatoria"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il Risk Manager",
+          "items": [
+            {
+              "text": "Promuove a tutti i livelli l'attività di gestione del rischio e fa crescere la responsabilità di tutto il personale sulle politiche di presidio."
+            },
+            {
+              "text": "Supporta il management nell'individuare i rischi."
+            },
+            {
+              "text": "Come responsabile del funzionamento del processo, fornisce gli strumenti per identificare e valutare i singoli rischi."
+            },
+            {
+              "text": "Scritto il piano di risk management, ottiene l'approvazione dei vertici aziendali per attuare programmi e attività."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I tre livelli di controllo interno",
+          "key": "Il controllo interno garantisce che le modalità di controllo siano adeguate ai rischi da presidiare. Per questo si definiscono tre livelli, o linee, di difesa.",
+          "body": "Le attività dei tre livelli fanno capo all'alta direzione (senior management) e al consiglio di amministrazione, che hanno il pieno potere decisionale sulla gestione ultima dei rischi individuati.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Chi fa che cosa nei tre livelli",
+          "head": [
+            "Livello",
+            "Chi",
+            "Compito"
+          ],
+          "rows": [
+            [
+              "1 · Management operativo",
+              "Chi ha ownership, responsabilità e accountability sui rischi",
+              "Valuta, controlla e mitiga i rischi e mantiene efficaci i controlli interni. Guida la gestione: strategie, obiettivi, azioni per raggiungerli."
+            ],
+            [
+              "2 · Risk management e compliance",
+              "Funzione di gestione dei rischi; funzione di verifica della conformità",
+              "Definisce il framework, controlla le pratiche dei manager, assiste i risk owner, riporta i rischi. La compliance monitora il rischio di non conformità a leggi e regolamenti, anche interni."
+            ],
+            [
+              "3 · Internal audit",
+              "Funzione di revisione interna",
+              "Con un approccio basato sul rischio dà garanzia (assurance) al board e al senior management su come l'azienda valuta e gestisce i rischi, incluso il lavoro delle prime due linee."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le regole per le compagnie",
+          "key": "L'impresa si dota di un efficace sistema di governo societario, compresi i sistemi di remunerazione e incentivazione, che consenta una gestione sana e prudente. Il sistema è proporzionato a natura, portata e complessità delle attività.",
+          "body": "Comprende almeno: struttura organizzativa trasparente con chiara separazione delle responsabilità; flussi informativi efficaci; requisiti di idoneità di chi amministra, dirige, controlla e svolge funzioni fondamentali; meccanismi per rispettare le regole; le quattro funzioni fondamentali.",
+          "ref": "CAP, art. 30, c. 1-2"
+        },
+        {
+          "layout": "table",
+          "title": "Le quattro funzioni fondamentali",
+          "lead": "Sono considerate funzioni essenziali o importanti.",
+          "head": [
+            "Funzione",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Gestione dei rischi",
+              "Facilita l'attuazione del sistema di gestione dei rischi: metodi di misura, limiti operativi, reportistica, monitoraggio del profilo di rischio (CAP art. 30-bis, c. 10; Reg. 38, art. 32)."
+            ],
+            [
+              "Verifica della conformità",
+              "Consiglia il CdA sul rispetto delle norme, valuta l'impatto delle modifiche normative e giurisprudenziali, identifica e valuta il rischio di non conformità (CAP art. 30-quater)."
+            ],
+            [
+              "Revisione interna",
+              "Valuta adeguatezza ed efficacia del controllo interno e del governo societario, in autonomia e indipendenza dalle funzioni operative (CAP art. 30-quinquies)."
+            ],
+            [
+              "Attuariale",
+              "Coordina il calcolo delle riserve tecniche e dà pareri su politica di sottoscrizione e riassicurazione (CAP art. 30-sexies)."
+            ]
+          ],
+          "ref": "CAP, art. 30, c. 2, lett. e"
+        },
+        {
+          "layout": "checklist",
+          "title": "La funzione di gestione dei rischi",
+          "items": [
+            {
+              "text": "Concorre alla politica di gestione del rischio e alla scelta dei metodi di misurazione, anche per i rischi di sostenibilità.",
+              "ref": "Reg. 38, art. 32, lett. a"
+            },
+            {
+              "text": "Concorre a fissare i limiti operativi delle strutture e verifica tempestivamente che siano rispettati.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Valida i flussi informativi per controllare le esposizioni e rilevare subito le anomalie.",
+              "ref": "lett. c"
+            },
+            {
+              "text": "Partecipa alla valutazione interna del rischio e della solvibilità (ORSA) e segnala al CdA i rischi significativi.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Fa reporting a CdA, alta direzione e responsabili operativi sull'evoluzione dei rischi e sulle violazioni dei limiti.",
+              "ref": "lett. e"
+            },
+            {
+              "text": "Verifica la coerenza dei modelli con l'operatività, concorre a stress test e analisi di scenario, monitora il profilo di rischio complessivo.",
+              "ref": "lett. f, h"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Gli organi e i loro compiti",
+          "head": [
+            "Chi",
+            "Ruolo nella gestione integrata dei rischi"
+          ],
+          "rows": [
+            [
+              "CdA · Consiglio di amministrazione",
+              "Organo sovraordinato: definisce le linee di indirizzo del controllo interno e della gestione dei rischi, le strategie del processo di risk management, gli obiettivi di assunzione dei rischi; ne valuta efficacia e rispetto."
+            ],
+            [
+              "CEO · Chief Executive Officer",
+              "Principale responsabile della gestione del rischio: risponde dell'intero processo ERM e assicura che ne siano sviluppate e attuate tutte le componenti."
+            ],
+            [
+              "CRO · Chief Risk Officer",
+              "Si interfaccia con tutta l'organizzazione per coordinare e rendere efficace il processo, bilanciando costi e opportunità."
+            ],
+            [
+              "Centri · Centri di responsabilità",
+              "I loro manager realizzano il processo, gestiscono operativamente i rischi, diffondono la cultura del rischio e decidono tenendo conto dei rischi."
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "split",
+          "title": "Funzione risk management e internal audit",
+          "left": {
+            "title": "Funzione risk management",
+            "items": [
+              "Concorre a individuare i rischi",
+              "Concorre a definire i metodi di misura dei rischi tecnici e di valutazione di quelli operativi",
+              "Convalida i flussi informativi",
+              "Produce reporting previsionale e consuntivo, differenziato per destinatario",
+              "Verifica i modelli e propone adeguamenti",
+              "Si coordina con le altre funzioni di controllo"
+            ]
+          },
+          "right": {
+            "title": "Internal audit",
+            "items": [
+              "Monitora l'efficienza delle operazioni",
+              "Monitora l'affidabilità dell'informazione finanziaria",
+              "Monitora il rispetto di leggi e regolamenti",
+              "Monitora la salvaguardia dei beni aziendali",
+              "Supporta le altre funzioni e divulga applicazione e risultati dell'ERM"
+            ]
+          },
+          "note": "Il titolare di ogni funzione fondamentale è nominato e revocato dall'organo amministrativo, non guida aree operative e non dipende da chi le guida. Le funzioni riferiscono direttamente all'organo amministrativo.",
+          "noteRef": "Reg. IVASS 38/2018, artt. 27-28"
+        },
+        {
+          "layout": "checklist",
+          "title": "Politiche scritte e riesame",
+          "items": [
+            {
+              "text": "Politiche scritte almeno su gestione dei rischi, controllo interno, revisione interna ed esternalizzazione (ove rilevante).",
+              "ref": "CAP, art. 30, c. 5"
+            },
+            {
+              "text": "Approvate prima dal CdA e riesaminate almeno una volta l'anno, o subito in caso di variazioni significative.",
+              "ref": "art. 30, c. 6"
+            },
+            {
+              "text": "Il sistema di governo societario è sottoposto a revisione interna almeno annuale.",
+              "ref": "art. 30, c. 3"
+            },
+            {
+              "text": "Misure per la continuità dell'attività, inclusi piani di emergenza.",
+              "ref": "art. 30, c. 4"
+            },
+            {
+              "text": "Le regole di dettaglio sono nel Regolamento IVASS 38/2018.",
+              "ref": "art. 30, c. 7"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Proporzionalità: tre assetti di governo",
+          "lead": "Il CdA sceglie l'assetto partendo dalle dimensioni, poi valuta la complessità.",
+          "head": [
+            "Assetto",
+            "Riserve tecniche vita",
+            "Premi danni"
+          ],
+          "rows": [
+            [
+              "R · Rafforzato",
+              "Oltre 10 miliardi di euro",
+              "Oltre 1 miliardo di euro"
+            ],
+            [
+              "O · Ordinario",
+              "Oltre 2 e fino a 10 miliardi",
+              "Oltre 300 milioni e fino a 1 miliardo"
+            ],
+            [
+              "S · Semplificato",
+              "Fino a 2 miliardi",
+              "Fino a 300 milioni"
+            ]
+          ],
+          "ref": "IVASS, Lettera al mercato 5 luglio 2018, § 1.1.1"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia danni vende tramite agenti una polizza infortuni. La funzione di verifica della conformità rileva che in alcune agenzie la polizza viene proposta senza raccogliere le informazioni sulle esigenze del cliente. Il responsabile commerciale chiede di non segnalarlo per non frenare le vendite.",
+          "questions": [
+            "A quale livello di controllo appartiene la compliance?",
+            "Può il responsabile commerciale bloccare la segnalazione?",
+            "Che cosa può fare poi la revisione interna?"
+          ],
+          "solution": "La compliance è una funzione di secondo livello: identifica e valuta il rischio di non conformità e riferisce direttamente all'organo amministrativo. Il suo titolare non dipende dai responsabili delle aree operative, quindi il commerciale non può bloccare la segnalazione. La revisione interna, terzo livello, può verificare se i controlli di prima e seconda linea funzionano e proporre correttivi al CdA, che decide le misure e ne garantisce l'attuazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quali sono le funzioni fondamentali previste dall'art. 30 del Codice delle assicurazioni?",
+          "options": [
+            "Revisione interna, verifica della conformità, gestione dei rischi, attuariale",
+            "Commerciale, liquidazione sinistri, attuariale, legale",
+            "Revisione legale dei conti, collegio sindacale, compliance, marketing",
+            "Gestione dei rischi, antiriciclaggio, reclami, IT"
+          ],
+          "answer": 0,
+          "explanation": "L'art. 30, comma 2, lett. e) del CAP elenca revisione interna, verifica della conformità, gestione dei rischi e funzione attuariale, considerate funzioni essenziali o importanti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Ogni quanto il CdA riesamina le politiche scritte del sistema di governo societario?",
+          "options": [
+            "Ogni tre anni",
+            "Almeno una volta l'anno, e comunque in caso di variazioni significative",
+            "Solo su richiesta dell'IVASS",
+            "Solo quando cambia l'amministratore delegato"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 30, comma 6, del CAP prevede il riesame almeno annuale, insieme alla revisione del sistema di governo societario, e le modifiche necessarie in caso di variazioni significative."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "livelli di controllo: operativo, risk management e compliance, internal audit"
+            },
+            {
+              "value": "4",
+              "text": "funzioni fondamentali per le compagnie (CAP art. 30)"
+            },
+            {
+              "value": "1 anno",
+              "text": "riesame delle politiche e revisione del governo societario"
+            },
+            {
+              "value": "CdA",
+              "text": "responsabile ultimo del sistema di gestione dei rischi"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cos'è il risk management e come si svolge il processo. Ora ci chiediamo: chi lo fa, concretamente? E quali regole impone il Codice delle assicurazioni private alle compagnie? Sono informazioni utili anche all'intermediario, perché molte delle richieste che arrivano dalla compagnia, come controlli, questionari e verifiche in agenzia, nascono proprio da queste funzioni.\n\nIn base alla natura e alla dimensione dell'organizzazione, il risk management può essere affidato a un consulente esterno, che per un tempo limitato e per singole categorie di rischio implementa analisi e processi. In alternativa si può creare una funzione interna che sviluppa piani destinati a durare nel tempo. Per un'impresa di assicurazione questa seconda strada non è una scelta: il Codice impone di istituire una funzione di gestione dei rischi.\n\nLa figura chiave è il Risk Manager. Il suo obiettivo è promuovere, a tutti i livelli, l'attività di gestione del rischio, facendo crescere la responsabilità di tutto il personale sulle politiche di presidio. Supporta il management nell'individuare i rischi e, come responsabile del funzionamento del processo, fornisce gli strumenti per identificare e valutare i singoli rischi aziendali. Dopo aver scritto il piano di risk management, deve ottenere l'approvazione dei vertici aziendali per attuare i programmi e le singole attività.\n\nPassiamo al sistema dei controlli interni. Il suo obiettivo è garantire che le modalità di controllo siano adeguate ai rischi da presidiare. Per farlo si definiscono tre livelli, chiamati anche linee di difesa. Tutte le attività svolte nei tre livelli fanno capo all'alta direzione e al consiglio di amministrazione, che hanno il pieno potere decisionale sulla gestione ultima dei rischi.\n\nIl primo livello è il management operativo: l'insieme delle persone che hanno la titolarità, la responsabilità e l'obbligo di rendere conto, la cosiddetta accountability, per valutare, controllare e mitigare i rischi e mantenere efficaci i controlli interni. La loro attività è guidare la gestione aziendale: definire strategie e obiettivi e compiere le azioni per raggiungerli. Chi vende, chi assume i rischi, chi liquida i sinistri è in prima linea.\n\nIl secondo livello è la funzione di risk management. Definisce il quadro di riferimento, facilita e controlla che i manager operativi adottino pratiche efficaci, assiste i risk owner, cioè i titolari dei singoli rischi, nel definire l'esposizione, e riporta le informazioni sui rischi all'interno dell'organizzazione. Il materiale del corso osserva che alcune organizzazioni prevedono anche una funzione distinta di compliance, per monitorare il rischio di non conformità a leggi e regolamenti, anche interni. Nelle imprese di assicurazione la funzione di verifica della conformità è obbligatoria.\n\nIl terzo livello è l'internal audit, la revisione interna. Con un approccio basato sul rischio fornisce garanzia, in inglese assurance, al consiglio e all'alta direzione su come l'azienda valuta e gestisce i propri rischi, compreso il modo in cui operano la prima e la seconda linea. L'obiettivo è assicurare un'adeguata gestione dei principali rischi e una corretta implementazione del processo.\n\nVediamo ora che cosa dice la legge. L'articolo 30 del Codice delle assicurazioni private stabilisce che l'impresa si dota di un efficace sistema di governo societario, compresi i sistemi di remunerazione e incentivazione, che consenta una gestione sana e prudente dell'attività. Il sistema deve essere proporzionato alla natura, alla portata e alla complessità delle attività. Comprende almeno: una struttura organizzativa adeguata e trasparente, con una chiara ripartizione e un'appropriata separazione delle responsabilità; un efficace sistema di trasmissione delle informazioni; il possesso dei requisiti di idoneità da parte di chi amministra, dirige e controlla e di chi svolge funzioni fondamentali; meccanismi per garantire il rispetto delle regole; e l'istituzione di quattro funzioni: revisione interna, verifica della conformità, gestione dei rischi e funzione attuariale. Il Codice le chiama funzioni fondamentali e le considera essenziali o importanti.\n\nQuattro parole su ciascuna. La funzione di gestione dei rischi, prevista dall'articolo 30-bis, è strutturata per facilitare l'attuazione del sistema di gestione dei rischi. La funzione di verifica della conformità, all'articolo 30-quater, svolge consulenza al consiglio sul rispetto delle norme, valuta l'impatto delle modifiche normative e degli orientamenti dei giudici e identifica e valuta il rischio di non conformità. La revisione interna, all'articolo 30-quinquies, valuta l'adeguatezza e l'efficacia del controllo interno e del governo societario, con autonomia di giudizio e indipendenza dalle funzioni operative; comunica al consiglio risultati e raccomandazioni, e il consiglio decide le misure correttive e ne garantisce l'attuazione. La funzione attuariale, all'articolo 30-sexies, coordina il calcolo delle riserve tecniche, ne verifica metodi, ipotesi e dati, ed esprime pareri sulla politica di sottoscrizione e sugli accordi di riassicurazione.\n\nIl Regolamento IVASS numero 38 del 2018, all'articolo 32, precisa i compiti della funzione di gestione dei rischi. Concorre a definire la politica di gestione del rischio e i metodi di misurazione, anche per i rischi di sostenibilità. Concorre a fissare i limiti operativi assegnati alle strutture e definisce le procedure per verificarli tempestivamente. Valida i flussi informativi che servono a controllare le esposizioni e a rilevare subito le anomalie. Partecipa alla valutazione interna del rischio e della solvibilità, l'ORSA, di cui parleremo nell'ultima lezione, e segnala al consiglio i rischi significativi. Predispone la reportistica per consiglio, alta direzione e responsabili operativi sull'evoluzione dei rischi e sulle violazioni dei limiti. Verifica che i modelli di misurazione siano coerenti con l'operatività, concorre a stress test e analisi di scenario e monitora il profilo di rischio dell'impresa nel suo complesso.\n\nIl materiale più recente del corso descrive anche i ruoli dei vertici in un modello di gestione integrata. Il consiglio di amministrazione è l'organo sovraordinato: definisce le linee di indirizzo del controllo interno e della gestione integrata dei rischi; fissa le strategie per un processo di risk management effettivo ed efficace e gli obiettivi generali di assunzione dei rischi; valuta l'efficacia del processo e il rispetto degli obiettivi. Il Chief Executive Officer è descritto come il principale responsabile della gestione del rischio: si assume la responsabilità dell'intero processo di Enterprise Risk Management e assicura che ne siano sviluppate e attuate tutte le componenti. Attenzione però: per le compagnie italiane il Regolamento 38 chiarisce che il responsabile ultimo del sistema di gestione dei rischi è l'organo amministrativo.\n\nIl Chief Risk Officer, secondo il materiale nominato dal CEO, si interfaccia con l'intera organizzazione, con attività, processi e funzioni, per coordinare e garantire l'efficacia del processo, mantenendo il giusto equilibrio tra costi e opportunità. Anche qui una precisazione: nelle imprese di assicurazione il titolare della funzione di gestione dei rischi, come ogni titolare di funzione fondamentale, è nominato e revocato dall'organo amministrativo, non guida aree operative e non dipende gerarchicamente da chi le guida.\n\nPoi ci sono i singoli centri di responsabilità, che devono essere strettamente coinvolti. I loro manager realizzano il processo e rispondono della gestione operativa dei rischi, diffondono la cultura del risk management nel proprio centro e prendono decisioni operative considerando sempre i rischi che comportano.\n\nNella descrizione del corso, la funzione risk management concorre a individuare i rischi e a definire i metodi di misura dei rischi tecnici e di valutazione di quelli operativi; convalida i flussi informativi; produce un reporting previsionale e consuntivo differenziato per destinatario; verifica la coerenza di scelte e risultati con i profili di rischio e rendimento e l'aderenza dei modelli all'operatività, proponendo adeguamenti; si coordina con le altre funzioni di controllo. Coincide in gran parte con il Regolamento 38.\n\nL'internal auditing, a sua volta, è l'insieme dei processi che monitorano l'efficienza delle operazioni, l'affidabilità dell'informazione finanziaria, il rispetto di leggi e regolamenti e la salvaguardia dei beni aziendali. L'auditor deve essere di supporto alle altre funzioni e monitorare e diffondere l'applicazione e i risultati dell'ERM in tutta la struttura.\n\nUltimo tassello normativo: le politiche scritte. L'articolo 30 del Codice richiede politiche scritte almeno sul sistema di gestione dei rischi, sul controllo interno, sulla revisione interna e, se rilevante, sull'esternalizzazione, oltre a quelle sull'informativa al supervisore e al pubblico. Il consiglio le approva prima e le riesamina almeno una volta l'anno, insieme alla revisione interna del sistema di governo societario, che è anch'essa almeno annuale. Inoltre l'impresa adotta misure per garantire la continuità dell'attività, compresi piani di emergenza. Le regole di dettaglio le detta l'IVASS, appunto con il Regolamento 38.\n\nCome si applica la proporzionalità? Con la Lettera al mercato del 5 luglio 2018 l'IVASS ha indicato tre assetti di governo: rafforzato, ordinario e semplificato. Il consiglio sceglie partendo dalle dimensioni. Rafforzato se le riserve tecniche vita superano i 10 miliardi di euro o i premi danni superano 1 miliardo; ordinario tra 2 e 10 miliardi di riserve vita o tra 300 milioni e 1 miliardo di premi danni; semplificato fino a 2 miliardi di riserve vita o fino a 300 milioni di premi danni. Le soglie vanno riscontrate per due esercizi consecutivi. Poi si considera la complessità: ad esempio, chi usa un modello interno per il requisito di solvibilità o esercita insieme rami vita e danni, salvo il piccolo cumulo, dovrebbe adottare comunque l'assetto rafforzato.\n\nNel caso pratico, la compliance scopre che alcune agenzie propongono una polizza infortuni senza raccogliere le esigenze del cliente, e il commerciale chiede di tacere. Non può fermarla: la compliance è una funzione di secondo livello, riferisce direttamente all'organo amministrativo e il suo titolare non dipende dalle aree operative. La revisione interna potrà poi verificare i controlli e raccomandare correttivi, che il consiglio decide e fa attuare. Per l'agente, verifiche e richieste di documenti non sono burocrazia: è il sistema di controllo che lavora.\n\nRicapitolando: tre livelli di controllo, cioè management operativo, risk management e compliance, internal audit; quattro funzioni fondamentali imposte dal Codice; politiche scritte riesaminate almeno ogni anno; e il consiglio di amministrazione come responsabile ultimo. Nella prossima lezione torniamo alla tecnica: come si identificano, si stimano e si gestiscono i rischi, e perché l'assicurazione resta lo strumento principe per trasferirli.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, art. 30, Sistema di governo societario (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-bis, Sistema di gestione dei rischi (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30bis"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-quater, Sistema di controllo interno (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30quater"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-quinquies, Funzione di revisione interna (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30quinquies"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-sexies, Funzione attuariale (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30sexies"
+        },
+        {
+          "title": "Regolamento IVASS n. 38 del 3 luglio 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n38/Regolamento_IVASS_38_del_3_7_2018_testo_consolidato.pdf"
+        },
+        {
+          "title": "IVASS, Lettera al mercato del 5 luglio 2018 (proporzionalità del governo societario)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2018/lm-05-07/Lettera_mercato_5_7_18.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto minimo del sistema di governo societario e le quattro funzioni fondamentali.",
+          "source_ref": "CAP, art. 30, c. 1-2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Compiti delle funzioni di verifica della conformità, revisione interna e attuariale.",
+          "source_ref": "CAP, artt. 30-quater, 30-quinquies, 30-sexies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Compiti della funzione di gestione dei rischi secondo il regolamento IVASS.",
+          "source_ref": "Reg. IVASS 38/2018, art. 32"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nomina e revoca dei titolari delle funzioni fondamentali da parte dell'organo amministrativo, indipendenza e riporto diretto.",
+          "source_ref": "Reg. IVASS 38/2018, artt. 27-28"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Politiche scritte, approvazione e riesame annuale, revisione annuale del governo societario, continuità operativa.",
+          "source_ref": "CAP, art. 30, c. 3-7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Assetti di governo rafforzato, ordinario e semplificato con le soglie dimensionali e alcuni criteri di complessità.",
+          "source_ref": "IVASS, Lettera al mercato 5 luglio 2018, § 1.1.1-1.1.2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla compliance e due verifiche di autoapprendimento.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'alcune organizzazioni hanno previsto una funzione distinta di Compliance'. Integrata precisando che per le imprese di assicurazione la funzione di verifica della conformità è obbligatoria.",
+          "source_ref": "CAP, art. 30, c. 2, lett. e; art. 30-quater"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'il CEO rappresenta il principale responsabile della gestione del rischio'. Integrata: per le imprese di assicurazione il responsabile ultimo del sistema di gestione dei rischi è l'organo amministrativo.",
+          "source_ref": "Reg. IVASS 38/2018, art. 17, c. 3; art. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'il CRO, nominato dal CEO'. Integrata: nelle imprese di assicurazione il titolare della funzione di gestione dei rischi è nominato e revocato dall'organo amministrativo. Possibile aggiornamento: riformulare l'affermazione della fonte.",
+          "source_ref": "Reg. IVASS 38/2018, art. 28, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Riformulata la frase della fonte 'tutte le attività ... sono dirette al Senior Management e dal Consiglio di Amministrazione' (sintassi non chiara) come: le attività dei tre livelli fanno capo all'alta direzione e al CdA. Il modello delle 'tre linee di difesa' non compare con questo nome nel Reg. IVASS 38/2018: è mantenuto come schema della fonte.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Gestire i rischi puri: identificare, stimare, trasferire",
+      "source_files": [
+        "corso totale/Gestione del rischio (1).pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Gestione del rischio prima parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Gestione del rischio seconda parte.pdf",
+        "Corso Ivass 60 ore/Materiale /4. Risk management.pdf (ok).pdf"
+      ],
+      "source_minutes": 20,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Gestire i rischi puri: identificare, stimare, trasferire",
+          "goals": [
+            "Seguire le fasi del risk management dei rischi puri",
+            "Conoscere le tecniche per identificare e stimare i rischi",
+            "Distinguere ritenzione e assicurazione e le componenti del premio"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I rischi puri dell'impresa",
+          "key": "Il risk management identifica, valuta, gestisce e sottopone a controllo economico i rischi puri: eventi che minacciano il patrimonio fisico e umano dell'azienda e la sua capacità di produrre reddito.",
+          "body": "Crea valore riducendo la variabilità dei flussi attesi, cioè trasformando costi incerti in costi prevedibili, e favorendone l'aumento nel medio-lungo termine.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Gli effetti di un evento dannoso",
+          "lead": "Un evento può innescare reazioni a catena dentro e fuori l'organizzazione.",
+          "head": [
+            "Tipo di danno",
+            "Esempio in un'azienda cliente"
+          ],
+          "rows": [
+            [
+              "Danni diretti",
+              "L'incendio distrugge il magazzino e le merci"
+            ],
+            [
+              "Danni da responsabilità civile",
+              "Il fumo danneggia i capannoni dei vicini, che chiedono il risarcimento"
+            ],
+            [
+              "Danni indiretti",
+              "La produzione si ferma per settimane e si perde fatturato"
+            ],
+            [
+              "Danni consequenziali",
+              "Clienti persi che passano alla concorrenza, penali per consegne mancate"
+            ]
+          ],
+          "ref": "Classificazione: materiale originale del corso; esempi didattici"
+        },
+        {
+          "layout": "steps",
+          "title": "Le tre fasi del processo",
+          "steps": [
+            {
+              "label": "Identificazione",
+              "text": "Si raccolgono le informazioni sul profilo di rischio: unità di rischio, pericoli, causalità, tipi di effetti di ogni evento dannoso."
+            },
+            {
+              "label": "Valutazione",
+              "text": "Per ogni unità e periodo si stimano frequenza, gravità e perdite potenziali e si confrontano le alternative di gestione per minimizzare il costo: R = f(M, P)."
+            },
+            {
+              "label": "Gestione",
+              "text": "Tecniche di controllo (prevenzione e protezione) e tecniche di finanziamento (mezzi per ripristinare la capacità produttiva dopo il sinistro)."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Come si scoprono i rischi",
+          "lead": "Nessuna tecnica garantisce di individuare tutti i rischi: per questo l'identificazione è la fase più critica.",
+          "head": [
+            "Tecnica",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Esperienza passata",
+              "Analizza i fatti già accaduti; trova rischi puri e speculativi. Limite: archivi storici spesso troppo poveri."
+            ],
+            [
+              "Check o prompt list",
+              "Elenco di categorie o di rischi; utile per aziende o progetti simili a quelli già analizzati."
+            ],
+            [
+              "Interviste e self assessment",
+              "Superano i limiti dei documenti tecnici; utili per i rischi tecnici che solo gli esperti vedono."
+            ],
+            [
+              "Brainstorming",
+              "Tecnica di gruppo per generare idee; utile per i rischi complessi."
+            ],
+            [
+              "SWOT, questionari, survey",
+              "Fattori interni ed esterni che incidono sul valore; domande ai manager sui rischi più importanti per gli obiettivi."
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "table",
+          "title": "Le tecniche per processi e prodotti",
+          "head": [
+            "Tecnica",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "FMEA · Failure Mode Effects Analysis",
+              "Tecnica induttiva: valuta i possibili modi di guasto di un processo produttivo, le cause e l'impatto su risultati e prestazioni del prodotto."
+            ],
+            [
+              "FTA · Fault Tree Analysis",
+              "Parte dal fallimento di una funzione e ne ricostruisce le catene causali."
+            ],
+            [
+              "HAZOP · Hazard Operability Analysis",
+              "Tecnica induttiva: gli eventi rischiosi nascono da deviazioni dal normale uso di un prodotto o processo."
+            ],
+            [
+              "HACCP · Hazard Analysis Critical Control Point",
+              "Strumento sistematico, proattivo e preventivo per qualità, affidabilità e sicurezza del prodotto."
+            ],
+            [
+              "Risk register · Registro dei rischi",
+              "Catalogo dinamico di tutti i rischi identificati, con informazioni raccolte in modo standard per tutto il processo."
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "compare",
+          "title": "Come si stimano i rischi",
+          "cols": [
+            {
+              "title": "Qualitativa e semiquantitativa",
+              "items": [
+                "Qualitativa: parole o scale descrittive per probabilità e impatto",
+                "Matrice probabilità-impatto: 5 classi di probabilità (da rara a quasi certa), 5 di impatto (da insignificante a catastrofico), 4 di risk rating (da basso a estremo)",
+                "Semiquantitativa: pesi numerici alle classi; risk score = peso della probabilità × peso dell'impatto"
+              ]
+            },
+            {
+              "title": "Quantitativa",
+              "items": [
+                "Determina la distribuzione delle variabili aleatorie che rappresentano i rischi",
+                "Due rappresentazioni: distribuzione dei risultati possibili e delle perdite possibili",
+                "Tecniche più note: risoluzione analitica e simulazione Monte Carlo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa dice il risk rating",
+          "head": [
+            "Rating",
+            "Significato"
+          ],
+          "rows": [
+            [
+              "Alto o estremo",
+              "Danno elevato e probabilità di accadimento significativa."
+            ],
+            [
+              "Moderato",
+              "L'evento può danneggiare l'operatività ma non dovrebbe comprometterne la sopravvivenza."
+            ],
+            [
+              "Basso",
+              "Si può tralasciare quando si assegnano le risorse per il controllo."
+            ]
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "split",
+          "title": "Controllo e finanziamento",
+          "left": {
+            "title": "Tecniche di controllo",
+            "items": [
+              "Prevenzione: riducono la frequenza dei sinistri",
+              "Protezione: riducono l'intensità dei danni",
+              "Strumenti: misure di sicurezza fisiche, procedure, formazione"
+            ]
+          },
+          "right": {
+            "title": "Tecniche di finanziamento",
+            "items": [
+              "Individuano i mezzi finanziari per spese e investimenti di ripristino",
+              "Ritenzione: l'impresa sopporta in tutto o in parte le conseguenze",
+              "Trasferimento: la tecnica più usata resta l'assicurazione, combinata con adeguati livelli di ritenzione"
+            ]
+          },
+          "note": "Prima si identificano e valutano rischi, cause ed effetti; poi si interviene con misure tecniche e organizzative di prevenzione e protezione.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "La ritenzione attiva",
+          "items": [
+            {
+              "text": "Assorbimento nei costi di esercizio: le piccole perdite vengono pagate come una spesa ordinaria."
+            },
+            {
+              "text": "Autoassicurazione: l'impresa accantona risorse per far fronte da sola a un rischio."
+            },
+            {
+              "text": "Fondi di riserva: somme destinate in anticipo a coprire perdite future."
+            },
+            {
+              "text": "Indebitamento ex post: si ricorre al credito dopo il sinistro."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'assicurazione come trasferimento",
+          "key": "Con l'assicurazione l'impresa trasferisce a un altro soggetto, la compagnia, le conseguenze finanziarie di un evento irregolare nel momento e nell'entità della perdita, pagando un premio.",
+          "body": "Il trasferimento avviene nei limiti e alle condizioni della polizza. La polizza è anche un canale per servizi aggiuntivi: analisi dei rischi, consulenza sui sistemi di prevenzione, assistenza tecnica e giuridica. Per i rischi molto prevedibili l'assicurazione piena è svantaggiosa: il premio supera la perdita attesa dei caricamenti per spese e profitto. Si usano allora strumenti che lasciano all'assicurato una quota del danno.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Le tre parti della polizza e il premio",
+          "lead": "Il premio è il corrispettivo dell'impegno aleatorio preso dall'assicuratore.",
+          "facts": [
+            {
+              "label": "Dichiarazioni",
+              "text": "La parte descrittiva della polizza."
+            },
+            {
+              "label": "Accordo",
+              "text": "L'impegno formale dell'assicuratore a risarcire le conseguenze degli eventi previsti."
+            },
+            {
+              "label": "Esclusioni",
+              "text": "Limiti alla copertura per eventi, persone, luoghi, beni, danni, periodi."
+            },
+            {
+              "label": "Premio equo",
+              "text": "Valore atteso dei risarcimenti aleatori nel periodo assicurato."
+            },
+            {
+              "label": "Premio netto",
+              "text": "Quanto serve per i risarcimenti, compreso il caricamento di sicurezza assente nel premio equo."
+            },
+            {
+              "label": "Premio di tariffa",
+              "text": "Premio puro più caricamenti per spese di gestione e amministrazione."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un piccolo laboratorio di pasticceria chiede all'agente di \"assicurare tutto\". Ogni anno ha piccole rotture di attrezzature per circa 1.500 euro, molto prevedibili. Teme invece un incendio, raro, che fermerebbe l'attività per mesi.",
+          "questions": [
+            "Quali rischi conviene trattenere e quali trasferire?",
+            "Quali tipi di danno dell'incendio vanno considerati?"
+          ],
+          "solution": "Le piccole rotture, frequenti e prevedibili, conviene trattenerle: assicurarle in pieno costerebbe più della perdita attesa per via dei caricamenti. Si può usare una franchigia o uno scoperto. L'incendio, raro e grave, va trasferito con la polizza. Vanno considerati danni diretti (beni), da responsabilità civile (verso vicini e terzi), indiretti (fermo attività) e consequenziali (clienti persi). Prevenzione e protezione, come estintori e manutenzione degli impianti, riducono frequenza e intensità."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per un rischio puro molto prevedibile, perché l'assicurazione piena è svantaggiosa?",
+          "options": [
+            "Perché la legge vieta di assicurare i rischi prevedibili",
+            "Perché il premio supera la perdita attesa dei caricamenti per spese e profitto dell'assicuratore",
+            "Perché il premio equo è sempre maggiore del premio di tariffa",
+            "Perché la compagnia non può applicare esclusioni"
+          ],
+          "answer": 1,
+          "explanation": "Il premio comprende, oltre alla perdita attesa, i caricamenti per spese e profitto. Per i rischi prevedibili conviene trattenere una quota del danno."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella stima semiquantitativa, come si calcola il risk score?",
+          "options": [
+            "Sommando il numero di rischi identificati",
+            "Moltiplicando il peso della probabilità per il peso dell'impatto",
+            "Dividendo il premio per la perdita attesa",
+            "Con la sola simulazione Monte Carlo"
+          ],
+          "answer": 1,
+          "explanation": "Le tecniche semiquantitative danno un peso numerico a ogni classe di probabilità e di impatto: il risk score è il prodotto dei due pesi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "R = f(M, P)",
+              "text": "il rischio dipende da gravità e probabilità"
+            },
+            {
+              "value": "3",
+              "text": "fasi: identificazione, valutazione, gestione"
+            },
+            {
+              "value": "4",
+              "text": "tipi di danno: diretti, RC, indiretti, consequenziali"
+            },
+            {
+              "value": "Ritenzione",
+              "text": "per i rischi piccoli e prevedibili; assicurazione per i rischi gravi"
+            },
+            {
+              "value": "3 premi",
+              "text": "equo, netto, di tariffa"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo il risk management dal punto di vista di un'azienda qualsiasi, il cliente tipico di un intermediario. Vedremo come si identificano e si stimano i rischi e quali tecniche esistono per gestirli, fino all'assicurazione, che resta lo strumento più usato per trasferirli.\n\nIn un'ottica aziendale il risk management è la funzione che identifica, valuta, gestisce e sottopone a controllo economico i rischi puri dell'azienda. I rischi puri sono gli eventi che possono minacciare il patrimonio fisico e umano dell'azienda e la sua capacità di produrre reddito: incendi, furti, infortuni, responsabilità verso terzi. Da questi eventi si può solo perdere, a differenza dei rischi speculativi, che possono portare anche un guadagno. L'attività di risk management crea valore perché riduce la variabilità dei flussi attesi: trasforma costi incerti in costi prevedibili e ne favorisce l'aumento nel medio-lungo termine. In pratica l'imprenditore preferisce pagare ogni anno un premio noto piuttosto che rischiare una perdita enorme e improvvisa.\n\nGli effetti di un evento dannoso possono innescare reazioni a catena che si propagano dentro e fuori l'organizzazione. Il materiale li classifica in quattro gruppi: danni diretti, danni da responsabilità civile, danni indiretti e danni consequenziali. Facciamo un esempio. Un incendio colpisce il magazzino di un'azienda: la distruzione di merci e scaffalature è un danno diretto. Il fumo danneggia il capannone del vicino, che chiede il risarcimento: è un danno da responsabilità civile. La produzione si ferma per settimane: è un danno indiretto, la perdita di fatturato. Alcuni clienti, nel frattempo, passano alla concorrenza e non tornano più: sono danni consequenziali. Chi fa consulenza assicurativa deve vedere tutta la catena, non solo il primo anello.\n\nLe fasi del processo sono tre: identificazione, valutazione e gestione. Nella fase di identificazione si raccolgono ed elaborano tutte le informazioni necessarie a descrivere il profilo di rischio. Occorre mettere in evidenza le unità di rischio, cioè i beni, le persone e le attività esposte; i pericoli; le causalità, cioè i fattori che possono provocare l'evento; e i tipi di effetti che ogni evento dannoso può provocare.\n\nCome si scoprono i rischi in concreto? Il materiale più recente del corso elenca diverse tecniche. Un'avvertenza importante: l'identificazione è una fase molto critica, perché nessuna tecnica garantisce di individuare tutti i rischi possibili. Per questo se ne combinano diverse.\n\nLa prima è l'analisi dell'esperienza passata, fondamentale per individuare le principali tipologie di rischio, sia puri sia speculativi. Il suo limite principale è che spesso le aziende non hanno archivi storici abbastanza ampi da cui trarre indicazioni utili. Poi c'è la check list o prompt list: un elenco di categorie di rischio o di rischi, preparato per agevolare l'identificazione, particolarmente utile per aziende o progetti simili ad altri già analizzati. I questionari di analisi dei rischi usati dagli intermediari per le aziende clienti funzionano proprio così.\n\nLe interviste, e il self assessment, permettono di superare i problemi dell'analisi della documentazione tecnica e sono particolarmente utili per i rischi puri di natura tecnica, difficili da individuare per chi non ha le competenze. Il brainstorming è una tecnica di gruppo che serve a generare idee per una vasta gamma di problemi ed è utile per i rischi complessi. L'analisi SWOT punta a identificare i fattori essenziali, interni ed esterni, che influiscono sullo sviluppo e sul valore dell'azienda. Vicini a questa ci sono il questionario di rischio, con domande per identificare rischi interni ed esterni, e la survey, rivolta a vari livelli di management, che chiede di indicare i rischi più importanti per raggiungere gli obiettivi.\n\nPer processi e prodotti esistono tecniche più ingegneristiche. La FMEA, analisi dei modi di guasto e dei loro effetti, è una tecnica induttiva che valuta come può fallire un processo produttivo, le cause e l'impatto su risultati e prestazioni del prodotto. La FTA, analisi ad albero dei guasti, parte dal fallimento di una funzione di un prodotto o processo e ne ricostruisce le catene causali; il materiale la definisce induttiva, ma il suo procedimento, dall'effetto alle cause, è normalmente descritto come deduttivo. L'HAZOP si basa sull'idea che gli eventi rischiosi nascano da deviazioni dal normale utilizzo di un prodotto o processo. L'HACCP, noto nel settore alimentare, è uno strumento sistematico, proattivo e preventivo per garantire qualità, affidabilità e sicurezza del prodotto.\n\nTutte le informazioni raccolte alimentano il risk register, il registro dei rischi: un catalogo dinamico di tutti i rischi identificati, con informazioni raccolte in modo standardizzato, che supporta l'intero processo di risk management.\n\nPassiamo alla valutazione. Per una data unità di rischio e per un certo intervallo di tempo, la valutazione consiste nell'identificare frequenza, gravità e perdite potenziali dei rischi esaminati e nel confrontare le diverse alternative di gestione per minimizzarne il costo. Si tratta di determinare una funzione del tipo R uguale f di M e P: il rischio è funzione della magnitudo, cioè della gravità del danno, e della probabilità che l'evento si verifichi.\n\nLa valutazione inizia con la stima e termina con la prioritizzazione, per individuare i rischi non accettabili che richiedono misure di trattamento. La stima può essere qualitativa, semiquantitativa o quantitativa. Qualunque tecnica si usi, si stimano sempre due parametri: la probabilità che l'evento incerto si verifichi e il suo impatto sulla capacità dell'organizzazione di raggiungere gli obiettivi.\n\nLe tecniche qualitative usano parole o scale descrittive. La più diffusa è la matrice probabilità-impatto. Per costruirla servono una scala qualitativa delle probabilità dell'evento avverso, una scala degli impatti, cioè delle conseguenze economiche, una scala che assegna a ogni combinazione un giudizio, il risk rating, e dei criteri che dicano come comportarsi davanti a ogni rating. Di solito si usano cinque classi di probabilità, da rara a quasi certa, cinque classi di impatto, da insignificante a catastrofico, e quattro classi di risk rating, da basso a estremo. I rischi con rating alto o estremo hanno un danno elevato e una probabilità significativa. Quelli con rating moderato possono danneggiare l'operatività ma non dovrebbero comprometterne la sopravvivenza. Quelli con rating basso possono essere tralasciati quando si assegnano le risorse per il controllo.\n\nLe tecniche semiquantitative danno un numero, un peso, a ogni livello di probabilità e di impatto. Così ogni rischio riceve un punteggio, il risk score o esposizione, calcolato moltiplicando il peso della probabilità per quello dell'impatto. Tutti i rischi stimati vengono poi inseriti nella matrice, che offre una visione congiunta e una rappresentazione complessiva dell'esposizione del processo o dell'unità esaminata. Ad esempio, con una scala da 1 a 5, un rischio con probabilità 2 e impatto 5 ha score 10, mentre uno con probabilità 4 e impatto 2 ha score 8.\n\nLe tecniche quantitative, infine, puntano a determinare la distribuzione delle variabili aleatorie che rappresentano i rischi. Le rappresentazioni tipiche sono due: la distribuzione dei risultati possibili e quella delle perdite possibili. Esistono molti modelli scientifici; la distribuzione della variabile obiettivo si ottiene in genere con la simulazione. Le tecniche più note sono la risoluzione analitica e la simulazione Monte Carlo, che ripete migliaia di volte uno scenario con valori casuali per vedere come si distribuiscono i risultati.\n\nTerza fase: la gestione. Le tecniche si dividono in due famiglie. Le tecniche di controllo comprendono prevenzione e protezione, attraverso misure di sicurezza fisiche, procedure e formazione. Le tecniche di finanziamento individuano i mezzi finanziari necessari per affrontare le spese o gli investimenti per ripristinare la capacità produttiva persa con il sinistro. Una volta identificati e valutati i rischi, con cause ed effetti, si interviene con misure tecniche e organizzative di prevenzione e protezione, che limitano frequenza e intensità dei sinistri. La tecnica di trasferimento più usata dalle imprese resta l'assicurazione, combinata con adeguati livelli di ritenzione.\n\nLa ritenzione è una tecnica di finanziamento con cui l'impresa si fa carico, in tutto o in parte, delle conseguenze finanziarie di un sinistro, predisponendo interventi e programmi per ridurne gli effetti sulle risorse aziendali. Le tecniche di ritenzione attiva sono quattro: l'assorbimento nei costi di esercizio, per le piccole perdite pagate come spesa ordinaria; l'autoassicurazione; i fondi di riserva; e l'indebitamento ex post, cioè il ricorso al credito dopo il sinistro.\n\nL'assicurazione è la tecnica con cui l'impresa trasferisce a un altro soggetto giuridico, la compagnia, le conseguenze finanziarie di un evento caratterizzato da irregolarità nel momento in cui si manifesta e nell'entità della perdita, in cambio di una somma, il premio. Il trasferimento avviene nei limiti e alle condizioni del contratto, la polizza, che è anche uno strumento per ottenere servizi aggiuntivi: analisi dei rischi, consulenza sui sistemi di prevenzione, assistenza tecnica e giuridica.\n\nC'è un punto economico importante. Per i rischi puri molto prevedibili l'assicurazione piena è svantaggiosa, perché il premio supera la perdita attesa di una quota pari ai caricamenti per spese di gestione e profitto dell'assicuratore. Per questo esistono strumenti contrattuali che lasciano a carico dell'assicurato una parte del danno, come franchigie e scoperti.\n\nLa polizza si può dividere concettualmente in tre parti: le dichiarazioni, cioè la parte descrittiva; l'accordo, l'impegno formale dell'assicuratore a risarcire le conseguenze degli eventi previsti; e le esclusioni, i limiti alla copertura legati a eventi, persone, luoghi, beni, danni o periodi.\n\nIl corrispettivo dell'impegno aleatorio dell'assicuratore è il premio. Il premio equo corrisponde al valore atteso dei risarcimenti nel periodo assicurato. Il premio netto è l'importo che serve all'assicuratore per far fronte ai risarcimenti e comprende anche il caricamento di sicurezza, che nel premio equo non c'è. Il premio di tariffa, quello pagato dal cliente, è la somma del premio puro e dei caricamenti per spese, destinati a coprire i costi di gestione e amministrazione. Nella terminologia del materiale, quindi, il premio puro è la base di rischio a cui si aggiungono i caricamenti.\n\nNel caso del laboratorio di pasticceria che vuole assicurare tutto, il consiglio corretto è trattenere le piccole rotture, frequenti e prevedibili, ad esempio con una franchigia, e trasferire l'incendio, raro e grave, considerando beni distrutti, responsabilità verso terzi, fermo attività e clienti persi. Prevenzione e protezione, come manutenzione ed estintori, riducono frequenza e gravità e possono migliorare le condizioni di polizza.\n\nRicapitolando: il rischio è funzione di gravità e probabilità; il processo passa da identificazione, valutazione e gestione; i danni possono essere diretti, da responsabilità civile, indiretti e consequenziali; per i rischi piccoli e prevedibili si usa la ritenzione, per quelli gravi e rari l'assicurazione. Nell'ultima lezione allarghiamo lo sguardo all'Enterprise Risk Management e alla valutazione interna del rischio e della solvibilità delle compagnie.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di danni diretti, da responsabilità civile, indiretti e consequenziali; esempio numerico di risk score; caso pratico sulla scelta tra ritenzione e assicurazione; due verifiche.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Integrate in questa lezione, dal materiale del corso 60 ore, le tecniche di identificazione (esperienza passata, prompt list, interviste, brainstorming, SWOT, FMEA, FTA, HAZOP, HACCP, risk register) e di stima (qualitativa, semiquantitativa, quantitativa).",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'La FTA è una tecnica induttiva'. La FTA procede dall'evento di guasto alle cause ed è comunemente descritta come deduttiva. Riferimento da indicare / possibile aggiornamento: correggere in 'deduttiva' dopo verifica su norma tecnica.",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione dei premi: il premio netto 'ricomprende il caricamento di sicurezza', mentre il premio di tariffa è 'premio puro più caricamenti per spese'. La fonte usa 'premio puro' senza definirlo e non chiarisce se il premio di tariffa parta dal premio netto. Possibile aggiornamento: uniformare la terminologia.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la parola 'casualità' tra gli elementi da evidenziare nell'identificazione: interpretata come 'causalità' (fattori che provocano l'evento), probabile refuso. Riferimento da verificare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il risk management 'contribuisce alla creazione di valore ... trasformando costi incerti in altri prevedibili e un aumento di essi nel medio-lungo termine'. La frase originale è ambigua sull'oggetto dell'aumento (i flussi attesi): riformulata in questo senso.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Enterprise Risk Management e valutazione interna del rischio",
+      "source_files": [
+        "corso totale/Enterprise Risk Management.pdf.pdf",
+        "Corso Ivass 60 ore/Materiale /4. Risk management.pdf (ok).pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Enterprise Risk Management e valutazione interna del rischio",
+          "goals": [
+            "Capire perché si passa dalla gestione a silos alla gestione integrata",
+            "Usare risk appetite, risk tolerance e KRI",
+            "Collegare l'ERM all'ORSA delle compagnie di assicurazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il rischio è parte del business",
+          "key": "L'attività d'impresa ha un legame indissolubile con il rischio. Saper identificare, valutare e gestire i rischi è alla base del successo aziendale.",
+          "body": "Un buon modello di risk management fa capire gli aspetti positivi e negativi di tutti i fattori che influenzano l'organizzazione, aumenta la probabilità di successo della strategia e riduce l'incertezza sugli obiettivi. Il modello ERM del COSO promuove una gestione organica e integrata di tutti i rischi, affiancata a ogni attività e processo, nel dettaglio e nell'insieme.",
+          "ref": "Materiale originale del corso; COSO, Enterprise Risk Management"
+        },
+        {
+          "layout": "split",
+          "title": "Dai silos alla gestione integrata",
+          "left": {
+            "title": "Prima: gestione a silos",
+            "items": [
+              "Ogni business unit gestisce i propri rischi da sola, senza comunicare con le altre",
+              "Incompletezza: non considera come altri eventi possano aggravare la situazione",
+              "Inefficienza: problemi di comunicazione e costi in eccesso",
+              "Inconsistenza: scenari valutati in modo diverso dalle varie funzioni"
+            ]
+          },
+          "right": {
+            "title": "Perché si è cambiato",
+            "items": [
+              "Rischi più numerosi e complessi",
+              "Pressione di norme europee e nazionali, agenzie di rating e investitori istituzionali",
+              "Boundary-less benchmarking: confronto con le migliori pratiche oltre i confini del settore",
+              "Una rinnovata concezione del rischio, anche come opportunità"
+            ]
+          },
+          "note": "L'ERM supera la visione parcellizzata, collega la valutazione dei rischi ai cambi di strategia e diffonde una cultura del rischio condivisa.",
+          "noteRef": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "facts",
+          "title": "Che cos'è l'ERM",
+          "lead": "Una visione olistica dei rischi e dei loro legami, che allinea gli obiettivi strategici del CdA con l'operatività di ogni giorno.",
+          "facts": [
+            {
+              "label": "Cultura",
+              "text": "Influenza le decisioni a ogni livello. Serve il commitment di board e top management: condizione necessaria, ma non sufficiente."
+            },
+            {
+              "label": "Organizzazione",
+              "text": "CRO, funzione ERM indipendente, risk owner, ruoli chiari, tutti coinvolti."
+            },
+            {
+              "label": "Processo",
+              "text": "Registro dei rischi, portafoglio con correlazioni, contingency plan, KRI, reporting."
+            },
+            {
+              "label": "ERM policy",
+              "text": "Uno dei primi passi: obiettivi di rischio, misura e reporting dell'esposizione, struttura di controllo, hedging e mitigazione. Semplice, applicabile, sempre aggiornata."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Le fasi del processo ERM",
+          "steps": [
+            {
+              "label": "Obiettivi e risk appetite",
+              "text": "Obiettivi strategici e di risk management; propensione al rischio formalizzata nel Risk Appetite Statement approvato dal board."
+            },
+            {
+              "label": "Risk assessment",
+              "text": "Identificazione e valutazione dei rischi, poi prioritizzazione e integrazione in un portafoglio."
+            },
+            {
+              "label": "Reporting",
+              "text": "Report sintetici sui risultati, per chi deve decidere il trattamento."
+            },
+            {
+              "label": "Trattamento e rischi residui",
+              "text": "Interventi per ricondurre i rischi nei limiti; nuova stima e nuovo report sui rischi residui."
+            },
+            {
+              "label": "Monitoraggio",
+              "text": "Verifica continua della qualità del sistema, con indicatori KRI."
+            }
+          ],
+          "ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "layout": "compare",
+          "title": "Risk appetite e risk tolerance",
+          "cols": [
+            {
+              "title": "Risk appetite",
+              "items": [
+                "Propensione al rischio: come si percepiscono gli eventi, quali rischi si accettano e come si gestiscono",
+                "Ammontare complessivo di rischio che l'impresa è disposta ad assumere, in base alle attese degli stakeholder e nei limiti della sua capacità di rischio",
+                "Formalizzato nel Risk Appetite Statement, approvato dal board e declinato su tutta l'organizzazione"
+              ]
+            },
+            {
+              "title": "Risk tolerance",
+              "items": [
+                "Soglia di rischio tollerabile",
+                "Dipende dall'attività, dall'organizzazione e da molte altre variabili",
+                "Fissa gli scostamenti accettabili rispetto all'obiettivo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Valutare: impatto e probabilità",
+          "lead": "La valutazione è il prodotto di probabilità e impatto. La probabilità è la possibilità che l'evento si manifesti in un dato orizzonte temporale.",
+          "head": [
+            "Livello",
+            "Posizione",
+            "Che cosa fare"
+          ],
+          "rows": [
+            [
+              "1 · Basso",
+              "Rientra nel risk appetite",
+              "Non rilevante"
+            ],
+            [
+              "2 · Medio",
+              "Supera il risk appetite, rientra nella risk tolerance",
+              "Monitorare"
+            ],
+            [
+              "3 · Alto",
+              "Supera risk appetite e risk tolerance",
+              "Evitare o ridurre"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Criteri di impatto e macro-categorie",
+          "left": {
+            "title": "Criteri di impatto",
+            "items": [
+              "Economico: minori ricavi o maggiori costi",
+              "Mercato: perdita di quote per incapacità di soddisfare i clienti",
+              "Reputazionale: eventi che ledono l'immagine",
+              "Vantaggio competitivo: perdita del vantaggio acquisito"
+            ]
+          },
+          "right": {
+            "title": "Macro-categorie di rischio",
+            "items": [
+              "Strategici o di business",
+              "Finanziari",
+              "Operativi",
+              "Potenziali (hazard)",
+              "Di conformità alla normativa (compliance)"
+            ]
+          },
+          "note": "Si confrontano i rischi con le soglie fissate in base al risk appetite, per distinguere quelli che richiedono azioni urgenti da quelli che ne richiedono poche o nessuna. Poi si aggregano in un portafoglio, essenza dell'ERM: si colgono correlazioni, interdipendenze e coperture naturali.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Rispondere al rischio",
+          "lead": "Interventi ex ante, prima che il rischio si manifesti, o ex post, dopo.",
+          "head": [
+            "Risposta",
+            "In che cosa consiste"
+          ],
+          "rows": [
+            [
+              "Evitare · Non assunzione",
+              "Rinunciare, se possibile, ad assumere il rischio."
+            ],
+            [
+              "Ridurre · Contenimento",
+              "Azioni, dopo che il rischio si manifesta, per ridurne gli effetti negativi o amplificarne quelli positivi."
+            ],
+            [
+              "Condividere · Copertura o assicurazione",
+              "Assumere una posizione opposta a quella da gestire, o trasferire il rischio."
+            ],
+            [
+              "Accettare · Ritenzione",
+              "Assumere il rischio senza una specifica misura di gestione."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Monitorare con i KRI",
+          "key": "I Key Risk Indicator sono statistiche o misure che mostrano la posizione dell'impresa rispetto al rischio e segnalano i cambiamenti che indicano un rischio in aumento o emergente.",
+          "body": "Vanno rivisti periodicamente. Il monitoraggio chiude il processo: verifica la qualità del sistema di gestione dei rischi e il raggiungimento degli obiettivi, dopo la stima dei rischi residui e il report di sintesi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Per le compagnie",
+          "title": "L'ORSA: valutazione interna del rischio e della solvibilità",
+          "lead": "Fa parte del sistema di gestione dei rischi ed è parte integrante della strategia: l'impresa ne tiene conto sistematicamente nelle decisioni strategiche.",
+          "facts": [
+            {
+              "label": "Che cosa valuta",
+              "text": "Il fabbisogno di solvibilità globale, dato il profilo di rischio, i limiti di tolleranza e la strategia."
+            },
+            {
+              "label": "Rispetto continuo",
+              "text": "Dei requisiti patrimoniali e delle riserve tecniche."
+            },
+            {
+              "label": "Scostamento",
+              "text": "Quanto il profilo di rischio si discosta dalle ipotesi del Requisito Patrimoniale di Solvibilità."
+            },
+            {
+              "label": "Quando",
+              "text": "Almeno una volta l'anno e subito dopo ogni variazione significativa del profilo di rischio."
+            },
+            {
+              "label": "A chi",
+              "text": "I risultati vanno all'IVASS."
+            },
+            {
+              "label": "Che cosa non è",
+              "text": "Non serve a calcolare il requisito patrimoniale."
+            }
+          ],
+          "ref": "CAP, art. 30-ter"
+        },
+        {
+          "layout": "checklist",
+          "title": "Propensione al rischio nelle compagnie",
+          "items": [
+            {
+              "text": "L'organo amministrativo fissa la propensione al rischio, coerente con il fabbisogno di solvibilità, e i limiti di tolleranza, rivisti almeno una volta l'anno.",
+              "ref": "Reg. 38, art. 5, c. 2, lett. e"
+            },
+            {
+              "text": "Dentro la propensione al rischio, l'impresa fissa un obiettivo di solvibilità: fondi propri ammissibili / Requisito Patrimoniale di Solvibilità, su un anno.",
+              "ref": "Reg. 38, art. 18"
+            },
+            {
+              "text": "Stress test calibrati sul proprio profilo e scenari basati sul peggiore caso possibile.",
+              "ref": "Reg. 38, art. 19, c. 4"
+            },
+            {
+              "text": "Per le maggiori fonti di rischio, un piano di emergenza approvato dall'organo amministrativo e rivisto almeno ogni anno.",
+              "ref": "Reg. 38, art. 19, c. 5-6"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Benefici e limiti dell'ERM",
+          "cols": [
+            {
+              "title": "Benefici",
+              "items": [
+                "Propensione al rischio coerente con la strategia",
+                "Decisioni migliori sulle risposte al rischio",
+                "Meno eventi imprevisti e perdite",
+                "Gestione dei rischi correlati e multipli",
+                "Crescita legata a rischio e rendimento; obiettivi più raggiungibili",
+                "Utili meno volatili, minor costo del capitale",
+                "Reputazione, resilienza, opportunità"
+              ]
+            },
+            {
+              "title": "Limiti",
+              "items": [
+                "Il rischio riguarda un evento futuro incerto: non si può prevedere con certezza",
+                "Per gli obiettivi strategici e operativi non dà alcuna ragionevole sicurezza che vengano raggiunti",
+                "Non dà sicurezza assoluta per nessuna delle quattro categorie di obiettivi"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia ha fissato un obiettivo di solvibilità e limiti di tolleranza sul rischio di sottoscrizione. Un KRI mostra che, da tre mesi, la frequenza dei sinistri su una nuova polizza casa venduta online cresce ogni mese. Il direttore commerciale vuole aumentare gli sconti per vendere di più.",
+          "questions": [
+            "Che cosa segnala il KRI?",
+            "Quali risposte al rischio sono possibili?",
+            "Serve rifare l'ORSA?"
+          ],
+          "solution": "Il KRI segnala un rischio in aumento, che può superare prima il risk appetite e poi la tolleranza. Le risposte: ridurre (rivedere tariffa e assunzione), condividere (riassicurazione), evitare (sospendere la vendita), accettare solo se resta nei limiti. Aumentare gli sconti va contro la propensione al rischio. Se la variazione del profilo di rischio è significativa, l'ORSA va ripetuta subito, senza attendere la scadenza annuale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un rischio supera il risk appetite ma resta nella risk tolerance. Che cosa si fa?",
+          "options": [
+            "Lo si ignora",
+            "Lo si monitora",
+            "Lo si evita sempre",
+            "Si sospende l'attività dell'impresa"
+          ],
+          "answer": 1,
+          "explanation": "È un rischio medio: supera la propensione al rischio ma resta entro la soglia tollerabile, quindi va monitorato. Se supera anche la tolleranza è alto e va evitato o ridotto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Ogni quanto un'impresa di assicurazione deve effettuare l'ORSA?",
+          "options": [
+            "Ogni cinque anni",
+            "Solo quando lo chiede l'IVASS",
+            "Almeno una volta l'anno e subito dopo ogni variazione significativa del profilo di rischio",
+            "Ogni volta che lancia un nuovo prodotto"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 30-ter, comma 6, del CAP prevede l'ORSA almeno annuale e, in ogni caso, subito dopo qualsiasi variazione significativa del profilo di rischio."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "ERM",
+              "text": "visione integrata e olistica dei rischi, contro la gestione a silos"
+            },
+            {
+              "value": "Appetite",
+              "text": "rischio che si vuole assumere; tolerance: scostamento massimo accettabile"
+            },
+            {
+              "value": "4",
+              "text": "risposte: evitare, ridurre, condividere, accettare"
+            },
+            {
+              "value": "KRI",
+              "text": "indicatori che segnalano rischi in aumento o emergenti"
+            },
+            {
+              "value": "ORSA",
+              "text": "almeno annuale, parte della strategia, comunicata all'IVASS"
+            }
+          ]
+        }
+      ],
+      "narration": "Ultima lezione sulla gestione dei rischi: l'Enterprise Risk Management, cioè la gestione integrata dei rischi d'impresa, e la sua traduzione per le compagnie nella valutazione interna del rischio e della solvibilità, l'ORSA.\n\nUna premessa: il rischio è una caratteristica intrinseca del business, e saperlo identificare, valutare e gestire è alla base del successo aziendale. Un buon modello fa capire aspetti positivi e negativi di tutti i fattori che influenzano l'organizzazione, aumenta le probabilità di successo della strategia e riduce l'incertezza sugli obiettivi.\n\nIl modello ERM del COSO, pubblicato per la prima volta nel 2004 e poi aggiornato con il titolo Integrating with Strategy and Performance, promuove una gestione organica e integrata di tutti i rischi, affiancata a ogni attività e processo, nel dettaglio e nell'insieme. La visione del profilo di rischio globale permette al management di verificare la coerenza delle scelte e di allinearle al livello di rischio accettabile.\n\nNegli ultimi quindici anni circa, dopo eventi che hanno cambiato la mentalità di imprese e manager, si è passati gradualmente dall'approccio tradizionale all'ERM. Prima si gestiva il rischio a silos: ogni business unit per conto proprio, senza comunicare, cercando solo di contenere i propri costi. Tre i limiti: incompletezza, perché ogni rischio era valutato da solo, senza considerare eventi che potevano aggravarlo; inefficienza, per problemi di comunicazione e costi in eccesso; inconsistenza, perché le funzioni valutavano gli scenari in modo diverso.\n\nHanno spinto verso la logica integrata la crescita del numero e della complessità dei rischi, la pressione di norme europee e nazionali, agenzie di rating e investitori istituzionali, il cosiddetto boundary-less benchmarking, cioè il confronto con le migliori pratiche oltre i confini del proprio settore, e una rinnovata concezione del rischio. L'ERM supera la visione parcellizzata che non vede le correlazioni tra rischi, collega la valutazione dei rischi ai cambi di strategia, diffonde una cultura del rischio condivisa, favorisce comunicazione e coordinamento e vede il rischio anche come un'opportunità, non solo come una minaccia da eliminare a ogni costo.\n\nL'ERM offre quindi una visione olistica dei rischi e dei loro legami, e allinea gli obiettivi strategici del consiglio con l'operatività quotidiana. Tre gli aspetti: cultura, organizzazione, processo.\n\nLa cultura del rischio influenza le decisioni a tutti i livelli ed è l'elemento di base per buone pratiche di ERM. È fondamentale l'impegno, il commitment, di board e top management: il comportamento esemplare dei vertici è condizione necessaria, ma non sufficiente. Per coinvolgere tutto il personale serve una ERM policy, uno dei primi passi. Contiene di solito obiettivi di rischio, misurazione, reporting e previsione dell'esposizione, struttura organizzativa e di controllo, politiche di copertura e mitigazione, processo di valutazione, principi contabili, misurazione e diffusione della performance. Deve essere semplice, facile da applicare e aggiornata di continuo.\n\nSull'organizzazione, il materiale suggerisce di nominare un Chief Risk Officer con un gruppo di lavoro, creare una funzione ERM dedicata e indipendente, nominare i risk owner, chiarire ruoli e responsabilità, integrare il processo in tutte le unità e coinvolgere tutti i dipendenti. È la risk governance, la parte della corporate governance che regola i rapporti tra organi e funzioni che assumono e gestiscono i rischi: ogni figura deve conoscere il proprio ruolo fin dalla progettazione.\n\nGli elementi chiave del sistema sono: ERM integrato nei piani strategici e di business, un processo efficiente, un registro dei rischi aggiornato e classificato per categorie, una valutazione formale, qualitativa e quantitativa, ripetuta nel tempo ed estesa ai rischi residui, un portafoglio unico con le correlazioni, una strategia di trattamento per ogni rischio, contingency plan, un sistema di KRI e un reporting periodico.\n\nIl processo ERM ha queste fasi: definizione degli obiettivi strategici e di risk management; risk assessment, che parte dall'identificazione e finisce con la valutazione; reporting sui risultati; trattamento dei rischi; valutazione e reporting sui rischi residui; monitoraggio continuo, supportato da indicatori KRI.\n\nInsieme agli obiettivi l'impresa definisce il risk appetite. È la propensione al rischio: come si percepiscono gli eventi, quali rischi si accettano e come si gestiscono. Ed è l'ammontare complessivo di rischio, basato sulle attese degli stakeholder, che l'impresa è disposta ad assumere entro la propria capacità di rischio. Si formalizza nel Risk Appetite Statement, approvato dal board, incluso nella policy ERM e declinato su tutta l'organizzazione. La risk tolerance è la soglia di rischio tollerabile, che dipende dall'attività, dall'organizzazione e da molte altre variabili, e fissa gli scostamenti accettabili rispetto all'obiettivo. In breve: l'appetite è la velocità di crociera scelta, la tolleranza il limite oltre il quale bisogna frenare.\n\nIl risk assessment è la fase più tecnica: si identificano e si valutano i rischi per arrivare a un elenco di rischi accettabili e non accettabili, su cui intervenire. Le macro-categorie sono: rischi strategici o di business, finanziari, operativi, potenziali o hazard, e di conformità alla normativa. Le tecniche di identificazione e di stima le abbiamo viste nella lezione precedente.\n\nLa valutazione avviene su due dimensioni. L'impatto si misura con quattro criteri: economico, cioè minori ricavi o maggiori costi; di mercato, la perdita di quote per incapacità di soddisfare i clienti; reputazionale; e di vantaggio competitivo. La probabilità è la possibilità che l'evento si manifesti in un certo orizzonte temporale. Il prodotto dei due dà tre livelli: basso, se il rischio rientra nel risk appetite; medio, da monitorare, se supera l'appetite ma resta nella tolerance; alto, da evitare o ridurre, se le supera entrambe.\n\nPoi si prioritizza, confrontando i rischi con le soglie fissate in base al risk appetite, per separare quelli che richiedono azioni urgenti da quelli che ne richiedono poche o nessuna. Ordinati per esposizione, i rischi vengono aggregati in un portafoglio: è l'essenza dell'ERM, perché fa emergere correlazioni, interdipendenze e coperture naturali. Il reporting presenta poi, in report sintetici, tutti i rischi emersi, le loro caratteristiche, lo stato di gestione e il ranking, per chi deve decidere il trattamento.\n\nIl trattamento riporta i rischi entro tolleranza e appetite, con interventi ex ante, prima che il rischio si manifesti, o ex post. Le risposte sono quattro: evitare, cioè non assumere il rischio se possibile; ridurre, che il materiale descrive come azioni dopo il manifestarsi del rischio per limitarne gli effetti negativi o amplificare quelli positivi, ricordando però che anche la prevenzione ex ante riduce il rischio; condividere, con una copertura, cioè una posizione opposta a quella da gestire, o con l'assicurazione; accettare, cioè trattenere il rischio senza misure esplicite.\n\nDopo il trattamento si stimano di nuovo i rischi che restano, i rischi residui, e si redige un report di sintesi dell'intero processo. Il monitoraggio chiude il ciclo e verifica nel tempo la qualità del sistema e il raggiungimento degli obiettivi. Lo strumento principe sono i Key Risk Indicator: misure riviste periodicamente che segnalano un rischio in aumento o emergente.\n\nPer un'impresa di assicurazione l'ERM è un obbligo, tradotto in regole dal Codice delle assicurazioni, che recepisce la disciplina europea Solvency II. L'articolo 30-ter chiede di effettuare, nel sistema di gestione dei rischi, la valutazione interna del rischio e della solvibilità, parte integrante della strategia e da considerare in modo sistematico nelle decisioni strategiche. Riguarda almeno il fabbisogno di solvibilità globale, dati profilo di rischio, limiti di tolleranza e strategia; il rispetto continuo dei requisiti patrimoniali e di quelli sulle riserve tecniche; e lo scostamento del profilo di rischio dalle ipotesi del Requisito Patrimoniale di Solvibilità. Si fa almeno una volta l'anno e subito dopo ogni variazione significativa del profilo di rischio, e i risultati vanno all'IVASS. Non serve, invece, a calcolare il requisito patrimoniale.\n\nIl Regolamento IVASS 38 del 2018 completa il quadro. L'organo amministrativo determina la propensione al rischio, coerente con il fabbisogno di solvibilità, sceglie i rischi da assumere e fissa i limiti di tolleranza, rivisti almeno ogni anno: sono il risk appetite e la risk tolerance in linguaggio normativo. Nella propensione al rischio rientra un obiettivo di solvibilità, cioè il rapporto tra fondi propri ammissibili e requisito patrimoniale su un anno. Servono poi stress test calibrati sul proprio profilo, scenari del peggiore caso possibile e, per le maggiori fonti di rischio, un piano di emergenza approvato dall'organo amministrativo e rivisto almeno ogni anno.\n\nQuali vantaggi offre l'ERM? L'equilibrio tra rischi assunti e capitale, che dipende da capitale proprio e indebitamento, è essenziale per la continuità: gestire meglio i rischi riduce la possibilità di dissesto e aumenta il valore dell'impresa, e un sistema ERM offre una ragionevole sicurezza che l'assetto economico resti inalterato. Tra i benefici elencati: coerenza tra propensione al rischio e strategia, decisioni migliori, meno imprevisti e perdite, gestione dei rischi correlati, legame tra crescita, rischio e rendimento, utili meno volatili e minor costo del capitale, migliore reputazione e resilienza, sfruttamento delle opportunità.\n\nCi sono anche limiti. Il rischio riguarda un evento futuro e incerto, che non si può prevedere con certezza. Per gli obiettivi strategici e operativi l'ERM non può dare alcuna ragionevole sicurezza che vengano raggiunti. E non può dare sicurezza assoluta per nessuna delle quattro categorie di obiettivi.\n\nIl caso pratico mostra il meccanismo: un KRI segnala che i sinistri di una nuova polizza casa crescono da tre mesi. La risposta giusta è ridurre, condividere o evitare il rischio, non aumentare gli sconti; e se il profilo di rischio cambia in modo significativo, l'ORSA va rifatta subito. Quando una compagnia cambia all'improvviso tariffe o regole di assunzione, dietro c'è spesso questo.\n\nRicapitolando: l'ERM integra i rischi e supera i silos; appetite e tolerance fissano quanto rischio assumere e fin dove spingersi; le risposte sono evitare, ridurre, condividere, accettare; i KRI danno l'allarme; per le compagnie l'ORSA rende tutto questo un obbligo di legge.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, art. 30-ter, Valutazione interna del rischio e della solvibilità (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30ter"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 30-bis, Sistema di gestione dei rischi (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30bis"
+        },
+        {
+          "title": "Regolamento IVASS n. 38 del 3 luglio 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n38/Regolamento_IVASS_38_del_3_7_2018_testo_consolidato.pdf"
+        },
+        {
+          "title": "IVASS, Regolamenti attuativi di Solvency II",
+          "url": "https://www.ivass.it/normativa/focus/solvency/nn/reg/index.html"
+        },
+        {
+          "title": "COSO, Enterprise Risk Management",
+          "url": "https://www.coso.org/enterprise-risk-management"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "ORSA: contenuto minimo, frequenza almeno annuale e dopo variazioni significative, comunicazione all'IVASS, esclusione dal calcolo del requisito patrimoniale.",
+          "source_ref": "CAP, art. 30-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Propensione al rischio e limiti di tolleranza fissati dall'organo amministrativo e rivisti annualmente; obiettivo di solvibilità; stress test e scenari; piano di emergenza annuale.",
+          "source_ref": "Reg. IVASS 38/2018, artt. 5, c. 2, lett. e-f; 18; 19, c. 4-6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Prima edizione del framework COSO ERM nel 2004 e titolo dell'edizione aggiornata 'Integrating with Strategy and Performance'.",
+          "source_ref": "coso.org, Enterprise Risk Management"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Unione dei due materiali ERM (corso totale e 60 ore) senza duplicare: definizioni di risk appetite riportate entrambe.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico su KRI, risposte al rischio e ORSA; due verifiche.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la riduzione consiste in azioni 'intraprese successivamente al manifestarsi del rischio'. Integrata ricordando che anche la prevenzione ex ante riduce il rischio (come visto nella lezione sui rischi puri).",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento alle 'quattro categorie di obiettivi' dell'ERM, che la fonte non elenca. Riferimento da indicare / possibile aggiornamento: specificare le categorie dopo verifica sul framework COSO.",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'la presenza di un sistema di ERM offre una ragionevole sicurezza che l'azienda manterrà inalterato il proprio livello di assetto economico'. Va letta insieme ai limiti dell'ERM indicati nella stessa fonte (nessuna sicurezza assoluta).",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

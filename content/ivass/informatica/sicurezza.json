@@ -1,0 +1,1694 @@
+{
+  "module": "Area informatica",
+  "topic": "Sicurezza informatica e protezione dei dati",
+  "topic_order": 2,
+  "scope": "core",
+  "lesson_offset": 0,
+  "source_minutes": 89,
+  "lessons": [
+    {
+      "title": "Sicurezza informatica: concetti e regole",
+      "source_files": [
+        "corso totale/Area informatica / Sicurezza informatica e protezione dei dati /Sicurezza informatica.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /Sicurezza informatica prima parte.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Sicurezza informatica: concetti e regole",
+          "goals": [
+            "Spiegare che cosa significa proteggere riservatezza, integrità e disponibilità",
+            "Orientarsi tra Direttiva NIS, NIS 2, perimetro cibernetico e DORA",
+            "Collegare la sicurezza informatica agli obblighi del GDPR per l'intermediario"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la sicurezza delle informazioni",
+          "key": "La sicurezza delle informazioni consiste nella salvaguardia della riservatezza, dell'integrità e della disponibilità delle informazioni gestite da un'organizzazione.",
+          "body": "Non riguarda solo i computer: vale per i dati su carta, nelle e-mail, nei gestionali dell'impresa e nello smartphone di chi lavora in agenzia.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tre proprietà da proteggere",
+          "head": [
+            "Proprietà",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Riservatezza",
+              "Solo chi è autorizzato può leggere l'informazione. Esempio: il questionario sanitario di un cliente non deve essere visibile a tutti i collaboratori."
+            ],
+            [
+              "Integrità",
+              "L'informazione non viene alterata senza autorizzazione. Esempio: l'IBAN per il rimborso di un sinistro non deve poter essere modificato da un estraneo."
+            ],
+            [
+              "Disponibilità",
+              "L'informazione è accessibile quando serve. Esempio: il gestionale polizze deve funzionare il giorno delle scadenze."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'attacco informatico",
+          "key": "Un attacco informatico è un'azione che colpisce sistemi informativi, infrastrutture, reti informatiche o dispositivi elettronici personali tramite atti illeciti, che nella maggior parte dei casi provengono da fonti anonime.",
+          "body": "L'anonimato dell'attaccante rende difficile risalire al responsabile: per questo conta soprattutto la prevenzione.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "La prima Direttiva NIS",
+          "title": "Reti e sistemi più sicuri in Europa",
+          "lead": "La Direttiva NIS è lo strumento con cui l'Unione europea ha definito le misure per un livello più elevato di sicurezza delle reti e dei sistemi informativi.",
+          "facts": [
+            {
+              "label": "In Italia",
+              "text": "Attuata con il D.Lgs. 18 maggio 2018, n. 65."
+            },
+            {
+              "label": "OSE",
+              "text": "Operatori di servizi essenziali, pubblici o privati: sanità, energia, trasporti, settore bancario, infrastrutture dei mercati finanziari, acqua potabile, infrastrutture digitali."
+            },
+            {
+              "label": "FSD",
+              "text": "Fornitori di servizi digitali: persone giuridiche che offrono e-commerce, cloud computing o motori di ricerca, con stabilimento principale, sede sociale o rappresentante designato in Italia."
+            },
+            {
+              "label": "Chi li individua",
+              "text": "Le Autorità competenti per ciascuno dei settori previsti dalla Direttiva."
+            }
+          ],
+          "ref": "D.Lgs. 65/2018 (materiale originale del corso)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando un incidente è rilevante (NIS)",
+          "items": [
+            {
+              "text": "Il servizio resta indisponibile per oltre 5.000.000 di ore utente."
+            },
+            {
+              "text": "Si perdono integrità, autenticità o riservatezza dei dati di oltre 100.000 utenti nell'UE."
+            },
+            {
+              "text": "C'è un rischio per la sicurezza o l'incolumità pubblica, o di perdita di vite umane."
+            },
+            {
+              "text": "I danni materiali superano 1.000.000 di euro per almeno un utente nell'UE."
+            },
+            {
+              "text": "Basta che si verifichi almeno una di queste condizioni.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Dalla NIS al perimetro cibernetico",
+          "steps": [
+            {
+              "label": "2018",
+              "text": "Il D.Lgs. 65/2018 prevede una strategia nazionale di sicurezza cibernetica adottata dal Presidente del Consiglio dei Ministri."
+            },
+            {
+              "label": "Luglio 2019",
+              "text": "Escono le Linee guida per gli OSE in ambito NIS e lo schema di disegno di legge sul perimetro di sicurezza nazionale cibernetica."
+            },
+            {
+              "label": "Settembre 2019",
+              "text": "Il perimetro diventa legge con il D.L. 21 settembre 2019, n. 105, convertito dalla L. 18 novembre 2019, n. 133."
+            },
+            {
+              "label": "2021",
+              "text": "Il D.L. 14 giugno 2021, n. 82 istituisce l'Agenzia per la cybersicurezza nazionale (ACN)."
+            }
+          ],
+          "ref": "Materiale originale; ACN, Atti generali"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa prevede il perimetro cibernetico",
+          "items": [
+            {
+              "text": "Definisce gli obiettivi del perimetro e come si individuano i soggetti pubblici e privati che ne fanno parte."
+            },
+            {
+              "text": "Crea un meccanismo per rendere più sicure le forniture di beni e servizi ICT destinati a reti, sistemi e servizi dei soggetti inclusi."
+            },
+            {
+              "text": "Attribuisce competenze al Ministero dello Sviluppo Economico per i privati e all'AgID per le pubbliche amministrazioni.",
+              "ref": "Materiale originale: competenze da aggiornare dopo il D.L. 82/2021"
+            },
+            {
+              "text": "Istituisce un sistema di monitoraggio e controllo, con strutture specializzate nella protezione di reti e sistemi, per garantire il rispetto delle nuove norme."
+            },
+            {
+              "text": "Prevede attività di ispezione e verifica da parte delle strutture competenti."
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Oggi: la NIS 2",
+          "lead": "La prima Direttiva NIS è stata sostituita. In Italia la nuova disciplina è il cosiddetto decreto NIS.",
+          "facts": [
+            {
+              "label": "Norma",
+              "text": "D.Lgs. 4 settembre 2024, n. 138, che recepisce la Direttiva (UE) 2022/2555 (NIS 2)."
+            },
+            {
+              "label": "In vigore",
+              "text": "Dal 16 ottobre 2024, dopo la pubblicazione nella Gazzetta Ufficiale n. 230 del 1° ottobre 2024."
+            },
+            {
+              "label": "Abroga",
+              "text": "Il D.Lgs. 65/2018, che aveva recepito la prima NIS."
+            },
+            {
+              "label": "Autorità",
+              "text": "L'Agenzia per la cybersicurezza nazionale (ACN) è l'Autorità nazionale competente NIS."
+            }
+          ],
+          "ref": "ACN, FAQ NIS - Profili generali"
+        },
+        {
+          "layout": "compare",
+          "title": "GDPR e Direttiva NIS",
+          "cols": [
+            {
+              "title": "GDPR",
+              "items": [
+                "Si applica quando si trattano dati personali",
+                "Chi tratta i dati adotta misure di sicurezza specifiche",
+                "Le misure dipendono dalle finalità e dal rischio per la privacy e la riservatezza delle persone"
+              ]
+            },
+            {
+              "title": "Direttiva NIS",
+              "items": [
+                "Una linea strategica comune tra gli Stati UE contro gli incidenti a reti e sistemi",
+                "Si basa su gestione dei rischi, protezione dai cyber attacchi, individuazione degli incidenti",
+                "Punta a ridurre l'impatto degli incidenti"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Lo stesso obiettivo finale",
+          "key": "GDPR e Direttiva NIS puntano entrambi a misure di sicurezza tecniche e organizzative adeguate, con regole uniformi e cooperazione con le autorità e con tutti i soggetti coinvolti.",
+          "body": "Per un'agenzia o un broker il GDPR è quasi sempre il punto di partenza: ogni giorno si trattano dati anagrafici, sanitari, bancari e di sinistro dei clienti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Art. 32 GDPR: sicurezza adeguata al rischio",
+          "items": [
+            {
+              "text": "Titolare e responsabile adottano misure tecniche e organizzative adeguate al rischio del trattamento.",
+              "ref": "art. 32, par. 1"
+            },
+            {
+              "text": "Esempi: pseudonimizzazione e cifratura dei dati."
+            },
+            {
+              "text": "Capacità di assicurare riservatezza, integrità, disponibilità e resilienza dei sistemi."
+            },
+            {
+              "text": "Capacità di ripristinare tempestivamente i dati dopo un incidente."
+            },
+            {
+              "text": "Procedure per verificare periodicamente l'efficacia delle misure."
+            },
+            {
+              "text": "L'elenco è aperto: dal 25 maggio 2018 non esistono più misure minime uguali per tutti, si valuta caso per caso.",
+              "ref": "Garante Privacy, Misure di sicurezza"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Se i dati dei clienti vengono violati",
+          "items": [
+            {
+              "value": "72 ore",
+              "text": "termine massimo, ove possibile, per notificare la violazione al Garante, se è probabile un rischio per gli interessati",
+              "ref": "art. 33 GDPR"
+            },
+            {
+              "value": "Senza ritardo",
+              "text": "comunicazione agli interessati quando il rischio è elevato",
+              "ref": "art. 34 GDPR"
+            },
+            {
+              "value": "Sempre",
+              "text": "documentare ogni violazione, anche se non notificata",
+              "ref": "art. 33, par. 5 GDPR"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Settore assicurativo",
+          "title": "Il Regolamento DORA",
+          "lead": "Il Regolamento (UE) 2022/2554 (DORA) stabilisce regole comuni sulla gestione dei rischi ICT nel settore finanziario, incluso quello assicurativo.",
+          "facts": [
+            {
+              "label": "Da quando",
+              "text": "Si applica dal 17 gennaio 2025."
+            },
+            {
+              "label": "Imprese",
+              "text": "Imprese di assicurazione e di riassicurazione soggette a Solvency II."
+            },
+            {
+              "label": "Intermediari",
+              "text": "Intermediari assicurativi, riassicurativi e a titolo accessorio che non sono micro, piccole o medie imprese."
+            },
+            {
+              "label": "Soglia IVASS",
+              "text": "Almeno 250 dipendenti e fatturato annuo oltre 50 milioni di euro, oppure bilancio annuo oltre 43 milioni."
+            }
+          ],
+          "ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un collaboratore modifica per errore l'IBAN di un cliente nel gestionale e il rimborso finisce su un conto sbagliato. Quale proprietà dell'informazione è stata compromessa?",
+          "options": [
+            "La riservatezza",
+            "L'integrità",
+            "La disponibilità",
+            "Nessuna, perché non c'è stato un attacco"
+          ],
+          "answer": 1,
+          "explanation": "Il dato è stato alterato senza che fosse corretto farlo: è un problema di integrità. La sicurezza delle informazioni riguarda anche gli errori, non solo gli attacchi."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia scopre che il portatile di un subagente, rubato in auto, conteneva un file Excel non cifrato con nomi, codici fiscali e dati sanitari di 300 clienti che hanno chiesto una polizza malattia.",
+          "questions": [
+            "Quali proprietà della sicurezza sono in gioco?",
+            "Che cosa va fatto sul piano del GDPR e in che tempi?"
+          ],
+          "solution": "È a rischio soprattutto la riservatezza, e i dati sanitari aumentano la gravità. Il titolare valuta subito il rischio: se è probabile un rischio per i clienti, notifica la violazione al Garante entro 72 ore; se il rischio è elevato, avvisa anche i clienti. In ogni caso documenta l'accaduto. Per il futuro: cifratura dei dispositivi e niente archivi di clienti su file locali."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "R · I · D",
+              "text": "riservatezza, integrità e disponibilità delle informazioni"
+            },
+            {
+              "value": "138/2024",
+              "text": "il decreto NIS che recepisce la NIS 2 e abroga il D.Lgs. 65/2018"
+            },
+            {
+              "value": "ACN",
+              "text": "l'Autorità nazionale competente NIS, istituita nel 2021"
+            },
+            {
+              "value": "Art. 32",
+              "text": "GDPR: misure adeguate al rischio, verificate periodicamente"
+            },
+            {
+              "value": "72 ore",
+              "text": "per notificare al Garante una violazione dei dati a rischio"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione partiamo dalle basi: che cosa significa sicurezza informatica, quali regole europee e italiane se ne occupano e perché anche un'agenzia o un broker, che non gestiscono una rete elettrica o un ospedale, devono prenderla sul serio.\n\nCominciamo dalla definizione. La sicurezza delle informazioni consiste nella salvaguardia della riservatezza, dell'integrità e della disponibilità delle informazioni gestite da un'organizzazione. Sono tre parole che conviene imparare bene, perché ritornano in tutte le norme che vedremo, dal GDPR alla Direttiva NIS.\n\nRiservatezza vuol dire che un'informazione può essere letta solo da chi è autorizzato. Pensate al questionario sanitario che un cliente compila per una polizza malattia o per una temporanea caso morte: deve vederlo chi ne ha bisogno per l'assunzione del rischio, non chiunque abbia accesso al computer dell'agenzia.\n\nIntegrità vuol dire che l'informazione non viene modificata senza autorizzazione. Se qualcuno, per errore o in malafede, cambia l'IBAN su cui deve essere pagato un sinistro, l'integrità è compromessa, e le conseguenze per il cliente e per l'intermediario sono molto concrete.\n\nDisponibilità vuol dire che l'informazione è accessibile quando serve. Un gestionale che non funziona nei giorni delle scadenze di fine mese, o una casella di posta bloccata quando un cliente deve inviare una denuncia, sono problemi di disponibilità.\n\nNotate che nessuna delle tre proprietà riguarda solo gli attacchi. Anche un errore umano, un guasto o un furto possono comprometterle. L'attacco informatico, però, è la minaccia più tipica: è un'azione che colpisce sistemi informativi, infrastrutture, reti informatiche o dispositivi elettronici personali tramite atti illeciti che, nella maggior parte dei casi, provengono da fonti anonime. Proprio l'anonimato rende difficile individuare il responsabile, e per questo la prima difesa è sempre la prevenzione. Le singole tecniche di attacco le vedremo in un'altra parte del corso.\n\nPassiamo alle regole. Il primo grande intervento europeo è stato la Direttiva NIS, lo strumento con cui l'Unione ha definito le misure necessarie per un livello più elevato di sicurezza delle reti e dei sistemi informativi. In Italia la Direttiva è stata attuata con il decreto legislativo 18 maggio 2018, numero 65.\n\nIl decreto si applicava a due categorie di soggetti, individuati dalle Autorità competenti per ciascun settore. Gli Operatori di servizi essenziali, gli OSE, sono soggetti pubblici o privati che forniscono servizi essenziali per la società e l'economia: sanità, energia, trasporti, settore bancario, infrastrutture dei mercati finanziari, fornitura e distribuzione di acqua potabile, infrastrutture digitali. I Fornitori di servizi digitali, gli FSD, sono persone giuridiche che offrono servizi di commercio elettronico, cloud computing o motori di ricerca, con stabilimento principale, sede sociale o rappresentante designato sul territorio nazionale.\n\nLa normativa NIS indicava anche quando un incidente è rilevante. Basta che si verifichi almeno una di queste condizioni: il servizio resta indisponibile per oltre cinque milioni di ore utente; si perdono integrità, autenticità o riservatezza dei dati di oltre centomila utenti nell'Unione; c'è un rischio per la sicurezza o l'incolumità pubblica o di perdita di vite umane; oppure i danni materiali superano un milione di euro per almeno un utente nell'Unione. Sono soglie pensate per grandi operatori, ma aiutano a capire la logica: si misura l'impatto su persone, dati e servizi.\n\nIl decreto 65 del 2018 prevedeva inoltre che il Presidente del Consiglio dei Ministri adottasse una strategia nazionale di sicurezza cibernetica. Nel luglio 2019 sono state diffuse le Linee guida per gli OSE in ambito NIS ed è stato presentato lo schema di disegno di legge sul perimetro di sicurezza nazionale cibernetica.\n\nIl Consiglio dei Ministri ha poi approvato quel testo, che prevedeva diversi punti: la definizione degli obiettivi del perimetro e delle modalità per individuare i soggetti pubblici e privati che ne fanno parte; un meccanismo per rendere più sicure le forniture di beni e servizi ICT destinati alle reti, ai sistemi e ai servizi dei soggetti inclusi; le competenze del Ministero dello Sviluppo Economico per i privati e dell'Agenzia per l'Italia Digitale per le pubbliche amministrazioni; un sistema di monitoraggio e controllo, affidato a strutture specializzate nella protezione di reti e sistemi, per garantire il rispetto delle nuove norme; e attività di ispezione e verifica.\n\nOggi quel percorso è diventato legge: il perimetro di sicurezza nazionale cibernetica è disciplinato dal decreto-legge 21 settembre 2019, numero 105, convertito dalla legge 18 novembre 2019, numero 133. Nel 2021, con il decreto-legge 14 giugno 2021, numero 82, è stata istituita l'Agenzia per la cybersicurezza nazionale, l'ACN, che è oggi il riferimento nazionale per la cybersicurezza. Le competenze ministeriali descritte nel testo originario vanno quindi lette alla luce di questa riorganizzazione.\n\nAnche la Direttiva NIS è stata superata. L'Unione ha approvato la Direttiva 2022/2555, detta NIS 2, recepita in Italia con il decreto legislativo 4 settembre 2024, numero 138, il cosiddetto decreto NIS, in vigore dal 16 ottobre 2024. Il nuovo decreto abroga il decreto 65 del 2018 e indica l'ACN come Autorità nazionale competente NIS. Quando sentite parlare di NIS, quindi, oggi ci si riferisce a questa nuova disciplina.\n\nChe rapporto c'è tra la Direttiva NIS e il GDPR, il Regolamento europeo sulla protezione dei dati personali? Il GDPR si applica ogni volta che si trattano dati personali e chiede a chi, in azienda, effettua il trattamento di adottare misure di sicurezza specifiche, tenendo conto delle finalità del trattamento e del rischio per la privacy e la riservatezza delle persone coinvolte. La Direttiva NIS, invece, vuole costruire una linea strategica unica tra gli Stati dell'Unione contro gli incidenti che colpiscono reti e sistemi informativi, basata sulla gestione dei rischi, sulla protezione dai cyber attacchi, sull'individuazione degli incidenti e sulla riduzione del loro impatto.\n\nI due testi hanno dunque lo stesso obiettivo finale: adottare misure di sicurezza tecniche e organizzative adeguate, con regole uniformi e cooperando con le autorità e con tutti i soggetti coinvolti.\n\nPer l'intermediario il GDPR è quasi sempre la norma più vicina. Ogni giorno in agenzia si raccolgono dati anagrafici, coordinate bancarie, informazioni sui sinistri e, per molte polizze persone, anche dati relativi alla salute. L'articolo 32 del GDPR chiede al titolare e al responsabile del trattamento di adottare misure tecniche e organizzative adeguate al rischio. Il Regolamento fa alcuni esempi: la pseudonimizzazione e la cifratura dei dati; la capacità di assicurare nel tempo riservatezza, integrità, disponibilità e resilienza dei sistemi; la capacità di ripristinare tempestivamente i dati dopo un incidente; procedure per verificare periodicamente se le misure funzionano.\n\nIl Garante sottolinea che si tratta di un elenco aperto. Dal 25 maggio 2018 non esistono più le misure minime uguali per tutti: ogni titolare deve valutare caso per caso i rischi dei propri trattamenti e scegliere le misure di conseguenza. Un piccolo broker e una grande agenzia con decine di collaboratori faranno scelte diverse, ma entrambi devono saper spiegare perché le loro misure sono adeguate.\n\nC'è poi un obbligo da conoscere bene: se si verifica una violazione dei dati personali, il titolare la notifica al Garante senza ingiustificato ritardo e, ove possibile, entro 72 ore da quando ne è venuto a conoscenza, a meno che sia improbabile un rischio per le persone. Se il rischio è elevato, deve informare anche gli interessati. E tutte le violazioni, anche quelle non notificate, vanno documentate.\n\nInfine, una novità specifica per il nostro settore: il Regolamento europeo 2022/2554, noto come DORA, che si applica dal 17 gennaio 2025 e stabilisce regole comuni sulla gestione dei rischi informatici nel settore finanziario. Secondo l'IVASS riguarda le imprese di assicurazione e riassicurazione soggette a Solvency II e gli intermediari assicurativi, riassicurativi e a titolo accessorio che non sono micro, piccole o medie imprese, cioè, secondo le soglie indicate dall'Istituto, con almeno 250 dipendenti e un fatturato annuo superiore a 50 milioni di euro oppure un bilancio annuo superiore a 43 milioni. Gli intermediari più piccoli non sono soggetti direttamente a DORA, ma lavorano con imprese che lo sono, e restano comunque soggetti al GDPR.\n\nFacciamo una verifica e poi un caso pratico. Nel caso, osservate come le tre proprietà della sicurezza e l'obbligo di notifica si combinano in una situazione che può capitare a qualsiasi agenzia.\n\nRicapitolando: la sicurezza delle informazioni protegge riservatezza, integrità e disponibilità; la disciplina NIS oggi è il decreto legislativo 138 del 2024, con l'ACN come autorità; il GDPR chiede misure adeguate al rischio e la notifica delle violazioni entro 72 ore; e DORA riguarda le imprese e gli intermediari di maggiori dimensioni. Nella prossima lezione vedremo come si costruisce in pratica un sistema robusto, resiliente e reattivo.",
+      "sources": [
+        {
+          "title": "ACN, Domande frequenti NIS - Profili generali",
+          "url": "https://www.acn.gov.it/portale/en/faq/nis/profili-generali"
+        },
+        {
+          "title": "ACN, Atti generali (D.L. 105/2019 perimetro; D.L. 82/2021 istituzione ACN)",
+          "url": "https://acn.gov.it/portale/en/atti-generali"
+        },
+        {
+          "title": "Garante Privacy, Misure di sicurezza",
+          "url": "https://www.garanteprivacy.it/misure-di-sicurezza"
+        },
+        {
+          "title": "Garante Privacy, Principi fondamentali del trattamento",
+          "url": "https://www.garanteprivacy.it/home/principi-fondamentali-del-trattamento"
+        },
+        {
+          "title": "IVASS, Regolamento DORA - Informazioni per gli Operatori",
+          "url": "https://www.ivass.it/operatori/dora/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici dal lavoro dell'intermediario per riservatezza, integrità e disponibilità.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: Direttiva NIS attuata con D.Lgs. 65/2018 (OSE, FSD, soglie di rilevanza degli incidenti). Possibile aggiornamento: il D.Lgs. 65/2018 è abrogato dal D.Lgs. 138/2024 (NIS 2); le soglie riportate non sono state verificate su fonte ufficiale e si riferiscono alla prima NIS.",
+          "source_ref": "ACN, FAQ NIS - Profili generali"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "NIS 2: D.Lgs. 4 settembre 2024, n. 138, GU n. 230 del 1° ottobre 2024, in vigore dal 16 ottobre 2024, abroga il D.Lgs. 65/2018; ACN Autorità nazionale competente NIS.",
+          "source_ref": "ACN, FAQ NIS - Profili generali"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Consiglio dei Ministri ha 'recentemente' approvato un disegno di legge sul perimetro, con competenze del MISE per i privati e dell'AgID per le PA. Aggiornamento: il perimetro è oggi disciplinato dal D.L. 105/2019 conv. L. 133/2019; l'ACN è stata istituita con il D.L. 82/2021. La ripartizione attuale delle competenze nel perimetro è da verificare.",
+          "source_ref": "ACN, Atti generali"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il punto della fonte sul 'sistema di monitoraggio e controllo' era illeggibile per un errore di impaginazione; ricostruito come: sistema di monitoraggio e controllo, con strutture specializzate in protezione di reti e sistemi, per garantire la conformità alle norme.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 32 GDPR: misure adeguate al rischio, esempi (pseudonimizzazione, cifratura, resilienza, ripristino, verifiche periodiche), elenco aperto, fine delle misure minime dal 25 maggio 2018.",
+          "source_ref": "Garante Privacy, Misure di sicurezza; Principi fondamentali del trattamento"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Data breach: notifica al Garante entro 72 ore se probabile rischio, comunicazione agli interessati se rischio elevato, documentazione di tutte le violazioni (artt. 33-34 GDPR).",
+          "source_ref": "Garante Privacy, Misure di sicurezza"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regolamento DORA (UE) 2022/2554: applicabile dal 17 gennaio 2025, ambito per imprese e intermediari con le soglie dimensionali indicate dall'IVASS.",
+          "source_ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verifica di autoapprendimento e caso pratico sul furto di un portatile con dati sanitari di clienti.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Robustezza, resilienza e reattività",
+      "source_files": [
+        "corso totale/Area informatica / Sicurezza informatica e protezione dei dati /Sicurezza informatica.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /Sicurezza informatica seconda parte.pdf"
+      ],
+      "source_minutes": 23,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Robustezza, resilienza e reattività",
+          "goals": [
+            "Distinguere le tre basi della sicurezza informatica",
+            "Capire rischio, alta affidabilità, disaster recovery e business continuity",
+            "Sapere come si prepara e si mette alla prova un piano di continuità"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le tre basi della sicurezza informatica",
+          "head": [
+            "Base",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Robustezza",
+              "Capacità di un'infrastruttura o di una soluzione informatica di comportarsi in modo ragionevole in situazioni impreviste, fuori dall'ordinaria amministrazione."
+            ],
+            [
+              "Resilienza",
+              "Capacità di un sistema di adattarsi alle condizioni d'uso e di resistere ai danni, provocati o dovuti alla normale usura, continuando a erogare i servizi. È detta anche indice di fragilità."
+            ],
+            [
+              "Reattività",
+              "Capacità di un sistema di reagire a stimoli esterni o a disservizi riscontrati durante le operazioni."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Robustezza",
+          "key": "Programmi e software sono strumenti focalizzati su compiti molto specifici: non sono generalizzati né flessibili.",
+          "body": "Oggi le pratiche informatiche non puntano tanto a costruire sistemi robusti, quanto a renderli scalabili ed efficienti. Per questo l'imprevisto va gestito con l'organizzazione, non solo con il software.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Resilienza e rischio",
+          "left": {
+            "title": "Formula semplice",
+            "items": [
+              "RISCHIO = PROBABILITÀ × DANNO",
+              "Quanto è probabile l'evento e quanto male fa se accade"
+            ]
+          },
+          "right": {
+            "title": "Formula estesa",
+            "items": [
+              "RISCHIO = f(Probabilità, Danno, Vulnerabilità, Minacce)",
+              "Rende espliciti due fattori che nella prima sono impliciti: minacce e vulnerabilità"
+            ]
+          },
+          "note": "Resilienza è la capacità di reagire di fronte a un evento avverso. Il grado di esposizione dipende dal tipo di minaccia.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Rendere l'attacco difficile e costoso",
+          "key": "Se un'organizzazione è appetibile per natura, non si può renderla poco interessante agli occhi di un attaccante: si devono adottare contromisure che rendano l'attacco il più possibile difficile, costoso e inefficace.",
+          "body": "Un intermediario custodisce dati di clienti e flussi di denaro: è un bersaglio interessante. Lo scopo realistico è non essere il bersaglio più facile.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Da dove può arrivare l'attacco",
+          "items": [
+            {
+              "text": "Direttamente contro l'organizzazione."
+            },
+            {
+              "text": "Contro le infrastrutture al suo servizio o contro la catena di fornitura: ad esempio il fornitore del gestionale o del servizio di posta."
+            },
+            {
+              "text": "Contro le figure chiave: non per forza i vertici, ma le persone senza le quali l'organizzazione non può lavorare."
+            },
+            {
+              "text": "Con attacchi cyber che non si gestiscono solo con le comuni tecniche di resilienza dei sistemi.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tre concetti per la continuità del servizio",
+          "head": [
+            "Concetto",
+            "Che cosa garantisce"
+          ],
+          "rows": [
+            [
+              "Alta affidabilità",
+              "Il sistema resiste a guasti locali, anche estesi, e continua a erogare il servizio."
+            ],
+            [
+              "Disaster recovery (DR)",
+              "Il ripristino di dati, sistemi e applicazioni dopo un evento grave, anche in un sito secondario."
+            ],
+            [
+              "Business continuity (BC)",
+              "La continuità dell'intera attività: persone, processi, sedi, fornitori, non solo l'informatica."
+            ]
+          ],
+          "lead": "Concetti molto diversi, tutti orientati alla continuità di un servizio: la continuità operativa dipende dal corretto funzionamento del sistema informativo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Errori da evitare",
+          "items": [
+            {
+              "text": "Componenti non ridondati il cui guasto blocca tutta l'architettura."
+            },
+            {
+              "text": "Batterie tampone collocate all'interno del CED (centro elaborazione dati)."
+            },
+            {
+              "text": "Apparecchiature elettriche sotto un condizionatore che può perdere liquidi."
+            },
+            {
+              "text": "Nessun accordo formalizzato con un fornitore per il rifornimento garantito di carburante, anche nel weekend."
+            },
+            {
+              "text": "Impianto di condizionamento senza ridondanza."
+            },
+            {
+              "text": "CED non raggiungibile e gestibile da remoto, se diventa fisicamente irraggiungibile o inagibile.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il piano di disaster recovery",
+          "steps": [
+            {
+              "label": "Copia lontana",
+              "text": "Una copia di dati, sistemi, applicazioni, configurazioni e documentazione sempre disponibile in un luogo adeguatamente lontano dal sito principale."
+            },
+            {
+              "label": "Soluzione su misura",
+              "text": "Le soluzioni variano molto in base ad architettura, tempi di ripristino richiesti e budget."
+            },
+            {
+              "label": "Piano scritto",
+              "text": "Strumenti da adottare e azioni da eseguire, prima e durante l'incidente."
+            },
+            {
+              "label": "Ruoli chiari",
+              "text": "Compiti per chi gestisce l'ordinaria amministrazione e per chi riattiva il sito secondario."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Resilienza agli attacchi cyber e reattività",
+          "left": {
+            "title": "Prevenire e monitorare",
+            "items": [
+              "Protezione perimetrale: firewall, IDS, IPS, antivirus",
+              "Monitoraggio continuo: spesso assente perché costoso in risorse",
+              "Un SIEM che raccoglie le informazioni e personale specializzato che le analizza, dopo averle filtrate con criteri dettati dall'esperienza"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Reagire in tempo",
+            "items": [
+              "La reattività è la capacità di reagire a stimoli esterni o disservizi",
+              "Il tempo di reazione è un elemento cruciale per mitigare un attacco"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "SIEM: sistema che raccoglie e correla eventi e segnalazioni di sicurezza provenienti da più fonti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Sicurezza delle infrastrutture e delle persone",
+          "key": "Edifici e infrastrutture si proteggono con misure di sicurezza attive e passive, coordinate tra loro e verificate periodicamente.",
+          "body": "Barriere fisiche, sensori, videosorveglianza, servizi di vigilanza. E una misura spesso dimenticata: mettere per iscritto il know-how del personale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Business continuity: gli scenari della Circolare 285",
+          "items": [
+            {
+              "text": "La Circolare 285 della Banca d'Italia chiede alle banche un piano di business continuity con scenari di crisi dovuti a eventi naturali o attività umana, inclusi danneggiamenti gravi da parte di dipendenti.",
+              "ref": "Banca d'Italia, Circ. 285 (materiale originale)"
+            },
+            {
+              "text": "Distruzione o inaccessibilità delle sedi, o indisponibilità del personale essenziale."
+            },
+            {
+              "text": "Interruzione del funzionamento delle infrastrutture."
+            },
+            {
+              "text": "Alterazione o perdita di dati e documenti critici."
+            },
+            {
+              "text": "Problemi alle apparecchiature critiche e indisponibilità dei sistemi informativi critici."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa mappare",
+          "left": {
+            "title": "Componente esplicita",
+            "items": [
+              "Sistema informativo",
+              "Archivi elettronici",
+              "Documenti",
+              "Processi e attività",
+              "Struttura organizzativa",
+              "Controparti"
+            ]
+          },
+          "right": {
+            "title": "Componente implicita",
+            "items": [
+              "Il sapere dei singoli collaboratori, non scritto",
+              "Resta fuori dal censimento",
+              "Spesso decide se l'attività riparte o no"
+            ]
+          },
+          "note": "Molte informazioni servono già per rispettare altre normative. Per le piccole e medie organizzazioni il cloud è oggi una delle soluzioni più percorribili per aumentare la resilienza, includendo nel servizio anche la continuità operativa.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Mettere alla prova le soluzioni",
+          "key": "Le soluzioni vanno testate, gradualmente, anche in condizioni simili a situazioni critiche reali, come le ferie o grandi manutenzioni.",
+          "body": "Si parte dai singoli componenti del sito primario e dell'eventuale sito di DR e si arriva al test dell'intero sito. Il limite principale oggi è culturale: scarsa consapevolezza della propria esposizione, anche indiretta, a minacce come un attacco terroristico o cyber.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'agenzia ha tutto in cloud con copie di sicurezza, ma solo la titolare sa come si riattivano gli accessi e chi chiamare in caso di blocco. Quale punto della business continuity è scoperto?",
+          "options": [
+            "La protezione perimetrale",
+            "La componente implicita del patrimonio informativo",
+            "La ridondanza del condizionatore",
+            "La formula del rischio"
+          ],
+          "answer": 1,
+          "explanation": "Il sapere non scritto di una singola persona è la componente implicita: sfugge alla mappatura ma può decidere se l'attività riparte. Va formalizzato in una procedura."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker con 12 dipendenti tiene il server del gestionale in uno sgabuzzino dell'ufficio, sotto lo split del condizionatore. Il backup si fa su un disco esterno che resta collegato al server. Ad agosto, con metà del personale in ferie, un allagamento rende l'ufficio inagibile.",
+          "questions": [
+            "Quali errori di progettazione emergono?",
+            "Che cosa avrebbe dovuto prevedere un piano di continuità?"
+          ],
+          "solution": "Apparecchiature sotto un condizionatore, backup nello stesso luogo del sistema principale, nessun accesso da remoto e nessun piano per i periodi di ferie. Serviva una copia dei dati in un luogo lontano, la possibilità di lavorare da remoto o in cloud, un piano scritto con ruoli chiari e test svolti anche in condizioni critiche come le ferie."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "basi: robustezza, resilienza, reattività"
+            },
+            {
+              "value": "P × D",
+              "text": "rischio = probabilità per danno, più vulnerabilità e minacce"
+            },
+            {
+              "value": "DR · BC",
+              "text": "ripristinare i sistemi e garantire la continuità dell'intera attività"
+            },
+            {
+              "value": "Lontano",
+              "text": "la copia di dati e sistemi, rispetto al sito principale"
+            },
+            {
+              "value": "Test",
+              "text": "graduali, anche in ferie o durante le manutenzioni"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cosa proteggere e quali regole se ne occupano. Ora vediamo come si costruisce un sistema capace di resistere. Il materiale individua tre basi della sicurezza informatica: robustezza, resilienza e reattività.\n\nLa robustezza di un'infrastruttura o di una soluzione informatica è la sua capacità di comportarsi in modo ragionevole in situazioni impreviste, cioè non contemplate nell'ordinaria amministrazione. La resilienza, detta anche indice di fragilità, è la capacità di un sistema di adattarsi alle condizioni d'uso e di resistere ai danni, siano essi provocati o dovuti alla normale usura, continuando a erogare i servizi. La reattività, infine, è la capacità di un sistema di reagire a stimoli esterni o a disservizi riscontrati durante le operazioni.\n\nPartiamo dalla robustezza. Programmi e software sono strumenti focalizzati su compiti molto specifici: non sono generalizzati né flessibili. Il gestionale dell'agenzia sa emettere polizze e registrare incassi, ma non sa decidere cosa fare se il collegamento con la compagnia cade a metà di un'operazione. Il materiale osserva che oggi le pratiche informatiche non si concentrano sulla costruzione di sistemi robusti, ma piuttosto sulla scalabilità e sull'efficienza. La conseguenza pratica è che l'imprevisto va gestito anche con l'organizzazione: procedure, persone formate, alternative pronte.\n\nVeniamo alla resilienza, che possiamo considerare come la capacità di reagire di fronte a un evento avverso. Per capirla bisogna partire dal rischio. La formula più semplice dice che il rischio è uguale alla probabilità moltiplicata per il danno. Il rischio può però essere espresso anche come una funzione di più fattori: probabilità, danno, vulnerabilità e minacce. Le due formule sono sostanzialmente analoghe, ma la seconda rende espliciti due elementi che nella prima sono impliciti. Le minacce sono ciò che può accadere, ad esempio un attacco o un'alluvione; le vulnerabilità sono i punti deboli che permettono alla minaccia di produrre danni, ad esempio un computer non aggiornato o un archivio senza copia.\n\nLa valutazione del proprio grado di esposizione dipende dal tipo di minaccia. E c'è un punto importante: se un'organizzazione è intrinsecamente appetibile per un attaccante, è difficile renderla poco interessante. Un intermediario assicurativo custodisce dati personali, spesso anche sanitari, e gestisce flussi di denaro: è un bersaglio interessante per definizione. Bisogna quindi adottare contromisure che rendano un attacco il più possibile difficile, costoso e inefficace. In altre parole, l'obiettivo realistico è non essere il bersaglio più facile.\n\nLe tipologie di attacco sono diverse, e diverse le conseguenze. Oltre agli attacchi diretti all'organizzazione, l'attaccante può ottenere risultati più o meno significativi colpendo le infrastrutture al suo servizio o la catena di fornitura: pensate al fornitore del gestionale, al servizio di posta elettronica, al consulente informatico che ha accesso da remoto. Non vanno dimenticati gli attacchi alle figure chiave, che non sono necessariamente i vertici, ma le persone senza le quali l'organizzazione non può operare: in una piccola agenzia può essere l'unica impiegata che gestisce la contabilità e i rapporti con la compagnia. Ci sono poi gli attacchi cyber, la cui gestione non può basarsi esclusivamente sulle comuni tecniche di resilienza dei sistemi informativi.\n\nLa continuità operativa di un'organizzazione dipende dal corretto funzionamento del suo sistema informativo, e questo è ancora più vero quando si parla di continuità dei servizi informatici. In questo contesto sono nati tre termini: alta affidabilità, o alta disponibilità; disaster recovery, abbreviato DR; e business continuity, abbreviata BC. Sono concetti molto diversi, ma tutti orientati a garantire la continuità di un servizio.\n\nL'alta affidabilità è la capacità di un sistema di resistere a guasti locali, anche estesi, continuando a erogare il servizio. Il disaster recovery riguarda il ripristino di dati e sistemi dopo un evento grave, eventualmente in un sito secondario. La business continuity guarda all'intera attività: non solo i computer, ma anche persone, sedi, processi e fornitori.\n\nIl materiale insiste su alcuni errori da evitare. È assolutamente indispensabile che non esistano componenti non ridondati il cui guasto possa compromettere tutta l'architettura. Sono errori anche collocare le batterie tampone all'interno del CED, il centro elaborazione dati; mettere apparecchiature elettriche sotto un condizionatore che potrebbe perdere liquidi; non avere un accordo formalizzato con un fornitore per il rifornimento garantito di carburante, anche nel fine settimana; non avere un impianto di condizionamento ridondato. Inoltre, il CED dovrebbe essere, per quanto possibile, raggiungibile e gestibile da remoto, per evitare che il servizio si interrompa se la sede diventa fisicamente irraggiungibile o inagibile. Sono esempi pensati per grandi centri dati, ma la logica vale anche per un ufficio: il server o il router non vanno messi dove possono bagnarsi, e se l'ufficio è chiuso si deve poter lavorare da un'altra parte.\n\nUn principio vale per tutti: una copia di dati, sistemi, applicazioni, configurazioni e relativa documentazione deve essere sempre disponibile e utilizzabile, in un luogo adeguatamente lontano dal sito principale. Le soluzioni di disaster recovery variano moltissimo in funzione dell'architettura, dei tempi di ripristino richiesti e del budget. In ogni caso serve un vero piano di DR, che specifichi in dettaglio gli strumenti da adottare e le azioni da eseguire, sia in via preventiva sia in caso di incidente, da parte di chi gestisce l'ordinaria amministrazione e di chi è responsabile della riattivazione del sito secondario.\n\nE gli attacchi cyber? La resilienza rispetto a questo tipo di attacchi si costruisce con misure preventive, come gli strumenti di protezione perimetrale: firewall, sistemi di rilevamento e di prevenzione delle intrusioni, detti IDS e IPS, e antivirus. Serve poi un'attività di monitoraggio continuo, che il materiale definisce quasi sempre assente perché molto onerosa in termini di risorse. Costruire e gestire un sistema di monitoraggio richiede un SIEM, cioè un sistema in cui far confluire le informazioni sugli eventi di sicurezza, e personale specializzato capace di analizzare la grande quantità di dati raccolti, che vanno prima filtrati con criteri dettati dall'esperienza. Per una piccola realtà questo servizio si acquista di solito da un fornitore specializzato.\n\nQui entra in gioco la terza base, la reattività: la capacità di un sistema di reagire a stimoli esterni o a disservizi. Il tempo di reazione è un elemento cruciale per mitigare un attacco: più presto ci si accorge del problema, minori sono i danni.\n\nLa sicurezza non è solo informatica. Per proteggere edifici e infrastrutture servono misure di sicurezza attive e passive, coordinate tra loro e verificate periodicamente: barriere fisiche, sensori, videosorveglianza, servizi di vigilanza. Tra le misure da attuare c'è anche la formalizzazione del know-how del personale, cioè mettere per iscritto come si fanno le cose.\n\nPer la business continuity il materiale cita un riferimento del settore bancario: la Circolare 285 della Banca d'Italia, che chiede alle banche un piano di continuità operativa basato su diversi scenari di crisi, dovuti a eventi naturali o ad attività umana, compresi danneggiamenti gravi da parte di dipendenti. Gli scenari considerano almeno: la distruzione o l'inaccessibilità delle strutture in cui si trovano le unità operative, o l'indisponibilità del personale essenziale; l'interruzione del funzionamento delle infrastrutture; l'alterazione o la perdita di dati e documenti critici; i problemi alle apparecchiature critiche; l'indisponibilità dei sistemi informativi critici. Anche se l'intermediario non è una banca, è un'ottima lista di controllo per chiedersi: che cosa farei se domani accadesse?\n\nMolte informazioni necessarie per preparare la continuità operativa dovrebbero già essere disponibili, perché servono per rispettare altre normative. Per una preparazione completa occorre mappare il sistema informativo, gli archivi elettronici, i documenti, i processi e le attività, la struttura organizzativa e le controparti.\n\nAnche con una buona documentazione, però, si riesce a mappare solo la componente esplicita del patrimonio informativo, cioè la parte formalizzata. La componente implicita, che spesso appartiene a singoli collaboratori, resta fuori dal censimento, e poi si rivela l'elemento che decide se l'attività riparte o no. Per le piccole e medie organizzazioni, le soluzioni cloud sono oggi probabilmente una delle strade più percorribili per aumentare considerevolmente la resilienza: si esternalizzano i sistemi informativi e si può includere nel servizio anche la loro continuità operativa.\n\nInfine, i test. Per confermare che le soluzioni funzionano e per individuare le criticità è opportuno svolgere attività di test, in modo graduale, anche in condizioni che rispecchiano situazioni critiche reali, come i periodi di ferie o importanti manutenzioni dei sistemi. Si parte dalla verifica dei singoli componenti, sia del sito primario sia di quello secondario, se esiste un sito di DR, fino al test complessivo dell'intero sito.\n\nIl materiale chiude con un'osservazione: un'organizzazione che vuole essere resiliente a un evento disastroso può contare oggi su strumenti, metodologie e tecnologie consolidate. Il limite attuale è soprattutto culturale: le organizzazioni sono poco consapevoli della propria esposizione, anche indiretta, a specifiche categorie di minacce, come un attacco terroristico o un attacco cyber.\n\nMettiamo alla prova questi concetti con una verifica e con un caso pratico, poi ricapitoliamo i punti chiave.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la resilienza è 'detta anche indice di fragilità'. Definizione non verificata su fonti ufficiali: possibile imprecisione da controllare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte scrive 'System Information and Event Management (SIEM)'. Nel testo si usa la descrizione funzionale (sistema in cui confluiscono le informazioni sugli eventi di sicurezza); la sigla è comunemente sciolta come 'Security Information and Event Management'. Da verificare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la Circolare 285 della Banca d'Italia e gli scenari di crisi per il piano di BC delle banche. Riferimento da indicare con la sezione specifica / possibile aggiornamento della circolare (non verificato).",
+          "source_ref": "Banca d'Italia, Circolare 285 (materiale originale)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretti refusi della fonte ('tenuto contro', 'precorribili' → 'percorribili') e completata la voce 'controparti' nella lista della mappatura.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione di minacce e vulnerabilità, differenza tra alta affidabilità, DR e BC, ed esempi riferiti a un'agenzia o a un broker (catena di fornitura, figure chiave, ufficio inagibile).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verifica di autoapprendimento sulla componente implicita e caso pratico su un broker con server e backup nello stesso locale.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Azioni per innalzare la sicurezza: malware e minacce cyber",
+      "source_files": [
+        "corso totale/Area informatica /Azioni per innalzare la sicurezza.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /azioni per innalzare la sicurezza.mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Azioni per innalzare la sicurezza: malware e minacce cyber",
+          "goals": [
+            "Capire le azioni abilitanti lungo il ciclo di gestione di un attacco",
+            "Sapere perché si analizzano i malware e a che cosa serve una banca dati delle minacce",
+            "Tradurre questi obiettivi in comportamenti quotidiani in agenzia"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Le azioni abilitanti",
+          "steps": [
+            {
+              "label": "Scoprire prima",
+              "text": "Ridurre al minimo il tempo che passa tra l'attacco e la sua scoperta."
+            },
+            {
+              "label": "Proteggere",
+              "text": "Difendere dati e applicativi di interesse nazionale, in modo attivo o preventivo."
+            },
+            {
+              "label": "Riconoscere",
+              "text": "Creare una banca nazionale delle minacce, per riconoscere in autonomia i malware trovati nelle organizzazioni italiane."
+            },
+            {
+              "label": "Ricostruire",
+              "text": "Analisi forense e gestione delle prove."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Malware nuovi, codice vecchio",
+          "key": "Molti malware sono variazioni o parziali reingegnerizzazioni di malware già esistenti: producono gli stessi effetti, ma con una forma diversa.",
+          "body": "Per questo i sistemi di protezione tradizionali basati sul riconoscimento delle firme (signature detection) non riescono a rilevarli.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Debolezze e sfide",
+          "left": {
+            "title": "Il problema per chi difende",
+            "items": [
+              "Capire chi ha attaccato e da dove",
+              "Tracciare a ritroso l'attacco e gli attacchi intermedi (traceback)"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Il tallone d'Achille di chi attacca",
+            "items": [
+              "Gran parte del codice malevolo deriva da codice già esistente",
+              "Riconoscere le famiglie di malware permette di difendersi meglio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Le sfide della ricerca: prevenzione (early threat detection) e classificazione del codice malevolo, che evolve di continuo.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa serve per difendersi dai malware",
+          "items": [
+            {
+              "text": "Modelli aggiornati per rappresentare i malware, che catturino fedelmente gli aspetti utili all'analisi."
+            },
+            {
+              "text": "Individuare le attività che hanno portato il malware dentro il computer."
+            },
+            {
+              "text": "Monitorare le reti aziendali: non solo il traffico, ma anche l'attività dei singoli terminali."
+            },
+            {
+              "text": "Una base di dati nazionale delle minacce e l'analisi dei malware integrata nei processi di analisi di sicurezza.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Gli obiettivi della banca dati nazionale delle minacce",
+          "head": [
+            "Obiettivo",
+            "In concreto"
+          ],
+          "rows": [
+            [
+              "Coordinare la risposta",
+              "Una banca dati nazionale su un'infrastruttura che raccolga e coordini le attività di incident response in caso di attacco via malware."
+            ],
+            [
+              "Classificare",
+              "Strumenti per classificare e raggruppare automaticamente i malware e individuarne vulnerabilità e finalità, per organizzazioni e decisori."
+            ],
+            [
+              "Sorvegliare",
+              "Strumenti e metodi per la sorveglianza automatica del cyberspazio, raggruppando i malware in base ai canali di comunicazione usati."
+            ],
+            [
+              "Prevenire",
+              "Sensibilizzazione e formazione di chi usa strumenti informatici e sistemi di monitoraggio del traffico della rete aziendale."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Gli attacchi persistenti avanzati (APT)",
+          "key": "Gli attacchi sono sempre più complessi e strutturati. Quelli noti come Advanced Persistent Threat (APT) sono un problema fondamentale per le grandi organizzazioni pubbliche e private che operano in un contesto globale.",
+          "body": "Il paradosso: il tempo per penetrare un sistema si riduce, mentre quello per scoprire ed eliminare la minaccia cresce.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Anticipare l'attacco",
+          "steps": [
+            {
+              "label": "Raccogliere",
+              "text": "Acquisire le informazioni per tracciare l'attacco mentre è ancora nella fase di ricognizione e armamento."
+            },
+            {
+              "label": "Correlare",
+              "text": "Aggregare, correlare e analizzare le informazioni per prevedere le minacce."
+            },
+            {
+              "label": "Leggere i messaggi",
+              "text": "L'analisi dei testi è una fonte inesauribile di informazioni su attacchi in preparazione e potenziali vittime."
+            },
+            {
+              "label": "Agire",
+              "text": "Dalla scelta delle fonti fino alla messa in opera delle contromisure: un processo completo che oggi raramente è integrato in un'unica suite."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le sfide della threat intelligence",
+          "items": [
+            {
+              "text": "Acquisire dati da fonti protette e tenere aggiornate le basi di conoscenza sui cybercriminali e le loro operazioni."
+            },
+            {
+              "text": "Analizzare testi in più lingue, con profilazione lessico-semantica."
+            },
+            {
+              "text": "Ricavare in automatico indicatori di compromissione e regole per rilevare gli attacchi, e contestualizzare le informazioni."
+            },
+            {
+              "text": "Caratterizzare le vulnerabilità e scoprire attacchi da informazioni complesse ed eterogenee, anche in ambienti pervasivi."
+            },
+            {
+              "text": "Valutare la qualità delle informazioni, l'affidabilità delle fonti e l'efficacia delle contromisure."
+            },
+            {
+              "text": "Integrare intelligence, monitoraggio e protezione dei sistemi.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Obiettivi",
+          "title": "Tre traguardi",
+          "lead": "Il materiale individua tre obiettivi principali per anticipare la risposta agli attacchi cibernetici.",
+          "facts": [
+            {
+              "label": "1",
+              "text": "Threat intelligence avanzata."
+            },
+            {
+              "label": "2",
+              "text": "Identificazione delle vulnerabilità in ambienti complessi."
+            },
+            {
+              "label": "3",
+              "text": "Automazione delle indagini forensi."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "In agenzia: aggiornamenti e antivirus",
+          "items": [
+            {
+              "text": "Aggiorna regolarmente software e dispositivi (PC, smartphone, tablet) e attiva l'aggiornamento automatico se possibile."
+            },
+            {
+              "text": "Scarica gli aggiornamenti solo dai siti di fornitori affidabili e solo da una rete affidabile."
+            },
+            {
+              "text": "Verifica che l'antivirus sia installato, attivo e con le firme aggiornate; non disattivarlo."
+            },
+            {
+              "text": "Segnala subito ogni anomalia dell'antivirus a chi gestisce la sicurezza dei dispositivi.",
+              "ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "In agenzia: il backup",
+          "items": [
+            {
+              "text": "Archivia i dati solo su dispositivi autorizzati e, quando possibile, attiva il backup automatico."
+            },
+            {
+              "text": "Preferisci la piattaforma cloud dell'organizzazione; se possibile combina backup locali e in cloud."
+            },
+            {
+              "text": "Usa dispositivi cifrati, soprattutto se contengono dati riservati o vengono spostati."
+            },
+            {
+              "text": "Finito il backup su un supporto esterno, scollegalo e conservalo in un luogo sicuro.",
+              "ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché un antivirus basato solo sulle firme può non accorgersi di un malware 'nuovo'?",
+          "options": [
+            "Perché i malware nuovi non producono effetti",
+            "Perché spesso il malware nuovo è una variazione di uno vecchio con forma diversa",
+            "Perché le firme si aggiornano solo una volta l'anno",
+            "Perché i malware colpiscono solo le grandi organizzazioni"
+          ],
+          "answer": 1,
+          "explanation": "La diversificazione del codice cambia la forma del malware ma non i suoi effetti: la signature detection tradizionale cerca la forma nota e quindi non lo riconosce. Per questo servono anche analisi e classificazione dei comportamenti."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "In un'agenzia il PC della cassa mostra da giorni lentezza, popup imprevisti e l'antivirus risulta disattivato. Il collaboratore ha rimandato più volte gli aggiornamenti perché 'rallentano'. Il backup è su un disco sempre collegato al PC.",
+          "questions": [
+            "Quali azioni andavano fatte prima?",
+            "Che cosa fare adesso?"
+          ],
+          "solution": "Prima: aggiornamenti regolari e automatici, antivirus sempre attivo e aggiornato, disco di backup scollegato dopo l'uso. Adesso: segnalare subito a chi gestisce la sicurezza, scollegare il PC dalla rete senza cercare di risolvere da soli, non usare il disco di backup collegato finché non è stato verificato, e valutare con il titolare del trattamento se ci sono dati di clienti coinvolti."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Tempo",
+              "text": "ridurre il tempo tra attacco e scoperta"
+            },
+            {
+              "value": "Firme",
+              "text": "non bastano: il malware nuovo è spesso codice vecchio trasformato"
+            },
+            {
+              "value": "APT",
+              "text": "entrare è sempre più rapido, scoprire ed eliminare sempre più lento"
+            },
+            {
+              "value": "TI",
+              "text": "threat intelligence: anticipare l'attacco già in ricognizione"
+            },
+            {
+              "value": "Base",
+              "text": "aggiornamenti, antivirus attivo, backup scollegato"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione entriamo nel tema delle azioni per innalzare il livello di sicurezza. Il materiale le descrive in una prospettiva ampia, quella di un sistema complesso come un Paese, ma vedremo che ogni obiettivo ha una traduzione concreta anche nel lavoro di un'agenzia o di un broker.\n\nIl punto di partenza è questo: per innalzare la sicurezza servono azioni abilitanti, che irrobustiscono parti specifiche del ciclo di gestione di un attacco. Il ciclo va dalla riduzione al minimo del tempo necessario a scoprire l'attacco, alla protezione di dati e applicativi di interesse nazionale, che può essere attiva o preventiva; dalla creazione di una banca nazionale delle minacce, capace di garantire una certa autonomia nel riconoscere i malware trovati nelle organizzazioni italiane, fino all'analisi forense e alla gestione delle prove.\n\nProviamo a leggere questo ciclo con gli occhi di un intermediario. Ridurre il tempo di scoperta significa accorgersi presto che qualcosa non va: un collaboratore che segnala subito una e-mail strana vale più di qualsiasi software installato dopo. Proteggere in modo preventivo significa chiudere le porte prima che qualcuno provi ad aprirle, ad esempio con gli aggiornamenti; proteggere in modo attivo significa intervenire mentre l'attacco è in corso, isolando un computer. Riconoscere le minacce significa sapere che cosa si ha di fronte, ed è il lavoro che fanno i fornitori di sicurezza e le strutture nazionali. Infine l'analisi forense e la gestione delle prove servono a ricostruire che cosa è successo: quali dati sono stati toccati, da quando, attraverso quale strada. Per un'agenzia questa ricostruzione non è un dettaglio tecnico: è ciò che permette al titolare del trattamento di valutare se la violazione va notificata e di spiegare ai clienti e alla compagnia che cosa è accaduto. Per questo, in caso di incidente, è importante non improvvisare e lasciare che se ne occupi chi ha le competenze.\n\nCominciamo dai malware, cioè i programmi malevoli. Molti malware che vengono trovati non sono altro che variazioni o parziali reingegnerizzazioni di malware già esistenti. Questo processo di trasformazione del codice fa sì che i sistemi di protezione tradizionali, basati sul riconoscimento delle firme, la cosiddetta signature detection, non riescano a rilevare nuovi malware che producono gli stessi effetti degli originali ma hanno una forma diversa. Immaginate un antivirus come un elenco di foto segnaletiche: se il malvivente cambia aspetto, la foto non serve più.\n\nC'è poi un problema fondamentale della cybersicurezza: capire chi ha sferrato un attacco e da dove proviene, o da dove provengono gli attacchi intermedi. In altre parole, la possibilità di tracciare a ritroso un attacco, quello che in inglese si chiama traceback.\n\nMa c'è anche una buona notizia. Il fatto che gran parte del codice malevolo diffuso ogni anno in rete derivi da codice già esistente è il tallone d'Achille degli attacchi basati sui malware: se riconosciamo le famiglie e le parentele, possiamo difenderci meglio. I malware evolvono di continuo, e le principali sfide della ricerca riguardano la prevenzione, cioè l'individuazione precoce delle minacce, detta early threat detection, e la classificazione del codice malevolo.\n\nPer farlo servono modelli aggiornati per rappresentare i malware, capaci di cogliere fedelmente gli aspetti utili all'analisi. Per difendersi davvero bisogna anche capire quali attività hanno portato il malware all'interno di un computer: un allegato aperto, un sito visitato, una chiavetta inserita. Questo richiede il monitoraggio delle reti aziendali, non solo del traffico di rete ma dell'attività dei singoli terminali. Ed è importante realizzare una base di dati nazionale delle minacce e integrare l'analisi dei malware nei processi di analisi della sicurezza.\n\nGli obiettivi indicati sono quattro. Primo, una banca dati nazionale costruita su un'infrastruttura che raccolga e permetta di coordinare le attività di risposta agli incidenti in caso di attacco via malware. Secondo, dare alle organizzazioni e ai decisori strumenti per classificare e raggruppare automaticamente i malware e per individuarne vulnerabilità e finalità. Terzo, sviluppare strumenti e metodologie per la sorveglianza automatica del cyberspazio, monitorando e raggruppando i malware in base ai canali di comunicazione che usano. Quarto, sviluppare strumenti e metodologie di prevenzione basati da un lato sulla sensibilizzazione e formazione delle persone che usano strumenti informatici, dall'altro su sistemi di monitoraggio del traffico della rete aziendale.\n\nFermiamoci su quest'ultimo punto, perché riguarda tutti noi. La formazione delle persone è una misura di prevenzione a pieno titolo, accanto alla tecnologia. Questo stesso corso ne è un esempio.\n\nPassiamo al secondo grande capitolo: anticipare la risposta agli attacchi cibernetici. Negli ultimi tempi la complessità degli attacchi è cresciuta. Gli attacchi particolarmente complessi e strutturati, noti come Advanced Persistent Threat, o APT, sono oggi un problema fondamentale per tutte le grandi organizzazioni, pubbliche e private, che agiscono in un contesto globale. Il dato preoccupante è questo: mentre il tempo necessario per penetrare un sistema si riduce, grazie a strumenti di attacco sempre più efficaci, il tempo necessario per scoprire ed eliminare la presenza di una minaccia cresce.\n\nPer anticipare l'attacco occorre dare alle organizzazioni strumenti che le aiutino a raccogliere tutte le informazioni necessarie per tracciarlo mentre è ancora nella fase di ricognizione e di armamento, cioè quando l'attaccante studia il bersaglio e prepara gli strumenti. Le informazioni vanno aggregate, correlate e analizzate per prevedere le potenziali minacce.\n\nL'analisi dei testi dei messaggi è una fonte inesauribile di informazioni sugli attacchi in via di pianificazione e, più in generale, sulle potenziali vittime. Le soluzioni di threat intelligence, cioè di raccolta e analisi di informazioni sulle minacce, oggi offrono funzionalità dedicate, ma solo in rari casi sono integrate in suite capaci di supportare gli operatori in un processo completo: dalla scelta delle fonti di informazione fino alla messa in opera delle contromisure.\n\nCostruire un processo basato sulla threat intelligence comporta molte sfide: acquisire dati da fonti protette; creare e aggiornare dinamicamente basi di conoscenza sui cybercriminali e sulle loro operazioni; analizzare testi in più lingue; fare profilazione lessico-semantica; ricavare in modo automatico indicatori di compromissione e regole per rilevare gli attacchi; contestualizzare gli elementi di intelligence; caratterizzare le vulnerabilità e scoprire attacchi a partire da informazioni complesse ed eterogenee; gestire vulnerabilità e prevenzione negli ambienti pervasivi, dove i dispositivi connessi sono ovunque; valutare la qualità delle informazioni raccolte, l'affidabilità delle fonti e l'efficacia delle contromisure; e infine integrare intelligence, monitoraggio e protezione dei sistemi.\n\nI principali obiettivi da perseguire sono tre: una threat intelligence avanzata, l'identificazione delle vulnerabilità in ambienti complessi e l'automazione delle indagini forensi.\n\nTutto questo può sembrare lontano da un'agenzia assicurativa. In realtà ogni intermediario beneficia di questo lavoro ogni volta che il suo antivirus o il suo fornitore di posta riceve un aggiornamento con le nuove minacce. E ognuno può fare la propria parte con poche azioni di base, che l'Agenzia per la cybersicurezza nazionale raccomanda nella sua guida per i dipendenti.\n\nLa prima riguarda gli aggiornamenti. Aggiornare regolarmente software e dispositivi, PC, smartphone e tablet, mantiene alto il livello di sicurezza, perché chiude le vulnerabilità che i criminali sfruttano. Conviene attivare l'aggiornamento automatico, scaricare gli aggiornamenti solo dai siti di fornitori affidabili e farlo solo quando si è collegati a una rete affidabile. L'antivirus deve essere installato, attivo e con le firme aggiornate; non va disattivato o ostacolato, e ogni anomalia va segnalata subito a chi gestisce la sicurezza dei dispositivi.\n\nLa seconda riguarda il backup, cioè la copia dei dati in un luogo separato per poterli recuperare. La guida dell'ACN suggerisce di archiviare i dati solo su dispositivi autorizzati, di attivare quando possibile il backup automatico, di preferire la piattaforma cloud dell'organizzazione e, dove possibile, di combinare backup locali e in cloud. I dispositivi vanno cifrati, soprattutto se contengono dati riservati o vengono portati in giro. E quando il backup su un supporto esterno è finito, il supporto va scollegato e conservato in un luogo sicuro: un disco sempre collegato rischia di essere colpito insieme al computer.\n\nOra una verifica, poi un caso pratico che riprende proprio questi comportamenti.\n\nRicapitolando: le azioni per innalzare la sicurezza puntano a ridurre il tempo di scoperta, proteggere, riconoscere le minacce e ricostruire i fatti; i malware nuovi sono spesso codice vecchio trasformato, e per questo le firme non bastano; gli attacchi APT entrano più velocemente e si scoprono più lentamente; la threat intelligence cerca di anticiparli. E in agenzia le basi restano aggiornamenti, antivirus attivo e backup ben gestito. Nella prossima lezione completiamo il quadro con gli attacchi sociali e fisici e con il punto di vista delle imprese.",
+      "sources": [
+        {
+          "title": "ACN, Guida alla cybersicurezza aziendale per i dipendenti",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/indicazioni-dipendenti-pmi"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Azioni di base raccomandate dall'ACN per i dipendenti: aggiornamenti di software e dispositivi, antivirus attivo e aggiornato, segnalazione delle anomalie, regole sul backup (dispositivi autorizzati, cloud aziendale, cifratura, supporto scollegato dopo l'uso).",
+          "source_ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazioni ed esempi: signature detection paragonata alle foto segnaletiche, fasi di ricognizione e armamento, collegamento tra threat intelligence e aggiornamenti dell'antivirus.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verifica di autoapprendimento sulla signature detection e caso pratico su un PC di agenzia con antivirus disattivato e backup sempre collegato.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Trascrizione del video 'azioni per innalzare la sicurezza' non disponibile: la lezione si basa sul PDF corrispondente.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Attacchi sociali e fisici; le imprese e la sicurezza",
+      "source_files": [
+        "corso totale/Area informatica /Azioni per innalzare la sicurezza.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /azioni per innalzare la sicurezza.mp4",
+        "Corso Ivass 60 ore/Materiale /3. Le imprese e la sicurezza informatica..pdf ( ok )",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /Le imprese e la sicurezza informatica.mp4"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "Attacchi sociali e fisici; le imprese e la sicurezza",
+          "goals": [
+            "Capire come si anticipano disinformazione e attacchi fisici",
+            "Vedere la sicurezza informatica come capacità di tutta l'impresa",
+            "Porsi le domande giuste su dati, punti deboli e responsabilità"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli attacchi sociali",
+          "key": "Internet ha cambiato il modo in cui si crea e si accede alla conoscenza: ha scavalcato i sistemi di mediazione e offre un accesso diretto a una quantità di contenuti senza precedenti.",
+          "body": "In questo contesto nuovo va affrontato un problema antico: la diffusione delle notizie false e le sue conseguenze.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due approcci alla disinformazione",
+          "cols": [
+            {
+              "title": "Osservatorio e cooperazione",
+              "items": [
+                "In Europa misinformation, fake news e information warfare sono un tema altamente prioritario",
+                "Un osservatorio sui flussi informativi nei social media può collegare i diversi soggetti interessati",
+                "Soluzioni mirate e strategie condivise, costruite su dati quantitativi"
+              ]
+            },
+            {
+              "title": "Approccio algoritmico",
+              "items": [
+                "Soluzioni automatiche per neutralizzare le informazioni false online",
+                "Aiuta a individuare bot e profili falsi e a creare ambienti 'trusted'",
+                "Limite: un algoritmo non può decidere se un'affermazione è falsa, salvo ridurre drasticamente l'espressività del linguaggio"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Formazione e obiettivi contro la disinformazione",
+          "items": [
+            {
+              "text": "Percorsi formativi e incontri rivolti al sistema dei media, per obiettivi comuni, anche su temi come la salute pubblica."
+            },
+            {
+              "text": "Formazione delle forze che proteggono e regolano l'incontro tra infosfera e cyberspazio: come evolvono i flussi, come intervenire in modo efficace e tempestivo, come regolare spazi non più geografici."
+            },
+            {
+              "text": "Obiettivi: monitoraggio e sensing dello spazio informativo sui social media, misura del grado di polarizzazione."
+            },
+            {
+              "text": "Early warning sugli argomenti che possono veicolare informazioni false, fuorvianti o strumentali, e benchmarking.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli attacchi fisici",
+          "key": "Immagini e video pubblicati sul web o ripresi dalle telecamere di sorveglianza sono sempre più importanti per le agenzie che contrastano terrorismo e criminalità organizzata.",
+          "body": "Il problema non è solo la quantità: i dati arrivano a velocità altissima, in tempo reale, e vanno analizzati e compresi in fretta. Le sfide: intelligenza visuale collaborativa a livello urbano, monitoraggio automatico dei contenuti visivi del web, gestione e analisi di contenuti visivi su larga scala.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I progetti sull'analisi visiva",
+          "head": [
+            "Ambito",
+            "Che cosa si vuole ottenere"
+          ],
+          "rows": [
+            [
+              "Telecamere",
+              "Analisi automatica dei video di sorveglianza su tutto il territorio, per individuare comportamenti e persone sospette anche su mesi, nonostante cambi di luce, meteo e abbigliamento."
+            ],
+            [
+              "Social",
+              "Analisi delle immagini postate dalle persone di interesse: riconoscere il luogo senza metadati e descrivere il contenuto emotivo."
+            ],
+            [
+              "Visualizzazione",
+              "Rendere subito utilizzabili le analisi per chi decide sulla sicurezza nazionale, per attacchi terroristici ed emergenze naturali."
+            ],
+            [
+              "Sistemi",
+              "Viste integrate da telecamere fisse, mobili ed egocentriche; rilevamento di persone 'in the wild'; tracking predittivo; riconoscimento di simboli ricorrenti e del 'potenziale' di viralità; mappe geografiche e temporali; videosorveglianza di nuova generazione."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le imprese: perché investire",
+          "key": "La sicurezza informatica è sempre più considerata un fattore che abilita il business. Deve diventare una capacità organizzativa di base che coinvolge tutti i reparti, non solo l'IT.",
+          "body": "Le organizzazioni migliori trattano la sicurezza come parte del business, dal consiglio di amministrazione al singolo utente: subiscono meno incidenti, con impatto meno grave e recupero più rapido.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Come ragiona l'attaccante",
+          "key": "Gli hacker adottano spesso un approccio olistico, considerato il modo migliore per superare le difese costruite a protezione di informazioni commerciali, dati sensibili e risorse critiche.",
+          "body": "Gli aggressori imboccano le strade che presentano debolezze. Per un intermediario può essere il collaboratore meno formato o il fornitore meno controllato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Tre obiettivi per l'impresa",
+          "steps": [
+            {
+              "label": "Proteggere",
+              "text": "Identificare le risorse e costruire linee di difesa."
+            },
+            {
+              "label": "Ottimizzare",
+              "text": "Fermare le attività di basso valore, aumentare l'efficienza e reinvestire in tecnologie emergenti e innovative."
+            },
+            {
+              "label": "Crescere",
+              "text": "Sicurezza fin dalla progettazione, come fattore chiave di successo delle innovazioni digitali."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le domande da porsi",
+          "items": [
+            {
+              "text": "Quali sono le nostre risorse informative più preziose? Quali sono i nostri 'gioielli della corona'?"
+            },
+            {
+              "text": "Dove sono i nostri punti deboli? Quali minacce affrontiamo e chi potrebbe metterle in atto?"
+            },
+            {
+              "text": "Siamo già stati violati o compromessi?"
+            },
+            {
+              "text": "Come si confronta la nostra protezione con quella della concorrenza?"
+            },
+            {
+              "text": "Quali sono le nostre responsabilità normative, e le stiamo rispettando?"
+            },
+            {
+              "text": "Qual è la nostra tolleranza e il nostro appetito per il rischio? Che cosa potremmo fare in modo più rapido o economico, o smettere di fare?",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati e vulnerabilità",
+          "title": "Che cosa proteggere prima",
+          "lead": "Dati dei clienti, informazioni finanziarie e piani strategici sono le tre informazioni più preziose da proteggere.",
+          "facts": [
+            {
+              "label": "Altri dati sensibili",
+              "text": "Dati dei membri del board, password dei clienti, informazioni sui fornitori."
+            },
+            {
+              "label": "Tempi",
+              "text": "Servono diversi mesi per accorgersi degli attacchi sofisticati."
+            },
+            {
+              "label": "Due budget",
+              "text": "Le aziende lungimiranti ne hanno uno ordinario e uno di emergenza per minacce o violazioni impreviste."
+            },
+            {
+              "label": "Tecnologie",
+              "text": "Automazione robotica dei processi, intelligenza artificiale e analisi dei dati possono aiutare."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La sicurezza nella strategia",
+          "head": [
+            "Componente",
+            "Che cosa comporta"
+          ],
+          "lead": "Le quattro componenti vitali per rendere la sicurezza informatica parte della strategia di crescita.",
+          "rows": [
+            [
+              "Supervisione strategica",
+              "Sicurezza fin dalla progettazione: con una trasformazione digitale rapidissima c'è il pericolo che la sicurezza venga trascurata."
+            ],
+            [
+              "Leadership",
+              "Ruoli chiari: il CSO risponde di rischio cyber, sicurezza fisica e sicurezza personale; CISO o CIO si concentrano sulla trasformazione informatica più ampia."
+            ],
+            [
+              "Digitalizzazione",
+              "Ogni nuovo servizio digitale nasce con la sicurezza integrata."
+            ],
+            [
+              "Tecnologie emergenti",
+              "Investire in strumenti innovativi per migliorare la protezione esistente."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La funzione di sicurezza delle informazioni",
+          "key": "La maggior parte delle imprese è preoccupata per la propria funzione di sicurezza delle informazioni nei settori chiave.",
+          "body": "Un'area da rafforzare per sempre più imprese è la pianificazione e l'esecuzione della risposta agli incidenti: chi fa cosa, in che ordine, con quali contatti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo il materiale, quale caratteristica distingue le organizzazioni con le migliori prestazioni nella sicurezza?",
+          "options": [
+            "Delegano la sicurezza solo al reparto IT",
+            "Trattano la sicurezza come parte integrante del business, coinvolgendo tutti",
+            "Non hanno mai subito attacchi",
+            "Spendono tutto il budget in antivirus"
+          ],
+          "answer": 1,
+          "explanation": "Le imprese migliori coinvolgono tutti, dal consiglio di amministrazione ai singoli utenti: subiscono meno incidenti, con impatto meno grave e tempi di recupero più rapidi."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia plurimandataria con tre sedi vuole lanciare un preventivatore online e una chat con i clienti. Il titolare chiede al responsabile commerciale di farlo in un mese; dell'informatica 'si occuperà il fornitore'.",
+          "questions": [
+            "Quali domande dovrebbe porsi l'agenzia prima di partire?",
+            "Che cosa significa qui 'sicurezza fin dalla progettazione'?"
+          ],
+          "solution": "Quali dati raccoglierà il servizio e quanto sono preziosi; dove sono i punti deboli (fornitore, accessi, collaboratori); quali obblighi normativi si applicano, a partire dal GDPR; chi risponde della sicurezza. Sicurezza fin dalla progettazione significa definire questi requisiti prima di scegliere e configurare lo strumento, non dopo il lancio, e prevedere un piano di risposta agli incidenti."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Social",
+              "text": "osservatorio, formazione e early warning contro la disinformazione"
+            },
+            {
+              "value": "Video",
+              "text": "analisi automatica di immagini per la sicurezza pubblica"
+            },
+            {
+              "value": "Tutti",
+              "text": "la sicurezza è una capacità di tutta l'impresa, non solo dell'IT"
+            },
+            {
+              "value": "3",
+              "text": "obiettivi: proteggere, ottimizzare, crescere"
+            },
+            {
+              "value": "Mesi",
+              "text": "per scoprire un attacco sofisticato: serve un budget anche per l'emergenza"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione completiamo le azioni per innalzare la sicurezza con due ambiti meno tecnici, gli attacchi sociali e quelli fisici, e poi spostiamo lo sguardo sulle imprese: come devono organizzarsi per fare della sicurezza informatica una parte della propria strategia.\n\nPartiamo dagli attacchi sociali. Internet ha cambiato radicalmente il modo in cui si crea e si accede alla conoscenza: ha stravolto i sistemi di mediazione tradizionali, come giornali ed editori, a favore di un accesso diretto a una quantità di contenuti senza precedenti. In questo contesto va affrontato un problema antico, la diffusione delle notizie false, con le sue conseguenze.\n\nA livello europeo, le comunità accademiche e istituzionali considerano la misinformation, le fake news e la information warfare, cioè l'uso dell'informazione come arma, un tema altamente prioritario. Una proposta è costituire un osservatorio sui flussi informativi nei social media, che faccia da ponte tra i diversi soggetti interessati, così che possano disegnare insieme, su base quantitativa, soluzioni mirate e strategie condivise.\n\nUn approccio alternativo è quello algoritmico: soluzioni automatiche per neutralizzare la grande massa di informazioni false presenti online. Questo approccio può aiutare a individuare bot e profili falsi, ad esempio per costruire ambienti affidabili, detti trusted, in cui le identità online corrispondono con maggiore probabilità a identità reali. Ha però un limite: un algoritmo non può decidere se un'affermazione è falsa, a meno di ridurre brutalmente le capacità espressive del linguaggio.\n\nPer questo servono anche le persone. Vanno realizzati percorsi formativi e momenti di incontro rivolti al sistema dei media, per favorire la reciprocità e il perseguimento di obiettivi comuni, sia in generale sia su temi specifici come la salute pubblica. Sono importanti anche la formazione e l'aggiornamento delle forze che hanno il compito di proteggere e regolare l'intersezione tra infosfera e cyberspazio: i loro operatori devono capire come evolvono i flussi informativi in questi nuovi spazi, come muoversi per intervenire in modo efficace e tempestivo, e quali metodi possono servire per introdurre forme di regolamentazione in spazi virtuali e non più geografici.\n\nGli obiettivi indicati sono il monitoraggio e il sensing dello spazio informativo sui social media; la misura del grado di polarizzazione; l'early warning, cioè l'allerta precoce, sugli argomenti che possono veicolare informazioni false, fuorvianti o strumentali; e il benchmarking.\n\nAnche il nostro settore conosce bene questo rischio: una notizia falsa su una compagnia o una falsa comunicazione a nome di un'agenzia possono circolare velocemente e danneggiare la fiducia dei clienti.\n\nVeniamo agli attacchi fisici. Le immagini e i video pubblicati sul web o ripresi dalle telecamere di sorveglianza sono sempre più importanti per le agenzie nazionali e internazionali di controllo del territorio nel contrasto al terrorismo e alla criminalità organizzata. Oltre ai volumi, il problema è la velocità altissima con cui i dati vengono raccolti in tempo reale e la necessità di analizzarne e comprenderne il contenuto in tempi rapidi.\n\nLe sfide principali sono tre: un'intelligenza visuale collaborativa a livello urbano; il monitoraggio automatico dei contenuti visivi provenienti dal web; la capacità di gestire, visualizzare e analizzare contenuti visivi su larga scala.\n\nIl materiale indica diversi progetti. Il primo riguarda l'acquisizione e l'analisi automatica dei video delle telecamere di sorveglianza su tutto il territorio nazionale, per individuare comportamenti e individui sospetti anche su periodi di molti mesi, in modo robusto rispetto ai cambiamenti di illuminazione, di condizioni meteorologiche e di abbigliamento delle persone. Il secondo riguarda l'analisi automatica delle immagini e dei video pubblicati dalle persone di interesse sui loro profili social, capace di riconoscere il luogo in cui sono stati ripresi anche senza metadati, che non sempre sono disponibili, e di descriverne il contenuto emotivo. Il terzo riguarda tecniche di visualizzazione avanzata, per rendere subito utilizzabili le analisi degli algoritmi da parte di chi deve prendere decisioni sulla sicurezza nazionale, sia per attacchi terroristici sia per emergenze naturali.\n\nI progetti devono sviluppare: sistemi che ricostruiscono automaticamente viste integrate da telecamere fisse, mobili ed egocentriche, cioè indossate dalle persone; sistemi per rilevare persone e obiettivi in ambienti reali non controllati, in the wild; sistemi di tracking predittivo di obiettivi in movimento; tecnologie per riconoscere simboli ricorrenti in immagini e video e per valutarne il contenuto emozionale, così da individuare le immagini a forte impatto e prevedere attributi come il potenziale di viralità e popolarità; sistemi per la visualizzazione geografica e temporale di dati su persone, eventi catastrofici e social media; e modelli di architettura per una nuova generazione di sistemi di videosorveglianza per la sicurezza pubblica. Sono attività che riguardano le istituzioni, ma ci ricordano che anche le immagini, comprese quelle delle telecamere di un ufficio, sono dati da proteggere.\n\nPassiamo ora alle imprese. La sicurezza informatica viene sempre più considerata un fattore che abilita il business. Deve diventare una capacità organizzativa di base che coinvolge tutti i reparti, non solo l'IT. Le organizzazioni con le migliori prestazioni affrontano la sicurezza come parte integrante del business, coinvolgendo tutti, dal consiglio di amministrazione ai semplici utenti; e infatti le imprese migliori subiscono in genere meno incidenti, con un impatto meno grave e tempi di recupero più rapidi.\n\nPerché coinvolgere tutti? Perché gli hacker, quando pianificano un attacco contro un'impresa, adottano spesso un approccio olistico, che considerano il modo migliore per superare le difese costruite per proteggere informazioni commerciali, dati sensibili e risorse critiche. Gli aggressori imboccano le strade che presentano debolezze. Se la sede principale è ben protetta ma un collaboratore esterno usa un computer personale senza aggiornamenti, la strada più debole è quella.\n\nLe organizzazioni devono porsi tre obiettivi. Proteggere l'azienda, concentrandosi sull'identificazione delle risorse e sulla costruzione di linee di difesa. Ottimizzare la sicurezza, fermando le attività di basso valore, aumentando l'efficienza e reinvestendo i fondi in tecnologie emergenti e innovative che migliorino la protezione esistente. Consentire la crescita, applicando la sicurezza fin dalla progettazione come fattore chiave di successo per le innovazioni digitali.\n\nCi sono poi domande che ogni impresa deve inevitabilmente porsi. Quali sono le nostre risorse informative più preziose, i nostri gioielli della corona? Dove sono i nostri punti deboli? Quali minacce stiamo affrontando e chi potrebbe metterle in atto? Siamo già stati violati o compromessi? Come si confronta la nostra protezione con quella della concorrenza? Quali sono le nostre responsabilità normative, e le stiamo rispettando? E per ottimizzare: qual è la nostra strategia di sicurezza, quali sono la nostra tolleranza e il nostro appetito per il rischio? Ci sono attività di basso valore che potremmo svolgere in modo più rapido o economico? Come possono aiutarci l'automazione robotica dei processi, l'intelligenza artificiale e gli strumenti di analisi dei dati? Dove dovremmo rafforzare le nostre capacità, e che cosa potremmo smettere di fare per reinvestire le risorse?\n\nQuali dati proteggere per primi? Secondo il materiale, i dati sulla clientela, le informazioni finanziarie e i piani strategici sono le tre informazioni più preziose. Tra i dati sensibili ci sono anche quelli sui membri del board, le password dei clienti e le informazioni sui fornitori. Per un intermediario la lista è quasi identica: anagrafiche e polizze dei clienti, incassi, accordi con le compagnie.\n\nSulle vulnerabilità più rischiose c'è un dato da tenere a mente: servono diversi mesi per captare un attacco sofisticato, e la sfida è trovare strumenti efficaci per individuare e verificare le minacce. Per questo le aziende davvero lungimiranti hanno due budget: quello tradizionale e quello di emergenza, per gli imprevisti come una nuova minaccia, una violazione o una compromissione.\n\nLa maggior parte delle imprese è preoccupata per la propria funzione di sicurezza delle informazioni nei settori chiave. Un'area in cui sempre più imprese devono migliorare è la pianificazione e l'esecuzione della risposta agli incidenti.\n\nInfine, le quattro componenti vitali per fare della sicurezza informatica una parte della strategia di crescita: supervisione strategica, leadership, digitalizzazione e tecnologie emergenti. Sulla supervisione strategica il materiale osserva che serve un rapido aumento della sicurezza fin dalla progettazione, perché molte organizzazioni stanno perseguendo la trasformazione digitale a un ritmo vertiginoso e c'è il pericolo che la sicurezza venga trascurata. Sulla leadership, distingue i ruoli: il CSO, il responsabile della sicurezza, ha la responsabilità del rischio cyber, del rischio per la sicurezza fisica e di quello per la sicurezza personale, mentre il CISO, responsabile della sicurezza delle informazioni, o il CIO, responsabile dei sistemi informativi, si concentrano su una più ampia trasformazione informatica. In una piccola agenzia questi ruoli coincidono spesso con il titolare: l'importante è che qualcuno ne risponda davvero.\n\nFacciamo una verifica e poi un caso pratico su un progetto digitale di un'agenzia.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Integrato nell'argomento il materiale 'Le imprese e la sicurezza informatica' (cartella 60 ore, video omonimo nel 30 ore): investimento in sicurezza, gestione del rischio, domande da porsi, dati da proteggere, vulnerabilità, strategia e ruoli CSO/CISO/CIO.",
+          "source_ref": "Materiale originale del corso (60 ore)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella fonte 'Le imprese…' la domanda 'Cosa si potrebbe smettere di fare e come si potrebbero…' è troncata: completata come 'che cosa potremmo smettere di fare per reinvestire le risorse', coerente con l'obiettivo di ottimizzazione indicato nella stessa fonte.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamenti al lavoro dell'intermediario: fake news su compagnie o false comunicazioni a nome dell'agenzia, collaboratore esterno come anello debole, dati da proteggere in agenzia, ruoli di sicurezza nelle piccole agenzie.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verifica di autoapprendimento e caso pratico su un progetto di preventivatore online.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Trascrizioni dei video 'azioni per innalzare la sicurezza' e 'Le imprese e la sicurezza informatica' non disponibili: la lezione si basa sui PDF corrispondenti.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La sicurezza delle password",
+      "source_files": [
+        "corso totale/Area informatica / Sicurezza informatica e protezione dei dati /Sicurezza delle password.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Sicurezza informatica e protezione dei dati /sicurezza delle password.mp4"
+      ],
+      "source_minutes": 21,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Sicurezza informatica e protezione dei dati",
+          "title": "La sicurezza delle password",
+          "goals": [
+            "Creare password robuste e imprevedibili, diverse per ogni account",
+            "Usare password manager e autenticazione a più fattori",
+            "Riconoscere i segnali di un account o di un PC compromesso e sapere come reagire"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un po' di storia",
+          "key": "All'inizio degli anni '60 il ricercatore Fernando Corbató sviluppò il concetto di account utente per accedere a un computer: ogni utente si identificava digitando una parola chiave.",
+          "body": "Da quell'approccio nacquero non solo le password d'accesso, ma anche elementi dei sistemi operativi come li conosciamo: il file system, la gerarchia dei file, la privacy incorporata nel codice.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è una password",
+          "key": "Una password è un insieme di lettere e/o numeri che permette di accedere a pagine o servizi riservati. A ogni nome utente univoco è associato un codice segreto, che si spera sia altrettanto univoco.",
+          "body": "Il nome utente può essere un indirizzo e-mail, un nome o un ID. Digitando la parola segreta accanto al nome utente si abilita l'accesso.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Password deboli e password sicure",
+          "cols": [
+            {
+              "title": "Da evitare",
+              "items": [
+                "\"123456\", \"password\", \"abc123\"",
+                "\"iloveyou\", \"letmein\", \"principessa\"",
+                "La stessa parola ripetuta al contrario",
+                "Dati personali reperibili online: data di nascita, nome dei figli"
+              ]
+            },
+            {
+              "title": "Più sicure",
+              "items": [
+                "Acronimi: \"Io mi chiamo Renato e ho 3 figli\" diventa ImcReh3F",
+                "Padding: allungare con caratteri extra, come Pastacon3Olive o PizzaMeglio5fette",
+                "Una frase corta con un pizzico di complessità",
+                "Un nome utente unico, difficile se non impossibile da indovinare"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Imprevedibile, non solo complessa",
+          "key": "La complessità è solo una piccola parte dell'equazione: una password è tanto più sicura quanto più è imprevedibile.",
+          "body": "Troppo spesso 'complessa' diventa sinonimo di 'impossibile da ricordare'. L'entropia di una password misura quanto è imprevedibile: più è prevedibile, meno entropia ha. Gli esempi pubblicati qui, proprio perché noti, non vanno usati così come sono.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "I generatori di password",
+          "key": "In rete esistono generatori che creano parole chiave tenendo conto di crittografia e protezione.",
+          "body": "Il materiale suggerisce di prendere un paio di stringhe generate e costruire una formula che abbia senso per sé, modificando la parte finale sui diversi siti. Attenzione: l'ACN raccomanda di non riutilizzare la stessa password e di affidarsi a un password manager.",
+          "ref": "Materiale originale; ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le regole dell'ACN per le credenziali",
+          "items": [
+            {
+              "text": "Usa password robuste, secondo le indicazioni della tua organizzazione e le buone pratiche riconosciute."
+            },
+            {
+              "text": "Cambia la password al primo accesso e ogni volta che sospetti sia stata scoperta."
+            },
+            {
+              "text": "Non usare informazioni personali reperibili online o sui social."
+            },
+            {
+              "text": "Non riutilizzare la stessa password, soprattutto tra account aziendali e personali, e non condividerla con i colleghi."
+            },
+            {
+              "text": "Usa un password manager scaricato solo da fonti attendibili: ne ricordi una sola per tutte le altre."
+            },
+            {
+              "text": "Attiva, dove possibile, l'autenticazione a più fattori (MFA).",
+              "ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "L'autenticazione a più fattori",
+          "head": [
+            "Fattore",
+            "Esempi"
+          ],
+          "lead": "L'MFA chiede due o più elementi di tipo diverso: se la password viene rubata, da sola non basta.",
+          "rows": [
+            [
+              "Qualcosa che sai",
+              "Password, passphrase, PIN"
+            ],
+            [
+              "Qualcosa che hai",
+              "Token fisico, app di autenticazione, codice via SMS, notifica push, chiave di sicurezza fisica"
+            ],
+            [
+              "Qualcosa che sei",
+              "Impronta digitale, riconoscimento facciale, impronta retinica"
+            ]
+          ],
+          "ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come vengono rubate le password",
+          "items": [
+            {
+              "text": "Ingegneria sociale e tentativi di indovinarle."
+            },
+            {
+              "text": "Attacco a forza bruta: si provano tutte le combinazioni fino a quella giusta."
+            },
+            {
+              "text": "Intercettazione mentre la password viaggia su una rete."
+            },
+            {
+              "text": "Shoulder surfing: qualcuno guarda mentre la digiti."
+            },
+            {
+              "text": "Keylogger installati sul dispositivo per registrare ciò che si digita."
+            },
+            {
+              "text": "Password conservate male, su un foglietto o in un file Word, o database con molte password compromesso.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi gestisce i sistemi: non conservarle in chiaro",
+          "key": "Chi gestisce un servizio con accesso tramite password non dovrebbe salvarle in chiaro, ma conservarne solo il risultato di robuste funzioni di password hashing.",
+          "body": "Se l'archivio viene sottratto, l'attaccante non trova direttamente le password. Le linee guida ACN, elaborate d'intesa con il Garante privacy, descrivono anche l'uso del salt e gli algoritmi raccomandati.",
+          "ref": "ACN-Garante, Linee guida Conservazione delle password, 2023"
+        },
+        {
+          "layout": "table",
+          "title": "I segnali di un attacco (1)",
+          "head": [
+            "Segnale",
+            "Che cosa fare"
+          ],
+          "rows": [
+            [
+              "Messaggio di riscatto",
+              "Se è uno scareware, il riavvio lo fa sparire. Se la schermata ritorna, ripristina i dati da un backup precedente o cerca siti che aiutano a recuperare i file."
+            ],
+            [
+              "Falso messaggio antivirus",
+              "Il link porta a un sito che chiede la carta di credito. Spegni il PC o riavvialo in modalità provvisoria senza rete e disinstalla il software appena installato."
+            ],
+            [
+              "Barre del browser indesiderate",
+              "Rimuovi quelle che non hai installato tu e anche quelle di cui non sei sicuro."
+            ],
+            [
+              "Ricerche reindirizzate e popup frequenti",
+              "Il browser ti porta su link diversi; popup su siti che di solito non ne mostrano: il sistema è compromesso."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I segnali di un attacco (2)",
+          "head": [
+            "Segnale",
+            "Che cosa fare"
+          ],
+          "rows": [
+            [
+              "Richieste di amicizia non inviate da te",
+              "Il tuo profilo social è usato da altri: cambia le credenziali."
+            ],
+            [
+              "La password online non funziona",
+              "Modifica subito le credenziali e valuta l'autenticazione a due fattori."
+            ],
+            [
+              "Software installato a tua insaputa, mouse che si muove da solo",
+              "Disabilita il programma non riconosciuto e riavvia. Se qualcuno controlla il PC, scollegalo e avvisa chi gestisce la sicurezza."
+            ],
+            [
+              "Antimalware, Task Manager o Editor del Registro disattivati",
+              "Serve un ripristino completo: non si sa cosa è successo."
+            ],
+            [
+              "Conto svuotato o negozi che chiedono pagamenti",
+              "Attiva gli avvisi sulle transazioni. Cambia nomi utente e password, chiama le forze dell'ordine, valuta un'azione legale e monitora il tuo credito."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Se sospetti un attacco in agenzia",
+          "steps": [
+            {
+              "label": "Avvisa subito",
+              "text": "Contatta il personale di riferimento e non cercare di risolvere da solo."
+            },
+            {
+              "label": "Isola",
+              "text": "In caso di malware o ransomware spegni il dispositivo e scollegalo dalla rete."
+            },
+            {
+              "label": "Cambia le credenziali",
+              "text": "Cambia subito la password degli account compromessi, anche se è solo un sospetto."
+            },
+            {
+              "label": "Dati di clienti?",
+              "text": "Avvisa il responsabile della protezione dei dati o della cybersicurezza: potrebbe servire la notifica alle autorità nei tempi previsti."
+            }
+          ],
+          "ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un collaboratore usa la stessa password, lunga e complessa, per la posta personale e per il portale della compagnia. Qual è il problema principale?",
+          "options": [
+            "Nessuno, se la password è complessa",
+            "Se un servizio viene violato, la password può essere usata anche sull'altro",
+            "La password è troppo lunga da ricordare",
+            "Il portale della compagnia non accetta password complesse"
+          ],
+          "answer": 1,
+          "explanation": "Le password rubate vengono riutilizzate per entrare in altri servizi. Per questo l'ACN raccomanda password diverse, soprattutto tra account personali e aziendali, un password manager e l'MFA."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente chiama l'agenzia: ha ricevuto un'e-mail dall'indirizzo di un collaboratore con un nuovo IBAN su cui pagare il premio. Il collaboratore si accorge che la sua password della posta non funziona più e che dalla casella sono partiti messaggi che non ha scritto.",
+          "questions": [
+            "Quali segnali indicano la compromissione?",
+            "Che cosa deve fare subito l'agenzia?"
+          ],
+          "solution": "Password non più valida e messaggi non inviati da lui: l'account è compromesso. Il collaboratore avvisa subito il referente, recupera l'account e cambia le credenziali, attiva l'MFA. L'agenzia avvisa i clienti di non usare l'IBAN ricevuto, verifica se ci sono dati personali violati e, con il titolare del trattamento, valuta la notifica al Garante entro 72 ore."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Imprevedibile",
+              "text": "una password è sicura quanto è imprevedibile"
+            },
+            {
+              "value": "Una per account",
+              "text": "mai riutilizzare, mai condividere"
+            },
+            {
+              "value": "Manager",
+              "text": "un password manager da fonti attendibili"
+            },
+            {
+              "value": "MFA",
+              "text": "due o più fattori: sai, hai, sei"
+            },
+            {
+              "value": "Subito",
+              "text": "segnala, isola, cambia le credenziali"
+            }
+          ]
+        }
+      ],
+      "narration": "Chiudiamo questa parte con il tema più quotidiano di tutti: la password. La usiamo decine di volte al giorno, per il gestionale, per i portali delle compagnie, per la posta, per l'home banking. Ed è spesso l'unica cosa che separa un criminale dai dati dei nostri clienti.\n\nUn po' di storia. All'inizio degli anni Sessanta il ricercatore Fernando Corbató decise di sviluppare il concetto di account utente per accedere a un singolo computer, un concetto ancora oggi diffusissimo. Ogni utente, per accedere alla macchina, doveva identificarsi digitando una parola chiave. Quell'approccio portò allo sviluppo non solo delle password d'accesso, ma anche dei sistemi operativi come li conosciamo oggi: dal file system alla gerarchia dei file, fino alla privacy incorporata a livello di codice.\n\nChe cos'è, dunque, una password? È un insieme di lettere e numeri, letteralmente una parola che abilita l'accesso, che permette di entrare in pagine o servizi online riservati. A ogni nome utente univoco, che può essere un indirizzo e-mail, un nome utente o un codice identificativo, è associata una password che funziona come un codice segreto, che si spera sia altrettanto univoco. Digitando la parola segreta accanto al proprio nome utente si ottiene l'accesso.\n\nIl problema è che molte persone scelgono password scontate. Gli esempi tipici sono 123456, password, abc123, iloveyou, letmein, principessa, oppure la stessa parola scritta al contrario. Sono le prime che un attaccante prova. A questi aggiungiamo, come ricorda l'ACN, le password che contengono informazioni personali facili da trovare online o sui social, come la data di nascita o il nome dei figli.\n\nCome si crea allora una password sicura? Troppo spesso pensiamo che complessa voglia dire impossibile da ricordare. Dobbiamo invece capire che la complessità è solo una piccola parte dell'equazione: conta soprattutto l'imprevedibilità. Il concetto di entropia di una password va in direzione opposta a quello di password prevedibile: più una password è prevedibile, meno entropia ha. Una password, più o meno complessa, è tanto più sicura quanto più è imprevedibile.\n\nIl materiale suggerisce alcune tecniche. Gli acronimi: si parte da una frase, per esempio io mi chiamo Renato e ho 3 figli, e si prendono le iniziali e i numeri, ottenendo qualcosa come ImcReh3F. Il padding: si allunga la password aggiungendo un certo numero di caratteri extra, come in Pastacon3Olive o PizzaMeglio5fette. Una frase corta con un pizzico di complessità. E un nome utente unico, difficile se non impossibile da indovinare, perché anche il nome utente è metà della chiave. Attenzione però: proprio perché questi esempi sono pubblici, non vanno usati così come sono, ma solo come modello.\n\nIn rete esistono anche generatori di password che creano parole chiave tenendo conto di crittografia e protezione. Il materiale propone di prendere un paio di stringhe generate e sviluppare una formula che abbia senso per sé, modificando la parte finale sui diversi siti. È un compromesso tra sicurezza e memoria, ma ha un limite: se un attaccante scopre la formula, può indovinare le altre. Per questo l'Agenzia per la cybersicurezza nazionale raccomanda una strada più solida: una password diversa per ogni account e un password manager.\n\nVediamo le regole dell'ACN, contenute nella sua guida alla cybersicurezza aziendale per i dipendenti. Usa sempre password robuste, in linea con le indicazioni della tua organizzazione e con le buone pratiche riconosciute. Cambia la password al primo accesso, se ti è stata comunicata da altri, e ogni volta che sospetti che sia stata scoperta. Non usare informazioni personali reperibili online. Non riutilizzare la stessa password per più account, soprattutto tra account aziendali e personali, e non condividerla con nessuno, nemmeno con i colleghi: è un'informazione personale del titolare dell'account. Usa un password manager, cioè un'applicazione che conserva in modo sicuro le credenziali e ti permette di avere password diverse e robuste ricordandone una sola. Ma scaricala solo da fonti attendibili, perché esistono software malevoli che si spacciano per password manager. Se sospetti che la tua password sia nota ad altri, segnalalo all'organizzazione come incidente di sicurezza.\n\nE attiva, dove possibile, l'autenticazione a più fattori, in inglese multi factor authentication, MFA. L'MFA verifica l'identità chiedendo, oltre a nome utente e password, altri elementi di tipo diverso: qualcosa che sai, come una password, una passphrase o un PIN; qualcosa che hai, come un token fisico o un'app di autenticazione; qualcosa che sei, come l'impronta digitale o il riconoscimento facciale. Le forme più comuni sono il codice via SMS, il codice a sei cifre generato da un'app, la notifica push sul telefono e la chiave di sicurezza fisica. Il vantaggio è semplice: anche se la password viene rubata, chi la usa non riesce a superare il secondo controllo. Per i servizi aziendali si seguono le indicazioni dell'organizzazione; nella vita privata conviene attivarla ovunque sia disponibile, dalla posta ai social all'home banking.\n\nMa come fa un criminale a rubare una password? Il materiale elenca diverse strade: l'ingegneria sociale, cioè convincere la persona a rivelarla; indovinarla; l'attacco a forza bruta, in cui un programma prova tutte le combinazioni fino a trovare quella giusta; l'intercettazione mentre viaggia su una rete; lo shoulder surfing, cioè guardare da sopra la spalla mentre la si digita; l'installazione di un keylogger, un programma che registra i tasti premuti; le password conservate in modo non sicuro, scritte su un foglietto o salvate in un file Word; e infine la compromissione di un database che contiene molte password di utenti. Delle tecniche di attacco in generale si parla in un'altra lezione; qui ci interessa capire che ognuna ha una contromisura.\n\nL'ultimo punto riguarda chi gestisce i sistemi. L'ACN, d'intesa con il Garante per la protezione dei dati personali, ha pubblicato nel dicembre 2023 delle linee guida sulla conservazione delle password. Il principio è che le password non vanno memorizzate in chiaro, ma conservando solo il risultato di robuste funzioni di password hashing, così che, se l'archivio viene sottratto, l'attaccante non trovi direttamente le password. Se la vostra agenzia sceglie un fornitore per un'area riservata ai clienti, è una delle domande da fargli.\n\nPassiamo ai segnali che indicano che si è stati attaccati. Il primo è un messaggio di riscatto. Alcuni messaggi di tipo ransomware provengono da programmi che in realtà non bloccano i dati, detti scareware, e basta riavviare il computer per farli sparire. Se invece dopo il riavvio la schermata ritorna, o non si riesce ad accedere ai dati, si può ripristinare i dati da un backup fatto in precedenza, oppure cercare siti che aiutano a recuperare i file.\n\nIl secondo sono i falsi messaggi dell'antivirus. Cliccando sul link si arriva su un sito che chiede numero della carta di credito e dati di fatturazione, e il pagamento finisce direttamente agli hacker. Appena si nota il messaggio falso, bisogna spegnere il computer, o avviarlo in modalità provvisoria senza rete, e provare a disinstallare il software appena installato.\n\nPoi le barre degli strumenti del browser indesiderate: basta rimuovere quelle che non sono state installate volontariamente e anche quelle di cui non si è certi. Le ricerche su internet reindirizzate, quando il browser porta a un link diverso da quello voluto. I popup frequenti su siti che normalmente non ne mostrano: significano che il sistema è stato compromesso. E sui social media arrivano richieste di amicizia che non avete inviato voi.\n\nAltri segnali: la password di un servizio online non funziona più. In questo caso bisogna modificare subito le credenziali e valutare l'autenticazione a due fattori. Software installati a vostra insaputa: esistono programmi gratuiti che mostrano tutti i programmi installati e permettono di disabilitarli; in ogni caso conviene disabilitare il programma non riconosciuto e riavviare il PC. Il mouse che si muove da solo tra i programmi. L'antimalware, il Task Manager o l'Editor del Registro di sistema che risultano disattivati e non si riavviano: qui è consigliabile un ripristino completo, perché non si sa esattamente che cosa sia successo.\n\nInfine i segnali economici. Il conto online è vuoto: per prevenire, conviene attivare gli avvisi sulle transazioni, che mandano un messaggio quando succede qualcosa di insolito. Oppure chiamano dei negozi per il mancato pagamento di merci spedite: gli hacker hanno violato uno dei vostri account, fatto un acquisto e fatto spedire la merce altrove. La prima cosa da fare è cambiare nomi utente e password, poi chiamare le forze dell'ordine, valutare un'azione legale e iniziare a monitorare il proprio credito.\n\nIn agenzia, però, c'è una regola in più, che l'ACN mette al primo posto: in caso di anomalie avvisate subito il personale di riferimento e non cercate di risolvere da soli. In caso di malware o ransomware spegnete il dispositivo e scollegatelo dalla rete, cambiate subito le password degli account compromessi, anche se è solo un sospetto, e se sono coinvolti dati di clienti o fornitori informate il responsabile della protezione dei dati o della cybersicurezza, perché potrebbe essere necessaria una notifica alle autorità nei tempi previsti, come le 72 ore del GDPR che abbiamo visto nella prima lezione.\n\nConcludiamo con una verifica e un caso pratico molto realistico, quello di una casella di posta violata usata per inviare ai clienti un IBAN falso.",
+      "sources": [
+        {
+          "title": "ACN, Guida alla cybersicurezza aziendale per i dipendenti",
+          "url": "https://www.acn.gov.it/portale/documents/d/guest/indicazioni-dipendenti-pmi"
+        },
+        {
+          "title": "ACN d'intesa con il Garante Privacy, Linee guida Funzioni crittografiche - Conservazione delle password (dicembre 2023)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/ACN-GPDP+Linee+Guida+Conservazione+Password.pdf/79535ac6-3e6d-4bcf-600f-220d9eddb6e6?version=1.1"
+        },
+        {
+          "title": "Garante Privacy, Misure di sicurezza",
+          "url": "https://www.garanteprivacy.it/misure-di-sicurezza"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Nome del ricercatore: la fonte scrive 'Ferdinando Corbató'; usato 'Fernando Corbató', grafia corrente del nome. Mantenuta l'affermazione storica della fonte (non verificata su fonte ufficiale).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'nome utente univoco se non impossibile' tra gli esempi di password sicure; riformulata come 'nome utente unico, difficile se non impossibile da indovinare'.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: costruire una formula partendo da stringhe generate e modificarne la parte finale su siti diversi. Segnalato che l'ACN raccomanda invece password diverse per ogni account e un password manager.",
+          "source_ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole ACN sulle credenziali: password robuste, cambio al primo accesso e se compromesse, niente dati personali, niente riuso né condivisione, password manager da fonti attendibili, MFA con i tre tipi di fattore e le forme comuni.",
+          "source_ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conservazione delle password da parte di chi gestisce i sistemi: password hashing invece che in chiaro (linee guida ACN d'intesa con il Garante, dicembre 2023).",
+          "source_ref": "ACN-Garante, Linee guida Funzioni crittografiche - Conservazione delle password"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Comportamento in caso di anomalie in azienda: avvisare il referente, isolare il dispositivo, cambiare le password, coinvolgere il responsabile protezione dati per l'eventuale notifica.",
+          "source_ref": "ACN, Guida alla cybersicurezza aziendale per i dipendenti"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: in caso di ransomware 'accedere a siti che potrebbero aiutare a recuperare i file'. Riferimento da indicare (nessun sito ufficiale verificato da citare).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi dal lavoro in agenzia, verifica sul riuso delle password e caso pratico su casella di posta violata con IBAN falso.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Trascrizione del video 'sicurezza delle password' non disponibile: la lezione si basa sul PDF corrispondente.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

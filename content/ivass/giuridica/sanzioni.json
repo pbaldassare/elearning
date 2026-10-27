@@ -1,0 +1,1862 @@
+{
+  "module": "Area giuridica",
+  "topic": "Sanzioni",
+  "topic_order": 4,
+  "scope": "core",
+  "source_minutes": 78,
+  "lessons": [
+    {
+      "title": "I principi del sistema sanzionatorio",
+      "source_files": [
+        "corso totale/Area Giuridica/Le sanzioni.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Sanzioni/Le sanzioni prima parte.pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Sanzioni",
+          "title": "I principi del sistema sanzionatorio",
+          "goals": [
+            "Capire perché esistono le sanzioni nel settore assicurativo e a che cosa servono",
+            "Conoscere i principi che guidano l'IVASS quando sanziona",
+            "Sapere su quali materie si concentrano gli interventi sanzionatori"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da dove nasce l'apparato sanzionatorio",
+          "key": "Già la legge delega n. 229/2003 (art. 4) chiedeva di riformulare l'apparato sanzionatorio alla luce dei principi generali, affiancando alle sanzioni amministrative pecuniarie per imprese e operatori specifiche sanzioni penali.",
+          "body": "Il Codice delle assicurazioni private (D.Lgs. 209/2005, CAP) dedica alle sanzioni il Titolo XVIII. Il testo è stato riscritto in profondità nel 2018, con il recepimento della direttiva sulla distribuzione assicurativa (IDD), e poi aggiornato più volte fino al 2026.",
+          "ref": "L. 229/2003, art. 4; CAP, Titolo XVIII"
+        },
+        {
+          "layout": "compare",
+          "title": "Tre sistemi sanzionatori",
+          "cols": [
+            {
+              "title": "Nel disegno originario del CAP",
+              "items": [
+                "Sanzioni amministrative pecuniarie",
+                "Sanzioni penali",
+                "Sanzioni disciplinari: un terzo sistema, accanto ai primi due",
+                "Con il passaggio da ISVAP a IVASS e i Regolamenti IVASS n. 1 e n. 2 del 2013, le sanzioni diventano parte di un più ampio sistema di presìdi, che vuole educare e orientare il mercato"
+              ]
+            },
+            {
+              "title": "Oggi",
+              "items": [
+                "Restano le sanzioni penali per abusivismo e ostacolo alla vigilanza",
+                "Per gli intermediari, richiamo, censura, sanzione pecuniaria e radiazione sono riunite in un unico elenco (art. 324 CAP)",
+                "Il sistema disciplinare in senso stretto resta per i periti assicurativi (artt. 329-331)",
+                "La procedura è regolata dal Reg. IVASS n. 39/2018, per le violazioni commesse dal 1° ottobre 2018"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I principi della funzione sanzionatoria",
+          "items": [
+            {
+              "text": "Effettività dei presìdi che tutelano il buon funzionamento del mercato e tutti gli interessi coinvolti.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Proporzionalità della sanzione rispetto alla gravità dell'illecito.",
+              "ref": "Materiale originale; Reg. 39/2018, art. 3"
+            },
+            {
+              "text": "Giusto procedimento: contraddittorio, motivazione, separazione tra chi istruisce e chi decide.",
+              "ref": "Materiale originale"
+            },
+            {
+              "text": "Educazione dei soggetti vigilati: punire, ma soprattutto correggere le condotte, nell'interesse generale del mercato.",
+              "ref": "Materiale originale"
+            },
+            {
+              "text": "Oggi il Reg. 39/2018 elenca anche dissuasività e prevenzione, oggettività, trasparenza e contraddittorio.",
+              "ref": "Reg. 39/2018, art. 3, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Correggere, non solo punire",
+          "key": "Il potere sanzionatorio non deve esasperare la propensione a punire: una sanzione non misurata potrebbe mettere a rischio la stabilità di imprese e intermediari, a danno degli stessi clienti.",
+          "body": "La sanzione serve a ripristinare il rispetto delle regole, a garanzia dello sviluppo dell'intero mercato. Il Reg. 39/2018 lo dice così: la sanzione ha carattere afflittivo verso il responsabile, correttivo della lesione dell'interesse protetto e serve a prevenire nuove violazioni, sia da parte di chi è sanzionato sia da parte degli altri.",
+          "ref": "Materiale originale; Reg. 39/2018, art. 3, c. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Il giusto procedimento",
+          "left": {
+            "title": "Legge 262/2005",
+            "items": [
+              "L'art. 26 attribuisce espressamente all'IVASS il potere di adottare i provvedimenti sanzionatori",
+              "L'art. 24, commi 1, 2 e 3, richiede: facoltà di denuncia di parte, motivazione degli atti, distinzione tra funzioni istruttorie e decisorie, e gli altri principi del giusto procedimento"
+            ],
+            "ref": "L. 262/2005, artt. 24 e 26 (materiale originale)"
+          },
+          "right": {
+            "title": "CAP oggi",
+            "items": [
+              "Contraddittorio",
+              "Conoscenza degli atti istruttori",
+              "Verbalizzazione",
+              "Distinzione tra funzioni istruttorie e funzioni decisorie"
+            ],
+            "ref": "CAP, artt. 311-septies, c. 4 e 324-octies, c. 6"
+          },
+          "note": "Chi raccoglie le prove e propone la sanzione non è chi la decide: è la garanzia principale per l'intermediario sotto procedimento.",
+          "noteRef": "CAP, art. 324-octies"
+        },
+        {
+          "layout": "table",
+          "title": "I principi della Legge 689/1981",
+          "lead": "La legge generale sulle sanzioni amministrative pecuniarie, citata dal materiale originale.",
+          "head": [
+            "Principio",
+            "In parole semplici"
+          ],
+          "rows": [
+            [
+              "Legalità",
+              "Si è puniti solo per un fatto che una legge in vigore qualificava come illecito al momento in cui è stato commesso."
+            ],
+            [
+              "Colpevolezza",
+              "Serve un comportamento consapevole e volontario, almeno colposo."
+            ],
+            [
+              "Concorsualità",
+              "Se più persone concorrono nella violazione, ciascuna ne risponde."
+            ],
+            [
+              "Non trasmissibilità",
+              "L'obbligo di pagare la sanzione è personale e non passa agli eredi."
+            ],
+            [
+              "Cumulo giuridico",
+              "Con una sola azione che viola più norme non si sommano tutte le sanzioni: si applica la più grave, aumentata."
+            ]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Come si misura la sanzione: art. 11 L. 689/1981",
+          "key": "Fra il minimo e il massimo di legge si guarda alla gravità della violazione, a quanto ha fatto l'autore per eliminarne o attenuarne le conseguenze, alla sua personalità e alle sue condizioni economiche.",
+          "body": "Aggiornamento: per le sanzioni del CAP l'art. 328, c. 4-bis esclude oggi l'applicazione dell'art. 11 (e di altri articoli) della L. 689/1981. Valgono i criteri propri del Codice: artt. 311-quinquies e 324-sexies (gravità e durata, grado di responsabilità, capacità finanziaria, vantaggio ottenuto, danni a terzi, cooperazione, precedenti, misure adottate dopo).",
+          "ref": "L. 689/1981, art. 11; CAP, artt. 328, c. 4-bis, 324-sexies"
+        },
+        {
+          "layout": "compare",
+          "title": "Quando l'IVASS contesta",
+          "cols": [
+            {
+              "title": "Testo previgente (art. 326 CAP)",
+              "items": [
+                "Contestazione entro 120 giorni dall'accertamento, 180 per chi risiede all'estero",
+                "Si procedeva sempre, salvo i casi di assoluta mancanza di pregiudizio per la vigilanza o per gli interessi degli assicurati e degli aventi diritto"
+              ]
+            },
+            {
+              "title": "Testo vigente",
+              "items": [
+                "Stessi termini: 120 giorni, 180 per i residenti all'estero (artt. 311-septies e 324-octies)",
+                "L'art. 326 è abrogato dal 2018",
+                "Al suo posto il principio di rilevanza: si sanziona quando l'infrazione ha carattere rilevante (artt. 311-bis e 324-ter)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando una violazione è rilevante",
+          "items": [
+            {
+              "text": "Può creare rischi legali o reputazionali significativi."
+            },
+            {
+              "text": "È diffusa o sistematica, anche rispetto alla rete territoriale o all'operatività."
+            },
+            {
+              "text": "Ripete comportamenti già oggetto di richiami o indicazioni dell'IVASS."
+            },
+            {
+              "text": "Dipende da presìdi organizzativi e di controllo inadeguati."
+            },
+            {
+              "text": "Incide sulla tutela degli assicurati, sulla correttezza verso i clienti o sulla sana e prudente gestione."
+            },
+            {
+              "text": "Riguarda molte infrazioni, un ritardo lungo o un danno rilevante a terzi."
+            },
+            {
+              "text": "Ha pregiudicato l'attività di vigilanza.",
+              "ref": "Reg. 39/2018, art. 11"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Disciplinare e pecuniaria: non sempre insieme",
+          "key": "Alla sanzione disciplinare può affiancarsi quella pecuniaria, ma non è scontato: una violazione può rilevare sul piano disciplinare senza il «pregiudizio» che giustificava la sanzione pecuniaria (art. 326 CAP).",
+          "body": "Così era nel testo originario. Oggi, per gli intermediari, l'art. 324 prevede un unico elenco di sanzioni: richiamo, censura, sanzione pecuniaria, radiazione. L'IVASS sceglie la sanzione adatta al caso, secondo i criteri dell'art. 324-sexies.",
+          "ref": "Materiale originale; CAP, artt. 324 e 324-sexies"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Esercizio del potere sanzionatorio",
+          "title": "Dove si concentrano le sanzioni",
+          "lead": "Quadro descritto nel materiale originale del corso.",
+          "facts": [
+            {
+              "label": "RC auto",
+              "text": "La maggior parte degli interventi sanzionatori."
+            },
+            {
+              "label": "Comunicazioni",
+              "text": "Violazione degli obblighi di comunicazione all'IVASS a fini di vigilanza."
+            },
+            {
+              "label": "Gestione",
+              "text": "Violazioni delle norme sulla gestione dell'attività d'impresa."
+            },
+            {
+              "label": "Clienti",
+              "text": "Regole di comportamento nei rapporti con l'utenza."
+            },
+            {
+              "label": "Intermediazione",
+              "text": "Violazioni delle norme sull'attività di intermediazione: sanzioni in forte calo, per numero di ordinanze e per importi."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Durante un'ispezione presso un'agenzia emerge che, per due mesi, alcune polizze sono state vendute senza consegnare la documentazione precontrattuale. Il titolare se ne è accorto da solo, ha corretto la procedura e ha avvisato i clienti.",
+          "questions": [
+            "Su quali elementi l'IVASS valuterà se la violazione è rilevante?",
+            "Il comportamento del titolare dopo l'errore conta?"
+          ],
+          "solution": "L'IVASS guarda al numero dei casi, alla durata, ai presìdi interni e all'impatto sui clienti (Reg. 39/2018, art. 11). La correzione spontanea e la collaborazione contano: tra i criteri per decidere la sanzione ci sono le misure adottate dopo la violazione e il livello di cooperazione con l'IVASS (art. 324-sexies CAP). La sanzione resta possibile, ma sarà proporzionata."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale dei seguenti NON è uno dei principi della L. 689/1981 elencati nel corso?",
+          "options": [
+            "Principio di legalità",
+            "Principio di colpevolezza",
+            "Trasmissibilità dell'obbligazione agli eredi",
+            "Cumulo giuridico"
+          ],
+          "answer": 2,
+          "explanation": "Vale il principio opposto: l'obbligazione di pagare la sanzione è personale e non si trasmette."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quanto tempo dall'accertamento l'IVASS deve contestare gli addebiti a un soggetto residente in Italia?",
+          "options": [
+            "60 giorni",
+            "90 giorni",
+            "120 giorni",
+            "180 giorni"
+          ],
+          "answer": 2,
+          "explanation": "120 giorni per chi risiede in Italia, 180 per chi risiede all'estero (CAP, artt. 311-septies e 324-octies)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "sistemi: pecuniario, penale, disciplinare. Per gli intermediari oggi sono riuniti nell'art. 324 CAP."
+            },
+            {
+              "value": "Correzione",
+              "text": "La sanzione punisce, ma prima di tutto ripristina il rispetto delle regole."
+            },
+            {
+              "value": "Giusto procedimento",
+              "text": "Contraddittorio, accesso agli atti, verbalizzazione, separazione tra istruttoria e decisione."
+            },
+            {
+              "value": "120/180",
+              "text": "giorni per contestare, da quando la violazione è accertata."
+            },
+            {
+              "value": "Rilevanza",
+              "text": "Si sanzionano le infrazioni rilevanti (artt. 311-bis e 324-ter CAP)."
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo l'impianto generale delle sanzioni nel settore assicurativo: da dove nasce, a che cosa serve e quali principi deve rispettare l'IVASS quando sanziona un'impresa o un intermediario. Sono concetti che tornano in tutte le lezioni successive, quindi vale la pena fissarli bene.\n\nPartiamo dall'origine. L'importanza delle sanzioni era già chiara nella legge delega numero 229 del 2003, quella da cui è nato il Codice delle assicurazioni private. All'articolo 4 chiedeva al legislatore di riformulare l'apparato sanzionatorio alla luce dei principi generali, affiancando alle sanzioni amministrative pecuniarie per imprese e operatori anche specifiche sanzioni penali. Il Codice, cioè il decreto legislativo 209 del 2005, ha raccolto le sanzioni nel Titolo diciottesimo. Questo Titolo è stato riscritto in profondità nel 2018, con il decreto legislativo 68 che ha recepito la direttiva europea sulla distribuzione assicurativa, la IDD. In questo corso facciamo riferimento al testo coordinato pubblicato dall'IVASS, aggiornato a giugno 2026.\n\nNel disegno originario il Codice affiancava alle sanzioni pecuniarie e penali un terzo sistema, di tipo disciplinare: richiamo, censura e radiazione per gli iscritti al Registro. Con la trasformazione dell'ISVAP in IVASS e con i Regolamenti IVASS numero 1 e numero 2 del 2013 si è affermata una tendenza precisa: le sanzioni sono uno strumento dentro un sistema più ampio di presìdi, pensato per educare il mercato e orientarlo verso comportamenti corretti e prudenti. Che cosa è cambiato da allora? Due cose. Per gli intermediari la distinzione tra sanzioni pecuniarie e disciplinari è stata superata: l'articolo 324 del Codice mette in un unico elenco richiamo, censura, sanzione pecuniaria e radiazione. Il sistema disciplinare in senso stretto rimane per i periti assicurativi. Inoltre i Regolamenti 1 e 2 del 2013 valgono ormai solo per le violazioni commesse prima del primo ottobre 2018. Per tutte le altre si applica il Regolamento IVASS numero 39 del 2018.\n\nQuali principi guidano la funzione sanzionatoria? Il primo è l'effettività: le regole poste a tutela del buon funzionamento del mercato devono funzionare davvero, e proteggere tutti gli interessi coinvolti. Il secondo è la proporzionalità: la sanzione deve essere commisurata alla gravità del fatto. Il terzo è il giusto procedimento, su cui torniamo tra poco. Il quarto è l'educazione dei soggetti vigilati: bisogna bilanciare l'esigenza di reprimere e punire con quella di correggere i comportamenti scorretti, nell'interesse generale del mercato. Il Regolamento 39 del 2018 aggiunge a questo elenco la dissuasività e la prevenzione, cioè scoraggiare la violazione e la sua ripetizione, l'oggettività, per garantire valutazioni omogenee tra casi simili, la trasparenza verso gli interessati e il contraddittorio.\n\nC'è un punto che il materiale del corso sottolinea con forza. Il potere sanzionatorio non deve esasperare la voglia di punire. Una sanzione sproporzionata potrebbe mettere in difficoltà la stabilità stessa di un'impresa o di un intermediario, e alla fine il danno ricadrebbe sui clienti. La sanzione deve invece valorizzare la propria funzione correttiva: non serve solo a reprimere, serve soprattutto a ripristinare il rispetto delle regole, a garanzia di un migliore sviluppo dell'intero mercato. Il Regolamento 39 lo formula così: la sanzione è afflittiva verso il responsabile, corregge la lesione dell'interesse protetto e ha un effetto di prevenzione speciale, verso chi è stato sanzionato, e generale, verso tutti gli altri operatori.\n\nVeniamo al giusto procedimento. La legge 262 del 2005, la legge sulla tutela del risparmio, all'articolo 26 ha attribuito espressamente all'Istituto di vigilanza il potere di adottare i provvedimenti sanzionatori. All'articolo 24, commi 1, 2 e 3, ha chiesto di rispettare alcuni principi: la facoltà di denuncia di parte, la motivazione degli atti e, soprattutto, la distinzione tra chi svolge l'istruttoria e chi decide la sanzione, insieme agli altri principi del giusto procedimento amministrativo. Oggi il Codice li ripete in modo esplicito: il procedimento sanzionatorio è retto dai principi del contraddittorio, della conoscenza degli atti istruttori, della verbalizzazione e della distinzione tra funzioni istruttorie e decisorie. Per l'intermediario questo significa una cosa molto concreta: chi raccoglie le prove e propone la sanzione non è la stessa persona che la decide.\n\nIl materiale originale richiama poi la legge 689 del 1981, la legge generale sulle sanzioni amministrative. Tra i suoi principi ci sono la legalità, la colpevolezza, la concorsualità, la non trasmissibilità dell'obbligazione e il cumulo giuridico. Detto in parole semplici: si può essere sanzionati solo per un fatto che la legge in vigore in quel momento qualificava come illecito; serve un comportamento consapevole e volontario, almeno colposo; se più persone concorrono nella stessa violazione, ognuna ne risponde; l'obbligo di pagare è personale e non passa agli eredi; e se con una sola azione si violano più norme, le sanzioni non si sommano tutte, ma si applica la più grave, aumentata.\n\nL'articolo 11 della stessa legge indica come scegliere l'importo tra il minimo e il massimo: si considera la gravità della violazione, l'attività svolta dall'autore per eliminarne o attenuarne le conseguenze, la sua personalità e le sue condizioni economiche. Qui serve un aggiornamento importante. Dal 2018 l'articolo 328, comma 4-bis, del Codice esclude per le sanzioni del Codice l'applicazione di alcuni articoli della legge 689, tra cui proprio l'articolo 11. Al suo posto valgono i criteri del Codice stesso, agli articoli 311-quinquies per le imprese e 324-sexies per la distribuzione. Sono criteri più dettagliati: gravità e durata della violazione, grado di responsabilità, capacità finanziaria del responsabile, vantaggio ottenuto, danni causati a terzi, livello di cooperazione con l'IVASS, precedenti violazioni e misure adottate dopo per evitare che il fatto si ripeta.\n\nIl materiale originale ricordava anche la regola dell'articolo 326: l'IVASS contestava gli addebiti entro 120 giorni dall'accertamento, 180 per chi risiede all'estero, salvo i casi di assoluta mancanza di pregiudizio per la vigilanza o per gli interessi degli assicurati. L'articolo 326 è stato abrogato nel 2018. I termini di 120 e 180 giorni sono rimasti, oggi negli articoli 311-septies e 324-octies. Al posto della clausola sul pregiudizio è arrivato il principio di rilevanza: l'IVASS sanziona le infrazioni che hanno carattere rilevante. Il Regolamento 39, all'articolo 11, indica gli elementi da cui si capisce la rilevanza. Basta anche uno solo: il rischio legale o reputazionale significativo; il carattere diffuso o sistematico; la mancata osservanza di richiami o indicazioni dell'Autorità; presìdi organizzativi e di controllo inadeguati; l'impatto sulla tutela degli assicurati, sulla correttezza verso i clienti o sulla sana e prudente gestione; il numero delle infrazioni, la durata del ritardo o il danno a terzi; il pregiudizio arrecato alla vigilanza.\n\nNel testo originario la sanzione disciplinare poteva affiancarsi a quella pecuniaria, ma non era scontato. Una violazione poteva avere rilievo disciplinare anche senza il pregiudizio che, secondo l'articolo 326, giustificava la sanzione pecuniaria. Oggi per gli intermediari la scelta avviene all'interno di un unico elenco: l'IVASS valuta il caso con i criteri dell'articolo 324-sexies e decide se basta un richiamo, se serve una censura, una sanzione pecuniaria o, nei casi più gravi, la radiazione.\n\nInfine, dove si concentrano le sanzioni? Secondo il materiale del corso la gran parte degli interventi riguarda la RC auto. Negli ultimi anni gli altri illeciti hanno riguardato soprattutto la violazione degli obblighi di comunicazione all'IVASS a fini di vigilanza, le norme sulla gestione dell'attività d'impresa, le regole di comportamento nei rapporti con i clienti e le norme sull'attività di intermediazione. Proprio per l'intermediazione il materiale segnalava un forte calo dell'attività sanzionatoria, sia nel numero di ordinanze di ingiunzione sia negli importi. È una fotografia del periodo in cui il materiale è stato scritto: per dati aggiornati si possono consultare le relazioni annuali dell'IVASS.\n\nFacciamo un esempio. Durante un'ispezione emerge che un'agenzia, per due mesi, ha venduto polizze senza consegnare la documentazione precontrattuale. Il titolare se ne era già accorto, aveva corretto la procedura e informato i clienti. L'IVASS valuterà la rilevanza guardando al numero dei casi, alla durata, ai presìdi interni e all'effetto sui clienti. Il comportamento successivo del titolare conta: le misure adottate dopo la violazione e la cooperazione con l'Istituto sono tra i criteri per decidere la sanzione. Non cancellano la violazione, ma rendono la risposta più proporzionata.\n\nRicapitolando: il sistema nasce per correggere oltre che per punire; segue i principi del giusto procedimento; l'IVASS contesta entro 120 giorni dall'accertamento, 180 per chi è all'estero; e oggi sanziona le infrazioni rilevanti, scegliendo la sanzione con criteri fissati dal Codice.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026 – Titolo XVIII",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 39 del 2 agosto 2018 (procedura sanzionatoria), testo modificato dai Provv. IVASS 86/2019 e 90/2019",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n39/Regolamento_IVASS_n._39_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Inquadramento: Titolo XVIII del CAP riscritto dal D.Lgs. 68/2018 (recepimento IDD) e aggiornato fino al 2026.",
+          "source_ref": "CAP testo coordinato IVASS, Titolo XVIII, note"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: terzo sistema disciplinare e Reg. IVASS 1 e 2/2013. Aggiornamento: per gli intermediari le sanzioni sono riunite nell'art. 324 CAP; il disciplinare resta per i periti (artt. 329-331); i Reg. 1 e 2/2013 valgono solo per violazioni anteriori al 1° ottobre 2018, poi Reg. IVASS 39/2018.",
+          "source_ref": "CAP, artt. 324, 329-331 e nota all'art. 311-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Principi del Reg. 39/2018 (dissuasività, proporzionalità, oggettività, trasparenza, contraddittorio) e funzione afflittiva, correttiva e preventiva della sanzione.",
+          "source_ref": "Reg. 39/2018, art. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Principi del procedimento nel CAP vigente: contraddittorio, conoscenza degli atti, verbalizzazione, distinzione istruttoria/decisione.",
+          "source_ref": "CAP, artt. 311-septies, c. 4; 324-octies, c. 6"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: L. 262/2005 artt. 24 e 26. Riferimento normativo da indicare: non verificato direttamente il testo della L. 262/2005 su fonte ufficiale.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 11 L. 689/1981. Aggiornamento: l'art. 328, c. 4-bis CAP ne esclude l'applicazione alle sanzioni del Codice; valgono i criteri degli artt. 311-quinquies e 324-sexies.",
+          "source_ref": "CAP, artt. 328, c. 4-bis; 311-quinquies; 324-sexies"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: contestazione entro 120/180 giorni salvo assoluta mancanza di pregiudizio (art. 326). Aggiornamento: art. 326 abrogato dal D.Lgs. 68/2018; termini confermati dagli artt. 311-septies e 324-octies; introdotto il principio di rilevanza (artt. 311-bis, 324-ter; Reg. 39/2018, art. 11).",
+          "source_ref": "CAP, artt. 311-bis, 311-septies, 324-ter, 324-octies"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: congiunta irrogazione disciplinare/pecuniaria non scontata (art. 326). Superata: oggi elenco unico dell'art. 324 per gli intermediari.",
+          "source_ref": "CAP, art. 324"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: prevalenza della RC auto e flessione delle sanzioni sull'intermediazione. Possibile aggiornamento: dati riferiti al periodo del materiale originale, da confrontare con le relazioni annuali IVASS (non verificati).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione in parole semplici dei principi della L. 689/1981, caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Abusivismo, ostacolo alla vigilanza e illeciti delle imprese",
+      "source_files": [
+        "corso totale/Area Giuridica/Le sanzioni.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Sanzioni/Le sanzioni seconda parte.pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Sanzioni",
+          "title": "Abusivismo, ostacolo alla vigilanza e illeciti delle imprese",
+          "goals": [
+            "Riconoscere i reati di esercizio abusivo e di ostacolo alla vigilanza",
+            "Sapere chi può usare parole come «assicurazione», «broker» o «agente»",
+            "Capire come sono sanzionati gli illeciti amministrativi delle imprese, in particolare nella RC auto"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Esercizio abusivo: le sanzioni oggi",
+          "lead": "L'art. 305 CAP prevede sanzioni penali (reclusione e multa) per chi opera senza titolo.",
+          "head": [
+            "Condotta",
+            "Sanzione",
+            "Norma"
+          ],
+          "rows": [
+            [
+              "Impresa · Attività assicurativa o riassicurativa senza autorizzazione",
+              "Reclusione da 2 a 4 anni e multa da 20.000 a 200.000 euro",
+              "Art. 305, c. 1"
+            ],
+            [
+              "Intermediario · Intermediazione senza iscrizione al Registro (RUI)",
+              "Reclusione da 6 mesi a 2 anni e multa da 10.000 a 100.000 euro",
+              "Art. 305, c. 2"
+            ],
+            [
+              "Perito · Attività peritale senza iscrizione al ruolo",
+              "Pene dell'art. 348 c.p. (esercizio abusivo di una professione)",
+              "Art. 305, c. 5"
+            ],
+            [
+              "Impresa · Si avvale di intermediari non iscritti al RUI",
+              "Sanzione amministrativa da 5.000 euro a 5 milioni, oppure 5% del fatturato se superiore",
+              "Art. 324-bis, c. 3"
+            ]
+          ],
+          "ref": "CAP, artt. 305 e 324-bis (testo vigente)"
+        },
+        {
+          "layout": "concept",
+          "title": "La scelta della legge delega",
+          "key": "La legge 229/2003 voleva un presidio penale non solo per l'esercizio abusivo dell'attività assicurativa, ma anche per il rifiuto di accesso opposto ai funzionari di vigilanza e per la truffa assicurativa.",
+          "body": "Se c'è fondato sospetto che una società operi abusivamente, l'IVASS chiede al tribunale i provvedimenti dell'art. 2409 c.c. (controllo giudiziario) oppure denuncia i fatti al pubblico ministero.",
+          "ref": "L. 229/2003, art. 4; CAP, art. 305, c. 3"
+        },
+        {
+          "layout": "split",
+          "title": "Ostacolare la vigilanza: art. 306 e art. 308-bis",
+          "left": {
+            "title": "Reato (art. 306)",
+            "items": [
+              "Rifiutare l'accesso ai locali o non esibire i documenti chiesti dai funzionari IVASS che indagano su un esercizio abusivo",
+              "Reclusione fino a 2 anni e multa da 10.000 a 100.000 euro",
+              "Si applica fuori dai casi dell'art. 2638 c.c."
+            ],
+            "ref": "CAP, art. 306, c. 1"
+          },
+          "right": {
+            "title": "Illecito amministrativo (art. 308-bis)",
+            "items": [
+              "Non rispondere nei termini alle richieste IVASS o ritardarne le funzioni",
+              "Prima: art. 306, c. 2, da 10.000 a 100.000 euro",
+              "Oggi: persona fisica da 5.000 euro a 5 milioni; persona giuridica da 30.000 euro al 10% del fatturato"
+            ],
+            "ref": "CAP, art. 308-bis"
+          },
+          "note": "Per l'intermediario: una richiesta dell'IVASS ha una scadenza, e ignorarla è già un illecito, a prescindere da ciò che è stato chiesto.",
+          "noteRef": "CAP, art. 308-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "L'art. 2638 del codice civile",
+          "key": "Reclusione da uno a quattro anni per amministratori, direttori generali, dirigenti preposti ai documenti contabili, sindaci e liquidatori che ostacolano la vigilanza.",
+          "body": "Il reato si commette esponendo fatti non veri sulla situazione economica, patrimoniale o finanziaria, nascondendo con mezzi fraudolenti fatti che andavano comunicati, oppure ostacolando consapevolmente le funzioni di vigilanza in qualsiasi forma, anche omettendo le comunicazioni dovute.",
+          "ref": "Art. 2638 c.c. (materiale originale)"
+        },
+        {
+          "layout": "split",
+          "title": "Abuso di denominazione: art. 308",
+          "left": {
+            "title": "Parole riservate alle imprese autorizzate",
+            "items": [
+              "Assicurazione, riassicurazione",
+              "Impresa o compagnia di assicurazione o riassicurazione",
+              "Mutua assicuratrice",
+              "Altre parole, anche straniere, che possono ingannare sull'autorizzazione",
+              "Sanzione: persona fisica da 5.000 euro a 5 milioni; persona giuridica da 30.000 euro al 10% del fatturato"
+            ],
+            "ref": "Art. 308, c. 1 e 4"
+          },
+          "right": {
+            "title": "Parole riservate agli iscritti al RUI o al ruolo periti",
+            "items": [
+              "Intermediario, agente, broker, mediatore di assicurazione",
+              "Produttore diretto, intermediario a titolo accessorio",
+              "Perito di assicurazione",
+              "Sanzione: persona fisica da 1.000 a 700.000 euro; persona giuridica da 5.000 euro a 5 milioni o 5% del fatturato"
+            ],
+            "ref": "Art. 308, c. 2 e 4-bis"
+          },
+          "note": "Il divieto vale per la denominazione sociale e per qualsiasi comunicazione al pubblico, sito e social compresi. Prima del 2018 la sanzione era da 2.000 a 20.000 euro.",
+          "noteRef": "CAP, art. 308 e nota 1058"
+        },
+        {
+          "layout": "concept",
+          "title": "Gli illeciti amministrativi: la tecnica del rinvio",
+          "key": "Gli illeciti abusivi descrivono la condotta nel dettaglio. Gli illeciti amministrativi, invece, rinviano per lo più ad altre norme del Codice: chi le viola subisce una certa sanzione.",
+          "body": "Oggi questo metodo è ancora più marcato. L'art. 310 elenca decine di articoli del CAP la cui violazione è punita da 30.000 euro al 10% del fatturato. Se il vantaggio ottenuto supera il massimo, la sanzione può arrivare al doppio del vantaggio.",
+          "ref": "Materiale originale; CAP, art. 310, c. 1 e 2"
+        },
+        {
+          "layout": "table",
+          "title": "Le vecchie norme sulla RC auto e dove sono oggi",
+          "lead": "Il Capo III del Titolo XVIII (artt. 313-317) è stato abrogato dal D.Lgs. 68/2018.",
+          "head": [
+            "Norma",
+            "Cosa puniva",
+            "Oggi"
+          ],
+          "rows": [
+            [
+              "313 · Trasparenza",
+              "Obblighi di trasparenza e pubblicità delle condizioni di premio e contratto",
+              "Abrogato"
+            ],
+            [
+              "314 · Obbligo a contrarre",
+              "Rifiuto o elusione dell'obbligo a contrarre (art. 132); divieto di abbinamento (art. 170)",
+              "Art. 310-bis per l'obbligo a contrarre; art. 170 tra le norme sulla distribuzione (artt. 324 e 324-bis)"
+            ],
+            [
+              "315 · Liquidazione",
+              "Ritardo nell'offerta di risarcimento, graduato in base al ritardo",
+              "Art. 310, c. 1, lett. c (artt. 148, 149, 150), con accertamento unitario (art. 311-quater)"
+            ],
+            [
+              "316 · Comunicazioni",
+              "Omesse comunicazioni periodiche RC auto (art. 135)",
+              "Art. 310-quater: unica sanzione da 10.000 a 100.000 euro per semestre"
+            ],
+            [
+              "317 · Altre violazioni",
+              "Mancata offerta nei termini, bonus/malus, attestato di rischio, accesso agli atti, compensi professionali",
+              "Art. 310, c. 1, lett. b e c (es. artt. 133, 134, 146)"
+            ]
+          ],
+          "ref": "CAP, artt. 310-310-quater e note 1090"
+        },
+        {
+          "layout": "timeline",
+          "title": "Com'era graduata la sanzione per il ritardo nell'offerta",
+          "items": [
+            {
+              "value": "30 giorni",
+              "text": "di ritardo: da 300 a 900 euro",
+              "ref": "ex art. 315, c. 1, lett. a"
+            },
+            {
+              "value": "60 giorni",
+              "text": "di ritardo: da 900 a 2.700 euro",
+              "ref": "ex art. 315, c. 1, lett. b"
+            },
+            {
+              "value": "90 giorni",
+              "text": "di ritardo: da 2.700 a 5.400 euro",
+              "ref": "ex art. 315, c. 1, lett. c"
+            },
+            {
+              "value": "120 giorni",
+              "text": "di ritardo: da 5.400 a 10.800 euro. Oltre, fino a 30.000 euro per danni a cose e 60.000 per danni a persone",
+              "ref": "ex art. 315, c. 1-2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Obbligo a contrarre ed elusione tariffaria",
+          "key": "L'elusione tariffaria consiste nel proporre a categorie di clienti sgraditi tariffe «repulsive», così alte da scoraggiarli dal comprare. È un modo per eludere l'obbligo a contrarre.",
+          "body": "Oggi l'art. 310-bis punisce il rifiuto o l'elusione dell'obbligo a contrarre RC auto (art. 132) con una sanzione da 2.500 a 15.000 euro. Se la condotta riguarda determinate zone del territorio o singole categorie di assicurati, la sanzione va da 1 a 5 milioni di euro: la stessa forte aggravante prevista dal vecchio art. 314.",
+          "ref": "Materiale originale; CAP, art. 310-bis"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Imprese: il quadro attuale",
+          "title": "Gli strumenti dell'IVASS verso le imprese",
+          "lead": "Le regole introdotte nel 2018 per le violazioni che non riguardano la distribuzione.",
+          "facts": [
+            {
+              "label": "Rilevanza",
+              "text": "Le sanzioni degli artt. 310, c. 1, 310-bis, c. 1 e 310-quater si applicano alle sole infrazioni rilevanti (art. 311-bis)."
+            },
+            {
+              "label": "Ordine",
+              "text": "In alternativa alla multa, l'IVASS può ordinare di eliminare le infrazioni entro un termine (art. 311-ter). Se l'ordine non è rispettato, la sanzione aumenta fino a un terzo."
+            },
+            {
+              "label": "Stessa indole",
+              "text": "Le violazioni ripetute della stessa indole (ad esempio sulla liquidazione dei sinistri) si accertano insieme e si contestano con un unico atto (art. 311-quater)."
+            },
+            {
+              "label": "Esponenti",
+              "text": "Anche amministratori, dirigenti e personale possono essere sanzionati, da 5.000 euro a 5 milioni, con possibile interdizione da 6 mesi a 3 anni (art. 311-sexies)."
+            },
+            {
+              "label": "Fatturato",
+              "text": "Se il fatturato non si può determinare, la sanzione va da 5.000 euro a 5 milioni (art. 325-bis)."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Marco non è iscritto al RUI. Apre una pagina social chiamata «Marco Broker Assicurazioni», raccoglie richieste di preventivo e fa sottoscrivere polizze di un'impresa che accetta i contratti senza verificare chi glieli porta.",
+          "questions": [
+            "Quali illeciti commette Marco?",
+            "E l'impresa?"
+          ],
+          "solution": "Marco svolge intermediazione senza iscrizione: è un reato punito con la reclusione da 6 mesi a 2 anni e la multa da 10.000 a 100.000 euro (art. 305, c. 2). Usa inoltre la parola «broker» senza esserne legittimato: sanzione amministrativa dell'art. 308, c. 2 e 4-bis. L'impresa che si avvale di un intermediario non iscritto è punita dall'art. 324-bis, c. 3, fino a 5 milioni o al 5% del fatturato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un intermediario non risponde entro il termine a una richiesta di documenti dell'IVASS. Che cosa rischia, secondo il testo vigente?",
+          "options": [
+            "Nulla, se poi risponde",
+            "Una sanzione amministrativa ai sensi dell'art. 308-bis",
+            "Solo un richiamo verbale",
+            "La reclusione fino a 4 anni"
+          ],
+          "answer": 1,
+          "explanation": "Non rispettare i termini delle richieste IVASS è un illecito amministrativo autonomo (art. 308-bis; prima art. 306, c. 2). Il reato dell'art. 306, c. 1 riguarda il rifiuto di accesso o di esibizione nelle indagini su un esercizio abusivo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è l'elusione tariffaria?",
+          "options": [
+            "Applicare sconti non autorizzati",
+            "Proporre tariffe «repulsive» a categorie di clienti sgraditi per scoraggiarli",
+            "Non comunicare la tariffa all'IVASS",
+            "Abbinare la RC auto ad altre polizze"
+          ],
+          "answer": 1,
+          "explanation": "È un modo per aggirare l'obbligo a contrarre RC auto. Se riguarda zone o categorie di assicurati, la sanzione va da 1 a 5 milioni (art. 310-bis, c. 2)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "305",
+              "text": "Esercizio abusivo: è un reato, sia per l'attività assicurativa sia per l'intermediazione senza iscrizione al RUI."
+            },
+            {
+              "value": "306 / 308-bis",
+              "text": "Rifiutare l'accesso è un reato; non rispettare i termini delle richieste IVASS è un illecito amministrativo."
+            },
+            {
+              "value": "308",
+              "text": "«Assicurazione», «broker», «agente» sono parole riservate a chi è autorizzato o iscritto."
+            },
+            {
+              "value": "310",
+              "text": "Illeciti delle imprese: da 30.000 euro al 10% del fatturato. Le vecchie norme RC auto (313-317) sono state abrogate."
+            },
+            {
+              "value": "1-5 mln",
+              "text": "Obbligo a contrarre eluso per zone o categorie di assicurati."
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo due gruppi di illeciti. Il primo riguarda chi opera senza averne titolo o ostacola la vigilanza: sono in gran parte reati. Il secondo riguarda gli illeciti amministrativi delle imprese di assicurazione, con un'attenzione particolare alla RC auto, dove storicamente si concentrano le sanzioni.\n\nPartiamo dall'abusivismo. L'articolo 305 del Codice prevede sanzioni penali, cioè reclusione e multa, per l'esercizio abusivo dell'attività assicurativa e riassicurativa e per l'esercizio abusivo dell'intermediazione. Le pene oggi in vigore sono queste. Chi svolge attività assicurativa o riassicurativa senza autorizzazione rischia la reclusione da due a quattro anni e la multa da 20.000 a 200.000 euro. Chi svolge intermediazione assicurativa o riassicurativa senza essere iscritto al Registro unico degli intermediari rischia la reclusione da sei mesi a due anni e la multa da 10.000 a 100.000 euro. Chi fa il perito assicurativo senza essere iscritto al ruolo è punito con le pene dell'articolo 348 del codice penale, cioè l'esercizio abusivo di una professione.\n\nIl materiale originale ricorda anche la sanzione amministrativa pecuniaria per le imprese che si avvalgono di intermediari non iscritti al RUI. Oggi questa regola è nell'articolo 324-bis, comma 3: la sanzione va da 5.000 euro a 5 milioni, oppure, se superiore, al 5 per cento del fatturato annuo. È un punto da tenere presente anche lato intermediario: l'impresa ha tutto l'interesse a verificare con attenzione l'iscrizione di chi le porta i contratti.\n\nPerché proprio il penale? Già la legge delega del 2003 lo aveva previsto: un presidio penale non solo per l'esercizio abusivo dell'attività assicurativa e riassicurativa, ma anche per il rifiuto di accesso opposto ai funzionari di vigilanza, agli uffici o ai documenti, anche quando l'attività è esercitata di fatto, e per la truffa assicurativa. Il Codice aggiunge uno strumento pratico: se c'è un fondato sospetto che una società operi abusivamente, l'IVASS chiede al tribunale i provvedimenti dell'articolo 2409 del codice civile, cioè il controllo giudiziario sulla gestione, oppure denuncia i fatti al pubblico ministero.\n\nVeniamo all'ostacolo alla vigilanza. L'articolo 306, comma 1, punisce chi, fuori dai casi dell'articolo 2638 del codice civile, ostacola la vigilanza rifiutando l'accesso ai locali o negando l'esibizione dei documenti ai funzionari IVASS incaricati di accertare un possibile esercizio abusivo. La pena è la reclusione fino a due anni e la multa da 10.000 a 100.000 euro. Il materiale del corso riportava anche il comma 2: chi non rispetta i termini delle richieste IVASS, o ne ritarda le funzioni, subiva una sanzione amministrativa da 10.000 a 100.000 euro. Quel comma è stato abrogato nel 2018 e la regola è passata all'articolo 308-bis, con importi molto più alti: da 5.000 euro a 5 milioni per le persone fisiche, da 30.000 euro al 10 per cento del fatturato per le persone giuridiche. Il messaggio pratico per l'intermediario è chiaro: una richiesta dell'IVASS ha una scadenza, e ignorarla è già di per sé un illecito.\n\nL'articolo 2638 del codice civile riguarda invece i vertici delle società: amministratori, direttori generali, dirigenti preposti alla redazione dei documenti contabili, sindaci e liquidatori. Sono puniti con la reclusione da uno a quattro anni se, per ostacolare la vigilanza, espongono fatti non veri sulla situazione economica, patrimoniale o finanziaria, nascondono con mezzi fraudolenti fatti che dovevano comunicare, oppure ostacolano consapevolmente in qualsiasi modo le funzioni di vigilanza, anche solo omettendo le comunicazioni dovute.\n\nC'è poi l'abuso di denominazione, all'articolo 308. Il materiale originale lo descrive così: è sanzionato chi usa senza autorizzazione, nella denominazione sociale o in qualunque comunicazione al pubblico, parole come assicurazione, riassicurazione, compagnia di assicurazione, mutua assicuratrice, o altre parole, anche straniere, capaci di ingannare sulla legittimazione a esercitare. Oggi la norma ha due livelli. Il comma 1 protegge le parole riservate alle imprese autorizzate. Il comma 2 protegge le parole riservate agli iscritti al Registro o al ruolo dei periti: intermediario, agente, broker, mediatore, produttore diretto, intermediario a titolo accessorio, perito di assicurazione. Anche le sanzioni sono cresciute: prima del 2018 andavano da 2.000 a 20.000 euro. Oggi, per il comma 1, vanno da 5.000 euro a 5 milioni per le persone fisiche e da 30.000 euro al 10 per cento del fatturato per le società. Per il comma 2 vanno da 1.000 a 700.000 euro per le persone fisiche e da 5.000 euro a 5 milioni, o al 5 per cento del fatturato, per le società. Attenzione ai social e ai siti: anche quella è comunicazione al pubblico.\n\nPassiamo agli illeciti amministrativi delle imprese. Il materiale originale fa un'osservazione utile per capire la struttura del Codice. Gli illeciti abusivi descrivono la condotta in modo preciso. Gli illeciti amministrativi, invece, usano la tecnica del rinvio: una norma sanzionatoria richiama altri articoli del Codice e stabilisce che chi li viola subisce una certa sanzione. Dopo il 2018 questa tecnica è ancora più evidente. L'articolo 310 elenca decine di articoli la cui violazione è punita con una sanzione da 30.000 euro al 10 per cento del fatturato. Se il vantaggio ottenuto con la violazione supera il massimo, la sanzione può arrivare fino al doppio del vantaggio, quando questo si può calcolare.\n\nIl materiale originale descriveva le norme dedicate alla RC auto. L'articolo 313 sanzionava le violazioni degli obblighi di trasparenza e pubblicità. L'articolo 315 riguardava le procedure di liquidazione e graduava la sanzione in base al ritardo con cui l'impresa formalizzava la propria offerta. L'articolo 317 colpiva la mancata offerta di risarcimento nei termini, la violazione del meccanismo bonus-malus, delle regole sull'attestazione dello stato del rischio, sul diritto di accesso agli atti e sui compensi professionali. L'articolo 316 sanzionava l'omissione delle comunicazioni periodiche che le imprese RC auto devono fare ai sensi dell'articolo 135. L'articolo 314 sanzionava il rifiuto e l'elusione dell'obbligo a contrarre previsto dall'articolo 132, con una sanzione molto più pesante se la violazione riguardava determinate zone o categorie di assicurati, e al comma 3 il divieto di abbinamento dell'articolo 170.\n\nTutto questo Capo, dagli articoli 313 a 317, è stato abrogato nel 2018. Oggi le violazioni sulla liquidazione dei sinistri, cioè gli articoli 148, 149 e 150, e molte altre norme RC auto rientrano nell'articolo 310, comma 1, lettere b e c. Le comunicazioni alle banche dati, tra cui quelle dell'articolo 135, sono punite dall'articolo 310-quater con un'unica sanzione da 10.000 a 100.000 euro per ogni semestre accertato. Il divieto di abbinamento dell'articolo 170 è tra le norme sulla distribuzione degli articoli 324 e 324-bis. Per capire che cosa significava la graduazione del vecchio articolo 315, guardiamo gli importi: fino a 30 giorni di ritardo si pagavano da 300 a 900 euro, fino a 60 giorni da 900 a 2.700, fino a 90 giorni da 2.700 a 5.400, fino a 120 giorni da 5.400 a 10.800. Oltre i 120 giorni si arrivava a 30.000 euro per i danni a cose e a 60.000 per i danni alle persone. Oggi, invece della sanzione caso per caso, le violazioni della stessa indole si accertano in modo unitario per un periodo di tempo e si contestano con un solo atto: è l'articolo 311-quater.\n\nL'obbligo a contrarre merita un'attenzione particolare. Il materiale parla di elusione tariffaria: l'impresa non rifiuta formalmente il cliente, ma riserva a certe categorie sgradite tariffe repulsive, così alte da scoraggiare l'acquisto. Oggi l'articolo 310-bis punisce il rifiuto o l'elusione dell'obbligo a contrarre con una sanzione da 2.500 a 15.000 euro. Se però la condotta riguarda determinate zone del territorio o singole categorie di assicurati, si va da 1 a 5 milioni di euro.\n\nIl Codice dà oggi all'IVASS anche altri strumenti verso le imprese. Le sanzioni si applicano alle sole infrazioni rilevanti. In alternativa alla sanzione pecuniaria l'Istituto può ordinare di eliminare le infrazioni, indicando misure e termine; se l'ordine non è rispettato, la sanzione aumenta fino a un terzo. Anche gli esponenti aziendali e il personale possono essere sanzionati personalmente, da 5.000 euro a 5 milioni, con una possibile interdizione dalle funzioni da sei mesi a tre anni.\n\nUn caso concreto. Marco non è iscritto al RUI, apre una pagina social chiamata Marco Broker Assicurazioni e fa firmare polizze di un'impresa che non verifica chi le porta i contratti. Marco commette il reato di intermediazione abusiva e l'illecito di abuso della denominazione broker. L'impresa risponde a sua volta per essersi avvalsa di un intermediario non iscritto.\n\nIn sintesi: chi opera senza titolo commette un reato; rifiutare l'accesso ai funzionari è un reato, non rispettare i termini delle richieste IVASS è un illecito amministrativo; le parole del mestiere sono riservate a chi è autorizzato o iscritto; e le vecchie norme sulla RC auto sono confluite in un sistema basato sull'articolo 310 e sull'accertamento unitario.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026 – Titolo XVIII",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: sanzione penale per esercizio abusivo (art. 305). Aggiornata con le pene vigenti (c. 1: 2-4 anni e 20.000-200.000 €; c. 2: 6 mesi-2 anni e 10.000-100.000 €; c. 5 periti: art. 348 c.p.) e con il c. 3 (art. 2409 c.c. / denuncia al PM).",
+          "source_ref": "CAP, art. 305"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: sanzione per imprese che si avvalgono di intermediari non iscritti. Aggiornamento: oggi art. 324-bis, c. 3 (5.000 € - 5 mln o 5% fatturato).",
+          "source_ref": "CAP, art. 324-bis, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 306, c. 2 (inottemperanza alle richieste IVASS, 10.000-100.000 €). Superata: comma abrogato dal D.Lgs. 68/2018, oggi art. 308-bis (5.000 € - 5 mln persone fisiche; 30.000 € - 10% fatturato persone giuridiche).",
+          "source_ref": "CAP, art. 306 nota 1054; art. 308-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 2638 c.c. (reclusione da 1 a 4 anni). Riferimento da indicare: testo dell'art. 2638 c.c. non verificato su fonte ufficiale.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 308 abuso di denominazione. Aggiornamento: elenco esteso alle parole riservate agli intermediari e periti (c. 2); sanzioni vigenti dei commi 4 e 4-bis; importo previgente 2.000-20.000 €.",
+          "source_ref": "CAP, art. 308 e nota 1058"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: artt. 313, 314, 315, 316, 317 CAP. Superate: Capo III abrogato dal D.Lgs. 68/2018; indicata la collocazione attuale (artt. 310, c. 1 lett. b-c; 310-bis; 310-quater; 311-quater; artt. 324/324-bis per l'art. 170).",
+          "source_ref": "CAP, nota 1090; artt. 310-310-quater, 311-quater"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Importi della graduazione del previgente art. 315 per spiegare la «graduazione» citata dalla fonte.",
+          "source_ref": "CAP, nota 1090 (testo previgente art. 315)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 310-bis (obbligo a contrarre: 2.500-15.000 €; 1-5 mln per zone/categorie), art. 310 (30.000 € - 10% fatturato, raddoppio sul vantaggio), artt. 311-bis, 311-ter, 311-quater, 311-sexies, 325-bis.",
+          "source_ref": "CAP, artt. 310-325-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sull'intermediario abusivo e sull'impresa che se ne avvale; due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Trasparenza, regole di condotta e avvio del procedimento",
+      "source_files": [
+        "corso totale/Area Giuridica/Le sanzioni.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Sanzioni/Le sanzioni terza parte.pdf"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Sanzioni",
+          "title": "Trasparenza, regole di condotta e avvio del procedimento",
+          "goals": [
+            "Conoscere le sanzioni per le violazioni delle regole di trasparenza e di condotta",
+            "Sapere quali sanzioni rischia oggi un intermediario (art. 324 CAP)",
+            "Capire come parte il procedimento: accertamento e contestazione"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Trasparenza verso i clienti: le norme del materiale originale",
+          "lead": "Il Capo IV del Titolo XVIII (artt. 318-320) è stato abrogato dal D.Lgs. 68/2018.",
+          "head": [
+            "Norma",
+            "Cosa puniva",
+            "Importo previsto"
+          ],
+          "rows": [
+            [
+              "318 · Pubblicità",
+              "Annunci non corretti, non conformi a nota informativa e condizioni (art. 182, c. 1), mancato invio all'IVASS del materiale pubblicitario",
+              "Da 2.000 a 20.000 euro"
+            ],
+            [
+              "319 · Regole di comportamento",
+              "Violazione dell'art. 183 e delle norme attuative; violazione dei provvedimenti cautelari e interdittivi IVASS (artt. 182, c. 6, e 184, c. 1)",
+              "Da 2.000 a 20.000 euro; per i provvedimenti da 10.000 a 100.000 euro"
+            ],
+            [
+              "320 · Nota informativa",
+              "Mancata consegna della nota informativa prima della conclusione del contratto",
+              "Da 2.500 a 25.000 euro"
+            ]
+          ],
+          "ref": "Materiale originale; CAP, nota 1091"
+        },
+        {
+          "layout": "split",
+          "title": "Dove sono finite queste regole",
+          "left": {
+            "title": "Imprese",
+            "items": [
+              "Art. 183 (regole di comportamento): art. 310, c. 1, lett. c, da 30.000 euro al 10% del fatturato",
+              "Informativa precontrattuale (art. 185) e distribuzione: art. 324-bis, da 5.000 euro a 5 milioni o 5% del fatturato",
+              "Violazione di provvedimenti cautelari e interdittivi (artt. 182 e 184): art. 310-quinquies e art. 324-bis, c. 2"
+            ],
+            "ref": "CAP, artt. 310, 310-quinquies, 324-bis"
+          },
+          "right": {
+            "title": "Intermediari",
+            "items": [
+              "Norme su iscrizione, regole di comportamento e informativa precontrattuale (artt. 185, 185-bis e altri): art. 324",
+              "Violazione dei provvedimenti ex art. 184: art. 324, c. 3",
+              "Una delle sanzioni dell'art. 324: richiamo, censura, pecuniaria, radiazione"
+            ],
+            "ref": "CAP, art. 324"
+          },
+          "note": "La «nota informativa» del vecchio art. 185 oggi si traduce nell'informativa precontrattuale prevista dalla disciplina IDD.",
+          "noteRef": "CAP, artt. 185 e 324"
+        },
+        {
+          "layout": "concept",
+          "title": "L'art. 324 nel materiale originale",
+          "key": "Sanzione amministrativa da 1.000 a 10.000 euro, raddoppiabile nei casi di particolare gravità o di recidiva, per l'intermediario che viola una qualsiasi regola di condotta del Codice o delle norme attuative, a partire dal Reg. ISVAP n. 5.",
+          "body": "È la versione precedente al 2018. Il Reg. ISVAP n. 5/2006 è stato abrogato dal Reg. IVASS n. 40/2018 sulla distribuzione assicurativa, che si applica dal 1° ottobre 2018. Per le violazioni commesse prima continuano a valere le norme abrogate.",
+          "ref": "CAP, nota 1102; Reg. IVASS 40/2018, art. 97"
+        },
+        {
+          "layout": "table",
+          "title": "Le sanzioni dell'intermediario oggi (art. 324)",
+          "lead": "Per chi viola le norme su realizzazione e distribuzione dei prodotti assicurativi, IBIP compresi.",
+          "head": [
+            "Sanzione",
+            "Quando",
+            "Dettaglio"
+          ],
+          "rows": [
+            [
+              "a · Richiamo",
+              "Fatti di lieve manchevolezza",
+              "Dichiarazione scritta di biasimo motivato"
+            ],
+            [
+              "b · Censura",
+              "Fatti di particolare gravità",
+              "Biasimo formale, più grave del richiamo"
+            ],
+            [
+              "c · Pecuniaria",
+              "Secondo i criteri dell'art. 324-sexies",
+              "Persone fisiche da 1.000 a 700.000 euro; società da 5.000 euro a 5 milioni o 5% del fatturato"
+            ],
+            [
+              "d · Radiazione",
+              "Fatti di eccezionale gravità",
+              "Risoluzione immediata dei rapporti di intermediazione; per le società, cancellazione"
+            ]
+          ],
+          "ref": "CAP, art. 324, c. 1 e 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Altre regole dell'art. 324 da conoscere",
+          "items": [
+            {
+              "text": "Violare i provvedimenti cautelari e interdittivi dell'IVASS (art. 184) è punito con una delle sanzioni dell'art. 324.",
+              "ref": "c. 3"
+            },
+            {
+              "text": "Sanzionato anche l'intermediario che lavora, direttamente o tramite collaboratori, per imprese che operano oltre i limiti dell'autorizzazione.",
+              "ref": "c. 4"
+            },
+            {
+              "text": "Sui prodotti di investimento assicurativo (IBIP) la sanzione può arrivare al doppio del profitto ricavato e l'IVASS può pubblicare una dichiarazione pubblica sul responsabile.",
+              "ref": "c. 5 e 6"
+            },
+            {
+              "text": "Le sanzioni si applicano anche a chi era iscritto quando ha commesso l'illecito, anche se poi si è cancellato dal Registro.",
+              "ref": "c. 7-bis"
+            },
+            {
+              "text": "Si sanziona solo se la violazione è rilevante; in alternativa l'IVASS può ordinare di eliminare l'infrazione entro un termine.",
+              "ref": "artt. 324-ter e 324-quater"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Le fasi della procedura",
+          "cols": [
+            {
+              "title": "Materiale originale (Reg. 1/2013)",
+              "items": [
+                "Avvio della procedura",
+                "Fase istruttoria",
+                "Fase decisoria"
+              ]
+            },
+            {
+              "title": "Reg. IVASS 39/2018, art. 5",
+              "items": [
+                "A. Preliminare: accertamento delle violazioni",
+                "B. Contestazione",
+                "C. Istruttoria: difese, valutazione, proposta al Direttorio integrato",
+                "D. Decisoria: eventuali osservazioni sulla proposta, provvedimento finale",
+                "E. Notifica, comunicazione e pubblicazione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi fa che cosa dentro l'IVASS",
+          "head": [
+            "Struttura",
+            "Ruolo"
+          ],
+          "rows": [
+            [
+              "Servizi che accertano e contestano",
+              "Servizio Ispettorato, Vigilanza Prudenziale, Tutela del Consumatore, Vigilanza Condotta di mercato (ex Vigilanza Intermediari), Studi e Gestione Dati."
+            ],
+            [
+              "Servizio Sanzioni e Liquidazioni",
+              "Responsabile di tutti i procedimenti sanzionatori. Cura l'istruttoria, tranne quelle che spettano al Collegio di garanzia, e prepara la proposta per il Direttorio integrato."
+            ],
+            [
+              "Collegio di garanzia",
+              "Cura l'istruttoria dei procedimenti contro gli intermediari e gli amministratori delle società di intermediazione."
+            ],
+            [
+              "Direttorio integrato",
+              "Decide: sanziona o archivia."
+            ]
+          ],
+          "ref": "Reg. 39/2018, artt. 6, 7, 16, 28"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché conta il momento dell'accertamento",
+          "key": "L'IVASS avvia la procedura quando ha gli elementi per valutare se la violazione esiste. Da quando l'accertamento è completo decorrono 120 giorni (180 per chi risiede all'estero) per notificare la contestazione.",
+          "body": "Per raccogliere gli elementi l'IVASS può chiedere documenti e informazioni a imprese, intermediari e a chiunque abbia informazioni utili. I destinatari devono rispondere subito, verificando che le informazioni siano esatte e complete. La data dell'accertamento è indicata nell'atto di contestazione.",
+          "ref": "Reg. 39/2018, art. 8, c. 1 e 6"
+        },
+        {
+          "layout": "table",
+          "title": "Quando l'accertamento è completo",
+          "head": [
+            "Situazione",
+            "Data di accertamento"
+          ],
+          "rows": [
+            [
+              "Ispezione presso un intermediario",
+              "Data di sottoscrizione del verbale ispettivo"
+            ],
+            [
+              "Ispezione presso un soggetto diverso dagli intermediari",
+              "Data in cui il Capo del Servizio Ispettorato appone il visto agli atti"
+            ],
+            [
+              "Verifica a distanza",
+              "Quando è completata la valutazione degli elementi oggettivi e soggettivi della violazione"
+            ],
+            [
+              "Violazioni della stessa indole accertate a distanza",
+              "Arco temporale di un semestre; 120 giorni che partono dal 60° giorno dopo la fine del semestre"
+            ]
+          ],
+          "ref": "Reg. 39/2018, artt. 8 e 9 (prima: Reg. 1/2013, art. 4)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa contiene l'atto di contestazione",
+          "items": [
+            {
+              "text": "Da dove emerge la violazione (ispezione, vigilanza, documenti) e la data dell'accertamento."
+            },
+            {
+              "text": "La descrizione della violazione, le norme violate e le norme sanzionatorie."
+            },
+            {
+              "text": "La possibilità di presentare controdeduzioni scritte entro 60 giorni e di chiedere un'audizione."
+            },
+            {
+              "text": "A chi inviare le difese, di preferenza via PEC: Servizio Sanzioni e Liquidazioni o Collegio di garanzia."
+            },
+            {
+              "text": "La richiesta di dati su compensi o fatturato, utili per calcolare la sanzione."
+            },
+            {
+              "text": "Il termine entro cui il procedimento deve concludersi.",
+              "ref": "Reg. 39/2018, art. 12, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La notifica: quando il procedimento comincia",
+          "key": "Il procedimento inizia con la contestazione formale dell'IVASS, notificata entro 120 giorni (180 per i residenti all'estero) dall'accertamento. La data della notifica è la data di avvio del procedimento.",
+          "body": "La notifica segue le modalità previste dall'ordinamento. Può essere fatta anche da un incaricato dell'IVASS, via PEC o, dopo un'ispezione, consegnata a mano durante una riunione presso l'interessato o presso l'IVASS. Se emergono fatti nuovi sulle stesse norme, l'IVASS può integrare la contestazione.",
+          "ref": "Reg. 39/2018, artt. 12-14 (prima: Reg. 1/2013, art. 6)"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker riceve un'ispezione IVASS. Il verbale ispettivo viene sottoscritto il 10 marzo. A metà settembre gli arriva via PEC un atto di contestazione per violazioni emerse in quell'ispezione.",
+          "questions": [
+            "Da quando decorre il termine per la contestazione?",
+            "La contestazione è arrivata in tempo?"
+          ],
+          "solution": "Per le ispezioni presso intermediari l'accertamento si completa alla sottoscrizione del verbale (10 marzo). Da lì l'IVASS ha 120 giorni per notificare la contestazione: la scadenza cade all'inizio di luglio. Una notifica a metà settembre è fuori termine e il broker può farlo valere nelle sue difese. Se le violazioni fossero emerse da una verifica a distanza, il calcolo sarebbe diverso."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo l'art. 324 CAP vigente, qual è la sanzione per fatti di lieve manchevolezza?",
+          "options": [
+            "Censura",
+            "Richiamo",
+            "Radiazione",
+            "Sospensione"
+          ],
+          "answer": 1,
+          "explanation": "Il richiamo è una dichiarazione scritta di biasimo motivato per fatti di lieve manchevolezza. La censura riguarda fatti di particolare gravità, la radiazione fatti di eccezionale gravità."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In un'ispezione presso un intermediario, quando si considera completato l'accertamento?",
+          "options": [
+            "Alla data di inizio dell'ispezione",
+            "Alla sottoscrizione del verbale ispettivo",
+            "Al visto del Presidente dell'IVASS",
+            "Alla notifica della contestazione"
+          ],
+          "answer": 1,
+          "explanation": "Reg. 39/2018, art. 8, c. 4. Per i soggetti diversi dagli intermediari conta invece il visto del Capo del Servizio Ispettorato."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "318-320",
+              "text": "Pubblicità, regole di comportamento e nota informativa: articoli abrogati, oggi assorbiti negli artt. 310, 310-quinquies, 324 e 324-bis."
+            },
+            {
+              "value": "4",
+              "text": "sanzioni per l'intermediario: richiamo, censura, pecuniaria, radiazione (art. 324)."
+            },
+            {
+              "value": "5",
+              "text": "fasi della procedura: preliminare, contestazione, istruttoria, decisione, notifica e pubblicazione."
+            },
+            {
+              "value": "Verbale",
+              "text": "Nelle ispezioni presso intermediari l'accertamento si completa con la firma del verbale."
+            },
+            {
+              "value": "120/180",
+              "text": "giorni per notificare la contestazione; la notifica avvia il procedimento."
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione chiudiamo la rassegna degli illeciti con quelli che riguardano più da vicino il rapporto con il cliente: pubblicità, regole di comportamento, informativa. Poi vediamo come l'intermediario può essere sanzionato oggi e come comincia, in concreto, un procedimento sanzionatorio.\n\nIl materiale originale presentava tre norme sulla trasparenza nei rapporti con gli assicurati. L'articolo 318 puniva con una sanzione da 2.000 a 20.000 euro gli annunci pubblicitari diffusi in violazione dei principi di correttezza dell'informazione, di conformità al contenuto della nota informativa e delle condizioni di contratto, come richiedeva l'articolo 182, e in violazione dell'obbligo di trasmettere all'IVASS, su richiesta, il materiale pubblicitario usato. L'articolo 319, sulle regole di comportamento, puniva con una sanzione da 2.000 a 20.000 euro chi non rispettava l'articolo 183 e le sue norme attuative, e con una sanzione da 10.000 a 100.000 euro chi violava i provvedimenti cautelari e interdittivi adottati dall'IVASS ai sensi degli articoli 182, comma 6, e 184, comma 1. L'articolo 320 puniva con una sanzione da 2.500 a 25.000 euro la mancata consegna della nota informativa.\n\nAnche questo Capo è stato abrogato nel 2018, ma le condotte restano sanzionate, in un sistema diverso. Per le imprese, la violazione delle regole di comportamento dell'articolo 183 rientra nell'articolo 310, con sanzioni da 30.000 euro al 10 per cento del fatturato. Le violazioni delle norme sulla distribuzione e sull'informativa precontrattuale ricadono nell'articolo 324-bis. La violazione dei provvedimenti cautelari e interdittivi è punita dall'articolo 310-quinquies, da 30.000 euro al 10 per cento del fatturato. Per gli intermediari, tutte queste regole di distribuzione rientrano nell'articolo 324, che vediamo adesso. Una precisazione di linguaggio: il materiale parla di nota informativa, il documento previsto dal vecchio articolo 185. Con la disciplina IDD l'informativa precontrattuale è organizzata in modo diverso, ma l'idea è la stessa: il cliente deve ricevere le informazioni prima di firmare.\n\nL'articolo 324, nella versione descritta dal materiale originale, prevedeva una sanzione da 1.000 a 10.000 euro, raddoppiabile nei casi di particolare gravità o di recidiva, per l'intermediario che violava una qualsiasi delle regole di condotta del Codice o delle norme attuative, prima fra tutte il Regolamento ISVAP numero 5 del 2006. Quel regolamento è stato abrogato dal Regolamento IVASS numero 40 del 2018 sulla distribuzione assicurativa, applicabile dal primo ottobre 2018. Per le violazioni commesse prima di quella data si continuano ad applicare le regole abrogate.\n\nCom'è fatto oggi l'articolo 324? Riguarda gli intermediari, compresi quelli a titolo accessorio, che violano le norme sulla realizzazione e distribuzione dei prodotti assicurativi, compresi i prodotti di investimento assicurativo. L'elenco delle norme richiamate è lungo: comprende, tra le altre, quelle sull'iscrizione al Registro, sulle regole di comportamento e sull'informativa precontrattuale. La sanzione si sceglie tra quattro, secondo i criteri dell'articolo 324-sexies. Il richiamo è una dichiarazione scritta di biasimo motivato, per fatti di lieve manchevolezza. La censura è riservata ai fatti di particolare gravità. La sanzione pecuniaria va da 1.000 a 700.000 euro per le persone fisiche e, per le società, da 5.000 euro a 5 milioni, oppure, se superiore, fino al 5 per cento del fatturato annuo risultante dall'ultimo bilancio approvato. La radiazione, o la cancellazione per le società di intermediazione, è per i fatti di eccezionale gravità: determina la risoluzione immediata dei rapporti di intermediazione e, per chi opera in forma societaria, porta anche alla cancellazione della società nei casi di particolare gravità o di reiterazione sistematica.\n\nL'articolo 324 contiene altre regole utili. Chi viola i provvedimenti cautelari e interdittivi adottati dall'IVASS ai sensi dell'articolo 184 subisce una delle stesse sanzioni. È sanzionato anche l'intermediario che lavora, da solo o tramite collaboratori, per imprese che operano oltre i limiti della loro autorizzazione. Per i prodotti di investimento assicurativo la sanzione massima può essere calcolata fino al doppio del profitto ottenuto o della perdita evitata, e l'IVASS può pubblicare una dichiarazione che indica il responsabile e la natura della violazione. Infine, conta il momento dell'illecito: la sanzione si applica anche a chi era iscritto quando l'ha commesso, anche se poi si è cancellato dal Registro. Ricordiamo poi i principi visti nella prima lezione: si sanziona solo se la violazione è rilevante, e l'IVASS, in alternativa, può ordinare di eliminare l'infrazione entro un termine.\n\nPassiamo alla procedura. Il materiale originale, basato sul Regolamento IVASS numero 1 del 2013, divideva la procedura in tre fasi: avvio, istruttoria e decisione. Il Regolamento 39 del 2018 la descrive in modo più analitico, in cinque fasi. La prima è preliminare: l'accertamento delle violazioni. La seconda è la contestazione. La terza è l'istruttoria: l'interessato presenta le sue difese e chiede eventualmente un'audizione, gli elementi vengono valutati e viene preparata una proposta di sanzione o di archiviazione per il Direttorio integrato. La quarta è la decisione: l'interessato può presentare osservazioni sulla proposta e poi il Direttorio adotta il provvedimento finale. La quinta è la notifica, la comunicazione e la pubblicazione.\n\nChi se ne occupa dentro l'IVASS? Il materiale originale elencava i Servizi dell'epoca: il Servizio Ispettorato accertava, contestava e curava l'istruttoria; il Servizio Tutela del Consumatore accertava e contestava; il Servizio Vigilanza Prudenziale accertava e contestava le violazioni dei soggetti vigilati diversi dagli intermediari e ne curava l'istruttoria; il Servizio Vigilanza Intermediari faceva lo stesso per intermediari assicurativi e riassicurativi; il Servizio Studi e Gestione Dati accertava, contestava e istruiva; il Servizio Sanzioni curava l'istruttoria dei procedimenti avviati dal Servizio Tutela del Consumatore e predisponeva gli atti conclusivi di tutti i procedimenti. Dopo le modifiche del 2019 l'organizzazione è più semplice. Accertano e contestano il Servizio Ispettorato, la Vigilanza Prudenziale, la Tutela del Consumatore, la Vigilanza Condotta di mercato, che ha preso il posto della Vigilanza Intermediari, e il Servizio Studi e Gestione Dati. Il Servizio Sanzioni e Liquidazioni è il responsabile di tutti i procedimenti e ne cura l'istruttoria, tranne quella dei procedimenti contro gli intermediari, che spetta al Collegio di garanzia. Decide il Direttorio integrato.\n\nIl momento dell'accertamento è fondamentale, perché da lì decorre il termine di 120 giorni, 180 per chi risiede all'estero, per notificare la contestazione. L'IVASS avvia la procedura quando ha acquisito gli elementi necessari per valutare se la violazione esiste. Per farlo può chiedere documenti e informazioni a imprese, intermediari e a chiunque abbia informazioni rilevanti. Chi riceve la richiesta deve rispondere subito, verificando che le informazioni siano esatte e complete. Torna qui il discorso della lezione precedente: non rispondere nei termini è già un illecito.\n\nQuando si considera completo l'accertamento? Per gli illeciti emersi durante un'ispezione presso un intermediario, alla data in cui si firma il verbale ispettivo. Per le ispezioni presso soggetti diversi dagli intermediari, alla data in cui il Capo del Servizio Ispettorato appone il visto agli atti. Per gli illeciti emersi da verifiche a distanza, quando è completata la valutazione degli elementi oggettivi e soggettivi della violazione. Il Regolamento 39 aggiunge una regola per le violazioni ripetute della stessa indole accertate a distanza: si considerano insieme per un semestre, e i 120 giorni per la contestazione cominciano dal sessantesimo giorno dopo la fine del semestre.\n\nLa contestazione è l'atto che fa partire il procedimento. Contiene da dove nasce la violazione e la data dell'accertamento, la descrizione dei fatti, le norme violate e quelle che prevedono la sanzione. Indica la possibilità di presentare controdeduzioni scritte entro 60 giorni e di chiedere un'audizione, e a chi inviarle, di preferenza via PEC. Chiede le informazioni sui compensi o sul fatturato che servono a calcolare la sanzione. Indica infine il termine entro cui il procedimento deve concludersi. L'atto è notificato secondo le modalità previste dall'ordinamento: anche da un incaricato dell'IVASS, alla PEC dell'interessato o, dopo un'ispezione, consegnato a mano durante una riunione. La data della notifica è la data di avvio del procedimento. Se emergono fatti nuovi che violano le stesse norme, l'IVASS può integrare la contestazione.\n\nProviamo con un esempio. Un broker firma il verbale ispettivo il 10 marzo e riceve la contestazione a metà settembre. Il termine di 120 giorni partiva dal 10 marzo e scadeva all'inizio di luglio: la contestazione è tardiva, e il broker può farlo valere nelle sue difese.\n\nRicapitolando: le norme sulla trasparenza sono state riorganizzate ma le condotte restano sanzionate; l'intermediario rischia oggi richiamo, censura, sanzione pecuniaria o radiazione; il procedimento ha cinque fasi; e tutto parte da un accertamento con una data precisa, da cui decorrono i 120 giorni per la contestazione.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026 – Titolo XVIII",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 39 del 2 agosto 2018 (procedura sanzionatoria), testo modificato dai Provv. IVASS 86/2019 e 90/2019",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n39/Regolamento_IVASS_n._39_2018.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018 (distribuzione assicurativa), art. 97 – abrogazioni",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: artt. 318, 319, 320 CAP con i relativi importi. Superate: Capo IV abrogato dal D.Lgs. 68/2018; indicata la collocazione attuale (artt. 310, c. 1 lett. c; 310-quinquies; 324; 324-bis).",
+          "source_ref": "CAP, nota 1091; artt. 310, 310-quinquies, 324, 324-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: art. 324 (1.000-10.000 €, raddoppiabile; Reg. ISVAP 5). Superata: art. 324 sostituito dal D.Lgs. 68/2018; Reg. ISVAP 5/2006 abrogato dal Reg. IVASS 40/2018, art. 97.",
+          "source_ref": "CAP, nota 1102; Reg. IVASS 40/2018, art. 97"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 324 vigente: richiamo, censura, sanzione pecuniaria (1.000-700.000 € persone fisiche; 5.000 € - 5 mln o 5% società), radiazione/cancellazione; commi 3, 4, 5-6 (IBIP), 7-bis; artt. 324-ter e 324-quater.",
+          "source_ref": "CAP, artt. 324, 324-ter, 324-quater"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: tre fasi (avvio, istruttoria, decisione, Reg. 1/2013). Aggiornamento: cinque fasi del Reg. 39/2018, art. 5.",
+          "source_ref": "Reg. 39/2018, art. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco dei Servizi IVASS e dei loro compiti. Aggiornamento: Servizio Vigilanza Condotta di mercato al posto della Vigilanza Intermediari; Servizio Sanzioni e Liquidazioni responsabile di tutti i procedimenti; istruttoria degli intermediari al Collegio di garanzia (Provv. IVASS 90/2019).",
+          "source_ref": "Reg. 39/2018, artt. 6, 7, 16"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: regole sull'accertamento e sulla contestazione (Reg. 1/2013, artt. 4 e 6). Aggiornamento: stesse regole oggi negli artt. 8 e 12 del Reg. 39/2018; aggiunti accertamento unitario semestrale, contenuto dell'atto, modalità di notifica e integrazione della contestazione.",
+          "source_ref": "Reg. 39/2018, artt. 8, 9, 12, 13, 14"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sul calcolo dei 120 giorni e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Difesa, violazioni ripetute e decisione",
+      "source_files": [
+        "corso totale/Area Giuridica/Le sanzioni.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Sanzioni/Le sanzioni quarta parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Sanzioni",
+          "title": "Difesa, violazioni ripetute e decisione",
+          "goals": [
+            "Sapere come e entro quando difendersi dopo una contestazione",
+            "Capire come vengono trattate le violazioni ripetute e che cosa sono gli «impegni»",
+            "Conoscere chi decide e su quali criteri si fissa la sanzione"
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi della difesa",
+          "items": [
+            {
+              "value": "60 giorni",
+              "text": "dalla notifica, per presentare controdeduzioni scritte e chiedere l'audizione",
+              "ref": "Reg. 39/2018, art. 15, c. 1 e 5"
+            },
+            {
+              "value": "30 giorni",
+              "text": "di proroga, di norma al massimo, su richiesta motivata",
+              "ref": "art. 15, c. 2"
+            },
+            {
+              "value": "120 giorni",
+              "text": "dalla richiesta, di norma, per tenere l'audizione presso l'IVASS",
+              "ref": "art. 15, c. 5"
+            },
+            {
+              "value": "2 anni",
+              "text": "dall'avvio, per concludere il procedimento",
+              "ref": "art. 28, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto di difesa",
+          "key": "Entro 60 giorni dalla notifica il destinatario può partecipare al procedimento: presenta scritti difensivi e documenti e può chiedere di essere sentito in audizione, di persona o tramite rappresentanti delegati.",
+          "body": "All'audizione si può partecipare con l'assistenza di un avvocato. Se non si presentano controdeduzioni la procedura va avanti comunque: chi tace non blocca nulla, rinuncia solo a farsi sentire. Chi non partecipa all'istruttoria non potrà nemmeno presentare osservazioni sulla proposta di sanzione.",
+          "ref": "Reg. 1/2013, art. 8 (materiale originale); Reg. 39/2018, artt. 12 e 15; CAP, art. 324-octies, c. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si scrivono le difese",
+          "items": [
+            {
+              "text": "Rispettare il principio di leale collaborazione tra le parti del procedimento."
+            },
+            {
+              "text": "Essere essenziali e pertinenti, seguendo l'ordine delle contestazioni."
+            },
+            {
+              "text": "Oltre una certa lunghezza servono un sommario e una sintesi finale degli argomenti: 20 pagine nel Reg. 1/2013, oggi 50 pagine.",
+              "ref": "Reg. 39/2018, art. 15, c. 4"
+            },
+            {
+              "text": "Allegare solo documenti pertinenti, ordinati e accompagnati da un elenco."
+            },
+            {
+              "text": "Evitare documentazione sovrabbondante, disordinata o non pertinente."
+            },
+            {
+              "text": "In audizione, non ripetere gli scritti: niente duplicazioni o semplici rinvii.",
+              "ref": "art. 15, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Sospensione per sospetto di frode",
+          "cols": [
+            {
+              "title": "Materiale originale",
+              "items": [
+                "Solo per le violazioni degli artt. 148 e 149 (liquidazione dei danni RC auto)",
+                "La procedura poteva essere sospesa fino a 90 giorni se l'impresa dimostrava accertamenti in corso per un fondato sospetto di frode (art. 326, c. 1)",
+                "L'impresa doveva poi trasmettere all'IVASS, entro 30 giorni dal giudicato penale, la sentenza o il provvedimento del giudice"
+              ]
+            },
+            {
+              "title": "Testo vigente",
+              "items": [
+                "L'art. 326 è stato abrogato dal D.Lgs. 68/2018",
+                "Nel testo vigente del Titolo XVIII e del Reg. 39/2018 non si trova una regola equivalente",
+                "Il sospetto di frode resta un tema della liquidazione dei sinistri, non una causa di sospensione del procedimento"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Termine finale e accesso agli atti",
+          "left": {
+            "title": "Termine di conclusione",
+            "items": [
+              "Ha natura decadenziale: superato il termine, l'IVASS perde il potere di sanzionare",
+              "Oggi: 2 anni dall'avvio, cioè dalla notifica della contestazione"
+            ],
+            "ref": "Materiale originale; Reg. 39/2018, art. 28, c. 4"
+          },
+          "right": {
+            "title": "Accesso agli atti",
+            "items": [
+              "Solo per chi ha un interesse diretto, concreto e attuale, collegato al documento",
+              "La richiesta va motivata",
+              "Si applicano la L. 241/1990 e il Reg. IVASS 19/2016; l'istanza va al Servizio Sanzioni e Liquidazioni, con atto separato"
+            ],
+            "ref": "Reg. 39/2018, art. 33"
+          },
+          "note": "Conoscere gli atti istruttori è uno dei principi del procedimento sanzionatorio fissati dal Codice.",
+          "noteRef": "CAP, art. 324-octies, c. 6"
+        },
+        {
+          "layout": "concept",
+          "title": "Violazioni ripetute: il vecchio art. 327",
+          "key": "Per più violazioni della stessa disposizione dovute alla stessa disfunzione organizzativa, l'art. 327 offriva un regime agevolato: un'unica sanzione ridotta e forfettaria, in cambio dell'impegno a eliminare la disfunzione.",
+          "body": "Era una forma di ravvedimento operoso, coerente con l'idea di privilegiare la correzione rispetto alla punizione. Chi voleva usarla lo comunicava all'IVASS entro 60 giorni dalla contestazione; altrimenti il procedimento proseguiva. L'unica sanzione sostitutiva andava da 50.000 a 500.000 euro. L'art. 327 è stato abrogato nel 2018.",
+          "ref": "Materiale originale; CAP, nota 1146"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si è evoluta la regola",
+          "steps": [
+            {
+              "label": "2005-2018",
+              "text": "Art. 327: rimedio alla disfunzione e unica sanzione sostitutiva."
+            },
+            {
+              "label": "Dal 2018",
+              "text": "Accertamento unitario delle violazioni della stessa indole (artt. 311-quater e 324-quinquies), con riduzione della sanzione da un terzo a due terzi se l'impresa eliminava la disfunzione."
+            },
+            {
+              "label": "D.Lgs. 209/2025",
+              "text": "La riduzione per la disfunzione è abrogata. Resta l'accertamento unitario con un solo atto di contestazione."
+            },
+            {
+              "label": "Oggi",
+              "text": "Nuovo strumento generale: gli impegni (art. 328-bis)."
+            }
+          ],
+          "ref": "CAP, artt. 311-quater, 324-quinquies e note 1081, 1122; art. 328-bis"
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli impegni (art. 328-bis CAP)",
+          "items": [
+            {
+              "text": "Entro 60 giorni dalla contestazione il destinatario può proporre impegni che facciano venir meno i profili di violazione."
+            },
+            {
+              "text": "L'IVASS valuta gravità e idoneità degli impegni, anche rispetto agli interessi lesi, e può renderli obbligatori: il procedimento sanzionatorio si chiude."
+            },
+            {
+              "text": "La proposta tempestiva sospende il termine di conclusione del procedimento."
+            },
+            {
+              "text": "Se gli impegni non sono rispettati, la sanzione massima aumenta del 10%."
+            },
+            {
+              "text": "L'IVASS può riaprire il caso se i fatti cambiano, se gli impegni sono violati o se le informazioni date erano inesatte."
+            },
+            {
+              "text": "Gli impegni accettati sono pubblicati sul sito dell'IVASS.",
+              "ref": "CAP, art. 328-bis"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Dall'istruttoria alla decisione",
+          "steps": [
+            {
+              "label": "Istruttoria",
+              "text": "Servizio Sanzioni e Liquidazioni, o Collegio di garanzia per gli intermediari, esamina difese, audizione e relazione tecnica."
+            },
+            {
+              "label": "Proposta",
+              "text": "Viene preparata una proposta di sanzione o di archiviazione per il Direttorio integrato."
+            },
+            {
+              "label": "Osservazioni",
+              "text": "Chi ha presentato difese o è stato sentito riceve la proposta e ha 30 giorni per osservazioni sintetiche."
+            },
+            {
+              "label": "Decisione",
+              "text": "Il Direttorio integrato, o chi ha la sua delega, adotta un provvedimento motivato."
+            }
+          ],
+          "ref": "Reg. 39/2018, artt. 18, 26, 27, 28"
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa può decidere il Direttorio integrato",
+          "left": {
+            "title": "Materiale originale",
+            "items": [
+              "Adottare con ordinanza il provvedimento motivato di sanzione",
+              "Archiviare il procedimento",
+              "Chiedere, se serve, supplementi di istruttoria"
+            ]
+          },
+          "right": {
+            "title": "Reg. 39/2018, art. 28",
+            "items": [
+              "Accogliere la proposta",
+              "Chiedere supplementi di istruttoria",
+              "Discostarsi dalla proposta, in tutto o in parte",
+              "Archiviare",
+              "Nei casi complessi, sentire prima l'Ufficio Consulenza Legale"
+            ]
+          },
+          "note": "In ogni fase l'IVASS può comunque adottare provvedimenti per far cessare comportamenti non conformi.",
+          "noteRef": "Reg. 39/2018, art. 28, c. 3"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si misura la gravità",
+          "items": [
+            {
+              "text": "La durata della violazione."
+            },
+            {
+              "text": "La ripetizione della violazione e le violazioni precedenti dello stesso soggetto."
+            },
+            {
+              "text": "Una sola azione od omissione che viola più disposizioni, o più volte la stessa."
+            },
+            {
+              "text": "Che cosa ha fatto il soggetto per eliminare o attenuare le conseguenze, anche collaborando con l'IVASS."
+            },
+            {
+              "text": "Oggi anche: capacità finanziaria (fatturato o compensi degli ultimi 3 anni), danno a terzi, vantaggio ottenuto, grado di responsabilità, numero delle infrazioni.",
+              "ref": "Reg. 39/2018, art. 29; CAP, art. 324-sexies"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una società di brokeraggio riceve una contestazione per non aver consegnato in molti casi l'informativa precontrattuale. La causa è un errore del gestionale, già corretto. L'amministratore vuole sapere come muoversi.",
+          "questions": [
+            "Quali strade ha entro i 60 giorni?",
+            "Che cosa conviene scrivere nelle difese?"
+          ],
+          "solution": "Entro 60 giorni la società può presentare controdeduzioni e chiedere l'audizione, anche con un avvocato. In alternativa o in aggiunta può proporre impegni (art. 328-bis) che eliminino la violazione: se l'IVASS li rende obbligatori, il procedimento si chiude. Nelle difese conviene essere essenziali, seguire l'ordine delle contestazioni, documentare la correzione già fatta e la collaborazione: sono elementi valutati per decidere la sanzione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa succede se il destinatario della contestazione non presenta controdeduzioni?",
+          "options": [
+            "Il procedimento si estingue",
+            "Il procedimento prosegue comunque",
+            "L'IVASS deve fissare d'ufficio un'audizione",
+            "La sanzione si riduce automaticamente"
+          ],
+          "answer": 1,
+          "explanation": "La mancata presentazione di controdeduzioni non pregiudica il seguito della procedura (Reg. 39/2018, art. 15, c. 6). Chi non partecipa perde però la possibilità di presentare osservazioni sulla proposta di sanzione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quando si possono proporre impegni ai sensi dell'art. 328-bis CAP?",
+          "options": [
+            "Entro 30 giorni dalla decisione",
+            "Entro 60 giorni dalla notifica della contestazione",
+            "In qualsiasi momento prima della decisione",
+            "Entro 120 giorni dall'accertamento"
+          ],
+          "answer": 1,
+          "explanation": "Gli impegni vanno presentati entro 60 giorni dalla notificazione della contestazione. Se l'IVASS li rende obbligatori, il procedimento si chiude."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "60 giorni",
+              "text": "per difendersi: controdeduzioni, audizione e, oggi, anche impegni."
+            },
+            {
+              "value": "50 pagine",
+              "text": "Oltre questa lunghezza le difese richiedono sommario e sintesi finale (prima erano 20)."
+            },
+            {
+              "value": "2 anni",
+              "text": "per concludere il procedimento: il termine è decadenziale."
+            },
+            {
+              "value": "328-bis",
+              "text": "Gli impegni hanno preso il posto dei vecchi meccanismi per le disfunzioni organizzative (art. 327 e poi riduzioni del 2018)."
+            },
+            {
+              "value": "Direttorio",
+              "text": "Decide con provvedimento motivato: sanziona, archivia, chiede nuova istruttoria o si discosta dalla proposta."
+            }
+          ]
+        }
+      ],
+      "narration": "Dopo la contestazione si apre la parte del procedimento più importante per chi lo subisce: la difesa. In questa lezione vediamo come difendersi e in quali tempi, come vengono trattate le violazioni ripetute e come arriva la decisione finale.\n\nIl materiale originale riporta l'articolo 8 del Regolamento IVASS numero 1 del 2013. La regola è rimasta quasi identica nell'articolo 15 del Regolamento 39 del 2018. Entro 60 giorni dalla notifica dell'atto di contestazione il destinatario può esercitare il diritto di difesa partecipando al procedimento. Può presentare scritti difensivi e altri documenti sui fatti contestati e, se lo ritiene necessario, chiedere di essere sentito in audizione, di persona o tramite rappresentanti muniti di delega. Il Codice precisa che all'audizione si può andare con l'assistenza di un avvocato. Si può chiedere una breve proroga, di norma non oltre 30 giorni, con un'istanza motivata. L'audizione si tiene presso l'IVASS, di norma entro 120 giorni dalla richiesta, e se ne redige un breve verbale. Un punto da non sottovalutare: la mancata presentazione di controdeduzioni non blocca la procedura, che va avanti comunque. E chi non partecipa all'istruttoria perde anche la possibilità di presentare, più avanti, osservazioni sulla proposta di sanzione.\n\nCome si scrivono le difese? Il Regolamento chiede di rispettare il principio di leale collaborazione tra le parti del procedimento amministrativo. Le controdeduzioni devono essere essenziali e pertinenti e seguire l'ordine delle contestazioni. Il materiale originale diceva che, oltre le 20 pagine, dovevano contenere un sommario e chiudersi con una sintesi delle principali argomentazioni. Oggi la soglia è salita a 50 pagine, ma la regola è la stessa. I documenti allegati devono essere pertinenti ai fatti contestati e alle difese, presentati in modo ordinato e accompagnati da un elenco, evitando documentazione sovrabbondante, disordinata o non pertinente. In audizione non si ripete quanto già scritto: si aggiunge ciò che serve. In pratica, una difesa breve, ordinata e documentata è più efficace di un fascicolo voluminoso.\n\nIl materiale originale ricorda una regola speciale. Solo per le violazioni degli articoli 148 e 149 del Codice, cioè la liquidazione dei danni RC auto, la procedura poteva essere sospesa fino a 90 giorni, in base all'articolo 326, comma 1, se l'impresa dimostrava di avere in corso accertamenti per un fondato sospetto di frode. L'impresa che otteneva la sospensione doveva poi inviare all'IVASS, entro 30 giorni dal passaggio in giudicato, copia della sentenza o del provvedimento del giudice penale. Attenzione: l'articolo 326 è stato abrogato nel 2018, e né il Titolo diciottesimo vigente né il Regolamento 39 contengono una regola equivalente. La riportiamo quindi come regola del sistema precedente.\n\nDue garanzie importanti per chi è sotto procedimento. La prima: il termine per concludere il procedimento ha natura decadenziale. Se l'IVASS lo supera, perde il potere di sanzionare. Il Regolamento 39 fissa il termine in due anni dall'avvio, cioè dalla notifica della contestazione. La seconda: l'accesso agli atti. Il diritto di accedere ai documenti del procedimento è riconosciuto solo a chi ha un interesse diretto, concreto e attuale, corrispondente a una situazione giuridicamente tutelata e collegata al documento richiesto. Per questo le richieste vanno motivate, così che l'IVASS possa verificare questo interesse. Si applicano la legge 241 del 1990 e il Regolamento IVASS 19 del 2016, e l'istanza va presentata al Servizio Sanzioni e Liquidazioni con un atto separato dagli altri.\n\nVeniamo alle violazioni ripetute. Il materiale originale parte da un'idea: la funzione sanzionatoria deve assicurare l'effettività delle regole, preferendo la correzione alla punizione. Per questo l'articolo 327 offriva a chi riceveva una contestazione per più violazioni della stessa disposizione, dovute alla stessa disfunzione organizzativa, un regime agevolato: un'unica sanzione cumulativa, ridotta e forfettaria, in cambio di una specie di ravvedimento operoso, cioè l'impegno a eliminare la disfunzione che aveva prodotto le violazioni sistematiche. Chi voleva usare questa possibilità lo comunicava al Servizio competente entro 60 giorni dalla notifica degli addebiti; altrimenti il procedimento proseguiva normalmente. Secondo il testo previgente, l'unica sanzione sostitutiva andava da 50.000 a 500.000 euro.\n\nL'articolo 327 è stato abrogato nel 2018. La regola si è evoluta in due passaggi. Dal 2018 gli articoli 311-quater e 324-quinquies hanno introdotto l'accertamento unitario delle violazioni della stessa indole: si considerano insieme in un certo periodo e si contestano con un solo atto. Se l'impresa dimostrava che dipendevano da una stessa disfunzione e la eliminava, la sanzione era ridotta da un terzo a due terzi. Il decreto legislativo 209 del 2025 ha abrogato questo meccanismo di riduzione. Oggi resta l'accertamento unitario, mentre al posto della riduzione c'è uno strumento nuovo e generale: gli impegni, all'articolo 328-bis. C'è un disallineamento da segnalare: il Regolamento 39, nel testo pubblicato dall'IVASS, cita ancora il meccanismo della disfunzione organizzativa, perché non è stato ancora adeguato a questa modifica.\n\nCome funzionano gli impegni? Entro 60 giorni dalla notifica della contestazione il destinatario può proporre all'IVASS impegni tali da far venir meno i profili di violazione. L'IVASS, nel rispetto del contraddittorio, valuta la gravità delle violazioni e l'idoneità degli impegni, anche rispetto alla tutela degli interessi lesi. Se li ritiene adeguati, può renderli obbligatori, anche per un periodo determinato, e il procedimento sanzionatorio si chiude. Presentare per tempo la proposta sospende il termine di conclusione del procedimento. Se poi gli impegni non vengono rispettati, l'IVASS può applicare la sanzione prevista, con il massimo aumentato del 10 per cento. Può anche riaprire il procedimento se la situazione di fatto cambia in modo determinante, se gli impegni sono violati o se la decisione si basava su informazioni incomplete, inesatte o fuorvianti. Gli impegni accettati sono pubblicati sul sito dell'IVASS.\n\nRicordiamo anche l'ordine di porre termine alle violazioni: per le violazioni sulla distribuzione l'IVASS può, invece della sanzione, ordinare di eliminare le infrazioni, indicando le misure e il termine. Se l'ordine non è rispettato, la sanzione aumenta fino a un terzo.\n\nCome si arriva alla decisione? L'istruttoria è curata dal Servizio Sanzioni e Liquidazioni o, per gli intermediari, dal Collegio di garanzia. Si esaminano le difese, il verbale dell'audizione e la relazione tecnica del Servizio che ha contestato. Al termine viene preparata una proposta di sanzione o di archiviazione. Se il destinatario ha presentato difese o ha partecipato all'audizione, riceve la proposta e ha 30 giorni per inviare osservazioni sintetiche. Poi decide il Direttorio integrato dell'IVASS, o i soggetti a cui ha delegato questa funzione.\n\nIl materiale originale indica tre esiti possibili: il Direttorio adotta con ordinanza il provvedimento motivato che irroga la sanzione, archivia il procedimento oppure chiede supplementi di istruttoria. Il Regolamento 39 precisa che il Direttorio può accogliere la proposta, chiedere supplementi di istruttoria, discostarsi in tutto o in parte dalla proposta, oppure archiviare. Nei casi più complessi può chiedere prima il parere dell'Ufficio Consulenza Legale. E in ogni fase l'IVASS può adottare provvedimenti per far cessare comportamenti non conformi.\n\nInfine, come si misura la gravità. Il materiale originale elenca, tra gli altri elementi, la durata della violazione, i casi di ripetizione, le situazioni in cui con una sola azione od omissione si violano più disposizioni o più volte la stessa, e l'attività svolta per eliminare o attenuare le conseguenze dell'infrazione, anche collaborando con l'Istituto. L'articolo 29 del Regolamento 39 e l'articolo 324-sexies del Codice aggiungono la capacità finanziaria del responsabile, misurata sul fatturato per le società e sui compensi degli ultimi tre anni per le persone fisiche, il danno arrecato a terzi, il vantaggio ottenuto, il grado di responsabilità e il numero delle infrazioni.\n\nUn esempio. Una società di brokeraggio riceve una contestazione per la mancata consegna dell'informativa precontrattuale in molti casi, dovuta a un errore del gestionale ormai corretto. Entro 60 giorni può difendersi, chiedere l'audizione e proporre impegni. Nelle difese conviene documentare la correzione e la collaborazione: sono proprio gli elementi che l'IVASS considera per decidere.\n\nIn sintesi: 60 giorni per difendersi, difese essenziali e ordinate, due anni come termine massimo, impegni come nuova via per chiudere il procedimento e una decisione motivata del Direttorio integrato.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026 – Titolo XVIII",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 39 del 2 agosto 2018 (procedura sanzionatoria), testo modificato dai Provv. IVASS 86/2019 e 90/2019",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n39/Regolamento_IVASS_n._39_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: diritto di difesa entro 60 giorni (Reg. 1/2013, art. 8). Aggiornamento: oggi Reg. 39/2018, art. 15; aggiunti proroga di norma fino a 30 giorni, audizione di norma entro 120 giorni, assistenza dell'avvocato (CAP, art. 324-octies, c. 2).",
+          "source_ref": "Reg. 39/2018, art. 15"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: soglia di 20 pagine per sommario e sintesi. Superata: oggi 50 pagine.",
+          "source_ref": "Reg. 39/2018, art. 15, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: sospensione fino a 90 giorni per sospetto di frode (artt. 148-149) e invio della sentenza entro 30 giorni. Superata: art. 326 abrogato dal D.Lgs. 68/2018; nessuna regola equivalente individuata nel Titolo XVIII vigente né nel Reg. 39/2018.",
+          "source_ref": "CAP, nota 1145"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: natura decadenziale del termine di conclusione. Aggiunto: termine di 2 anni dall'avvio.",
+          "source_ref": "Reg. 39/2018, art. 28, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: accesso agli atti solo per titolari di interessi diretti, concreti e attuali, con richiesta motivata. Aggiunti riferimenti a L. 241/1990 e Reg. IVASS 19/2016.",
+          "source_ref": "Reg. 39/2018, art. 33"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte: art. 327 (regime agevolato, comunicazione entro 60 giorni). Superato: abrogato dal D.Lgs. 68/2018; aggiunti importo della sanzione sostitutiva previgente (50.000-500.000 €) ed evoluzione: accertamento unitario (artt. 311-quater, 324-quinquies), riduzione da 1/3 a 2/3 abrogata dal D.Lgs. 209/2025.",
+          "source_ref": "CAP, note 1146, 1081, 1122"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Impegni (art. 328-bis CAP, introdotto dal D.Lgs. 209/2025). Segnalato che il Reg. 39/2018 pubblicato da IVASS richiama ancora il meccanismo della disfunzione organizzativa (non adeguato).",
+          "source_ref": "CAP, art. 328-bis; Reg. 39/2018, artt. 12 e 18"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: funzione decisoria al Direttorio integrato e tre esiti. Aggiornamento: esiti previsti dall'art. 28 Reg. 39/2018 (anche discostarsi dalla proposta; parere dell'Ufficio Consulenza Legale); trasmissione della proposta e osservazioni entro 30 giorni (artt. 18, 26, 27).",
+          "source_ref": "Reg. 39/2018, artt. 18, 26-28"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte gli elementi di valutazione della gravità; integrati con art. 29 Reg. 39/2018 e art. 324-sexies CAP.",
+          "source_ref": "Reg. 39/2018, art. 29; CAP, art. 324-sexies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla strategia difensiva e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Pagamento, responsabilità e procedimento davanti al Collegio di garanzia",
+      "source_files": [
+        "corso totale/Area Giuridica/Le sanzioni.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Sanzioni/Le sanzioni quinta parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Sanzioni",
+          "title": "Pagamento, responsabilità e procedimento davanti al Collegio di garanzia",
+          "goals": [
+            "Sapere come e quando si paga una sanzione e che cosa succede se si ritarda",
+            "Capire chi risponde della violazione: impresa, intermediario, esponenti",
+            "Conoscere il procedimento per gli intermediari davanti al Collegio di garanzia e quello per i periti"
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Pagare la sanzione",
+          "items": [
+            {
+              "value": "30 giorni",
+              "text": "dalla notifica del provvedimento, per pagare sanzione e spese del procedimento",
+              "ref": "Reg. 39/2018, art. 34, c. 2"
+            },
+            {
+              "value": "60 giorni",
+              "text": "se il destinatario risiede all'estero",
+              "ref": "art. 34, c. 2"
+            },
+            {
+              "value": "10 giorni",
+              "text": "dopo la scadenza, per inviare all'IVASS la prova del pagamento",
+              "ref": "art. 34, c. 3"
+            },
+            {
+              "value": "1/10",
+              "text": "di maggiorazione per ogni semestre, se il ritardo è di almeno un semestre",
+              "ref": "art. 34, c. 4; L. 689/1981, art. 27"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Altre regole sul pagamento",
+          "items": [
+            {
+              "text": "Per i ritardi inferiori a un semestre si pagano gli interessi di mora al tasso legale."
+            },
+            {
+              "text": "Non è ammesso il pagamento in misura ridotta previsto dall'art. 16 della L. 689/1981.",
+              "ref": "art. 34, c. 1; CAP, art. 328, c. 4-bis"
+            },
+            {
+              "text": "Si può chiedere di pagare a rate, con istanza motivata e documentata al Servizio Sanzioni e Liquidazioni, entro i termini di pagamento.",
+              "ref": "art. 35"
+            },
+            {
+              "text": "Se non si paga, l'IVASS avvia la riscossione coattiva tramite ruolo (D.P.R. 602/1973).",
+              "ref": "art. 34, c. 5; CAP, art. 328, c. 3"
+            },
+            {
+              "text": "Il ricorso al giudice non sospende l'esecuzione del provvedimento.",
+              "ref": "Reg. 39/2018, art. 32"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Chi risponde della violazione",
+          "cols": [
+            {
+              "title": "Materiale originale (art. 325 previgente)",
+              "items": [
+                "Le sanzioni pecuniarie si applicano alle imprese e agli intermediari responsabili",
+                "Eccezione: se dimostrano che la violazione è stata commessa da propri dipendenti o collaboratori, con abuso dei doveri d'ufficio e per trarne vantaggio personale",
+                "In quel caso la sanzione colpiva il dipendente o il collaboratore; impresa e intermediario rispondevano come responsabili civili"
+              ]
+            },
+            {
+              "title": "Testo vigente",
+              "items": [
+                "Il c. 2 dell'art. 325, con l'eccezione per l'abuso del dipendente, è abrogato dal 2018",
+                "Rispondono imprese, intermediari e gli altri destinatari degli obblighi del Codice",
+                "Per le funzioni affidate in outsourcing risponde l'impresa (art. 325, c. 3)",
+                "Esponenti e personale possono essere sanzionati in proprio (artt. 311-sexies e 324-septies)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli amministratori delle società di intermediazione",
+          "key": "Se una società di intermediazione viola le norme sulla distribuzione, gli amministratori ritenuti responsabili possono essere interdetti dalle funzioni di gestione per un periodo da 6 mesi a 3 anni.",
+          "body": "Serve che l'inosservanza derivi dalla violazione di doveri propri o dell'organo di cui fanno parte. Lo stesso vale se la loro condotta ha contribuito a far disattendere un ordine dell'IVASS di porre termine alle violazioni. Anche per loro il procedimento si svolge davanti al Collegio di garanzia.",
+          "ref": "CAP, artt. 324-septies, c. 5, e 324-octies, c. 8"
+        },
+        {
+          "layout": "sources",
+          "title": "Le norme sulle sanzioni disciplinari",
+          "items": [
+            {
+              "label": "Nel materiale originale",
+              "detail": "Codice delle assicurazioni; Reg. ISVAP n. 5/2006 (art. 62); Reg. IVASS n. 2/2013."
+            },
+            {
+              "label": "Oggi, per gli intermediari",
+              "detail": "CAP, artt. 324 e 324-octies; Reg. IVASS n. 40/2018 (regole di distribuzione, che ha abrogato il Reg. 5/2006); Reg. IVASS n. 39/2018 (procedura)."
+            },
+            {
+              "label": "Oggi, per i periti",
+              "detail": "CAP, artt. 329-331: richiamo, censura, radiazione, applicati dalla CONSAP."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Pregiudizio e capacità patrimoniale",
+          "key": "Il principio dell'assenza di pregiudizio e quello della graduazione della sanzione in base alla capacità patrimoniale si applicavano alle sole sanzioni pecuniarie. Una violazione poteva rilevare sul piano disciplinare anche senza il «pregiudizio» richiesto dall'art. 326.",
+          "body": "Oggi l'art. 326 è abrogato. Per tutte le sanzioni dell'art. 324, comprese richiamo e censura, valgono il principio di rilevanza (art. 324-ter) e i criteri dell'art. 324-sexies, tra cui la capacità finanziaria del responsabile.",
+          "ref": "Materiale originale; CAP, artt. 324-ter e 324-sexies"
+        },
+        {
+          "layout": "compare",
+          "title": "Richiamo, censura, radiazione: ieri e oggi",
+          "cols": [
+            {
+              "title": "Art. 329 previgente",
+              "items": [
+                "Destinatari: intermediari, compresi produttori diretti, collaboratori e altri ausiliari, e periti assicurativi",
+                "Anche nei casi già puniti con sanzione pecuniaria ai sensi dell'art. 324",
+                "Sanzioni in base alla gravità e alla recidiva: a) richiamo; b) censura; c) radiazione"
+              ]
+            },
+            {
+              "title": "Testo vigente",
+              "items": [
+                "Intermediari: art. 324, con quattro sanzioni (richiamo, censura, pecuniaria, radiazione o cancellazione)",
+                "Periti: art. 329, con richiamo, censura e radiazione",
+                "I provvedimenti per i periti sono notificati con raccomandata e comunicati alle imprese con cui hanno incarichi in corso"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Le fasi del procedimento (materiale originale)",
+          "items": [
+            {
+              "text": "Accertamento dell'infrazione."
+            },
+            {
+              "text": "Contestazione degli addebiti."
+            },
+            {
+              "text": "Eventuale reclamo, oggi: deduzioni difensive entro 60 giorni."
+            },
+            {
+              "text": "Eventuale richiesta di audizione davanti al Collegio di garanzia."
+            },
+            {
+              "text": "Trattazione nella seduta del Collegio fissata a questo scopo."
+            },
+            {
+              "text": "Delibera del Collegio."
+            },
+            {
+              "text": "Provvedimento finale del Direttorio integrato: sanzione o archiviazione."
+            },
+            {
+              "text": "Notifica e pubblicazione del provvedimento.",
+              "ref": "Materiale originale; CAP, art. 324-octies"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Chi contesta",
+          "left": {
+            "title": "IVASS",
+            "items": [
+              "Contesta gli addebiti agli iscritti al RUI, compresi collaboratori e altri ausiliari",
+              "Entro 120 giorni dall'accertamento, 180 per i residenti all'estero",
+              "Trasmette gli atti al Collegio di garanzia"
+            ],
+            "ref": "CAP, art. 324-octies, c. 1"
+          },
+          "right": {
+            "title": "CONSAP",
+            "items": [
+              "Contesta gli addebiti ai periti assicurativi",
+              "Stessi termini: 120 o 180 giorni",
+              "Decide la sanzione su proposta del Collegio di garanzia"
+            ],
+            "ref": "CAP, artt. 330-331"
+          },
+          "note": "Il Collegio di garanzia è lo stesso: istituito presso l'IVASS, esamina sia i procedimenti contro gli intermediari sia quelli contro i periti.",
+          "noteRef": "CAP, art. 331, c. 2"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Collegio di garanzia",
+          "title": "Com'è composto",
+          "lead": "Istituito presso l'IVASS, che lo nomina e ne fissa le regole di procedura.",
+          "facts": [
+            {
+              "label": "Presidente",
+              "text": "Un magistrato con qualifica non inferiore a consigliere di Cassazione o equiparato, anche a riposo, oppure un docente universitario di ruolo."
+            },
+            {
+              "label": "Esperti",
+              "text": "Due componenti esperti in materia assicurativa, uno designato sentite le associazioni più rappresentative."
+            },
+            {
+              "label": "Mandato",
+              "text": "Quattro anni, rinnovabile una sola volta."
+            },
+            {
+              "label": "Sezioni",
+              "text": "Può essere diviso in più sezioni per decidere in modo più rapido ed efficiente."
+            },
+            {
+              "label": "Imparzialità",
+              "text": "Il componente in conflitto di interessi si astiene (art. 51 c.p.c.; Reg. 39/2018, art. 22)."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Davanti al Collegio di garanzia",
+          "steps": [
+            {
+              "label": "Esame",
+              "text": "Il Collegio esamina gli atti e gli scritti difensivi."
+            },
+            {
+              "label": "Audizione",
+              "text": "Sente chi lo ha chiesto, anche con l'assistenza di un avvocato o di un esperto di fiducia."
+            },
+            {
+              "label": "Integrazioni",
+              "text": "Può chiedere supplementi istruttori e convocare persone informate sui fatti, comprese le imprese e gli intermediari con cui l'interessato collaborava."
+            },
+            {
+              "label": "Proposta",
+              "text": "Se non ritiene provata la violazione propone l'archiviazione; se la ritiene provata trasmette una proposta motivata di sanzione."
+            }
+          ],
+          "ref": "CAP, art. 324-octies, c. 4; Reg. 39/2018, art. 25"
+        },
+        {
+          "layout": "split",
+          "title": "Dalla delibera al provvedimento",
+          "left": {
+            "title": "Materiale originale",
+            "items": [
+              "La delibera è firmata dal Presidente e dal relatore che ne scrive le motivazioni",
+              "Va al Direttorio integrato, o ai soggetti delegati",
+              "Il Direttorio decide con proprio provvedimento, chiede al Collegio di riesaminare la proposta o rimette la proposta formulata dal Collegio o da una sezione"
+            ]
+          },
+          "right": {
+            "title": "Oggi",
+            "items": [
+              "La delibera, firmata da Presidente e relatore, passa al Direttorio tramite il Servizio Sanzioni e Liquidazioni",
+              "Se si propone la radiazione, il Collegio si esprime anche sulla cancellazione della società",
+              "L'IVASS decide con provvedimento motivato",
+              "Ricorso: giurisdizione esclusiva del giudice amministrativo; il ricorso non sospende l'esecuzione"
+            ]
+          },
+          "note": "I provvedimenti sono pubblicati per estratto nel Bollettino e sul sito IVASS, dove restano per cinque anni. In alcuni casi la pubblicazione può essere anonima, rinviata o esclusa.",
+          "noteRef": "CAP, artt. 324-octies, 325-ter; Reg. 39/2018, artt. 26, 30"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un collaboratore iscritto in sezione E riceve una contestazione per violazioni delle regole di comportamento. Chiede l'audizione. Il Collegio di garanzia convoca anche l'agenzia per cui lavora. Alla fine l'IVASS gli applica una sanzione pecuniaria.",
+          "questions": [
+            "Perché il Collegio può sentire l'agenzia?",
+            "Entro quando deve pagare e che cosa succede se ricorre al TAR?"
+          ],
+          "solution": "Il Collegio può convocare le imprese e gli intermediari con cui l'interessato aveva incarichi o collaborazioni all'epoca dei fatti, per avere chiarimenti (Reg. 39/2018, art. 25, c. 4). Il pagamento va fatto entro 30 giorni dalla notifica, con le spese del procedimento; si può chiedere la rateizzazione entro lo stesso termine. Il ricorso al giudice amministrativo non sospende l'esecuzione: se non paga, scattano interessi, maggiorazioni e infine la riscossione coattiva."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi applica oggi le sanzioni disciplinari ai periti assicurativi?",
+          "options": [
+            "L'IVASS",
+            "La CONSAP, su proposta del Collegio di garanzia",
+            "Il Ministero delle imprese",
+            "L'ordine professionale dei periti"
+          ],
+          "answer": 1,
+          "explanation": "Artt. 330 e 331 CAP: la CONSAP contesta gli addebiti entro 120 o 180 giorni e decide, ricevuta la proposta del Collegio di garanzia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un intermediario paga la sanzione con 7 mesi di ritardo. Che cosa succede?",
+          "options": [
+            "Paga solo gli interessi al tasso legale",
+            "La sanzione è maggiorata di un decimo per il semestre di ritardo",
+            "La sanzione raddoppia",
+            "Nulla, se ha presentato ricorso"
+          ],
+          "answer": 1,
+          "explanation": "Per un ritardo di almeno un semestre la somma è maggiorata di un decimo per ogni semestre; la maggiorazione assorbe gli interessi di mora (Reg. 39/2018, art. 34, c. 4)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "30/60",
+              "text": "giorni per pagare, da chi risiede in Italia o all'estero; poi interessi e maggiorazione di 1/10 a semestre."
+            },
+            {
+              "value": "Personale",
+              "text": "Esponenti, personale e amministratori delle società di intermediazione possono essere sanzionati e interdetti."
+            },
+            {
+              "value": "Collegio",
+              "text": "Un magistrato o un docente e due esperti; istruisce i procedimenti contro intermediari e periti e propone la sanzione."
+            },
+            {
+              "value": "CONSAP",
+              "text": "Contesta e sanziona i periti: richiamo, censura, radiazione."
+            },
+            {
+              "value": "TAR",
+              "text": "Il ricorso al giudice amministrativo non sospende l'esecuzione della sanzione."
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione vediamo che cosa succede dopo la decisione: come e quando si paga la sanzione, chi ne risponde e come funziona il procedimento per gli intermediari e per i periti davanti al Collegio di garanzia.\n\nCominciamo dal pagamento. Il materiale originale e il Regolamento 39 del 2018 dicono la stessa cosa. La sanzione si paga, insieme alle spese del procedimento, entro 30 giorni dalla notifica del provvedimento finale, oppure entro 60 giorni se il destinatario risiede all'estero. Il provvedimento indica come pagare. Nei dieci giorni successivi alla scadenza bisogna inviare all'IVASS, al Servizio Sanzioni e Liquidazioni, la prova del pagamento. Se si paga in ritardo, ci sono due regimi. Per un ritardo inferiore a un semestre si pagano gli interessi di mora al tasso legale. Per un ritardo pari o superiore a un semestre la somma dovuta viene maggiorata di un decimo per ogni semestre, a partire dal giorno dopo la scadenza e fino al pagamento o alla trasmissione del ruolo all'agente della riscossione; in questo caso la maggiorazione assorbe gli interessi.\n\nAlcune altre regole pratiche. Per le sanzioni dell'IVASS non è ammesso il pagamento in misura ridotta previsto in generale dalla legge 689 del 1981: non esiste quindi la possibilità di chiudere tutto pagando subito una cifra ridotta. Si può invece chiedere di pagare a rate, con un'istanza motivata e documentata, da presentare entro i termini di pagamento. Se la sanzione non viene pagata, l'IVASS avvia la riscossione coattiva tramite ruolo, con le regole previste per le imposte. E il ricorso al giudice non sospende l'esecuzione del provvedimento: chi impugna deve comunque pagare nei termini.\n\nChi risponde della violazione? Il materiale originale riporta la regola dell'articolo 325 nella versione precedente al 2018. Le sanzioni pecuniarie si applicavano alle imprese e agli intermediari responsabili della violazione, salvo che dimostrassero che la violazione era stata commessa da loro dipendenti o collaboratori, con abuso dei doveri d'ufficio e per trarne un vantaggio personale. In quel caso la sanzione colpiva il dipendente o il collaboratore, mentre l'impresa e l'intermediario rispondevano come responsabili civili. Questa eccezione è stata abrogata nel 2018. Oggi l'articolo 325 stabilisce che le sanzioni si applicano alle imprese, agli intermediari e agli altri soggetti destinatari degli obblighi del Codice, responsabili della violazione. Per le funzioni affidate all'esterno, in outsourcing, risponde l'impresa. In più il Codice prevede sanzioni personali per gli esponenti aziendali e il personale, quando la violazione deriva da doveri propri e ha inciso in modo rilevante.\n\nPer gli intermediari c'è una regola specifica. Se una società di intermediazione viola le norme sulla distribuzione, gli amministratori ritenuti responsabili possono subire l'interdizione temporanea dalle funzioni di gestione, da sei mesi a tre anni. Anche per loro il procedimento si svolge davanti al Collegio di garanzia.\n\nPassiamo alle sanzioni disciplinari. Il materiale originale indicava le norme di riferimento: il Codice delle assicurazioni, l'articolo 62 del Regolamento ISVAP numero 5 del 2006 e il Regolamento IVASS numero 2 del 2013. Oggi il quadro è questo. Per gli intermediari valgono gli articoli 324 e 324-octies del Codice, il Regolamento IVASS 40 del 2018 sulla distribuzione, che ha abrogato il Regolamento 5, e il Regolamento 39 del 2018 per la procedura. Il Regolamento 2 del 2013 vale ancora solo per le violazioni commesse prima del primo ottobre 2018. Per i periti valgono gli articoli da 329 a 331 del Codice.\n\nIl materiale originale precisava che il principio dell'assenza di pregiudizio e quello della graduazione della sanzione in base alla capacità patrimoniale del sanzionato si applicavano solo alle sanzioni pecuniarie. Per questo una violazione poteva avere rilievo disciplinare anche senza il pregiudizio che, secondo l'articolo 326, giustificava la sanzione pecuniaria. Con l'abrogazione dell'articolo 326 il quadro è cambiato: per tutte le sanzioni dell'articolo 324, compresi richiamo e censura, valgono il principio di rilevanza e i criteri dell'articolo 324-sexies, tra cui la capacità finanziaria del responsabile.\n\nL'articolo 329, nella versione riportata dal materiale, stabiliva che gli intermediari di assicurazione e riassicurazione, compresi i produttori diretti, i collaboratori e gli altri ausiliari, e i periti assicurativi che, nell'esercizio della loro attività, anche nei casi già puniti ai sensi dell'articolo 324, violavano il Codice o le norme attuative, erano puniti in base alla gravità e all'eventuale recidiva con il richiamo, la censura o la radiazione. Oggi l'articolo 329 riguarda solo i periti assicurativi. Per gli intermediari, richiamo, censura e radiazione sono nell'articolo 324, insieme alla sanzione pecuniaria. Per i periti i provvedimenti sono notificati con raccomandata e comunicati alle imprese con cui hanno incarichi in corso.\n\nLe fasi del procedimento indicate dal materiale originale sono ancora un buon promemoria: accertamento dell'infrazione; contestazione degli addebiti; eventuale reclamo, che oggi si chiama presentazione di deduzioni difensive, entro 60 giorni; eventuale richiesta di audizione davanti al Collegio di garanzia; trattazione nella seduta del Collegio fissata a questo scopo; delibera del Collegio; provvedimento finale di sanzione o di archiviazione; notifica e pubblicazione.\n\nChi contesta? Per gli iscritti al Registro, compresi collaboratori e altri ausiliari, è l'IVASS, entro 120 giorni dall'accertamento, 180 per chi risiede all'estero. L'IVASS trasmette poi gli atti al Collegio di garanzia. Per i periti è la CONSAP, negli stessi termini. Il Collegio di garanzia è uno solo, istituito presso l'IVASS, ed esamina entrambi i tipi di procedimento.\n\nIl Collegio è composto da un presidente, che è un magistrato con qualifica non inferiore a consigliere di Cassazione o equiparato, anche a riposo, oppure un docente universitario di ruolo, e da due esperti in materia assicurativa. Il Codice oggi precisa che uno dei due esperti è designato sentite le associazioni più rappresentative, che il mandato dura quattro anni ed è rinnovabile una sola volta e che il Collegio può essere diviso in più sezioni. Il materiale originale faceva riferimento alla nomina secondo l'articolo 331 del Codice: oggi la norma di riferimento è l'articolo 324-octies.\n\nChe cosa fa il Collegio nelle sue adunanze? Esamina gli atti, sente gli interessati che lo hanno chiesto, che possono farsi assistere da avvocati ed esperti di fiducia, e può chiedere un'integrazione dell'istruttoria. Il materiale originale indicava che la chiedeva al Servizio Vigilanza Intermediari; oggi la chiede al Servizio Sanzioni e Liquidazioni. Può anche convocare persone informate sui fatti, comprese le imprese e gli intermediari con cui l'interessato collaborava all'epoca. Al termine delibera: se non ritiene provata la violazione propone l'archiviazione, se la ritiene provata trasmette una proposta motivata di sanzione.\n\nLa delibera è firmata dal Presidente e dal relatore che ne ha scritto le motivazioni e va al Direttorio integrato, o ai soggetti delegati. Secondo il materiale originale, il Direttorio poteva decidere con un proprio provvedimento, chiedere al Collegio di riesaminare la proposta oppure rimettere la proposta formulata dal Collegio o da una singola sezione. Oggi il Codice dice semplicemente che l'IVASS, ricevuta la proposta, decide la sanzione con provvedimento motivato, comunicato poi alle parti; in base al Regolamento 39 può accoglierla, discostarsene o chiedere supplementi di istruttoria. Se viene proposta la radiazione, il Collegio si esprime anche sulla cancellazione della società in cui opera l'interessato. Contro il provvedimento si ricorre al giudice amministrativo, che ha giurisdizione esclusiva, e il ricorso non sospende l'esecuzione. I provvedimenti sono pubblicati per estratto nel Bollettino e sul sito dell'IVASS, dove restano cinque anni; in alcuni casi la pubblicazione può essere anonima, rinviata o esclusa. Le sanzioni sulla distribuzione sono comunicate anche all'Autorità europea EIOPA, che il Codice chiama AEAP. Per i periti, la CONSAP pubblica sul proprio sito i provvedimenti di radiazione.\n\nUn caso. Un collaboratore iscritto in sezione E riceve una contestazione, chiede l'audizione e il Collegio convoca anche l'agenzia per cui lavora. Può farlo, perché il Collegio può sentire le imprese e gli intermediari con cui l'interessato collaborava. Se alla fine arriva una sanzione pecuniaria, il collaboratore deve pagarla entro 30 giorni, eventualmente chiedendo la rateizzazione, anche se decide di ricorrere al TAR.\n\nChiudiamo così il percorso sulle sanzioni: abbiamo visto i principi, gli illeciti, la procedura dalla contestazione alla decisione e, infine, il pagamento e il ruolo del Collegio di garanzia. Per l'intermediario il messaggio è sempre lo stesso: conoscere le regole, rispondere nei tempi all'IVASS e, se arriva una contestazione, difendersi in modo ordinato e documentato.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026 – Titolo XVIII",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 39 del 2 agosto 2018 (procedura sanzionatoria), testo modificato dai Provv. IVASS 86/2019 e 90/2019",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n39/Regolamento_IVASS_n._39_2018.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018 (distribuzione assicurativa), art. 97 – abrogazioni",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: pagamento entro 30/60 giorni con le spese e maggiorazione di 1/10 per semestre. Confermate e integrate con prova del pagamento entro 10 giorni, interessi di mora sotto il semestre, rateizzazione, riscossione coattiva, esclusione del pagamento in misura ridotta.",
+          "source_ref": "Reg. 39/2018, artt. 34-35; CAP, art. 328"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: esclusione della responsabilità di imprese e intermediari per abuso del dipendente (art. 325). Superata: art. 325, c. 2 abrogato dal D.Lgs. 68/2018; aggiunti art. 325, c. 1 e 3 vigenti e sanzioni personali per esponenti e personale (artt. 311-sexies, 324-septies).",
+          "source_ref": "CAP, art. 325 e nota 1135"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Interdizione degli amministratori delle società di intermediazione da 6 mesi a 3 anni, con procedura davanti al Collegio di garanzia.",
+          "source_ref": "CAP, artt. 324-septies, c. 5; 324-octies, c. 8"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le norme disciplinari (CAP; Reg. ISVAP 5/2006 art. 62; Reg. IVASS 2/2013). Aggiornamento: Reg. 5/2006 abrogato dal Reg. IVASS 40/2018; Reg. 2/2013 solo per violazioni anteriori al 1° ottobre 2018; oggi artt. 324, 324-octies, 329-331 CAP e Reg. 39/2018.",
+          "source_ref": "Reg. IVASS 40/2018, art. 97; CAP, nota all'art. 311-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: assenza di pregiudizio e capacità patrimoniale solo per le sanzioni pecuniarie (art. 326). Superata: art. 326 abrogato; oggi principio di rilevanza e criteri dell'art. 324-sexies per tutte le sanzioni dell'art. 324.",
+          "source_ref": "CAP, artt. 324-ter, 324-sexies"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte: art. 329 previgente (intermediari e periti; richiamo, censura, radiazione). Superato: oggi art. 329 solo per i periti; intermediari nell'art. 324.",
+          "source_ref": "CAP, art. 329 e nota 1157"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le fasi del procedimento disciplinare e la contestazione di IVASS e CONSAP entro 120/180 giorni. Aggiornamento: «reclamo» sostituito da deduzioni difensive; norme vigenti artt. 324-octies e 331.",
+          "source_ref": "CAP, artt. 324-octies, 330, 331"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: composizione del Collegio di garanzia (nomina «ai sensi dell'art. 331»). Aggiornamento: oggi art. 324-octies, c. 3; aggiunti designazione di un esperto sentite le associazioni, mandato quadriennale rinnovabile una volta, sezioni, astensione.",
+          "source_ref": "CAP, art. 324-octies, c. 3; Reg. 39/2018, artt. 19-22"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: attività del Collegio nelle adunanze, integrazione istruttoria chiesta al «Servizio Vigilanza Intermediari Assicurativi». Aggiornamento: oggi la richiesta va al Servizio Sanzioni e Liquidazioni (Provv. IVASS 90/2019); possibile convocazione di imprese e intermediari collegati.",
+          "source_ref": "Reg. 39/2018, art. 25"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte: delibera firmata da Presidente e relatore e tre determinazioni del Direttorio (decide, chiede riesame, rimette la proposta). Aggiornamento: oggi l'IVASS decide con provvedimento motivato (art. 324-octies, c. 5; Reg. 39/2018, art. 28); la formula «rimette la proposta» non trova riscontro nel testo vigente.",
+          "source_ref": "CAP, art. 324-octies; Reg. 39/2018, artt. 26, 28"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ricorso al giudice amministrativo senza effetto sospensivo, pubblicazione dei provvedimenti (Bollettino, sito per 5 anni, forma anonima), comunicazione all'AEAP, pubblicazione CONSAP delle radiazioni dei periti.",
+          "source_ref": "CAP, artt. 324-octies, c. 7; 325-ter; 325-quater; 331, c. 6; Reg. 39/2018, art. 30"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sul procedimento davanti al Collegio e sul pagamento; due verifiche.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

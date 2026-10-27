@@ -1,0 +1,725 @@
+{
+  "module": "Area giuridica",
+  "topic": "Impresa di riassicurazione: accesso, esercizio e operatività",
+  "topic_order": 2,
+  "scope": "core",
+  "source_minutes": 26,
+  "lessons": [
+    {
+      "title": "La riassicurazione e l'accesso all'attività",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di riassicurazione - condizione di accesso e di esercizio.pdf.pdf",
+        "Corso ivass 30 ore/.../Impresa di riassicurazione/Impresa di riassicurazione - condizione di accesso e di esercizio prima partepdf"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di riassicurazione: accesso, esercizio e operatività",
+          "title": "La riassicurazione e l'accesso all'attività",
+          "goals": [
+            "Spiegare che cos'è la riassicurazione e chi sono le parti",
+            "Distinguere riassicurazione facoltativa, trattati, riassicurazione finite e società veicolo",
+            "Conoscere chi può esercitare la riassicurazione e con quale oggetto sociale"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la riassicurazione",
+          "key": "È l'attività di accettare e gestire rischi ceduti da un'impresa di assicurazione o retrocessi da un'impresa di riassicurazione, anche di uno Stato terzo.",
+          "body": "Il riassicuratore si impegna a sopportare una massa di rischi omogenei, di norma per una parte, assunti da un assicuratore (il riassicurato). Gli paga l'indennità versata all'assicurato nella misura prevista dal contratto. In cambio riceve un premio, o una parte proporzionale del premio incassato.",
+          "ref": "Materiale originale del corso; CAP, art. 1, lett. cc)"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Glossario",
+          "title": "Le parole della riassicurazione",
+          "lead": "Le definizioni sono quelle del Codice delle assicurazioni private (CAP).",
+          "facts": [
+            {
+              "label": "Cedente",
+              "text": "L'impresa di assicurazione che trasferisce una parte dei propri rischi: è il riassicurato."
+            },
+            {
+              "label": "Impresa di riassicurazione",
+              "text": "Società autorizzata alla sola riassicurazione, la cui attività principale è accettare rischi ceduti da assicuratori o da altri riassicuratori."
+            },
+            {
+              "label": "Retrocessione",
+              "text": "Cessione dei rischi assunti in riassicurazione: il riassicuratore si riassicura a sua volta presso un altro riassicuratore."
+            },
+            {
+              "label": "Captive",
+              "text": "Impresa di riassicurazione controllata da un'impresa finanziaria non assicurativa o da un'impresa non finanziaria: copre solo i rischi delle imprese che la controllano o del loro gruppo."
+            },
+            {
+              "label": "Stato terzo",
+              "text": "Stato che non fa parte dell'Unione europea né dello Spazio economico europeo."
+            }
+          ],
+          "ref": "CAP, art. 1, lett. cc), cc-bis), cc-ter), uu)"
+        },
+        {
+          "layout": "compare",
+          "title": "Come si stipula: singoli rischi o trattati",
+          "cols": [
+            {
+              "title": "Riassicurazione facoltativa",
+              "items": [
+                "Riguarda un singolo rischio",
+                "Si negozia caso per caso",
+                "La forma scritta non è necessaria, neppure come prova"
+              ]
+            },
+            {
+              "title": "Trattati",
+              "items": [
+                "Contratti generali che coprono un insieme di rischi",
+                "Regolano in anticipo le cessioni di un portafoglio",
+                "Devono essere provati per iscritto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il cliente non ha rapporti con il riassicuratore",
+          "key": "Il contratto di riassicurazione non crea alcun rapporto tra l'assicurato e il riassicuratore. Per questo la riassicurazione non è un'assicurazione per conto altrui.",
+          "body": "L'assicurato ha come unica controparte la propria compagnia. È la compagnia che risponde per intero verso di lui, anche se ha riassicurato il rischio, e che poi recupera dal riassicuratore la quota prevista dal trattato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Quali regole si applicano",
+          "left": {
+            "title": "Non si applicano",
+            "items": [
+              "Il principio indennitario",
+              "Le norme su dichiarazioni inesatte e reticenze"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Si applicano",
+            "items": [
+              "Altre norme tipiche del contratto di assicurazione, in quanto compatibili"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "La riassicurazione è un contratto non riconducibile al contratto di assicurazione: è un rapporto tra professionisti del rischio.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "La riassicurazione finite",
+          "lead": "Un'operazione di carattere sostanzialmente finanziario e a lungo termine.",
+          "facts": [
+            {
+              "label": "Su misura",
+              "text": "Contratti costruiti sulle esigenze della singola cedente."
+            },
+            {
+              "label": "Limite",
+              "text": "La prestazione massima del riassicuratore è limitata."
+            },
+            {
+              "label": "Durata",
+              "text": "Contratti estesi su più settori e/o di durata pluriennale."
+            },
+            {
+              "label": "Finanza",
+              "text": "Le stime considerano anche i proventi finanziari attesi."
+            },
+            {
+              "label": "Saldo",
+              "text": "Spesso il saldo tra le parti non è pagato durante la validità del contratto."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Finite: la definizione e i controlli",
+          "key": "Per il CAP la perdita massima trasferita supera il premio per un importo limitato ma significativo, con trasferimento sia del rischio di sottoscrizione sia del rischio di timing.",
+          "body": "Serve anche almeno uno di questi due elementi: si considera esplicitamente il valore del denaro nel tempo, oppure il contratto limita il risultato economico tra le parti nel tempo. Chi stipula contratti finite deve saperne identificare, misurare, monitorare, gestire e segnalare i rischi. L'IVASS ne detta le regole e ne vigila il rispetto.",
+          "ref": "CAP, art. 1, lett. vv-bis); art. 66-septies"
+        },
+        {
+          "layout": "concept",
+          "title": "Le società veicolo",
+          "key": "Assumono rischi ceduti da imprese di assicurazione o riassicurazione e li finanziano interamente emettendo titoli o altri strumenti finanziari.",
+          "body": "Chi compra questi titoli viene rimborsato solo dopo che la società veicolo ha fatto fronte ai propri obblighi di riassicurazione. In pratica il rischio assicurativo passa ai mercati finanziari. Una società veicolo con sede in Italia può operare solo con la preventiva autorizzazione dell'IVASS.",
+          "ref": "Materiale originale; CAP, art. 1, lett. vv-ter); art. 57-bis"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le regole di accesso all'attività",
+          "items": [
+            {
+              "text": "Esercitare la sola attività di riassicurazione è riservato alle imprese di riassicurazione.",
+              "ref": "CAP, art. 57, c. 1"
+            },
+            {
+              "text": "Anche le imprese di assicurazione possono fare riassicurazione: per questa attività restano soggette alle regole delle imprese di assicurazione.",
+              "ref": "CAP, art. 57, c. 4; art. 62, c. 2"
+            },
+            {
+              "text": "L'oggetto sociale è limitato alla riassicurazione e alle operazioni connesse o strumentali, tra cui la funzione di impresa di partecipazione e attività del settore finanziario.",
+              "ref": "CAP, art. 57, c. 2"
+            },
+            {
+              "text": "In Italia non si possono costituire società che abbiano come oggetto esclusivo la riassicurazione all'estero.",
+              "ref": "CAP, art. 57, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi assume rischi in riassicurazione",
+          "head": [
+            "Soggetto",
+            "Caratteristica"
+          ],
+          "rows": [
+            [
+              "Impresa di riassicurazione",
+              "Fa solo riassicurazione, con oggetto sociale limitato. Autorizzata dall'IVASS."
+            ],
+            [
+              "Impresa di assicurazione",
+              "Può accettare rischi in riassicurazione accanto all'attività diretta, con le regole delle imprese di assicurazione."
+            ],
+            [
+              "Captive di riassicurazione",
+              "Copre solo i rischi del gruppo che la controlla. Ha un minimo di capitale più basso."
+            ],
+            [
+              "Società veicolo",
+              "Non è un'impresa di assicurazione o riassicurazione: trasferisce i rischi al mercato dei titoli. Serve l'autorizzazione dell'IVASS."
+            ]
+          ],
+          "ref": "CAP, artt. 1, 57, 57-bis"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un trattato di riassicurazione che copre tutto il portafoglio incendio di una compagnia deve essere provato per iscritto?",
+          "options": [
+            "No, la riassicurazione non richiede mai la forma scritta",
+            "Sì, i trattati devono essere provati per iscritto",
+            "Solo se il riassicuratore ha sede in uno Stato terzo",
+            "Solo se lo richiede l'assicurato"
+          ],
+          "answer": 1,
+          "explanation": "I contratti generali, detti trattati, devono essere provati per iscritto. Per la riassicurazione di singoli rischi, invece, la forma scritta non serve neppure come prova."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'azienda cliente ha subito un grosso incendio. La compagnia tarda a pagare. Il titolare legge sul giornale che la compagnia riassicura i grandi rischi presso un noto riassicuratore estero e chiede al suo agente di scrivere direttamente al riassicuratore per avere l'indennizzo.",
+          "questions": [
+            "Il cliente può chiedere l'indennizzo al riassicuratore?",
+            "Che cosa deve fare l'agente?"
+          ],
+          "solution": "No. La riassicurazione non crea rapporti tra assicurato e riassicuratore: l'unico debitore del cliente è la compagnia, che risponde per intero anche se ha riassicurato il rischio. L'agente spiega questo al cliente, segue la pratica di sinistro con la compagnia e, se il cliente è insoddisfatto, lo informa sulla possibilità di presentare un reclamo scritto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa caratterizza una società veicolo?",
+          "options": [
+            "È un'impresa di assicurazione che vende polizze ai privati",
+            "Finanzia i rischi assunti emettendo titoli, il cui rimborso è subordinato agli obblighi di riassicurazione",
+            "È un intermediario iscritto nella sezione B del Registro",
+            "Può operare in Italia senza alcuna autorizzazione"
+          ],
+          "answer": 1,
+          "explanation": "La società veicolo assume rischi ceduti da assicuratori o riassicuratori e li finanzia integralmente con l'emissione di titoli. I diritti di rimborso dei sottoscrittori sono subordinati agli obblighi di riassicurazione. Se ha sede in Italia serve l'autorizzazione dell'IVASS."
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Per il cliente la controparte è sempre la compagnia: la riassicurazione non cambia chi paga il sinistro."
+            },
+            {
+              "text": "La riassicurazione aumenta la capacità della compagnia: per questo può accettare grandi rischi aziendali."
+            },
+            {
+              "text": "Un broker che colloca rischi presso riassicuratori svolge intermediazione riassicurativa ed è soggetto alla vigilanza dell'IVASS.",
+              "ref": "CAP, art. 6, c. 1, lett. d)"
+            }
+          ]
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Cedente",
+              "text": "è il riassicurato; il riassicuratore ne sopporta una parte dei rischi"
+            },
+            {
+              "value": "Trattati",
+              "text": "provati per iscritto; la facoltativa su singoli rischi no"
+            },
+            {
+              "value": "Nessun rapporto",
+              "text": "tra assicurato e riassicuratore"
+            },
+            {
+              "value": "Finite · veicolo",
+              "text": "operazioni finanziarie a lungo termine e trasferimento dei rischi al mercato dei titoli"
+            },
+            {
+              "value": "Art. 57",
+              "text": "sola riassicurazione riservata alle imprese di riassicurazione, con oggetto sociale limitato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel mondo della riassicurazione: vediamo che cos'è, chi sono le parti, quali forme può assumere e chi può esercitarla. Nella lezione successiva vedremo come si ottiene l'autorizzazione, come si opera all'estero e quali regole valgono nella gestione quotidiana dell'impresa di riassicurazione.\n\nPartiamo dalla definizione. La riassicurazione è l'attività che consiste nell'accettare e nel gestire rischi ceduti da un'impresa di assicurazione, oppure retrocessi da un'impresa di riassicurazione, anche di uno Stato terzo. Il riassicuratore si impegna a sopportare una massa di rischi omogenei, di norma solo per una parte, assunti da un assicuratore, che in questo rapporto si chiama riassicurato. Il riassicuratore si obbliga a rimborsare all'assicuratore l'indennità che questi ha pagato all'assicurato, nella misura prevista dal contratto. In cambio riceve un premio, oppure una parte proporzionale del premio che l'assicuratore ha incassato dai propri clienti.\n\nPensiamo a un esempio concreto. Una compagnia assicura contro l'incendio centinaia di capannoni industriali della stessa zona. Un solo evento grave potrebbe colpirne molti insieme. Con la riassicurazione la compagnia trasferisce una parte di questo rischio a un riassicuratore: così può accettare più contratti, e contratti più grandi, senza mettere a rischio la propria solidità.\n\nFissiamo alcune parole. L'impresa che cede il rischio è la cedente, cioè il riassicurato. Il Codice delle assicurazioni private definisce impresa di riassicurazione la società autorizzata a esercitare la sola riassicurazione, la cui attività principale è accettare rischi ceduti da imprese di assicurazione o da altre imprese di riassicurazione. La retrocessione, sempre secondo il Codice, è la cessione dei rischi assunti in riassicurazione: anche il riassicuratore, a sua volta, può riassicurare con un altro riassicuratore i rischi che ha acquisito. C'è poi la captive di riassicurazione: un'impresa di riassicurazione controllata da un'impresa finanziaria che non è un'impresa di assicurazione, oppure da un'impresa non finanziaria, e che serve a coprire esclusivamente i rischi delle imprese che la controllano o del loro gruppo. Per Stato terzo si intende uno Stato che non appartiene all'Unione europea né allo Spazio economico europeo.\n\nCome si stipula la riassicurazione? Le strade sono due. La prima è la riassicurazione facoltativa, che riguarda singoli rischi: la compagnia propone al riassicuratore un rischio specifico, per esempio un grande impianto industriale, e il riassicuratore decide se accettarlo e a quali condizioni. Per questi contratti la forma scritta non è necessaria, neppure ai fini della prova. La seconda strada sono i contratti generali, detti anche trattati: regolano in anticipo la cessione di un intero portafoglio o di una categoria di rischi, per esempio tutto il ramo incendio di una compagnia. I trattati devono essere provati per iscritto.\n\nUn punto fondamentale, anche per il lavoro di tutti i giorni: il contratto di riassicurazione non crea alcun rapporto tra l'assicurato e il riassicuratore. Di conseguenza la riassicurazione non può essere considerata un'assicurazione per conto altrui. Il cliente ha come unica controparte la propria compagnia. È la compagnia che risponde per intero del sinistro, anche se ha ceduto una parte del rischio, ed è la compagnia che poi recupera dal riassicuratore la quota prevista dal trattato. Il cliente non può rivolgersi al riassicuratore, e il riassicuratore non deve nulla al cliente.\n\nQuali regole si applicano al contratto di riassicurazione? Secondo il materiale del corso, non si applicano il principio indennitario né norme importanti come quelle sulle dichiarazioni inesatte e reticenze. Si applicano invece altre norme tipiche del contratto di assicurazione. La conclusione è che la riassicurazione è un contratto non riconducibile al contratto di assicurazione: è un rapporto tra professionisti del rischio, l'assicuratore e il riassicuratore, con logiche proprie.\n\nPassiamo a una forma particolare: la riassicurazione finite. È un'operazione di carattere sostanzialmente finanziario e a lungo termine. Si tratta di contratti su misura, nei quali la prestazione massima del riassicuratore è limitata. Sono contratti estesi su più settori o di durata pluriennale. Alcune stime empiriche tengono conto dei proventi finanziari attesi, e spesso il saldo tra le parti non viene pagato durante la validità del contratto.\n\nIl Codice delle assicurazioni dà una definizione precisa. Nella riassicurazione finite la perdita massima potenziale, espressa come rischio economico massimo trasferito, deriva da un trasferimento significativo sia del rischio di sottoscrizione sia del rischio di timing, cioè del rischio legato a quando si pagheranno i sinistri. Questa perdita massima supera il premio per tutta la durata del contratto, ma solo per un importo limitato anche se significativo. Deve esserci inoltre almeno uno di questi due elementi: una considerazione esplicita del valore del denaro nel tempo, oppure clausole che limitano nel tempo il risultato economico del contratto tra le parti. Poiché sono operazioni complesse, l'impresa che stipula contratti finite deve avere processi adeguati per identificare, quantificare, monitorare, gestire, controllare e segnalare i rischi che ne derivano. L'IVASS stabilisce con regolamento le regole specifiche per questa attività e vigila sul loro rispetto.\n\nL'altra figura da conoscere è la società veicolo. È un'impresa, con o senza personalità giuridica, diversa da un'impresa di assicurazione o di riassicurazione, che assume rischi ceduti da imprese di assicurazione o di riassicurazione e finanzia integralmente la propria esposizione emettendo titoli o altri strumenti finanziari. Chi sottoscrive questi titoli ha diritti di rimborso subordinati agli obblighi di riassicurazione della società veicolo: in altre parole, viene pagato solo se e dopo che la società veicolo ha fatto fronte ai sinistri. In questo modo il rischio assicurativo, per esempio quello catastrofale, viene trasferito agli investitori. Una società veicolo con sede legale in Italia può operare solo con la preventiva autorizzazione dell'IVASS; le condizioni di accesso e di esercizio sono fissate da un regolamento governativo.\n\nVediamo ora le regole di accesso all'attività. Primo: l'esercizio della sola attività riassicurativa è riservato alle imprese di riassicurazione. Secondo: è comunque ammesso che anche le imprese di assicurazione esercitino la riassicurazione; in questo caso, però, restano soggette alla disciplina delle imprese di assicurazione. Terzo: l'impresa di riassicurazione limita il proprio oggetto sociale alla riassicurazione e alle operazioni connesse o strumentali. Il Codice precisa che vi rientrano la funzione di impresa di partecipazione e le attività svolte nel settore finanziario. Quarto: è vietato costituire in Italia società che abbiano come oggetto esclusivo l'esercizio della riassicurazione all'estero.\n\nRiassumendo, chi può assumere rischi in riassicurazione? L'impresa di riassicurazione, che fa solo questo ed è autorizzata dall'IVASS. L'impresa di assicurazione, che può accettare rischi in riassicurazione accanto alla propria attività diretta. La captive, che copre i rischi del proprio gruppo e, come vedremo, ha un requisito minimo di capitale più basso. E la società veicolo, che non è un'impresa di assicurazione o di riassicurazione ma trasferisce i rischi al mercato dei titoli.\n\nFacciamo ora due verifiche e un caso pratico. Nel caso, un cliente vorrebbe ottenere l'indennizzo direttamente dal riassicuratore della sua compagnia. Abbiamo visto che non è possibile: il riassicuratore non ha alcun rapporto con l'assicurato. L'intermediario deve spiegarlo con chiarezza, seguire la pratica con la compagnia e, se il cliente resta insoddisfatto, informarlo che può presentare un reclamo scritto.\n\nPer chi lavora come intermediario, tre indicazioni pratiche. Per il cliente la controparte è sempre e soltanto la compagnia: la riassicurazione non cambia chi paga il sinistro. La riassicurazione è ciò che permette alla compagnia di accettare grandi rischi aziendali, quindi è utile conoscerla quando si propongono coperture per imprese. Infine, chi colloca rischi presso riassicuratori svolge attività di intermediazione riassicurativa: anche gli intermediari di riassicurazione sono soggetti alla vigilanza dell'IVASS.\n\nIn sintesi: la cedente è il riassicurato; i trattati si provano per iscritto, la facoltativa no; tra assicurato e riassicuratore non c'è alcun rapporto; la riassicurazione finite e le società veicolo sono strumenti con una forte componente finanziaria; e l'esercizio della sola riassicurazione è riservato alle imprese di riassicurazione, che hanno un oggetto sociale limitato.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Glossario con le definizioni del CAP: impresa di riassicurazione, captive, impresa extracomunitaria (Stato terzo), retrocessione.",
+          "source_ref": "CAP, art. 1, lett. cc), cc-bis), cc-ter), uu)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione normativa di riassicurazione finite e obblighi di presidio dei rischi; regolamentazione e vigilanza IVASS.",
+          "source_ref": "CAP, art. 1, lett. vv-bis); art. 66-septies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Società veicolo: definizione completa del CAP e obbligo di autorizzazione preventiva dell'IVASS per quelle con sede in Italia.",
+          "source_ref": "CAP, art. 1, lett. vv-ter); art. 57-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Operazioni connesse o strumentali (impresa di partecipazione, settore finanziario) e soggezione dell'impresa di assicurazione che esercita la riassicurazione alla disciplina delle imprese di assicurazione.",
+          "source_ref": "CAP, art. 57, c. 2 e 4; art. 62, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio, caso pratico e indicazioni operative per l'intermediario; richiamo alla vigilanza IVASS sugli intermediari di riassicurazione.",
+          "source_ref": "CAP, art. 6, c. 1, lett. d)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: forma scritta non necessaria nemmeno ai fini probatori per la facoltativa su singoli rischi; trattati da provare per iscritto; assenza di rapporti tra assicurato e riassicuratore. Riferimento da indicare / possibile aggiornamento: codice civile, art. 1928 (non verificato su fonte ufficiale in questa revisione).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: alla riassicurazione non si applicano il principio indennitario né le norme su dichiarazioni inesatte e reticenze, mentre si applicano altre norme tipiche dell'assicurazione. Riferimento normativo o giurisprudenziale da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le caratteristiche descrittive della riassicurazione finite (contratti su misura, pluriennali, proventi finanziari attesi, saldo spesso non pagato in corso di contratto), affiancate dalla definizione del CAP.",
+          "source_ref": "Materiale originale; CAP, art. 1, lett. vv-bis)"
+        }
+      ]
+    },
+    {
+      "title": "Autorizzazione, operatività all'estero e regole di esercizio",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di riassicurazione - condizione di accesso e di esercizio.pdf.pdf",
+        "Corso ivass 30 ore/.../Impresa di riassicurazione/Impresa di riassicurazione - condizione di accesso e di esercizio seconda parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di riassicurazione: accesso, esercizio e operatività",
+          "title": "Autorizzazione, operatività all'estero e regole di esercizio",
+          "goals": [
+            "Elencare i requisiti per l'autorizzazione IVASS di un'impresa di riassicurazione italiana",
+            "Capire che cosa sono MCR e SCR e perché contano",
+            "Distinguere stabilimento e libera prestazione di servizi, in uscita e in entrata"
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "D.Lgs. 209/2005, Titolo V (accesso alla riassicurazione, artt. 57-61) e Titolo VI (esercizio, artt. 62-67)."
+            },
+            {
+              "label": "Solvency II",
+              "detail": "Direttiva quadro 2009/138, recepita aggiornando il CAP e applicata dal 1° gennaio 2016. Tre pilastri: requisiti quantitativi, qualitativi e di informativa."
+            },
+            {
+              "label": "Regolamento ISVAP n. 33/2010",
+              "detail": "Procedura di autorizzazione e di estensione ad altri rami, indicato nelle note del CAP."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I requisiti per l'autorizzazione",
+          "items": [
+            {
+              "text": "Forma di società per azioni o di società europea.",
+              "ref": "art. 59, c. 1, lett. a)"
+            },
+            {
+              "text": "Sede legale e direzione generale e amministrativa in Italia.",
+              "ref": "art. 58, c. 1; art. 59, c. 1, lett. b)"
+            },
+            {
+              "text": "Fondi propri di base per coprire il minimo assoluto dell'MCR: almeno 3.600.000 euro, 1.200.000 euro per le captive.",
+              "ref": "art. 59, c. 1, lett. c)"
+            },
+            {
+              "text": "Capacità di coprire in prospettiva SCR e MCR.",
+              "ref": "art. 59, c. 1, lett. c-bis) e c-ter)"
+            },
+            {
+              "text": "Atto costitutivo, statuto e programma di attività, che descrive anche gli accordi di riassicurazione con le cedenti.",
+              "ref": "art. 59, c. 1, lett. d)"
+            },
+            {
+              "text": "Capacità di rispettare il sistema di governo societario.",
+              "ref": "art. 59, c. 1, lett. e-bis)"
+            },
+            {
+              "text": "Soci con partecipazioni rilevanti in possesso dei requisiti di onorabilità; esponenti e responsabili delle funzioni fondamentali con professionalità, onorabilità e indipendenza.",
+              "ref": "art. 59, c. 1, lett. e) e f)"
+            },
+            {
+              "text": "Nessuno stretto legame con altri soggetti che ostacoli la vigilanza.",
+              "ref": "art. 59, c. 1, lett. g)"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "La procedura di autorizzazione",
+          "steps": [
+            {
+              "label": "Domanda completa",
+              "text": "L'impresa presenta all'IVASS la domanda con tutti i documenti richiesti."
+            },
+            {
+              "label": "Valutazione",
+              "text": "L'IVASS verifica che sia garantita la sana e prudente gestione, senza guardare alla struttura dei mercati."
+            },
+            {
+              "label": "Entro 90 giorni",
+              "text": "Il provvedimento, adeguatamente motivato, è comunicato all'impresa."
+            },
+            {
+              "label": "Registro imprese e albo",
+              "text": "Senza autorizzazione non si iscrive nel registro delle imprese. Poi l'IVASS iscrive l'impresa nell'albo e la comunica all'EIOPA."
+            }
+          ],
+          "ref": "CAP, artt. 58-59"
+        },
+        {
+          "layout": "concept",
+          "title": "Estendere l'attività ad altri rami",
+          "key": "L'impresa già autorizzata in uno o più rami vita o danni che vuole operare in altri rami deve avere prima l'autorizzazione dell'IVASS.",
+          "body": "Deve provare di essere in regola con riserve tecniche, SCR e MCR e presentare un programma di attività. Non può iniziare nei nuovi rami prima del provvedimento che aggiorna l'albo. I rami sono quelli del CAP: 6 rami vita e 18 rami danni.",
+          "ref": "CAP, art. 59-bis; art. 2"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Solvency II",
+          "title": "Il Requisito Patrimoniale Minimo (MCR)",
+          "lead": "È la soglia sotto la quale i fondi propri non bastano più a proteggere gli assicurati.",
+          "facts": [
+            {
+              "label": "Come",
+              "text": "Calcolato in modo chiaro e semplice, perché si possa verificare."
+            },
+            {
+              "label": "Cosa misura",
+              "text": "Sotto questo importo il rischio per contraenti, assicurati e beneficiari diventerebbe inaccettabile se l'impresa continuasse a operare."
+            },
+            {
+              "label": "Calibrazione",
+              "text": "Valore a rischio dei fondi propri di base con confidenza dell'85% su un anno."
+            },
+            {
+              "label": "Corridoio",
+              "text": "Non meno del 25% e non più del 45% dell'SCR."
+            },
+            {
+              "label": "Minimo assoluto",
+              "text": "3.600.000 euro; 1.200.000 euro per le captive."
+            }
+          ],
+          "ref": "CAP, art. 66-sexies"
+        },
+        {
+          "layout": "compare",
+          "title": "MCR e SCR a confronto",
+          "cols": [
+            {
+              "title": "SCR · Requisito di solvibilità",
+              "items": [
+                "Copre tutti i rischi quantificabili",
+                "Confidenza del 99,5% su un anno",
+                "Formula standard o modello interno",
+                "È il livello obiettivo di capitale"
+              ]
+            },
+            {
+              "title": "MCR · Requisito minimo",
+              "items": [
+                "Funzione lineare di poche variabili: riserve, premi, capitale a rischio, costi",
+                "Confidenza dell'85% su un anno",
+                "Tra il 25% e il 45% dell'SCR",
+                "È la soglia di guardia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "L'impresa italiana che opera all'estero",
+          "head": [
+            "Modalità",
+            "Che cosa deve fare",
+            "Ruolo dell'IVASS"
+          ],
+          "rows": [
+            [
+              "UE · Stabilimento",
+              "Comunicazione preventiva: indirizzo della sede, rappresentante generale e poteri, Stati, programma di attività.",
+              "Entro 30 giorni informa l'autorità dello Stato ospitante e avvisa l'impresa."
+            ],
+            [
+              "UE · Servizi",
+              "Prima volta in libera prestazione: comunicazione con programma (stabilimenti di partenza, Stati, tipo di attività).",
+              "Riceve la comunicazione."
+            ],
+            [
+              "Terzo · Stabilimento",
+              "Comunicazione preventiva all'IVASS.",
+              "Vieta l'insediamento se la situazione finanziaria non è stabile o l'organizzazione è inadeguata."
+            ],
+            [
+              "Terzo · Servizi",
+              "Stessa comunicazione prevista per la libera prestazione nell'UE.",
+              "Riceve la comunicazione."
+            ]
+          ],
+          "ref": "CAP, artt. 59-ter, 59-quater, 59-quinquies"
+        },
+        {
+          "layout": "table",
+          "title": "Le imprese estere che operano in Italia",
+          "head": [
+            "Provenienza",
+            "Stabilimento in Italia",
+            "Libera prestazione"
+          ],
+          "rows": [
+            [
+              "UE · Altro Stato membro",
+              "Nessuna autorizzazione: basta la comunicazione all'IVASS dell'autorità dello Stato d'origine.",
+              "Senza autorizzazione."
+            ],
+            [
+              "Extra UE · Stato terzo",
+              "Serve l'autorizzazione dell'IVASS, una sede secondaria e un rappresentante generale residente in Italia.",
+              "Senza autorizzazione."
+            ]
+          ],
+          "ref": "CAP, artt. 60, 60-bis, 61"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le regole di esercizio",
+          "items": [
+            {
+              "text": "Un sistema di governo societario idoneo, con le regole delle imprese di assicurazione.",
+              "ref": "art. 63, c. 1"
+            },
+            {
+              "text": "Esponenti e responsabili delle funzioni fondamentali con professionalità, onorabilità e indipendenza.",
+              "ref": "art. 63, c. 2"
+            },
+            {
+              "text": "Attivi e passività valutati a valori di mercato.",
+              "ref": "art. 63-bis; art. 35-quater"
+            },
+            {
+              "text": "Riserve tecniche a fine esercizio, al lordo delle retrocessioni, sufficienti per tutti gli impegni.",
+              "ref": "art. 64"
+            },
+            {
+              "text": "Investimenti secondo il principio della persona prudente, adeguati alla natura e alla durata degli impegni.",
+              "ref": "artt. 64-bis, 65"
+            },
+            {
+              "text": "Un registro degli attivi a copertura delle riserve tecniche vita e danni, comunicato all'IVASS.",
+              "ref": "art. 65-bis"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Come si valutano attivi e passività",
+          "cols": [
+            {
+              "title": "Attivi",
+              "items": [
+                "All'importo al quale potrebbero essere scambiati",
+                "Tra parti consapevoli e consenzienti",
+                "In un'operazione alle normali condizioni di mercato"
+              ]
+            },
+            {
+              "title": "Passività",
+              "items": [
+                "All'importo al quale potrebbero essere trasferite o regolate",
+                "Tra parti consapevoli e consenzienti",
+                "In un'operazione alle normali condizioni di mercato"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro degli attivi",
+          "key": "In ogni momento gli attivi iscritti nel registro devono valere almeno quanto le riserve tecniche.",
+          "body": "Questi attivi servono solo a pagare gli obblighi dei contratti a cui le riserve si riferiscono: formano un patrimonio separato. Gli attivi a copertura delle accettazioni in retrocessione si gestiscono separatamente, senza trasferimenti. L'impresa comunica all'IVASS la situazione del registro.",
+          "ref": "CAP, art. 65-bis"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quanto tempo l'IVASS comunica la decisione sulla domanda di autorizzazione di un'impresa di riassicurazione?",
+          "options": [
+            "30 giorni dalla domanda",
+            "60 giorni dalla domanda",
+            "90 giorni dalla domanda completa dei documenti",
+            "Non c'è un termine"
+          ],
+          "answer": 2,
+          "explanation": "Il provvedimento, specificamente e adeguatamente motivato, è comunicato entro novanta giorni dalla presentazione della domanda completa dei documenti richiesti."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una società di riassicurazione con sede a Milano vuole aprire una succursale in Spagna e, per la prima volta, accettare rischi da compagnie tedesche senza aprire uffici in Germania. Un riassicuratore con sede in Svizzera, invece, vuole aprire una sede secondaria a Roma.",
+          "questions": [
+            "Che cosa deve fare la società milanese per la Spagna e per la Germania?",
+            "Il riassicuratore svizzero ha bisogno dell'autorizzazione dell'IVASS?"
+          ],
+          "solution": "Per la Spagna (stabilimento) la società milanese invia all'IVASS una comunicazione preventiva con indirizzo della sede, rappresentante generale e poteri, Stati e programma. L'IVASS entro 30 giorni informa l'autorità spagnola. Per la Germania (libera prestazione) invia all'IVASS una comunicazione con il programma di attività. La Svizzera è uno Stato terzo: per aprire una sede secondaria a Roma serve l'autorizzazione dell'IVASS, con un rappresentante generale residente in Italia. Se operasse solo in libera prestazione, l'autorizzazione non servirebbe."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è il minimo assoluto dell'MCR per un'impresa di riassicurazione captive?",
+          "options": [
+            "600.000 euro",
+            "1.200.000 euro",
+            "3.600.000 euro",
+            "Il 45% dell'SCR"
+          ],
+          "answer": 1,
+          "explanation": "Il minimo assoluto è di 3.600.000 euro per le imprese di riassicurazione e di 1.200.000 euro per le captive. Il 25% e il 45% dell'SCR sono invece i limiti del corridoio entro cui si colloca l'MCR."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "S.p.A.",
+              "text": "o società europea, con sede e direzione in Italia"
+            },
+            {
+              "value": "3,6 mln",
+              "text": "minimo assoluto dell'MCR; 1,2 milioni per le captive"
+            },
+            {
+              "value": "90 giorni",
+              "text": "per la decisione IVASS sull'autorizzazione"
+            },
+            {
+              "value": "85% · 99,5%",
+              "text": "le calibrazioni di MCR e SCR su un anno"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per la comunicazione IVASS all'autorità dello Stato ospitante"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cos'è la riassicurazione e chi può esercitarla. Ora vediamo come un'impresa di riassicurazione ottiene l'autorizzazione, quanto capitale deve avere, come può operare all'estero, come operano in Italia i riassicuratori stranieri e quali regole valgono nella gestione.\n\nLe regole sono nel Codice delle assicurazioni private: il Titolo quinto riguarda l'accesso all'attività di riassicurazione, il Titolo sesto il suo esercizio. Dal 1° gennaio 2016 queste norme seguono il regime europeo Solvency II, nato dalla direttiva quadro 2009/138 e recepito aggiornando il Codice. Solvency II si basa su tre pilastri: requisiti quantitativi, cioè capitale e riserve; requisiti qualitativi, cioè governo societario, controllo interno e gestione dei rischi; e requisiti di informativa verso l'autorità di vigilanza e il pubblico. Le note del Codice rinviano, per la procedura di autorizzazione, al Regolamento ISVAP numero 33 del 2010.\n\nPartiamo dai requisiti. L'impresa con sede legale in Italia che vuole esercitare esclusivamente la riassicurazione deve essere autorizzata in via preventiva dall'IVASS. L'autorizzazione può riguardare uno o più rami vita, uno o più rami danni, oppure entrambi. Per ottenerla l'impresa deve rispettare diverse condizioni. Deve essere costituita come società per azioni o come società europea. Deve avere in Italia la direzione generale e amministrativa. Deve detenere fondi propri di base ammissibili sufficienti a coprire il minimo assoluto del Requisito Patrimoniale Minimo, che non può essere inferiore a 3.600.000 euro; per le imprese captive il minimo è di 1.200.000 euro. Deve dimostrare che sarà in grado di coprire in prospettiva anche il Requisito Patrimoniale di Solvibilità e il Requisito Patrimoniale Minimo. Deve presentare, insieme all'atto costitutivo e allo statuto, un programma di attività, che descrive anche il tipo di accordi di riassicurazione che intende concludere con le imprese cedenti. Deve dimostrare che sarà in grado di conformarsi al sistema di governo societario.\n\nCi sono poi requisiti sulle persone. I titolari di partecipazioni rilevanti devono possedere i requisiti di onorabilità e devono esserci i presupposti per l'autorizzazione all'acquisto delle partecipazioni. Chi svolge funzioni di amministrazione, direzione e controllo, e i responsabili delle funzioni fondamentali, devono avere i requisiti di professionalità, onorabilità e indipendenza. Infine non devono esistere, tra l'impresa o il suo gruppo e altri soggetti, stretti legami che ostacolino l'effettivo esercizio della vigilanza.\n\nCome funziona la procedura? L'impresa presenta all'IVASS la domanda, completa di tutti i documenti. L'IVASS verifica le condizioni e nega l'autorizzazione se non risulta garantita la sana e prudente gestione; nel decidere non può tenere conto della struttura o dell'andamento dei mercati, cioè non può negarla solo perché ci sono già molti concorrenti. Il provvedimento deve essere specificamente e adeguatamente motivato ed è comunicato all'impresa entro 90 giorni dalla presentazione della domanda completa. Senza autorizzazione non si può procedere all'iscrizione nel registro delle imprese. Dopo l'iscrizione, l'IVASS inserisce l'impresa in un'apposita sezione dell'albo, e l'impresa deve indicare l'iscrizione negli atti e nella corrispondenza. L'IVASS comunica ogni autorizzazione anche all'EIOPA, l'Autorità europea delle assicurazioni, che tiene un elenco europeo.\n\nE se l'impresa vuole lavorare in altri rami? L'impresa già autorizzata in uno o più rami vita o danni che vuole estendere l'attività ad altri rami, tra quelli classificati dal Codice, cioè sei rami vita e diciotto rami danni, deve ottenere una nuova autorizzazione preventiva dell'IVASS. Deve provare di essere in regola con le riserve tecniche, con il Requisito Patrimoniale di Solvibilità e con il Requisito Patrimoniale Minimo, e deve presentare un programma di attività. Non può iniziare a operare nei nuovi rami prima del provvedimento che aggiorna l'albo.\n\nSoffermiamoci sul Requisito Patrimoniale Minimo, in sigla MCR. È calcolato in modo chiaro e semplice, così da poter essere verificato. Corrisponde a un importo di fondi propri di base ammissibili al di sotto del quale contraenti, beneficiari, assicurati e aventi diritto sarebbero esposti a un rischio inaccettabile, se l'impresa potesse continuare a operare. La funzione lineare usata per calcolarlo è calibrata sul valore a rischio dei fondi propri di base con un livello di confidenza dell'85 per cento su un anno. Le variabili sono, ad esempio, riserve tecniche, premi, capitale a rischio e costi amministrativi, calcolate al netto della riassicurazione. L'MCR non può scendere sotto il 25 per cento né superare il 45 per cento del Requisito Patrimoniale di Solvibilità, fermo restando il minimo assoluto di 3,6 milioni, o 1,2 milioni per le captive.\n\nIl Requisito Patrimoniale di Solvibilità, in sigla SCR, è invece il livello obiettivo di capitale. Copre tutti i rischi quantificabili, sia per l'attività esistente sia per quella prevista nei dodici mesi successivi, e corrisponde al valore a rischio dei fondi propri con un livello di confidenza del 99,5 per cento su un anno. Si calcola con la formula standard o con un modello interno. Possiamo pensare all'SCR come al livello di sicurezza da mantenere e all'MCR come alla soglia di guardia: più ci si avvicina all'MCR, più gli interventi dell'autorità diventano incisivi.\n\nVediamo ora l'operatività all'estero dell'impresa italiana. Se vuole aprire una sede secondaria in un altro Stato membro, cioè operare in regime di stabilimento, deve darne comunicazione preventiva all'IVASS indicando l'indirizzo della sede secondaria, il nome e i poteri del rappresentante generale, gli Stati membri in cui intende operare e un programma che illustri il tipo di attività. L'IVASS, entro 30 giorni dalla comunicazione e se non ci sono elementi ostativi, informa l'autorità di vigilanza dello Stato interessato e contestualmente ne avvisa l'impresa. Se l'impresa vuole operare per la prima volta in libera prestazione di servizi in un altro Stato membro, cioè senza aprire una sede, ne dà comunicazione all'IVASS con un programma che indica da quali stabilimenti intende operare, in quali Stati e con quale tipo di attività. Se invece vuole aprire una sede secondaria in uno Stato terzo, deve darne comunicazione preventiva all'IVASS, che vieta l'insediamento se ritiene la situazione finanziaria non sufficientemente stabile o la struttura organizzativa della sede inadeguata rispetto al programma presentato. Per la libera prestazione in uno Stato terzo si applica la stessa comunicazione prevista per gli Stati membri.\n\nE i riassicuratori stranieri che vogliono operare in Italia? Per le imprese con sede in un altro Stato membro che vogliono aprire una sede in Italia non serve l'autorizzazione: è sufficiente che l'autorità di vigilanza del loro Stato invii la comunicazione all'IVASS. L'impresa può iniziare quando riceve notizia dell'avvenuta trasmissione. Le imprese con sede in uno Stato terzo, invece, per operare in Italia in regime di stabilimento hanno bisogno dell'autorizzazione dell'IVASS: devono insediare una sede secondaria e nominare un rappresentante generale residente in Italia, con i requisiti di onorabilità e professionalità. Il Codice consente invece senza autorizzazione la libera prestazione di servizi di riassicurazione in Italia, sia alle imprese di altri Stati membri sia a quelle di Stati terzi.\n\nPassiamo alle regole di esercizio per le imprese con sede in Italia. L'impresa di riassicurazione deve operare con un idoneo sistema di governo societario, con le stesse regole previste per le imprese di assicurazione. Chi svolge funzioni di amministrazione, direzione e controllo, e chi ricopre funzioni fondamentali, deve possedere i requisiti di professionalità, onorabilità e indipendenza.\n\nLa valutazione di attivi e passività segue criteri di mercato. Gli attivi si valutano all'importo al quale potrebbero essere scambiati tra parti consapevoli e consenzienti, in un'operazione alle normali condizioni di mercato. Le passività si valutano all'importo al quale potrebbero essere trasferite o regolate tra parti consapevoli e consenzienti, sempre alle normali condizioni di mercato.\n\nAlla fine di ogni esercizio l'impresa deve costituire riserve tecniche, al lordo delle retrocessioni, sufficienti per gli impegni assunti con l'insieme delle sue attività. Al lordo delle retrocessioni significa che il riassicuratore accantona l'intero impegno verso le cedenti, anche se una parte l'ha a sua volta riassicurata. Gli attivi vanno investiti secondo il principio della persona prudente, in modo adeguato alla natura degli impegni e alla durata delle passività.\n\nL'impresa deve inoltre tenere un registro da cui risultano gli attivi a copertura delle riserve tecniche dei rami vita e dei rami danni. In ogni momento l'importo degli attivi iscritti deve essere almeno pari alle riserve tecniche. Questi attivi sono riservati in modo esclusivo agli obblighi derivanti dai contratti cui si riferiscono le riserve e formano un patrimonio separato. Gli attivi che coprono le riserve delle accettazioni in retrocessione vanno gestiti separatamente, senza possibilità di trasferimenti. L'impresa comunica all'IVASS la situazione del registro.\n\nNel caso pratico applichiamo queste regole. La società milanese che apre una succursale in Spagna segue la procedura dello stabilimento: comunicazione preventiva all'IVASS e trasmissione all'autorità spagnola entro 30 giorni. Per accettare rischi tedeschi senza uffici in Germania basta la comunicazione per la libera prestazione di servizi. Il riassicuratore svizzero, che viene da uno Stato terzo, per aprire una sede a Roma ha bisogno dell'autorizzazione dell'IVASS.\n\nIn sintesi: l'impresa di riassicurazione italiana è una società per azioni o una società europea con sede e direzione in Italia; deve avere almeno 3,6 milioni di fondi propri di base per il minimo dell'MCR, o 1,2 milioni se è una captive; l'IVASS decide entro 90 giorni dalla domanda completa; MCR e SCR sono calibrati rispettivamente all'85 e al 99,5 per cento su un anno; e per operare all'estero servono comunicazioni preventive all'IVASS, che le gira alle autorità estere.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Solvency II",
+          "url": "https://www.ivass.it/normativa/focus/solvency/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Quadro Solvency II: direttiva quadro 2009/138, applicazione dal 1° gennaio 2016, tre pilastri.",
+          "source_ref": "IVASS, pagina Solvency II"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Autorizzazione per rami vita, danni o entrambi; divieto di valutare la struttura dei mercati; termine di 90 giorni dalla domanda completa; iscrizione nel registro delle imprese e nell'albo; comunicazione all'EIOPA; rinvio al Reg. ISVAP 33/2010.",
+          "source_ref": "CAP, artt. 58, 59, c. 2-5-bis e note"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Programma di attività che descrive gli accordi di riassicurazione con le cedenti; divieto di operare nei nuovi rami prima dell'aggiornamento dell'albo; numero dei rami (6 vita, 18 danni).",
+          "source_ref": "CAP, art. 59, c. 1, lett. d); art. 59-bis, c. 4; art. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Variabili di calcolo dell'MCR al netto della riassicurazione; confronto con l'SCR (99,5% su un anno, rischi quantificabili, formula standard o modello interno).",
+          "source_ref": "CAP, art. 66-sexies, c. 2; artt. 45-bis, 45-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Imprese estere in Italia: inizio dell'attività alla notizia della trasmissione (UE); sede secondaria e rappresentante generale residente per le imprese di Stati terzi; libera prestazione senza autorizzazione; libera prestazione in Stati terzi.",
+          "source_ref": "CAP, artt. 59-quinquies, c. 3; 60; 60-bis; 61"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Investimenti secondo il principio della persona prudente; contenuto del registro degli attivi (copertura in ogni momento, patrimonio separato, gestione separata della retrocessione, comunicazione all'IVASS).",
+          "source_ref": "CAP, artt. 64-bis, 65, 65-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico su stabilimento, libera prestazione e impresa di Stato terzo; spiegazione di \"al lordo delle retrocessioni\".",
+          "source_ref": "CAP, artt. 59-ter, 59-quater, 60-bis, 64"
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che il termine di 90 giorni decorre dalla presentazione della domanda completa dei documenti richiesti (la fonte diceva \"dalla domanda\").",
+          "source_ref": "CAP, art. 59, c. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte gli importi minimi assoluti dell'MCR (3.600.000 e 1.200.000 euro), confermati dal testo coordinato del CAP aggiornato al 19 giugno 2026. Possibile aggiornamento: verificare l'eventuale revisione periodica degli importi a livello UE e il recepimento della revisione di Solvency II.",
+          "source_ref": "CAP, artt. 59, c. 1, lett. c), e 66-sexies, c. 1, lett. d)"
+        }
+      ]
+    }
+  ]
+}

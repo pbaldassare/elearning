@@ -1,0 +1,1178 @@
+{
+  "module": "Area giuridica",
+  "topic": "Normativa in materia di protezione dei dati personali",
+  "topic_order": 7,
+  "scope": "core",
+  "source_minutes": 53,
+  "lessons": [
+    {
+      "title": "Dalla privacy al GDPR: principi, ambito e figure",
+      "source_files": [
+        "corso totale/Area Giuridica/Privacy.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Normativa in materia di protezione dei dati personali /Privacy prima parte.pdf",
+        "Corso Ivass 60 ore/Materiale /La privacy nella era del GDPR.pdf ok.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Normativa in materia di protezione dei dati personali",
+          "title": "Dalla privacy al GDPR",
+          "goals": [
+            "Capire da dove nasce il diritto alla protezione dei dati",
+            "Conoscere oggetto, ambito e principi del Regolamento (UE) 2016/679",
+            "Riconoscere titolare, responsabile, contitolare e Garante"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché la privacy conta",
+          "key": "La privacy è la base identitaria su cui ciascuno costruisce liberamente la propria personalità, e uno dei principi cardine per organizzare la società nell'epoca della globalizzazione e dell'informazione.",
+          "body": "Fin dall'antichità l'uomo ha cercato spazi propri per proteggere la sfera privata da informazioni inutili e pettegolezzi. Col tempo la riservatezza è diventata così importante da separare la vita pubblica da quella privata, ed è evoluta insieme all'uomo e alla società.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "«The right to be let alone»",
+          "key": "Il primo scritto giuridico a riconoscere un diritto autonomo alla privacy è l'articolo di due avvocati statunitensi: il «diritto di essere lasciato solo».",
+          "body": "Nato nell'epoca borghese, il diritto alla privacy si origina come diritto dei ricchi e degli aristocratici, del ceto descritto come «ancien régime». Oggi riguarda chiunque: ogni cliente che compila un questionario assicurativo affida a qualcuno una parte di sé.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Privacy e protezione dei dati",
+          "cols": [
+            {
+              "title": "Diritto alla riservatezza",
+              "items": [
+                "Esclude le interferenze altrui",
+                "Tutela statica e negativa",
+                "Protegge una sfera chiusa"
+              ]
+            },
+            {
+              "title": "Diritto alla protezione dei dati",
+              "items": [
+                "È un diritto autonomo, non deriva dalla privacy",
+                "Dà poteri di controllo e di intervento",
+                "Tutela dinamica, che segue i dati mentre circolano"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché nasce il GDPR",
+          "key": "Le regole europee erano frammentate e la loro applicazione incerta. Serviva un'applicazione omogenea in tutti gli Stati.",
+          "body": "Il GDPR è un regolamento: si applica direttamente in tutta l'Unione. L'Italia, come gli altri Stati, ha dovuto adeguarsi: il Codice privacy (D.Lgs. 196/2003) è stato modificato dal D.Lgs. 101/2018 e oggi integra il Regolamento.",
+          "ref": "Materiale originale; D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018"
+        },
+        {
+          "layout": "split",
+          "title": "GDPR e Direttiva 95/46/CE",
+          "left": {
+            "title": "Le analogie",
+            "items": [
+              "Lo stesso duplice obiettivo: proteggere le persone fisiche nel trattamento dei dati e garantire la libera circolazione dei dati",
+              "La libera circolazione non può essere limitata per motivi di protezione dei dati: l'art. 1, par. 3 del GDPR riprende la Direttiva"
+            ]
+          },
+          "right": {
+            "title": "La grande differenza",
+            "items": [
+              "L'art. 1, par. 2 tutela i diritti e le libertà fondamentali, «in particolare il diritto alla protezione dei dati personali»",
+              "La protezione dei dati diventa un diritto con un nome proprio"
+            ]
+          },
+          "note": "Il Regolamento si rivolge sia ai titolari sia ai responsabili del trattamento.",
+          "noteRef": "Reg. (UE) 2016/679, art. 1"
+        },
+        {
+          "layout": "compare",
+          "title": "Dove si applica",
+          "cols": [
+            {
+              "title": "Direttiva 95/46/CE",
+              "items": [
+                "Si applicava, tramite le leggi nazionali, solo ai trattamenti nel contesto di uno stabilimento del titolare nell'UE"
+              ]
+            },
+            {
+              "title": "GDPR",
+              "items": [
+                "Si applica agli stabilimenti nell'UE, ovunque avvenga il trattamento",
+                "Si applica anche a titolari e responsabili fuori dall'UE che trattano dati di persone che si trovano nell'UE",
+                "Se offrono loro beni o servizi, anche gratuiti, o ne monitorano il comportamento nell'UE"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il rappresentante nell'UE",
+          "items": [
+            {
+              "text": "Il titolare o responsabile non stabilito nell'UE che rientra nel GDPR designa per iscritto un rappresentante nell'Unione"
+            },
+            {
+              "text": "Non serve se il trattamento è occasionale, non riguarda su larga scala dati particolari o penali ed è improbabile che crei rischi: le tre condizioni insieme"
+            },
+            {
+              "text": "Non serve per autorità e organismi pubblici"
+            },
+            {
+              "text": "Il rappresentante è l'interlocutore di autorità di controllo e interessati",
+              "ref": "Reg. (UE) 2016/679, artt. 3 e 27"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le parole del GDPR",
+          "head": [
+            "Termine",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Dato personale",
+              "Qualsiasi informazione su una persona fisica identificata o identificabile, anche indirettamente: nome, numero di identificazione, dati di ubicazione, identificativo online."
+            ],
+            [
+              "Trattamento",
+              "Qualsiasi operazione sui dati: raccolta, registrazione, conservazione, consultazione, uso, comunicazione, cancellazione, distruzione."
+            ],
+            [
+              "Interessato",
+              "La persona a cui i dati si riferiscono: per noi, il cliente, l'assicurato, il beneficiario, il danneggiato."
+            ],
+            [
+              "Archivio",
+              "Qualsiasi insieme strutturato di dati accessibili secondo criteri determinati, centralizzato o no."
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 4"
+        },
+        {
+          "layout": "table",
+          "title": "I principi del trattamento",
+          "head": [
+            "Principio",
+            "In pratica"
+          ],
+          "rows": [
+            [
+              "Liceità, correttezza e trasparenza",
+              "Una base giuridica e un'informativa chiara."
+            ],
+            [
+              "Limitazione della finalità",
+              "Dati raccolti per scopi determinati, espliciti e legittimi."
+            ],
+            [
+              "Minimizzazione",
+              "Solo i dati necessari: nel preventivo RC auto non serve la professione del coniuge."
+            ],
+            [
+              "Esattezza",
+              "Dati corretti e aggiornati; quelli inesatti si correggono subito."
+            ],
+            [
+              "Limitazione della conservazione",
+              "Si conservano per il tempo necessario alla finalità."
+            ],
+            [
+              "Integrità e riservatezza",
+              "Sicurezza contro accessi illeciti, perdita e distruzione."
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 5, par. 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando il trattamento è lecito",
+          "items": [
+            {
+              "text": "Consenso dell'interessato per finalità specifiche, per esempio il marketing"
+            },
+            {
+              "text": "Esecuzione di un contratto o di misure precontrattuali richieste dall'interessato, come il preventivo e la polizza"
+            },
+            {
+              "text": "Obbligo legale del titolare, come gli adempimenti antiriciclaggio"
+            },
+            {
+              "text": "Interessi vitali dell'interessato o di un'altra persona"
+            },
+            {
+              "text": "Compito di interesse pubblico o esercizio di pubblici poteri"
+            },
+            {
+              "text": "Legittimo interesse del titolare, se non prevalgono i diritti dell'interessato",
+              "ref": "Reg. (UE) 2016/679, art. 6"
+            },
+            {
+              "text": "Dati sulla salute e altre categorie particolari: vietati, salvo eccezioni come il consenso esplicito",
+              "ref": "art. 9"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Archivi e conservazione",
+          "left": {
+            "title": "Come si organizza",
+            "items": [
+              "La classificazione assegna ogni documento a una voce del titolario e a un fascicolo",
+              "Non è un'operazione meccanica, ma un'attività intellettuale",
+              "Archivio corrente: pratiche in corso. Deposito: documenti poco consultati. Storico: documenti da conservare anche dopo"
+            ]
+          },
+          "right": {
+            "title": "Che cosa garantisce",
+            "items": [
+              "Dati identificabili solo per il tempo necessario alle finalità",
+              "Accessi controllati: chi chiede, con quale diritto, che cosa consulta",
+              "Scarto dei documenti che non serve più conservare"
+            ]
+          },
+          "note": "Il vincolo archivistico è la relazione organica che lega tra loro i documenti archiviati insieme.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le figure principali",
+          "head": [
+            "Figura",
+            "Ruolo"
+          ],
+          "rows": [
+            [
+              "Titolare (data controller)",
+              "Determina finalità e mezzi del trattamento, da solo o con altri. Deve dimostrare che rispetta il Regolamento."
+            ],
+            [
+              "Responsabile (data processor)",
+              "Tratta i dati per conto del titolare, seguendone le istruzioni, senza usarli per altri fini. Interno o esterno."
+            ],
+            [
+              "Contitolare",
+              "Non è obbligatorio: c'è quando due o più titolari decidono insieme finalità e mezzi. Serve un accordo interno."
+            ],
+            [
+              "Persone autorizzate e designati",
+              "Dipendenti e collaboratori che trattano dati sotto l'autorità del titolare o del responsabile."
+            ],
+            [
+              "Garante",
+              "Autorità amministrativa indipendente che tutela diritti, libertà e dignità nel trattamento dei dati."
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, artt. 4, 26, 28; Codice privacy, art. 2-quaterdecies"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto con il responsabile",
+          "key": "Il titolare sceglie solo responsabili con garanzie sufficienti e li nomina con un contratto o un altro atto giuridico vincolante.",
+          "body": "Il contratto fissa materia e durata del trattamento, natura e finalità, tipo di dati, categorie di interessati, obblighi e diritti del titolare. Il responsabile tratta i dati solo su istruzione documentata e non affida il lavoro a un altro responsabile senza autorizzazione scritta.",
+          "ref": "Reg. (UE) 2016/679, art. 28; materiale originale"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker gestisce i clienti con un software in cloud fornito da una società esterna, che ospita i dati sui suoi server. In ufficio lavorano due impiegate, che inseriscono le pratiche. Per una campagna di marketing il broker vuole usare gli indirizzi email dei clienti.",
+          "questions": [
+            "Chi è il titolare e chi il responsabile?",
+            "Che ruolo hanno le impiegate?",
+            "Su quale base può inviare le email di marketing?"
+          ],
+          "solution": "Il broker è titolare: decide perché e come trattare i dati dei suoi clienti. La società del software è responsabile e va nominata con un contratto conforme all'art. 28. Le impiegate sono persone autorizzate, con istruzioni scritte. Per il marketing serve, di regola, il consenso specifico del cliente: non basta il contratto di polizza."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una società con sede fuori dall'UE vende online polizze viaggio a clienti che si trovano in Italia. Si applica il GDPR?",
+          "options": [
+            "No, perché la società non ha sedi nell'UE",
+            "Sì, perché offre servizi a persone che si trovano nell'UE",
+            "Solo se i clienti pagano in euro",
+            "Solo se i server sono in Europa"
+          ],
+          "answer": 1,
+          "explanation": "Il GDPR si applica anche a chi non è stabilito nell'UE se offre beni o servizi, anche gratuiti, a persone che si trovano nell'Unione, o ne monitora il comportamento."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nel modulo per un preventivo RC auto chiedi anche titolo di studio e hobby del cliente, «perché possono servire». Quale principio rischi di violare?",
+          "options": [
+            "Esattezza",
+            "Minimizzazione dei dati",
+            "Portabilità",
+            "Integrità"
+          ],
+          "answer": 1,
+          "explanation": "La minimizzazione impone di raccogliere solo i dati adeguati, pertinenti e limitati a quanto necessario per la finalità."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Dinamica",
+              "text": "la protezione dei dati segue i dati mentre circolano"
+            },
+            {
+              "value": "2016/679",
+              "text": "il GDPR, integrato in Italia dal Codice privacy modificato nel 2018"
+            },
+            {
+              "value": "UE",
+              "text": "conta dove si trova l'interessato, non solo dove ha sede il titolare"
+            },
+            {
+              "value": "6",
+              "text": "i principi dell'art. 5, più la responsabilizzazione"
+            },
+            {
+              "value": "Contratto",
+              "text": "il titolare nomina il responsabile con un atto scritto"
+            }
+          ]
+        }
+      ],
+      "narration": "Questa lezione apre il percorso sulla protezione dei dati personali. Vediamo da dove nasce questo diritto, perché è arrivato il Regolamento europeo, il cosiddetto GDPR, dove si applica, quali principi fissa e chi sono i protagonisti di ogni trattamento.\n\nLa privacy rappresenta oggi la base identitaria su cui ciascuno di noi costruisce liberamente la propria personalità, ed è uno dei principi cardine su cui riorganizzare la società nell'epoca della globalizzazione e dell'informazione. Non è un'esigenza nuova. Fin dall'antichità l'uomo ha sentito il bisogno di ritagliarsi spazi per sé, per proteggere la propria sfera privata ed evitare informazioni inutili e pettegolezzi. Con il tempo la riservatezza ha assunto un rilievo tale da separare la vita pubblica da quella privata, e la sua ricerca si è evoluta in modo direttamente proporzionale all'evoluzione dell'uomo e della società in cui viveva.\n\nSul piano giuridico, il primo scritto in assoluto a riconoscere un diritto autonomo alla privacy fu la pubblicazione di due avvocati statunitensi, che lo definirono come il diritto di essere lasciati soli: the right to be let alone. Pur nascendo nell'epoca borghese, il diritto alla privacy si origina come un diritto dei ricchi, degli aristocratici, di quel ceto descritto come ancien régime. Oggi riguarda tutti, e nel nostro lavoro lo tocchiamo ogni giorno, per esempio con i questionari sanitari delle polizze vita.\n\nAttenzione però a un errore frequente: sarebbe sbagliato pensare che il diritto alla protezione dei dati personali discenda dal diritto alla privacy. È un diritto autonomo e si colloca su un piano diverso. La privacy classica esclude le interferenze altrui: è una tutela statica, negativa. La protezione dei dati, invece, si concretizza in poteri di controllo e di intervento: è una tutela dinamica, che segue i dati nella loro circolazione. \n\nIl GDPR, il Regolamento europeo 2016/679, nasce dalla constatazione che la disciplina della protezione dei dati nell'Unione era frammentata e che c'era una diffusa incertezza giuridica sulla sua applicazione. L'esigenza era assicurare un'applicazione omogenea. Essendo un regolamento, si applica direttamente in tutti gli Stati membri, ma ha comunque richiesto all'Italia, come a ogni altro Stato, di adeguare la propria normativa. Lo ha fatto con il decreto legislativo 101 del 2018, che ha modificato il Codice in materia di protezione dei dati personali, il decreto legislativo 196 del 2003: oggi il Codice integra il Regolamento con le regole nazionali, ad esempio sui minori o sul telemarketing.\n\nIl GDPR ha alcune analogie con la precedente direttiva 95/46, ma anche una grande differenza. Le analogie: lo stesso duplice obiettivo, cioè la protezione delle persone fisiche con riguardo al trattamento dei dati personali e la libera circolazione di tali dati; e una formulazione molto simile del secondo obiettivo, perché l'articolo 1, paragrafo 3, del Regolamento ricalca la direttiva stabilendo che la libera circolazione dei dati nell'Unione non può essere limitata per motivi di protezione dei dati. La grande differenza riguarda il primo obiettivo e sta nel paragrafo 2: il Regolamento protegge i diritti e le libertà fondamentali delle persone, e lo fa, dice il testo, in particolare il diritto alla protezione dei dati personali. Quel diritto ora ha un nome proprio. Il Regolamento, inoltre, si rivolge sia ai titolari sia ai responsabili del trattamento.\n\nL'ambito di applicazione materiale è rimasto pressoché invariato; cambia molto, invece, quello territoriale. La direttiva si applicava, tramite le leggi nazionali, solo quando il trattamento era effettuato nel contesto delle attività di uno stabilimento del titolare nell'Unione. Il GDPR si applica ai trattamenti nell'ambito di uno stabilimento nell'Unione, indipendentemente dal fatto che il trattamento avvenga o no nell'Unione, e si estende anche a titolari e responsabili non stabiliti nell'Unione, quando trattano dati di persone che si trovano nell'UE e le loro attività riguardano l'offerta di beni o servizi a queste persone, anche senza pagamento, oppure il monitoraggio del loro comportamento nell'Unione.\n\nIn questi casi il titolare o il responsabile extraeuropeo deve designare per iscritto un rappresentante nell'Unione, che faccia da interlocutore per le autorità e gli interessati. Perché una società straniera operi nel rispetto del Regolamento serve quindi questo rappresentante, ma la nomina non è sempre obbligatoria. È esclusa quando il trattamento è occasionale, non include su larga scala categorie particolari di dati o dati relativi a condanne penali e reati, ed è improbabile che presenti un rischio per i diritti e le libertà degli interessati. Attenzione: le tre condizioni devono esserci tutte insieme. La nomina non è richiesta nemmeno per le autorità e gli organismi pubblici.\n\nFissiamo ora qualche parola chiave. Dato personale è qualsiasi informazione su una persona fisica identificata o identificabile, anche indirettamente: un nome, un numero di polizza, una targa, un indirizzo IP. Trattamento è qualsiasi operazione sui dati, dalla raccolta alla distruzione, passando per la consultazione e la comunicazione: anche solo leggere una pratica è un trattamento. L'interessato è la persona a cui i dati si riferiscono. E l'archivio, per il Regolamento, è qualsiasi insieme strutturato di dati personali accessibili secondo criteri determinati, che sia centralizzato, decentralizzato o ripartito per funzioni o luoghi.\n\nL'articolo 5 fissa i principi. I dati devono essere trattati in modo lecito, corretto e trasparente; raccolti per finalità determinate, esplicite e legittime e non usati poi in modo incompatibile; adeguati, pertinenti e limitati a quanto necessario, ed è la minimizzazione; esatti e aggiornati; conservati in forma identificabile solo per il tempo necessario; protetti con misure di sicurezza adeguate. E il titolare deve essere in grado di dimostrare di rispettarli: è la responsabilizzazione, che vedremo nella prossima lezione.\n\nPer essere lecito, un trattamento deve poggiare su almeno una base giuridica. Le sei basi sono: il consenso per finalità specifiche; la necessità per eseguire un contratto o misure precontrattuali chieste dall'interessato, come un preventivo; un obbligo di legge, come quelli antiriciclaggio; gli interessi vitali; un compito di interesse pubblico; il legittimo interesse del titolare, se non prevalgono i diritti dell'interessato. Per le categorie particolari di dati, come quelli sulla salute, il trattamento è vietato salvo eccezioni precise, la prima delle quali è il consenso esplicito.\n\nIl materiale del corso dedica spazio anche agli archivi, che sono il luogo concreto in cui i dati vivono. L'archivio è definito anche come il locale in cui un ente conserva i propri documenti, o come l'istituto che concentra archivi di varia provenienza per conservarli in modo permanente a fini di consultazione pubblica. I dati devono restare in una forma che consenta l'identificazione dell'interessato solo per il tempo necessario alle finalità. Non tutti i documenti entrano in archivio: devono presentare il vincolo archivistico, cioè la relazione organica che lega i documenti tra loro. La classificazione è l'attività fondamentale: tramite il titolario si associa ogni documento a un fascicolo, l'unità archivistica di base, che raccoglie tutto ciò che riguarda una pratica. Non è un'operazione meccanica, ma un'attività intellettuale: per ogni documento si individuano la materia, il titolo, la classe e il fascicolo, aprendone uno nuovo se serve. L'archivio ha un ciclo di vita: i dati identificativi e descrittivi aiutano ricerca e conservazione, e alle diverse fasi corrispondono usi e attività di gestione diversi, fino allo scarto dei documenti che non serve più conservare. L'archivio corrente contiene le pratiche in corso: dopo protocollazione e classificazione il documento va all'ufficio competente e il responsabile apre il fascicolo, con codice di classificazione, numero, oggetto e data di apertura, mentre i documenti al suo interno seguono l'ordine cronologico. I documenti consultati di rado passano al deposito, o archivio intermedio; l'archivio storico conserva quelli che vanno tenuti anche dopo aver esaurito la loro funzione. La riservatezza è un principio fondamentale del Regolamento, e per garantirla si controllano gli accessi con un sistema elettronico che identifica automaticamente chi chiede, verifica il suo diritto e registra transiti e movimenti nei file. Finché i dati sono conservati, l'interessato mantiene i suoi diritti: accesso, rettifica, limitazione e opposizione.\n\nVeniamo alle figure. Il titolare del trattamento è la persona fisica o giuridica, l'autorità pubblica, il servizio o l'organismo che, da solo o insieme ad altri, determina le finalità e i mezzi del trattamento. È soggetto al principio di accountability: deve saper dimostrare che cosa ha fatto per rispettare il Regolamento, adattarne le regole ai propri interessati e organizzarsi secondo la privacy by design e by default. Il responsabile del trattamento tratta i dati per conto del titolare: è distinto da lui, segue le sue direttive e deve garantire che i dati non vengano usati per un fine diverso da quello concordato. Può essere interno o esterno all'organizzazione; secondo il materiale del corso deve essere qualificato e seguire corsi di aggiornamento. Il contitolare non è una figura obbligatoria: c'è solo quando due o più titolari determinano insieme finalità e mezzi, e in quel caso un accordo interno ripartisce le responsabilità. Il Codice privacy consente poi di attribuire compiti specifici a persone fisiche espressamente designate che operano sotto l'autorità del titolare o del responsabile. Il Garante per la protezione dei dati personali, infine, è un'autorità amministrativa indipendente, la cui funzione principale è assicurare la tutela dei diritti e delle libertà fondamentali e il rispetto della dignità nel trattamento dei dati.\n\nIl responsabile si nomina con un contratto, o un altro atto giuridico vincolante, che stabilisce la durata del trattamento, la natura e la finalità, le categorie di dati e di interessati, i diritti e gli obblighi del titolare. Il titolare può scegliere solo responsabili che presentino garanzie sufficienti. Il responsabile tratta i dati solo su istruzione documentata e non può ricorrere a un altro responsabile senza autorizzazione scritta del titolare.\n\nNel caso pratico il broker decide perché e come trattare i dati dei clienti: è titolare. Il fornitore del software in cloud li tratta per suo conto: è responsabile e va nominato con un contratto. Le impiegate sono persone autorizzate, che lavorano con istruzioni scritte. E per il marketing serve, di regola, un consenso specifico, distinto dal contratto di polizza. Nella prossima lezione vediamo i diritti dell'interessato e gli obblighi del titolare.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 arricchito con i considerando, aggiornato alle rettifiche GUUE del 23 maggio 2018 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Garante privacy, Il testo del Regolamento",
+          "url": "https://www.garanteprivacy.it/regolamentoue/il-testo-del-regolamento"
+        },
+        {
+          "title": "D.Lgs. 196/2003 integrato con le modifiche del D.Lgs. 101/2018, testo coordinato V 12.0 aprile 2026 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+(Testo+coordinato)"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Adeguamento italiano: Codice privacy (D.Lgs. 196/2003) modificato dal D.Lgs. 101/2018; designati (art. 2-quaterdecies).",
+          "source_ref": "D.Lgs. 196/2003, artt. 2-quaterdecies; D.Lgs. 101/2018"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte paragonava l'art. 1, par. 3 del GDPR all'«articolo 162 della Direttiva»: riferimento probabilmente errato (art. 1 della Direttiva 95/46/CE). Riformulato senza numero; da verificare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ambito territoriale secondo l'art. 3 (offerta di beni o servizi, monitoraggio del comportamento).",
+          "source_ref": "Reg. (UE) 2016/679, art. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Esclusione dalla nomina del rappresentante: le tre condizioni sono cumulative (la fonte le elencava come alternative) e c'è l'esclusione per autorità e organismi pubblici.",
+          "source_ref": "Reg. (UE) 2016/679, art. 27, par. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni (dato personale, trattamento, interessato, archivio), principi dell'art. 5 e basi giuridiche dell'art. 6, con il divieto per le categorie particolari (art. 9).",
+          "source_ref": "Reg. (UE) 2016/679, artt. 4, 5, 6, 9"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contratto con il responsabile: istruzioni documentate e divieto di sub-responsabili senza autorizzazione scritta; accordo interno tra contitolari.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 26, 28"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (60 ore): il responsabile «deve essere qualificato e seguire corsi di aggiornamento». Il GDPR richiede garanzie sufficienti, non uno specifico obbligo di corsi: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'origine del diritto alla privacy (scritto di due avvocati statunitensi) senza nomi né data, non verificati su fonte ufficiale.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Contenuti della fonte 60 ore su archivi, classificazione, ciclo di vita, archivio corrente/deposito/storico e controllo accessi inseriti in questa lezione, collegati al principio di limitazione della conservazione.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "I diritti dell'interessato e gli obblighi del titolare",
+      "source_files": [
+        "corso totale/Area Giuridica/Privacy.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Normativa in materia di protezione dei dati personali /Privacy seconda parte.pdf",
+        "Corso Ivass 60 ore/Materiale /La privacy nella era del GDPR.pdf ok.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Normativa in materia di protezione dei dati personali",
+          "title": "I diritti dell'interessato e gli obblighi del titolare",
+          "goals": [
+            "Riconoscere i diritti del cliente e rispondere nei tempi giusti",
+            "Capire che cosa significa accountability, by design e by default",
+            "Sapere quando servono registro dei trattamenti e valutazione d'impatto"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il diritto all'informazione",
+          "items": [
+            {
+              "text": "Informazioni in forma concisa, trasparente, intelligibile e facilmente accessibile, con un linguaggio semplice e chiaro"
+            },
+            {
+              "text": "Per iscritto o con altri mezzi, anche elettronici"
+            },
+            {
+              "text": "Se il titolare non dà seguito a una richiesta, spiega subito i motivi e indica la possibilità di reclamo e di ricorso"
+            },
+            {
+              "text": "Richieste manifestamente infondate o eccessive: contributo spese ragionevole o rifiuto, ma l'onere della prova è del titolare",
+              "ref": "Reg. (UE) 2016/679, art. 12"
+            },
+            {
+              "text": "L'informativa va scritta in modo breve, chiaro e accessibile",
+              "ref": "materiale originale"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi della risposta",
+          "items": [
+            {
+              "value": "1 mese",
+              "text": "dal ricevimento della richiesta, per dire che cosa si è fatto",
+              "ref": "art. 12, par. 3"
+            },
+            {
+              "value": "2 mesi",
+              "text": "di proroga possibile se le richieste sono complesse o numerose, avvisando entro il primo mese",
+              "ref": "art. 12, par. 3"
+            },
+            {
+              "value": "1 mese",
+              "text": "al massimo anche per spiegare perché non si dà seguito alla richiesta",
+              "ref": "art. 12, par. 4"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Accesso, rettifica e oblio",
+          "items": [
+            {
+              "text": "Accesso: l'interessato può chiedere una copia di tutti i suoi dati"
+            },
+            {
+              "text": "Rettifica: i dati inesatti si correggono"
+            },
+            {
+              "text": "Oblio: si cancellano senza ingiustificato ritardo se non servono più, se il consenso è revocato e non c'è altra base, se c'è opposizione fondata"
+            },
+            {
+              "text": "Oppure se sono trattati illecitamente, se la cancellazione è un obbligo legale o se sono stati raccolti da un minore per servizi online"
+            },
+            {
+              "text": "Chi ha reso pubblici i dati informa gli altri titolari della richiesta di cancellare link, copie e riproduzioni",
+              "ref": "Reg. (UE) 2016/679, artt. 15-17"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando l'oblio non si applica",
+          "key": "Il diritto all'oblio non vale in una serie di casi eccezionali: quando il trattamento è necessario per la libertà di espressione e di informazione o per adempiere un obbligo di legge.",
+          "body": "Non vale neppure per motivi di sanità pubblica, per l'archiviazione nel pubblico interesse e per la ricerca o la statistica. Per un intermediario il caso più frequente è l'obbligo legale: i dati raccolti per l'antiriciclaggio si conservano per dieci anni, anche se il cliente chiede di cancellarli.",
+          "ref": "Reg. (UE) 2016/679, art. 17, par. 3"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il diritto di limitazione",
+          "items": [
+            {
+              "text": "L'interessato contesta l'esattezza dei dati: per il tempo necessario alla verifica"
+            },
+            {
+              "text": "Il trattamento è illecito, ma l'interessato preferisce la limitazione alla cancellazione"
+            },
+            {
+              "text": "Il titolare non ha più bisogno dei dati, ma all'interessato servono per un diritto in giudizio"
+            },
+            {
+              "text": "L'interessato si è opposto e si attende di sapere se prevalgono i motivi del titolare",
+              "ref": "Reg. (UE) 2016/679, art. 18"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Portabilità e opposizione",
+          "left": {
+            "title": "Portabilità",
+            "items": [
+              "I dati forniti si ricevono in un formato strutturato, di uso comune e leggibile da dispositivo automatico",
+              "Si possono trasmettere a un altro titolare senza impedimenti",
+              "Vale per i trattamenti automatizzati basati su consenso o contratto"
+            ],
+            "ref": "art. 20"
+          },
+          "right": {
+            "title": "Opposizione",
+            "items": [
+              "Per motivi legati alla situazione particolare dell'interessato, solo in determinati casi",
+              "Il titolare può proseguire se dimostra motivi legittimi cogenti prevalenti",
+              "Contro il marketing diretto l'opposizione è incondizionata"
+            ],
+            "ref": "art. 21"
+          },
+          "note": "Per i dati antiriciclaggio questi diritti incontrano i limiti dell'art. 2-undecies del Codice privacy.",
+          "noteRef": "D.Lgs. 196/2003, art. 2-undecies"
+        },
+        {
+          "layout": "concept",
+          "title": "Accountability",
+          "key": "Il titolare mette in atto misure tecniche e organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento rispetta il Regolamento.",
+          "body": "Il GDPR fa crescere gli oneri di titolare e responsabile. Il titolare ricorre solo a responsabili che diano garanzie sufficienti. Non basta essere in regola: bisogna poterlo provare con documenti, procedure e scelte motivate.",
+          "ref": "Reg. (UE) 2016/679, artt. 5, par. 2, 24 e 28"
+        },
+        {
+          "layout": "table",
+          "title": "I tre elementi dell'accountability",
+          "head": [
+            "Elemento",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Trasparenza",
+              "Completa accessibilità delle informazioni, prima di tutto per i cittadini e gli utenti del servizio."
+            ],
+            [
+              "Responsività",
+              "Capacità di rendere conto di scelte, comportamenti e azioni e di rispondere alle domande degli stakeholder."
+            ],
+            [
+              "Compliance",
+              "Capacità di far rispettare le norme."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Privacy by design e by default",
+          "cols": [
+            {
+              "title": "By design",
+              "items": [
+                "Le misure di protezione si pensano fin dalla progettazione del trattamento",
+                "Non solo quando il trattamento è già in corso",
+                "Esempio: un nuovo modulo online nasce con i soli campi necessari"
+              ]
+            },
+            {
+              "title": "By default",
+              "items": [
+                "Per impostazione predefinita si trattano solo i dati necessari per ciascuna finalità",
+                "Le caselle del consenso al marketing non sono già spuntate",
+                "Esempio: l'accesso al gestionale è limitato a chi segue la pratica"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro delle attività di trattamento",
+          "key": "Il titolare tiene un registro dei trattamenti svolti sotto la sua responsabilità; il responsabile tiene un registro delle attività svolte per conto di ciascun titolare.",
+          "body": "Il registro è in forma scritta, anche elettronica, e si mostra al Garante su richiesta. Contiene, tra l'altro, finalità, categorie di interessati e di dati, destinatari, trasferimenti, tempi di cancellazione e misure di sicurezza. Le imprese con meno di 250 dipendenti sono esonerate, salvo trattamenti a rischio, non occasionali o su dati particolari o penali.",
+          "ref": "Reg. (UE) 2016/679, art. 30"
+        },
+        {
+          "layout": "concept",
+          "title": "Se i dati vengono violati",
+          "key": "In caso di data breach il responsabile, appena ne viene a conoscenza, informa il titolare senza ingiustificato ritardo. Il titolare notifica la violazione all'autorità di controllo competente.",
+          "body": "Che cosa fare in concreto quando un attacco va a segno è trattato nella lezione sul social engineering.",
+          "ref": "Materiale originale; Reg. (UE) 2016/679, art. 33"
+        },
+        {
+          "layout": "concept",
+          "title": "La valutazione d'impatto (DPIA)",
+          "key": "Se un trattamento, per le nuove tecnologie usate o per natura, oggetto, contesto e finalità, può presentare un rischio elevato per diritti e libertà, il titolare ne valuta l'impatto prima di iniziare.",
+          "body": "La DPIA descrive il trattamento, previene e gestisce i rischi e dimostra la conformità. È richiesta in particolare per profilazione con effetti giuridici, dati particolari o penali su larga scala e sorveglianza sistematica su larga scala di luoghi pubblici. Il Garante pubblica l'elenco dei trattamenti soggetti e può pubblicare quello dei non soggetti.",
+          "ref": "Reg. (UE) 2016/679, art. 35"
+        },
+        {
+          "layout": "split",
+          "title": "Serve la DPIA?",
+          "left": {
+            "title": "Di regola sì con almeno due criteri",
+            "items": [
+              "Punteggi o valutazioni",
+              "Decisioni automatizzate con effetti giuridici",
+              "Monitoraggio sistematico; dati sensibili; larga scala",
+              "Aggregazione di dataset; soggetti vulnerabili",
+              "Nuove soluzioni tecnologiche; trattamenti che impediscono di esercitare un diritto"
+            ]
+          },
+          "right": {
+            "title": "Non serve se",
+            "items": [
+              "Il rischio non è elevato",
+              "È molto simile a un trattamento già valutato",
+              "È già stato verificato da un'autorità e rientra nell'elenco dei trattamenti esclusi",
+              "Ha base in norme UE o nazionali per le quali una DPIA è già stata svolta"
+            ]
+          },
+          "note": "I nove criteri sono quelli delle linee guida europee richiamate dal Garante.",
+          "noteRef": "Materiale originale; Garante, pagina DPIA"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente con una polizza vita in corso scrive all'agenzia: chiede la cancellazione di tutti i suoi dati e di non ricevere più offerte commerciali. La richiesta arriva via email il 3 marzo.",
+          "questions": [
+            "Puoi cancellare tutti i dati?",
+            "Come gestisci la richiesta sul marketing?",
+            "Entro quando rispondi?"
+          ],
+          "solution": "Non tutti: i dati necessari al contratto in corso e quelli da conservare per obblighi di legge, come l'antiriciclaggio, restano. Il marketing invece si ferma subito, perché l'opposizione al marketing diretto è incondizionata. Rispondi entro un mese, cioè entro il 3 aprile, spiegando che cosa hai cancellato, che cosa conservi e perché, e indicando la possibilità di reclamo al Garante."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente esercita il diritto di accesso. La richiesta è complessa. Che cosa puoi fare?",
+          "options": [
+            "Rispondere entro sei mesi",
+            "Prorogare di due mesi, avvisandolo entro un mese con i motivi",
+            "Ignorarla se il cliente non ha pagato un contributo",
+            "Rispondere solo per lettera raccomandata"
+          ],
+          "answer": 1,
+          "explanation": "La risposta va data entro un mese; il termine si può prorogare di due mesi per complessità o numero delle richieste, informando l'interessato entro il primo mese."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1 + 2",
+              "text": "mesi per rispondere all'interessato, proroga inclusa"
+            },
+            {
+              "value": "Marketing",
+              "text": "l'opposizione è sempre incondizionata"
+            },
+            {
+              "value": "Dimostrare",
+              "text": "il cuore dell'accountability"
+            },
+            {
+              "value": "250",
+              "text": "dipendenti: sotto questa soglia il registro non è obbligatorio, salvo eccezioni"
+            },
+            {
+              "value": "DPIA",
+              "text": "prima di iniziare, quando il rischio è elevato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo il GDPR dai due lati: quello dell'interessato, con i suoi diritti, e quello del titolare, con i suoi obblighi. Per un intermediario sono due facce della stessa medaglia: ogni diritto del cliente si traduce in qualcosa che l'agenzia deve saper fare.\n\nIl primo diritto è quello all'informazione. Il titolare deve fornire le informazioni sui trattamenti in forma concisa, trasparente, intelligibile e facilmente accessibile, con un linguaggio semplice e chiaro, per iscritto o con altri mezzi, anche elettronici. L'informativa, insomma, deve essere breve, chiara, conoscibile e facile da capire: un documento di dieci pagine in linguaggio tecnico non rispetta il Regolamento, anche se è completo. Se il titolare non dà seguito a una richiesta dell'interessato, deve informarlo senza ritardo dei motivi e della possibilità di proporre reclamo all'autorità di controllo e ricorso al giudice. Se le richieste sono manifestamente infondate o eccessive, ad esempio perché ripetitive, il titolare può addebitare un contributo spese ragionevole o rifiutarsi di soddisfarle, ma l'onere di provare che lo sono ricade su di lui.\n\nSui tempi il Regolamento è preciso. Il titolare risponde a una richiesta senza ingiustificato ritardo e comunque entro un mese dal ricevimento. Se le richieste sono complesse o numerose, il termine si può prorogare di due mesi, ma l'interessato va informato della proroga e dei motivi entro il primo mese. Anche quando decide di non dare seguito alla richiesta, il titolare deve comunicarlo entro un mese.\n\nL'interessato ha diritto di accesso, cioè di sapere se e quali dati lo riguardano e di riceverne una copia, e diritto di rettifica dei dati inesatti. Poi c'è il diritto alla cancellazione, il cosiddetto diritto all'oblio. L'interessato può ottenere la cancellazione senza ingiustificato ritardo, e il titolare è obbligato a cancellare, se ricorre uno di questi motivi: i dati non sono più necessari rispetto alle finalità per cui sono stati raccolti; l'interessato revoca il consenso e non c'è un'altra base giuridica; l'interessato si oppone al trattamento e non ci sono motivi legittimi prevalenti; i dati sono stati trattati illecitamente; la cancellazione è necessaria per adempiere un obbligo di legge; i dati sono stati raccolti nell'ambito dell'offerta di servizi della società dell'informazione a un minore. Se il titolare ha reso pubblici i dati, diffondendoli, deve informare gli altri titolari che li trattano della richiesta dell'interessato di cancellare qualsiasi link, copia o riproduzione.\n\nIl diritto all'oblio, però, non è assoluto: non sussiste in una serie di casi considerati eccezionali. Non si applica quando il trattamento è necessario per l'esercizio della libertà di espressione e di informazione, per adempiere un obbligo di legge o svolgere un compito di interesse pubblico, per motivi di sanità pubblica, per l'archiviazione nel pubblico interesse, la ricerca scientifica o storica o la statistica. Per noi il caso tipico è l'obbligo di legge: i documenti raccolti per l'adeguata verifica antiriciclaggio vanno conservati dieci anni, anche se il cliente chiede di cancellarli.\n\nIl diritto di limitazione significa congelare i dati: il titolare li conserva ma non li usa. L'interessato può chiederlo in quattro casi: quando contesta l'esattezza dei dati, per il tempo necessario al titolare a verificarla; quando il trattamento è illecito ma l'interessato, invece della cancellazione, preferisce che l'uso sia solo limitato; quando il titolare non ne ha più bisogno, ma i dati servono all'interessato per accertare, esercitare o difendere un diritto in giudizio; quando l'interessato si è opposto e si attende di verificare se prevalgono i motivi legittimi del titolare.\n\nCon il diritto alla portabilità l'interessato può ricevere i dati che ha fornito in un formato strutturato, di uso comune e leggibile da un dispositivo automatico, e trasmetterli a un altro titolare senza impedimenti da parte di chi li aveva. Il Regolamento lo limita ai trattamenti automatizzati basati sul consenso o su un contratto. Il diritto di opposizione si esercita per motivi legati alla situazione particolare dell'interessato, solo in determinati casi, cioè quando il trattamento si basa sull'interesse pubblico o sul legittimo interesse del titolare; il titolare può continuare se dimostra motivi legittimi cogenti che prevalgono. Quando invece i dati sono trattati per marketing diretto, l'opposizione è incondizionata: basta chiederlo, e i dati non si usano più per quella finalità. Ricorda il collegamento con l'antiriciclaggio: per i dati trattati a quel fine, il Codice privacy limita l'esercizio di questi diritti quando ne deriverebbe un pregiudizio effettivo e concreto.\n\nPassiamo al titolare. Con il GDPR crescono gli oneri sia del titolare sia del responsabile. Il titolare mette in atto misure tecniche e organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento è conforme: è il principio di accountability, o responsabilizzazione. Quando un trattamento viene svolto per suo conto, ricorre solo a responsabili che presentino garanzie sufficienti.\n\nSecondo il materiale del corso l'accountability si compone di almeno tre elementi. La trasparenza, intesa come completa accessibilità delle informazioni, prima di tutto per i cittadini e gli utenti del servizio. La responsività, cioè la capacità di rendere conto di scelte, comportamenti e azioni e di rispondere alle domande dei portatori di interesse. E la compliance, la capacità di far rispettare le norme.\n\nIl responsabile del trattamento è la persona fisica o giuridica, la pubblica amministrazione o l'ente che tratta i dati per conto del titolare. È un soggetto distinto, che deve dare garanzie di pieno rispetto delle regole e di tutela dei diritti degli interessati. Il materiale del corso gli attribuisce anche il compito di svolgere valutazioni d'impatto, notificare eventuali violazioni, tenere registri delle attività, aderire a codici di condotta o meccanismi di certificazione e designare un responsabile della protezione dei dati. Nel Regolamento alcuni di questi compiti sono del responsabile in proprio, come il registro e, nei casi previsti, il DPO; altri, come la valutazione d'impatto e la notifica all'autorità, spettano al titolare, che il responsabile assiste.\n\nDue principi pratici. Privacy by design: il titolare mette in atto misure adeguate per applicare i principi di protezione dei dati non solo durante il trattamento, ma fin dalla sua progettazione. Privacy by default: per impostazione predefinita si trattano solo i dati necessari per ciascuna finalità specifica. Un nuovo preventivatore online che nasce con i soli campi indispensabili è by design; un gestionale in cui ogni collaboratore vede solo le pratiche che segue è by default.\n\nIl titolare deve tenere un registro delle attività di trattamento svolte sotto la sua responsabilità, e il responsabile un registro di tutte le categorie di attività svolte per conto di ciascun titolare. Il materiale parlava di registri in forma scritta e in formato elettronico; più precisamente, il Regolamento chiede la forma scritta, anche elettronica. L'obbligo non si applica alle imprese e organizzazioni con meno di 250 dipendenti, con alcune eccezioni: quando il trattamento può presentare un rischio, non è occasionale o riguarda dati particolari o relativi a condanne penali. In pratica, quasi ogni agenzia che tratta con continuità dati dei clienti, magari anche sanitari, farà bene a tenerlo.\n\nIn caso di data breach, cioè di violazione dei dati, il responsabile che ne viene a conoscenza informa il titolare senza ingiustificato ritardo, e il titolare notifica la violazione all'autorità di controllo competente. Come si gestisce in concreto un incidente lo abbiamo visto nella lezione sul social engineering.\n\nQuando un trattamento, specie se usa nuove tecnologie, può presentare per natura, oggetto, contesto e finalità un rischio elevato per i diritti e le libertà delle persone, il titolare deve fare prima una valutazione d'impatto, la DPIA. È uno strumento che descrive il trattamento, aiuta a prevenire e gestire i rischi e attesta la conformità. Il materiale del corso la attribuiva ai «proprietari» del processo: per il Regolamento è un obbligo del titolare, che si consulta con il DPO se è stato nominato. È richiesta in particolare per valutazioni sistematiche di aspetti personali basate su trattamenti automatizzati e profilazione che producono decisioni con effetti giuridici, per il trattamento su larga scala di dati particolari o penali e per la sorveglianza sistematica su larga scala di zone accessibili al pubblico. L'autorità di controllo nazionale redige e pubblica l'elenco dei trattamenti soggetti a DPIA e può pubblicare anche quello dei trattamenti esclusi.\n\nCome capire se serve? Il materiale del corso riporta i nove criteri delle linee guida europee: punteggi o valutazioni, decisioni automatizzate con effetti giuridici significativi, monitoraggio sistematico, dati sensibili o di natura strettamente personale, larga scala, aggregazione di insiemi di dati, soggetti vulnerabili, nuove soluzioni tecnologiche o organizzative, trattamenti che impediscono di esercitare un diritto. Quando ne ricorrono almeno due, la DPIA è di regola necessaria. Non serve se il rischio non è elevato, se il trattamento è molto simile a uno già valutato, se è già stato verificato da un'autorità e rientra nell'elenco dei trattamenti esclusi, o se si fonda su norme europee o nazionali per le quali una DPIA è già stata svolta.\n\nNel caso pratico la cliente chiede due cose diverse, e vanno trattate diversamente. Sul marketing la risposta è sì, subito. Sulla cancellazione la risposta è in parte no: i dati che servono per il contratto in corso e per gli obblighi di legge restano. Rispondere entro un mese, spiegando tutto con chiarezza, è il modo migliore per evitare un reclamo. Nella prossima lezione vediamo il DPO, i trasferimenti all'estero, le autorità di controllo e le sanzioni.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 arricchito con i considerando, aggiornato alle rettifiche GUUE del 23 maggio 2018 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "D.Lgs. 196/2003 integrato con le modifiche del D.Lgs. 101/2018, testo coordinato V 12.0 aprile 2026 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+(Testo+coordinato)"
+        },
+        {
+          "title": "Garante privacy, Valutazione d'impatto della protezione dei dati (DPIA)",
+          "url": "https://www.garanteprivacy.it/valutazione-d-impatto-della-protezione-dei-dati-dpia-"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Termini di risposta all'interessato: un mese, proroga di due mesi, comunicazione dell'inottemperanza entro un mese, possibilità di reclamo e ricorso.",
+          "source_ref": "Reg. (UE) 2016/679, art. 12, par. 3-5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Oblio, lett. f): i dati raccolti per servizi della società dell'informazione rilevano se riferiti a minori (art. 8). Precisazione aggiunta.",
+          "source_ref": "Reg. (UE) 2016/679, art. 17, par. 1, lett. f"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Eccezioni al diritto all'oblio ed esempio della conservazione decennale antiriciclaggio.",
+          "source_ref": "Reg. (UE) 2016/679, art. 17, par. 3; D.Lgs. 231/2007, art. 31"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni della portabilità e dell'opposizione (basi giuridiche, motivi legittimi cogenti); limiti dell'art. 2-undecies.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 20-21; D.Lgs. 196/2003, art. 2-undecies"
+        },
+        {
+          "kind": "modificato",
+          "description": "Compiti del responsabile: la fonte gli attribuiva DPIA e notifica delle violazioni; nel GDPR sono del titolare, che il responsabile assiste. Mantenuta la frase della fonte con la precisazione.",
+          "source_ref": "Reg. (UE) 2016/679, art. 28, par. 3, lett. f"
+        },
+        {
+          "kind": "modificato",
+          "description": "Registro: «in forma scritta, anche in formato elettronico» (la fonte diceva «in forma scritta ed in formato elettronico»); specificate le eccezioni alla soglia dei 250 dipendenti e i contenuti.",
+          "source_ref": "Reg. (UE) 2016/679, art. 30"
+        },
+        {
+          "kind": "modificato",
+          "description": "DPIA: la fonte 60 ore la attribuiva ai «proprietari» del processo; è un obbligo del titolare, che consulta il DPO. Aggiunti i casi dell'art. 35, par. 3.",
+          "source_ref": "Reg. (UE) 2016/679, art. 35"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i nove criteri e la regola dei due criteri per la DPIA (linee guida europee WP248); la pagina del Garante consultata richiama le linee guida ma non elenca i criteri.",
+          "source_ref": "Garante, pagina DPIA"
+        },
+        {
+          "kind": "modificato",
+          "description": "Data breach: mantenuta solo l'affermazione della fonte (responsabile informa il titolare, titolare notifica all'autorità), con rinvio alla lezione sul social engineering.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "DPO, trasferimenti, autorità di controllo e sanzioni",
+      "source_files": [
+        "corso totale/Area Giuridica/Privacy.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Normativa in materia di protezione dei dati personali /Privacy terza parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/- Normativa in materia di protezione dei dati personali /Privacy quarta parte.pdf",
+        "Corso Ivass 60 ore/Materiale /La privacy nella era del GDPR.pdf ok.pdf"
+      ],
+      "source_minutes": 23,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Normativa in materia di protezione dei dati personali",
+          "title": "DPO, trasferimenti, autorità e sanzioni",
+          "goals": [
+            "Sapere quando serve il DPO e che cosa fa",
+            "Capire a quali condizioni i dati possono uscire dall'Unione",
+            "Conoscere autorità di controllo, mezzi di ricorso e sanzioni"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando serve il DPO",
+          "items": [
+            {
+              "text": "Il trattamento è svolto da un'autorità o da un organismo pubblico"
+            },
+            {
+              "text": "Le attività principali richiedono il monitoraggio regolare e sistematico degli interessati su larga scala"
+            },
+            {
+              "text": "Le attività principali consistono nel trattare su larga scala dati particolari, come quelli sulla salute, o dati su condanne penali e reati",
+              "ref": "Reg. (UE) 2016/679, art. 37"
+            },
+            {
+              "text": "Il DPO è indipendente, tenuto al segreto, riferisce al vertice e non riceve istruzioni sui suoi compiti; può svolgere altre funzioni senza conflitti di interesse",
+              "ref": "art. 38"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Attenzione ai conflitti di interesse",
+          "items": [
+            {
+              "text": "Ruoli dirigenziali che incidono sulla gestione dei dati personali"
+            },
+            {
+              "text": "Tempo dedicato agli altri compiti a scapito di quello da DPO"
+            },
+            {
+              "text": "Posizione gerarchica del personale che supporta il DPO e svolge anche altri compiti",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa fa il DPO",
+          "items": [
+            {
+              "text": "Informa e consiglia titolare, responsabile e dipendenti sugli obblighi di protezione dei dati"
+            },
+            {
+              "text": "Sorveglia il rispetto del Regolamento e delle politiche interne"
+            },
+            {
+              "text": "Se richiesto, dà un parere sulla valutazione d'impatto e ne sorveglia lo svolgimento"
+            },
+            {
+              "text": "Coopera con l'autorità di controllo e fa da punto di contatto",
+              "ref": "Reg. (UE) 2016/679, art. 39"
+            },
+            {
+              "text": "È un esperto, interno o esterno, con competenze giuridiche, informatiche, di risk management e di analisi dei processi",
+              "ref": "materiale originale"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Codici di condotta e certificazioni",
+          "key": "Stati, autorità di controllo, Comitato europeo e Commissione incoraggiano codici di condotta per settore e meccanismi di certificazione, con sigilli e marchi di protezione dei dati.",
+          "body": "I codici aiutano ad applicare correttamente il Regolamento secondo le specificità dei settori. Certificazioni, sigilli e marchi servono a dimostrare la conformità dei trattamenti. In entrambi i casi si tiene conto delle esigenze di micro, piccole e medie imprese.",
+          "ref": "Reg. (UE) 2016/679, artt. 40-42"
+        },
+        {
+          "layout": "steps",
+          "title": "Trasferire dati fuori dall'UE",
+          "steps": [
+            {
+              "label": "La regola",
+              "text": "Ogni trasferimento verso Paesi terzi o organizzazioni internazionali, compresi i successivi, rispetta le condizioni del Regolamento, perché la protezione non si abbassi."
+            },
+            {
+              "label": "Adeguatezza",
+              "text": "Se la Commissione ha deciso che il Paese garantisce una protezione adeguata, non servono autorizzazioni specifiche."
+            },
+            {
+              "label": "Garanzie adeguate",
+              "text": "Altrimenti servono garanzie e diritti azionabili, con mezzi di ricorso effettivi per gli interessati."
+            },
+            {
+              "label": "Deroghe",
+              "text": "In mancanza di entrambe, solo nei casi specifici previsti."
+            }
+          ],
+          "ref": "Reg. (UE) 2016/679, artt. 44-49"
+        },
+        {
+          "layout": "split",
+          "title": "Garanzie e deroghe",
+          "left": {
+            "title": "Garanzie adeguate",
+            "items": [
+              "Norme vincolanti d'impresa",
+              "Clausole contrattuali tipo",
+              "Codici di condotta approvati, con impegno vincolante del destinatario",
+              "Meccanismi di certificazione approvati"
+            ],
+            "ref": "art. 46"
+          },
+          "right": {
+            "title": "Deroghe",
+            "items": [
+              "Consenso esplicito dell'interessato, informato dei rischi",
+              "Contratto con l'interessato, o a suo favore con un terzo",
+              "Importanti motivi di interesse pubblico; difesa di un diritto in giudizio",
+              "Interessi vitali, se l'interessato non può dare il consenso",
+              "Dati tratti da un registro pubblico consultabile"
+            ],
+            "ref": "art. 49"
+          },
+          "note": "Esempio: un gestionale con server negli Stati Uniti richiede di verificare su quale base avviene il trasferimento.",
+          "noteRef": "Reg. (UE) 2016/679, artt. 45-49"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le autorità di controllo",
+          "items": [
+            {
+              "text": "Ogni Stato ha una o più autorità pubbliche indipendenti che sorvegliano l'applicazione del Regolamento; in Italia è il Garante"
+            },
+            {
+              "text": "Sorvegliano la corretta applicazione e promuovono nel pubblico la conoscenza di rischi e garanzie"
+            },
+            {
+              "text": "Consigliano parlamento, governo e istituzioni"
+            },
+            {
+              "text": "Sensibilizzano i titolari sui loro obblighi"
+            },
+            {
+              "text": "Trattano i reclami degli interessati"
+            },
+            {
+              "text": "Collaborano con le altre autorità scambiando informazioni",
+              "ref": "Reg. (UE) 2016/679, artt. 51-57"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I poteri delle autorità",
+          "lead": "L'esercizio dei poteri è soggetto a garanzie: ricorso giurisdizionale effettivo e giusto processo.",
+          "head": [
+            "Gruppo",
+            "Esempi"
+          ],
+          "rows": [
+            [
+              "Poteri di indagine",
+              "Chiedere informazioni, condurre revisioni, accedere a dati e locali."
+            ],
+            [
+              "Poteri correttivi",
+              "Avvertimenti, ammonimenti, ordini, limitazioni del trattamento, sanzioni."
+            ],
+            [
+              "Poteri autorizzativi e consultivi",
+              "Pareri e autorizzazioni nei casi previsti."
+            ],
+            [
+              "Azione in giudizio",
+              "Ogni Stato attribuisce per legge all'autorità il potere di agire in giudizio o fuori dal giudizio contro le violazioni."
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 58"
+        },
+        {
+          "layout": "compare",
+          "title": "Capofila, cooperazione e coerenza",
+          "cols": [
+            {
+              "title": "Autorità capofila",
+              "items": [
+                "È quella dello stabilimento principale del titolare che opera in più Stati",
+                "Gestisce i reclami ed è competente per le violazioni",
+                "Evita decisioni diverse sugli stessi fatti",
+                "La sua decisione vale anche per i trattamenti dello stesso titolare negli altri Paesi"
+              ]
+            },
+            {
+              "title": "Cooperazione e coerenza",
+              "items": [
+                "Le autorità coinvolte, guidate dalla capofila, indagano e accertano insieme per raggiungere un consenso",
+                "Con il meccanismo di coerenza cooperano tra loro e, se serve, con la Commissione",
+                "Obiettivo: un'applicazione uniforme in tutta l'Unione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il Comitato europeo per la protezione dei dati",
+          "key": "È un organismo dell'Unione con personalità giuridica, rappresentato dal presidente e composto dai vertici delle autorità di controllo di ogni Stato e dal Garante europeo della protezione dei dati.",
+          "body": "Opera in piena indipendenza. Tra l'altro consiglia la Commissione su formati e procedure per lo scambio di informazioni tra titolari e autorità e sulla valutazione dell'adeguatezza della protezione in un Paese terzo o in un'organizzazione internazionale.",
+          "ref": "Reg. (UE) 2016/679, artt. 68-70"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si tutela l'interessato",
+          "steps": [
+            {
+              "label": "Reclamo",
+              "text": "All'autorità dello Stato in cui risiede abitualmente, lavora o in cui è avvenuta la presunta violazione."
+            },
+            {
+              "label": "Ricorso contro l'autorità",
+              "text": "Diritto a un ricorso giurisdizionale effettivo contro le sue decisioni."
+            },
+            {
+              "label": "Ricorso contro titolare o responsabile",
+              "text": "Davanti al giudice, per la violazione dei propri diritti."
+            },
+            {
+              "label": "Risarcimento",
+              "text": "Chi subisce un danno materiale o immateriale ottiene il risarcimento dal titolare o dal responsabile."
+            }
+          ],
+          "ref": "Reg. (UE) 2016/679, artt. 77-79, 82"
+        },
+        {
+          "layout": "table",
+          "title": "Le sanzioni",
+          "head": [
+            "Livello",
+            "Violazioni",
+            "Massimo"
+          ],
+          "rows": [
+            [
+              "1 · Obblighi",
+              "Obblighi di titolare e responsabile: by design, registro, sicurezza, DPIA, DPO e altri (artt. 25-39)",
+              "10 milioni di euro o 2% del fatturato mondiale annuo, se superiore"
+            ],
+            [
+              "2 · Principi e diritti",
+              "Principi, consenso, dati particolari, diritti degli interessati, trasferimenti, ordini del Garante",
+              "20 milioni di euro o 4% del fatturato mondiale annuo, se superiore"
+            ],
+            [
+              "A · Ammonimento",
+              "Violazione minore, o sanzione sproporzionata per una persona fisica",
+              "Al posto della sanzione pecuniaria"
+            ],
+            [
+              "P · Penale",
+              "Trattamento illecito per profitto o per danneggiare l'interessato, con nocumento",
+              "Reati previsti dal Codice privacy (artt. 167 ss.)"
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 83 e considerando 148; D.Lgs. 196/2003, art. 167"
+        },
+        {
+          "layout": "checklist",
+          "title": "GDPR e call center",
+          "items": [
+            {
+              "text": "Le chiamate automatizzate senza operatore, le email e gli SMS promozionali richiedono il consenso",
+              "ref": "Codice privacy, art. 130, c. 1-2"
+            },
+            {
+              "text": "Per telefono con operatore e posta cartacea si possono contattare solo i numeri di chi non si è iscritto al Registro pubblico delle opposizioni",
+              "ref": "art. 130, c. 3-bis"
+            },
+            {
+              "text": "Usare un numero riconoscibile e richiamabile, così chi riceve la chiamata può chiedere di non essere più contattato"
+            },
+            {
+              "text": "Se il numero non è richiamabile, usare un prefisso che faccia riconoscere subito la telefonata commerciale",
+              "ref": "materiale originale"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa cambia per le aziende",
+          "left": {
+            "title": "Un cambio di prospettiva",
+            "items": [
+              "Il sistema ruota intorno a titolare e responsabile e ai loro obblighi",
+              "Non più solo sui diritti dell'interessato",
+              "La tutela è preventiva: ogni fase del trattamento, sicurezza in testa, si progetta prima"
+            ]
+          },
+          "right": {
+            "title": "Le novità operative",
+            "items": [
+              "Analisi del rischio dei dati trattati",
+              "Registro, valutazione d'impatto, DPO, by design e by default",
+              "Notifica delle violazioni e formazione del personale",
+              "Un esperto può indicare strumenti hardware e software per colmare le carenze"
+            ]
+          },
+          "note": "Vantaggi: processi più razionali, dati più protetti e controllo costante dimostrabile, a fronte di costi e difficoltà iniziali.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola società di brokeraggio vuole affidare l'invio di newsletter a un fornitore con server fuori dall'UE e lanciare una campagna di telemarketing sulle polizze casa, usando una lista di numeri acquistata. Un cliente, contattato senza consenso, minaccia un reclamo.",
+          "questions": [
+            "Che cosa verifichi sul fornitore?",
+            "A quali condizioni puoi telefonare?",
+            "A chi può rivolgersi il cliente e che cosa rischi?"
+          ],
+          "solution": "Il fornitore è un responsabile: serve un contratto e una base per il trasferimento, come una decisione di adeguatezza o clausole contrattuali tipo. Per telefonare con operatore puoi contattare solo i numeri non iscritti al Registro delle opposizioni e con dati raccolti lecitamente; email e SMS promozionali richiedono il consenso. Il cliente può proporre reclamo al Garante, ricorrere al giudice e chiedere il risarcimento; le sanzioni per violazioni di principi e diritti arrivano fino a 20 milioni di euro o al 4% del fatturato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente che vive in Italia ritiene che una compagnia con sede in un altro Stato UE abbia trattato male i suoi dati. Dove può presentare reclamo?",
+          "options": [
+            "Solo all'autorità dello Stato in cui ha sede la compagnia",
+            "Anche al Garante italiano, perché risiede in Italia",
+            "Solo alla Commissione europea",
+            "Solo al giudice"
+          ],
+          "answer": 1,
+          "explanation": "Il reclamo si può presentare nello Stato in cui l'interessato risiede abitualmente, lavora o in cui è avvenuta la presunta violazione. Se il trattamento è transfrontaliero, il caso coinvolge poi l'autorità capofila."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Larga scala",
+              "text": "è la parola chiave per l'obbligo di nominare il DPO"
+            },
+            {
+              "value": "3 strade",
+              "text": "adeguatezza, garanzie adeguate o deroghe per i trasferimenti fuori UE"
+            },
+            {
+              "value": "Capofila",
+              "text": "un'unica autorità guida i trattamenti transfrontalieri"
+            },
+            {
+              "value": "4%",
+              "text": "del fatturato mondiale, o 20 milioni: il massimo delle sanzioni"
+            },
+            {
+              "value": "Opposizioni",
+              "text": "il registro da consultare prima del telemarketing telefonico"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione completiamo il quadro del GDPR: il responsabile della protezione dei dati, i trasferimenti di dati fuori dall'Unione, le autorità di controllo, gli strumenti di tutela dell'interessato e le sanzioni. Chiudiamo con le regole sul telemarketing e con ciò che il Regolamento ha cambiato per le aziende.\n\nIl responsabile della protezione dei dati, in inglese Data Protection Officer o DPO, va designato dal titolare e dal responsabile del trattamento in tre casi. Primo, quando il trattamento è effettuato da un'autorità o da un organismo pubblico. Secondo, quando le attività principali consistono in trattamenti che, per natura, ambito o finalità, richiedono il monitoraggio regolare e sistematico degli interessati su larga scala. Terzo, quando le attività principali consistono nel trattamento su larga scala di categorie particolari di dati, come quelli sulla salute, o di dati relativi a condanne penali e reati. Il materiale del corso indicava genericamente il trattamento di dati sensibili o giudiziari: il Regolamento precisa che deve trattarsi di attività principali e su larga scala. Il DPO deve essere indipendente: non riceve istruzioni sull'esecuzione dei suoi compiti, non può essere rimosso o penalizzato per averli svolti, riferisce direttamente al vertice ed è tenuto al segreto o alla riservatezza. Può svolgere altri compiti e funzioni, ma senza conflitti di interesse.\n\nIl titolare o il responsabile devono quindi assicurarsi che gli altri compiti del DPO non creino conflitti. Il materiale del corso ne indica tre tipi: quello legato all'assunzione, da parte del DPO, di ruoli dirigenziali che incidono sulla gestione dei dati personali; quello tra il tempo dedicato alle mansioni di DPO e quello dedicato ad altri compiti; quello legato alla posizione gerarchica del personale che supporta il DPO e che svolge anche altre funzioni.\n\nChe cosa fa il DPO? Informa e consiglia titolare, responsabile e dipendenti, sorveglia il rispetto del Regolamento e delle politiche interne, dà pareri sulla valutazione d'impatto se richiesto e fa da punto di contatto con l'autorità di controllo. Per il materiale del corso è un esperto, interno o esterno, con competenze giuridiche, informatiche, di gestione del rischio e di analisi dei processi, che organizza la gestione dei dati personali in azienda, pubblica o privata. I soggetti che hanno i requisiti indicati dal legislatore devono nominarlo.\n\nIl Regolamento punta anche sull'autoregolamentazione. Gli Stati membri, le autorità di controllo, il Comitato europeo e la Commissione incoraggiano l'elaborazione di codici di condotta che aiutino ad applicare correttamente il Regolamento, tenendo conto delle specificità dei vari settori e delle esigenze delle micro, piccole e medie imprese. Incoraggiano inoltre, in particolare a livello di Unione, meccanismi di certificazione, sigilli e marchi di protezione dei dati, che servono a dimostrare la conformità dei trattamenti svolti da titolari e responsabili; anche qui si tiene conto delle esigenze delle imprese più piccole.\n\nPassiamo ai trasferimenti. Qualunque trasferimento di dati verso un Paese terzo o un'organizzazione internazionale, compresi i trasferimenti successivi verso altri Paesi o organizzazioni, è ammesso solo se titolare e responsabile rispettano le condizioni del Regolamento: lo scopo è che il livello di protezione delle persone non venga abbassato. La prima strada è la decisione di adeguatezza: se la Commissione europea ha stabilito che un Paese garantisce un livello di protezione adeguato, il trasferimento non richiede autorizzazioni specifiche. In mancanza, il titolare o il responsabile possono trasferire i dati solo se hanno fornito garanzie adeguate e se gli interessati dispongono di diritti azionabili e mezzi di ricorso effettivi. Sono garanzie le norme vincolanti d'impresa, le clausole contrattuali tipo, i codici di condotta approvati e i meccanismi di certificazione approvati, questi ultimi accompagnati dall'impegno vincolante del destinatario ad applicare le garanzie.\n\nQuando mancano sia la decisione di adeguatezza sia le garanzie, il trasferimento è possibile solo nei casi elencati nella slide, come il consenso esplicito dell'interessato informato dei rischi, l'esecuzione di un contratto con lui o a suo favore, importanti motivi di interesse pubblico o la difesa di un diritto in giudizio. Per un intermediario la domanda concreta è semplice: il mio gestionale, la mia posta, il mio archivio in cloud tengono i dati fuori dall'Unione? Se sì, su quale base?\n\nOgni Stato membro affida a una o più autorità pubbliche indipendenti il compito di sorvegliare l'applicazione del Regolamento, per tutelare i diritti delle persone e agevolare la libera circolazione dei dati nell'Unione. In Italia è il Garante. Ogni autorità agisce in piena indipendenza sul territorio del proprio Stato e svolge i compiti che vedi nella slide: sorveglianza, sensibilizzazione del pubblico e dei titolari, consulenza alle istituzioni, gestione dei reclami, collaborazione con le altre autorità e ogni altro compito legato alla protezione dei dati.\n\nOgni autorità dispone di tre gruppi di poteri: di indagine, correttivi, autorizzativi e consultivi. Il loro esercizio è soggetto a garanzie adeguate, come la possibilità di un ricorso giurisdizionale effettivo e il giusto processo. Inoltre ogni Stato deve attribuire per legge all'autorità il potere di agire in giudizio, o in via stragiudiziale, quando il Regolamento viene violato.\n\nQuando un titolare opera in più Stati entra in gioco l'autorità capofila, quella dello stabilimento principale. Gestisce i reclami ed è competente per le eventuali violazioni: così si evita che violazioni delle stesse norme vengano decise in modo diverso dalle autorità dei vari Stati in cui il titolare opera, e la sua decisione vale anche per i trattamenti dello stesso titolare negli altri Paesi dell'Unione. Accanto a questo c'è un meccanismo di cooperazione: tutte le autorità coinvolte, guidate dalla capofila, possono condurre insieme indagini, controlli e accertamenti per arrivare a una posizione comune. E per un'applicazione coerente in tutta l'Unione le autorità cooperano tra loro e, se serve, con la Commissione, attraverso il meccanismo di coerenza.\n\nIl Comitato europeo per la protezione dei dati è un organismo dell'Unione dotato di personalità giuridica, rappresentato dal suo presidente. È composto dalla figura di vertice di un'autorità di controllo per ciascuno Stato e dal Garante europeo della protezione dei dati, o dai loro rappresentanti. Opera in piena indipendenza, come ogni autorità garante, e tra l'altro consiglia la Commissione sui formati e sulle procedure per lo scambio di informazioni tra titolari e autorità, o per valutare l'adeguatezza della protezione in un Paese terzo o in un'organizzazione internazionale.\n\nCome si difende l'interessato? Il primo strumento è il reclamo, che si presenta all'autorità dello Stato in cui risiede abitualmente, lavora o in cui si è verificata la presunta violazione. Ha poi diritto a un ricorso giurisdizionale effettivo contro le decisioni dell'autorità di controllo e a un ricorso giurisdizionale effettivo contro il titolare o il responsabile. Chi subisce un danno, materiale o immateriale, può ottenere il risarcimento dal titolare o dal responsabile, a seconda di chi ha commesso la violazione.\n\nSulle sanzioni amministrative il Regolamento prevede due livelli. Fino a 10 milioni di euro, o per le imprese fino al 2% del fatturato mondiale annuo se superiore, per la violazione degli obblighi di titolare e responsabile, come privacy by design, registro, sicurezza, valutazione d'impatto e DPO. Fino a 20 milioni di euro, o al 4% del fatturato, per la violazione dei principi di base, delle condizioni del consenso, delle regole sui dati particolari, dei diritti degli interessati, delle regole sui trasferimenti e degli ordini dell'autorità. In caso di violazione minore, o se la sanzione pecuniaria fosse un onere sproporzionato per una persona fisica, l'autorità può rivolgere un ammonimento al posto della sanzione. Il GDPR lascia agli Stati anche le sanzioni penali: in Italia il Codice privacy punisce, tra l'altro, il trattamento illecito di dati compiuto per trarne profitto o per danneggiare l'interessato, quando gli arreca un nocumento.\n\nUn ambito che riguarda da vicino la vendita di polizze è il telemarketing. Il Codice privacy richiede il consenso per le chiamate automatizzate senza operatore e per email, SMS e messaggi simili a scopo promozionale. Le telefonate con operatore e la posta cartacea sono invece consentite verso chi non si è opposto iscrivendosi al Registro pubblico delle opposizioni. Il materiale del corso aggiunge due buone pratiche per i call center: usare un numero facilmente riconoscibile e richiamabile, così chi riceve la chiamata, anche se non è iscritto al registro, può richiamare e chiedere di non essere più contattato; oppure, se il numero non è richiamabile, usare un prefisso che faccia riconoscere subito la telefonata commerciale.\n\nChiudiamo con lo sguardo d'insieme. Il cambio di prospettiva più grande del Regolamento è aver costruito il sistema sulle figure del titolare, il controller, e del responsabile, il processor, e sui loro obblighi. La disciplina non è più centrata solo sui diritti dell'interessato: la tutela, in un'ottica preventiva e precauzionale, passa per un'attenta progettazione di ogni fase del trattamento, soprattutto delle misure di sicurezza, prima che inizi. Per le aziende significa un sistema basato sull'analisi del rischio e una protezione dinamica delle persone, con registro, valutazione d'impatto, DPO, privacy by design e by default, notifica delle violazioni e formazione del personale. Possono farsi affiancare da un esperto che, se trova carenze, indichi gli strumenti hardware e software necessari. Il materiale ricorda anche due garanzie centrali, il diritto di accesso e il diritto all'oblio. L'adeguamento costa, ma porta vantaggi: processi più razionali, dati più protetti e la capacità di dimostrare un controllo costante.\n\nDal caso pratico porta via una regola: prima di lanciare una campagna, verifica sempre chi tratta i dati per tuo conto, dove finiscono e su quale base puoi contattare le persone.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 arricchito con i considerando, aggiornato alle rettifiche GUUE del 23 maggio 2018 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "D.Lgs. 196/2003 integrato con le modifiche del D.Lgs. 101/2018, testo coordinato V 12.0 aprile 2026 (Garante privacy)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Codice+in+materia+di+protezione+dei+dati+personali+(Testo+coordinato)"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Obbligo di DPO: la fonte indicava il trattamento di «dati sensibili o giudiziari»; il GDPR richiede che sia attività principale e su larga scala. Aggiunti i requisiti di indipendenza dell'art. 38.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 37-38"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte 60 ore usava «Data Privacy Officer»: la denominazione corretta è Data Protection Officer (responsabile della protezione dei dati).",
+          "source_ref": "Reg. (UE) 2016/679, art. 37"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Decisione di adeguatezza come prima base per i trasferimenti; codici e certificazioni con impegno vincolante del destinatario; deroga contrattuale «a favore dell'interessato»; interessi vitali se l'interessato non può consentire.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 45, 46, 49"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi dei poteri di indagine e correttivi.",
+          "source_ref": "Reg. (UE) 2016/679, art. 58"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Importi massimi delle sanzioni (10 milioni o 2%, 20 milioni o 4%), ammonimento (considerando 148), diritto al risarcimento (art. 82), reato di trattamento illecito (Codice, art. 167).",
+          "source_ref": "Reg. (UE) 2016/679, artt. 82-83; D.Lgs. 196/2003, art. 167"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Telemarketing: consenso per chiamate automatizzate, email e SMS; Registro pubblico delle opposizioni per telefono con operatore e posta.",
+          "source_ref": "D.Lgs. 196/2003, art. 130"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le indicazioni per i call center (numero richiamabile o prefisso dedicato). Il riferimento al «registro di cui sopra» della fonte è stato collegato al Registro pubblico delle opposizioni; norma sul prefisso da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "La slide sul whistleblowing della fonte 60 ore (whistleblower e segnalato) non è trattata qui: è oggetto dell'argomento dedicato.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}

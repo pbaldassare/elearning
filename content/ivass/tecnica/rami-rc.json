@@ -1,0 +1,1508 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Classificazione per rami di attività",
+  "topic_order": 4,
+  "scope": "core",
+  "source_minutes": 66,
+  "lessons": [
+    {
+      "title": "I rami assicurativi e l'attestato di rischio RC auto",
+      "source_files": [
+        "corso totale/Novita nel settore rc auto.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Classificazione per rami di attività/Novita nel settore rc auto prima parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Classificazione per rami di attività",
+          "title": "I rami assicurativi e l'attestato di rischio RC auto",
+          "goals": [
+            "Collocare RC auto e RC professionale nella classificazione per rami del Codice",
+            "Leggere un attestato di rischio: classi, tabella dei sinistri, codice IUR",
+            "Capire come si muove la classe di merito CU dopo un sinistro"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché si parla di rami",
+          "key": "Il Codice delle assicurazioni classifica le assicurazioni in rami: sei rami vita e diciotto rami danni. L'impresa viene autorizzata ramo per ramo e può offrire solo i rischi dei rami per cui è autorizzata.",
+          "body": "La classificazione serve alla vigilanza, al bilancio e alla distribuzione. Per l'intermediario è il primo filtro: un prodotto si può vendere solo se l'impresa è autorizzata in quel ramo.",
+          "ref": "Art. 2 CAP"
+        },
+        {
+          "layout": "table",
+          "title": "I rami vita",
+          "head": [
+            "Ramo",
+            "Che cosa copre"
+          ],
+          "rows": [
+            [
+              "I",
+              "Assicurazioni sulla durata della vita umana"
+            ],
+            [
+              "II",
+              "Assicurazioni di nuzialità e di natalità"
+            ],
+            [
+              "III",
+              "Prestazioni collegate a quote di OICR, fondi interni o indici (unit e index linked)"
+            ],
+            [
+              "IV",
+              "Malattia e non autosufficienza con contratti di lunga durata non rescindibili"
+            ],
+            [
+              "V",
+              "Operazioni di capitalizzazione"
+            ],
+            [
+              "VI",
+              "Gestione di fondi collettivi per prestazioni in caso di morte, di vita o di cessazione dell'attività lavorativa"
+            ]
+          ],
+          "ref": "Art. 2, c. 1 CAP"
+        },
+        {
+          "layout": "table",
+          "title": "I rami danni, per gruppi",
+          "head": [
+            "Rami",
+            "Gruppo",
+            "Esempi"
+          ],
+          "rows": [
+            [
+              "1-2 · Persone",
+              "Infortuni e malattia",
+              "Prestazioni forfettarie, indennità temporanee, persone trasportate"
+            ],
+            [
+              "3-7 · Corpi e merci",
+              "Danni a veicoli terrestri, ferroviari, aerei, marittimi e alle merci trasportate",
+              "La garanzia Kasko è ramo 3"
+            ],
+            [
+              "8-9 · Beni",
+              "Incendio ed elementi naturali, altri danni ai beni",
+              "Grandine, gelo, furto"
+            ],
+            [
+              "10-13 · Responsabilità civile",
+              "RC autoveicoli, aeromobili, natanti, RC generale",
+              "RC auto è ramo 10, RC professionale è ramo 13"
+            ],
+            [
+              "14-15 · Credito e cauzione",
+              "Insolvenze, credito all'esportazione, cauzioni",
+              "Fideiussioni assicurative"
+            ],
+            [
+              "16-18 · Altri",
+              "Perdite pecuniarie, tutela legale, assistenza",
+              "Perdita di fitti, soccorso stradale"
+            ]
+          ],
+          "ref": "Art. 2, c. 3 CAP"
+        },
+        {
+          "layout": "split",
+          "title": "Dove si collocano i due temi del modulo",
+          "left": {
+            "title": "Ramo 10 · RC autoveicoli terrestri",
+            "items": [
+              "Ogni responsabilità risultante dall'uso di autoveicoli terrestri",
+              "Compresa la responsabilità del vettore",
+              "Assicurazione obbligatoria: artt. 122 e seguenti del Codice"
+            ],
+            "ref": "Art. 2, c. 3, n. 10 CAP"
+          },
+          "right": {
+            "title": "Ramo 13 · RC generale",
+            "items": [
+              "Ogni responsabilità diversa da quelle dei rami 10, 11 e 12",
+              "Qui rientra la RC professionale",
+              "Obbligo di assicurarsi per i professionisti iscritti agli albi"
+            ],
+            "ref": "Art. 2, c. 3, n. 13 CAP"
+          },
+          "note": "Il Codice raggruppa anche i rami in autorizzazioni cumulative, ad esempio \"Infortuni e malattia\" per i rami 1 e 2.",
+          "noteRef": "Art. 2, c. 4 CAP"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è l'attestato di rischio",
+          "key": "È il documento emesso dalla compagnia che riporta il passato assicurativo dell'automobilista: sinistri, classe di merito, dati del proprietario, della compagnia e del veicolo.",
+          "body": "Oggi le norme lo chiamano anche \"attestazione di sinistralità pregressa\". Il proprietario o il contraente può chiederlo in qualunque momento: l'impresa lo rende disponibile entro 15 giorni, per via telematica.",
+          "ref": "Art. 134, c. 1 CAP; Reg. IVASS 58/2026, art. 2"
+        },
+        {
+          "layout": "facts",
+          "title": "Che cosa c'è dentro l'attestato",
+          "lead": "Le informazioni che l'intermediario deve saper leggere e spiegare al cliente.",
+          "facts": [
+            {
+              "label": "Classi di merito",
+              "text": "Classe aziendale e classe CU, di provenienza e di assegnazione per l'anno successivo."
+            },
+            {
+              "label": "Sinistri",
+              "text": "La tabella della sinistrosità pregressa: fino al 2018 gli ultimi 5 anni, oggi 10 anni più l'anno in corso."
+            },
+            {
+              "label": "Soggetti",
+              "text": "Dati del contraente e del proprietario, se diverso, e della compagnia."
+            },
+            {
+              "label": "Veicolo",
+              "text": "Targa o telaio e tipo di veicolo."
+            },
+            {
+              "label": "IUR",
+              "text": "Il codice che lega il proprietario a ciascun suo veicolo."
+            },
+            {
+              "label": "Forma tariffaria",
+              "text": "Bonus malus, franchigia o formula mista, con le franchigie non pagate."
+            }
+          ],
+          "ref": "Reg. IVASS 58/2026, art. 3"
+        },
+        {
+          "layout": "steps",
+          "title": "Come è cambiato l'attestato",
+          "steps": [
+            {
+              "label": "2015 · Digitale",
+              "text": "L'attestato non è più di carta: si trova nella Banca dati degli attestati."
+            },
+            {
+              "label": "1° agosto 2018 · Dinamico",
+              "text": "I sinistri tardivi vengono recuperati negli attestati successivi, anche se il cliente cambia compagnia."
+            },
+            {
+              "label": "Dal 2019 · 10 anni",
+              "text": "La tabella dei sinistri cresce di un anno ogni anno, fino a 10 anni."
+            },
+            {
+              "label": "2025-2026 · Modello europeo",
+              "text": "Dal 24 luglio 2025 vale il modello UE di attestazione. Il Reg. IVASS 58/2026 fissa le informazioni aggiuntive italiane."
+            }
+          ],
+          "ref": "Provv. IVASS 71/2018, art. 4; Reg. (UE) 2024/1855; Reg. IVASS 58/2026"
+        },
+        {
+          "layout": "concept",
+          "title": "Il sinistro tardivo",
+          "key": "È un sinistro pagato, in tutto o in parte, negli ultimi 60 giorni del contratto o dopo la scadenza. Per questo non compare nell'attestato consegnato quando il responsabile cambia compagnia.",
+          "body": "Prima del 2018 questo sinistro spesso si perdeva. Con l'attestato dinamico viene recuperato negli attestati successivi, con l'eventuale malus, anche presso la nuova compagnia. Il sinistro tardivo si iscrive entro 5 anni dalla denuncia o dalla richiesta di risarcimento.",
+          "ref": "Provv. IVASS 71/2018, art. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "Il codice IUR",
+          "key": "Il codice Identificativo Univoco del Rischio lega il proprietario, o altro avente diritto, a ciascun veicolo. Nella Banca dati permette di aggiornare la tabella dei sinistri con i sinistri tardivi.",
+          "body": "Il materiale originale lo chiama \"Identificativo Unico del Rischio\": è lo stesso codice. Senza IUR la compagnia che paga in ritardo non saprebbe a quale nuovo contratto agganciare il sinistro.",
+          "ref": "Provv. IVASS 71/2018, art. 1, c. 3; Reg. IVASS 58/2026, art. 2"
+        },
+        {
+          "layout": "timeline",
+          "title": "I numeri dell'attestato",
+          "items": [
+            {
+              "value": "15 giorni",
+              "text": "per avere l'attestato su richiesta; oltre 15 giorni dalla scadenza serve una dichiarazione di mancato utilizzo del veicolo",
+              "ref": "Art. 134 CAP; Reg. 58/2026, art. 8"
+            },
+            {
+              "value": "60 giorni",
+              "text": "prima della scadenza si chiude il periodo di osservazione dei sinistri",
+              "ref": "Reg. 58/2026, art. 6"
+            },
+            {
+              "value": "5 anni",
+              "text": "di validità dell'ultimo attestato se il veicolo non è più assicurato o la polizza è sospesa",
+              "ref": "Reg. 58/2026, art. 8"
+            },
+            {
+              "value": "10 anni",
+              "text": "di storia dei sinistri nella tabella, più l'anno in corso",
+              "ref": "Reg. 58/2026, art. 2"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Classe CU e classe interna",
+          "cols": [
+            {
+              "title": "Classe di conversione universale (CU)",
+              "items": [
+                "Scala da 1 a 18 fissata dall'IVASS",
+                "Uguale per tutte le compagnie",
+                "Serve a confrontare le offerte",
+                "Si muove con regole identiche sul mercato"
+              ]
+            },
+            {
+              "title": "Classe interna (aziendale)",
+              "items": [
+                "Scala scelta da ogni compagnia",
+                "Diversa per corrispondenza con la CU e per regole in caso di sinistro",
+                "Determina il premio effettivo",
+                "Non incide sull'evoluzione della CU"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Come si muove la classe CU",
+          "lead": "Esempi dalla tabella IVASS: classe dell'anno dopo, in base ai sinistri con responsabilità principale pagati.",
+          "head": [
+            "Classe di partenza",
+            "Nessun sinistro",
+            "Con sinistri"
+          ],
+          "rows": [
+            [
+              "14 · Classe d'ingresso",
+              "13",
+              "1 sinistro: 16. Due o più: 18"
+            ],
+            [
+              "10 · Classe intermedia",
+              "9",
+              "1 sinistro: 12. Due: 15. Tre o più: 18"
+            ],
+            [
+              "4 · Classe buona",
+              "3",
+              "1 sinistro: 6. Due: 9. Tre: 12"
+            ],
+            [
+              "1 · Classe migliore",
+              "1",
+              "1 sinistro: 3. Due: 6. Tre: 9"
+            ],
+            [
+              "18 · Classe peggiore",
+              "17",
+              "Resta 18"
+            ]
+          ],
+          "ref": "Reg. IVASS 58/2026, art. 5, Tabella 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando scatta il malus",
+          "items": [
+            {
+              "text": "Prima immatricolazione o voltura al PRA: si parte dalla classe CU 14, salvo RC familiare.",
+              "ref": "Reg. 58/2026, art. 4"
+            },
+            {
+              "text": "Il malus si applica al responsabile principale, cioè al veicolo con la responsabilità più alta.",
+              "ref": "Art. 134, c. 4-ter CAP; Reg. 58/2026, art. 5"
+            },
+            {
+              "text": "Responsabilità paritaria: nessun malus subito, ma la quota viene annotata. Se in 5 anni le quote sommate arrivano al 51%, scatta il malus.",
+              "ref": "Reg. 58/2026, art. 5, c. 4"
+            },
+            {
+              "text": "Niente cambio di classe prima di aver accertato la responsabilità.",
+              "ref": "Art. 134, c. 4-ter CAP"
+            },
+            {
+              "text": "Con la scatola nera il peggioramento di classe e l'aumento di premio devono essere inferiori.",
+              "ref": "Art. 134, c. 4-ter.1 CAP"
+            },
+            {
+              "text": "Ogni peggioramento di classe va comunicato subito al contraente.",
+              "ref": "Art. 134, c. 4-quater CAP"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente in classe CU 14 ha un sinistro con responsabilità principale pagato a marzo. La polizza scade a dicembre. In che classe CU va l'anno dopo?",
+          "options": [
+            "Classe 13",
+            "Classe 15",
+            "Classe 16",
+            "Classe 18"
+          ],
+          "answer": 2,
+          "explanation": "Dalla classe 14, con un sinistro pagato nel periodo di osservazione, la tabella IVASS assegna la classe 16. Con due o più sinistri si arriverebbe alla 18; senza sinistri alla 13."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Marco cambia compagnia alla scadenza di settembre. A fine agosto, cioè negli ultimi 60 giorni del contratto, la vecchia compagnia gli paga un sinistro con colpa. Il nuovo attestato non lo riporta e Marco pensa di averla scampata.",
+          "questions": [
+            "Il sinistro andrà perso?",
+            "Che cosa permette di recuperarlo?",
+            "Che cosa conviene dire a Marco in agenzia?"
+          ],
+          "solution": "È un sinistro tardivo. La vecchia compagnia lo comunica alla Banca dati con il codice IUR e il sinistro viene inserito negli attestati successivi, con il malus, anche presso la nuova compagnia. C'è tempo fino a 5 anni dalla denuncia. Conviene spiegarlo subito a Marco, così il malus dell'anno dopo non lo sorprende."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "6 + 18",
+              "text": "rami vita e rami danni: RC auto è ramo 10, RC professionale è ramo 13"
+            },
+            {
+              "value": "10 anni",
+              "text": "di sinistri nella tabella dell'attestato, più l'anno in corso"
+            },
+            {
+              "value": "60 giorni",
+              "text": "prima della scadenza: oltre, il sinistro pagato è tardivo"
+            },
+            {
+              "value": "IUR",
+              "text": "il codice che aggancia i sinistri tardivi al nuovo contratto"
+            },
+            {
+              "value": "CU 14",
+              "text": "la classe d'ingresso; da 1 a 18 la scala uguale per tutti"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione apriamo l'argomento della classificazione per rami di attività. Prima vediamo come il Codice delle assicurazioni private ordina i rischi assicurabili. Poi entriamo nel primo dei due temi del modulo, la RC auto, partendo dal documento che l'intermediario usa ogni giorno: l'attestato di rischio.\n\nL'articolo 2 del Codice divide le assicurazioni in rami. I rami vita sono sei. Il ramo primo riguarda le assicurazioni sulla durata della vita umana. Il secondo, nuzialità e natalità. Il terzo comprende le polizze dei rami primo e secondo le cui prestazioni sono collegate a quote di fondi comuni, a fondi interni o a indici: sono le unit linked e le index linked. Il quarto riguarda malattia e non autosufficienza garantite con contratti di lunga durata non rescindibili. Il quinto, le operazioni di capitalizzazione. Il sesto, la gestione di fondi collettivi che pagano prestazioni in caso di morte, di vita o di cessazione dell'attività lavorativa.\n\nI rami danni sono diciotto. Per ricordarli conviene raggrupparli. I rami 1 e 2 proteggono la persona: infortuni e malattia. Dal 3 al 7 ci sono i danni ai corpi dei veicoli, terrestri, ferroviari, aerei, marittimi, e alle merci trasportate: la classica Kasko dell'auto è ramo 3. L'8 e il 9 riguardano i beni: incendio ed elementi naturali, poi grandine, gelo, furto e altri eventi. Dal 10 al 13 c'è la responsabilità civile. Il 14 e il 15 sono credito e cauzione. Chiudono il 16, perdite pecuniarie, il 17, tutela legale, e il 18, assistenza.\n\nQuesto ordine non è solo teoria. L'impresa ottiene l'autorizzazione ramo per ramo, e può assumere solo i rischi dei rami per cui è autorizzata. Il Codice prevede anche autorizzazioni cumulative per gruppi di rami, ad esempio \"Infortuni e malattia\" per i rami 1 e 2. Per l'intermediario è un primo controllo: prima di proporre un prodotto deve sapere in quale ramo ricade e se l'impresa è autorizzata.\n\nI due temi del modulo si trovano proprio nel gruppo della responsabilità civile. La RC auto è il ramo 10: ogni responsabilità che nasce dall'uso di autoveicoli terrestri, compresa quella del vettore. È un'assicurazione obbligatoria, regolata dagli articoli 122 e seguenti del Codice. La RC professionale, che vedremo nelle ultime due lezioni, rientra invece nel ramo 13, la responsabilità civile generale: tutte le responsabilità diverse da auto, aeromobili e natanti.\n\nVeniamo all'attestato di rischio. È il documento emesso dalla compagnia che riporta il passato assicurativo dell'automobilista. Dentro ci sono i sinistri, che fino al 2018 erano quelli degli ultimi cinque anni, la classe di merito di assegnazione e la classe di conversione universale, i dati del proprietario e della compagnia, e i dati del veicolo. Oggi le norme lo chiamano anche \"attestazione di sinistralità pregressa\". Il contraente, o il proprietario se è una persona diversa, può chiederlo in qualunque momento: l'impresa deve renderlo disponibile entro quindici giorni, per via telematica.\n\nIl regolamento IVASS numero 58 del 2026 elenca le informazioni che l'attestato italiano aggiunge al modello europeo. Le principali sono il codice IUR, il tipo di veicolo, i dati del proprietario se diverso dal contraente, la forma tariffaria, gli eventuali importi di franchigia chiesti e non pagati, le classi di merito aziendali e CU di provenienza e di assegnazione, l'indicazione se il contratto è stato stipulato con la RC familiare e la tabella dei sinistri. Quando il cliente porta in agenzia un preventivo di un'altra compagnia, sono questi i dati da controllare per primi.\n\nL'attestato è cambiato molto negli ultimi anni. Dal 2015 è digitale: non si consegna più su carta ma si trova nella Banca dati degli attestati, che le compagnie alimentano e consultano. Con il provvedimento IVASS numero 71 del 16 aprile 2018 l'attestato è diventato dinamico, a partire dai contratti annuali in scadenza dal primo agosto 2018. Dal primo gennaio 2019 la tabella della sinistrosità pregressa si è allungata di un anno alla volta, passando da cinque a dieci anni, più l'anno in corso.\n\nL'ultimo passaggio è europeo. La direttiva del 2021 sulla RC auto, recepita in Italia con il decreto legislativo 184 del 2023, ha previsto un modello di attestato uguale in tutta l'Unione. Il modello è stato approvato con il regolamento di esecuzione europeo 2024/1855 e si applica dal 24 luglio 2025. Per questo l'IVASS ha emanato il regolamento numero 58 del 10 febbraio 2026. Il regolamento fissa le informazioni aggiuntive italiane e ripropone le regole sulla classe universale che prima stavano nel provvedimento 72 del 2018. Il Codice, nel testo attuale, vieta anche di trattare in modo diverso un attestato rilasciato in un altro Paese dell'Unione: va considerato come uno italiano, anche per gli sconti.\n\nChe cosa vuol dire \"dinamico\"? Pensiamo al sinistro tardivo. È un sinistro pagato, in tutto o in parte, negli ultimi sessanta giorni del contratto o dopo la sua scadenza. Il periodo di osservazione dei sinistri, infatti, si chiude sessanta giorni prima della scadenza. Se nel frattempo l'assicurato responsabile cambia compagnia, quel sinistro non compare nell'attestato che porta con sé. Prima del 2018 poteva semplicemente perdersi. Oggi viene recuperato negli attestati successivi, con l'eventuale applicazione del malus, anche se l'assicurato è passato a un'altra compagnia. La compagnia ha tempo cinque anni, dalla denuncia o dalla richiesta di risarcimento, per iscriverlo.\n\nLo strumento che rende possibile il recupero è il codice IUR, Identificativo Univoco del Rischio. Il materiale originale del corso lo chiama \"Identificativo Unico\": si tratta dello stesso codice. Lo IUR nasce dall'abbinamento tra il proprietario, o altro avente diritto, e ciascun veicolo. Così la compagnia che paga in ritardo sa a quale storia assicurativa agganciare il sinistro, e la Banca dati aggiorna la tabella anche sul nuovo contratto.\n\nFissiamo alcuni numeri. L'attestato si ottiene entro quindici giorni dalla richiesta. Il periodo di osservazione si chiude sessanta giorni prima della scadenza. Se il veicolo non viene più assicurato, per cessazione del rischio, sospensione o mancato rinnovo, l'ultimo attestato resta valido cinque anni dalla scadenza del contratto. Passati quindici giorni dalla scadenza, però, il cliente deve firmare una dichiarazione che attesti che il veicolo non è stato usato. La tabella dei sinistri copre dieci anni più l'anno in corso. Il materiale originale dice in breve che \"l'attestato dura cinque anni\": è corretto per questo caso. Il Codice oggi rimette all'IVASS la durata della validità, che non può essere inferiore a dodici mesi.\n\nPassiamo alle classi di merito, oggetto del provvedimento IVASS numero 72 del 2018 e oggi del regolamento 58 del 2026. La classe di conversione universale, o CU, è una classe valida per tutti, con regole di evoluzione identiche per tutte le compagnie: va da 1, la migliore, a 18, la peggiore. La classe interna è invece decisa da ogni compagnia: è diversa sia per la corrispondenza con la CU sia per le regole che si applicano dopo un sinistro. Ogni compagnia ha una tabella di conversione dalla CU alla classe interna. La tabella si trova sul sito della compagnia, e agenti e broker la mostrano a chi la chiede. Le regole delle classi interne non toccano l'evoluzione della CU.\n\nQuando un veicolo viene immatricolato per la prima volta, o viene volturato al PRA, al contratto si applica la classe CU 14, la cosiddetta classe d'ingresso, salvo il caso della RC familiare che vedremo nella prossima lezione. Poi la classe si muove ogni anno secondo la tabella IVASS. Senza sinistri si scende di una classe. Dalla 14, un sinistro porta alla 16 e due o più alla 18. Dalla 10, un sinistro porta alla 12, due alla 15, tre alla 18. Dalla classe 1, un sinistro porta alla 3.\n\nIl materiale originale dice che il malus si applica se l'assicurato, nell'anno, fa sinistri con responsabilità accertata oltre il 50 per cento. Le regole attuali lo precisano così. Il malus colpisce il responsabile principale, cioè il veicolo con il grado di responsabilità più alto. Se la responsabilità è paritaria non c'è malus subito, ma la percentuale viene annotata. Se in cinque anni le quote sommate arrivano almeno al 51 per cento, il malus scatta. Il Codice aggiunge tre garanzie per il cliente. Nessuna variazione di classe prima di aver accertato la responsabilità. Un peggioramento più contenuto per chi ha accettato la scatola nera. E la comunicazione tempestiva di ogni peggioramento di classe.\n\nFacciamo una verifica e poi un caso pratico. Nel caso, il punto chiave è riconoscere il sinistro tardivo e spiegarlo subito al cliente, prima che arrivi la sorpresa del malus.\n\nRicapitolando: sei rami vita e diciotto rami danni, con la RC auto nel ramo 10 e la RC professionale nel ramo 13. Un attestato digitale, dinamico e oggi conforme al modello europeo, con dieci anni di storia. Un periodo di osservazione che si chiude sessanta giorni prima della scadenza. Il codice IUR, che aggancia i sinistri tardivi. E la classe CU, da 1 a 18, con ingresso in classe 14.",
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 - Codice delle assicurazioni private (testo vigente, Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 71 del 16 aprile 2018 - Attestato di rischio dinamico",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2018/provv-71/index.html"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 72 del 16 aprile 2018 - Classe di merito di conversione universale",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2018/provv-72/index.html"
+        },
+        {
+          "title": "IVASS, Regolamento n. 58 del 10 febbraio 2026 - Attestazione di sinistralità pregressa e classe CU",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2026/n58/index.html"
+        },
+        {
+          "title": "IVASS, Relazione al Regolamento n. 58 del 10 febbraio 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2026/n58/Relazione_al_Regolamento_IVASS_58_del_10.02.2026.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Introduzione all'argomento: classificazione per rami vita (I-VI) e danni (1-18), autorizzazioni cumulative, collocazione di RC auto (ramo 10) e RC professionale (ramo 13).",
+          "source_ref": "Art. 2, c. 1, 3 e 4 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritto di ottenere l'attestato entro 15 giorni, consegna telematica e parità di trattamento degli attestati emessi in altri Stati membri.",
+          "source_ref": "Art. 134, c. 1 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Modello europeo di attestazione (Reg. di esecuzione UE 2024/1855, applicabile dal 24 luglio 2025) e Regolamento IVASS 58/2026, con l'elenco delle informazioni aggiuntive italiane.",
+          "source_ref": "Reg. IVASS 58/2026, artt. 1-3; Relazione al Reg. 58/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Termine di 5 anni per iscrivere il sinistro tardivo; date di applicazione dell'attestato dinamico (contratti annuali in scadenza dal 1° agosto 2018).",
+          "source_ref": "Provv. IVASS 71/2018, artt. 2 e 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Periodo di osservazione che termina 60 giorni prima della scadenza; tabella di evoluzione della classe CU con esempi.",
+          "source_ref": "Reg. IVASS 58/2026, artt. 5 e 6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole sul malus: responsabile principale, cumulo delle quote paritarie fino al 51% in 5 anni, divieto di variare la classe prima dell'accertamento, malus ridotto con scatola nera, comunicazione dei peggioramenti.",
+          "source_ref": "Art. 134, c. 4-ter, 4-ter.1, 4-quater CAP; Reg. IVASS 58/2026, art. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"L'attestato di rischio dura 5 anni\". Precisato che i 5 anni valgono per l'ultimo attestato in caso di cessazione del rischio, sospensione o mancato rinnovo; il CAP vigente affida all'IVASS la durata della validità, non inferiore a 12 mesi.",
+          "source_ref": "Reg. IVASS 58/2026, art. 8; art. 134, c. 3 CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la denominazione \"Identificativo Unico del Rischio\"; il nome ufficiale è \"Identificativo Univoco del Rischio\".",
+          "source_ref": "Provv. IVASS 71/2018, art. 1, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: malus per sinistri con responsabilità accertata \"oltre il 50%\". Precisato con la regola del responsabile principale e della soglia cumulata del 51% per le responsabilità paritarie.",
+          "source_ref": "Reg. IVASS 58/2026, art. 5, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti i riferimenti ai Provvedimenti IVASS 71 e 72 del 16 aprile 2018. Aggiornamento: il Reg. IVASS 9/2015 si è applicato fino al 24 luglio 2025, il Provv. 72/2018 è da ritenersi caducato e i suoi contenuti sono riproposti nel Reg. IVASS 58/2026.",
+          "source_ref": "Relazione al Reg. IVASS 58/2026, par. 1"
+        }
+      ]
+    },
+    {
+      "title": "Classe di merito, RC familiare e contratto base",
+      "source_files": [
+        "corso totale/Novita nel settore rc auto.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Classificazione per rami di attività/Novita nel settore rc auto prima parte.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area tecnica assicurativa e riassicurativa/Classificazione per rami di attività/Novita nel settore rc auto seconda parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Classificazione per rami di attività",
+          "title": "Classe di merito, RC familiare e contratto base",
+          "goals": [
+            "Sapere quando la classe CU passa da un veicolo o da una persona all'altra",
+            "Applicare la RC familiare e conoscerne limiti e penalità",
+            "Spiegare il contratto base RC auto, le sue clausole e il confronto su Preventivass"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quando la classe CU si conserva (1/2)",
+          "head": [
+            "Situazione",
+            "Regola",
+            "Chi ne beneficia"
+          ],
+          "rows": [
+            [
+              "a · Più proprietari, poi uno solo",
+              "La classe maturata va al nuovo unico proprietario, anche su un veicolo sostitutivo",
+              "Anche gli ex cointestatari possono usarla su un altro veicolo"
+            ],
+            [
+              "b · Tra coniugi, uniti civilmente o conviventi di fatto",
+              "All'acquirente va la classe maturata sul veicolo",
+              "Il cedente la conserva per un altro veicolo, presente o futuro"
+            ],
+            [
+              "c · Conto vendita invenduto, furto con ritrovamento",
+              "Al veicolo torna la classe precedente alla perdita di possesso",
+              "Il proprietario"
+            ],
+            [
+              "d · Vendita, demolizione, furto, esportazione",
+              "Se avviene entro la validità dell'attestato, il nuovo veicolo prende la classe del vecchio",
+              "Anche in leasing o noleggio di almeno 12 mesi"
+            ]
+          ],
+          "ref": "Reg. IVASS 58/2026, art. 10 (già Provv. 72/2018, art. 7)"
+        },
+        {
+          "layout": "table",
+          "title": "Quando la classe CU si conserva (2/2)",
+          "head": [
+            "Situazione",
+            "Regola",
+            "Condizione"
+          ],
+          "rows": [
+            [
+              "e · Leasing o noleggio oltre 12 mesi, poi riscatto",
+              "La classe è riconosciuta all'utilizzatore",
+              "Registrato come intestatario temporaneo da almeno 12 mesi; vale anche se non riscatta"
+            ],
+            [
+              "f · Veicolo di persona con disabilità",
+              "La classe vale per i nuovi veicoli anche per chi lo guidava abitualmente",
+              "Registrato da almeno 12 mesi"
+            ],
+            [
+              "g · Successione mortis causa",
+              "La classe va agli eredi conviventi",
+              "Se l'erede ha già un altro veicolo, può usare la stessa classe"
+            ],
+            [
+              "h · Contratto ceduto con il veicolo",
+              "Il cessionario mantiene la classe fino alla scadenza, poi il nuovo contratto va in CU 14",
+              "Il cedente conserva la classe per la validità dell'attestato"
+            ],
+            [
+              "i · Ditta, società, cambio di categoria",
+              "Ditta individuale e persona fisica, società di persone e socio illimitato, srl e socio unico; fusioni e scissioni; da autovettura ad autocarro",
+              "La classe si conserva"
+            ]
+          ],
+          "ref": "Reg. IVASS 58/2026, art. 10, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "La RC auto familiare",
+          "key": "Dal 16 febbraio 2020 chi assicura un veicolo, nuovo o usato, o rinnova una polizza, può avere la migliore classe di merito maturata su un altro veicolo suo o di un familiare stabilmente convivente.",
+          "body": "La classe si può trasferire anche tra veicoli di tipo diverso, ad esempio dall'auto alla moto. L'impresa non può assegnare una classe peggiore né fare un premio diverso da quello di chi ha le stesse caratteristiche di rischio.",
+          "ref": "Art. 134, c. 4-bis CAP"
+        },
+        {
+          "layout": "checklist",
+          "title": "RC familiare: le condizioni",
+          "items": [
+            {
+              "text": "Vale per le persone fisiche già titolari di polizza o per un componente stabilmente convivente del nucleo familiare.",
+              "ref": "Art. 134, c. 4-bis CAP"
+            },
+            {
+              "text": "Vale per un nuovo contratto e anche in sede di rinnovo.",
+              "ref": "Art. 134, c. 4-bis CAP"
+            },
+            {
+              "text": "Non spetta se negli ultimi 5 anni ci sono sinistri con responsabilità esclusiva, principale o paritaria.",
+              "ref": "Art. 134, c. 4-bis CAP"
+            },
+            {
+              "text": "L'attestato indica che il contratto è stato stipulato con la RC familiare, e la storia dei sinistri del veicolo resta.",
+              "ref": "Reg. 58/2026, artt. 3 e 10, c. 3"
+            },
+            {
+              "text": "Se chi ha avuto la classe per un veicolo di tipo diverso causa un sinistro con indennizzo oltre 5.000 euro, la classe di quel veicolo può peggiorare fino a 5 classi in più.",
+              "ref": "Art. 134, c. 4-ter.2 CAP"
+            }
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento RC auto",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni, artt. 122-134",
+              "detail": "Obbligo assicurativo, attestato, RC familiare, bonus malus. Riscritti in parte dal D.Lgs. 184/2023 e dal correttivo D.Lgs. 57/2026."
+            },
+            {
+              "label": "IVASS: Provv. 95/2020 e Reg. 58/2026",
+              "detail": "Il Provv. 95/2020 ha adeguato le regole sulla classe CU alla RC familiare. Il Reg. 58/2026 oggi raccoglie le regole sulla classe CU."
+            },
+            {
+              "label": "Contratto base",
+              "detail": "Art. 22 D.L. 179/2012 e D.M. 11 marzo 2020, n. 54. Il confronto pubblico è Preventivass (Reg. IVASS 51/2022)."
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "Che cosa ha cambiato il D.Lgs. 184/2023",
+          "lead": "Ha recepito la direttiva (UE) 2021/2118 e si applica dal 23 dicembre 2023.",
+          "facts": [
+            {
+              "label": "Veicolo",
+              "text": "Nuova definizione: veicoli a motore oltre 25 km/h, o oltre 25 kg e 14 km/h, e i loro rimorchi."
+            },
+            {
+              "label": "Uso",
+              "text": "L'obbligo vale quando il veicolo è usato come mezzo di trasporto, fermo o in movimento, su qualsiasi terreno."
+            },
+            {
+              "label": "Aree riservate",
+              "text": "L'obbligo copre anche i veicoli usati in zone ad accesso limitato."
+            },
+            {
+              "label": "Esclusi",
+              "text": "Veicoli formalmente ritirati dalla circolazione o con uso vietato dall'autorità."
+            },
+            {
+              "label": "Attestato",
+              "text": "Modello europeo e parità di trattamento degli attestati UE."
+            }
+          ],
+          "ref": "Artt. 1, c. 1, lett. rrr), 122, 122-bis, 134 CAP"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto base",
+          "key": "È il contratto RC auto standard, con le clausole minime per rispettare l'obbligo di legge, uguale per tutte le compagnie. Lo ha definito il decreto ministeriale 11 marzo 2020, n. 54.",
+          "body": "È articolato per classi di merito e tipologie di assicurato e indica quando il premio si riduce o la copertura si amplia. Riguarda solo autovetture, motocicli e ciclomotori a uso privato dei consumatori. Lo prevedeva l'art. 22, comma 4, del D.L. 179/2012, per una scelta più consapevole dei consumatori.",
+          "ref": "Art. 22, c. 4 D.L. 179/2012"
+        },
+        {
+          "layout": "table",
+          "title": "Le quattro parti del contratto base",
+          "head": [
+            "Parte",
+            "Che cosa contiene"
+          ],
+          "rows": [
+            [
+              "Clausole necessarie",
+              "Quelle che servono a rispettare l'obbligo dell'art. 122 del Codice"
+            ],
+            [
+              "Condizioni aggiuntive",
+              "Proposte dalla compagnia e accettate dal contraente, con il prezzo indicato a parte"
+            ],
+            [
+              "Clausole limitative",
+              "Riducono la copertura e quindi il premio"
+            ],
+            [
+              "Clausole di ampliamento",
+              "Allargano la copertura e quindi aumentano il premio"
+            ]
+          ],
+          "ref": "Materiale originale del corso; D.M. 54/2020"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le clausole necessarie",
+          "items": [
+            {
+              "text": "Oggetto del contratto, estensione territoriale, durata e decorrenza"
+            },
+            {
+              "text": "Esclusioni della copertura e rivalsa"
+            },
+            {
+              "text": "Dichiarazioni false e reticenti del contraente"
+            },
+            {
+              "text": "Obbligo di comunicare l'aggravamento del rischio"
+            },
+            {
+              "text": "Vicende del contratto se il veicolo cambia proprietario"
+            },
+            {
+              "text": "Attestazione dello stato di rischio e bonus malus"
+            },
+            {
+              "text": "Denuncia di sinistro e gestione delle controversie"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Clausole che cambiano il premio",
+          "cols": [
+            {
+              "title": "Riducono il premio",
+              "items": [
+                "Guida esperta e guida esclusiva (limitano la copertura)",
+                "Scatola nera o dispositivo equivalente",
+                "Ispezione preventiva del veicolo",
+                "Alcolock: blocca l'avviamento oltre un certo tasso alcolemico"
+              ]
+            },
+            {
+              "title": "Aumentano il premio",
+              "items": [
+                "Massimali più alti dei minimi di legge",
+                "Meno esclusioni e rivalse",
+                "Danni causati dal rimorchio o dal gancio di traino",
+                "Pagamento a rate e sospensione della copertura"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Modello elettronico e Preventivass",
+          "left": {
+            "title": "Il modello elettronico",
+            "items": [
+              "Standard comune per le offerte sui siti delle compagnie e sui comparatori pubblici",
+              "Mostra un unico prezzo complessivo annuo",
+              "Tiene separate le singole voci di costo"
+            ],
+            "ref": "Art. 22, c. 5-6 D.L. 179/2012"
+          },
+          "right": {
+            "title": "Preventivass",
+            "items": [
+              "Il comparatore pubblico di IVASS e Ministero",
+              "Confronta i premi del contratto base",
+              "L'intermediario indica i premi di tutte le compagnie di cui è mandatario tramite il preventivatore"
+            ],
+            "ref": "Art. 132-bis CAP; Reg. IVASS 51/2022"
+          },
+          "note": "Il contratto firmato senza la dichiarazione del cliente di aver ricevuto queste informazioni è nullo, ma la nullità si può far valere solo a favore del cliente.",
+          "noteRef": "Art. 132-bis, c. 4 CAP"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Giulia, convivente con il padre che è in classe 1 sulla sua auto, compra uno scooter. Negli ultimi 5 anni il padre non ha avuto sinistri con colpa. Che classe può avere lo scooter?",
+          "options": [
+            "Classe 14, perché è un veicolo nuovo",
+            "Classe 1, grazie alla RC familiare",
+            "Classe 1 solo se lo scooter è della stessa categoria dell'auto",
+            "Classe 18, perché manca un attestato"
+          ],
+          "answer": 1,
+          "explanation": "Con la RC familiare la classe migliore di un familiare stabilmente convivente si può avere anche su un veicolo di tipo diverso, purché non ci siano sinistri con responsabilità esclusiva, principale o paritaria negli ultimi 5 anni."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente chiede in agenzia il preventivo RC auto più economico possibile per la sua utilitaria. Guida solo lui, ha 45 anni e vorrebbe pagare a rate.",
+          "questions": [
+            "Quali informazioni deve dargli l'agente prima di fargli firmare?",
+            "Quali clausole possono ridurre il premio e quali lo aumentano?"
+          ],
+          "solution": "L'agente lo informa sui premi del contratto base di tutte le compagnie di cui è mandatario, tramite Preventivass, e si fa firmare la dichiarazione di aver ricevuto le informazioni. La guida esclusiva, la scatola nera o l'ispezione del veicolo possono ridurre il premio. La rateizzazione invece lo aumenta: va detto chiaramente, insieme al prezzo complessivo annuo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "12 mesi",
+              "text": "di registrazione come intestatario temporaneo per conservare la classe in leasing o noleggio"
+            },
+            {
+              "value": "16/2/2020",
+              "text": "avvio della RC familiare, anche tra veicoli di tipo diverso"
+            },
+            {
+              "value": "5 anni",
+              "text": "senza sinistri con colpa per avere la RC familiare; fino a 5 classi di penalità oltre 5.000 euro"
+            },
+            {
+              "value": "D.M. 54/2020",
+              "text": "il contratto base, uguale per tutti, confrontabile su Preventivass"
+            },
+            {
+              "value": "1 prezzo",
+              "text": "complessivo annuo nel modello elettronico di preventivo"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto come la classe CU si muove anno per anno. Ora vediamo che cosa succede quando cambia il proprietario o il veicolo, poi la RC auto familiare, le novità europee e infine il contratto base.\n\nLe regole sul mantenimento della classe CU erano nel provvedimento IVASS 72 del 2018 e oggi sono nel regolamento 58 del 2026. Valgono tra veicoli della stessa categoria. Primo caso: un veicolo intestato a più persone passa a una sola di loro. A quest'ultima va la classe maturata, anche se poi sostituisce il veicolo con un altro. Anche ciascuno dei precedenti cointestatari può usare quella classe su un altro veicolo suo o acquistato dopo.\n\nSecondo caso: il veicolo passa tra coniugi. Il regolamento oggi include anche le persone unite civilmente e i conviventi di fatto. All'acquirente va la classe maturata sul veicolo trasferito, e chi cede può conservarla per un altro veicolo, presente o futuro. Terzo caso: un cliente sposta la classe da un'auto lasciata in conto vendita, o da un'auto rubata, su un nuovo veicolo. Se l'auto resta invenduta o viene ritrovata, a quell'auto si applica la classe che aveva prima di uscire dal suo possesso.\n\nQuarto caso, il più frequente: il cliente vende, demolisce, subisce il furto o esporta definitivamente all'estero il vecchio veicolo dopo il rilascio dell'attestato, ma mentre è ancora valido. Al nuovo veicolo acquistato va la stessa classe CU. La regola vale anche se il nuovo veicolo è in leasing o in noleggio a lungo termine, di almeno dodici mesi.\n\nAltri casi riguardano il leasing e il noleggio oltre i dodici mesi. Se l'utilizzatore acquista il veicolo, la classe maturata gli è riconosciuta, purché sia registrato come intestatario temporaneo da almeno dodici mesi. La classe resta anche se non riscatta il veicolo o non lo compra alla fine del noleggio: potrà usarla su un altro veicolo. Per il veicolo di una persona con disabilità, la classe vale per i nuovi veicoli anche per chi lo guidava abitualmente. In caso di successione, la classe va agli eredi che convivevano con il defunto. Se l'erede convivente ha già un altro veicolo assicurato, il veicolo ereditato può avere la stessa classe di quello.\n\nSe il contratto è ceduto insieme al veicolo, chi lo riceve mantiene la classe fino alla scadenza del contratto ceduto, e poi il nuovo contratto va nella classe CU 14. Il materiale originale aggiungeva \"salvo il cosiddetto decreto Bersani\". Quell'inciso è stato tolto dal provvedimento IVASS 95 del 2020: oggi i benefici per i familiari passano dalla RC familiare dell'articolo 134. La classe si conserva anche nel passaggio tra ditta individuale e persona fisica, tra società di persone e socio a responsabilità illimitata, oggi anche tra srl e socio unico, e viceversa. Nelle trasformazioni, fusioni, scissioni o cessioni di ramo d'azienda, la classe passa alla persona giuridica che diventa proprietaria. E se il veicolo cambia classificazione, ad esempio da autovettura ad autocarro, mantiene la classe CU già maturata.\n\nPassiamo alla RC auto familiare. Dal 16 febbraio 2020 chi assicura per la prima volta un veicolo, nuovo o usato, o rinnova un contratto già esistente, può avere la migliore classe di merito maturata su un altro veicolo. Il veicolo può essere suo o di un familiare stabilmente convivente. La novità rispetto al passato è che la classe si può trasferire anche tra veicoli di tipo diverso: dall'auto alla moto, o viceversa. L'impresa non può assegnare una classe peggiore di quella dell'ultimo attestato del veicolo già assicurato. E non può differenziare il premio in base alla durata del rapporto: deve applicare le condizioni dei clienti con le stesse caratteristiche di rischio.\n\nCi sono però dei limiti, scritti nel Codice. La RC familiare non spetta se negli ultimi cinque anni ci sono stati sinistri con responsabilità esclusiva, principale o paritaria. E c'è una penalità. Se chi ha avuto la classe migliore su un veicolo di tipo diverso causa un sinistro, con responsabilità esclusiva o principale e un indennizzo oltre cinquemila euro, alla scadenza successiva la compagnia può peggiorare la classe di quel solo veicolo fino a cinque classi in più. Sull'attestato resta scritto che il contratto è stato stipulato con la RC familiare, e la storia dei sinistri del veicolo che ne ha beneficiato non si cancella.\n\nPer adeguare le regole alla RC familiare, l'IVASS ha emanato il provvedimento numero 95 del 14 febbraio 2020. Il provvedimento ha modificato il provvedimento 72 del 2018 e l'allegato 1 al provvedimento 35 del 2015, per renderli coerenti con l'articolo 134, comma 4-bis, del Codice. Come abbiamo detto, oggi le regole sulla classe CU sono raccolte nel regolamento 58 del 2026.\n\nLe novità più recenti arrivano dall'Europa. Il decreto legislativo 184 del 2023 ha recepito la direttiva europea 2021/2118 e si applica dal 23 dicembre 2023. Ha introdotto una nuova definizione di veicolo. Rientra qualsiasi veicolo a motore che circola sul suolo, non su rotaia, con velocità massima di progetto oltre 25 chilometri orari, oppure con peso oltre 25 chili e velocità oltre 14 chilometri orari, più i rimorchi. L'obbligo vale quando il veicolo è usato come mezzo di trasporto, fermo o in movimento, su qualunque terreno, e anche in zone ad accesso limitato. Non sono invece soggetti all'obbligo i veicoli formalmente ritirati dalla circolazione e quelli il cui uso è vietato dall'autorità. Nell'aprile 2026 è stato pubblicato un decreto correttivo, il decreto legislativo 57 del 2026, in vigore dal 12 maggio 2026. Prima di dare indicazioni al cliente su casi particolari, come la sospensione o i veicoli storici, verificate sempre il testo vigente del Codice.\n\nVeniamo al contratto base. L'articolo 22 del decreto legge 179 del 2012 aveva previsto di definire un modello di contratto base di RC auto. Doveva contenere le clausole minime necessarie per rispettare l'obbligo di assicurare il veicolo, per una scelta più consapevole dei consumatori. Il decreto del Ministero dello sviluppo economico 11 marzo 2020, numero 54, lo ha definito. Il contratto è articolato per classi di merito e tipologie di assicurato, e indica i casi di riduzione del premio e di ampliamento della copertura. Riguarda solo i veicoli a motore come autovetture, motocicli e ciclomotori a uso privato dei consumatori. Ogni compagnia fissa liberamente il prezzo, ma le condizioni sono uguali per tutte: per questo le offerte si possono confrontare.\n\nLo schema distingue quattro parti. Le clausole necessarie per rispettare l'obbligo dell'articolo 122 del Codice. Le condizioni aggiuntive che ogni compagnia offre. Le clausole limitative, che riducono il premio. E le clausole di ampliamento, che lo aumentano. Il contenuto necessario comprende: l'oggetto del contratto, le esclusioni e la rivalsa, le dichiarazioni false e reticenti, l'obbligo di comunicare l'aggravamento del rischio, l'estensione territoriale, la durata e la decorrenza. Comprende anche le vicende del contratto se il veicolo cambia proprietario, l'attestazione dello stato di rischio, la denuncia di sinistro, la gestione delle controversie e il bonus malus.\n\nLe condizioni aggiuntive si inseriscono su proposta della compagnia e con l'accettazione del contraente. Cambiano l'estensione della copertura o la gestione del contratto, e il loro prezzo va indicato a parte. Le clausole limitative, come la guida esperta e la guida esclusiva, riducono le garanzie e in cambio il premio. Quelle di ampliamento riducono le restrizioni della copertura e i rischi di rivalsa. Sono: massimali più alti dei minimi di legge, meno esclusioni e rivalse, danni causati dal rimorchio o dal gancio di traino.\n\nCi sono poi le clausole sulla gestione del contratto. Alcune riducono il premio perché danno alla compagnia più controllo sul rischio: la scatola nera o un dispositivo equivalente per rilevare i sinistri, l'ispezione preventiva del veicolo, il sistema che misura il tasso alcolemico e impedisce l'avviamento. Altre danno un vantaggio al contraente, che paga qualcosa in più: sono due clausole molto diffuse, la rateizzazione del premio e la sospensione della copertura.\n\nInfine il modello elettronico di preventivo. È lo standard comune per le offerte sui siti delle compagnie e sui comparatori pubblici, e deve mostrare un unico prezzo complessivo annuo, tenendo separate le singole voci di costo, così le offerte si confrontano meglio. Oggi il comparatore pubblico è Preventivass, regolato dal regolamento IVASS 51 del 2022. Per l'intermediario c'è un obbligo preciso, all'articolo 132-bis del Codice. Prima della firma deve informare il consumatore sui premi del contratto base di tutte le compagnie di cui è mandatario, usando il collegamento al preventivatore. Se manca la dichiarazione del cliente di aver ricevuto queste informazioni, il contratto è nullo, ma la nullità si può far valere solo a favore del cliente.\n\nDopo la verifica e il caso pratico, ricordate: la classe si conserva in molti passaggi di proprietà. La RC familiare vale anche tra veicoli di tipo diverso, con limiti e penalità. E il contratto base, con il suo prezzo unico annuo, è la base del confronto tra le offerte.",
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 - Codice delle assicurazioni private (testo vigente, Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 72 del 16 aprile 2018 - Classe di merito di conversione universale",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2018/provv-72/index.html"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 95 del 14 febbraio 2020 - RC familiare",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2020/provv_95/index.html"
+        },
+        {
+          "title": "IVASS, Regolamento n. 58 del 10 febbraio 2026 - Attestazione di sinistralità pregressa e classe CU",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2026/n58/index.html"
+        },
+        {
+          "title": "D.L. 18 ottobre 2012, n. 179, art. 22 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-10-18;179"
+        },
+        {
+          "title": "IVASS, Regolamento n. 51 del 21 giugno 2022 - Preventivass",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2022/n51/index.html"
+        },
+        {
+          "title": "D.Lgs. 27 marzo 2026, n. 57 - Correttivo al D.Lgs. 184/2023 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2026/04/27/26G00079/sg"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la regola sul trasferimento tra persone coniugate; aggiornata con le persone unite civilmente e i conviventi di fatto, già previsti dal Provv. 72/2018 e oggi dal Reg. 58/2026.",
+          "source_ref": "Reg. IVASS 58/2026, art. 10, c. 2, lett. c)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la regola sul contratto ceduto con il veicolo (\"salvo c.d. decreto Bersani\"). L'inciso è stato soppresso dal Provv. IVASS 95/2020; oggi i benefici per i familiari passano dall'art. 134, c. 4-bis CAP.",
+          "source_ref": "Provv. IVASS 72/2018, art. 7, c. 2, lett. i), nota 4; Provv. IVASS 95/2020"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conservazione della classe anche nel passaggio tra srl e socio unico, e nelle riorganizzazioni di associazioni e fondazioni.",
+          "source_ref": "Reg. IVASS 58/2026, art. 10, c. 2, lett. k) e l)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni e limiti della RC familiare: nessun sinistro con responsabilità esclusiva, principale o paritaria negli ultimi 5 anni; penalità fino a 5 classi per sinistri oltre 5.000 euro sul veicolo di diversa tipologia; divieto di discriminare per durata del rapporto.",
+          "source_ref": "Art. 134, c. 4-bis e 4-ter.2 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indicazione della RC familiare nell'attestato e mantenimento della sinistralità del veicolo beneficiario.",
+          "source_ref": "Reg. IVASS 58/2026, artt. 3 e 10, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Novità del D.Lgs. 184/2023 (recepimento direttiva UE 2021/2118, applicazione dal 23 dicembre 2023): definizione di veicolo, uso come mezzo di trasporto, zone ad accesso limitato, deroghe per veicoli ritirati o con uso vietato. Esistenza del correttivo D.Lgs. 57/2026 in vigore dal 12 maggio 2026.",
+          "source_ref": "Artt. 1, c. 1, lett. rrr), 122, 122-bis CAP; GU n. 96 del 27 aprile 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Libertà di prezzo del contratto base e obbligo di offerta con modello elettronico con separata evidenza delle voci di costo.",
+          "source_ref": "Art. 22, c. 5-6 D.L. 179/2012"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Preventivass e obblighi informativi degli intermediari sul contratto base, con nullità relativa a favore del cliente.",
+          "source_ref": "Art. 132-bis CAP; Reg. IVASS 51/2022"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento al \"decreto del Ministero dello sviluppo economico 11 marzo 2020 n. 54\". Il Ministero oggi si chiama Ministero delle imprese e del made in Italy. Il testo del D.M. non è stato riaperto su fonte ufficiale: contenuti mantenuti come da materiale originale.",
+          "source_ref": "Art. 132-bis, c. 2 CAP"
+        }
+      ]
+    },
+    {
+      "title": "RC professionale: il mercato e la responsabilità del professionista",
+      "source_files": [
+        "corso totale/Assicurazione di responsabilita civile in ambito professionale.pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Assicurazione di responsabilita civile in ambito professionale.pdf",
+        "Corso Ivass 60 ore/Materiale/Assicurazione di responsabilita civile in ambito professionale.pdf (3).pdf"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Classificazione per rami di attività",
+          "title": "RC professionale: il mercato e la responsabilità del professionista",
+          "goals": [
+            "Capire a che cosa serve la polizza RC professionale e perché il mercato è in crescita",
+            "Distinguere responsabilità contrattuale ed extracontrattuale del professionista",
+            "Conoscere il caso del medico e la distinzione tra obbligazioni di mezzi e di risultato"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "A che cosa serve la polizza",
+          "key": "La polizza RC professionale protegge il patrimonio del libero professionista quando un suo errore, un'omissione o una negligenza nell'attività causa un danno a terzi.",
+          "body": "È un mercato destinato a crescere molto, in Europa e in Italia, anche per l'obbligo di assicurazione introdotto per i professionisti. Nella classificazione del Codice rientra nel ramo 13, responsabilità civile generale.",
+          "ref": "Materiale originale del corso; art. 2, c. 3 CAP"
+        },
+        {
+          "layout": "steps",
+          "title": "Il circolo del contenzioso",
+          "steps": [
+            {
+              "label": "Più cause",
+              "text": "Negli anni il contenzioso tra professionisti e clienti si è inasprito."
+            },
+            {
+              "label": "Più costi",
+              "text": "Crescono i risarcimenti e i costi indiretti delle compagnie per tutelarsi."
+            },
+            {
+              "label": "Premi più alti",
+              "text": "Le coperture costano di più."
+            },
+            {
+              "label": "Meno domanda",
+              "text": "Molti professionisti vedono la polizza come non strettamente necessaria e rinunciano."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Il mercato: luci e ombre",
+          "lead": "La RC professionale cresce a ritmi notevoli, ma resta molto spazio scoperto.",
+          "facts": [
+            {
+              "label": "Crescita",
+              "text": "Negli ultimi anni i tassi di crescita del mercato italiano sono nettamente positivi."
+            },
+            {
+              "label": "Platea",
+              "text": "In Italia i professionisti iscritti agli albi sono circa due milioni."
+            },
+            {
+              "label": "Scoperti",
+              "text": "Una grossa fetta non ha ancora stipulato alcuna copertura."
+            },
+            {
+              "label": "Opportunità",
+              "text": "Per l'intermediario è un mercato da sviluppare con consulenza, non solo con il prezzo."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Chi sono i professionisti",
+          "key": "Sono coloro che esercitano professioni intellettuali: attività di carattere intellettuale che richiedono studi adeguati, preparazione tecnica e cultura.",
+          "body": "Serve anche un'idoneità non solo didattica ma morale, in genere fissata dai codici deontologici degli Ordini di riferimento. Esempi: avvocati, commercialisti, ingegneri, architetti, medici, notai.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due tipi di responsabilità",
+          "cols": [
+            {
+              "title": "Contrattuale",
+              "items": [
+                "Nasce dal contratto d'opera intellettuale firmato quando si conferisce l'incarico",
+                "Deriva dall'inadempimento o dall'inesatto adempimento della prestazione",
+                "Il cliente prova il titolo e l'inadempimento; il professionista le prove liberatorie"
+              ]
+            },
+            {
+              "title": "Extracontrattuale",
+              "items": [
+                "Non c'è un contratto con il danneggiato",
+                "Si viola il principio del neminem laedere: non danneggiare gli altri",
+                "Il danneggiato deve provare anche la colpa e il nesso con il danno"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il caso del medico: il contatto sociale",
+          "key": "Per la prestazione del medico la natura contrattuale del rapporto può venire meno. Dottrina e giurisprudenza vi hanno visto comunque una responsabilità contrattuale da \"contatto sociale\".",
+          "body": "Lo stesso schema è stato usato per le altre professioni, con una differenza: gli altri professionisti hanno un contatto diretto con il cliente, quindi la logica del contatto sociale non serve. Resta uguale l'onere della prova.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Sanità: le regole della legge Gelli-Bianco",
+          "left": {
+            "title": "Struttura sanitaria",
+            "items": [
+              "Risponde in via contrattuale (artt. 1218 e 1228 c.c.)",
+              "Anche per medici non dipendenti o scelti dal paziente",
+              "Deve avere copertura assicurativa o misure analoghe"
+            ],
+            "ref": "L. 24/2017, artt. 7 e 10"
+          },
+          "right": {
+            "title": "Medico che opera nella struttura",
+            "items": [
+              "Risponde in via extracontrattuale (art. 2043 c.c.)",
+              "Salvo che abbia assunto un'obbligazione contrattuale con il paziente",
+              "Il libero professionista resta obbligato ad assicurarsi"
+            ],
+            "ref": "L. 24/2017, artt. 7, c. 3, e 10, c. 2"
+          },
+          "note": "Dal 16 marzo 2024 il D.M. 232/2023 fissa i requisiti minimi delle polizze di strutture ed esercenti le professioni sanitarie.",
+          "noteRef": "D.M. 15 dicembre 2023, n. 232"
+        },
+        {
+          "layout": "table",
+          "title": "Mezzi o risultato?",
+          "head": [
+            "Fase",
+            "Come si leggeva la prestazione"
+          ],
+          "rows": [
+            [
+              "All'inizio",
+              "Obbligazioni di mezzi: il risultato può non dipendere dalla diligenza del professionista, perché non è del tutto sotto il suo controllo"
+            ],
+            [
+              "Poi",
+              "Prestazioni divise caso per caso tra obbligazioni di mezzi e di risultato"
+            ],
+            [
+              "Dal 2005",
+              "Distinzione superata dalla Cassazione: anche nelle obbligazioni di mezzi c'è un risultato, come rispettare tutte le regole e le pratiche dell'attività"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa significa per l'intermediario",
+          "items": [
+            {
+              "text": "Chiedere quale professione esercita il cliente e con quali incarichi: il rischio cambia molto da un'attività all'altra."
+            },
+            {
+              "text": "Capire se il cliente lavora da libero professionista, in una struttura o in una società."
+            },
+            {
+              "text": "Spiegare che la polizza copre errori, omissioni e negligenze, non il mancato risultato in sé."
+            },
+            {
+              "text": "Verificare se per quella professione esistono requisiti minimi di polizza, come in sanità."
+            },
+            {
+              "text": "Ricordare che il professionista deve comunicare al cliente gli estremi della polizza e il massimale.",
+              "ref": "Art. 3, c. 5, lett. e) D.L. 138/2011"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un medico dipendente di un ospedale sbaglia un intervento. Secondo la legge Gelli-Bianco, come risponde verso il paziente?",
+          "options": [
+            "Solo in via contrattuale, per contatto sociale",
+            "In via extracontrattuale, salvo un'obbligazione contrattuale assunta con il paziente",
+            "Non risponde mai: risponde solo l'ospedale",
+            "Risponde solo se il risultato non è stato raggiunto"
+          ],
+          "answer": 1,
+          "explanation": "Con la legge 24 del 2017 la struttura risponde in via contrattuale, mentre il medico che opera al suo interno risponde ai sensi dell'art. 2043 c.c., salvo che abbia assunto un'obbligazione contrattuale con il paziente."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un giovane architetto apre lo studio. Dice all'agente: \"La polizza costa troppo, e poi io sono bravo: se il cantiere va male non è colpa mia, il mio è un obbligo di mezzi\".",
+          "questions": [
+            "L'argomento dell'obbligo di mezzi lo mette al riparo?",
+            "Che cosa deve far capire l'agente sul valore della polizza?"
+          ],
+          "solution": "No. La distinzione tra mezzi e risultato è stata superata: anche l'obbligo di mezzi ha un risultato, cioè rispettare tutte le regole e le pratiche della professione. In più il cliente deve provare solo l'incarico e l'inadempimento, mentre l'architetto deve dimostrare di aver agito correttamente. La polizza difende il suo patrimonio da errori, omissioni e negligenze. Inoltre l'assicurazione è obbligatoria e gli estremi vanno comunicati al cliente quando riceve l'incarico."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Ramo 13",
+              "text": "la RC professionale è responsabilità civile generale"
+            },
+            {
+              "value": "2 milioni",
+              "text": "circa i professionisti iscritti agli albi, molti ancora senza copertura"
+            },
+            {
+              "value": "Contratto",
+              "text": "d'opera intellettuale: la responsabilità del professionista è di regola contrattuale"
+            },
+            {
+              "value": "L. 24/2017",
+              "text": "in sanità la struttura risponde in via contrattuale, il medico di regola in via extracontrattuale"
+            },
+            {
+              "value": "2005",
+              "text": "la Cassazione supera la distinzione tra obbligazioni di mezzi e di risultato"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione passiamo al secondo tema del modulo: l'assicurazione di responsabilità civile in ambito professionale. Vediamo il mercato e poi come risponde il professionista verso il cliente, perché da questo dipende che cosa la polizza deve coprire.\n\nPartiamo dalla funzione. Le polizze di RC professionale servono a proteggere il patrimonio del libero professionista. Intervengono quando un errore, un'omissione o una negligenza nell'esercizio della professione provoca un danno a terzi. Pensiamo al commercialista che sbaglia una scadenza fiscale e fa pagare sanzioni al cliente, o all'ingegnere che sbaglia un calcolo strutturale. Senza polizza, il risarcimento esce dal patrimonio personale del professionista. Nella classificazione per rami che abbiamo visto, questa copertura rientra nel ramo 13, responsabilità civile generale.\n\nÈ un mercato destinato a un'importante espansione, in Europa e in Italia, anche perché è stato introdotto l'obbligo di assicurazione per i professionisti. Ma c'è un problema. Negli anni il contenzioso tra professionisti e clienti si è inasprito. Il primo effetto è l'aumento del costo delle coperture: crescono i risarcimenti e crescono i costi indiretti, cioè le attività che le compagnie devono svolgere per tutelarsi. Ai costi più alti segue una riduzione della domanda, perché molti professionisti vedono la polizza come non strettamente necessaria. È un circolo vizioso: meno assicurati vuol dire rischi meno distribuiti e premi ancora più alti.\n\nI numeri del mercato italiano della RC professionale mostrano tassi di crescita notevoli negli ultimi anni. Non possono però soddisfare del tutto gli operatori. In Italia i professionisti iscritti agli albi sono circa due milioni, e una grossa fetta del mercato non ha ancora stipulato alcuna copertura. Per un intermediario questo significa due cose: c'è molto spazio di sviluppo, e il prodotto va venduto spiegando il rischio, non solo il prezzo.\n\nChi sono i professionisti? Sono coloro che esercitano professioni intellettuali. Queste attività si distinguono da sempre per il loro carattere intellettuale, che richiede studi adeguati, preparazione tecnica e cultura. Serve anche un'idoneità non solo didattica ma anche morale, in genere prevista dai codici deontologici dei rispettivi Ordini. Avvocati, commercialisti, notai, ingegneri, architetti, geometri, medici: ciascuno con il proprio albo e le proprie regole.\n\nSotto il profilo della responsabilità, il professionista lavora di solito in base a un contratto d'opera intellettuale, firmato con il cliente quando riceve l'incarico. La sua responsabilità è quindi di tipo contrattuale, e nasce dall'inadempimento o dall'inesatto adempimento della prestazione prevista dal contratto. Ci sono però casi in cui la natura contrattuale del rapporto viene meno per il tipo stesso di prestazione. L'esempio classico è il medico. In queste situazioni si possono vedere i tratti di una responsabilità extracontrattuale, cioè la violazione del principio del neminem laedere, il dovere generale di non danneggiare gli altri.\n\nPerché la distinzione conta? Per l'onere della prova e quindi per il rischio che la polizza deve coprire. Nella responsabilità contrattuale il cliente deve dimostrare il titolo della prestazione, cioè l'incarico, e il relativo inadempimento. Il professionista deve opporre le eventuali prove liberatorie, cioè dimostrare di aver agito correttamente o che il danno dipende da una causa a lui non imputabile. Nella responsabilità extracontrattuale, invece, il danneggiato deve provare anche la colpa e il collegamento tra la condotta e il danno.\n\nPer il medico, dottrina e giurisprudenza sono state a lungo concordi nel vedere una responsabilità di natura contrattuale, anche senza un vero contratto con il paziente: la cosiddetta responsabilità da \"contatto sociale\". Lo stesso schema è stato poi usato per le altre categorie professionali, con alcune precisazioni. Le altre figure intervengono infatti sulla base di un contatto diretto con il cliente, quindi la logica del contatto sociale, pensata per la sanità, non serve. Resta invece uguale l'onere della prova: il cliente dimostra il titolo e l'inadempimento, il professionista oppone le prove liberatorie.\n\nSu questo punto, per la sanità, è intervenuta la legge 24 del 2017, la cosiddetta Gelli-Bianco. Oggi la struttura sanitaria, pubblica o privata, risponde in via contrattuale delle condotte dei medici di cui si serve, anche se non sono suoi dipendenti o li ha scelti il paziente. Il medico che opera nella struttura risponde invece in via extracontrattuale, secondo l'articolo 2043 del codice civile, salvo che abbia assunto un'obbligazione contrattuale direttamente con il paziente. La stessa legge obbliga le strutture ad avere una copertura assicurativa o misure analoghe, e lascia l'obbligo di assicurarsi al medico libero professionista. Dal 16 marzo 2024 è in vigore il decreto ministeriale 232 del 2023, che fissa i requisiti minimi delle polizze per strutture ed esercenti le professioni sanitarie. Per l'intermediario vuol dire che, in sanità, una polizza non vale l'altra: va controllata la conformità a quei requisiti.\n\nL'ultimo concetto è quello di obbligazioni di mezzi e di risultato. Le prestazioni delle professioni intellettuali sono state a lungo considerate obbligazioni di mezzi. Il risultato a cui mira la prestazione, come vincere una causa o guarire un paziente, può non dipendere dalla diligenza del professionista, perché non è del tutto sotto il suo controllo. In seguito le prestazioni sono state divise, caso per caso, tra obbligazioni di mezzi e di risultato. Questa distinzione è stata superata da una pronuncia della Cassazione del 2005. La Corte ha osservato che anche nelle obbligazioni di mezzi c'è un risultato: ad esempio, rispettare tutte le regole e le pratiche previste per una certa attività.\n\nChe cosa ne ricava l'intermediario? Primo: deve chiedere quale professione esercita il cliente e con quali incarichi, perché il rischio cambia molto da un'attività all'altra. Secondo: deve capire se il cliente lavora da libero professionista, in una struttura o in una società. Terzo: deve spiegare che la polizza copre errori, omissioni e negligenze, non il semplice mancato risultato. Quarto: deve verificare se per quella professione esistono requisiti minimi di polizza. E infine deve ricordare al professionista che, quando riceve un incarico, deve comunicare al proprio cliente gli estremi della polizza e il massimale.\n\nFacciamo ora una verifica e un caso pratico su un giovane architetto convinto di non aver bisogno della polizza.\n\nRicapitolando: la RC professionale è ramo 13 e difende il patrimonio del professionista. Il mercato cresce, ma su circa due milioni di iscritti agli albi molti sono ancora scoperti. La responsabilità del professionista è di regola contrattuale, con l'onere della prova a suo carico per le prove liberatorie. In sanità la legge Gelli-Bianco distingue tra struttura e medico. E la Cassazione, dal 2005, ha superato la distinzione tra obbligazioni di mezzi e di risultato.",
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 - Codice delle assicurazioni private (testo vigente, Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "Legge 8 marzo 2017, n. 24 (Gelli-Bianco), artt. 7, 10 e 11 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-03-08;24"
+        },
+        {
+          "title": "D.M. 15 dicembre 2023, n. 232 - Requisiti minimi delle polizze in ambito sanitario (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/03/01/24G00032/sg"
+        },
+        {
+          "title": "D.L. 13 agosto 2011, n. 138, art. 3, c. 5, lett. e) (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-08-13;138"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collocazione della RC professionale nel ramo 13 (responsabilità civile generale).",
+          "source_ref": "Art. 2, c. 3, n. 13 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regime della Legge Gelli-Bianco: responsabilità contrattuale della struttura (artt. 1218 e 1228 c.c.), extracontrattuale del medico che opera nella struttura (art. 2043 c.c.), obbligo assicurativo di strutture e liberi professionisti.",
+          "source_ref": "L. 24/2017, artt. 7 e 10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "D.M. 15 dicembre 2023, n. 232 sui requisiti minimi delle polizze in sanità, in vigore dal 16 marzo 2024.",
+          "source_ref": "GU Serie Generale n. 51 del 1° marzo 2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"Dottrina e giurisprudenza sono concordi nel ravvedere natura contrattuale nella responsabilità a carico del medico (contatto sociale)\". Aggiornamento: per il medico che opera in una struttura la L. 24/2017 prevede la responsabilità extracontrattuale ex art. 2043 c.c., salvo obbligazione contrattuale assunta con il paziente.",
+          "source_ref": "L. 24/2017, art. 7, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"i professionisti iscritti ad albi professionali ammontano a circa due milioni in Italia\". Dato non verificato su fonte ufficiale: riferimento da indicare / possibile aggiornamento con dati ufficiali.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: superamento della distinzione tra obbligazioni di mezzi e di risultato con \"una pronuncia della Cassazione datata 2005\". Estremi della sentenza non verificati su fonte ufficiale: riferimento da indicare.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione dell'onere della prova nella responsabilità extracontrattuale, esempi di professioni e checklist operativa per l'intermediario.",
+          "source_ref": "Materiale originale del corso (rielaborazione didattica)"
+        }
+      ]
+    },
+    {
+      "title": "RC professionale: obbligo assicurativo, claims made e ruolo dell'intermediario",
+      "source_files": [
+        "corso totale/Assicurazione di responsabilita civile in ambito professionale.pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Assicurazione di responsabilita civile in ambito professionale.pdf",
+        "Corso Ivass 60 ore/Materiale/Assicurazione di responsabilita civile in ambito professionale.pdf (3).pdf"
+      ],
+      "source_minutes": 24,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Classificazione per rami di attività",
+          "title": "RC professionale: obbligo assicurativo, claims made e ruolo dell'intermediario",
+          "goals": [
+            "Conoscere l'obbligo di assicurazione dei professionisti e i suoi punti deboli",
+            "Capire il regime claims made, la retroattività e l'ultrattività",
+            "Applicare le regole di comportamento dell'intermediario nella vendita di RC professionale"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'obbligo di assicurarsi",
+          "key": "Dal 2012 il professionista deve stipulare un'idonea assicurazione per i rischi della sua attività e comunicare al cliente, quando riceve l'incarico, gli estremi della polizza e il massimale.",
+          "body": "L'obbligo è nato con il D.L. 138/2011 ed è stato attuato dal D.P.R. 137/2012. È diventato efficace dodici mesi dopo, ad agosto 2013. Le condizioni generali possono essere negoziate in convenzione dai Consigli nazionali e dagli enti previdenziali.",
+          "ref": "Art. 3, c. 5, lett. e) D.L. 138/2011; art. 5 D.P.R. 137/2012"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le criticità dell'obbligo",
+          "items": [
+            {
+              "text": "La polizza non è, salvo poche eccezioni, condizione per iscriversi all'albo e lavorare.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Chi non si assicura commette un illecito disciplinare, ma secondo il materiale originale gli Ordini non vi collegano sanzioni concrete.",
+              "ref": "Art. 5, c. 2 D.P.R. 137/2012"
+            },
+            {
+              "text": "Nessun requisito minimo di legge su condizioni, massimale o durata, né una delega agli Ordini: decidono le compagnie.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Nessun obbligo a contrarre per le compagnie.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Scarsa partecipazione degli Ordini al controllo delle condizioni di polizza offerte.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Loss occurrence e claims made",
+          "cols": [
+            {
+              "title": "Loss occurrence",
+              "items": [
+                "Copre i fatti accaduti mentre la polizza è in vigore",
+                "Anche se la richiesta di risarcimento arriva anni dopo",
+                "Per i rischi lungo latenti la compagnia resta esposta a lungo"
+              ]
+            },
+            {
+              "title": "Claims made",
+              "items": [
+                "Copre le richieste di risarcimento arrivate mentre la polizza è in vigore",
+                "Per fatti avvenuti nel periodo di retroattività",
+                "Rischio più prevedibile, premi più accessibili"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché è nato il claims made",
+          "key": "Il modello claims made è stato introdotto per coprire i rischi lungo latenti, che avevano creato seri problemi di solvibilità a diverse compagnie.",
+          "body": "Inoltre permetteva di offrire coperture a costi molto più accessibili, rendendo più invitante la polizza RC professionale. Il suo limite è il vuoto di copertura se il professionista cambia polizza o smette di lavorare.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "I correttivi al claims made",
+          "lead": "Dubbi e vuoti del claims made si risolvono con una copertura continua per tutta la vita professionale, più alcuni strumenti.",
+          "facts": [
+            {
+              "label": "Postuma",
+              "text": "Copertura per le richieste che arrivano dopo la cessazione dell'attività."
+            },
+            {
+              "label": "Deeming clause",
+              "text": "Clausola che lega alla polizza in corso i fatti denunciati come possibili richieste future."
+            },
+            {
+              "label": "Obbligo a contrarre",
+              "text": "Le compagnie non potrebbero rifiutare il professionista."
+            },
+            {
+              "label": "Fondo di garanzia",
+              "text": "Tutela i danneggiati quando la copertura manca."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "Che cosa prevede oggi la legge",
+          "items": [
+            {
+              "value": "10 anni",
+              "text": "di ultrattività da offrire nelle polizze dei professionisti, per richieste su fatti avvenuti mentre la polizza era in vigore",
+              "ref": "Art. 3, c. 5, lett. e) D.L. 138/2011"
+            },
+            {
+              "value": "10 anni",
+              "text": "di retroattività obbligatoria nelle polizze sanitarie",
+              "ref": "L. 24/2017, art. 11"
+            },
+            {
+              "value": "10 anni",
+              "text": "di ultrattività sanitaria se l'attività cessa, estesa agli eredi e senza disdetta",
+              "ref": "L. 24/2017, art. 11"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Più assicurati, rischi meglio distribuiti",
+          "key": "Un obbligo vero amplierebbe il mercato, oggi troppo piccolo per ripartire i rischi e realizzare la mutualizzazione. I costi e i premi scenderebbero.",
+          "body": "Si contrasterebbe anche la selezione avversa: se l'assicurazione è volontaria, si assicurano soprattutto i più rischiosi. Al legislatore spetta indicare contenuti minimi e uniformare le regole: oggi solo poche professioni richiedono una copertura in ogni caso, come intermediari assicurativi e notai.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Anche l'intermediario deve essere assicurato",
+          "left": {
+            "title": "Che cosa copre",
+            "items": [
+              "Negligenze ed errori professionali propri",
+              "Negligenze, errori e infedeltà di dipendenti e collaboratori",
+              "Valida in tutta l'Unione europea"
+            ],
+            "ref": "Art. 110, c. 3 CAP"
+          },
+          "right": {
+            "title": "Massimali minimi",
+            "items": [
+              "Il Codice prevede 1.250.000 euro per sinistro e 1.850.000 euro l'anno",
+              "Gli importi si aggiornano con atti UE",
+              "Dal 9 ottobre 2024: 1.564.610 euro per sinistro e 2.315.610 euro l'anno"
+            ],
+            "ref": "Art. 110, c. 3 e 3-bis CAP; Reg. delegato (UE) 2024/896"
+          },
+          "note": "Per agenti e broker la polizza è requisito per l'iscrizione al Registro: è una delle poche professioni con copertura imprescindibile.",
+          "noteRef": "Art. 110, c. 3 CAP"
+        },
+        {
+          "layout": "split",
+          "title": "Convenzioni e broker",
+          "left": {
+            "title": "Le convenzioni di categoria",
+            "items": [
+              "Accordi tra compagnie o broker e associazioni di categoria",
+              "L'associato può aderire, ma non è obbligato",
+              "Si capiscono meglio le esigenze specifiche della categoria",
+              "Platee di rischi omogenei: prezzo più conveniente e mutualità piena"
+            ]
+          },
+          "right": {
+            "title": "Il ruolo del broker",
+            "items": [
+              "È terzo e indipendente da vincoli verso specifiche compagnie",
+              "Può valutare più proposte",
+              "Può scegliere con l'Ordine la più conveniente con criteri più oggettivi"
+            ]
+          },
+          "note": "Lavorare con le associazioni fa crescere negli intermediari le competenze per personalizzare le coperture e gestire i sinistri.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la distribuzione assicurativa",
+          "key": "Consiste nel fornire consulenza, proporre contratti, compiere atti preparatori, concludere contratti o collaborare alla loro gestione ed esecuzione, in particolare in caso di sinistri.",
+          "body": "Vi rientrano anche le informazioni su uno o più contratti date tramite un sito internet o altri mezzi, con confronti, classifiche, prezzi o sconti, se il cliente può poi concludere il contratto direttamente o indirettamente.",
+          "ref": "Art. 106 CAP"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le regole di comportamento",
+          "items": [
+            {
+              "text": "Comportarsi con equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse di contraenti e assicurati.",
+              "ref": "Reg. IVASS 40/2018, art. 54"
+            },
+            {
+              "text": "Non recare pregiudizio agli interessi di contraenti e assicurati.",
+              "ref": "Reg. 40/2018, art. 54"
+            },
+            {
+              "text": "Acquisire le informazioni necessarie per valutare le esigenze assicurative e tenere il cliente sempre informato.",
+              "ref": "Reg. 40/2018, art. 54"
+            },
+            {
+              "text": "Proporre contratti coerenti con le richieste ed esigenze del cliente.",
+              "ref": "Reg. 40/2018, art. 58"
+            },
+            {
+              "text": "Dare informazioni oggettive e chiare su caratteristiche, durata, costi e limiti della copertura.",
+              "ref": "Reg. 40/2018, art. 58, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Richieste ed esigenze, passo per passo",
+          "steps": [
+            {
+              "label": "Prima della firma",
+              "text": "Raccogliere le informazioni prima della proposta o, se manca, del contratto."
+            },
+            {
+              "label": "Chi è il cliente",
+              "text": "Età, salute, lavoro, famiglia, situazione finanziaria e assicurativa, aspettative su copertura e durata."
+            },
+            {
+              "label": "Che cosa ha già",
+              "text": "Coperture in essere, tipo di rischio, complessità del contratto."
+            },
+            {
+              "label": "Orientare",
+              "text": "Guidare verso scelte consapevoli, senza comportamenti opportunistici a vantaggio proprio o della compagnia."
+            }
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 58"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un avvocato ha una polizza claims made senza ultrattività e chiude lo studio. Due anni dopo arriva una richiesta di risarcimento per un errore di quando lavorava. Che cosa succede?",
+          "options": [
+            "La polizza copre sempre, perché il fatto è avvenuto durante il contratto",
+            "La richiesta non è coperta, perché è arrivata dopo la fine della polizza",
+            "Paga il Consiglio dell'Ordine",
+            "Paga il Fondo di garanzia vittime della strada"
+          ],
+          "answer": 1,
+          "explanation": "Nel claims made conta il momento della richiesta: se arriva dopo la scadenza e non c'è ultrattività (postuma), la richiesta resta scoperta. Per questo la legge impone alle compagnie di offrire un periodo di ultrattività di 10 anni."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una commercialista vuole cambiare compagnia per risparmiare. La nuova offerta claims made ha retroattività di un solo anno; quella attuale la copre per i fatti degli ultimi cinque anni.",
+          "questions": [
+            "Che rischio corre con la nuova polizza?",
+            "Che cosa deve fare l'intermediario prima di farle firmare?"
+          ],
+          "solution": "Le richieste per errori di due-cinque anni fa, che arrivassero dopo il cambio, non sarebbero coperte né dalla vecchia polizza, ormai scaduta, né dalla nuova. L'intermediario deve raccogliere richieste ed esigenze, confrontare retroattività, ultrattività, massimale ed esclusioni, e spiegarle questi limiti in modo chiaro. La proposta deve essere coerente con le sue esigenze, non solo con il prezzo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2013",
+              "text": "da agosto è efficace l'obbligo di assicurazione per i professionisti iscritti agli albi"
+            },
+            {
+              "value": "Claims made",
+              "text": "conta la richiesta di risarcimento, non il fatto: attenzione a retroattività e postuma"
+            },
+            {
+              "value": "10 anni",
+              "text": "di ultrattività che le compagnie devono offrire ai professionisti"
+            },
+            {
+              "value": "1.564.610 €",
+              "text": "massimale minimo per sinistro della RC dell'intermediario dal 9 ottobre 2024"
+            },
+            {
+              "value": "Art. 58",
+              "text": "Reg. 40/2018: raccogliere richieste ed esigenze prima della firma"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa ultima lezione completiamo la RC professionale. Vediamo l'obbligo di assicurazione e i suoi limiti, il regime claims made e, infine, il ruolo dell'intermediario: sia come venditore di queste polizze, sia come professionista che deve essere assicurato a sua volta.\n\nNel 2012 è stato fatto un passo importante per le libere professioni: l'obbligo per il professionista di stipulare un'idonea assicurazione per i rischi della sua attività. Il professionista deve anche comunicare al cliente, quando riceve l'incarico, gli estremi della polizza e il massimale. La norma è l'articolo 3, comma 5, lettera e), del decreto legge 138 del 2011, attuato dall'articolo 5 del regolamento sulle professioni, il decreto del Presidente della Repubblica 137 del 2012. L'obbligo è diventato efficace dodici mesi dopo, ad agosto 2013, per dare tempo di negoziare le convenzioni. Le condizioni generali delle polizze, infatti, possono essere negoziate in convenzione dai Consigli nazionali e dagli enti previdenziali dei professionisti.\n\nIl materiale del corso mette in luce diverse criticità. La polizza, pur obbligatoria, non è una condizione indispensabile per iscriversi all'albo e svolgere la prestazione, salvo poche eccezioni. Il mancato rispetto dell'obbligo è un illecito disciplinare, ma secondo il materiale originale gli Ordini non vi collegano sanzioni né altre forme di punizione. Il regolamento del 2012 conferma che si tratta di illecito disciplinare. Un'altra criticità: la legge non fissa requisiti minimi del contratto, né sulle condizioni né sul massimale o sulla durata, e non ha delegato gli Ordini a farlo. La piena autonomia lasciata alle compagnie ha messo talvolta in dubbio l'effettiva operatività della garanzia. Inoltre non è stato introdotto un obbligo a contrarre per le compagnie. E gli Ordini, nei fatti, hanno partecipato poco al controllo delle condizioni offerte.\n\nPer capire il resto serve una distinzione tecnica. Nel regime loss occurrence la polizza copre i fatti accaduti mentre è in vigore, anche se la richiesta di risarcimento arriva molti anni dopo. Nel regime claims made, invece, conta il momento in cui arriva la richiesta: la polizza copre le richieste presentate mentre è in vigore, per fatti avvenuti nel periodo di retroattività previsto dal contratto.\n\nNonostante le criticità, il modello claims made ha una sua ragione. È stato introdotto per coprire i rischi lungo latenti, quelli in cui il danno emerge molto tempo dopo l'errore, che avevano causato seri problemi di solvibilità a diverse compagnie. In secondo luogo, il claims made permetteva di offrire coperture a costi molto più accessibili, rendendo più invitante la stipula di una polizza RC professionale.\n\nGran parte dei dubbi sul claims made si potrebbero risolvere con una copertura continua per tutta la vita professionale dell'assicurato. Dall'agosto 2013, con l'obbligo per tutti i professionisti iscritti agli albi, questa non avrebbe dovuto essere più un'ipotesi ma un dato di fatto. Secondo il materiale originale, però, il legislatore si è mostrato timido. Non ha creato un vincolo reale, perché mancano sanzioni per chi non si assicura. Lo dimostrano i numeri visti nella lezione precedente: è ancora alta la quota di professionisti senza assicurazione.\n\nAltri ordinamenti usano alcuni strumenti che si potrebbero replicare. La postuma, cioè la copertura dopo la cessazione dell'attività. La deeming clause, che lega alla polizza in corso i fatti denunciati come possibili richieste future. L'obbligo a contrarre per le compagnie. E un Fondo di garanzia. Con questi strumenti il professionista avrebbe tutele e diritti molto simili a quelli del regime loss occurrence. Allo stesso tempo i costi resterebbero sostenibili: per i professionisti, attratti da tariffe più accessibili, e per le compagnie, che gestirebbero meglio premi, rischi e riserve.\n\nSu questo punto la legge si è mossa. Oggi la norma sull'obbligo assicurativo dei professionisti prevede che le condizioni generali delle polizze offrano un periodo di ultrattività. L'ultrattività copre le richieste presentate per la prima volta entro i dieci anni successivi, per fatti avvenuti mentre la copertura era in vigore. La regola vale anche per le polizze già in corso: su richiesta del contraente, la compagnia propone la rinegoziazione alle nuove condizioni di premio. In sanità la legge Gelli-Bianco è più rigorosa. La polizza deve coprire anche i fatti dei dieci anni precedenti la stipula, se denunciati durante la vigenza. Se l'attività cessa, deve esserci un'ultrattività di dieci anni, estesa agli eredi e non soggetta a disdetta.\n\nTorniamo al ragionamento del materiale. Un obbligo vero risolverebbe il problema di un mercato oggi troppo piccolo per ripartire i rischi e realizzare la mutualizzazione necessaria. L'effetto sarebbe positivo sui costi e sui premi. Si contrasterebbe anche la selezione avversa: quando l'assicurazione è volontaria, tendono ad assicurarsi soprattutto i casi più rischiosi. Al legislatore spetta quindi intervenire sul contratto, indicando contenuti minimi ed essenziali della garanzia che la compagnia deve fornire. Andrebbero anche uniformate le regole tra le professioni, perché oggi solo poche richiedono in ogni caso una copertura assicurativa, ad esempio gli intermediari assicurativi e i notai.\n\nPer gli intermediari, infatti, la polizza è un requisito. L'articolo 110 del Codice richiede a chi si iscrive come agente o broker una polizza di responsabilità civile valida in tutta l'Unione europea. La polizza copre le negligenze e gli errori professionali propri, e anche le negligenze, gli errori e le infedeltà di dipendenti, collaboratori e persone di cui si risponde per legge. Il testo del Codice indica massimali di almeno un milione 250 mila euro per sinistro e un milione 850 mila euro l'anno. Precisa però che questi importi si aggiornano con atti dell'Unione europea. L'ultimo è il regolamento delegato europeo 2024/896, applicabile dal 9 ottobre 2024. Il nuovo minimo è un milione 564 mila 610 euro per sinistro e due milioni 315 mila 610 euro complessivi l'anno.\n\nVediamo ora il ruolo degli intermediari nella vendita. Da quando c'è l'obbligo assicurativo si sono diffuse le convenzioni tra compagnie o broker e associazioni di categoria. Gli associati possono aderire a quell'offerta senza alcun vincolo, quindi restano liberi di scegliere. Affidare l'incarico a un broker dovrebbe garantire, in teoria, una scelta più ampia, perché il broker è terzo e indipendente da vincoli verso una o più compagnie. Può quindi valutare diverse proposte e individuare con l'Ordine la più conveniente, con criteri più oggettivi.\n\nPassare per gli organismi associativi ha più vantaggi. Si capiscono a fondo le esigenze specifiche della categoria. Gli intermediari sviluppano le competenze per personalizzare le coperture e gestire i sinistri. E c'è il fattore prezzo: diventa molto conveniente se una compagnia assicura intere platee di rischi omogenei, realizzando a pieno il principio della mutualità.\n\nRicordiamo che cos'è la distribuzione assicurativa secondo l'articolo 106 del Codice. È fornire consulenza, proporre contratti, compiere atti preparatori alla loro conclusione, concludere i contratti o collaborare alla loro gestione ed esecuzione, in particolare in caso di sinistri. Vi rientra anche fornire informazioni su uno o più contratti tramite un sito internet o altri mezzi. Questo comprende confronti e classifiche di prodotti, prezzi e sconti, se il cliente può poi concludere il contratto direttamente o indirettamente.\n\nGli intermediari che entrano in contatto con la clientela devono comportarsi con diligenza, correttezza, trasparenza e professionalità verso contraenti e assicurati. Il regolamento IVASS 40 del 2018 oggi parla di equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse dei clienti. Devono acquisire tutte le informazioni necessarie per valutare le esigenze assicurative e fare in modo che il cliente sia sempre adeguatamente informato. Hanno poi un obbligo generale, e scontato, di non recare pregiudizio agli interessi di contraenti e assicurati.\n\nIn concreto, prima di far firmare una proposta o, se non è prevista, un contratto, l'intermediario raccoglie dal contraente le informazioni utili a valutare le sue richieste ed esigenze. Chiede notizie sulle caratteristiche personali e sulle esigenze assicurative o previdenziali. Quando sono pertinenti, servono riferimenti a età, stato di salute, attività lavorativa, nucleo familiare, situazione finanziaria e assicurativa, e alle aspettative su copertura e durata. Tiene conto anche delle coperture già in essere, del tipo di rischio e della complessità del contratto. Per un professionista, ad esempio: quali incarichi svolge, che fatturato ha, se ha avuto richieste di risarcimento, che retroattività ha la polizza attuale.\n\nSulla base di queste informazioni l'intermediario deve guidare il cliente verso scelte consapevoli, senza comportamenti opportunistici a vantaggio proprio o della compagnia. Questo conta molto nelle polizze vita o di natura finanziaria. Ma conta anche nei danni, soprattutto nei contratti con ampi margini di personalizzazione, come appunto la RC professionale.\n\nChiudiamo con una verifica e con un caso pratico sul cambio di polizza: il punto da controllare è sempre la retroattività.\n\nRicapitolando: l'obbligo di assicurazione dei professionisti è efficace dall'agosto 2013, ma ha limiti di effettività. Il claims made guarda alla data della richiesta, quindi retroattività e postuma sono decisive, e oggi le compagnie devono offrire dieci anni di ultrattività. L'intermediario deve essere a sua volta assicurato, con i massimali aggiornati dal 9 ottobre 2024. E prima di ogni firma raccoglie richieste ed esigenze e propone solo contratti coerenti.",
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 - Codice delle assicurazioni private (testo vigente, Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "D.L. 13 agosto 2011, n. 138, art. 3, c. 5, lett. e) (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-08-13;138"
+        },
+        {
+          "title": "D.P.R. 7 agosto 2012, n. 137, art. 5 - Obbligo di assicurazione (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:2012-08-07;137"
+        },
+        {
+          "title": "Legge 8 marzo 2017, n. 24 (Gelli-Bianco), artt. 7, 10 e 11 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2017-03-08;24"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Regolamento delegato (UE) 2024/896 della Commissione - importi della RC professionale IDD (Gazzetta ufficiale UE, copia pubblicata dal BOE)",
+          "url": "https://www.boe.es/doue/2024/896/L00001-00002.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Fonte normativa dell'obbligo assicurativo dei professionisti, convenzioni negoziate da Consigli nazionali ed enti previdenziali, efficacia dopo 12 mesi.",
+          "source_ref": "Art. 3, c. 5, lett. e) D.L. 138/2011; art. 5 D.P.R. 137/2012"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"non è previsto alcun requisito minimo per il contratto assicurativo\". Aggiornamento: nel testo vigente le condizioni generali devono offrire 10 anni di ultrattività; in sanità la L. 24/2017 impone 10 anni di retroattività e di ultrattività e il D.M. 232/2023 fissa requisiti minimi.",
+          "source_ref": "Art. 3, c. 5, lett. e) D.L. 138/2011; L. 24/2017, art. 11"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il mancato assolvimento \"comporta un mero illecito disciplinare cui non sono collegate sanzioni\". Confermata la qualifica di illecito disciplinare; l'assenza di sanzioni concrete resta un'affermazione del materiale originale, da verificare sugli ordinamenti dei singoli Ordini.",
+          "source_ref": "Art. 5, c. 2 D.P.R. 137/2012"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione didattica di loss occurrence e claims made, di retroattività, postuma e deeming clause.",
+          "source_ref": "Materiale originale del corso (rielaborazione didattica)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di polizza RC dell'intermediario (art. 110 CAP) e massimali aggiornati dal 9 ottobre 2024: 1.564.610 euro per sinistro e 2.315.610 euro annui.",
+          "source_ref": "Art. 110, c. 3 e 3-bis CAP; Reg. delegato (UE) 2024/896"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di distribuzione assicurativa; riformulata secondo il testo vigente dell'art. 106 CAP (consulenza, classifiche, confronto prezzi e sconti).",
+          "source_ref": "Art. 106 CAP"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte gli obblighi di diligenza, correttezza, trasparenza e professionalità (formula del previgente Reg. ISVAP 5/2006); aggiornati con la formula vigente del Reg. IVASS 40/2018: equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei clienti.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'obbligo di acquisire informazioni su richieste ed esigenze prima della sottoscrizione; riferimento vigente: Reg. IVASS 40/2018, art. 58, con l'obbligo di proporre contratti coerenti e dare informazioni oggettive.",
+          "source_ref": "Reg. IVASS 40/2018, art. 58"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"sono solo poche le professioni che richiedono imprescindibilmente una copertura assicurativa (intermediari assicurativi, notai etc)\". Per gli intermediari confermato dall'art. 110 CAP; per i notai riferimento non verificato su fonte ufficiale.",
+          "source_ref": "Art. 110, c. 3 CAP"
+        }
+      ]
+    }
+  ]
+}

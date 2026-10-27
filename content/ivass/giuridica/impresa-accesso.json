@@ -1,0 +1,1558 @@
+{
+  "module": "Area giuridica",
+  "topic": "Impresa di assicurazione: accesso, esercizio e operatività",
+  "topic_order": 1,
+  "scope": "core",
+  "lesson_offset": 0,
+  "source_minutes": 77,
+  "lessons": [
+    {
+      "title": "L'attività assicurativa riservata e chi può esercitarla",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di assicurazione - condizione di accesso e di esercizio.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Impresa di assicurazione - condizione di accesso e di esercizio prima parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "L'attività assicurativa riservata e chi può esercitarla",
+          "goals": [
+            "Capire perché l'attività assicurativa è riservata alle imprese autorizzate",
+            "Distinguere operazioni consentite, connesse e vietate",
+            "Riconoscere le forme giuridiche ammesse e il ruolo degli enti pubblici"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un'attività riservata",
+          "key": "L'assunzione e la gestione dei rischi è riservata alle sole imprese autorizzate: quelle che hanno, almeno in astratto, i requisiti strutturali e patrimoniali per una sana e prudente gestione.",
+          "body": "La riserva protegge chi paga un premio oggi per ricevere una prestazione domani, magari tra trent'anni. Per questo lo Stato filtra all'ingresso chi può promettere quella prestazione.",
+          "ref": "CAP, art. 11, c. 1; materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa può fare l'impresa",
+          "left": {
+            "title": "Oggetto sociale",
+            "items": [
+              "Solo rami vita oppure solo rami danni, con la relativa riassicurazione",
+              "In deroga: vita insieme ai soli rami infortuni e malattia, con gestione separata delle due attività"
+            ],
+            "ref": "CAP, art. 11, c. 2-3"
+          },
+          "right": {
+            "title": "Attività accessorie",
+            "items": [
+              "Operazioni connesse o strumentali all'attività assicurativa",
+              "Costituzione e gestione di forme di assistenza sanitaria e di previdenza integrative, nei limiti di legge"
+            ],
+            "ref": "CAP, art. 11, c. 4"
+          },
+          "note": "È il principio di specializzazione: chi gestisce rischi vita non mescola il proprio patrimonio con quello dei rischi danni.",
+          "noteRef": "CAP, art. 11"
+        },
+        {
+          "layout": "concept",
+          "title": "Le partecipazioni in altre società",
+          "key": "L'impresa può assumere partecipazioni, anche di controllo, in società che svolgono attività diverse dalla propria.",
+          "body": "Se la controllata ha carattere strumentale o connesso all'attività assicurativa, l'IVASS può chiedere che risulti da un programma di attività. L'IVASS può anche condizionare o negare l'acquisizione se contrasta con la sana e prudente gestione o mette a rischio la stabilità dell'impresa.",
+          "ref": "CAP, art. 79, c. 1, 2 e 3-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "Finanziamenti alle imprese",
+          "key": "Le imprese di assicurazione italiane e SACE possono concedere finanziamenti senza che ciò sia attività riservata alle banche, se si rivolgono solo a soggetti diversi da persone fisiche e microimprese.",
+          "body": "Il rilascio di garanzie resta escluso dalla deroga. L'operatività deve stare nei limiti del Codice e delle disposizioni IVASS. Chi la esercita invia segnalazioni alla Banca d'Italia e partecipa alla Centrale dei Rischi.",
+          "ref": "D.Lgs. 385/1993 (TUB), art. 114, c. 2-bis"
+        },
+        {
+          "layout": "table",
+          "title": "Le operazioni vietate",
+          "head": [
+            "Divieto",
+            "Perché"
+          ],
+          "rows": [
+            [
+              "Associazioni tontinarie o di ripartizione",
+              "Il capitale dei partecipanti premorti va ai superstiti: è una scommessa sulla vita altrui, non una copertura."
+            ],
+            [
+              "Assicurare il pagamento delle sanzioni amministrative",
+              "La sanzione perderebbe la sua funzione: deve colpire chi viola la regola."
+            ],
+            [
+              "Assicurare il prezzo del riscatto in caso di sequestro di persona",
+              "Incentiverebbe i sequestri."
+            ],
+            [
+              "Società costituite in Italia solo per assicurare all'estero",
+              "Vietate: l'impresa italiana deve operare anche in Italia."
+            ]
+          ],
+          "ref": "CAP, art. 12"
+        },
+        {
+          "layout": "facts",
+          "title": "Che cosa succede al contratto",
+          "lead": "La violazione dei divieti e l'assenza di autorizzazione colpiscono direttamente il contratto.",
+          "facts": [
+            {
+              "label": "Nullità",
+              "text": "È nullo il contratto stipulato in violazione dei divieti, con un'impresa non autorizzata o con un'impresa a cui è vietato assumere nuovi affari."
+            },
+            {
+              "label": "Chi la fa valere",
+              "text": "Solo il contraente o l'assicurato."
+            },
+            {
+              "label": "Premi",
+              "text": "Vanno restituiti."
+            },
+            {
+              "label": "Indennizzi",
+              "text": "Quelli già pagati o dovuti dall'impresa non si restituiscono."
+            },
+            {
+              "label": "Reato",
+              "text": "Esercitare senza autorizzazione o iscrizione è sanzionato penalmente."
+            }
+          ],
+          "ref": "CAP, artt. 12 e 167; IVASS, pagina Albi"
+        },
+        {
+          "layout": "table",
+          "title": "Le forme giuridiche ammesse",
+          "lead": "L'autorizzazione può essere rilasciata solo a:",
+          "head": [
+            "Forma",
+            "Riferimento"
+          ],
+          "rows": [
+            [
+              "Società per azioni",
+              "Art. 2325 c.c."
+            ],
+            [
+              "Società cooperativa",
+              "Art. 2511 c.c."
+            ],
+            [
+              "Società di mutua assicurazione con quote rappresentate da azioni",
+              "Art. 2546 c.c."
+            ],
+            [
+              "Società europea (SE)",
+              "Reg. CE 2157/2001"
+            ],
+            [
+              "Società cooperativa europea (SCE)",
+              "Reg. CE 1435/2003"
+            ]
+          ],
+          "ref": "CAP, art. 14, c. 1, lett. a)"
+        },
+        {
+          "layout": "concept",
+          "title": "La mutua assicuratrice",
+          "key": "Nella mutua la coincidenza tra socio e assicurato non è necessaria ma solo eventuale.",
+          "body": "Per questo si applicano sia le norme sul contratto di assicurazione (art. 1884 c.c.) sia quelle sulla società cooperativa (art. 2547 c.c.).",
+          "ref": "Materiale originale del corso; artt. 1884 e 2547 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Le particolari mutue assicuratrici",
+          "cols": [
+            {
+              "title": "Rami vita",
+              "items": [
+                "Statuto che permette di esigere contributi supplementari o ridurre le prestazioni",
+                "Contributi annui non oltre 500.000 euro",
+                "Solo rami I e II vita"
+              ]
+            },
+            {
+              "title": "Rami danni",
+              "items": [
+                "Statuto che permette di esigere contributi supplementari",
+                "Contributi annui non oltre 1 milione di euro, per almeno metà dai soci",
+                "Esclusi i rami 10-15, 17 e 18"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Particolari mutue: altre regole",
+          "items": [
+            {
+              "text": "Operano solo nel territorio della Repubblica, senza i requisiti di accesso ordinari.",
+              "ref": "CAP, art. 52, c. 1"
+            },
+            {
+              "text": "Limitano l'oggetto ai soli rami vita o ai soli rami danni e alle operazioni connesse o strumentali.",
+              "ref": "CAP, art. 53, c. 3"
+            },
+            {
+              "text": "Se superano le soglie per tre esercizi consecutivi, dal quarto perdono la qualifica e chiedono entro 30 giorni la nuova autorizzazione.",
+              "ref": "CAP, art. 52, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Enti assicurativi pubblici: Consap",
+          "head": [
+            "Ambito",
+            "Che cosa gestisce"
+          ],
+          "rows": [
+            [
+              "RC auto e caccia",
+              "Fondo di garanzia vittime della strada; Fondo di garanzia vittime della caccia; stanza di compensazione dell'indennizzo diretto"
+            ],
+            [
+              "Vittime di reati",
+              "Fondo di solidarietà vittime di estorsione e usura; Fondo di rotazione vittime di reati di tipo mafioso"
+            ],
+            [
+              "Credito e immobili",
+              "Archivio antifrode del credito al consumo; Fondo di solidarietà acquirenti di immobili da costruire; Fondo per il credito ai giovani"
+            ],
+            [
+              "Altro",
+              "Cessioni legali; Fondo di previdenza addetti alle cessate imposte di consumo; Fondo di garanzia per i mediatori di assicurazione e riassicurazione"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Enti assicurativi pubblici: SACE",
+          "steps": [
+            {
+              "label": "Garanzie e assicurazione",
+              "text": "Rischi politici, catastrofici, economici, commerciali e di cambio."
+            },
+            {
+              "label": "Riassicurazione e coassicurazione",
+              "text": "Accordi con imprese italiane autorizzate, imprese estere e organismi internazionali."
+            },
+            {
+              "label": "Rischi di mercato",
+              "text": "Come definiti dalla disciplina UE, con contabilità separata oppure tramite una S.p.A. dedicata."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente titolare di una piccola ditta chiede al suo agente una polizza che gli rimborsi le multe stradali prese dai dipendenti. Qualche settimana dopo, un conoscente gli propone una \"polizza vita\" di una società che non compare in nessun albo.",
+          "questions": [
+            "L'agente può proporre la copertura delle multe?",
+            "Che cosa rischia il cliente con la seconda proposta?"
+          ],
+          "solution": "No: assicurare il pagamento delle sanzioni amministrative è vietato e il contratto sarebbe nullo. Con un'impresa non autorizzata il contratto è nullo: il cliente può farlo valere e ottenere la restituzione dei premi, ma resta senza copertura reale. L'agente può verificare l'impresa negli albi IVASS."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale tra queste attività è consentita a un'impresa autorizzata nei rami vita?",
+          "options": [
+            "Esercitare anche il ramo incendio",
+            "Esercitare anche i rami infortuni e malattia, con gestione separata",
+            "Assicurare il prezzo del riscatto per sequestro",
+            "Costituire una tontina"
+          ],
+          "answer": 1,
+          "explanation": "L'esercizio congiunto è ammesso solo tra vita e rami infortuni e malattia, con gestione separata. Tontine e riscatto da sequestro sono vietati."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Riserva",
+              "text": "Solo imprese autorizzate possono assumere e gestire rischi"
+            },
+            {
+              "value": "Vita o danni",
+              "text": "Specializzazione, salvo vita più infortuni e malattia"
+            },
+            {
+              "value": "3 divieti",
+              "text": "Tontine, sanzioni amministrative, riscatto da sequestro"
+            },
+            {
+              "value": "Nullità",
+              "text": "La fa valere solo contraente o assicurato; i premi tornano indietro"
+            },
+            {
+              "value": "5 forme",
+              "text": "S.p.A., cooperativa, mutua, SE, SCE"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione apriamo l'argomento dell'impresa di assicurazione. Vediamo perché l'attività assicurativa è riservata, che cosa un'impresa può fare e che cosa no, e quali soggetti possono chiedere di esercitarla. Per un intermediario sono nozioni di base, ma servono ogni giorno: ogni contratto che distribuisce è valido solo se l'impresa che lo emette è autorizzata e se l'operazione è consentita.\n\nPartiamo dal principio. L'attività assicurativa, cioè l'assunzione e la gestione dei rischi da parte di un'impresa di assicurazione, è riservata alle sole imprese autorizzate. Sono quelle imprese che presentano, almeno in astratto, i requisiti strutturali e patrimoniali necessari per una sana e prudente gestione. Il motivo è semplice. Il cliente paga oggi un premio in cambio di una promessa che si realizzerà domani, a volte dopo decenni. Se l'impresa non ha mezzi e organizzazione adeguati, la promessa non vale nulla. Per questo lo Stato controlla l'ingresso nel mercato.\n\nIl Codice delle assicurazioni private, all'articolo 11, aggiunge un secondo principio: la specializzazione. L'impresa limita il proprio oggetto sociale ai soli rami vita oppure ai soli rami danni, con la relativa riassicurazione. C'è una sola deroga: si possono esercitare insieme i rami vita e i soli rami danni infortuni e malattia. In questo caso l'impresa deve tenere una gestione separata per ciascuna delle due attività, secondo le regole dell'IVASS. Pensate al perché: le riserve che garantiscono una rendita vitalizia non devono essere esposte ai sinistri di un'alluvione. L'impresa può poi svolgere le operazioni connesse o strumentali all'attività assicurativa e le attività di costituzione e gestione di forme di assistenza sanitaria e di previdenza integrative, nei limiti fissati dalla legge.\n\nUn capitolo a parte riguarda le partecipazioni. L'articolo 79 del Codice consente all'impresa di assicurazione e di riassicurazione di assumere partecipazioni, anche di controllo, in altre società, anche se queste svolgono attività diverse da quelle consentite all'impresa stessa. Quando la partecipazione in una controllata ha carattere di strumentalità o di connessione con l'attività assicurativa, pensiamo a una società informatica del gruppo o a una società che gestisce i sinistri, l'IVASS può chiedere che ciò risulti da un programma di attività. Il Codice prevede inoltre che l'IVASS possa condizionare o negare l'autorizzazione all'acquisizione quando l'operazione contrasta con la sana e prudente gestione o mette in pericolo la stabilità dell'impresa.\n\nC'è poi una norma che non sta nel Codice delle assicurazioni ma nel Testo unico bancario: l'articolo 114, comma 2-bis. Concedere finanziamenti al pubblico è normalmente un'attività riservata a banche e intermediari finanziari. La norma stabilisce invece che non è esercizio nei confronti del pubblico dell'attività di finanziamento l'operatività, diversa dal rilascio di garanzie, svolta dalle imprese di assicurazione italiane e da SACE esclusivamente verso soggetti diversi dalle persone fisiche e dalle microimprese, come definite dalla raccomandazione europea 2003/361 del 6 maggio 2003. Questa operatività deve rispettare i limiti del Codice delle assicurazioni e delle disposizioni dell'IVASS. Il testo vigente aggiunge che chi la esercita invia alla Banca d'Italia segnalazioni periodiche e partecipa alla Centrale dei Rischi. In pratica, un'assicurazione può finanziare una media impresa, ma non un privato o una microimpresa.\n\nVeniamo ai divieti. L'articolo 12 del Codice vieta tre tipi di operazioni. Il primo sono le associazioni tontinarie o di ripartizione: schemi in cui i partecipanti versano somme e, a una certa data, il patrimonio viene ripartito tra i sopravvissuti. Non c'è trasferimento di un rischio ma una scommessa sulla vita degli altri. Il secondo sono le assicurazioni che hanno per oggetto il trasferimento del rischio di pagamento delle sanzioni amministrative: se la multa la paga l'assicuratore, la sanzione perde la sua funzione. Il terzo sono le assicurazioni sul prezzo del riscatto in caso di sequestro di persona, che finirebbero per incoraggiare i sequestri. In caso di violazione il contratto è nullo e si applica l'articolo 167, comma 2. Lo stesso articolo 12 vieta anche di costituire in Italia società che hanno per oggetto esclusivo l'esercizio all'estero dell'attività assicurativa.\n\nChe cosa dice l'articolo 167? È nullo il contratto di assicurazione stipulato con un'impresa non autorizzata o con un'impresa alla quale sia stato vietato di assumere nuovi affari. La nullità può essere fatta valere solo dal contraente o dall'assicurato, cioè dalla parte che la legge vuole proteggere. La pronuncia di nullità obbliga l'impresa a restituire i premi pagati. In ogni caso non si possono chiedere indietro gli indennizzi e le somme già pagate o dovute dall'impresa agli assicurati. L'IVASS ricorda inoltre, nella pagina dedicata agli albi, che esercitare l'attività assicurativa senza le autorizzazioni e le iscrizioni necessarie è sanzionato penalmente.\n\nChi può allora chiedere l'autorizzazione? Le forme ammesse sono cinque: la società per azioni, la società cooperativa, la società di mutua assicurazione le cui quote di partecipazione siano rappresentate da azioni, costituite rispettivamente secondo gli articoli 2325, 2511 e 2546 del codice civile, la società europea prevista dal regolamento comunitario 2157 del 2001 e la società cooperativa europea prevista dal regolamento 1435 del 2003. Una società a responsabilità limitata, una società di persone o un'impresa individuale non possono fare l'assicuratore.\n\nSoffermiamoci sulla mutua assicuratrice. Il materiale del corso sottolinea che, nella mutua, la coincidenza tra la qualità di socio e quella di assicurato non è necessaria ma solo eventuale. Di conseguenza si applicano sia le disposizioni sul contratto di assicurazione, richiamate dall'articolo 1884 del codice civile, sia le norme sulla società cooperativa, richiamate dall'articolo 2547.\n\nEsiste poi una figura minore, la particolare mutua assicuratrice, disciplinata dagli articoli 52 e seguenti del Codice. Per i rami vita lo statuto deve prevedere la possibilità di esigere contributi supplementari o di ridurre le prestazioni, e i contributi annui non devono superare cinquecentomila euro. Per i rami danni lo statuto deve prevedere la possibilità di esigere contributi supplementari e i contributi annui non devono superare un milione di euro, provenienti per almeno la metà dai soci. Il testo coordinato del Codice aggiunge alcuni dettagli utili. Queste mutue operano solo nel territorio della Repubblica, senza che si applichino i requisiti di accesso ordinari. Nei rami vita possono esercitare solo i rami I e II; nei rami danni non possono esercitare i rami 10, 11, 12, 13, 14, 15, 17 e 18. Se superano le soglie per tre esercizi consecutivi, dal quarto esercizio perdono la qualifica e devono chiedere la nuova autorizzazione entro trenta giorni dall'approvazione del bilancio del terzo esercizio.\n\nAccanto alle imprese private ci sono gli enti assicurativi pubblici. Il primo è Consap. Secondo il materiale del corso gestisce le cessioni legali, il Fondo di garanzia per le vittime della strada, il Fondo di garanzia per le vittime della caccia, il Fondo di previdenza per gli addetti alle cessate imposte di consumo, il Fondo di solidarietà per le vittime delle richieste estorsive e dell'usura, il Fondo di rotazione per la solidarietà alle vittime dei reati di tipo mafioso, l'archivio informatico per la prevenzione delle frodi nel credito al consumo, il Fondo di solidarietà per gli acquirenti di beni immobili da costruire, la stanza di compensazione per i rapporti economici tra imprese nell'indennizzo diretto, il Fondo di garanzia per i mediatori di assicurazione e riassicurazione e il Fondo per il credito ai giovani. Per chi lavora nell'RC auto, Consap è un nome familiare: è il riferimento del Fondo vittime della strada e della stanza di compensazione.\n\nIl secondo ente è SACE. È abilitata a rilasciare garanzie e ad assumere in assicurazione rischi di carattere politico, catastrofico, economico, commerciale e di cambio; a concludere accordi di riassicurazione e coassicurazione con enti o imprese italiani autorizzati, con enti o imprese esteri e con organismi internazionali; e a esercitare l'attività assicurativa e di garanzia dei rischi di mercato, come definiti dall'Unione europea, tenendo una contabilità separata oppure costituendo una società per azioni dedicata.\n\nFacciamo un esempio. Il titolare di una piccola ditta chiede al suo agente una polizza che gli rimborsi le multe stradali dei dipendenti. La risposta è no: è un'assicurazione vietata e il contratto sarebbe nullo. Qualche settimana dopo, un conoscente gli propone una polizza vita di una società che non compare in nessun albo. Anche qui il contratto sarebbe nullo. Il cliente potrebbe far valere la nullità e chiedere i premi indietro, ma resterebbe senza alcuna copertura, e recuperare i soldi da un operatore abusivo non è affatto scontato. L'intermediario può fare una cosa semplice: verificare l'impresa negli albi pubblicati dall'IVASS.\n\nRicapitoliamo. L'attività assicurativa è riservata alle imprese autorizzate. L'impresa è specializzata, vita oppure danni, con la sola deroga di vita più infortuni e malattia. Tre operazioni sono vietate e il contratto che le viola è nullo, così come quello stipulato con un'impresa non autorizzata. Le forme ammesse sono cinque. Nella prossima lezione vediamo come si ottiene l'autorizzazione e quali requisiti servono.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Testo unico bancario (D.Lgs. 385/1993), art. 114 – Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1993-09-01;385~art114"
+        },
+        {
+          "title": "IVASS, Albi delle imprese di assicurazione",
+          "url": "https://www.ivass.it/operatori/imprese/albi/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Principio di specializzazione: solo vita o solo danni, deroga vita più infortuni e malattia con gestione separata, attività connesse e forme sanitarie e previdenziali integrative.",
+          "source_ref": "CAP, art. 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Poteri IVASS di condizionare o negare l'acquisizione di partecipazioni contrarie alla sana e prudente gestione.",
+          "source_ref": "CAP, art. 79, c. 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di segnalazioni alla Banca d'Italia e partecipazione alla Centrale dei Rischi per i finanziamenti delle imprese di assicurazione.",
+          "source_ref": "TUB, art. 114, c. 2-bis, testo vigente"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto di costituire in Italia società con oggetto esclusivo l'esercizio all'estero.",
+          "source_ref": "CAP, art. 12, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetti della nullità: la fa valere solo contraente o assicurato, restituzione dei premi, indennizzi non ripetibili; esercizio abusivo sanzionato penalmente.",
+          "source_ref": "CAP, art. 167, c. 2; IVASS, pagina Albi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Particolari mutue: operatività solo in Italia, rami esercitabili, perdita della qualifica dopo tre esercizi oltre soglia.",
+          "source_ref": "CAP, artt. 52 e 53"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nella mutua la coincidenza tra socio e assicurato è solo eventuale, con applicazione degli artt. 1884 e 2547 c.c. Riferimento dottrinale da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco delle gestioni Consap. Elenco non verificato sul sito Consap: possibile aggiornamento da controllare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le abilitazioni di SACE. Non verificate sulla normativa vigente: possibile aggiornamento dopo le riforme recenti di SACE, da controllare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "L'autorizzazione IVASS: requisiti e procedura",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di assicurazione - condizione di accesso e di esercizio.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Impresa di assicurazione - condizione di accesso e di esercizio seconda parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "L'autorizzazione IVASS: requisiti e procedura",
+          "goals": [
+            "Conoscere i requisiti per ottenere l'autorizzazione",
+            "Capire MCR, SCR e programma di attività",
+            "Sapere come si estende l'attività ad altri rami"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi autorizza e per che cosa",
+          "key": "L'impresa deve essere autorizzata dall'IVASS per i rami vita, oppure per i rami danni, oppure insieme per vita e infortuni e malattia.",
+          "body": "L'autorizzazione è pubblicata nel Bollettino IVASS. Può riguardare uno o più rami e copre tutte le attività di quei rami, salvo che l'impresa chieda di limitarla. Si può chiedere insieme l'autorizzazione alla riassicurazione, solo per i rami assicurativi richiesti.",
+          "ref": "CAP, art. 13, c. 1-2; materiale originale"
+        },
+        {
+          "layout": "checklist",
+          "title": "I requisiti in sintesi",
+          "items": [
+            {
+              "text": "Forma: S.p.A., cooperativa, mutua per azioni, SE o SCE.",
+              "ref": "art. 14, c. 1, lett. a"
+            },
+            {
+              "text": "Direzione generale e amministrativa in Italia.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Fondi propri per il minimo assoluto del MCR, e prospettiva di coprire SCR e MCR.",
+              "ref": "lett. c, c-bis, c-ter"
+            },
+            {
+              "text": "Atto costitutivo, statuto e programma di attività.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Soci qualificati onorabili; esponenti e funzioni fondamentali idonei.",
+              "ref": "lett. e, f"
+            },
+            {
+              "text": "Governo societario adeguato; niente stretti legami che ostacolino la vigilanza.",
+              "ref": "lett. e-bis, g"
+            },
+            {
+              "text": "Rami 10 e 12 (esclusa RC vettore): mandatario per i sinistri in ogni altro Stato membro.",
+              "ref": "lett. h"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Il minimo assoluto del MCR",
+          "items": [
+            {
+              "value": "2,5 milioni €",
+              "text": "imprese danni, incluse le captive",
+              "ref": "CAP, art. 14, c. 1, lett. c, n. 1"
+            },
+            {
+              "value": "3,7 milioni €",
+              "text": "imprese danni che coprono i rami da 10 a 15, e imprese vita incluse le captive",
+              "ref": "n. 1 e 2"
+            },
+            {
+              "value": "6,2 milioni €",
+              "text": "imprese che esercitano insieme vita e danni (somma dei due importi)",
+              "ref": "n. 3"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "SCR e MCR",
+          "cols": [
+            {
+              "title": "SCR – Requisito Patrimoniale di Solvibilità",
+              "items": [
+                "Valore a rischio dei fondi propri di base",
+                "Confidenza 99,5% su un anno",
+                "Calcolato almeno una volta l'anno e comunicato all'IVASS"
+              ]
+            },
+            {
+              "title": "MCR – Requisito Patrimoniale Minimo",
+              "items": [
+                "Soglia sotto cui il rischio per gli assicurati è inaccettabile",
+                "Calibrato su confidenza 85% su un anno, tra il 25% e il 45% dell'SCR",
+                "Calcolato almeno ogni tre mesi"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il programma di attività",
+          "left": {
+            "title": "Contenuto generale",
+            "items": [
+              "Natura dei rischi o delle obbligazioni da garantire",
+              "Accordi di riassicurazione attiva e principi su riassicurazione e retrocessione",
+              "Elementi dei fondi propri per il minimo del MCR",
+              "Spese d'impianto, rete di produzione e mezzi finanziari; per il ramo 18, i mezzi per l'assistenza"
+            ],
+            "ref": "CAP, art. 14-bis, c. 1"
+          },
+          "right": {
+            "title": "Per i primi 3 esercizi",
+            "items": [
+              "Previsioni di bilancio, di SCR e di MCR",
+              "Mezzi per coprire riserve tecniche, MCR e SCR",
+              "Danni: spese di gestione, provvigioni, premi e sinistri",
+              "Vita: piano di entrate e spese per lavoro diretto e riassicurazione"
+            ],
+            "ref": "CAP, art. 14-bis, c. 2"
+          },
+          "note": "Il programma è il business plan che l'IVASS valuta: dice che cosa l'impresa venderà, con quale rete e con quali mezzi.",
+          "noteRef": "CAP, art. 14-bis"
+        },
+        {
+          "layout": "table",
+          "title": "I requisiti soggettivi",
+          "head": [
+            "Chi",
+            "Che cosa serve"
+          ],
+          "rows": [
+            [
+              "Titolari di partecipazioni qualificate",
+              "Onorabilità (art. 77) e presupposti per l'autorizzazione all'acquisto (art. 68)"
+            ],
+            [
+              "Amministratori, direttori, sindaci, funzioni fondamentali",
+              "Professionalità, onorabilità e indipendenza (art. 76)"
+            ],
+            [
+              "Esponenti aziendali",
+              "Divieto di interlocking: art. 36 del D.L. 201/2011, c.d. \"Salva Italia\""
+            ],
+            [
+              "Gruppo di appartenenza",
+              "Nessuno stretto legame che ostacoli la vigilanza"
+            ]
+          ],
+          "ref": "CAP, art. 14, c. 1, lett. e, f, g; materiale originale"
+        },
+        {
+          "layout": "concept",
+          "title": "Vita insieme a infortuni e malattia",
+          "key": "Chi chiede vita più infortuni e malattia deve coprire subito il minimo del MCR vita e quello danni, e impegnarsi a coprire i Requisiti Patrimoniali Minimi Nozionali.",
+          "body": "Il MCR nozionale è calcolato separatamente per ciascuna delle due attività: serve a mantenere distinti i due patrimoni anche dentro la stessa impresa.",
+          "ref": "CAP, art. 14, c. 1-bis"
+        },
+        {
+          "layout": "steps",
+          "title": "La procedura",
+          "steps": [
+            {
+              "label": "Domanda",
+              "text": "Con atto costitutivo, statuto, programma di attività e documenti richiesti."
+            },
+            {
+              "label": "Verifica IVASS",
+              "text": "Nega l'autorizzazione se non è garantita la sana e prudente gestione, senza guardare alla struttura dei mercati."
+            },
+            {
+              "label": "Esito",
+              "text": "L'eventuale diniego è motivato e comunicato entro 90 giorni dalla domanda completa."
+            },
+            {
+              "label": "Registro e albo",
+              "text": "Senza autorizzazione non si iscrive la società nel registro delle imprese; poi l'IVASS la iscrive all'albo e lo comunica all'AEAP (EIOPA)."
+            }
+          ],
+          "ref": "CAP, art. 14, c. 2-5-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "L'estensione ad altri rami",
+          "key": "L'impresa già autorizzata che vuole estendersi ad altri rami, o ad altri rischi di un ramo autorizzato in modo limitato, deve ottenere una nuova autorizzazione preventiva.",
+          "body": "Deve provare i fondi propri minimi per i nuovi rami, gli attivi a copertura delle riserve tecniche, il rispetto di SCR e MCR, e presentare un nuovo programma di attività. Non può iniziare prima che l'IVASS aggiorni l'albo.",
+          "ref": "CAP, art. 15"
+        },
+        {
+          "layout": "concept",
+          "title": "Le particolari mutue",
+          "key": "Per le particolari mutue assicuratrici è prevista una procedura autorizzativa semplificata.",
+          "body": "Le autorizza l'IVASS o, nelle regioni a statuto speciale, l'organo regionale competente. Il procedimento è definito da un regolamento IVASS.",
+          "ref": "CAP, art. 55; materiale originale"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia autorizzata solo nei rami danni non auto vuole lanciare una polizza RC auto. Il suo agente ha già pronti i preventivi e vorrebbe iniziare a venderla lunedì.",
+          "questions": [
+            "Può farlo?",
+            "Che cosa deve dimostrare la compagnia?"
+          ],
+          "solution": "No. La RC auto è il ramo 10: serve l'estensione dell'autorizzazione. La compagnia deve provare il minimo assoluto più alto del MCR (3,7 milioni per i rami da 10 a 15), gli attivi a copertura delle riserve, il rispetto di SCR e MCR, e presentare un nuovo programma di attività. Si vende solo dopo l'aggiornamento dell'albo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Con quale livello di confidenza è calibrato l'SCR?",
+          "options": [
+            "85% su un anno",
+            "95% su tre anni",
+            "99,5% su un anno",
+            "100% su un mese"
+          ],
+          "answer": 2,
+          "explanation": "L'SCR corrisponde al valore a rischio dei fondi propri di base con confidenza del 99,5% su un anno. L'85% riguarda il MCR."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "IVASS",
+              "text": "Autorizza con provvedimento pubblicato nel Bollettino"
+            },
+            {
+              "value": "2,5 · 3,7 · 6,2",
+              "text": "Milioni di euro: minimo assoluto del MCR"
+            },
+            {
+              "value": "99,5%",
+              "text": "Confidenza dell'SCR, calcolato almeno una volta l'anno"
+            },
+            {
+              "value": "3 esercizi",
+              "text": "Orizzonte delle previsioni nel programma di attività"
+            },
+            {
+              "value": "90 giorni",
+              "text": "Per comunicare il diniego motivato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo come un'impresa ottiene l'autorizzazione a esercitare l'attività assicurativa: chi la rilascia, quali requisiti servono, che cosa deve contenere il programma di attività e come si estende l'attività ad altri rami.\n\nPer svolgere regolarmente la propria attività l'impresa deve essere autorizzata dall'IVASS. L'autorizzazione si chiede, in alternativa, per i rami vita oppure per i rami danni, oppure congiuntamente per i rami vita e per i rami infortuni e malattia. L'articolo 13 del Codice precisa che il provvedimento è pubblicato nel Bollettino dell'IVASS, che può riguardare uno o più rami e che copre tutte le attività rientranti in quei rami, salvo che l'impresa chieda di limitarla a una parte. L'impresa può anche chiedere insieme l'autorizzazione a esercitare la riassicurazione, ma solo per i rami per i quali chiede l'autorizzazione assicurativa.\n\nI requisiti sono elencati nell'articolo 14. Il primo è la forma societaria: società per azioni, cooperativa, mutua con quote rappresentate da azioni, società europea o società cooperativa europea. Il secondo è la sede: l'impresa deve stabilire in Italia la propria direzione generale e amministrativa. Non basta una sede legale formale: le decisioni devono essere prese qui, dove l'IVASS può controllarle.\n\nIl terzo requisito è patrimoniale. L'impresa deve detenere fondi propri di base ammissibili sufficienti a coprire il minimo assoluto del Requisito Patrimoniale Minimo, il cosiddetto MCR. Gli importi indicati dal Codice sono tre. Due milioni e mezzo di euro per le imprese danni, comprese le captive, cioè le imprese che assicurano solo i rischi del proprio gruppo. L'importo sale a tre milioni e settecentomila euro se l'impresa copre in tutto o in parte i rischi di uno dei rami da 10 a 15: sono i rami di responsabilità civile, credito e cauzione, quelli con i sinistri più lunghi e incerti. Tre milioni e settecentomila euro anche per le imprese vita, comprese le captive. Sei milioni e duecentomila euro, cioè la somma dei due importi, per le imprese che esercitano congiuntamente vita e danni.\n\nQuesti sono i valori del testo coordinato del Codice. Va però detto che la direttiva Solvency II prevede una revisione periodica degli importi in euro in base all'inflazione. Secondo quanto indicato dall'EIOPA, la Commissione europea ha pubblicato importi rivisti con una comunicazione del 2021, applicabili dal 19 ottobre 2022. Gli importi esatti aggiornati vanno quindi controllati sulla fonte europea.\n\nNon basta il capitale iniziale. L'impresa deve anche dimostrare che sarà in grado, in prospettiva, di coprire con fondi propri ammissibili il Requisito Patrimoniale di Solvibilità, l'SCR, e il Requisito Patrimoniale Minimo, l'MCR. L'SCR corrisponde al valore a rischio dei fondi propri di base con un livello di confidenza del 99,5 per cento su un periodo di un anno. In parole semplici: è il capitale che permette all'impresa di sopportare uno scenario avverso che statisticamente si verifica una volta ogni duecento anni. L'impresa calcola l'SCR almeno una volta l'anno e comunica il risultato all'IVASS. L'MCR, secondo l'articolo 47-ter, è la soglia sotto la quale gli assicurati sarebbero esposti a un rischio inaccettabile se l'impresa continuasse a operare. È calibrato su una confidenza dell'85 per cento su un anno, non può essere inferiore al 25 né superiore al 45 per cento dell'SCR ed è calcolato almeno ogni tre mesi. Se l'SCR è il livello di sicurezza, l'MCR è il livello di allarme rosso.\n\nIl quarto requisito è documentale. Con l'atto costitutivo e lo statuto l'impresa presenta un programma di attività. Deve indicare la natura dei rischi o delle obbligazioni che vuole garantire; se intende assumere rischi in riassicurazione, il tipo di accordi con le imprese cedenti; i principi direttivi in materia di riassicurazione e di retrocessione; gli elementi dei fondi propri di base che costituiscono il minimo assoluto del MCR; le previsioni sulle spese d'impianto dei servizi amministrativi e dell'organizzazione della rete di produzione e i mezzi finanziari per farvi fronte. Se l'impresa vuole coprire rischi del ramo 18, cioè l'assistenza, deve indicare anche i mezzi di cui dispone per fornire l'assistenza promessa: carri attrezzi, centrali operative, convenzioni.\n\nPer i primi tre esercizi il programma contiene inoltre le previsioni di bilancio, del futuro SCR e del futuro MCR, con il metodo di calcolo usato, e le previsioni sui mezzi finanziari destinati alla copertura delle riserve tecniche, del MCR e dell'SCR. Per l'assicurazione danni si aggiungono le previsioni sulle spese di gestione diverse da quelle d'impianto, in particolare le spese generali e le provvigioni, e quelle su premi, contributi e sinistri. Per l'assicurazione vita serve un piano dettagliato delle entrate e delle spese, sia per le operazioni dirette e la riassicurazione attiva sia per la riassicurazione passiva. Notate che le provvigioni della rete distributiva fanno parte del piano: la rete di intermediari è un elemento che l'IVASS valuta fin dall'inizio.\n\nIl quinto gruppo di requisiti riguarda le persone. I titolari di partecipazioni qualificate devono avere i requisiti di onorabilità dell'articolo 77 e devono esistere i presupposti per l'autorizzazione all'acquisto delle partecipazioni prevista dall'articolo 68. Chi svolge funzioni di amministrazione, direzione e controllo, e chi svolge funzioni fondamentali, deve avere i requisiti di professionalità, onorabilità e indipendenza dell'articolo 76. Gli esponenti devono inoltre rispettare il cosiddetto divieto di interlocking dell'articolo 36 del decreto legge 201 del 2011, il Salva Italia, che vieta di ricoprire cariche in imprese concorrenti del settore bancario, assicurativo e finanziario. Infine non devono esistere, tra l'impresa o il suo gruppo e altri soggetti, stretti legami che ostacolino l'effettivo esercizio della vigilanza: una catena societaria opaca, magari con sede in un Paese che non collabora, è un motivo di diniego.\n\nCompletano il quadro altri due requisiti. L'impresa deve dimostrare che sarà in grado di conformarsi al sistema di governo societario previsto dal Codice. E, se vuole coprire rischi dei rami 10 e 12, esclusa la responsabilità del vettore, deve indicare nome e indirizzo del mandatario per la liquidazione dei sinistri da designare in ciascuno degli altri Stati membri.\n\nUn caso particolare è quello dell'impresa che vuole esercitare insieme i rami vita e i rami infortuni e malattia. Deve dimostrare di possedere i fondi propri per coprire sia il minimo assoluto del MCR vita sia il minimo assoluto del MCR danni, e deve impegnarsi a coprire in prospettiva i Requisiti Patrimoniali Minimi Nozionali, calcolati separatamente per le due attività.\n\nCome si conclude la procedura? L'IVASS verifica le condizioni di accesso e nega l'autorizzazione quando dalla verifica non risulta garantita la sana e prudente gestione. Il Codice precisa che l'IVASS non può tenere conto della struttura e dell'andamento dei mercati: non può dire di no perché ci sono già troppe compagnie. Il diniego deve essere motivato in modo specifico e comunicato entro novanta giorni dalla presentazione della domanda completa. Senza autorizzazione la società non può essere iscritta nel registro delle imprese. Verificata l'iscrizione, l'IVASS iscrive l'impresa in un'apposita sezione dell'albo e ne dà pronta comunicazione all'impresa, che deve indicare l'iscrizione negli atti e nella corrispondenza. L'IVASS comunica poi ogni autorizzazione all'AEAP, l'autorità europea delle assicurazioni nota come EIOPA, che tiene un elenco europeo.\n\nL'impresa già autorizzata può estendere l'attività ad altri rami, oppure ad altre attività o rischi dei rami per i quali era stata autorizzata in modo limitato. Serve un'autorizzazione preventiva. L'impresa deve provare di disporre dei fondi propri di base per il minimo previsto per i nuovi rami, di possedere attivi a copertura delle riserve tecniche e di rispettare le regole su SCR e MCR. Deve inoltre presentare un nuovo programma di attività. Il Codice aggiunge che non può iniziare la nuova attività prima del provvedimento che aggiorna l'albo.\n\nPer le particolari mutue assicuratrici, infine, è prevista una procedura autorizzativa semplificata: le autorizza l'IVASS o, nelle regioni a statuto speciale, l'organo regionale competente.\n\nUn esempio pratico. Una compagnia autorizzata solo nei rami danni non auto vuole lanciare la RC auto, e l'agente vorrebbe iniziare a venderla lunedì. Non è possibile: la RC auto è il ramo 10 e serve l'estensione dell'autorizzazione, con un minimo assoluto di MCR più alto, un nuovo programma di attività e l'aggiornamento dell'albo. Un contratto emesso prima sarebbe stipulato fuori dall'autorizzazione.\n\nRicapitolando: l'IVASS autorizza; i requisiti riguardano forma, sede, capitale, programma di attività, persone e governo societario; il minimo assoluto del MCR del Codice è di 2,5, 3,7 o 6,2 milioni; l'SCR è calibrato al 99,5 per cento. Nella prossima lezione vediamo come l'impresa autorizzata in Italia può operare all'estero.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "EIOPA, Q&A 2385 sulla revisione degli importi in euro di Solvency II (Notice 2021/C 423/12)",
+          "url": "https://www.eiopa.europa.eu/qa-regulation/questions-and-answers-database/2385_el"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Pubblicazione dell'autorizzazione nel Bollettino, autorizzazione per uno o più rami e possibilità di limitarla.",
+          "source_ref": "CAP, art. 13, c. 1-2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caratteristiche del MCR: confidenza 85%, corridoio 25%-45% dell'SCR, calcolo almeno trimestrale.",
+          "source_ref": "CAP, art. 47-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diniego senza riguardo alla struttura dei mercati, motivato e comunicato entro 90 giorni; comunicazione delle autorizzazioni all'AEAP; indicazione dell'iscrizione all'albo negli atti.",
+          "source_ref": "CAP, art. 14, c. 2, 4 e 5-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti di dettaglio del programma (metodo di calcolo di SCR e MCR, spese generali e provvigioni).",
+          "source_ref": "CAP, art. 14-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto di estendere l'attività prima dell'aggiornamento dell'albo.",
+          "source_ref": "CAP, art. 15, c. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Revisione periodica degli importi in euro di Solvency II e applicazione degli importi rivisti dal 19 ottobre 2022.",
+          "source_ref": "EIOPA, Q&A 2385; Notice 2021/C 423/12"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte gli importi del minimo assoluto del MCR (2,5/3,7/6,2 milioni), che coincidono con il testo coordinato del CAP. Possibile aggiornamento: la Notice 2021/C 423/12 ha rivisto gli importi in euro della Direttiva Solvency II; i nuovi valori non sono stati verificati sul testo EUR-Lex e vanno controllati.",
+          "source_ref": "CAP, art. 14, c. 1, lett. c; EIOPA Q&A 2385"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il richiamo al divieto di interlocking (art. 36 D.L. 201/2011). Testo dell'articolo non riaperto: riferimento da verificare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la procedura semplificata per le particolari mutue; precisato che le autorizza l'IVASS o l'organo regionale nelle regioni a statuto speciale.",
+          "source_ref": "CAP, art. 55"
+        }
+      ]
+    },
+    {
+      "title": "Operare all'estero: stabilimento e libera prestazione di servizi",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di assicurazione - condizione di accesso e di esercizio.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Impresa di assicurazione - condizione di accesso e di esercizio terza parte.pdf"
+      ],
+      "source_minutes": 11,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Operare all'estero: stabilimento e libera prestazione di servizi",
+          "goals": [
+            "Capire il principio dell'autorizzazione unica europea",
+            "Distinguere stabilimento e libera prestazione di servizi",
+            "Conoscere le procedure per operare in altri Stati membri e in Stati terzi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'autorizzazione unica",
+          "key": "Un'impresa autorizzata in uno Stato membro può operare in tutti gli altri, in stabilimento o in libera prestazione di servizi, sotto il controllo della sola autorità dello Stato di origine.",
+          "body": "È il cosiddetto passaporto europeo. Non serve una seconda autorizzazione nel Paese ospitante: basta una procedura di comunicazione tra le autorità. Il controllo di solvibilità resta all'autorità di origine.",
+          "ref": "Materiale originale; IVASS, pagina Albi"
+        },
+        {
+          "layout": "compare",
+          "title": "Due modi di operare",
+          "cols": [
+            {
+              "title": "Stabilimento",
+              "items": [
+                "Libero accesso alle attività autonome e costituzione di imprese o società",
+                "Alle condizioni che lo Stato di stabilimento fissa per i propri cittadini",
+                "Presenza stabile: sede legale o sede secondaria"
+              ]
+            },
+            {
+              "title": "Libera prestazione di servizi (LPS)",
+              "items": [
+                "Il prestatore opera a titolo temporaneo nello Stato in cui fornisce la prestazione",
+                "Alle stesse condizioni imposte da quello Stato ai propri cittadini",
+                "Si opera da uno stabilimento situato in un altro Stato"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Le definizioni del Codice",
+          "left": {
+            "title": "Stabilimento",
+            "items": [
+              "La sede legale o una sede secondaria di un'impresa di assicurazione"
+            ],
+            "ref": "CAP, art. 1, lett. zz"
+          },
+          "right": {
+            "title": "Sede secondaria o succursale",
+            "items": [
+              "Parte dell'impresa senza personalità giuridica",
+              "Effettua direttamente, in tutto o in parte, l'attività assicurativa"
+            ],
+            "ref": "CAP, art. 1, lett. vv"
+          },
+          "note": "Una succursale non è una società controllata: è l'impresa stessa che opera in un altro luogo.",
+          "noteRef": "CAP, art. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "Le norme di interesse generale",
+          "key": "L'impresa europea che opera in Italia non può stipulare contratti né fare pubblicità in contrasto con le norme nazionali di interesse generale, comprese quelle a tutela degli assicurati.",
+          "body": "Il passaporto apre il mercato, ma non esonera dalle regole che proteggono i consumatori del Paese in cui si vende.",
+          "ref": "CAP, art. 27"
+        },
+        {
+          "layout": "concept",
+          "title": "Un'autorizzazione valida anche fuori dall'Italia",
+          "key": "L'autorizzazione IVASS vale in Italia, negli altri Stati membri secondo le regole su stabilimento e LPS, e negli Stati terzi nel rispetto delle loro leggi.",
+          "body": "Per operare fuori dall'Italia l'impresa segue una procedura precisa, detta di abilitazione.",
+          "ref": "CAP, art. 13, c. 3; materiale originale"
+        },
+        {
+          "layout": "steps",
+          "title": "Stabilimento in un altro Stato membro",
+          "steps": [
+            {
+              "label": "Comunicazione all'IVASS",
+              "text": "Con il programma di attività (rischi da assumere, struttura della sede secondaria)."
+            },
+            {
+              "label": "Rappresentante generale",
+              "text": "Con mandato per rappresentare l'impresa in giudizio e firmare i contratti, domicilio presso la sede secondaria, requisiti dell'art. 76."
+            },
+            {
+              "label": "Trasmissione entro 60 giorni",
+              "text": "L'IVASS invia tutto all'autorità ospitante con la certificazione che l'impresa copre SCR e MCR."
+            },
+            {
+              "label": "Avvio",
+              "text": "Dopo la comunicazione dell'autorità ospitante o, se tace, dopo 60 giorni da quando ha ricevuto gli atti."
+            }
+          ],
+          "ref": "CAP, artt. 16 e 17"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando l'IVASS dice no",
+          "items": [
+            {
+              "text": "Se dubita dell'adeguatezza del governo societario o della stabilità finanziaria, anche alla luce del programma.",
+              "ref": "CAP, art. 17, c. 2; art. 19, c. 2"
+            },
+            {
+              "text": "Nello stabilimento, anche se il rappresentante generale non ha onorabilità e professionalità.",
+              "ref": "CAP, art. 17, c. 2"
+            },
+            {
+              "text": "Ogni modifica va comunicata all'IVASS e all'autorità ospitante almeno 30 giorni prima.",
+              "ref": "CAP, art. 17, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "LPS in un altro Stato membro",
+          "steps": [
+            {
+              "label": "Comunicazione all'IVASS",
+              "text": "La prima volta, con il programma: stabilimenti di partenza, Stati di destinazione, rischi e obbligazioni."
+            },
+            {
+              "label": "Trasmissione entro 30 giorni",
+              "text": "L'IVASS invia le informazioni all'autorità dello Stato ospitante e ne informa l'impresa."
+            },
+            {
+              "label": "Avvio",
+              "text": "Da quando l'impresa riceve notizia dell'avvenuta trasmissione."
+            }
+          ],
+          "ref": "CAP, artt. 18 e 19"
+        },
+        {
+          "layout": "concept",
+          "title": "Operare in uno Stato terzo",
+          "key": "Per aprire una sede secondaria o operare in LPS in uno Stato terzo l'impresa dà comunicazione preventiva all'IVASS, indicando gli Stati e allegando un programma di attività.",
+          "body": "L'IVASS vieta l'insediamento se la situazione finanziaria non è abbastanza stabile o se la struttura organizzativa prevista non è adeguata.",
+          "ref": "CAP, art. 22"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi da ricordare",
+          "items": [
+            {
+              "value": "60 giorni",
+              "text": "per la trasmissione IVASS nello stabilimento",
+              "ref": "CAP, art. 17, c. 1"
+            },
+            {
+              "value": "60 giorni",
+              "text": "di silenzio dell'autorità ospitante, poi si può aprire la sede",
+              "ref": "CAP, art. 17, c. 4"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per la trasmissione IVASS in LPS",
+              "ref": "CAP, art. 19, c. 1"
+            },
+            {
+              "value": "30 giorni",
+              "text": "di preavviso per modificare la comunicazione",
+              "ref": "CAP, art. 17, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia italiana vuole vendere polizze casa a clienti in Austria, senza aprire uffici, tramite il proprio sito e un broker locale. Ha inviato la comunicazione all'IVASS da dieci giorni.",
+          "questions": [
+            "In che regime opera?",
+            "Può già emettere le polizze?"
+          ],
+          "solution": "È libera prestazione di servizi: nessuna presenza stabile in Austria. Può iniziare solo quando riceve dall'IVASS la notizia che le informazioni sono state trasmesse all'autorità austriaca, il che avviene entro 30 giorni. Dovrà rispettare le norme austriache di interesse generale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nello stabilimento, se l'autorità del Paese ospitante non risponde, quando può aprire la sede secondaria l'impresa italiana?",
+          "options": [
+            "Subito dopo la comunicazione all'IVASS",
+            "Dopo 60 giorni da quando l'autorità ospitante ha ricevuto la comunicazione dall'IVASS",
+            "Dopo 30 giorni dalla domanda",
+            "Mai, serve sempre una risposta espressa"
+          ],
+          "answer": 1,
+          "explanation": "In caso di silenzio, l'impresa può insediarsi trascorsi 60 giorni da quando l'autorità ospitante ha ricevuto la comunicazione dall'IVASS."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Passaporto",
+              "text": "Un'autorizzazione, tutti gli Stati membri, vigilanza dello Stato di origine"
+            },
+            {
+              "value": "Stabilimento",
+              "text": "Sede secondaria con rappresentante generale; 60 + 60 giorni"
+            },
+            {
+              "value": "LPS",
+              "text": "Nessuna presenza stabile; trasmissione IVASS entro 30 giorni"
+            },
+            {
+              "value": "Interesse generale",
+              "text": "Le norme a tutela degli assicurati del Paese ospitante vanno rispettate"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo come un'impresa autorizzata in Italia può lavorare fuori dai confini nazionali, negli altri Stati dell'Unione europea e negli Stati terzi. Sono regole che toccano da vicino anche l'intermediario: sempre più spesso il cliente ha beni o interessi all'estero, e sempre più spesso in Italia si vendono polizze di imprese europee.\n\nIl punto di partenza è il principio dell'autorizzazione unica, quello che spesso chiamiamo passaporto europeo. Le imprese di assicurazione e di riassicurazione di uno Stato membro possono esercitare la propria attività in tutti gli altri Stati membri, sotto il controllo della sola autorità di vigilanza dello Stato di origine. Possono farlo in due modi. Il primo è il regime di stabilimento: libero accesso alle attività autonome e al loro esercizio, costituzione e gestione di imprese e in particolare di società, alle condizioni che la legge del Paese di stabilimento prevede per i propri cittadini. Il secondo è la libera prestazione di servizi, spesso abbreviata in LPS: il prestatore, per eseguire la sua prestazione, può esercitare la propria attività a titolo temporaneo nello Stato membro in cui la prestazione è fornita, alle stesse condizioni che quello Stato impone ai propri cittadini. L'IVASS, nella pagina dedicata agli albi, ricorda che le imprese europee ammesse a operare in Italia restano soggette al controllo di solvibilità dell'autorità dello Stato di origine.\n\nLa differenza pratica è questa. Nello stabilimento l'impresa ha una presenza stabile nel Paese: una sede secondaria, con una struttura e un rappresentante. In libera prestazione di servizi, invece, l'impresa resta nel proprio Paese e vende oltre confine, per esempio tramite intermediari locali o canali a distanza.\n\nIl Codice ci dà due definizioni utili. Lo stabilimento è la sede legale oppure una sede secondaria di un'impresa di assicurazione. La sede secondaria, o succursale, è una parte dell'impresa sprovvista di personalità giuridica, che effettua direttamente, in tutto o in parte, l'attività assicurativa. Attenzione a non confondere la succursale con una società controllata: una controllata è un'impresa diversa, con una propria autorizzazione; la succursale è la stessa impresa che opera in un altro luogo.\n\nIl passaporto non è però un'esenzione dalle regole del Paese ospitante. L'articolo 27 del Codice stabilisce che le imprese di assicurazione comunitarie che operano in Italia, in stabilimento o in libera prestazione, non possono stipulare contratti né fare pubblicità in contrasto con le disposizioni nazionali di interesse generale, comprese quelle poste a protezione degli assicurati e degli altri aventi diritto a prestazioni assicurative. Lo stesso vale, in senso inverso, per le imprese italiane che vendono all'estero.\n\nGuardiamo ora le imprese italiane. L'autorizzazione rilasciata dall'IVASS ai sensi dell'articolo 13 vale per il territorio della Repubblica, per quello degli altri Stati membri, nel rispetto delle regole di accesso in stabilimento o in prestazione di servizi, e per quello degli Stati terzi, nel rispetto della legislazione di quegli Stati. Per esercitare fuori dall'Italia, l'impresa deve rispettare una procedura precisa, detta di abilitazione.\n\nCominciamo dallo stabilimento in un altro Stato membro. L'impresa che vuole aprire una sede secondaria lo comunica preventivamente all'IVASS e trasmette un programma di attività con l'indicazione dei rischi e delle obbligazioni che vuole assumere e della struttura organizzativa della sede secondaria. Trasmette inoltre la documentazione sulla nomina di un rappresentante generale. Il rappresentante deve avere un mandato che comprenda espressamente il potere di rappresentare l'impresa in giudizio e davanti a tutte le autorità dello Stato di stabilimento, e quello di concludere e firmare i contratti. Deve avere domicilio all'indirizzo della sede secondaria e possedere, per tutta la durata dell'incarico, i requisiti di onorabilità e professionalità dell'articolo 76; se li perde decade e l'impresa deve sostituirlo. Se la rappresentanza è affidata a una persona giuridica, questa designa a sua volta una persona fisica con gli stessi poteri.\n\nSe non ci sono impedimenti, l'IVASS entro sessanta giorni dal ricevimento della richiesta trasmette la comunicazione all'autorità di vigilanza dello Stato in cui l'impresa vuole stabilirsi, insieme a una certificazione che attesta che l'impresa, per l'insieme delle sue attività, copre l'SCR e l'MCR. L'impresa non può aprire la sede secondaria e iniziare l'attività prima di aver ricevuto una comunicazione dall'autorità dello Stato ospitante oppure, se questa tace, prima che siano trascorsi sessanta giorni da quando ha ricevuto la comunicazione dell'IVASS. In questo periodo l'autorità ospitante può indicare le norme di interesse generale a cui la sede secondaria dovrà attenersi.\n\nQuando l'IVASS può opporsi? Il Codice dice che respinge la richiesta se ha motivo di dubitare dell'adeguatezza del sistema di governo societario o della stabilità della situazione finanziaria dell'impresa, anche alla luce del programma presentato, oppure se il rappresentante generale non ha i requisiti di onorabilità e professionalità. Se poi l'impresa vuole modificare quanto comunicato, deve informare l'IVASS e l'autorità ospitante almeno trenta giorni prima di attuare la modifica.\n\nPassiamo alla libera prestazione di servizi. L'impresa con sede legale in Italia che vuole operare per la prima volta in LPS in un altro Stato membro lo comunica preventivamente all'IVASS. Allega un programma che indica gli stabilimenti da cui si propone di svolgere l'attività, gli Stati membri in cui vuole operare, la natura dei rischi e delle obbligazioni che vuole assumere e le altre informazioni richieste dall'IVASS. L'IVASS, entro trenta giorni, trasmette le informazioni all'autorità di vigilanza dello Stato in cui l'impresa intende operare e contemporaneamente informa l'impresa. Solo da quando riceve notizia dell'avvenuta trasmissione l'impresa può iniziare l'attività. Anche qui l'IVASS può respingere la richiesta, con provvedimento motivato, se dubita del governo societario o della stabilità finanziaria. La procedura è più rapida dello stabilimento perché non c'è una struttura da valutare nel Paese ospitante.\n\nInfine gli Stati terzi, cioè i Paesi fuori dall'Unione europea. L'impresa che vuole aprire una sede secondaria o operare in libera prestazione in uno Stato terzo deve fare una comunicazione preventiva all'IVASS, secondo l'articolo 22, indicando lo Stato o gli Stati in cui vuole operare e allegando un programma di attività. Qui non c'è passaporto: l'impresa dovrà ottenere ciò che la legge di quel Paese richiede. L'IVASS, dal canto suo, vieta l'insediamento della sede secondaria se ritiene che la situazione finanziaria dell'impresa non sia sufficientemente stabile o che la struttura organizzativa prevista non sia adeguata.\n\nVediamo un caso. Una compagnia italiana vuole vendere polizze casa a clienti in Austria, senza aprire uffici, tramite il proprio sito e un broker austriaco. È libera prestazione di servizi, perché non c'è una presenza stabile. Ha inviato la comunicazione all'IVASS da dieci giorni: non può ancora emettere polizze. Deve attendere la notizia che l'IVASS ha trasmesso le informazioni all'autorità austriaca, cosa che deve avvenire entro trenta giorni. Una volta partita, dovrà rispettare le norme austriache di interesse generale, per esempio quelle sull'informativa ai consumatori.\n\nRicapitolando. Con il passaporto europeo un'unica autorizzazione vale in tutta l'Unione, sotto la vigilanza dello Stato di origine. Lo stabilimento richiede una sede secondaria con un rappresentante generale e prevede due termini di sessanta giorni. La libera prestazione di servizi non richiede presenza stabile e la trasmissione dell'IVASS avviene entro trenta giorni. Le norme di interesse generale del Paese ospitante vanno sempre rispettate. Nella prossima lezione guardiamo il percorso inverso: le imprese estere che operano in Italia.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Albi delle imprese di assicurazione",
+          "url": "https://www.ivass.it/operatori/imprese/albi/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni di stabilimento e di sede secondaria dal Codice.",
+          "source_ref": "CAP, art. 1, lett. vv e zz"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti e poteri del rappresentante generale, decadenza e designazione di una persona fisica se la rappresentanza è affidata a una persona giuridica.",
+          "source_ref": "CAP, art. 16, c. 3-4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Motivi di diniego IVASS per stabilimento e LPS e preavviso di 30 giorni per le modifiche.",
+          "source_ref": "CAP, art. 17, c. 2 e 5; art. 19, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Potere IVASS di vietare l'insediamento in uno Stato terzo.",
+          "source_ref": "CAP, art. 22, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Controllo di solvibilità delle imprese SEE affidato all'autorità dello Stato di origine.",
+          "source_ref": "IVASS, pagina Albi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla libera prestazione di servizi.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Le imprese estere in Italia e i requisiti di esponenti e soci",
+      "source_files": [
+        "corso totale/Area Giuridica/Impresa di assicurazione - condizione di accesso e di esercizio.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /Impresa di assicurazione - condizione di accesso e di esercizio quarta parte.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Le imprese estere in Italia e i requisiti di esponenti e soci",
+          "goals": [
+            "Sapere come operano in Italia le imprese di altri Stati membri",
+            "Conoscere i limiti per le imprese di Stati terzi",
+            "Capire i requisiti di esponenti aziendali e titolari di partecipazioni"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Imprese straniere: due regimi",
+          "cols": [
+            {
+              "title": "Sede in un altro Stato membro",
+              "items": [
+                "Stabilimento o LPS",
+                "In forza dell'autorizzazione dello Stato di origine",
+                "Accesso tramite comunicazione tra autorità"
+              ]
+            },
+            {
+              "title": "Sede in uno Stato terzo",
+              "items": [
+                "Solo stabilimento",
+                "Serve l'autorizzazione preventiva dell'IVASS",
+                "Soggette in tutto alla normativa italiana"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Imprese UE in stabilimento",
+          "steps": [
+            {
+              "label": "Comunicazione",
+              "text": "L'autorità dello Stato di origine trasmette all'IVASS informazioni e adempimenti. Per la RC auto: dichiarazione di adesione all'UCI e al Fondo vittime della strada."
+            },
+            {
+              "label": "Rappresentante generale",
+              "text": "Domiciliato presso la sede secondaria, con poteri di rappresentanza in giudizio e di firma dei contratti."
+            },
+            {
+              "label": "30 giorni",
+              "text": "L'IVASS indica all'autorità di origine le norme di interesse generale da rispettare."
+            },
+            {
+              "label": "Avvio",
+              "text": "Quando l'impresa riceve la comunicazione IVASS tramite la propria autorità o, se c'è silenzio, scaduti i 30 giorni."
+            }
+          ],
+          "ref": "CAP, art. 23"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa conta come stabilimento",
+          "key": "Qualsiasi presenza permanente in Italia è stabilimento, anche senza succursali o agenzie: basta un semplice ufficio con personale dipendente o una persona indipendente incaricata di agire in modo permanente per l'impresa.",
+          "body": "Per l'intermediario è un punto delicato: un'impresa in LPS non può appoggiarsi a una struttura permanente in Italia senza seguire le regole dello stabilimento.",
+          "ref": "CAP, art. 23, c. 1-bis"
+        },
+        {
+          "layout": "split",
+          "title": "Imprese UE in libera prestazione",
+          "left": {
+            "title": "Accesso",
+            "items": [
+              "Comunicazione all'IVASS dell'autorità di origine, redatta anche in italiano",
+              "Avvio quando l'IVASS attesta di averla ricevuta",
+              "Modifiche comunicate tramite l'autorità di origine"
+            ],
+            "ref": "CAP, art. 24"
+          },
+          "right": {
+            "title": "RC auto e natanti",
+            "items": [
+              "Rappresentante per la gestione e liquidazione dei sinistri, residente in Italia",
+              "Poteri di rappresentare l'impresa in giudizio sulle richieste di risarcimento e di attestare validità dei contratti",
+              "Nome e indirizzo nel contratto, nel contrassegno e nel certificato"
+            ],
+            "ref": "CAP, art. 25"
+          },
+          "note": "L'IVASS pubblica, in appendice all'albo, l'elenco delle imprese UE ammesse in Italia.",
+          "noteRef": "CAP, art. 26"
+        },
+        {
+          "layout": "checklist",
+          "title": "Imprese di Stati terzi",
+          "items": [
+            {
+              "text": "Serve l'autorizzazione preventiva dell'IVASS, valida solo per l'Italia.",
+              "ref": "CAP, art. 28, c. 1-2"
+            },
+            {
+              "text": "Non possono esercitare insieme vita e danni, salvo vita più infortuni e malattia.",
+              "ref": "art. 28, c. 3"
+            },
+            {
+              "text": "Investimenti in Italia pari almeno alla metà del minimo assoluto del MCR.",
+              "ref": "art. 28, c. 5"
+            },
+            {
+              "text": "Cauzione presso Cassa depositi e prestiti o Banca d'Italia di almeno un quarto dell'importo minimo.",
+              "ref": "art. 28, c. 5"
+            },
+            {
+              "text": "Programma di attività e rappresentante generale residente in Italia.",
+              "ref": "art. 28, c. 4-5"
+            },
+            {
+              "text": "Niente autorizzazione se lo Stato di origine non garantisce reciprocità alle imprese italiane.",
+              "ref": "art. 28, c. 7"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Stati terzi: vietata la libera prestazione",
+          "key": "Un'impresa di uno Stato terzo non può operare in Italia in libera prestazione di servizi. Chi vive in Italia non può stipulare contratti con imprese che violano il divieto, ed è vietata qualsiasi forma di intermediazione per questi contratti.",
+          "body": "Il contratto è nullo. Il divieto vale anche per le sedi in Stati terzi di imprese europee.",
+          "ref": "CAP, art. 29"
+        },
+        {
+          "layout": "concept",
+          "title": "Esponenti e funzioni fondamentali: l'idoneità",
+          "key": "Chi amministra, dirige o controlla l'impresa, e chi svolge funzioni fondamentali, deve essere idoneo all'incarico: professionalità, onorabilità e indipendenza, graduate con proporzionalità.",
+          "body": "Oggi il Codice aggiunge criteri di competenza e correttezza, tempo sufficiente da dedicare all'incarico e limiti al cumulo di incarichi. Il regolamento attuativo è il D.M. 2 maggio 2022, n. 88, in vigore dal 1° novembre 2022.",
+          "ref": "CAP, art. 76, c. 1-1-quater; D.M. 88/2022"
+        },
+        {
+          "layout": "steps",
+          "title": "Chi valuta e che cosa succede",
+          "steps": [
+            {
+              "label": "Autovalutazione",
+              "text": "Gli organi di amministrazione e controllo valutano i propri esponenti e documentano l'analisi."
+            },
+            {
+              "label": "Decadenza",
+              "text": "Il difetto di idoneità, iniziale o sopravvenuto, o la violazione del cumulo comporta la decadenza, deliberata entro 30 giorni."
+            },
+            {
+              "label": "IVASS",
+              "text": "Valuta a sua volta l'idoneità e, in caso di difetto, pronuncia la decadenza."
+            }
+          ],
+          "ref": "CAP, art. 76, c. 1-sexies, 2 e 2-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "I titolari di partecipazioni",
+          "key": "Chi detiene partecipazioni rilevanti deve avere requisiti di onorabilità e criteri di competenza e correttezza, fissati con regolamento del Ministro sentito l'IVASS.",
+          "body": "Senza questi requisiti non può esercitare il voto e gli altri diritti legati alle partecipazioni oltre soglia. Queste partecipazioni contano per la costituzione dell'assemblea ma non per il calcolo delle maggioranze. Vanno vendute entro i termini fissati dall'IVASS.",
+          "ref": "CAP, art. 77; materiale originale"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente porta all'agente una proposta di polizza RC auto molto economica di una compagnia con sede in un Paese extra UE, che opera online senza sede in Italia. Chiede all'agente di aiutarlo a sottoscriverla.",
+          "questions": [
+            "Che cosa deve rispondere l'agente?",
+            "Che cosa rischia il cliente?"
+          ],
+          "solution": "L'agente non può collaborare: le imprese di Stati terzi non possono operare in Italia in LPS ed è vietata ogni intermediazione per questi contratti. Il contratto sarebbe nullo e il cliente circolerebbe di fatto senza copertura valida. Le imprese ammesse si verificano negli albi e negli elenchi IVASS."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'impresa con sede in uno Stato terzo può operare in Italia:",
+          "options": [
+            "Solo in libera prestazione di servizi",
+            "Solo in stabilimento, previa autorizzazione IVASS",
+            "In stabilimento o LPS con la sola autorizzazione del Paese d'origine",
+            "Liberamente, se iscritta all'albo del proprio Paese"
+          ],
+          "answer": 1,
+          "explanation": "Le imprese di Stati terzi non hanno il passaporto europeo: possono operare solo in stabilimento, con autorizzazione preventiva dell'IVASS. La LPS è vietata."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "UE",
+              "text": "Stabilimento o LPS con comunicazione dall'autorità di origine"
+            },
+            {
+              "value": "Presenza permanente",
+              "text": "Anche un semplice ufficio è stabilimento"
+            },
+            {
+              "value": "Stati terzi",
+              "text": "Solo stabilimento, autorizzazione IVASS, cauzione; LPS vietata"
+            },
+            {
+              "value": "Idoneità",
+              "text": "Esponenti e funzioni fondamentali: D.M. 88/2022"
+            },
+            {
+              "value": "30 giorni",
+              "text": "Per deliberare la decadenza dell'esponente non idoneo"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo il mercato italiano dal lato opposto: le imprese con sede all'estero che vogliono operare in Italia. Poi chiudiamo la parte sull'accesso con i requisiti richiesti alle persone che guidano l'impresa e a chi ne possiede quote rilevanti.\n\nLe imprese con sede legale in un altro Stato membro o in uno Stato terzo possono esercitare in Italia l'attività assicurativa, ma con regole diverse. Se hanno sede in un altro Stato membro possono operare sia in stabilimento sia in libera prestazione di servizi, in forza dell'autorizzazione ricevuta nello Stato di origine. Se hanno sede in uno Stato terzo possono operare in Italia solo in regime di stabilimento e con autorizzazione preventiva dell'IVASS.\n\nPartiamo dalle imprese europee in stabilimento. L'accesso ai rami vita o danni è subordinato alla comunicazione all'IVASS, da parte dell'autorità di vigilanza dello Stato di origine, delle informazioni e degli adempimenti previsti dalle norme europee. Se l'impresa vuole assumere rischi di RC auto e natanti, la comunicazione include la dichiarazione che l'impresa è diventata membro dell'Ufficio centrale italiano, l'UCI, e aderisce al Fondo di garanzia per le vittime della strada. L'impresa nomina un rappresentante generale della sede secondaria, domiciliato presso di essa e con un mandato che comprenda espressamente i poteri di rappresentare l'impresa in giudizio e davanti a tutte le autorità della Repubblica, e quello di concludere e firmare i contratti relativi all'attività in Italia. Se la rappresentanza è affidata a una persona giuridica, questa deve avere sede legale in Italia e designare una persona fisica domiciliata in Italia.\n\nEntro trenta giorni dal ricevimento della comunicazione, l'IVASS indica all'autorità di origine le norme, giustificate da motivi di interesse generale, che l'impresa dovrà rispettare. La sede secondaria può essere aperta dal momento in cui l'impresa riceve dalla propria autorità la comunicazione dell'IVASS oppure, se c'è silenzio, alla scadenza dei trenta giorni.\n\nIl Codice aggiunge una precisazione importante, al comma 1-bis dell'articolo 23. È considerato stabilimento, anche senza succursali, agenzie o sedi secondarie, qualsiasi presenza permanente in Italia, compreso un semplice ufficio gestito da personale dipendente dell'impresa o da una persona indipendente incaricata di agire in modo permanente per conto dell'impresa. In pratica: un'impresa europea che dice di operare in libera prestazione ma ha in Italia una struttura stabile che lavora per lei sta in realtà operando in stabilimento, e deve seguirne le regole.\n\nLe imprese europee possono operare in Italia anche in libera prestazione di servizi. Anche in questo caso l'accesso è subordinato alla comunicazione all'IVASS, redatta anche in lingua italiana, da parte dell'autorità dello Stato di origine. L'impresa può iniziare dal momento in cui l'IVASS attesta di aver ricevuto quella comunicazione. Ogni modifica passa sempre attraverso l'autorità di origine.\n\nPer la RC auto in libera prestazione c'è una regola in più, a tutela dei danneggiati. L'impresa nomina un rappresentante, residente in Italia, incaricato della gestione dei sinistri e della liquidazione dei risarcimenti. Il suo mandato comprende espressamente il potere di rappresentare l'impresa in giudizio e davanti alle autorità per le richieste di risarcimento, e quello di attestare l'esistenza e la validità dei contratti stipulati in libera prestazione. Il Codice precisa che a questo rappresentante possono essere indirizzate le richieste di risarcimento dei terzi, che le sue funzioni possono essere svolte anche dal rappresentante fiscale e che nome e indirizzo devono comparire nel contratto, nel contrassegno e nel certificato. Per l'intermediario che gestisce un sinistro con un'impresa estera, è il primo nome da cercare. L'IVASS pubblica poi, in appendice all'albo, l'elenco delle imprese europee ammesse a operare in Italia.\n\nPassiamo alle imprese di Stati terzi. Non godono dei benefici dell'autorizzazione unica e devono ottenere l'autorizzazione preventiva dell'IVASS per esercitare in Italia i rami vita o danni. Possono operare solo in stabilimento e sono assoggettate in tutto e per tutto alla normativa italiana; l'autorizzazione vale solo per il territorio nazionale. Non possono esercitare insieme vita e danni in Italia, salvo che chiedano l'autorizzazione per vita più infortuni e malattia. Per ottenere l'autorizzazione devono possedere in Italia investimenti almeno pari alla metà degli importi minimi del MCR previsti per le imprese italiane; depositare a titolo di cauzione, presso la Cassa depositi e prestiti o la Banca d'Italia, una somma in denaro o in titoli pari ad almeno un quarto dell'importo minimo; presentare un programma di attività; nominare un rappresentante generale residente in Italia, con gli stessi poteri del rappresentante delle imprese europee in stabilimento. Il Codice aggiunge che l'autorizzazione non può essere rilasciata se lo Stato di origine non rispetta il principio di parità di trattamento o di reciprocità verso le imprese italiane che vogliono aprire una sede in quel Paese.\n\nE la libera prestazione? Per le imprese di Stati terzi è vietata. L'articolo 29 vieta a chi ha domicilio o sede in Italia di concludere contratti con imprese che operano in violazione del divieto, e vieta qualsiasi forma di intermediazione per stipularli. Il contratto è nullo. È una norma che riguarda direttamente gli intermediari: collaborare alla vendita di questi prodotti significa violare la legge.\n\nOra le persone. L'articolo 76 riguarda chi svolge funzioni di amministrazione, direzione e controllo e chi svolge funzioni fondamentali presso le imprese di assicurazione e riassicurazione. Il materiale del corso riassume la regola così: queste persone devono avere requisiti di professionalità, onorabilità e indipendenza, graduati secondo il principio di proporzionalità e tenendo conto della rilevanza e della complessità del ruolo; il difetto dei requisiti, iniziale o sopravvenuto, comporta la decadenza dall'ufficio.\n\nIl testo è stato riscritto nel 2020 e oggi parla di idoneità all'incarico. Oltre ai requisiti di professionalità, onorabilità e indipendenza, gli esponenti devono soddisfare criteri di competenza e correttezza e dedicare all'incarico il tempo necessario. Il regolamento ministeriale, adottato sentito l'IVASS, fissa anche i limiti al cumulo degli incarichi e le cause di sospensione. Questo regolamento è il decreto ministeriale 2 maggio 2022, numero 88, pubblicato in Gazzetta Ufficiale l'11 luglio 2022 e in vigore dal 1° novembre 2022. Gli organi di amministrazione e controllo valutano l'idoneità dei propri esponenti e documentano l'analisi. Il difetto di idoneità, iniziale o sopravvenuto, o la violazione dei limiti al cumulo comporta la decadenza, deliberata dall'organo di appartenenza entro trenta giorni dalla nomina o dalla conoscenza del difetto; la sostituzione è comunicata all'IVASS, che valuta a sua volta l'idoneità e, se necessario, pronuncia la decadenza.\n\nL'ultimo tema sono i partecipanti, cioè i titolari di partecipazioni rilevanti. Il materiale del corso indica che il Ministro dello sviluppo economico, sentito l'IVASS, ne determina i requisiti di onorabilità. Oggi la denominazione è Ministro delle imprese e del made in Italy, e l'articolo 77 richiede, oltre all'onorabilità, criteri di competenza e correttezza, inclusa la reputazione. Se i requisiti mancano, il titolare non può esercitare il diritto di voto e gli altri diritti che consentono di influire sull'impresa, per le partecipazioni che eccedono le soglie oltre le quali serve l'autorizzazione. Secondo il materiale del corso queste partecipazioni sono comunque computate per la valida costituzione dell'assemblea ma non per il calcolo delle quote necessarie per deliberare. Il Codice aggiunge che le delibere adottate con il voto determinante di queste partecipazioni possono essere impugnate, anche dall'IVASS entro sei mesi, e che le partecipazioni oltre soglia devono essere vendute entro i termini stabiliti dall'IVASS.\n\nChiudiamo con un caso. Un cliente porta all'agente una proposta di RC auto molto economica, venduta online da una compagnia con sede fuori dall'Unione europea e senza sede in Italia. L'agente non può aiutarlo: è libera prestazione da uno Stato terzo, vietata, e ogni intermediazione è vietata. Il contratto sarebbe nullo e il cliente circolerebbe senza una copertura valida. La verifica si fa sugli albi e sugli elenchi pubblicati dall'IVASS.\n\nRicapitolando: le imprese europee entrano in Italia con il passaporto, tramite comunicazione tra autorità; qualsiasi presenza permanente è stabilimento; le imprese di Stati terzi possono operare solo in stabilimento, con autorizzazione IVASS e cauzione, mai in libera prestazione. Esponenti e titolari delle funzioni fondamentali devono essere idonei, secondo il decreto 88 del 2022, e i soci rilevanti devono avere onorabilità, competenza e correttezza. Nell'ultima lezione di questa parte vediamo le operazioni straordinarie.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "D.M. 2 maggio 2022, n. 88 – Regolamento sui requisiti e criteri di idoneità degli esponenti (G.U. n. 160 dell'11 luglio 2022)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2022/07/11/22G00096/sg"
+        },
+        {
+          "title": "IVASS, Albi delle imprese di assicurazione",
+          "url": "https://www.ivass.it/operatori/imprese/albi/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Presenza permanente in Italia equiparata allo stabilimento.",
+          "source_ref": "CAP, art. 23, c. 1-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Termine di 30 giorni per l'indicazione delle norme di interesse generale; requisiti del rappresentante persona giuridica.",
+          "source_ref": "CAP, art. 23, c. 2-3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Rappresentante per i sinistri RC auto: destinatario delle richieste dei terzi, può coincidere con il rappresentante fiscale, indicato in contratto, contrassegno e certificato; elenco IVASS delle imprese UE.",
+          "source_ref": "CAP, artt. 25 e 26"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Imprese di Stati terzi: autorizzazione valida solo in Italia, condizione di reciprocità, divieto di LPS e di intermediazione, nullità.",
+          "source_ref": "CAP, artt. 28 e 29"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nuovo art. 76: idoneità, criteri di competenza e correttezza, tempo, cumulo incarichi, autovalutazione, decadenza entro 30 giorni e potere IVASS; D.M. 88/2022 in vigore dal 1° novembre 2022.",
+          "source_ref": "CAP, art. 76; D.M. 2 maggio 2022, n. 88"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 77: criteri di competenza e correttezza dei partecipanti, impugnabilità delle delibere anche da parte dell'IVASS, obbligo di alienare.",
+          "source_ref": "CAP, art. 77, c. 1-bis, 3, 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte cita il \"Ministro dello sviluppo economico\": oggi Ministro delle imprese e del made in Italy.",
+          "source_ref": "CAP, avvertenza del testo coordinato IVASS"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le partecipazioni oltre soglia senza requisiti non sono computate per il calcolo delle quote necessarie per deliberare. Il testo vigente dell'art. 77, c. 3 dice solo che sono computate per la regolare costituzione dell'assemblea: precisazione da verificare.",
+          "source_ref": "CAP, art. 77, c. 3"
+        }
+      ]
+    },
+    {
+      "title": "Le operazioni straordinarie: fusione, scissione, portafoglio, liquidazione",
+      "source_files": [
+        "corso totale/Le operazioni straordinarie delle imprese di assicurazione.pdf"
+      ],
+      "source_minutes": 22,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Impresa di assicurazione: accesso, esercizio e operatività",
+          "title": "Le operazioni straordinarie: fusione, scissione, portafoglio, liquidazione",
+          "goals": [
+            "Sapere che cosa succede ai contratti in caso di fusione o trasferimento di portafoglio",
+            "Conoscere il ruolo dell'IVASS nelle autorizzazioni",
+            "Capire gli effetti della liquidazione coatta amministrativa sulle polizze"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Fusione: i contratti continuano",
+          "key": "Fusioni e concentrazioni tra imprese non sciolgono i contratti: proseguono con l'impresa risultante dalla fusione o con l'incorporante.",
+          "body": "Diritti e obblighi passano alla nuova impresa o all'incorporante. Di conseguenza gli assicurati continueranno a pagare i premi a quest'ultima.",
+          "ref": "Materiale originale; CAP, art. 168, c. 4"
+        },
+        {
+          "layout": "concept",
+          "title": "Gli assicurati possono opporsi?",
+          "key": "La dottrina si è chiesta se gli assicurati, come creditori, possano opporsi alla fusione come gli altri creditori sociali (art. 2503 c.c.). La risposta è no.",
+          "body": "Sarebbe inverosimile che l'assicurato, che subisce il trasferimento del contratto nella concentrazione di azienda, possa invece bloccare una fusione che conserva il patrimonio che lo garantisce.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Fusione e scissione: il ruolo dell'IVASS",
+          "items": [
+            {
+              "text": "Se partecipa almeno un'impresa italiana, autorizza l'IVASS, se l'operazione non contrasta con la sana e prudente gestione.",
+              "ref": "CAP, art. 201, c. 1"
+            },
+            {
+              "text": "Senza autorizzazione non si iscrive nel registro delle imprese il progetto di fusione o scissione.",
+              "ref": "art. 201, c. 1"
+            },
+            {
+              "text": "Incorporante italiana: deve dimostrare di coprire l'SCR tenuto conto della fusione. Nuova società italiana: serve anche l'autorizzazione all'attività.",
+              "ref": "art. 201, c. 2"
+            },
+            {
+              "text": "Partecipano imprese di altri Stati membri: serve prima il parere favorevole delle loro autorità.",
+              "ref": "art. 201, c. 3"
+            },
+            {
+              "text": "Incorporante o nuova impresa in un altro Stato membro: l'IVASS esprime solo un parere all'autorità competente.",
+              "ref": "art. 201, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Il trasferimento di portafoglio",
+          "lead": "Un'impresa cede in tutto o in parte i propri contratti a un'altra impresa.",
+          "facts": [
+            {
+              "label": "Autorizzazione",
+              "text": "Preventiva dell'IVASS, chiesta dalla cedente; provvedimento pubblicato nel Bollettino."
+            },
+            {
+              "label": "Contratti",
+              "text": "Il trasferimento autorizzato non risolve i contratti."
+            },
+            {
+              "label": "Recesso",
+              "text": "Entro 60 giorni dalla pubblicazione, per i contraenti residenti in Italia, se il cessionario ha sede all'estero o è una sede secondaria estera."
+            },
+            {
+              "label": "RC auto",
+              "text": "Fino alla pubblicazione, i danneggiati possono agire contro la cedente italiana, nei limiti dei massimali."
+            },
+            {
+              "label": "Lavoratori",
+              "text": "Si applica l'art. 2112 c.c. ai rapporti di lavoro, se il cessionario è in Italia."
+            }
+          ],
+          "ref": "CAP, artt. 168 e 198, c. 1 e 6"
+        },
+        {
+          "layout": "compare",
+          "title": "Chi verifica il cessionario",
+          "cols": [
+            {
+              "title": "Cessionario italiano",
+              "items": [
+                "L'IVASS verifica autorizzazione per le attività trasferite",
+                "E fondi propri per l'SCR, tenuto conto del trasferimento",
+                "Autorizzazione entro 120 giorni dalla domanda, salvo sospensioni"
+              ]
+            },
+            {
+              "title": "Cessionario di un altro Stato membro",
+              "items": [
+                "Attesta l'autorità dello Stato del cessionario",
+                "Autorizzazione e copertura dell'SCR",
+                "Pareri delle autorità estere: se tacciono 90 giorni, si considerano favorevoli"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La vigilanza sul trasferimento",
+          "key": "L'autorità del Paese in cui ha sede la cedente cura tutti gli atti necessari al trasferimento, anche per i contratti stipulati in stabilimento o LPS in altri Stati.",
+          "body": "Secondo il materiale del corso, alle autorità dei Paesi in cui il portafoglio è acquisito non spettano funzioni deliberative ma solo consultive. Il Codice richiede comunque il loro parere favorevole, che si considera dato dopo 90 giorni di silenzio.",
+          "ref": "Materiale originale; CAP, art. 198, c. 2 e 4"
+        },
+        {
+          "layout": "checklist",
+          "title": "Cessionario in uno Stato terzo",
+          "items": [
+            {
+              "text": "Deve essere autorizzato in Italia in stabilimento per le attività trasferite.",
+              "ref": "CAP, art. 198, c. 5, lett. a"
+            },
+            {
+              "text": "Si trasferiscono solo i contratti stipulati in Italia in stabilimento.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Il portafoglio va alla sua sede secondaria in Italia, che deve coprire l'SCR.",
+              "ref": "lett. c, d"
+            },
+            {
+              "text": "Mai a una sede secondaria situata in uno Stato terzo: coerente con il divieto di LPS per le imprese di Stati terzi.",
+              "ref": "art. 198, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Vita: fusione di gestioni separate e fondi interni",
+          "key": "L'impresa può fondere gestioni separate o fondi interni solo nell'interesse dei contraenti: senza oneri per loro, con politiche di investimento omogenee e informandoli prima.",
+          "body": "Se il regolamento della gestione non prevede la fusione, il contraente può chiedere entro 30 giorni il riscatto o il passaggio ad altra gestione senza oneri.",
+          "ref": "Reg. ISVAP 14/2008, artt. 34 e 35"
+        },
+        {
+          "layout": "steps",
+          "title": "La liquidazione coatta amministrativa",
+          "steps": [
+            {
+              "label": "Presupposti",
+              "text": "Irregolarità nell'amministrazione, violazioni di norme o statuto, o perdite previste di eccezionale gravità."
+            },
+            {
+              "label": "Decreto",
+              "text": "Del Ministro, su proposta dell'IVASS: revoca dell'autorizzazione in tutti i rami e liquidazione."
+            },
+            {
+              "label": "Organi",
+              "text": "Cessano gli organi dell'impresa. L'IVASS nomina commissari liquidatori e comitato di sorveglianza."
+            },
+            {
+              "label": "Unica procedura",
+              "text": "Le imprese di assicurazione non sono soggette ad altre procedure concorsuali."
+            }
+          ],
+          "ref": "CAP, artt. 245 e 246"
+        },
+        {
+          "layout": "compare",
+          "title": "Che cosa succede alle polizze",
+          "cols": [
+            {
+              "title": "Contratti in genere",
+              "items": [
+                "Coprono i rischi fino al 60° giorno dalla pubblicazione in Gazzetta Ufficiale, poi si sciolgono",
+                "Un sinistro in quei 60 giorni è in teoria coperto, salvo attivo insufficiente",
+                "L'assicurato può recedere con raccomandata A/R"
+              ]
+            },
+            {
+              "title": "RC auto e natanti",
+              "items": [
+                "Deroga: restano efficaci fino alla scadenza o alla fine del periodo pagato",
+                "Nei limiti dei massimali minimi obbligatori",
+                "Se gli attivi non bastano interviene la disciplina del Fondo di garanzia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi viene pagato per primo",
+          "lead": "Gli attivi a copertura delle riserve tecniche iscritti nel registro sono riservati in via prioritaria agli assicurati.",
+          "head": [
+            "Ramo",
+            "Ordine"
+          ],
+          "rows": [
+            [
+              "Vita",
+              "1. Capitali e rendite scaduti entro 60 giorni; capitalizzazioni; riscatti; contratti in corso in proporzione alle riserve. 2. Poi i contratti senza riserve matematiche"
+            ],
+            [
+              "Danni",
+              "1. Sinistri avvenuti entro 60 giorni. 2. Poi i contraenti, per il premio del rischio non corso"
+            ]
+          ],
+          "ref": "CAP, art. 258"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi per i creditori",
+          "items": [
+            {
+              "value": "60 giorni",
+              "text": "dalla nomina: i commissari comunicano a ciascuno quanto gli risulta a credito",
+              "ref": "CAP, art. 252, c. 1"
+            },
+            {
+              "value": "30 giorni",
+              "text": "dal ricevimento: i creditori possono reclamare",
+              "ref": "art. 252, c. 5"
+            },
+            {
+              "value": "90 giorni",
+              "text": "dalla Gazzetta: chi non ha ricevuto nulla chiede il riconoscimento del credito",
+              "ref": "art. 252, c. 6"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia viene posta in liquidazione coatta. Una cliente dell'agenzia ha una polizza casa e una RC auto con quella compagnia, entrambe pagate fino a dicembre. Il provvedimento esce in Gazzetta il 1° marzo.",
+          "questions": [
+            "Fino a quando è coperta la casa?",
+            "E la RC auto?",
+            "Che cosa le consiglia l'agente?"
+          ],
+          "solution": "La polizza casa copre fino al 60° giorno dopo la pubblicazione, poi si scioglie. La RC auto resta efficace fino alla fine del periodo pagato, nei limiti dei massimali minimi. L'agente la aiuta a trovare una nuova copertura casa prima della scadenza e le spiega che potrà far valere il premio non goduto verso la liquidazione, con la comunicazione dei commissari."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Dopo un trasferimento di portafoglio a un'impresa estera, entro quando il contraente residente in Italia può recedere?",
+          "options": [
+            "Entro 15 giorni dalla firma del contratto",
+            "Entro 60 giorni dalla pubblicazione del provvedimento di autorizzazione",
+            "Entro 120 giorni dalla domanda",
+            "Non può recedere"
+          ],
+          "answer": 1,
+          "explanation": "Il trasferimento non risolve i contratti, ma se il cessionario ha sede all'estero il contraente può recedere entro 60 giorni dalla pubblicazione dell'autorizzazione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Continuità",
+              "text": "Fusione e trasferimento non sciolgono i contratti"
+            },
+            {
+              "value": "IVASS",
+              "text": "Autorizza fusioni, scissioni e trasferimenti di imprese italiane"
+            },
+            {
+              "value": "120 giorni",
+              "text": "Per l'autorizzazione al trasferimento, salvo sospensioni"
+            },
+            {
+              "value": "60 giorni",
+              "text": "Per recedere; e copertura dopo la liquidazione"
+            },
+            {
+              "value": "RC auto",
+              "text": "In liquidazione resta efficace fino alla scadenza pagata"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione affrontiamo le operazioni straordinarie delle imprese di assicurazione: fusioni, scissioni, trasferimenti di portafoglio e, nel caso peggiore, la liquidazione coatta amministrativa. Per l'intermediario sono momenti delicati, perché i clienti chiedono subito: la mia polizza vale ancora? A chi pago il premio? Posso andarmene?\n\nCominciamo dalla fusione. Le operazioni di fusione e di concentrazione di aziende tra più imprese assicuratrici non sono motivo di scioglimento dei contratti. I contratti proseguono con l'impresa nata dalla fusione o con quella che incorpora le imprese già esistenti. Diritti e obblighi contrattuali passano alla società risultante dalla fusione o all'incorporante e, di conseguenza, gli assicurati continueranno a pagare i premi a quest'ultima. Il Codice lo conferma all'articolo 168: le regole sul trasferimento di portafoglio si applicano anche ai trasferimenti che derivano da una fusione o da una scissione.\n\nLa dottrina si è chiesta più volte se gli assicurati, in quanto creditori, possano esercitare il diritto di opposizione alla fusione che l'articolo 2503 del codice civile riconosce ai creditori sociali. La risposta prevalente è negativa. Sarebbe inverosimile, si osserva, che l'assicurato, che subisce il trasferimento del contratto nella concentrazione di azienda, potesse invece impedire una fusione che conserva il patrimonio che rappresenta la sua garanzia. La tutela degli assicurati, in queste operazioni, passa attraverso il controllo dell'IVASS.\n\nVediamo allora le regole del Codice su fusioni e scissioni, all'articolo 201. Quando nell'operazione è coinvolta almeno un'impresa con sede legale in Italia, l'autorizzazione spetta all'IVASS, che la concede se l'operazione non contrasta con la sana e prudente gestione. L'iscrizione nel registro delle imprese del progetto di fusione o di scissione è subordinata a questo provvedimento. I requisiti per l'autorizzazione cambiano a seconda dei casi. Nella fusione per incorporazione con incorporante italiana, l'incorporante deve dimostrare di avere, tenuto conto della fusione, i fondi propri ammissibili per coprire l'SCR. Se la fusione dà vita a una nuova società con sede in Italia, questa deve avere anche l'autorizzazione all'esercizio dell'attività assicurativa.\n\nSe alla fusione partecipano imprese con sede in altri Stati membri, l'IVASS non può concedere l'autorizzazione finché le autorità di vigilanza di quegli Stati non hanno dato parere favorevole. Se invece l'impresa incorporante o quella di nuova costituzione ha sede in un altro Stato membro, all'IVASS spetta solo il compito di esprimere un parere all'autorità competente, dopo aver verificato che la nuova impresa rispetti le condizioni per operare in Italia e copra l'SCR. Le stesse regole valgono, per quanto applicabili, per le scissioni.\n\nPassiamo al trasferimento di portafoglio, cioè la cessione, totale o parziale, dei contratti di un'impresa a un'altra impresa. Succede quando una compagnia esce da un ramo, quando un gruppo riorganizza le proprie società o quando un'impresa in difficoltà cede i contratti per proteggere gli assicurati. Per l'impresa italiana il trasferimento richiede l'autorizzazione preventiva dell'IVASS, chiesta dalla cedente, con provvedimento pubblicato nel Bollettino.\n\nChe cosa succede ai contratti? L'articolo 168 stabilisce che il trasferimento di portafoglio autorizzato secondo gli articoli 198 e 200 non è causa di risoluzione dei contratti. Però i contraenti che hanno domicilio in Italia, o sede legale se sono persone giuridiche, possono recedere entro sessanta giorni dalla pubblicazione del provvedimento di autorizzazione, se il trasferimento avviene a favore di un'impresa con sede legale all'estero oppure di una sede secondaria all'estero di un'impresa italiana. Il ragionamento è chiaro: il cliente aveva scelto un assicuratore italiano e si ritrova con un'impresa vigilata altrove; la legge gli lascia la possibilità di andarsene. Una regola analoga vale quando un'impresa di un altro Stato membro trasferisce il portafoglio di contratti conclusi in Italia: il recesso è possibile entro sessanta giorni dalla pubblicazione dell'avviso dell'IVASS.\n\nSe il trasferimento riguarda contratti di RC auto e natanti, i danneggiati possono agire direttamente, nei limiti dei massimali, contro l'impresa italiana cedente fino alla pubblicazione del provvedimento di autorizzazione dell'IVASS. In questo modo il danneggiato sa sempre a chi rivolgersi. Il Codice aggiunge una tutela per i lavoratori: se il portafoglio è trasferito a un'impresa italiana, o a una sede secondaria in Italia di un'impresa estera, ai rapporti di lavoro in corso si applica l'articolo 2112 del codice civile sul trasferimento d'azienda.\n\nChi controlla il cessionario? Nel trasferimento totale o parziale a un'impresa italiana, l'IVASS verifica che il cessionario abbia l'autorizzazione per gestire le attività trasferite e che possieda, tenuto conto del trasferimento, i fondi propri ammissibili per coprire l'SCR. Secondo il materiale del corso, il procedimento deve concludersi entro centoventi giorni dalla presentazione della domanda, salvo sospensioni. Il Regolamento ISVAP numero 14 del 2008 lo conferma e precisa le sospensioni: richieste di integrazione documentale, pareri chiesti ad altre autorità. Se il cessionario ha sede in un altro Stato membro, è l'autorità di quello Stato ad attestare all'IVASS che l'impresa è autorizzata e copre l'SCR.\n\nIl materiale del corso descrive anche la ripartizione dei compiti tra autorità: l'autorità del Paese in cui ha sede la cedente si fa carico di tutti gli atti necessari al trasferimento, anche per il portafoglio acquisito in stabilimento o in libera prestazione in altri Stati membri; alle autorità dei Paesi in cui il portafoglio è stato acquisito non spettano funzioni deliberative ma solo consultive. Il Codice, all'articolo 198, precisa che per le sedi secondarie e per i contratti in libera prestazione serve il parere favorevole delle autorità interessate, e che, se queste non si pronunciano entro novanta giorni, il parere si considera favorevole.\n\nIl trasferimento può avvenire anche a favore di un'impresa con sede in uno Stato terzo. In questo caso i controlli prima dell'autorizzazione spettano di nuovo all'IVASS, che deve accertare le condizioni dell'articolo 198, comma 5, lettere da a) a d): il cessionario deve essere autorizzato in Italia in stabilimento per le attività trasferite; si trasferiscono solo i contratti stipulati in Italia in stabilimento; il portafoglio va alla sede secondaria italiana del cessionario; questa sede deve coprire l'SCR. Queste condizioni sono coerenti con il divieto, per le imprese di Stati terzi, di operare in libera prestazione nel territorio europeo, e con il divieto di cedere il portafoglio a una sede secondaria situata in uno Stato terzo.\n\nUn'operazione che i clienti vita incontrano più spesso è la fusione di gestioni separate o di fondi interni. Il Regolamento ISVAP 14 del 2008 la consente solo quando persegue l'interesse dei contraenti, ad esempio per ridurre i costi o raggiungere una dimensione adeguata. Le gestioni devono avere caratteristiche simili e politiche di investimento omogenee, il passaggio deve avvenire senza oneri e senza interruzioni, e ogni contraente riceve una comunicazione che spiega motivi e conseguenze. Se il regolamento della gestione non prevedeva la fusione, il contraente può chiedere entro trenta giorni il riscatto o il passaggio ad altra gestione senza oneri.\n\nArriviamo alla liquidazione coatta amministrativa. Secondo l'articolo 245 è disposta con decreto del Ministro, su proposta dell'IVASS, quando le irregolarità nell'amministrazione, le violazioni delle disposizioni legislative, amministrative o statutarie, oppure le perdite previste, sono di eccezionale gravità. Il decreto revoca l'autorizzazione in tutti i rami. Il materiale del corso parla di Ministro dello sviluppo economico; oggi la denominazione è Ministro delle imprese e del made in Italy. Dal decreto cessano le funzioni degli organi dell'impresa; l'IVASS nomina uno o più commissari liquidatori e un comitato di sorveglianza. Le imprese di assicurazione non sono soggette a procedure concorsuali diverse da questa.\n\nQuali effetti sui contratti? L'efficacia dei contratti in corso al momento della pubblicazione del provvedimento in Gazzetta Ufficiale cessa decorsi sessanta giorni. Se in quel periodo si verifica un sinistro, l'assicurato è in teoria coperto, salvo che l'attivo rimanente non sia sufficiente a pagare quanto gli spetta. Gli assicurati possono anche recedere, con raccomandata con avviso di ricevimento. C'è però una deroga importante, all'articolo 169, comma 3: i contratti di RC auto e natanti in corso restano efficaci, nei limiti dei massimali minimi obbligatori, fino alla scadenza del contratto o del periodo per cui è stato pagato il premio. Se gli attivi non bastano interviene la disciplina del Fondo di garanzia per le vittime della strada. L'automobilista, insomma, non resta scoperto da un giorno all'altro.\n\nE i crediti degli assicurati? Se dopo la messa in liquidazione risultano iscritti nell'apposito registro attivi a copertura delle riserve tecniche, questi sono riservati in via prioritaria all'adempimento delle obbligazioni dei contratti a cui si riferiscono, prima degli altri creditori, anche privilegiati. L'articolo 258 fissa anche l'ordine: nel vita vengono prima capitali, rendite e riscatti e i contratti in corso in proporzione alle riserve; nei danni prima i sinistri avvenuti entro sessanta giorni dalla pubblicazione, poi i contraenti per la parte di premio relativa al rischio non ancora corso. Della liquidazione dell'attivo si occupano i commissari liquidatori, nominati dall'IVASS. Entro sessanta giorni dalla nomina comunicano a ciascun creditore l'importo che gli risulta a credito secondo le scritture e i documenti dell'impresa. Il materiale del corso indica la raccomandata; il testo vigente ammette anche la consegna diretta o la trasmissione telematica. Entro trenta giorni dal ricevimento i creditori possono presentare reclamo; chi non ha ricevuto la comunicazione può chiedere il riconoscimento del credito entro novanta giorni dalla pubblicazione in Gazzetta.\n\nUn esempio. Una cliente ha con la stessa compagnia una polizza casa e una RC auto, entrambe pagate fino a dicembre. Il 1° marzo il provvedimento di liquidazione esce in Gazzetta. La polizza casa la copre fino al sessantesimo giorno, poi si scioglie: l'agente deve aiutarla a trovare subito una nuova copertura. La RC auto resta efficace fino a dicembre, nei limiti dei massimali minimi. Per il premio pagato e non goduto sulla polizza casa, la cliente è creditrice della liquidazione e riceverà la comunicazione dei commissari.\n\nRicapitolando: fusioni e trasferimenti non sciolgono i contratti; l'IVASS autorizza le operazioni delle imprese italiane, con un termine di centoventi giorni per i trasferimenti; il contraente può recedere entro sessanta giorni se il portafoglio va all'estero; in liquidazione i contratti coprono per sessanta giorni, mentre la RC auto resta efficace fino alla scadenza pagata e gli attivi a copertura delle riserve servono prima di tutto gli assicurati.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS aggiornato al 19 giugno 2026",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento ISVAP n. 14 del 18 febbraio 2008, testo modificato (fino al Provv. IVASS 107/2021)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n14/Reg.n.14-modificato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Conferma normativa della continuità dei contratti anche in caso di fusione e scissione.",
+          "source_ref": "CAP, art. 168, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizione della sana e prudente gestione e obbligo di motivazione dei provvedimenti su fusioni e scissioni.",
+          "source_ref": "CAP, art. 201, c. 1 e 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Recesso per trasferimenti di portafoglio di imprese di altri Stati membri; applicazione dell'art. 2112 c.c. ai lavoratori.",
+          "source_ref": "CAP, art. 168, c. 3; art. 198, c. 6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pareri delle autorità estere con silenzio-assenso dopo 90 giorni; sospensioni del termine di 120 giorni.",
+          "source_ref": "CAP, art. 198, c. 4; Reg. ISVAP 14/2008, artt. 18 e 19"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fusione di gestioni separate e fondi interni: condizioni e diritto di riscatto senza oneri entro 30 giorni.",
+          "source_ref": "Reg. ISVAP 14/2008, artt. 34 e 35"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Liquidazione coatta: revoca dell'autorizzazione, cessazione degli organi, comitato di sorveglianza, esclusività della procedura, recesso dell'assicurato, ordine di priorità dei crediti, termini per reclami e insinuazioni.",
+          "source_ref": "CAP, artt. 169, 245, 246, 252, 258"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte cita il \"Ministro dello sviluppo economico\" e un provvedimento \"su suggerimento\" dell'IVASS: oggi Ministro delle imprese e del made in Italy, su proposta dell'IVASS.",
+          "source_ref": "CAP, art. 245; avvertenza del testo coordinato"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte indica la comunicazione dei commissari \"tramite raccomandata\": il testo vigente ammette consegna diretta, raccomandata A/R o trasmissione telematica.",
+          "source_ref": "CAP, art. 252, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le autorità dei Paesi in cui è acquisito il portafoglio hanno funzioni solo consultive. Il CAP (art. 198, c. 2) richiede il loro parere favorevole, con silenzio-assenso dopo 90 giorni: affermazione da riformulare eventualmente.",
+          "source_ref": "CAP, art. 198, c. 2 e 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la tesi dottrinale sull'esclusione del diritto di opposizione degli assicurati (art. 2503 c.c.). Riferimento dottrinale da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nel periodo di 60 giorni l'assicurato è coperto salvo insufficienza dell'attivo. Formulazione del materiale originale, non letterale nel CAP.",
+          "source_ref": "Materiale originale; CAP, artt. 169 e 258"
+        }
+      ]
+    }
+  ]
+}

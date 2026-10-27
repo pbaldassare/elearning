@@ -1,0 +1,1338 @@
+{
+  "module": "Area informatica",
+  "topic": "Cybersecurity e rischio cyber",
+  "topic_order": 5,
+  "scope": "core",
+  "source_minutes": 60,
+  "lessons": [
+    {
+      "title": "Cybersecurity: definizioni, minacce e rischi",
+      "source_files": [
+        "corso totale/Area informatica /Cyber security.pdf.pdf.txt"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cybersecurity e rischio cyber",
+          "title": "Cybersecurity: definizioni, minacce e rischi",
+          "goals": [
+            "Capire che cosa si intende per cyber-security e per minaccia cibernetica",
+            "Distinguere un rischio cyber accidentale da uno deliberato",
+            "Riconoscere le principali minacce e i rischi cyber più diffusi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la cyber-security",
+          "key": "È la condizione in cui lo spazio cibernetico è protetto grazie a idonee misure di sicurezza fisica, logica e procedurale, rispetto a eventi volontari o accidentali.",
+          "body": "Gli eventi da cui proteggersi: acquisizione e trasferimento indebito di dati; loro modifica o distruzione illegittima; danneggiamento, distruzione o blocco del regolare funzionamento delle reti, dei sistemi informativi o dei loro elementi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Le tre famiglie di misure",
+          "left": {
+            "title": "Fisiche e logiche",
+            "items": [
+              "Fisiche: locali chiusi, accesso controllato ai server, protezione da incendi e guasti elettrici",
+              "Logiche: password robuste, autenticazione a più fattori, antivirus, cifratura, backup"
+            ]
+          },
+          "right": {
+            "title": "Procedurali",
+            "items": [
+              "Chi può accedere a quali dati e sistemi",
+              "Cosa fare in caso di incidente e chi avvisare",
+              "Formazione periodica di dipendenti e collaboratori"
+            ]
+          },
+          "note": "Nessuna misura basta da sola: la protezione nasce dalla combinazione delle tre.",
+          "noteRef": "Definizione: materiale originale; esempi a scopo didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "La minaccia cibernetica",
+          "key": "È l'insieme delle condotte realizzabili nello spazio cibernetico, tramite esso o contro di esso, da individui o organizzazioni, statali o non, pubbliche o private.",
+          "body": "Lo scopo è acquisire o trasferire dati in modo indebito, modificarli o distruggerli illegittimamente, oppure danneggiare, distruggere od ostacolare il regolare funzionamento di reti e sistemi informativi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Da dove nasce un rischio cyber",
+          "cols": [
+            {
+              "title": "Origine accidentale",
+              "items": [
+                "L'evento avviene indipendentemente dalla volontà dei soggetti coinvolti",
+                "Esempio: lo spegnimento di un server",
+                "Altri esempi: guasto di un disco, errore di aggiornamento, cancellazione per sbaglio"
+              ]
+            },
+            {
+              "title": "Origine deliberata",
+              "items": [
+                "L'evento è causato da azioni volontarie di chi vuole raggiungere obiettivi personali",
+                "Esempio: le violazioni condotte da hacker",
+                "Altri esempi: frode via e-mail, furto di credenziali, sabotaggio"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Più Internet, più rischio",
+          "key": "Con l'aumento dell'uso di Internet è cresciuta la rilevanza degli attacchi informatici.",
+          "body": "Servono nuove tecniche di mitigazione del rischio, ma anche nuove polizze assicurative in grado di far fronte al cyber risk. Per chi distribuisce assicurazioni il tema è doppio: proteggere la propria attività e saper parlare di rischio cyber con i clienti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le principali minacce cibernetiche",
+          "head": [
+            "Minaccia",
+            "Che cosa è",
+            "Obiettivo tipico"
+          ],
+          "rows": [
+            [
+              "1 · Cyber-crime",
+              "Complesso di attività con finalità criminali",
+              "Guadagno illecito: frodi, estorsioni, furto di dati"
+            ],
+            [
+              "2 · Hacktivism",
+              "Pirateria informatica per obiettivi sociali e politici",
+              "Visibilità di una causa, danno d'immagine al bersaglio"
+            ],
+            [
+              "3 · Espionage",
+              "Acquisizione indebita di dati e informazioni sensibili",
+              "Segreti industriali, informazioni strategiche"
+            ],
+            [
+              "4 · Cyber warfare",
+              "Attività e operazioni militari pianificate e condotte in un contesto di guerra",
+              "Colpire infrastrutture e capacità di un Paese"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I rischi cyber più diffusi (1/2)",
+          "head": [
+            "Rischio",
+            "Caratteristica"
+          ],
+          "rows": [
+            [
+              "Malware",
+              "Software malevolo in continua evoluzione, sempre più sofisticato e vario"
+            ],
+            [
+              "Phishing",
+              "Il vettore di infezione di maggior successo per violazioni di dati e incidenti negli attacchi mirati"
+            ],
+            [
+              "DoS e DDoS",
+              "Rendono un servizio irraggiungibile sommergendolo di richieste: una minaccia per quasi tutte le attività online"
+            ],
+            [
+              "Ransomware",
+              "Minaccia importante e in costante crescita: un processo automatico e senza interruzioni che blocca i dati e chiede un riscatto"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I rischi cyber più diffusi (2/2)",
+          "head": [
+            "Rischio",
+            "Caratteristica"
+          ],
+          "rows": [
+            [
+              "Web-based attacks",
+              "Sfruttano sistemi e servizi abilitati al web: browser, siti, componenti IT dei servizi web"
+            ],
+            [
+              "Insider threat",
+              "Chi è all'interno usa il proprio accesso autorizzato per danneggiare la sicurezza dell'organizzazione"
+            ],
+            [
+              "Data breach",
+              "Incidenti che portano alla perdita di dati e si scoprono ex post: quando li valuti, l'attacco è già riuscito"
+            ],
+            [
+              "Cyber-espionage",
+              "Lo spionaggio informatico, considerato tra le minacce più rischiose per le attività"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Il quadro europeo delle minacce",
+          "lead": "L'agenzia europea per la cybersicurezza (ENISA) pubblica ogni anno il Threat Landscape, basato su migliaia di incidenti resi pubblici.",
+          "facts": [
+            {
+              "label": "1°",
+              "text": "Minacce alla disponibilità, come gli attacchi DDoS"
+            },
+            {
+              "label": "2°",
+              "text": "Ransomware"
+            },
+            {
+              "label": "3°",
+              "text": "Minacce ai dati, come furti e fughe di informazioni"
+            },
+            {
+              "label": "Quando",
+              "text": "Rapporto pubblicato il 19 settembre 2024"
+            }
+          ],
+          "ref": "ENISA Threat Landscape 2024"
+        },
+        {
+          "layout": "checklist",
+          "title": "In agenzia: i segnali da non ignorare",
+          "items": [
+            {
+              "text": "E-mail urgente della \"compagnia\" che chiede di cliccare un link o inserire le credenziali del portale"
+            },
+            {
+              "text": "Allegato inatteso con nome di polizza o quietanza da un mittente sconosciuto"
+            },
+            {
+              "text": "Sito del preventivatore che appare diverso dal solito o con indirizzo strano"
+            },
+            {
+              "text": "File che non si aprono più e cambiano estensione: possibile ransomware, scollega subito il PC dalla rete"
+            },
+            {
+              "text": "Collaboratore che chiede accessi o esporta dati che non servono al suo lavoro"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un lunedì mattina, in un'agenzia, nessuno riesce ad aprire l'archivio delle polizze. Sui PC compare un messaggio: i file sono cifrati e per riaverli bisogna pagare in criptovaluta. Il venerdì precedente una collaboratrice aveva aperto l'allegato di una mail che sembrava un sollecito di pagamento.",
+          "questions": [
+            "Di quale rischio cyber si tratta e qual è stato il vettore?",
+            "L'origine è accidentale o deliberata?",
+            "Che cosa avrebbe potuto limitare il danno?"
+          ],
+          "solution": "È un ransomware, arrivato con ogni probabilità tramite phishing. L'origine è deliberata: dietro c'è un'azione criminale (cyber-crime). Avrebbero aiutato misure logiche (backup separati dalla rete, antivirus aggiornati), procedurali (regole sugli allegati, formazione, piano di risposta agli incidenti) e la rapidità nello scollegare i PC. Se l'archivio contiene dati dei clienti può essere anche un data breach."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un server si spegne per un guasto elettrico e per mezza giornata il portale clienti non funziona. Come si classifica l'origine del rischio?",
+          "options": [
+            "Deliberata, perché il servizio è stato bloccato",
+            "Accidentale, perché l'evento non dipende dalla volontà di nessuno",
+            "È un caso di hacktivism",
+            "Non è un rischio cyber, perché non c'è un attaccante"
+          ],
+          "answer": 1,
+          "explanation": "Il rischio cyber può essere accidentale, quando l'evento si verifica indipendentemente dalla volontà dei soggetti coinvolti: lo spegnimento di un server è proprio l'esempio del materiale. La cyber-security protegge anche da questi eventi."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché il data breach è definito un incidente rilevato \"ex post\"?",
+          "options": [
+            "Perché si verifica solo dopo l'orario di lavoro",
+            "Perché quando lo si valuta l'incidente è già avvenuto e ha avuto successo",
+            "Perché lo si scopre sempre prima che accada",
+            "Perché riguarda solo i dati cartacei"
+          ],
+          "answer": 1,
+          "explanation": "Quando si valuta una violazione dei dati, l'incidente è già avvenuto e ha avuto successo. Per questo conta molto la prevenzione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "famiglie di misure: fisiche, logiche, procedurali"
+            },
+            {
+              "value": "2",
+              "text": "origini del rischio: accidentale o deliberata"
+            },
+            {
+              "value": "4",
+              "text": "minacce: cyber-crime, hacktivism, espionage, cyber warfare"
+            },
+            {
+              "value": "Phishing",
+              "text": "il vettore di infezione di maggior successo"
+            },
+            {
+              "value": "Ex post",
+              "text": "il data breach si scopre quando è già riuscito"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa prima lezione costruiamo il vocabolario di base della sicurezza informatica: che cosa vuol dire cyber-security, che cos'è una minaccia cibernetica, da dove nasce un rischio cyber e quali sono le minacce e gli attacchi più diffusi. Sono concetti che servono a tutti: all'intermediario che gestisce ogni giorno dati di clienti, polizze e pagamenti, e a chi deve parlare di rischio cyber con un'impresa cliente.\n\nPartiamo dalla definizione. La cyber-security è la condizione per la quale lo spazio cibernetico risulta protetto grazie all'adozione di idonee misure di sicurezza fisica, logica e procedurale. Protetto rispetto a che cosa? Rispetto a eventi che possono essere di natura volontaria oppure accidentale, e che consistono nell'acquisizione e nel trasferimento indebito di dati, nella loro modifica o distruzione illegittima, oppure nel danneggiamento, nella distruzione o nel blocco del regolare funzionamento delle reti e dei sistemi informativi, o dei loro elementi costitutivi.\n\nNotate due cose. La prima: la sicurezza è descritta come una condizione, cioè uno stato da raggiungere e mantenere, non come un prodotto da comprare una volta per tutte. La seconda: la definizione mette sullo stesso piano gli eventi volontari e quelli accidentali. Non ci si protegge solo dagli hacker, ma anche dai guasti e dagli errori.\n\nLe misure sono di tre tipi. Le misure fisiche proteggono i luoghi e gli apparati: un locale chiuso per il server, l'accesso controllato, la protezione da incendi e da sbalzi di corrente. Le misure logiche agiscono sui sistemi: password robuste, autenticazione a più fattori, antivirus, cifratura, copie di backup. Le misure procedurali riguardano le persone e l'organizzazione: chi può accedere a quali dati, che cosa si fa quando succede un incidente e chi va avvisato, come si formano dipendenti e collaboratori. Gli esempi che vedete sulla slide sono solo esemplificativi, ma il messaggio è chiaro: nessuna di queste misure basta da sola. Una porta blindata non serve se la password del gestionale è scritta su un post-it attaccato al monitor.\n\nSeconda definizione: la minaccia cibernetica. È il complesso delle condotte che possono essere realizzate nello spazio cibernetico o tramite esso, oppure in danno dello stesso e dei suoi elementi costitutivi. In concreto si tratta delle azioni di singoli individui o di organizzazioni, statali o non statali, pubbliche o private, finalizzate all'acquisizione e al trasferimento indebiti di dati, alla loro modifica o distruzione illegittima, oppure a danneggiare, distruggere od ostacolare il regolare funzionamento delle reti e dei sistemi informativi. Come vedete, la definizione è speculare a quella di cyber-security: la minaccia descrive ciò che può accadere, la sicurezza descrive la condizione in cui siamo protetti da quella minaccia.\n\nDa dove nasce, allora, un rischio cibernetico? Le origini possono essere due. L'origine è accidentale quando l'evento si verifica indipendentemente dalla volontà di tutti i soggetti coinvolti: l'esempio classico è lo spegnimento di un server. Pensate a un guasto elettrico che blocca il portale dei preventivi per mezza giornata, a un disco che si rompe, a un aggiornamento software andato male, a una cartella cancellata per errore. L'origine è invece deliberata quando gli eventi sono riconducibili ad azioni volontarie di soggetti che vogliono raggiungere obiettivi personali: è il caso delle violazioni condotte da hacker, delle frodi via e-mail, del furto di credenziali.\n\nCon l'aumento dell'uso di Internet è aumentata anche la rilevanza degli attacchi informatici. Questo ha reso necessarie nuove tecniche di mitigazione del rischio, ma anche nuove polizze assicurative in grado di far fronte al cyber risk. Per un intermediario il tema ha quindi due facce: da un lato deve proteggere la propria attività e i dati dei propri clienti, dall'altro può trovarsi a proporre coperture contro il rischio cyber. Per farlo in modo corretto deve capire di che rischio si tratta.\n\nVediamo ora le principali minacce cibernetiche, che il materiale raggruppa in quattro grandi famiglie. La prima è il cyber-crime, il complesso di attività con finalità criminali: frodi, estorsioni, furti di dati da rivendere. È la minaccia che più spesso tocca piccole imprese e studi professionali. La seconda è l'hacktivism, cioè il perseguimento di obiettivi sociali e politici attraverso la pirateria informatica: l'obiettivo è dare visibilità a una causa o danneggiare l'immagine di chi viene colpito. La terza è l'espionage, lo spionaggio: l'acquisizione indebita di dati e informazioni sensibili, ad esempio segreti industriali o informazioni strategiche. La quarta è la cyber warfare, l'insieme di attività e operazioni militari pianificate e condotte per ottenere effetti in un contesto di guerra.\n\nPassiamo ai rischi cyber più diffusi, cioè alle forme concrete che gli attacchi prendono. Il malware è il software malevolo, ed è costantemente in evoluzione sia in termini di sofisticazione sia di diversità. Il phishing è l'attacco usato più di frequente: è il vettore di infezione di maggior successo per le violazioni dei dati e per gli incidenti di sicurezza negli attacchi mirati. In pratica, un messaggio ben confezionato convince la vittima a cliccare un link, aprire un allegato o consegnare le proprie credenziali. Gli attacchi Denial of Service, e in particolare quelli distribuiti, chiamati DDoS, sommergono un servizio di richieste fino a renderlo irraggiungibile: sono una minaccia importante per quasi tutti i tipi di attività presenti online. Il ransomware, infine, è una minaccia importante e in costante crescita: crea un processo automatico e senza interruzioni che cifra i dati e chiede un riscatto per restituirli.\n\nProseguiamo. Gli attacchi web-based sono quelli che sfruttano sistemi e servizi abilitati al web, come i browser, i siti Internet e le componenti IT dei servizi web. L'insider threat, o minaccia interna, si ha quando una persona interna all'organizzazione usa il proprio accesso autorizzato per danneggiarne la sicurezza: un dipendente infedele, un collaboratore che esporta l'elenco dei clienti prima di passare alla concorrenza. I data breach, le violazioni dei dati, sono incidenti che portano alla perdita dei dati stessi e vengono rilevati ex post: significa che quando si valuta una violazione dei dati, l'incidente è già avvenuto e ha avuto successo. Ecco perché la prevenzione è così importante. Infine il cyber-espionage, lo spionaggio informatico, considerato una delle minacce più rischiose per le attività di un'organizzazione.\n\nUn aggiornamento utile per inquadrare questi rischi. L'ENISA, l'Agenzia dell'Unione europea per la cybersicurezza, pubblica ogni anno un rapporto sul panorama delle minacce, il Threat Landscape, che analizza migliaia di incidenti ed eventi resi pubblici. Nell'edizione pubblicata il 19 settembre 2024, in cima alla classifica ci sono le minacce alla disponibilità dei servizi, come gli attacchi DDoS, seguite dal ransomware e dalle minacce ai dati. Sono proprio le categorie che abbiamo appena visto.\n\nCome si traducono questi rischi nel lavoro quotidiano di un'agenzia o di un broker? Ci sono alcuni segnali da non ignorare. Una e-mail urgente che sembra arrivare dalla compagnia e chiede di cliccare un link per reinserire le credenziali del portale. Un allegato inatteso con il nome di una polizza o di una quietanza, inviato da un mittente sconosciuto. Il sito del preventivatore che appare diverso dal solito, o che ha un indirizzo strano nella barra del browser. File che improvvisamente non si aprono più e cambiano estensione: è un possibile ransomware e la prima cosa da fare è scollegare il computer dalla rete, per evitare che l'infezione si propaghi. E infine un collaboratore che chiede accessi o esporta dati che non servono al suo lavoro: è il caso dell'insider threat.\n\nApplichiamo i concetti a un caso pratico. Un lunedì mattina, in un'agenzia, nessuno riesce più ad aprire l'archivio delle polizze. Sui computer compare un messaggio: i file sono stati cifrati e per riaverli bisogna pagare un riscatto in criptovaluta. Il venerdì precedente una collaboratrice aveva aperto l'allegato di una mail che sembrava un sollecito di pagamento. Si tratta di un ransomware, arrivato con ogni probabilità tramite phishing. L'origine è deliberata, perché dietro c'è un'azione criminale, quindi siamo nell'ambito del cyber-crime. Che cosa avrebbe potuto limitare il danno? Misure logiche, come backup tenuti separati dalla rete e antivirus aggiornati; misure procedurali, come regole chiare sugli allegati, formazione e un piano di risposta agli incidenti; e la rapidità nello scollegare i computer. Attenzione anche a un altro aspetto: se nell'archivio ci sono dati dei clienti, l'attacco può essere anche un data breach, con tutte le conseguenze che ne derivano.\n\nChiudiamo con due domande di verifica. Nella prima, un server si spegne per un guasto elettrico e per mezza giornata il portale clienti non funziona: è un rischio cyber di origine accidentale, perché l'evento non dipende dalla volontà di nessuno. Nella seconda, ricordate che il data breach si rileva ex post: quando lo si valuta, l'incidente è già avvenuto e ha avuto successo.\n\nRicapitolando: la cyber-security si basa su tre famiglie di misure, fisiche, logiche e procedurali; il rischio cyber può avere origine accidentale o deliberata; le grandi famiglie di minacce sono cyber-crime, hacktivism, espionage e cyber warfare; il phishing è il vettore di infezione di maggior successo; e il data breach si scopre quando ormai è riuscito. Nella prossima lezione vedremo le regole e l'organizzazione con cui imprese e intermediari affrontano questi rischi.",
+      "sources": [
+        {
+          "title": "ENISA Threat Landscape 2024",
+          "url": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Classifica delle principali minacce dell'ENISA Threat Landscape 2024 (disponibilità, ransomware, minacce ai dati) e data di pubblicazione.",
+          "source_ref": "ENISA Threat Landscape 2024"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi didattici delle tre famiglie di misure (fisiche, logiche, procedurali), segnali di attacco in agenzia e caso pratico sul ransomware.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Definizioni di cyber-security e minaccia cibernetica riformulate in frasi più brevi; \"statutarie o non\" reso con \"statali o non\" (probabile refuso della fonte). Mantenuta dalla fonte: definizioni. Riferimento da indicare / possibile aggiornamento: le definizioni riprendono il Quadro strategico nazionale per la sicurezza dello spazio cibernetico (DPCM 2013), da verificare.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Regole, governance e assicurazione del rischio cyber",
+      "source_files": [
+        "corso totale/Area informatica /Cyber security.pdf.pdf.txt"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cybersecurity e rischio cyber",
+          "title": "Regole, governance e assicurazione del rischio cyber",
+          "goals": [
+            "Conoscere i principali riferimenti europei e italiani citati dal corso",
+            "Capire perché il rischio cyber va gestito insieme al rischio operativo",
+            "Inquadrare la logica economica della cyber insurance"
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Gli obiettivi della Commissione europea",
+          "lead": "Nella sicurezza informatica la Commissione ha fissato tre obiettivi chiave.",
+          "facts": [
+            {
+              "label": "Stesso livello",
+              "text": "Portare le capacità di sicurezza allo stesso livello in tutti gli Stati membri, con scambi di informazioni e cooperazione efficienti in Europa e fuori"
+            },
+            {
+              "label": "Leadership",
+              "text": "Rendere l'Europa più sensibile alla cyber security, perché diventi leader del settore"
+            },
+            {
+              "label": "Al centro",
+              "text": "Mettere la sicurezza informatica al centro delle regole europee e delle iniziative su tecnologie nuove: connected insurance e Internet of Things"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Due binari: persone e organizzazioni",
+          "left": {
+            "title": "Persone fisiche: GDPR",
+            "items": [
+              "Regolamento (UE) 2016/679, in vigore dal 24 maggio 2016 e pienamente applicabile dal 25 maggio 2018",
+              "Rafforza e rende omogenea la protezione dei dati di cittadini e residenti UE, dentro e fuori l'Unione",
+              "Regole unitarie e business friendly, a tutela dei diritti e delle libertà fondamentali"
+            ],
+            "ref": "Reg. (UE) 2016/679; Garante Privacy"
+          },
+          "right": {
+            "title": "Organizzazioni: NIS",
+            "items": [
+              "Direttiva (UE) 2016/1148 sulla sicurezza delle reti e dei sistemi informativi, adottata il 6 luglio 2016",
+              "Migliorare le capacità di sicurezza cibernetica di tutti i Paesi UE",
+              "Più collaborazione tra Stati nella prevenzione e nella risposta agli attacchi"
+            ],
+            "ref": "Dir. (UE) 2016/1148"
+          },
+          "note": "La prima direttiva NIS è stata sostituita dalla NIS2: vedi la slide successiva.",
+          "noteRef": "Dir. (UE) 2022/2555"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Dalla NIS alla NIS2",
+          "lead": "La direttiva (UE) 2022/2555 (NIS2) ha aggiornato e abrogato la prima direttiva NIS. In Italia è stata recepita con il D.Lgs. 138/2024.",
+          "facts": [
+            {
+              "label": "Recepimento",
+              "text": "Termine europeo: 17 ottobre 2024"
+            },
+            {
+              "label": "In Italia",
+              "text": "D.Lgs. 4 settembre 2024, n. 138, in vigore dal 16 ottobre 2024; abroga il D.Lgs. 65/2018"
+            },
+            {
+              "label": "Autorità",
+              "text": "Agenzia per la cybersicurezza nazionale (ACN), autorità nazionale competente NIS"
+            },
+            {
+              "label": "Chi",
+              "text": "Soggetti essenziali e importanti di 18 settori; in genere medie e grandi imprese"
+            },
+            {
+              "label": "Incidenti",
+              "text": "Pre-notifica al CSIRT Italia entro 24 ore, notifica entro 72 ore"
+            }
+          ],
+          "ref": "D.Lgs. 138/2024; FAQ NIS ACN"
+        },
+        {
+          "layout": "split",
+          "title": "Scambio di informazioni con il fisco: FATCA e CRS",
+          "left": {
+            "title": "FATCA",
+            "items": [
+              "Foreign Account Tax Compliance Act, legge USA dal marzo 2010 contro l'evasione dei soggetti fiscalmente residenti negli USA",
+              "Recepita in Italia nel 2014: scambio automatico di informazioni con gli USA",
+              "Gli intermediari finanziari in Italia segnalano dati anagrafici e patrimoniali dei clienti americani, anche presunti"
+            ]
+          },
+          "right": {
+            "title": "CRS",
+            "items": [
+              "Common Reporting Standard, in vigore in Italia dal 1° gennaio 2016",
+              "Regola lo scambio automatico di informazioni finanziarie",
+              "Obbliga gli intermediari italiani ad acquisire informazioni sui clienti non residenti in Italia"
+            ]
+          },
+          "note": "Sono obblighi fiscali, ma comportano flussi di dati sensibili da proteggere.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Rischio operativo e cyber: un'unica gestione",
+          "key": "Per rispondere alla minaccia informatica e migliorare la resilienza bisogna allineare la gestione dei rischi operativi e quella della cyber-security.",
+          "body": "Un buon punto di partenza: allargare la definizione di rischio operativo fino a comprendere la sicurezza informatica. Per il Comitato di Basilea è \"il rischio di perdite dirette o indirette derivanti da processi, persone e sistemi interni inadeguati o falliti, o da eventi esterni\".",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Quattro leve per l'integrazione",
+          "head": [
+            "Leva",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Governance e proprietà",
+              "Linee di responsabilità chiare a tutti i livelli. Sicurezza e rischio operativo fanno parte della strategia aziendale"
+            ],
+            [
+              "Tassonomie e metodi",
+              "Una lingua comune tra il responsabile della sicurezza (CISO), la funzione IT e il responsabile dei rischi (CRO)"
+            ],
+            [
+              "Abilità e capacità",
+              "Competenze multidisciplinari su rischio operativo e sicurezza informatica"
+            ],
+            [
+              "Tecnologia e dati",
+              "Gestione dei dati, analisi, modelli e reporting avanzati per rispondere meglio a un attacco"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "I suggerimenti per gli intermediari",
+          "items": [
+            {
+              "text": "Stabilire definizioni coerenti di sicurezza informatica"
+            },
+            {
+              "text": "Gestire la sicurezza informatica come una disciplina di rischio"
+            },
+            {
+              "text": "Collaborare oltre i silos: condividere conoscenze, far cooperare tecnologia e dipendenti"
+            },
+            {
+              "text": "Coordinare sicurezza e rischio operativo: più visibilità dei rischi e temi cyber portati al consiglio di amministrazione"
+            },
+            {
+              "text": "Allineare le due discipline per stare al passo con criminali online e hacktivisti"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto di assicurazione",
+          "key": "Con il contratto l'assicurato trasferisce a una compagnia il rischio di sopportare le conseguenze patrimoniali di un danno.",
+          "body": "La polizza è un contratto per adesione: fissa termini, condizioni ed esclusioni. Il premio è ciò che l'assicurato paga perché l'assicuratore si assuma il rischio. Le esclusioni sono i rischi non coperti. La copertura è l'ammontare di rischio o responsabilità a carico dell'assicuratore.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due tipi di copertura",
+          "cols": [
+            {
+              "title": "First party damage",
+              "items": [
+                "Danni a cose o persone",
+                "Conta il danno che il sinistro provoca direttamente all'assicurato",
+                "Cyber: dati da ripristinare, fermo dell'attività"
+              ]
+            },
+            {
+              "title": "Third party damage",
+              "items": [
+                "Copertura del patrimonio",
+                "Conta il danno che grava sull'assicurato per la richiesta di risarcimento di un terzo",
+                "Cyber: clienti i cui dati sono stati violati"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Come nasce una polizza cyber",
+          "steps": [
+            {
+              "label": "Parametri di rischio",
+              "text": "Un valutatore identifica beni di valore, minacce e vulnerabilità del sistema di sicurezza"
+            },
+            {
+              "label": "Analisi",
+              "text": "Stima probabilità e impatto possibile di un incidente e aggrega questi valori"
+            },
+            {
+              "label": "Copertura e premio",
+              "text": "Agente e assicuratore definiscono che cosa si copre e a quale prezzo"
+            },
+            {
+              "label": "Contratto",
+              "text": "Il contratto viene scritto e firmato"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché la cyber insurance è utile",
+          "key": "Dopo un incidente bisogna stabilire chi è responsabile della perdita: nel mondo digitale non è sempre chiaro.",
+          "body": "La copertura è molto vantaggiosa anche nelle violazioni su larga scala. Finanzia il recupero da gravi perdite, aiuta l'impresa a tornare alla normalità e riduce il bisogno di assistenza pubblica. Distribuisce i rischi in modo equo, con premi commisurati alle perdite attese.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando un rischio è assicurabile",
+          "items": [
+            {
+              "text": "Perdita accidentale: l'incidente è fortuito e non sotto il controllo dell'assicurato"
+            },
+            {
+              "text": "Rischio limitato di perdite catastrofiche, che possono accadere con frequenza relativamente bassa"
+            },
+            {
+              "text": "Perdita calcolabile: si possono stimare perdite e probabilità"
+            },
+            {
+              "text": "Molte unità di esposizione simili, per stimare meglio la probabilità"
+            },
+            {
+              "text": "Premio accessibile, di importo ragionevole per l'assicurato"
+            },
+            {
+              "text": "Perdita definita: tempo, luogo e causa facili da determinare"
+            },
+            {
+              "text": "Perdita grande abbastanza per l'assicurato"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'impresa cliente subisce un furto di dati e i suoi clienti le chiedono un risarcimento. Quale copertura risponde a queste richieste?",
+          "options": [
+            "First party damage",
+            "Third party damage",
+            "Nessuna: il furto di dati non è assicurabile",
+            "La copertura incendio"
+          ],
+          "answer": 1,
+          "explanation": "Nel third party damage il danno rilevante è quello che grava sull'assicurato per la richiesta di risarcimento di un terzo. I costi propri dell'impresa colpita rientrano invece nel first party."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa propone il materiale per integrare rischio operativo e cyber-security?",
+          "options": [
+            "Tenere separate le due funzioni",
+            "Allargare la definizione di rischio operativo fino a includere la sicurezza informatica",
+            "Affidare tutto al reparto IT",
+            "Occuparsene solo dopo un attacco"
+          ],
+          "answer": 1,
+          "explanation": "Il punto di partenza suggerito è estendere il rischio operativo, definito dal Comitato di Basilea, alla sicurezza informatica, con governance, linguaggio, competenze e tecnologia comuni."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "GDPR",
+              "text": "dati delle persone fisiche, applicabile dal 25 maggio 2018"
+            },
+            {
+              "value": "NIS2",
+              "text": "sicurezza delle organizzazioni: in Italia D.Lgs. 138/2024 e ACN"
+            },
+            {
+              "value": "Basilea",
+              "text": "il rischio operativo, da estendere al rischio cyber"
+            },
+            {
+              "value": "1st · 3rd",
+              "text": "danni propri dell'assicurato e richieste dei terzi"
+            },
+            {
+              "value": "7",
+              "text": "requisiti perché un rischio sia assicurabile"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione allarghiamo lo sguardo: dalle minacce passiamo alle regole, all'organizzazione interna e al ruolo dell'assicurazione. Vedremo i riferimenti europei e italiani che il corso richiama, perché il rischio cyber va gestito insieme al rischio operativo e qual è la logica economica della cyber insurance. Non entreremo nei dettagli della regolamentazione cyber e dei prodotti assicurativi cyber, che hanno spazio dedicato in altre parti del percorso: qui ci serve il quadro d'insieme.\n\nCominciamo dall'Europa. Nell'ambito della sicurezza informatica, la Commissione europea ha stabilito tre obiettivi chiave. Il primo è portare la capacità di sicurezza informatica allo stesso livello di sviluppo in tutti gli Stati membri, e assicurare che lo scambio di informazioni e la cooperazione siano efficienti non solo a livello europeo ma anche extraeuropeo. Il secondo è rendere l'Europa più sensibile alla cyber security, in modo che possa affermarsi come leader nel campo della sicurezza informatica. Il terzo è mettere la sicurezza informatica al centro delle principali regole europee, riservandole un posto anche nelle future iniziative sulle nuove tecnologie e sui settori emergenti. Tra questi il materiale cita due ambiti che riguardano da vicino il nostro mondo: le connected insurance, cioè le assicurazioni connesse a Internet, come le polizze auto con la scatola nera, e l'Internet of Things, gli oggetti connessi.\n\nLe regole si muovono su due binari. Per le persone fisiche il riferimento è la privacy, cioè il Regolamento generale sulla protezione dei dati, il GDPR. Il materiale indica il 2016 come anno di entrata in vigore: è corretto, perché il Regolamento europeo 2016/679 è in vigore dal 24 maggio 2016, ma ricordate che è diventato pienamente applicabile dal 25 maggio 2018. Il suo scopo è rafforzare e rendere omogenea la protezione dei dati personali di cittadini e residenti nell'Unione europea, sia all'interno sia all'esterno dell'Unione; creare regole unitarie e business friendly, cioè favorevoli alle imprese; e proteggere i diritti e le libertà fondamentali delle persone rispetto al trattamento dei loro dati.\n\nPer le persone giuridiche, gli enti e le associazioni, il 6 luglio 2016 il Parlamento europeo ha adottato la direttiva sulla sicurezza delle reti e dei sistemi informativi, la direttiva NIS, numero 2016/1148. L'obiettivo era migliorare le capacità di sicurezza cibernetica di tutti i Paesi dell'Unione e aumentare la collaborazione tra Stati membri nella prevenzione delle minacce e nella risposta agli attacchi.\n\nQui serve un aggiornamento importante. La prima direttiva NIS è stata sostituita dalla direttiva europea 2022/2555, chiamata NIS2, che punta a un livello comune elevato di cybersicurezza nell'Unione. Il termine per il recepimento era il 17 ottobre 2024. L'Italia l'ha recepita con il decreto legislativo 4 settembre 2024, numero 138, pubblicato in Gazzetta Ufficiale il 1° ottobre 2024 e in vigore dal 16 ottobre 2024, che ha abrogato il precedente decreto 65 del 2018 di attuazione della prima NIS. L'autorità nazionale competente è l'Agenzia per la cybersicurezza nazionale, l'ACN, istituita con il decreto-legge 82 del 2021, che ha al suo interno il CSIRT Italia, il gruppo che risponde agli incidenti informatici. La disciplina distingue soggetti essenziali e soggetti importanti, oltre ottanta tipologie raggruppate in diciotto settori; di regola rientrano le medie e grandi imprese, mentre micro e piccole imprese sono in genere escluse, salvo eccezioni. I soggetti interessati si registrano ogni anno sulla piattaforma dell'ACN entro il 28 febbraio. Quando subiscono un incidente significativo devono inviare una pre-notifica al CSIRT Italia entro 24 ore da quando ne vengono a conoscenza e la notifica completa entro 72 ore. Per l'intermediario che parla con un'impresa cliente, sapere se quell'impresa è un soggetto NIS è un'informazione utile per capire quanto è esposta e quali obblighi ha.\n\nIl materiale cita poi due normative che non nascono come regole di sicurezza informatica, ma come regole fiscali, e che comportano flussi di dati molto delicati. La prima è il FATCA, Foreign Account Tax Compliance Act, una legge adottata dagli Stati Uniti a partire da marzo 2010 per contrastare l'evasione fiscale dei cittadini americani e di altri soggetti, persone o società, fiscalmente residenti negli Stati Uniti. È stata recepita in Italia nel 2014 e consente lo scambio automatico di informazioni con gli USA: gli intermediari finanziari che operano in Italia devono segnalare alle autorità fiscali americane i dati anagrafici e patrimoniali dei clienti di nazionalità americana, anche solo presunta. La seconda è il CRS, Common Reporting Standard, in vigore in Italia dal 1° gennaio 2016, che regola lo scambio automatico delle informazioni finanziarie e obbliga gli intermediari finanziari italiani ad acquisire informazioni sui clienti non residenti in Italia. Perché parlarne in una lezione di cyber security? Perché si tratta di dati anagrafici e patrimoniali da raccogliere, conservare e trasmettere: proprio il tipo di dato che un attacco cerca.\n\nVeniamo alla parte organizzativa: la convergenza tra rischio operativo e cyber-security. È necessario allineare i processi di gestione dei rischi operativi e quelli di sicurezza informatica, per far fronte a una minaccia crescente e migliorare la resilienza. Un buon punto di partenza è espandere la definizione di rischio operativo fino a includere la sicurezza informatica. Il Comitato di Basilea definisce il rischio operativo come il rischio di perdite dirette o indirette derivanti da processi, persone e sistemi interni inadeguati o falliti, oppure da eventi esterni. Rileggete la definizione pensando a un attacco informatico: un processo debole, una persona che clicca su un link, un sistema non aggiornato, un attaccante esterno. Il rischio cyber ci sta dentro perfettamente.\n\nGli elementi chiave per l'integrazione sono quattro. Primo, governance e proprietà: miglioramenti evidenti arrivano stabilendo linee chiare di responsabilità a tutti i livelli dell'organizzazione, con la consapevolezza che sicurezza informatica e rischio operativo devono essere parte integrante della strategia aziendale. Secondo, tassonomie e metodi: bisogna colmare il divario tra il CISO, cioè il responsabile della sicurezza delle informazioni, la funzione tecnologica e il CRO, il responsabile dei rischi, creando una lingua comune. Terzo, abilità e capacità: vanno incoraggiate competenze multidisciplinari, che uniscano rischio operativo e sicurezza informatica. Quarto, tecnologia e dati: la tecnologia è un facilitatore chiave per allineare la strategia operativa e quella sul rischio informatico; soluzioni avanzate di gestione dei dati, analisi, modellazione e reporting permettono di rispondere meglio a un attacco.\n\nIl materiale formula anche alcuni suggerimenti per gli intermediari. Stabilire definizioni coerenti di sicurezza informatica. Gestire la sicurezza informatica come una vera disciplina di rischio. Ricordare che una sicurezza efficace richiede collaborazione oltre i silos organizzativi, condivisione delle conoscenze e cooperazione tra la tecnologia e i dipendenti. Coordinare sicurezza informatica e rischio operativo, per avere più visibilità sui rischi e portare le questioni di sicurezza fino al consiglio di amministrazione. E allineare le due discipline per stare al passo con i criminali online e con gli hacktivisti. In un'agenzia piccola tutto questo si traduce in cose semplici: qualcuno che abbia chiaramente la responsabilità della sicurezza, un elenco dei rischi che includa quelli informatici, e la sicurezza come tema stabile nelle decisioni del titolare.\n\nL'ultima parte riguarda l'economia della cyber insurance. Ripartiamo dai fondamentali. Il contratto di assicurazione è il trasferimento, da parte dell'assicurato a una compagnia, del rischio di sopportare le conseguenze patrimoniali di un danno. La polizza è un contratto di tipo particolare, detto per adesione, tra assicurato e assicuratore, che definisce termini, condizioni ed esclusioni del rischio assicurato. Il premio è la somma pagata dall'assicurato perché l'assicuratore si assuma il rischio. Le esclusioni sono i rischi esclusi dalla polizza. La copertura è l'ammontare di rischio o di responsabilità coperto dall'assicuratore, e può essere di due tipi. Nel first party damage le coperture riguardano danni a cose o persone, e il danno rilevante è quello che il sinistro provoca direttamente all'assicurato: in ambito cyber pensiamo ai costi per ripristinare i dati o al fermo dell'attività. Nel third party damage si copre il patrimonio, e il danno rilevante è quello che grava sull'assicurato in seguito alla richiesta di risarcimento di un terzo: ad esempio i clienti i cui dati sono stati violati.\n\nL'assicurazione cyber è un prodotto usato per proteggere aziende e singoli individui dai rischi derivanti dall'uso di Internet e, più in generale, dai rischi collegati a infrastrutture e attività informatiche. Come nasce una polizza cyber? Un valutatore identifica i diversi parametri di rischio, che possono essere beni di valore oppure minacce e vulnerabilità presenti nel sistema di sicurezza. Il rischio viene analizzato determinando la probabilità e il possibile impatto di un incidente, e aggregando questi valori. L'agente e l'assicuratore specificano la copertura e il premio. Infine il contratto viene scritto e firmato. Come vedete, l'intermediario è dentro il processo, e per questo deve conoscere il rischio che sta aiutando a trasferire.\n\nPerché la cyber insurance è utile? Quando si verifica un incidente cibernetico bisogna stabilire chi è responsabile del danno e chi sopporta la perdita, e nel mondo digitale questo non è sempre chiaro. L'assicurazione è enormemente vantaggiosa anche in caso di violazioni della sicurezza su larga scala: offre un meccanismo di finanziamento agevolato per riprendersi da gravi perdite, aiuta le imprese a tornare alla normalità e riduce la necessità di assistenza pubblica. Inoltre permette di distribuire equamente i rischi della sicurezza informatica, con premi commisurati all'entità delle perdite attese.\n\nMa non tutti i rischi sono assicurabili. Perché lo siano servono alcuni requisiti. La perdita deve essere accidentale, cioè fortuita e non sotto il controllo dell'assicurato. Il rischio di perdite catastroficamente grandi deve essere limitato: perdite di questo tipo possono accadere, ma con frequenza relativamente bassa. La perdita deve essere calcolabile: deve essere possibile stimare le perdite possibili e la probabilità di un incidente. Serve un grande numero di unità di esposizione simili, che aiuta a determinare la probabilità. Il premio deve essere accessibile, di importo ragionevole per l'assicurato. La perdita deve essere definita: tempo, luogo e causa dovrebbero essere facili da determinare. E infine la perdita deve essere grande abbastanza da giustificare l'assicurazione per l'assicurato. Il rischio cyber mette alla prova parecchi di questi requisiti: pensate a quanto può essere difficile stabilire quando è iniziato un attacco, o a quanti soggetti possono essere colpiti contemporaneamente dallo stesso malware.\n\nDue verifiche. Se un'impresa cliente subisce un furto di dati e i suoi clienti le chiedono un risarcimento, la copertura che risponde è la third party. E il materiale propone di integrare le due discipline partendo dall'allargamento della definizione di rischio operativo alla sicurezza informatica.\n\nRicapitolando: il GDPR tutela i dati delle persone fisiche ed è applicabile dal 25 maggio 2018; la sicurezza delle organizzazioni oggi è regolata dalla NIS2, recepita in Italia con il decreto 138 del 2024, con l'ACN come autorità; il rischio cyber va gestito come parte del rischio operativo definito dal Comitato di Basilea; le coperture si distinguono in first party e third party; e perché un rischio sia assicurabile servono sette requisiti. Nella prossima lezione vediamo come si può misurare il rischio cibernetico.",
+      "sources": [
+        {
+          "title": "Garante Privacy, Guida all'applicazione del Regolamento europeo in materia di protezione dei dati personali",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/6302257"
+        },
+        {
+          "title": "Direttiva (UE) 2022/2555 (NIS2), EUR-Lex",
+          "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj?locale=it"
+        },
+        {
+          "title": "D.Lgs. 4 settembre 2024, n. 138 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2024-09-04;138"
+        },
+        {
+          "title": "ACN, Domande frequenti NIS - Profili generali",
+          "url": "https://www.acn.gov.it/portale/en/faq/nis/profili-generali"
+        },
+        {
+          "title": "ACN, Domande frequenti NIS - Misure di sicurezza e notifica di incidenti",
+          "url": "https://www.acn.gov.it/portale/en/faq/nis/misure-di-sicurezza-e-notifica-di-incidenti"
+        },
+        {
+          "title": "ACN, Chi siamo",
+          "url": "https://www.acn.gov.it/portale/chi-siamo"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "GDPR: la fonte dice \"nel 2016 è entrato in vigore\". Mantenuta e precisata: in vigore dal 24 maggio 2016, pienamente applicabile dal 25 maggio 2018.",
+          "source_ref": "Garante Privacy, Guida all'applicazione del Regolamento"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: direttiva NIS (UE) 2016/1148 adottata il 6 luglio 2016. Possibile aggiornamento: la direttiva è stata sostituita dalla NIS2 (UE) 2022/2555, recepita in Italia con il D.Lgs. 138/2024 (aggiunto).",
+          "source_ref": "Dir. (UE) 2022/2555; D.Lgs. 138/2024"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "NIS2 e D.Lgs. 138/2024: termine di recepimento 17 ottobre 2024, GU 1° ottobre 2024, in vigore dal 16 ottobre 2024, abrogazione del D.Lgs. 65/2018, ACN autorità competente, soggetti essenziali e importanti, 18 settori, registrazione entro il 28 febbraio, pre-notifica 24 ore e notifica 72 ore al CSIRT Italia.",
+          "source_ref": "Normattiva D.Lgs. 138/2024; FAQ NIS ACN"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "ACN istituita con D.L. 82/2021; CSIRT Italia come team di risposta agli incidenti.",
+          "source_ref": "ACN, Chi siamo"
+        },
+        {
+          "kind": "modificato",
+          "description": "\"FACTA\" corretto in FATCA (refuso della fonte). Mantenuta dalla fonte: \"recepita in Italia nel 2014\". Riferimento da indicare / possibile aggiornamento: l'accordo Italia-USA è del 2014, la legge di ratifica ed esecuzione è la L. 95/2015 (non verificata su fonte ufficiale in questa revisione).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "La slide originale \"Regolamentazione cyber in Italia\" comprende GDPR, NIS, FATCA e CRS: FATCA e CRS sono presentati come obblighi fiscali che comportano flussi di dati da proteggere. Contenuti mantenuti integralmente.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione delle sigle CISO e CRO, esempi cyber per first e third party, applicazione dei suggerimenti a una piccola agenzia.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Calcolare il rischio nello spazio cibernetico",
+      "source_files": [
+        "corso totale/Area informatica /Calcolo del rischio nello spazio cibernetico.pdf.pdf.txt",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Cybersecurity/Calcolo del rischio nello spazio cibernetico prima parte pdf .txt",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Cybersecurity/Calcolo del rischio nello spazio cibernetico seconda partepdf.txt"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cybersecurity e rischio cyber",
+          "title": "Calcolare il rischio nello spazio cibernetico",
+          "goals": [
+            "Passare dalla formula classica R = P × I a quella del rischio cibernetico",
+            "Collocare un'organizzazione in una delle quattro classi di rischio",
+            "Conoscere come si stima l'impatto: beni, software e informazioni"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La formula classica del rischio",
+          "key": "R = P × I. Il rischio è la probabilità (o frequenza) che un evento si verifichi, moltiplicata per l'impatto (o danno) che l'evento genera.",
+          "body": "Esempio: un evento con probabilità annua del 10% e danno di 20.000 euro vale 2.000 euro di rischio atteso l'anno. Nel campo cibernetico, però, la formula mostra dei limiti.",
+          "ref": "Formula: materiale originale; esempio numerico didattico"
+        },
+        {
+          "layout": "split",
+          "title": "Perché P non basta nel cyber",
+          "left": {
+            "title": "Rischi tradizionali",
+            "items": [
+              "Lunghe serie storiche di sinistri",
+              "Eventi abbastanza stabili nel tempo",
+              "La frequenza passata aiuta a prevedere quella futura"
+            ]
+          },
+          "right": {
+            "title": "Rischio cyber",
+            "items": [
+              "Minacce che cambiano in fretta",
+              "Attaccanti che scelgono il bersaglio",
+              "Dati storici scarsi e incidenti spesso non dichiarati"
+            ]
+          },
+          "note": "Per questo la probabilità viene sostituita da due indici misurabili sull'organizzazione.",
+          "noteRef": "Limiti: materiale originale; esemplificazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "La formula del rischio cibernetico",
+          "key": "Rc = S × E × I. Al posto della probabilità P entrano l'indice di sicurezza S e l'indice di esposizione E; I resta l'impatto.",
+          "body": "Nella formula S rappresenta l'insicurezza: è legato al valore massimo che può assumere l'indice di sicurezza. Più l'organizzazione è sicura, più questo fattore si riduce e con esso il rischio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si misura il livello di sicurezza",
+          "steps": [
+            {
+              "label": "Le attività",
+              "text": "Si parte dalle 22 attività del Framework for Improving Critical Infrastructure Cybersecurity"
+            },
+            {
+              "label": "Le categorie",
+              "text": "Si raggruppano in quattro: Identificazione, Protezione, Rilevazione, Resilienza"
+            },
+            {
+              "label": "Le priorità",
+              "text": "Per ogni categoria si scelgono le subcategory, ognuna con priorità Lp bassa, media o alta"
+            },
+            {
+              "label": "La maturità",
+              "text": "Ogni categoria è la somma delle subcategory scelte, valutate per maturità Lm bassa, media o alta"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Il Framework NIST oggi: CSF 2.0",
+          "lead": "Il framework citato è del NIST, l'ente statunitense di standard. La versione 2.0 è del 26 febbraio 2024 e organizza le attività in sei funzioni.",
+          "facts": [
+            {
+              "label": "Govern",
+              "text": "Strategia, aspettative e politiche di gestione del rischio cyber"
+            },
+            {
+              "label": "Identify",
+              "text": "Capire i rischi cyber attuali"
+            },
+            {
+              "label": "Protect",
+              "text": "Applicare le misure di protezione"
+            },
+            {
+              "label": "Detect",
+              "text": "Scoprire e analizzare attacchi e compromissioni"
+            },
+            {
+              "label": "Respond",
+              "text": "Agire su un incidente rilevato"
+            },
+            {
+              "label": "Recover",
+              "text": "Ripristinare beni e attività colpiti"
+            }
+          ],
+          "ref": "NIST CSWP 29, CSF 2.0"
+        },
+        {
+          "layout": "split",
+          "title": "L'esposizione al rischio",
+          "left": {
+            "title": "Fattori interni",
+            "items": [
+              "Legati ai dati detenuti",
+              "Contano tipologia e quantità dei dati",
+              "Es.: un broker con migliaia di dati sanitari di clienti è più esposto"
+            ]
+          },
+          "right": {
+            "title": "Fattori esterni",
+            "items": [
+              "Caratteristiche dell'organizzazione collegate ai tipi di attacco",
+              "Es.: servizi online aperti al pubblico, pagamenti, visibilità del marchio"
+            ]
+          },
+          "note": "L'esposizione identifica i fattori, interni ed esterni, che rendono l'organizzazione un bersaglio.",
+          "noteRef": "Definizioni: materiale originale; esempi didattici"
+        },
+        {
+          "layout": "table",
+          "title": "Le quattro classi di rischio",
+          "lead": "Incrociando livello di sicurezza ed esposizione.",
+          "head": [
+            "Classe",
+            "Sicurezza",
+            "Esposizione"
+          ],
+          "rows": [
+            [
+              "1 · Resistente",
+              "Alta",
+              "Bassa"
+            ],
+            [
+              "2 · Sensibile",
+              "Alta",
+              "Alta"
+            ],
+            [
+              "3 · Inesperto",
+              "Bassa",
+              "Bassa"
+            ],
+            [
+              "4 · Vulnerabile",
+              "Bassa",
+              "Alta"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Valutare l'impatto: i danni ai fattori produttivi",
+          "cols": [
+            {
+              "title": "Immobilizzazioni immateriali",
+              "items": [
+                "Costi di impianto e di ampliamento",
+                "Costi di sviluppo",
+                "Brevetti e diritti di utilizzazione delle opere dell'ingegno",
+                "Concessioni, licenze, marchi e diritti simili",
+                "Avviamento",
+                "Immobilizzazioni in corso e acconti",
+                "Altre"
+              ]
+            },
+            {
+              "title": "Immobilizzazioni materiali",
+              "items": [
+                "Terreni e fabbricati",
+                "Impianti e macchinari",
+                "Attrezzature industriali e commerciali",
+                "Altri beni",
+                "Immobilizzazioni in corso e acconti"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Stimare il costo del software",
+          "left": {
+            "title": "Le due metriche",
+            "items": [
+              "Dimensionali: legate alla dimensione di uno o più output di un'attività",
+              "Funzionali: legate alle funzionalità complessive del codice"
+            ]
+          },
+          "right": {
+            "title": "Il function point",
+            "items": [
+              "Produttività = function point per persona-mese",
+              "Combina input e output esterni, interazioni con l'utente, interfacce esterne, file usati dal sistema"
+            ]
+          },
+          "note": "Il valore del software dipende dalla sua produttività.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tecniche di valutazione dei costi",
+          "head": [
+            "Tecnica",
+            "In sintesi"
+          ],
+          "rows": [
+            [
+              "Modellazione algoritmica",
+              "Il costo si calcola con un modello matematico basato su dati storici"
+            ],
+            [
+              "Expert judgement",
+              "Il costo è stimato da esperti del settore"
+            ],
+            [
+              "Stima per analogia",
+              "Si confronta con progetti simili già realizzati"
+            ],
+            [
+              "Parkinson's law",
+              "Il lavoro si espande fino a occupare le risorse disponibili: il costo è fissato dalle risorse"
+            ],
+            [
+              "Pricing to win",
+              "Il costo è quello che il cliente è disposto a pagare"
+            ]
+          ],
+          "ref": "Elenco: materiale originale; descrizioni didattiche"
+        },
+        {
+          "layout": "concept",
+          "title": "Quantificare l'informazione",
+          "key": "Stimare il valore delle informazioni che non compaiono in bilancio tra le immobilizzazioni immateriali è complesso.",
+          "body": "Rientrano in questa categoria le informazioni sensibili: dati personali, dati medici, dati bancari e finanziari. Sono proprio quelle che un intermediario tratta ogni giorno.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Due realtà a confronto. Un piccolo studio con pochi dati, nessun servizio online e misure di sicurezza minime. Un broker con migliaia di dati sanitari dei clienti, area riservata online e pagamenti digitali, che ha appena introdotto autenticazione a più fattori, backup cifrati, monitoraggio e un piano di ripristino.",
+          "questions": [
+            "In quale classe di rischio collochi ciascuno?",
+            "Su quale fattore della formula Rc = S × E × I deve lavorare lo studio?"
+          ],
+          "solution": "Lo studio ha sicurezza bassa ed esposizione bassa: è inesperto. Il broker ha sicurezza alta ed esposizione alta: è sensibile. Lo studio deve lavorare soprattutto su S, aumentando la sicurezza per diventare resistente; se in futuro aprirà servizi online o tratterà più dati, crescerà anche E."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'organizzazione con basso livello di sicurezza e alta esposizione, in quale classe di rischio rientra?",
+          "options": [
+            "Resistente",
+            "Sensibile",
+            "Inesperto",
+            "Vulnerabile"
+          ],
+          "answer": 3,
+          "explanation": "Bassa sicurezza e alta esposizione definiscono la classe vulnerabile, la più critica. Inesperto è bassa sicurezza con bassa esposizione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella formula Rc = S × E × I, che cosa sostituiscono gli indici S ed E?",
+          "options": [
+            "L'impatto I",
+            "La probabilità P della formula classica",
+            "Il premio assicurativo",
+            "Il valore del software"
+          ],
+          "answer": 1,
+          "explanation": "Nel campo cibernetico la probabilità è difficile da stimare: viene sostituita dagli indici di sicurezza S e di esposizione E, misurabili sull'organizzazione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "R = P × I",
+              "text": "la formula classica, con limiti nel cyber"
+            },
+            {
+              "value": "Rc = S × E × I",
+              "text": "sicurezza ed esposizione al posto della probabilità"
+            },
+            {
+              "value": "4",
+              "text": "classi: resistente, sensibile, inesperto, vulnerabile"
+            },
+            {
+              "value": "FP",
+              "text": "function point per persona-mese, misura della produttività del software"
+            },
+            {
+              "value": "Dati",
+              "text": "personali, medici, bancari: valore difficile da quantificare"
+            }
+          ]
+        }
+      ],
+      "narration": "Nelle lezioni precedenti abbiamo parlato di minacce e di regole. Ora facciamo un passo in più: proviamo a misurare il rischio cibernetico. Non serve diventare matematici, ma capire la logica delle formule aiuta a leggere un questionario di valutazione, a dialogare con un consulente e a spiegare a un cliente perché il suo rischio è più alto o più basso di quello che pensa.\n\nLa formula principale che descrive il rischio è R uguale a P per I. R è il rischio, dato dalla probabilità P, o frequenza, con cui si verifica un determinato evento, moltiplicata per l'impatto I, o danno, che l'evento genera. Facciamo un esempio solo per capire il meccanismo: se un evento ha una probabilità del dieci per cento in un anno e, quando accade, produce un danno di ventimila euro, il rischio atteso è di duemila euro l'anno. È la logica che sta alla base anche del premio assicurativo.\n\nQuesta formula, però, presenta dei limiti quando la si applica al campo cibernetico. Proviamo a capire perché. Per molti rischi tradizionali disponiamo di lunghe serie storiche di sinistri, gli eventi sono abbastanza stabili nel tempo e la frequenza passata aiuta a prevedere quella futura. Nel cyber le minacce cambiano rapidamente, gli attaccanti scelgono il bersaglio, i dati storici sono scarsi e molti incidenti non vengono nemmeno dichiarati. Stimare una probabilità affidabile è quindi difficile.\n\nPer questo, sostituendo la probabilità P con due indici, l'indice di sicurezza S e l'indice di esposizione E, si è ridefinito il rischio cibernetico con una nuova formula: R c uguale a S per E per I. Nella formula, S rappresenta l'indice di insicurezza, che il materiale collega al valore massimo che può assumere l'indice di sicurezza S. In parole semplici: più un'organizzazione è sicura, più questo fattore si riduce, e con esso il rischio. L'impatto I resta al suo posto. Il vantaggio è evidente: invece di indovinare una probabilità, misuriamo due caratteristiche concrete dell'organizzazione, quanto è protetta e quanto è esposta.\n\nCome si misura il livello di sicurezza? Il metodo si basa sulle ventidue attività previste dal Framework for Improving Critical Infrastructure Cybersecurity, un quadro di riferimento per migliorare la sicurezza delle infrastrutture critiche. Ciascuna attività viene associata a un livello di maturità in base al contesto in cui l'organizzazione opera. Le attività sono state riorganizzate in quattro categorie: Identificazione, Protezione, Rilevazione e Resilienza. Per ogni categoria sono state selezionate delle sottocategorie, le subcategory, e ognuna ha un livello di priorità, indicato con L p, che può essere basso, medio o alto. Ogni categoria è data poi dalla somma delle singole subcategory selezionate, valutate per il loro livello di maturità, indicato con L m, anch'esso basso, medio o alto. In pratica: si decide che cosa conta di più per quell'organizzazione e si misura quanto bene lo fa.\n\nUn aggiornamento utile. Il framework citato è pubblicato dal NIST, l'istituto nazionale statunitense per gli standard e la tecnologia, ed è oggi il riferimento più diffuso al mondo per la gestione del rischio cyber. La versione 2.0, pubblicata il 26 febbraio 2024, organizza le attività in sei funzioni. Govern, governare: definire la strategia, le aspettative e le politiche di gestione del rischio. Identify, identificare: capire quali sono i rischi cyber attuali. Protect, proteggere: applicare le misure di protezione. Detect, rilevare: scoprire e analizzare possibili attacchi e compromissioni. Respond, rispondere: agire quando un incidente viene rilevato. Recover, ripristinare: rimettere in funzione beni e attività colpiti. Le quattro categorie del metodo che stiamo studiando, Identificazione, Protezione, Rilevazione e Resilienza, si ritrovano in queste funzioni; la novità più rilevante della versione 2.0 è la funzione Govern, che porta il tema cyber al livello della direzione.\n\nSecondo indice: l'esposizione. Riguarda l'identificazione dei fattori interni ed esterni che influenzano l'esposizione al rischio. I fattori interni sono quelli legati ai dati detenuti: la tipologia e la quantità dei dati determinano questo fattore. Un broker che conserva migliaia di dati sanitari dei clienti per le polizze malattia è molto più esposto di un piccolo ufficio che gestisce pochi contratti. I fattori esterni, invece, sono alcune caratteristiche dell'organizzazione direttamente collegate con le tipologie di attacco: ad esempio avere un'area clienti online aperta al pubblico, gestire pagamenti digitali, avere un marchio molto conosciuto.\n\nIncrociando livello di sicurezza ed esposizione si ottengono quattro classi di rischio. Resistente: alto livello di sicurezza e bassa esposizione. È la situazione migliore. Sensibile: alto livello di sicurezza ma alta esposizione; l'organizzazione è protetta ma resta un bersaglio interessante, e deve mantenere alta la guardia. Inesperto: basso livello di sicurezza e bassa esposizione; per ora attira poco, ma è impreparato. Vulnerabile: basso livello di sicurezza e alta esposizione. È la combinazione più critica, quella su cui intervenire per prima.\n\nIl terzo fattore della formula è l'impatto. Per valutarlo si guardano i danni ai fattori produttivi, cioè agli elementi necessari a produrre un bene o a erogare un servizio, che si distinguono in materiali e immateriali. Le immobilizzazioni immateriali sono sette voci: costi di impianto e di ampliamento; costi di sviluppo; diritti di brevetto industriale e diritti di utilizzazione delle opere dell'ingegno; concessioni, licenze, marchi e diritti simili; avviamento; immobilizzazioni in corso e acconti; altre. Le immobilizzazioni materiali comprendono invece: terreni e fabbricati; impianti e macchinari; attrezzature industriali e commerciali; altri beni; immobilizzazioni in corso e acconti. Sono le stesse voci che si trovano nello stato patrimoniale del bilancio. Pensate all'avviamento di un'agenzia: un attacco che diffonde i dati dei clienti può colpire proprio quella reputazione su cui si basa il valore del portafoglio.\n\nUn bene particolare da valutare è il software. La valutazione del costo del software dipende dalla sua produttività, e le metriche usate sono di due tipi. Le metriche dimensionali dipendono dalla dimensione di uno o più output legati a un'attività. Le metriche funzionali dipendono dalle funzionalità complessive del codice. La produttività si esprime in numero di function point realizzati per persona-mese, cioè per ogni mese di lavoro di una persona. Una function point non è una singola caratteristica, ma una combinazione di diverse misurazioni o stime: gli input e gli output esterni, le interazioni con l'utente, le interfacce esterne e i file usati dal sistema.\n\nLe tecniche di valutazione dei costi indicate dal materiale sono cinque. La modellazione algoritmica dei costi, che usa un modello matematico costruito su dati storici. L'expert judgement, il giudizio di esperti. La stima per analogia, che confronta il progetto con altri simili già realizzati. La legge di Parkinson, secondo cui il lavoro si espande fino a occupare tutte le risorse disponibili: il costo viene quindi fissato dalle risorse a disposizione più che dal lavoro necessario. E il pricing to win, dove il costo è quello che il cliente è disposto a pagare. Le ultime due sono più criteri pratici che metodi di misura in senso stretto, ma nella realtà sono molto usate.\n\nInfine, quantificare l'informazione. Fare una stima del valore potenziale delle informazioni che non compaiono nello stato patrimoniale tra le immobilizzazioni immateriali è una pratica complessa. I tipi di informazioni sensibili che rientrano in questa categoria sono i dati personali, i dati medici e i dati bancari e finanziari. Notate che sono esattamente le informazioni che un intermediario assicurativo raccoglie ogni giorno: anagrafiche, questionari sanitari, IBAN e dati di pagamento. Il loro valore non è scritto in bilancio, ma la loro perdita può costare moltissimo.\n\nProviamo ad applicare il metodo a un caso. Da una parte c'è un piccolo studio con pochi dati, nessun servizio online e misure di sicurezza minime. Dall'altra un broker con migliaia di dati sanitari dei clienti, un'area riservata online e pagamenti digitali, che ha appena introdotto autenticazione a più fattori, backup cifrati, monitoraggio e un piano di ripristino. Lo studio ha sicurezza bassa ed esposizione bassa: è nella classe inesperto. Il broker ha sicurezza alta ed esposizione alta: è nella classe sensibile. Lo studio deve lavorare soprattutto sul fattore S, cioè aumentare la sicurezza, per diventare resistente. E se in futuro aprirà servizi online o tratterà più dati, crescerà anche la sua esposizione E: a quel punto, senza nuove misure, scivolerebbe tra i vulnerabili.\n\nDue domande di verifica. Un'organizzazione con basso livello di sicurezza e alta esposizione rientra nella classe vulnerabile. E nella formula R c uguale a S per E per I, gli indici S ed E sostituiscono la probabilità P della formula classica.\n\nRicapitolando: la formula classica del rischio è R uguale a P per I, ma nel cyber mostra dei limiti; la formula del rischio cibernetico sostituisce la probabilità con sicurezza ed esposizione; le classi di rischio sono quattro, resistente, sensibile, inesperto e vulnerabile; l'impatto si valuta sui beni materiali e immateriali, sul software, misurato in function point per persona-mese, e sulle informazioni, il cui valore è il più difficile da quantificare. Nell'ultima lezione vedremo i metodi di analisi del cyber risk e il ruolo dell'assicurazione nella sua gestione.",
+      "sources": [
+        {
+          "title": "NIST, The NIST Cybersecurity Framework (CSF) 2.0, NIST CSWP 29, 26 febbraio 2024",
+          "url": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "NIST CSF 2.0, pubblicato il 26 febbraio 2024, con le sei funzioni Govern, Identify, Protect, Detect, Respond, Recover.",
+          "source_ref": "NIST CSWP 29"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"S indice di insicurezza, equivale al valore massimo che può assumere l'indice di sicurezza S\". Il testo estratto è incompleto (simbolo probabilmente perso: l'indice di insicurezza è verosimilmente la differenza tra il valore massimo di S e S). Reso come \"legato al valore massimo\". Riferimento da indicare: fonte originale della formula Rc = S × E × I.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"ventidue attività\" del Framework for Improving Critical Infrastructure Cybersecurity riorganizzate in quattro categorie. Possibile aggiornamento: nella versione 1.x del framework NIST il numero si riferisce alle categorie; la versione attuale è la CSF 2.0 con sei funzioni (aggiunta).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio numerico di R = P × I, spiegazione dei limiti della probabilità nel cyber, esempi di fattori di esposizione, descrizione delle cinque tecniche di stima dei costi e caso pratico sulle classi di rischio (contenuti didattici, senza dati normativi).",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Cyber risk: gestione, metodi di analisi e trasferimento",
+      "source_files": [
+        "corso totale/Area informatica /Cyber risk (1).pdf.pdf.txt",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area Informatica/Cybersecurity/Cyber risk.pdf .txt"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cybersecurity e rischio cyber",
+          "title": "Cyber risk: gestione, metodi di analisi e trasferimento",
+          "goals": [
+            "Riconoscere i tipi di danno che un evento cyber produce",
+            "Capire quando conviene trasferire il rischio residuo al mercato assicurativo",
+            "Distinguere i metodi quantitativi e qualitativi di analisi del rischio"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché il cyber risk management conta",
+          "key": "Adottare strumenti efficienti ed efficaci di gestione del cyber risk è cruciale: possono dipenderne le sorti stesse dell'impresa.",
+          "body": "Un attacco grave può fermare l'attività, far perdere clienti e generare richieste di risarcimento. Per una piccola impresa può significare la chiusura.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Tre tipologie di danni nello spazio cyber",
+          "head": [
+            "Tipo",
+            "Che cosa colpisce",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "1 · Materiali diretti",
+              "Beni fisici colpiti dall'evento",
+              "Server o PC da sostituire"
+            ],
+            [
+              "2 · Materiali indiretti",
+              "Conseguenze economiche dell'evento sui beni",
+              "Fermo dell'attività, mancati incassi"
+            ],
+            [
+              "3 · Immateriali diretti e indiretti",
+              "Dati, reputazione, fiducia",
+              "Dati persi, clienti che se ne vanno"
+            ]
+          ],
+          "ref": "Tipologie: materiale originale; esempi didattici"
+        },
+        {
+          "layout": "steps",
+          "title": "Un processo integrato di risk management",
+          "steps": [
+            {
+              "label": "Includere il cyber",
+              "text": "Il risk management aziendale deve comprendere l'ambito cyber"
+            },
+            {
+              "label": "Ridurre",
+              "text": "Misure di sicurezza per abbassare il rischio"
+            },
+            {
+              "label": "Fissare la soglia",
+              "text": "Stabilire oltre quale soglia conviene trasferire al mercato assicurativo il rischio residuo"
+            },
+            {
+              "label": "Bilanciare",
+              "text": "Trovare il trade-off ottimale tra prezzo della copertura ed esposizione residua"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Le due metodologie di indennizzo",
+          "cols": [
+            {
+              "title": "First Party Damages",
+              "items": [
+                "Tutti i danni sofferti dall'azienda colpita dall'evento cyber",
+                "Scatta con la rilevazione del danno all'azienda assicurata"
+              ]
+            },
+            {
+              "title": "Third Party Damages",
+              "items": [
+                "La responsabilità dell'azienda per la violazione dei dati di terzi che detiene",
+                "Scatta con la richiesta di risarcimento dei terzi"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Implementare una copertura cyber",
+          "steps": [
+            {
+              "label": "Consulente",
+              "text": "Coinvolgere un consulente assicurativo"
+            },
+            {
+              "label": "Risk assessment",
+              "text": "Valutare i rischi dell'azienda"
+            },
+            {
+              "label": "Questionario",
+              "text": "Compilare il questionario assicurativo"
+            },
+            {
+              "label": "Copertura",
+              "text": "Implementare la copertura assicurativa"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Analizzare il rischio: due approcci",
+          "cols": [
+            {
+              "title": "Quantitativo",
+              "items": [
+                "Usa due elementi base: probabilità dell'evento e perdita possibile",
+                "Risultati in numeri, spesso in euro"
+              ]
+            },
+            {
+              "title": "Qualitativo",
+              "items": [
+                "Classifica la magnitudo dell'impatto di una minaccia come alta, media o bassa",
+                "Nessun valore numerico"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Metodi quantitativi: R = F × V e ISRAM",
+          "key": "R = F × V. Il rischio è la frequenza delle minacce per la vulnerabilità di un'informazione di sistema a quella minaccia.",
+          "body": "Il modello ISRAM analizza i rischi di sicurezza di un'organizzazione usando i risultati di due questionari separati e indipendenti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Il modello CORA",
+          "left": {
+            "title": "SOL",
+            "items": [
+              "Perdita potenziale (caso peggiore, in denaro) × vulnerabilità",
+              "Calcolata per ogni minaccia identificata"
+            ]
+          },
+          "right": {
+            "title": "ALE",
+            "items": [
+              "Perdita annua attesa",
+              "Conseguenza × frequenza, aggregando i SOL relativi alla minaccia"
+            ]
+          },
+          "note": "CORA supporta la gestione del rischio con un processo in due fasi.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Un esempio di calcolo",
+          "lead": "Numeri di fantasia, solo per capire il meccanismo.",
+          "facts": [
+            {
+              "label": "Perdita potenziale",
+              "text": "Furto dell'archivio clienti: 50.000 euro nel caso peggiore"
+            },
+            {
+              "label": "Vulnerabilità",
+              "text": "0,4: le difese coprono solo in parte la minaccia"
+            },
+            {
+              "label": "SOL",
+              "text": "50.000 × 0,4 = 20.000 euro"
+            },
+            {
+              "label": "Frequenza",
+              "text": "Un evento ogni cinque anni: 0,2"
+            },
+            {
+              "label": "ALE",
+              "text": "20.000 × 0,2 = 4.000 euro l'anno"
+            }
+          ],
+          "ref": "Esempio didattico"
+        },
+        {
+          "layout": "table",
+          "title": "Metodi qualitativi",
+          "head": [
+            "Metodo",
+            "In sintesi"
+          ],
+          "rows": [
+            [
+              "FMEA/FMECA",
+              "Analizza l'impatto di ogni possibile difetto sul funzionamento dell'intero sistema e li ordina per gravità"
+            ],
+            [
+              "NIST SP 800-30",
+              "Guida del NIST alla valutazione dei rischi, centrata sul risk assessment"
+            ],
+            [
+              "CRAMM",
+              "Tre fasi: obiettivi di sicurezza; valutazione di rischi e requisiti; scelta delle contromisure in base ai rischi calcolati"
+            ]
+          ],
+          "ref": "Materiale originale; NIST SP 800-30 Rev. 1"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una ditta di logistica cliente chiede al suo intermediario una polizza cyber. Ha 40 dipendenti, un gestionale online con i dati dei destinatari e nessuna valutazione del rischio. Vuole \"coprire tutto\" spendendo poco.",
+          "questions": [
+            "Da quale passo bisogna partire?",
+            "Quali danni guarderesti tra first party e third party?",
+            "Perché non conviene trasferire tutto il rischio?"
+          ],
+          "solution": "Prima il risk assessment, poi il questionario assicurativo. First party: fermo del gestionale, ripristino dei dati. Third party: richieste dei destinatari i cui dati fossero violati. Trasferire tutto costerebbe troppo: si riduce prima il rischio con misure di sicurezza e si trasferisce il residuo oltre una soglia, bilanciando premio ed esposizione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella metodologia third party damages, che cosa fa scattare la copertura?",
+          "options": [
+            "La rilevazione del danno all'azienda assicurata",
+            "La richiesta di risarcimento dei terzi per la violazione dei loro dati detenuti dall'assicurato",
+            "La firma del questionario",
+            "Il calcolo dell'ALE"
+          ],
+          "answer": 1,
+          "explanation": "Nel first party il trigger è la rilevazione del danno all'azienda; nel third party è la richiesta di risarcimento dei terzi, conseguente alla violazione dei loro dati detenuti dall'assicurato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale metodo classifica l'impatto di una minaccia come alto, medio o basso senza usare valori numerici?",
+          "options": [
+            "Il metodo quantitativo",
+            "Il metodo qualitativo",
+            "Il modello CORA",
+            "La formula R = F × V"
+          ],
+          "answer": 1,
+          "explanation": "Il metodo qualitativo usa scale come alto, medio, basso. Quelli quantitativi, come R = F × V, ISRAM e CORA, lavorano con probabilità e perdite."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "tipi di danno: materiali diretti, materiali indiretti, immateriali"
+            },
+            {
+              "value": "Soglia",
+              "text": "oltre la quale conviene trasferire il rischio residuo"
+            },
+            {
+              "value": "4",
+              "text": "passi per la copertura: consulente, risk assessment, questionario, polizza"
+            },
+            {
+              "value": "R = F × V",
+              "text": "frequenza per vulnerabilità; CORA usa SOL e ALE"
+            },
+            {
+              "value": "FMEA · NIST · CRAMM",
+              "text": "i metodi qualitativi"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione mettiamo insieme i pezzi: come si gestisce il cyber risk in un'impresa, quando ha senso trasferirlo al mercato assicurativo e con quali metodi si analizza. È la parte più vicina al lavoro dell'intermediario che propone o rinnova una copertura cyber a un'impresa cliente.\n\nPartiamo dal contesto. L'adozione di strumenti efficienti ed efficaci di gestione del rischio cyber, il cyber risk management, ha un'importanza cruciale, perché da essa possono dipendere le sorti stesse dell'impresa. Non è un'esagerazione: un attacco grave può fermare l'attività per giorni, far perdere clienti e generare richieste di risarcimento. Per una piccola impresa può voler dire la chiusura.\n\nNello spazio cyber si possono distinguere tre tipologie di danni. I danni materiali diretti colpiscono i beni fisici: un server o dei computer da sostituire. I danni materiali indiretti sono le conseguenze economiche dell'evento: il fermo dell'attività, i mancati incassi, il personale pagato mentre i sistemi sono bloccati. I danni immateriali, diretti e indiretti, colpiscono beni che non si toccano: i dati persi o rubati, la reputazione, la fiducia dei clienti che decidono di andarsene. Gli esempi sulla slide sono didattici, ma servono a capire che un evento cyber raramente produce un solo tipo di danno.\n\nPer far fronte alle diverse minacce, le aziende devono strutturare un processo integrato di risk management che includa l'ambito cyber. È lo stesso messaggio della convergenza con il rischio operativo che abbiamo visto nella seconda lezione. All'interno di questo processo, la società deve stabilire oltre quale soglia sia più conveniente trasferire al mercato assicurativo il rischio residuo, cioè quello che rimane dopo aver adottato le misure di sicurezza. E nello stesso tempo deve valutare il trade-off ottimale, cioè il miglior compromesso, tra il prezzo della copertura assicurativa e il livello di esposizione residua al rischio. Assicurarsi contro tutto costa troppo; non assicurarsi affatto lascia l'impresa scoperta. Il punto giusto sta nel mezzo, e l'intermediario può aiutare il cliente a trovarlo.\n\nIl mercato degli assicuratori presenta due approcci, da cui derivano due tipologie di indennizzo. Le abbiamo già incontrate parlando del contratto di assicurazione; qui aggiungiamo un elemento importante, cioè che cosa fa scattare la copertura. I First Party Damages comprendono tutti i danni sofferti dall'azienda colpita da un evento cyber. I Third Party Damages riguardano invece la responsabilità dell'azienda assicurata per la violazione dei dati di terzi di cui è in possesso. L'elemento che fa scattare la copertura, il cosiddetto trigger, nella metodologia first party è la rilevazione del danno all'azienda assicurata; nella metodologia third party è la richiesta di risarcimento danni avanzata da terzi in conseguenza della violazione dei loro dati detenuti dall'assicurato. Questa distinzione conta molto quando si legge una polizza: bisogna capire da quale momento decorre la copertura e quale evento la attiva.\n\nCome si arriva concretamente a una copertura cyber? Il materiale indica quattro passaggi. Primo, il coinvolgimento di un consulente assicurativo. Secondo, il risk assessment, cioè la valutazione dei rischi dell'azienda. Terzo, la compilazione del questionario assicurativo, che serve all'assicuratore per conoscere il rischio. Quarto, l'implementazione della copertura assicurativa. L'ordine non è casuale: senza una valutazione del rischio il questionario rischia di essere compilato in modo approssimativo, e un questionario impreciso può creare problemi proprio al momento del sinistro.\n\nEntriamo ora nei metodi di valutazione ed elaborazione del cyber risk. I metodi per analizzare il rischio sugli asset esposti dell'organizzazione sono di due tipi. Il metodo quantitativo usa due elementi base: la probabilità che un evento si verifichi e la perdita in cui si può incorrere. Il risultato è un numero, spesso espresso in euro. Il metodo qualitativo, invece, classifica la magnitudo del possibile impatto di una minaccia come alta, media o bassa, senza usare valori numerici. Il primo è più preciso ma richiede dati; il secondo è più rapido ed è spesso il punto di partenza nelle realtà più piccole.\n\nVediamo i metodi quantitativi. Una semplice valutazione del rischio è espressa dalla formula R uguale a F per V, dove R è il valore del rischio, F è la frequenza delle minacce e V è la vulnerabilità di un'informazione di sistema rispetto a una data minaccia. Notate la differenza con la formula della lezione precedente: qui, al posto della probabilità, troviamo la frequenza con cui la minaccia si presenta, e al posto dell'impatto la vulnerabilità. Il modello ISRAM utilizza invece i risultati di due questionari separati e indipendenti per analizzare i rischi di sicurezza di un'organizzazione.\n\nIl modello CORA supporta la gestione del rischio con un processo composto da due fasi, calcolando per ogni minaccia identificata due valori: il SOL e l'ALE. Il SOL è dato dalla perdita potenziale, cioè il caso peggiore espresso in valore monetario, moltiplicata per la vulnerabilità. L'ALE, la perdita annua attesa, è data dalla conseguenza per la frequenza, e il materiale precisa che il risultato si ottiene sommando i SOL relativi alla minaccia. Facciamo un esempio con numeri di pura fantasia, solo per capire il meccanismo. Il furto dell'archivio clienti, nel caso peggiore, costerebbe cinquantamila euro. Le difese coprono la minaccia solo in parte, e stimiamo una vulnerabilità di 0,4. Il SOL è quindi cinquantamila per 0,4, cioè ventimila euro. Se stimiamo che un evento del genere accada in media una volta ogni cinque anni, la frequenza annua è 0,2, e l'ALE è ventimila per 0,2, cioè quattromila euro l'anno. Un numero di questo tipo aiuta a decidere quanto ha senso spendere in sicurezza e quanto in assicurazione.\n\nPassiamo ai metodi qualitativi. Il primo è FMEA, o nella versione estesa FMECA: l'essenza del metodo è analizzare l'impatto di ogni possibile difetto sul funzionamento dell'intero sistema e mettere in ordine i difetti in base al loro livello di gravità. Il secondo è la NIST SP 800-30, la guida del NIST per condurre le valutazioni dei rischi, nella revisione del settembre 2012, che ha reso la metodologia più focalizzata sulla valutazione dei rischi. Il terzo è CRAMM, che comprende tre fasi: l'istituzione degli obiettivi di sicurezza; la valutazione dei rischi per il sistema proposto e dei requisiti di sicurezza; l'identificazione e la selezione delle contromisure adeguate ai rischi calcolati nella seconda fase.\n\nVediamo un caso pratico. Una ditta di logistica cliente chiede al suo intermediario una polizza cyber. Ha quaranta dipendenti, un gestionale online con i dati dei destinatari delle spedizioni e nessuna valutazione del rischio. Vuole, testualmente, coprire tutto spendendo poco. Da dove si parte? Dal risk assessment, e solo dopo dal questionario assicurativo. Quali danni guardare? Tra i first party, il fermo del gestionale e i costi di ripristino dei dati; tra i third party, le richieste di risarcimento dei destinatari i cui dati venissero violati. Perché non conviene trasferire tutto? Perché costerebbe troppo e perché parte del rischio si riduce meglio con misure di sicurezza. Si trasferisce al mercato il rischio residuo oltre una certa soglia, cercando l'equilibrio tra premio ed esposizione che resta a carico dell'impresa.\n\nDue verifiche finali. Nella metodologia third party damages la copertura scatta con la richiesta di risarcimento avanzata dai terzi per la violazione dei loro dati detenuti dall'assicurato. E il metodo che classifica l'impatto come alto, medio o basso, senza numeri, è quello qualitativo.\n\nRicapitolando: nello spazio cyber ci sono tre tipologie di danni, materiali diretti, materiali indiretti e immateriali; il risk management deve includere il cyber e stabilire oltre quale soglia conviene trasferire il rischio residuo all'assicurazione; la copertura si costruisce in quattro passaggi, dal consulente alla polizza; tra i metodi quantitativi ci sono la formula R uguale a F per V, ISRAM e CORA con SOL e ALE; tra i qualitativi FMEA e FMECA, la NIST SP 800-30 e CRAMM. Con questo si chiude il percorso su cybersecurity e rischio cyber.",
+      "sources": [
+        {
+          "title": "NIST SP 800-30 Rev. 1, Guide for Conducting Risk Assessments",
+          "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Elenco delle tre tipologie di danni riordinato (nella fonte \"danni materiali indiretti\" compariva in fondo alla lista). Mantenute tutte e tre le tipologie.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"ALE = conseguenza x frequenza, il cui risultato è uguale a ∑n dove n è il numero di SOL relativo\". Il testo estratto è incompleto; reso come somma dei SOL relativi alla minaccia. Riferimento da indicare: documentazione originale del modello CORA.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Titolo e data (settembre 2012) della NIST SP 800-30 Rev. 1, Guide for Conducting Risk Assessments.",
+          "source_ref": "NIST SP 800-30 Rev. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi didattici dei tipi di danno, esempio numerico SOL/ALE con valori di fantasia, caso pratico sulla copertura cyber per una ditta di logistica.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}
