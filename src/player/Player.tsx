@@ -209,13 +209,16 @@ export default function Player() {
           </p>
         )}
         {allDone && (
-          <div className="mb-4 rounded-2xl border border-line bg-white p-4">
-            <h2 className="font-semibold">Test finale</h2>
-            <p className="text-sm text-ink-muted">
-              {hoursOk || demo
-                ? 'Hai completato tutte le lezioni e raggiunto le ore richieste: il test finale sarà disponibile qui.'
-                : `Hai completato tutte le lezioni. Il test si sblocca al raggiungimento di ${course.courses.required_hours} ore di studio (ora ${fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.`}
-            </p>
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-white p-4">
+            <div>
+              <h2 className="font-semibold">Test finale</h2>
+              <p className="text-sm text-ink-muted">
+                {course.status === 'completato' ? 'Test superato.'
+                  : hoursOk || demo ? 'Hai completato tutte le lezioni e raggiunto le ore richieste.'
+                  : `Lezioni completate. Il test si sblocca a ${course.courses.required_hours} ore di studio (ora ${fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.`}
+              </p>
+            </div>
+            {(hoursOk || demo) && course.status !== 'completato' && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>}
           </div>
         )}
 

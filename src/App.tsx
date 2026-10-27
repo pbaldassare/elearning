@@ -12,9 +12,11 @@ import Content from './pages/admin/Content';
 import Companies from './pages/admin/Companies';
 import Audit from './pages/admin/Audit';
 import Player from './player/Player';
+import Quiz from './player/Quiz';
+import Questions from './pages/admin/Questions';
 
 const nav: Record<Role, [string, string][]> = {
-  admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/registro', 'Registro']],
+  admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/domande', 'Domande'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/registro', 'Registro']],
   azienda: [['/', 'Corsi'], ['/corsisti', 'Corsisti']],
   corsista: [['/', 'I miei corsi']],
 };
@@ -83,6 +85,8 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="/profilo" element={<Profile />} />
         <Route path="/corso/:id" element={<Only roles={['corsista']}><Player /></Only>} />
+        <Route path="/corso/:id/test" element={<Only roles={['corsista']}><Quiz /></Only>} />
+        <Route path="/domande" element={<Only roles={['admin']}><Questions /></Only>} />
         <Route path="/corsisti" element={<Only roles={['admin', 'azienda']}><People /></Only>} />
         <Route path="/contenuti" element={<Only roles={['admin']}><Content /></Only>} />
         <Route path="/aziende" element={<Only roles={['admin']}><Companies /></Only>} />

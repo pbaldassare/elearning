@@ -1,0 +1,585 @@
+[
+  {
+    "row": 2,
+    "text": "A quale scopo possono essere utilizzate le soluzioni cloud?",
+    "options": [
+      {
+        "text": "Ad aumentare la resilienza del sistema.",
+        "correct": true
+      },
+      {
+        "text": "A ridurre i problemi relativi alla robustezza del sistema.",
+        "correct": false
+      },
+      {
+        "text": "ad avere una linea internet più stabile",
+        "correct": false
+      },
+      {
+        "text": "A favorire gli attacchi cyber.",
+        "correct": false
+      },
+      {
+        "text": "ad impedire gli attacchi cyber",
+        "correct": false
+      },
+      {
+        "text": "a filtrare le domunicazioni",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 3,
+    "text": "Quale affermazione sulle polizze digitali e' vera",
+    "options": [
+      {
+        "text": "E' un mercato solo per imprese estere",
+        "correct": false
+      },
+      {
+        "text": "Copre solo il settore hi-tech",
+        "correct": false
+      },
+      {
+        "text": "Copre solo il settore salute",
+        "correct": false
+      },
+      {
+        "text": "Sono rivolte solo ai giovani",
+        "correct": false
+      },
+      {
+        "text": "E' uno strumento utilizabile da tutti",
+        "correct": true
+      }
+    ],
+    "issues": [
+      "risposte vuote nelle colonne 3"
+    ]
+  },
+  {
+    "row": 4,
+    "text": "Quale affermazione sulla Blockchain è vera e completa",
+    "options": [
+      {
+        "text": "Tutte le transazioni sono criptate",
+        "correct": false
+      },
+      {
+        "text": "Tutte le transazioni sono criptate e trasferite su computer che hanno tutto il registro delle transazioni",
+        "correct": true
+      },
+      {
+        "text": "Tutte le transazioni sono criptate e trasferite su computer che solo quella singola transazione registrata",
+        "correct": false
+      },
+      {
+        "text": "e' utilizzata solo da imprese assiicurative estere",
+        "correct": false
+      },
+      {
+        "text": "E' utile solo per gli acquisti online",
+        "correct": false
+      },
+      {
+        "text": "e' già stata adottata da tutte le imprese di assicurazione",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 5,
+    "text": "Le sanzioni disciplinari normate",
+    "options": [
+      {
+        "text": "Solo dal codice delle assicurazioni",
+        "correct": false
+      },
+      {
+        "text": "Solo dal Regolamento Isvap 5/2006 art 62",
+        "correct": false
+      },
+      {
+        "text": "dal Codice Civile",
+        "correct": false
+      },
+      {
+        "text": "dal Codice civile e dal Codice delle Assicurazioni",
+        "correct": false
+      },
+      {
+        "text": "dal Codice civile e dal regolamento Isvap",
+        "correct": false
+      },
+      {
+        "text": "dal Codice civile e dal regolamento Isvap, e dal reg. Ivass 2?2013",
+        "correct": true
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 6,
+    "text": "Cos'e' un Data Breach",
+    "options": [
+      {
+        "text": "E' una violazione dei dati",
+        "correct": false
+      },
+      {
+        "text": "E' una violazione dei dati che prevede un intervento da parte del responsabile del trattamento",
+        "correct": true
+      },
+      {
+        "text": "E' una violazione dei dati che prevede un intervento da parte del titolare del trattamento",
+        "correct": false
+      },
+      {
+        "text": "E' una violazione dei dati che prevede un intervento da parte dell'informatico della societò",
+        "correct": false
+      },
+      {
+        "text": "E' una cosa da nulla",
+        "correct": false
+      }
+    ],
+    "issues": [
+      "risposte vuote nelle colonne 3"
+    ]
+  },
+  {
+    "row": 7,
+    "text": "La Fea - firma elettronica avanzata-",
+    "options": [
+      {
+        "text": "si puo'usare solo nella stipula a distanza",
+        "correct": false
+      },
+      {
+        "text": "si puo' usare solo nella stipula all'interno dei locali",
+        "correct": false
+      },
+      {
+        "text": "non ha valore legale",
+        "correct": false
+      },
+      {
+        "text": "si puo' usare nella stipula a distanza e all'interno dei locali",
+        "correct": true
+      },
+      {
+        "text": "Non permette l'archiviazione dei documenti",
+        "correct": false
+      },
+      {
+        "text": "E' una pratica di sottoscrizione poco tecnologica",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 8,
+    "text": "Quanto dura l'attestato di rischio?",
+    "options": [
+      {
+        "text": "5 mesi",
+        "correct": false
+      },
+      {
+        "text": "4 anni",
+        "correct": false
+      },
+      {
+        "text": "5 anni",
+        "correct": true
+      },
+      {
+        "text": "10 anni",
+        "correct": false
+      },
+      {
+        "text": "non ha scadenza",
+        "correct": false
+      },
+      {
+        "text": "1 mese",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 9,
+    "text": "Quando l'attestato di rischio è diventato dinamico?",
+    "options": [
+      {
+        "text": "Dal 1° gennaio 2015",
+        "correct": false
+      },
+      {
+        "text": "Dal 15 giugno 2018",
+        "correct": false
+      },
+      {
+        "text": "Dal 3°agosto 2018",
+        "correct": false
+      },
+      {
+        "text": "Dal 1°gennaio 2018",
+        "correct": false
+      },
+      {
+        "text": "Dal 1°agosto 2018",
+        "correct": true
+      },
+      {
+        "text": "Dal 1°agosto 2019",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 10,
+    "text": "Quando è divenuta obbligatoria polizza di responsabilità civile professionale?",
+    "options": [
+      {
+        "text": "2012",
+        "correct": true
+      },
+      {
+        "text": "2010",
+        "correct": false
+      },
+      {
+        "text": "2008",
+        "correct": false
+      },
+      {
+        "text": "ad oggi non è obbligatoria",
+        "correct": false
+      },
+      {
+        "text": "2014",
+        "correct": false
+      },
+      {
+        "text": "2013",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 11,
+    "text": "Con che sanzione amministrativa è punita la violazione delle norme sulla costituzione delle riserve",
+    "options": [
+      {
+        "text": "da 50.000 a 500.000 euro.",
+        "correct": false
+      },
+      {
+        "text": "da 5.000 a 50.000 euro.",
+        "correct": true
+      },
+      {
+        "text": "da 500 a 5.000 euro.",
+        "correct": false
+      },
+      {
+        "text": "con nessuna sanzione",
+        "correct": false
+      },
+      {
+        "text": "non c'è un range specifico",
+        "correct": false
+      }
+    ],
+    "issues": [
+      "risposte vuote nelle colonne 1"
+    ]
+  },
+  {
+    "row": 12,
+    "text": "Cosa sono le riserve tecniche?",
+    "options": [
+      {
+        "text": "parte del premio incassato che è destinato a coprire rischi che sono già avvenuti",
+        "correct": false
+      },
+      {
+        "text": "documenti di analisi tecniche",
+        "correct": false
+      },
+      {
+        "text": "minino il 70% del premio incassato che è destinato a coprire rischi ancora in corso.",
+        "correct": false
+      },
+      {
+        "text": "parte del premio incassato che è destinato a coprire rischi ancora in corso.",
+        "correct": true
+      },
+      {
+        "text": "minino il 40% del premio incassato che è destinato a coprire rischi ancora in corso.",
+        "correct": false
+      },
+      {
+        "text": "minino il 10% del premio incassato che è destinato a coprire rischi ancora in corso.",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 13,
+    "text": "Cosa sono le landing page?",
+    "options": [
+      {
+        "text": "sono campagne pubblicitarie che vengono effettuate su facebook",
+        "correct": false
+      },
+      {
+        "text": "è un particolare tipo di profilo social utilizzabile solo per le vendite",
+        "correct": false
+      },
+      {
+        "text": "sono dei siti interner e-commerce",
+        "correct": false
+      },
+      {
+        "text": "è una particolare campagna pubblicitaria che avviene tramite i social network",
+        "correct": false
+      },
+      {
+        "text": "sono dei micro-siti internet che contengono delle informazioni singole per una singola attività di advertising.",
+        "correct": true
+      },
+      {
+        "text": "è una particolare campagna pubblicitaria che avveien tramite invio massivo di email",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 14,
+    "text": "cos'è il Il phishing?",
+    "options": [
+      {
+        "text": "è una particolare mail truffa che rimanda a virus",
+        "correct": false
+      },
+      {
+        "text": "un tipo di truffa via internet attraverso la quale un aggressore cerca di ingannare la vittima convincendola a fornire informazioni personali sensibili.",
+        "correct": true
+      },
+      {
+        "text": "un avanzato sistema antivirus",
+        "correct": false
+      },
+      {
+        "text": "una particolare truffa in cui viene clonato il profilo social di un utente",
+        "correct": false
+      },
+      {
+        "text": "una particolare truffa in cui viene clonata la carta di credito",
+        "correct": false
+      },
+      {
+        "text": "un innovativo sistema di marketing",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 15,
+    "text": "Qual è il termine massimo per dare riscontro ad un reclamo?",
+    "options": [
+      {
+        "text": "45 giorni",
+        "correct": true
+      },
+      {
+        "text": "30 giorni",
+        "correct": false
+      },
+      {
+        "text": "7 giorni",
+        "correct": false
+      },
+      {
+        "text": "60 giorni",
+        "correct": false
+      },
+      {
+        "text": "5 giorni",
+        "correct": false
+      },
+      {
+        "text": "72 ore",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 16,
+    "text": "Cosa riguarda La maggior parte degli interventi sanzionatori?",
+    "options": [
+      {
+        "text": "la violazione di obblighi di comunicazione all'Istituto a fini di vigilanza;",
+        "correct": false
+      },
+      {
+        "text": "la violazione di disposizioni in tema di gestione dell'attività di impresa;",
+        "correct": false
+      },
+      {
+        "text": "l'infrazione di regole comportamentali nei rapporti con l'utenza;",
+        "correct": false
+      },
+      {
+        "text": "la violazione di norme riguardanti l'attività di intermediazione.",
+        "correct": false
+      },
+      {
+        "text": "RC Auto",
+        "correct": true
+      },
+      {
+        "text": "il trattamento dei dati",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 17,
+    "text": "Organi dell’Ivass sono:",
+    "options": [
+      {
+        "text": "il Presidente, il Consiglio e il Direttorio integrato;",
+        "correct": true
+      },
+      {
+        "text": "esclusivamente il Presidente;",
+        "correct": false
+      },
+      {
+        "text": "il Presidente ed un consigliere.",
+        "correct": false
+      },
+      {
+        "text": "esclusivamente il Direttorio integrato;",
+        "correct": false
+      },
+      {
+        "text": "da un docente universitario di ruolo",
+        "correct": false
+      },
+      {
+        "text": "nessuna delle precedenti",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 18,
+    "text": "Secondo il Provvedimento UIF 28 marzo 2019, le comunicazioni oggettive devono essere inviate con cadenza:",
+    "options": [
+      {
+        "text": "biennale",
+        "correct": false
+      },
+      {
+        "text": "mensile",
+        "correct": true
+      },
+      {
+        "text": "semestrale",
+        "correct": false
+      },
+      {
+        "text": "annuale",
+        "correct": false
+      },
+      {
+        "text": "trimestrale",
+        "correct": false
+      },
+      {
+        "text": "dipende dai casi",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 19,
+    "text": "Cosa copre la polizza furto?",
+    "options": [
+      {
+        "text": "copre solamente i danni subiti da un furto avvenuto nelle ore notturne",
+        "correct": false
+      },
+      {
+        "text": "copre solamente i danni di un furto di lieve entità",
+        "correct": false
+      },
+      {
+        "text": "copre sia il valore dei beni sottratti, anche in caso di rapina od estorsione, sia i danni subiti dall’edificio o dagli impianti a causa dell’azione illecita, solo se il furto è effettivamente avvenuto",
+        "correct": false
+      },
+      {
+        "text": "copre solo i danni subiti dall’edificio o dagli impianti a causa dell’azione illecita",
+        "correct": false
+      },
+      {
+        "text": "copre sia il valore dei beni sottratti, anche in caso di rapina od estorsione, sia i danni subiti dall’edificio o dagli impianti a causa dell’azione illecita, indipendentemente dal fatto che il furto sia poi avvenuto meno.",
+        "correct": true
+      },
+      {
+        "text": "copre solo il valore dei beni sottratti",
+        "correct": false
+      }
+    ],
+    "issues": []
+  },
+  {
+    "row": 20,
+    "text": "Il CAP (Codice assicurazioni private):",
+    "options": [
+      {
+        "text": "fissa la nozione legislativa del contratto;",
+        "correct": false
+      },
+      {
+        "text": "detta una normativa speciale sull’impresa e su determinate fattispecie;",
+        "correct": true
+      },
+      {
+        "text": "definisce la normativa generale in materia di disciplina del contratto.",
+        "correct": false
+      },
+      {
+        "text": "fissa la nozione amministrativa del contratto;",
+        "correct": false
+      },
+      {
+        "text": "regola le sanzioni",
+        "correct": false
+      },
+      {
+        "text": "regola le comunicazioni tra intermediario e compagnia",
+        "correct": false
+      }
+    ],
+    "issues": []
+  }
+]

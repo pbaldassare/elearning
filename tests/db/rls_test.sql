@@ -352,4 +352,98 @@ set local role authenticated;
 select tests.fails(format('select public.heartbeat(%L, %L)', :'e1', :'l1'), 'corso scaduto: bloccato');
 rollback;
 
+-- ---------------------------------------------------------------- test finale
+
+insert into public.lessons (module_id, position, title, status)
+select id, 4, 'Solo 60 ore', 'approvata' from public.modules where title = 'Area giuridica';
+insert into public.course_lessons (course_id, lesson_id) select :'c60', id from public.lessons where title = 'Solo 60 ore';
+select id as l3 from public.lessons where title = 'Solo 60 ore' \gset
+\set q1 '''00000000-0000-0000-0000-0000000000e1'''
+\set q2 '''00000000-0000-0000-0000-0000000000e2'''
+\set q3 '''00000000-0000-0000-0000-0000000000e3'''
+insert into public.questions (id, library_id, lesson_id, text, origin, status)
+select v.id::uuid, l.id, v.lesson::uuid, v.t, 'excel', 'approvata'
+from public.lesson_libraries l, (values (:q1, null, 'Domanda generale'), (:q2, :'l1', 'Domanda lezione 1'), (:q3, :'l3', 'Domanda solo 60')) v (id, lesson, t)
+where l.name = 'IVASS';
+insert into public.question_options (question_id, position, text, is_correct) values
+  (:q1, 1, 'giusta', true), (:q1, 2, 'sbagliata', false),
+  (:q2, 1, 'giusta', true), (:q2, 2, 'sbagliata', false),
+  (:q3, 1, 'giusta', true);
+update public.courses set quiz_questions_drawn = 2, quiz_max_attempts = 2, quiz_minutes_per_question = 5 where id = :'c30';
+select tests.ok((select count(*) from private.quiz_pool(:'c30')) = 2, 'banco 30 ore: esclude le domande delle lezioni solo 60 ore');
+select tests.ok((select count(*) from private.quiz_pool(:'c60')) = 3, 'banco 60 ore: include tutto');
+select id as ok1 from public.question_options where question_id = :q1 and is_correct \gset
+select id as ok2 from public.question_options where question_id = :q2 and is_correct \gset
+select id as ko1 from public.question_options where question_id = :q1 and not is_correct \gset
+
+begin;
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.fails(format('select public.start_quiz(%L)', :'e1'), 'test: bloccato senza lezioni completate');
+select tests.ok((select count(*) from public.question_options) = 0, 'test: il corsista non legge le risposte corrette');
+reset role;
+insert into public.lesson_progress (enrollment_id, lesson_id, completed_at) select :'e1', lesson_id, now() from private.course_sequence(:'c30');
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.ok(public.quiz_status(:'e1') ->> 'reason' = 'ore', 'test: bloccato senza le ore richieste');
+reset role;
+update public.enrollments set active_seconds = 30 * 3600 where id = :'e1';
+select tests.login(:cors_a);
+set local role authenticated;
+select public.start_quiz(:'e1') as quiz \gset
+select tests.ok(jsonb_array_length(:'quiz'::jsonb -> 'questions') = 2, 'test: estrae il numero di domande previsto');
+select tests.ok(position('correct' in :'quiz') = 0, 'test: le soluzioni non arrivano al browser');
+select tests.ok(public.start_quiz(:'e1') ->> 'attempt_id' = :'quiz'::jsonb ->> 'attempt_id', 'test: ricaricando si riprende lo stesso tentativo');
+select public.submit_quiz((:'quiz'::jsonb ->> 'attempt_id')::uuid, jsonb_build_object(:q1, :'ok1', :q2, :'ok2')) as res \gset
+select tests.ok((:'res'::jsonb ->> 'passed')::boolean and (:'res'::jsonb ->> 'score')::numeric = 100, 'test: tutto giusto, superato');
+select tests.ok((select status = 'completato' from public.enrollments where id = :'e1'), 'test superato: corso completato');
+select tests.ok((select count(*) from public.certificates where enrollment_id = :'e1') = 1, 'test superato: certificato emesso');
+select tests.fails(format('select public.submit_quiz(%L, ''{}'')', :'quiz'::jsonb ->> 'attempt_id'), 'test: non si consegna due volte');
+rollback;
+
+begin;
+reset role;
+insert into public.lesson_progress (enrollment_id, lesson_id, completed_at) select :'e1', lesson_id, now() from private.course_sequence(:'c30');
+update public.enrollments set active_seconds = 30 * 3600 where id = :'e1';
+select tests.login(:cors_a);
+set local role authenticated;
+select public.submit_quiz((public.start_quiz(:'e1') ->> 'attempt_id')::uuid, jsonb_build_object(:q1, :'ko1')) as r1 \gset
+select tests.ok(not (:'r1'::jsonb ->> 'passed')::boolean and not (:'r1'::jsonb ->> 'course_reset')::boolean, 'test: primo tentativo fallito, si riprova');
+select public.submit_quiz((public.start_quiz(:'e1') ->> 'attempt_id')::uuid, '{}') as r2 \gset
+select tests.ok((:'r2'::jsonb ->> 'course_reset')::boolean, 'test: tentativi esauriti, si rifà il corso');
+select tests.ok((select active_seconds = 0 and cycle = 2 and status = 'assegnato' from public.enrollments where id = :'e1'), 'rifare il corso: ore azzerate, nuovo ciclo');
+select tests.ok(not exists (select 1 from public.lesson_progress where enrollment_id = :'e1'), 'rifare il corso: lezioni da rifare');
+select tests.ok((select count(*) from public.quiz_attempts where enrollment_id = :'e1') = 2, 'rifare il corso: i tentativi restano registrati');
+rollback;
+
+begin;
+reset role;
+insert into public.lesson_progress (enrollment_id, lesson_id, completed_at) select :'e1', lesson_id, now() from private.course_sequence(:'c30');
+update public.enrollments set active_seconds = 30 * 3600 where id = :'e1';
+select tests.login(:cors_a);
+set local role authenticated;
+select public.start_quiz(:'e1') ->> 'attempt_id' as att \gset
+reset role;
+update public.quiz_attempts set deadline_at = now() - interval '10 minutes' where id = :'att';
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.ok((public.submit_quiz(:'att', jsonb_build_object(:q1, :'ok1', :q2, :'ok2')) ->> 'score')::numeric = 0, 'test: consegna oltre il tempo non vale');
+rollback;
+
+begin;
+reset role;
+insert into public.lesson_progress (enrollment_id, lesson_id, completed_at) select :'e1', lesson_id, now() from private.course_sequence(:'c30');
+update public.enrollments set active_seconds = 30 * 3600 where id = :'e1';
+insert into public.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
+select tests.login(:admin, :cors_a);
+set local role authenticated;
+select tests.fails(format('select public.start_quiz(%L)', :'e1'), 'entra come: niente test sul corso vero');
+reset role;
+update public.courses set is_demo = true where id = :'c30';
+set local role authenticated;
+select tests.ok((public.submit_quiz((public.start_quiz(:'e1') ->> 'attempt_id')::uuid, jsonb_build_object(:q1, :'ok1', :q2, :'ok2')) ->> 'passed')::boolean,
+  'corso dimostrativo: test svolgibile in entra come');
+select tests.ok((select is_demo from public.certificates where enrollment_id = :'e1'), 'corso dimostrativo: certificato di prova');
+rollback;
+
 \warn 'TUTTI I TEST SUPERATI'
