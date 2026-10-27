@@ -1,4 +1,4 @@
-// Crea un account (Azienda o Corsista) con la password standard letta dal secret DEFAULT_PASSWORD.
+// Crea un account (Azienda o Corsista) con la password standard (secret DEFAULT_PASSWORD o Vault).
 // Admin: qualsiasi azienda, ruolo azienda o corsista. Azienda: solo corsisti propri.
 // Rispetta "Entra come": il ruolo è quello effettivo (whoami con l'header x-act-as).
 // Body: { role, company_id?, first_name, last_name, email, codice_fiscale?, is_demo? }
@@ -17,10 +17,10 @@ const url = Deno.env.get('SUPABASE_URL')!;
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
 
-  const password = Deno.env.get('DEFAULT_PASSWORD');
-  if (!password) return json({ error: 'Password standard non configurata (secret DEFAULT_PASSWORD)' }, 500);
-
   const db = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!);
+  // Secret della funzione oppure, in sua assenza, segreto "default_password" in Supabase Vault.
+  const password = Deno.env.get('DEFAULT_PASSWORD') ?? (await db.rpc('default_password')).data;
+  if (!password) return json({ error: 'Password standard non configurata (secret DEFAULT_PASSWORD o Vault default_password)' }, 500);
   const token = req.headers.get('Authorization')?.replace('Bearer ', '') ?? '';
   const { data: { user } } = await db.auth.getUser(token);
   if (!user) return json({ error: 'Non autenticato' }, 401);

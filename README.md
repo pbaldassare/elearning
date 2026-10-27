@@ -23,7 +23,8 @@ Frontend (`.env`, vedi `.env.example`):
 | `VITE_SUPABASE_ANON_KEY` | chiave pubblica (anon/publishable) |
 
 Secrets delle Edge Functions (`supabase secrets set ...`): `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`
-sono forniti da Supabase. Va impostato `DEFAULT_PASSWORD` (password iniziale uguale per tutti i nuovi account):
+sono forniti da Supabase. La password iniziale uguale per tutti i nuovi account si imposta come secret `DEFAULT_PASSWORD`
+oppure nel Vault del database (`select vault.create_secret('<password>', 'default_password');`):
 senza, `create-user` risponde con errore.
 
 ## Sviluppo
