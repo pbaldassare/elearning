@@ -1,0 +1,482 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Elementi di contabilità",
+  "topic_order": 1,
+  "scope": "core",
+  "source_minutes": 12,
+  "lessons": [
+    {
+      "title": "Elementi di contabilità e bilancio delle imprese di assicurazione",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale/Elementi di contabilità/Elementi contabili.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area amministrativa e gestionale/- Elementi di contabilità/elementi contabili.mp4"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Elementi di contabilità",
+          "title": "Il bilancio dell'impresa di assicurazione",
+          "goals": [
+            "Conoscere i principi che guidano la redazione del bilancio",
+            "Leggere stato patrimoniale, conto economico e riserve tecniche di un'impresa di assicurazione",
+            "Capire dove compaiono le provvigioni e che cosa cambia per l'intermediario"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché si redige un bilancio",
+          "key": "Azionisti, creditori, risparmiatori e gli altri soggetti interessati devono essere informati periodicamente sulla situazione dell'impresa. Il bilancio è lo strumento con cui l'impresa conosce e comunica queste informazioni.",
+          "body": "Il bilancio deve essere chiaro e rappresentare in modo veritiero e corretto la situazione patrimoniale e finanziaria e il risultato economico. \"Veritiero\" non significa pretendere una verità oggettiva: molte voci sono stime, che devono essere fatte con criteri corretti e dichiarati.",
+          "ref": "Art. 2423 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Di che cosa è fatto il bilancio d'esercizio",
+          "lead": "Lo redigono gli amministratori. Per le imprese di assicurazione vale il codice civile, integrato dalle regole di settore.",
+          "facts": [
+            {
+              "label": "Stato patrimoniale",
+              "text": "Che cosa l'impresa possiede e che cosa deve, alla data di chiusura."
+            },
+            {
+              "label": "Conto economico",
+              "text": "Ricavi e costi dell'esercizio, e quindi l'utile o la perdita."
+            },
+            {
+              "label": "Rendiconto finanziario",
+              "text": "Come si sono mossi i flussi di cassa nell'esercizio."
+            },
+            {
+              "label": "Nota integrativa",
+              "text": "Spiega criteri di valutazione e contenuto delle voci."
+            },
+            {
+              "label": "Relazione sulla gestione",
+              "text": "Per le imprese di assicurazione: portafoglio, sinistri, riassicurazione, investimenti, evoluzione prevedibile."
+            }
+          ],
+          "ref": "Art. 2423 c.c.; art. 94 CAP"
+        },
+        {
+          "layout": "table",
+          "title": "I principi contabili",
+          "lead": "Nella redazione del bilancio d'esercizio vanno osservati questi principi.",
+          "head": [
+            "Principio",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Utilità e completezza",
+              "Il bilancio deve servire a chi lo legge e dare tutte le informazioni rilevanti."
+            ],
+            [
+              "Chiarezza",
+              "Voci e importi comprensibili, senza compensazioni che nascondono i fatti."
+            ],
+            [
+              "Prudenza",
+              "Nessun utile non ancora realizzato, ma tutti i rischi e le perdite prevedibili."
+            ],
+            [
+              "Periodicità",
+              "Il bilancio si riferisce a un periodo definito: l'esercizio."
+            ],
+            [
+              "Comparabilità",
+              "I dati si possono confrontare nel tempo e tra imprese."
+            ],
+            [
+              "Omogeneità",
+              "Criteri di valutazione uniformi per voci simili."
+            ],
+            [
+              "Continuità e funzione economica",
+              "Si valuta pensando che l'impresa continui a operare, guardando alla sostanza delle operazioni."
+            ],
+            [
+              "Competenza",
+              "Costi e ricavi vanno nell'esercizio a cui si riferiscono, non in quello in cui si pagano o si incassano."
+            ],
+            [
+              "Costo come criterio base",
+              "Le immobilizzazioni si iscrivono al costo di acquisto o di produzione."
+            ]
+          ],
+          "ref": "Materiale originale del corso; artt. 2423, 2423-bis, 2426 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa dice il codice civile",
+          "items": [
+            {
+              "text": "Valutare le voci secondo prudenza e nella prospettiva della continuazione dell'attività.",
+              "ref": "art. 2423-bis, n. 1"
+            },
+            {
+              "text": "Rilevare le voci tenendo conto della sostanza dell'operazione o del contratto.",
+              "ref": "n. 1-bis"
+            },
+            {
+              "text": "Indicare solo gli utili realizzati alla data di chiusura dell'esercizio.",
+              "ref": "n. 2"
+            },
+            {
+              "text": "Considerare proventi e oneri di competenza, indipendentemente da incasso o pagamento.",
+              "ref": "n. 3"
+            },
+            {
+              "text": "Considerare rischi e perdite dell'esercizio, anche se conosciuti dopo la chiusura.",
+              "ref": "n. 4"
+            },
+            {
+              "text": "Valutare separatamente gli elementi eterogenei di una stessa voce.",
+              "ref": "n. 5"
+            },
+            {
+              "text": "Non cambiare i criteri di valutazione da un esercizio all'altro, salvo casi eccezionali motivati in nota integrativa.",
+              "ref": "n. 6 e comma 2"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "I tipi di bilancio",
+          "cols": [
+            {
+              "title": "Bilanci ordinari",
+              "items": [
+                "Bilancio d'esercizio: la singola società",
+                "Bilancio consolidato: il gruppo, come se fosse un'unica impresa",
+                "Redatti periodicamente, alla chiusura di ogni esercizio"
+              ]
+            },
+            {
+              "title": "Bilanci straordinari",
+              "items": [
+                "Non sono periodici",
+                "Si redigono in occasione di operazioni o eventi particolari della vita della società"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole per le imprese di assicurazione",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "D.Lgs. 209/2005, Titolo VIII \"Bilancio e scritture contabili\", artt. 88-105. Per quanto non previsto si applica il codice civile."
+            },
+            {
+              "label": "D.Lgs. 26 maggio 1997, n. 173",
+              "detail": "Conti annuali e consolidati delle imprese di assicurazione: struttura delle voci, conti tecnici, provvigioni."
+            },
+            {
+              "label": "Regolamento ISVAP n. 22/2008",
+              "detail": "Schemi di bilancio e calcolo delle riserve tecniche, modificato da ultimo dal Provvedimento IVASS n. 68/2018."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Principi internazionali o \"ordinari\"?",
+          "left": {
+            "title": "IAS/IFRS",
+            "items": [
+              "Regole tecniche contabili internazionali per il bilancio delle società commerciali",
+              "Bilancio d'esercizio IAS: imprese con strumenti finanziari quotati in un mercato regolamentato UE che non redigono il consolidato",
+              "Bilancio consolidato IAS: per i gruppi assicurativi"
+            ],
+            "ref": "Art. 91, c. 1 CAP; D.Lgs. 38/2005, artt. 3-4"
+          },
+          "right": {
+            "title": "Criteri \"ordinari\"",
+            "items": [
+              "Codice civile e legislazione di settore",
+              "Si applicano alle imprese che non usano i principi internazionali",
+              "Schemi e piano dei conti fissati dall'IVASS"
+            ],
+            "ref": "Art. 91, c. 2 e art. 90 CAP"
+          },
+          "note": "I bilanci delle imprese di assicurazione si dividono quindi in due grandi categorie, secondo i criteri con cui sono redatti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il calendario del bilancio",
+          "items": [
+            {
+              "value": "31 dicembre",
+              "text": "fine dell'esercizio sociale, che inizia il 1° gennaio",
+              "ref": "art. 92, c. 1 CAP"
+            },
+            {
+              "value": "30 giugno",
+              "text": "termine massimo per l'approvazione, se lo statuto prevede la proroga per particolari esigenze",
+              "ref": "art. 92, c. 2 CAP"
+            },
+            {
+              "value": "30 giorni",
+              "text": "dall'approvazione, per depositare il bilancio al registro delle imprese",
+              "ref": "art. 93 CAP; art. 2435 c.c."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Lo stato patrimoniale",
+          "key": "Lo stato patrimoniale espone la composizione qualitativa e quantitativa del patrimonio sociale.",
+          "body": "Nell'impresa di assicurazione l'attivo è fatto soprattutto di investimenti. Nel passivo, accanto al patrimonio netto, la voce più pesante sono le riserve tecniche: gli impegni verso assicurati e danneggiati. Gli investimenti delle polizze in cui il rischio è sopportato dagli assicurati, come le unit e index linked, e quelli dei fondi pensione hanno una classe separata.",
+          "ref": "Materiale originale; schemi Reg. ISVAP 22/2008; art. 24 D.Lgs. 173/1997"
+        },
+        {
+          "layout": "table",
+          "title": "Le riserve tecniche nel bilancio",
+          "lead": "Si costituiscono alla fine di ogni esercizio.",
+          "head": [
+            "Riserva",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "Riserva premi (danni)",
+              "La parte di premio che copre il periodo dopo la chiusura (riserva per frazioni di premi), più la riserva per rischi in corso se i sinistri attesi la superano."
+            ],
+            [
+              "Riserva sinistri (danni)",
+              "Quanto serve per pagare i sinistri avvenuti e non ancora pagati, con le spese di liquidazione, valutato al costo ultimo."
+            ],
+            [
+              "Sinistri tardivi (danni)",
+              "Sinistri avvenuti ma non ancora denunciati alla chiusura."
+            ],
+            [
+              "Perequazione e senescenza (danni)",
+              "Compensano le fluttuazioni dei sinistri, ad esempio per calamità naturali, e l'aumento del rischio con l'età nelle polizze malattia."
+            ],
+            [
+              "Riserve matematiche e somme da pagare (vita)",
+              "Garantiscono gli impegni futuri verso gli assicurati e i capitali, le rendite, i riscatti e i sinistri già maturati."
+            ]
+          ],
+          "ref": "Reg. ISVAP 22/2008, artt. 23-bis e 23-ter"
+        },
+        {
+          "layout": "concept",
+          "title": "Il conto economico",
+          "key": "Il conto economico è il prospetto dei ricavi ottenuti e dei costi sopportati dall'impresa nell'esercizio.",
+          "body": "Nell'impresa di assicurazione è composto da due conti tecnici, uno per i rami danni e uno per i rami vita, e da un conto non tecnico, dove confluiscono i risultati dei conti tecnici e si forma l'utile. I proventi degli investimenti danni stanno nel conto non tecnico; quelli dei rami vita nel conto tecnico vita.",
+          "ref": "Art. 44 e art. 54 D.Lgs. 173/1997"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si legge il conto tecnico danni",
+          "steps": [
+            {
+              "label": "Premi di competenza",
+              "text": "Premi lordi contabilizzati, meno i premi ceduti ai riassicuratori, corretti per la variazione della riserva premi."
+            },
+            {
+              "label": "Oneri dei sinistri",
+              "text": "Importi pagati e variazione della riserva sinistri, al netto di recuperi e riassicurazione."
+            },
+            {
+              "label": "Spese di gestione",
+              "text": "Provvigioni di acquisizione e di incasso, altre spese di acquisizione e di amministrazione."
+            },
+            {
+              "label": "Risultato tecnico",
+              "text": "Passa al conto non tecnico, insieme a quello del conto tecnico vita."
+            }
+          ],
+          "ref": "Schema di conto economico, Reg. ISVAP 22/2008"
+        },
+        {
+          "layout": "table",
+          "title": "Le provvigioni nel bilancio dell'impresa",
+          "head": [
+            "Voce",
+            "Che cosa comprende"
+          ],
+          "rows": [
+            [
+              "Provvigioni di acquisizione",
+              "I compensi spettanti per l'acquisizione e il rinnovo dei contratti."
+            ],
+            [
+              "Altre spese di acquisizione",
+              "Emissione delle polizze, pubblicità, spese amministrative per domande e contratti."
+            ],
+            [
+              "Provvigioni di incasso",
+              "Voce distinta delle spese di gestione, separata dalle altre spese di amministrazione."
+            ],
+            [
+              "Premi lordi contabilizzati",
+              "Gli importi maturati nell'esercizio, incassati o no, senza imposte e contributi riscossi per rivalsa."
+            ]
+          ],
+          "ref": "Artt. 45, 51, 52, 53 D.Lgs. 173/1997"
+        },
+        {
+          "layout": "concept",
+          "title": "E per l'intermediario: il conto separato",
+          "key": "I premi pagati all'intermediario e le somme destinate a risarcimenti o pagamenti delle imprese, se passano dall'intermediario, vanno versati in un conto separato.",
+          "body": "Il conto è un patrimonio autonomo: i creditori personali dell'intermediario non possono aggredirlo e non opera la compensazione con i crediti della banca verso l'intermediario. Agenti, broker e intermediari della sezione D possono esserne esentati con una fideiussione bancaria pari al 4% dei premi incassati, con un minimo di 18.750 euro.",
+          "ref": "Art. 117 CAP"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il 1° ottobre un cliente stipula una polizza incendio annuale con premio di 1.200 euro, al netto delle imposte. La provvigione di acquisizione dell'agente è di 120 euro. L'impresa chiude l'esercizio il 31 dicembre e calcola la riserva per frazioni di premi con il metodo pro rata temporis.",
+          "questions": [
+            "Il premio va tutto nei ricavi di questo esercizio?",
+            "Quanto vale la riserva per frazioni di premi al 31 dicembre?"
+          ],
+          "solution": "No. Il premio è contabilizzato per intero, ma per il principio di competenza solo la parte che copre ottobre-dicembre appartiene all'esercizio. La riserva si calcola sul premio meno la provvigione di acquisizione: (1.200 − 120) × 9/12 = 810 euro, la quota che copre i nove mesi dell'anno successivo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nel bilancio di un'impresa di assicurazione, da che cosa è composto il conto economico?",
+          "options": [
+            "Da un unico conto con tutti i ricavi e i costi",
+            "Da due conti tecnici, uno per i rami vita e uno per i rami danni, e da un conto non tecnico",
+            "Da un conto tecnico per ogni ramo esercitato",
+            "Dal conto tecnico vita e dal rendiconto finanziario"
+          ],
+          "answer": 1,
+          "explanation": "Il D.Lgs. 173/1997, all'articolo 44, prevede due conti tecnici (rami danni e rami vita) e un conto non tecnico, dove confluiscono i risultati tecnici."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Veritiero",
+              "text": "e corretto: non verità oggettiva, ma stime fatte con criteri dichiarati"
+            },
+            {
+              "value": "Competenza",
+              "text": "costi e ricavi nell'esercizio a cui si riferiscono"
+            },
+            {
+              "value": "2 + 1",
+              "text": "due conti tecnici, vita e danni, e un conto non tecnico"
+            },
+            {
+              "value": "Riserve",
+              "text": "tecniche: la voce più pesante del passivo"
+            },
+            {
+              "value": "Art. 117",
+              "text": "i premi incassati dall'intermediario vanno nel conto separato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di contabilità e di bilancio, guardando in particolare al bilancio delle imprese di assicurazione. Servono i concetti di base, perché danno significato a voci che l'intermediario incontra ogni giorno: premi, provvigioni, riserve.\n\nPartiamo dalla domanda di fondo: perché si redige un bilancio? Perché la conoscenza e la comunicazione delle informazioni sono essenziali. Gli azionisti, i creditori, i risparmiatori e tutti gli altri soggetti interessati devono essere informati periodicamente sulla situazione dell'impresa. Il codice civile, all'articolo 2423, chiede che il bilancio sia redatto con chiarezza e che rappresenti in modo veritiero e corretto la situazione patrimoniale e finanziaria della società e il risultato economico dell'esercizio. Attenzione all'aggettivo veritiero: non va interpretato come la pretesa di ottenere, da chi redige il bilancio, una verità oggettiva. Molte voci sono stime. Pensiamo alla riserva sinistri di una compagnia: nessuno sa con certezza quanto costeranno i sinistri ancora aperti. Quello che si chiede è che la stima sia fatta con criteri corretti, prudenti e spiegati.\n\nDi che cosa è fatto il bilancio d'esercizio? Lo redigono gli amministratori ed è composto dallo stato patrimoniale, dal conto economico, dal rendiconto finanziario e dalla nota integrativa. Per le imprese di assicurazione il bilancio è accompagnato anche da una relazione degli amministratori sulla gestione: l'articolo 94 del Codice delle assicurazioni private chiede, tra l'altro, di illustrare l'evoluzione del portafoglio, l'andamento dei sinistri nei principali rami, le forme di riassicurazione adottate, la politica degli investimenti e l'evoluzione prevedibile della gestione.\n\nVediamo ora i principi contabili da osservare nella redazione del bilancio d'esercizio. Il primo è l'utilità del bilancio e la completezza dell'informazione. Poi la chiarezza. La prudenza: non si contabilizzano utili che non si sono ancora realizzati, mentre si tiene conto di tutti i rischi e le perdite prevedibili. Poi periodicità, comparabilità e omogeneità: un periodo definito, dati confrontabili nel tempo e tra imprese, criteri uniformi per voci simili. La continuità e la funzione economica: si valuta immaginando che l'impresa continui a operare e guardando alla sostanza economica delle operazioni. La competenza: costi e ricavi vanno attribuiti all'esercizio a cui si riferiscono, non a quello in cui si pagano o si incassano. Infine il costo come criterio base: i beni durevoli si iscrivono al costo di acquisto o di produzione, come prevede l'articolo 2426 del codice civile.\n\nMolti di questi principi sono scritti esplicitamente nell'articolo 2423-bis del codice civile. Due meritano attenzione. Primo: si tiene conto dei rischi e delle perdite dell'esercizio anche se si scoprono dopo la chiusura; un grosso sinistro avvenuto a dicembre e denunciato a gennaio pesa sul bilancio di dicembre. Secondo: i criteri di valutazione non si cambiano da un anno all'altro, salvo casi eccezionali motivati nella nota integrativa, altrimenti i bilanci non sarebbero più confrontabili.\n\nQuali bilanci deve redigere una società per azioni, comprese quelle assicuratrici? Ci sono i bilanci ordinari, che si distinguono in bilanci d'esercizio, riferiti alla singola società, e bilanci consolidati, che rappresentano il gruppo come se fosse un'unica impresa. E ci sono i bilanci straordinari, che non hanno cadenza periodica e si redigono in occasione di operazioni o eventi particolari della vita della società.\n\nPer le imprese di assicurazione il quadro normativo ha tre livelli. Il Codice delle assicurazioni private dedica al bilancio il Titolo ottavo, dall'articolo 88 al 105, e rinvia al codice civile per quanto non previsto. Il decreto legislativo 173 del 1997 disciplina i conti annuali e consolidati delle imprese di assicurazione e definisce le singole voci. Infine il Regolamento ISVAP numero 22 del 2008, aggiornato dall'IVASS, fissa gli schemi di bilancio e le regole di calcolo delle riserve tecniche.\n\nDal punto di vista dei criteri di redazione, i bilanci delle imprese assicuratrici si dividono in due grandi categorie: quelli redatti secondo i principi contabili internazionali, gli IAS o IFRS, e quelli redatti secondo i criteri contabili ordinari, cioè dettati dal codice civile e dalla legislazione di settore. Gli IFRS sono regole tecniche contabili per la redazione del bilancio delle società commerciali. Chi deve usarli? Secondo l'articolo 91 del Codice e il decreto legislativo 38 del 2005, redigono il bilancio d'esercizio secondo i principi internazionali le imprese di assicurazione che hanno strumenti finanziari quotati in un mercato regolamentato europeo e che non redigono il bilancio consolidato; i gruppi assicurativi redigono invece secondo gli IFRS il bilancio consolidato. Le altre imprese seguono i criteri ordinari, con gli schemi e il piano dei conti stabiliti dall'IVASS.\n\nQualche data: l'esercizio va per legge dal 1° gennaio al 31 dicembre; con previsione statutaria e particolari esigenze l'approvazione può slittare al 30 giugno; entro trenta giorni il bilancio va depositato al registro delle imprese. La revisione è sempre obbligatoria.\n\nEntriamo nei documenti. Lo stato patrimoniale è il documento contabile nel quale viene esposta la composizione qualitativa e quantitativa del patrimonio sociale. In una compagnia l'attivo è fatto soprattutto di investimenti: immobili, partecipazioni, titoli. Nel passivo la voce di gran lunga più importante sono le riserve tecniche, cioè gli impegni verso assicurati e danneggiati. Una classe a parte raccoglie gli investimenti delle polizze unit e index linked, dove il rischio è degli assicurati, e dei fondi pensione.\n\nVediamo le principali riserve tecniche. Nei rami danni l'impresa costituisce alla fine di ogni esercizio la riserva premi, che comprende la riserva per frazioni di premi, cioè la parte di premio che copre il periodo successivo alla chiusura, e la riserva per rischi in corso, che si aggiunge quando i sinistri attesi su quei contratti superano la riserva per frazioni di premi. Poi c'è la riserva sinistri: l'insieme delle somme che, da una prudente valutazione basata su elementi obiettivi, servono a pagare i sinistri avvenuti e non ancora pagati, con le relative spese di liquidazione. Va valutata al costo ultimo, cioè tenendo conto di tutti gli oneri futuri prevedibili. Si accantonano anche i sinistri avvenuti ma non ancora denunciati, le riserve di perequazione, che compensano le fluttuazioni della sinistralità, ad esempio per le calamità naturali, e la riserva di senescenza nelle polizze malattia, che compensa l'aumento del rischio con l'età degli assicurati. Nei rami vita le riserve, comprese le riserve matematiche, devono essere sufficienti a garantire le obbligazioni assunte e le spese future; a queste si aggiunge la riserva per somme da pagare, per capitali, rendite, riscatti e sinistri già maturati. La sufficienza delle riserve è valutata dalla funzione attuariale dell'impresa.\n\nPassiamo al conto economico, il prospetto contabile dei ricavi ottenuti e dei costi sopportati dall'impresa nel periodo di esercizio. Nelle imprese di assicurazione, come stabilisce l'articolo 44 del decreto legislativo 173 del 1997, il conto economico si compone di due conti tecnici, uno per il ramo vita e l'altro per il ramo danni, e di un conto non tecnico. I proventi degli investimenti dei rami danni stanno nel conto non tecnico; quelli dei rami vita, invece, nel conto tecnico vita, perché il rendimento degli investimenti è parte integrante delle prestazioni promesse agli assicurati.\n\nCome si legge il conto tecnico dei rami danni? Si parte dai premi di competenza: i premi lordi contabilizzati, meno quelli ceduti ai riassicuratori, corretti per la variazione della riserva premi. È qui che si vede il principio di competenza: il premio incassato non diventa tutto ricavo dell'anno. Poi si sottraggono gli oneri dei sinistri: quanto è stato pagato e quanto è cambiata la riserva sinistri, al netto dei recuperi e delle quote dei riassicuratori. Poi le spese di gestione, dove compaiono le provvigioni. Il risultato del conto tecnico passa al conto non tecnico, insieme a quello del conto tecnico vita.\n\nSoffermiamoci sulle provvigioni, che interessano direttamente l'intermediario. Per il decreto 173 le provvigioni di acquisizione sono i compensi spettanti per l'acquisizione e il rinnovo dei contratti. Accanto a queste ci sono le altre spese di acquisizione, come l'emissione delle polizze e la pubblicità. Le provvigioni di incasso sono una voce distinta delle spese di gestione. Ricordiamo infine che i premi lordi contabilizzati comprendono tutti gli importi maturati nell'esercizio, anche se non ancora incassati, ma escludono le imposte e i contributi riscossi per rivalsa.\n\nE per l'intermediario, che cosa significa tutto questo in concreto? Un obbligo contabile riguarda direttamente lui: l'articolo 117 del Codice delle assicurazioni private stabilisce che i premi pagati all'intermediario, e le somme destinate ai risarcimenti o ai pagamenti delle imprese quando passano attraverso di lui, vanno versati in un conto separato. Quel conto è un patrimonio autonomo: i creditori personali dell'intermediario non possono pignorarlo, e la banca non può compensarlo con i propri crediti verso l'intermediario. Agenti, broker e intermediari della sezione D possono essere esentati se documentano in modo permanente, con una fideiussione bancaria, una capacità finanziaria pari al 4 per cento dei premi incassati, con un minimo di 18.750 euro.\n\nFacciamo un esempio. Il 1° ottobre un cliente stipula una polizza incendio annuale con un premio di 1.200 euro, al netto delle imposte, e all'agente spetta una provvigione di acquisizione di 120 euro. L'impresa chiude l'esercizio il 31 dicembre. Il premio è contabilizzato per intero, ma copre solo tre mesi di quest'anno e nove mesi del prossimo. Con il metodo pro rata temporis, la riserva per frazioni di premi si calcola sul premio al netto delle provvigioni di acquisizione: 1.080 euro per nove dodicesimi, cioè 810 euro. È la quota rinviata all'anno successivo.\n\nRicapitolando: bilancio chiaro, veritiero e corretto; principio di competenza; due conti tecnici e un conto non tecnico; riserve tecniche come voce principale del passivo. E i premi che l'intermediario incassa non sono suoi: vanno nel conto separato.",
+      "sources": [
+        {
+          "title": "Codice civile, artt. 2423, 2423-bis, 2426, 2435 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209, Codice delle assicurazioni private, artt. 88-94 e 117 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "D.Lgs. 26 maggio 1997, n. 173, artt. 24, 44, 45, 51, 52, 53, 54 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-05-26;173"
+        },
+        {
+          "title": "D.Lgs. 28 febbraio 2005, n. 38, artt. 2-4 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-02-28;38"
+        },
+        {
+          "title": "IVASS, Regolamento ISVAP n. 22 del 4 aprile 2008, testo modificato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n22/Regolamento-22-modificato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Composizione del bilancio d'esercizio (stato patrimoniale, conto economico, rendiconto finanziario, nota integrativa) e obbligo di chiarezza e rappresentazione veritiera e corretta.",
+          "source_ref": "Art. 2423 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione di ciascun principio contabile e principi di redazione previsti dal codice civile.",
+          "source_ref": "Artt. 2423-bis e 2426, n. 1 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto della relazione sulla gestione delle imprese di assicurazione.",
+          "source_ref": "Art. 94 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Quadro normativo del bilancio assicurativo: Titolo VIII del CAP, D.Lgs. 173/1997, Reg. ISVAP 22/2008.",
+          "source_ref": "Artt. 88-90 CAP; Reg. ISVAP 22/2008"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esercizio 1° gennaio-31 dicembre, proroga dell'approvazione al 30 giugno, deposito entro 30 giorni, revisione obbligatoria.",
+          "source_ref": "Artt. 92-93 CAP; art. 2435 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riserve tecniche civilistiche dei rami danni e vita: riserva premi (frazioni di premi e rischi in corso), riserva sinistri al costo ultimo, IBNR, perequazione, senescenza, riserve matematiche, somme da pagare, ruolo della funzione attuariale.",
+          "source_ref": "Reg. ISVAP 22/2008, artt. 23-bis e 23-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Struttura del conto tecnico danni e collocazione dei proventi degli investimenti tra conto tecnico vita e conto non tecnico.",
+          "source_ref": "Schema di conto economico Reg. ISVAP 22/2008; art. 54 D.Lgs. 173/1997"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni di premi lordi contabilizzati, provvigioni di acquisizione, altre spese di acquisizione, provvigioni di incasso.",
+          "source_ref": "Artt. 45, 51, 52, 53 D.Lgs. 173/1997"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di conto separato per l'intermediario ed esenzione con fideiussione (4% dei premi, minimo 18.750 euro).",
+          "source_ref": "Art. 117 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico di calcolo pro rata temporis della riserva per frazioni di premi al netto delle provvigioni di acquisizione.",
+          "source_ref": "Reg. ISVAP 22/2008, Allegato 15, par. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il riferimento \"art. 44 D.Lgs. 73/97\" della fonte è corretto in art. 44 D.Lgs. 26 maggio 1997, n. 173.",
+          "source_ref": "D.Lgs. 173/1997, art. 44"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte indica che il bilancio d'esercizio IFRS è obbligatorio per le imprese quotate e per quelle tenute al consolidato. Precisato secondo la norma: bilancio d'esercizio IFRS per le imprese con strumenti quotati che non redigono il consolidato; bilancio consolidato IFRS per i gruppi.",
+          "source_ref": "Art. 91, c. 1 CAP; D.Lgs. 38/2005, art. 2, lett. d, artt. 3-4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco dei nove principi contabili (utilità e completezza, chiarezza, prudenza, periodicità, comparabilità, omogeneità, continuità e funzione economica, competenza, costo). L'elenco non coincide alla lettera con l'art. 2423-bis c.c., che è riportato a parte: riferimento dottrinale o ai principi OIC da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella trascrizione il principio di competenza compare come \"competenza del personale addetto alla redazione del bilancio\": errore di trascrizione o di narrazione, reso come competenza economica (art. 2423-bis, n. 3 c.c.), coerente con le slide.",
+          "source_ref": "Art. 2423-bis, n. 3 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la distinzione tra bilanci ordinari (d'esercizio e consolidati) e straordinari. Riferimento normativo per i bilanci straordinari da indicare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}

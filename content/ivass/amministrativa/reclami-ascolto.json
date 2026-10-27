@@ -1,0 +1,767 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Gestione dei reclami",
+  "topic_order": 3,
+  "scope": "core",
+  "source_minutes": 32,
+  "lessons": [
+    {
+      "title": "Ascoltare il cliente: soddisfazione, valore e relazione",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale/Gestione dei reclami/Capacita di ascoltare e decodificare i bisogni della clientela (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area amministrativa e gestionale/Gestione dei reclami/capacità di ascoltare e decodificare i bisogni della clientela.mp4"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei reclami",
+          "title": "Ascoltare il cliente: soddisfazione, valore e relazione",
+          "goals": [
+            "Capire che cosa rende davvero soddisfatto un cliente",
+            "Guardare la propria offerta con gli occhi del cliente",
+            "Usare relazione e CRM per creare valore nel tempo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché ascoltare",
+          "key": "Se si vogliono clienti soddisfatti e fedeli, bisogna imparare ad ascoltarli. La soddisfazione del cliente dovrebbe essere il fine di tutta l'impresa, dall'alta direzione al personale di front office.",
+          "body": "Per l'intermediario ascoltare non è solo buona pratica commerciale: è il primo passo per proporre un contratto adatto. Un bisogno capito male oggi è spesso il reclamo di domani.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la soddisfazione",
+          "key": "Soddisfazione: lo stato d'animo di chi riceve una prestazione corrispondente alle attese.",
+          "body": "Un cliente è soddisfatto quando riceve dal fornitore un valore aggiunto significativo, non semplicemente un prodotto o un'assistenza migliore. Nuove tecnologie, processi produttivi più flessibili, globalizzazione dei mercati e clienti che chiedono più qualità hanno fatto aumentare la concorrenza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "L'insoddisfazione che non si vede",
+          "left": {
+            "title": "Che cosa fa l'insoddisfatto",
+            "items": [
+              "Nella maggioranza dei casi non dice nulla all'impresa",
+              "Quando parla, lo fa con amici e conoscenti",
+              "Racconta l'esperienza negativa e sconsiglia prodotto, servizio o impresa"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Che cosa richiede l'orientamento alla soddisfazione",
+            "items": [
+              "Orientamento al cliente",
+              "Coinvolgimento di tutta l'impresa",
+              "Misurazione sistematica del valore creato per il cliente",
+              "Miglioramento continuo"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Un reclamo scritto è un'occasione: il cliente ti dice che cosa non va invece di andarsene in silenzio.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La lente del cliente",
+          "key": "L'impresa deve guardare la propria offerta il più possibile con gli occhi del cliente, non con i propri.",
+          "body": "La Critical Incident Technique (CIT) aiuta a capire quali fattori contano davvero per la soddisfazione dei clienti, interni ed esterni. Si analizzano i \"critical incident\": episodi che il cliente ritiene rilevanti e che hanno fatto crescere, o calare, la sua soddisfazione. Vale per un singolo prodotto o per l'impresa nel suo complesso.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le risorse del vantaggio competitivo",
+          "lead": "Il vantaggio competitivo nasce dal valore che l'impresa sa creare per i clienti. La fonte primaria sono le risorse specifiche dell'impresa (firm specific).",
+          "head": [
+            "Risorsa",
+            "Che cos'è",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "S · Conoscenza statica",
+              "Il saper fare già consolidato",
+              "Replicare attività già svolte"
+            ],
+            [
+              "D · Conoscenza dinamica",
+              "La capacità di imparare",
+              "Innovare prodotti e processi"
+            ],
+            [
+              "R · Reputazione",
+              "Fiducia e consenso, immagine, relazioni con gli stakeholder",
+              "Far scegliere e riscegliere l'impresa"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Le risorse reputazionali",
+          "lead": "Sono tre e si costruiscono nel tempo, contatto dopo contatto.",
+          "facts": [
+            {
+              "label": "Fiducia",
+              "text": "Si basa sui modelli cognitivi dei clienti. Dalla fiducia nasce la fedeltà al prodotto o alla marca."
+            },
+            {
+              "label": "Immagine",
+              "text": "La percezione che clienti attuali o potenziali hanno dell'impresa e dei suoi prodotti."
+            },
+            {
+              "label": "Relazioni",
+              "text": "L'impresa vive in un contesto che la influenza e che, a sua volta, cerca di influenzare."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il ciclo di vita del cliente",
+          "steps": [
+            {
+              "label": "Acquisizione",
+              "text": "Il cliente entra in contatto con l'azienda."
+            },
+            {
+              "label": "Ingresso",
+              "text": "Fa il primo acquisto."
+            },
+            {
+              "label": "Sviluppo",
+              "text": "Acquista con regolarità."
+            },
+            {
+              "label": "Maturità",
+              "text": "Diventa più sensibile alle proposte della concorrenza."
+            },
+            {
+              "label": "Discesa",
+              "text": "Gli acquisti si diradano e la relazione perde intensità."
+            }
+          ],
+          "ref": "CRM · Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il modello di CRM in sette elementi",
+          "items": [
+            {
+              "text": "Creare un database dei clienti."
+            },
+            {
+              "text": "Analizzare il database."
+            },
+            {
+              "text": "Definire i clienti target."
+            },
+            {
+              "text": "Scegliere gli strumenti per raggiungerli."
+            },
+            {
+              "text": "Definire come costruire la relazione."
+            },
+            {
+              "text": "Considerare le questioni di privacy: le informazioni del cliente sono riservate e non si usano per altri fini senza consenso informato.",
+              "ref": "Reg. IVASS 40/2018, art. 54, c. 4"
+            },
+            {
+              "text": "Stabilire come misurare il successo del programma."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Il CRM in azione",
+          "head": [
+            "Leva",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Segmentazione e profittabilità",
+              "Distingue i clienti che porteranno profitti a lungo da quelli che costano più di quanto rendono."
+            ],
+            [
+              "Opinion leader",
+              "Contano anche se il loro valore diretto è basso: con notorietà e autorevolezza trainano altri clienti."
+            ],
+            [
+              "Strumenti diretti",
+              "Meglio la mail personale dei canali impersonali; serve un servizio clienti che risponda subito ai problemi."
+            ],
+            [
+              "Fedeltà e personalizzazione",
+              "Programmi che premiano chi riacquista, offerte su misura, community che rafforzano l'appartenenza."
+            ],
+            [
+              "Misura",
+              "Indicatori come la customer share e il tasso di ritenzione dicono se servono correzioni."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Il valore percepito: get e give",
+          "cols": [
+            {
+              "title": "Get: ciò che il cliente riceve",
+              "items": [
+                "Benefici funzionali del prodotto",
+                "Benefici intangibili, emozionali e psicologici: spesso i più importanti"
+              ]
+            },
+            {
+              "title": "Give: ciò che il cliente dà",
+              "items": [
+                "Il prezzo pagato",
+                "Costi informativi e valutativi",
+                "Costi di acquisto e di utilizzo",
+                "Costi di riacquisto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il consumatore come prodotto",
+          "left": {
+            "title": "Le attese",
+            "items": [
+              "Aspettative: legate alla conoscenza, crescono durante il consumo. Il marketing può modificarle.",
+              "Desideri: i fini, ancorati ai valori personali. Molto più difficili da modificare."
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "La performance percepita",
+            "items": [
+              "Riguarda l'intera esperienza, non solo il prodotto",
+              "Riconoscimento dell'esigenza, ricerca di informazioni, valutazione delle alternative, decisione, post-acquisto"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il cliente confronta le sue attese con la performance percepita. In questo approccio il vero risultato del processo produttivo è il consumatore stesso.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Dall'ascolto all'obbligo di legge",
+          "key": "I distributori operano con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti.",
+          "body": "Nell'offerta e nella gestione del contratto devono anche acquisire le informazioni necessarie a valutare le esigenze assicurative e previdenziali dei contraenti, e tenerli sempre adeguatamente informati. Ascoltare il cliente, quindi, è anche un dovere professionale.",
+          "ref": "CAP, art. 119-bis, c. 1; Reg. IVASS 40/2018, art. 54, c. 1"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "La signora Bianchi rinnova da anni la polizza casa in agenzia senza mai lamentarsi. Quest'anno non si presenta: ha firmato con un concorrente. Al telefono racconta che due anni fa, dopo un'infiltrazione d'acqua, nessuno l'aveva richiamata per spiegarle i tempi della liquidazione.",
+          "questions": [
+            "Quale \"critical incident\" ha inciso sulla sua soddisfazione?",
+            "Che cosa avrebbe dovuto far insospettire l'agenzia?",
+            "Quali strumenti di CRM avrebbero aiutato?"
+          ],
+          "solution": "L'episodio critico è il sinistro gestito senza informarla: la performance percepita era sotto le attese. Il suo silenzio non era un giudizio positivo: era insoddisfazione non espressa. Una chiamata dopo il sinistro, una nota nel database sul suo caso e un contatto prima del rinnovo avrebbero permesso di ascoltarla e, forse, di trattenerla."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella percezione del valore, che cosa comprende la componente give?",
+          "options": [
+            "Solo il prezzo pagato",
+            "Il prezzo e i costi informativi, valutativi, di acquisto, di utilizzo e di riacquisto",
+            "I benefici funzionali ed emozionali del prodotto",
+            "Il valore che il cliente genera per l'impresa"
+          ],
+          "answer": 1,
+          "explanation": "La componente give è ciò che il cliente dà: non solo il sacrificio monetario, ma anche i costi per informarsi, valutare, acquistare, usare e riacquistare. I benefici sono la componente get."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché il silenzio di un cliente insoddisfatto è un rischio per l'impresa?",
+          "options": [
+            "Perché obbliga a rispondere entro 45 giorni",
+            "Perché la maggioranza degli insoddisfatti non lo dice all'impresa, ma lo racconta ai conoscenti sconsigliandola",
+            "Perché il cliente perde il diritto di reclamare",
+            "Non è un rischio: chi non si lamenta è soddisfatto"
+          ],
+          "answer": 1,
+          "explanation": "La maggioranza degli insoddisfatti non manifesta il proprio stato d'animo all'impresa. Quando lo fa, spesso parla male dell'esperienza a conoscenti e li sconsiglia. Per questo l'impresa deve cercare attivamente il punto di vista del cliente."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Attese",
+              "text": "la soddisfazione è una prestazione che corrisponde alle attese: aspettative più desideri"
+            },
+            {
+              "value": "CIT",
+              "text": "gli episodi critici rivelano che cosa conta davvero per il cliente"
+            },
+            {
+              "value": "5 · 7",
+              "text": "le fasi del ciclo di vita del cliente e gli elementi del CRM"
+            },
+            {
+              "value": "Get · Give",
+              "text": "il valore è il saldo tra ciò che il cliente riceve e ciò che dà"
+            },
+            {
+              "value": "119-bis",
+              "text": "agire nel miglior interesse del contraente: ascoltarlo è anche un obbligo"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione ci occupiamo di una competenza che sta a monte di ogni reclamo: la capacità di ascoltare il cliente. Nella lezione precedente abbiamo visto come si gestisce un reclamo quando arriva. Qui facciamo un passo indietro e ci chiediamo che cosa rende soddisfatto un cliente, perché a volte se ne va senza dire nulla e come l'intermediario può costruire con lui una relazione che crea valore per entrambi.\n\nIl punto di partenza è semplice: se vogliamo clienti soddisfatti e fedeli, dobbiamo imparare ad ascoltarli. La soddisfazione del cliente dovrebbe essere considerata il fine verso cui tende tutta l'impresa, dall'alta direzione fino al personale di front office. Per un'agenzia o un broker il front office è spesso tutto: è la persona che risponde al telefono, che accoglie il cliente allo sportello, che gli spiega una clausola. È lì che il cliente decide se si sente ascoltato.\n\nChe cosa intendiamo per soddisfazione? È lo stato d'animo di chi riceve una prestazione corrispondente alle proprie attese. Attenzione però: un cliente è davvero soddisfatto quando riceve un valore aggiunto significativo, non semplicemente un prodotto o un'assistenza un po' migliori. Questo conta ancora di più oggi, perché la diffusione delle nuove tecnologie, la flessibilità dei processi produttivi, la globalizzazione dei mercati e la maggiore attenzione dei consumatori alla qualità hanno fatto crescere la concorrenza. Un cliente che confronta tre preventivi online in pochi minuti non resta per abitudine: resta se percepisce un valore in più.\n\nC'è poi un fenomeno che ogni intermediario dovrebbe conoscere. La maggioranza dei clienti insoddisfatti non manifesta il proprio stato d'animo all'impresa. Quando lo fa, spesso lo fa nel modo peggiore: parla male della sua esperienza con amici e conoscenti e li sconsiglia di usare lo stesso prodotto o di rivolgersi alla stessa impresa. Ecco perché un reclamo, per quanto scomodo, è un'occasione: il cliente ci sta dicendo che cosa non va, invece di andarsene in silenzio.\n\nOrientarsi alla soddisfazione del cliente richiede quattro cose: un vero orientamento al cliente, il coinvolgimento di tutta l'impresa, la misurazione sistematica della capacità di creare valore per il cliente e il miglioramento continuo. Nessuna di queste funziona da sola: un titolare attento non basta se il collaboratore allo sportello liquida le domande in fretta.\n\nIl secondo concetto è la lente del cliente. Per massimizzare la soddisfazione, l'impresa deve guardare la propria offerta il più possibile con gli occhi del cliente e non con i propri. Uno strumento utile è la Critical Incident Technique, in sigla CIT. Si raccolgono e si analizzano i cosiddetti critical incident, cioè gli episodi che il cliente considera rilevanti e che hanno fatto aumentare, o diminuire, la sua soddisfazione. La tecnica serve sia per i clienti esterni sia per quelli interni, e sia per un singolo prodotto sia per l'impresa nel suo insieme. Nel nostro settore gli episodi critici sono spesso gli stessi: un sinistro, un rinnovo con aumento di premio non spiegato, una telefonata a cui nessuno ha risposto.\n\nPerché tutto questo è strategico? Perché il vantaggio competitivo deriva dal valore che l'impresa sa creare per i suoi clienti. La fonte primaria di questo vantaggio sono le risorse specifiche dell'impresa, dette firm specific. Si distinguono in risorse di conoscenza e risorse reputazionali. Le risorse di conoscenza di tipo statico permettono solo di replicare attività già svolte; quelle di tipo dinamico favoriscono l'apprendimento e l'innovazione di prodotto e di processo. Un'agenzia che sa emettere bene una polizza ha conoscenza statica; un'agenzia che impara dai reclami e cambia il modo di lavorare ha conoscenza dinamica.\n\nLe risorse reputazionali sono tre: la fiducia e il consenso di cui gode l'impresa, l'immagine acquisita e le relazioni consolidate con gli stakeholder. La fiducia si basa sui modelli cognitivi dei clienti, cioè sul modo in cui si fanno un'idea di noi, e dal rapporto di fiducia nasce la fedeltà al prodotto o alla marca. L'immagine è la percezione che i clienti, attuali o potenziali, hanno dell'impresa e dei suoi prodotti. Quanto alle relazioni, l'impresa opera in un contesto che la influenza e che, a sua volta, cerca di influenzare.\n\nArriviamo al Customer Relationship Management, il CRM. Il suo scopo è lo sviluppo e il mantenimento di una relazione di lungo termine, reciprocamente vantaggiosa, con i clienti che hanno rilevanza strategica. L'obiettivo è creare valore per il cliente. I clienti, però, non sono tutti ugualmente importanti, e la loro rilevanza strategica si valuta con l'analisi del ciclo di vita. Il ciclo ha cinque fasi. Nell'acquisizione il cliente entra in contatto con l'azienda. Nell'ingresso fa il primo acquisto. Nello sviluppo acquista con regolarità. Nella maturità diventa più vulnerabile alle proposte della concorrenza. Nella discesa gli acquisti si diradano e la relazione perde intensità. Pensiamo a un cliente che ha prima la RC auto, poi la casa, poi una polizza infortuni: è in sviluppo. Quando comincia a chiedere preventivi altrove, è in maturità, ed è il momento di ascoltarlo con più attenzione.\n\nIl CRM considera non solo i clienti con un alto valore nel ciclo di vita, ma anche gli opinion leader, perché con la loro notorietà e autorevolezza possono trainare molti altri potenziali clienti.\n\nIl modello di CRM ha sette elementi: creare un database dei clienti; analizzarlo; definire i clienti target; scegliere gli strumenti per raggiungerli; definire come costruire la relazione; considerare le questioni di privacy; stabilire un metodo per misurarne il successo. Sulla privacy, per l'intermediario c'è una regola precisa: il Regolamento IVASS numero 40 del 2018, all'articolo 54, impone di garantire la riservatezza delle informazioni acquisite dai contraenti e vieta di usarle per finalità diverse dall'attività di distribuzione, salvo il consenso espresso dell'interessato dopo un'apposita informativa sulla protezione dei dati.\n\nVediamo il CRM in azione. Raccolti dati, contatti e informazioni, si segmentano i clienti e si stima per ciascuno la profittabilità attuale e futura. Così si distinguono i clienti che daranno profitti a lungo da quelli che generano meno profitti rispetto ai costi necessari per servirli. Tra gli strumenti di marketing andrebbero preferiti quelli diretti, come la mail, rispetto a quelli impersonali. Serve un servizio clienti che risponda subito ai problemi incontrati dal cliente. L'impresa può creare programmi fedeltà per premiare chi acquista più volte e dovrebbe personalizzare il più possibile l'offerta, con prodotti e servizi su misura. Per rafforzare il senso di appartenenza può favorire la nascita di community. L'ultimo passo è misurare i risultati, per capire se la strada è giusta o se servono correzioni: si usano indicatori come la customer share, cioè la quota della spesa del cliente che va all'impresa, e il tasso di ritenzione.\n\nMa che cos'è il valore per il cliente? È un differenziale positivo tra ciò che sostiene e ciò che ottiene. La percezione nasce dal confronto tra ciò che riceve, la componente get, e ciò che dà, la componente give: il valore è un compromesso tra le due. La componente get non comprende solo i benefici funzionali, ma anche, e forse soprattutto, benefici intangibili di natura emozionale e psicologica. In una polizza, per esempio, la tranquillità di sapere a chi telefonare in caso di sinistro. La componente give non è solo il prezzo: comprende i costi informativi, valutativi, di acquisto, di utilizzo e di riacquisto. Un cliente che deve compilare tre moduli e tornare due volte in agenzia sta pagando un costo, anche se il premio è basso.\n\nC'è poi un approccio che vede il consumatore come prodotto: il vero risultato del processo produttivo dell'impresa è il consumatore stesso. Il primo termine di confronto non sono solo le aspettative, ma le attese, che comprendono aspettative e desideri. Le aspettative si formano durante il consumo, man mano che cresce la conoscenza del prodotto. I desideri invece rappresentano i fini: rispecchiano i valori personali e ciò a cui la persona aspira. Con il marketing si possono modificare le aspettative, perché sono legate a elementi cognitivi; è molto più difficile modificare i desideri, perché sono ancorati ai valori più intimi di ciascuno. Chi sottoscrive una polizza vita per proteggere i figli sta esprimendo un desiderio profondo, non solo un'aspettativa tecnica.\n\nIl secondo termine di confronto è la performance percepita. Il cliente non valuta solo il prodotto, ma l'intera esperienza, che inizia quando avverte il bisogno e continua dopo l'utilizzo. Le fasi sono: riconoscimento dell'esigenza, ricerca di informazioni, valutazione delle alternative, decisione d'acquisto e post-acquisto. Nelle assicurazioni il post-acquisto è decisivo: il vero momento della verità è il sinistro.\n\nTutto questo ha anche una dimensione normativa. L'articolo 119-bis del Codice delle assicurazioni private stabilisce che i distributori operano con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti. E l'articolo 54 del Regolamento IVASS 40 aggiunge che, nell'offerta e nella gestione del contratto, devono acquisire le informazioni necessarie a valutare le esigenze assicurative e previdenziali dei contraenti e tenerli sempre adeguatamente informati. Ascoltare, quindi, non è un optional: è parte del mestiere.\n\nVediamo un caso. Una cliente rinnova da anni la polizza casa senza mai lamentarsi. Quest'anno passa a un concorrente. Al telefono racconta che due anni prima, dopo un'infiltrazione d'acqua, nessuno l'aveva richiamata per spiegarle i tempi della liquidazione. Quel sinistro è il critical incident: la performance percepita è stata inferiore alle attese. Il suo silenzio non era un giudizio positivo, ma insoddisfazione non espressa. Una chiamata dopo il sinistro, una nota nel database e un contatto prima del rinnovo avrebbero permesso di ascoltarla e, forse, di trattenerla.\n\nRicapitoliamo. La soddisfazione è una prestazione che corrisponde alle attese. Gli episodi critici rivelano che cosa conta davvero. Il CRM organizza la relazione lungo il ciclo di vita del cliente. Il valore è il saldo tra ciò che il cliente riceve e ciò che dà. E agire nel miglior interesse del contraente parte, prima di tutto, dall'ascoltarlo. Nella prossima lezione vedremo come raccogliere e decodificare le informazioni sul cliente e come la soddisfazione si trasforma, o non si trasforma, in fedeltà.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato a cura dell'IVASS: artt. 119-bis e 119-ter",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/Cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato: artt. 54 e 58",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento con il dovere di agire nel miglior interesse dei contraenti e di acquisire le informazioni sulle loro esigenze.",
+          "source_ref": "CAP, art. 119-bis, c. 1; Reg. IVASS 40/2018, art. 54, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elemento privacy del CRM collegato all'obbligo di riservatezza dell'intermediario e al divieto di usare le informazioni per altri fini senza consenso.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici dal lavoro di agenzia (ciclo di vita, valore get/give, sinistro come momento della verità) e caso pratico sulla CIT.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "La trascrizione del video dice \"la maggioranza dei clienti soddisfatti non esprime il proprio malcontento\": è un errore, corretto in \"insoddisfatti\" come nelle slide originali.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "\"Costo mer-share\" della trascrizione corretto in \"customer share\", come nelle slide originali.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la maggioranza dei clienti insoddisfatti non manifesta il proprio stato d'animo. Manca un dato o uno studio a supporto: da indicare.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Decodificare i bisogni: informazioni, fedeltà e reazioni del cliente",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Capacità di ascoltare e decodificare i bisogni della clientela - Copia.pdf",
+        "Corso Ivass 60 ore/Materiale/Capacità di ascoltare e decodificare i bisogni della clientela - Copia.pdf",
+        "corso totale/Area amministrativa e gestionale/Gestione dei reclami/Capacita di ascoltare e decodificare i bisogni della clientela (1).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area amministrativa e gestionale/Gestione dei reclami/capacità di ascoltare e decodificare i bisogni della clientela.mp4"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei reclami",
+          "title": "Decodificare i bisogni: informazioni, fedeltà e reazioni del cliente",
+          "goals": [
+            "Raccogliere e interpretare le informazioni sul cliente, off-line e on-line",
+            "Capire come la soddisfazione diventa fiducia, fedeltà e lealtà",
+            "Leggere reclami, complimenti e passaparola come segnali"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Conoscere il cliente",
+          "key": "Bisogna conoscere il cliente, i suoi bisogni e le sue esigenze. Un sistema cognitivo dei clienti, sviluppato e aggiornato, permette di capire perché acquistano, anticipare le aspettative, far leva su aspettative e desideri, personalizzare l'offerta.",
+          "body": "Il cliente può avere più ruoli: risorsa, co-produttore, compratore e utilizzatore. Il sistema cognitivo deve comprendere le aspettative, alla luce delle esperienze passate, il comportamento d'acquisto e i desideri che nascono da motivazioni personali, come interessi e obiettivi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Da dove arrivano le informazioni",
+          "left": {
+            "title": "Off-line",
+            "items": [
+              "Call center, rete di vendita e customer service",
+              "Caratteristiche socio-demografiche e identità",
+              "Prodotti acquistati o richiesti, interessi",
+              "Storia del rapporto",
+              "Dati psicografici: stili di vita, valori, atteggiamenti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "On-line",
+            "items": [
+              "Analisi dei log file",
+              "E-mail",
+              "Form di registrazione",
+              "Comunità virtuali"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Ogni informazione raccolta resta riservata e si usa solo per l'attività di distribuzione, salvo consenso espresso dopo l'informativa privacy.",
+          "noteRef": "Reg. IVASS 40/2018, art. 54, c. 4"
+        },
+        {
+          "layout": "table",
+          "title": "Gli strumenti on-line",
+          "head": [
+            "Strumento",
+            "Che cosa offre",
+            "Attenzione a"
+          ],
+          "rows": [
+            [
+              "L · Log file",
+              "Sul server del sito restano tutte le richieste: ore di collegamento, pagine più viste, acquisti, ritorni, attenzione dedicata.",
+              "Sono dati forniti in modo inconsapevole"
+            ],
+            [
+              "@ · E-mail",
+              "Strumento interattivo molto usato: il cliente esprime opinione, soddisfazione o lamentela.",
+              "Va gestita bene per valorizzare il dialogo"
+            ],
+            [
+              "F · Form",
+              "Pagina web che chiede dati in cambio di qualcosa che interessa al cliente.",
+              "Pochi campi: se è troppo lungo il cliente abbandona"
+            ],
+            [
+              "C · Community",
+              "Persone con interessi comuni dialogano in rete; l'impresa può crearne una sul sito.",
+              "Serve a capire bisogni e rafforzare la relazione"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Dai dati alla conoscenza",
+          "key": "I dati raccolti si elaborano e diventano informazioni strutturate e conoscenza, utili a guidare chi decide.",
+          "body": "Interpretare significa capire le relazioni tra le diverse informazioni presenti in azienda. Esempio: un cliente che scrive per chiedere della franchigia e che, dal database, ha appena comprato casa sta segnalando un bisogno nuovo, non solo una curiosità.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "sources",
+          "title": "Decodificare i bisogni è un obbligo",
+          "items": [
+            {
+              "label": "CAP, art. 119-ter, c. 1-2",
+              "detail": "Prima del contratto il distributore acquisisce ogni informazione utile a identificare richieste ed esigenze del contraente. Ogni contratto proposto deve essere coerente con esse."
+            },
+            {
+              "label": "Reg. IVASS 40/2018, art. 58",
+              "detail": "Si chiedono, se pertinenti, età, salute, lavoro, famiglia, situazione finanziaria e assicurativa, aspettative su copertura e durata, coperture già in essere. Dell'attività si conserva traccia."
+            },
+            {
+              "label": "FAQ IVASS sul Provv. 97/2020",
+              "detail": "La verifica di coerenza vale sempre, con o senza consulenza. Se il prodotto non è coerente, o il cliente rifiuta di dare le informazioni, il distributore si astiene dalla vendita."
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Le conseguenze del giudizio del cliente",
+          "cols": [
+            {
+              "title": "Se è insoddisfatto",
+              "items": [
+                "Sul comportamento d'acquisto: abbandono",
+                "Sulla relazione con l'impresa: reclamo e rivalsa",
+                "Sull'ambiente sociale: passaparola negativo"
+              ]
+            },
+            {
+              "title": "Se è soddisfatto",
+              "items": [
+                "Fedeltà",
+                "Complimenti ed elogi",
+                "Passaparola positivo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Perché il cliente se ne va",
+          "items": [
+            {
+              "text": "Interrompe il rapporto (exit) e passa a un concorrente (switching)."
+            },
+            {
+              "text": "Un'esperienza di consumo deludente."
+            },
+            {
+              "text": "Le pressioni dei concorrenti."
+            },
+            {
+              "text": "Le pressioni dell'ambiente sociale di riferimento."
+            },
+            {
+              "text": "Le barriere all'uscita, come i costi per cambiare, che invece frenano l'abbandono."
+            },
+            {
+              "text": "La propensione personale al cambiamento."
+            },
+            {
+              "text": "Attenzione all'assenza di reazione: non è né un giudizio positivo né negativo, e per questo è più insidiosa."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Le quattro fasi della fedeltà",
+          "steps": [
+            {
+              "label": "Cognitiva",
+              "text": "Il cliente compra perché conviene."
+            },
+            {
+              "label": "Affettiva",
+              "text": "Acquisti ripetuti e soddisfacenti confermano le aspettative."
+            },
+            {
+              "label": "Conativa",
+              "text": "Vuole consolidare la relazione ripetendo gli acquisti."
+            },
+            {
+              "label": "D'azione",
+              "text": "Compra senza più cercare alternative."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Soddisfatto non vuol dire fedele",
+          "key": "Un cliente fedele è, verosimilmente, soddisfatto. Ma un cliente soddisfatto non è per forza fedele.",
+          "body": "La soddisfazione alimenta fiducia e fedeltà, ma non basta. Contano anche il commitment, cioè il desiderio duraturo di mantenere una relazione importante, e la reciprocità e la cooperazione: non sfruttare l'altro per un vantaggio di breve periodo, aspettandosi che anche l'altro faccia lo stesso in futuro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Il modello dinamico di customer loyalty",
+          "lead": "Quattro fasi; in ognuna il cliente confronta configurazioni di valore: atteso, percepito dopo l'uso, monadico e diadico.",
+          "head": [
+            "Fase",
+            "Che cosa succede",
+            "Il confronto"
+          ],
+          "rows": [
+            [
+              "1 · Soddisfazione e fiducia",
+              "Se l'esito conferma le aspettative, la soddisfazione alimenta la fiducia.",
+              "Valore atteso e valore percepito. Soddisfazione = flusso, fiducia = stock."
+            ],
+            [
+              "2 · Fedeltà comportamentale",
+              "Più fiducia accumulata, più conviene riacquistare.",
+              "A un certo punto il cliente verifica: esce, resta solo per i minori costi o resta perché il valore è superiore ai concorrenti."
+            ],
+            [
+              "3 · Fedeltà mentale",
+              "Si aggiunge la convinzione che l'impresa offra più dei concorrenti.",
+              "Valore ricevuto nel tempo e valore che il cliente pensa di aver generato per l'impresa."
+            ],
+            [
+              "4 · Lealtà",
+              "Il cliente collabora attivamente: è fedele nei comportamenti e nella mente.",
+              "Più forte è la concorrenza, più alta deve essere la soddisfazione."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Reclamo e rivalsa",
+          "left": {
+            "title": "Da dove nascono",
+            "items": [
+              "Da esperienze ritenute insoddisfacenti",
+              "Di solito il cliente ha già provato a lamentarsi con l'impresa, senza risultato",
+              "Alla base c'è la percezione di un tradimento delle regole di giustizia della relazione"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Le due strade",
+            "items": [
+              "Chiedere il risarcimento del danno: cambio o riparazione del prodotto, sconti, rimborsi",
+              "Rivalsa: danneggiare l'impresa, nei beni o nell'immagine, solo per punirla"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Ascoltare subito la prima lamentela, anche informale, evita che diventi un reclamo scritto o una reazione di rivalsa.",
+          "noteRef": "Collegamento con la lezione \"La disciplina dei reclami\""
+        },
+        {
+          "layout": "steps",
+          "title": "Gestire i complimenti",
+          "steps": [
+            {
+              "label": "Incoraggiare",
+              "text": "I complimenti mostrano come il cliente percepisce davvero l'offerta."
+            },
+            {
+              "label": "Riconoscere",
+              "text": "Accorgersi dell'elogio, anche se informale."
+            },
+            {
+              "label": "Comprendere",
+              "text": "Più difficile che con le lamentele: le motivazioni possono essere molte. Va capito lo stimolo."
+            },
+            {
+              "label": "Agire",
+              "text": "Scegliere gli interventi più opportuni e trarne suggerimenti."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Il passaparola",
+          "cols": [
+            {
+              "title": "Positivo",
+              "items": [
+                "Porta nuovi clienti senza costi per l'impresa",
+                "Riduce i costi promozionali",
+                "Si favorisce con comunità virtuali dove i clienti condividono le esperienze"
+              ]
+            },
+            {
+              "title": "Negativo",
+              "items": [
+                "Riduce le vendite",
+                "Rende meno efficaci promozioni e pubblicità",
+                "Si limita con più punti di customer care dove accogliere le rimostranze"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente di 38 anni chiama il broker: vuole \"la polizza più economica\" per la nuova auto. Parlando, racconta che ha appena avuto un figlio, che è lavoratore autonomo e che ha un mutuo sulla casa.",
+          "questions": [
+            "Quali informazioni deve raccogliere il broker prima di proporre il contratto?",
+            "Che cosa fa se il cliente rifiuta di rispondere alle domande?",
+            "Quali bisogni non espressi emergono?"
+          ],
+          "solution": "Per la RC auto serve una proposta coerente con richieste ed esigenze: dati sul veicolo, sull'uso, sulle coperture già in essere e sulle aspettative di copertura e durata. Se il cliente rifiuta di dare le informazioni necessarie e la coerenza non si può accertare, il broker si astiene dalla vendita. Famiglia, lavoro autonomo e mutuo segnalano bisogni di protezione da approfondire in un secondo momento, rispettando la riservatezza dei dati raccolti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Il cliente rientra nel mercato di riferimento del prodotto, ma il prodotto non è coerente con le sue richieste ed esigenze. Che cosa fa il distributore?",
+          "options": [
+            "Lo vende, perché il cliente rientra nel target",
+            "Lo vende se il cliente firma una dichiarazione",
+            "Si astiene dalla vendita",
+            "Lo vende solo con consulenza"
+          ],
+          "answer": 2,
+          "explanation": "Ogni contratto proposto deve essere coerente con richieste ed esigenze del contraente. Secondo le FAQ IVASS sul Provvedimento 97/2020, il distributore si astiene dalla vendita anche se il cliente rientra nel mercato di riferimento."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Off · On",
+              "text": "le due fonti delle informazioni sul cliente, da interpretare insieme"
+            },
+            {
+              "value": "119-ter",
+              "text": "ogni contratto proposto deve essere coerente con richieste ed esigenze"
+            },
+            {
+              "value": "4",
+              "text": "le fasi della fedeltà: cognitiva, affettiva, conativa, d'azione"
+            },
+            {
+              "value": "Flusso · Stock",
+              "text": "la soddisfazione alimenta la fiducia che si accumula"
+            },
+            {
+              "value": "Segnali",
+              "text": "reclami, complimenti e passaparola dicono che cosa pensa il cliente"
+            }
+          ]
+        }
+      ],
+      "narration": "Ora andiamo sul concreto: come si raccolgono e si decodificano le informazioni sul cliente, come la soddisfazione diventa fedeltà e come leggere le sue reazioni.\n\nPrima regola: bisogna conoscere il cliente, i suoi bisogni e le sue esigenze. Per farlo l'impresa sviluppa e aggiorna un sistema cognitivo dei clienti, cioè un insieme organizzato di conoscenze su di loro. Questo le permette di comprendere che cosa determina il comportamento d'acquisto, di definire in anticipo le aspettative, di far leva su aspettative e desideri e di personalizzare l'offerta.\n\nIl cliente non è solo chi compra. Può essere una risorsa, un co-produttore, un compratore e un utilizzatore. Nelle assicurazioni è anche co-produttore: senza le sue informazioni sul rischio non si costruisce una copertura adatta. Il sistema cognitivo deve quindi comprendere tre cose: l'analisi delle aspettative, alla luce delle esperienze passate; le informazioni sul comportamento d'acquisto; le informazioni sui desideri, che nascono dalle motivazioni personali, come interessi e obiettivi.\n\nDa dove arrivano queste informazioni? In base alla fonte si distinguono in off-line e on-line. Quelle off-line sono raccolte tramite il call center, la rete di vendita e il customer service, e riguardano le caratteristiche socio-demografiche e l'identità del cliente, i prodotti acquistati o richiesti e i suoi interessi, la storia del rapporto e i dati psicografici, cioè stili di vita, valori e atteggiamenti.\n\nGli strumenti on-line sono quattro. Il primo è l'analisi dei log file: sul server che ospita il sito ci sono file in cui vengono registrate tutte le richieste e le loro caratteristiche. Sono informazioni che gli utenti forniscono senza saperlo, ma molto utili, perché rivelano le abitudini digitali: orari di collegamento, pagine visitate con più interesse, acquisti on-line, frequenza dei ritorni, attenzione dedicata e valutazioni espresse inconsciamente. Il secondo è l'e-mail, uno strumento interattivo usatissimo con cui il cliente esprime direttamente opinioni, soddisfazione o lamentele su un prodotto o un servizio. Vanno gestite bene. Ricordiamo che una e-mail di lamentela è una dichiarazione scritta di insoddisfazione: può essere un reclamo, con tutte le regole che abbiamo visto nella lezione precedente. Il terzo strumento è il form di registrazione, una pagina web che chiede i dati del cliente in cambio di qualcosa che gli interessa. Le domande non devono essere troppo dettagliate, altrimenti il cliente perde interesse e abbandona. Il quarto sono le comunità virtuali, che mettono in relazione persone con interessi comuni. L'impresa può crearne una sul proprio sito, per conoscere interessi e bisogni dei consumatori e rendere più stretta la relazione.\n\nPer tutte queste fonti vale l'obbligo di riservatezza dell'articolo 54 del Regolamento IVASS 40, già visto nella lezione precedente.\n\nRaccogliere dati non basta. I dati vanno elaborati e trasformati in informazioni strutturate e in conoscenza, che diano competenze e guidino chi decide. Interpretare significa capire le relazioni tra le diverse informazioni presenti in azienda. Pensa all'esempio della slide: due dati letti insieme rivelano un bisogno nuovo.\n\nPer l'intermediario decodificare i bisogni è anche un obbligo. L'articolo 119-ter del Codice delle assicurazioni private stabilisce che, prima di concludere un contratto, il distributore acquisisce dal contraente ogni informazione utile a identificare le sue richieste ed esigenze, per valutare l'adeguatezza del contratto, e gli fornisce informazioni oggettive e comprensibili. E aggiunge che qualsiasi contratto proposto deve essere coerente con le richieste e le esigenze assicurative del contraente. L'articolo 58 del Regolamento IVASS 40 precisa che cosa chiedere: notizie sulle caratteristiche personali e sulle esigenze assicurative o previdenziali del contraente o dell'assicurato, compresi, se pertinenti, età, stato di salute, attività lavorativa, nucleo familiare, situazione finanziaria e assicurativa e aspettative su copertura e durata, tenendo conto anche delle coperture già in essere. Dell'attività svolta si conserva traccia documentale. Le FAQ dell'IVASS sul Provvedimento 97 del 2020 chiariscono che la valutazione di coerenza vale per tutti i contratti e qualunque sia la modalità di distribuzione, con o senza consulenza. Se il prodotto non corrisponde alle richieste ed esigenze, oppure se il cliente rifiuta di dare le informazioni e la coerenza non si può accertare, il distributore si astiene dalla vendita, anche se il cliente rientra nel mercato di riferimento del prodotto.\n\nPassiamo alle conseguenze del giudizio del cliente. L'insoddisfazione può avere effetti su tre piani: sul comportamento d'acquisto, con l'abbandono; sulla qualità della relazione con l'impresa, con il reclamo e la rivalsa; sull'interazione sociale, con il passaparola negativo. La soddisfazione, al contrario, può portare alla fedeltà, a complimenti ed elogi, e a un passaparola positivo. C'è poi un comportamento che può seguire sia la soddisfazione sia l'insoddisfazione: l'assenza di reazione. È il caso più insidioso, perché l'impresa non può interpretarlo né come giudizio positivo né come giudizio negativo.\n\nPerché un cliente se ne va? Può interrompere il rapporto, la cosiddetta exit, e rivolgersi a un concorrente, il cosiddetto switching, per diverse ragioni: un'esperienza deludente, le pressioni dei concorrenti, le pressioni dell'ambiente sociale di riferimento. Su questa scelta pesano anche le barriere all'uscita, come i costi che il cliente dovrebbe sostenere per cambiare, che frenano l'abbandono, e la sua propensione personale al cambiamento. Ogni cliente perso è una perdita, tanto più grande quanto più alto era il profitto che portava.\n\nLa fedeltà evolve in quattro fasi. Nella fedeltà cognitiva il cliente è fedele solo sul piano razionale: compra perché conviene. Nella fedeltà affettiva, dopo acquisti ripetuti e soddisfacenti, le aspettative iniziali hanno trovato conferma. Nella fedeltà conativa il cliente ha un forte interesse a consolidare e mantenere la relazione ripetendo gli acquisti. Nella fedeltà d'azione acquista dall'impresa senza neppure cercare alternative.\n\nUn cliente fedele è, verosimilmente, soddisfatto; ma un cliente soddisfatto non è per forza fedele. La soddisfazione è fondamentale per sviluppare fiducia e fedeltà, e la fiducia è la base della fedeltà, ma le relazioni non si reggono solo sulla fiducia. Contano anche il commitment, cioè il desiderio duraturo di mantenere una relazione importante, e la reciprocità e la cooperazione: non comportarsi in modo opportunistico, cercando il massimo vantaggio nel breve periodo a scapito dell'altro, aspettandosi che anche l'altro, in futuro, faccia lo stesso.\n\nSu queste basi si costruisce il modello dinamico di customer loyalty, che parte dagli studi sulla soddisfazione e sul marketing relazionale per descrivere come si sviluppa la relazione impresa-cliente fino alla fedeltà. Il modello individua quattro fasi, nelle quali il cliente confronta diverse configurazioni di valore: il valore atteso, il valore percepito dopo l'utilizzo, il valore monadico e il valore diadico.\n\nNella prima fase, quella della soddisfazione e dell'accumulo della fiducia, il cliente confronta valore atteso e valore percepito. Se l'esito conferma le aspettative, è soddisfatto, e la soddisfazione alimenta la fiducia. Per questo si dice che la soddisfazione è una variabile di flusso e la fiducia una variabile di stock: ogni esperienza positiva aggiunge qualcosa al serbatoio.\n\nNella seconda fase, quella della fiducia e della fedeltà comportamentale, più cresce lo stock di fiducia, più il cliente è propenso a comprare dall'impresa, perché riacquistare gli conviene. Questa fase però non dura per sempre. Prima o poi il cliente rimette in discussione le sue valutazioni e decide: può uscire dalla relazione, può restare solo perché costa meno che cambiare, oppure può restare perché è convinto che il valore offerto sia superiore a quello dei concorrenti.\n\nNella terza fase, quella della fedeltà mentale, alla soddisfazione e alla fiducia si aggiunge proprio questa convinzione. È una fase con soddisfazione elevata e un alto stock di fiducia. Qui però avviene un nuovo confronto: il cliente paragona il valore che ha ricevuto nel tempo con il valore che ritiene di aver generato per l'impresa.\n\nNella quarta fase c'è la lealtà. Il cliente leale collabora attivamente con l'impresa, a cui è legato sia da fedeltà comportamentale sia da fedeltà mentale. Il modello sottolinea che il legame tra soddisfazione e fedeltà dipende dalla concorrenza: se è assente o moderata, basta una piccola dose di soddisfazione per ottenere la fedeltà; se è molto forte, serve un livello di soddisfazione elevatissimo per mantenere la relazione.\n\nIl reclamo e la rivalsa nascono da esperienze ritenute insoddisfacenti. Di solito il cliente, prima di protestare con soggetti terzi, ha provato a esporre le sue lamentele direttamente all'impresa, senza ottenere il risultato sperato. Le reazioni di rivalsa, o vendicative, mirano a danneggiare l'impresa, sul piano materiale o dell'immagine. Alla base c'è la percezione di un tradimento delle regole di giustizia su cui si fonda la relazione. A quel punto il cliente ha due alternative: chiedere il risarcimento del danno, e in questo caso l'impresa può sostituire o riparare il prodotto difettoso, oppure concedere sconti o rimborsi; oppure mettere in atto comportamenti vendicativi, perché desidera soltanto punire l'impresa. La lezione per l'intermediario è chiara: ascoltare subito la prima lamentela, anche informale, evita che diventi un reclamo scritto o, peggio, una reazione di rivalsa.\n\nAnche i complimenti vanno gestiti. Sono manifestazioni verbali con cui i clienti si congratulano con l'impresa, di solito dopo un'esperienza soddisfacente, e possono offrire suggerimenti utili. L'impresa dovrebbe seguire quattro passi: incoraggiare, riconoscere, comprendere e agire sui complimenti. Incoraggiarli è importante perché aiutano a capire come il cliente percepisce davvero l'offerta. Comprenderli può essere molto più difficile che comprendere le lamentele, perché le motivazioni possono essere molte. Per agire, quindi, l'impresa deve prima capire lo stimolo che ha portato all'elogio e poi scegliere gli interventi più opportuni.\n\nInfine il passaparola. Quello positivo può spingere nuovi clienti ad acquistare, con minori costi promozionali, perché sono i clienti soddisfatti ad attivarlo spontaneamente, senza costi per l'impresa. Quello negativo, al contrario, può ridurre le vendite e l'efficacia delle campagne promozionali e pubblicitarie. Per ridurne la nascita e la diffusione si possono, per esempio, aumentare i punti di customer care dove i clienti insoddisfatti trovano accoglienza alle loro rimostranze. Per favorire il passaparola positivo si possono usare le tecnologie, per esempio creando comunità virtuali in cui i clienti condividono le loro esperienze.\n\nProva ora il caso pratico: un cliente chiede la polizza auto più economica, ma parlando lascia emergere altri bisogni. Chiediti quali informazioni raccogliere prima di proporre il contratto e che cosa fare se il cliente non vuole rispondere.\n\nRicapitolando: informazioni off-line e on-line vanno interpretate insieme; ogni contratto proposto deve essere coerente con richieste ed esigenze; la fedeltà non coincide con la soddisfazione. E reclami, complimenti e passaparola sono segnali preziosi: dicono all'intermediario che cosa pensa davvero il cliente.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato a cura dell'IVASS: artt. 119-bis e 119-ter",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/Cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato: artt. 54 e 58",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "IVASS, FAQ su chiarimenti applicativi concernenti le modifiche introdotte dal Provvedimento n. 97/2020",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/normativi-provv/2020/provv_97/FAQ_Provv.97-2020.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di acquisire le informazioni su richieste ed esigenze e di proporre contratti coerenti.",
+          "source_ref": "CAP, art. 119-ter, c. 1-2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Informazioni da chiedere al contraente o all'assicurato e traccia documentale dell'attività.",
+          "source_ref": "Reg. IVASS 40/2018, art. 58, c. 1-2 e 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verifica di coerenza sempre obbligatoria; astensione dalla vendita se il prodotto non è coerente o se il cliente rifiuta di dare le informazioni, anche se rientra nel mercato di riferimento.",
+          "source_ref": "FAQ IVASS sul Provvedimento n. 97/2020, domande 2 e 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riservatezza delle informazioni raccolte e divieto di usarle per altri fini senza consenso.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamenti con la lezione sulla disciplina dei reclami (e-mail di lamentela come possibile reclamo; ascolto della prima lamentela), esempi pratici e caso pratico.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Unite le due versioni del materiale: le slide del corso totale (conseguenze, abbandono, fedeltà) e quelle del corso 60 ore, più recenti e più dettagliate. Riportati entrambi gli elenchi delle cause di abbandono e la frase sull'assenza di reazione presente solo nel corso totale.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le configurazioni di \"valore monadico\" e \"valore diadico\", che il materiale non definisce. Definizioni e riferimento bibliografico del modello dinamico di customer loyalty da indicare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "\"Dati psicografici\": aggiunta una spiegazione tra parentesi (stili di vita, valori, atteggiamenti), non presente nella fonte.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ],
+  "lesson_offset": 1
+}

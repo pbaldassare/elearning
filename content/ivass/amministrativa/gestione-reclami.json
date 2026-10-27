@@ -1,0 +1,464 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Gestione dei reclami",
+  "topic_order": 3,
+  "scope": "core",
+  "source_minutes": 54,
+  "lessons": [
+    {
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale/Gestione dei reclami/La disciplina dei reclami.pdf",
+        "Corso ivass 30 ore/.../Gestione dei reclami/La disciplina dei reclami prima parte.pdf",
+        "Corso ivass 30 ore/.../Gestione dei reclami/La disciplina dei reclami seconda parte.pdf"
+      ],
+      "source_minutes": 22,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei reclami",
+          "title": "La disciplina dei reclami",
+          "goals": [
+            "Riconoscere che cosa è un reclamo e che cosa non lo è",
+            "Sapere chi deve rispondere e in quanto tempo",
+            "Indicare al cliente le strade successive: IVASS, Arbitro Assicurativo, giudice"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I reclami nel settore assicurativo",
+          "key": "In Italia il settore assicurativo ha un tasso di litigiosità elevatissimo, che forse non ha eguali negli altri Paesi europei. Negli ultimi anni il numero di reclami è sempre cresciuto.",
+          "body": "Il reclamo è uno dei modi in cui il cliente esprime insoddisfazione. A volte si risolve nel confronto diretto con l'impresa, a volte con la mediazione dell'IVASS, in altri casi davanti all'Autorità giudiziaria.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "definition",
+          "title": "Che cos'è un reclamo",
+          "key": "Una dichiarazione di insoddisfazione in forma scritta nei confronti di un'impresa di assicurazione o di un intermediario, relativa a un contratto o a un servizio assicurativo.",
+          "yes": [
+            "Lamentela scritta sul comportamento di un intermediario",
+            "Contestazione scritta su come è stato gestito il contratto"
+          ],
+          "no": [
+            "Richiesta di informazioni o chiarimenti",
+            "Richiesta di risarcimento del danno",
+            "Richiesta di esecuzione del contratto"
+          ],
+          "note": "Può reclamare chi ha titolo a far valere il diritto: ad esempio contraente, assicurato, beneficiario, danneggiato.",
+          "ref": "Reg. ISVAP 24/2008, art. 2, lett. t-bis e t-ter"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "D.Lgs. 209/2005, art. 7: diritto di proporre reclamo all'IVASS nei confronti di imprese e intermediari."
+            },
+            {
+              "label": "Regolamento ISVAP n. 24/2008",
+              "detail": "Procedura di reclamo all'IVASS e gestione dei reclami da parte di imprese e intermediari. Testo coordinato con i Provvedimenti IVASS 30/2015, 46/2016, 61/2017, 63/2017, 76/2018 e 97/2020."
+            },
+            {
+              "label": "Provvedimento IVASS n. 160/2025",
+              "detail": "Avvio dell'Arbitro Assicurativo: ricorsi possibili dal 15 gennaio 2026."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il percorso di un reclamo",
+          "steps": [
+            {
+              "label": "Reclamo scritto",
+              "text": "Il cliente scrive all'impresa o all'intermediario."
+            },
+            {
+              "label": "Risposta entro 45 giorni",
+              "text": "In linguaggio semplice. Se il reclamo è respinto, anche solo in parte, la risposta spiega perché e indica IVASS e sistemi alternativi."
+            },
+            {
+              "label": "Se la risposta manca o non convince",
+              "text": "Il cliente può rivolgersi all'IVASS o all'Arbitro Assicurativo."
+            },
+            {
+              "label": "Giudice",
+              "text": "Resta sempre possibile rivolgersi all'Autorità giudiziaria."
+            }
+          ],
+          "ref": "Reg. 24/2008, artt. 4, 8, 10-ter, 10-quater"
+        },
+        {
+          "layout": "table",
+          "title": "Chi gestisce il reclamo",
+          "lead": "Dipende dalla sezione del Registro (RUI) in cui è iscritto l'intermediario.",
+          "head": [
+            "Sezione",
+            "Chi gestisce",
+            "Tempi"
+          ],
+          "rows": [
+            [
+              "A · Agenti",
+              "L'impresa preponente. L'agente le trasmette subito il reclamo e ne avvisa il cliente.",
+              "45 giorni. L'agente ha 15 giorni per dare documenti e posizione: il termine resta sospeso al massimo 15 giorni."
+            ],
+            [
+              "B · Broker",
+              "Il broker. Se il reclamo riguarda l'impresa, lo trasmette all'impresa e ne avvisa il cliente.",
+              "45 giorni"
+            ],
+            [
+              "C · Produttori diretti",
+              "L'impresa. Il produttore le trasmette subito il reclamo.",
+              "45 giorni"
+            ],
+            [
+              "D · Banche, SIM, Poste",
+              "L'intermediario stesso, con le stesse regole dei broker.",
+              "45 giorni"
+            ],
+            [
+              "E · Collaboratori",
+              "Chi gestisce i reclami dell'intermediario per cui lavorano. Il collaboratore trasmette subito il reclamo.",
+              "Quelli dell'intermediario di riferimento"
+            ]
+          ],
+          "ref": "Reg. 24/2008, artt. 10-ter, 10-quater, 10-quinquies, 10-sexies, 10-septies"
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli obblighi dell'impresa",
+          "items": [
+            {
+              "text": "Adotta una politica di gestione dei reclami, approvata e rivista almeno una volta l'anno dall'organo amministrativo.",
+              "ref": "art. 7-bis"
+            },
+            {
+              "text": "Risponde al reclamante entro 45 giorni dal ricevimento: la violazione di questo termine è sanzionata dall'IVASS.",
+              "ref": "art. 8, c. 1; sanzione: materiale originale"
+            },
+            {
+              "text": "Affida i reclami a una funzione dedicata e imparziale e la comunica all'IVASS entro 10 giorni lavorativi.",
+              "ref": "art. 8, c. 2 e 4"
+            },
+            {
+              "text": "Registra tutti i reclami in un archivio elettronico e ogni semestre ne ricava un prospetto statistico.",
+              "ref": "art. 9, c. 1-2"
+            },
+            {
+              "text": "La revisione interna verifica le procedure e invia una relazione ad alta direzione, organo amministrativo e organo di controllo. Tutto va all'IVASS entro 60 giorni dalla fine del semestre.",
+              "ref": "art. 9, c. 3-5"
+            },
+            {
+              "text": "Pubblica sul sito, entro 60 giorni dalla fine dell'anno, un rendiconto sui reclami ricevuti e sul loro esito.",
+              "ref": "art. 8, c. 5-bis"
+            },
+            {
+              "text": "Spiega come presentare un reclamo: in home page, nella documentazione precontrattuale e nelle comunicazioni in corso di contratto.",
+              "ref": "art. 10"
+            },
+            {
+              "text": "Conserva la documentazione per 5 anni dal ricevimento.",
+              "ref": "art. 9, c. 6"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli obblighi dell'intermediario",
+          "items": [
+            {
+              "text": "Broker e intermediari della sezione D adottano una propria politica di gestione dei reclami, messa a disposizione di dipendenti e collaboratori e rivista almeno una volta l'anno.",
+              "ref": "art. 10-bis, c. 1-2"
+            },
+            {
+              "text": "Nei grandi broker e negli intermediari della sezione D la politica è approvata dall'organo amministrativo.",
+              "ref": "art. 10-bis, c. 3"
+            },
+            {
+              "text": "Il broker tiene un archivio dei reclami, elettronico o cartaceo, e a fine anno ne riporta i dati in un prospetto statistico.",
+              "ref": "art. 10-quater, c. 4"
+            },
+            {
+              "text": "Il broker che comunica con i clienti sui social network accetta i reclami anche da quel canale, oppure indica come presentarli.",
+              "ref": "art. 10-quater, c. 3"
+            },
+            {
+              "text": "L'agente trasmette subito il reclamo all'impresa e riceve copia delle comunicazioni al cliente.",
+              "ref": "art. 10-ter, c. 1-2"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il reclamo all'IVASS",
+          "left": {
+            "title": "Quando si presenta",
+            "items": [
+              "Per far verificare il rispetto del Codice e delle sue norme di attuazione da parte di imprese, intermediari e periti",
+              "Dopo un reclamo all'impresa o all'intermediario rimasto senza risposta nei termini, o con una risposta non soddisfacente",
+              "Per una lite con un'impresa di un altro Paese (FIN-NET)"
+            ],
+            "ref": "art. 4, c. 1"
+          },
+          "right": {
+            "title": "Che cosa contiene",
+            "items": [
+              "Nome, cognome, domicilio ed eventuale telefono del reclamante",
+              "Chi si contesta",
+              "Una descrizione breve ma completa del problema",
+              "Copia del reclamo già presentato e dell'eventuale risposta",
+              "Ogni documento utile"
+            ],
+            "ref": "art. 5, c. 1"
+          },
+          "note": "Le contestazioni su responsabilità, prestazione e importi dovuti vanno prima all'impresa. Se arrivano all'IVASS, l'Istituto le inoltra all'impresa entro 45 giorni e l'impresa risponde al cliente entro 45 giorni.",
+          "noteRef": "art. 4, c. 5-6"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi dell'IVASS",
+          "items": [
+            {
+              "value": "45 giorni",
+              "text": "per comunicare al reclamante l'avvio dell'istruttoria",
+              "ref": "art. 6, c. 1"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per imprese e intermediari, per rispondere alle richieste dell'IVASS",
+              "ref": "art. 6, c. 2"
+            },
+            {
+              "value": "90 giorni",
+              "text": "dall'acquisizione degli elementi, per comunicare l'esito",
+              "ref": "art. 6, c. 3"
+            },
+            {
+              "value": "Dimezzati",
+              "text": "i termini di 45 e 90 giorni se si segnala la violazione dell'obbligo a contrarre RC auto",
+              "ref": "art. 6, c. 7; art. 132 CAP"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quando l'IVASS non è competente",
+          "head": [
+            "Caso",
+            "Che cosa succede"
+          ],
+          "rows": [
+            [
+              "Sulla stessa questione è già stato adito il giudice",
+              "L'IVASS informa il reclamante che il reclamo esula dalla sua competenza."
+            ],
+            [
+              "KID e distribuzione di prodotti di investimento assicurativi da parte di banche e altri soggetti abilitati secondo il TUF",
+              "L'IVASS trasmette il reclamo alla CONSOB e ne avvisa il reclamante."
+            ],
+            [
+              "Trasparenza e offerta delle forme pensionistiche complementari",
+              "L'IVASS trasmette il reclamo alla COVIP e ne avvisa il reclamante."
+            ]
+          ],
+          "ref": "art. 4, c. 2-4"
+        },
+        {
+          "layout": "concept",
+          "title": "Liti con imprese di altri Paesi: FIN-NET",
+          "key": "Chi abita in Italia e ha una lite con un'impresa di un altro Paese può rivolgersi all'IVASS o direttamente al sistema estero competente.",
+          "body": "L'IVASS, accertato quale sistema estero è competente, gli inoltra il reclamo entro 30 giorni e ne dà notizia al reclamante. Se l'inoltro comporta costi, chiede prima il consenso del reclamante.",
+          "ref": "art. 7"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "L'Arbitro Assicurativo",
+          "lead": "Dal 15 gennaio 2026 il cliente può chiedere a un organismo indipendente di decidere la controversia con l'impresa o l'intermediario, senza andare dal giudice.",
+          "facts": [
+            {
+              "label": "Prima",
+              "text": "Serve un reclamo scritto all'impresa o all'intermediario sugli stessi fatti. Il reclamo all'IVASS non basta."
+            },
+            {
+              "label": "Entro",
+              "text": "12 mesi dal reclamo, per fatti avvenuti non più di tre anni prima del reclamo."
+            },
+            {
+              "label": "Come",
+              "text": "Solo online, su arbitroassicurativo.org, con un contributo di 20 euro restituito se il ricorso è accolto, anche in parte."
+            },
+            {
+              "label": "Limiti",
+              "text": "Vita caso morte (TCM) 300.000 €, altre polizze vita 150.000 €, danni 25.000 €, azione diretta del danneggiato 2.500 €."
+            },
+            {
+              "label": "Tempi",
+              "text": "Fino a 90 giorni di scambio di memorie, poi decisione entro 90 giorni, prorogabili una volta."
+            },
+            {
+              "label": "Esito",
+              "text": "La decisione non è vincolante. Se l'impresa o l'intermediario non la rispetta, l'inadempimento viene reso pubblico."
+            }
+          ],
+          "ref": "Provv. IVASS n. 160/2025; FAQ arbitroassicurativo.org"
+        },
+        {
+          "layout": "compare",
+          "title": "IVASS o Arbitro?",
+          "cols": [
+            {
+              "title": "Reclamo all'IVASS",
+              "items": [
+                "Segnala possibili violazioni delle regole",
+                "L'IVASS decide se aprire o no il procedimento. Il reclamante non può contestare questa decisione né essere controinteressato in un eventuale giudizio sulla sanzione",
+                "Attiva la vigilanza dell'Istituto",
+                "Esito entro 90 giorni dall'acquisizione degli elementi"
+              ]
+            },
+            {
+              "title": "Ricorso all'Arbitro",
+              "items": [
+                "Chiede una decisione sulla controversia",
+                "Richiede un reclamo preventivo all'impresa o all'intermediario",
+                "Contributo di 20 euro",
+                "Decisione non vincolante, ma l'inadempimento è pubblico"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Riconosci il reclamo: è scritto ed esprime insoddisfazione. Una domanda di chiarimento non lo è."
+            },
+            {
+              "text": "Se sei un agente, trasmettilo subito all'impresa e avvisa il cliente. Poi hai 15 giorni per inviare documenti e posizione."
+            },
+            {
+              "text": "Se sei un broker, rispondi entro 45 giorni e registra il reclamo nell'archivio."
+            },
+            {
+              "text": "Se respingi il reclamo, anche in parte, spiega con chiarezza e indica IVASS e Arbitro Assicurativo."
+            }
+          ]
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "45",
+              "text": "giorni per la risposta di imprese e intermediari"
+            },
+            {
+              "value": "15",
+              "text": "giorni per la posizione dell'agente, che sospendono il termine"
+            },
+            {
+              "value": "45 · 30 · 90",
+              "text": "i tempi dell'istruttoria IVASS"
+            },
+            {
+              "value": "30",
+              "text": "giorni per l'inoltro FIN-NET"
+            },
+            {
+              "value": "12",
+              "text": "mesi per ricorrere all'Arbitro Assicurativo"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo come funzionano i reclami nel settore assicurativo: che cosa sono, chi deve rispondere, in quanto tempo, e quali strade restano al cliente quando la risposta non arriva o non lo convince.\n\nUn dato di contesto: in Italia il settore assicurativo ha un tasso di litigiosità elevatissimo, che forse non ha eguali negli altri Paesi europei, e negli ultimi anni il numero di reclami è sempre cresciuto. Il reclamo è uno dei modi in cui il cliente esprime insoddisfazione: a volte si risolve nel confronto diretto con l'impresa, a volte con la mediazione dell'IVASS, in altri casi davanti al giudice.\n\nPartiamo dalla definizione. Per il Regolamento ISVAP numero 24 del 2008 il reclamo è una dichiarazione di insoddisfazione, in forma scritta, nei confronti di un'impresa di assicurazione o di un intermediario, relativa a un contratto o a un servizio assicurativo. Due parole contano: scritta e insoddisfazione. Una telefonata di protesta non è ancora un reclamo. E non sono reclami nemmeno le richieste di informazioni o di chiarimenti, le richieste di risarcimento del danno e le richieste di esecuzione del contratto. Può presentare un reclamo chi ha titolo a farlo: ad esempio il contraente, l'assicurato, il beneficiario o il danneggiato.\n\nLe regole di riferimento sono tre. L'articolo 7 del Codice delle assicurazioni private riconosce il diritto di proporre reclamo all'IVASS. Il Regolamento 24 del 2008, modificato più volte dall'IVASS fino al 2020, disciplina sia il reclamo all'Istituto sia la gestione dei reclami da parte di imprese e intermediari. Infine, dal 15 gennaio 2026, è operativo l'Arbitro Assicurativo, avviato dall'IVASS con il Provvedimento numero 160 del 2025.\n\nVediamo il percorso tipico. Il cliente scrive all'impresa o all'intermediario. Chi riceve il reclamo deve rispondere entro 45 giorni, con un linguaggio semplice. Se il reclamo viene respinto, anche solo in parte, la risposta deve spiegare chiaramente perché e indicare al cliente che, prima di andare dal giudice, può rivolgersi all'IVASS o ai sistemi alternativi di risoluzione delle controversie. Se la risposta non arriva o non lo soddisfa, il cliente può quindi scrivere all'IVASS o ricorrere all'Arbitro Assicurativo. La strada del giudice resta sempre aperta.\n\nChi gestisce concretamente il reclamo? Dipende dalla sezione del Registro in cui è iscritto l'intermediario. Per gli agenti, sezione A, il reclamo lo gestisce l'impresa preponente. L'agente che lo riceve lo trasmette subito all'impresa e ne avvisa il cliente. L'impresa coinvolge l'agente e gli chiede di inviare entro 15 giorni documenti e la propria posizione; per questa integrazione il termine di 45 giorni resta sospeso al massimo 15 giorni. Nella risposta al cliente l'impresa dà conto della posizione dell'agente, o del fatto che non ha risposto. I broker, sezione B, gestiscono invece da soli i reclami di loro pertinenza e rispondono entro 45 giorni; se il reclamo riguarda l'impresa, lo trasmettono all'impresa e avvisano il cliente. Per i produttori diretti, sezione C, risponde l'impresa. Gli intermediari della sezione D, come banche, SIM e Poste, gestiscono i propri reclami con le stesse regole dei broker. I collaboratori della sezione E trasmettono subito il reclamo all'intermediario per cui lavorano, che lo gestisce secondo le proprie regole.\n\nPassiamo agli obblighi dell'impresa. L'impresa adotta una politica di gestione dei reclami, approvata e rivista almeno una volta l'anno dall'organo amministrativo e ispirata all'equo trattamento di assicurati, contraenti, beneficiari e danneggiati. Affida i reclami a una funzione dedicata, organizzata in modo da essere imparziale rispetto a chi è oggetto del reclamo, e comunica all'IVASS entro 10 giorni lavorativi quale funzione è e chi ne è responsabile. Risponde al reclamante entro 45 giorni, e la violazione di questo termine è sanzionata dall'IVASS. Registra tutti i reclami in un archivio elettronico e a fine semestre ne ricava un prospetto statistico. La funzione di revisione interna verifica le procedure e trasmette prospetti e relazione all'alta direzione, all'organo amministrativo e a quello di controllo; il tutto arriva all'IVASS entro 60 giorni dalla fine del semestre. L'impresa pubblica inoltre sul sito, entro 60 giorni dalla chiusura dell'anno, un rendiconto sui reclami ricevuti e sul loro esito. Le informazioni su come presentare un reclamo devono stare in home page, nella documentazione precontrattuale e nelle comunicazioni in corso di contratto. La documentazione si conserva per cinque anni.\n\nAnche gli intermediari hanno obblighi propri. Broker e intermediari della sezione D adottano una politica di gestione dei reclami, la mettono a disposizione di dipendenti e collaboratori e la rivedono almeno una volta l'anno; nei grandi broker e nella sezione D la approva l'organo amministrativo. Il broker tiene un archivio dei reclami, anche cartaceo, e a fine anno ne riporta i dati in un prospetto statistico. Se usa i social network per comunicare con i clienti, deve accettare i reclami anche da lì, oppure indicare come presentarli.\n\nVeniamo al reclamo all'IVASS. Si presenta in tre casi: per far verificare il rispetto delle regole da parte di imprese, intermediari e periti; dopo un reclamo all'impresa o all'intermediario rimasto senza risposta o con una risposta insoddisfacente; per le liti con imprese di altri Paesi. Il reclamo contiene i dati del reclamante, l'indicazione di chi si contesta, una descrizione breve ma completa del problema, la copia del reclamo già presentato e dell'eventuale risposta, e ogni documento utile. Attenzione: le contestazioni su responsabilità, prestazione e importi dovuti vanno prima all'impresa. Se arrivano direttamente all'IVASS, l'Istituto le inoltra all'impresa entro 45 giorni.\n\nI tempi dell'IVASS sono scanditi così: entro 45 giorni comunica al reclamante l'avvio dell'istruttoria; imprese e intermediari hanno 30 giorni per rispondere alle sue richieste; acquisiti gli elementi, l'IVASS comunica l'esito entro 90 giorni. Se il reclamo segnala la violazione dell'obbligo a contrarre nella RC auto, i termini sono dimezzati.\n\nRicorda che presentare un reclamo all'IVASS serve a provocarne l'intervento, ma è l'Istituto a decidere se aprire o meno il procedimento: il reclamante non può contestare questa decisione, né diventare controinteressato in un eventuale giudizio sulla sanzione.\n\nCi sono casi in cui l'IVASS non è competente. Se sulla stessa questione è già stato adito il giudice, l'IVASS lo comunica al reclamante. I reclami sul KID e sulla distribuzione di prodotti di investimento assicurativi da parte di banche e altri soggetti abilitati secondo il Testo unico della finanza vanno alla CONSOB. Quelli sulle forme pensionistiche complementari vanno alla COVIP. In entrambi i casi è l'IVASS a trasmettere il reclamo, avvisando il reclamante.\n\nPer le liti con imprese di altri Paesi esiste la rete FIN-NET. Il cliente che abita in Italia può rivolgersi all'IVASS oppure direttamente al sistema estero competente. Se sceglie l'IVASS, l'Istituto inoltra il reclamo entro 30 giorni e lo tiene informato.\n\nChiudiamo con la novità più importante: l'Arbitro Assicurativo. Dal 15 gennaio 2026 il cliente può chiedere a un organismo indipendente di decidere la controversia con l'impresa o con l'intermediario. Prima deve aver presentato un reclamo scritto all'impresa o all'intermediario sugli stessi fatti: il reclamo all'IVASS non basta. Il ricorso si presenta solo online, entro 12 mesi dal reclamo, con un contributo di 20 euro che viene restituito se il ricorso è accolto anche solo in parte. Ci sono limiti di valore: ad esempio 25.000 euro per le polizze danni e 150.000 euro per le polizze vita diverse dalle temporanee caso morte. La decisione non è vincolante, ma se l'impresa o l'intermediario non la rispetta l'inadempimento viene reso pubblico.\n\nIn sintesi, per l'intermediario: riconosci il reclamo, perché deve essere scritto ed esprimere insoddisfazione; se sei un agente trasmettilo subito all'impresa e collabora nei 15 giorni; se sei un broker rispondi entro 45 giorni e registra tutto; e quando respingi un reclamo spiega sempre il perché e indica al cliente IVASS e Arbitro Assicurativo.",
+      "sources": [
+        {
+          "title": "Regolamento ISVAP n. 24 del 19 maggio 2008, testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n24/Regolamento_ISVAP_24_del_19_maggio_2008.pdf"
+        },
+        {
+          "title": "IVASS, L'Arbitro Assicurativo sarà operativo dal 15 gennaio 2026",
+          "url": "https://www.ivass.it/media/avviso/operativita-aas/"
+        },
+        {
+          "title": "IVASS, Provvedimento n. 160 del 7 ottobre 2025",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/amministrativi-provv/2025/provv.160/Provv._n.160_del_07.10.2025.pdf"
+        },
+        {
+          "title": "Arbitro Assicurativo, FAQ",
+          "url": "https://www.arbitroassicurativo.org/faq/index.html"
+        },
+        {
+          "title": "IVASS, Reclami",
+          "url": "https://www.ivass.it/consumatori/reclami/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di reclamo e di reclamante, con ciò che non è reclamo.",
+          "source_ref": "Reg. 24/2008, art. 2, lett. t-bis e t-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Chi gestisce il reclamo per ciascuna sezione del RUI (A, B, C, D, E), con i 15 giorni di contraddittorio per l'agente.",
+          "source_ref": "Reg. 24/2008, artt. 10-ter – 10-septies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi degli intermediari: politica reclami, archivio del broker, reclami via social network.",
+          "source_ref": "Reg. 24/2008, artt. 10-bis, 10-quater"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Comunicazione della funzione reclami all'IVASS entro 10 giorni lavorativi, rendiconto annuale sul sito, informazioni nella documentazione precontrattuale, conservazione per 5 anni, invio all'IVASS entro 60 giorni dal semestre.",
+          "source_ref": "Reg. 24/2008, artt. 8, 9, 10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tempi dell'IVASS: 45 giorni per l'avvio dell'istruttoria, 30 giorni per le risposte dei vigilati, termini dimezzati per l'obbligo a contrarre RC auto.",
+          "source_ref": "Reg. 24/2008, art. 6, c. 1, 2, 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contestazioni su responsabilità, prestazione e importi: prima all'impresa; se inviate all'IVASS, inoltro entro 45 giorni.",
+          "source_ref": "Reg. 24/2008, art. 4, c. 5-6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Arbitro Assicurativo, operativo dal 15 gennaio 2026: requisiti, termini, contributo, limiti di valore, natura della decisione.",
+          "source_ref": "Provv. IVASS n. 160/2025; FAQ arbitroassicurativo.org"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il reclamo all'IVASS riguarda imprese, intermediari e periti, non solo le imprese, come indicava la fonte.",
+          "source_ref": "Reg. 24/2008, art. 4, c. 1, modificato dal Provv. IVASS 46/2016"
+        },
+        {
+          "kind": "modificato",
+          "description": "L'esclusione per il TUF ora riguarda KID e distribuzione di IBIP da parte di soggetti abilitati TUF, con trasmissione a CONSOB; previdenza complementare a COVIP.",
+          "source_ref": "Reg. 24/2008, art. 4, c. 2-4, modificato dai Provv. IVASS 76/2018 e 97/2020"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'affermazione sull'elevatissimo tasso di litigiosità del settore. Manca un dato o una fonte a supporto: da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il reclamante non può contestare la decisione dell'IVASS né essere controinteressato. Riferimento normativo da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la violazione del termine di 45 giorni è sanzionata dall'IVASS. Articolo sanzionatorio da indicare.",
+          "source_ref": "Materiale originale"
+        }
+      ],
+      "title": "La disciplina dei reclami"
+    }
+  ]
+}

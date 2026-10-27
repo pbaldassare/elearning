@@ -1,0 +1,1942 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Procedure e modalità assuntive e distributive",
+  "topic_order": 2,
+  "scope": "core",
+  "source_minutes": 81,
+  "lessons": [
+    {
+      "title": "Le compagnie di assicurazione: aspetti gestionali",
+      "source_files": [
+        "corso totale/Le compagnie di assicurazione - aspetti gestionali.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/Le compagnie di assicurazione - aspetti gestionali  prima partepdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/Le compagnie di assicurazione - aspetti gestionali seconda parte.pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Le compagnie di assicurazione: aspetti gestionali",
+          "goals": [
+            "Spiegare il ciclo produttivo inverso e il ruolo del capitale proprio",
+            "Distinguere gestione patrimoniale e gestione tecnico-assicurativa",
+            "Riconoscere riassicurazione, retrocessione e coassicurazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il ciclo produttivo inverso",
+          "key": "La compagnia prima incassa i premi e poi paga gli eventuali indennizzi.",
+          "body": "I premi riscossi vanno fatti fruttare dal momento in cui arrivano fino a quando serve liquidare le prestazioni. Per questo l'impresa di assicurazione è anche un grande investitore.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il capitale proprio come garanzia",
+          "key": "Il capitale proprio garantisce i clienti assicurati: è un asset patrimoniale, indice di solidità e sicurezza.",
+          "body": "Se i sinistri superano le attese, è il patrimonio dell'impresa che protegge gli assicurati. Un'impresa solida è la prima tutela del cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "La gestione patrimoniale",
+          "left": {
+            "title": "Che cosa si investe",
+            "items": [
+              "Investimenti immobiliari",
+              "Investimenti mobiliari",
+              "Altri investimenti finanziari"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Con quali vincoli",
+            "items": [
+              "Investimenti vincolati da legge: obbligatori",
+              "Investimenti liberi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "La gestione patrimoniale è l'attività di investimento dei capitali che derivano dalla gestione assicurativa.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le esigenze degli investimenti vincolati",
+          "items": [
+            {
+              "text": "Liquidità: i soldi devono esserci quando servono per pagare.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Redditività: gli investimenti devono rendere.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Sicurezza: il capitale non va messo a rischio.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Congruenza finanziaria: attivi coerenti con gli impegni verso gli assicurati.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Diversificazione: niente concentrazione su un solo investimento.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Le regole di oggi: Solvency II",
+          "lead": "Dal recepimento di Solvency II il Codice delle assicurazioni fissa regole precise per riserve e investimenti.",
+          "facts": [
+            {
+              "label": "Riserve",
+              "text": "L'impresa costituisce riserve tecniche sufficienti a far fronte a ogni impegno verso i contraenti."
+            },
+            {
+              "label": "Copertura",
+              "text": "Le riserve tecniche sono coperte con attivi di proprietà dell'impresa."
+            },
+            {
+              "label": "Persona prudente",
+              "text": "Tutti gli attivi sono investiti garantendo sicurezza, qualità, liquidità e redditività del portafoglio."
+            },
+            {
+              "label": "Diversificazione",
+              "text": "Va evitata l'eccessiva dipendenza da una sola attività, emittente, gruppo o area geografica."
+            },
+            {
+              "label": "Interesse",
+              "text": "Gli attivi a copertura delle riserve sono investiti nel migliore interesse di contraenti, assicurati e beneficiari."
+            }
+          ],
+          "ref": "CAP, artt. 36-bis, 37-ter, 38"
+        },
+        {
+          "layout": "concept",
+          "title": "La gestione tecnico-assicurativa",
+          "key": "È il core business dell'impresa: la copertura dei rischi assunti per conto della clientela.",
+          "body": "Si divide in due profili: gestione del ramo danni e gestione del ramo vita. In entrambi i rami i rischi si assumono in due modi: diretto e indiretto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Assunzione diretta e indiretta",
+          "cols": [
+            {
+              "title": "Assunzione diretta",
+              "items": [
+                "Al singolo si sostituisce una massa di soggetti esposti allo stesso rischio",
+                "Si raccolgono premi o contributi",
+                "Gestite con la tecnica assicurativa, le somme garantiscono i pagamenti agli aventi diritto"
+              ]
+            },
+            {
+              "title": "Assunzione indiretta",
+              "items": [
+                "Serve a dimensionare e mantenere nel tempo un portafoglio ampio e omogeneo",
+                "Omogeneo per qualità e quantità",
+                "Obiettivo: un risultato tecnico in cui sinistrosità e distribuzione dei rischi si bilanciano"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "La riassicurazione",
+          "left": {
+            "title": "Passiva",
+            "items": [
+              "L'assicuratore cedente cede una parte del rischio a un altro assicuratore, il cessionario",
+              "Scopo: ridurre la propria instabilità"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Attiva",
+            "items": [
+              "Il cessionario si assume una parte del rischio che il cedente vuole togliere dal suo passivo",
+              "Scopo: incrementare il proprio portafoglio premi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "La riassicurazione è la tecnica con cui l'impresa cede ad altri la parte di rischio che eccede il suo punto di equilibrio desiderato.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le forme di riassicurazione",
+          "lead": "Secondo il principio di indennizzo la riassicurazione è proporzionale o non proporzionale.",
+          "head": [
+            "Forma",
+            "Come funziona",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "P · In quota",
+              "Il riassicuratore prende una percentuale fissa di ogni rischio, di premi e sinistri.",
+              "Cessione del 40%: su ogni sinistro il riassicuratore paga il 40%."
+            ],
+            [
+              "P · In eccedenza",
+              "Si cede solo la parte di somma assicurata che supera quanto l'impresa vuole trattenere.",
+              "Utile per i rischi di importo molto alto."
+            ],
+            [
+              "NP · Excess loss",
+              "Per eccesso sinistri: il riassicuratore paga la parte di ogni sinistro che supera una soglia.",
+              "Protegge da un singolo sinistro grave."
+            ],
+            [
+              "NP · Stop loss",
+              "Per eccesso globale di perdita: interviene se le perdite complessive del periodo superano un limite.",
+              "Protegge da un anno con molti sinistri."
+            ]
+          ],
+          "ref": "Materiale originale del corso; spiegazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "La retrocessione",
+          "key": "È la riassicurazione della riassicurazione: un'attività svolta tra due riassicuratori.",
+          "body": "Attiva: una compagnia si accolla una quota di rischio che un'altra aveva già assunto con un precedente contratto di riassicurazione. Passiva: è lo stesso caso visto da chi cede la quota. Il riassicuratore attivo coincide con il retrocessionario passivo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La coassicurazione",
+          "key": "Il rischio è diviso in quote assunte da più compagnie. Ciascuna risponde solo per la sua quota: non c'è responsabilità solidale se una è insolvente.",
+          "body": "Per questo l'assicurato può esercitare un diritto di gradimento sugli assicuratori proposti dalla delegataria. La delegataria tiene i contatti con il cliente e cura l'ordinaria amministrazione, ma non si sostituisce alle altre nella responsabilità.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'azienda cliente assicura il capannone per 10 milioni di euro in coassicurazione: la compagnia A (delegataria) ha il 50%, B il 30%, C il 20%. Dopo un incendio con danno di 2 milioni, la compagnia C risulta insolvente.",
+          "questions": [
+            "Quanto pagano A e B?",
+            "Può l'azienda chiedere ad A la quota di C?",
+            "Che cosa avrebbe potuto fare il cliente al momento della stipula?"
+          ],
+          "solution": "A paga 1 milione e B 600.000 euro, cioè solo le rispettive quote. La quota di C (400.000 euro) non può essere chiesta ad A: in coassicurazione non c'è responsabilità solidale e la delegataria gestisce i rapporti ma non risponde per le altre. Alla stipula il cliente poteva esercitare il diritto di gradimento sulle compagnie proposte dalla delegataria, valutandone la solidità."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa si intende per ciclo produttivo inverso?",
+          "options": [
+            "L'impresa paga prima gli indennizzi e poi incassa i premi",
+            "L'impresa incassa prima i premi e poi paga gli eventuali indennizzi",
+            "L'impresa cede i rischi al riassicuratore prima di assumerli",
+            "I premi si pagano solo dopo il sinistro"
+          ],
+          "answer": 1,
+          "explanation": "Nel ciclo inverso i ricavi (premi) arrivano prima dei costi (indennizzi): i premi vanno quindi investiti in modo prudente fino al momento del pagamento."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un riassicuratore paga la parte di ogni singolo sinistro che supera una certa soglia. Di quale forma si tratta?",
+          "options": [
+            "Riassicurazione in quota",
+            "Riassicurazione in eccedenza",
+            "Excess loss (eccesso sinistri)",
+            "Stop loss (eccesso globale di perdita)"
+          ],
+          "answer": 2,
+          "explanation": "L'excess loss è una forma non proporzionale che opera sul singolo sinistro. Lo stop loss guarda invece alla perdita complessiva del periodo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Inverso",
+              "text": "prima si incassano i premi, poi si pagano gli indennizzi"
+            },
+            {
+              "value": "5",
+              "text": "esigenze degli investimenti vincolati: liquidità, redditività, sicurezza, congruenza, diversificazione"
+            },
+            {
+              "value": "Prudente",
+              "text": "oggi tutti gli attivi seguono il principio della persona prudente"
+            },
+            {
+              "value": "2 + 2",
+              "text": "riassicurazione proporzionale (quota, eccedenza) e non proporzionale (excess loss, stop loss)"
+            },
+            {
+              "value": "Quote",
+              "text": "in coassicurazione ognuno risponde solo per la sua quota"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo la compagnia di assicurazione dall'interno, come un'azienda. Capire come gestisce i premi, come investe e come distribuisce i rischi aiuta l'intermediario a spiegare al cliente perché la solidità dell'impresa conta, e a leggere con più consapevolezza termini come riassicurazione o coassicurazione che compaiono nelle polizze più complesse.\n\nPartiamo dal tratto più caratteristico: il ciclo produttivo inverso. In quasi tutte le aziende prima si sostengono i costi, ad esempio si comprano le materie prime e si paga il personale, e solo dopo si incassano i ricavi vendendo il prodotto. Nell'assicurazione avviene il contrario. La compagnia prima incassa i premi e poi paga gli eventuali indennizzi, che possono arrivare dopo mesi o dopo molti anni, come accade nel ramo vita o nei sinistri di responsabilità civile che si chiudono a distanza di tempo.\n\nQuesto ha una conseguenza importante. Tra il momento in cui il premio viene incassato e quello in cui serve liquidare la prestazione, quelle somme devono essere gestite e fatte fruttare. L'impresa di assicurazione è quindi anche un grande investitore istituzionale, e il modo in cui investe incide direttamente sulla sua capacità di pagare i sinistri.\n\nAccanto ai premi c'è il capitale proprio. Il capitale proprio svolge una funzione di garanzia per i clienti assicurati: è un asset patrimoniale, un indice di solidità e di sicurezza. Se un anno i sinistri sono molto più numerosi o costosi del previsto, è il patrimonio dell'impresa che fa da cuscinetto. Per il cliente, in fondo, comprare una polizza significa comprare una promessa di pagamento futura, e la promessa vale quanto la solidità di chi la fa.\n\nVediamo allora la gestione patrimoniale, cioè l'attività di investimento dei capitali che derivano dalla gestione assicurativa. Gli investimenti possono essere immobiliari, come immobili di proprietà, mobiliari, come titoli di Stato, obbligazioni e azioni, oppure altri investimenti finanziari. Il materiale originale distingue poi tra investimenti vincolati da legge e investimenti liberi.\n\nGli investimenti vincolati da legge sono obbligatori e costituiscono la principale garanzia verso la massa dei clienti assicurati. Devono rispondere a cinque esigenze. La liquidità, perché il denaro deve essere disponibile quando serve pagare. La redditività, perché gli investimenti devono rendere. La sicurezza, perché il capitale non va esposto a rischi eccessivi. La congruenza finanziaria, cioè la coerenza tra gli attivi e gli impegni assunti verso gli assicurati, per durata e natura. E la diversificazione, per non dipendere da un solo investimento.\n\nQuesti principi sono ancora validi, ma oggi trovano posto in un quadro normativo aggiornato. Con il recepimento della direttiva Solvency Two, il Codice delle assicurazioni private stabilisce, all'articolo 36-bis, che l'impresa costituisce riserve tecniche sufficienti a far fronte a ogni impegno assicurativo e riassicurativo verso i contraenti. L'articolo 38 dispone che le riserve tecniche siano coperte con attivi di proprietà dell'impresa, investiti in modo adeguato alla natura dei rischi e alla durata delle passività, nel migliore interesse di contraenti, assicurati e beneficiari. L'articolo 37-ter introduce il principio della persona prudente: tutti gli attivi vanno investiti in modo da garantire sicurezza, qualità, liquidità e redditività del portafoglio nel suo complesso, con un'adeguata diversificazione che eviti l'eccessiva dipendenza da una particolare attività, da un emittente, da un gruppo o da un'area geografica. Come vedi, le cinque esigenze del materiale originale si ritrovano tutte, espresse con il linguaggio di oggi.\n\nPassiamo al cuore dell'attività: la gestione tecnico-assicurativa. È il core business dell'impresa e riguarda soprattutto la copertura dei rischi assunti per conto della clientela. Si divide in due profili caratteristici, la gestione del ramo danni e la gestione del ramo vita, che hanno logiche tecniche molto diverse: nei danni si stima la frequenza e il costo dei sinistri, nel vita si lavora su durata della vita umana, tassi e rendimenti. In entrambi i rami l'assunzione dei rischi avviene in due modi: diretto e indiretto.\n\nL'assunzione diretta consiste nel sostituire, nella sopportazione del rischio, a un singolo soggetto una massa di soggetti esposti allo stesso rischio. Si raccolgono premi o contributi e queste somme, gestite secondo le regole della tecnica assicurativa, servono a garantire meglio i pagamenti agli aventi diritto. È il principio della mutualità: mille proprietari di casa pagano un premio contenuto, e con quelle somme si risarciscono i pochi che subiscono un incendio.\n\nL'assunzione indiretta, invece, permette di dimensionare e mantenere nel tempo un portafoglio di contratti abbastanza ampio e omogeneo, sia per qualità sia per quantità. L'obiettivo è ottenere un risultato tecnico soddisfacente, in cui livello di sinistrosità e distribuzione dei rischi si bilancino. Lo strumento principale dell'assunzione indiretta è la riassicurazione.\n\nLa riassicurazione è una tecnica di gestione del rischio con cui un'impresa di assicurazione cede ad altri quella parte del rischio che eccede il suo punto di equilibrio desiderato. Si può guardare da due lati. Riassicurazione passiva: l'assicuratore cedente, per ridurre la propria instabilità, cede una parte del rischio a un altro assicuratore, il cessionario. Riassicurazione attiva: il cessionario, per aumentare il proprio portafoglio premi, si assume una parte del rischio che il cedente vuole togliere dal suo passivo. È la stessa operazione, vista da chi cede e da chi riceve.\n\nSecondo il principio di indennizzo, la riassicurazione può essere proporzionale o non proporzionale. Nelle forme proporzionali premi e sinistri si dividono secondo una percentuale. In quota, il riassicuratore prende una percentuale fissa di ogni rischio: se la cessione è del quaranta per cento, riceve il quaranta per cento dei premi e paga il quaranta per cento di ogni sinistro. In eccedenza, si cede solo la parte di somma assicurata che supera quanto l'impresa vuole trattenere per sé, ed è una forma utile per i rischi di importo molto elevato.\n\nNelle forme non proporzionali il riassicuratore interviene solo oltre una soglia. Nell'excess loss, o eccesso sinistri, paga la parte di ciascun sinistro che supera un certo importo: protegge l'impresa dal singolo sinistro grave, come l'incendio di un grande stabilimento. Nello stop loss, o eccesso globale di perdita, interviene quando le perdite complessive di un periodo superano un limite: protegge da un anno particolarmente negativo, ad esempio con molti eventi atmosferici.\n\nC'è poi la retrocessione, un'attività che si svolge tra due riassicuratori. In pratica è la riassicurazione della riassicurazione. È attiva quando una compagnia si accolla una quota di rischio da un'altra che, a sua volta, l'aveva assunta da un'altra impresa con un precedente contratto di riassicurazione. È passiva nel caso opposto, cioè dal punto di vista della compagnia che cede la quota già riassicurata. Così la figura del riassicuratore attivo coincide con quella di retrocessionario passivo.\n\nInfine la coassicurazione, che il cliente può incontrare direttamente, soprattutto nei grandi rischi aziendali. Qui il rischio viene diviso in più quote, assunte da più compagnie. Ciascuna si assume e risponde solo per la propria quota, e non c'è responsabilità solidale se una di loro è insolvente. Proprio perché le compagnie non sono solidali, l'assicurato si riserva un diritto di gradimento sugli assicuratori che gli vengono proposti dalla delegataria. La delegataria è l'impresa che tiene i contatti con il cliente: si occupa dell'ordinaria amministrazione e della gestione del rapporto, ma non si sostituisce alle altre nella responsabilità verso il cliente.\n\nIl caso pratico lo mostra bene. Se il capannone è assicurato al cinquanta, trenta e venti per cento da tre compagnie, e quella con il venti per cento diventa insolvente, il cliente riceverà dalle altre due solo le loro quote. Ecco perché, quando proponi una coassicurazione, è buona pratica spiegare al cliente la composizione del riparto e la solidità delle compagnie coinvolte, ricordandogli che può esprimere il proprio gradimento.\n\nRicapitolando: il ciclo inverso rende l'impresa un investitore che deve essere prudente; gli investimenti a garanzia degli assicurati devono essere liquidi, redditizi, sicuri, congruenti e diversificati, oggi secondo il principio della persona prudente; la gestione tecnica si regge sulla mutualità e sulla riassicurazione; e in coassicurazione ogni compagnia risponde solo per la sua quota.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Quadro Solvency II su riserve tecniche e investimenti: riserve sufficienti, copertura con attivi di proprietà, principio della persona prudente, diversificazione, migliore interesse dei contraenti.",
+          "source_ref": "CAP, artt. 36-bis, 37-ter, 38"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione didattica ed esempi delle forme di riassicurazione (quota, eccedenza, excess loss, stop loss) e caso pratico sulla coassicurazione con insolvenza di una coassicuratrice.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la distinzione tra investimenti 'vincolati da legge' e 'liberi', tipica del regime precedente a Solvency II. Possibile aggiornamento: oggi tutti gli attivi seguono il principio della persona prudente (CAP art. 37-ter) e le riserve sono coperte con attivi di proprietà (art. 38); indicato nella slide di aggiornamento.",
+          "source_ref": "CAP, artt. 37-ter, 38"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la definizione di assunzione indiretta come strumento per mantenere un portafoglio ampio e omogeneo; esplicitato che lo strumento principale è la riassicurazione.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le regole su coassicurazione (assenza di solidarietà, diritto di gradimento, ruolo della delegataria). Riferimento normativo da indicare (codice civile).",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Il mercato assicurativo e i canali distributivi",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Procedure e modalita assuntive e distributive.pdf",
+        "Corso Ivass 60 ore/Materiale /Procedure e modalita assuntive e distributive.pdf (2).pdf",
+        "corso totale/Procedure e modalita assuntive e distributive.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Il mercato assicurativo e i canali distributivi",
+          "goals": [
+            "Distinguere mercato diretto, indiretto e finanziario",
+            "Conoscere i canali con cui l'impresa distribuisce i prodotti",
+            "Collegare ogni canale alla sezione del Registro e alle sue regole"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tre mercati in cui opera la compagnia",
+          "head": [
+            "Mercato",
+            "Che cosa comprende",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "1 · Diretto",
+              "Il collocamento di polizze presso il pubblico, compresa la coassicurazione.",
+              "La polizza casa venduta in agenzia."
+            ],
+            [
+              "2 · Indiretto",
+              "Con la riassicurazione un altro assicuratore controgarantisce, a fronte di un premio, un rischio o un portafoglio di rischi.",
+              "La compagnia cede a un riassicuratore parte dei rischi catastrofali."
+            ],
+            [
+              "3 · Finanziario",
+              "L'investimento dei premi raccolti in anticipo (inversione del ciclo costi-ricavi) e le soluzioni di Alternative Risk Transfer.",
+              "Strumenti finanziari che trasferiscono rischi al mercato dei capitali."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Come si classifica il mercato diretto",
+          "cols": [
+            {
+              "title": "Per ramo",
+              "items": [
+                "Mercato delle assicurazioni danni",
+                "Mercato delle assicurazioni vita",
+                "La classificazione per ramo serve anche a individuare le singole coperture"
+              ]
+            },
+            {
+              "title": "Per clientela",
+              "items": [
+                "Retail: famiglie e persone",
+                "Corporate: aziende",
+                "La differenza sta in dimensione, numero e complessità dei rischi, che incidono sull'offerta"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il terzo criterio: la relazione con il cliente",
+          "left": {
+            "title": "Distribuzione intermediata",
+            "items": [
+              "Promozione e collocamento affidati a intermediari",
+              "Agenti, broker, banche, Poste, consulenti, collaboratori"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Distribuzione diretta",
+            "items": [
+              "La compagnia colloca da sola i propri prodotti",
+              "Senza intermediari o senza una rete fisica dedicata",
+              "Telefono, internet, dipendenti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Anche l'impresa che vende direttamente è un distributore e rispetta le regole di comportamento verso il cliente.",
+          "noteRef": "CAP, art. 119-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "La despecializzazione",
+          "key": "Nuove regole nazionali ed europee, tecnologie, globalizzazione finanziaria, maggiore cultura finanziaria dei consumatori e diversificazione del risparmio hanno spinto verso la despecializzazione.",
+          "body": "Accanto ai canali tradizionali si sono sviluppati bancassicurazione, consulenti finanziari, SIM, telefono e internet. Lo stesso cliente può comprare una polizza in agenzia, in banca o online.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Chi distribuisce: il Registro degli intermediari (RUI)",
+          "lead": "Ogni intermediario è iscritto in una sola sezione del Registro tenuto dall'IVASS.",
+          "head": [
+            "Sezione",
+            "Chi",
+            "In sintesi"
+          ],
+          "rows": [
+            [
+              "A · Agenti",
+              "Agiscono in nome o per conto di una o più imprese.",
+              "Canale tradizionale."
+            ],
+            [
+              "B · Broker",
+              "Agiscono su incarico del cliente, senza poteri di rappresentanza delle imprese.",
+              "Canale tradizionale."
+            ],
+            [
+              "C · Produttori diretti",
+              "Rami vita, infortuni e malattia, per conto e sotto la piena responsabilità di un'impresa, senza obblighi di orario o di risultato.",
+              "Operano solo per quell'impresa."
+            ],
+            [
+              "D · Banche, SIM, Poste",
+              "Banche, intermediari finanziari, SIM, Poste Italiane - Divisione servizi di bancoposta.",
+              "Bancassicurazione e canale postale."
+            ],
+            [
+              "E · Collaboratori",
+              "Dipendenti, collaboratori e altri incaricati degli intermediari, fuori dai locali dell'intermediario.",
+              "Iscritti dall'intermediario per cui operano."
+            ],
+            [
+              "F · A titolo accessorio",
+              "Chi distribuisce polizze accessorie al proprio bene o servizio principale.",
+              "Introdotta con il recepimento della IDD."
+            ]
+          ],
+          "ref": "CAP, art. 109, c. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Il canale bancario",
+          "left": {
+            "title": "Bancassicurazione",
+            "items": [
+              "Più peso all'elemento finanziario rispetto a quello assicurativo",
+              "Costi di acquisizione, gestione e incasso (caricamenti) più bassi",
+              "Prodotto standardizzato, poco personalizzato",
+              "La fidelizzazione banca-cliente è decisiva"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Assurbanking",
+            "items": [
+              "Risposta difensiva delle compagnie alla bancassicurazione",
+              "La compagnia allarga la gamma a servizi bancari e finanziari",
+              "Nasce una banca: per incorporazione di una banca esistente o per costituzione in proprio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Integrazione tra banca, assicurazione e mercato mobiliare: primi segnali a metà anni '80, forte diffusione negli anni '90. Vantaggi comuni: rete sfruttata meglio, economie di scala e di scopo, cross selling, risposta più completa ai bisogni dei risparmiatori.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Poste, telefono e internet",
+          "lead": "Canali diversi, con vantaggi e regole proprie.",
+          "facts": [
+            {
+              "label": "Poste",
+              "text": "Poste Italiane - Divisione servizi di Bancoposta è iscritta in sezione D. Vita con Poste Vita, danni con Poste Assicura."
+            },
+            {
+              "label": "Telefono",
+              "text": "Raggiunge il cliente in modo rapido per prodotti semplici, come l'auto. Consente segmentazione e controllo diretto del mercato."
+            },
+            {
+              "label": "Risparmio",
+              "text": "Nella vendita diretta l'assicurato risparmia le commissioni di intermediazione."
+            },
+            {
+              "label": "Internet",
+              "text": "Diretto, se la compagnia si rivolge solo alla clientela online; intermediato, se l'intermediario usa il canale telematico."
+            },
+            {
+              "label": "Call center",
+              "text": "Gli addetti danno al primo contatto il proprio codice o le generalità e il nome dell'impresa."
+            }
+          ],
+          "ref": "Materiale originale; Reg. IVASS 40/2018, art. 76"
+        },
+        {
+          "layout": "concept",
+          "title": "L'infomediario e i comparatori",
+          "key": "Internet ha fatto nascere l'infomediario: confronta i prodotti e offre un servizio informativo che fa incontrare domanda e offerta sul web.",
+          "body": "Oggi chi offre servizi di comparazione indica quota di mercato comparata e imprese convenzionate, confronta davvero le imprese pubblicizzate e non si basa solo sul prezzo ma anche sulle caratteristiche principali delle polizze.",
+          "ref": "Materiale originale; Reg. IVASS 40/2018, art. 80"
+        },
+        {
+          "layout": "table",
+          "title": "Altre figure distributive",
+          "head": [
+            "Figura",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Consulente finanziario abilitato all'offerta fuori sede",
+              "Opera per SIM, banche e SGR nell'offerta fuori sede di strumenti finanziari e servizi di investimento. Per la fonte è un intermediario assicurativo secondario e la sua attività è compatibile con quella di agente."
+            ],
+            [
+              "Produttore diretto",
+              "Rami vita, infortuni e malattia, per conto di una sola impresa, senza obblighi di orario o di risultato. È assimilabile al procacciatore d'affari."
+            ],
+            [
+              "SIM e imprese di investimento",
+              "SIM, imprese di investimento UE e di paesi terzi diverse dalle banche possono offrire fuori sede prodotti diversi dagli strumenti finanziari, con caratteristiche fissate dalla CONSOB, sentita la Banca d'Italia."
+            ]
+          ],
+          "ref": "Materiale originale; CAP, art. 109, c. 2, lett. c)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Multilevel marketing: le regole",
+          "items": [
+            {
+              "text": "È una rete piramidale: il venditore procaccia clienti che possono diventare venditori ed è pagato anche sui contratti della rete che ha arruolato.",
+              "ref": "Reg. IVASS 40/2018, art. 2"
+            },
+            {
+              "text": "È ammesso solo se ogni componente della rete è iscritto nel Registro. È precluso ai broker (sezione B).",
+              "ref": "art. 50, c. 1"
+            },
+            {
+              "text": "Non può riguardare forme pensionistiche complementari.",
+              "ref": "art. 50, c. 2, lett. a)"
+            },
+            {
+              "text": "Si usano solo proposte numerate e immodificabili, senza coperture provvisorie.",
+              "ref": "art. 50, c. 2, lett. b)"
+            },
+            {
+              "text": "Niente contanti: solo mezzi di pagamento intestati all'impresa.",
+              "ref": "art. 50, c. 2, lett. d)"
+            },
+            {
+              "text": "L'impresa controlla la rete almeno ogni trimestre, anche con ispezioni.",
+              "ref": "art. 50, c. 3, lett. b)"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le nuove frontiere: la multicanalità",
+          "key": "Integrare canali fisici e virtuali è un fattore critico di successo.",
+          "body": "Le tecnologie creano una ubiquità virtuale e segnano il passaggio dal marketplace al market-space: le distanze fisiche si annullano e prodotti e servizi diventano accessibili su scala globale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha chiesto un preventivo auto su un comparatore, poi chiama l'agenzia: \"Online costa meno, perché dovrei venire da voi?\". L'agente lavora anche con un sito internet e un profilo social.",
+          "questions": [
+            "Che cosa deve garantire il comparatore?",
+            "Quali valori può far emergere l'agente?",
+            "Quali obblighi ha l'agente se colloca polizze a distanza?"
+          ],
+          "solution": "Il comparatore deve indicare quota di mercato e imprese comparate e confrontare anche le caratteristiche delle polizze, non solo il prezzo. L'agente può confrontare garanzie, franchigie e massimali e valutare le esigenze del cliente. Se vende a distanza, comunica prima alle imprese preponenti l'uso di queste tecniche e segue le loro istruzioni su siti, social e app."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In quale sezione del Registro è iscritta Poste Italiane - Divisione servizi di Bancoposta?",
+          "options": [
+            "Sezione A",
+            "Sezione B",
+            "Sezione D",
+            "Sezione E"
+          ],
+          "answer": 2,
+          "explanation": "La sezione D comprende banche, intermediari finanziari, SIM e Poste Italiane - Divisione servizi di bancoposta."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale affermazione sul multilevel marketing è corretta?",
+          "options": [
+            "È consentito anche ai broker",
+            "Ogni componente della rete deve essere iscritto nel Registro",
+            "I componenti possono incassare premi in contanti",
+            "Può riguardare le forme pensionistiche complementari"
+          ],
+          "answer": 1,
+          "explanation": "Il Regolamento IVASS 40/2018 ammette le reti multilevel solo se ogni componente è iscritto nel Registro. Restano esclusi broker, contanti e previdenza complementare."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "mercati: diretto, indiretto (riassicurazione), finanziario"
+            },
+            {
+              "value": "A-F",
+              "text": "le sezioni del Registro: agenti, broker, produttori diretti, banche/SIM/Poste, collaboratori, intermediari a titolo accessorio"
+            },
+            {
+              "value": "Banca",
+              "text": "bancassicurazione e, in risposta, assurbanking"
+            },
+            {
+              "value": "Web",
+              "text": "canale diretto o intermediato; comparatori con regole precise"
+            },
+            {
+              "value": "Rete",
+              "text": "multilevel ammesso solo con tutti i componenti iscritti"
+            }
+          ]
+        }
+      ],
+      "narration": "Questa lezione completa il quadro delle procedure con cui l'impresa assume i rischi, guardando a come li distribuisce: in quali mercati opera, con quali canali raggiunge i clienti e quali regole valgono per ciascun canale.\n\nUna compagnia opera, in sostanza, su tre mercati. Il primo è il mercato delle assicurazioni dirette, in cui rientra il collocamento di polizze presso il pubblico, compresa la coassicurazione. Il secondo è il mercato delle assicurazioni indirette: qui la compagnia, con un contratto di riassicurazione, ottiene che un altro assicuratore, il cessionario o riassicuratore, a fronte di un premio le controgarantisca in tutto o in parte un rischio o un portafoglio di rischi, già assunto o da assumere. Il terzo è il mercato finanziario. La compagnia investe i premi raccolti in anticipo, per effetto della cosiddetta inversione del ciclo costi-ricavi che abbiamo visto nella lezione precedente, e può trovare conveniente ricorrere a soluzioni finanziarie chiamate Alternative Risk Transfer, cioè strumenti che trasferiscono una parte dei rischi al mercato dei capitali.\n\nIl mercato diretto si può classificare in tre modi. Il primo guarda ai rami di attività: mercato danni e mercato vita. Dal lato dell'offerta, la stessa classificazione per ramo serve anche a individuare le singole coperture. Il secondo guarda alla clientela: il mercato retail, rivolto alle famiglie e alle persone, e il mercato corporate, rivolto alle aziende. La distinzione ha senso perché dimensione, numero e complessità dei rischi sono molto diversi, e questo incide direttamente sull'offerta. Pensa alla differenza tra assicurare l'appartamento di una famiglia e la flotta di un'azienda di trasporti.\n\nIl terzo criterio guarda alla relazione tra compagnia e assicurati. Questa relazione può passare attraverso soggetti che si occupano di promozione e collocamento, e allora parliamo di distribuzione intermediata, oppure può essere gestita direttamente dalla compagnia, e allora parliamo di distribuzione diretta. Ricorda però che anche l'impresa che vende da sola è un distributore: l'articolo 119-bis del Codice delle assicurazioni chiede a tutti i distributori di operare con equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse dei contraenti.\n\nNegli ultimi decenni la distribuzione è cambiata molto. Diversi fattori, cioè le innovazioni nei sistemi giuridici nazionali ed europei, le nuove tecnologie di comunicazione e informazione, la globalizzazione dei mercati finanziari, l'aumento della cultura finanziaria dei consumatori, la tendenza a diversificare le forme di risparmio e la continua evoluzione dei canali, hanno prodotto una tendenza alla despecializzazione. Accanto ai canali tradizionali si sono pienamente sviluppati la bancassicurazione, i consulenti finanziari e le SIM. L'information technology ha poi fatto nascere il canale internet, che si aggiunge al canale telefonico.\n\nPer orientarsi tra tanti canali è utile partire dal Registro unico degli intermediari, previsto dall'articolo 109 del Codice. Gli intermediari sono iscritti in sezioni distinte, e non si può essere iscritti in più sezioni contemporaneamente. Nella sezione A ci sono gli agenti, che agiscono in nome o per conto di una o più imprese. Nella sezione B i broker, che agiscono su incarico del cliente e senza poteri di rappresentanza delle imprese. Nella sezione C i produttori diretti. Nella sezione D banche, intermediari finanziari, SIM e Poste Italiane, Divisione servizi di bancoposta. Nella sezione E i collaboratori, dipendenti e altri incaricati degli intermediari che operano fuori dai locali dell'intermediario. Infine, nella sezione F, gli intermediari a titolo accessorio, introdotti con il recepimento della direttiva sulla distribuzione assicurativa: sono, ad esempio, i soggetti che vendono una polizza come accessorio di un bene o di un servizio principale.\n\nI canali tradizionali dell'intermediazione assicurativa e riassicurativa sono principalmente gli agenti e i broker. Vediamo invece il canale bancario. Un segnale di integrazione tra i tre settori tradizionali dell'intermediazione finanziaria, cioè bancario, assicurativo e mobiliare, si vede già a metà degli anni Ottanta, ma è negli anni Novanta che questa convergenza si diffonde davvero.\n\nAll'inizio l'avvicinamento ha avuto un carattere quasi solo distributivo, dando vita alla bancassicurazione. Le banche hanno ampliato la raccolta del risparmio e guadagnato commissioni; le compagnie hanno potuto usare la rete capillare degli sportelli e competere con prodotti a premi più contenuti. Nella bancassicurazione è la banca a dare la propria impronta al modo di distribuire. In queste polizze l'elemento finanziario pesa più di quello assicurativo, si riducono sensibilmente i costi di acquisizione, gestione e incasso, cioè i cosiddetti caricamenti, viene meno la personalizzazione a favore della standardizzazione, e la fidelizzazione tra banca e cliente è un fattore chiave.\n\nLa risposta delle compagnie è l'assurbanking, o assicurazione-banca. È una strategia difensiva: la compagnia ripensa il proprio business e allarga la gamma ai servizi bancari e finanziari. L'assurbanking prevede la nascita di una banca, ma se ne distingue per gamma, caratteristiche dei prodotti e rete distributiva. La compagnia può avere una propria banca in due modi: incorporando una banca già operante oppure costituendone una in proprio. I vantaggi sono gli stessi della bancassicurazione: sfruttare meglio la rete distributiva, ottenere economie di scala e di scopo, un elevato livello di cross selling, cioè di vendita incrociata, e una risposta più completa alle esigenze complesse dei risparmiatori.\n\nTra gli intermediari c'è a pieno titolo anche Poste Italiane, Divisione servizi di Bancoposta, che per svolgere l'intermediazione assicurativa deve essere iscritta nella sezione D del Registro. Poste opera nel vita con i prodotti di Poste Vita e nei danni con Poste Assicura.\n\nPassiamo al canale diretto: la compagnia colloca i propri prodotti senza intermediari, o comunque senza una rete fisica dedicata. Il canale telefonico permette di raggiungere il cliente in modo rapido per prodotti semplici, come le polizze auto, e consente un'elevata segmentazione, il controllo diretto e l'accesso al mercato finale; inoltre l'assicurato risparmia, perché non ci sono commissioni di intermediazione. Quando si usano call center, il Regolamento IVASS 40 del 2018 chiede che gli addetti abbiano competenze adeguate, si identifichino al primo contatto con codice o generalità e nome dell'impresa, e diano risposte uniformi e conformi alle condizioni contrattuali.\n\nInternet, veicolo di informazione a basso costo e ad alto potenziale, ha fatto nascere una nuova figura professionale: l'infomediario, che confronta i prodotti e offre una prestazione informativa, favorendo l'incontro tra domanda e offerta sul web. La distribuzione online può essere diretta, quando la compagnia si rivolge solo alla clientela online, oppure intermediata, quando l'intermediario svolge la propria attività usando il canale telematico. Oggi l'articolo 80 del Regolamento 40 disciplina i servizi di comparazione: chi li offre indica la quota di mercato comparata e l'elenco delle imprese con cui ha accordi, garantisce che le imprese pubblicizzate siano davvero quelle comparate, spiega perché un'impresa non è quotata e fornisce confronti basati non solo sul prezzo, ma anche sulle caratteristiche principali delle polizze.\n\nCi sono poi altre figure. Il consulente finanziario abilitato all'offerta fuori sede è il soggetto di cui si avvalgono SIM, banche e società di gestione del risparmio per offrire fuori sede strumenti finanziari e servizi di investimento. Il materiale originale lo qualifica come intermediario assicurativo secondario, cioè un soggetto che collabora a vario titolo con gli intermediari principali, e precisa che la sua attività non è incompatibile con quella di agente di assicurazione.\n\nIl produttore diretto esercita l'intermediazione nei rami vita, infortuni e malattia, anche in via sussidiaria rispetto alla propria attività principale, per conto e sotto la piena responsabilità di un'impresa, senza obblighi di orario o di risultato ed esclusivamente per quell'impresa. Per questo è assimilabile al procacciatore d'affari, che procura affari all'impresa senza un impegno a produrre. Le SIM, le imprese di investimento dell'Unione e quelle di paesi terzi diverse dalle banche possono invece offrire fuori sede prodotti diversi dagli strumenti finanziari e dai servizi di investimento, con caratteristiche stabilite dalla CONSOB, sentita la Banca d'Italia.\n\nUn discorso a parte merita il multilevel o network marketing: reti di vendita a struttura piramidale, con una catena di accordi tra i componenti. Il venditore procaccia clienti che possono diventare a loro volta venditori, e viene pagato sia sui contratti che vende direttamente sia su quelli venduti dalla rete che ha arruolato. Il Regolamento IVASS 40 lo ammette solo a condizioni rigorose: ogni componente della rete deve essere iscritto nel Registro; la tecnica è preclusa ai broker; non può riguardare le forme pensionistiche complementari; si usano solo proposte numerate e immodificabili, senza coperture provvisorie; chi incassa premi non riceve contanti ma solo mezzi di pagamento intestati all'impresa; e l'impresa controlla la rete almeno ogni tre mesi, anche con verifiche ispettive.\n\nChiudiamo con le nuove frontiere. L'integrazione tra canali fisici e virtuali è un fattore critico di successo nei progetti di multicanalità. Le nuove tecnologie creano una sorta di ubiquità virtuale e segnano il passaggio dal marketplace, il luogo fisico di scambio, al market-space, lo spazio virtuale, dove le distanze si annullano e prodotti e servizi sono accessibili su scala globale. Per l'agente che usa un sito o un profilo social questo significa anche nuovi obblighi: deve comunicare prima alle imprese preponenti l'uso delle tecniche di vendita a distanza e rispettarne le istruzioni.\n\nIn sintesi: tre mercati, tre criteri di classificazione, molti canali, ma un unico filo conduttore. Chiunque distribuisca, che sia agente, banca, sito o call center, deve essere iscritto dove previsto e rispettare le regole di comportamento verso il cliente.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 41 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n41/Regolamento_IVASS_41_2018_testo_consolidated_version.pdf?language_id=3"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Lezione integrativa costruita sul materiale del Corso IVASS 60 ore indicato nel compito (Procedure e modalità assuntive e distributive), non compreso nei minuti originali dell'argomento.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sezioni del Registro A-F, inclusa la sezione F degli intermediari a titolo accessorio, e divieto di iscrizione in più sezioni.",
+          "source_ref": "CAP, art. 109, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole di comportamento per tutti i distributori, inclusa l'impresa che vende direttamente.",
+          "source_ref": "CAP, art. 119-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole sui call center e sui servizi di comparazione.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 76 e 80"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni per la distribuzione tramite reti multilevel marketing.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 2 e 50"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi di agenti e altri intermediari che usano tecniche di vendita a distanza (comunicazione preventiva alle imprese, istruzioni su siti, social e app).",
+          "source_ref": "Reg. IVASS 40/2018, art. 74, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: i consulenti finanziari abilitati all'offerta fuori sede sono 'intermediari assicurativi secondari' e la loro attività è compatibile con quella di agente. Riferimento da indicare / possibile aggiornamento: verificare l'inquadramento attuale nel Registro (sezione E) e la disciplina delle incompatibilità.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la regola sull'offerta fuori sede da parte di SIM e imprese di investimento di prodotti diversi dagli strumenti finanziari (regolamento CONSOB sentita la Banca d'Italia). Riferimento normativo (TUF) da indicare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i riferimenti a Poste Vita e Poste Assicura come compagnie distribuite da Poste Italiane: dato di mercato da riverificare periodicamente.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La tutela del contraente: il contraente debole e i contratti asimmetrici",
+      "source_files": [
+        "corso totale/La tutela del contraente.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/La tutela del contraente prima parte"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Il contraente debole e i contratti asimmetrici",
+          "goals": [
+            "Riconoscere quando una parte del contratto è debole",
+            "Distinguere asimmetrie fisiologiche e patologiche",
+            "Collocare primo, secondo e terzo contratto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il contraente debole",
+          "key": "In teoria i contraenti sono alla pari. Nella pratica spesso le forze sono sbilanciate: al contraente debole si contrappone il contraente forte.",
+          "body": "Contraente debole è la parte che subisce una disparità contrattuale. Nel lavoro dell'intermediario è il cliente che firma un contratto scritto da altri, su una materia tecnica che non conosce a fondo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tappe della normativa protezionistica",
+          "head": [
+            "Norma",
+            "Che cosa protegge"
+          ],
+          "rows": [
+            [
+              "L. 20 maggio 1970, n. 300",
+              "Il lavoro subordinato: è l'esordio della normativa protezionistica."
+            ],
+            [
+              "L. 18 giugno 1998, n. 192",
+              "La subfornitura: parti in apparenza pari, ma non alla pari quando si scrive il contratto."
+            ],
+            [
+              "D.Lgs. 6 settembre 2005, n. 206",
+              "Il Codice del consumo dà rilievo al consumatore: lo status di consumatore fa scattare la protezione verso la parte professionale. Nasce il \"secondo contratto\"."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto asimmetrico",
+          "key": "Un nuovo modello, con tratti comuni a molte norme di origine europea che si discostano dal diritto comune.",
+          "body": "I Principi di Diritto Europeo dei Contratti (PDEC) accolgono l'esigenza di proteggere la parte debole e propongono un modello generale di contratto con asimmetria di potere contrattuale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Ingiusto profitto e vantaggio iniquo",
+          "key": "I PDEC introducono l'ingiusto profitto (\"an excessive benefit\") e il vantaggio iniquo di una parte a danno dell'altra.",
+          "body": "Conta la situazione di dipendenza o di bisogno della parte svantaggiata, che la parte avvantaggiata conosceva o avrebbe dovuto conoscere.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Dove sta lo squilibrio",
+          "key": "Il contratto asimmetrico è sbilanciato non tanto nel contenuto o nel valore delle prestazioni, ma nelle posizioni di forza e di debolezza con cui le parti arrivano a concluderlo.",
+          "body": "Si parla di contratti asimmetrici quando si fronteggiano due soggetti di mercato con una significativa asimmetria di potere contrattuale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Asimmetrie fisiologiche e patologiche",
+          "cols": [
+            {
+              "title": "Fisiologiche",
+              "items": [
+                "Derivano dalle posizioni di mercato delle parti",
+                "Sono standardizzate e riguardano intere classi di contraenti",
+                "Esempio: impresa di assicurazione e cliente privato"
+              ]
+            },
+            {
+              "title": "Patologiche",
+              "items": [
+                "Derivano da vizi della volontà",
+                "Oppure da stato di pericolo o di bisogno",
+                "Oppure da incapacità di agire"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Primo, secondo e terzo contratto",
+          "lead": "Più che nuove categorie, sono paradigmi contrattuali diversi.",
+          "head": [
+            "Paradigma",
+            "Le parti",
+            "Da dove nasce la disparità"
+          ],
+          "rows": [
+            [
+              "1 · Primo contratto",
+              "Soggetti di pari potere contrattuale: è il contratto di diritto comune.",
+              "Nessuna: si presume siano ugualmente informati."
+            ],
+            [
+              "2 · Secondo contratto",
+              "Consumatore e professionista.",
+              "Carenza informativa del consumatore."
+            ],
+            [
+              "3 · Terzo contratto",
+              "Imprenditore forte e imprenditore debole.",
+              "Dipendenza economica di un'impresa rispetto all'altra."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando la condotta dell'impresa dominante è abusiva",
+          "items": [
+            {
+              "text": "Serve l'intenzionalità offensiva della condotta.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Va verificato in concreto che la condotta non risponda a una logica commerciale.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "L'intenzionalità emerge da condotte oggettive che rivelano la dominanza economica.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Esempio: il carattere improvviso del recesso.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Consumatore e imprenditore debole",
+          "cols": [
+            {
+              "title": "Consumatore",
+              "items": [
+                "Contano valori personalistici legati alla dignità umana",
+                "Lo squilibrio è connaturato al rapporto",
+                "È prevedibile ex ante"
+              ]
+            },
+            {
+              "title": "Imprenditore debole",
+              "items": [
+                "Contano libertà di iniziativa economica e tutela della concorrenza",
+                "Conclude di solito contratti di durata",
+                "Gli abusi si consolidano dopo l'avvio della relazione commerciale"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Ricorda che il cliente firma un testo scritto da altri: è un'asimmetria fisiologica, non un'eccezione."
+            },
+            {
+              "text": "Spiega le clausole più gravose prima della firma, non dopo il sinistro."
+            },
+            {
+              "text": "Con le aziende clienti, valuta anche la loro dipendenza economica da grandi committenti o fornitori."
+            },
+            {
+              "text": "Non dare pareri legali: verifica le coperture e indirizza il cliente."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola azienda di componenti lavora da dieci anni quasi solo per un grande committente. Il committente, senza preavviso, recede dal contratto di fornitura. Il titolare chiede al suo agente se la polizza di tutela legale può servire.",
+          "questions": [
+            "Di quale paradigma contrattuale si tratta?",
+            "Quali elementi possono far pensare a un abuso?",
+            "Che cosa deve fare l'agente?"
+          ],
+          "solution": "È un caso di terzo contratto: imprese formalmente pari, ma una dipende economicamente dall'altra. Il recesso improvviso è un indice oggettivo di abuso, se manca una logica commerciale. L'agente non dà pareri legali: verifica garanzie ed esclusioni della polizza di tutela legale e invita il cliente a denunciare il caso secondo le condizioni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nel \"terzo contratto\" la disparità tra le parti deriva da:",
+          "options": [
+            "Un vizio della volontà",
+            "La carenza informativa del consumatore",
+            "La dipendenza economica di un imprenditore rispetto a un altro",
+            "La minore età di una delle parti"
+          ],
+          "answer": 2,
+          "explanation": "Il terzo contratto è concluso tra un imprenditore forte e uno debole: la disuguaglianza nasce dalla dipendenza economica."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di queste è un'asimmetria fisiologica?",
+          "options": [
+            "Il contratto firmato in stato di pericolo",
+            "Il rapporto tra compagnia di assicurazione e cliente privato",
+            "Il contratto concluso da un incapace",
+            "Il consenso dato per errore"
+          ],
+          "answer": 1,
+          "explanation": "Le asimmetrie fisiologiche derivano dalle posizioni stabili di mercato delle parti. Le altre opzioni sono asimmetrie patologiche."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Debole",
+              "text": "la parte che subisce una disparità contrattuale"
+            },
+            {
+              "value": "1970",
+              "text": "lo Statuto dei lavoratori apre la stagione protezionistica"
+            },
+            {
+              "value": "PDEC",
+              "text": "modello europeo di contratto asimmetrico e ingiusto profitto"
+            },
+            {
+              "value": "1 · 2 · 3",
+              "text": "primo, secondo e terzo contratto: parità, carenza informativa, dipendenza economica"
+            },
+            {
+              "value": "Fisiologica",
+              "text": "l'asimmetria tra compagnia e cliente nasce dalle posizioni di mercato"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione apriamo il tema della tutela del contraente. Prima di arrivare alle regole specifiche delle assicurazioni, conviene capire perché il diritto protegge una delle parti del contratto e quali tipi di squilibrio esistono. È la base per comprendere tutti gli obblighi di informazione e di comportamento che l'intermediario applica ogni giorno.\n\nIn teoria, quando due soggetti firmano un contratto, sono in una posizione paritaria: ciascuno cerca di ottenere vantaggi economici o condizioni favorevoli. Nella pratica, però, in moltissimi casi le parti non sono sullo stesso piano e le forze in gioco sono sbilanciate a favore di una delle due. Al contraente debole si contrappone il contraente forte. Contraente debole è la parte che subisce una disparità contrattuale. Pensa al cliente che firma una polizza: il testo è scritto dall'impresa, il linguaggio è tecnico e il cliente difficilmente può valutare da solo tutte le conseguenze delle clausole.\n\nLa normativa che protegge la parte debole ha una storia. Il suo esordio viene fatto risalire alle regole a tutela del lavoro subordinato, la legge 20 maggio 1970, numero 300, cioè lo Statuto dei lavoratori. Con la legge 18 giugno 1998, numero 192, sulla subfornitura nelle attività produttive, il legislatore interviene invece nei rapporti tra parti apparentemente pari e con lo stesso potere contrattuale, che però nella concreta scrittura del contratto possono non essere alla pari. Con il Codice del consumo, il decreto legislativo 6 settembre 2005, numero 206, assume rilievo la figura del consumatore: lo status di consumatore diventa il presupposto per applicare una disciplina protettiva nei confronti della parte professionale, e nasce il fenomeno che la dottrina chiama secondo contratto.\n\nDa qui nasce il concetto di contratto asimmetrico. È un nuovo modello, i cui tratti sono comuni a molte norme di derivazione europea che si discostano dal diritto comune. I Principi di Diritto Europeo dei Contratti, i PDEC, accolgono l'esigenza di proteggere la parte debole ed elaborano un modello generale di contratto con asimmetria di potere contrattuale. Introducono anche la figura dell'ingiusto profitto, in inglese an excessive benefit, e del vantaggio iniquo di una parte a danno dell'altra. Qui conta la situazione di dipendenza o di bisogno della parte svantaggiata, che la parte avvantaggiata conosceva o avrebbe dovuto conoscere.\n\nAttenzione a un punto. Le asimmetrie rendono il contratto sbilanciato non tanto nel contenuto, né nel rapporto di valore tra prestazione e controprestazione, quanto nelle posizioni di forza e di debolezza con cui le parti arrivano a concluderlo. Un premio può essere perfettamente congruo rispetto al rischio, e il contratto restare comunque asimmetrico perché una parte sa molto più dell'altra.\n\nL'espressione contratti asimmetrici indica tutti i contratti in cui si fronteggiano due soggetti di mercato con una significativa asimmetria di potere contrattuale. Poiché questa asimmetria deriva dalle rispettive posizioni di mercato, cioè da posizioni fisiologiche, si parla di asimmetria fisiologica e non patologica. Le asimmetrie patologiche sono quelle determinate da vizi della volontà, da stati di pericolo o di bisogno, o dall'incapacità di agire: riguardano il singolo contratto e la singola persona. Le asimmetrie fisiologiche, invece, derivano in modo standardizzato, per intere classi di contraenti, dalle posizioni oggettive che ciascuna parte occupa sul mercato. Il rapporto tra una compagnia di assicurazione e un cliente privato è un esempio tipico di asimmetria fisiologica.\n\nAccanto ai contratti regolati dal codice civile esistono i contratti dei consumatori e i contratti d'impresa asimmetrici, che una parte della dottrina ha ricondotto a una nuova categoria, il terzo contratto. Sarebbe però più corretto parlare non di una nuova categoria ma di nuovi paradigmi contrattuali: al primo contratto, quello di diritto comune, si affiancano il secondo e il terzo contratto.\n\nVediamoli in fila. Nel primo contratto, o contratto tradizionale, le parti hanno pari potere contrattuale e si presume che siano ugualmente informate. Nel secondo contratto, tra consumatore e professionista, il consumatore è in una posizione di carenza informativa rispetto al professionista. Nel terzo contratto, tra un imprenditore forte e un imprenditore debole, la disuguaglianza deriva dalla dipendenza economica di un soggetto rispetto all'altro.\n\nQuando la condotta dell'impresa dominante è abusiva? Un elemento necessario è l'intenzionalità offensiva della condotta, e quindi la verifica in concreto che la condotta non risponda a una logica commerciale. Il carattere intenzionale deve emergere da comportamenti oggettivi che rivelano il rapporto di dominanza economica, come ad esempio il carattere improvviso del recesso.\n\nC'è infine una differenza di fondo tra consumatore e imprenditore debole. Nei contratti con il consumatore rilevano valori personalistici che fanno capo alla dignità umana, mentre l'agire tra imprese è guidato dalla libertà di iniziativa economica e dalla tutela della concorrenza. Inoltre, lo squilibrio tra consumatore e professionista è connaturato al rapporto ed è prevedibile fin dall'inizio. L'imprenditore debole, invece, conclude di solito contratti di durata, e gli abusi si consolidano dopo che la relazione commerciale è iniziata.\n\nChe cosa significa tutto questo nel lavoro di ogni giorno? Prima di tutto, ricordare che il cliente firma un testo scritto da altri: l'asimmetria tra compagnia e cliente è fisiologica, non un'eccezione, e tocca all'intermediario ridurla. Per questo le clausole più gravose, come franchigie, esclusioni e decadenze, vanno spiegate prima della firma, e non scoperte dal cliente al momento del sinistro. Poi, quando lavori con clienti aziendali, è utile capire se l'impresa dipende economicamente da un grande committente o da un fornitore: è un'informazione che aiuta a valutare i suoi rischi reali, ad esempio la perdita improvvisa di un contratto o l'interruzione della fornitura. Infine, ricorda il limite del tuo ruolo. L'intermediario non dà pareri legali sulla validità di un recesso o di una clausola: verifica le coperture, spiega le condizioni e indirizza il cliente verso i professionisti competenti quando serve.\n\nIl caso pratico ti aiuta a vedere questi concetti in azione. Un piccolo fornitore che lavora da anni quasi solo per un grande committente e subisce un recesso improvviso è un esempio di terzo contratto. Come intermediario non devi dare pareri legali, ma devi saper leggere la situazione per verificare se il cliente ha coperture utili, come una tutela legale, e guidarlo nella denuncia.\n\nIn sintesi: il diritto protegge la parte che subisce una disparità; l'asimmetria tra compagnia e cliente è fisiologica, cioè strutturale, e proprio per questo la legge impone all'impresa e all'intermediario regole di informazione e di comportamento, che vedremo nella prossima lezione.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi applicativi al lavoro dell'intermediario (asimmetria fisiologica compagnia-cliente) e caso pratico sul terzo contratto.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le ricostruzioni dottrinali su PDEC, contratti asimmetrici, terzo contratto e requisiti dell'abuso (intenzionalità offensiva, recesso improvviso). Riferimenti dottrinali e giurisprudenziali da indicare; per l'abuso di dipendenza economica si suggerisce di indicare la L. 192/1998, art. 9.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La tutela del contraente: informazione, trasparenza e contratti standard",
+      "source_files": [
+        "corso totale/La tutela del contraente.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/La tutela del contraente seconda parte.pdf",
+        "Corso Ivass 60 ore/Materiale /Tutela del consumatore.pdf ok.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Informazione, trasparenza e contratti standard",
+          "goals": [
+            "Conoscere gli obblighi precontrattuali e la buona fede nelle trattative",
+            "Capire la tutela dell'aderente nei contratti standard",
+            "Collegare la trasparenza ai documenti informativi e alle richieste ed esigenze del cliente"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli obblighi precontrattuali",
+          "key": "Il punto di partenza è un'informazione corretta e trasparente.",
+          "body": "Nelle trattative le parti devono essere leali e sincere e scambiarsi le informazioni importanti per l'affare. Il formalismo della fase precontrattuale permette al contraente di avere in modo semplice e lineare tutto ciò che serve per decidere.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Informare e informarsi",
+          "left": {
+            "title": "Chi informa",
+            "items": [
+              "Fornisce le informazioni prima della conclusione del contratto",
+              "Deve comportarsi secondo buona fede e correttezza",
+              "Se viola questo dovere può rispondere di responsabilità precontrattuale"
+            ],
+            "ref": "art. 1337 c.c."
+          },
+          "right": {
+            "title": "Chi riceve",
+            "items": [
+              "Ha l'onere di acquisire le informazioni con l'ordinaria diligenza",
+              "Le informazioni precontrattuali non vincolano a concludere il contratto"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Esempio: l'intermediario che tace un'esclusione importante, chiesta espressamente dal cliente, viola la buona fede anche se il contratto poi non si firma.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Un esempio dal credito: art. 124 TUB",
+          "key": "Il creditore consegna le informazioni al consumatore su supporto cartaceo e in tempo utile, e fornisce i chiarimenti richiesti.",
+          "body": "Così il consumatore può valutare se il contratto di credito è adatto alle sue esigenze. Gli obblighi informativi sempre più dettagliati non sostituiscono il codice civile: lo specificano.",
+          "ref": "Materiale originale; art. 124, c. 5, TUB"
+        },
+        {
+          "layout": "concept",
+          "title": "L'aderente nei contratti di massa",
+          "key": "Il contratto di assicurazione è il prototipo del contratto di massa: il testo è scritto dall'impresa e il cliente si limita ad aderire.",
+          "body": "Il cliente accetta un contratto preconfezionato senza poterne cambiare il contenuto. Per questo è uno dei campi in cui un contraente è più spesso in posizione di debolezza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Clausole vessatorie: artt. 1341 e 1342 c.c.",
+          "key": "Nei contratti conclusi con moduli e formulari, certe clausole gravose non hanno effetto se non sono approvate per iscritto in modo specifico.",
+          "body": "La doppia firma richiama l'attenzione del contraente sulle conseguenze gravi di quelle clausole. Ma l'impianto del codice civile non sembra sufficiente: la tutela sostanziale arriva con la direttiva 93/13 sulle clausole abusive nei contratti con i consumatori.",
+          "ref": "Materiale originale; artt. 1341-1342 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Doppia firma: necessaria, non sufficiente",
+          "cols": [
+            {
+              "title": "Se la doppia firma manca",
+              "items": [
+                "La clausola vessatoria è inefficace",
+                "Base: art. 1341 c.c."
+              ]
+            },
+            {
+              "title": "Se la doppia firma c'è",
+              "items": [
+                "Con un consumatore la clausola può essere comunque nulla",
+                "Base: artt. 33 e seguenti del Codice del consumo",
+                "Le clausole unilaterali che aggravano la posizione dell'aderente non sono vincolanti"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la trasparenza",
+          "key": "È la chiarezza opposta all'opacità: senza chiarezza e comprensibilità l'informazione non raggiunge il suo scopo.",
+          "body": "Si traduce nell'obbligo del professionista di far conoscere le condizioni contrattuali. Riguarda la redazione chiara del contratto, ma anche vincoli di forma e regole di comportamento, in tutte le fasi del rapporto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La trasparenza nelle norme",
+          "head": [
+            "Norma",
+            "Che cosa dice"
+          ],
+          "rows": [
+            [
+              "Cod. consumo, art. 2, c. 2",
+              "Diritti fondamentali: adeguata informazione, corretta pubblicità, correttezza, trasparenza ed equità nei contratti."
+            ],
+            [
+              "CAP, art. 183",
+              "Nell'offerta e nell'esecuzione dei contratti le imprese agiscono con diligenza, correttezza e trasparenza, gestiscono i conflitti di interesse e hanno una gestione finanziaria sana e prudente."
+            ],
+            [
+              "CAP, art. 166",
+              "Il contratto e ogni documento consegnato al contraente sono chiari ed esaurienti."
+            ],
+            [
+              "TUB, Titolo VI",
+              "Trasparenza delle condizioni contrattuali e dei rapporti con i clienti."
+            ],
+            [
+              "TUF, art. 21",
+              "Diligenza, correttezza e trasparenza; clienti sempre adeguatamente informati; pubblicità chiara e non fuorviante."
+            ]
+          ],
+          "ref": "Materiale originale; CAP testo vigente"
+        },
+        {
+          "layout": "table",
+          "title": "I documenti informativi del prodotto",
+          "lead": "Chi realizza prodotti assicurativi redige documenti standardizzati, consegnati come set informativo.",
+          "head": [
+            "Documento",
+            "Per quali prodotti",
+            "Riferimento"
+          ],
+          "rows": [
+            [
+              "DIP · Danni",
+              "Prodotti assicurativi danni, in formato europeo standard.",
+              "CAP, art. 185, lett. a)"
+            ],
+            [
+              "DIP · Vita",
+              "Prodotti vita diversi dagli investimenti assicurativi.",
+              "CAP, art. 185, lett. b)"
+            ],
+            [
+              "KID · Investimento",
+              "Prodotti di investimento assicurativi (IBIP).",
+              "CAP, art. 185, lett. c)"
+            ],
+            [
+              "DIP · Aggiuntivo",
+              "Informazioni ulteriori: Danni, R.C. auto, Vita, Multirischi, IBIP.",
+              "CAP, art. 185, c. 2; Reg. IVASS 41/2018"
+            ]
+          ],
+          "ref": "CAP, art. 185; Reg. IVASS 41/2018"
+        },
+        {
+          "layout": "checklist",
+          "title": "Scrivere chiaro: le regole IVASS",
+          "items": [
+            {
+              "text": "Linguaggio e stile chiari e sintetici.",
+              "ref": "Reg. 41/2018, art. 4"
+            },
+            {
+              "text": "Caratteri leggibili; il documento a colori resta comprensibile anche in bianco e nero.",
+              "ref": "art. 4"
+            },
+            {
+              "text": "\"Garanzia\" e \"garantito\" solo se è l'impresa a prestare direttamente la garanzia.",
+              "ref": "art. 4"
+            },
+            {
+              "text": "Contratti in linguaggio semplice, coerente con i documenti precontrattuali.",
+              "ref": "art. 33"
+            },
+            {
+              "text": "Decadenze, nullità, limitazioni e oneri a carico del cliente in caratteri di particolare evidenza.",
+              "ref": "CAP, art. 166, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Dall'informazione all'adeguatezza",
+          "steps": [
+            {
+              "label": "Dialogo",
+              "text": "Si fanno emergere i bisogni reali del cliente."
+            },
+            {
+              "label": "Richieste ed esigenze",
+              "text": "Il distributore chiede età, salute, lavoro, famiglia, situazione finanziaria e coperture già in essere, se pertinenti."
+            },
+            {
+              "label": "Informazioni oggettive",
+              "text": "Caratteristiche, durata, costi e limiti del prodotto, in forma comprensibile."
+            },
+            {
+              "label": "Contratto coerente",
+              "text": "Si propone solo un contratto coerente con richieste ed esigenze."
+            }
+          ],
+          "ref": "CAP, art. 119-ter; Reg. IVASS 40/2018, art. 58"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente vuole una polizza infortuni \"economica\" e ha fretta: chiede di firmare subito senza rispondere alle domande sulla sua attività lavorativa. Le condizioni prevedono una franchigia e l'esclusione di alcuni sport.",
+          "questions": [
+            "Puoi procedere senza le informazioni?",
+            "Come presenti franchigia ed esclusioni?",
+            "Che cosa consegni?"
+          ],
+          "solution": "Se la cliente rifiuta di fornire informazioni, il rifiuto risulta da una dichiarazione firmata da lei e dal distributore, con l'avvertenza che pregiudica la valutazione della coerenza. Franchigia ed esclusioni vanno spiegate apertamente: nel contratto sono già in caratteri di particolare evidenza. Consegni il set informativo (DIP Danni e DIP aggiuntivo) prima della firma."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una clausola vessatoria approvata con doppia firma in un contratto con un consumatore:",
+          "options": [
+            "È sempre valida",
+            "Può essere comunque nulla secondo il Codice del consumo",
+            "È inefficace ai sensi dell'art. 1341 c.c.",
+            "Diventa valida solo se approvata dall'IVASS"
+          ],
+          "answer": 1,
+          "explanation": "La doppia sottoscrizione è necessaria ma non sufficiente: anche con la firma la clausola abusiva può essere nulla ai sensi degli artt. 33 e seguenti del Codice del consumo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale documento informativo si usa per un prodotto di investimento assicurativo?",
+          "options": [
+            "Il DIP Danni",
+            "Il DIP Vita",
+            "Il KID",
+            "Nessuno: basta la polizza"
+          ],
+          "answer": 2,
+          "explanation": "Per i prodotti di investimento assicurativi si redige il KID previsto dal regolamento europeo PRIIPs, accompagnato dal DIP aggiuntivo IBIP."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1337",
+              "text": "buona fede e correttezza nelle trattative"
+            },
+            {
+              "value": "1341-1342",
+              "text": "clausole vessatorie nei contratti standard: serve la doppia firma"
+            },
+            {
+              "value": "33 ss.",
+              "text": "Codice del consumo: la clausola abusiva può essere nulla anche se firmata"
+            },
+            {
+              "value": "DIP · KID",
+              "text": "i documenti informativi del prodotto"
+            },
+            {
+              "value": "Coerenza",
+              "text": "si propone solo un contratto coerente con richieste ed esigenze"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo gli strumenti con cui la legge riequilibra il rapporto tra parte forte e parte debole: gli obblighi di informazione prima del contratto, la tutela di chi aderisce a un contratto standard e la trasparenza, fino agli obblighi concreti che l'intermediario applica quando propone una polizza.\n\nIl punto di partenza è un'informazione corretta e trasparente. Durante le trattative le parti devono essere leali e sincere e, per questo, devono scambiarsi tutte le informazioni importanti per l'economia dell'affare. Il formalismo previsto nella fase precontrattuale serve a far acquisire al contraente, in forma semplice e lineare, tutti gli elementi utili e necessari per concludere l'accordo. Gli obblighi precontrattuali riguardano proprio le informazioni da fornire prima della conclusione del contratto.\n\nAll'obbligo di informare corrisponde un onere dell'altra parte: acquisire le informazioni usando l'ordinaria diligenza. Il cliente, insomma, non può ignorare ciò che gli viene consegnato e spiegato. Le informazioni rese prima del contratto non obbligano a concluderlo, ma hanno rilevanza giuridica quando si traducono in un comportamento contrario al dovere generale di buona fede e correttezza dell'articolo 1337 del codice civile, che può generare responsabilità. Pensa all'intermediario che, a una domanda precisa del cliente, tace un'esclusione importante: la violazione della buona fede c'è, anche se poi il contratto non si firma.\n\nUn esempio viene dal settore del credito. L'articolo 124 del Testo unico bancario prescrive che il creditore consegni le informazioni al consumatore su supporto cartaceo e in tempo utile, e il comma 5 aggiunge che deve fornire i chiarimenti richiesti, in modo che il consumatore possa valutare se il contratto di credito è adatto alle sue esigenze. Questi obblighi informativi, sempre più dettagliati, non mettono in secondo piano il codice civile: vanno letti come specificazioni dei suoi principi generali.\n\nPassiamo ai contratti standard. I contratti di massa sono uno dei settori in cui più spesso un contraente è in posizione di debolezza, e il prototipo più esemplare è proprio il contratto di assicurazione. Il testo non nasce da una trattativa tra impresa e cliente: lo elabora l'impresa, che presenta al cliente un contratto preconfezionato. Il cliente si limita ad aderire, lo accetta senza poter incidere sul contenuto.\n\nGli articoli 1341 e 1342 del codice civile tutelano il contraente debole quando il contratto è stipulato con moduli o formulari: alcune clausole sono presunte vessatorie e non hanno effetto se non sono state specificamente approvate per iscritto. È la cosiddetta doppia firma, che serve a richiamare l'attenzione del contraente sulla gravità delle conseguenze di quelle clausole. Tuttavia l'impianto del codice civile non sembra in grado di proteggere in modo adeguato il contraente debole. L'esigenza di una tutela sostanziale è confluita nella direttiva europea 93/13 sulle clausole vessatorie nei contratti con i consumatori, secondo cui le clausole predisposte unilateralmente che aggravano la posizione dell'aderente non sono vincolanti.\n\nDa qui una regola molto pratica: la doppia sottoscrizione delle clausole vessatorie è necessaria, ma non sufficiente. Se manca, la clausola è inefficace ai sensi dell'articolo 1341 del codice civile. Se c'è, la clausola può essere comunque nulla ai sensi degli articoli 33 e seguenti del Codice del consumo, quando il contratto è concluso con un consumatore. Far firmare due volte, quindi, non mette al riparo una clausola squilibrata.\n\nVeniamo alla trasparenza. Intesa come chiarezza opposta all'opacità, la trasparenza è connaturata all'informazione: se manca chiarezza e comprensibilità, l'informazione non raggiunge il suo obiettivo. Si traduce nell'obbligo per il professionista di far conoscere al cliente le condizioni contrattuali, e oltre alla chiarezza nella redazione del contratto può comprendere vincoli di forma e obblighi di comportamento. Tutte le normative sull'asimmetria contrattuale richiamano obblighi di trasparenza a carico della parte forte. Riguardano soprattutto l'informazione precontrattuale, che guida la formazione del consenso, ma abbracciano tutte le fasi del rapporto: l'operatore professionale deve modellare la propria azione in funzione delle informazioni che fornirà.\n\nVediamo le norme principali. L'articolo 2, comma 2, del Codice del consumo riconosce ai consumatori e agli utenti, come diritti fondamentali, un'adeguata informazione e una corretta pubblicità, la correttezza, la trasparenza e l'equità nei rapporti contrattuali. L'articolo 183 del Codice delle assicurazioni stabilisce che le imprese, oggi nell'offerta e nell'esecuzione dei contratti, devono comportarsi con diligenza, correttezza e trasparenza verso contraenti e assicurati; organizzarsi per identificare ed evitare i conflitti di interesse, ove ragionevolmente possibile, e in caso di conflitto garantire agli assicurati la necessaria trasparenza sui possibili effetti sfavorevoli, gestendo comunque i conflitti in modo da escludere che rechino loro pregiudizio; e realizzare una gestione finanziaria indipendente, sana e prudente, con misure idonee a salvaguardare i diritti di contraenti e assicurati. L'articolo 166 dispone che il contratto e ogni altro documento consegnato dall'impresa al contraente siano redatti in modo chiaro ed esauriente. Fuori dal settore assicurativo, il Titolo sesto del Testo unico bancario è dedicato alla trasparenza delle condizioni contrattuali e dei rapporti con i clienti, e l'articolo 21 del Testo unico della finanza chiede ai soggetti abilitati di comportarsi con diligenza, correttezza e trasparenza, di acquisire le informazioni necessarie dai clienti e di tenerli sempre adeguatamente informati, e di usare comunicazioni pubblicitarie corrette, chiare e non fuorvianti.\n\nL'articolo 185 del Codice delle assicurazioni elenca i documenti che imprese e intermediari che realizzano prodotti assicurativi devono redigere: il documento informativo precontrattuale per i prodotti danni, il DIP, redatto nel formato europeo standard; il documento informativo precontrattuale per i prodotti vita, il DIP Vita; e il documento informativo per i prodotti di investimento, il KID, previsto dal regolamento europeo sui PRIIPs. Il comma 2 aggiunge il documento informativo precontrattuale aggiuntivo, che il Regolamento IVASS 41 del 2018 declina in più versioni: Danni, R.C. auto, Vita, Multirischi e IBIP. L'insieme di questi documenti, consegnato al contraente prima della firma e pubblicato sul sito dell'impresa, si chiama set informativo.\n\nLo stesso Regolamento 41 fissa regole di scrittura: linguaggio e stile chiari e sintetici; caratteri leggibili; un documento a colori deve restare comprensibile anche se stampato in bianco e nero; le parole garanzia e garantito si usano solo se è l'impresa a prestare direttamente la garanzia. L'articolo 33 chiede che anche i contratti siano scritti in un linguaggio semplice e chiaro, coerente con i documenti precontrattuali. E l'articolo 166 del Codice impone che le clausole su decadenze, nullità, limitazioni delle garanzie od oneri a carico del contraente siano riportate con caratteri di particolare evidenza.\n\nRicorda però un principio del materiale originale: nei settori del credito, degli investimenti e delle assicurazioni i doveri di informazione, da soli, non bastano a tutelare adeguatamente il soggetto debole, ma sono imprescindibili. Per individuare il contratto più adeguato serve un dialogo con l'intermediario, che faccia emergere un quadro il più possibile realistico dei bisogni effettivi del cliente. L'informazione deve essere adeguata, ritagliata sul profilo specifico del cliente.\n\nQuesto principio oggi è una regola precisa. L'articolo 119-ter del Codice chiede al distributore, prima della conclusione del contratto, di acquisire dal contraente ogni informazione utile a identificare le sue richieste ed esigenze e di fornirgli informazioni oggettive sul prodotto in forma comprensibile, e precisa che qualsiasi contratto proposto deve essere coerente con le richieste e le esigenze del contraente. L'articolo 58 del Regolamento IVASS 40 del 2018 specifica le notizie da chiedere, ove pertinenti: età, stato di salute, attività lavorativa, nucleo familiare, situazione finanziaria e assicurativa, aspettative in termini di copertura e durata, coperture già in essere. Se il cliente rifiuta di rispondere, il rifiuto risulta da una dichiarazione firmata dal contraente e dal distributore, con l'avvertenza che pregiudica la valutazione di coerenza. Se il cliente vuole comunque un contratto non coerente, il distributore lo informa, spiega i motivi e lo documenta in una dichiarazione firmata da entrambi.\n\nIl caso pratico mette insieme tutto questo: una cliente che ha fretta non ti esonera dagli obblighi. Raccogli le informazioni o documenti il rifiuto, spieghi franchigie ed esclusioni e consegni il set informativo prima della firma. È così che l'informazione diventa davvero tutela.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 41 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n41/Regolamento_IVASS_41_2018_testo_consolidated_version.pdf?language_id=3"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Premessa del modulo 'Tutela del consumatore' (60 ore): la doppia sottoscrizione è necessaria ma non sufficiente (inefficacia ex art. 1341 c.c.; possibile nullità ex artt. 33 ss. cod. cons.).",
+          "source_ref": "Corso Ivass 60 ore, Tutela del consumatore"
+        },
+        {
+          "kind": "modificato",
+          "description": "Art. 183 CAP aggiornato al testo vigente: le regole valgono 'nell'offerta e nell'esecuzione dei contratti' (la fonte citava solo l'esecuzione); la lett. b) è abrogata.",
+          "source_ref": "CAP, art. 183, c. 1, come modificato dai D.Lgs. 68/2018 e 187/2020"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 185 CAP vigente: DIP, DIP Vita, KID e DIP aggiuntivo; set informativo e versioni del DIP aggiuntivo (Danni, R.C. auto, Vita, Multirischi, IBIP).",
+          "source_ref": "CAP, art. 185; Reg. IVASS 41/2018, artt. 2, 15, 16, 21, 29"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Criteri di redazione dei documenti e semplificazione dei contratti.",
+          "source_ref": "Reg. IVASS 41/2018, artt. 4 e 33; CAP, art. 166, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Richieste ed esigenze del contraente, coerenza del contratto, dichiarazioni di rifiuto e di non coerenza.",
+          "source_ref": "CAP, art. 119-ter, c. 1-2; Reg. IVASS 40/2018, art. 58"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto refuso della fonte: 'onore' della parte interessata diventa 'onere'.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento all'art. 124 TUB (consegna su supporto cartaceo e in tempo utile; c. 5 chiarimenti). Possibile aggiornamento: verificare il testo vigente dell'art. 124 TUB, che oggi ammette anche altro supporto durevole.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i riferimenti a TUB Titolo VI e TUF art. 21, non riverificati sul testo vigente.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La tutela del contraente: forma informativa e figura del consumatore",
+      "source_files": [
+        "corso totale/La tutela del contraente.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/La tutela del contraente terza parte.pdf",
+        "Corso Ivass 60 ore/Materiale /Tutela del consumatore.pdf ok.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /- Gestione dei reclami /tutela del consumatore.mp4 (trascrizione)",
+        "corso totale/La tutela del contraente.pdf.pdf (Dalla protezione del consumatore alla protezione del cliente)"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Forma informativa e figura del consumatore",
+          "goals": [
+            "Capire perché la forma del contratto protegge il cliente",
+            "Ripercorrere la nascita della tutela del consumatore",
+            "Distinguere consumatore, professionista, consumatore medio e cliente"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La forma informativa",
+          "key": "La tutela del contraente passa non solo per gli obblighi di informazione, ma anche per vincoli di forma e prescrizioni di forma-contenuto.",
+          "body": "Sono un altro modo di rendere concreti gli obblighi di correttezza della parte professionale: il contratto deve avere una certa forma e contenere certe informazioni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La forma nei contratti assicurativi",
+          "key": "Il contratto di assicurazione deve essere provato per iscritto (art. 1888 c.c.).",
+          "body": "Nel mercato finanziario le regole sulla forma sono pensate nell'interesse di una delle parti. Il riequilibrio delle asimmetrie passa anche per requisiti di forma e contenuto: si parla di forma informativa.",
+          "ref": "art. 1888 c.c.; materiale originale"
+        },
+        {
+          "layout": "split",
+          "title": "A che cosa serve la forma scritta",
+          "left": {
+            "title": "La funzione",
+            "items": [
+              "Rendere conoscibile il contenuto del contratto a chi non ha partecipato a scriverlo"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Il limite",
+            "items": [
+              "Rispettare solo gli obblighi formali non basta",
+              "Serve una decisione presa con \"cognizione di causa\""
+            ],
+            "ref": "artt. 24 e 33 MiFID II, citati dalla fonte"
+          },
+          "note": "Firmare un modulo non significa averlo capito: la forma è uno strumento, non il risultato.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Un'asimmetria a due direzioni",
+          "key": "Nel contratto di assicurazione l'asimmetria informativa è bilaterale.",
+          "body": "L'assicuratore non sempre conosce il rischio che assume; il cliente non sempre comprende a fondo il testo del contratto. Per questo contano sia le dichiarazioni del cliente sul rischio sia l'informazione dell'impresa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La IDD: dal consumatore al cliente",
+          "key": "La direttiva sulla distribuzione assicurativa (IDD) nasce dopo le crisi finanziarie e protegge il contraente debole anche quando non è un consumatore.",
+          "body": "Segue la tendenza che va \"dalla protezione del consumatore alla protezione del cliente\". In Italia è stata recepita nel Codice delle assicurazioni dal D.Lgs. 68/2018.",
+          "ref": "Materiale originale; Dir. (UE) 2016/97; CAP"
+        },
+        {
+          "layout": "table",
+          "title": "Il consumatore \"démodé\": le prime tutele",
+          "lead": "In Italia la tutela del consumatore nasce alla fine degli anni '80, su impulso di direttive di armonizzazione minima.",
+          "head": [
+            "Norma",
+            "Che cosa introduce"
+          ],
+          "rows": [
+            [
+              "D.P.R. 24 maggio 1988 (dir. 85/374/CEE)",
+              "Per la prima volta, la responsabilità del produttore per i danni da prodotti difettosi."
+            ],
+            [
+              "D.Lgs. 15 gennaio 1992, n. 50 (dir. 85/577/CEE)",
+              "Garanzie per i contratti stipulati fuori dai locali commerciali. Esclusi immobili, alimenti, contratti assicurativi e finanziari."
+            ],
+            [
+              "Artt. 1469-bis e ss. c.c.",
+              "Per la prima volta una tutela effettiva del consumatore nel codice civile, contro le clausole abusive."
+            ],
+            [
+              "L. 30 luglio 1998, n. 281",
+              "Tutela positiva: la disciplina dei diritti dei consumatori e degli utenti."
+            ],
+            [
+              "D.Lgs. 2 febbraio 2002, n. 24 (dir. 1999/44/CE)",
+              "Vendita e garanzie dei beni di consumo: diritto a un bene conforme al contratto."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Consumatore e professionista",
+          "left": {
+            "title": "Consumatore o utente",
+            "items": [
+              "Persona fisica",
+              "Agisce per scopi estranei all'attività imprenditoriale, commerciale, artigianale o professionale eventualmente svolta",
+              "Merita protezione perché mosso da bisogni di consumo, spesso irrinunciabili"
+            ],
+            "ref": "Dir. 93/13/CEE; Cod. consumo, art. 3"
+          },
+          "right": {
+            "title": "Professionista",
+            "items": [
+              "Persona fisica o giuridica",
+              "Agisce nell'esercizio della propria attività imprenditoriale, commerciale, artigianale o professionale",
+              "Oppure un suo intermediario"
+            ],
+            "ref": "Cod. consumo, art. 3"
+          },
+          "note": "Imprenditore è chi esercita professionalmente un'attività economica organizzata per produrre o scambiare beni o servizi.",
+          "noteRef": "Materiale originale (art. 2082 c.c.)"
+        },
+        {
+          "layout": "concept",
+          "title": "Conta lo scopo, non la qualifica",
+          "key": "Per essere professionista basta concludere il contratto al fine di svolgere la propria attività, anche se non nell'esercizio diretto della professione.",
+          "body": "Il confine tra consumatore e professionista non è la qualifica di imprenditore, ma lo scopo dell'azione, valutato nel caso concreto. L'avvocato che compra un'auto per la famiglia è un consumatore; se la compra per lo studio, no.",
+          "ref": "Materiale originale; Cod. consumo, art. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Il consumatore non è sempre debole",
+          "key": "Il consumatore è debole perché \"non sa\": non conosce a fondo il bene, il contratto e il modo in cui esprimerà il consenso.",
+          "body": "Le norme correggono le storture del mercato con rimedi preventivi o successivi. Ma la debolezza non è fissa: cambia secondo le circostanze del caso concreto.",
+          "ref": "Corso 60 ore, Tutela del consumatore"
+        },
+        {
+          "layout": "concept",
+          "title": "Le pratiche commerciali sleali",
+          "key": "Una pratica è sleale se è contraria alla diligenza professionale e idonea a falsare in modo rilevante il comportamento economico del consumatore medio.",
+          "body": "La direttiva 2005/29/CE, attuata nel Codice del consumo come \"pratiche commerciali scorrette\", bilancia la forte asimmetria tra operatore professionale e consumatore. La legge disciplina l'attività del professionista già prima del contratto.",
+          "ref": "Dir. 2005/29/CE, art. 5.2; materiale originale"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa rende scorretta una pratica",
+          "items": [
+            {
+              "text": "Non risponde alle best practice commerciali.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Può influenzare gli operatori e falsare le regole della libera concorrenza.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Riguarda promozione, vendita o fornitura del prodotto.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Altera la capacità del consumatore di decidere in modo consapevole.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Lo porta a una decisione commerciale che altrimenti non avrebbe preso.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il consumatore medio",
+          "key": "È normalmente informato e ragionevolmente attento e avveduto, tenendo conto di fattori sociali, culturali e linguistici.",
+          "body": "La disciplina tiene distinti i singoli obblighi del professionista dalla valutazione generale di scorrettezza, misurata sugli effetti sul consumatore medio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il cliente come outsider",
+          "key": "Il cliente è protetto non tanto perché soggettivamente debole, ma perché i prodotti sono complessi: è un outsider di fronte all'impresa, che è insider della prestazione.",
+          "body": "La direttiva 2005/29 riguarda le pratiche scorrette tra imprese e consumatori. In finanza, MiFID e MiFID II proteggono il cliente, cioè la persona fisica o giuridica a cui un'impresa di investimento presta servizi, anche se non è un consumatore.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La tripartizione della clientela",
+          "head": [
+            "Categoria",
+            "Chi è",
+            "Protezione"
+          ],
+          "rows": [
+            [
+              "1 · Retail",
+              "Clienti al dettaglio, privi di specifiche competenze professionali.",
+              "La più alta."
+            ],
+            [
+              "2 · Professionali",
+              "Hanno la competenza per valutare i rischi che assumono.",
+              "Ridotta."
+            ],
+            [
+              "3 · Controparti qualificate",
+              "Sottotipo dei clienti professionali.",
+              "Minima."
+            ]
+          ],
+          "ref": "MiFID / MiFID II, citate dalla fonte"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un idraulico con partita IVA stipula una polizza RC per la sua attività e, lo stesso giorno, una polizza casa per l'abitazione di famiglia. Nel volantino dell'agenzia la polizza casa è presentata come \"tutto compreso\", ma esclude i danni da acqua.",
+          "questions": [
+            "Per quale polizza l'idraulico è consumatore?",
+            "Il volantino può essere una pratica scorretta?"
+          ],
+          "solution": "È consumatore per la polizza casa, perché la stipula per scopi estranei alla sua attività. Per la RC professionale agisce al fine dell'attività. Il volantino \"tutto compreso\" con un'esclusione rilevante può falsare la decisione del consumatore medio: la comunicazione va corretta perché sia chiara e non fuorviante."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo la direttiva 2005/29/CE una pratica commerciale è sleale se:",
+          "options": [
+            "Riguarda un prodotto finanziario",
+            "È contraria alla diligenza professionale e può falsare in modo rilevante il comportamento del consumatore medio",
+            "Il consumatore cambia idea dopo l'acquisto",
+            "Il prezzo è superiore alla media di mercato"
+          ],
+          "answer": 1,
+          "explanation": "Servono entrambi gli elementi: contrarietà alla diligenza professionale e idoneità a falsare in misura rilevante il comportamento economico del consumatore medio."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1888",
+              "text": "il contratto di assicurazione si prova per iscritto"
+            },
+            {
+              "value": "Forma",
+              "text": "la forma informativa aiuta, ma serve una decisione consapevole"
+            },
+            {
+              "value": "Scopo",
+              "text": "consumatore è chi agisce per scopi estranei all'attività"
+            },
+            {
+              "value": "Medio",
+              "text": "il consumatore medio è informato, attento e avveduto"
+            },
+            {
+              "value": "IDD",
+              "text": "dalla protezione del consumatore alla protezione del cliente"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione proseguiamo il percorso sulla tutela del contraente con due temi: la forma del contratto come strumento di protezione e la figura del consumatore, da come è nata a come è cambiata, fino al passaggio verso la protezione del cliente.\n\nLa tutela del contraente non passa solo per gli obblighi di informazione, ma anche per vincoli di forma e per prescrizioni di forma-contenuto. Sono un ulteriore modo di concretizzare gli obblighi di correttezza che gravano sulla parte professionale. In altre parole, la legge non si accontenta che le informazioni vengano date: chiede che il contratto abbia una certa forma e contenga certe informazioni.\n\nQuesti precetti formali valgono anche per i contratti assicurativi. L'articolo 1888 del codice civile, sulla prova del contratto, stabilisce che il contratto di assicurazione deve essere provato per iscritto. Nel mercato finanziario, le regole sulla forma con cui si concludono i contratti sono pensate nell'interesse di una delle parti, quella debole. Il riequilibrio delle asimmetrie, quindi, non passa solo attraverso gli obblighi di informazione, ma anche attraverso requisiti di forma e di contenuto del contratto: si parla infatti di forma informativa.\n\nNella contrattazione di massa la forma scritta serve a rendere conoscibile il contenuto del contratto alla parte che non ha partecipato a scriverlo. Ma il solo rispetto degli obblighi formali non basta a garantire una tutela effettiva al cliente. Perché il contratto tra cliente e intermediario realizzi davvero una forma informativa, il cliente deve arrivare alla decisione con cognizione di causa: il materiale richiama su questo gli articoli 24 e 33 della direttiva MiFID II. Firmare un modulo non significa averlo capito; la forma è uno strumento, non il risultato.\n\nNel contratto di assicurazione, poi, le asimmetrie informative hanno una valenza bilaterale. Da un lato l'assicuratore non sempre è in grado di conoscere il rischio che assume: per questo conta tanto la correttezza delle dichiarazioni del cliente in fase di sottoscrizione. Dall'altro il cliente non sempre comprende pienamente il testo del contratto. L'intermediario sta proprio nel mezzo e aiuta a ridurre entrambe le asimmetrie.\n\nLa direttiva sulla distribuzione assicurativa, la IDD, chiamata anche IMD2, è il frutto delle crisi finanziarie che hanno colpito l'Europa e della volontà di dare nuove regole agli operatori. È impostata sulla protezione del contraente debole, che non coincide necessariamente con il consumatore, e si colloca nella tendenza che va dalla protezione del consumatore alla protezione del cliente. Si tratta della direttiva Unione europea 2016/97, recepita in Italia nel Codice delle assicurazioni con il decreto legislativo 68 del 2018.\n\nFacciamo un passo indietro e guardiamo il consumatore cosiddetto démodé, cioè le prime tutele. Le prime direttive europee orientate al consumatore, negli anni Ottanta e Novanta, erano di armonizzazione minima: regolavano singoli tipi di contratto e garantivano al consumatore una tutela elevata. In Italia la tutela del consumatore nasce alla fine degli anni Ottanta. Il decreto del Presidente della Repubblica del 24 maggio 1988, che attua la direttiva 85/374, stabilisce per la prima volta la responsabilità del produttore per i danni causati da difetti dei suoi prodotti. Poi il decreto legislativo 15 gennaio 1992, numero 50, che attua la direttiva 85/577, introduce garanzie per il consumatore che stipula un contratto fuori dai locali commerciali, escludendo però i contratti su beni immobili, la fornitura di alimenti e i contratti assicurativi e finanziari.\n\nCon gli articoli 1469-bis e seguenti del codice civile il legislatore assicura per la prima volta una tutela effettiva al consumatore e all'utente. Una tutela positiva si trova invece nella legge 30 luglio 1998, numero 281, sulla disciplina dei diritti dei consumatori e degli utenti. Un altro esempio di tutela positiva è il decreto legislativo 2 febbraio 2002, numero 24, che attua la direttiva 1999/44 sulla vendita e sulle garanzie dei beni di consumo: il consumatore ha diritto, e il venditore ha il corrispondente obbligo, di ottenere un bene conforme al contratto.\n\nChi è, allora, il consumatore? Una nozione la troviamo nella direttiva 93/13 sulle clausole abusive, ripresa dal Codice del consumo: consumatore o utente è la persona fisica che agisce per scopi estranei all'attività imprenditoriale, commerciale, artigianale o professionale eventualmente svolta. Il consumatore è idealmente contrapposto al professionista e merita protezione proprio perché è mosso da bisogni di consumo, spesso irrinunciabili e fondamentali. Il professionista, sempre secondo il Codice del consumo, è la persona fisica o giuridica che agisce nell'esercizio della propria attività imprenditoriale, commerciale, artigianale o professionale, oppure un suo intermediario. E imprenditore è chi esercita professionalmente un'attività economica organizzata al fine della produzione o dello scambio di beni o di servizi.\n\nUn dettaglio importante: per essere considerati professionisti ai sensi dell'articolo 3 del Codice del consumo non è indispensabile stipulare il contratto nell'esercizio della propria attività; basta concluderlo al fine di svolgerla. Il confine tra consumatore e professionista non è la qualifica di imprenditore o di professionista, ma lo scopo dell'azione, valutato nella circostanza concreta. L'avvocato che compra l'auto per la famiglia è consumatore; se la compra per lo studio, non lo è.\n\nVa superata, poi, l'idea del consumatore come contraente sempre debole. Il consumatore è debole perché non sa: la sua inconsapevolezza riguarda la natura del bene o del servizio, il contenuto del contratto che lo vincolerà e il modo in cui esprimerà la volontà di concluderlo. Le norme a sua tutela servono a correggere le storture del mercato: se un contratto è squilibrato a suo danno, la legge interviene per eliminare o ridurre lo squilibrio, con rimedi preventivi o successivi. Ma il consumatore non è sempre debole: la sua posizione cambia secondo le circostanze del caso concreto.\n\nArriviamo alle pratiche commerciali sleali. La direttiva 2005/29 contrasta le pratiche commerciali sleali tra imprese e consumatori nel mercato interno; in Italia sono diventate pratiche commerciali scorrette, all'interno del Codice del consumo. Lo scopo principale è bilanciare la marcata asimmetria di potere contrattuale che avvantaggia l'operatore professionale rispetto al consumatore. L'attività del professionista è regolata già prima del contratto, e nel mirino ci sono tutte le pratiche commerciali che mette in atto.\n\nSecondo l'articolo 5, paragrafo 2, della direttiva, una pratica commerciale è sleale se è contraria alla diligenza professionale e idonea a falsare in misura rilevante il comportamento economico del consumatore medio. Sono pratiche scorrette le prassi di allocazione di beni e servizi che non rispondono alle best practice commerciali, perché possono influenzare l'atteggiamento degli operatori e falsare le regole della libera concorrenza. Rilevano tutte le condotte poste in essere nel corso di un'operazione commerciale, in relazione alla promozione, alla vendita o alla fornitura di un prodotto, che possono alterare sensibilmente la capacità del consumatore di decidere in modo consapevole, inducendolo a una decisione commerciale che altrimenti non avrebbe mai preso.\n\nLa direttiva introduce una nuova figura: il consumatore medio, cioè colui che è normalmente informato e ragionevolmente attento e avveduto, tenendo conto di fattori sociali, culturali e linguistici. La peculiarità di questa disciplina è che tiene distinti i singoli obblighi imposti al professionista dal profilo generale della scorrettezza, che si valuta guardando alle ricadute sull'attività del consumatore medio.\n\nFacciamo ora un passo ulteriore: dal consumatore al cliente. L'attenzione particolare per il cliente si giustifica non tanto con una sua debolezza soggettiva, quanto con la complessità dei prodotti. Il cliente è debole perché è un outsider: non ha le competenze specifiche che possiede l'impresa, che è insider della prestazione oggetto del contratto. La direttiva 2005/29 sulle pratiche commerciali scorrette riguarda le pratiche tra imprese e consumatori; il materiale originale osserva che tocca anche le pratiche B2B, ma si applica alle pratiche scorrette tra imprese e consumatori.\n\nNel mercato degli strumenti finanziari, sia la MiFID sia la MiFID II, cioè la direttiva sui mercati degli strumenti finanziari, usano una definizione di cliente che va oltre quella di consumatore: il cliente è la persona fisica o giuridica alla quale un'impresa di investimento presta servizi di investimento o servizi accessori. La politica generale è proteggere chi domanda e acquista questi prodotti o servizi: investitori o clienti che, anche se non sono consumatori, godono della protezione come rimedio all'asimmetria di cui soffrono in quanto outsider.\n\nEsiste anche una tripartizione della clientela. I clienti al dettaglio, o retail, sono considerati privi di specifiche competenze professionali e godono del più alto grado di protezione. I clienti professionali hanno la competenza necessaria per valutare i rischi che assumono. Infine le controparti qualificate, un sottotipo dei clienti professionali.\n\nNel caso pratico, lo stesso idraulico è professionista quando assicura la propria responsabilità civile per l'attività ed è consumatore quando assicura la casa di famiglia. E un volantino che promette una polizza tutto compreso, quando invece esclude i danni da acqua, rischia di falsare la decisione del consumatore medio. Anche nel settore assicurativo, del resto, le comunicazioni pubblicitarie devono essere corrette, chiare e non fuorvianti, come vedremo nella prossima lezione.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti del modulo 'Tutela del consumatore' (60 ore) e della relativa trascrizione: nozione di professionista e imprenditore, superamento della teoria del consumatore sempre debole.",
+          "source_ref": "Corso Ivass 60 ore, Tutela del consumatore"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Estremi della direttiva IDD (UE) 2016/97 e del recepimento con D.Lgs. 68/2018.",
+          "source_ref": "CAP, note al testo coordinato IVASS (art. 109 e ss.)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte: 'D.P.R. 24 maggio 1988 n. 223' in attuazione della dir. 85/374/CEE. Possibile refuso: il decreto sulla responsabilità del produttore è generalmente citato come D.P.R. n. 224/1988, oggi confluito nel Codice del consumo. Numero da verificare; nella slide il numero è omesso.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento agli artt. 1469-bis e ss. c.c. Possibile aggiornamento: la disciplina delle clausole abusive è oggi negli artt. 33 ss. del Codice del consumo.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il richiamo agli artt. 24 e 33 MiFID II per la decisione 'con cognizione di causa'. Riferimento non riverificato.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la frase sull'asimmetria bilaterale, riformulata per chiarezza (nell'originale il periodo è sintatticamente incompleto).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la dir. 2005/29 'riguarda le pratiche B2B ma si applica alle pratiche tra imprese e consumatori'. Formulazione ambigua nella fonte: la direttiva riguarda le pratiche tra imprese e consumatori (B2C).",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La tutela del contraente: il consumatore assicurato e la vendita a distanza",
+      "source_files": [
+        "corso totale/La tutela del contraente.pdf.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Procedure e modalità assuntive -aspetti gestionali/La tutela del contraente quarta parte.pdf",
+        "Corso Ivass 60 ore/Materiale /Tutela del consumatore.pdf ok.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /- Gestione dei reclami /tutela del consumatore.mp4 (trascrizione)"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Procedure e modalità assuntive e distributive",
+          "title": "Il consumatore assicurato e la vendita a distanza",
+          "goals": [
+            "Passare dalla tutela del consumatore alla tutela del cliente",
+            "Conoscere le norme a tutela dell'assicurato tra codice civile e CAP",
+            "Applicare le regole della vendita a distanza"
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "I decreti Bersani",
+          "lead": "Sul piano interno, due decreti hanno toccato intermediari e consumatori.",
+          "facts": [
+            {
+              "label": "Bersani",
+              "text": "D.L. n. 223/2006: norme in materia assicurativa e bancaria."
+            },
+            {
+              "label": "Due aree",
+              "text": "Gli intermediari di assicurazione e i clienti-consumatori."
+            },
+            {
+              "label": "Bersani bis",
+              "text": "D.L. 31 gennaio 2007, n. 7, convertito dalla L. 2 aprile 2007, n. 40: tutela dei consumatori, concorrenza, sviluppo di attività economiche e nuove imprese."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il consumatore assicurato",
+          "key": "L'assicurazione, come banca e credito, è sotto controllo pubblico: IVASS e Ministero competente.",
+          "body": "Il contratto (artt. 1882 ss. c.c.) è scritto dall'impresa con moduli e formulari che il cliente firma: è standard, consensuale e aleatorio. Il legislatore ha cercato di semplificare per liberalizzare il mercato e tutelare il cliente.",
+          "ref": "artt. 1882 ss. c.c.; materiale originale"
+        },
+        {
+          "layout": "split",
+          "title": "Gli strumenti di tutela dell'assicurato",
+          "left": {
+            "title": "Codice civile",
+            "items": [
+              "Art. 1932: alcune norme non si derogano, se non a favore dell'assicurato",
+              "Tutela minima, su norme che già tenevano conto delle esigenze dell'assicuratore"
+            ],
+            "ref": "art. 1932 c.c."
+          },
+          "right": {
+            "title": "Codice delle assicurazioni",
+            "items": [
+              "Obbliga a informazioni complete e corrette",
+              "Chi propone la polizza considera le reali esigenze del cliente",
+              "Propone la copertura più adatta"
+            ],
+            "ref": "CAP, art. 119-ter"
+          },
+          "note": "Ai fini delle pratiche commerciali, per le direttive assicurative il consumatore può essere anche una persona giuridica o chi si assicura per la propria attività, salvo i grandi rischi.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La IDD parla di cliente",
+          "key": "La direttiva (UE) 2016/97 sostituisce la direttiva 2002/92/CE e, sulle informazioni dell'intermediario, usa il termine cliente, non più consumatore.",
+          "body": "La normativa europea individua chi va protetto non in base alla persona, ma in base al tipo di rischio coperto dalla polizza.",
+          "ref": "Dir. (UE) 2016/97; materiale originale"
+        },
+        {
+          "layout": "table",
+          "title": "Tutela graduata e proporzionale",
+          "head": [
+            "Norma",
+            "Che cosa prevede"
+          ],
+          "rows": [
+            [
+              "CAP, art. 183, c. 3",
+              "Nelle regole di comportamento l'IVASS tiene conto delle diverse esigenze di protezione di contraenti e assicurati e individua chi non ha bisogno, in tutto o in parte, della protezione della clientela non qualificata."
+            ],
+            [
+              "CAP, art. 191, c. 2",
+              "I regolamenti IVASS rispettano il principio di proporzionalità: raggiungere il fine con il minor sacrificio per i destinatari."
+            ]
+          ],
+          "ref": "CAP, artt. 183 e 191"
+        },
+        {
+          "layout": "compare",
+          "title": "Codice civile e Codice delle assicurazioni",
+          "cols": [
+            {
+              "title": "Codice civile",
+              "items": [
+                "Nozione di contratto di assicurazione (art. 1882)",
+                "Disciplina del contratto (artt. 1882-1932)",
+                "Dichiarazioni sul rischio (artt. 1892-1893)"
+              ]
+            },
+            {
+              "title": "Codice delle assicurazioni (2005)",
+              "items": [
+                "Disciplina speciale dell'impresa: autorizzazione, esercizio, vigilanza, liquidazione",
+                "Contratto e documenti chiari ed esaurienti (art. 166, c. 1)",
+                "Decadenze, nullità, limitazioni e oneri in caratteri di particolare evidenza (art. 166, c. 2)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Vendita a distanza: le informazioni preliminari",
+          "items": [
+            {
+              "text": "Identità del distributore e fine della chiamata.",
+              "ref": "CAP, art. 121, c. 1"
+            },
+            {
+              "text": "Identità della persona in contatto e suo rapporto con il distributore.",
+              "ref": "art. 121, c. 1"
+            },
+            {
+              "text": "Principali caratteristiche del prodotto e prezzo totale, imposte comprese.",
+              "ref": "art. 121, c. 1"
+            },
+            {
+              "text": "Natura del compenso ricevuto per il contratto.",
+              "ref": "art. 121, c. 1, lett. e)"
+            },
+            {
+              "text": "Informazioni sempre prima della conclusione del contratto.",
+              "ref": "art. 121, c. 2"
+            },
+            {
+              "text": "Serve il preventivo consenso espresso del cliente: il silenzio non vale come consenso, niente opt-out.",
+              "ref": "Reg. IVASS 40/2018, art. 72"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il contratto a distanza nel Codice del consumo",
+          "key": "È concluso tra professionista e consumatore in un sistema organizzato di vendita a distanza, senza presenza fisica simultanea, usando solo mezzi di comunicazione a distanza fino alla conclusione.",
+          "body": "Il contratto deve essere negoziato e concluso a distanza. Si possono usare tecniche diverse, ma la distanza deve essere costante e prevalente, se non esclusiva. Diverso è il contratto fuori dai locali commerciali: il professionista va dal cliente.",
+          "ref": "Corso 60 ore, Tutela del consumatore"
+        },
+        {
+          "layout": "table",
+          "title": "Il consumatore telematico: le tappe",
+          "head": [
+            "Norma",
+            "Che cosa ha fatto"
+          ],
+          "rows": [
+            [
+              "Dir. 97/7/CE e D.Lgs. 185/1999",
+              "Prima tutela dei consumatori nei contratti a distanza."
+            ],
+            [
+              "Codice del consumo 2005",
+              "Riprende la definizione di contratto a distanza."
+            ],
+            [
+              "Dir. 2011/83/UE e D.Lgs. 21/2014",
+              "Diritti dei consumatori: riforma il Codice del consumo e include anche i contenuti digitali, su supporto fisico o scaricati."
+            ]
+          ],
+          "ref": "Corso 60 ore, Tutela del consumatore"
+        },
+        {
+          "layout": "checklist",
+          "title": "Acquisti online: le regole generali",
+          "items": [
+            {
+              "text": "Costo totale chiaro: imposte, spedizione, ogni altro costo, anche di restituzione. Si evitano le \"Internet cost traps\".",
+              "ref": "art. 49 cod. cons."
+            },
+            {
+              "text": "Button solution: al momento dell'ordine il consumatore riconosce che sta assumendo un obbligo di pagare.",
+              "ref": "Corso 60 ore"
+            },
+            {
+              "text": "La prova di aver informato spetta al professionista.",
+              "ref": "Corso 60 ore"
+            },
+            {
+              "text": "Su schermi piccoli o spot brevi: informazioni minime e rinvio a numero verde o pagina web.",
+              "ref": "Corso 60 ore"
+            },
+            {
+              "text": "Recesso dalla vendita di beni: 14 giorni, estesi di 12 mesi se manca l'informazione; rimborso entro 14 giorni.",
+              "ref": "Corso 60 ore"
+            },
+            {
+              "text": "Consegna senza ritardo, al più entro 30 giorni; se manca, il consumatore può risolvere il contratto.",
+              "ref": "Corso 60 ore"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "E per le polizze vendute a distanza?",
+          "key": "Le polizze sono servizi finanziari: per il recesso valgono le regole del Codice del consumo sui servizi finanziari a distanza, richiamate dal CAP.",
+          "body": "Il recesso non si può esercitare se il cliente chiede la liquidazione dell'indennizzo entro il termine di recesso o, nelle polizze obbligatorie, se il sinistro avviene entro quel termine. L'impresa deve informarne il cliente.",
+          "ref": "CAP, art. 167-bis; Reg. IVASS 40/2018, art. 73"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente vende per telefono una polizza RC auto a un cliente che ha bisogno di copertura immediata. Il cliente chiede di ricevere i documenti dopo. Una settimana dopo, ha un sinistro e vuole recedere.",
+          "questions": [
+            "Quali informazioni servono durante la telefonata?",
+            "Quando vanno trasmessi i documenti?",
+            "Il cliente può recedere?"
+          ],
+          "solution": "Identità del distributore e fine della chiamata, chi parla e per conto di chi, caratteristiche, prezzo totale e compenso. Su espressa richiesta del cliente, con la telefonia vocale i documenti si trasmettono subito dopo la conclusione, non oltre 5 giorni. Se il sinistro avviene entro il termine di recesso di una polizza obbligatoria, come l'RC auto, il recesso non si può esercitare."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella vendita a distanza di polizze, il silenzio del cliente dopo una proposta:",
+          "options": [
+            "Vale come consenso",
+            "Vale come consenso solo per le polizze collettive",
+            "Non vale mai come consenso: serve il preventivo consenso espresso",
+            "Vale come consenso se il premio è inferiore a 100 euro"
+          ],
+          "answer": 2,
+          "explanation": "Il Regolamento IVASS 40/2018 vieta di collocare contratti a distanza senza il preventivo consenso espresso: assenza di risposta o mancato dissenso non sono consenso."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Outsider",
+              "text": "il cliente è tutelato per la complessità dei prodotti"
+            },
+            {
+              "value": "1932",
+              "text": "deroghe solo a favore dell'assicurato"
+            },
+            {
+              "value": "166",
+              "text": "documenti chiari, clausole limitative in evidenza"
+            },
+            {
+              "value": "121",
+              "text": "informazioni preliminari prima di vendere a distanza"
+            },
+            {
+              "value": "Consenso",
+              "text": "sempre preventivo ed espresso: niente silenzio-assenso"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione sulla tutela del contraente arriviamo al cuore del nostro lavoro: passiamo al consumatore assicurato, vediamo come codice civile e Codice delle assicurazioni si integrano, e chiudiamo con le regole della vendita a distanza, sempre più importante anche per le agenzie.\n\nSul piano interno vanno ricordati i decreti Bersani. Il decreto legge numero 223 del 2006, detto decreto Bersani, contiene norme in materia assicurativa e bancaria e riguarda due aree: gli intermediari di assicurazione e i clienti-consumatori. Il 31 gennaio 2007 è stato poi emanato il decreto legge numero 7, noto come Bersani bis, convertito con la legge 2 aprile 2007, numero 40, recante misure urgenti per la tutela dei consumatori, la promozione della concorrenza, lo sviluppo di attività economiche e la nascita di nuove imprese.\n\nVeniamo al consumatore assicurato. L'assicurazione, come l'attività bancaria e creditizia, è soggetta a un controllo pubblico: si svolge sotto il controllo dell'IVASS e del Ministero competente. Il contratto di assicurazione, disciplinato dal codice civile agli articoli 1882 e seguenti, è predisposto dall'impresa con moduli o formulari e sottoposto al cliente che li firma. È un contratto standard, consensuale e aleatorio. Il legislatore ha cercato di uniformare e semplificare la disciplina, con l'obiettivo di liberalizzare il mercato e tutelare il cliente.\n\nUna prova dello squilibrio tra le parti è l'articolo 1932 del codice civile, che vieta di derogare ad alcune norme sul contratto se non in senso più favorevole all'assicurato. Con questo articolo il legislatore ha dato all'assicurato un minimo di tutela, vietando deroghe sfavorevoli rispetto a norme che, però, già tenevano conto delle esigenze dell'assicuratore. Il Codice delle assicurazioni si propone di rimediare alla forte asimmetria tra compagnie e assicurati obbligando a fornire al cliente informazioni complete e corrette. La tutela dell'assicurato sta nell'obbligo, per chi propone la polizza, di considerare le effettive esigenze del cliente e di proporgli la copertura più adatta. È il principio che oggi trovi nell'articolo 119-ter del Codice: ogni contratto proposto deve essere coerente con le richieste e le esigenze del contraente.\n\nAlla luce delle direttive assicurative, il consumatore che conta per valutare il pregiudizio causato da una pratica commerciale è una persona fisica o giuridica che agisce per acquisire coperture assicurative, anche nell'ambito della propria attività professionale o imprenditoriale, salvo che la polizza copra grandi rischi. La direttiva europea 2016/97 sulla distribuzione assicurativa, che ha sostituito la direttiva 2002/92, quando disciplina le informazioni che l'intermediario deve dare non usa più il termine consumatore, ma il termine cliente. In altre parole, la normativa europea individua il destinatario dei prodotti assicurativi non su base soggettiva, ma in base al tipo di rischio coperto dalla polizza.\n\nNel settore assicurativo la tutela può essere graduata secondo l'effettiva disuguaglianza tra le parti, e due articoli del Codice lo mostrano. L'articolo 183, comma 3, stabilisce che l'IVASS, nel regolamento sulle regole di comportamento, tenga conto delle diverse esigenze di protezione di contraenti e assicurati, e individui le categorie che non hanno bisogno, in tutto o in parte, della protezione riservata alla clientela non qualificata. L'articolo 191, comma 2, dispone che l'IVASS eserciti il potere regolamentare secondo il principio di proporzionalità, raggiungendo il fine con il minor sacrificio per i destinatari.\n\nLa disciplina delle assicurazioni si trova principalmente in due fonti. Il codice civile fissa la nozione di contratto di assicurazione all'articolo 1882 e lo disciplina negli articoli dal 1882 al 1932. Il Codice delle assicurazioni private, in vigore dal 2005, detta invece una normativa speciale sull'impresa, cioè autorizzazione, esercizio, vigilanza e liquidazione, e su determinate fattispecie. Le norme del codice civile sulle dichiarazioni del contraente, gli articoli 1892 e 1893, sono integrate, sui criteri di redazione del contratto, dall'articolo 166 del Codice delle assicurazioni: il contratto e ogni altro documento consegnato al contraente devono essere chiari ed esaurienti, e le clausole che prevedono decadenze, nullità, limitazioni delle garanzie od oneri a carico del contraente o dell'assicurato devono essere riportate con caratteri di particolare evidenza.\n\nIl Codice detta anche regole particolari per l'offerta a distanza, all'articolo 121. Il materiale originale ricorda il Regolamento ISVAP 34 del 2010, integrato e modificato dal Regolamento IVASS 40 del 2 agosto 2018, che disciplina la promozione e il collocamento di contratti via internet e via telefono. Oggi il Regolamento 40 ha abrogato il Regolamento 34, salvo un articolo, e ne ha assorbito la disciplina. Queste norme fissano regole di trasparenza e comportamento che imprese e intermediari devono rispettare in questa forma di collocamento, e perché la vendita si perfezioni serve il preventivo consenso espresso del cliente. L'articolo 72 del Regolamento lo dice chiaramente: l'assenza di risposta o il mancato dissenso non possono essere considerati consenso, e nelle coperture abbinate ad altri beni o servizi sono vietati l'accettazione automatica e i meccanismi di opt-out.\n\nPrima di concludere un contratto a distanza, l'articolo 121 del Codice chiede al distributore di comunicare almeno: la propria identità e il fine della chiamata; l'identità della persona in contatto con il cliente e il suo rapporto con il distributore; le principali caratteristiche del prodotto; il prezzo totale, imposte comprese; la natura del compenso ricevuto; e le ulteriori informazioni previste dal Codice del consumo. Le informazioni si danno sempre prima della conclusione. Possono essere date a voce solo su espressa richiesta del cliente quando serve una copertura immediata; con la telefonia vocale, se il cliente lo chiede, i documenti si trasmettono subito dopo la conclusione e comunque non oltre cinque giorni.\n\nAllarghiamo ora lo sguardo alle regole generali del Codice del consumo sui contratti a distanza, tratte dal modulo sulla tutela del consumatore. Il contratto a distanza è qualsiasi contratto concluso tra professionista e consumatore nel quadro di un regime organizzato di vendita o di prestazione di servizi a distanza, senza la presenza fisica e simultanea delle parti, usando esclusivamente uno o più mezzi di comunicazione a distanza fino alla conclusione, compresa. Deve inserirsi in un sistema di vendita collegato all'attività del professionista che impieghi esclusivamente tecniche a distanza. Il contratto deve essere negoziato e concluso a distanza; le parti possono usare anche due o più tecniche diverse, ma l'uso di tecniche a distanza deve essere costante e prevalente, se non esclusivo.\n\nDiversa è la contrattazione fuori dai locali commerciali. Portare l'offerta di beni e servizi fuori dai luoghi tradizionali è stata una grande innovazione per superare le barriere nei mercati europei, in continua crescita: i professionisti non aspettano più il cliente in negozio, ma cambiano strategia e vanno direttamente da lui.\n\nAnche negli acquisti online ci sono asimmetrie che vedono una parte soccombente, e servono strumenti di protezione per il contraente debole. Il materiale indica la direttiva europea 2011/83 sui diritti dei consumatori come la prima emanata per dare maggiore protezione al consumatore nei contratti con il professionista; in Italia è stata recepita con il decreto legislativo 21 febbraio 2014, numero 21, che ha riformato il Codice del consumo e completato la tutela del consumatore telematico prevista dalla direttiva 97/7 sui contratti a distanza. Il Codice del consumo del 2005 riprendeva la definizione della direttiva 97/7 e del decreto legislativo 185 del 1999. La direttiva 2011/83 si applica a qualsiasi contratto tra professionista e consumatore, sia di vendita di beni sia di fornitura di servizi, e per la prima volta comprende anche i contenuti digitali, su supporto fisico o scaricati senza supporto materiale.\n\nL'articolo 49 del Codice del consumo, modificato nel 2014, obbliga il professionista a informare il consumatore sugli aspetti più significativi del contratto. Per evitare le trappole di costo, le Internet cost traps, deve indicare il costo totale, comprensivo di imposte, spese di spedizione e ogni altro costo, compreso quello di restituzione in caso di recesso, o il modo di calcolarlo se non si può determinare in anticipo. Deve inoltre fare in modo che il consumatore, al momento dell'ordine, riconosca chiaramente che sta assumendo un obbligo di pagare: è la cosiddetta button solution. L'onere di provare di aver informato grava sul professionista. Quando il mezzo ha limiti tecnici, come lo schermo di un cellulare o la durata di uno spot, il professionista fornisce un insieme minimo di informazioni e rinvia a un'altra fonte, ad esempio un numero verde o una pagina web facilmente accessibile.\n\nNelle trattative di un contratto telematico le parti devono comportarsi secondo buona fede, cioè con lealtà e correttezza. Buona fede e correttezza diventano un concetto unitario: una clausola generale che non ha solo valore etico-sociale, ma è il fulcro del diritto delle obbligazioni e specifica il dovere di solidarietà sociale dell'articolo 2 della Costituzione, che obbliga ciascuna parte a tutelare gli interessi dell'altra, anche al di là di obblighi contrattuali o di legge, nei limiti di un apprezzabile sacrificio.\n\nSul diritto di recesso, il modulo riporta le regole generali. Il termine è di 14 giorni: per i contratti di vendita decorre da quando il consumatore riceve fisicamente i beni, per i contenuti digitali senza supporto materiale dalla conclusione del contratto. Se il professionista non informa sul recesso, il termine si estende di altri 12 mesi. Il professionista conferma la ricezione del recesso, mentre il consumatore ha l'onere di provare di averlo esercitato. Il professionista rimborsa senza ritardo, e comunque entro 14 giorni da quando ha avuto notizia del recesso, con lo stesso mezzo di pagamento usato dal consumatore; non rimborsa i costi supplementari se il consumatore ha scelto una consegna diversa da quella meno costosa. Il consumatore restituisce i beni sostenendo solo il costo diretto della restituzione e risponde solo della diminuzione di valore dovuta a una manipolazione diversa da quella necessaria per verificarne natura, caratteristiche e funzionamento. Il recesso è escluso, secondo l'articolo 59, comma 1, lettera o, per i contenuti digitali su supporto non materiale quando l'esecuzione è iniziata con l'accordo espresso del consumatore, che ha accettato di perdere il diritto. Lo scioglimento ha efficacia ex nunc, cioè senza effetto retroattivo.\n\nQuanto all'esecuzione, il modulo riporta due regole. Una prevede che il professionista esegua l'ordinazione entro trenta giorni dal giorno successivo a quello in cui il consumatore l'ha trasmessa, contando dalla trasmissione e non dalla ricezione. L'altra, per le vendite online, prevede che, salvo diverso accordo, il professionista consegni i beni senza ritardo e al più entro trenta giorni dalla conclusione del contratto; se non lo fa, il consumatore lo invita a consegnare entro un termine adeguato e, in caso di mancata consegna, può risolvere il contratto, salvo il risarcimento del danno.\n\nAttenzione però: queste regole riguardano in generale la vendita di beni e servizi. Le polizze sono servizi finanziari, e per il recesso dai contratti di assicurazione conclusi a distanza valgono le regole del Codice del consumo sui servizi finanziari, richiamate dall'articolo 167-bis del Codice delle assicurazioni. Il recesso non si può esercitare se il cliente chiede la liquidazione dell'indennizzo entro il termine di recesso, oppure, nelle polizze obbligatorie, se il sinistro si verifica entro quel termine, e l'impresa deve informarne il cliente. Il Regolamento IVASS 40 chiede inoltre di informare il cliente sul diritto di recesso al primo contatto.\n\nNel caso pratico, quindi, l'agente dà subito le informazioni preliminari, trasmette i documenti entro cinque giorni e sa che un sinistro nel termine di recesso esclude il recesso. Chiudiamo così il percorso: la tutela del contraente nasce dal riconoscimento di un'asimmetria, si concretizza in informazione, forma e trasparenza, e nel lavoro quotidiano diventa una serie di gesti precisi che proteggono il cliente e l'intermediario stesso.",
+      "sources": [
+        {
+          "title": "IVASS, Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Testo vigente dell'art. 121 CAP sulle informazioni preliminari nella vendita a distanza (incluso il compenso e il termine di 5 giorni per la telefonia vocale).",
+          "source_ref": "CAP, art. 121, come sostituito dal D.Lgs. 68/2018"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto di collocamento senza preventivo consenso espresso, di silenzio-assenso e opt-out.",
+          "source_ref": "Reg. IVASS 40/2018, art. 72"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Recesso dai contratti di assicurazione conclusi a distanza: casi di esclusione e obbligo informativo dell'impresa; informazione sul recesso al primo contatto.",
+          "source_ref": "CAP, art. 167-bis (inserito dal D.Lgs. 209/2025); Reg. IVASS 40/2018, art. 73"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti del modulo 'Tutela del consumatore' (60 ore) e della trascrizione: contratto a distanza, fuori dai locali commerciali, consumatore telematico, button solution, recesso, esecuzione delle vendite online.",
+          "source_ref": "Corso Ivass 60 ore, Tutela del consumatore"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra la tutela dell'assicurato e il dovere di coerenza con richieste ed esigenze; testo vigente dell'art. 183, c. 3 CAP.",
+          "source_ref": "CAP, artt. 119-ter e 183, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento al Reg. ISVAP 34/2010 'integrato e modificato' dal Reg. IVASS 40/2018. Aggiornamento: il Reg. 40/2018 ha abrogato il Reg. 34/2010, salvo l'art. 13.",
+          "source_ref": "Reg. IVASS 40/2018, art. 97, c. 1, lett. b)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la dicitura 'direttiva 2016/97/CE'; nella slide indicata la denominazione corretta 'direttiva (UE) 2016/97'.",
+          "source_ref": "Reg. IVASS 40/2018, art. 2 (rinvio alla direttiva (UE) 2016/97)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (60 ore): la dir. 2011/83 è 'la prima direttiva' a tutela del consumatore nei contratti con il professionista. Affermazione dubbia, perché la stessa fonte cita la precedente dir. 97/7/CE; possibile aggiornamento della formulazione.",
+          "source_ref": "Corso Ivass 60 ore, Tutela del consumatore"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte (60 ore) entrambe le regole sui 30 giorni (esecuzione dell'ordinazione dal giorno successivo alla trasmissione; consegna entro 30 giorni dalla conclusione). La prima riflette la disciplina anteriore al D.Lgs. 21/2014: possibile aggiornamento.",
+          "source_ref": "Corso Ivass 60 ore, Tutela del consumatore"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le regole generali sul recesso (14 giorni, proroga di 12 mesi, rimborso entro 14 giorni, art. 59 lett. o). Precisato che per i contratti di assicurazione a distanza si applica la disciplina dei servizi finanziari; il termine specifico non è stato riportato perché la numerazione degli articoli del Codice del consumo è cambiata con il D.Lgs. 209/2025 e non è stata riverificata.",
+          "source_ref": "CAP, art. 167-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la vendita a distanza è regolata da 'art. 121 CAP' e l'assicurazione si svolge sotto il controllo di 'IVASS e Ministero competente'.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

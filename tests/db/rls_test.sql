@@ -245,4 +245,23 @@ select tests.ok((select count(*) from public.profiles) = 1, 'corsista con header
 select tests.ok((select count(*) from public.audit_impersonation) = 0, 'corsista: registro invisibile');
 rollback;
 
+-- ---------------------------------------------------------------- lezioni per corso
+
+insert into public.course_lessons (course_id, lesson_id)
+select c.id, l.id from public.courses c, public.lessons l where c.title in ('IVASS 30 ore', 'IVASS 60 ore');
+
+begin;
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.ok((select count(distinct course_id) from public.course_lessons) = 1, 'corsista: vede le lezioni solo del proprio corso');
+rollback;
+
+begin;
+select tests.login(:az_b);
+set local role authenticated;
+select tests.ok((select count(*) from public.course_lessons) = 0, 'azienda B: nessuna lezione di corsi non assegnati');
+with u as (insert into public.course_lessons select course_id, lesson_id from public.course_lessons returning 1)
+select tests.ok((select count(*) from u) = 0, 'azienda B: non modifica le lezioni dei corsi');
+rollback;
+
 \warn 'TUTTI I TEST SUPERATI'

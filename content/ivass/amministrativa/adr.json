@@ -1,0 +1,1482 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Sistemi alternativi di risoluzione delle controversie",
+  "topic_order": 4,
+  "scope": "core",
+  "source_minutes": 56,
+  "lessons": [
+    {
+      "title": "Gli ADR: mediazione, conciliazione e arbitrato",
+      "source_files": [
+        "corso totale/Sistemi alternativi di risoluzione delle controversie.pdf",
+        "Corso ivass 30 ore/.../Sistemi alternativi di risoluzione delle liti/Sistemi alternativi di risoluzione delle controversie.prima parte.pdf"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Sistemi alternativi di risoluzione delle controversie",
+          "title": "Gli ADR: mediazione, conciliazione e arbitrato",
+          "goals": [
+            "Capire che cosa distingue gli ADR dal processo davanti al giudice",
+            "Riconoscere mediazione, conciliazione e arbitrato e le loro differenze",
+            "Conoscere l'origine della mediazione obbligatoria e l'obbligo informativo dell'avvocato"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché si è diffusa la «giustizia informale»",
+          "key": "La rapida diffusione della giustizia informale dipende soprattutto dalle caratteristiche di certi sistemi giuridici: prevale l'impulso di parte sulla procedibilità d'ufficio, c'è una cultura del patteggiamento e manca un insieme rigido di principi codificati.",
+          "body": "Dove sono le parti a mettere in moto la tutela, e non lo Stato d'ufficio, è più facile che siano le stesse parti a cercare un accordo. L'assenza di schemi rigidi permette di creare strumenti nuovi senza doverli ricondurre a categorie fisse.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa sono gli ADR",
+          "key": "Gli ADR (Alternative Dispute Resolution) sono la mediazione, la conciliazione e l'arbitrato. Si distinguono dal processo non solo perché manca un giudice, ma soprattutto per il metodo e per l'approccio psicologico delle parti alla lite.",
+          "body": "Nel processo le parti si affrontano e un giudice stabilisce chi ha ragione. Negli ADR il conflitto viene gestito con strumenti più flessibili: spesso sono le parti stesse a costruire la soluzione, con l'aiuto di un terzo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Mediazione e arbitrato a confronto",
+          "cols": [
+            {
+              "title": "Mediazione",
+              "items": [
+                "Mira alla soddisfazione di entrambe le parti",
+                "Un terzo «agevolatore» le aiuta a trovare una soluzione accettabile",
+                "Il mediatore non decide: l'accordo lo fanno le parti",
+                "Se l'accordo c'è, la lite è conciliata"
+              ]
+            },
+            {
+              "title": "Arbitrato",
+              "items": [
+                "L'incarico è affidato a uno o più arbitri, terzi rispetto alla lite",
+                "È un giudizio privato, alternativo al giudizio civile ordinario",
+                "Si chiude con il lodo, atto di autonomia privata",
+                "Può essere previsto da una clausola del contratto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le tre forme della mediazione",
+          "head": [
+            "Forma",
+            "Come nasce"
+          ],
+          "rows": [
+            [
+              "Facoltativa",
+              "Le parti scelgono liberamente di tentare la mediazione, in qualsiasi materia civile o commerciale su diritti disponibili."
+            ],
+            [
+              "Delegata o giudiziale",
+              "È il giudice a disporla durante la causa. Oggi la legge la chiama «mediazione demandata dal giudice»."
+            ],
+            [
+              "Obbligata",
+              "Per alcune materie, tra cui i contratti assicurativi, va tentata prima di andare in tribunale."
+            ]
+          ],
+          "ref": "Materiale originale; D.Lgs. 28/2010, artt. 5 e 5-quater"
+        },
+        {
+          "layout": "split",
+          "title": "L'arbitrato e il lodo",
+          "left": {
+            "title": "Come funziona",
+            "items": [
+              "Le parti affidano la decisione ad arbitri scelti fuori dalla giustizia statale",
+              "Il ricorso all'arbitrato può essere previsto da clausole contrattuali",
+              "Il «giudizio arbitrale» è un giudizio privato"
+            ]
+          },
+          "right": {
+            "title": "Come si impugna il lodo",
+            "items": [
+              "Per nullità",
+              "Per revocazione",
+              "Con l'opposizione di terzo"
+            ]
+          },
+          "note": "Il lodo può essere impugnato con questi mezzi a prescindere dalla sua esecutività.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La mediazione secondo la legge",
+          "key": "La mediazione è un procedimento in cui due o più parti di una controversia cercano esse stesse, su base volontaria, un accordo per risolvere la lite, con l'assistenza di un mediatore terzo e imparziale.",
+          "body": "Il procedimento può essere avviato dalle parti oppure ordinato dal giudice. Se le parti trovano l'accordo, la legge parla di «conciliazione»: la mediazione è l'attività, la conciliazione è il risultato.",
+          "ref": "D.Lgs. 28/2010, art. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "L'avvocato deve informare il cliente",
+          "key": "L'avvocato deve informare l'assistito, chiaramente e per iscritto, della possibilità di usare la mediazione, delle agevolazioni fiscali e dei casi in cui è condizione di procedibilità.",
+          "body": "Il documento firmato dal cliente va allegato all'atto con cui si inizia la causa. La fonte parla di nullità del contratto con l'assistito; il testo oggi in vigore prevede che il contratto sia annullabile.",
+          "ref": "D.Lgs. 28/2010, art. 4, c. 3"
+        },
+        {
+          "layout": "timeline",
+          "title": "Le tappe della mediazione obbligatoria",
+          "items": [
+            {
+              "value": "20 marzo 2010",
+              "text": "entrano in vigore le norme sulla mediazione finalizzata alla conciliazione",
+              "ref": "D.Lgs. 28/2010"
+            },
+            {
+              "value": "12 mesi",
+              "text": "dopo, nel marzo 2011, diventa efficace il tentativo obbligatorio, contratti assicurativi compresi",
+              "ref": "D.Lgs. 28/2010, art. 24"
+            },
+            {
+              "value": "2012",
+              "text": "la Corte costituzionale (sentenza n. 272) dichiara illegittima la norma sull'obbligo",
+              "ref": "Note Normattiva all'art. 5"
+            },
+            {
+              "value": "2013",
+              "text": "il «Decreto del fare» reintroduce l'obbligo e ne cambia le materie",
+              "ref": "Materiale originale; Normattiva"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa ha cambiato il «Decreto del fare»",
+          "left": {
+            "title": "Uscito dalla mediazione obbligatoria",
+            "items": [
+              "Il risarcimento del danno da circolazione di veicoli e natanti (RC auto)"
+            ]
+          },
+          "right": {
+            "title": "Entrato nella mediazione obbligatoria",
+            "items": [
+              "Il risarcimento del danno da responsabilità non solo medica, ma più ampiamente «sanitaria»"
+            ]
+          },
+          "note": "Le liti RC auto non sono rimaste senza filtro: dal 2014 per chi vuole andare in causa è obbligatoria la negoziazione assistita.",
+          "noteRef": "D.L. 132/2014, art. 3"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "D.Lgs. 4 marzo 2010, n. 28",
+              "detail": "Mediazione nelle controversie civili e commerciali. Testo vigente dal 25 gennaio 2025, dopo la riforma del 2022 (D.Lgs. 149/2022) e i successivi correttivi."
+            },
+            {
+              "label": "D.L. 12 settembre 2014, n. 132",
+              "detail": "Negoziazione assistita da avvocati, obbligatoria per le liti RC auto e per le somme fino a 50.000 euro."
+            },
+            {
+              "label": "Art. 187.1 del Codice delle assicurazioni",
+              "detail": "Base dell'Arbitro Assicurativo, operativo dal 15 gennaio 2026."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente della tua agenzia ha una polizza infortuni. Dopo un incidente domestico l'impresa nega l'indennizzo sostenendo che il caso è escluso. Il cliente è arrabbiato e ti dice: «Vado subito dall'avvocato e faccio causa».",
+          "questions": [
+            "Può andare direttamente in tribunale?",
+            "Che cosa deve dirgli il suo avvocato?",
+            "Mediazione o arbitrato: che differenza c'è per lui?"
+          ],
+          "solution": "La lite riguarda un contratto assicurativo: prima della causa serve un tentativo di mediazione (oppure il ricorso all'Arbitro Assicurativo, che la legge considera equivalente). L'avvocato deve informarlo per iscritto. In mediazione il cliente resta padrone dell'accordo; in un arbitrato, se previsto dal contratto, deciderebbe un arbitro con un lodo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa distingue soprattutto la mediazione dall'arbitrato?",
+          "options": [
+            "Nella mediazione decide un giudice dello Stato",
+            "Nella mediazione il terzo aiuta le parti a trovare l'accordo; nell'arbitrato gli arbitri decidono la lite",
+            "L'arbitrato è sempre gratuito, la mediazione no",
+            "Il lodo arbitrale non può mai essere impugnato"
+          ],
+          "answer": 1,
+          "explanation": "Il mediatore è un agevolatore: l'accordo lo fanno le parti. L'arbitro invece decide, con un lodo che può essere impugnato per nullità, revocazione o opposizione di terzo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa succede se l'avvocato non informa per iscritto il cliente sulla mediazione?",
+          "options": [
+            "Nulla, è solo una buona prassi",
+            "La causa è nulla",
+            "Il contratto tra avvocato e assistito è annullabile",
+            "L'avvocato viene radiato dall'albo"
+          ],
+          "answer": 2,
+          "explanation": "Il testo vigente dell'art. 4, comma 3, del D.Lgs. 28/2010 prevede l'annullabilità del contratto tra avvocato e assistito. Il materiale originale parlava di nullità."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "gli ADR classici: mediazione, conciliazione, arbitrato"
+            },
+            {
+              "value": "Lodo",
+              "text": "chiude l'arbitrato; si impugna per nullità, revocazione, opposizione di terzo"
+            },
+            {
+              "value": "3 forme",
+              "text": "di mediazione: facoltativa, demandata dal giudice, obbligatoria"
+            },
+            {
+              "value": "Per iscritto",
+              "text": "l'avvocato informa il cliente sulla mediazione"
+            },
+            {
+              "value": "2013",
+              "text": "fuori l'RC auto, dentro la responsabilità sanitaria"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento parliamo dei sistemi alternativi di risoluzione delle controversie, che spesso si indicano con la sigla inglese ADR, Alternative Dispute Resolution. Sono strumenti che servono a chiudere una lite senza arrivare a una sentenza, o almeno a provarci prima. Per un intermediario assicurativo conoscerli è fondamentale: quando un cliente è in disaccordo con l'impresa, è a te che chiede che cosa può fare, e la risposta giusta raramente è «fai causa e basta».\n\nPartiamo da una domanda: perché questi strumenti si sono diffusi così rapidamente? La cosiddetta giustizia informale cresce soprattutto in sistemi giuridici con alcune caratteristiche precise. Il primo elemento è la prevalenza dell'impulso di parte rispetto alla procedibilità d'ufficio: sono le parti a muoversi, non lo Stato per conto loro. Il secondo è la cultura del patteggiamento, cioè l'abitudine a cercare un accordo. Il terzo, il più importante, è la mancanza di un insieme rigido di principi codificati a cui ricondurre ogni nuovo istituto. Dove le regole sono meno rigide, è più facile inventare strumenti nuovi per gestire i conflitti.\n\nQuali sono allora gli ADR? Quelli classici sono tre: la mediazione, la conciliazione e l'arbitrato. Si distinguono dal processo davanti al giudice non solo perché manca un organo giudicante dello Stato, ma soprattutto per il metodo e per quello che la fonte chiama l'approccio psicologico delle parti alla controversia. In tribunale le parti sono avversarie e aspettano che qualcuno dica chi ha ragione. In un ADR, invece, sono spinte a parlarsi, a capire le ragioni dell'altro e, se possibile, a costruire insieme una soluzione.\n\nMettiamo a confronto i due strumenti principali. La mediazione mira alla soddisfazione di tutte le parti coinvolte: con l'aiuto di un agevolatore esterno, il mediatore, cercano una soluzione accettabile per entrambe. Il mediatore non decide. Se le parti trovano l'accordo, la lite si dice conciliata. L'arbitrato funziona in modo diverso: le parti affidano l'incarico a uno o più soggetti terzi rispetto alla controversia, gli arbitri, e saranno loro a decidere. Il giudizio arbitrale è un giudizio privato e si chiude con il lodo, un atto negoziale di autonomia privata alternativo al giudizio civile ordinario.\n\nLa mediazione può presentarsi in tre forme. È facoltativa quando le parti decidono liberamente di provarci. È delegata, o giudiziale, quando è il giudice a disporla durante una causa: oggi la legge la chiama mediazione demandata dal giudice. È obbligata quando la legge impone di tentarla prima di andare in tribunale, per certe materie. Tra queste materie, come vedremo, ci sono proprio i contratti assicurativi.\n\nTorniamo un momento all'arbitrato. Il ricorso agli arbitri può essere previsto da clausole del contratto: le parti si impegnano fin dall'inizio a risolvere eventuali liti davanti ad arbitri anziché davanti al giudice. Il lodo, a prescindere dalla sua esecutività, può essere impugnato in tre modi: per nullità, per revocazione e con l'opposizione di terzo. Quindi l'arbitrato non è una zona franca: anche la decisione degli arbitri ha i suoi rimedi.\n\nVediamo ora la definizione di mediazione data dalla legge. Il decreto legislativo 28 del 2010 la descrive come l'attività svolta da un terzo imparziale per assistere due o più soggetti nella ricerca di un accordo amichevole. In parole semplici: due o più parti di una controversia tentano esse stesse, su base volontaria, di raggiungere un accordo, con l'assistenza di un mediatore. Il procedimento può essere avviato dalle parti oppure ordinato dal giudice. La conciliazione, nel linguaggio della legge, è il risultato: la composizione della lite a seguito della mediazione.\n\nUn obbligo importante riguarda gli avvocati. Quando un cliente si rivolge a un legale, l'avvocato deve informarlo della possibilità di avvalersi della mediazione. L'informativa deve essere chiara e scritta. Il testo oggi in vigore precisa che l'avvocato deve informare anche sulle agevolazioni fiscali e sui casi in cui la mediazione è condizione di procedibilità, e che il documento firmato dal cliente va allegato all'atto introduttivo del giudizio. Il materiale originale diceva che la violazione comportava la nullità del contratto con l'assistito; il testo vigente parla invece di annullabilità. È una differenza tecnica, ma è corretto conoscerla.\n\nUn po' di storia. Le norme sulla mediazione finalizzata alla conciliazione, nate per alleggerire i tribunali e diffondere la cultura dei metodi alternativi, sono entrate in vigore il 20 marzo 2010. La parte più delicata, cioè il tentativo obbligatorio di mediazione come condizione per poter fare causa in alcune materie, ha avuto un'efficacia posticipata. Tra quelle materie c'erano i contratti assicurativi, il risarcimento dei danni da responsabilità medica e il risarcimento dei danni da circolazione di veicoli e natanti. Il materiale del corso indica come data il 6 marzo 2011; il decreto in realtà prevede che l'obbligo diventi efficace dodici mesi dopo l'entrata in vigore, quindi nel marzo 2011, e una legge successiva ha rinviato di un altro anno l'obbligo per il condominio e per l'RC auto. Nel 2012 la Corte costituzionale, con la sentenza 272, ha dichiarato illegittima la norma sull'obbligo, che è stata poi reintrodotta nel 2013.\n\nA reintrodurla è stato il cosiddetto Decreto del fare, che ha portato due novità significative. Primo: ha escluso dalla mediazione obbligatoria le controversie sul risarcimento del danno da circolazione di veicoli e natanti, cioè l'RC auto. Secondo: ha inserito le controversie sul risarcimento del danno da responsabilità non solo medica, ma più ampiamente sanitaria, comprendendo quindi anche le strutture e gli altri professionisti della salute. Le liti RC auto, però, non sono rimaste senza filtro: dal 2014, come vedremo nella prossima lezione, per andare in causa serve la negoziazione assistita.\n\nLe regole di riferimento sono quindi tre. Il decreto legislativo 28 del 2010 sulla mediazione, profondamente riformato nel 2022 e poi corretto, con il testo attuale in vigore dal 25 gennaio 2025. Il decreto legge 132 del 2014 sulla negoziazione assistita. E, per il nostro settore, l'articolo 187.1 del Codice delle assicurazioni private, su cui si fonda l'Arbitro Assicurativo, operativo dal 15 gennaio 2026. Un dettaglio utile: sia la legge sulla mediazione sia quella sulla negoziazione assistita stabiliscono che il ricorso all'Arbitro Assicurativo vale come tentativo preventivo. Ci torneremo.\n\nPassiamo a un caso pratico. Un tuo cliente ha una polizza infortuni; dopo un incidente domestico l'impresa nega l'indennizzo perché ritiene il caso escluso. Il cliente vuole fare subito causa. Può farlo? Non direttamente: la lite riguarda un contratto assicurativo, quindi prima della causa serve un tentativo di mediazione, oppure il ricorso all'Arbitro Assicurativo, che la legge considera equivalente. Il suo avvocato ha il dovere di spiegarglielo per iscritto. E tu puoi aiutarlo a capire la differenza tra gli strumenti: in mediazione resta lui a decidere se accettare un accordo; in un arbitrato, se il contratto lo prevedesse, a decidere sarebbe un arbitro.\n\nAttenzione però a un punto di ruolo: l'intermediario non dà consulenza legale. Il tuo compito è riconoscere la situazione, spiegare le strade possibili in modo corretto, raccogliere i documenti e, se il cliente è tuo, segnalare all'impresa la contestazione. La scelta della strada e la sua gestione tecnica spettano al cliente e al suo legale.\n\nRiepiloghiamo. Gli ADR classici sono tre: mediazione, conciliazione e arbitrato. L'arbitrato si chiude con un lodo, impugnabile per nullità, revocazione e opposizione di terzo. La mediazione può essere facoltativa, demandata dal giudice o obbligatoria. L'avvocato deve informare il cliente per iscritto. E dal 2013 l'RC auto è uscita dalla mediazione obbligatoria, mentre vi è entrata la responsabilità sanitaria.",
+      "sources": [
+        {
+          "title": "Normattiva, D.Lgs. 4 marzo 2010, n. 28 (testo vigente)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28!vig="
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 4",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art4"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 5",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art5"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 24",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art24"
+        },
+        {
+          "title": "Normattiva, D.L. 12 settembre 2014, n. 132, art. 3",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-09-12;132~art3"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione legale di mediazione e di conciliazione.",
+          "source_ref": "D.Lgs. 28/2010, art. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo informativo dell'avvocato esteso ad agevolazioni fiscali e casi di procedibilità; documento firmato da allegare all'atto introduttivo.",
+          "source_ref": "D.Lgs. 28/2010, art. 4, c. 3 (testo vigente)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sentenza della Corte costituzionale n. 272/2012 sull'obbligo di mediazione e proroga di 12 mesi per condominio e RC auto.",
+          "source_ref": "Normattiva, note all'art. 5 e all'art. 24 del D.Lgs. 28/2010"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Il ricorso all'Arbitro Assicurativo (art. 187.1 CAP) vale come tentativo preventivo sia per la mediazione sia per la negoziazione assistita.",
+          "source_ref": "D.Lgs. 28/2010, art. 5, c. 3, lett. c); D.L. 132/2014, art. 3, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: informativa dell'avvocato «a pena di nullità del contratto». Aggiornamento: il testo vigente prevede l'annullabilità del contratto tra avvocato e assistito.",
+          "source_ref": "D.Lgs. 28/2010, art. 4, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: efficacia della mediazione obbligatoria posticipata al «6 marzo 2011». Aggiornamento: l'art. 24 prevede l'efficacia decorsi 12 mesi dall'entrata in vigore (20 marzo 2010), quindi marzo 2011; per condominio e RC auto proroga di altri 12 mesi (D.L. 225/2010).",
+          "source_ref": "D.Lgs. 28/2010, art. 24 e nota di aggiornamento (1)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la mediazione «delegata o giudiziale». Aggiornamento: oggi si chiama «mediazione demandata dal giudice».",
+          "source_ref": "D.Lgs. 28/2010, art. 5-quater"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le cause di diffusione della giustizia informale e i mezzi di impugnazione del lodo. Riferimento normativo da indicare (c.p.c., artt. 827 ss.).",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Mediazione obbligatoria e negoziazione assistita",
+      "source_files": [
+        "corso totale/Sistemi alternativi di risoluzione delle controversie.pdf",
+        "Corso ivass 30 ore/.../Sistemi alternativi di risoluzione delle liti/Sistemi alternativi di risoluzione delle controversie seconda parte.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Sistemi alternativi di risoluzione delle controversie",
+          "title": "Mediazione obbligatoria e negoziazione assistita",
+          "goals": [
+            "Sapere in quali materie la mediazione è obbligatoria e come si svolge",
+            "Capire quando la condizione di procedibilità è soddisfatta",
+            "Conoscere la negoziazione assistita, obbligatoria per le liti RC auto"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quando la mediazione è obbligatoria",
+          "lead": "Chi vuole fare causa in queste materie deve prima tentare la mediazione.",
+          "head": [
+            "Gruppo",
+            "Materie"
+          ],
+          "rows": [
+            [
+              "Beni e famiglia",
+              "Condominio, diritti reali, divisione, successioni ereditarie, patti di famiglia"
+            ],
+            [
+              "Contratti di godimento",
+              "Locazione, comodato, affitto di aziende"
+            ],
+            [
+              "Risarcimenti",
+              "Responsabilità medica e sanitaria; diffamazione a mezzo stampa o altro mezzo di pubblicità"
+            ],
+            [
+              "Contratti finanziari",
+              "Contratti assicurativi, bancari e finanziari"
+            ],
+            [
+              "Dal 2023",
+              "Associazione in partecipazione, consorzio, franchising, opera, rete, somministrazione, società di persone, subfornitura"
+            ]
+          ],
+          "ref": "D.Lgs. 28/2010, art. 5, c. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "I contratti assicurativi, vita e danni",
+          "key": "Sono soggette alla mediazione obbligatoria le controversie sul contratto assicurativo in senso ampio: il contratto, le singole clausole e la loro applicazione. Vale per i rami vita come per i rami danni.",
+          "body": "Esempi: un indennizzo infortuni negato, una prestazione vita contestata, una clausola di esclusione interpretata in modo diverso. Resta fuori l'RC auto del danneggiato, che segue la negoziazione assistita.",
+          "ref": "Materiale originale; D.Lgs. 28/2010, art. 5, c. 1"
+        },
+        {
+          "layout": "split",
+          "title": "Chi media e dove",
+          "left": {
+            "title": "Il mediatore",
+            "items": [
+              "È un terzo imparziale",
+              "Media tutte le controversie civili e commerciali su diritti disponibili",
+              "Gli avvocati iscritti all'albo sono di diritto mediatori, se adeguatamente formati"
+            ],
+            "ref": "D.Lgs. 28/2010, art. 16, c. 4-bis"
+          },
+          "right": {
+            "title": "L'organismo",
+            "items": [
+              "Enti pubblici o privati iscritti nel registro del Ministero della Giustizia",
+              "Ordini forensi, che possono costituire organismi in ogni materia",
+              "Consigli degli Ordini degli avvocati, con organismi presso ciascun Tribunale"
+            ],
+            "ref": "Materiale originale; art. 16"
+          },
+          "note": "La domanda si deposita presso un organismo nel luogo del giudice territorialmente competente.",
+          "noteRef": "D.Lgs. 28/2010, art. 4, c. 1"
+        },
+        {
+          "layout": "facts",
+          "title": "I principi del procedimento",
+          "lead": "La mediazione è pensata per essere semplice, rapida e riservata.",
+          "facts": [
+            {
+              "label": "Informalità",
+              "text": "Si svolge senza formalità, presso l'organismo o nel luogo indicato dal suo regolamento."
+            },
+            {
+              "label": "Celerità",
+              "text": "La fonte indicava al massimo tre mesi. Oggi la durata è di sei mesi, prorogabili per accordo scritto delle parti."
+            },
+            {
+              "label": "A distanza",
+              "text": "Può svolgersi in via telematica se le parti sono d'accordo, con atti firmati digitalmente."
+            },
+            {
+              "label": "Riservatezza",
+              "text": "Sono riservati i dati e le informazioni rese dalle parti o emerse durante la procedura."
+            }
+          ],
+          "ref": "D.Lgs. 28/2010, artt. 6, 8, 8-bis"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si svolge la mediazione",
+          "steps": [
+            {
+              "label": "Domanda",
+              "text": "Una semplice domanda all'organismo competente per territorio."
+            },
+            {
+              "label": "Primo incontro",
+              "text": "Fissato tra 20 e 40 giorni dal deposito. Le parti partecipano di persona e, nelle materie obbligatorie, con l'avvocato."
+            },
+            {
+              "label": "Confronto",
+              "text": "Il mediatore spiega funzione e modalità della mediazione e si adopera perché le parti trovino l'accordo."
+            },
+            {
+              "label": "Proposta",
+              "text": "Se non c'è accordo può fare una proposta. Deve farla se le parti la chiedono insieme. Sette giorni per rispondere."
+            },
+            {
+              "label": "Verbale",
+              "text": "Con l'accordo, oppure con il mancato accordo, la proposta e chi era assente pur invitato."
+            }
+          ],
+          "ref": "D.Lgs. 28/2010, artt. 4, 8, 11"
+        },
+        {
+          "layout": "concept",
+          "title": "La condizione di procedibilità",
+          "key": "Nelle materie obbligatorie la causa non può andare avanti se prima non si è tentata la mediazione. La condizione si considera soddisfatta se il primo incontro davanti al mediatore si chiude senza accordo.",
+          "body": "Il convenuto deve sollevare l'eccezione, oppure il giudice la rileva d'ufficio, entro la prima udienza. La mediazione non impedisce i provvedimenti urgenti e cautelari.",
+          "ref": "D.Lgs. 28/2010, art. 5, c. 2, 4 e 5"
+        },
+        {
+          "layout": "concept",
+          "title": "La mediazione disposta dal giudice",
+          "key": "Il giudice, anche in appello, può disporre la mediazione con ordinanza motivata, valutando la natura della causa, lo stato dell'istruzione, il comportamento delle parti e ogni altra circostanza.",
+          "body": "La fonte limitava questa possibilità alle materie obbligatorie; oggi vale per ogni causa, fino all'udienza di rimessione in decisione. Se poi la mediazione non viene svolta, la domanda è improcedibile.",
+          "ref": "D.Lgs. 28/2010, art. 5-quater"
+        },
+        {
+          "layout": "concept",
+          "title": "La negoziazione assistita",
+          "key": "Le parti compongono in via amichevole un conflitto stipulando una convenzione con l'assistenza dei propri avvocati, iscritti all'albo. Non c'è un terzo: sono le parti a impegnarsi a cercare un accordo pieno.",
+          "body": "La convenzione impegna a collaborare in buona fede e con lealtà. Si fa per iscritto, a pena di nullità, con almeno un avvocato per parte. Non può riguardare diritti indisponibili.",
+          "ref": "Materiale originale; D.L. 132/2014, art. 2"
+        },
+        {
+          "layout": "table",
+          "title": "Quando la negoziazione è obbligatoria",
+          "head": [
+            "Lite",
+            "Regola"
+          ],
+          "rows": [
+            [
+              "RC auto e natanti",
+              "Risarcimento del danno da circolazione di veicoli e natanti, di qualsiasi importo."
+            ],
+            [
+              "Somme fino a 50.000 €",
+              "Domande di pagamento a qualsiasi titolo, fuori dalle materie a mediazione obbligatoria."
+            ],
+            [
+              "Esclusione",
+              "Non vale per le obbligazioni nate da contratti tra professionisti e consumatori."
+            ],
+            [
+              "Alternativa",
+              "Il ricorso all'Arbitro Assicurativo tiene luogo della convenzione."
+            ]
+          ],
+          "ref": "D.L. 132/2014, art. 3, c. 1"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si avvia la negoziazione",
+          "steps": [
+            {
+              "label": "Invito",
+              "text": "L'avvocato di chi vuole agire invita la controparte a stipulare la convenzione, indicando l'oggetto della lite."
+            },
+            {
+              "label": "30 giorni",
+              "text": "La controparte può aderire, rifiutare o non rispondere. Rifiuto e silenzio possono pesare sulle spese di causa."
+            },
+            {
+              "label": "Convenzione",
+              "text": "Se aderisce, le parti fissano la durata: da uno a tre mesi, prorogabile di 30 giorni."
+            },
+            {
+              "label": "Esito",
+              "text": "Accordo, oppure dichiarazione di mancato accordo certificata dagli avvocati."
+            }
+          ],
+          "ref": "D.L. 132/2014, artt. 2, 3, 4"
+        },
+        {
+          "layout": "concept",
+          "title": "Avviata dalle parti o ordinata dal giudice",
+          "key": "La negoziazione può nascere dall'iniziativa delle parti oppure dal giudice: se la causa è iniziata senza negoziazione, il giudice assegna 15 giorni per inviare l'invito.",
+          "body": "La condizione di procedibilità è soddisfatta se l'invito non è seguito da adesione, se è rifiutato entro 30 giorni o se scade il termine della convenzione.",
+          "ref": "D.L. 132/2014, art. 3, c. 1-2"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha subito un tamponamento. L'impresa del responsabile ha offerto 2.000 euro, lui ne chiede 6.000. Nello stesso periodo ha una lite con la sua impresa per una polizza incendio sulla casa.",
+          "questions": [
+            "Quale tentativo serve per la lite RC auto prima della causa?",
+            "E per la lite sulla polizza incendio?"
+          ],
+          "solution": "Per l'RC auto serve la negoziazione assistita (con avvocati), oppure il ricorso all'Arbitro Assicurativo, che però in azione diretta decide solo fino a 2.500 euro. Per la polizza incendio, contratto assicurativo, serve la mediazione, oppure l'Arbitro Assicurativo nei limiti di valore."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quando si considera soddisfatta la condizione di procedibilità della mediazione?",
+          "options": [
+            "Solo se la mediazione si chiude con un accordo",
+            "Quando il primo incontro davanti al mediatore si chiude senza accordo",
+            "Quando è passato un anno dalla domanda",
+            "Quando l'avvocato invia una diffida"
+          ],
+          "answer": 1,
+          "explanation": "Non serve arrivare a un accordo: basta che il primo incontro si chiuda senza accordo. Poi si può fare causa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una controversia sul risarcimento di un sinistro RC auto, prima di andare in causa, richiede:",
+          "options": [
+            "La mediazione obbligatoria",
+            "La negoziazione assistita o, in alternativa, il ricorso all'Arbitro Assicurativo",
+            "Un reclamo all'IVASS",
+            "Nessun tentativo preventivo"
+          ],
+          "answer": 1,
+          "explanation": "Il Decreto del fare ha tolto l'RC auto dalla mediazione obbligatoria; dal 2014 serve la negoziazione assistita. Il ricorso all'Arbitro Assicurativo ne tiene luogo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Vita e danni",
+              "text": "le liti sui contratti assicurativi vanno prima in mediazione"
+            },
+            {
+              "value": "20–40",
+              "text": "giorni per il primo incontro di mediazione"
+            },
+            {
+              "value": "6 mesi",
+              "text": "la durata della mediazione, prorogabile per accordo scritto"
+            },
+            {
+              "value": "30",
+              "text": "giorni per rispondere all'invito alla negoziazione"
+            },
+            {
+              "value": "50.000 €",
+              "text": "fino a questa somma, e per l'RC auto, negoziazione obbligatoria"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cosa sono gli ADR e come è nata la mediazione obbligatoria. Ora entriamo nel concreto: in quali materie la mediazione va tentata prima della causa, come si svolge, e che cos'è la negoziazione assistita, lo strumento che oggi riguarda le liti RC auto.\n\nPartiamo dalle materie. L'articolo 5 del decreto 28 del 2010 elenca le controversie in cui chi vuole agire in giudizio deve prima avviare la mediazione. Ci sono il condominio, i diritti reali, la divisione, le successioni ereditarie e i patti di famiglia. Ci sono la locazione, il comodato e l'affitto di aziende. Ci sono il risarcimento del danno da responsabilità medica e sanitaria e quello da diffamazione a mezzo stampa o con altri mezzi di pubblicità. E ci sono, ed è la voce che ci interessa di più, i contratti assicurativi, bancari e finanziari. La riforma del 2022, applicata dal 30 giugno 2023, ha aggiunto altre materie: associazione in partecipazione, consorzio, franchising, contratto d'opera, contratto di rete, somministrazione, società di persone e subfornitura.\n\nCosa si intende per contratti assicurativi? Il materiale del corso è chiaro: rientrano le controversie sul contratto assicurativo in senso ampio, cioè sul contratto stesso, sulle singole clausole e sulla loro applicazione. E vale per i rami vita come per i rami danni. Pensa a un indennizzo infortuni negato, a una prestazione vita contestata dai beneficiari, a una franchigia applicata in modo che il cliente ritiene sbagliato. In tutti questi casi, prima della causa, serve la mediazione. Resta invece fuori l'azione del danneggiato per un sinistro RC auto, che ha una sua regola, come vedremo tra poco.\n\nChi fa il mediatore? Un terzo imparziale. Possono essere oggetto di mediazione tutte le controversie civili e commerciali che riguardano diritti disponibili, cioè diritti di cui le parti possono liberamente disporre. La legge stabilisce ancora oggi che gli avvocati iscritti all'albo sono di diritto mediatori, e precisa che quelli iscritti a un organismo devono essere adeguatamente formati e aggiornarsi. La mediazione si svolge presso organismi, pubblici o privati, iscritti nel registro tenuto dal Ministero della Giustizia. Il materiale del corso ricorda che anche gli Ordini forensi possono costituire organismi di mediazione in ogni materia e che i Consigli degli Ordini degli avvocati possono istituire organismi presso ciascun Tribunale. La domanda va depositata presso un organismo che si trova nel luogo del giudice territorialmente competente per la controversia.\n\nIl procedimento si basa su alcuni principi. Il primo è l'informalità: non ci sono le regole rigide del processo, la procedura si svolge senza formalità presso la sede dell'organismo. Il secondo è la celerità. Il materiale originale indicava una durata massima di tre mesi; il testo oggi in vigore prevede una durata di sei mesi, prorogabile prima della scadenza con un accordo scritto delle parti, per periodi di non più di tre mesi ciascuno. Il terzo è la possibilità di svolgere la mediazione a distanza, in via telematica: oggi la legge lo consente se le parti sono d'accordo, con atti firmati digitalmente. Il quarto è la riservatezza: i dati e le informazioni resi dalle parti, o emersi durante la procedura, restano riservati.\n\nVediamo i passaggi. Il procedimento inizia con una semplice domanda all'organismo. Al momento del deposito, il responsabile dell'organismo fissa il primo incontro, tra 20 e 40 giorni dopo. Le parti devono partecipare personalmente; solo per giustificati motivi possono delegare un rappresentante che conosca i fatti e abbia i poteri per decidere. Le società partecipano tramite propri rappresentanti. Nelle materie obbligatorie le parti sono assistite dai rispettivi avvocati. Nel primo incontro, secondo il materiale originale, il mediatore verificava con le parti la possibilità di proseguire; oggi la legge gli chiede di illustrare la funzione e le modalità della mediazione e di adoperarsi perché le parti raggiungano un accordo, mentre le parti e i loro avvocati devono cooperare in buona fede.\n\nSe l'accordo non arriva, il mediatore può formulare una proposta di conciliazione, e deve farlo se le parti glielo chiedono insieme, in qualsiasi momento. La proposta è scritta e le parti hanno sette giorni per accettarla o rifiutarla: se tacciono, è rifiutata. Alla fine il mediatore redige il verbale. Se la conciliazione non riesce, nel verbale indica la proposta e dà atto di chi, pur regolarmente invitato, non ha partecipato. Questo è importante: la mancata partecipazione senza giustificato motivo può avere conseguenze nel processo successivo.\n\nArriviamo alla condizione di procedibilità, disciplinata dall'articolo 5. Nelle materie obbligatorie, se si va in causa senza aver tentato la mediazione, la causa si blocca. L'eccezione deve essere sollevata dal convenuto, oppure rilevata d'ufficio dal giudice, entro la prima udienza. Il materiale originale diceva che bastava lo svolgimento dell'incontro preliminare davanti al mediatore. Il testo vigente lo dice in modo simile: la condizione si considera avverata se il primo incontro si conclude senza accordo. In ogni caso, la mediazione non impedisce di chiedere al giudice provvedimenti urgenti e cautelari.\n\nC'è poi la mediazione disposta dal giudice. Il materiale del corso spiega che il giudice può disporla anche in appello, valutando la natura della causa, lo stato dell'istruzione e il comportamento delle parti. Oggi la regola è contenuta nell'articolo 5-quater e vale per qualsiasi causa, non solo per le materie obbligatorie: il giudice può disporla con ordinanza motivata fino al momento in cui fissa l'udienza di rimessione della causa in decisione. Se poi la mediazione non viene svolta, il giudice dichiara improcedibile la domanda.\n\nPassiamo alla negoziazione assistita. È il procedimento con cui le parti compongono in via amichevole un conflitto, stipulando una convenzione con l'assistenza dei propri avvocati iscritti all'albo. L'elemento caratterizzante è il coinvolgimento diretto delle parti fin dalla fase iniziale: sono loro ad assumere l'impegno di cercare un pieno accordo sull'oggetto della lite, senza un mediatore. La convenzione si fa per iscritto, a pena di nullità, con almeno un avvocato per parte, e impegna a collaborare in buona fede e con lealtà. Non può riguardare diritti indisponibili.\n\nQuando è obbligatoria? In due casi. Il primo: le controversie sul risarcimento del danno da circolazione di veicoli e natanti, quindi l'RC auto, di qualsiasi importo. Il secondo: le domande di pagamento, a qualsiasi titolo, di somme non superiori a cinquantamila euro, purché non rientrino già nelle materie a mediazione obbligatoria. Quest'ultima regola non si applica alle obbligazioni nate da contratti tra professionisti e consumatori. E c'è una precisazione che riguarda proprio il nostro settore: il ricorso all'Arbitro Assicurativo, istituito ai sensi dell'articolo 187.1 del Codice delle assicurazioni, tiene luogo della convenzione di negoziazione assistita.\n\nCome si avvia? Con un invito: la parte che vuole agire, tramite il suo avvocato, invita la controparte a stipulare la convenzione, indicando l'oggetto della controversia. La controparte ha trenta giorni dal ricevimento. Può rifiutare, può non rispondere affatto, oppure può aderire. Attenzione: l'invito deve avvertire che il rifiuto o il silenzio possono essere valutati dal giudice ai fini delle spese del successivo processo. Se la controparte aderisce, le parti fissano la durata della procedura, che non può essere inferiore a un mese né superiore a tre mesi, prorogabile di altri trenta giorni su accordo. La procedura può svolgersi anche in via telematica.\n\nLa negoziazione, come la mediazione, può essere avviata dalle parti o, di fatto, ordinata dal giudice: se la causa è iniziata senza negoziazione, il giudice assegna alle parti quindici giorni per inviare l'invito. La condizione di procedibilità si considera soddisfatta se l'invito non è seguito da adesione, se è rifiutato entro trenta giorni, oppure se scade il termine concordato nella convenzione.\n\nVediamo un caso pratico. Un cliente ha subito un tamponamento: l'impresa del responsabile offre 2.000 euro, lui ne chiede 6.000. Nello stesso periodo ha una lite con la propria impresa sulla polizza incendio della casa. Per l'RC auto, prima della causa, serve la negoziazione assistita con gli avvocati. In alternativa potrebbe ricorrere all'Arbitro Assicurativo, ma in azione diretta l'Arbitro decide solo fino a 2.500 euro, quindi qui non basterebbe. Per la polizza incendio, che è un contratto assicurativo, serve invece la mediazione, oppure il ricorso all'Arbitro Assicurativo, nei limiti di valore previsti per i rami danni.\n\nRiepiloghiamo. Le liti sui contratti assicurativi, vita e danni, vanno prima in mediazione. Il primo incontro si fissa tra 20 e 40 giorni dalla domanda e la mediazione dura sei mesi, prorogabili. La condizione è soddisfatta quando il primo incontro si chiude senza accordo. Per l'RC auto e per le somme fino a 50.000 euro serve invece la negoziazione assistita, con trenta giorni per rispondere all'invito.",
+      "sources": [
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 5",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art5"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 5-quater",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art5quater"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 6",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art6"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 8",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art8"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 8-bis",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art8bis"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 11",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art11"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 16",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art16"
+        },
+        {
+          "title": "Normattiva, D.L. 132/2014, art. 2",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-09-12;132~art2"
+        },
+        {
+          "title": "Normattiva, D.L. 132/2014, art. 3",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-09-12;132~art3"
+        },
+        {
+          "title": "Normattiva, D.L. 132/2014, art. 4",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-09-12;132~art4"
+        },
+        {
+          "title": "Arbitro Assicurativo, FAQ",
+          "url": "https://www.arbitroassicurativo.org/faq/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Elenco completo delle materie a mediazione obbligatoria, comprese quelle aggiunte dalla riforma del 2022.",
+          "source_ref": "D.Lgs. 28/2010, art. 5, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Primo incontro tra 20 e 40 giorni, partecipazione personale, assistenza dell'avvocato, dovere di buona fede, proposta obbligatoria su richiesta congiunta, 7 giorni per rispondere.",
+          "source_ref": "D.Lgs. 28/2010, artt. 8 e 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Eccezione di improcedibilità entro la prima udienza; provvedimenti urgenti e cautelari restano possibili.",
+          "source_ref": "D.Lgs. 28/2010, art. 5, c. 2 e 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Negoziazione assistita: forma scritta, buona fede, durata 1-3 mesi prorogabile di 30 giorni, avvertimento sulle spese, 15 giorni assegnati dal giudice, esclusione dei contratti professionisti-consumatori, equivalenza del ricorso all'Arbitro Assicurativo.",
+          "source_ref": "D.L. 132/2014, artt. 2, 3, 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: durata massima della mediazione di tre mesi. Aggiornamento: il testo vigente dal 25/1/2025 prevede sei mesi, prorogabili per accordo scritto (periodi fino a tre mesi).",
+          "source_ref": "D.Lgs. 28/2010, art. 6"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nel primo incontro il mediatore verifica la possibilità di proseguire e formula la proposta se le parti lo richiedono. Aggiornamento: il mediatore illustra funzione e modalità e si adopera per l'accordo; può formulare la proposta in mancanza di accordo e deve farlo su richiesta congiunta.",
+          "source_ref": "D.Lgs. 28/2010, artt. 8 e 11"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: lo svolgimento dell'incontro preliminare soddisfa la condizione di procedibilità. Aggiornamento: la condizione si considera avverata se il primo incontro si conclude senza accordo.",
+          "source_ref": "D.Lgs. 28/2010, art. 5, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il giudice può disporre la mediazione anche in appello «nelle materie in cui è previsto l'obbligo». Aggiornamento: la mediazione demandata dal giudice vale per ogni causa, fino all'udienza di rimessione in decisione.",
+          "source_ref": "D.Lgs. 28/2010, art. 5-quater"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: mediazione telematica a distanza. Aggiornamento: è ammessa con il consenso delle parti, con atti firmati digitalmente.",
+          "source_ref": "D.Lgs. 28/2010, art. 8-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la possibilità per Ordini forensi e Consigli degli Ordini di costituire organismi presso i Tribunali. Riferimento normativo da indicare (non verificato nel testo dell'art. 16; possibile art. 18).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: negoziazione obbligatoria per le somme fino a 50.000 euro. Aggiornamento: esclusi i contratti tra professionisti e consumatori e le materie a mediazione obbligatoria.",
+          "source_ref": "D.L. 132/2014, art. 3, c. 1"
+        }
+      ]
+    },
+    {
+      "title": "Gli ADR nel settore finanziario: dalla Camera CONSOB all'ACF",
+      "source_files": [
+        "corso totale/Sistemi alternativi di risoluzione delle controversie.pdf",
+        "Corso ivass 30 ore/.../Sistemi alternativi di risoluzione delle liti/Sistemi alternativi di risoluzione delle controversie terza parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Sistemi alternativi di risoluzione delle controversie",
+          "title": "Gli ADR nel settore finanziario: dalla Camera CONSOB all'ACF",
+          "goals": [
+            "Distinguere negoziazione assistita e mediazione",
+            "Conoscere le norme che hanno creato gli ADR finanziari",
+            "Sapere come funzionava la Camera CONSOB e che cosa l'ha sostituita"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Negoziazione assistita e mediazione",
+          "cols": [
+            {
+              "title": "Negoziazione assistita",
+              "items": [
+                "Procedura più snella e semplificata",
+                "Nessun terzo: solo le parti con i loro avvocati",
+                "Adesione più facile",
+                "Obbligatoria per RC auto e somme fino a 50.000 €"
+              ]
+            },
+            {
+              "title": "Mediazione",
+              "items": [
+                "Procedura davanti a un organismo",
+                "C'è un mediatore terzo e imparziale",
+                "Il mediatore può formulare una proposta",
+                "Obbligatoria per i contratti assicurativi, bancari e finanziari"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Come sono nati gli ADR finanziari",
+          "items": [
+            {
+              "value": "2005",
+              "text": "la Legge 262 delega il Governo a creare conciliazione e arbitrato presso la CONSOB e introduce l'art. 128-bis TUB",
+              "ref": "L. 28.12.2005, n. 262"
+            },
+            {
+              "value": "2007",
+              "text": "il D.Lgs. 164 inserisce nel TUF l'art. 32-ter: conciliazione e arbitrato per le liti tra investitori e intermediari",
+              "ref": "D.Lgs. 17.9.2007, n. 164"
+            },
+            {
+              "value": "2010",
+              "text": "il D.Lgs. 28 rende obbligatoria la mediazione prima della causa sui contratti bancari e finanziari",
+              "ref": "D.Lgs. 4.3.2010, n. 28"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Due grandi famiglie di controversie",
+          "left": {
+            "title": "Servizi di investimento e accessori",
+            "items": [
+              "Negoziazione e collocamento di titoli",
+              "Consulenza in materia di investimenti",
+              "Gestione di patrimoni",
+              "Oggi: Arbitro per le Controversie Finanziarie (CONSOB)"
+            ]
+          },
+          "right": {
+            "title": "Servizi bancari e finanziari",
+            "items": [
+              "Conti correnti e mutui",
+              "Carte e servizi di pagamento",
+              "Segnalazioni alla Centrale dei Rischi",
+              "Oggi: Arbitro Bancario Finanziario (Banca d'Italia)"
+            ]
+          },
+          "note": "La distinzione decide a quale organismo rivolgersi.",
+          "noteRef": "Materiale originale; Banca d'Italia, ABF"
+        },
+        {
+          "layout": "concept",
+          "title": "La Camera di Conciliazione e Arbitrato",
+          "key": "La Camera presso la CONSOB, operativa dal 2008, era un sistema di risoluzione delle controversie istituito per garantire la fiducia nel sistema finanziario, in nome di trasparenza e correttezza nei rapporti con la clientela.",
+          "body": "Non aveva personalità giuridica, perché istituita presso un'autorità indipendente, e usava le strutture messe a disposizione dalla CONSOB per funzionare e gestire le procedure.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa faceva la Camera",
+          "items": [
+            {
+              "text": "Funzioni di segreteria"
+            },
+            {
+              "text": "Verifica della regolarità formale degli atti depositati per avviare i procedimenti"
+            },
+            {
+              "text": "Controllo che le procedure si svolgessero correttamente, senza entrare nel merito delle liti"
+            },
+            {
+              "text": "Tenuta degli elenchi di conciliatori e arbitri, i professionisti che gestivano le procedure"
+            },
+            {
+              "text": "Promozione dello strumento stragiudiziale e corsi di formazione per conciliatori e arbitri"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Com'era composta",
+          "key": "La Camera era formata da tre persone nominate tra i dipendenti CONSOB di grado direttivo superiore.",
+          "body": "Il suo compito era amministrare le procedure di conciliazione e arbitrato e garantirne l'efficienza. Non decideva le liti: lo facevano i conciliatori e gli arbitri iscritti nei suoi elenchi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "La procedura di conciliazione",
+          "steps": [
+            {
+              "label": "Reclamo",
+              "text": "Prima un reclamo all'intermediario, poi il modulo online sul sito CONSOB."
+            },
+            {
+              "label": "Adesione",
+              "text": "La Camera propone all'intermediario di aderire. Se accetta, nomina un conciliatore."
+            },
+            {
+              "label": "Avvio",
+              "text": "Se il conciliatore accetta l'incarico, la procedura comincia."
+            },
+            {
+              "label": "Esito",
+              "text": "Accordo a verbale, oppure proposta del conciliatore, libera da accettare."
+            }
+          ],
+          "ref": "Materiale originale: durata massima 60 giorni, prorogabili di altri 60"
+        },
+        {
+          "layout": "concept",
+          "title": "La procedura arbitrale",
+          "key": "Richiedeva l'accordo delle parti, ma non cercava una soluzione consensuale: l'arbitro giudicava secondo norme di diritto, con le regole del codice di procedura civile.",
+          "body": "Si svolgeva presso gli uffici della Camera. Decideva un arbitro unico o, in casi particolari, un collegio. Gli arbitri li sceglievano le parti o, senza accordo, la Camera dal suo elenco. Compensi e spese seguivano il principio della soccombenza: paga chi perde.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Arbitrato ordinario e semplificato",
+          "cols": [
+            {
+              "title": "Ordinario",
+              "items": [
+                "Arbitro unico o collegio",
+                "Può assumere mezzi di prova",
+                "Può disporre una consulenza tecnica d'ufficio",
+                "Può pronunciare un lodo non definitivo o parziale",
+                "In questi casi può prorogare di 120 giorni il termine per decidere"
+              ]
+            },
+            {
+              "title": "Semplificato",
+              "items": [
+                "Più rapido, economico e snello",
+                "Per i casi meno complessi",
+                "Solo per il ristoro del danno patrimoniale",
+                "Sempre un arbitro unico, mai il collegio",
+                "Lodo sottoposto alla CONSOB per il visto di regolarità formale"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Aggiornamento",
+          "title": "Oggi c'è l'Arbitro per le Controversie Finanziarie",
+          "lead": "Con la delibera n. 19602 del 4 maggio 2016 la CONSOB ha istituito l'ACF, che ha preso il posto della Camera di Conciliazione e Arbitrato.",
+          "facts": [
+            {
+              "label": "Per chi",
+              "text": "Investitori che contestano a banche, SIM e altri intermediari violazioni di informazione, diligenza, correttezza e trasparenza."
+            },
+            {
+              "label": "Fino a",
+              "text": "500.000 euro di richiesta."
+            },
+            {
+              "label": "Costo",
+              "text": "Gratuito per l'investitore. L'adesione è obbligatoria per gli intermediari."
+            },
+            {
+              "label": "Tempi",
+              "text": "Decisione entro 90 giorni dal completamento del fascicolo. Ricorso online."
+            },
+            {
+              "label": "Esito",
+              "text": "Non vincola l'investitore, che può sempre andare dal giudice. L'inadempimento dell'intermediario è reso pubblico."
+            }
+          ],
+          "ref": "CONSOB, comunicato 16 maggio 2016"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente della tua agenzia, che ha anche un conto in banca, ti racconta di aver perso molto su obbligazioni consigliate dalla banca. Ha già scritto un reclamo, senza ottenere risposta. Ti chiede a chi può rivolgersi senza fare subito causa.",
+          "questions": [
+            "La lite riguarda un servizio bancario o un servizio di investimento?",
+            "Quale organismo è competente oggi?"
+          ],
+          "solution": "Consulenza e collocamento di titoli sono servizi di investimento. L'organismo competente è l'Arbitro per le Controversie Finanziarie presso la CONSOB, gratuito, fino a 500.000 euro, dopo il reclamo all'intermediario. Non è materia assicurativa: limitati a indicare la strada, senza consigliare sul merito."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa distingue la negoziazione assistita dalla mediazione?",
+          "options": [
+            "Nella negoziazione decide un arbitro",
+            "Nella negoziazione non c'è un terzo: le parti trattano con i loro avvocati",
+            "La negoziazione si svolge sempre davanti al giudice",
+            "La negoziazione è possibile solo per i contratti bancari"
+          ],
+          "answer": 1,
+          "explanation": "La negoziazione è più snella perché non c'è un mediatore: le parti, assistite dagli avvocati, cercano direttamente l'accordo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nell'arbitrato presso la Camera CONSOB, come si ripartivano compensi degli arbitri e spese di difesa?",
+          "options": [
+            "Sempre a metà tra le parti",
+            "Sempre a carico dell'intermediario",
+            "Secondo il principio della soccombenza",
+            "A carico della CONSOB"
+          ],
+          "answer": 2,
+          "explanation": "Valeva il principio della soccombenza: chi perde paga. Oggi, con l'ACF, la procedura è gratuita per l'investitore."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Nessun terzo",
+              "text": "nella negoziazione assistita, a differenza della mediazione"
+            },
+            {
+              "value": "2005 · 2007 · 2010",
+              "text": "L. 262, art. 32-ter TUF, D.Lgs. 28"
+            },
+            {
+              "value": "60 + 60",
+              "text": "giorni di durata della conciliazione presso la Camera"
+            },
+            {
+              "value": "120",
+              "text": "giorni di proroga possibile nell'arbitrato ordinario"
+            },
+            {
+              "value": "ACF",
+              "text": "dal 2016 sostituisce la Camera: gratuito, fino a 500.000 €"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione chiudiamo il confronto tra negoziazione assistita e mediazione e poi allarghiamo lo sguardo al settore finanziario e bancario, che ha sviluppato propri sistemi di risoluzione delle controversie. Per un intermediario assicurativo non sono strumenti lontani: molti clienti hanno anche prodotti bancari e di investimento, spesso venduti negli stessi sportelli, e sapere a chi si rivolgono è parte di una buona assistenza.\n\nPartiamo dalle differenze. La negoziazione assistita ha una procedura più snella e semplificata, perché non si ricorre a un soggetto terzo come il mediatore: ci sono solo le parti, ciascuna con il proprio avvocato. Inoltre si fonda su una modalità di adesione più facile per i soggetti interessati: basta rispondere a un invito. La mediazione invece si svolge davanti a un organismo, con un mediatore terzo e imparziale che può anche formulare una proposta. Ricorda anche l'ambito: la negoziazione è obbligatoria per l'RC auto e per le somme fino a cinquantamila euro, la mediazione per i contratti assicurativi, bancari e finanziari.\n\nCome sono nati gli ADR finanziari? Il percorso parte dalla cosiddetta legge sul risparmio, la Legge 262 del 28 dicembre 2005, che ha delegato il Governo a predisporre una procedura di conciliazione e arbitrato davanti alla CONSOB. La stessa legge ha introdotto l'articolo 128-bis del Testo unico bancario, da cui nascerà l'Arbitro Bancario Finanziario. Poi il decreto legislativo 164 del 17 settembre 2007 ha inserito nel Testo unico della finanza l'articolo 32-ter, che prevede il ricorso a procedure di conciliazione e arbitrato per risolvere fuori dal processo le controversie tra investitori e soggetti abilitati. Infine il decreto legislativo 28 del 4 marzo 2010 ha stabilito che chi vuole iniziare una causa civile sui contratti bancari e finanziari deve prima ricorrere alla mediazione. Ancora oggi quel decreto riconosce che le procedure dell'articolo 128-bis del Testo unico bancario e dell'articolo 32-ter del Testo unico della finanza possono essere usate al posto della mediazione per soddisfare la condizione di procedibilità.\n\nNel sistema finanziario i sistemi stragiudiziali si dividono in due grandi famiglie, a seconda del tipo di lite tra intermediari e clienti. Da una parte le controversie sui servizi di investimento e accessori: negoziazione e collocamento di titoli, consulenza, gestione di patrimoni. Dall'altra le controversie sui servizi bancari e finanziari: conti correnti, mutui, carte e servizi di pagamento, segnalazioni alla Centrale dei Rischi. Oggi le prime vanno all'Arbitro per le Controversie Finanziarie presso la CONSOB, le seconde all'Arbitro Bancario Finanziario, che vedremo nella prossima lezione.\n\nIl materiale del corso dedica ampio spazio alla Camera di Conciliazione e Arbitrato presso la CONSOB, che chiameremo semplicemente Camera. Era un sistema di risoluzione delle controversie operativo dal 2008, istituito per garantire la fiducia nel sistema finanziario, richiamando i principi di trasparenza e correttezza nei rapporti con la clientela. La Camera non aveva personalità giuridica, perché era istituita presso un'autorità indipendente, e per funzionare e gestire le procedure di conciliazione e arbitrato doveva usare le strutture messe a disposizione dalla CONSOB.\n\nChe cosa faceva? Svolgeva essenzialmente funzioni di segreteria; verificava la regolarità formale degli atti depositati per avviare i procedimenti; e controllava che le procedure si svolgessero correttamente, senza entrare nel merito delle controversie. Era formata da tre persone, nominate tra i dipendenti della CONSOB di grado direttivo superiore, con il compito di amministrare le procedure e garantirne l'efficienza, tenere gli elenchi dei conciliatori e degli arbitri, cioè dei professionisti che gestivano materialmente le procedure, promuovere la diffusione e la conoscenza dello strumento stragiudiziale presso il pubblico e organizzare corsi di formazione e aggiornamento per conciliatori e arbitri.\n\nLa procedura di conciliazione si attivava solo dopo un reclamo all'intermediario. L'investitore compilava un modulo online sul sito della CONSOB. La Camera proponeva all'intermediario di aderire al tentativo di conciliazione; se l'intermediario accettava, la Camera nominava un conciliatore, e se il conciliatore accettava l'incarico la procedura iniziava. Se la conciliazione riusciva, si redigeva un verbale con i contenuti dell'accordo; altrimenti il conciliatore formulava una sua proposta, che le parti erano libere di accettare o meno. La durata complessiva non poteva superare 60 giorni, prorogabili al massimo di altri 60.\n\nDiversa la procedura arbitrale. Anche qui serviva l'accordo delle parti per avviarla, ma lo scopo non era trovare una soluzione consensuale: l'arbitro era chiamato a giudicare secondo norme di diritto, seguendo le regole del codice di procedura civile. Il procedimento si svolgeva presso gli uffici della Camera, ospitata dalla CONSOB, e l'organo che decideva poteva essere un arbitro unico o, in casi particolari, un collegio. Gli arbitri erano scelti dalle parti o, in mancanza di accordo, dalla Camera tra gli iscritti nel suo elenco. Quanto dovuto agli arbitri e le spese di difesa erano ripartiti secondo il principio della soccombenza, cioè a carico di chi perde.\n\nL'arbitrato poteva essere ordinario o semplificato. Nell'arbitrato ordinario l'arbitro o il collegio potevano disporre l'assunzione di mezzi di prova, disporre una consulenza tecnica d'ufficio, pronunciare un lodo non definitivo o parziale e, in questi casi, prorogare di 120 giorni il termine per la decisione. L'arbitrato semplificato era più veloce, più economico e più snello, adatto ai casi meno complessi e limitato alle richieste di ristoro del danno patrimoniale. Decideva sempre un solo arbitro, mai un collegio, e il lodo veniva sottoposto alla CONSOB per il visto di regolarità formale.\n\nQuesto è il quadro del materiale originale. Oggi però la situazione è cambiata. Con la delibera numero 19602 del 4 maggio 2016 la CONSOB ha istituito l'Arbitro per le Controversie Finanziarie, ACF, destinato a sostituire la Camera di Conciliazione e Arbitrato. L'ACF decide i ricorsi degli investitori che contestano agli intermediari la violazione degli obblighi di informazione, diligenza, correttezza e trasparenza. Si possono chiedere somme fino a 500.000 euro, l'accesso è gratuito per l'investitore e l'adesione è obbligatoria per gli intermediari. La decisione arriva entro 90 giorni dal completamento del fascicolo e il ricorso si presenta online. Il modello è quello dell'Arbitro Bancario Finanziario: la decisione non vincola l'investitore, che può sempre andare dal giudice, e se l'intermediario non la rispetta l'inadempimento viene reso pubblico. Il collegio è composto da un presidente e due membri nominati dalla CONSOB, più un membro designato dal Consiglio nazionale dei consumatori e degli utenti e uno dalle associazioni degli intermediari.\n\nUn caso pratico. Un cliente della tua agenzia, che ha anche un conto in banca, ti dice di aver perso molto su obbligazioni che la banca gli aveva consigliato. Ha già fatto reclamo, senza risposta, e ti chiede a chi rivolgersi senza fare subito causa. La lite riguarda la consulenza e il collocamento di titoli, cioè servizi di investimento. L'organismo competente è quindi l'Arbitro per le Controversie Finanziarie presso la CONSOB, gratuito e fino a 500.000 euro, dopo il reclamo all'intermediario. Non è materia assicurativa: il tuo ruolo è indicargli la strada corretta, senza esprimerti sul merito della vicenda.\n\nRiepiloghiamo. La negoziazione assistita si distingue dalla mediazione perché non c'è un terzo. Gli ADR finanziari nascono dalla Legge 262 del 2005, dall'articolo 32-ter del Testo unico della finanza del 2007 e dal decreto 28 del 2010. La Camera CONSOB gestiva conciliazioni in 60 giorni più 60 e arbitrati ordinari o semplificati. Oggi al suo posto c'è l'ACF, gratuito per l'investitore e competente fino a 500.000 euro.",
+      "sources": [
+        {
+          "title": "CONSOB, Nuovo organismo di risoluzione extragiudiziale delle controversie (16 maggio 2016)",
+          "url": "https://www.consob.it/web/area-pubblica/dettaglio-news/-/asset_publisher/qjVSo44Lk1fI/content/nuovo-organismo-risoluzione-extragiudiziale-controversie/10194"
+        },
+        {
+          "title": "ACF - Arbitro per le Controversie Finanziarie",
+          "url": "https://www.acf.consob.it/"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 5",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art5"
+        },
+        {
+          "title": "Banca d'Italia, Arbitro Bancario Finanziario",
+          "url": "https://www.bancaditalia.it/compiti/tutela-educazione/abf/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi concreti delle due famiglie di controversie e organismo oggi competente (ACF per gli investimenti, ABF per i servizi bancari).",
+          "source_ref": "Banca d'Italia, pagina ABF; sito ACF"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Le procedure dell'art. 128-bis TUB e dell'art. 32-ter TUF valgono ancora come alternativa alla mediazione obbligatoria.",
+          "source_ref": "D.Lgs. 28/2010, art. 5, c. 3, lett. a) e b)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Arbitro per le Controversie Finanziarie: istituzione con delibera 19602/2016 in sostituzione della Camera, limite 500.000 euro, gratuità, adesione obbligatoria, 90 giorni, decisione non vincolante, pubblicità dell'inadempimento, composizione del collegio.",
+          "source_ref": "CONSOB, comunicato del 16 maggio 2016"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'intera descrizione della Camera di Conciliazione e Arbitrato presso la CONSOB (funzioni, composizione, conciliazione in 60+60 giorni, arbitrato ordinario e semplificato). Aggiornamento: la Camera è stata sostituita dall'ACF; la lezione la presenta al passato.",
+          "source_ref": "CONSOB, comunicato del 16 maggio 2016"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: l'art. 32-ter TUF «dispone il ricorso obbligatorio» a conciliazione e arbitrato. Testo vigente dell'art. 32-ter non verificato: da controllare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "ABF, conciliazione paritetica e Arbitro Assicurativo",
+      "source_files": [
+        "corso totale/Sistemi alternativi di risoluzione delle controversie.pdf",
+        "Corso ivass 30 ore/.../Sistemi alternativi di risoluzione delle liti/Sistemi alternativi di risoluzione delle controversie quarta parte.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Sistemi alternativi di risoluzione delle controversie",
+          "title": "ABF, conciliazione paritetica e Arbitro Assicurativo",
+          "goals": [
+            "Conoscere competenza e procedura dell'Arbitro Bancario Finanziario",
+            "Saper spiegare la conciliazione paritetica RC auto e FIN-NET",
+            "Indicare al cliente quando può ricorrere all'Arbitro Assicurativo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'Arbitro Bancario Finanziario",
+          "key": "L'ABF è uno strumento di natura decisoria per le controversie tra clienti, banche e altri intermediari finanziari. È stato istituito in base all'art. 128-bis del Testo unico bancario, introdotto dalla legge sul risparmio (L. 262/2005).",
+          "body": "La fonte collegava l'ABF al limite del 1° gennaio 2009. Oggi la regola è un'altra: l'ABF non decide su operazioni o comportamenti anteriori al sesto anno prima del ricorso.",
+          "ref": "Materiale originale; Banca d'Italia, ABF"
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi deve aderire all'ABF",
+          "items": [
+            {
+              "text": "Le banche"
+            },
+            {
+              "text": "Gli intermediari finanziari degli elenchi degli artt. 106 e 107 TUB che operano con il pubblico"
+            },
+            {
+              "text": "Gli istituti di moneta elettronica"
+            },
+            {
+              "text": "Poste Italiane per l'attività di bancoposta"
+            },
+            {
+              "text": "Banche e intermediari esteri che operano in Italia con il pubblico in servizi del titolo VI TUB"
+            },
+            {
+              "text": "L'adesione è condizione per esercitare l'attività bancaria e finanziaria",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Su che cosa decide l'ABF",
+          "left": {
+            "title": "Sì",
+            "items": [
+              "Operazioni e servizi bancari e finanziari: conti, mutui, carte, Centrale dei Rischi",
+              "Somme fino a 200.000 euro (la fonte indicava 100.000)",
+              "Senza limiti di importo, se si chiede solo di accertare diritti, obblighi e facoltà"
+            ]
+          },
+          "right": {
+            "title": "No",
+            "items": [
+              "Servizi di investimento e gestione collettiva del risparmio: vanno all'ACF",
+              "Liti già portate davanti a un giudice, un arbitro o un organismo di conciliazione",
+              "Fatti anteriori al sesto anno prima del ricorso"
+            ]
+          },
+          "note": "L'ABF fa parte della rete europea FIN-NET.",
+          "noteRef": "Banca d'Italia, ABF; arbitrobancariofinanziario.it"
+        },
+        {
+          "layout": "facts",
+          "title": "Come è organizzato",
+          "lead": "Il materiale originale parlava di tre Collegi; oggi sono sette.",
+          "facts": [
+            {
+              "label": "Collegi",
+              "text": "Bari, Bologna, Milano, Napoli, Palermo, Roma e Torino."
+            },
+            {
+              "label": "Membri",
+              "text": "Cinque per Collegio, con altrettanti supplenti."
+            },
+            {
+              "label": "Banca d'Italia",
+              "text": "Sceglie tre membri su cinque, compreso il Presidente."
+            },
+            {
+              "label": "Le parti",
+              "text": "Un membro è designato dalle associazioni dei clienti, uno da quelle degli intermediari."
+            },
+            {
+              "label": "Segreteria",
+              "text": "Una segreteria tecnica della Banca d'Italia istruisce i ricorsi."
+            }
+          ],
+          "ref": "Materiale originale; Banca d'Italia, ABF"
+        },
+        {
+          "layout": "steps",
+          "title": "Il ricorso all'ABF",
+          "steps": [
+            {
+              "label": "Reclamo",
+              "text": "Reclamo scritto all'intermediario: è condizione di procedibilità e la buona riuscita dipende molto da questa fase."
+            },
+            {
+              "label": "Attesa",
+              "text": "60 giorni per la risposta (15 giornate lavorative per i servizi di pagamento). Ricorso entro 12 mesi dal reclamo."
+            },
+            {
+              "label": "Ricorso",
+              "text": "Online: si espongono i fatti, la richiesta e i documenti. Contributo di 20 euro, rimborsato se accolto."
+            },
+            {
+              "label": "Contraddittorio",
+              "text": "L'intermediario invia controdeduzioni e fascicolo del reclamo entro 30 giorni (45 se aderisce a un'associazione)."
+            },
+            {
+              "label": "Decisione",
+              "text": "Il Collegio competente per territorio decide."
+            }
+          ],
+          "ref": "arbitrobancariofinanziario.it; Banca d'Italia"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi della decisione ABF",
+          "items": [
+            {
+              "value": "60 giorni",
+              "text": "secondo la fonte, dal contraddittorio alla pronuncia del Collegio",
+              "ref": "Materiale originale"
+            },
+            {
+              "value": "90 giorni",
+              "text": "oggi, dal completamento del fascicolo, prorogabili fino a 90 nei casi complessi",
+              "ref": "arbitrobancariofinanziario.it"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per l'intermediario per adempiere dopo la decisione motivata",
+              "ref": "arbitrobancariofinanziario.it"
+            },
+            {
+              "value": "6 mesi",
+              "text": "per riproporre il ricorso se un tentativo di conciliazione fallisce",
+              "ref": "Materiale originale"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Se l'intermediario non adempie",
+          "key": "La decisione dell'ABF non è vincolante: chi non è soddisfatto può andare dal giudice. Ma l'intermediario che non la rispetta è pubblicato come inadempiente per 5 anni sul sito ABF e per 6 mesi sul proprio sito.",
+          "body": "È una sanzione reputazionale. Lo stesso meccanismo è stato ripreso dall'ACF e dall'Arbitro Assicurativo.",
+          "ref": "arbitrobancariofinanziario.it; Banca d'Italia"
+        },
+        {
+          "layout": "table",
+          "title": "Gli altri ADR del settore finanziario",
+          "head": [
+            "Organismo",
+            "Ambito"
+          ],
+          "rows": [
+            [
+              "Ombudsman o Giurì Bancario",
+              "Controversie su servizi e attività di investimento."
+            ],
+            [
+              "Organismo di conciliazione bancaria",
+              "Controversie in materia bancaria, finanziaria e societaria."
+            ],
+            [
+              "Camera arbitrale",
+              "Controversie tra intermediari bancari e finanziari, e tra questi e la clientela."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La conciliazione paritetica RC auto",
+          "key": "Nasce da un accordo tra l'ANIA e alcune Associazioni dei consumatori per risolvere le liti sui sinistri RC auto senza andare dal giudice. Consumatore e impresa si confrontano tramite i propri rappresentanti, senza un terzo.",
+          "body": "Vale per i sinistri con richiesta di risarcimento fino a 15.000 euro. È gratuita per il consumatore, salvo l'eventuale iscrizione all'associazione a cui dà mandato.",
+          "ref": "Materiale originale; IVASS, scheda conciliazione paritetica"
+        },
+        {
+          "layout": "steps",
+          "title": "Come funziona la paritetica",
+          "steps": [
+            {
+              "label": "Presupposto",
+              "text": "Richiesta di risarcimento senza risposta nei termini, diniego dell'offerta o offerta non accettata, se non come acconto."
+            },
+            {
+              "label": "Domanda",
+              "text": "Modulo a un'associazione aderente, con richiesta di risarcimento, modulo CAI ed eventuale risposta. Anche online."
+            },
+            {
+              "label": "Commissione",
+              "text": "Un rappresentante dell'impresa e uno dell'associazione, che prima valuta se la richiesta è fondata."
+            },
+            {
+              "label": "30 giorni",
+              "text": "Verbale di conciliazione, con efficacia di accordo transattivo, oppure verbale di mancato accordo."
+            }
+          ],
+          "ref": "IVASS, scheda conciliazione paritetica"
+        },
+        {
+          "layout": "concept",
+          "title": "Le liti con l'estero: FIN-NET",
+          "key": "FIN-NET è la rete creata dalla Commissione europea nel 2001 che collega gli organismi nazionali di risoluzione stragiudiziale delle liti su servizi finanziari, assicurazioni comprese, nello Spazio economico europeo.",
+          "body": "Chi abita in Italia e ha una lite con un'impresa di un altro Paese può rivolgersi all'IVASS, che entro 30 giorni inoltra il reclamo al sistema estero competente, oppure direttamente a quel sistema.",
+          "ref": "Commissione europea, About FIN-NET; Reg. ISVAP 24/2008, art. 7"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "L'Arbitro Assicurativo",
+          "lead": "Dal 15 gennaio 2026 anche il settore assicurativo ha il suo arbitro: un organismo indipendente che decide le liti tra clienti e imprese o intermediari.",
+          "facts": [
+            {
+              "label": "Chi",
+              "text": "Contraente, assicurato, beneficiario, danneggiato in azione diretta, aderente a una polizza collettiva."
+            },
+            {
+              "label": "Prima",
+              "text": "Un reclamo scritto all'impresa o all'intermediario, sugli stessi fatti. Il reclamo all'IVASS non basta."
+            },
+            {
+              "label": "Entro",
+              "text": "12 mesi dal reclamo, per fatti avvenuti o conosciuti non oltre tre anni prima."
+            },
+            {
+              "label": "Limiti",
+              "text": "TCM 300.000 €, altre vita 150.000 €, danni 25.000 €, azione diretta 2.500 €."
+            },
+            {
+              "label": "Come",
+              "text": "Solo online, senza avvocato, con 20 euro restituiti se il ricorso è accolto."
+            },
+            {
+              "label": "Esito",
+              "text": "Decisione non vincolante; l'inadempimento è pubblicato. Il ricorso vale come mediazione o negoziazione."
+            }
+          ],
+          "ref": "Provv. IVASS 160/2025; FAQ arbitroassicurativo.org"
+        },
+        {
+          "layout": "table",
+          "title": "Quale strada per quale lite",
+          "head": [
+            "Lite",
+            "Strumento",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "A · Polizza vita o danni",
+              "Mediazione, oppure Arbitro Assicurativo",
+              "Prima della causa"
+            ],
+            [
+              "B · Sinistro RC auto",
+              "Negoziazione assistita, conciliazione paritetica, Arbitro Assicurativo",
+              "Paritetica fino a 15.000 €, Arbitro fino a 2.500 €"
+            ],
+            [
+              "C · Conto, mutuo, carta",
+              "Arbitro Bancario Finanziario",
+              "Fino a 200.000 €"
+            ],
+            [
+              "D · Investimenti",
+              "Arbitro per le Controversie Finanziarie",
+              "Fino a 500.000 €"
+            ],
+            [
+              "E · Impresa estera",
+              "IVASS o sistema estero, tramite FIN-NET",
+              "Inoltro entro 30 giorni"
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Sei un broker. Un cliente ha una polizza vita rivalutabile e contesta all'impresa un riscatto liquidato 8.000 euro meno del previsto. Ha già inviato un reclamo scritto all'impresa due mesi fa e ha ricevuto una risposta negativa.",
+          "questions": [
+            "Può rivolgersi all'Arbitro Assicurativo?",
+            "Che cosa cambia se poi vuole fare causa?"
+          ],
+          "solution": "Sì: c'è il reclamo preventivo, è entro 12 mesi e la richiesta rientra nel limite di 150.000 euro per le polizze vita diverse dalla TCM. Ricorso online con 20 euro. Se la decisione non lo soddisfa può andare dal giudice: il ricorso all'Arbitro vale come tentativo di mediazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente vuole ricorrere all'Arbitro Assicurativo. Che cosa deve aver fatto prima?",
+          "options": [
+            "Un reclamo all'IVASS",
+            "Un reclamo scritto all'impresa o all'intermediario sugli stessi fatti",
+            "Una mediazione obbligatoria",
+            "Una causa in tribunale"
+          ],
+          "answer": 1,
+          "explanation": "Serve un reclamo scritto all'impresa o all'intermediario sugli stessi fatti, da non più di 12 mesi. Il reclamo all'IVASS non vale come reclamo preliminare."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per quali sinistri si può usare la conciliazione paritetica ANIA-consumatori?",
+          "options": [
+            "Sinistri RC auto con richiesta fino a 15.000 euro",
+            "Tutti i sinistri danni senza limiti",
+            "Solo le polizze vita",
+            "Solo le liti con imprese estere"
+          ],
+          "answer": 0,
+          "explanation": "La paritetica riguarda i sinistri RC auto con richiesta di risarcimento non superiore a 15.000 euro e dura al massimo 30 giorni."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "200.000 €",
+              "text": "limite ABF per le somme di denaro; 7 Collegi"
+            },
+            {
+              "value": "15.000 €",
+              "text": "limite della conciliazione paritetica RC auto, in 30 giorni"
+            },
+            {
+              "value": "2001",
+              "text": "nasce FIN-NET; l'IVASS inoltra i reclami esteri entro 30 giorni"
+            },
+            {
+              "value": "15/01/2026",
+              "text": "parte l'Arbitro Assicurativo"
+            },
+            {
+              "value": "12 mesi",
+              "text": "dal reclamo per ricorrere all'ABF e all'Arbitro Assicurativo"
+            }
+          ]
+        }
+      ],
+      "narration": "Siamo all'ultima lezione sui sistemi alternativi. Vediamo l'Arbitro Bancario Finanziario, gli altri ADR del settore finanziario e poi torniamo a casa nostra, nel settore assicurativo: la conciliazione paritetica per l'RC auto, la rete FIN-NET per le liti con l'estero e la grande novità del 2026, l'Arbitro Assicurativo.\n\nL'Arbitro Bancario Finanziario, ABF, è uno strumento di risoluzione di natura decisoria: non cerca soltanto un accordo, ma decide chi ha ragione. Riguarda le controversie tra i clienti e le banche o gli altri intermediari finanziari. È stato istituito in base all'articolo 128-bis del Testo unico bancario, introdotto dalla legge sul risparmio, la 262 del 2005. Il materiale del corso faceva riferimento alla data del 1° gennaio 2009, che era il limite storico delle operazioni esaminabili: l'ABF non decideva su operazioni anteriori a quella data. Oggi la regola è cambiata: l'ABF non può esaminare operazioni o comportamenti anteriori al sesto anno precedente la presentazione del ricorso.\n\nChi deve aderire all'ABF? Le banche; gli intermediari finanziari iscritti negli elenchi previsti dagli articoli 106 e 107 del Testo unico bancario che operano con il pubblico; gli istituti di moneta elettronica; Poste Italiane per l'attività di bancoposta; e le banche e gli intermediari esteri che operano in Italia con il pubblico nei servizi disciplinati dal titolo sesto del Testo unico bancario. L'adesione è una condizione per poter esercitare l'attività bancaria e finanziaria.\n\nSu che cosa decide? Su tutte le controversie che riguardano operazioni e servizi bancari e finanziari: conti correnti, mutui, carte di pagamento, segnalazioni alla Centrale dei Rischi. Se si chiede una somma di denaro, il limite indicato dal materiale originale era di 100.000 euro; oggi è di 200.000 euro. Non ci sono limiti di importo se si chiede soltanto di accertare diritti, obblighi e facoltà. L'ABF non può invece decidere quando la lite riguarda servizi di investimento o il servizio di gestione collettiva del risparmio: queste vanno all'Arbitro per le Controversie Finanziarie della CONSOB. E non si può ricorrere all'ABF se la stessa lite è già davanti a un giudice, a un arbitro o a un organismo di conciliazione, salvo che la conciliazione sia fallita.\n\nL'organizzazione. Il materiale originale descriveva tre Collegi; oggi i Collegi sono sette: Bari, Bologna, Milano, Napoli, Palermo, Roma e Torino. Ciascun Collegio è composto da cinque membri effettivi e altrettanti supplenti. Tre dei cinque membri, compreso il Presidente, sono scelti dalla Banca d'Italia; uno è designato dalle associazioni che rappresentano i clienti e uno dagli organismi che rappresentano gli intermediari. Il lavoro istruttorio è svolto da una segreteria tecnica della Banca d'Italia.\n\nCome si arriva all'ABF? Il primo passo è sempre il reclamo all'intermediario, che è condizione di procedibilità. Il materiale del corso sottolinea un punto molto concreto: la buona riuscita del procedimento dipende in larga misura da come è stato fatto il reclamo. Un reclamo chiaro, documentato, con una richiesta precisa, prepara bene il ricorso. Oggi l'intermediario ha 60 giorni per rispondere, o 15 giornate lavorative per i servizi di pagamento, e il ricorso va presentato entro 12 mesi dal reclamo. Decorso il termine per la risposta, o ricevuta una risposta insoddisfacente, il cliente compila il ricorso, oggi online, esponendo la questione, precisando la richiesta e fornendo le informazioni e i documenti necessari. Il contributo è di 20 euro, rimborsato se il ricorso è accolto anche solo in parte. Il ricorso viene assegnato alla segreteria tecnica del Collegio territorialmente competente.\n\nSegue il contraddittorio. Il materiale originale spiegava che era il cliente a spedire all'intermediario copia del ricorso; oggi il ricorso è trasmesso tramite il portale. L'intermediario ha 30 giorni, oppure 45 se aderisce a un'associazione di categoria, per inviare le controdeduzioni, la documentazione utile e il fascicolo del reclamo. Il cliente può replicare una volta, entro 25 giorni, e l'intermediario controreplicare. Sulla base di questi elementi la segreteria prepara una relazione per il Collegio. Il materiale originale indicava 60 giorni per la pronuncia; oggi l'esito va comunicato entro 90 giorni dal completamento del fascicolo, con una proroga massima di altri 90 nei casi particolarmente complessi. Secondo il materiale originale, inoltre, il procedimento si interrompe se le parti tentano una conciliazione e, se il tentativo fallisce, il ricorso può essere riproposto entro sei mesi.\n\nE se l'intermediario non rispetta la decisione? La decisione dell'ABF non è vincolante: chi non è soddisfatto può rivolgersi al giudice. Ma se il ricorso è accolto, l'intermediario deve adempiere entro 30 giorni dalla decisione motivata. Se non lo fa, il suo nome viene pubblicato come inadempiente per cinque anni sul sito dell'ABF e per sei mesi sul suo stesso sito. È una sanzione reputazionale molto efficace, ripresa sia dall'ACF sia dall'Arbitro Assicurativo.\n\nIl materiale del corso ricorda poi altri tre ADR del settore finanziario. L'Ombudsman, detto anche Giurì Bancario, che opera nelle controversie su servizi e attività di investimento. L'Organismo di conciliazione bancaria, specializzato nelle controversie in materia bancaria, finanziaria e societaria. E la Camera arbitrale, specializzata nelle controversie tra intermediari bancari e finanziari, e tra questi e la clientela.\n\nVeniamo al settore assicurativo. La conciliazione paritetica nasce da un accordo tra l'ANIA, l'associazione delle imprese di assicurazione, e alcune associazioni dei consumatori, con l'obiettivo di facilitare la soluzione delle controversie tra imprese e clienti nell'RC auto e ridurre il contenzioso giudiziario. Il modello è particolare: consumatore e impresa si confrontano attraverso i propri rappresentanti, che dialogano direttamente, senza l'intervento di un terzo. Secondo la scheda dell'IVASS riguarda i sinistri RC auto con richiesta di risarcimento non superiore a 15.000 euro ed è gratuita per il consumatore, salvo l'eventuale quota di iscrizione all'associazione a cui conferisce il mandato.\n\nQuando si può attivare? Dopo aver presentato all'impresa una richiesta di risarcimento del danno, in tre casi: se il consumatore non ha ricevuto risposta nei termini di legge; se l'impresa ha negato l'offerta; oppure se il consumatore non ha accettato l'offerta di risarcimento, se non a titolo di acconto. Il materiale originale, in questo passaggio, parlava di negoziazione assistita, ma si riferiva chiaramente alla conciliazione paritetica. Il consumatore si rivolge a una delle associazioni aderenti con un modulo, allegando la richiesta di risarcimento, il modulo CAI e l'eventuale risposta dell'impresa; può farlo anche online. L'associazione valuta se la richiesta è fondata e, se sì, contatta l'impresa. Si forma una commissione di conciliazione con un rappresentante dell'impresa e uno dell'associazione. La durata massima è di 30 giorni. Se l'esito è positivo, si firma un verbale di conciliazione, sottoscritto dai membri della commissione previa autorizzazione scritta del richiedente, che ha efficacia di accordo transattivo; se è negativo, si redige un verbale di mancato accordo.\n\nPer le liti con imprese di altri Paesi c'è FIN-NET, la rete creata dalla Commissione europea nel 2001 che collega gli organismi nazionali di risoluzione stragiudiziale delle controversie sui servizi finanziari nello Spazio economico europeo. Ne fa parte anche l'ABF. Chi abita in Italia e ha una lite con un'impresa di assicurazione di un altro Paese può rivolgersi all'IVASS, che individua il sistema estero competente e gli inoltra il reclamo entro 30 giorni, oppure direttamente al sistema estero.\n\nE arriviamo alla novità più importante. Dal 15 gennaio 2026 è operativo l'Arbitro Assicurativo, avviato dall'IVASS con il Provvedimento 160 del 2025. Possono ricorrere il contraente, l'assicurato, il beneficiario delle polizze vita, il danneggiato che agisce direttamente contro l'impresa, ad esempio nell'RC auto, e chi aderisce a una polizza collettiva. Prima serve un reclamo scritto all'impresa o all'intermediario sugli stessi fatti, e il reclamo all'IVASS non basta. Il ricorso va presentato entro 12 mesi dal primo reclamo, per fatti avvenuti o conosciuti non oltre tre anni prima del reclamo. I limiti di valore sono 300.000 euro per le temporanee caso morte, 150.000 euro per le altre polizze vita, 25.000 euro per i rami danni e 2.500 euro per l'azione diretta del danneggiato. Il ricorso si presenta solo online, senza bisogno di un avvocato, con un contributo di 20 euro restituito se è accolto anche in parte. La decisione non è vincolante, ma l'inadempimento viene pubblicato. E, come abbiamo visto, il ricorso all'Arbitro vale come tentativo di mediazione per le liti sui contratti assicurativi e tiene luogo della negoziazione assistita.\n\nPer orientarti, tieni presente questa mappa. Lite su una polizza vita o danni: mediazione, oppure Arbitro Assicurativo. Sinistro RC auto: negoziazione assistita, conciliazione paritetica fino a 15.000 euro, oppure Arbitro Assicurativo fino a 2.500 euro. Conto, mutuo o carta: ABF. Investimenti: ACF. Impresa estera: IVASS o sistema estero, tramite FIN-NET.\n\nUn ultimo caso pratico. Sei un broker e un cliente con una polizza vita rivalutabile contesta un riscatto liquidato 8.000 euro meno del previsto. Ha già fatto reclamo scritto all'impresa due mesi fa e ha ricevuto una risposta negativa. Può ricorrere all'Arbitro Assicurativo: c'è il reclamo preventivo, siamo entro 12 mesi e la richiesta rientra nel limite di 150.000 euro. Se poi la decisione non lo soddisfa, può andare dal giudice, e il ricorso all'Arbitro vale come tentativo di mediazione.\n\nRiepiloghiamo. L'ABF decide fino a 200.000 euro, con sette Collegi, dopo un reclamo e entro 12 mesi. La conciliazione paritetica riguarda l'RC auto fino a 15.000 euro e dura al massimo 30 giorni. FIN-NET, nata nel 2001, aiuta nelle liti transfrontaliere. E dal 15 gennaio 2026 c'è l'Arbitro Assicurativo, a cui si accede entro 12 mesi da un reclamo scritto.",
+      "sources": [
+        {
+          "title": "Banca d'Italia, Arbitro Bancario Finanziario",
+          "url": "https://www.bancaditalia.it/compiti/tutela-educazione/abf/index.html"
+        },
+        {
+          "title": "ABF, Verifiche preliminari",
+          "url": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/"
+        },
+        {
+          "title": "ABF, Cosa accade dopo",
+          "url": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/cosa-accade-dopo/index.html"
+        },
+        {
+          "title": "Banca d'Italia, Economia per tutti: Arbitro Bancario Finanziario",
+          "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/index.html"
+        },
+        {
+          "title": "IVASS, R.C. auto: la conciliazione paritetica",
+          "url": "https://www.ivass.it/consumatori/rc-auto/sinistri/conciliazione_paritetica.pdf"
+        },
+        {
+          "title": "IVASS, Sistemi alternativi di risoluzione delle controversie assicurative (ADR), 13 novembre 2019",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/att-sem-conv/2019/13-11-iii-formazione/03_Paturzo_13_novembre.pdf"
+        },
+        {
+          "title": "Commissione europea, About FIN-NET",
+          "url": "https://finance.ec.europa.eu/consumer-finance-and-payments/retail-financial-services/financial-dispute-resolution-network-fin-net/about-fin-net_en"
+        },
+        {
+          "title": "Regolamento ISVAP n. 24 del 19 maggio 2008, testo coordinato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n24/Regolamento_ISVAP_24_del_19_maggio_2008.pdf"
+        },
+        {
+          "title": "IVASS, L'Arbitro Assicurativo sarà operativo dal 15 gennaio 2026",
+          "url": "https://www.ivass.it/media/avviso/operativita-aas/"
+        },
+        {
+          "title": "Arbitro Assicurativo, FAQ",
+          "url": "https://www.arbitroassicurativo.org/faq/index.html"
+        },
+        {
+          "title": "Normattiva, D.Lgs. 28/2010, art. 5",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-04;28~art5"
+        },
+        {
+          "title": "Normattiva, D.L. 132/2014, art. 3",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-09-12;132~art3"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "ABF: esclusione delle liti già davanti a giudice, arbitro o conciliazione; reclamo con 60 giorni di risposta (15 giornate lavorative per i pagamenti); ricorso entro 12 mesi; contributo 20 euro; controdeduzioni 30/45 giorni e repliche; adempimento entro 30 giorni; pubblicazione dell'inadempimento; decisione non vincolante; adesione a FIN-NET.",
+          "source_ref": "arbitrobancariofinanziario.it; Banca d'Italia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conciliazione paritetica: soglia di 15.000 euro, gratuità, domanda anche online, valutazione dell'associazione, verbale con efficacia di accordo transattivo o verbale di mancato accordo; accordo ANIA-consumatori del 2013.",
+          "source_ref": "IVASS, scheda conciliazione paritetica; IVASS, seminario 13/11/2019"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "FIN-NET: creata dalla Commissione europea nel 2001, rete degli organismi ADR finanziari del SEE; inoltro IVASS entro 30 giorni.",
+          "source_ref": "Commissione europea, About FIN-NET; Reg. ISVAP 24/2008, art. 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Arbitro Assicurativo, operativo dal 15 gennaio 2026: legittimati, reclamo preventivo, termini, limiti di valore, contributo, natura della decisione, equivalenza a mediazione e negoziazione assistita.",
+          "source_ref": "Provv. IVASS 160/2025; FAQ arbitroassicurativo.org; D.Lgs. 28/2010, art. 5, c. 3; D.L. 132/2014, art. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Mappa riepilogativa «quale strada per quale lite».",
+          "source_ref": "Sintesi delle fonti citate"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: ABF per operazioni «anteriori al 1° gennaio 2009». Aggiornamento: l'ABF non decide su operazioni o comportamenti anteriori al sesto anno precedente il ricorso.",
+          "source_ref": "Banca d'Italia, pagina ABF"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il limite di 100.000 euro. Aggiornamento: oggi 200.000 euro.",
+          "source_ref": "ABF, Verifiche preliminari"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i tre Collegi. Aggiornamento: oggi sono sette (Bari, Bologna, Milano, Napoli, Palermo, Roma, Torino).",
+          "source_ref": "Banca d'Italia, pagina ABF"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte: il cliente spedisce copia del ricorso all'intermediario; il Collegio decide in 60 giorni. Aggiornamento: ricorso tramite portale; esito entro 90 giorni dal completamento del fascicolo, prorogabile fino a 90.",
+          "source_ref": "ABF, Cosa accade dopo"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: interruzione del procedimento ABF per tentativo di conciliazione e riproposizione del ricorso entro 6 mesi. Non verificata sulle disposizioni vigenti: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte Ombudsman-Giurì Bancario, Organismo di conciliazione bancaria e Camera arbitrale. Possibile aggiornamento: l'Ombudsman-Giurì Bancario risulta non più attivo dopo l'avvio dell'ACF; dato non verificato su fonte ufficiale, da controllare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la frase sul ricorso alla «procedura di negoziazione assistita» nella conciliazione paritetica: si riferisce alla conciliazione paritetica, che è uno strumento diverso dalla negoziazione assistita del D.L. 132/2014.",
+          "source_ref": "IVASS, scheda conciliazione paritetica"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: verbale sottoscritto dai membri della Commissione previa autorizzazione scritta del richiedente. Riferimento da indicare (non presente nella scheda IVASS).",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}
