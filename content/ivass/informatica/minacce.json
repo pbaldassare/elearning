@@ -13,7 +13,9 @@
         "corso totale/Area informatica /Principali minacce informatiche 1 (Video).mp4",
         "corso totale/Area informatica /Principali minacce informatiche2  (Video).mp4",
         "corso totale/Area informatica /_Principali minacce informatiche3  (Video).mp4",
-        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4",
+        "transcripts/corso totale/Area informatica /Principali minacce informatiche 1 (Video).mp4.txt",
+        "transcripts/corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4.txt"
       ],
       "source_minutes": 22,
       "slides": [
@@ -357,7 +359,8 @@
       "title": "L'intercettazione delle comunicazioni",
       "source_files": [
         "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf",
-        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4",
+        "transcripts/corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4.txt"
       ],
       "source_minutes": 17,
       "slides": [
@@ -993,7 +996,8 @@
         "corso totale/Area informatica /Principali minacce informatiche (1).pdf.pdf",
         "corso totale/Area informatica /Principali minacce informatiche 1 (Video).mp4",
         "corso totale/Area informatica /Principali minacce informatiche2  (Video).mp4",
-        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4"
+        "corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4",
+        "transcripts/corso totale/Area informatica /Principali minacce informatiche4  (Video).mp4.txt"
       ],
       "source_minutes": 20,
       "slides": [
