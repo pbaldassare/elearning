@@ -1,0 +1,1189 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Marketing e tecniche di comunicazione",
+  "topic_order": 5,
+  "scope": "core",
+  "source_minutes": 67,
+  "lesson_offset": 50,
+  "lessons": [
+    {
+      "title": "Social engineering: l'arte dell'inganno e le fasi dell'attacco",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social engineering.pdf.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Social engineering: l'arte dell'inganno",
+          "goals": [
+            "Capire che cos'è l'ingegneria sociale e da dove nasce",
+            "Riconoscere le 4 fasi di un attacco",
+            "Individuare i tratti psicologici su cui fa leva l'attaccante"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è l'ingegneria sociale",
+          "key": "Una forma di hacking in cui qualcuno usa la sua influenza per convincere un'altra persona a soddisfare le sue richieste, con l'inganno e la manipolazione psicologica.",
+          "body": "Non si attacca il computer: si attacca la persona che lo usa. In agenzia il bersaglio può essere chiunque abbia accesso ai dati dei clienti o ai portali delle compagnie.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "Dal phreaking ai giorni nostri",
+          "items": [
+            {
+              "value": "1 · Phreaking",
+              "text": "La prima forma: usare la rete telefonica sfruttando sistemi e dipendenti del gestore.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "value": "2 · Centrali digitali",
+              "text": "Con le centrali numeriche inizia la \"decadenza\" dei phreaker.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "value": "3 · GSM e UMTS",
+              "text": "Autenticazione con chiavi, codifica e cifratura: superabili solo da specialisti attrezzati.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi è l'ingegnere sociale",
+          "key": "È considerato un hacker, forse il più subdolo: ottiene ciò che vuole nel modo più semplice possibile, cioè chiedendo.",
+          "body": "In ambito informatico l'hacker è visto come un vero truffatore. Molti ex phreaker, per passione per le reti, sono andati a lavorare proprio per i gestori che prima cercavano di violare.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Perché l'inganno conviene all'attaccante",
+          "items": [
+            {
+              "text": "È più facile di qualsiasi altro metodo di hacking e non servono specialisti ICT."
+            },
+            {
+              "text": "Costi minimi e basso rischio."
+            },
+            {
+              "text": "Funziona con qualsiasi sistema operativo e non richiede collegamento in rete."
+            },
+            {
+              "text": "Non lascia tracciabilità ed è in genere sicura ed efficace.",
+              "ref": "Materiale originale: affermazione da leggere con cautela"
+            },
+            {
+              "text": "Non diventa obsoleta e non è molto conosciuta tra le vittime."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il vero bersaglio",
+          "key": "Il vero obiettivo di un ingegnere sociale sono le persone, specialmente quelle facilmente manipolabili.",
+          "body": "Firewall e antivirus non bastano se un collaboratore dà la password al telefono a un falso tecnico. Per questo la difesa principale è la consapevolezza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Il quadro europeo",
+          "title": "Quanto pesa oggi",
+          "lead": "Il rapporto ENISA sulle minacce in Europa (luglio 2024 – giugno 2025) conferma il ruolo centrale del fattore umano.",
+          "facts": [
+            {
+              "label": "Prima porta d'ingresso",
+              "text": "Le tattiche di ingegneria sociale restano il principale punto di accesso degli attaccanti."
+            },
+            {
+              "label": "Circa 60%",
+              "text": "Dei casi osservati è phishing, inclusi vishing, malspam e malvertising."
+            },
+            {
+              "label": "Intelligenza artificiale",
+              "text": "Rende i messaggi di phishing più credibili e più facili da produrre."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Le 4 fasi dell'attacco",
+          "steps": [
+            {
+              "label": "1 · Footprinting",
+              "text": "Si studiano e si raccolgono tutte le informazioni possibili sulla vittima."
+            },
+            {
+              "label": "2 · Contatto",
+              "text": "Si stabilisce un rapporto con il bersaglio, di solito un impiegato dell'organizzazione."
+            },
+            {
+              "label": "3 · Manipolazione psicologica",
+              "text": "Si sfrutta la fiducia per estrarre notizie e capire le operazioni \"sensibili\" sui sistemi."
+            },
+            {
+              "label": "4 · Fuga",
+              "text": "Si eliminano le tracce per tornare nell'ombra, irrintracciabili per vittima e polizia."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La preparazione è tutto",
+          "key": "La scelta della vittima, persona fisica o giuridica, è meticolosa e pensata in ogni dettaglio.",
+          "body": "Si analizzano pro e contro delle persone da cui far passare le informazioni, i comportamenti anomali e i punti deboli. Solo dopo aver raccolto ciò che serve si passa alla fase operativa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Pretexting: il pretesto",
+          "key": "Il pretexting crea con la persona obiettivo un legame particolare dentro un ambiente artificiale, per indurla a rivelare ciò che serve.",
+          "body": "Esempio: \"Sono del supporto della compagnia, stiamo migrando il portale: mi conferma utente e codice per non perdere l'accesso?\". Lo scenario è falso, la richiesta sembra di routine.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I tratti su cui fa leva",
+          "lead": "L'ingegnere sociale, \"ottimo psicologo\", studia i tratti del bersaglio.",
+          "head": [
+            "Tratto",
+            "Come viene sfruttato"
+          ],
+          "rows": [
+            [
+              "Eccitamento per una vittoria",
+              "Premi, concorsi, offerte imperdibili"
+            ],
+            [
+              "Paura delle autorità",
+              "Finto funzionario, finta ispezione, finta diffida"
+            ],
+            [
+              "Desiderio di essere utili",
+              "\"Mi aiuti, il cliente è qui e il sistema non va\""
+            ],
+            [
+              "Paura di una perdita",
+              "\"Il conto sarà bloccato entro un'ora\""
+            ],
+            [
+              "Conoscenza insufficiente, pigrizia, ego",
+              "Richieste tecniche, scorciatoie, lusinghe"
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un venerdì alle 17:50 l'addetta front office dell'agenzia riceve una telefonata. L'interlocutore conosce il nome del titolare e quello dell'ispettore della compagnia. Dice di essere dell'ufficio tecnico, che il portale verrà disattivato in serata per un aggiornamento e che, per non bloccare le polizze in scadenza, gli serve subito il codice di accesso.",
+          "questions": [
+            "Quali fasi dell'attacco riconosci?",
+            "Su quali tratti psicologici fa leva?",
+            "Come dovrebbe comportarsi l'addetta?"
+          ],
+          "solution": "Il chiamante ha già fatto footprinting (nomi del titolare e dell'ispettore) e ora è nella fase di contatto e manipolazione. Fa leva su urgenza e paura di una perdita (polizze bloccate) e sul desiderio di essere utili. L'addetta non comunica credenziali, chiude la chiamata e verifica richiamando la compagnia a un numero noto, poi avvisa il titolare."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è il vero obiettivo di un ingegnere sociale?",
+          "options": [
+            "I server dell'azienda",
+            "Le persone, specialmente quelle facilmente manipolabili",
+            "Il sistema operativo",
+            "La rete telefonica"
+          ],
+          "answer": 1,
+          "explanation": "L'ingegneria sociale colpisce le persone: funziona con qualsiasi sistema operativo perché sfrutta fiducia e comunicazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In quale fase l'attaccante raccoglie informazioni sulla vittima?",
+          "options": [
+            "Fuga",
+            "Manipolazione psicologica",
+            "Footprinting",
+            "Contatto"
+          ],
+          "answer": 2,
+          "explanation": "Il footprinting è la fase iniziale: si studiano e recuperano tutte le informazioni possibili sulla potenziale vittima."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Persone",
+              "text": "il vero bersaglio dell'ingegneria sociale"
+            },
+            {
+              "value": "4 fasi",
+              "text": "footprinting, contatto, manipolazione psicologica, fuga"
+            },
+            {
+              "value": "Pretexting",
+              "text": "uno scenario artificiale per farsi dare informazioni"
+            },
+            {
+              "value": "7 tratti",
+              "text": "vittoria, autorità, utilità, perdita, conoscenza insufficiente, pigrizia, ego"
+            },
+            {
+              "value": "~60%",
+              "text": "dei casi osservati da ENISA nel 2024-2025 è phishing"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel mondo del social engineering, in italiano ingegneria sociale. Vedremo che cos'è, da dove nasce, chi è l'ingegnere sociale, come si sviluppa un attacco e su quali leve psicologiche si basa. È un tema che riguarda da vicino chi lavora in un'agenzia o in un broker: ogni giorno maneggiamo dati personali, dati sanitari dei sinistri, coordinate bancarie e credenziali di accesso ai portali delle compagnie. Sono esattamente le informazioni che un truffatore vuole ottenere.\n\nPartiamo dalla definizione. L'ingegneria sociale, intesa come arte dell'inganno, è una forma di hacking in cui qualcuno usa la propria influenza per convincere un'altra persona a soddisfare le sue richieste. Per farlo ricorre all'inganno, ma anche alla manipolazione psicologica. La differenza rispetto all'attacco informatico classico è sostanziale: qui non si forza un sistema, si convince una persona. Il punto debole non è il software, è la fiducia.\n\nUn po' di storia. La prima forma di ingegneria sociale fu il phreaking, una forma di pirateria che permetteva di usare la rete telefonica sfruttando i sistemi e anche i dipendenti dell'azienda che erogava il servizio. Con l'arrivo delle prime centrali telefoniche numeriche, cioè digitali, iniziò per i phreaker un periodo di decadenza, e quelli veri e propri cominciarono a scomparire. Nelle tecnologie successive, il GSM e l'UMTS, l'autenticazione degli utenti tramite combinazioni di chiavi, la codifica digitale del canale di trasmissione e la cifratura dei dati in transito non sono superabili se non da personale specializzato e dotato di strumenti adeguati. Curiosamente, la passione per le reti di trasmissione portò molti ex phreaker a lavorare proprio per i gestori delle reti che fino a poco prima cercavano di violare.\n\nChi è allora l'ingegnere sociale? La comunità lo considera un hacker, e in ambito informatico l'hacker viene visto come un vero e proprio truffatore. Esistono varie tipologie di hacker, e l'ingegnere sociale si colloca in questa cerchia forse come il più subdolo: è colui che riesce a ottenere ciò che vuole nel modo più semplice possibile, cioè chiedendo. Non serve scrivere codice malevolo se qualcuno ti detta la password al telefono.\n\nIl metodo dell'ingegneria sociale, basato sulla fiducia e sulla comunicazione, offre all'attaccante parecchi vantaggi. È più facile da realizzare di qualsiasi altro metodo di hacking. Non richiede specialisti di tecnologie dell'informazione. Comporta costi minimi e un rischio basso. Funziona con qualsiasi sistema operativo e non richiede nemmeno un collegamento in rete: può bastare una telefonata o una visita di persona. Secondo il materiale del corso non lascia tracciabilità, è in genere sicura ed efficace, non diventa obsoleta con il passare del tempo e non è molto conosciuta tra le vittime. Sull'assenza di tracce conviene una precisazione: telefonate, email e accessi lasciano spesso registrazioni, ed è proprio per questo che è importante conservarle e segnalare subito ciò che è successo. Resta vero, però, che per l'attaccante il rischio percepito è molto più basso rispetto ad altre forme di attacco.\n\nIl punto chiave è questo: il vero obiettivo di un ingegnere sociale sono le persone, in particolare quelle più facilmente manipolabili. Possiamo avere il miglior firewall e l'antivirus più aggiornato, ma se un collaboratore comunica le credenziali a un finto tecnico, le difese tecniche sono aggirate.\n\nChe il fattore umano sia centrale lo conferma anche l'Agenzia dell'Unione europea per la cybersicurezza, ENISA. Nel suo rapporto sulle minacce del 2025, che analizza il periodo da luglio 2024 a giugno 2025, ENISA osserva che le tattiche di ingegneria sociale restano il principale punto di ingresso per gli attaccanti, e che il phishing, comprese le sue varianti come il vishing, rappresenta circa il 60 per cento dei casi osservati. Lo stesso rapporto sottolinea come l'intelligenza artificiale venga usata per scrivere messaggi di phishing sempre più convincenti. Quindi la vecchia regola \"si riconosce dagli errori di italiano\" vale sempre meno.\n\nVediamo ora come si sviluppa un attacco. Si articola in quattro fasi: footprinting, contatto, manipolazione psicologica e fuga.\n\nLa prima fase è il footprinting, letteralmente \"rilevare le impronte\". È la fase iniziale, in cui l'attaccante studia e recupera tutte le informazioni possibili sulla potenziale vittima. Ne parleremo a fondo nella prossima lezione.\n\nLa seconda fase è il contatto. Una volta individuato il bersaglio, prima di agire, l'attaccante cerca di stabilire un contatto. Di solito il bersaglio è un impiegato o comunque qualcuno che lavora dentro l'organizzazione, con cui occorre instaurare un buon rapporto. In agenzia può essere l'addetta al front office, il collaboratore che gestisce i sinistri, il subagente.\n\nLa terza fase è la manipolazione psicologica. Qui l'ingegnere sociale sfrutta la fiducia e il rapporto costruiti nella fase precedente per estrarre più notizie possibili, oppure per ottenere informazioni sulle operazioni \"sensibili\" che l'impiegato svolge sui sistemi, così da entrarvi più facilmente in seguito.\n\nLa quarta e ultima fase è la fuga. Dopo aver ottenuto ciò che voleva, l'attaccante elimina le proprie tracce per diventare irrintracciabile e tornare nell'ombra, senza dare alla vittima e alle forze di polizia la possibilità di arrivare a lui.\n\nPer un ingegnere sociale è fondamentale tutta la fase di preparazione. La scelta della vittima, che sia una persona fisica o una persona giuridica da cui sottrarre informazioni, viene fatta in modo meticoloso e pensata in ogni dettaglio. Si analizzano tutti i pro e i contro della persona, o delle persone, attraverso cui si vogliono far passare le informazioni. Per questo l'attaccante osserva nel dettaglio qualsiasi comportamento anomalo dei soggetti e cerca di scoprirne i punti deboli.\n\nL'ingegnere sociale viene spesso definito un \"ottimo psicologo\", perché proprio questa capacità aumenta la forza dell'attacco. Solo dopo aver carpito tutte le informazioni necessarie sulla vittima passa alla fase operativa.\n\nUna delle tecniche più usate è il pretexting, cioè l'uso di un pretesto. La tecnica cerca di creare con la persona obiettivo un legame particolare all'interno di un ambiente artificiale, e di indurla così a rivelare le informazioni che servono. Pensiamo a una telefonata di questo tipo: \"Buongiorno, sono del supporto informatico della compagnia, stiamo migrando il portale agenzie. Per non perdere l'accesso mi conferma utente e codice?\". Lo scenario è inventato, ma la richiesta sembra una normale pratica di lavoro. Un'altra variante tipica: un finto liquidatore che chiama per \"completare la pratica di un sinistro\" e chiede dati sanitari o l'IBAN del cliente.\n\nOgni ingegnere sociale si concentra su tratti comportamentali e psicologici specifici del bersaglio, per estrarre il massimo delle informazioni. Il materiale del corso ne indica sette. L'eccitamento per una vittoria: premi, concorsi, offerte troppo belle per essere vere. La paura delle autorità: un finto funzionario, una finta ispezione, una finta diffida. Il desiderio di essere utili, che in un lavoro di servizio come il nostro è fortissimo. La paura di una perdita: \"se non agisce entro un'ora il conto sarà bloccato\", oppure \"le polizze andranno in scadenza\". La conoscenza insufficiente, che porta a fidarsi di chi parla un linguaggio tecnico. La pigrizia, che spinge a prendere scorciatoie, come cliccare un link invece di digitare l'indirizzo. E infine l'ego: la lusinga di chi ci fa sentire importanti o competenti.\n\nProviamo ad applicare tutto questo a un caso pratico. Un venerdì, poco prima della chiusura, l'addetta al front office riceve una telefonata. Chi chiama conosce il nome del titolare e quello dell'ispettore della compagnia. Dice di essere dell'ufficio tecnico, che il portale verrà disattivato in serata per un aggiornamento e che, per non bloccare le polizze in scadenza, gli serve subito il codice di accesso. Riconosciamo il footprinting già fatto: i nomi sono stati raccolti prima, magari dal sito dell'agenzia o da un social network professionale. Ora siamo nelle fasi di contatto e manipolazione: l'orario è scelto apposta, c'è l'urgenza, c'è la paura di una perdita e c'è il desiderio di essere utili. La risposta corretta è semplice: non si comunicano mai credenziali al telefono, si chiude la chiamata, si verifica richiamando la compagnia a un numero già noto e si informa il titolare.\n\nRicapitoliamo. Il vero bersaglio dell'ingegneria sociale sono le persone. L'attacco si sviluppa in quattro fasi: footprinting, contatto, manipolazione psicologica e fuga. Il pretexting crea uno scenario artificiale per farsi consegnare informazioni. E le leve psicologiche sono sempre le stesse: vittoria, autorità, desiderio di essere utili, paura di perdere, conoscenza insufficiente, pigrizia ed ego. Nella prossima lezione vedremo come l'attaccante raccoglie le informazioni e quale ruolo hanno i social network.",
+      "sources": [
+        {
+          "title": "ENISA, ENISA Threat Landscape 2025 (ottobre 2025)",
+          "url": "https://www.enisa.europa.eu/sites/default/files/2025-11/ENISA%20Threat%20Landscape%202025.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Dato ENISA sul peso dell'ingegneria sociale e del phishing (circa 60% dei casi osservati, luglio 2024 - giugno 2025) e sul ruolo dell'intelligenza artificiale.",
+          "source_ref": "ENISA Threat Landscape 2025, cap. 3 e 4.1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici di pretexting e caso pratico ambientati in agenzia; tabella dei tratti psicologici con esempi di sfruttamento.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: l'ingegneria sociale \"non lascia tracciabilità\" ed \"è in genere sicura\". Aggiunta in narrazione una precisazione: telefonate, email e accessi lasciano spesso registrazioni, da conservare e segnalare. Riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco dei tratti psicologici (sette voci) e delle 4 fasi, riordinati in tabella e in passi.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Footprinting e social network: come l'attaccante raccoglie le informazioni",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social engineering.pdf.pdf"
+      ],
+      "source_minutes": 15,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Footprinting e social network",
+          "goals": [
+            "Sapere quali informazioni studia l'attaccante prima di colpire",
+            "Riconoscere keylogger, dumpster diving, baiting, eavesdrop e wiretap",
+            "Proteggere sé stessi e l'agenzia sui social network"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa studia (anche per mesi)",
+          "items": [
+            {
+              "text": "I sistemi di comunicazione dell'azienda e come funziona la posta interna."
+            },
+            {
+              "text": "Giorni e orari delle pulizie, uffici e organigramma."
+            },
+            {
+              "text": "Il comportamento di addetti alla sicurezza e segretarie."
+            },
+            {
+              "text": "Email, telefonate e informazioni che contengono."
+            },
+            {
+              "text": "Come fingersi un cliente inesperto o esperto, e dove pranzano i dipendenti."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Keyghost: il keylogger hardware",
+          "key": "Un piccolo dispositivo collegato tra il case e la tastiera che registra tutto ciò che si digita.",
+          "body": "Serve accesso fisico al PC, ma l'installazione è semplicissima. Difesa: conoscere la tecnica e controllare l'accesso alle aree con le postazioni di lavoro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Dumpster diving: la ricerca nei rifiuti",
+          "left": {
+            "title": "Il rischio",
+            "items": [
+              "Informazioni cercate tra i rifiuti della vittima",
+              "Stampe di preventivi, denunce di sinistro, copie di documenti",
+              "Vecchi PC o dischi buttati senza cancellarli"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "La difesa",
+            "items": [
+              "Formazione continua del personale",
+              "Policy di classificazione: confidential, secret, top-secret",
+              "Accesso solo a persone autorizzate",
+              "Distruzione e smaltimento secondo regole precise",
+              "Cancellare la memoria prima di sostituire l'hardware"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il cestino della carta è un archivio aperto: i documenti con dati dei clienti vanno distrutti, non buttati.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Baiting: l'esca della curiosità",
+          "key": "Una chiavetta USB o un CD lasciati per terra: chi li prova per curiosità installa un virus che permette al truffatore di spiare il computer.",
+          "body": "Difesa: buon senso, nessun supporto usato a casa o al lavoro senza controllo, e soprattutto policy aziendali chiare.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Origliare e intercettare",
+          "cols": [
+            {
+              "title": "Eavesdrop",
+              "items": [
+                "La tecnica dell'origliare",
+                "Conversazioni ascoltate di nascosto, dialoghi sottovoce",
+                "Anche al bancone dell'agenzia o in treno"
+              ]
+            },
+            {
+              "title": "Wiretap",
+              "items": [
+                "L'intercettazione vera e propria",
+                "Non solo il telefono tradizionale",
+                "Soprattutto messaggistica istantanea, VoIP ed email"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Social network: una miniera di dati",
+          "key": "Con i social network per l'attaccante è molto più facile trovare le informazioni per il primo contatto con la vittima.",
+          "body": "I social diffondono ogni tipo di dato personale. Chi tiene un profilo basso può essere avvicinato con la carta dell'head hunter: chiedere il curriculum equivale ad avere una carta d'identità digitale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Geolocalizzazione",
+          "key": "Condividere la propria posizione conferma ai ladri che la persona è davvero lontana da casa.",
+          "body": "Qui l'ingegneria sociale è usata direttamente da semplici e astuti ladri. Lo stesso vale per foto delle vacanze pubblicate in tempo reale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come difendersi sui social",
+          "items": [
+            {
+              "text": "Pubblicare il meno possibile."
+            },
+            {
+              "text": "Ridurre al minimo le foto: mai mostrare dove si è stati, a cosa si è partecipato, dove si vive o dove si lavora."
+            },
+            {
+              "text": "Non pubblicare mai indirizzi personali, numero di telefono o email."
+            },
+            {
+              "text": "In agenzia: non pubblicare foto in cui si vedono schermi, pratiche o documenti dei clienti."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Fake sharing",
+          "key": "La versione moderna del phishing applicata ai social network: un link accattivante condiviso per ingannare chi lo apre.",
+          "body": "Per attirare clic il link punta su originalità, sensazionalità o scoop. Davanti a un titolo \"incredibile\" fermati prima di aprirlo o condividerlo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Furto di un account social: lo schema descritto",
+          "steps": [
+            {
+              "label": "Raccolta",
+              "text": "Si recupera l'ID dell'account della vittima."
+            },
+            {
+              "label": "Recupero password",
+              "text": "Si avvia la procedura dichiarando di non avere più accesso all'account."
+            },
+            {
+              "label": "Nuova email",
+              "text": "Si indica un indirizzo controllato dall'attaccante."
+            },
+            {
+              "label": "Domanda di sicurezza",
+              "text": "Si risponde con i dati trovati sul profilo della vittima, poi si imposta una nuova password."
+            }
+          ],
+          "ref": "Materiale originale del corso (procedura riferita a una vecchia versione di Facebook)"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un collaboratore dell'agenzia pubblica sul suo profilo: \"Finalmente in ferie, due settimane alle Maldive!\", con foto geolocalizzate. Sul profilo professionale indica ruolo, compagnie mandanti e il nome del titolare. Pochi giorni dopo l'agenzia riceve un'email \"da parte sua\" che chiede di inviare a un nuovo indirizzo l'elenco dei clienti in scadenza.",
+          "questions": [
+            "Quali informazioni ha fornito il collaboratore all'attaccante?",
+            "Che cosa deve fare chi riceve l'email?"
+          ],
+          "solution": "Ha rivelato assenza prolungata, luogo, ruolo, relazioni interne e mandanti: il materiale perfetto per il footprinting e per un pretesto credibile. Chi riceve l'email non invia nulla, verifica la richiesta con un canale diverso (telefono al numero noto del collega o al titolare) e segnala il tentativo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è il baiting?",
+          "options": [
+            "L'ascolto di conversazioni di nascosto",
+            "Un'esca, come una chiavetta USB infetta, che sfrutta la curiosità",
+            "La ricerca di documenti tra i rifiuti",
+            "Un keylogger hardware"
+          ],
+          "answer": 1,
+          "explanation": "Il baiting fa leva sulla curiosità: un supporto lasciato in vista nasconde un virus che dà accesso al computer di chi lo usa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale difesa indica il materiale contro il dumpster diving?",
+          "options": [
+            "Usare una tastiera virtuale",
+            "Classificare i documenti e distruggerli secondo policy precise",
+            "Disattivare la geolocalizzazione",
+            "Cambiare la password ogni giorno"
+          ],
+          "answer": 1,
+          "explanation": "Servono formazione continua, classificazione dei documenti per importanza, accesso limitato e regole precise di distruzione e smaltimento, compresa la cancellazione della memoria dell'hardware dismesso."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Mesi",
+              "text": "può durare il footprinting prima dell'attacco"
+            },
+            {
+              "value": "5",
+              "text": "tecniche: keyghost, dumpster diving, baiting, eavesdrop, wiretap"
+            },
+            {
+              "value": "CV",
+              "text": "equivale a una carta d'identità digitale"
+            },
+            {
+              "value": "Meno",
+              "text": "si pubblica, meno si offre all'attaccante"
+            },
+            {
+              "value": "Fake sharing",
+              "text": "il phishing dei social network"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che ogni attacco di ingegneria sociale comincia con il footprinting, cioè la raccolta di informazioni sulla vittima. In questa lezione scendiamo nel dettaglio: che cosa studia l'attaccante, con quali tecniche, e perché i social network gli hanno reso il lavoro molto più semplice.\n\nLa fase iniziale può durare mesi. In questo periodo l'ingegnere sociale studia e analizza i sistemi di comunicazione dell'azienda e il funzionamento della posta interna. Osserva i giorni e gli orari delle pulizie, che sono momenti in cui persone esterne entrano negli uffici. Ricostruisce l'organigramma, cioè chi fa che cosa e chi decide. Studia gli uffici, il comportamento degli addetti alla sicurezza e delle segretarie. Analizza le email, le telefonate e le informazioni che contengono. Si prepara a fingersi un cliente inesperto, oppure un cliente esperto, a seconda di ciò che gli serve. Arriva persino a pranzare nello stesso posto in cui pranzano i dipendenti, per ascoltare e farsi conoscere.\n\nTrasferiamo l'elenco in un'agenzia assicurativa. Chi risponde al telefono? Come si chiama l'ispettore della compagnia? Che orari ha l'ufficio sinistri? Qual è il formato delle email interne? Sono tutte informazioni che, prese una per una, sembrano innocue. Messe insieme permettono di costruire un pretesto perfettamente credibile.\n\nVediamo le tecniche di footprinting descritte nel materiale.\n\nLa prima è il Keyghost. Appartiene alla famiglia dei keylogger, ma di tipo hardware. È un dispositivo che registra i tasti digitati, cioè tiene traccia di tutto ciò che si scrive con la tastiera, password comprese. Per installarlo l'attaccante deve avere accesso fisico al computer da controllare. L'installazione è molto semplice: il dispositivo si collega tra il case e la tastiera. Per difendersi bisogna prima di tutto conoscere questa tecnica e, per interrompere l'attacco in qualsiasi punto del processo, predisporre controlli di accesso all'area in cui si trovano le postazioni di lavoro. In pratica: il visitatore non resta mai da solo vicino ai computer, e chi si presenta come tecnico va identificato e accompagnato.\n\nLa seconda tecnica è il dumpster diving, letteralmente \"tuffarsi nel cassonetto\". La sua caratteristica è cercare il maggior numero possibile di informazioni tra i rifiuti della vittima. In un'agenzia pensiamo a stampe di preventivi, copie di documenti d'identità, denunce di sinistro, estratti con IBAN, buttati nel cestino della carta. Anche qui la difesa fondamentale è la formazione continua del personale, insieme all'adozione di una policy per la gestione dei documenti che li classifichi in base all'importanza: il materiale cita come esempi i livelli confidential, secret e top-secret. In base a questa classificazione solo determinate persone hanno accesso ai documenti, e la distruzione e lo smaltimento devono seguire regole di sicurezza ben definite. C'è poi un aspetto spesso trascurato: prima di sostituire fisicamente l'hardware, cioè computer, dischi, stampanti con memoria, occorre cancellare dalla memoria ogni possibile informazione.\n\nLa terza tecnica è il baiting, cioè l'esca. Basa il suo successo su quella che è la più grande debolezza, o forza, della natura umana: la curiosità. Si può trovare una chiavetta USB per terra, oppure un CD, e provarlo per curiosità. Al suo interno però si nasconde un virus che il truffatore userà per accedere al computer della vittima e spiarlo di nascosto. La principale difesa, oltre al buon senso di non usare la chiavetta né a casa né al lavoro senza averla prima fatta controllare, viene dalle policy aziendali: per esempio la regola che nessun supporto esterno si collega ai computer dell'agenzia se non è stato fornito o verificato da chi si occupa dei sistemi.\n\nCi sono poi due tecniche ulteriori. L'eavesdrop è la tecnica dell'origliare: ascoltare di nascosto una conversazione, un dialogo sottovoce, un colloquio di cui non si dovrebbe far parte, può rivelare informazioni importanti e riservate. Pensiamo a un cliente che, al bancone, detta il proprio codice fiscale e il numero di carta mentre altre persone sono in attesa a pochi passi. Il wiretap è invece l'intercettazione. Chiunque può mettere in pratica un'intercettazione in piena regola, non solo con il vecchio telefono, ma soprattutto attraverso la messaggistica istantanea, le telefonate VoIP e gli scambi di email.\n\nArriviamo ai social network. Con la loro nascita, per un attaccante è diventato molto più facile reperire le informazioni necessarie per un primo contatto con la vittima. Facebook e i social network in generale diffondono qualsiasi tipo di dato personale. E anche quando l'utente è prudente, tiene un profilo basso sul web e usa gli accorgimenti di privacy del social, l'ingegnere sociale può sfruttare un'alternativa: la carta dell'head hunter, il cacciatore di teste. Si presenta come selezionatore di personale e convince la vittima a inviare il curriculum vitae, che equivale praticamente ad avere una carta d'identità digitale: nome, data di nascita, indirizzo, telefono, email, percorso professionale.\n\nUn'altra funzione usata a sproposito dagli utenti è la geolocalizzazione, con la condivisione della propria posizione sui social. In questi casi l'ingegneria sociale viene usata direttamente da ladri, semplici ma astuti, che ottengono così la conferma e la sicurezza che la persona sia davvero lontana da casa in quel momento.\n\nI consigli per difendersi sono chiari. Pubblicare il meno possibile. Limitare al minimo le foto, e non mostrare mai dove si è stati, a cosa si è partecipato, dove si vive o dove si lavora. Non pubblicare mai indirizzi personali, numero di telefono o email. Per chi lavora in agenzia possiamo aggiungere un'attenzione specifica: niente foto in ufficio in cui si vedano schermi, pratiche o documenti dei clienti.\n\nIl materiale descrive poi un attacco noto nei social network, ribattezzato \"fake sharing\", che riguarda i link. Per essere accattivante, un link deve avere una di queste qualità: originalità, sensazionalità, scoop. La condivisione di un link di questo tipo può essere un vero e proprio attacco di ingegneria sociale, che si può definire la versione moderna del phishing applicata ai social network. Il meccanismo è semplice: chi apre il link finisce su una pagina che chiede di accedere, scaricare qualcosa o inserire dati.\n\nInfine il materiale illustra le fasi di un attacco di ingegneria sociale su Facebook, così come erano descritte all'epoca. Primo: collegarsi all'account della vittima e recuperarne l'ID. Secondo: uscire da Facebook ed eseguire la procedura di recupero della password. Terzo: nella finestra di dialogo inserire l'ID seguito da \"chiocciola facebook punto com\". Quarto: cliccare su \"Non ho accesso a questo account\". Quinto: inserire una nuova email e proseguire. Sesto: rispondere alla domanda di sicurezza usando i dati recuperati in precedenza sul profilo della vittima. Settimo: impostare la nuova password. Le procedure delle piattaforme sono cambiate nel tempo, ma la lezione resta attuale: le domande di sicurezza si indovinano facilmente con ciò che pubblichiamo, come il nome del cane, la squadra del cuore o la città di nascita. Per questo è meglio attivare l'autenticazione a due fattori e non usare come risposta informazioni visibili online.\n\nVediamo un caso pratico. Un collaboratore pubblica sul suo profilo: \"Finalmente in ferie, due settimane alle Maldive\", con foto geolocalizzate. Sul profilo professionale indica ruolo, compagnie mandanti e nome del titolare. Pochi giorni dopo l'agenzia riceve un'email che sembra sua e chiede di inviare a un nuovo indirizzo l'elenco dei clienti con polizze in scadenza, \"perché lavoro da remoto\". Il collaboratore ha regalato all'attaccante tutto il footprinting: assenza prolungata, luogo, ruolo, relazioni interne. Chi riceve l'email non deve inviare nulla, deve verificare la richiesta con un canale diverso, per esempio telefonando al numero già noto del collega o parlando con il titolare, e deve segnalare il tentativo.\n\nRicapitoliamo. Il footprinting può durare mesi e riguarda persone, abitudini e procedure. Le tecniche sono il keylogger hardware, la ricerca nei rifiuti, l'esca della curiosità, l'ascolto di nascosto e l'intercettazione. I social network moltiplicano le informazioni disponibili, e la regola d'oro è pubblicare il meno possibile. Nella prossima lezione affronteremo il phishing e le sue varianti.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la procedura in 7 passi per il furto di un account Facebook (ID@facebook.com, \"Non ho accesso a questo account\", domanda di sicurezza). Riferimento da indicare / possibile aggiornamento: la procedura descritta riguarda una vecchia versione della piattaforma; in slide è sintetizzata in 4 passi e in narrazione riportata integralmente come esempio storico.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento al Keyghost come esempio di keylogger hardware. Possibile aggiornamento: il nome è quello di un prodotto specifico citato nel materiale.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici riferiti all'agenzia (documenti nel cestino, cliente al bancone, foto in ufficio), caso pratico sul profilo social del collaboratore, consiglio di usare l'autenticazione a due fattori al posto delle sole domande di sicurezza.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Phishing, smishing, vishing e altre truffe",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social engineering.pdf.pdf"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Phishing, smishing, vishing e altre truffe",
+          "goals": [
+            "Riconoscere phishing, smishing, vishing, pharming e scam",
+            "Applicare le regole di difesa a email, SMS e telefonate",
+            "Capire lo schema dei bonifici in frode e dell'ingegneria sociale inversa"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Come funziona il phishing",
+          "steps": [
+            {
+              "label": "Il messaggio",
+              "text": "Un'email che imita quella di un'istituzione nota al destinatario."
+            },
+            {
+              "label": "L'esca",
+              "text": "Un problema, un avviso o un'offerta di denaro invita a seguire un link."
+            },
+            {
+              "label": "Il sito clone",
+              "text": "Il link porta a una copia del sito ufficiale su un server del phisher, che raccoglie i dati."
+            },
+            {
+              "label": "L'uso dei dati",
+              "text": "Acquisti, trasferimenti di denaro o \"ponte\" per altri attacchi."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le varianti per canale",
+          "head": [
+            "Canale",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Phishing",
+              "Email o messaggi con link a pagine falsificate, per ottenere credenziali e codici"
+            ],
+            [
+              "Smishing",
+              "Da SMS + phishing: SMS da numeri simili a quelli reali, che finiscono tra i messaggi autentici"
+            ],
+            [
+              "Vishing",
+              "Da voice + phishing: un falso operatore al telefono induce a dare i codici dispositivi"
+            ]
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Difendersi dal phishing",
+          "items": [
+            {
+              "text": "Sospettare di telefonate di sconosciuti, visite inattese di tecnici, email che chiedono dell'organizzazione e dei colleghi."
+            },
+            {
+              "text": "Non dare informazioni personali o sull'organizzazione se non si è certi che l'altro ne abbia bisogno."
+            },
+            {
+              "text": "Non rivelare dati personali o finanziari via email e non rispondere a chi li chiede."
+            },
+            {
+              "text": "Prima di inviare dati, accertare la sicurezza del sito e controllare l'URL."
+            },
+            {
+              "text": "Nel dubbio, contattare direttamente il mittente."
+            },
+            {
+              "text": "Installare e aggiornare antivirus, firewall e antispam."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I consigli della Polizia Postale",
+          "items": [
+            {
+              "text": "Banche ed emittenti di carte non chiedono dati personali via email, SMS o telefono.",
+              "ref": "Polizia Postale"
+            },
+            {
+              "text": "Chiama il numero noto o vai di persona: mai il numero indicato nel messaggio.",
+              "ref": "Polizia Postale"
+            },
+            {
+              "text": "Diffida di chi chiede di spostare denaro su un altro conto \"per sicurezza\".",
+              "ref": "Polizia Postale"
+            },
+            {
+              "text": "Non usare il link: digita tu l'indirizzo nel browser.",
+              "ref": "Polizia Postale"
+            },
+            {
+              "text": "Password diverse per ogni servizio, cambiate periodicamente; sistema e antivirus aggiornati.",
+              "ref": "Polizia Postale"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Le difese lato sistema (home banking)",
+          "left": {
+            "title": "Al login",
+            "items": [
+              "Token OTP per rafforzare l'autenticazione",
+              "Verifica dell'indirizzo IP",
+              "Allarme se da un solo IP falliscono accessi su più utenze",
+              "Allarme se da un solo IP riescono accessi su più utenze",
+              "Verifica che chi accede sia una persona e non un sistema"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Dopo il login",
+            "items": [
+              "Controllo degli IBAN destinatari su una tabella di IBAN sospetti",
+              "Verifica delle disposizioni di importo elevato"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il principale ambito del phishing è la finanza, in particolare l'home banking: servono procedure per individuare gli attacchi e rispondere nel più breve tempo possibile.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "I bonifici in frode",
+          "steps": [
+            {
+              "label": "1 · Raccolta",
+              "text": "Il phisher ruba le credenziali di clienti \"passivi\" e recluta clienti \"attivi\" che danno il proprio IBAN per un compenso."
+            },
+            {
+              "label": "2 · Trasferimento",
+              "text": "Con le credenziali rubate sposta denaro dai conti passivi ai conti attivi."
+            },
+            {
+              "label": "3 · Ritiro",
+              "text": "Istruisce i clienti attivi a girare le somme su conti a cui ha accesso diretto."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Chi presta il conto è complice",
+          "key": "Chi segue le istruzioni del phisher e presta il proprio conto diventa complice della truffa ed è perseguibile per legge.",
+          "body": "Controlli efficaci: bloccare in tempi brevi molti bonifici da clienti diversi verso IBAN esteri o carte prepagate virtuali, e impedire ricariche di carte in blacklist.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Pharming e scam",
+          "cols": [
+            {
+              "title": "Pharming",
+              "items": [
+                "Tecnica di cracking per ottenere dati riservati",
+                "Porta la vittima su un server \"clone\", come il phishing",
+                "Difese: firewall e antivirus, non esistono programmi specifici"
+              ]
+            },
+            {
+              "title": "Scam",
+              "items": [
+                "Truffa con metodi di ingegneria sociale",
+                "Promette grossi guadagni in cambio di un anticipo",
+                "Spesso legato allo spam; anche furto di password per sottrarre denaro"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Segnali di uno scam",
+          "items": [
+            {
+              "text": "Interesse troppo rapido nei tuoi confronti; le tue domande restano senza risposta."
+            },
+            {
+              "text": "Foto a bassa risoluzione, scaricate da Internet, con nomi numerici (40.jpg, 454.jpg)."
+            },
+            {
+              "text": "Persone spesso avvenenti che hanno perso la famiglia; richieste di somme non troppo alte."
+            },
+            {
+              "text": "Frasi già fatte, testi scritti con un traduttore automatico."
+            },
+            {
+              "text": "Dicono di aver trovato la tua email in gruppi famosi; poi scrivono più scammer."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "SET e ingegneria sociale inversa",
+          "left": {
+            "title": "SET – Social Engineering Toolkit",
+            "items": [
+              "Strumento che automatizza gli attacchi di social engineering",
+              "Il materiale lo indica disponibile in BackTrack"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Ingegneria sociale inversa",
+            "items": [
+              "Convince la vittima di avere (o avere presto) un problema",
+              "L'attaccante si offre di risolverlo",
+              "Tre parti: sabotaggio, marketing, supporto"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Nell'attacco inverso è la vittima a chiamare l'attaccante: per questo si fida.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente chiama l'agenzia: ha ricevuto un SMS \"dalla compagnia\" che segnala un problema sul pagamento del premio e indica un nuovo IBAN. Poco dopo lo ha chiamato un \"operatore\" che conosceva il numero di polizza e gli ha chiesto di fare subito il bonifico, altrimenti la copertura sarebbe sospesa.",
+          "questions": [
+            "Di quali tecniche si tratta?",
+            "Che cosa consigli al cliente?",
+            "Che cosa fa l'agenzia?"
+          ],
+          "solution": "Smishing seguito da vishing, con leva sulla paura di una perdita. Il cliente non paga, verifica gli estremi di pagamento con l'agenzia o la compagnia ai recapiti noti, e se ha già pagato contatta subito la banca e sporge denuncia. L'agenzia avvisa la compagnia, valuta se c'è stata una fuga di dati dei clienti e informa gli altri clienti del tentativo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è il vishing?",
+          "options": [
+            "Phishing via SMS",
+            "Phishing via telefonata, con un falso operatore",
+            "Un sito clone raggiunto senza cliccare link",
+            "Un keylogger"
+          ],
+          "answer": 1,
+          "explanation": "Vishing unisce voice e phishing: un falso operatore al telefono convince la vittima a fornire codici e dati."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'email della \"compagnia\" chiede di confermare le credenziali del portale tramite un link. Che cosa fai?",
+          "options": [
+            "Clicco e controllo se il sito sembra uguale",
+            "Rispondo all'email chiedendo conferma",
+            "Non uso il link: accedo digitando io l'indirizzo o chiamo un numero noto",
+            "Inoltro l'email ai colleghi"
+          ],
+          "answer": 2,
+          "explanation": "Il link può portare a un sito clone. Si verifica sempre con un canale indipendente: indirizzo digitato a mano o recapito già noto."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "4 passi",
+              "text": "del phishing: messaggio, esca, sito clone, uso dei dati"
+            },
+            {
+              "value": "SMS · voce",
+              "text": "smishing e vishing sono phishing su altri canali"
+            },
+            {
+              "value": "Canale noto",
+              "text": "si verifica sempre fuori dal messaggio ricevuto"
+            },
+            {
+              "value": "3 fasi",
+              "text": "dei bonifici in frode: chi presta il conto è complice"
+            },
+            {
+              "value": "3 parti",
+              "text": "dell'attacco inverso: sabotaggio, marketing, supporto"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione affrontiamo la famiglia di attacchi più diffusa: il phishing e le sue varianti, smishing e vishing. Poi vedremo le difese, lo schema dei bonifici in frode, il pharming, lo scam e infine una tecnica particolarmente insidiosa, l'ingegneria sociale inversa.\n\nIl phishing è un tipo di truffa via internet con cui un aggressore cerca di ingannare la vittima convincendola a fornire informazioni personali sensibili. Il processo si compone di quattro fasi. Primo: il phisher invia alla vittima un messaggio email che imita quello di un'istituzione nota al destinatario. Secondo: l'email contiene quasi sempre l'avviso di una situazione particolare o di un problema, oppure un'offerta di denaro, e invita a seguire un link presente nel messaggio. Terzo: il link non porta al sito ufficiale, ma a una copia fittizia, apparentemente simile, che si trova su un server controllato dal phisher. Lo scopo è chiedere e ottenere dati personali, che vengono memorizzati su quel server e finiscono così nelle mani del malintenzionato. Quarto: il phisher usa questi dati per acquistare beni, trasferire somme di denaro o anche solo come \"ponte\" per altri attacchi.\n\nNel nostro settore gli esempi sono quotidiani: una finta email della compagnia che chiede di \"riconvalidare\" l'accesso al portale agenzie, un finto avviso di un sinistro con un allegato da aprire, un finto rimborso in attesa per il cliente.\n\nIl phishing ha varianti che usano canali diversi. La Polizia Postale le descrive così. Lo smishing deriva dall'unione delle parole SMS e phishing: si usano messaggi di testo, spesso inviati da numeri simili a quelli di banche reali, che possono finire nella stessa conversazione dei messaggi autentici. Il vishing deriva da voice e phishing, cioè voce: un falso operatore bancario contatta la vittima per telefono e, con argomentazioni ingannevoli, la convince a fornire i codici dispositivi del conto. Spesso le due tecniche si combinano: prima arriva l'SMS che segnala un'operazione sospetta, poi la telefonata del \"servizio antifrode\".\n\nCome ci si difende? Il materiale del corso indica regole precise. Bisogna sospettare delle telefonate da sconosciuti, delle visite inaspettate di tecnici e delle email di persone che chiedono notizie sull'organizzazione interna e sui colleghi. Non bisogna fornire informazioni personali o sull'organizzazione, compresa la sua struttura e la rete informatica, a meno di essere certi che la persona abbia davvero necessità di conoscerle. Non si rivelano informazioni personali o finanziarie via email e non si risponde alle email che le chiedono. Non si inviano informazioni sensibili su internet prima di aver accertato il livello di sicurezza del sito, e si fa attenzione all'URL, cioè all'indirizzo esatto. Se non si è certi della legittimità di un'email o del suo contenuto, si contatta direttamente il mittente, ovviamente con un recapito già noto e non con quello indicato nel messaggio. Infine, si installano e si aggiornano costantemente antivirus, firewall e gli eventuali programmi antispam, per ridurre il rischio.\n\nLa Polizia Postale aggiunge consigli molto concreti. Le banche e gli emittenti di carte di credito non chiedono mai dati personali via email, SMS o telefono. Se un messaggio sembra della banca e chiede dati riservati, si va in filiale o si chiama il numero noto della banca, mai quello indicato nel messaggio. Si diffida delle richieste di spostare denaro su un altro conto per presunti motivi di sicurezza. Anche se il messaggio sembra autentico, non si usa il link: si digita direttamente l'indirizzo nel browser. Prima di inserire dati si verifica che l'indirizzo inizi con \"https\" o mostri il lucchetto chiuso. Si cambiano periodicamente le credenziali, senza usare la stessa password per servizi diversi, si aggiorna il sistema operativo e si installano un buon antivirus e un filtro antispam. Il lucchetto, attenzione, dice solo che la connessione è cifrata, non che il sito sia quello giusto: per questo l'indirizzo va sempre controllato.\n\nIl principale ambito del phishing è il mondo della finanza e in particolare l'home banking. In questo settore occorre definire procedure anti-phishing per individuare gli attacchi e rispondere preventivamente nel più breve tempo possibile. Per analizzare le contromisure, nei sistemi di home banking bisogna predisporre l'ambiente e creare tabelle di dati che supportino i controlli. In alcuni casi, per rafforzare l'autenticazione, si chiede l'inserimento di un codice OTP generato da un token, cioè una password usa e getta. Al login servono anche controlli aggiuntivi per proteggere l'utente, che è ancora ignaro di tutto. Uno dei punti fondamentali è la verifica dell'indirizzo IP da cui arriva il tentativo di accesso.\n\nDal lato del sistema si possono programmare controlli periodici sui login, per individuare possibili attacchi. Un controllo che, ogni tot minuti, con una soglia calcolata con l'analisi, verifica i tentativi di accesso da un singolo indirizzo IP: se l'IP è lo stesso ma i tentativi falliti riguardano utenze diverse, bisogna intervenire. Se invece più login riescono, con utenze diverse ma tutte dallo stesso IP, anche in questo caso potremmo essere davanti a un phishing. Un'ulteriore verifica controlla che chi tenta l'accesso sia davvero una persona e non un sistema automatico. Dopo il login servono altre procedure: la verifica degli IBAN destinatari di una disposizione, usando una tabella di IBAN sospetti, così da bloccare le operazioni a rischio, e la verifica delle disposizioni di importo elevato.\n\nUn'altra tecnica sofisticata usata dai phisher sono i cosiddetti bonifici in frode, che si sviluppano in tre fasi. Nella prima il phisher cattura le credenziali di un certo numero di clienti, detti clienti passivi. Poi contatta altri clienti, i clienti attivi, e li informa che a breve riceveranno somme di denaro sul conto, se saranno disposti a inviare le proprie coordinate bancarie in cambio di un lauto compenso. Nella seconda fase il phisher entra nei conti dei clienti passivi con le credenziali rubate e trasferisce denaro verso i conti dei clienti attivi. Nella terza fase informa i clienti attivi delle somme arrivate e dà loro le istruzioni per trasferire i fondi su altri conti, a cui il phisher ha accesso diretto e da cui recupera il denaro.\n\nIl controllo più efficace è quello che, in tempi brevi, impedisce che vengano eseguiti numerosi bonifici da diversi clienti attivi verso IBAN esteri o carte prepagate virtuali. È fondamentale anche informare i clienti di questa truffa: chi segue le istruzioni diventa complice ed è perseguibile per legge. Un secondo controllo è verificare e impedire la ricarica di carte virtuali o prepagate estere inserite nella blacklist degli operatori normalmente usati come veicolo per le truffe. Per l'intermediario il messaggio è utile anche nel rapporto con i clienti: un'offerta di guadagno facile in cambio dell'uso del proprio conto è sempre una trappola.\n\nPassiamo al pharming. È una tecnica di cracking usata per ottenere l'accesso a informazioni personali e riservate, con varie finalità. L'utente viene ingannato e rivela inconsapevolmente a sconosciuti i propri dati sensibili, come numero di conto, nome utente, password o numero di carta. L'obiettivo finale è lo stesso del phishing: portare la vittima su un server web \"clone\", attrezzato apposta per carpire i dati. La differenza è che nel pharming la vittima può arrivarci anche digitando l'indirizzo corretto, perché viene manomesso il percorso che porta al sito. Per difendersi, secondo il materiale, non esistono programmi specifici, se non i firewall, che cercano di impedire l'accesso al PC da parte di utenti esterni, e gli antivirus, che bloccano l'esecuzione di codice malevolo.\n\nLo scam indica invece un tentativo di truffa condotto con i metodi dell'ingegneria sociale, in genere con un'email che promette grossi guadagni in cambio di somme di denaro da anticipare. Scam e spam sono spesso strettamente collegati. Il termine, a volte nella forma \"scamming\", può indicare anche un tentativo di furto di dati sensibili, come le password, per sottrarre o trasferire denaro dai conti online.\n\nPer capire se si è vittime di uno scam ci sono segnali comuni: un interesse troppo rapido nei propri confronti; domande che restano senza risposta e vengono ignorate; foto a bassa risoluzione, a volte chiaramente scaricate da internet, con nomi numerici come 40.jpg o 454.jpg; persone spesso avvenenti che hanno perso la famiglia; richieste di denaro per somme non troppo elevate; email costruite con frasi già fatte, che si ripetono a seconda delle circostanze; messaggi scritti palesemente con un traduttore automatico; la dichiarazione di aver trovato il vostro indirizzo in famosi gruppi sociali. E una volta finiti nelle loro liste, si ricevono messaggi non da uno ma da diversi scammer.\n\nDue ultimi elementi. Il SET, Social Engineering Toolkit, è uno strumento a supporto dell'ingegnere sociale: secondo il materiale è disponibile in BackTrack, una distribuzione per i test di sicurezza, e serve ad automatizzare gli attacchi di social engineering. Ci dice una cosa importante: questi attacchi possono essere prodotti in serie. E poi l'ingegneria sociale inversa. Questa tecnica consiste nel convincere la vittima di avere un problema, o che presto lo avrà, e che l'attaccante è pronto a risolverlo. L'attacco si divide in tre parti: sabotaggio, marketing e supporto. Prima si crea il guasto, poi ci si fa conoscere come chi può risolverlo, per esempio con un biglietto da visita o un'email di \"assistenza\", infine si interviene e si ottengono gli accessi. Qui è la vittima a chiamare l'attaccante, ed è per questo che si fida.\n\nUn caso pratico. Un cliente telefona in agenzia: ha ricevuto un SMS \"dalla compagnia\" che segnala un problema sul pagamento del premio e indica un nuovo IBAN. Poco dopo lo ha chiamato un \"operatore\" che conosceva il numero di polizza e gli ha chiesto di fare subito il bonifico, altrimenti la copertura sarebbe stata sospesa. È smishing seguito da vishing, con la leva della paura di una perdita. Il consiglio al cliente: non pagare, verificare gli estremi di pagamento con l'agenzia o la compagnia ai recapiti noti; se ha già pagato, contattare subito la banca e sporgere denuncia. Per l'agenzia c'è un passo in più: chiedersi come il truffatore conoscesse il numero di polizza. Potrebbe esserci stata una fuga di dati, ed è di questo che parleremo nell'ultima lezione.",
+      "sources": [
+        {
+          "title": "Polizia Postale, Frodi online: phishing, smishing e vishing",
+          "url": "https://www.commissariatodips.it/notizie/articolo/frodi-online-phishing-smishing-vishing/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni di smishing e vishing e consigli della Polizia Postale (banche che non chiedono dati, numero noto, link digitato a mano, https, password diverse, aggiornamenti, antivirus e antispam). Il titolo originale \"Phishing SMiShing & Vishing\" nella fonte definiva solo il phishing.",
+          "source_ref": "Polizia Postale, Frodi online: phishing, smishing e vishing"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il SET \"è un tool disponibile in BT (Backtrack)\". Riferimento da indicare / possibile aggiornamento: BackTrack è una distribuzione non più aggiornata; non è stata aggiunta l'indicazione del successore perché non verificata su fonte ufficiale.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: contro il pharming \"non esistono programmi specifici se non firewall e antivirus\". Possibile aggiornamento: oggi esistono anche protezioni dei browser e dei DNS (vedi Application & URL reputation nella lezione successiva).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Precisazione didattica che il lucchetto/https indica una connessione cifrata e non l'autenticità del sito; spiegazione della differenza pratica tra pharming e phishing; esempi e caso pratico sul pagamento del premio.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Difendersi: policy, controlli e cosa fare in caso di incidente",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social engineering.pdf.pdf"
+      ],
+      "source_minutes": 20,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Difendersi e reagire",
+          "goals": [
+            "Applicare i controlli quotidiani contro l'ingegneria sociale",
+            "Conoscere i contenuti di una policy aziendale e il ruolo dell'audit",
+            "Sapere cosa fare, e in quali tempi, se i dati dei clienti sono violati"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I controlli da implementare",
+          "items": [
+            {
+              "text": "Firewall, antivirus, antispyware e filtri email installati e aggiornati."
+            },
+            {
+              "text": "Non lasciarsi \"spiare\"; usare tastiere virtuali quando disponibili."
+            },
+            {
+              "text": "Una strategia di risposta agli incidenti informatici."
+            },
+            {
+              "text": "Attenzione agli URL; niente dati critici consultati in luoghi pubblici con reti non sicure."
+            },
+            {
+              "text": "Nessun dato personale o finanziario via email; non rispondere a chi lo chiede."
+            },
+            {
+              "text": "Distruggere i documenti con dati sensibili prima di cestinarli."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La prima difesa: buon senso e prudenza",
+          "key": "Non aprire email non attendibili o di sconosciuti; verificare indirizzi e contenuti; prima di agire online, controllare la richiesta per telefono o presso gli uffici.",
+          "body": "Non esistono metodi efficaci al 100%. La verifica su un canale diverso da quello del messaggio blocca la maggior parte degli attacchi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Nessuna patch per l'uomo",
+          "key": "L'unica patch possibile per l'uomo è l'istruzione: il training, che costa fatica, tempo e soldi.",
+          "body": "Molte società fanno formazione, con risultati più o meno buoni. Tutti i dipendenti hanno policy da seguire: il problema è quanto siano efficaci e quanto vengano rispettate.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è una policy aziendale",
+          "key": "L'insieme di norme adottate unilateralmente dall'azienda per disciplinare la condotta dei dipendenti in materie specifiche, come PC, internet ed email.",
+          "body": "Va messa in sicurezza ogni comunicazione verso l'esterno, regolando email e condivisione di file. Le policy vanno aggiornate, applicate subito e scritte in modo comprensibile.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Classificare i dati",
+          "head": [
+            "Livello",
+            "Chi può riceverli",
+            "Esempio in agenzia"
+          ],
+          "rows": [
+            [
+              "1 · Dati sensibili",
+              "Nessuno: non vanno divulgati per nessun motivo",
+              "Dati sanitari dei sinistri, documenti dei clienti"
+            ],
+            [
+              "2 · Dati interni",
+              "Solo personale interno identificato",
+              "Procedure, credenziali, organigramma"
+            ],
+            [
+              "3 · Dati cedibili",
+              "Solo soggetti identificati: partner, clienti fidati",
+              "Dati di una pratica condivisi con la compagnia"
+            ],
+            [
+              "4 · Dati poco sensibili",
+              "Chiunque ne faccia richiesta",
+              "Orari e indirizzo dell'agenzia"
+            ]
+          ],
+          "lead": "Accanto alla classificazione servono procedure per identificare chi chiede e verificarne l'autorizzazione."
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa scrive la policy",
+          "items": [
+            {
+              "text": "Come si usano email e internet nel rapporto di lavoro e la casella con dominio aziendale."
+            },
+            {
+              "text": "Strumenti dati a chi tratta dati con mezzi elettronici e responsabilità nell'uso delle risorse."
+            },
+            {
+              "text": "Proprietà e controllo del corretto uso delle strutture aziendali."
+            },
+            {
+              "text": "Obbligo di segretezza sui dati aziendali e personali; misure di sicurezza; gestione delle password."
+            },
+            {
+              "text": "Blocco di determinati siti, smaltimento delle apparecchiature, eventuali segnalazioni all'autorità giudiziaria."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Gli strumenti di controllo",
+          "left": {
+            "title": "Application & URL reputation",
+            "items": [
+              "Integrata nei browser recenti",
+              "Confronta la pagina con un database di sicurezza",
+              "Avvisa se il sito è in una \"black list\" di siti malevoli"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "IT security audit",
+            "items": [
+              "Audit interno: verifica delle procedure da personale interno",
+              "Verifica la conformità dei sistemi informativi",
+              "Rapporto con le vulnerabilità e le misure correttive"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Controlli periodici su rete e componenti aiutano a contrastare gli attacchi di social engineering.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il compito dell'internal auditor",
+          "items": [
+            {
+              "text": "Assicurare una direzione d'impresa efficace e non nominalistica."
+            },
+            {
+              "text": "Garantire un accurato resoconto finanziario."
+            },
+            {
+              "text": "Massimizzare con costanza efficacia ed efficienza organizzativa."
+            },
+            {
+              "text": "Impostare un valido sistema di prevenzione e controllo delle malversazioni."
+            },
+            {
+              "text": "Nell'IT audit: revisione del processo di innovazione tecnologica, verifica e confronto innovativo, verifica della posizione tecnologica."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando l'attacco riesce: il data breach",
+          "key": "Violazione di sicurezza che comporta, accidentalmente o illecitamente, distruzione, perdita, modifica, divulgazione non autorizzata o accesso ai dati personali.",
+          "body": "Un collaboratore che consegna le credenziali del gestionale a un truffatore può causare un data breach sui dati dei clienti.",
+          "ref": "GDPR, art. 4, n. 12"
+        },
+        {
+          "layout": "steps",
+          "title": "Cosa fare in caso di incidente",
+          "steps": [
+            {
+              "label": "Avvisare subito",
+              "text": "Chi se ne accorge informa il titolare o il referente privacy. Il responsabile del trattamento informa il titolare senza ingiustificato ritardo."
+            },
+            {
+              "label": "Contenere",
+              "text": "Cambiare password, bloccare accessi, avvisare compagnia e banca se coinvolte."
+            },
+            {
+              "label": "Notificare al Garante",
+              "text": "Senza ingiustificato ritardo, se possibile entro 72 ore, salvo rischio improbabile per le persone."
+            },
+            {
+              "label": "Informare i clienti",
+              "text": "Se il rischio per loro è elevato, con linguaggio semplice e chiaro."
+            },
+            {
+              "label": "Documentare e denunciare",
+              "text": "Registrare ogni violazione; denunciare il reato alla Polizia Postale."
+            }
+          ],
+          "ref": "GDPR, artt. 33-34; Polizia Postale"
+        },
+        {
+          "layout": "split",
+          "title": "Notifica e comunicazione",
+          "left": {
+            "title": "Notifica al Garante: almeno",
+            "items": [
+              "Natura della violazione, categorie e numero approssimativo di interessati e registrazioni",
+              "Contatti del DPO o di un altro punto di contatto",
+              "Probabili conseguenze",
+              "Misure adottate o proposte"
+            ],
+            "ref": "GDPR, art. 33, par. 3"
+          },
+          "right": {
+            "title": "Ai clienti non serve se",
+            "items": [
+              "I dati erano protetti, ad esempio cifrati",
+              "Misure successive hanno scongiurato il rischio elevato",
+              "Servirebbero sforzi sproporzionati: allora comunicazione pubblica"
+            ],
+            "ref": "GDPR, art. 34, par. 3"
+          },
+          "note": "Oltre le 72 ore la notifica va motivata. Le informazioni si possono dare anche in fasi successive. La notifica si fa online sul portale del Garante.",
+          "noteRef": "GDPR, art. 33, par. 1 e 4; Garante privacy"
+        },
+        {
+          "layout": "sources",
+          "title": "A chi rivolgersi",
+          "items": [
+            {
+              "label": "Garante privacy",
+              "detail": "Notifica dei data breach con la procedura online; strumento di autovalutazione."
+            },
+            {
+              "label": "Polizia Postale",
+              "detail": "Commissariato di P.S. online: segnalazioni e denunce per reati telematici."
+            },
+            {
+              "label": "ACN · CSIRT Italia",
+              "detail": "Il team dell'Agenzia per la cybersicurezza nazionale per la risposta agli incidenti: segnalazioni su segnalazioni.acn.gov.it."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Lunedì mattina un collaboratore ammette di aver inserito venerdì le credenziali del gestionale dell'agenzia in una pagina arrivata via email \"dalla compagnia\". Nel fine settimana qualcuno ha scaricato l'anagrafica di circa 800 clienti, con recapiti e IBAN.",
+          "questions": [
+            "Che cosa si fa nelle prime ore?",
+            "Bisogna notificare al Garante e informare i clienti?",
+            "Entro quando?"
+          ],
+          "solution": "Si cambiano le credenziali, si bloccano gli accessi, si avvisano titolare, compagnia e fornitore del gestionale e si conservano email e log. È un data breach: il titolare valuta il rischio e notifica al Garante senza ingiustificato ritardo e, se possibile, entro 72 ore da quando ne è venuto a conoscenza. Con IBAN e recapiti in mano ai truffatori il rischio di frodi è probabilmente elevato: i clienti vanno informati in modo chiaro, mettendoli in guardia da false richieste di pagamento. Si documenta tutto e si sporge denuncia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quando il titolare deve notificare una violazione dei dati al Garante?",
+          "options": [
+            "Entro 30 giorni",
+            "Senza ingiustificato ritardo e, ove possibile, entro 72 ore dalla conoscenza",
+            "Solo se un cliente presenta reclamo",
+            "Entro la fine dell'anno"
+          ],
+          "answer": 1,
+          "explanation": "Art. 33 GDPR: senza ingiustificato ritardo e, ove possibile, entro 72 ore; oltre, la notifica va motivata. Non serve se è improbabile un rischio per le persone."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è, secondo il materiale, l'unica \"patch\" per l'uomo?",
+          "options": [
+            "Un antivirus più potente",
+            "La tastiera virtuale",
+            "L'istruzione e il training",
+            "Il blocco dei social network"
+          ],
+          "answer": 2,
+          "explanation": "Formazione e training costano fatica, tempo e soldi, ma sono l'unica vera difesa: le policy funzionano solo se le persone le capiscono e le applicano."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Verifica",
+              "text": "ogni richiesta su un canale diverso da quello del messaggio"
+            },
+            {
+              "value": "Training",
+              "text": "l'unica patch per l'uomo"
+            },
+            {
+              "value": "4 livelli",
+              "text": "di dati: sensibili, interni, cedibili, poco sensibili"
+            },
+            {
+              "value": "72 ore",
+              "text": "per notificare il data breach al Garante, ove possibile"
+            },
+            {
+              "value": "Rischio elevato",
+              "text": "i clienti vanno informati senza ingiustificato ritardo"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione sul social engineering passiamo dall'attacco alla difesa. Vedremo i controlli quotidiani, il ruolo delle policy aziendali, gli strumenti di controllo come la reputazione dei siti e l'audit. Poi affronteremo la domanda più pratica di tutte: che cosa fare se, nonostante tutto, l'attacco riesce e i dati dei clienti finiscono nelle mani sbagliate.\n\nPartiamo da una premessa onesta: non esistono metodi efficaci al cento per cento per proteggersi da un attacco di ingegneria sociale. Esistono però controlli che riducono molto il rischio. Il materiale ne indica diversi. Installare e mantenere aggiornati firewall, antivirus, antispyware e filtri per le email. Non lasciarsi \"spiare\" dalle persone, per esempio mentre si digita una password o si consulta una pratica. Creare una strategia di risposta agli incidenti informatici, cioè sapere prima chi fa che cosa se qualcosa va storto. Prestare attenzione agli indirizzi dei siti. Non consultare dettagli confidenziali o critici in luoghi pubblici dove non si può stabilire la sicurezza della rete, come il wi-fi di un bar o di una stazione. Non inviare informazioni sensibili via internet senza averne prima controllato la sicurezza. Non rivelare informazioni personali o finanziarie nelle email, e non rispondere alle email che le chiedono. Usare le tastiere virtuali quando sono disponibili. E assicurarsi di aver distrutto ogni documento con dati sensibili prima di cestinarlo.\n\nLa prima difesa in assoluto, però, sono il buon senso e la prudenza. In concreto: non rispondere e non aprire email non attendibili o di sconosciuti. Se arrivano email da aziende o enti con cui interagiamo online, verificare indirizzi e contenuti. E prima di fare qualsiasi azione online, controllare la veridicità della richiesta, per esempio per telefono o di persona presso gli uffici. È la regola che abbiamo ripetuto in ogni lezione: si verifica su un canale diverso da quello da cui è arrivata la richiesta.\n\nIl materiale lo dice con un'immagine efficace: non esiste una patch per l'uomo. È difficile trovare soluzioni concrete ai problemi che abbiamo visto, e l'unica patch possibile è l'istruzione, il training, che costa fatica, tempo e soldi. Molte società di sicurezza si occupano di formazione del personale, con risultati più o meno soddisfacenti. In pratica i dipendenti di qualsiasi azienda hanno policy di sicurezza da seguire: il problema è quanto queste policy siano efficaci e quanto i dipendenti siano scrupolosi nell'applicarle.\n\nChe cos'è una policy aziendale? È l'insieme di norme adottate unilateralmente dall'azienda, normalmente una grande impresa, per disciplinare la condotta dei dipendenti in materie molto specifiche, come l'uso del personal computer, la navigazione in internet o la posta elettronica. Ma anche un'agenzia di piccole dimensioni trae vantaggio da poche regole scritte e chiare. Per proteggersi dall'ingegneria sociale è consigliabile coprire e mettere in sicurezza tutte le comunicazioni verso l'esterno e regolare lo scambio di email e la condivisione di file. Le policy devono essere aggiornate e applicate tempestivamente, scritte in modo che i dipendenti possano capirle davvero, e pensate per evitare ogni tipo di \"bug\" in ambito sociale, cioè le falle che derivano dal comportamento delle persone.\n\nÈ importante suddividere le policy in base alla sicurezza della procedura svolta e al settore coinvolto. Il materiale distingue quattro livelli di dati. Ci sono dati aziendali sensibili per la privacy che non vanno divulgati per nessun motivo. Ci sono i dati interni, che vanno dati esclusivamente al personale interno: per farlo l'azienda deve adottare una procedura di identificazione del dipendente. Ci sono poi i dati cedibili all'esterno, ma solo a soggetti ben identificati, come aziende partner o clienti fidati. Infine ci sono i dati poco sensibili, che chiunque può ottenere su richiesta. Parallelamente servono corrette procedure di identificazione dell'utente e di verifica dell'autorizzazione. In un'agenzia questo significa, per esempio, che prima di comunicare al telefono lo stato di un sinistro bisogna essere sicuri di parlare davvero con il cliente, o con chi è autorizzato da lui.\n\nLa policy deve rendere esplicite diverse cose: come si usano, nel rapporto di lavoro, la posta elettronica e la rete internet; quali strumenti vengono dati ai lavoratori incaricati di trattare dati con mezzi elettronici; le responsabilità nell'uso delle risorse informatiche; la proprietà e il controllo del corretto uso delle strutture aziendali; come si usano le risorse informatiche e la casella email con dominio aziendale; l'obbligo di segretezza e la responsabilità sui dati aziendali e personali; le misure di sicurezza; la gestione delle password; il blocco preventivo dell'accesso a determinati siti; lo smaltimento delle apparecchiature; e infine le eventuali segnalazioni all'autorità giudiziaria in caso di mancato rispetto delle regole.\n\nPassiamo agli strumenti di controllo. Il primo aiuta direttamente l'utente: i browser recenti integrano sistemi di application e URL reputation. Il funzionamento è semplice: il browser consulta un database di sicurezza per verificare la pagina visitata e valutare se rientra in una sorta di \"black list\" di siti notoriamente malevoli. Se compare un avviso di sito pericoloso, non si prosegue.\n\nUn'altra tecnica di difesa è l'audit interno, o internal auditing: un'attività professionale di verifica delle procedure di un'organizzazione, svolta principalmente da personale interno. Il compito dell'internal auditor è aiutare la dirigenza di ogni livello e il vertice aziendale ad assicurare una direzione d'impresa efficace e non solo nominale, a garantire un resoconto finanziario accurato, a creare le condizioni per massimizzare costantemente efficacia ed efficienza organizzativa, e a impostare un sistema valido ed efficace di prevenzione e controllo delle malversazioni. L'IT audit, in particolare, verifica la conformità dei sistemi informativi dell'organizzazione con tre modalità: la revisione del processo di innovazione tecnologica, la verifica e il confronto innovativo, e la verifica della posizione tecnologica. Da qui si capisce quanto sia importante per le aziende fare controlli periodici sul proprio sistema informatico per contrastare gli attacchi di social engineering. Con un'analisi approfondita della rete e dei suoi componenti, questo sistema di difesa fornisce all'azienda un rapporto dettagliato con tutte le vulnerabilità, anche solo potenziali, e le misure correttive da attuare per migliorare la sicurezza interna.\n\nOra la domanda decisiva: che cosa succede se l'attacco riesce? Se un collaboratore consegna le credenziali del gestionale, se una chiavetta infetta apre la porta a un intruso, se un documento finisce nelle mani sbagliate, siamo davanti a una possibile violazione dei dati personali, il cosiddetto data breach. Il Regolamento europeo sulla protezione dei dati, il GDPR, all'articolo 4 la definisce come la violazione di sicurezza che comporta, accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso ai dati personali trasmessi, conservati o comunque trattati.\n\nIl primo passo è avvisare subito. Chi si accorge di un problema non deve nasconderlo per paura di essere rimproverato: deve informare immediatamente il titolare dell'agenzia o il referente privacy. Il GDPR prevede che il responsabile del trattamento, per esempio un fornitore che gestisce i dati per conto del titolare, informi il titolare senza ingiustificato ritardo dopo essere venuto a conoscenza della violazione. Poi si contiene il danno: si cambiano le password, si bloccano gli accessi, si avvisano la compagnia e la banca se sono coinvolte, si conservano email, messaggi e registri, che serviranno per capire che cosa è successo.\n\nPoi c'è la notifica. Secondo l'articolo 33 del GDPR, il titolare notifica la violazione all'autorità di controllo, in Italia il Garante per la protezione dei dati personali, senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza. La notifica non è necessaria se è improbabile che la violazione presenti un rischio per i diritti e le libertà delle persone. Se viene fatta dopo le 72 ore, deve indicare i motivi del ritardo. La notifica deve almeno descrivere la natura della violazione, comprese, ove possibile, le categorie e il numero approssimativo di interessati e di registrazioni coinvolte; indicare il nome e i contatti del responsabile della protezione dei dati o di un altro punto di contatto; descrivere le probabili conseguenze; descrivere le misure adottate o proposte per porvi rimedio e attenuarne gli effetti. Se non si hanno subito tutte le informazioni, si possono fornire in fasi successive, sempre senza ulteriore ingiustificato ritardo. Il Garante precisa che dal primo luglio 2021 la notifica si fa con la procedura telematica sul portale dei suoi servizi online, e mette a disposizione anche uno strumento di autovalutazione.\n\nE i clienti? L'articolo 34 stabilisce che, quando la violazione può presentare un rischio elevato per i diritti e le libertà delle persone, il titolare la comunica agli interessati senza ingiustificato ritardo, descrivendola con un linguaggio semplice e chiaro e indicando i contatti, le probabili conseguenze e le misure adottate. La comunicazione non è richiesta in tre casi: se i dati erano protetti da misure adeguate che li rendono incomprensibili a chi non è autorizzato, come la cifratura; se il titolare ha poi adottato misure che scongiurano il rischio elevato; oppure se la comunicazione richiederebbe sforzi sproporzionati, e in quel caso si fa una comunicazione pubblica o una misura simile ugualmente efficace. Il Garante può comunque chiedere al titolare di provvedere. C'è infine un obbligo che vale sempre: il titolare documenta qualsiasi violazione, anche quelle non notificate, con le circostanze, le conseguenze e i provvedimenti adottati. Il Garante suggerisce, per esempio, un apposito registro.\n\nOltre al Garante, ci sono altri interlocutori. La Polizia Postale, attraverso il Commissariato di P.S. online, consente di segnalare un reato informatico e offre indicazioni per la denuncia dei reati telematici. Il CSIRT Italia, il team dell'Agenzia per la cybersicurezza nazionale dedicato alla risposta agli incidenti, pubblica allerta su minacce e campagne in corso e mette a disposizione un portale per segnalare un incidente informatico. Per denunce ed esposti, precisa la stessa Agenzia, ci si rivolge alle Forze di polizia.\n\nChiudiamo con un caso pratico. Lunedì mattina un collaboratore ammette di aver inserito venerdì le credenziali del gestionale in una pagina arrivata via email \"dalla compagnia\". Nel fine settimana qualcuno ha scaricato l'anagrafica di circa ottocento clienti, con recapiti e IBAN. Nelle prime ore si cambiano le credenziali, si bloccano gli accessi, si avvisano titolare, compagnia e fornitore del gestionale e si conservano email e registri. È un data breach: il titolare valuta il rischio e notifica al Garante senza ingiustificato ritardo, se possibile entro 72 ore. Con IBAN e recapiti nelle mani di truffatori il rischio di frodi è probabilmente elevato, quindi i clienti vanno informati in modo chiaro e messi in guardia da false richieste di pagamento. Si documenta tutto e si sporge denuncia.\n\nRicapitoliamo. Si verifica ogni richiesta su un canale diverso. La formazione è l'unica patch per l'uomo. Le policy classificano i dati e dicono chi può riceverli. E se l'attacco riesce, si avvisa subito, si contiene il danno, si notifica al Garante entro 72 ore ove possibile e si informano i clienti quando il rischio è elevato.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante privacy",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell'Unione+europea+127+del+23+maggio+2018"
+        },
+        {
+          "title": "Garante privacy, Violazioni di dati personali (data breach)",
+          "url": "https://www.garanteprivacy.it/regolamentoue/databreach"
+        },
+        {
+          "title": "Polizia Postale, Commissariato di P.S. online (segnalazioni e denunce)",
+          "url": "https://www.commissariatodips.it/"
+        },
+        {
+          "title": "ACN, CSIRT Italia",
+          "url": "https://www.acn.gov.it/portale/csirt-italia"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di violazione dei dati personali (art. 4, n. 12 GDPR), notifica al Garante entro 72 ore con contenuto minimo e informazioni in fasi successive (art. 33), comunicazione agli interessati e casi di esclusione (art. 34), obbligo di documentare ogni violazione.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 4, 33, 34"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Notifica tramite procedura telematica sul portale del Garante dal 1° luglio 2021 e strumento di autovalutazione.",
+          "source_ref": "Garante privacy, pagina Data breach"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "A chi rivolgersi: Polizia Postale (Commissariato di P.S. online, segnalazioni e denunce) e CSIRT Italia dell'ACN (portale segnalazioni.acn.gov.it; per denunce ci si rivolge alle Forze di polizia).",
+          "source_ref": "commissariatodips.it; acn.gov.it/portale/csirt-italia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la classificazione dei dati in quattro livelli e l'elenco dei contenuti della policy; aggiunti esempi riferiti all'agenzia in tabella. La fonte attribuisce le policy \"normalmente\" alle grandi imprese: mantenuto, con l'invito anche alle piccole agenzie ad avere regole scritte.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le tre modalità dell'IT audit (\"revisione del processo di innovazione tecnologica; verifica e confronto innovativo; verifica della posizione tecnologica\"), riportate testualmente perché la fonte non le spiega. Riferimento da indicare.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    }
+  ]
+}

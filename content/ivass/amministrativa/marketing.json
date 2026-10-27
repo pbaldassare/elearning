@@ -1,0 +1,1478 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Marketing e tecniche di comunicazione",
+  "topic_order": 5,
+  "scope": "core",
+  "source_minutes": 61,
+  "lesson_offset": 0,
+  "lessons": [
+    {
+      "title": "La comunicazione di marketing: obiettivi, processo e canali",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /La comunicazione di marketing.pdf.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Marketing e comunicazione.pdf",
+        "Corso Ivass 60 ore/Materiale /Marketing e comunicazione.pdf.pdf"
+      ],
+      "source_minutes": 18,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "La comunicazione di marketing",
+          "goals": [
+            "Capire a che cosa serve la comunicazione di marketing e con chi comunica l'impresa",
+            "Riconoscere i nove elementi del processo di comunicazione e i principali canali",
+            "Sapere quali regole valgono per la pubblicità di un intermediario assicurativo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la comunicazione di marketing",
+          "key": "È l'insieme di messaggi e di media che si usano per comunicare con il mercato di riferimento.",
+          "body": "Ha tre aspetti principali: la comunicazione di marketing generale, il posizionamento e il messaggio. Per un intermediario vuol dire farsi conoscere, farsi ricordare e spiegare perché vale la pena rivolgersi a lui.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è il marketing",
+          "key": "Un processo sociale e manageriale con cui persone e gruppi ottengono ciò che vogliono e di cui hanno bisogno, creando e scambiando valore.",
+          "body": "Un'altra definizione: è il processo con cui le imprese creano valore per i clienti e costruiscono con loro relazioni solide, per ottenere in cambio altro valore. Nell'era del web e dei social media ha preso il sopravvento il marketing digitale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Con chi comunica l'impresa",
+          "lead": "Per raggiungere i propri obiettivi di marketing l'impresa deve \"vendere\" le proprie idee a persone esterne e interne all'organizzazione, comunicando bene il valore e le caratteristiche di ciò che offre.",
+          "facts": [
+            {
+              "label": "Fornitori",
+              "text": "Per un'agenzia: le imprese mandanti, i fornitori di servizi e di software."
+            },
+            {
+              "label": "Clienti",
+              "text": "Quelli attuali e quelli potenziali."
+            },
+            {
+              "label": "Concorrenti",
+              "text": "Altre agenzie, broker, banche, canali online."
+            },
+            {
+              "label": "Investitori",
+              "text": "Soci e finanziatori dell'attività."
+            },
+            {
+              "label": "Politica e opinione pubblica",
+              "text": "La comunità in cui l'agenzia opera."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "I due obiettivi",
+          "left": {
+            "title": "Creare e mantenere la domanda",
+            "items": [
+              "Far nascere l'interesse per il prodotto o il servizio",
+              "Mantenerlo nel tempo, anche con i clienti già in portafoglio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Ridurre il ciclo di vendita",
+            "items": [
+              "Aiutare le vendite della rete distributiva a individuare e coinvolgere il cliente",
+              "Capire, con ricerche di mercato e analisi delle conversazioni, come accelerare il processo di vendita"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Abbreviare il ciclo di vendita non vuol dire fare pressione: vuol dire arrivare prima e meglio al bisogno reale del cliente.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Il processo di comunicazione in nove elementi",
+          "head": [
+            "Elemento",
+            "Che cosa è"
+          ],
+          "rows": [
+            [
+              "1 · Fonte emittente",
+              "Chi origina la comunicazione e definisce il messaggio."
+            ],
+            [
+              "2 · Codificazione",
+              "L'idea è tradotta in simboli, immagini, linguaggio, per comporre un messaggio comprensibile."
+            ],
+            [
+              "3 · Messaggio",
+              "L'insieme di simboli, immagini e suoni che rappresenta l'idea del mittente."
+            ],
+            [
+              "4 · Canali",
+              "I mezzi di trasmissione: personali (sociali, aziendali, tecnici) o impersonali (mass media, eventi, atmosfera)."
+            ],
+            [
+              "5 · Decodifica",
+              "Il ricevente interpreta i simboli con le conoscenze che ha."
+            ],
+            [
+              "6 · Ricevente",
+              "La persona che riceve: il target scelto dal mittente."
+            ],
+            [
+              "7 · Risposta",
+              "La reazione del ricevente, dopo aver valutato il contenuto."
+            ],
+            [
+              "8 · Feedback",
+              "La parte della risposta che torna alla fonte."
+            ],
+            [
+              "9 · Rumore",
+              "Ogni interferenza non controllabile che fa arrivare un messaggio diverso da quello trasmesso."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il pubblico e lo scopo del messaggio",
+          "key": "Lo scopo del messaggio è convertire gli scettici in sostenitori, dimostrando come il prodotto o il servizio risolve il problema del target.",
+          "body": "Il cliente target è il \"pubblico\". Il potenziale cliente cerca una soluzione al proprio problema e, consapevolmente o no, cerca la prova che il problema può davvero essere risolto. Il messaggio deve poi viaggiare sui canali giusti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I principali canali di comunicazione",
+          "head": [
+            "Canale",
+            "Che cosa è",
+            "Nella pratica dell'intermediario"
+          ],
+          "rows": [
+            [
+              "1 · Pubblicità",
+              "Messaggio promozionale trasmesso pagando uno spazio pubblicitario.",
+              "Annuncio sul giornale locale, cartellone, inserzione online."
+            ],
+            [
+              "2 · Pubbliche relazioni",
+              "Comunicare con i propri mezzi a clienti attuali e potenziali e a chi può diventare partner.",
+              "Incontri con commercialisti, associazioni, aziende del territorio."
+            ],
+            [
+              "3 · Vendita personale",
+              "Il rapporto diretto con il cliente: è fondamentale per convincerlo a sottoscrivere una polizza.",
+              "Il colloquio in agenzia o a domicilio."
+            ],
+            [
+              "4 · Promozioni",
+              "Uno sforzo aziendale che coinvolge più forme di comunicazione e dà una spinta alle vendite.",
+              "Una campagna stagionale coordinata con l'impresa."
+            ],
+            [
+              "5 · Internet marketing",
+              "È insieme pubblicità e pubbliche relazioni: campagne a pagamento e pagine o profili social gratuiti.",
+              "Sito, profilo social, inserzioni a pagamento."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Dalla comunicazione di massa a quella mirata",
+          "cols": [
+            {
+              "title": "Marketing tradizionale",
+              "items": [
+                "Analisi, pianificazione, realizzazione e controllo delle decisioni su prodotto, prezzo, promozione e comunicazione",
+                "Basato sui mass media: televisione, radio, giornali",
+                "Ha reso possibile la società di massa"
+              ]
+            },
+            {
+              "title": "Nuova comunicazione",
+              "items": [
+                "Il cliente cerca da solo informazioni in rete e riscontri nei blog",
+                "Messaggi mirati a gruppi ben definiti, segmentati per esigenze",
+                "Nuove tecnologie di comunicazione",
+                "Il cliente è un elemento attivo del processo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Dal tradizionale al digitale",
+          "key": "La vera difficoltà oggi è combinare mezzi tradizionali e digitali in un'unica campagna efficace.",
+          "body": "Vecchie e nuove forme si sovrappongono: i media tradizionali adottano innovazioni tipiche dei social e i nuovi media usano caratteristiche dei media classici. L'impresa deve diventare fornitrice di informazioni: sono i contenuti e i servizi del sito web ad attirare il cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole sulla pubblicità assicurativa",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni, art. 119-bis e art. 182",
+              "detail": "Informazioni e pubblicità devono essere corrette, chiare e non fuorvianti. Richiamati dai Regolamenti IVASS 40 e 41 del 2018."
+            },
+            {
+              "label": "Regolamento IVASS n. 40/2018",
+              "detail": "Definisce la pubblicità (art. 2) e fissa le regole di comportamento dei distributori (art. 54)."
+            },
+            {
+              "label": "Regolamento IVASS n. 41/2018",
+              "detail": "Pubblicità dei prodotti assicurativi da parte dell'impresa (artt. 30-32)."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "La pubblicità dell'intermediario",
+          "items": [
+            {
+              "text": "È pubblicità qualsiasi messaggio, con qualsiasi mezzo e in qualsiasi modo, che ha lo scopo di promuovere prodotti assicurativi.",
+              "ref": "Reg. 40/2018, art. 2"
+            },
+            {
+              "text": "Le informazioni sull'attività e sui prodotti, comprese le comunicazioni pubblicitarie, sono corrette, chiare, non fuorvianti, imparziali e complete.",
+              "ref": "Reg. 40/2018, art. 54, c. 2"
+            },
+            {
+              "text": "Le comunicazioni pubblicitarie preparate dagli intermediari sono sempre chiaramente riconoscibili come tali.",
+              "ref": "Reg. 40/2018, art. 54, c. 2"
+            },
+            {
+              "text": "Sono soggette alla preventiva autorizzazione delle imprese preponenti.",
+              "ref": "Reg. 40/2018, art. 54, c. 2"
+            },
+            {
+              "text": "Per la pubblicità dell'impresa: messaggio che non induce in errore su caratteristiche, garanzie e rischi, con l'avvertenza \"Prima della sottoscrizione leggere il set informativo\".",
+              "ref": "Reg. 41/2018, artt. 30-31"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente organizza una serata informativa sulla protezione della casa nel suo comune. Prepara un volantino con la scritta \"Casa protetta al 100%, risarcimento garantito in ogni caso\" e lo pubblica anche sulla pagina social dell'agenzia, senza mostrarlo all'impresa mandante.",
+          "questions": [
+            "Il volantino è una comunicazione pubblicitaria?",
+            "Che cosa non va nel testo e nella procedura?"
+          ],
+          "solution": "Sì: promuove prodotti assicurativi, quindi è pubblicità, sia su carta sia sul social. Il testo è fuorviante, perché ogni polizza ha esclusioni, franchigie e limiti, e \"garantito\" fa pensare a una prestazione certa. Inoltre la comunicazione andava autorizzata prima dall'impresa preponente. Meglio un messaggio che spieghi il problema (i danni alla casa), la soluzione (una copertura su misura) e inviti a un incontro, chiaramente riconoscibile come pubblicità."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo il materiale del corso, qual è lo scopo del messaggio di marketing?",
+          "options": [
+            "Riempire gli spazi pubblicitari acquistati",
+            "Convertire gli scettici in sostenitori, dimostrando come il prodotto risolve il problema del target",
+            "Far conoscere il nome dell'agenzia, indipendentemente dal prodotto",
+            "Ridurre il budget di comunicazione"
+          ],
+          "answer": 1,
+          "explanation": "Il messaggio deve dimostrare che il prodotto o il servizio risolve il problema del cliente, così da trasformare chi è scettico in un sostenitore."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nel processo di comunicazione, che cos'è il \"rumore\"?",
+          "options": [
+            "Il volume della pubblicità radiofonica",
+            "La risposta che la fonte riceve dal destinatario",
+            "Ogni interferenza non controllabile che fa arrivare al ricevente un messaggio diverso da quello trasmesso",
+            "Il canale impersonale di comunicazione"
+          ],
+          "answer": 2,
+          "explanation": "Il rumore è l'interferenza che altera il messaggio e può provocare una reazione indesiderata. La risposta che torna alla fonte è invece il feedback."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2",
+              "text": "obiettivi: creare e mantenere la domanda, ridurre il ciclo di vendita"
+            },
+            {
+              "value": "9",
+              "text": "elementi del processo di comunicazione, dalla fonte al rumore"
+            },
+            {
+              "value": "5",
+              "text": "canali: pubblicità, PR, vendita personale, promozioni, internet"
+            },
+            {
+              "value": "Art. 54",
+              "text": "Reg. 40/2018: pubblicità chiara, non fuorviante, riconoscibile e autorizzata dall'impresa"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo che cosa si intende per comunicazione di marketing, quali obiettivi persegue, come funziona il processo di comunicazione e quali sono i canali principali. In chiusura colleghiamo tutto alle regole che un intermediario assicurativo deve rispettare quando fa pubblicità.\n\nPartiamo dalla definizione. La comunicazione di marketing è l'insieme dei messaggi e dei mezzi che un'impresa usa per comunicare con il proprio mercato di riferimento. Comprende tre aspetti: la comunicazione di marketing in senso generale, il posizionamento, cioè l'immagine che vogliamo avere agli occhi dei clienti, e il messaggio vero e proprio. Per un'agenzia o un broker significa farsi conoscere nel territorio, farsi ricordare e spiegare perché conviene rivolgersi proprio a lui.\n\nMa che cos'è il marketing? Una definizione classica lo descrive come un processo sociale e manageriale con cui persone e gruppi ottengono ciò che vogliono e di cui hanno bisogno, creando e scambiando valore. Un'altra definizione mette al centro la relazione: è il processo con cui le imprese creano valore per i clienti e costruiscono con loro relazioni solide, per ottenere in cambio un ulteriore valore. Nel nostro settore questa seconda lettura è particolarmente adatta: una polizza dura anni, e il valore per l'intermediario nasce dal rapporto nel tempo, dai rinnovi, dalla fiducia. Oggi, nell'era del web e dei social media, ha preso il sopravvento il marketing digitale, che vedremo nella terza lezione.\n\nL'impresa, per realizzare i propri obiettivi di marketing, deve riuscire a vendere le proprie idee alle persone esterne e interne all'organizzazione. Per farlo deve comunicare in modo efficace il valore e le caratteristiche di ciò che offre. I soggetti con cui comunica sono i fornitori, i clienti, i concorrenti, gli investitori, la politica e l'opinione pubblica. Pensiamo a un'agenzia: comunica con le imprese mandanti, con i clienti attuali e potenziali, si confronta con altre agenzie, con i broker e con i canali online, parla con soci e finanziatori e con la comunità locale.\n\nLa comunicazione e il marketing hanno due obiettivi principali. Il primo è creare e mantenere la domanda per il prodotto o il servizio. Il secondo è ridurre il ciclo di vendita. Abbreviare il ciclo di vendita significa aiutare le vendite della rete distributiva, individuando e coinvolgendo il cliente. Con le ricerche di mercato e con l'analisi delle conversazioni con i clienti si capisce come accelerare il processo. Attenzione però: non si tratta di mettere fretta al cliente, ma di arrivare prima e meglio al suo bisogno reale.\n\nVediamo ora come funziona il processo di comunicazione. Gli elementi sono nove. Tutto parte dalla fonte emittente, cioè il soggetto da cui nasce la comunicazione e che definisce il messaggio. Segue la codificazione: l'idea viene tradotta in simboli, immagini, linguaggio e altri codici, in modo da comporre un messaggio comprensibile e capace di influenzare chi lo riceve. Il messaggio è proprio questo insieme di simboli, immagini e suoni. Poi ci sono i canali, cioè i mezzi scelti per trasmetterlo: possono essere personali, come i canali sociali, aziendali e tecnici, oppure impersonali, come i mezzi di comunicazione di massa, gli eventi, l'atmosfera.\n\nDall'altra parte c'è la decodifica: il ricevente interpreta i simboli con le conoscenze che ha. Il ricevente è la persona a cui arriva la comunicazione, cioè il target scelto dal mittente. La risposta è la reazione del ricevente dopo aver valutato il contenuto, e il feedback è la parte di questa risposta che torna alla fonte. Infine c'è il rumore: qualsiasi interferenza, provocata da fattori non controllabili, che fa arrivare al destinatario una comunicazione diversa da quella trasmessa e può produrre una reazione indesiderata. Un esempio concreto: un'agenzia scrive in un post \"franchigia zero\" intendendo un caso specifico, ma il cliente capisce che non pagherà mai nulla. Il messaggio è stato decodificato male: è rumore, e rischia di diventare un reclamo.\n\nChi è il nostro pubblico? Il cliente target. Il potenziale cliente sta cercando una soluzione a un proprio problema e, consapevolmente o meno, cerca la prova che il problema possa davvero essere risolto. Lo scopo del messaggio è quindi convertire gli scettici in sostenitori: il messaggio deve dimostrare come il prodotto o il servizio risolve il problema del target, e deve essere veicolato attraverso i canali giusti.\n\nI canali principali sono cinque. La pubblicità trasmette un messaggio promozionale in cambio del pagamento di uno spazio. Le pubbliche relazioni sono la scelta dell'azienda o del professionista di comunicare con i propri mezzi, sia ai clienti attuali e potenziali sia ad aziende e professionisti interessati a collaborare: pensiamo ai rapporti con commercialisti o associazioni di categoria. La vendita personale è fondamentale per convincere il cliente a sottoscrivere una polizza: è il colloquio, il momento in cui si capiscono le esigenze. Le promozioni sono uno sforzo aziendale che coinvolge spesso più forme di comunicazione e vanno organizzate per dare una buona spinta alle vendite. Infine l'internet marketing, che tecnicamente è sia pubblicità sia pubbliche relazioni, perché si comunica con campagne a pagamento ma anche con le proprie pagine e i propri profili social, gratuitamente.\n\nIl contesto è cambiato. Il marketing tradizionale è il processo di analisi, pianificazione, realizzazione e controllo delle decisioni su prodotto, prezzo, promozione e comunicazione, e si è basato sui mass media: televisione, radio e giornali, che hanno reso possibile la società di massa. Oggi i potenziali clienti non si affidano più solo alle informazioni delle imprese: con una ricerca veloce in internet trovano le informazioni da soli e cercano riscontri nei blog. Si passa da una comunicazione rivolta alla massa a una comunicazione mirata a gruppi ben definiti, segmentati in base alle esigenze, e nascono nuove tecnologie di comunicazione.\n\nSiamo in una fase di transizione, in cui vecchie e nuove forme si intrecciano: i media tradizionali incorporano innovazioni tipiche dei social, e i nuovi media usano caratteristiche dei media classici. La vera difficoltà è combinare i due mondi in una campagna efficace. Cambia anche la struttura dell'impresa: deve pensare a come diventare fornitrice di informazioni, sapendo di avere davanti un cliente nuovo, che partecipa attivamente al processo. Sono le informazioni, i contenuti e i servizi offerti dal sito web ad attirare il cliente.\n\nFin qui il marketing. Ma un intermediario assicurativo non comunica liberamente come un negozio qualsiasi: ci sono regole precise. Il Regolamento IVASS numero 40 del 2018 definisce pubblicità qualsiasi messaggio, diffuso con ogni mezzo e in qualunque modo, che ha la finalità di promuovere prodotti assicurativi. Quindi anche un post, una storia sui social o un volantino. L'articolo 54, sulle regole generali di comportamento, chiede ai distributori di comportarsi con equità, onestà, professionalità, correttezza e trasparenza, nel miglior interesse dei clienti. E stabilisce che le informazioni sull'attività e sui prodotti, comprese le comunicazioni pubblicitarie, siano corrette, chiare, non fuorvianti, imparziali e complete, come prevede l'articolo 119-bis del Codice delle assicurazioni. Le comunicazioni pubblicitarie preparate dagli intermediari devono essere sempre chiaramente riconoscibili come tali e sono soggette alla preventiva autorizzazione delle imprese preponenti.\n\nPer la pubblicità fatta dall'impresa, il Regolamento IVASS numero 41 del 2018 aggiunge altri principi, in coerenza con l'articolo 182 del Codice: chiarezza e correttezza, conformità al set informativo, un messaggio che non induce in errore su caratteristiche, garanzie e rischi, e l'avvertenza \"Prima della sottoscrizione leggere il set informativo\". Parole come \"garantito\" si possono usare solo se la garanzia è davvero prestata dall'impresa. Sono regole pensate per l'impresa, ma danno all'intermediario un ottimo metro di giudizio.\n\nProviamo con un caso. Un agente organizza una serata sulla protezione della casa e prepara un volantino con la frase \"Casa protetta al 100 per cento, risarcimento garantito in ogni caso\", che pubblica anche sulla pagina social dell'agenzia senza mostrarlo all'impresa. È pubblicità? Sì, perché promuove prodotti assicurativi, sia su carta sia online. Il testo è fuorviante: ogni polizza ha esclusioni, franchigie e massimali, e la parola garantito fa credere a una prestazione certa. E la procedura è sbagliata, perché la comunicazione andava autorizzata prima dall'impresa preponente. Un messaggio corretto parte dal problema del cliente, propone una soluzione su misura e invita a un incontro.\n\nRicapitolando: due obiettivi, creare la domanda e accorciare il ciclo di vendita; nove elementi nel processo di comunicazione, dalla fonte al rumore; cinque canali principali. E per l'intermediario, una regola di fondo: la pubblicità deve essere chiara, non fuorviante, riconoscibile come tale e autorizzata dall'impresa.",
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Regolamento IVASS n. 41 del 2 agosto 2018 (testo originario)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n41/Regolamento_IVASS_41_del_2_agosto_2018.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Unificati i contenuti della comunicazione di marketing (corso totale) con quelli del modulo Marketing e comunicazione del 60 ore: soggetti con cui comunica l'impresa, nove elementi del processo, definizione di marketing, passaggio dal tradizionale al digitale.",
+          "source_ref": "Materiale originale (60 ore, nuovo materiale)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di pubblicità del Regolamento IVASS 40/2018 e regole generali di comportamento: comunicazioni pubblicitarie corrette, chiare, non fuorvianti, imparziali e complete, riconoscibili e preventivamente autorizzate dalle imprese preponenti.",
+          "source_ref": "Reg. IVASS 40/2018, art. 2 e art. 54, c. 1-2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Principi della pubblicità dei prodotti dell'impresa: chiarezza, conformità al set informativo, avvertenza obbligatoria, uso del termine \"garantito\".",
+          "source_ref": "Reg. IVASS 41/2018, artt. 30-31 (testo originario)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi pratici (rumore in un post, volantino di agenzia) e caso pratico sulla pubblicità non autorizzata.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Strategia, analisi SWOT e piano di marketing",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /La comunicazione di marketing.pdf.pdf",
+        "Corso Ivass 60 ore/Materiale /Strategie Efficaci nel Marketing e Comunicazione nell'Industria Assicurativa.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /- Marketing e tecniche di comunicazione /strategie efficaci di marketing.mp4",
+        "Corso Ivass 60 ore/Materiale /Tecniche Avanzate di Vendita nel contesto assicurativo (3).pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /- Marketing e tecniche di comunicazione /Tecniche avanzate di vendita nel contesto assicurativo.mp4"
+      ],
+      "source_minutes": 17,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Strategia e piano di marketing",
+          "goals": [
+            "Impostare una strategia di comunicazione in cinque passi",
+            "Usare l'analisi SWOT e le quattro fasi del piano di marketing",
+            "Applicare le tecniche di vendita nel rispetto delle regole sulle esigenze del cliente"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Strategia in cinque passi",
+          "steps": [
+            {
+              "label": "1 · Ricerche di mercato",
+              "text": "Capire chi sono i clienti, che cosa chiedono, che cosa fanno i concorrenti."
+            },
+            {
+              "label": "2 · Prodotti promozionali ed eventi",
+              "text": "Abbinare prodotti promozionali e organizzare eventi dedicati."
+            },
+            {
+              "label": "3 · Materiali stampati",
+              "text": "Brochure, volantini, biglietti da visita."
+            },
+            {
+              "label": "4 · Sito web aziendale",
+              "text": "Il punto di incontro tra chi offre e chi cerca."
+            },
+            {
+              "label": "5 · Social network",
+              "text": "Essere presenti dove i clienti si informano."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Obiettivi, target e budget",
+          "key": "Stabilire gli obiettivi e sviluppare un piano di comunicazione sono fasi fondamentali dell'analisi preliminare.",
+          "body": "Bisogna conoscere il target e fissare un budget, in base al quale acquistare gli spazi pubblicitari. Sono utili anche i comunicati stampa. L'attività promozionale comprende eventi speciali, come sconti e combinazioni di servizi. Gli strumenti di analisi web mostrano traffico, tipi di utenti e contenuti che hanno generato più richieste.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "L'analisi SWOT",
+          "key": "Una tecnica per capire punti di forza e di debolezza e individuare opportunità e minacce.",
+          "body": "Forze e debolezze sono spesso interne all'organizzazione; opportunità e minacce riguardano in genere fattori esterni. Per questo la SWOT è chiamata anche matrice interna-esterna.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le domande della SWOT",
+          "head": [
+            "Quadrante",
+            "Domande chiave",
+            "Esempio in agenzia"
+          ],
+          "rows": [
+            [
+              "S · Punti di forza",
+              "Quali vantaggi abbiamo? Che cosa facciamo meglio degli altri? Quali risorse uniche? Che cosa vedono i clienti come nostri punti forti? Per quali fattori si ottiene una vendita? Qual è la nostra USP?",
+              "Assistenza sinistri rapida e personale."
+            ],
+            [
+              "W · Punti di debolezza",
+              "Che cosa si potrebbe migliorare? Che cosa evitare? Quale parte del target percepisce più facilmente le debolezze? Quali fattori fanno perdere vendite?",
+              "Nessuna presenza online, orari ridotti."
+            ],
+            [
+              "O · Opportunità",
+              "Quali opportunità migliori si vedono? Quali tendenze si possono sfruttare?",
+              "Nuove famiglie e nuove imprese in zona."
+            ],
+            [
+              "T · Minacce",
+              "Quali ostacoli? Che cosa fanno i concorrenti? La tecnologia minaccia la nostra posizione? Ci sono problemi economici interni? Quanto pesano le debolezze?",
+              "Comparatori online e vendita diretta."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il piano di marketing in quattro fasi",
+          "steps": [
+            {
+              "label": "Segmentazione",
+              "text": "Dividere il mercato in gruppi distinti."
+            },
+            {
+              "label": "Targeting",
+              "text": "Decidere a quali gruppi rivolgersi."
+            },
+            {
+              "label": "Posizionamento",
+              "text": "Stabilire come vogliamo essere percepiti dal gruppo scelto."
+            },
+            {
+              "label": "Messaggistica",
+              "text": "Creare un messaggio specifico per influenzare quel gruppo."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Segmentazione e targeting",
+          "left": {
+            "title": "Segmentazione",
+            "items": [
+              "Dividere i potenziali clienti in gruppi aumenta il successo di ogni messaggio",
+              "Chi sono i potenziali clienti?",
+              "In quanti sottogruppi dividerli?",
+              "In che cosa si differenziano?"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Targeting",
+            "items": [
+              "Comunicare con il segmento giusto, per ottenere il miglior tasso di risposta",
+              "I metodi scelti devono rispettare gli obiettivi del piano"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Nel settore assicurativo la segmentazione permette di adattare il messaggio alle esigenze di ciascun gruppo e rende più efficaci le campagne.",
+          "noteRef": "Materiale originale (Strategie efficaci)"
+        },
+        {
+          "layout": "concept",
+          "title": "Posizionamento e brand",
+          "key": "Il posizionamento è lo sviluppo dell'immagine dell'azienda o del prodotto che i clienti devono percepire. Il branding è uno strumento potente per ottenerlo.",
+          "body": "La disponibilità dei clienti a pagare di più grazie al posizionamento si chiama brand equity. Un'identità di marca forte e distintiva trasmette fiducia, coerenza e professionalità: elementi decisivi nella scelta di chi ci assicura.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Gli obiettivi del messaggio pubblicitario",
+          "lead": "Devono essere inclusi negli obiettivi pubblicitari e collegati al piano di marketing.",
+          "facts": [
+            {
+              "label": "Informare",
+              "text": "Far conoscere l'azienda e i prodotti, per ottenere un vantaggio competitivo."
+            },
+            {
+              "label": "Persuadere",
+              "text": "Generare una risposta immediata, di solito la vendita."
+            },
+            {
+              "label": "Ricordare",
+              "text": "Mantenere l'attenzione e l'interesse del pubblico."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Esempi di pubblicità e scelta del canale",
+          "head": [
+            "Strumenti",
+            "Esempi"
+          ],
+          "rows": [
+            [
+              "Spazi e media",
+              "Manifesti su strada, comunicazione nei negozi, riviste e giornali, TV e cinema, radio."
+            ],
+            [
+              "Leve promozionali",
+              "Buoni, sconti, concorsi, incentivi di fidelizzazione."
+            ],
+            [
+              "Relazioni",
+              "Pubbliche relazioni."
+            ],
+            [
+              "Come scegliere",
+              "La scelta dei media è sempre più difficile: è un compromesso tra il numero di persone da raggiungere e il budget."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Strategie efficaci nel settore assicurativo",
+          "head": [
+            "Strategia",
+            "Perché funziona"
+          ],
+          "rows": [
+            [
+              "Segmentazione",
+              "Messaggi adatti alle esigenze di ogni gruppo."
+            ],
+            [
+              "Brand identity forte",
+              "Ci distingue in un mercato affollato."
+            ],
+            [
+              "Piattaforme digitali",
+              "Social, siti ottimizzati e campagne online raggiungono un pubblico più ampio in modo mirato."
+            ],
+            [
+              "Contenuti coinvolgenti",
+              "Blog e video didattici ci posizionano come esperti e creano una connessione emotiva."
+            ],
+            [
+              "Relazioni con i clienti",
+              "Comunicazione aperta e chiara, su canali tradizionali e digitali."
+            ],
+            [
+              "Dati e personalizzazione",
+              "Capire i comportamenti e personalizzare offerte e messaggi."
+            ],
+            [
+              "Comunità",
+              "Eventi locali e cause sociali costruiscono fiducia."
+            ]
+          ],
+          "ref": "Materiale originale (Strategie efficaci)"
+        },
+        {
+          "layout": "steps",
+          "title": "Tecniche avanzate di vendita",
+          "steps": [
+            {
+              "label": "Personalizzare",
+              "text": "Analizzare a fondo esigenze finanziarie e aspettative, per proposte su misura."
+            },
+            {
+              "label": "Gestire le obiezioni",
+              "text": "Con empatia e chiarezza, per superare gli ostacoli e consolidare la fiducia."
+            },
+            {
+              "label": "Essere trasparenti",
+              "text": "Spiegare con chiarezza i benefici e rispondere apertamente alle domande."
+            },
+            {
+              "label": "Restare aggiornati",
+              "text": "Tendenze del settore, analisi dei dati, piattaforme digitali."
+            },
+            {
+              "label": "Trasmettere passione",
+              "text": "L'entusiasmo aiuta il cliente a decidere in modo consapevole."
+            }
+          ],
+          "ref": "Materiale originale (Tecniche avanzate di vendita)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Personalizzare secondo le regole",
+          "items": [
+            {
+              "text": "Proponi solo contratti coerenti con le richieste ed esigenze del cliente.",
+              "ref": "Reg. 40/2018, art. 58, c. 1"
+            },
+            {
+              "text": "Prima della firma chiedi età, salute, lavoro, nucleo familiare, situazione finanziaria e assicurativa, aspettative, coperture già in essere, se pertinenti.",
+              "ref": "art. 58, c. 2"
+            },
+            {
+              "text": "Dai informazioni oggettive e comprensibili su caratteristiche, durata, costi e limiti della copertura.",
+              "ref": "art. 58, c. 4"
+            },
+            {
+              "text": "Conserva traccia documentale di questa attività.",
+              "ref": "art. 58, c. 8"
+            },
+            {
+              "text": "Le promozioni seguono procedure e istruzioni delle imprese per cui operi.",
+              "ref": "art. 54, c. 1, lett. b"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia di un comune di provincia ha clienti soprattutto anziani e RC auto. Nel paese si sono trasferite molte giovani famiglie e hanno aperto piccole imprese artigiane. L'agenzia non ha un sito e i giovani confrontano i prezzi online.",
+          "questions": [
+            "Come si legge la situazione con la SWOT?",
+            "Quale segmento scegliere e con quale messaggio?"
+          ],
+          "solution": "Forza: conoscenza del territorio e assistenza personale. Debolezza: assenza online. Opportunità: giovani famiglie e artigiani. Minaccia: comparatori e vendita diretta. Un target possibile sono le giovani famiglie: messaggio sulla protezione del reddito e della casa, con un incontro di analisi delle esigenze. Canali: sito, profilo social, evento locale. Nel colloquio si raccolgono le esigenze come chiede l'art. 58 del Reg. 40/2018."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nell'analisi SWOT, quali elementi sono in genere esterni all'organizzazione?",
+          "options": [
+            "Punti di forza e punti di debolezza",
+            "Opportunità e minacce",
+            "Punti di forza e opportunità",
+            "Solo le minacce"
+          ],
+          "answer": 1,
+          "explanation": "Forze e debolezze sono spesso interne; opportunità e minacce riguardano fattori esterni. Per questo la SWOT è detta matrice interna-esterna."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è la brand equity?",
+          "options": [
+            "Il budget destinato alla pubblicità del marchio",
+            "La disponibilità dei clienti a pagare di più grazie al posizionamento del prodotto",
+            "Il numero di clienti che riconoscono il logo",
+            "La quota di mercato dell'impresa"
+          ],
+          "answer": 1,
+          "explanation": "Il materiale del corso definisce brand equity la capacità di ottenere un prezzo più alto grazie al posizionamento."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "5",
+              "text": "passi: ricerche, eventi, stampati, sito, social"
+            },
+            {
+              "value": "SWOT",
+              "text": "forze e debolezze interne, opportunità e minacce esterne"
+            },
+            {
+              "value": "4",
+              "text": "fasi: segmentazione, targeting, posizionamento, messaggistica"
+            },
+            {
+              "value": "3",
+              "text": "obiettivi del messaggio: informare, persuadere, ricordare"
+            },
+            {
+              "value": "Art. 58",
+              "text": "personalizzare vuol dire partire da richieste ed esigenze del cliente"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa seconda lezione passiamo dalla teoria della comunicazione alla strategia: come si imposta un piano, come si analizza la propria posizione con la SWOT, come si sceglie il pubblico e il messaggio. Chiudiamo con le tecniche di vendita e con le regole che le inquadrano.\n\nUna strategia di marketing e comunicazione si può costruire in cinque passi. Primo: condurre ricerche di mercato, per capire chi sono i clienti, che cosa chiedono e che cosa fanno i concorrenti. Secondo: abbinare prodotti promozionali e organizzare eventi dedicati. Terzo: usare materiali di marketing stampati, come brochure e biglietti da visita. Quarto: curare il sito web aziendale. Quinto: essere presenti sui social network.\n\nPrima di tutto, però, vanno fissati gli obiettivi e va sviluppato un piano di comunicazione: sono le fasi fondamentali dell'analisi preliminare. Bisogna conoscere il target e stabilire un budget, sulla cui base acquistare gli spazi pubblicitari. A sostegno del messaggio servono anche i comunicati stampa, per esempio per annunciare l'apertura di una nuova sede o un evento. L'attività promozionale comprende anche eventi speciali, come sconti o combinazioni di servizi per aumentare le vendite. Nel nostro settore queste iniziative si fanno sempre entro le procedure e le istruzioni delle imprese per cui si opera, come chiede l'articolo 54 del Regolamento IVASS 40. Infine gli strumenti di analisi web permettono di studiare il traffico, i tipi di utenti e i contenuti che hanno generato più richieste: così si capisce che cosa funziona.\n\nUno strumento classico per l'analisi preliminare è la SWOT. Serve a capire i punti di forza e di debolezza e a individuare le opportunità e le minacce. Forze e debolezze sono spesso interne all'organizzazione; opportunità e minacce riguardano in genere fattori esterni. Per questo la SWOT si chiama anche matrice interna-esterna.\n\nPer i punti di forza ci si chiede: quali vantaggi ha la nostra attività? Che cosa facciamo meglio di chiunque altro? Su quali risorse uniche o vantaggi economici possiamo contare rispetto ai concorrenti? Che cosa vedono i clienti come nostri punti forti? Per quali fattori otteniamo una vendita? E qual è la nostra Unique Selling Proposition, la proposta unica di vendita? Per le debolezze: che cosa potremmo migliorare, che cosa dovremmo evitare, quale parte del nostro target percepisce più facilmente le debolezze, quali fattori ci fanno perdere vendite. Per le opportunità: quali opportunità migliori vediamo, quali tendenze possiamo sfruttare. Per le minacce: quali ostacoli stiamo affrontando, che cosa fanno i concorrenti, se la tecnologia sta cambiando e minaccia la nostra posizione, se ci sono problemi economici interni, e quanto le debolezze minacciano seriamente l'attività.\n\nFatta l'analisi, si passa al piano di marketing, che si divide in quattro fasi: segmentazione, targeting, posizionamento e messaggistica. Ogni fase serve a raggiungere il gruppo di consumatori giusto. Segmentare significa dividere il mercato in gruppi distinti; il targeting è decidere a quale gruppo rivolgersi; il posizionamento è stabilire come vogliamo essere percepiti da quel gruppo; la messaggistica è creare un messaggio specifico per influenzarlo.\n\nDividere i potenziali clienti in gruppi distinti è di vitale importanza se si vuole aumentare il successo di qualsiasi messaggio. Le domande sono semplici: chi sono i potenziali clienti, in quanti sottogruppi dividerli, in che cosa si differenziano. Pensiamo alla differenza tra un giovane neopatentato, una famiglia con figli piccoli e un artigiano con un furgone: esigenze diverse, linguaggi diversi. Il targeting è poi il processo con cui si comunica con il segmento giusto, per ottenere il miglior tasso di risposta possibile; i metodi usati devono rispettare gli obiettivi del piano. Nel settore assicurativo la segmentazione consente di adattare i messaggi alle esigenze di ciascun gruppo e rende le campagne più efficaci.\n\nIl posizionamento è il processo con cui si sviluppa l'immagine dell'azienda o del prodotto che i clienti devono percepire. Il branding è uno strumento potente per farlo. La possibilità di farsi pagare di più grazie al posizionamento è nota come brand equity. Creare e mantenere un'identità di marca distintiva è essenziale per differenziarsi nel mercato affollato delle assicurazioni: una brand identity forte trasmette fiducia, coerenza e professionalità. Per un intermediario il marchio è anche il suo nome, il modo in cui risponde al telefono, come gestisce un sinistro.\n\nIl messaggio pubblicitario deve avere tre obiettivi, collegati al piano di marketing. Informare, per far conoscere l'azienda e i prodotti e ottenere un vantaggio competitivo. Persuadere, per generare una risposta immediata, di solito la vendita. Ricordare, per mantenere l'attenzione e l'interesse del pubblico nel tempo.\n\nGli esempi di pubblicità sono molti: manifesti su strada, comunicazione all'interno delle attività commerciali, riviste e giornali, televisione e cinema, radio, buoni, sconti, concorsi, incentivi di fidelizzazione, pubbliche relazioni. Le aziende sono sempre più innovative, e scegliere il mezzo diventa difficile. La scelta è un compromesso tra il numero di persone da raggiungere e il budget disponibile.\n\nIl materiale del corso individua alcune strategie particolarmente efficaci nel settore assicurativo, dove persuasione e capacità di trasmettere messaggi sono essenziali. La segmentazione del mercato, di cui abbiamo parlato. Una brand identity forte. L'uso delle piattaforme digitali: social media, siti ottimizzati e campagne online permettono di raggiungere un pubblico più ampio in modo mirato. Contenuti coinvolgenti: blog informativi, video didattici e altri contenuti di valore posizionano l'impresa come esperta e creano una connessione emotiva. Relazioni con i clienti costruite sulla fiducia, con una comunicazione aperta e chiara sia sui canali tradizionali sia su quelli digitali. Analisi dei dati e personalizzazione, per capire i comportamenti dei clienti e adattare offerte e messaggi, migliorando l'esperienza del cliente. E il coinvolgimento della comunità: partecipare a eventi locali, sostenere cause sociali e contribuire al benessere del territorio costruisce un'immagine positiva.\n\nArriviamo alle tecniche di vendita. In un settore competitivo, padroneggiarle è fondamentale, e le tecniche avanzate vanno oltre la semplice presentazione delle polizze: richiedono di comprendere a fondo le esigenze del cliente e di costruire relazioni durature. La prima chiave è la personalizzazione: con un'analisi approfondita delle esigenze finanziarie e delle aspettative si presentano soluzioni su misura e si crea fiducia. La seconda è la gestione delle obiezioni, affrontate con empatia e chiarezza. Se il cliente dice \"costa troppo\", non si risponde con uno sconto, ma si chiarisce che cosa copre la polizza e si valuta insieme se ci sono garanzie che non gli servono. La terza è la trasparenza: comunicare chiaramente i benefici e rispondere apertamente alle domande. Poi restare aggiornati sulle tendenze, adottando strumenti di analisi dei dati e piattaforme digitali. Infine la passione per il proprio lavoro, che è contagiosa e aiuta il cliente a decidere in modo consapevole.\n\nNotate che la personalizzazione non è solo una tecnica di vendita: è un obbligo. L'articolo 58 del Regolamento IVASS 40 chiede ai distributori di proporre contratti coerenti con le richieste ed esigenze del cliente. Prima di far firmare, devono chiedere informazioni sulle caratteristiche personali e sulle esigenze, tra cui, se pertinenti, età, stato di salute, attività lavorativa, nucleo familiare, situazione finanziaria e assicurativa, aspettative e coperture già in essere. Poi devono dare informazioni oggettive, chiare e comprensibili su caratteristiche, durata, costi e limiti della copertura, e conservarne traccia.\n\nVediamo un caso. Un'agenzia di provincia ha soprattutto clienti anziani e RC auto, ma in paese sono arrivate molte giovani famiglie e piccole imprese artigiane, e l'agenzia non ha un sito. Con la SWOT: la forza è la conoscenza del territorio e l'assistenza personale; la debolezza è l'assenza online; le opportunità sono le nuove famiglie e gli artigiani; la minaccia sono i comparatori e la vendita diretta. Un target possibile sono le giovani famiglie, con un messaggio sulla protezione del reddito e della casa e l'invito a un incontro di analisi delle esigenze, promosso con sito, profilo social ed evento locale.\n\nRiassumendo: cinque passi per la strategia, la SWOT per leggere la propria situazione, quattro fasi per il piano, tre obiettivi del messaggio. E una vendita personalizzata che parte, per legge, dalle richieste e dalle esigenze del cliente.",
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Integrati nella lezione i moduli Strategie efficaci nel marketing e Tecniche avanzate di vendita (slide del 60 ore e video del 30 ore), senza duplicazioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra personalizzazione della vendita e obbligo di valutare richieste ed esigenze del cliente, con le informazioni da raccogliere e quelle da fornire.",
+          "source_ref": "Reg. IVASS 40/2018, art. 58, c. 1, 2, 4, 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Promozioni e sconti da gestire entro le procedure e le istruzioni delle imprese per cui si opera.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 1, lett. b"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi della SWOT applicati a un'agenzia, esempio di gestione dell'obiezione sul prezzo e caso pratico.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Marketing digitale e social network per l'intermediario",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social medial marketing.1 (Video).mp4",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Marketing e comunicazione.pdf",
+        "Corso Ivass 60 ore/Materiale /Marketing e comunicazione.pdf.pdf"
+      ],
+      "source_minutes": 14,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Marketing digitale e social network",
+          "goals": [
+            "Capire che cos'è il marketing digitale e come si costruisce il piano",
+            "Conoscere gli strumenti online: sito, blog, newsletter, social, e-commerce",
+            "Usare Facebook, LinkedIn e il profilo dell'attività su Google"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché il social media marketing",
+          "key": "Una strategia di social media marketing è ormai essenziale per chi vuole ampliare i clienti, dialogare, raccogliere segnalazioni e trovare nuove opportunità.",
+          "body": "Secondo il materiale del corso, i tre social più usati in Italia sono YouTube, Facebook e Instagram. Anche nel settore assicurativo i clienti si informano su internet prima di acquistare: l'agente deve essere attrezzato per intercettarli.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è il social media marketing",
+          "key": "Una branca del web marketing che crea e gestisce presenza e visibilità di servizi pubblicitari, di profilazione degli utenti e di vendita attraverso i social network.",
+          "body": "Il suo fine è creare conversazioni con utenti e consumatori e costruire la cosiddetta affinità. Oggi il marketing è relazionale: considera il cliente per il suo valore complessivo nel medio e lungo periodo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il valore del digitale",
+          "key": "Il marketing digitale usa strumenti digitali per campagne integrate, mirate e con risultati misurabili.",
+          "body": "Aiuta a individuare e mappare in continuo i bisogni della domanda, a facilitare gli scambi in modo innovativo e a costruire una relazione interattiva che genera valore nel tempo. A scatenarlo sono stati: la perdita di efficacia dei mass media, la crescita di rete, mobile e social, e il controllo preso dai consumatori.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "I principi del digital marketing",
+          "items": [
+            {
+              "text": "Creare i migliori contenuti possibili: semplici, sorprendenti, originali, concreti, credibili, con emozioni e storie."
+            },
+            {
+              "text": "Scrivere titoli che attirano l'attenzione e creare contenuti focalizzati, con una struttura coerente."
+            },
+            {
+              "text": "Rendere facile la condivisione e distribuire su più social network."
+            },
+            {
+              "text": "Ottimizzare per i motori di ricerca e creare contenuti multimediali."
+            },
+            {
+              "text": "Dare una voce al brand e convertire i lettori in acquirenti.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il piano di marketing digitale",
+          "steps": [
+            {
+              "label": "Capire",
+              "text": "Processo analitico: mercato, concorrenza, target e comportamenti."
+            },
+            {
+              "label": "Definire",
+              "text": "Processo strategico: obiettivi precisi e misurabili."
+            },
+            {
+              "label": "Costruire e promuovere",
+              "text": "Processo operativo: tattiche efficaci e innovative."
+            },
+            {
+              "label": "Misurare",
+              "text": "Processo valutativo: i risultati raggiunti."
+            },
+            {
+              "label": "Crescere",
+              "text": "Integrare il digitale con il resto del piano, in modo costante."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Prima di partire",
+          "left": {
+            "title": "Quattro condizioni",
+            "items": [
+              "Un approccio diverso dal marketing tradizionale",
+              "Un piano strutturato, con obiettivi misurabili e analisi di mercato, concorrenza e target",
+              "Una struttura organizzativa adeguata",
+              "Un budget proporzionato agli obiettivi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Due domande",
+            "items": [
+              "Il pubblico è online, o sta per diventarlo?",
+              "Prodotti, servizi o marchi sono adatti al digital marketing?"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il digital marketing non è arte divinatoria, non è solo social media marketing, non è un eremita, non è un costo, non è un fine.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Gli strumenti online",
+          "head": [
+            "Strumento",
+            "Che cos'è",
+            "Uso tipico"
+          ],
+          "rows": [
+            [
+              "W · Wiki",
+              "Gestione di contenuti prodotti da più persone: ognuno aggiunge, controlla, modifica o elimina.",
+              "Bacheca aziendale con link, aggiornamento in tempo reale, ricerca per parole."
+            ],
+            [
+              "S · Social network",
+              "Gruppi di persone legate da conoscenza, lavoro, famiglia.",
+              "Comunicazione uno a uno e cross mediale, basata sui dati della \"vita social\"."
+            ],
+            [
+              "B · Blog",
+              "Sito per creare e condividere testi, audio, immagini e video, a metà tra homepage e forum.",
+              "Articoli informativi; inserimento dei contenuti semplice."
+            ],
+            [
+              "E · Email e newsletter",
+              "Strumento immediato ed economico; la newsletter è inviata periodicamente e gratis a chi l'ha chiesta.",
+              "Notizie e scadenze per i clienti."
+            ],
+            [
+              "→ · Sito",
+              "Il punto di incontro tra chi offre e chi domanda.",
+              "Presentare l'attività, farsi conoscere, attirare visitatori, suscitare contatti."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "E-commerce e prodotti adatti al web",
+          "key": "L'e-commerce è compravendita, marketing e fornitura di prodotti o servizi via internet: dal sito e dal catalogo online fino a logistica, ordini e pagamenti.",
+          "body": "Serve a ridurre costi e tempi e a migliorare la qualità. Online si vendono soprattutto beni immateriali, come software, biglietti aerei, servizi bancari e assicurativi; beni ad acquisto ripetuto, come gli alimentari; beni rari. Conta anche il costo di trasporto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I tre social utili all'assicuratore",
+          "lead": "Secondo il materiale del corso hanno caratteristiche diverse che si completano a vicenda.",
+          "head": [
+            "Strumento",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "Facebook",
+              "Pagina dell'agenzia e inserzioni a pagamento mirate (lezione 4)."
+            ],
+            [
+              "LinkedIn",
+              "Rete di contatti professionali, opportunità commerciali e di lavoro."
+            ],
+            [
+              "Google My Business, oggi Profilo dell'attività su Google",
+              "Identità pubblica e presenza su Google, gratuita."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Il profilo dell'attività su Google",
+          "lead": "Servizio gratuito che dà alle attività un'identità pubblica e la presenza su Google. È un acceleratore di visibilità.",
+          "facts": [
+            {
+              "label": "Chiamata",
+              "text": "Permette di chiamare subito l'attività dal telefono."
+            },
+            {
+              "label": "Nome",
+              "text": "Oggi si chiama Profilo dell'attività su Google (Google Business Profile)."
+            },
+            {
+              "label": "Chi può",
+              "text": "Attività che incontrano i clienti di persona; non quelle solo online."
+            },
+            {
+              "label": "Google+",
+              "text": "Il social Google+ per i consumatori è stato chiuso dal 2 aprile 2019."
+            }
+          ],
+          "ref": "Materiale originale; Guida di Google; Google Workspace Blog"
+        },
+        {
+          "layout": "steps",
+          "title": "Creare il profilo su Google",
+          "steps": [
+            {
+              "label": "Account Google",
+              "text": "Serve un account Google, ad esempio Gmail."
+            },
+            {
+              "label": "Cerca o aggiungi",
+              "text": "Cerca la tua attività; se manca o i dati non tornano, aggiungila o rivendicala."
+            },
+            {
+              "label": "Categoria e nome",
+              "text": "Indica il tipo di attività e il nome della tua azienda."
+            },
+            {
+              "label": "Verifica",
+              "text": "Google conferma l'identità: oggi con telefono o SMS, email, videochiamata, cartolina o video, secondo l'attività."
+            },
+            {
+              "label": "Completa",
+              "text": "Orari, sede, contatti, servizi."
+            }
+          ],
+          "ref": "Materiale originale; Guida di Google, Verifica la tua attività"
+        },
+        {
+          "layout": "steps",
+          "title": "LinkedIn in tre mosse",
+          "steps": [
+            {
+              "label": "Profilo completo",
+              "text": "LinkedIn è il social professionale per eccellenza: il profilo va compilato nel modo più completo possibile."
+            },
+            {
+              "label": "Rete di contatti",
+              "text": "Chiedi il collegamento alle persone della tua cerchia lavorativa, cercandole per nome e professione."
+            },
+            {
+              "label": "Gruppi",
+              "text": "Iscriviti ai gruppi della tua professione, cercando la parola \"assicurazione\"."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è il fine del social media marketing secondo il materiale del corso?",
+          "options": [
+            "Sostituire del tutto la vendita personale",
+            "Creare conversazioni con utenti e consumatori e instaurare affinità",
+            "Pubblicare il maggior numero di post al giorno",
+            "Ridurre il numero di clienti da gestire"
+          ],
+          "answer": 1,
+          "explanation": "Il social media marketing serve a creare conversazioni e a costruire affinità con il pubblico, non solo a pubblicare contenuti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è l'ordine corretto dei passaggi del piano di marketing digitale?",
+          "options": [
+            "Misurare, capire, crescere, definire, costruire",
+            "Capire, definire, costruire e promuovere, misurare, crescere",
+            "Costruire, promuovere, capire, misurare",
+            "Definire, misurare, capire, crescere"
+          ],
+          "answer": 1,
+          "explanation": "Si parte dall'analisi (capire), si fissa la strategia (definire), si passa all'operatività (costruire e promuovere), si valuta (misurare) e si integra in modo continuo (crescere)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Affinità",
+              "text": "il fine del social media marketing"
+            },
+            {
+              "value": "5",
+              "text": "passaggi: capire, definire, costruire e promuovere, misurare, crescere"
+            },
+            {
+              "value": "3",
+              "text": "social utili: Facebook, LinkedIn, profilo dell'attività su Google"
+            },
+            {
+              "value": "2019",
+              "text": "chiusura di Google+ per i consumatori: i riferimenti vanno aggiornati"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel mondo digitale: che cos'è il social media marketing, come si costruisce un piano di marketing digitale, quali strumenti si usano e come può sfruttarli un intermediario, con un'attenzione particolare a Facebook, LinkedIn e al profilo dell'attività su Google.\n\nOrganizzare una strategia di social media marketing è diventato essenziale per ogni azienda o marchio che voglia ampliare il bacino di clienti, dialogare con loro, raccogliere segnalazioni e scoprire nuove opportunità. Il materiale del corso indica YouTube, Facebook e Instagram come i tre social più usati in Italia. Anche nel settore assicurativo i clienti, prima di acquistare, si informano su internet. L'agente deve quindi essere attrezzato per intercettare questa massa di potenziali clienti che si sposta progressivamente online per raccogliere informazioni.\n\nIl social media marketing è una branca del web marketing che si occupa di creare e gestire la presenza e la visibilità di servizi pubblicitari, di profilazione degli utenti e di vendita attraverso i social network. Il suo fine è creare conversazioni con utenti e consumatori e costruire quella che viene chiamata affinità. È coerente con l'approccio relazionale di oggi, che considera il cliente in base al suo valore complessivo per l'impresa nel medio e lungo periodo. Per un'agenzia questo è naturale: un cliente soddisfatto rinnova, aggiunge polizze e porta amici e parenti.\n\nIl marketing digitale è l'insieme di attività che, con strumenti digitali, sviluppano campagne di marketing e comunicazione integrate, mirate e capaci di dare risultati misurabili. Aiuta a individuare e mappare in continuo i bisogni della domanda, a facilitare gli scambi in modo innovativo e a costruire con il cliente una relazione interattiva che genera valore nel tempo. Tre fattori lo hanno fatto esplodere: la perdita di efficacia dei mass media, la crescita della rete, del mobile e dei social, e il fatto che i consumatori hanno preso il controllo della comunicazione.\n\nQuali sono i principi fondamentali? Creare i migliori contenuti possibili, seguendo i criteri di semplicità, sorpresa e originalità, concretezza, credibilità, emozioni e storie. Scrivere titoli capaci di attirare l'attenzione. Creare contenuti focalizzati, con una struttura coerente. Rendere facile la condivisione. Ottimizzare per i motori di ricerca. Dare una voce al marchio. Creare contenuti multimediali. Distribuire su più social network. E alla fine convertire i lettori in acquirenti. Un esempio: un breve video che spiega, con un caso concreto, che cosa succede dopo un incidente stradale e come si compila la constatazione amichevole è semplice, utile, credibile e facile da condividere.\n\nIl piano di marketing digitale è lo strumento formale con cui si pianificano le decisioni di marketing. Per realizzarlo servono quattro condizioni: un cambiamento di approccio rispetto al marketing tradizionale; un piano strutturato, con obiettivi precisi e misurabili, una strategia digitale e analisi di mercato, concorrenza, target e comportamenti, fino alla scelta di tattiche efficaci e innovative; una struttura organizzativa adeguata, cioè qualcuno che se ne occupi davvero; e un budget proporzionato agli obiettivi. Il marketing crea un vantaggio competitivo legato alla soddisfazione dei bisogni dei clienti. Nel digitale i passaggi chiave sono cinque: capire, il processo analitico; definire, il processo strategico; costruire e promuovere, il processo operativo; misurare, il processo valutativo; e crescere, cioè integrare e valorizzare le attività digitali con il resto del piano, da fare costantemente.\n\nPrima di decidere se un'attività ha bisogno di una strategia di digital marketing ci si pone due domande: il pubblico è online, o sta per diventarlo? E i prodotti, i servizi o i marchi sono adatti al digitale? Definire formalmente la strategia significa fermarsi ad analizzare in modo critico il mercato e ragionare realisticamente su come il digitale può aiutare a raggiungere gli obiettivi. E bisogna sapere che cosa il digital marketing non è: non è arte divinatoria, non è solo social media marketing, non è un eremita, cioè non vive isolato dal resto della strategia, non è un costo ma un investimento, e non è un fine ma un mezzo.\n\nIl marchio diventa lo strumento con cui coinvolgere i consumatori, creare esperienze di acquisto uniche, generare valore e soddisfare le attese. Elementi materiali e immateriali, il contesto socioculturale che cambia e soprattutto i consumatori e le loro esperienze fanno nascere la marca e ne accrescono il valore.\n\nVediamo gli strumenti. Il Wiki è un sistema per gestire contenuti prodotti da più persone: ogni utente può aggiungere, controllare, modificare o eliminare. È come una bacheca aziendale che però consente link, aggiornamento in tempo reale e ricerca per parole chiave. Il social network è un gruppo di persone connesse da legami sociali di vario tipo, dalla conoscenza casuale al lavoro alla famiglia. Sfruttarlo davvero richiede una mentalità di integrazione, uno a uno e cross mediale, e una vera spina dorsale della campagna che sfrutti i dati che le persone producono spontaneamente con la loro vita social. Il blog è uno strumento di libera espressione, a metà tra homepage personale e forum, che permette di condividere testi, audio, immagini e video con grande semplicità. L'email è uno strumento immediato ed economico; la newsletter è un messaggio inviato periodicamente e gratuitamente a chi l'ha richiesto. Come vedremo nella prossima lezione, per le comunicazioni commerciali a distanza serve il consenso del cliente. Il sito, infine, è il punto di incontro tra chi offre e chi domanda: serve a presentare l'impresa e i prodotti, farli conoscere, rafforzare l'immagine e la visibilità in rete, attirare visitatori, suscitare contatti e fornire informazioni sulla struttura organizzativa e commerciale.\n\nL'e-commerce è la compravendita, il marketing e la fornitura di prodotti o servizi via internet: comprende la creazione del sito e del catalogo online, la logistica, la gestione degli ordini e le transazioni. Permette a utenti, commercianti e organizzazioni di ridurre i costi, migliorare la qualità e ridurre i tempi di consegna. I prodotti più venduti online appartengono a tre categorie: beni immateriali, come software, biglietti aerei e servizi di agenti di cambio, banche e assicurazioni; beni ad acquisto ripetuto, come gli alimentari; beni rari e difficili da trovare. Incide anche il costo di trasporto. Le assicurazioni, quindi, sono per natura adatte al web.\n\nIl materiale del corso individua tre strumenti particolarmente utili all'assicuratore per generare vendite: Facebook, LinkedIn e Google My Business. Hanno caratteristiche diverse che si completano e, insieme, formano un unico strumento di marketing online.\n\nGoogle My Business è un servizio gratuito che dà alle attività un'identità pubblica e la presenza su Google: è un acceleratore di visibilità e permette ai clienti di chiamare subito l'attività dal telefono. La fonte lo collegava anche al social Google+ e al sistema Hangouts per le videochiamate. Qui serve un aggiornamento: il servizio oggi si chiama Profilo dell'attività su Google, e secondo la guida ufficiale di Google è destinato alle attività che incontrano i clienti di persona, non a quelle solo online. Il social Google+ per i consumatori è stato chiuso a partire dal 2 aprile 2019, come comunicato da Google.\n\nPer creare il profilo la fonte indica questi passi: avere o creare un account Gmail; entrare nel servizio; cercare la propria attività e, se non c'è o i dati non corrispondono, aggiungerla; scegliere il tipo di attività; inserire il nome dell'azienda; ricevere un codice di verifica per posta o per telefono, per confermare l'identità; completare il profilo. La procedura è cambiata nel tempo: oggi, secondo la guida di Google, i metodi di verifica possono essere telefono o SMS, email, videochiamata in diretta, cartolina o registrazione video, e Google decide quali sono disponibili per ciascuna attività.\n\nLinkedIn è il social network professionale per eccellenza: serve a creare una rete di contatti professionali per nuove opportunità commerciali e di lavoro. Il profilo va compilato nel modo più completo possibile. Il primo passo è costruire la rete, chiedendo il collegamento alle persone della propria cerchia lavorativa, cercandole per nome e professione. Il secondo è iscriversi ai gruppi della propria professione, cercando nella sezione gruppi la parola assicurazione. Per un broker che lavora con le imprese, LinkedIn è il luogo naturale dove incontrare titolari e responsabili.\n\nIn sintesi: il social media marketing crea conversazioni e affinità; il piano digitale passa da capire, definire, costruire e promuovere, misurare e crescere; gli strumenti vanno dal sito alla newsletter. E i riferimenti pratici, come i nomi dei servizi di Google, cambiano: vanno sempre verificati prima di usarli.",
+      "sources": [
+        {
+          "title": "Guida di Profilo dell'attività su Google - Informazioni",
+          "url": "https://support.google.com/business/answer/3038063?hl=it"
+        },
+        {
+          "title": "Guida di Profilo dell'attività su Google - Verifica la tua attività",
+          "url": "https://support.google.com/business/answer/7107242?hl=it"
+        },
+        {
+          "title": "Google Workspace Blog, What you need to know about the sunset of consumer Google+ on April 2",
+          "url": "https://workspace.google.com/blog/product-announcements/what-you-need-to-know-about-the-sunset-of-consumer-google-plus-on-april-second"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Integrati i contenuti sul marketing digitale del modulo Marketing e comunicazione del 60 ore (valore del digitale, principi, piano, strumenti, e-commerce).",
+          "source_ref": "Materiale originale (60 ore, nuovo materiale)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte Google My Business come servizio gratuito di identità e visibilità. Aggiornato il nome: oggi Profilo dell'attività su Google; destinato ad attività che incontrano i clienti di persona.",
+          "source_ref": "Guida di Profilo dell'attività su Google, answer 3038063"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il riferimento a Google+ (titolo della slide originale). Aggiornamento: Google+ per i consumatori chiuso dal 2 aprile 2019.",
+          "source_ref": "Google Workspace Blog, 30 gennaio 2019"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la procedura di creazione del profilo con verifica via posta o telefono fisso. Aggiornamento: oggi i metodi possono essere telefono/SMS, email, videochiamata, cartolina, video, a scelta di Google.",
+          "source_ref": "Guida di Profilo dell'attività su Google, answer 7107242"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'integrazione con Google Hangouts per le videochiamate. Possibile aggiornamento: verificare l'attuale servizio di Google; non verificato su fonte ufficiale, quindi non indicato nelle slide.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'affermazione che YouTube, Facebook e Instagram sono i tre social più usati in Italia, presentata come dato del materiale del corso. Dato da indicare con fonte e anno.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Testo delle slide del video muto ricavato da OCR: corretti errori di riconoscimento e rimosse righe spurie (ad esempio \"ACADEMY\", simboli), senza togliere affermazioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di contenuti utili per un'agenzia (video sulla constatazione amichevole) e uso di LinkedIn per un broker.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Inserzioni online e regole IVASS per la promozione su internet",
+      "source_files": [
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social medial marketing.2 (Video).mp4",
+        "corso totale/Area amministrativa e gestionale /Marketing e tecniche di comunicazione /Social medial marketing.1 (Video).mp4"
+      ],
+      "source_minutes": 12,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Marketing e tecniche di comunicazione",
+          "title": "Inserzioni online e regole IVASS",
+          "goals": [
+            "Impostare un'inserzione a pagamento per generare contatti",
+            "Scrivere testi persuasivi con il modello AIDA",
+            "Rispettare le regole IVASS su sito, social e comunicazioni commerciali"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le inserzioni di Facebook",
+          "lead": "Per la fonte sono lo strumento migliore per profilare il target commerciale da ingaggiare. I sistemi a pagamento erano tre.",
+          "head": [
+            "Sistema",
+            "Che cosa fa",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "1 · Gestore inserzioni",
+              "Il sistema classico, per tutti.",
+              "Semplice e veloce."
+            ],
+            [
+              "2 · Business manager",
+              "Sistema di amministrazione per gestire più account.",
+              "Ognuno può fare solo alcune operazioni."
+            ],
+            [
+              "3 · Power editor",
+              "Inserzioni elaborate, con funzioni per Instagram.",
+              "Per la fonte poco affidabile e solo con Chrome. Oggi da verificare."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Creare un'inserzione",
+          "steps": [
+            {
+              "label": "Pubblico",
+              "text": "Scegli a chi mostrarla: caratteristiche e interessi per restringere o ampliare."
+            },
+            {
+              "label": "Dati demografici",
+              "text": "Posizione, sesso, lingua."
+            },
+            {
+              "label": "Budget e programmazione",
+              "text": "Quanto spendere e quando, poi l'acquisto."
+            },
+            {
+              "label": "Pagamento",
+              "text": "Meglio pagare per \"clic sul link\" che per le sole visualizzazioni."
+            },
+            {
+              "label": "Offerta",
+              "text": "Offerta automatica, con un budget un po' più alto del consigliato. Scegli addebiti, tipo di inserzione e di pubblicazione."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Leggere i costi: l'esempio del corso",
+          "lead": "La slide confrontava Facebook Ads e Google AdWords, oggi Google Ads, con la previsione di un piano di parole chiave.",
+          "facts": [
+            {
+              "label": "Budget",
+              "text": "15.000 € di spesa prevista."
+            },
+            {
+              "label": "Conversioni",
+              "text": "990 previste, con un tasso di conversione del 3,38%."
+            },
+            {
+              "label": "CPC max",
+              "text": "1,50 €: il massimo che si paga per ogni clic."
+            },
+            {
+              "label": "CPA",
+              "text": "Il costo medio per ogni conversione, ad esempio un contatto."
+            },
+            {
+              "label": "Valore",
+              "text": "15 € per conversione."
+            }
+          ],
+          "ref": "Materiale originale; Google, 27 giugno 2018"
+        },
+        {
+          "layout": "checklist",
+          "title": "Testi persuasivi",
+          "items": [
+            {
+              "text": "Coinvolgi il lato emotivo delle persone."
+            },
+            {
+              "text": "Usa immagini attraenti e coerenti con il tema."
+            },
+            {
+              "text": "Individua bene il micro-target."
+            },
+            {
+              "text": "Usa, se possibile, il consenso sociale: i feedback positivi di altre persone."
+            },
+            {
+              "text": "Usa il concetto di \"gratis\": dai qualcosa in cambio, come un ebook o una consulenza."
+            },
+            {
+              "text": "Imposta una call to action corretta."
+            },
+            {
+              "text": "Sii sempre credibile.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il modello AIDA",
+          "steps": [
+            {
+              "label": "Attenzione",
+              "text": "Un titolo o un'immagine che fermano lo scorrimento."
+            },
+            {
+              "label": "Interesse",
+              "text": "Un problema concreto in cui il target si riconosce."
+            },
+            {
+              "label": "Desiderio",
+              "text": "La soluzione e il beneficio, detti in modo veritiero."
+            },
+            {
+              "label": "Azione",
+              "text": "Un invito chiaro: prenota, scrivi, chiama."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Che cosa fare e non fare",
+          "cols": [
+            {
+              "title": "Da non fare",
+              "items": [
+                "Pubblicità \"come una volta\": senza landing page",
+                "Senza moduli per raccogliere i contatti",
+                "Senza un testo persuasivo"
+              ]
+            },
+            {
+              "title": "Da fare",
+              "items": [
+                "Attirare i visitatori",
+                "Convertirli da lead a prospect",
+                "Chiudere la vendita"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Persuadere sì, ingannare no",
+          "key": "Anche un'inserzione social è pubblicità: deve essere corretta, chiara, non fuorviante, imparziale, completa e riconoscibile come tale.",
+          "body": "Le comunicazioni pubblicitarie degli intermediari richiedono la preventiva autorizzazione delle imprese preponenti. Il consenso sociale deve basarsi su opinioni vere; il \"gratis\" deve essere davvero gratuito e senza vincoli nascosti.",
+          "ref": "Reg. IVASS 40/2018, art. 54, c. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Sito e profili social: che cosa deve comparire",
+          "items": [
+            {
+              "text": "Dati identificativi, numero di iscrizione al RUI e indirizzo del sito dove verificarla.",
+              "ref": "Reg. 40/2018, art. 79, c. 1, lett. a"
+            },
+            {
+              "text": "Sede legale ed eventuali sedi operative.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Telefono, fax, email e, se prevista, PEC.",
+              "ref": "lett. c"
+            },
+            {
+              "text": "Che l'intermediario è soggetto alla vigilanza dell'IVASS.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Recapiti per i reclami, possibilità di ricorrere all'Arbitro Assicurativo con link al suo sito, altri sistemi stragiudiziali.",
+              "ref": "lett. e"
+            },
+            {
+              "text": "In home page o in una pagina raggiungibile direttamente da lì; vale anche per la sola promozione.",
+              "ref": "art. 79, c. 1 e 3"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Promozione a distanza: gli adempimenti",
+          "items": [
+            {
+              "text": "Agenti, broker e sezioni D e F comunicano prima per iscritto alle imprese le tecniche di vendita a distanza che usano.",
+              "ref": "Reg. 40/2018, art. 74, c. 3, lett. a"
+            },
+            {
+              "text": "Seguono le istruzioni delle imprese sull'uso professionale di siti, social e app, e controllano quelli dei propri addetti di sezione E.",
+              "ref": "art. 74, c. 3, lett. b"
+            },
+            {
+              "text": "Sono titolari del dominio del sito con cui promuovono o collocano.",
+              "ref": "art. 78, c. 1-2"
+            },
+            {
+              "text": "Usano solo domini e sotto-domini comunicati all'IVASS, entro 30 giorni dalla registrazione.",
+              "ref": "art. 78, c. 3-bis, 3-ter"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Contatti, consenso e dati",
+          "left": {
+            "title": "Comunicazioni commerciali a distanza",
+            "items": [
+              "Serve il previo consenso esplicito del cliente, gratuito e revocabile",
+              "Eccezione: chi ha già dato i recapiti per un contratto dello stesso distributore e impresa, salvo opposizione",
+              "In ogni messaggio: scopo, provenienza dei dati, diritto di revoca e di opposizione"
+            ],
+            "ref": "Reg. 40/2018, artt. 82-83"
+          },
+          "right": {
+            "title": "Regole collegate",
+            "items": [
+              "Niente contratti a distanza senza consenso espresso: il silenzio non vale come sì",
+              "La scelta di ricevere documenti via email non autorizza l'invio di pubblicità",
+              "I dati dei clienti si usano per altri fini solo con consenso, dopo l'informativa privacy"
+            ],
+            "ref": "artt. 72, 61 c. 6, 54 c. 4"
+          },
+          "note": "Un modulo che raccoglie contatti da un'inserzione deve quindi chiedere i consensi in modo separato e documentabile.",
+          "noteRef": "Reg. 40/2018, art. 82, c. 1"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agente lancia su Facebook l'inserzione \"Check-up gratuito della tua polizza casa\", con una landing page e un modulo per nome, telefono ed email. Vuole poi inviare a tutti la newsletter dell'agenzia con le offerte del mese.",
+          "questions": [
+            "Che cosa deve verificare prima di pubblicare?",
+            "Può inviare la newsletter a tutti quelli che hanno compilato il modulo?"
+          ],
+          "solution": "Prima: autorizzazione dell'impresa per l'inserzione, testo chiaro e riconoscibile come pubblicità, check-up davvero gratuito. Sulla pagina e sul profilo: dati RUI, sedi, contatti, vigilanza IVASS, reclami e Arbitro Assicurativo; dominio comunicato all'IVASS. Newsletter: solo a chi ha dato un consenso esplicito e specifico, revocabile, con traccia; in ogni invio va indicato come revocarlo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa consiglia il materiale del corso per il pagamento delle inserzioni?",
+          "options": [
+            "Pagare per le visualizzazioni, così si raggiunge più gente",
+            "Pagare solo quando qualcuno fa clic sul link",
+            "Pagare un importo fisso mensile",
+            "Usare sempre un budget inferiore a quello consigliato"
+          ],
+          "answer": 1,
+          "explanation": "Il consiglio è scegliere \"clic sul link\": si paga solo se qualcuno clicca, non per la semplice visualizzazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Dove devono comparire i dati dell'intermediario (RUI, vigilanza IVASS, reclami) su sito e profili social?",
+          "options": [
+            "Solo nelle condizioni di contratto",
+            "Nella home page o in una pagina raggiungibile direttamente dalla home page",
+            "Solo su richiesta del cliente",
+            "Non servono se il profilo fa solo promozione"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 79 del Reg. IVASS 40/2018 chiede che siano in home page o in una pagina accessibile direttamente da lì, in modo chiaro e visibile, anche in caso di sola promozione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Clic",
+              "text": "pagare per clic sul link, non per visualizzazione"
+            },
+            {
+              "value": "AIDA",
+              "text": "attenzione, interesse, desiderio, azione"
+            },
+            {
+              "value": "Art. 79",
+              "text": "dati RUI, vigilanza IVASS e reclami su sito e social"
+            },
+            {
+              "value": "30",
+              "text": "giorni per comunicare all'IVASS il dominio del sito"
+            },
+            {
+              "value": "Art. 82",
+              "text": "consenso esplicito per le comunicazioni commerciali a distanza"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione vediamo come si usano le inserzioni a pagamento per generare contatti, come si scrive un testo persuasivo e, soprattutto, quali regole IVASS valgono quando un intermediario promuove la propria attività su internet e sui social.\n\nIl materiale del corso definisce le inserzioni di Facebook come il miglior strumento mai esistito per profilare il target commerciale da ingaggiare: è un'opinione dell'autore, ma rende l'idea della loro precisione. La fonte descriveva tre sistemi a pagamento. Il gestore inserzioni, il sistema classico, semplice e veloce, adatto a tutti. Il business manager, un sistema di amministrazione che permette di gestire più account e di dare a ciascun collaboratore solo alcune operazioni: utile in un'agenzia con più persone. E il power editor, per inserzioni elaborate, con funzioni specifiche per Instagram, che la fonte giudicava poco affidabile e funzionante solo con Chrome. Questi strumenti cambiano spesso nome e funzioni: prima di usarli conviene verificare come si presentano oggi.\n\nCon lo strumento di creazione delle inserzioni si sceglie il tipo di persone a cui mostrarle. Si possono aggiungere caratteristiche e interessi per restringere o ampliare il pubblico, e selezionare dati demografici come posizione, sesso e lingua. Poi si sceglie il budget e la programmazione e si acquista l'inserzione. Facebook permette di pagare per un certo numero di visualizzazioni o secondo altri parametri. Il consiglio della fonte è scegliere sempre la funzione \"clic sul link\", cioè pagare solo se qualcuno clicca e non per la semplice visualizzazione. Per l'offerta, Facebook propone di default l'offerta automatica: la fonte consiglia di mantenerla e di inserire un budget leggermente più alto di quello suggerito, per coprire eventuali costi aggiuntivi. Infine si sceglie quando ricevere gli addebiti, il tipo di inserzione e il tipo di pubblicazione.\n\nLa fonte confrontava i costi di Facebook Ads e di Google AdWords, che dal 2018 si chiama Google Ads, mostrando la previsione di un piano di parole chiave: con 15.000 euro di spesa, circa 990 conversioni, un costo massimo per clic di 1,50 euro, un tasso di conversione del 3,38 per cento e un valore di 15 euro per conversione. Sono numeri di un esempio, non valori di mercato. Servono però a capire i termini: il CPC è il costo per clic, la conversione è l'azione che ci interessa, come la compilazione di un modulo, e il CPA è il costo medio di ogni conversione. Per un intermediario la domanda giusta è: quanto mi costa un contatto, e quanti di questi contatti diventano clienti?\n\nCome si scrive un'inserzione di successo? Bisogna coinvolgere il lato emotivo delle persone; usare immagini attraenti e coerenti con il tema; individuare bene il micro-target; usare, se possibile, il consenso sociale, cioè i giudizi positivi di altre persone; usare il concetto di gratis, offrendo qualcosa in cambio, come un ebook o una consulenza; impostare una call to action corretta, cioè un invito chiaro ad agire; ed essere sempre credibili. Si può seguire il modello AIDA: attenzione, interesse, desiderio, azione. Un esempio: attenzione, con la foto di una cucina allagata; interesse, con la domanda \"Sai che cosa copre davvero la tua polizza casa?\"; desiderio, con l'offerta di un controllo gratuito delle coperture; azione, con il pulsante \"Prenota il check-up\".\n\nLa fonte indica anche che cosa non fare: mai fare pubblicità come una volta, cioè senza landing page, senza moduli e senza un testo persuasivo. E che cosa fare: attirare i visitatori, convertirli da lead, cioè semplici contatti, a prospect, cioè potenziali clienti interessati, e infine chiudere la vendita.\n\nOra le regole, che fanno la differenza tra un buon marketing e un problema con l'impresa o con l'IVASS. Un'inserzione social è pubblicità a tutti gli effetti. Vale quindi l'articolo 54 del Regolamento IVASS 40: deve essere corretta, chiara, non fuorviante, imparziale e completa, riconoscibile come pubblicità e autorizzata prima dalle imprese preponenti. Le tecniche persuasive non sono vietate, ma devono restare veritiere: il consenso sociale deve basarsi su opinioni reali, e il gratis deve essere davvero gratuito.\n\nL'articolo 79 del Regolamento elenca che cosa devono contenere il sito, i profili social e le app che l'intermediario usa per promuovere o collocare prodotti assicurativi. Nella home page, o in una pagina raggiungibile direttamente da lì, in modo chiaro e visibile, devono comparire: i dati identificativi, il numero di iscrizione al Registro e l'indirizzo del sito dove verificarla; la sede legale e le eventuali sedi operative; telefono, fax, email e, se prevista, la posta elettronica certificata; l'indicazione che l'intermediario è soggetto alla vigilanza dell'IVASS; i recapiti per i reclami, la possibilità di ricorrere all'Arbitro Assicurativo con il collegamento al suo sito, e gli altri sistemi stragiudiziali. Queste regole valgono anche quando si fa solo promozione. Quindi anche la pagina Facebook dell'agenzia deve riportarle.\n\nCi sono poi altri adempimenti. Secondo l'articolo 74, gli intermediari delle sezioni A, B, D e F che usano tecniche a distanza devono comunicarlo prima per iscritto alle imprese, seguire le loro istruzioni sull'uso professionale di siti, social e app, controllare quelli usati dai propri addetti iscritti in sezione E, e se ne assumono la responsabilità. L'articolo 78 stabilisce che chi promuove o colloca tramite siti internet è titolare del dominio; per gli intermediari, la persona fisica o la società di intermediazione. E gli intermediari possono usare solo domini e sotto-domini comunicati all'IVASS, entro 30 giorni dalla registrazione, anche per la sola promozione.\n\nInfine il tema dei contatti. Le inserzioni servono a raccogliere lead, ma che cosa se ne può fare? L'articolo 82 chiede il previo consenso esplicito del cliente per le comunicazioni commerciali a distanza: materiale pubblicitario, vendita a distanza, ricerche di mercato. Il consenso è dato per le diverse tipologie di comunicazione, è gratuito e revocabile. C'è un'eccezione: se il cliente ha già dato i propri recapiti per un contratto, il distributore può contattarlo per prodotti della stessa impresa, salvo opposizione, ricordandogli ogni volta che può opporsi. L'articolo 83 chiede di indicare in ogni comunicazione se è finalizzata a collocare contratti, da dove provengono i dati e come revocare il consenso. Ricordiamo anche che nessun contratto può essere collocato a distanza senza il consenso espresso del cliente, e il silenzio non vale come sì; che la scelta di ricevere i documenti per email non autorizza l'invio di pubblicità; e che i dati dei clienti si possono usare per fini diversi dalla distribuzione solo con il loro consenso, dopo l'informativa privacy.\n\nMettiamo tutto insieme con un caso. Un'agente lancia su Facebook l'inserzione \"Check-up gratuito della tua polizza casa\", con una landing page e un modulo, e vuole poi mandare a tutti la newsletter con le offerte del mese. Prima di pubblicare deve ottenere l'autorizzazione dell'impresa, scrivere un testo chiaro e riconoscibile come pubblicità e assicurarsi che il check-up sia davvero gratuito. La pagina e il profilo devono riportare i dati previsti dall'articolo 79, e il dominio deve essere comunicato all'IVASS. Quanto alla newsletter, può inviarla solo a chi ha dato un consenso esplicito e specifico, documentato, indicando ogni volta come revocarlo.\n\nRicapitolando: si paga per clic, si scrive con il modello AIDA, si usano landing page e moduli. E si rispettano le regole: pubblicità autorizzata e non fuorviante, dati obbligatori su sito e social, dominio comunicato all'IVASS, consenso esplicito per le comunicazioni commerciali.",
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Google, Introducing simpler brands and solutions for advertisers and publishers (27 giugno 2018)",
+          "url": "https://blog.google/technology/ads/new-advertising-brands/"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Contenuti obbligatori di sito, profili social e app dell'intermediario, anche per la sola promozione, con il rinvio all'Arbitro Assicurativo.",
+          "source_ref": "Reg. IVASS 40/2018, art. 79, c. 1 e 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Comunicazione preventiva alle imprese delle tecniche a distanza, istruzioni delle imprese su siti e social, controllo degli addetti di sezione E.",
+          "source_ref": "Reg. IVASS 40/2018, art. 74, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Titolarità del dominio e comunicazione all'IVASS di domini e sotto-domini entro 30 giorni.",
+          "source_ref": "Reg. IVASS 40/2018, art. 78"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Consenso alle comunicazioni commerciali a distanza, informazioni in ogni comunicazione, divieto di contratti non richiesti, limiti della scelta di comunicazione via email, riservatezza dei dati.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 54 c. 4, 61 c. 6, 72, 82, 83"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pubblicità sui social soggetta alle regole generali: corretta, non fuorviante, riconoscibile, autorizzata dall'impresa.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il nome Google AdWords. Aggiornamento: dal 27 giugno 2018 il servizio si chiama Google Ads.",
+          "source_ref": "Google, Introducing simpler brands and solutions for advertisers and publishers"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i tre sistemi di inserzioni di Facebook (gestore inserzioni, business manager, power editor). Possibile aggiornamento: secondo fonti non ufficiali il power editor è stato integrato nel gestore inserzioni; non verificato su fonte ufficiale Meta.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'affermazione che le inserzioni di Facebook sono il miglior strumento mai esistito per profilare il target, presentata come opinione dell'autore.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti i dati della schermata di Google (15.000 €, 990 conversioni, CPC max 1,50 €, tasso 3,38%, 15 € per conversione), presentati come esempio e non come valori di mercato. OCR parzialmente illeggibile: riportati solo i valori leggibili. Corretto \"dati democratici\" in \"dati demografici\".",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il titolo originale della slide finale (\"Facebook: Gestore inserzioni con più account\") non corrisponde al contenuto (cose da fare e da non fare): mantenuto il contenuto con un titolo coerente. Testo OCR ripulito da righe spurie e dalla schermata di menu senza affermazioni.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione di CPC, conversione e CPA, esempio AIDA per la polizza casa e caso pratico su inserzione, landing page e newsletter.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}
