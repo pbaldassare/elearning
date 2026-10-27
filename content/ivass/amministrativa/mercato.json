@@ -1,0 +1,1068 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Il mercato delle assicurazioni",
+  "topic_order": 8,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il mercato assicurativo italiano: numeri, struttura e concentrazione",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Il mercato delle assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Il mercato delle assicurazioni.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "title": "Il mercato assicurativo italiano: numeri e struttura",
+          "goals": [
+            "Conoscere le dimensioni del mercato con i dati IVASS del 2025",
+            "Capire come e perché il mercato si è concentrato",
+            "Distinguere le tre forme di integrazione dopo una fusione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché il settore conta",
+          "key": "Il settore assicurativo dà un contributo significativo all'economia: offre una vasta gamma di servizi per proteggere i rischi e permette a famiglie e imprese di recuperare le perdite in caso di danni.",
+          "body": "Ma c'è anche un altro ruolo: le compagnie raccolgono premi in anticipo e li investono, soprattutto in titoli di Stato e obbligazioni. Sono quindi anche grandi investitori.",
+          "ref": "Materiale originale; IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "Il mercato in sei numeri",
+          "lead": "Imprese vigilate dall'IVASS, lavoro diretto italiano.",
+          "facts": [
+            {
+              "label": "Premi",
+              "text": "162,2 miliardi di euro, il 7,2% del PIL."
+            },
+            {
+              "label": "Vita",
+              "text": "118,6 miliardi (73,1%), +7,3% sul 2024."
+            },
+            {
+              "label": "Danni",
+              "text": "43,6 miliardi (26,9%), +6,6% sul 2024."
+            },
+            {
+              "label": "Pagamenti",
+              "text": "132,3 miliardi agli assicurati: 107,9 nel vita, 24,4 di sinistri danni."
+            },
+            {
+              "label": "Investimenti",
+              "text": "751,5 miliardi, per il 45,9% in titoli di Stato."
+            },
+            {
+              "label": "Solidità",
+              "text": "Indice medio di solvibilità al 273%, dal 259,4% del 2024."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "compare",
+          "title": "Forti nel vita, deboli nei danni",
+          "cols": [
+            {
+              "title": "Vita",
+              "items": [
+                "Premi pari al 5,3% del PIL",
+                "8° posto tra i Paesi OCSE",
+                "Polizze rivalutabili e unit-linked",
+                "Distribuito per il 56,9% da banche e Poste"
+              ]
+            },
+            {
+              "title": "Danni",
+              "items": [
+                "Premi pari all'1,9% del PIL",
+                "Solo 25° posto tra i Paesi OCSE",
+                "L'auto pesa per il 42,2%",
+                "Distribuito per il 76,6% dalle agenzie"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa ci dice il confronto",
+          "key": "Le famiglie e le imprese italiane assicurano poco i propri beni e le proprie responsabilità, al di fuori dell'auto. È una debolezza del Paese e un'opportunità per l'intermediario.",
+          "body": "Casa, salute, attività d'impresa, rischi catastrofali: per molti clienti la protezione è ancora tutta da costruire. Il lavoro di consulenza parte proprio da qui.",
+          "ref": "Elaborazione su dati IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "Un settore che guadagna",
+          "lead": "La redditività delle imprese vigilate è in crescita in entrambi i comparti.",
+          "facts": [
+            {
+              "label": "Utile",
+              "text": "11,6 miliardi di risultato d'esercizio, +10,8% sul 2024."
+            },
+            {
+              "label": "Vita",
+              "text": "6,7 miliardi di utile, ROE medio dal 13,3% al 14,6%."
+            },
+            {
+              "label": "Danni",
+              "text": "4,9 miliardi di utile, ROE al 13,3%."
+            },
+            {
+              "label": "Sinistri",
+              "text": "Loss ratio danni al 61,7%, in calo per il secondo anno (63,7% nel 2024)."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025 e sintesi"
+        },
+        {
+          "layout": "timeline",
+          "title": "Meno imprese, più grandi",
+          "items": [
+            {
+              "value": "131 imprese",
+              "text": "nazionali nel 2013",
+              "ref": "IVASS, Relazione annuale 2025"
+            },
+            {
+              "value": "85 imprese",
+              "text": "vigilate dall'IVASS a fine 2025 (89 a fine 2024)",
+              "ref": "IVASS, Relazione annuale 2025"
+            },
+            {
+              "value": "35 %",
+              "text": "la riduzione delle imprese nazionali, soprattutto per fusioni e riorganizzazioni nei gruppi",
+              "ref": "IVASS, Relazione annuale 2025"
+            },
+            {
+              "value": "975 imprese",
+              "text": "dello Spazio economico europeo abilitate: 885 in libera prestazione, 90 rappresentanze",
+              "ref": "IVASS, Relazione annuale 2025"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La concentrazione: un percorso parallelo alle banche",
+          "key": "La struttura competitiva delle assicurazioni è cambiata in modo parallelo a quella del settore bancario. Si è creato un processo circolare: banche e compagnie si sono diversificate ciascuna nel settore dell'altra.",
+          "body": "Le banche distribuiscono e producono polizze vita; le compagnie offrono servizi bancari e finanziari. Anche nel 2025 alcune operazioni sulle partecipazioni sono derivate da modifiche degli accordi di bancassicurazione.",
+          "ref": "Materiale originale; IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Il 2025",
+          "title": "Il consolidamento continua",
+          "lead": "Le operazioni esaminate dall'IVASS in un solo anno.",
+          "facts": [
+            {
+              "label": "4",
+              "text": "imprese nazionali cessate: per fusione, trasferimento del portafoglio o scissione dentro i gruppi."
+            },
+            {
+              "label": "10",
+              "text": "operazioni di acquisizione di partecipazioni di controllo o qualificate valutate."
+            },
+            {
+              "label": "7",
+              "text": "fusioni per incorporazione autorizzate."
+            },
+            {
+              "label": "Perché",
+              "text": "Sinergie di costo, organizzazione più efficiente, offerta più ampia, rapporto più semplice con le reti."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "Una fusione non è una somma",
+          "key": "Ogni azienda ha sistemi e procedure propri. Acquisizioni e fusioni devono tenerne conto per creare una vera nuova impresa, attraverso un processo di integrazione.",
+          "body": "Per l'intermediario l'effetto si vede subito: nuovi sistemi, nuovi prodotti, nuove regole di assunzione, a volte un nuovo mandato. Capire il tipo di integrazione aiuta ad anticipare i cambiamenti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Tre tipi di integrazione",
+          "head": [
+            "Tipo",
+            "Che cosa si integra",
+            "Esempio per la rete"
+          ],
+          "rows": [
+            [
+              "1 · Procedurale",
+              "Solo le procedure di lavoro, standardizzate.",
+              "Stesso modo di emettere e quietanzare, sistemi diversi."
+            ],
+            [
+              "2 · Fisica",
+              "Procedure, ma anche risorse e assetti aziendali resi omogenei.",
+              "Un unico portale agenzie, uffici sinistri unificati."
+            ],
+            [
+              "3 · Manageriale e socioculturale",
+              "Il trasferimento reciproco dei sistemi di valore e delle regole consolidate.",
+              "Una cultura comune nel rapporto con clienti e reti."
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "I fattori che guidano il consolidamento",
+          "items": [
+            {
+              "text": "Le condizioni dei mercati finanziari.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Il ciclo economico del settore.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "La regolamentazione nazionale e internazionale, assicurativa e bancaria.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Le norme sulla concorrenza.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Sono fattori in continua evoluzione: non sono condizioni statiche.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi distribuisce: i numeri del Registro",
+          "lead": "A fine 2025 gli iscritti al RUI sono 228.925 (-0,9%).",
+          "head": [
+            "Sezione",
+            "Iscritti",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "A · Agenti",
+              "25.121",
+              "Un terzo sono società agenziali."
+            ],
+            [
+              "B · Broker",
+              "5.821",
+              "1.720 società di brokeraggio."
+            ],
+            [
+              "D · Banche, SIM, Poste",
+              "379",
+              "Pochi soggetti, ma il 56,9% della raccolta vita."
+            ],
+            [
+              "E · Collaboratori",
+              "192.984",
+              "Il 73% collabora con un solo intermediario."
+            ],
+            [
+              "Elenco annesso",
+              "4.279",
+              "Intermediari di altri Stati SEE."
+            ]
+          ],
+          "ref": "IVASS, Relazione annuale 2025, tav. V.2"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente plurimandatario riceve la comunicazione che due compagnie con cui lavora si fonderanno l'anno prossimo. Un cliente con polizze presso entrambe gli chiede: «Le mie polizze valgono ancora? Devo rifare tutto?».",
+          "questions": [
+            "Che cosa succede ai contratti in corso?",
+            "Che cosa cambierà probabilmente per l'agente?",
+            "Come si prepara?"
+          ],
+          "solution": "In una fusione i contratti proseguono con l'impresa che risulta dalla fusione o con l'incorporante (CAP, art. 168, c. 4): il cliente non deve rifare nulla. Per l'agente cambierà l'integrazione: prima le procedure, poi forse sistemi, uffici e prodotti unificati. Si prepara chiedendo alla compagnia tempi e modalità, verificando il proprio mandato e controllando con il cliente le coperture doppie che la fusione può rendere evidenti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che tipo di integrazione si ha quando, dopo una fusione, si uniformano procedure, risorse e assetti aziendali?",
+          "options": [
+            "Procedurale",
+            "Fisica",
+            "Manageriale e socioculturale",
+            "Riassicurativa"
+          ],
+          "answer": 1,
+          "explanation": "L'integrazione fisica va oltre le procedure e rende omogenee anche risorse e assetti. Quella manageriale e socioculturale riguarda valori e regole."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo l'IVASS, nel 2025 i premi assicurativi in Italia sono stati pari a:",
+          "options": [
+            "Circa il 2% del PIL",
+            "Il 7,2% del PIL, con prevalenza del vita",
+            "Il 7,2% del PIL, con prevalenza dei danni",
+            "Il 15% del PIL"
+          ],
+          "answer": 1,
+          "explanation": "162,2 miliardi, il 7,2% del PIL: il 73,1% nei rami vita, il 26,9% nei danni."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "162,2",
+              "text": "miliardi di premi nel 2025, il 7,2% del PIL"
+            },
+            {
+              "value": "8° · 25°",
+              "text": "il posto dell'Italia nell'OCSE per vita e per danni"
+            },
+            {
+              "value": "-35%",
+              "text": "imprese nazionali dal 2013: da 131 a 85 vigilate"
+            },
+            {
+              "value": "3",
+              "text": "tipi di integrazione: procedurale, fisica, manageriale e socioculturale"
+            },
+            {
+              "value": "228.925",
+              "text": "intermediari iscritti al RUI a fine 2025"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento guardiamo il mercato delle assicurazioni dall'alto: quanto è grande, come è fatto, come lavora un'impresa di assicurazione e quali forze lo stanno cambiando. In questa prima lezione partiamo dai numeri e dalla struttura del mercato. Il modo in cui il mercato si divide tra diretto, indiretto e finanziario, e i canali distributivi con le sezioni del Registro, li avete già studiati nella lezione sulle procedure assuntive e distributive: qui li richiamiamo solo quando servono.\n\nIl materiale parte da una premessa: il settore assicurativo dà un contributo significativo all'economia italiana, perché mette a disposizione una vasta gamma di servizi per la protezione dei rischi e permette alle famiglie e alle imprese di recuperare le perdite quando subiscono un danno. C'è anche un secondo ruolo, che vale la pena ricordare: le compagnie incassano i premi in anticipo e li investono. Sono quindi anche grandi investitori, soprattutto in titoli di Stato e obbligazioni.\n\nDiamo qualche numero, preso dalla Relazione annuale che l'IVASS ha presentato il 18 giugno 2026 sui dati del 2025. La raccolta premi del lavoro diretto italiano delle imprese vigilate è stata di 162,2 miliardi di euro, pari al 7,2 per cento del prodotto interno lordo. La parte del leone la fa il vita: 118,6 miliardi, il 73,1 per cento, in crescita del 7,3 per cento. I danni valgono 43,6 miliardi, il 26,9 per cento, in crescita del 6,6 per cento. Nello stesso anno le imprese hanno pagato agli assicurati 132,3 miliardi: 107,9 nel vita tra capitali, rendite e riscatti, e 24,4 miliardi di sinistri nei danni. Gli investimenti delle imprese, esclusi quelli per i contratti unit e index linked, sono 751,5 miliardi, per il 45,9 per cento in titoli di Stato. E il settore è solido: l'indice medio di solvibilità è al 273 per cento, cioè le imprese hanno in media quasi tre volte il capitale richiesto, contro il 259,4 per cento del 2024.\n\nIl settore, inoltre, guadagna. Nel 2025 il risultato d'esercizio complessivo è stato di 11,6 miliardi, il 10,8 per cento in più dell'anno prima. Le imprese vita hanno chiuso con 6,7 miliardi di utile e un rendimento medio del capitale, il ROE, salito dal 13,3 al 14,6 per cento. Le imprese danni hanno guadagnato 4,9 miliardi, con un ROE del 13,3 per cento. Il rapporto tra sinistri e premi nei danni, il loss ratio, è sceso al 61,7 per cento, dal 63,7 del 2024: su 100 euro di premi, quasi 62 vanno in sinistri. Un mercato solido e redditizio è una buona notizia per i clienti, perché le promesse saranno mantenute, ma attira anche concorrenza e operazioni di concentrazione, come vedremo tra poco.\n\nQuesti numeri nascondono un forte squilibrio. In percentuale del PIL i premi vita sono il 5,3 per cento e quelli danni solo l'1,9 per cento. Nel confronto con le economie dell'OCSE l'Italia è ottava per peso del settore vita, ma solo venticinquesima per i premi danni. Nei danni, poi, il comparto auto pesa per il 42,2 per cento. Anche i canali sono molto diversi: il vita passa per il 56,9 per cento dagli sportelli bancari e postali, i danni per il 76,6 per cento dalle agenzie.\n\nChe cosa ci dice questo confronto? Che famiglie e imprese italiane assicurano poco i propri beni e le proprie responsabilità, se si esclude l'auto. Per il Paese è una debolezza, perché quando arriva un danno, ad esempio una calamità naturale, il costo resta sulle famiglie, sulle imprese o sullo Stato. Per l'intermediario è un'opportunità: per molti clienti la protezione della casa, della salute e dell'attività è ancora tutta da costruire, e il lavoro di consulenza parte proprio da qui.\n\nPassiamo alla struttura. A fine 2025 operavano in Italia 85 imprese vigilate dall'IVASS, erano 89 un anno prima. Nel 2013 le imprese nazionali erano 131: in poco più di dieci anni si sono ridotte del 35 per cento, soprattutto per fusioni e riorganizzazioni interne ai gruppi. Accanto a loro operano 975 imprese dello Spazio economico europeo: 885 in libera prestazione di servizi e 90 rappresentanze, cioè sedi in regime di stabilimento. Il cliente italiano, insomma, può incontrare molte compagnie estere, soprattutto online.\n\nIl materiale del corso spiega che questo cambiamento della struttura competitiva è stato sostanzialmente parallelo a quello del settore bancario. Anzi, sotto alcuni aspetti si è creato un processo circolare: le banche e le compagnie si sono diversificate ciascuna nel settore vicino. Le banche hanno cominciato a distribuire e poi a produrre polizze, soprattutto vita; le compagnie hanno allargato l'offerta ai servizi bancari e finanziari. È un intreccio che continua: nella Relazione sul 2025 l'IVASS segnala che alcune operazioni sulle partecipazioni sono nate proprio da modifiche degli accordi di bancassicurazione.\n\nQuanto è vivace il consolidamento? Nel solo 2025 quattro imprese nazionali hanno cessato l'attività: due per fusione in altre compagnie del gruppo, una per trasferimento del portafoglio, una per scissione a favore di cinque imprese. L'IVASS ha valutato dieci operazioni di acquisizione di partecipazioni di controllo o qualificate e ha autorizzato sette fusioni per incorporazione. Le ragioni indicate sono sinergie di costo, un assetto organizzativo più efficiente, un'offerta più ampia e diversificata, un'interazione più semplice con le reti distributive.\n\nMa una fusione non è una semplice somma. Il materiale lo dice chiaramente: ogni azienda ha un proprio sistema e proprie procedure. Acquisizioni e fusioni sono operazioni strategiche e organizzative che devono tenere conto di queste diversità, perché si arrivi a una vera nuova impresa, nata da un processo di integrazione adeguato. Per chi lavora in agenzia l'effetto si vede subito: cambiano i sistemi, i prodotti, le regole di assunzione, a volte il mandato stesso.\n\nIl materiale distingue tre tipi di integrazione. La prima è l'integrazione procedurale: si standardizzano solo le procedure di lavoro. Per la rete può voler dire, ad esempio, che emissione e incasso seguono le stesse regole anche se i sistemi restano diversi. La seconda è l'integrazione fisica: oltre alle procedure, si rendono omogenei anche le risorse e gli assetti aziendali. Pensate a un unico portale per tutte le agenzie o a uffici sinistri unificati. La terza è l'integrazione manageriale e socioculturale: l'obiettivo è il trasferimento reciproco dei sistemi di valore e delle regole che ciascuna impresa ha consolidato. È la più difficile, perché riguarda il modo di lavorare e di trattare clienti e reti, non solo gli strumenti.\n\nQuali fattori influenzano il consolidamento e le strategie di integrazione? Il materiale ne indica quattro: le condizioni dei mercati finanziari, il ciclo economico del settore, la regolamentazione interna e internazionale, sia assicurativa sia bancaria, e le norme sulla concorrenza. E aggiunge un'osservazione importante: sono aspetti in continua evoluzione, non condizioni statiche. Una strategia che funziona oggi può non funzionare domani.\n\nChiudiamo con chi distribuisce. A fine 2025 erano iscritti al Registro unico degli intermediari 228.925 soggetti, in leggera flessione. Gli agenti sono 25.121, di cui un terzo società agenziali; i broker 5.821; banche, intermediari finanziari, SIM e Poste sono appena 379, ma raccolgono più della metà dei premi vita. I collaboratori in sezione E sono quasi 193 mila, e il 73 per cento lavora con un solo intermediario. Nell'elenco annesso ci sono poi 4.279 intermediari di altri Paesi europei.\n\nNel caso pratico due compagnie dell'agente si fondono. Al cliente si può rispondere con serenità: nella fusione i contratti proseguono con l'impresa che ne risulta o con l'incorporante, come prevede l'articolo 168 del Codice delle assicurazioni, e i premi si pagano a quest'ultima: non c'è nulla da rifare. Solo se il portafoglio passa a un'impresa con sede all'estero il cliente può recedere entro sessanta giorni. All'agente conviene invece prepararsi all'integrazione, chiedendo tempi e modalità e approfittando dell'occasione per rivedere con il cliente eventuali coperture doppie.\n\nRicapitolando: nel 2025 i premi sono stati 162,2 miliardi, il 7,2 per cento del PIL; l'Italia è forte nel vita e debole nei danni; le imprese nazionali sono diminuite del 35 per cento dal 2013; l'integrazione dopo una fusione può essere procedurale, fisica o manageriale e socioculturale; e la rete distributiva conta quasi 229 mila iscritti.",
+      "sources": [
+        {
+          "title": "IVASS, Relazione sull'attività svolta dall'Istituto nell'anno 2025 (18 giugno 2026)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025.pdf"
+        },
+        {
+          "title": "IVASS, Relazione annuale sul 2025 in sintesi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Omessi il nome del coordinatore scientifico e i recapiti del fornitore, che non sono affermazioni. Unite le due versioni della slide sull'integrazione (testo identico nella sostanza).",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dati di mercato 2025: premi, quota vita e danni, pagamenti, investimenti, solvibilità, confronto OCSE.",
+          "source_ref": "IVASS, Relazione annuale 2025, «I principali numeri» e cap. I"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Numero di imprese (131 nel 2013, 85 nel 2025, -35%), imprese SEE, operazioni di consolidamento del 2025 e legame con gli accordi di bancassicurazione.",
+          "source_ref": "IVASS, Relazione annuale 2025, cap. I e cap. IV"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Redditività 2025: risultato d'esercizio, ROE vita e danni, loss ratio.",
+          "source_ref": "IVASS, Relazione annuale 2025 e sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetto della fusione sui contratti in corso (richiamo).",
+          "source_ref": "CAP, art. 168, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Iscritti al RUI per sezione a fine 2025.",
+          "source_ref": "IVASS, Relazione annuale 2025, tav. V.2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi per la rete delle tre forme di integrazione: esemplificazione didattica, non presente nella fonte.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "L'impresa di assicurazione come organizzazione di servizio e il processo assicurativo",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Il mercato delle assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Il mercato delle assicurazioni.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "title": "L'impresa di assicurazione come organizzazione di servizio",
+          "goals": [
+            "Riconoscere le caratteristiche di un'impresa di servizio",
+            "Capire perché nell'assicurazione tutto si basa sulla fiducia",
+            "Seguire i tre sottoprocessi: prodotto, vendita, liquidazione"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Tre specificità dell'impresa di assicurazione",
+          "items": [
+            {
+              "text": "È un'organizzazione di servizio.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Ha un ciclo attivo e passivo invertito: prima incassa i premi, poi paga i sinistri.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Vive di informazioni: si sviluppano, si trasferiscono, si usano e si scambiano tra più soggetti.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa vuol dire «servizio»",
+          "left": {
+            "title": "Il servizio è",
+            "items": [
+              "Immateriale e intangibile",
+              "Non si può immagazzinare",
+              "Si consuma mentre si produce e si eroga"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Quindi l'impresa",
+            "items": [
+              "Lavora con più incertezza",
+              "Ha bisogno di persone che gestiscano il contatto con il cliente",
+              "Per una versione della fonte: personale altamente qualificato"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il momento del contatto è il servizio: una telefonata dopo un sinistro vale quanto le condizioni di polizza.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Tre tipi di relazioni",
+          "lead": "La fonte individua tre tipi di relazioni. Ecco come leggerle nel lavoro quotidiano.",
+          "head": [
+            "Relazione",
+            "Con chi",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "1 · Primarie",
+              "Tra l'impresa, o chi la rappresenta, e il cliente.",
+              "Il colloquio in agenzia, la denuncia di un sinistro."
+            ],
+            [
+              "2 · Interne",
+              "Tra le funzioni e le persone dell'impresa e della rete.",
+              "Agenzia, direzione tecnica, ufficio sinistri."
+            ],
+            [
+              "3 · Di concomitanza",
+              "Tra i soggetti che partecipano insieme all'erogazione del servizio.",
+              "Perito, carrozzeria convenzionata, centrale di assistenza."
+            ]
+          ],
+          "ref": "Materiale originale; esempi didattici"
+        },
+        {
+          "layout": "concept",
+          "title": "Prima si paga, poi forse si riceve",
+          "key": "Nell'assicurazione la controprestazione arriva dopo il pagamento del cliente e può anche non arrivare mai. Il cliente costruisce un'aspettativa basata sulla fiducia nella controparte.",
+          "body": "Per questo contano tanto i fattori immateriali: chiarezza, disponibilità, reputazione, la persona dell'intermediario. Il cliente compra una promessa; l'inversione del ciclo produttivo l'avete vista nella lezione sugli aspetti gestionali.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il processo assicurativo",
+          "steps": [
+            {
+              "label": "Strategia",
+              "text": "L'organizzazione si progetta in modo coerente con il disegno strategico della direzione generale, per ottenere un vantaggio competitivo."
+            },
+            {
+              "label": "Sviluppo del prodotto",
+              "text": "Si progetta la polizza."
+            },
+            {
+              "label": "Vendita e gestione del servizio",
+              "text": "Si colloca la polizza e si segue il cliente."
+            },
+            {
+              "label": "Gestione della liquidazione",
+              "text": "Si gestisce e si paga il sinistro."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Lo sviluppo del prodotto",
+          "steps": [
+            {
+              "label": "Analisi tecnica",
+              "text": "Si studiano categorie di soggetti, persone o imprese, ed eventi che causano perdite finanziarie."
+            },
+            {
+              "label": "Analisi dei dati",
+              "text": "Si elaborano i dati raccolti."
+            },
+            {
+              "label": "Ipotesi di copertura",
+              "text": "Si costruiscono le garanzie, integrando funzione tecnica, commerciale e marketing."
+            },
+            {
+              "label": "Oggi: il POG",
+              "text": "Il produttore definisce mercato di riferimento e strategia distributiva, e verifica il prodotto nel tempo."
+            }
+          ],
+          "ref": "Materiale originale; Reg. IVASS 45/2020"
+        },
+        {
+          "layout": "compare",
+          "title": "Vendere attraverso i canali indiretti",
+          "cols": [
+            {
+              "title": "Vantaggi",
+              "items": [
+                "Agenzie, promotori, broker e banche costano meno di una rete propria",
+                "Raggiungono il cliente sul territorio",
+                "Danno consulenza e relazione"
+              ]
+            },
+            {
+              "title": "Limiti",
+              "items": [
+                "L'impresa controlla meno l'esperienza del cliente",
+                "Il servizio dipende da chi lo eroga",
+                "Servono istruzioni, formazione e controlli sulla rete"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La vendita è un momento di apprendimento",
+          "key": "Nella vendita c'è un ricco scambio di informazioni: per questo è una fase critica e può essere un momento di intenso apprendimento per l'organizzazione.",
+          "body": "Le esigenze raccolte dall'intermediario, le domande e le obiezioni dei clienti, i reclami: se tornano all'impresa, migliorano prodotti e processi. È lo stesso principio che sta dietro all'obbligo di rilevare le richieste e le esigenze del cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "Chi vende che cosa",
+          "lead": "Quota dei premi per canale.",
+          "facts": [
+            {
+              "label": "Vita: banche e Poste",
+              "text": "56,9%"
+            },
+            {
+              "label": "Vita: agenzie",
+              "text": "23,7%; consulenti finanziari 17,0%; broker in crescita al 2,4%."
+            },
+            {
+              "label": "Danni: agenzie",
+              "text": "76,6%"
+            },
+            {
+              "label": "Danni: altri",
+              "text": "Broker 10,2%; consulenti, banche e Poste 10,3%; vendita diretta 2,9%."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "La liquidazione: il momento della verità",
+          "key": "La gestione della liquidazione ha un impatto diretto sul cliente e sulla sua soddisfazione, ma insegna molto anche all'impresa.",
+          "body": "È sotto forte pressione per la velocità: la rapidità di liquidazione è un parametro con cui, anche dall'esterno, si valuta come opera una compagnia. Nel sistema CARD dell'RC auto la velocità di liquidazione è uno dei parametri che determinano incentivi e penalizzazioni per le imprese.",
+          "ref": "Materiale originale; IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "La liquidazione nei numeri",
+          "lead": "Dove la liquidazione funziona e dove fa nascere reclami.",
+          "facts": [
+            {
+              "label": "RC auto",
+              "text": "1,7 milioni di sinistri sulle autovetture, costo medio 5.160 euro."
+            },
+            {
+              "label": "CARD",
+              "text": "L'82% dei sinistri RC auto del 2025 liquidato con il risarcimento diretto (48% degli importi)."
+            },
+            {
+              "label": "Reclami",
+              "text": "35.459 all'IVASS: il 64% riguarda l'RC auto, soprattutto modi e tempi di liquidazione."
+            },
+            {
+              "label": "Vita",
+              "text": "Il 52% dei reclami riguarda la fase di liquidazione: ritardi a scadenza o nel riscatto."
+            },
+            {
+              "label": "Dormienti",
+              "text": "A fine 2025, 70.538 polizze dormienti da pagare per 3,7 miliardi: 2,7 già riscossi."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025 e sintesi"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha la casa allagata da un guasto. Chiama l'agenzia: la compagnia ha mandato il perito dopo tre settimane e nessuno lo ha avvisato. Il cliente minaccia di spostare tutte le polizze.",
+          "questions": [
+            "Quali relazioni sono in gioco?",
+            "Che cosa può fare l'agente subito?",
+            "Che cosa dovrebbe imparare l'impresa?"
+          ],
+          "solution": "Relazione primaria (agente-cliente), interna (agenzia-ufficio sinistri) e di concomitanza (perito). L'agente ascolta, chiarisce che cosa copre la polizza, sollecita l'ufficio sinistri e tiene informato il cliente; se il cliente scrive per lamentarsi, è un reclamo da trasmettere subito all'impresa. L'impresa dovrebbe usare il caso per rivedere tempi e comunicazione della liquidazione: è un parametro con cui viene giudicata."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché nell'assicurazione contano tanto i fattori immateriali?",
+          "options": [
+            "Perché le polizze costano poco",
+            "Perché la prestazione arriva dopo il pagamento e può non arrivare: il cliente compra fiducia",
+            "Perché le polizze si possono immagazzinare",
+            "Perché il cliente non paga in anticipo"
+          ],
+          "answer": 1,
+          "explanation": "Il cliente paga prima e riceve la prestazione dopo, se si verifica l'evento: la sua aspettativa si basa sulla fiducia nella controparte."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quali sono i tre sottoprocessi del processo assicurativo indicati dalla fonte?",
+          "options": [
+            "Riassicurazione, investimento, bilancio",
+            "Sviluppo del prodotto, vendita e gestione del servizio, gestione della liquidazione",
+            "Marketing, pubblicità, vendita",
+            "Assunzione, riserve, solvibilità"
+          ],
+          "answer": 1,
+          "explanation": "Sviluppo della polizza, vendita e gestione del servizio, gestione della liquidazione: tre momenti che toccano il cliente e da cui l'impresa impara."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Servizio",
+              "text": "immateriale, non immagazzinabile, prodotto mentre si consuma"
+            },
+            {
+              "value": "Fiducia",
+              "text": "la prestazione arriva dopo il premio, e può non arrivare"
+            },
+            {
+              "value": "3",
+              "text": "relazioni: primarie, interne, di concomitanza"
+            },
+            {
+              "value": "3",
+              "text": "sottoprocessi: prodotto, vendita e servizio, liquidazione"
+            },
+            {
+              "value": "Velocità",
+              "text": "di liquidazione: un parametro con cui la compagnia viene giudicata"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo dentro l'impresa di assicurazione: che tipo di organizzazione è e come si svolge il processo assicurativo, dalla progettazione della polizza fino al pagamento del sinistro. Sono temi che toccano da vicino il lavoro dell'intermediario, perché lui sta proprio nel punto in cui l'impresa incontra il cliente.\n\nIl materiale indica tre specificità gestionali e organizzative. L'impresa di assicurazione è un'organizzazione di servizio. Presenta un'inversione del ciclo attivo e di quello passivo: prima incassa i premi, poi paga i sinistri. Ed è basata sullo sviluppo, sul trasferimento, sull'uso e sullo scambio di informazioni tra più soggetti. Una delle versioni della fonte parla di investimento sia attivo sia passivo, ma il senso, ripreso dall'altra versione, è l'inversione del ciclo, che avete già approfondito nella lezione sugli aspetti gestionali delle compagnie.\n\nChe cosa significa essere un'impresa di servizio? Il servizio ha natura immateriale e intangibile, non si può immagazzinare, e il suo consumo coincide con l'erogazione e con la produzione. Una polizza non si tiene in magazzino come un'automobile: il servizio prende forma quando il cliente chiede un preventivo, quando denuncia un sinistro, quando chiede un chiarimento. Per questo le imprese di servizio hanno un grado di incertezza maggiore e devono avvalersi di personale che gestisca il momento dell'erogazione a diretto contatto con il cliente. Una versione della fonte precisa: personale altamente qualificato. In pratica, il momento del contatto è il servizio: una telefonata gestita bene dopo un sinistro vale quanto le condizioni di polizza.\n\nLa fonte individua poi tre tipi di relazioni: le relazioni primarie, le relazioni interne e le relazioni di concomitanza. Il materiale non le descrive nel dettaglio; possiamo leggerle così nel lavoro quotidiano. Le relazioni primarie sono quelle tra l'impresa, o chi la rappresenta, e il cliente: il colloquio in agenzia, la denuncia di un sinistro. Le relazioni interne legano le funzioni e le persone dell'impresa e della sua rete: l'agenzia con la direzione tecnica, con l'ufficio sinistri, con l'amministrazione. Le relazioni di concomitanza riguardano i soggetti che partecipano contemporaneamente all'erogazione del servizio: il perito, la carrozzeria convenzionata, la centrale di assistenza. Il cliente vive il servizio come un tutto: se una di queste relazioni si inceppa, il giudizio cade sull'impresa e spesso sull'intermediario.\n\nC'è un tratto che rende l'assicurazione diversa da quasi ogni altro servizio. Il momento della controprestazione arriva dopo il pagamento da parte del cliente, e può anche non verificarsi mai: se l'evento non accade, il cliente non riceve un indennizzo. Questo, dice la fonte, rende ancora più importante l'impatto dei fattori immateriali sulla percezione del cliente, che costruisce un'aspettativa basata sulla fiducia nei confronti della controparte. Il cliente compra una promessa. La chiarezza con cui gliela spiegate, la vostra disponibilità, la reputazione della compagnia sono parte del prodotto.\n\nVeniamo al processo. La progettazione dell'organizzazione di un'impresa assicurativa deve essere coerente con il disegno strategico predisposto dalla direzione generale, per ottenere e sfruttare un vantaggio competitivo. Il processo si può scomporre in almeno tre sottoprocessi di particolare rilievo: lo sviluppo del prodotto, cioè della polizza; la vendita e la gestione del servizio; la gestione della liquidazione.\n\nLo sviluppo del prodotto nasce da un'analisi tecnica che guarda alle condizioni di specifiche categorie di soggetti, persone fisiche o imprese, e agli eventi che possono causare loro perdite finanziarie. La fase successiva richiede l'analisi dei dati raccolti e l'elaborazione delle ipotesi di copertura, integrando il lavoro della funzione tecnica con quello della funzione commerciale e del marketing. Oggi questo percorso è regolato dalla disciplina sul governo e controllo dei prodotti, il POG, del Regolamento IVASS 45 del 2020, che avete studiato nell'area giuridica: il produttore definisce il mercato di riferimento e la strategia distributiva, testa il prodotto e lo monitora nel tempo, e il distributore gli restituisce le informazioni sulle vendite.\n\nIl secondo sottoprocesso, vendita e gestione del servizio, viene logicamente dopo la creazione della polizza. L'uso di canali distributivi indiretti, come agenzie, promotori, broker e banche, dà vantaggi in termini di costi, perché l'impresa non deve mantenere una rete propria di dipendenti sul territorio. Però limita la possibilità di controllare e strutturare l'esperienza che il cliente vive. È per questo che le imprese danno istruzioni alla rete, fanno formazione, controllano: devono garantire un servizio coerente anche quando non lo erogano direttamente.\n\nIl materiale aggiunge un'osservazione preziosa: la vendita è una fase critica perché in essa avviene un ricco scambio di informazioni e, potenzialmente, un intenso apprendimento per l'organizzazione. Le esigenze raccolte dall'intermediario, le domande e le obiezioni dei clienti, i reclami: se tornano all'impresa, migliorano prodotti e processi. È lo stesso principio che sta dietro l'obbligo di rilevare richieste ed esigenze del cliente prima di proporre un contratto.\n\nQuanto pesano oggi i diversi canali? Secondo l'IVASS, nel 2025 il vita è distribuito per il 56,9 per cento da sportelli bancari e postali, per il 23,7 per cento dalle agenzie e per il 17 per cento dai consulenti finanziari; i broker, ancora marginali, salgono al 2,4 per cento. Nei danni le agenzie raccolgono il 76,6 per cento, i broker il 10,2, consulenti, banche e Poste insieme il 10,3, mentre la vendita diretta si ferma al 2,9 per cento. Nei danni, quindi, l'esperienza del cliente passa quasi sempre da un intermediario.\n\nIl terzo sottoprocesso è la gestione della liquidazione. Il materiale osserva che non ha solo un impatto diretto sul cliente e sulla sua soddisfazione, ma ha anche implicazioni importanti di apprendimento per l'impresa stessa: dai sinistri si capisce se il prodotto funziona, se le esclusioni sono chiare, se l'assunzione è stata corretta. Ed è sottoposta a forte pressione sulla velocità, che è un parametro con cui si valuta, anche dall'esterno, l'operatività di una compagnia. Un esempio concreto: nel sistema di risarcimento diretto dell'RC auto, il CARD, l'IVASS misura l'efficienza delle imprese con quattro parametri, antifrode, costo, dinamica del costo e velocità di liquidazione, e chi fa meglio della media riceve incentivi, chi fa peggio penalizzazioni.\n\nQualche numero del 2025. Sulle autovetture si sono registrati 1,7 milioni di sinistri, con un costo medio di 5.160 euro, e l'82 per cento dei sinistri RC auto è stato liquidato con il risarcimento diretto, pari al 48 per cento degli importi. Ma la liquidazione è anche la prima fonte di insoddisfazione. L'IVASS ha ricevuto 35.459 reclami; il 64 per cento riguarda l'RC auto, soprattutto per modalità e tempi di liquidazione. Nel vita il 52 per cento dei reclami riguarda proprio la fase liquidativa, per ritardi nel pagamento a scadenza o nel riscatto. E c'è il tema delle polizze dormienti, cioè prestazioni maturate ma non pagate: a fine 2025 le compagnie hanno segnalato 70.538 polizze con diritto al pagamento, per 3,7 miliardi, di cui 2,7 già riscossi dai beneficiari. L'IVASS osserva anche che molti consumatori lamentano poca assistenza dell'intermediario al momento del sinistro.\n\nNel caso pratico il perito arriva dopo tre settimane e nessuno avvisa il cliente. Si inceppano insieme la relazione di concomitanza con il perito, quella interna con l'ufficio sinistri e quella primaria con il cliente. L'agente può fare molto: ascoltare, chiarire che cosa copre la polizza, sollecitare l'ufficio sinistri, tenere informato il cliente, e trasmettere subito l'eventuale reclamo scritto. L'impresa, da parte sua, dovrebbe imparare dal caso, perché è proprio sulla liquidazione che viene giudicata.\n\nRicapitolando: l'impresa di assicurazione è un'organizzazione di servizio, immateriale e non immagazzinabile; vende una promessa che si basa sulla fiducia; vive di relazioni primarie, interne e di concomitanza; e il suo processo si articola in sviluppo del prodotto, vendita e gestione del servizio, gestione della liquidazione, dove la velocità è un metro di giudizio.",
+      "sources": [
+        {
+          "title": "IVASS, Relazione sull'attività svolta dall'Istituto nell'anno 2025 (18 giugno 2026)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025.pdf"
+        },
+        {
+          "title": "IVASS, Relazione annuale sul 2025 in sintesi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Le due versioni della fonte differiscono: «inversione del ciclo attivo e passivo» (nuovo materiale) e «investimento sia attivo che passivo» (versione precedente). Seguita la versione più recente, citata anche l'altra.",
+          "source_ref": "Materiale originale, due versioni"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la distinzione tra relazioni primarie, interne e di concomitanza. La fonte non le definisce: descrizioni ed esempi sono una lettura didattica da validare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento dello sviluppo del prodotto alla disciplina POG.",
+          "source_ref": "Reg. IVASS 45/2020 (richiamo)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Quote dei canali distributivi vita e danni nel 2025.",
+          "source_ref": "IVASS, Relazione annuale 2025, tavv. I.1 e I.5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Velocità di liquidazione come parametro del sistema CARD; sinistri RC auto 2025, quota CARD, reclami (RC auto 64%, vita 52% in fase liquidativa), polizze dormienti, carenze di assistenza degli intermediari nei sinistri.",
+          "source_ref": "IVASS, Relazione annuale 2025, capp. II, V e VI; sintesi"
+        }
+      ]
+    },
+    {
+      "title": "Le forze che muovono il mercato: economia, regole, clienti e rischi emergenti",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Mondo del Mercato delle Assicurazioni (2).pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "title": "Le forze che muovono il mercato",
+          "goals": [
+            "Collegare tassi, inflazione e scelte dei clienti all'andamento delle polizze",
+            "Conoscere le regole che stanno cambiando il settore",
+            "Riconoscere nuovi canali e rischi emergenti come cyber e clima"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un universo dinamico",
+          "key": "Il mercato assicurativo ha un ruolo cruciale nella gestione dei rischi e nella protezione di beni e vite. È plasmato da tendenze economiche, sviluppi normativi ed esigenze dei consumatori che cambiano.",
+          "body": "In questa lezione li vediamo uno alla volta, con i dati più recenti dell'IVASS: economia, regole, clienti e tecnologia, rischi emergenti.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "1. I fattori economici",
+          "key": "Fluttuazioni economiche, tassi di interesse e condizioni di mercato influenzano la domanda di polizze e la redditività delle compagnie.",
+          "body": "Capire queste dinamiche serve ad adattarsi con agilità a un ambiente che cambia continuamente. Vediamo come è successo negli ultimi anni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Tassi e polizze vita: che cosa è successo",
+          "steps": [
+            {
+              "label": "2022",
+              "text": "Inflazione alta, tassi in forte rialzo: i titoli a reddito fisso perdono valore e cambia la convenienza delle gestioni separate."
+            },
+            {
+              "label": "Nuove gestioni",
+              "text": "Nascono, anche con un intervento IVASS, le gestioni con fondo utili, che investono a rendimenti più alti."
+            },
+            {
+              "label": "Riscatti",
+              "text": "Dopo anni di riscatti elevati, nel 2025 il rapporto riscatti/premi scende di 10 punti, al 67%."
+            },
+            {
+              "label": "2025",
+              "text": "Gestioni con fondo utili al 3,6%, senza fondo utili al 2,9%, inflazione all'1,4%."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025, sintesi"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "Dove cresce il mercato",
+          "lead": "I segmenti più dinamici secondo l'IVASS.",
+          "facts": [
+            {
+              "label": "Unit-linked",
+              "text": "Ramo III +18,8%: le polizze legate ai mercati trainano il vita."
+            },
+            {
+              "label": "Property",
+              "text": "+10,3%: incendio, altri danni ai beni, perdite pecuniarie."
+            },
+            {
+              "label": "Catastrofi",
+              "text": "Incendio ed eventi naturali +17,1%, anche per il nuovo obbligo per le imprese."
+            },
+            {
+              "label": "Salute",
+              "text": "+7,7%; il ramo malattia cresce dell'11,6%."
+            },
+            {
+              "label": "Auto",
+              "text": "Cresce più lentamente: +5,1%, con RC auto e natanti al +3,6%."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025, sintesi"
+        },
+        {
+          "layout": "concept",
+          "title": "2. Le regole",
+          "key": "Le leggi e i regolamenti del settore possono variare molto a livello globale, nazionale e regionale. Conoscerli aggiornati serve a rispettarli e a cogliere sfide e opportunità.",
+          "body": "Per l'intermediario aggiornarsi non è solo un dovere formativo: le regole cambiano i prodotti che vende, i documenti che consegna, i controlli che subisce.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le regole che cambiano il settore",
+          "head": [
+            "Livello",
+            "Che cosa sta succedendo",
+            "Effetto"
+          ],
+          "rows": [
+            [
+              "1 · Globale",
+              "La IAIS ha adottato a fine 2024 l'Insurance Capital Standard per i grandi gruppi internazionali.",
+              "Requisiti di capitale più confrontabili."
+            ],
+            [
+              "2 · Europeo",
+              "Revisione di Solvency II e regolamento DORA sulla resilienza digitale, anche per gli intermediari.",
+              "Più attenzione a capitale, rischi ICT e cyber."
+            ],
+            [
+              "3 · Europeo",
+              "Semplificazione: meno oneri inutili, più proporzionalità.",
+              "Per l'IVASS non deve ridurre la tutela degli assicurati."
+            ],
+            [
+              "4 · Nazionale",
+              "Obbligo cat-nat per le imprese, Arbitro Assicurativo dal 15 gennaio 2026.",
+              "Nuovi prodotti e nuove tutele."
+            ]
+          ],
+          "ref": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "3. I clienti e la tecnologia",
+          "key": "Le esigenze dei consumatori sono sempre più complesse. La tecnologia ha cambiato il modo in cui le polizze si distribuiscono e si comprano, con offerte sempre più personalizzate.",
+          "body": "Il cliente confronta online, compra dallo smartphone, si aspetta risposte rapide. E incontra le polizze anche dove non le cerca: con la bolletta della luce o al supermercato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Indagine IVASS 2026",
+          "title": "Le polizze fuori dai canali tradizionali",
+          "lead": "Utilities, grande distribuzione e operatori della mobilità entrano nella distribuzione, iscritti al RUI direttamente o con società dedicate.",
+          "facts": [
+            {
+              "label": "Prodotti",
+              "text": "Casa, infortuni, animali, viaggi: standard, con premi contenuti."
+            },
+            {
+              "label": "Canali",
+              "text": "Soprattutto call center e canali digitali; meno i punti vendita."
+            },
+            {
+              "label": "Volumi",
+              "text": "Campione di 7 distributori: circa 98,5 milioni di premi nel 2025."
+            },
+            {
+              "label": "Sinistri",
+              "text": "Liquidato in media circa il 20% dei premi: un segnale di coperture poco usate o poco conosciute."
+            },
+            {
+              "label": "Esito",
+              "text": "L'IVASS ha chiesto di rivedere prodotti, questionari e script telefonici."
+            }
+          ],
+          "ref": "IVASS, L'assicurazione oltre i canali distributivi tradizionali, luglio 2026"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati 2025",
+          "title": "Prezzo e personalizzazione nell'RC auto",
+          "lead": "Il caso dell'auto mostra quanto conta oggi la personalizzazione dell'offerta.",
+          "facts": [
+            {
+              "label": "Premio medio",
+              "text": "438 euro per le autovetture (+4,5%)."
+            },
+            {
+              "label": "Sconti",
+              "text": "Su oltre il 90% dei contratti; in media 226 euro, circa il 40% del premio."
+            },
+            {
+              "label": "Scatola nera",
+              "text": "Nel 17,4% delle polizze RC auto stipulate."
+            },
+            {
+              "label": "Europa",
+              "text": "Prezzo medio 320 euro in Italia, contro 450 nel Regno Unito, 197 in Spagna e 194 in Francia."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025 e sintesi"
+        },
+        {
+          "layout": "concept",
+          "title": "4. I rischi emergenti",
+          "key": "La gestione dei rischi è il cuore dell'industria assicurativa. Comprendere e valutare rischi emergenti come le minacce informatiche e i cambiamenti climatici è decisivo per creare polizze innovative e coperture adeguate.",
+          "body": "Sono rischi nuovi perché mancano dati storici, cambiano in fretta e possono colpire molti assicurati insieme.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Clima e cyber",
+          "left": {
+            "title": "Catastrofi naturali",
+            "items": [
+              "Polizze cat-nat: oltre 700 mila ad aprile 2026, 289 mila a luglio 2025",
+              "Bacino potenziale: circa 4,5 milioni di imprese",
+              "Il premio dipende soprattutto dal territorio: il sisma pesa di più",
+              "Più il valore assicurato cresce, più il premio unitario scende"
+            ],
+            "ref": "IVASS, Relazione annuale 2025, sintesi"
+          },
+          "right": {
+            "title": "Rischi digitali",
+            "items": [
+              "La digitalizzazione espone il settore a rischi operativi e cyber",
+              "Con DORA la vigilanza rafforza i controlli, anche sugli intermediari",
+              "L'IVASS ha oscurato 192 siti abusivi tra gennaio 2025 e giugno 2026"
+            ],
+            "ref": "IVASS, Relazione annuale 2025, sintesi"
+          },
+          "note": "Clima e cyber sono rischi per i clienti e, insieme, per le stesse compagnie e agenzie.",
+          "noteRef": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "Un mercato da seguire con metodo",
+          "key": "Per la fonte il mercato, intricato ma stimolante, richiede un approccio informato: attenzione costante alle tendenze, solida conoscenza delle regole, capacità di adattarsi.",
+          "body": "In pratica: leggere ogni anno i dati IVASS e ANIA, seguire le novità normative, ascoltare i clienti, aggiornare l'offerta. È il senso dell'aggiornamento professionale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente di 55 anni ha una polizza rivalutabile da 15 anni, un'auto con scatola nera e un piccolo laboratorio artigiano. Ha appena comprato con la bolletta della luce una polizza casa da 5 euro al mese. Chiede all'intermediario se è tutto a posto.",
+          "questions": [
+            "Quali temi di mercato toccano la sua situazione?",
+            "Che cosa controlla l'intermediario?"
+          ],
+          "solution": "Tassi e gestioni separate (prima di un riscatto si confrontano costi e alternative); personalizzazione dell'RC auto; obbligo cat-nat per il laboratorio; nuovi canali di vendita. L'intermediario controlla che la polizza casa abbinata alla bolletta non duplichi coperture già esistenti, legge esclusioni e carenze, verifica che il laboratorio sia assicurato contro i rischi catastrofali e che la sua RC copra l'attività."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale tra questi è un rischio emergente indicato dalla fonte?",
+          "options": [
+            "Il furto d'auto",
+            "Le minacce informatiche e i cambiamenti climatici",
+            "L'incendio domestico",
+            "La responsabilità civile auto"
+          ],
+          "answer": 1,
+          "explanation": "La fonte indica minacce cibernetiche e cambiamenti climatici: rischi nuovi, con pochi dati storici, che richiedono polizze innovative."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nelle polizze vendute da utilities e grande distribuzione esaminate dall'IVASS, i sinistri liquidati sono stati in media circa:",
+          "options": [
+            "Il 20% dei premi",
+            "Il 60% dei premi",
+            "Il 100% dei premi",
+            "Il 150% dei premi"
+          ],
+          "answer": 0,
+          "explanation": "Circa il 20%. Per l'IVASS un valore basso può segnalare coperture con molte esclusioni o clienti che non sanno di essere assicurati."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Tassi",
+              "text": "cambiano la convenienza delle polizze vita e i riscatti"
+            },
+            {
+              "value": "Regole",
+              "text": "a più livelli: ICS, Solvency II, DORA, obbligo cat-nat"
+            },
+            {
+              "value": "Canali",
+              "text": "nuovi distributori e vendita digitale, da presidiare"
+            },
+            {
+              "value": "Rischi",
+              "text": "emergenti: clima e cyber"
+            },
+            {
+              "value": "Metodo",
+              "text": "approccio informato e aggiornamento costante"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione sul mercato guardiamo alle forze che lo muovono. Il materiale del corso descrive il mercato delle assicurazioni come un universo dinamico, che ha un ruolo cruciale nella gestione dei rischi e nella protezione dei beni e delle vite. È un ambiente complesso, plasmato da molti fattori: le tendenze economiche, gli sviluppi normativi, le esigenze dei consumatori che cambiano. A questi la fonte aggiunge i rischi emergenti. Li vediamo uno per uno, con i dati più recenti dell'IVASS.\n\nPrimo: i fattori economici. Le fluttuazioni dell'economia, i tassi di interesse e le condizioni di mercato possono incidere sulla domanda di polizze e sulla redditività delle compagnie. Capire queste dinamiche, dice la fonte, è essenziale per adattarsi con agilità a un ambiente in continua evoluzione.\n\nGli ultimi anni ne sono un esempio perfetto. Nel 2022 l'inflazione è salita e i tassi di interesse sono cresciuti molto. I titoli a reddito fisso già in portafoglio hanno perso valore, e questo ha cambiato la convenienza tra le diverse gestioni separate delle polizze vita. Molti clienti hanno riscattato, attratti da rendimenti più alti altrove. Dal 2022, anche grazie a un intervento normativo dell'IVASS, sono nate gestioni innovative con fondo utili, che hanno potuto investire a rendimenti più elevati. Nel 2025 il quadro si è stabilizzato: il rapporto tra riscatti e premi è sceso di dieci punti, al 67 per cento. Le gestioni con fondo utili hanno reso in media il 3,6 per cento, in linea con il BTP decennale, quelle senza fondo utili il 2,9 per cento, contro un'inflazione dell'1,4 per cento. Per l'intermediario la lezione è concreta: quando un cliente vuole riscattare una polizza vita, bisogna confrontare costi, penalità e alternative, alla luce dei tassi del momento.\n\nAnche la crescita del mercato dipende dall'economia e dai bisogni. Nel 2025 il vita è stato trainato dalle unit-linked, il ramo terzo, cresciuto del 18,8 per cento. Nei danni i comparti più dinamici sono il property, più 10,3 per cento, e la salute, più 7,7 per cento, con il ramo malattia a più 11,6. Incendio e catastrofi naturali crescono del 17,1 per cento, anche per l'obbligo di copertura per le imprese. L'auto cresce più lentamente, del 5,1 per cento.\n\nSecondo: le regole. La fonte osserva che le leggi e i regolamenti che governano il settore possono variare molto a livello globale, nazionale e regionale, e che conoscere le norme aggiornate è essenziale per rispettarle e per adattarsi alle nuove sfide e opportunità. Per l'intermediario non è solo un dovere formativo: le regole cambiano i prodotti che vende, i documenti che consegna, i controlli che subisce.\n\nVediamo i livelli. A livello globale l'associazione internazionale dei supervisori assicurativi, la IAIS, ha adottato a fine 2024 l'Insurance Capital Standard, uno standard di capitale per i grandi gruppi attivi a livello internazionale, per rendere i requisiti più confrontabili tra Paesi. A livello europeo è in corso l'attuazione della revisione di Solvency II, e il regolamento DORA sulla resilienza operativa digitale ha portato più controlli sui rischi informatici, anche per gli intermediari. Sempre in Europa si discute di semplificazione: l'IVASS la sostiene, ma precisa che non deve diventare un allentamento delle regole né ridurre la protezione degli assicurati. A livello nazionale le novità più vicine al vostro lavoro sono l'obbligo di assicurazione contro le catastrofi naturali per le imprese e l'avvio dell'Arbitro Assicurativo, dal 15 gennaio 2026, che nei primi mesi ha già ricevuto oltre 1.700 ricorsi.\n\nTerzo: i clienti e la tecnologia. Per la fonte la crescente complessità delle esigenze dei consumatori è un elemento distintivo del mercato. La tecnologia ha cambiato il modo in cui le assicurazioni si distribuiscono e si acquistano, con un'attenzione crescente alla personalizzazione delle offerte per le esigenze di ciascuno. Il cliente confronta online, compra dallo smartphone e si aspetta risposte rapide. E incontra le polizze anche dove non le cerca.\n\nUn'indagine pubblicata dall'IVASS a luglio 2026 lo mostra bene. Negli ultimi anni sono entrati nella distribuzione nuovi operatori: società che forniscono luce, gas e telecomunicazioni, catene della grande distribuzione, operatori della mobilità, iscritti al Registro direttamente o tramite società costituite apposta. Offrono soprattutto polizze danni standardizzate, con premi contenuti: casa, infortuni, animali domestici, viaggi. Le vendono soprattutto tramite call center e canali digitali. Il campione esaminato, sette distributori, ha raccolto circa 98,5 milioni di euro di premi nel 2025. Ma il rapporto tra sinistri liquidati e premi è stato in media di circa il 20 per cento: per l'IVASS un valore così basso può indicare coperture con molte esclusioni o limitazioni, o clienti che non sanno nemmeno di aver comprato una polizza. L'Istituto ha chiesto di rivedere prodotti, questionari sulle esigenze e script telefonici.\n\nLa personalizzazione si vede bene anche nell'RC auto. Nel 2025 il premio medio per le autovetture è di 438 euro, in aumento del 4,5 per cento. Ma il prezzo finale dipende molto dagli sconti, applicati a oltre il 90 per cento dei contratti: in media 226 euro, circa il 40 per cento del premio. La scatola nera, che registra chilometri e stile di guida, è presente nel 17,4 per cento delle polizze stipulate. Nel confronto europeo il prezzo medio della copertura in Italia, al netto delle tasse, è di 320 euro, contro i 450 del Regno Unito e meno di 200 in Spagna e Francia.\n\nQuarto: i rischi emergenti. Per la fonte la gestione dei rischi è il cuore dell'industria assicurativa, e comprendere e valutare i rischi emergenti, come le minacce informatiche o i cambiamenti climatici, è cruciale per sviluppare polizze innovative e garantire coperture adeguate. Sono rischi nuovi perché mancano lunghe serie di dati, cambiano in fretta e possono colpire molti assicurati nello stesso momento.\n\nSul clima, i dati IVASS mostrano la crescita delle polizze catastrofali per le imprese: oltre 700 mila a fine aprile 2026, contro 289 mila a luglio 2025. Il bacino potenziale però è di circa 4,5 milioni di imprese, e la diffusione resta bassa tra le piccole e le micro. Il prezzo dipende soprattutto dal territorio: il rischio sismico pesa più di tutti, poi quello idrogeologico e le frane. E al crescere del valore assicurato il premio per unità di capitale diminuisce, a vantaggio delle imprese più grandi. Sul cyber, l'IVASS sottolinea che la digitalizzazione espone il settore a rischi operativi e informatici crescenti e che la vigilanza, anche con DORA, ha rafforzato i controlli. C'è anche un rischio digitale che colpisce direttamente i clienti: i siti abusivi. Tra gennaio 2025 e giugno 2026 l'IVASS ne ha oscurati 192.\n\nLa fonte chiude con un'indicazione di metodo: il mercato, intricato ma stimolante, richiede attenzione costante alle tendenze, una solida comprensione delle normative e la capacità di adattarsi a un panorama che cambia. Il testo dice approccio informatico; il senso più probabile è approccio informato. In pratica vuol dire leggere ogni anno i dati dell'IVASS e dell'ANIA, seguire le novità normative, ascoltare i clienti e aggiornare l'offerta. È proprio il senso dell'aggiornamento professionale che state facendo.\n\nNel caso pratico un solo cliente tocca tutti e quattro i temi: la sua polizza vita risente dei tassi, l'auto con scatola nera mostra la personalizzazione, il laboratorio rientra nell'obbligo catastrofale, la polizza casa comprata con la bolletta viene da un nuovo canale. L'intermediario controlla che non ci siano coperture doppie, legge esclusioni e carenze, verifica obblighi e scoperture.\n\nRicapitolando: i tassi cambiano la convenienza delle polizze vita e i riscatti; le regole cambiano a più livelli, dal capitale dei grandi gruppi al digitale; nuovi distributori e canali digitali vanno presidiati; clima e cyber sono i rischi emergenti; e serve un approccio informato, aggiornato ogni anno.",
+      "sources": [
+        {
+          "title": "IVASS, Relazione annuale sul 2025 in sintesi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        },
+        {
+          "title": "IVASS, Relazione sull'attività svolta dall'Istituto nell'anno 2025 (18 giugno 2026)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025.pdf"
+        },
+        {
+          "title": "IVASS, L'assicurazione oltre i canali distributivi tradizionali (luglio 2026)",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2026/IVASS-Report_distributori_non_tradizionali-Luglio_2026_autocopertinato_.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Omesso il riferimento al sito del fornitore nella slide finale. Le sei slide del testo «Mondo del Mercato» sono distribuite nei quattro fattori della lezione.",
+          "source_ref": "Corso Ivass 60 ore/Materiale /Mondo del Mercato delle Assicurazioni (2).pdf"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'espressione «approccio informatico», interpretata come «approccio informato» (probabile refuso). Da confermare.",
+          "source_ref": "Corso Ivass 60 ore/Materiale /Mondo del Mercato delle Assicurazioni (2).pdf"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetti dei tassi sulle gestioni separate, gestioni con fondo utili, rapporto riscatti/premi, rendimenti 2025; segmenti in crescita.",
+          "source_ref": "IVASS, Relazione annuale 2025 in sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contesto normativo: ICS della IAIS, revisione Solvency II, DORA, semplificazione, obbligo cat-nat, Arbitro Assicurativo (1.734 ricorsi a inizio giugno 2026).",
+          "source_ref": "IVASS, Relazione annuale 2025 in sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indagine IVASS sui distributori non tradizionali (prodotti, canali, 98,5 milioni di premi, rapporto sinistri/premi circa 20%, interventi richiesti).",
+          "source_ref": "IVASS, report luglio 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dati RC auto 2025: premio medio autovetture, sconti, scatola nera, confronto europeo.",
+          "source_ref": "IVASS, Relazione annuale 2025 e sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Rischi emergenti: diffusione e prezzo delle polizze cat-nat, rischi digitali e siti abusivi oscurati.",
+          "source_ref": "IVASS, Relazione annuale 2025 in sintesi"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "module": "Area giuridica",
+  "topic": "Whistleblowing",
+  "topic_order": 11,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il whistleblowing: segnalare le violazioni ed essere protetti",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /La privacy nella era del GDPR.pdf ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Whistleblowing",
+          "title": "Il whistleblowing: segnalare le violazioni ed essere protetti",
+          "goals": [
+            "Sapere chi può segnalare, che cosa e attraverso quali canali",
+            "Conoscere gli obblighi di imprese e intermediari assicurativi",
+            "Riconoscere le tutele contro le ritorsioni e i loro limiti"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le due parti del whistleblowing",
+          "key": "Il whistleblowing coinvolge principalmente due parti: il whistleblower, che individua l'illecito e richiama l'attenzione dell'organizzazione, e il segnalato, che commette l'illecito in modo volontario o involontario.",
+          "body": "La legge italiana usa parole proprie: «persona segnalante» per chi segnala e «persona coinvolta» per la persona, fisica o giuridica, a cui la violazione è attribuita o che vi è comunque implicata.",
+          "ref": "Materiale originale del corso; D.Lgs. 24/2023, art. 2, c. 1, lett. g) e l)"
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "D.Lgs. 10 marzo 2023, n. 24",
+              "detail": "Attua la direttiva (UE) 2019/1937. Ha effetto dal 15 luglio 2023; per gli enti privati fino a 249 dipendenti, canale interno obbligatorio dal 17 dicembre 2023."
+            },
+            {
+              "label": "Codice delle assicurazioni, artt. 10-quater e 10-quinquies",
+              "detail": "Sistemi interni di segnalazione per imprese e intermediari, e segnalazioni all'IVASS."
+            },
+            {
+              "label": "Linee guida ANAC",
+              "detail": "Canale esterno: Delibera 311/2023, modificata dalla Delibera 479/2025. Canali interni: Delibera 478/2025."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa si segnala",
+          "left": {
+            "title": "Rientra",
+            "items": [
+              "Violazioni di norme nazionali o UE che ledono l'interesse pubblico o l'integrità dell'ente",
+              "Illeciti amministrativi, contabili, civili o penali",
+              "Illeciti nei settori UE, tra cui servizi finanziari, antiriciclaggio, tutela dei consumatori e protezione dei dati",
+              "Anche i fondati sospetti e le condotte per nascondere le violazioni"
+            ],
+            "ref": "D.Lgs. 24/2023, artt. 1 e 2"
+          },
+          "right": {
+            "title": "Non rientra",
+            "items": [
+              "Lamentele personali sul proprio rapporto di lavoro o con i superiori",
+              "Segnalazioni già disciplinate in modo obbligatorio da specifici atti UE o nazionali",
+              "Sicurezza nazionale, salvo eccezioni"
+            ],
+            "ref": "D.Lgs. 24/2023, art. 1, c. 2"
+          },
+          "note": "Il whistleblowing non è un canale per i conflitti personali: per quelli ci sono gli strumenti del rapporto di lavoro.",
+          "noteRef": "D.Lgs. 24/2023, art. 1, c. 2, lett. a)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi è protetto",
+          "items": [
+            {
+              "text": "Lavoratori subordinati, anche a termine o in somministrazione.",
+              "ref": "art. 3, c. 3, lett. c)"
+            },
+            {
+              "text": "Lavoratori autonomi, collaboratori, liberi professionisti e consulenti.",
+              "ref": "art. 3, c. 3, lett. d), f)"
+            },
+            {
+              "text": "Volontari e tirocinanti; azionisti e chi ha funzioni di amministrazione, direzione o controllo.",
+              "ref": "art. 3, c. 3, lett. g), h)"
+            },
+            {
+              "text": "Anche prima dell'assunzione, nel periodo di prova e dopo la fine del rapporto.",
+              "ref": "art. 3, c. 4"
+            },
+            {
+              "text": "Facilitatori, colleghi, parenti fino al quarto grado e enti collegati al segnalante.",
+              "ref": "art. 3, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quali enti privati devono attivare il canale",
+          "lead": "Il D.Lgs. 24/2023 si applica agli enti privati che rientrano in almeno una di queste categorie.",
+          "head": [
+            "Categoria",
+            "Requisito",
+            "Che cosa si può segnalare"
+          ],
+          "rows": [
+            [
+              "1 · Dimensione",
+              "Media di almeno 50 lavoratori subordinati nell'ultimo anno",
+              "Violazioni del diritto UE nei settori indicati"
+            ],
+            [
+              "2 · Settore",
+              "Ambito degli atti UE delle parti I.B e II dell'allegato, anche sotto i 50 dipendenti",
+              "Violazioni del diritto UE nei settori indicati"
+            ],
+            [
+              "3 · Modello 231",
+              "Enti che adottano il modello organizzativo del D.Lgs. 231/2001, anche sotto i 50 dipendenti",
+              "Condotte rilevanti 231 e violazioni del modello, con il solo canale interno; oltre i 50 dipendenti anche le violazioni UE"
+            ]
+          ],
+          "ref": "D.Lgs. 24/2023, art. 2, c. 1, lett. q); art. 3, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "Nel settore assicurativo: l'art. 10-quater del Codice",
+          "key": "Imprese di assicurazione e riassicurazione e intermediari, inclusi quelli a titolo accessorio, adottano procedure per la segnalazione interna, da parte del personale, di violazioni delle norme sull'attività assicurativa e distributiva.",
+          "body": "Le procedure garantiscono la riservatezza di segnalante e segnalato, la protezione da ritorsioni e discriminazioni e un canale specifico, indipendente e autonomo. Segnalare non viola gli obblighi del rapporto di lavoro, salvo calunnia o diffamazione.",
+          "ref": "CAP, art. 10-quater"
+        },
+        {
+          "layout": "compare",
+          "title": "I canali di segnalazione",
+          "cols": [
+            {
+              "title": "Interni",
+              "items": [
+                "Attivati dall'ente, sentiti i sindacati",
+                "Gestiti da una persona o un ufficio autonomo e formato, o da un soggetto esterno",
+                "Scritti, anche online, oppure orali, anche con incontro diretto",
+                "Fino a 249 dipendenti il canale si può condividere"
+              ]
+            },
+            {
+              "title": "Esterni e pubblici",
+              "items": [
+                "Canale ANAC, sulla piattaforma informatica o in forma orale",
+                "Nel settore assicurativo l'IVASS riceve le segnalazioni del personale sulle violazioni del Codice",
+                "Divulgazione pubblica, solo a precise condizioni",
+                "Denuncia all'autorità giudiziaria o contabile"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi del canale interno",
+          "items": [
+            {
+              "value": "7 giorni",
+              "text": "per l'avviso di ricevimento al segnalante",
+              "ref": "art. 5, c. 1, lett. a)"
+            },
+            {
+              "value": "3 mesi",
+              "text": "per dare riscontro sul seguito della segnalazione",
+              "ref": "art. 5, c. 1, lett. d)"
+            },
+            {
+              "value": "7 giorni",
+              "text": "per trasmettere al soggetto competente una segnalazione arrivata alla persona sbagliata",
+              "ref": "art. 4, c. 6"
+            },
+            {
+              "value": "5 anni",
+              "text": "al massimo di conservazione dopo l'esito finale",
+              "ref": "art. 14, c. 1"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando si può andare all'ANAC",
+          "items": [
+            {
+              "text": "Il canale interno non è obbligatorio, non è attivo o non è conforme alla legge."
+            },
+            {
+              "text": "La segnalazione interna è già stata fatta e non ha avuto seguito."
+            },
+            {
+              "text": "Ci sono fondati motivi per ritenere che la segnalazione interna non avrebbe seguito o esporrebbe a ritorsioni."
+            },
+            {
+              "text": "Ci sono fondati motivi per ritenere che la violazione sia un pericolo imminente o palese per l'interesse pubblico."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La riservatezza",
+          "key": "L'identità del segnalante, e ogni informazione da cui si possa ricavare, non può essere rivelata senza il suo consenso espresso a persone diverse da quelle autorizzate a gestire la segnalazione.",
+          "body": "La tutela copre anche le persone coinvolte e menzionate, fino alla conclusione dei procedimenti. La segnalazione è sottratta all'accesso agli atti. Nel procedimento disciplinare l'identità si rivela solo se indispensabile alla difesa e con il consenso del segnalante.",
+          "ref": "D.Lgs. 24/2023, art. 12"
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa è una ritorsione",
+          "lead": "Qualsiasi atto, anche solo tentato o minacciato, causato dalla segnalazione e che provoca un danno ingiusto. Alcuni esempi dalla legge:",
+          "head": [
+            "Ambito",
+            "Esempi"
+          ],
+          "rows": [
+            [
+              "Rapporto di lavoro",
+              "Licenziamento, sospensione, retrocessione, mancata promozione, cambio di mansioni, luogo, orario o stipendio"
+            ],
+            [
+              "Carriera",
+              "Esclusione dalla formazione, note di merito o referenze negative, mancato rinnovo di un contratto a termine"
+            ],
+            [
+              "Clima",
+              "Coercizione, intimidazione, molestie, ostracismo, discriminazione"
+            ],
+            [
+              "Fuori dall'azienda",
+              "Danni alla reputazione anche sui social, liste nere di settore, annullamento di contratti di fornitura, licenze o permessi"
+            ]
+          ],
+          "ref": "D.Lgs. 24/2023, art. 2, c. 1, lett. m); art. 17, c. 4"
+        },
+        {
+          "layout": "facts",
+          "title": "Come funziona la protezione",
+          "lead": "La legge sposta l'onere della prova su chi ha adottato la misura.",
+          "facts": [
+            {
+              "label": "Condizione",
+              "text": "Al momento della segnalazione c'era fondato motivo di ritenere vere le informazioni. I motivi personali del segnalante sono irrilevanti."
+            },
+            {
+              "label": "Presunzione",
+              "text": "Si presume che la misura sfavorevole sia una ritorsione: tocca a chi l'ha adottata provare il contrario."
+            },
+            {
+              "label": "Nullità",
+              "text": "Gli atti ritorsivi sono nulli e chi è licenziato ha diritto alla reintegrazione."
+            },
+            {
+              "label": "A chi rivolgersi",
+              "text": "Le ritorsioni si comunicano all'ANAC, che nel settore privato informa l'Ispettorato nazionale del lavoro."
+            },
+            {
+              "label": "Limite",
+              "text": "Le tutele cadono se è accertata la responsabilità per diffamazione o calunnia, o civile per dolo o colpa grave."
+            }
+          ],
+          "ref": "D.Lgs. 24/2023, artt. 16, 17, 19"
+        },
+        {
+          "layout": "table",
+          "title": "Le sanzioni dell'ANAC",
+          "head": [
+            "Violazione",
+            "Sanzione"
+          ],
+          "rows": [
+            [
+              "Ritorsioni, ostacolo alla segnalazione, violazione della riservatezza",
+              "Da 10.000 a 50.000 euro"
+            ],
+            [
+              "Canali non istituiti, procedure assenti o non conformi, segnalazioni non verificate",
+              "Da 10.000 a 50.000 euro"
+            ],
+            [
+              "Segnalante responsabile civilmente per diffamazione o calunnia, con dolo o colpa grave",
+              "Da 500 a 2.500 euro"
+            ]
+          ],
+          "ref": "D.Lgs. 24/2023, art. 21, c. 1"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quanto tempo il gestore del canale interno deve dare riscontro al segnalante?",
+          "options": [
+            "Entro 7 giorni dalla segnalazione",
+            "Entro 3 mesi dall'avviso di ricevimento",
+            "Entro 1 anno",
+            "Non c'è alcun termine"
+          ],
+          "answer": 1,
+          "explanation": "L'avviso di ricevimento va dato entro 7 giorni; il riscontro entro 3 mesi dall'avviso o, se l'avviso manca, dalla scadenza dei 7 giorni."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una collaboratrice di un'agenzia nota che un collega incassa premi in contanti oltre i limiti e rilascia ai clienti quietanze non registrate. Teme che, se parla, l'agenzia non le rinnovi il contratto.",
+          "questions": [
+            "Può segnalare e attraverso quale canale?",
+            "Che cosa la protegge se, dopo la segnalazione, il contratto non viene rinnovato?",
+            "Deve avere la prova certa dei fatti?"
+          ],
+          "solution": "Sì. Il Codice delle assicurazioni obbliga gli intermediari ad avere procedure interne di segnalazione con un canale indipendente; il personale può segnalare anche all'IVASS le violazioni del Codice. Se teme ritorsioni dal canale interno, può valutare il canale esterno ANAC alle condizioni di legge. Il mancato rinnovo successivo si presume ritorsivo: spetta all'agenzia provare che ha altre ragioni, e l'atto ritorsivo è nullo. Non serve la prova certa: basta un fondato motivo di ritenere vere le informazioni, anche sotto forma di fondato sospetto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un dipendente usa il canale di segnalazione per contestare il proprio mancato aumento di stipendio. Si applica la tutela del whistleblowing?",
+          "options": [
+            "Sì, ogni segnalazione è protetta",
+            "No, perché riguarda solo un interesse personale legato al proprio rapporto di lavoro",
+            "Sì, se lo fa per iscritto",
+            "Solo se l'ente ha più di 250 dipendenti"
+          ],
+          "answer": 1,
+          "explanation": "Il D.Lgs. 24/2023 non si applica alle contestazioni legate a un interesse personale che riguardano esclusivamente il proprio rapporto di lavoro o i rapporti con i superiori."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2",
+              "text": "le parti: chi segnala e la persona coinvolta"
+            },
+            {
+              "value": "10-quater",
+              "text": "l'articolo del Codice che obbliga imprese e intermediari ad avere un canale interno"
+            },
+            {
+              "value": "7 · 3",
+              "text": "7 giorni per l'avviso di ricevimento, 3 mesi per il riscontro"
+            },
+            {
+              "value": "Presunzione",
+              "text": "la misura sfavorevole dopo la segnalazione si presume ritorsiva"
+            },
+            {
+              "value": "50.000",
+              "text": "euro: sanzione massima ANAC per ritorsioni o canali assenti"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di whistleblowing, cioè della segnalazione di illeciti da parte di chi li scopre lavorando all'interno di un'organizzazione. Il termine inglese richiama l'immagine di chi soffia nel fischietto per fermare il gioco quando vede un fallo.\n\nIl materiale del corso individua due parti principali. Da un lato il whistleblower, che individua l'illecito e richiama l'attenzione dell'organizzazione. Dall'altro il segnalato, cioè chi commette l'illecito, in modo volontario o involontario. La legge italiana usa parole sue: parla di persona segnalante, cioè la persona fisica che segnala informazioni sulle violazioni acquisite nel proprio contesto lavorativo, e di persona coinvolta, cioè la persona fisica o giuridica a cui la violazione è attribuita o che vi è comunque implicata. Notate che la persona coinvolta può anche essere una società.\n\nLe regole di riferimento sono tre. La prima è il decreto legislativo 10 marzo 2023, numero 24, che ha recepito la direttiva europea 2019/1937 sulla protezione delle persone che segnalano violazioni. Le sue disposizioni hanno effetto dal 15 luglio 2023; per gli enti privati con una media fino a 249 dipendenti, l'obbligo di istituire il canale interno è scattato il 17 dicembre 2023. La seconda è il Codice delle assicurazioni, che con gli articoli 10-quater e 10-quinquies prevede una disciplina specifica per il nostro settore. La terza sono le linee guida dell'ANAC, l'Autorità nazionale anticorruzione: quelle sul canale esterno, approvate con la delibera 311 del 2023 e modificate con la delibera 479 del 2025, e quelle sui canali interni, approvate con la delibera 478 del 26 novembre 2025.\n\nChe cosa si può segnalare? Il decreto protegge chi segnala violazioni di norme nazionali o europee che ledono l'interesse pubblico o l'integrità dell'amministrazione pubblica o dell'ente privato, di cui è venuto a conoscenza nel contesto lavorativo. Le violazioni comprendono illeciti amministrativi, contabili, civili o penali, condotte rilevanti per il decreto 231 del 2001 sulla responsabilità degli enti, e illeciti nei settori coperti dal diritto europeo: tra questi, per noi sono particolarmente importanti i servizi, prodotti e mercati finanziari, la prevenzione del riciclaggio e del finanziamento del terrorismo, la protezione dei consumatori e la protezione dei dati personali. Si possono segnalare anche i fondati sospetti e le condotte volte a nascondere le violazioni.\n\nAltrettanto importante è sapere che cosa non rientra. Il decreto non si applica alle contestazioni, rivendicazioni o richieste legate a un interesse personale che riguardano esclusivamente il proprio rapporto di lavoro o i rapporti con i superiori. Il dipendente che contesta il mancato aumento di stipendio ha strumenti diversi, ma non la tutela del whistleblowing. Il decreto non si applica neppure alle segnalazioni già disciplinate in modo obbligatorio da specifici atti europei o nazionali indicati nella seconda parte del suo allegato, né a quelle sulla sicurezza nazionale, salvo eccezioni.\n\nChi è protetto? La platea è ampia. Ci sono i lavoratori subordinati, compresi quelli a termine o in somministrazione; i lavoratori autonomi e i collaboratori; i liberi professionisti e i consulenti; i volontari e i tirocinanti, anche non retribuiti; gli azionisti e chi ha funzioni di amministrazione, direzione, controllo o rappresentanza, anche solo di fatto. La tutela vale anche se il rapporto non è ancora iniziato, quando le informazioni sono state acquisite durante la selezione, nel periodo di prova e dopo la fine del rapporto. E si estende a chi sta intorno al segnalante: i facilitatori, cioè chi lo aiuta nella segnalazione nello stesso contesto lavorativo, i colleghi con cui ha un rapporto abituale, i parenti fino al quarto grado o le persone con un legame affettivo stabile che lavorano nello stesso contesto, e gli enti di sua proprietà o per cui lavora.\n\nQuali enti privati devono attivare il canale? Il decreto individua tre categorie. La prima è dimensionale: gli enti che nell'ultimo anno hanno impiegato in media almeno cinquanta lavoratori subordinati. La seconda è settoriale: gli enti che rientrano nell'ambito degli atti europei indicati nelle parti I.B e II dell'allegato, anche se hanno meno di cinquanta dipendenti. La terza riguarda gli enti che adottano un modello organizzativo ai sensi del decreto 231: anche sotto i cinquanta dipendenti devono avere il canale interno, ma per loro, se restano sotto soglia, la segnalazione riguarda le condotte rilevanti 231 e le violazioni del modello, e passa solo dal canale interno.\n\nPer il settore assicurativo, però, c'è una regola che vale a prescindere dalle dimensioni. L'articolo 10-quater del Codice delle assicurazioni stabilisce che le imprese di assicurazione e di riassicurazione, le società capogruppo e gli intermediari assicurativi e riassicurativi, compresi quelli a titolo accessorio, adottano procedure specifiche per la segnalazione al proprio interno, da parte del personale, di atti o fatti che possono costituire violazioni delle norme sull'attività assicurativa e distributiva. Le procedure devono garantire la riservatezza dei dati del segnalante e del presunto responsabile, la protezione adeguata del personale almeno contro ritorsioni, discriminazioni e trattamenti iniqui, e un canale specifico, indipendente e autonomo. Il Codice aggiunge che presentare una segnalazione non costituisce violazione degli obblighi del rapporto di lavoro, salvo i casi di calunnia o diffamazione. L'articolo 10-quinquies prevede inoltre che l'IVASS riceva segnalazioni dal personale di imprese e intermediari sulle violazioni del Codice e delle norme europee direttamente applicabili, ne stabilisca condizioni e procedure e le usi solo per la vigilanza. Quindi, anche una piccola agenzia deve avere una procedura di segnalazione interna.\n\nVediamo come funzionano i canali. I canali interni sono attivati dall'ente, sentite le rappresentanze sindacali, e devono garantire, anche con la crittografia, la riservatezza dell'identità del segnalante, della persona coinvolta, delle persone menzionate e del contenuto della segnalazione. La gestione è affidata a una persona o a un ufficio interno autonomo, con personale formato, oppure a un soggetto esterno con le stesse caratteristiche. Le segnalazioni possono essere scritte, anche online, oppure orali, tramite linee telefoniche, messaggi vocali o, su richiesta, un incontro diretto. Gli enti privati fino a 249 dipendenti possono condividere il canale e la sua gestione. Le linee guida ANAC del 2025 indicano come preferibili piattaforme informatiche dedicate con crittografia.\n\nChi gestisce il canale interno ha tempi precisi: rilascia l'avviso di ricevimento entro sette giorni, mantiene il dialogo con il segnalante chiedendo eventualmente integrazioni, dà diligente seguito alla segnalazione e fornisce un riscontro entro tre mesi dall'avviso di ricevimento. Deve anche pubblicare informazioni chiare sui canali e sulle procedure, esposte nei luoghi di lavoro e, se c'è un sito, in una sezione dedicata. Se la segnalazione arriva a una persona diversa da quella competente, va trasmessa entro sette giorni al soggetto giusto, avvisando il segnalante. Le segnalazioni e la documentazione si conservano per il tempo necessario e comunque non oltre cinque anni dalla comunicazione dell'esito finale.\n\nAccanto al canale interno c'è il canale esterno gestito dall'ANAC, attraverso la sua piattaforma informatica o in forma orale. Non è una scelta libera: si può usare se il canale interno non è obbligatorio, non è attivo o non è conforme; se la segnalazione interna è già stata fatta e non ha avuto seguito; se ci sono fondati motivi per ritenere che una segnalazione interna non avrebbe efficace seguito o esporrebbe a ritorsioni; oppure se la violazione può costituire un pericolo imminente o palese per l'interesse pubblico. L'ANAC dà avviso di ricevimento entro sette giorni e riscontro entro tre mesi, o sei se ci sono ragioni giustificate. C'è poi la divulgazione pubblica, per esempio tramite la stampa, che è protetta solo a condizioni ancora più strette: se le segnalazioni interne ed esterne non hanno avuto riscontro nei termini, se c'è un pericolo imminente per l'interesse pubblico, o se ci sono fondati motivi di temere ritorsioni o l'occultamento delle prove. Resta sempre possibile la denuncia all'autorità giudiziaria o contabile.\n\nIl cuore della disciplina è la riservatezza. L'identità del segnalante, e qualsiasi informazione da cui si possa ricavare, non può essere rivelata senza il suo consenso espresso a persone diverse da quelle autorizzate a ricevere o gestire la segnalazione. Le stesse garanzie coprono le persone coinvolte e menzionate, fino alla conclusione dei procedimenti. La segnalazione è sottratta all'accesso agli atti. Nel procedimento disciplinare, l'identità del segnalante può essere rivelata solo se la contestazione si fonda sulla segnalazione, la conoscenza dell'identità è indispensabile per la difesa dell'incolpato e il segnalante dà il consenso.\n\nChe cosa si intende per ritorsione? Qualsiasi comportamento, atto od omissione, anche solo tentato o minacciato, posto in essere a causa della segnalazione e che provoca, o può provocare, un danno ingiusto. La legge elenca molti esempi: il licenziamento, la sospensione, la retrocessione o la mancata promozione, il cambio di mansioni, di luogo, di orario o la riduzione dello stipendio, l'esclusione dalla formazione, le note di merito negative, il mancato rinnovo di un contratto a termine, la coercizione, l'intimidazione, le molestie e l'ostracismo, ma anche i danni alla reputazione sui social media, l'inserimento in liste nere di settore e l'annullamento di contratti di fornitura, licenze o permessi.\n\nCome funziona la protezione? Le tutele si applicano se, al momento della segnalazione, il segnalante aveva fondato motivo di ritenere vere le informazioni e la segnalazione è stata fatta secondo le regole. I motivi personali che lo hanno spinto sono irrilevanti. Se poi subisce una misura sfavorevole, si presume che sia una ritorsione: è chi l'ha adottata a dover provare che dipende da ragioni estranee alla segnalazione. Gli atti ritorsivi sono nulli e chi è stato licenziato ha diritto alla reintegrazione. Le ritorsioni si comunicano all'ANAC, che nel settore privato informa l'Ispettorato nazionale del lavoro. Ma la protezione ha un limite: se viene accertata, anche con sentenza di primo grado, la responsabilità penale del segnalante per diffamazione o calunnia, o la sua responsabilità civile per lo stesso titolo per dolo o colpa grave, le tutele cadono e gli viene irrogata una sanzione disciplinare.\n\nL'ANAC ha anche poteri sanzionatori. Applica sanzioni da 10.000 a 50.000 euro quando accerta ritorsioni, ostacoli alla segnalazione o violazioni della riservatezza, e la stessa forbice quando mancano i canali, mancano le procedure o non sono conformi, o le segnalazioni ricevute non sono state verificate. Applica invece da 500 a 2.500 euro al segnalante di cui sia accertata la responsabilità civile per diffamazione o calunnia con dolo o colpa grave, salvo che sia stato condannato penalmente per gli stessi fatti.\n\nPensiamo al caso della collaboratrice che nota un collega incassare premi in contanti oltre i limiti e rilasciare quietanze non registrate. Può segnalare: l'agenzia deve avere una procedura interna con un canale indipendente, e il personale può rivolgersi anche all'IVASS per le violazioni del Codice. Se ha fondati motivi di temere ritorsioni attraverso il canale interno, può valutare il canale esterno dell'ANAC. Non deve avere la prova certa: basta un fondato motivo di ritenere vere le informazioni. E se, dopo la segnalazione, il suo contratto non viene rinnovato, si presume che sia una ritorsione: tocca all'agenzia dimostrare il contrario.\n\nIn sintesi: il whistleblowing protegge chi segnala in buona fede violazioni che riguardano l'interesse pubblico o l'integrità dell'organizzazione. Nel settore assicurativo imprese e intermediari devono avere un canale interno indipendente. Chi gestisce il canale ha sette giorni per l'avviso e tre mesi per il riscontro, e deve proteggere l'identità di tutti. E ogni misura sfavorevole contro chi ha segnalato si presume ritorsiva, finché non si prova il contrario."
+,
+      "sources": [
+        {
+          "title": "D.Lgs. 10 marzo 2023, n. 24, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-10;24"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 10-quater e 10-quinquies, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art10quater"
+        },
+        {
+          "title": "ANAC, Whistleblowing",
+          "url": "https://www.anticorruzione.it/en/-/whistleblowing"
+        },
+        {
+          "title": "ANAC, Whistleblowing, approvate le Linee Guida sui canali interni di segnalazione (Delibere 478 e 479 del 26 novembre 2025)",
+          "url": "https://www.anticorruzione.it/en/-/news.12.12.2025.whistleblowing-linee-guida-canali-interni"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Le due parti del whistleblowing (whistleblower e segnalato) sono mantenute dalla fonte e collegate alle definizioni di legge di «persona segnalante» e «persona coinvolta».",
+          "source_ref": "D.Lgs. 24/2023, art. 2, c. 1, lett. g) e l)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Quadro normativo e date di efficacia (15 luglio 2023; 17 dicembre 2023 per enti fino a 249 dipendenti); linee guida ANAC vigenti.",
+          "source_ref": "D.Lgs. 24/2023, art. 24; sito ANAC"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ambito oggettivo e soggettivo: che cosa si segnala e che cosa no, chi è protetto, quali enti privati sono obbligati.",
+          "source_ref": "D.Lgs. 24/2023, artt. 1, 2, 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Disciplina speciale del settore assicurativo: procedure interne di imprese e intermediari, anche accessori, e segnalazioni all'IVASS.",
+          "source_ref": "CAP, artt. 10-quater e 10-quinquies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Canali interni, esterni, divulgazione pubblica; tempi (7 giorni, 3 mesi, 5 anni); condizioni per il canale esterno; riservatezza.",
+          "source_ref": "D.Lgs. 24/2023, artt. 4-8, 12, 14, 15"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ritorsioni, condizioni di protezione, inversione dell'onere della prova, nullità e reintegrazione, sanzioni ANAC.",
+          "source_ref": "D.Lgs. 24/2023, artt. 16, 17, 19, 21"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Lezione costruita sulla sola slide del whistleblowing presente nel PDF 60 ore: la trascrizione «Normativa whistleblowing.mp4» non è disponibile in materiale/transcripts. Il resto dei contenuti viene dalla normativa verificata.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

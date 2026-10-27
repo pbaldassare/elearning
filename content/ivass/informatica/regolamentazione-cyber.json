@@ -1,0 +1,1041 @@
+{
+  "module": "Area informatica",
+  "topic": "La regolamentazione cyber",
+  "topic_order": 9,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il GDPR come pilastro della regolamentazione cyber",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/0. La regolamentazione cyber.pdf",
+        "Corso Ivass 60 ore/Materiale /0. La regolamentazione cyber.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · La regolamentazione cyber",
+          "title": "Il GDPR come pilastro della regolamentazione cyber",
+          "goals": [
+            "Collegare i tre sviluppi chiave del GDPR (notifica, sportello unico, sanzioni) alla sicurezza informatica",
+            "Riconoscere i principi del GDPR che riguardano direttamente la sicurezza dei dati",
+            "Capire il ruolo del DPO e dei fornitori IT come responsabili del trattamento"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un'unica regola europea sui dati",
+          "key": "Nell'Unione europea i regimi di protezione dei dati sono stati armonizzati con il Regolamento generale sulla protezione dei dati (GDPR), il Regolamento (UE) 2016/679.",
+          "body": "Prima ogni Stato aveva la sua legge, nata da una direttiva. Oggi la stessa regola vale in tutta l'Unione: per un'impresa o un intermediario che lavora con clienti di più Paesi significa un solo insieme di obblighi.",
+          "ref": "Materiale originale; Reg. (UE) 2016/679"
+        },
+        {
+          "layout": "table",
+          "title": "I tre sviluppi chiave",
+          "head": [
+            "Sviluppo",
+            "Che cosa significa",
+            "Dove"
+          ],
+          "rows": [
+            [
+              "1 · Notifica",
+              "Se una violazione dei dati comporta un rischio elevato per diritti e libertà, il titolare informa l'autorità e le persone interessate senza indugio",
+              "Artt. 33-34"
+            ],
+            [
+              "2 · Sportello unico",
+              "Chi opera in più Stati UE ha un'unica autorità capofila: quella dello stabilimento principale",
+              "Art. 56"
+            ],
+            [
+              "3 · Sanzioni",
+              "Sanzioni pecuniarie effettive, proporzionate e dissuasive",
+              "Art. 83"
+            ]
+          ],
+          "ref": "Materiale originale; Reg. (UE) 2016/679"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le tre finalità del GDPR",
+          "items": [
+            {
+              "text": "Stabilire le norme sulla protezione delle persone fisiche nel trattamento dei dati personali e sulla libera circolazione dei dati"
+            },
+            {
+              "text": "Proteggere i diritti e le libertà delle persone fisiche, in particolare il diritto alla protezione dei dati personali"
+            },
+            {
+              "text": "Consentire la libera circolazione dei dati nell'Unione, senza limiti o divieti per motivi di protezione dei dati"
+            },
+            {
+              "text": "Protegge i dati di cittadini e residenti UE, sia dentro sia fuori dall'Unione",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I principi del trattamento",
+          "lead": "L'art. 5 elenca sei principi più la responsabilizzazione. Il corso ne richiama soprattutto liceità, correttezza, trasparenza e finalità.",
+          "head": [
+            "Principio",
+            "In breve"
+          ],
+          "rows": [
+            [
+              "Liceità, correttezza, trasparenza",
+              "Trattare i dati in modo lecito e chiaro verso l'interessato"
+            ],
+            [
+              "Limitazione della finalità",
+              "Finalità determinate, esplicite e legittime"
+            ],
+            [
+              "Minimizzazione ed esattezza",
+              "Solo i dati necessari, esatti e aggiornati"
+            ],
+            [
+              "Limitazione della conservazione",
+              "Non più a lungo del necessario"
+            ],
+            [
+              "Integrità e riservatezza",
+              "Sicurezza adeguata contro trattamenti illeciti, perdita, distruzione o danno"
+            ],
+            [
+              "Responsabilizzazione",
+              "Il titolare rispetta i principi ed è in grado di dimostrarlo"
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 5"
+        },
+        {
+          "layout": "concept",
+          "title": "Il principio «cyber» del GDPR",
+          "key": "I dati devono essere trattati in modo da garantire un'adeguata sicurezza, con misure tecniche e organizzative contro trattamenti non autorizzati, perdita, distruzione o danno accidentali.",
+          "body": "È il principio di integrità e riservatezza. L'art. 32 lo sviluppa con le misure adeguate al rischio, già viste nel modulo «Sicurezza informatica». Per un'agenzia significa: un furto di dati non è solo un incidente informatico, è una possibile violazione di un principio del GDPR.",
+          "ref": "Reg. (UE) 2016/679, art. 5, par. 1, lett. f"
+        },
+        {
+          "layout": "split",
+          "title": "Accountability, trasparenza e nuovi diritti",
+          "left": {
+            "title": "Che cosa introduce il GDPR",
+            "items": [
+              "Responsabilizzazione (accountability)",
+              "Trasparenza",
+              "Diritto alla portabilità",
+              "Diritto all'oblio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Il legame con la sicurezza",
+            "items": [
+              "Accountability: dimostrare le misure adottate, anche dopo un incidente",
+              "Portabilità: dati consegnati in formato strutturato e leggibile da macchina",
+              "Oblio: cancellare davvero, anche nei backup e dai fornitori"
+            ],
+            "ref": "Reg. (UE) 2016/679, artt. 5, 17, 20"
+          },
+          "note": "I diritti dell'interessato sono approfonditi nel modulo giuridico sulla protezione dei dati personali.",
+          "noteRef": "Rinvio interno al corso"
+        },
+        {
+          "layout": "split",
+          "title": "Il Data Protection Officer",
+          "left": {
+            "title": "Quando è obbligatorio",
+            "items": [
+              "Trattamenti di autorità o organismi pubblici",
+              "Attività principali di monitoraggio regolare e sistematico su larga scala",
+              "Attività principali su larga scala di dati particolari o giudiziari"
+            ],
+            "ref": "Reg. (UE) 2016/679, art. 37"
+          },
+          "right": {
+            "title": "Che cosa fa",
+            "items": [
+              "Informa e consiglia titolare, responsabile e dipendenti",
+              "Sorveglia il rispetto del GDPR, anche con formazione",
+              "Dà pareri sulla valutazione d'impatto",
+              "Coopera con il Garante ed è il suo punto di contatto"
+            ],
+            "ref": "Reg. (UE) 2016/679, art. 39"
+          },
+          "note": "Per il corso il DPO è il punto di contatto tra gli interessati e il Garante Privacy. Può essere un dipendente o un consulente esterno con contratto di servizi.",
+          "noteRef": "Materiale originale; art. 37, par. 6"
+        },
+        {
+          "layout": "concept",
+          "title": "Lo sportello unico in pratica",
+          "key": "Per i trattamenti transfrontalieri l'autorità dello stabilimento principale è l'autorità capofila ed è l'unico interlocutore del titolare.",
+          "body": "Eccezione: ogni autorità resta competente per reclami o violazioni che riguardano solo uno stabilimento nel suo Stato o incidono in modo sostanziale solo sui suoi interessati. Per un intermediario che opera solo in Italia l'interlocutore è il Garante.",
+          "ref": "Reg. (UE) 2016/679, art. 56, par. 1, 2 e 6"
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si decide la sanzione",
+          "items": [
+            {
+              "text": "Natura, gravità e durata della violazione, numero di interessati e danno subito"
+            },
+            {
+              "text": "Dolo o colpa"
+            },
+            {
+              "text": "Misure adottate per attenuare il danno"
+            },
+            {
+              "text": "Misure tecniche e organizzative messe in atto (artt. 25 e 32)"
+            },
+            {
+              "text": "Cooperazione con l'autorità e categorie di dati coinvolte"
+            },
+            {
+              "text": "Come l'autorità ha saputo della violazione: anche se il titolare l'ha notificata",
+              "ref": "Reg. (UE) 2016/679, art. 83, par. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I fornitori IT sono responsabili del trattamento",
+          "key": "Il titolare può affidare un trattamento solo a responsabili che presentino garanzie sufficienti di misure tecniche e organizzative adeguate.",
+          "body": "Gestionale in cloud, posta, assistenza informatica, CRM: chi tratta dati per conto dell'agenzia è un responsabile. Non può nominare un altro responsabile senza autorizzazione scritta del titolare. Se causa un danno violando i suoi obblighi, ne risponde anche lui.",
+          "ref": "Reg. (UE) 2016/679, artt. 28 e 82"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il fornitore del CRM di un'agenzia comunica di aver subito un attacco: potrebbero essere stati letti nomi, telefoni e scadenze di polizza di 2.000 clienti. Il fornitore ha sede in Italia ed è stato nominato responsabile del trattamento.",
+          "questions": [
+            "Chi deve valutare se notificare la violazione al Garante?",
+            "Quali principi e quali criteri di sanzione entrano in gioco?",
+            "Che cosa chiedi al fornitore?"
+          ],
+          "solution": "La valutazione e l'eventuale notifica spettano all'agenzia, titolare del trattamento, entro 72 ore se la violazione presenta un rischio per i clienti; ai clienti si comunica se il rischio è elevato. In gioco ci sono integrità e riservatezza e la responsabilizzazione: l'agenzia deve dimostrare di aver scelto un fornitore con garanzie adeguate. Al fornitore si chiedono dettagli sull'incidente, sulle misure adottate e una relazione scritta, come previsto dal contratto di responsabile."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale principio dell'art. 5 GDPR riguarda direttamente la sicurezza dei dati?",
+          "options": [
+            "Limitazione della finalità",
+            "Esattezza",
+            "Integrità e riservatezza",
+            "Limitazione della conservazione"
+          ],
+          "answer": 2,
+          "explanation": "Integrità e riservatezza impone un'adeguata sicurezza dei dati, con misure tecniche e organizzative contro trattamenti non autorizzati, perdita, distruzione o danno accidentali."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nel decidere la sanzione, che cosa considera l'autorità secondo l'art. 83 GDPR?",
+          "options": [
+            "Solo il fatturato dell'impresa",
+            "Anche le misure di sicurezza adottate e se il titolare ha notificato la violazione",
+            "Solo il numero di reclami ricevuti",
+            "Solo la data della violazione"
+          ],
+          "answer": 1,
+          "explanation": "Tra i criteri ci sono le misure tecniche e organizzative degli artt. 25 e 32, la cooperazione e il modo in cui l'autorità ha saputo della violazione, compresa la notifica del titolare."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "sviluppi chiave: notifica, sportello unico, sanzioni"
+            },
+            {
+              "value": "Art. 5",
+              "text": "integrità e riservatezza: il principio di sicurezza"
+            },
+            {
+              "value": "DPO",
+              "text": "consiglia, sorveglia, è il contatto con il Garante"
+            },
+            {
+              "value": "Art. 56",
+              "text": "autorità capofila dello stabilimento principale"
+            },
+            {
+              "value": "Art. 28",
+              "text": "fornitori IT come responsabili del trattamento"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione apriamo il tema della regolamentazione cyber, cioè delle regole che impongono a imprese e organizzazioni di proteggere dati e sistemi. Le norme sono tre grandi famiglie: il GDPR per i dati personali, la disciplina NIS per la sicurezza delle reti e dei sistemi, e il regolamento DORA per il settore finanziario. Partiamo dal GDPR, che per un intermediario è quasi sempre il primo riferimento, perché ogni giorno tratta dati anagrafici, sanitari, bancari e di sinistro dei clienti. Il GDPR nel suo complesso lo trovate nel modulo giuridico sulla protezione dei dati: qui lo leggiamo con gli occhi della sicurezza informatica.\n\nIl punto di partenza è l'armonizzazione. Nell'Unione europea i regimi di protezione dei dati sono stati armonizzati con l'adozione del Regolamento generale sulla protezione dei dati, il Regolamento europeo 2016/679. Un regolamento, a differenza di una direttiva, si applica direttamente in tutti gli Stati: la stessa regola vale a Milano, a Lione e a Varsavia.\n\nIl materiale del corso individua tre sviluppi chiave della disciplina. Il primo è la notifica: se si verifica una violazione dei dati personali e c'è un alto rischio per i diritti e le libertà delle persone, il titolare del trattamento deve informare la propria autorità di vigilanza e le persone interessate senza indugio. Ricordiamo come lo dice il regolamento: l'articolo 33 prevede la notifica all'autorità entro 72 ore, ove possibile, quando la violazione presenta un rischio; l'articolo 34 prevede la comunicazione agli interessati, senza ingiustificato ritardo, quando il rischio è elevato. Il secondo sviluppo è lo sportello unico, in inglese one-stop-shop: qualsiasi azienda che opera in più Stati membri è soggetta a un'unica autorità di vigilanza, quella dello Stato in cui si trova lo stabilimento principale. Il terzo sviluppo sono le sanzioni, che l'articolo 83 vuole effettive, proporzionate e dissuasive.\n\nIl GDPR ha lo scopo di rafforzare e rendere omogenea la protezione dei dati personali di cittadini e residenti nell'Unione, sia all'interno sia all'esterno dell'Unione. Le sue finalità principali sono tre. Stabilire le norme sulla protezione delle persone fisiche con riguardo al trattamento dei dati e sulla loro libera circolazione. Proteggere i diritti e le libertà delle persone fisiche, in particolare il diritto alla protezione dei dati. E consentire la libera circolazione dei dati nell'Unione, senza limitazioni o divieti per motivi legati alla protezione delle persone. Le prime due finalità tutelano la persona; la terza tutela il mercato: proprio perché le regole sono uguali ovunque, i dati possono circolare.\n\nPassiamo ai principi. Il corso ricorda che i dati devono essere trattati in modo lecito, corretto e trasparente nei confronti dell'interessato, e raccolti per finalità esplicite e determinate. L'articolo 5 del regolamento completa il quadro: accanto a liceità, correttezza e trasparenza e alla limitazione della finalità ci sono la minimizzazione, cioè trattare solo i dati necessari; l'esattezza; la limitazione della conservazione, cioè non tenere i dati più a lungo del necessario; e l'integrità e riservatezza. Al paragrafo 2 c'è la responsabilizzazione: il titolare è competente per il rispetto dei principi ed è in grado di comprovarlo.\n\nDi questi principi, uno è il vero principio cyber del GDPR: integrità e riservatezza. Dice che i dati vanno trattati in modo da garantirne un'adeguata sicurezza, compresa la protezione, con misure tecniche e organizzative adeguate, da trattamenti non autorizzati o illeciti e da perdita, distruzione o danno accidentali. L'articolo 32, che avete visto nel modulo sulla sicurezza informatica, lo traduce in misure adeguate al rischio, come cifratura, capacità di ripristino e verifiche periodiche. La conseguenza pratica per un'agenzia è importante: un furto di dati non è solo un problema informatico, è una possibile violazione di un principio fondamentale del regolamento, con tutto ciò che ne segue.\n\nIl corso ricorda anche che il GDPR introduce, tra l'altro, il principio di responsabilizzazione, la trasparenza, il diritto alla portabilità e il diritto all'oblio. Ognuno ha un risvolto di sicurezza. Accountability significa saper dimostrare le misure adottate, e lo si fa soprattutto dopo un incidente, quando il Garante chiede che cosa era stato fatto prima. La portabilità, secondo l'articolo 20, dà all'interessato il diritto di ricevere i propri dati in un formato strutturato, di uso comune e leggibile da dispositivo automatico: serve quindi sapere dove sono i dati e saperli estrarre in modo sicuro. L'oblio, previsto dall'articolo 17, è il diritto alla cancellazione quando ricorrono certi motivi, per esempio quando i dati non sono più necessari: cancellare davvero significa pensare anche alle copie, ai backup e ai fornitori.\n\nIl corso ricorda poi la figura del Data Protection Officer, il responsabile della protezione dei dati, il cui ruolo principale è fungere da punto di contatto tra gli interessati e il Garante per le questioni connesse al trattamento. L'articolo 37 dice quando è obbligatorio: per i trattamenti di autorità e organismi pubblici, e quando le attività principali del titolare o del responsabile consistono nel monitoraggio regolare e sistematico degli interessati su larga scala, oppure nel trattamento su larga scala di categorie particolari di dati, come quelli sanitari, o di dati giudiziari. L'articolo 39 ne descrive i compiti: informare e consigliare titolare, responsabile e dipendenti; sorvegliare il rispetto del regolamento, anche con la sensibilizzazione e la formazione del personale; dare pareri sulla valutazione d'impatto; cooperare con l'autorità di controllo e farle da punto di contatto. Il DPO può essere un dipendente oppure un professionista esterno con un contratto di servizi. In caso di incidente informatico è una delle prime persone da coinvolgere.\n\nVediamo lo sportello unico in pratica. L'articolo 56 stabilisce che, per i trattamenti transfrontalieri, l'autorità dello stabilimento principale è l'autorità capofila, e che è l'unico interlocutore del titolare per quei trattamenti. C'è però un'eccezione: ogni autorità resta competente per i reclami o le violazioni che riguardano unicamente uno stabilimento nel suo Stato, o che incidono in modo sostanziale solo sugli interessati del suo Stato. Per un intermediario che lavora solo in Italia, quindi, l'interlocutore è semplicemente il Garante per la protezione dei dati personali.\n\nE le sanzioni? Gli importi massimi li abbiamo citati nel modulo sulla cyber insurance: fino a 10 milioni o al 2 per cento del fatturato mondiale per le violazioni sugli obblighi di sicurezza e notifica, fino a 20 milioni o al 4 per cento per principi e diritti. Qui ci interessa di più come si decide la sanzione, perché è lì che la sicurezza conta. L'articolo 83, paragrafo 2, elenca gli elementi da considerare. Tra questi: la natura, la gravità e la durata della violazione, il numero di interessati e il danno subito; il carattere doloso o colposo; le misure adottate per attenuare il danno; il grado di responsabilità tenuto conto delle misure tecniche e organizzative previste dagli articoli 25 e 32; la cooperazione con l'autorità; le categorie di dati coinvolte; e il modo in cui l'autorità ha saputo della violazione, in particolare se è stato il titolare a notificarla. Il messaggio è chiaro: chi investe in sicurezza, reagisce in fretta e notifica correttamente si trova in una posizione molto migliore.\n\nUltimo tema: i fornitori. Quasi tutti i dati di un'agenzia passano per fornitori esterni: il gestionale in cloud, la posta elettronica, il CRM, l'assistenza informatica. Chi tratta dati per conto dell'agenzia è un responsabile del trattamento, e l'articolo 28 stabilisce che il titolare può ricorrere solo a responsabili che presentino garanzie sufficienti di misure tecniche e organizzative adeguate. Il responsabile non può ricorrere a un altro responsabile senza autorizzazione scritta del titolare. E l'articolo 82 prevede che il responsabile risponda del danno se non ha rispettato gli obblighi a lui diretti o ha agito contro le istruzioni del titolare. Scegliere e controllare i fornitori, quindi, fa parte della sicurezza.\n\nApplichiamo tutto a un caso. Il fornitore del CRM di un'agenzia comunica un attacco: potrebbero essere stati letti nomi, telefoni e scadenze di polizza di 2.000 clienti. Chi decide se notificare al Garante? L'agenzia, perché è il titolare: deve valutare il rischio e, se la violazione presenta un rischio per i clienti, notificarla entro 72 ore; se il rischio è elevato, avvisare anche i clienti, che potrebbero ricevere telefonate truffaldine sulle scadenze. In gioco ci sono il principio di integrità e riservatezza e la responsabilizzazione: l'agenzia dovrà dimostrare di aver scelto un fornitore con garanzie adeguate. Al fornitore chiederà tutti i dettagli dell'incidente, le misure adottate e una relazione scritta, come previsto dal contratto di nomina a responsabile.\n\nIn sintesi: il GDPR è il primo pilastro della regolamentazione cyber. Notifica, sportello unico e sanzioni sono i suoi tre sviluppi chiave; integrità e riservatezza è il suo principio di sicurezza; DPO e fornitori responsabili sono le figure da conoscere. Nella prossima lezione passiamo alla sicurezza delle reti e dei sistemi: la disciplina NIS.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante Privacy",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/6264597"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Riferimenti agli articoli dei tre sviluppi chiave: notifica (artt. 33-34), sportello unico (art. 56), sanzioni (art. 83).",
+          "source_ref": "Reg. (UE) 2016/679"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elenco completo dei principi dell'art. 5 e lettura del principio di integrità e riservatezza come principio di sicurezza.",
+          "source_ref": "Reg. (UE) 2016/679, art. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto dei diritti alla portabilità e all'oblio, casi di obbligatorietà e compiti del DPO, eccezione locale allo sportello unico.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 17, 20, 37, 39, 56"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Criteri di determinazione della sanzione (art. 83, par. 2) e obblighi verso i fornitori IT come responsabili del trattamento (artt. 28 e 82).",
+          "source_ref": "Reg. (UE) 2016/679, artt. 28, 82, 83"
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che la notifica all'autorità (art. 33) scatta già con un rischio e va fatta entro 72 ore ove possibile, mentre la comunicazione agli interessati (art. 34) scatta con il rischio elevato. La fonte collega entrambe all'«alto rischio».",
+          "source_ref": "Reg. (UE) 2016/679, artt. 33-34"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il DPO è il punto di contatto tra interessati e Garante. Il testo dell'art. 39 indica il DPO come punto di contatto per l'autorità di controllo; il contatto con gli interessati è previsto dall'art. 38, non verificato in questa revisione.",
+          "source_ref": "Materiale originale; Reg. (UE) 2016/679, art. 39"
+        }
+      ]
+    },
+    {
+      "title": "Dalla Direttiva NIS alla NIS2 e al decreto 138/2024",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/0. La regolamentazione cyber.pdf",
+        "Corso Ivass 60 ore/Materiale /0. La regolamentazione cyber.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · La regolamentazione cyber",
+          "title": "Dalla Direttiva NIS alla NIS2 e al decreto 138/2024",
+          "goals": [
+            "Ricostruire la prima Direttiva NIS e il suo modello istituzionale",
+            "Conoscere chi rientra oggi nel decreto NIS e con quali obblighi",
+            "Sapere tempi di notifica e sanzioni della nuova disciplina"
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "La prima NIS",
+          "title": "La Direttiva NIS in Italia",
+          "lead": "La Direttiva (UE) 2016/1148 sulla sicurezza delle reti e dei sistemi informativi è stata recepita con il D.Lgs. 18 maggio 2018, n. 65, detto «decreto NIS».",
+          "facts": [
+            {
+              "label": "In vigore",
+              "text": "Dal 24 giugno 2018"
+            },
+            {
+              "label": "Obiettivo 1",
+              "text": "Migliorare le capacità di cybersecurity dei singoli Stati"
+            },
+            {
+              "label": "Obiettivo 2",
+              "text": "Aumentare la cooperazione tra gli Stati"
+            },
+            {
+              "label": "Obiettivo 3",
+              "text": "Obbligo di gestire i rischi e notificare gli incidenti rilevanti per OSE e FSD"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "OSE e FSD: le misure richieste",
+          "left": {
+            "title": "Operatori di servizi essenziali",
+            "items": [
+              "Prevenzione dei rischi",
+              "Sicurezza di sistemi, reti e informazioni",
+              "Capacità di gestire gli incidenti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Fornitori di servizi digitali, in più",
+            "items": [
+              "Sicurezza dei sistemi e degli impianti",
+              "Gestione della continuità operativa",
+              "Monitoraggio e test",
+              "Conformità a norme internazionali"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "OSE: sanità, energia, trasporti, banche, infrastrutture dei mercati finanziari, acqua, infrastrutture digitali. FSD: e-commerce, cloud, motori di ricerca. Anche gli FSD notificano gli incidenti rilevanti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Il modello istituzionale: allora e oggi",
+          "cols": [
+            {
+              "title": "Prima NIS (D.Lgs. 65/2018)",
+              "items": [
+                "Modello «temperatamente decentrato»",
+                "Punto di contatto unico: il Dipartimento delle informazioni per la sicurezza (DIS)",
+                "Un unico CSIRT italiano presso la Presidenza del Consiglio"
+              ]
+            },
+            {
+              "title": "Oggi (D.Lgs. 138/2024)",
+              "items": [
+                "Autorità nazionale competente NIS: l'Agenzia per la cybersicurezza nazionale (ACN)",
+                "Punto di contatto unico NIS: l'ACN",
+                "CSIRT Italia gestisce gli incidenti; Autorità di settore affiancano l'ACN"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa fa il CSIRT",
+          "items": [
+            {
+              "text": "Definisce le procedure per prevenire e gestire gli incidenti informatici"
+            },
+            {
+              "text": "Riceve le notifiche di incidente"
+            },
+            {
+              "text": "Dà a chi notifica le informazioni utili a gestire l'evento"
+            },
+            {
+              "text": "Informa gli altri Stati UE eventualmente coinvolti"
+            },
+            {
+              "text": "Collabora nella rete europea dei CSIRT, scambia informazioni e buone pratiche",
+              "ref": "Materiale originale; D.Lgs. 138/2024, artt. 15 e 25"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Le Autorità competenti NIS",
+          "items": [
+            {
+              "text": "Vigilano sull'applicazione ed esercitano poteri ispettivi e sanzionatori"
+            },
+            {
+              "text": "Se l'incidente comporta anche una violazione di dati personali, cooperano strettamente con il Garante"
+            },
+            {
+              "text": "Possono dare linee guida sulla notifica e dettare misure di sicurezza specifiche, sentiti gli OSE",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "La NIS2: dalla proposta alla norma",
+          "cols": [
+            {
+              "title": "Che cosa annunciava il corso",
+              "items": [
+                "Pandemia e digitalizzazione: più bisogno di protezione",
+                "Più settori coinvolti, ambito chiaro e obbligatorio",
+                "Sanzioni più alte",
+                "Tempi più stretti per le segnalazioni"
+              ]
+            },
+            {
+              "title": "Che cosa è successo",
+              "items": [
+                "Direttiva (UE) 2022/2555, recepita con il D.Lgs. 138/2024",
+                "18 settori, oltre 80 tipologie di soggetti",
+                "Fino a 10 milioni o 2% del fatturato",
+                "Pre-notifica entro 24 ore, notifica entro 72"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Soggetti essenziali e importanti",
+          "lead": "Il decreto si applica ai soggetti dei settori elencati negli allegati che superano le soglie della piccola impresa.",
+          "facts": [
+            {
+              "label": "Essenziali",
+              "text": "Tra gli altri, i soggetti dei settori altamente critici (allegato I) più grandi delle medie imprese"
+            },
+            {
+              "label": "Importanti",
+              "text": "Tutti gli altri soggetti in ambito"
+            },
+            {
+              "label": "Media impresa",
+              "text": "Meno di 250 persone e fatturato fino a 50 milioni o bilancio fino a 43 milioni"
+            },
+            {
+              "label": "Piccola impresa",
+              "text": "Meno di 50 persone e fatturato o bilancio fino a 10 milioni: in genere fuori ambito"
+            }
+          ],
+          "ref": "D.Lgs. 138/2024, artt. 3 e 6; Racc. 2003/361/CE"
+        },
+        {
+          "layout": "steps",
+          "title": "Il calendario annuale",
+          "steps": [
+            {
+              "label": "1 gennaio – 28 febbraio",
+              "text": "Registrazione o aggiornamento sulla piattaforma ACN"
+            },
+            {
+              "label": "Entro 31 marzo",
+              "text": "L'ACN redige l'elenco dei soggetti essenziali e importanti"
+            },
+            {
+              "label": "15 aprile – 31 maggio",
+              "text": "I soggetti in elenco aggiornano IP pubblici, domini e altre informazioni"
+            }
+          ],
+          "ref": "D.Lgs. 138/2024, art. 7"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le misure minime (art. 24)",
+          "items": [
+            {
+              "text": "Analisi dei rischi e politiche di sicurezza; gestione degli incidenti"
+            },
+            {
+              "text": "Continuità operativa: backup, disaster recovery, gestione delle crisi"
+            },
+            {
+              "text": "Sicurezza della catena di approvvigionamento e dei fornitori"
+            },
+            {
+              "text": "Sicurezza nell'acquisizione, sviluppo e manutenzione dei sistemi; gestione delle vulnerabilità"
+            },
+            {
+              "text": "Verifica dell'efficacia delle misure; igiene di base e formazione"
+            },
+            {
+              "text": "Crittografia; sicurezza del personale, controllo degli accessi, gestione dei beni"
+            },
+            {
+              "text": "Autenticazione a più fattori e comunicazioni protette, ove opportuno",
+              "ref": "D.Lgs. 138/2024, art. 24, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli organi di amministrazione rispondono",
+          "key": "Gli organi di amministrazione approvano le misure di sicurezza, ne sovrintendono l'attuazione e sono responsabili delle violazioni.",
+          "body": "Devono seguire una formazione sulla sicurezza informatica, promuoverla per i dipendenti ed essere informati periodicamente degli incidenti. La sicurezza non è più solo un tema del reparto IT.",
+          "ref": "D.Lgs. 138/2024, art. 23"
+        },
+        {
+          "layout": "timeline",
+          "title": "Notificare un incidente significativo",
+          "items": [
+            {
+              "value": "24 ore",
+              "text": "pre-notifica al CSIRT Italia da quando si viene a conoscenza dell'incidente",
+              "ref": "art. 25, c. 5, lett. a"
+            },
+            {
+              "value": "72 ore",
+              "text": "notifica con valutazione iniziale di gravità e impatto",
+              "ref": "art. 25, c. 5, lett. b"
+            },
+            {
+              "value": "1 mese",
+              "text": "relazione finale dalla notifica: descrizione, causa, misure",
+              "ref": "art. 25, c. 5, lett. d"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Le sanzioni della nuova disciplina",
+          "lead": "Sono punite, tra l'altro, le violazioni degli obblighi degli organi di amministrazione, delle misure di sicurezza e della notifica.",
+          "facts": [
+            {
+              "label": "Essenziali",
+              "text": "Fino a 10 milioni di euro o al 2% del fatturato mondiale, se superiore"
+            },
+            {
+              "label": "Importanti",
+              "text": "Fino a 7 milioni di euro o all'1,4% del fatturato mondiale, se superiore"
+            },
+            {
+              "label": "Dirigenti",
+              "text": "Se il soggetto non rispetta una diffida, possibile incapacità temporanea a svolgere funzioni dirigenziali"
+            }
+          ],
+          "ref": "D.Lgs. 138/2024, art. 38, c. 6, 8, 9"
+        },
+        {
+          "layout": "split",
+          "title": "Fornitori e settore finanziario",
+          "left": {
+            "title": "I fornitori",
+            "items": [
+              "Chi fornisce servizi a un soggetto NIS non entra per questo nel decreto",
+              "Il soggetto NIS deve però imporre obblighi contrattuali ai fornitori"
+            ],
+            "ref": "ACN, FAQ NIS Ambito, AMB.GE.6"
+          },
+          "right": {
+            "title": "Banche e mercati finanziari",
+            "items": [
+              "Per loro DORA è lex specialis",
+              "Del decreto NIS resta in sostanza l'obbligo di registrazione"
+            ],
+            "ref": "ACN, FAQ NIS Ambito, AMB.NO.2"
+          },
+          "note": "Il settore assicurativo segue DORA: lo vediamo nella prossima lezione.",
+          "noteRef": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente del broker, un'azienda di trasporti con 400 dipendenti registrata come soggetto NIS, subisce un ransomware alle 9 di lunedì. Il responsabile IT dice: «Prima risolviamo, poi tra una settimana avvisiamo chi serve».",
+          "questions": [
+            "Che cosa prevede il decreto NIS sui tempi?",
+            "Quali altri obblighi possono scattare?"
+          ],
+          "solution": "Se l'incidente è significativo serve una pre-notifica al CSIRT Italia entro 24 ore dalla conoscenza, una notifica entro 72 ore e una relazione finale entro un mese. Se sono coinvolti dati personali va valutata anche la notifica al Garante entro 72 ore. Va avvisata la compagnia della polizza cyber secondo le condizioni. La notifica al CSIRT non espone l'azienda a una responsabilità maggiore di quella dell'incidente."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi è oggi il Punto di contatto unico NIS in Italia?",
+          "options": [
+            "Il Dipartimento delle informazioni per la sicurezza (DIS)",
+            "L'Agenzia per la cybersicurezza nazionale (ACN)",
+            "Il Garante per la protezione dei dati",
+            "L'IVASS"
+          ],
+          "answer": 1,
+          "explanation": "Con la prima NIS il punto di contatto unico era il DIS. Il D.Lgs. 138/2024 designa l'ACN come Autorità nazionale competente e Punto di contatto unico NIS."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quando va inviata la relazione finale su un incidente significativo?",
+          "options": [
+            "Entro 24 ore dall'incidente",
+            "Entro 72 ore dalla pre-notifica",
+            "Entro un mese dalla notifica dell'incidente",
+            "Entro un anno"
+          ],
+          "answer": 2,
+          "explanation": "Pre-notifica entro 24 ore, notifica entro 72 ore, relazione finale entro un mese dalla notifica. Se l'incidente è ancora in corso, relazioni mensili e relazione finale entro un mese dalla chiusura."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "65/2018",
+              "text": "il primo decreto NIS, oggi abrogato"
+            },
+            {
+              "value": "138/2024",
+              "text": "il decreto che recepisce la NIS2"
+            },
+            {
+              "value": "ACN",
+              "text": "autorità competente e punto di contatto unico"
+            },
+            {
+              "value": "24 · 72 · 1 mese",
+              "text": "i tempi della notifica al CSIRT Italia"
+            },
+            {
+              "value": "10 mln · 2%",
+              "text": "tetto delle sanzioni per i soggetti essenziali"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto il GDPR, che protegge i dati delle persone. Ora passiamo alla seconda famiglia di regole: quelle sulla sicurezza delle reti e dei sistemi informativi, che riguardano le organizzazioni. È la disciplina NIS, dall'inglese Network and Information Security. Nel modulo sulla sicurezza informatica ne avete visto i tratti essenziali; qui ricostruiamo il percorso completo e scendiamo negli obblighi concreti del decreto oggi in vigore.\n\nPartiamo dalla prima direttiva. La Direttiva NIS, la direttiva europea 2016/1148 sulla sicurezza delle reti e dei sistemi informativi, è stata recepita in Italia con il decreto legislativo 18 maggio 2018, numero 65, detto anche decreto legislativo NIS, in vigore dal 24 giugno 2018. I suoi tre punti chiave erano: migliorare le capacità di cybersecurity dei singoli Stati dell'Unione; aumentare la cooperazione tra gli Stati; e imporre agli operatori di servizi essenziali e ai fornitori di servizi digitali l'obbligo di gestire i rischi e di notificare gli incidenti di una certa entità.\n\nChi erano questi soggetti? Gli operatori di servizi essenziali, gli OSE, erano soggetti pubblici o privati che forniscono servizi essenziali per la società e l'economia nei settori sanitario, dell'energia, dei trasporti, bancario, delle infrastrutture dei mercati finanziari, della fornitura e distribuzione di acqua potabile e delle infrastrutture digitali. I fornitori di servizi digitali, gli FSD, erano le persone giuridiche che forniscono servizi di e-commerce, cloud computing o motori di ricerca, con stabilimento principale, sede sociale o rappresentante designato in Italia. Gli OSE dovevano adottare misure di sicurezza che comprendessero la prevenzione dei rischi, la sicurezza dei sistemi, delle reti e delle informazioni e la capacità di gestire gli incidenti. Anche gli FSD dovevano attuare misure appropriate e notificare gli incidenti rilevanti, con alcuni fattori specifici in più: la sicurezza dei sistemi e degli impianti, la gestione della continuità operativa, il monitoraggio e i test, e la conformità alle norme internazionali.\n\nIl modello istituzionale della prima NIS era, come dice il corso, temperatamente decentrato. Il Dipartimento delle informazioni per la sicurezza, il DIS, era designato come punto di contatto unico. Presso la Presidenza del Consiglio dei ministri era istituito un unico Computer Security Incident Response Team, il CSIRT italiano, che definiva le procedure di prevenzione e gestione degli incidenti, riceveva le notifiche, forniva a chi notificava le informazioni utili a gestire l'evento, informava gli altri Stati eventualmente coinvolti e garantiva la collaborazione nella rete europea dei CSIRT, con scambio di informazioni e di buone pratiche. Le Autorità competenti NIS vigilavano sull'applicazione della norma con poteri ispettivi e sanzionatori; se un evento comportava anche una violazione di dati personali operavano in stretta cooperazione con il Garante; e potevano predisporre linee guida per la notifica e dettare misure di sicurezza specifiche, sentiti gli operatori.\n\nOggi questo assetto è cambiato. Il decreto legislativo 138 del 2024 ha abrogato il decreto 65 del 2018. L'articolo 10 designa l'Agenzia per la cybersicurezza nazionale, l'ACN, come Autorità nazionale competente NIS e come Punto di contatto unico NIS: è l'ACN, e non più il DIS, a fare da collegamento con gli altri Stati, la Commissione e l'ENISA. Il CSIRT Italia, disciplinato dall'articolo 15, è l'organo che gestisce gli incidenti per tutti i settori del decreto. E l'articolo 11 individua le Autorità di settore NIS che affiancano l'ACN: per esempio, il Ministero dell'economia e delle finanze per i settori bancario e delle infrastrutture dei mercati finanziari, sentite Banca d'Italia e Consob.\n\nCome ci si è arrivati? Il corso ricorda che il 2020, con la pandemia, ha reso ancora più urgente la tutela dei servizi e delle infrastrutture principali dagli attacchi informatici. Di fronte alla crescita della digitalizzazione, ai numerosi tentativi di attacco dopo lo scoppio della pandemia e al fatto che molti Stati non avevano ancora adottato pienamente la NIS, la Commissione europea ha proposto una revisione sostanziale: la NIS2. Il corso, scritto quando era ancora una proposta, annunciava quattro novità: più settori coinvolti; un ambito definito in modo chiaro e obbligatorio per tutti gli Stati; sanzioni più alte; tempi molto più stretti per le segnalazioni. Tutte e quattro si sono avverate. La proposta è diventata la Direttiva europea 2022/2555, recepita in Italia con il decreto 138 del 2024, in vigore dal 16 ottobre 2024. I settori sono diventati 18, di cui 11 altamente critici e 7 critici, con oltre 80 tipologie di soggetti, secondo le FAQ dell'ACN.\n\nChi rientra oggi? L'articolo 3 dice che il decreto si applica ai soggetti delle tipologie elencate negli allegati che superano i massimali della piccola impresa. Per capirci servono le soglie europee: una media impresa ha meno di 250 persone e un fatturato annuo fino a 50 milioni di euro o un totale di bilancio fino a 43 milioni; una piccola impresa ha meno di 50 persone e fatturato o bilancio fino a 10 milioni. Le piccole e micro imprese, quindi, sono in linea di massima fuori, salvo eccezioni come alcuni fornitori di comunicazioni elettroniche, di servizi fiduciari e di servizi DNS, e le pubbliche amministrazioni elencate. L'articolo 6 distingue poi due categorie: sono soggetti essenziali, tra gli altri, quelli dei settori altamente critici dell'allegato I che superano i massimali della media impresa; sono soggetti importanti tutti gli altri in ambito.\n\nC'è un calendario annuale da conoscere, fissato dall'articolo 7. Dal primo gennaio al 28 febbraio di ogni anno i soggetti interessati si registrano o aggiornano la registrazione sulla piattaforma digitale dell'ACN. Entro il 31 marzo l'ACN redige l'elenco dei soggetti essenziali e importanti e comunica a ciascuno l'inserimento, la permanenza o l'uscita dall'elenco. Dal 15 aprile al 31 maggio i soggetti in elenco forniscono o aggiornano altre informazioni, come lo spazio di indirizzi IP pubblici e i nomi di dominio. Le FAQ dell'ACN indicano anche i tempi di adeguamento: per chi è entrato in elenco nel 2025, 18 mesi dalla comunicazione per le misure di sicurezza e nove mesi per gli obblighi di base di notifica; per chi entra per la prima volta nel 2026, il 31 luglio 2027 per le misure e il primo gennaio 2027 per la notifica.\n\nQuali misure? L'articolo 24 chiede misure tecniche, operative e organizzative adeguate e proporzionate, basate su un approccio multi-rischio che protegge anche l'ambiente fisico. Comprendono almeno: politiche di analisi dei rischi e di sicurezza; gestione degli incidenti; continuità operativa, con backup, disaster recovery e gestione delle crisi; sicurezza della catena di approvvigionamento, cioè dei rapporti con i fornitori diretti; sicurezza nell'acquisizione, nello sviluppo e nella manutenzione dei sistemi, compresa la gestione delle vulnerabilità; procedure per valutare l'efficacia delle misure; pratiche di igiene di base e formazione; crittografia; sicurezza del personale, controllo degli accessi e gestione dei beni; e, ove opportuno, autenticazione a più fattori e comunicazioni protette. Noterete che molte di queste voci coincidono con i controlli IT che vedremo nel prossimo argomento.\n\nUna novità forte riguarda i vertici. L'articolo 23 stabilisce che gli organi di amministrazione e direttivi approvano le modalità di attuazione delle misure, sovrintendono agli obblighi e sono responsabili delle violazioni. Devono seguire una formazione in materia di sicurezza informatica, promuovere una formazione periodica per i dipendenti ed essere informati periodicamente, o tempestivamente se opportuno, degli incidenti e delle notifiche.\n\nVeniamo alla notifica, i tempi stretti annunciati dal corso. L'articolo 25 considera significativo un incidente che ha causato o può causare una grave perturbazione dei servizi o perdite finanziarie per il soggetto, oppure perdite considerevoli ad altre persone. In questi casi il soggetto trasmette al CSIRT Italia una pre-notifica senza ingiustificato ritardo e comunque entro 24 ore da quando ne è venuto a conoscenza, indicando se possibile se l'incidente sembra doloso o con impatto transfrontaliero. Entro 72 ore invia la notifica vera e propria, con una valutazione iniziale di gravità e impatto e, se disponibili, gli indicatori di compromissione. Su richiesta, invia relazioni intermedie. Entro un mese dalla notifica invia la relazione finale, con la descrizione dettagliata, la causa originale, le misure adottate e l'eventuale impatto transfrontaliero; se l'incidente è ancora in corso, si inviano relazioni mensili e la relazione finale entro un mese dalla chiusura. Un dettaglio rassicurante: la notifica non espone chi la fa a una responsabilità maggiore di quella derivante dall'incidente. E se l'incidente sembra un reato, il CSIRT Italia orienta il soggetto sulla segnalazione alla Polizia postale.\n\nLe sanzioni, terza promessa del corso, sono state effettivamente innalzate. Per i soggetti essenziali, escluse le pubbliche amministrazioni, l'articolo 38 prevede sanzioni fino a 10 milioni di euro o al 2 per cento del fatturato annuo mondiale, se superiore; per i soggetti importanti fino a 7 milioni o all'1,4 per cento. Sono punite, tra l'altro, le violazioni degli obblighi degli organi di amministrazione, delle misure di gestione del rischio e della notifica. E se il soggetto non rispetta una diffida, l'ACN può applicare alle persone con funzioni dirigenziali la sanzione accessoria dell'incapacità temporanea a svolgere quelle funzioni.\n\nDue precisazioni utili per chi lavora nel mondo assicurativo. La prima riguarda i fornitori: secondo le FAQ dell'ACN, un'impresa che fornisce servizi a un soggetto NIS non entra automaticamente nell'ambito del decreto; è il soggetto NIS che deve imporre obblighi contrattuali ai propri fornitori. Un cliente in ambito NIS, quindi, potrebbe chiedere ai suoi fornitori clausole di sicurezza più rigorose. La seconda riguarda il settore finanziario: per le banche e le infrastrutture dei mercati finanziari di medie e grandi dimensioni il regolamento DORA è lex specialis, e del decreto NIS resta in sostanza l'obbligo di registrazione. Il settore assicurativo, come vedremo nella prossima lezione, ha in DORA il suo riferimento principale.\n\nUn caso per fissare i tempi. Un cliente del broker, un'azienda di trasporti con 400 dipendenti registrata come soggetto NIS, subisce un ransomware lunedì alle 9. Il responsabile IT vuole prima risolvere e poi, dopo una settimana, avvisare chi serve. È un errore: se l'incidente è significativo, servono la pre-notifica al CSIRT Italia entro 24 ore, la notifica entro 72 e la relazione finale entro un mese. Se sono coinvolti dati personali, va valutata in parallelo la notifica al Garante entro 72 ore. E va avvisata la compagnia della polizza cyber secondo le condizioni contrattuali. Tre canali diversi, con tempi diversi, che conviene avere già scritti in un piano di risposta agli incidenti.\n\nIn sintesi: dalla prima NIS del 2018 al decreto 138 del 2024 l'Italia è passata a un sistema con l'ACN al centro, molti più soggetti coinvolti, obblighi precisi per i vertici, notifiche in 24 e 72 ore e sanzioni elevate.",
+      "sources": [
+        {
+          "title": "D.Lgs. 4 settembre 2024, n. 138 (Gazzetta Ufficiale, Serie Generale n. 230 del 1° ottobre 2024)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg"
+        },
+        {
+          "title": "ACN, Domande frequenti NIS - Profili generali",
+          "url": "https://www.acn.gov.it/portale/en/faq/nis/profili-generali"
+        },
+        {
+          "title": "ACN, Domande frequenti NIS - Ambito",
+          "url": "https://www.acn.gov.it/portale/en/faq/nis/ambito"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il modello istituzionale della prima NIS (DIS punto di contatto unico, CSIRT presso la Presidenza del Consiglio, Autorità competenti NIS), presentato come assetto storico: il D.Lgs. 65/2018 è stato abrogato dal D.Lgs. 138/2024, che designa l'ACN come Autorità nazionale competente e Punto di contatto unico.",
+          "source_ref": "D.Lgs. 138/2024, artt. 10, 11, 15"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione della NIS2 come proposta della Commissione, con le quattro novità annunciate; aggiornato con la norma effettivamente adottata (Dir. 2022/2555, D.Lgs. 138/2024).",
+          "source_ref": "D.Lgs. 138/2024; ACN, FAQ NIS"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ambito di applicazione, soglie dimensionali, soggetti essenziali e importanti.",
+          "source_ref": "D.Lgs. 138/2024, artt. 3 e 6; Racc. 2003/361/CE"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Calendario di registrazione sulla piattaforma ACN e tempi di adeguamento per i soggetti in elenco nel 2025 e nel 2026.",
+          "source_ref": "D.Lgs. 138/2024, art. 7; ACN, FAQ NIS - Profili generali"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obblighi degli organi di amministrazione, misure minime di gestione del rischio, definizione di incidente significativo e tempi di notifica al CSIRT Italia.",
+          "source_ref": "D.Lgs. 138/2024, artt. 23, 24, 25"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sanzioni pecuniarie per soggetti essenziali e importanti e sanzione accessoria per i dirigenti.",
+          "source_ref": "D.Lgs. 138/2024, art. 38"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Posizione dei fornitori dei soggetti NIS e rapporto con DORA per banche e infrastrutture dei mercati finanziari.",
+          "source_ref": "ACN, FAQ NIS Ambito, AMB.GE.6 e AMB.NO.2"
+        }
+      ]
+    },
+    {
+      "title": "DORA: la resilienza operativa digitale nel settore assicurativo",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/0. La regolamentazione cyber.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · La regolamentazione cyber",
+          "title": "DORA: la resilienza operativa digitale nel settore assicurativo",
+          "goals": [
+            "Conoscere i sei pilastri del regolamento DORA",
+            "Sapere come e in che tempi imprese e intermediari segnalano all'IVASS i gravi incidenti",
+            "Orientarsi tra GDPR, NIS2 e DORA: chi notifica che cosa e a chi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è DORA",
+          "key": "Il Regolamento (UE) 2022/2554 del 14 dicembre 2022, Digital Operational Resilience Act, crea un quadro comune per la gestione dei rischi ICT nel settore finanziario.",
+          "body": "Si applica dal 17 gennaio 2025. Resilienza operativa digitale significa saper resistere a un incidente ICT, continuare a operare e ripristinare i servizi. Nella regolamentazione cyber è la norma specifica per banche, assicurazioni e altri operatori finanziari.",
+          "ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "layout": "split",
+          "title": "Chi è coinvolto nel settore assicurativo",
+          "left": {
+            "title": "Soggetti a DORA",
+            "items": [
+              "Imprese di assicurazione e riassicurazione soggette a Solvency II",
+              "Intermediari assicurativi, riassicurativi e a titolo accessorio con più di 250 dipendenti e fatturato oltre 50 milioni o bilancio oltre 43 milioni"
+            ],
+            "ref": "IVASS, Lettera al mercato 14 febbraio 2025"
+          },
+          "right": {
+            "title": "Fuori da DORA",
+            "items": [
+              "Intermediari micro, piccoli e medi",
+              "Restano però GDPR e gli obblighi verso le imprese mandanti"
+            ],
+            "ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+          },
+          "note": "L'ambito è già stato presentato nei moduli «Applicazioni» e «Sicurezza informatica»: qui approfondiamo gli obblighi.",
+          "noteRef": "Rinvio interno al corso"
+        },
+        {
+          "layout": "table",
+          "title": "I sei pilastri",
+          "head": [
+            "Pilastro",
+            "Che cosa chiede"
+          ],
+          "rows": [
+            [
+              "1 · Gestione del rischio ICT",
+              "Principi e requisiti per un quadro di gestione del rischio ICT"
+            ],
+            [
+              "2 · Rischio di terze parti ICT",
+              "Monitoraggio dei fornitori e clausole contrattuali chiave"
+            ],
+            [
+              "3 · Test",
+              "Test di resilienza operativa digitale, di base e avanzati"
+            ],
+            [
+              "4 · Incidenti",
+              "Gestione degli incidenti e segnalazione di quelli gravi alle autorità"
+            ],
+            [
+              "5 · Condivisione",
+              "Scambio di informazioni e intelligence sulle minacce"
+            ],
+            [
+              "6 · Fornitori critici",
+              "Sorveglianza europea dei fornitori ICT terzi critici (CTPP)"
+            ]
+          ],
+          "ref": "EIOPA, Digital Operational Resilience Act"
+        },
+        {
+          "layout": "concept",
+          "title": "Quando un incidente è grave",
+          "key": "È grave un incidente che ha interessato servizi critici e che comporta un accesso non autorizzato ai sistemi, oppure supera almeno due delle altre soglie di rilevanza.",
+          "body": "I criteri e le soglie sono fissati dal Regolamento delegato (UE) 2024/1772 e dagli atti delegati collegati. Per l'impresa significa avere una procedura per classificare in fretta ogni incidente.",
+          "ref": "IVASS, Lettera al mercato 14 febbraio 2025; Reg. del. (UE) 2024/1772"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi della segnalazione",
+          "items": [
+            {
+              "value": "24 ore",
+              "text": "notifica iniziale, al più tardi, dall'identificazione dell'incidente",
+              "ref": "Lettera IVASS 14.2.2025"
+            },
+            {
+              "value": "72 ore",
+              "text": "report intermedio dalla notifica iniziale, con possibili aggiornamenti",
+              "ref": "Lettera IVASS 14.2.2025"
+            },
+            {
+              "value": "1 mese",
+              "text": "report finale dall'ultimo aggiornamento del report intermedio",
+              "ref": "Lettera IVASS 14.2.2025"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si segnala all'IVASS",
+          "items": [
+            {
+              "text": "Si usano i template allegati alla lettera al mercato: uno per gli incidenti, uno per le minacce"
+            },
+            {
+              "text": "L'invio avviene via PEC, nei tempi previsti"
+            },
+            {
+              "text": "Imprese: alla PEC della vigilanza prudenziale. Intermediari: alla PEC della vigilanza sulla condotta di mercato"
+            },
+            {
+              "text": "Le notifiche hanno un livello di dettaglio crescente",
+              "ref": "IVASS, Lettera al mercato 14 febbraio 2025"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Minacce e doppie segnalazioni",
+          "left": {
+            "title": "Minacce informatiche",
+            "items": [
+              "Segnalazione volontaria all'autorità",
+              "Per minacce rilevanti per il sistema finanziario, gli utenti o i clienti"
+            ],
+            "ref": "Reg. (UE) 2022/2554, art. 19, par. 2"
+          },
+          "right": {
+            "title": "Regolamento IVASS 38/2018",
+            "items": [
+              "L'art. 16 prevede obblighi su sistemi informatici e cyber security",
+              "In attesa dell'adeguamento, la segnalazione DORA non va ripetuta anche ai fini dell'art. 16"
+            ],
+            "ref": "IVASS, Lettera al mercato 14 febbraio 2025, nota 1"
+          },
+          "note": "Un incidente, una segnalazione all'IVASS: la lettera evita la duplicazione.",
+          "noteRef": "IVASS, Lettera al mercato 14 febbraio 2025"
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro delle informazioni",
+          "key": "Le entità DORA tengono un registro degli accordi con i fornitori ICT terzi, secondo i modelli standard del Regolamento di esecuzione (UE) 2024/2956.",
+          "body": "L'IVASS ha dato indicazioni sulla segnalazione del registro con la lettera al mercato del 7 marzo 2025. Il registro serve anche alle autorità europee per individuare i fornitori ICT critici da sorvegliare.",
+          "ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "layout": "table",
+          "title": "Un incidente, tre canali",
+          "head": [
+            "Norma",
+            "A chi",
+            "Primi tempi"
+          ],
+          "rows": [
+            [
+              "G · GDPR",
+              "Garante privacy, se c'è una violazione di dati personali a rischio",
+              "72 ore, ove possibile"
+            ],
+            [
+              "N · Decreto NIS",
+              "CSIRT Italia, per i soggetti NIS e gli incidenti significativi",
+              "24 ore pre-notifica, 72 ore notifica"
+            ],
+            [
+              "D · DORA",
+              "IVASS, per imprese e intermediari rilevanti e gli incidenti gravi",
+              "24 ore notifica iniziale, 72 ore report intermedio"
+            ]
+          ],
+          "ref": "Reg. (UE) 2016/679, art. 33; D.Lgs. 138/2024, art. 25; Lettera IVASS 14.2.2025"
+        },
+        {
+          "layout": "checklist",
+          "title": "E l'intermediario fuori da DORA?",
+          "items": [
+            {
+              "text": "Applica sempre il GDPR: misure adeguate, notifica delle violazioni, fornitori nominati responsabili"
+            },
+            {
+              "text": "Lavora sui sistemi delle imprese mandanti, che sono soggette a DORA: ne rispetta le regole d'uso e d'accesso"
+            },
+            {
+              "text": "Segnala subito all'impresa ogni incidente che tocca i suoi sistemi o i dati dei suoi clienti"
+            },
+            {
+              "text": "Usa le misure DORA e NIS2 come buona pratica: backup, aggiornamenti, autenticazione forte, formazione"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'impresa di assicurazione scopre alle 8 di martedì che il portale usato da agenti e clienti per emettere polizze è fermo per un attacco. Alcuni dati di clienti potrebbero essere stati sottratti. L'agente chiama la compagnia per sapere che cosa dire ai clienti.",
+          "questions": [
+            "Quali segnalazioni deve valutare l'impresa e con quali tempi?",
+            "Che cosa fa l'agente?"
+          ],
+          "solution": "L'impresa classifica l'incidente: se è grave, notifica iniziale all'IVASS entro 24 ore, report intermedio entro 72 ore, report finale entro un mese, con i template via PEC. Per la possibile sottrazione di dati personali valuta la notifica al Garante entro 72 ore. L'agente non improvvisa: segue le indicazioni della compagnia sulle comunicazioni ai clienti, annota i problemi segnalati e verifica che dai suoi dispositivi non siano partiti accessi anomali."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un intermediario assicurativo con 30 dipendenti è soggetto a DORA?",
+          "options": [
+            "Sì, sempre",
+            "No: DORA riguarda solo gli intermediari che non sono micro, piccole o medie imprese",
+            "Sì, ma solo per la segnalazione delle minacce",
+            "Solo se vende polizze cyber"
+          ],
+          "answer": 1,
+          "explanation": "Per l'IVASS sono soggetti a DORA gli intermediari con più di 250 dipendenti e fatturato oltre 50 milioni o bilancio oltre 43 milioni. Il GDPR resta comunque applicabile."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di questi è uno dei sei pilastri di DORA?",
+          "options": [
+            "La tariffazione dei premi RC auto",
+            "La gestione del rischio di terze parti ICT",
+            "La disciplina dei reclami",
+            "L'iscrizione al RUI"
+          ],
+          "answer": 1,
+          "explanation": "I pilastri sono: gestione del rischio ICT, rischio di terze parti ICT, test, incidenti, condivisione delle informazioni, sorveglianza dei fornitori critici."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "17.1.2025",
+              "text": "DORA si applica"
+            },
+            {
+              "value": "6",
+              "text": "pilastri: rischio ICT, terze parti, test, incidenti, condivisione, CTPP"
+            },
+            {
+              "value": "24 · 72 · 1 mese",
+              "text": "le tre fasi della segnalazione all'IVASS"
+            },
+            {
+              "value": "PEC",
+              "text": "invio dei template all'IVASS"
+            },
+            {
+              "value": "3 canali",
+              "text": "Garante, CSIRT Italia, IVASS"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione chiudiamo il quadro della regolamentazione cyber. Abbiamo visto il GDPR, che protegge i dati personali, e la disciplina NIS, che protegge reti e sistemi delle organizzazioni. Per il settore finanziario, e quindi per quello assicurativo, esiste una norma specifica: il regolamento DORA. L'ambito di applicazione l'avete già incontrato nei moduli su applicazioni e sicurezza informatica; qui entriamo negli obblighi, con particolare attenzione alle segnalazioni all'IVASS.\n\nDORA è il Regolamento europeo 2022/2554 del 14 dicembre 2022, il Digital Operational Resilience Act, cioè la legge sulla resilienza operativa digitale. L'IVASS lo descrive come un quadro comune per la gestione dei rischi connessi alle tecnologie dell'informazione e della comunicazione nel settore finanziario, applicabile dal 17 gennaio 2025. Resilienza operativa digitale significa la capacità di un'impresa di resistere a un incidente informatico, continuare a operare e ripristinare i servizi in tempi accettabili. Non basta difendersi: bisogna saper reagire.\n\nChi è coinvolto, nel mondo assicurativo? Le imprese di assicurazione e riassicurazione soggette a Solvency II, e gli intermediari di assicurazione, di riassicurazione e a titolo accessorio che non sono micro, piccole o medie imprese. La lettera al mercato dell'IVASS del 14 febbraio 2025 lo precisa in nota: sono soggetti a DORA gli intermediari con più di 250 dipendenti e un fatturato annuo superiore a 50 milioni di euro o un bilancio annuo superiore a 43 milioni. La grande maggioranza delle agenzie e dei broker, quindi, è fuori dall'ambito diretto. Ma attenzione: resta il GDPR, e restano i rapporti con le imprese mandanti, che a DORA sono soggette.\n\nCome è costruito il regolamento? L'EIOPA, l'autorità europea delle assicurazioni, lo presenta in sei aree, che possiamo chiamare pilastri. Il primo è la gestione del rischio ICT: principi e requisiti per un quadro organico di gestione del rischio informatico. Il secondo è la gestione del rischio di terze parti ICT: il monitoraggio dei fornitori e le clausole contrattuali chiave da prevedere nei contratti con loro. Il terzo sono i test di resilienza operativa digitale, di base e avanzati: non basta avere le difese, bisogna metterle alla prova. Il quarto riguarda gli incidenti connessi alle ICT: requisiti generali di gestione e segnalazione alle autorità di quelli gravi. Il quinto è la condivisione di informazioni e intelligence sulle minacce informatiche tra operatori. Il sesto è il quadro di sorveglianza dei fornitori ICT terzi critici, i cosiddetti CTPP, cioè i grandi fornitori, come quelli di cloud, da cui dipendono molte entità finanziarie insieme. Ritroviamo qui il tema dell'interconnessione e del rischio di accumulo che abbiamo visto parlando di cyber insurance.\n\nConcentriamoci sugli incidenti. Quando un incidente va segnalato? Non ogni problema informatico: solo quelli gravi. La lettera IVASS richiama il Regolamento delegato europeo 2024/1772, secondo cui è grave un incidente che ha interessato i servizi critici e che soddisfa una di due condizioni: i sistemi sono stati oggetto di accessi non autorizzati, come descritto dal regolamento, oppure sono state raggiunte almeno due delle altre soglie di rilevanza che il regolamento definisce. Per l'impresa significa una cosa molto concreta: serve una procedura interna per classificare velocemente ogni incidente, perché i tempi di segnalazione sono brevi.\n\nI tempi, appunto. Gli atti delegati prevedono tre fasi. Una notifica iniziale, al più tardi entro 24 ore dall'identificazione dell'incidente. Un report intermedio entro 72 ore dalla notifica iniziale, con la possibilità di trasmettere aggiornamenti successivi. Un report finale entro un mese dall'invio dell'ultimo aggiornamento del report intermedio. Le notifiche hanno un livello di dettaglio crescente: all'inizio si sa poco, poi il quadro si completa.\n\nCome si segnala all'IVASS? La lettera del 14 febbraio 2025 allega due template, cioè due modelli in formato Excel: uno per gli incidenti e uno per le minacce informatiche. Vanno compilati secondo gli atti delegati e inviati all'IVASS via PEC, nei tempi previsti. Le imprese di assicurazione inviano alla casella PEC della vigilanza prudenziale; gli intermediari di assicurazione, di riassicurazione e a titolo accessorio soggetti a DORA inviano alla casella PEC della vigilanza sulla condotta di mercato. Gli indirizzi esatti sono indicati nella lettera.\n\nDue precisazioni. La prima riguarda le minacce: l'articolo 19, paragrafo 2, di DORA consente alle entità finanziarie di segnalare all'autorità, su base volontaria, le minacce informatiche che ritengono rilevanti per il sistema finanziario, per gli utenti dei servizi o per i clienti. Non è un obbligo, ma è il quinto pilastro in azione: condividere le informazioni aiuta tutti. La seconda riguarda il regolamento IVASS 38 del 2018 sul sistema di governo societario, il cui articolo 16 contiene obblighi informativi in materia di sistemi informatici e cyber security. In attesa del suo adeguamento a DORA, la lettera chiarisce che le segnalazioni di grave incidente inviate secondo DORA non vanno trasmesse una seconda volta anche ai fini dell'articolo 16. Un incidente, una segnalazione all'IVASS.\n\nC'è poi il registro delle informazioni, legato al secondo pilastro. Le entità DORA tengono un registro degli accordi contrattuali con i fornitori ICT terzi, secondo i modelli standard fissati dal Regolamento di esecuzione europeo 2024/2956 del 29 novembre 2024. L'IVASS ha dato indicazioni sulla sua segnalazione con la lettera al mercato del 7 marzo 2025. Il registro non è solo un adempimento: serve all'impresa per sapere da chi dipende, e serve alle autorità europee per individuare i fornitori ICT critici da sorvegliare, anche attraverso una decisione congiunta delle tre autorità europee di vigilanza dell'8 novembre 2024 sul reporting a questo fine.\n\nMettiamo ora insieme le tre norme, perché nella realtà un incidente può farle scattare tutte. Il GDPR riguarda chiunque tratti dati personali: se c'è una violazione che presenta un rischio per le persone, il titolare notifica al Garante entro 72 ore, ove possibile. Il decreto NIS riguarda i soggetti essenziali e importanti: per un incidente significativo, pre-notifica al CSIRT Italia entro 24 ore e notifica entro 72. DORA riguarda imprese e grandi intermediari: per un incidente grave, notifica iniziale all'IVASS entro 24 ore e report intermedio entro 72. Le autorità sono diverse, i criteri di gravità sono diversi, e anche il momento da cui partono i tempi è descritto in modo diverso: la conoscenza dell'incidente per la NIS, l'identificazione per DORA. Per questo ogni organizzazione dovrebbe avere un piano di risposta agli incidenti che indichi, già prima, chi valuta, chi notifica e a chi.\n\nE l'intermediario che non è soggetto a DORA? Non è fuori dal quadro. Applica sempre il GDPR, con misure adeguate, notifica delle violazioni e fornitori nominati responsabili. Lavora ogni giorno sui sistemi delle imprese mandanti, che sono soggette a DORA: deve rispettarne le regole d'uso e di accesso, perché un suo dispositivo compromesso può diventare la porta d'ingresso per i sistemi della compagnia. Per lo stesso motivo conviene segnalare subito all'impresa ogni incidente che tocchi i suoi sistemi o i dati dei suoi clienti. E può usare le misure di DORA e della NIS2 come buona pratica: backup, aggiornamenti, autenticazione forte, formazione del personale. Non sono obblighi di legge per l'agenzia piccola, ma sono il modo migliore per non essere l'anello debole della catena.\n\nVediamo un caso. Un martedì alle 8 un'impresa di assicurazione scopre che il portale usato da agenti e clienti per emettere polizze è fermo per un attacco, e che alcuni dati di clienti potrebbero essere stati sottratti. L'impresa classifica l'incidente: se è grave secondo DORA, invia all'IVASS la notifica iniziale entro 24 ore, il report intermedio entro 72 e il report finale entro un mese, con i template via PEC. Per la possibile sottrazione di dati personali valuta in parallelo la notifica al Garante entro 72 ore. E l'agente che telefona per sapere che cosa dire ai clienti? Non improvvisa spiegazioni: segue le indicazioni della compagnia sulle comunicazioni, annota i problemi che i clienti gli segnalano e controlla che dai propri dispositivi non siano partiti accessi anomali al portale.\n\nIn sintesi: DORA è la norma cyber del settore finanziario, con sei pilastri e tempi di segnalazione in 24 ore, 72 ore e un mese. Per l'IVASS le segnalazioni passano da template e PEC, senza duplicazioni con il regolamento 38. E anche chi non è soggetto a DORA ne vive gli effetti, perché lavora dentro la catena digitale delle imprese.",
+      "sources": [
+        {
+          "title": "IVASS, Regolamento DORA - Informazioni per gli Operatori",
+          "url": "https://www.ivass.it/operatori/dora/index.html"
+        },
+        {
+          "title": "IVASS, Lettera al mercato del 14 febbraio 2025 - Segnalazioni dei gravi incidenti informatici e delle minacce informatiche (DORA)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2025/lm-14-02-2025/Lettera_al_mercato_14_02_2025.pdf"
+        },
+        {
+          "title": "IVASS, Lettera al mercato del 7 marzo 2025 - Registro delle informazioni",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/lettere/2025/lm-07-03-2025/index.html"
+        },
+        {
+          "title": "EIOPA, Digital Operational Resilience Act (DORA)",
+          "url": "https://www.eiopa.europa.eu/digital-operational-resilience-act-dora_en"
+        },
+        {
+          "title": "D.Lgs. 4 settembre 2024, n. 138 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Lezione nuova su DORA, richiesta dall'aggiornamento: la fonte originale non tratta il regolamento. Definizione, data di applicazione, ambito (soglie degli intermediari).",
+          "source_ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori; Lettera al mercato 14.2.2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "I sei pilastri di DORA.",
+          "source_ref": "EIOPA, Digital Operational Resilience Act"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di incidente grave (Reg. del. 2024/1772), tre fasi e tempi della segnalazione, template e invio via PEC all'IVASS, segnalazione volontaria delle minacce (art. 19, par. 2), coordinamento con l'art. 16 del Reg. IVASS 38/2018.",
+          "source_ref": "IVASS, Lettera al mercato 14.2.2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Registro delle informazioni sui fornitori ICT (Reg. esec. 2024/2956, lettera IVASS 7.3.2025) e designazione dei fornitori critici.",
+          "source_ref": "IVASS, Regolamento DORA - Informazioni per gli Operatori"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tabella di raccordo GDPR, decreto NIS e DORA sui destinatari e i tempi delle notifiche; indicazioni di buona pratica (non obblighi di legge) per l'intermediario fuori da DORA.",
+          "source_ref": "Reg. (UE) 2016/679, art. 33; D.Lgs. 138/2024, art. 25; Lettera IVASS 14.2.2025"
+        }
+      ]
+    }
+  ]
+}

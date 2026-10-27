@@ -1,0 +1,1864 @@
+{
+  "module": "Area informatica",
+  "topic": "Il cyber crime",
+  "topic_order": 6,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il fenomeno del cyber crime: chi attacca, perché cresce, quanto costa",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "Il fenomeno del cyber crime: chi attacca, perché cresce, quanto costa",
+          "goals": [
+            "Distinguere l'hacker etico dal criminale informatico",
+            "Capire perché il crimine informatico continua a crescere",
+            "Riconoscere le voci di costo di un attacco, anche per un'agenzia"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Hacker non vuol dire criminale",
+          "key": "Gli hacker vengono spesso definiti criminali, ma esistono hacker \"etici\" che aiutano le aziende a misurare quanto sono vulnerabili i loro sistemi e suggeriscono come rafforzare la sicurezza.",
+          "body": "L'hacker studia tutti i dettagli di un sistema, cerca il modo di eluderne le difese e investe tempo e risorse per sfruttare qualsiasi vulnerabilità. Che cosa ne fa, dipende dalle sue intenzioni e dall'autorizzazione che ha.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Hacker etico e criminale informatico",
+          "cols": [
+            {
+              "title": "Hacker etico",
+              "items": [
+                "Lavora su incarico del titolare del sistema",
+                "Cerca le falle per farle chiudere",
+                "Consegna un rapporto con i rimedi",
+                "Agisce entro confini concordati: che cosa, quando, come"
+              ]
+            },
+            {
+              "title": "Criminale informatico",
+              "items": [
+                "Agisce senza autorizzazione",
+                "Cerca le falle per sfruttarle",
+                "Trasforma l'accesso in denaro: dati, riscatti, frodi",
+                "Cerca di cancellare le proprie tracce"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Basso rischio, profitti elevati",
+          "key": "Basso rischio e profitti elevati sono i punti di forza del furto e della compromissione delle informazioni online. Nell'ultimo periodo il crimine informatico è aumentato notevolmente.",
+          "body": "Chi attacca lavora a distanza, spesso da un altro Paese, e con un solo messaggio o un solo programma raggiunge migliaia di potenziali vittime.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Perché il cyber crime cresce",
+          "items": [
+            {
+              "text": "I criminali informatici adottano rapidamente le nuove tecnologie.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Aumenta il numero di nuovi utenti online, spesso poco esperti.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Commettere crimini informatici è più facile: cresce il cyber crime come servizio.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Si moltiplicano i \"centri\" di criminalità informatica: la fonte cita Brasile, India, Corea del Nord e Vietnam.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Ai livelli alti della criminalità informatica cresce la sofisticazione finanziaria, che rende più semplice monetizzare.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il crimine come servizio",
+          "key": "Con il cyber crime come servizio chi vuole colpire non deve più saper programmare: compra o noleggia strumenti già pronti da chi li sviluppa.",
+          "body": "Kit per pagine di phishing, malware, reti di computer infetti, elenchi di credenziali rubate. Nell'argomento sul malware abbiamo visto un esempio: il ransomware as a service."
+        },
+        {
+          "layout": "concept",
+          "title": "Le imprese e le minacce persistenti",
+          "key": "Le imprese sono più consapevoli del rischio di minacce persistenti e avanzate e prendono provvedimenti. Però si affidano soprattutto ai meccanismi tradizionali di difesa e rilevamento, che possono essere inefficaci contro minacce costanti.",
+          "body": "Antivirus e firewall restano necessari, ma da soli non bastano contro chi resta nascosto a lungo nella rete. Servono anche controllo dei registri, aggiornamenti, formazione e un piano di risposta.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le voci di costo del crimine informatico",
+          "lead": "Il costo continua a crescere perché aumentano gli attacchi e il tempo necessario per contenere il danno dopo una violazione.",
+          "head": [
+            "Voce",
+            "Che cosa comprende"
+          ],
+          "rows": [
+            [
+              "Proprietà intellettuale e informazioni riservate",
+              "Segreti commerciali, dati di business, progetti"
+            ],
+            [
+              "Frodi online e reati finanziari",
+              "Denaro sottratto, pagamenti dirottati"
+            ],
+            [
+              "Manipolazione finanziaria",
+              "Uso illecito di informazioni per alterare operazioni e mercati"
+            ],
+            [
+              "Costi opportunità",
+              "Affari persi mentre si gestisce l'attacco"
+            ],
+            [
+              "Protezione delle reti",
+              "Spesa per difendersi, prima e dopo"
+            ],
+            [
+              "Reputazione e responsabilità",
+              "Danno al marchio, richieste di risarcimento, calo temporaneo del valore dei titoli"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Ricchezza e vulnerabilità dei Paesi",
+          "left": {
+            "title": "Paesi più ricchi",
+            "items": [
+              "Maggiore probabilità di subire una perdita",
+              "Più beni digitali da rubare"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Paesi di livello intermedio",
+            "items": [
+              "Le perdite maggiori in percentuale del reddito nazionale",
+              "Già digitalizzati, ma non ancora pienamente capaci sulla sicurezza"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Vale anche per un'agenzia: la fase più rischiosa è quando si è digitalizzato molto e si è investito poco in sicurezza.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Stimare il costo del crimine",
+          "key": "Il crimine è una parte \"normale\" dell'interazione sociale e degli affari internazionali: i governi adottano misure, da soli e in cooperazione, per gestirlo e ridurne il costo.",
+          "body": "Il vero rischio per le aziende sta nel danno al marchio e nell'aumento del rischio di responsabilità. Per questo le grandi aziende tendono ad \"autoassicurarsi\", scommettendo che qualsiasi perdita sarà gestibile.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Autoassicurarsi o trasferire il rischio",
+          "cols": [
+            {
+              "title": "Autoassicurazione",
+              "items": [
+                "L'azienda trattiene il rischio",
+                "Nessun premio da pagare",
+                "Tutto il danno resta a suo carico",
+                "Regge solo se la perdita resta davvero gestibile"
+              ]
+            },
+            {
+              "title": "Polizza cyber",
+              "items": [
+                "Il rischio, o una parte, passa all'assicuratore",
+                "Costo certo: il premio",
+                "Spesso include servizi di risposta all'incidente",
+                "Richiede un livello minimo di sicurezza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia con tre sedi ha portato in due anni archivio clienti, firma elettronica e preventivi su servizi online. Nessuno ha rivisto password, aggiornamenti e copie di sicurezza. Il titolare dice: \"Siamo piccoli, chi vuoi che ci attacchi?\"",
+          "questions": [
+            "Quali fattori di crescita del cyber crime rendono debole questo ragionamento?",
+            "Quali voci di costo rischia l'agenzia?"
+          ],
+          "solution": "Con il crimine come servizio gli attacchi sono automatici e di massa: non serve essere un bersaglio importante, basta essere vulnerabili. L'agenzia è nella fase \"intermedia\": molto digitalizzata, poco protetta. Rischia la perdita delle informazioni riservate sul portafoglio, frodi sui pagamenti dei premi, giorni di fermo, spese di ripristino e un danno alla reputazione verso clienti e compagnie mandanti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo la fonte, dove si registrano le perdite maggiori in percentuale del reddito nazionale?",
+          "options": [
+            "Nei Paesi più ricchi",
+            "Nei Paesi di livello intermedio, digitalizzati ma non ancora pienamente capaci sulla sicurezza",
+            "Nei Paesi meno digitalizzati",
+            "In modo uguale in tutti i Paesi"
+          ],
+          "answer": 1,
+          "explanation": "Nei Paesi ricchi è più probabile subire una perdita. Ma in percentuale del reddito le perdite maggiori sono nei Paesi intermedi, dove la digitalizzazione è andata più veloce della sicurezza."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa distingue l'hacker etico dal criminale informatico?",
+          "options": [
+            "Le competenze tecniche",
+            "Gli strumenti usati",
+            "L'autorizzazione del titolare del sistema e lo scopo: chiudere le falle, non sfruttarle",
+            "Il fatto che l'hacker etico lavori solo su sistemi pubblici"
+          ],
+          "answer": 2,
+          "explanation": "Competenze e strumenti possono essere gli stessi. Cambiano l'incarico del titolare e lo scopo. Senza autorizzazione, entrare in un sistema protetto è reato: lo vedremo nell'ultima lezione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Etico",
+              "text": "l'hacker che lavora su incarico per far chiudere le falle"
+            },
+            {
+              "value": "5",
+              "text": "ragioni di crescita: tecnologie, nuovi utenti, crimine come servizio, nuovi centri, monetizzazione"
+            },
+            {
+              "value": "6",
+              "text": "voci di costo, dalla proprietà intellettuale alla reputazione"
+            },
+            {
+              "value": "Intermedi",
+              "text": "i Paesi con le perdite maggiori rispetto al reddito"
+            },
+            {
+              "value": "Autoassicurarsi",
+              "text": "scommettere che la perdita sarà gestibile"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento parliamo di cyber crime, cioè di criminalità informatica. Nelle lezioni precedenti dell'area informatica abbiamo già visto le minacce, il malware, la sicurezza delle password e il rischio cyber. Qui cambiamo prospettiva: guardiamo il fenomeno come un'attività criminale vera e propria, con i suoi attori, le sue ragioni economiche, le sue tecniche di attacco e, nell'ultima lezione, le norme penali che la puniscono.\n\nCominciamo da una parola che usiamo spesso in modo impreciso: hacker. Nel linguaggio comune hacker è sinonimo di criminale. La fonte ci ricorda però che esistono hacker \"etici\", che aiutano le aziende a capire quanto sono vulnerabili i loro sistemi e danno consigli per rafforzarne la sicurezza. Il modo di lavorare è simile: l'hacker studia tutti i dettagli di un sistema, cerca il modo di eluderne le difese e investe tempo e risorse per sfruttare qualsiasi tipo di vulnerabilità. La differenza sta in che cosa fa di ciò che scopre.\n\nMettiamo a confronto le due figure. L'hacker etico lavora su incarico del titolare del sistema: ad esempio una compagnia di assicurazione gli chiede di provare a entrare nel proprio portale agenzie. Cerca le falle per farle chiudere, consegna un rapporto con i rimedi e agisce entro confini concordati: che cosa può provare, in quali giorni, con quali tecniche. Il criminale informatico fa le stesse cose senza alcuna autorizzazione, cerca le falle per sfruttarle, trasforma l'accesso in denaro, con dati da rivendere, riscatti o frodi, e alla fine cerca di cancellare le proprie tracce. Tenete a mente questo punto: competenze e strumenti possono essere identici, ciò che fa la differenza è l'autorizzazione. E vedremo che per la legge penale entrare senza diritto in un sistema protetto è già un reato, anche se non si ruba nulla.\n\nPerché il crimine informatico è aumentato così tanto? La fonte lo riassume in quattro parole: basso rischio, profitti elevati. Chi attacca lavora a distanza, spesso da un altro Paese, e con un solo messaggio o un solo programma può raggiungere migliaia di potenziali vittime. Rispetto a una rapina tradizionale, la probabilità di essere identificati è bassa e il guadagno potenziale è alto.\n\nLe ragioni della crescita indicate dalla fonte sono cinque. La prima: i criminali informatici adottano molto rapidamente le nuove tecnologie, spesso più rapidamente delle aziende che dovrebbero difendersi. La seconda: aumentano i nuovi utenti online, e chi è appena arrivato in rete è più facile da ingannare. Pensiamo ai clienti anziani che da poco usano l'app della banca o l'area riservata della compagnia. La terza: commettere crimini informatici è diventato più facile, grazie al cyber crime come servizio. La quarta: si moltiplicano i \"centri\" di criminalità informatica; la fonte cita Brasile, India, Corea del Nord e Vietnam. La quinta: ai livelli più alti della criminalità informatica c'è una crescente sofisticazione finanziaria, che rende più semplice trasformare in denaro ciò che si è rubato.\n\nSoffermiamoci sul crimine come servizio, perché cambia il profilo di chi attacca. Un tempo per lanciare un attacco servivano competenze tecniche elevate. Oggi chi vuole colpire può comprare o noleggiare strumenti già pronti: kit per costruire pagine di phishing, malware, reti di computer infetti da usare per gli attacchi, elenchi di credenziali rubate. Chi sviluppa gli strumenti li vende, chi li usa paga, magari con una percentuale sui guadagni. Nell'argomento sul malware abbiamo visto un esempio, il ransomware as a service. La conseguenza pratica per noi è semplice: gli attacchi sono sempre più numerosi e automatici, e colpiscono chiunque sia vulnerabile, non solo i bersagli importanti.\n\nC'è poi il tema delle imprese. La fonte osserva che le imprese sono più consapevoli del rischio di minacce persistenti e avanzate, quelle in cui l'attaccante entra e resta nascosto a lungo nella rete, e prendono provvedimenti. Però si affidano soprattutto ai meccanismi tradizionali di difesa e rilevamento, che possono essere inefficaci contro minacce costanti. Antivirus e firewall restano necessari, ma non bastano contro chi ha già un accesso e si muove con cautela. Servono anche il controllo dei registri di accesso, gli aggiornamenti, la formazione delle persone e un piano di risposta che dica chi fa che cosa se qualcosa va storto.\n\nVeniamo ai costi. L'aumento degli attacchi e del tempo necessario per contenere il danno dopo una violazione hanno fatto crescere in modo continuo il costo del crimine informatico. Più a lungo l'attaccante resta nei sistemi senza essere scoperto, più dati porta via e più costoso è il ripristino.\n\nLe voci di costo elencate dalla fonte sono sei. La perdita di proprietà intellettuale e di informazioni riservate di business. Le frodi online e i reati finanziari. La manipolazione finanziaria. I costi opportunità, cioè gli affari che si perdono mentre si gestisce l'attacco. Il costo per proteggere le reti. E infine il danno alla reputazione e il rischio di responsabilità per la società colpita e per il suo marchio, compresi i danni temporanei al valore dei titoli. Per un'agenzia la traduzione è immediata: il portafoglio clienti è un'informazione riservata di grande valore; le frodi colpiscono soprattutto i pagamenti dei premi e dei rimborsi; il fermo dei sistemi blocca emissioni e rinnovi; e la reputazione verso clienti e compagnie mandanti è un patrimonio che si perde in un giorno.\n\nLa fonte aggiunge un'osservazione sui Paesi. Più un Paese è ricco, maggiore è la probabilità che subisca una perdita a causa della criminalità informatica: ci sono più beni digitali da rubare. Ma le perdite maggiori in percentuale del reddito nazionale si registrano nei Paesi di livello intermedio, quelli già digitalizzati ma non ancora pienamente capaci dal punto di vista della sicurezza informatica. È una lezione che vale anche in piccolo. La fase più pericolosa per un'agenzia è proprio quella in cui ha digitalizzato molto, archivio in cloud, firma elettronica, pagamenti online, ma ha investito poco in sicurezza.\n\nCome si stima allora il costo del crimine? La fonte parte da una considerazione realistica: il crimine è una parte \"normale\" dell'interazione sociale e degli affari internazionali. Non lo si elimina, lo si gestisce. I governi adottano misure, sia da soli sia in cooperazione tra loro, per ridurne il costo. Per le aziende il vero rischio sta nel danno al marchio e nell'aumento del rischio di responsabilità. Per questo, dice la fonte, le grandi aziende hanno l'abitudine di \"autoassicurarsi\", scommettendo che qualsiasi perdita sarà gestibile.\n\nPer chi lavora nelle assicurazioni questo passaggio è interessante. Autoassicurarsi significa trattenere il rischio: non si paga un premio, ma tutto il danno resta a carico dell'azienda. Funziona solo se la perdita resta davvero gestibile. L'alternativa è trasferire il rischio, o una parte di esso, con una polizza cyber: il costo diventa certo, il premio, e spesso la copertura comprende servizi di assistenza nella risposta all'incidente. In cambio l'assicuratore chiede un livello minimo di sicurezza. Di come si costruisce e si valuta una copertura cyber abbiamo parlato nell'argomento sulla cybersecurity: qui ci basta capire che la scommessa dell'autoassicurazione è sostenibile per una grande azienda con ampie riserve, molto meno per una piccola impresa o per un'agenzia.\n\nVediamo un caso pratico. Un'agenzia con tre sedi ha portato in due anni archivio clienti, firma elettronica e preventivi su servizi online. Nessuno però ha rivisto password, aggiornamenti e copie di sicurezza. Il titolare dice: \"Siamo piccoli, chi vuoi che ci attacchi?\". Il ragionamento è debole per più motivi. Con il crimine come servizio gli attacchi sono automatici e di massa: non serve essere un bersaglio importante, basta essere vulnerabili. E l'agenzia si trova proprio nella fase intermedia di cui parla la fonte: molto digitalizzata, poco protetta. Le voci di costo che rischia sono quasi tutte: la perdita delle informazioni riservate sul portafoglio, frodi sui pagamenti dei premi, giorni di fermo con emissioni e rinnovi bloccati, spese di ripristino, e un danno alla reputazione verso clienti e compagnie.\n\nRiepiloghiamo. Hacker non vuol dire criminale: l'hacker etico lavora su incarico, per far chiudere le falle. Il cyber crime cresce perché offre basso rischio e profitti elevati, per cinque ragioni: nuove tecnologie, nuovi utenti, crimine come servizio, nuovi centri criminali e maggiore capacità di monetizzare. I costi vanno dalla proprietà intellettuale alla reputazione, e crescono con il tempo di contenimento. Le perdite più pesanti, rispetto al reddito, colpiscono chi è digitalizzato ma non ancora protetto. E autoassicurarsi è una scommessa: regge solo se la perdita resta gestibile.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Confronto didattico tra hacker etico e criminale informatico, spiegazione del cyber crime come servizio, confronto tra autoassicurazione e polizza cyber e caso pratico (contenuti esplicativi, senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la lista dei \"centri\" di criminalità informatica (Brasile, India, Corea del Nord, Vietnam). Fonte originaria non indicata, probabilmente un rapporto privato sul costo globale del cyber crime: riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le affermazioni su Paesi ricchi e Paesi di livello intermedio (perdite in percentuale del reddito nazionale). Manca un dato o una fonte a supporto: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "\"Danni temporanei al valore delle scorte\": reso come \"calo temporaneo del valore dei titoli\", perché si tratta con ogni probabilità di una traduzione dall'inglese \"stock\" (azioni). Da confermare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Proprietà intellettuale, costi nascosti e financial cybercrime",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "Proprietà intellettuale, costi nascosti e financial cybercrime",
+          "goals": [
+            "Capire perché il furto di informazioni riservate è la voce più pesante",
+            "Riconoscere i costi nascosti di un attacco",
+            "Conoscere il financial cybercrime e i cinque attacchi più frequenti"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il furto di proprietà intellettuale",
+          "key": "L'area più importante per l'impatto del crimine informatico è il furto di informazioni riservate e di proprietà intellettuale.",
+          "body": "Proprietà intellettuale (IP) è qualsiasi innovazione creativa o commerciale che abbia valore economico, oppure un qualsiasi segno distintivo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Perché pesa così tanto",
+          "lead": "Il furto di proprietà intellettuale ha caratteristiche che lo rendono particolarmente costoso.",
+          "facts": [
+            {
+              "label": "Un quarto",
+              "text": "Incide per almeno un quarto sul costo del crimine informatico."
+            },
+            {
+              "label": "Sicurezza nazionale",
+              "text": "Se riguarda tecnologia militare, crea rischi anche per lo Stato."
+            },
+            {
+              "label": "Invisibile",
+              "text": "La vittima conserva l'informazione copiata e spesso non si accorge del furto."
+            },
+            {
+              "label": "Diagnosi sbagliata",
+              "text": "Attribuisce il calo delle entrate alla concorrenza, non al furto."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Il patrimonio riservato di un'agenzia",
+          "head": [
+            "Che cosa",
+            "Perché interessa a chi attacca"
+          ],
+          "rows": [
+            [
+              "Portafoglio clienti",
+              "Anagrafiche, scadenze e premi permettono di sottrarre clienti o di truffarli"
+            ],
+            [
+              "Condizioni negoziate",
+              "Provvigioni, convenzioni e sconti sono informazioni commerciali riservate"
+            ],
+            [
+              "Dati sanitari e patrimoniali",
+              "Hanno valore sul mercato illecito e aumentano il danno per i clienti"
+            ],
+            [
+              "Marchio e reputazione",
+              "Un'agenzia può essere imitata per ingannare i suoi stessi clienti"
+            ]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I costi nascosti",
+          "key": "Frode e furto di proprietà intellettuale producono una grossa fetta della perdita. Ma bisogna contare anche i costi di recupero, i costi opportunità e la maggiore spesa in sicurezza.",
+          "body": "L'interruzione dell'attività è un costo correlato, spesso causato da attacchi DDoS e ransomware. In questi casi la perdita nasce dall'impedire all'azienda di guadagnare, più che da denaro sottratto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Dopo l'attacco: dove si spende",
+          "steps": [
+            {
+              "label": "Contenere",
+              "text": "Isolare i sistemi, capire che cosa è successo, chiamare i tecnici."
+            },
+            {
+              "label": "Ripristinare",
+              "text": "Recuperare dati e servizi dalle copie di sicurezza."
+            },
+            {
+              "label": "Comunicare",
+              "text": "Avvisare clienti, compagnie e autorità quando è dovuto."
+            },
+            {
+              "label": "Recuperare il lavoro perso",
+              "text": "Pratiche ferme, rinnovi in ritardo, clienti da richiamare."
+            },
+            {
+              "label": "Investire",
+              "text": "Rafforzare le difese perché non succeda di nuovo."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Accorgersi di un furto silenzioso",
+          "items": [
+            {
+              "text": "Regole di inoltro o filtri nella posta che nessuno ricorda di aver creato."
+            },
+            {
+              "text": "Notifiche di accesso da luoghi, dispositivi o orari insoliti."
+            },
+            {
+              "text": "Clienti che segnalano e-mail o telefonate \"dall'agenzia\" che l'agenzia non ha fatto."
+            },
+            {
+              "text": "Concorrenti che contattano proprio i clienti in scadenza, con condizioni molto mirate."
+            },
+            {
+              "text": "Esportazioni massive dal gestionale o accessi di utenze di persone che non lavorano più in agenzia."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Financial cybercrime: le banche nel mirino",
+          "key": "Da oltre un decennio le banche sono il bersaglio preferito dei criminali informatici più esperti. Il costo per le istituzioni finanziarie, che lottano contro frodi e rapine, è elevato.",
+          "body": "Secondo la fonte le banche spendono in cybersecurity il triplo delle istituzioni non finanziarie, perché il crimine informatico mette a rischio la stabilità dell'intero sistema finanziario.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le \"cuciture\" tra reti ben difese",
+          "key": "Gli Stati più sofisticati e i gruppi criminali organizzati prendono di mira le \"cuciture\" tra reti ben difese: i punti deboli della rete finanziaria globale, per realizzare rapine enormi.",
+          "body": "Le grandi istituzioni finanziarie investono in difesa: migliore prevenzione delle frodi e transazioni autenticate. Finché alcuni Stati non smetteranno di sostenere l'hacking o non applicheranno leggi contro l'hacking criminale, il problema resterà internazionale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "L'intermediario come cucitura",
+          "left": {
+            "title": "Perché può essere un bersaglio",
+            "items": [
+              "Accede ai portali delle compagnie",
+              "Tratta dati di pagamento e IBAN dei clienti",
+              "Incassa premi e gestisce rimborsi",
+              "Ha difese meno robuste di una banca o di una compagnia"
+            ]
+          },
+          "right": {
+            "title": "Che cosa fare",
+            "items": [
+              "Credenziali personali, mai condivise, con secondo fattore",
+              "Verificare ogni cambio di IBAN con un canale indipendente",
+              "Segnalare subito le anomalie alla compagnia",
+              "Seguire le regole di sicurezza della mandante"
+            ]
+          },
+          "note": "Chi non riesce a entrare dalla porta principale della compagnia prova da quella dell'agenzia collegata.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un cyber attack",
+          "key": "Un cyber attack, o attacco informatico, è qualsiasi tentativo di esporre, alterare, disabilitare, distruggere, rubare o ottenere l'accesso non autorizzato a un sistema informatico, un'infrastruttura, una rete o qualsiasi altro dispositivo intelligente.",
+          "body": "Conta il tentativo: non serve che l'attacco riesca. E il bersaglio può essere anche uno smartphone, una stampante di rete, una telecamera.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I cinque attacchi più frequenti e distruttivi",
+          "head": [
+            "Attacco",
+            "Che cosa fa",
+            "Dove lo vediamo"
+          ],
+          "rows": [
+            [
+              "1 · Phishing",
+              "Inganna l'utente per fargli consegnare dati e credenziali",
+              "Lezione 3"
+            ],
+            [
+              "2 · Formjacking",
+              "Inserisce codice malevolo nei moduli di pagamento dei siti",
+              "Lezione 4"
+            ],
+            [
+              "3 · Cryptojacking",
+              "Usa di nascosto il dispositivo per produrre criptovalute",
+              "Lezione 4"
+            ],
+            [
+              "4 · Ransomware",
+              "Cifra file e sistemi e chiede un riscatto",
+              "Lezione 4"
+            ],
+            [
+              "5 · Man-in-the-middle",
+              "Si interpone tra l'utente e il servizio che usa",
+              "Lezione 5"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia scopre che da tre mesi una regola nascosta inoltra a un indirizzo esterno tutte le e-mail di una collaboratrice. Nel frattempo alcuni clienti hanno ricevuto, da un indirizzo quasi identico a quello dell'agenzia, la richiesta di pagare il premio su un nuovo IBAN.",
+          "questions": [
+            "Perché il problema è emerso così tardi?",
+            "Quali costi, visibili e nascosti, deve mettere in conto l'agenzia?"
+          ],
+          "solution": "Come nel furto di proprietà intellettuale, la vittima continuava ad avere le sue e-mail: nulla mancava, quindi nulla sembrava rubato. I costi visibili sono i premi pagati ai truffatori e le possibili richieste dei clienti. Quelli nascosti: analisi tecnica, cambio delle credenziali, comunicazioni a clienti e compagnie, valutazione della violazione dei dati personali, tempo sottratto al lavoro e danno alla reputazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In un attacco che blocca per giorni i sistemi dell'agenzia, da dove nasce soprattutto la perdita, secondo la fonte?",
+          "options": [
+            "Dal denaro sottratto dai conti",
+            "Dall'impedire all'azienda di lavorare e guadagnare",
+            "Dal costo dell'antivirus",
+            "Dalle sanzioni penali"
+          ],
+          "answer": 1,
+          "explanation": "Con DDoS e ransomware la perdita deriva dall'interruzione dell'attività: l'azienda non riesce a fare soldi, anche se nessuno le ha sottratto denaro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa sono le \"cuciture\" di cui parla la fonte?",
+          "options": [
+            "I punti di collegamento tra reti ben difese, dove si trovano i punti deboli",
+            "I cavi che collegano i server",
+            "Le reti delle banche centrali",
+            "I programmi che cifrano le transazioni"
+          ],
+          "answer": 0,
+          "explanation": "Gli attaccanti più sofisticati non sfondano le difese più forti: cercano i passaggi tra un sistema e l'altro, dove la protezione è più debole."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1/4",
+              "text": "almeno, il peso del furto di proprietà intellettuale sul costo totale"
+            },
+            {
+              "value": "Invisibile",
+              "text": "il furto di informazioni: la vittima conserva la copia"
+            },
+            {
+              "value": "Fermo",
+              "text": "il costo nascosto di DDoS e ransomware"
+            },
+            {
+              "value": "Cuciture",
+              "text": "i punti deboli tra reti ben difese"
+            },
+            {
+              "value": "5",
+              "text": "attacchi: phishing, formjacking, cryptojacking, ransomware, man-in-the-middle"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo elencato le voci di costo del crimine informatico. Ora ne approfondiamo tre: il furto di proprietà intellettuale, i costi nascosti e il cosiddetto financial cybercrime, la criminalità informatica che colpisce il sistema finanziario. Alla fine apriremo la mappa dei cinque attacchi che vedremo nelle prossime lezioni.\n\nPer la fonte l'area più importante, per impatto del crimine informatico, è il furto di informazioni riservate e di proprietà intellettuale. Per proprietà intellettuale si intende qualsiasi innovazione creativa o commerciale che abbia un valore economico, oppure un qualsiasi segno distintivo, come un marchio. Non pensiamo solo ai brevetti delle grandi industrie: anche un'informazione commerciale ben custodita ha un valore economico.\n\nPerché questo tipo di furto pesa così tanto? La fonte dà quattro indicazioni. La prima è quantitativa: il furto di proprietà intellettuale incide per almeno un quarto sul costo complessivo del crimine informatico. La seconda riguarda gli Stati: quando coinvolge la tecnologia militare, crea rischi anche per la sicurezza nazionale. La terza è la più insidiosa: la perdita può restare invisibile. La vittima continua ad avere accesso all'informazione copiata dai criminali, perché copiare non significa portare via: il file resta dov'era. La quarta è una conseguenza della terza: chi subisce il furto può attribuire un calo delle entrate alla concorrenza che cresce, anziché al furto stesso. Si sbaglia diagnosi e quindi si sbaglia la cura.\n\nProviamo a tradurre tutto questo nella realtà di un'agenzia. Il patrimonio riservato di un intermediario è fatto prima di tutto dal portafoglio clienti: anagrafiche, scadenze, premi. Con queste informazioni un concorrente scorretto può sottrarre clienti, e un truffatore può contattarli fingendosi l'agenzia, sapendo esattamente quando scade la loro polizza. Poi ci sono le condizioni negoziate: provvigioni, convenzioni, sconti concordati con aziende e associazioni. Ci sono i dati sanitari e patrimoniali raccolti con i questionari, che hanno valore sul mercato illecito e aumentano molto il danno per i clienti. E c'è il marchio: un'agenzia conosciuta sul territorio può essere imitata, con un sito o un profilo social falso, per ingannare i suoi stessi clienti.\n\nPassiamo ai costi nascosti. La frode e il furto di proprietà intellettuale producono una grossa fetta della perdita, ma la fonte invita a considerare anche i costi di recupero, i costi opportunità e la necessità di spendere di più in sicurezza dopo l'attacco. C'è poi un costo correlato: l'interruzione dell'attività, spesso risultato di attacchi DDoS e ransomware. In questi casi, osserva la fonte, la perdita deriva dall'impedire a un'azienda di fare soldi, più che da un'effettiva sottrazione di denaro.\n\nSeguiamo idealmente il percorso dopo un attacco, per vedere dove finiscono i soldi. Prima si contiene: si isolano i sistemi colpiti, si capisce che cosa è successo, si chiamano i tecnici, spesso a tariffe d'urgenza. Poi si ripristina: si recuperano dati e servizi dalle copie di sicurezza, se ci sono e se funzionano. Poi si comunica: con i clienti, con le compagnie mandanti e, quando è dovuto, con le autorità, ad esempio con il Garante per la protezione dei dati personali, come abbiamo visto parlando di violazione dei dati. Poi si recupera il lavoro perso: pratiche ferme, rinnovi in ritardo, sinistri da riaprire, clienti da richiamare uno per uno. Infine si investe, per rafforzare le difese e non trovarsi di nuovo nella stessa situazione. Nessuna di queste voci compare come \"denaro rubato\", eppure insieme possono superare di molto il danno diretto.\n\nVisto che il furto di informazioni è spesso invisibile, vale la pena conoscere i segnali che possono farlo emergere prima. In posta: regole di inoltro o filtri che nessuno ricorda di aver creato, perché sono il modo più semplice per copiare la corrispondenza senza farsi notare. Negli accessi: notifiche di ingresso da luoghi, dispositivi o orari insoliti, che molti servizi inviano e che spesso vengono ignorate. Dai clienti: segnalazioni di e-mail o telefonate \"dall'agenzia\" che l'agenzia non ha mai fatto, segno che qualcuno conosce i loro dati. Dal mercato: concorrenti che contattano proprio i clienti in scadenza, con condizioni costruite su misura. E dal gestionale: esportazioni massive di dati o accessi con utenze di persone che non lavorano più in agenzia. Nessuno di questi segnali è una prova, ma ciascuno merita una verifica con chi segue l'informatica.\n\nVeniamo al financial cybercrime. Per oltre un decennio, ricorda la fonte, le banche sono state il bersaglio preferito dei criminali informatici più esperti. Per le istituzioni finanziarie, che lottano contro frodi e rapine, il costo è elevato. La fonte riporta che le banche spendono in cybersecurity il triplo delle istituzioni non finanziarie, perché il crimine informatico mette a rischio, letteralmente, la stabilità del sistema finanziario nel suo insieme: un attacco riuscito contro un nodo importante può propagarsi ad altri.\n\nLe maggiori istituzioni finanziarie internazionali investono quindi in difesa: in una migliore prevenzione delle frodi e in transazioni autenticate. Ma qui la fonte introduce un'immagine efficace: le \"cuciture\". Gli Stati più sofisticati e i gruppi criminali organizzati hanno cominciato a prendere di mira le cuciture tra reti ben difese, sfruttando i punti deboli della rete finanziaria globale per portare a termine rapine enormi. Una cucitura è il punto in cui due sistemi si collegano: un fornitore, un servizio esterno, un soggetto più piccolo collegato a uno più grande. La fonte conclude che, finché alcuni Stati non cambieranno comportamento, smettendo di sostenere l'hacking o applicando leggi contro l'hacking criminale, il crimine informatico resterà un grave problema internazionale. Su questo torneremo nell'ultima lezione, parlando della Convenzione di Budapest, che nasce proprio per la cooperazione tra Stati.\n\nPerché parlarne in un corso per intermediari? Perché anche l'intermediario può essere una cucitura. Accede ai portali delle compagnie, tratta dati di pagamento e IBAN dei clienti, incassa premi e gestisce rimborsi, e di solito ha difese meno robuste di una banca o di una grande compagnia. Chi non riesce a entrare dalla porta principale della compagnia può provare da quella dell'agenzia collegata. Che cosa fare, in concreto? Usare credenziali personali, mai condivise tra colleghi, con un secondo fattore di autenticazione. Verificare ogni cambio di IBAN, sia del cliente sia di un fornitore, con un canale indipendente, ad esempio una telefonata al numero già noto. Segnalare subito alla compagnia ogni anomalia sul portale. E seguire le regole di sicurezza che la mandante stabilisce per gli accessi.\n\nChiudiamo con una definizione. Un cyber attack, o attacco informatico, è qualsiasi tentativo di esporre, alterare, disabilitare, distruggere, rubare o ottenere l'accesso non autorizzato a un sistema informatico, a un'infrastruttura, a una rete o a qualsiasi altro dispositivo intelligente. Notate due cose. Conta il tentativo: l'attacco esiste anche se non riesce. E il bersaglio non è solo il computer: può essere lo smartphone, la stampante di rete, la telecamera dell'ufficio.\n\nSecondo la fonte, i tipi di attacco più frequenti e distruttivi sono cinque. Il phishing, che inganna l'utente per fargli consegnare dati e credenziali. Il formjacking, che inserisce codice malevolo nei moduli di pagamento dei siti. Il cryptojacking, che usa di nascosto i nostri dispositivi per produrre criptovalute. Il ransomware, che cifra file e sistemi e chiede un riscatto. E l'attacco man-in-the-middle, in cui qualcuno si interpone tra noi e il servizio che stiamo usando. Li vedremo uno per uno nelle prossime tre lezioni.\n\nUn caso pratico. Un'agenzia scopre che da tre mesi una regola nascosta, impostata nella casella di posta di una collaboratrice, inoltra a un indirizzo esterno tutte le sue e-mail. Nel frattempo alcuni clienti hanno ricevuto, da un indirizzo quasi identico a quello dell'agenzia, la richiesta di pagare il premio su un nuovo IBAN. Perché il problema è emerso così tardi? Per lo stesso motivo per cui il furto di proprietà intellettuale è invisibile: la collaboratrice continuava a ricevere e leggere tutte le sue e-mail, nulla mancava, quindi nulla sembrava rubato. Quali costi deve mettere in conto l'agenzia? Quelli visibili sono i premi pagati ai truffatori e le possibili richieste dei clienti. Quelli nascosti sono l'analisi tecnica, il cambio di tutte le credenziali, le comunicazioni a clienti e compagnie, la valutazione della violazione dei dati personali, il tempo sottratto al lavoro e il danno alla reputazione.\n\nRiepiloghiamo. Il furto di proprietà intellettuale e di informazioni riservate è, per la fonte, l'area di maggiore impatto: vale almeno un quarto del costo totale ed è spesso invisibile, perché la vittima conserva la copia. I costi nascosti, recupero, mancati guadagni, nuova spesa in sicurezza, possono superare il danno diretto, soprattutto quando l'attività si ferma. Il financial cybercrime colpisce le cuciture tra reti ben difese, e l'intermediario può essere una di queste cuciture. E i cinque attacchi più frequenti e distruttivi sono phishing, formjacking, cryptojacking, ransomware e man-in-the-middle.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi didattici: patrimonio riservato di un'agenzia, percorso dei costi dopo un attacco, l'intermediario come \"cucitura\", caso pratico sulla regola di inoltro della posta (contenuti esplicativi, senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il furto di proprietà intellettuale incide per almeno un quarto sul costo del crimine informatico. Manca la fonte del dato: riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le banche spendono in cybersecurity il triplo delle istituzioni non finanziarie. Manca la fonte del dato: riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il rischio \"sistematico\" della fonte è reso come rischio per la stabilità dell'intero sistema finanziario (rischio sistemico).",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Il phishing: evoluzione, fasi dell'attacco e tipologie",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "Il phishing: evoluzione, fasi dell'attacco e tipologie",
+          "goals": [
+            "Seguire l'evoluzione del phishing in Italia",
+            "Conoscere le sei fasi di un attacco di phishing",
+            "Distinguere phishing ingannevole, basato su malware e sui motori di ricerca"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è il phishing",
+          "key": "Il phishing è una tecnica di social engineering: con messaggi di posta elettronica ingannevoli, i truffatori spingono le vittime a fornire volontariamente informazioni personali.",
+          "body": "La parola chiave è \"volontariamente\": nessuno forza il sistema, è la vittima che consegna i dati perché crede di parlare con qualcuno di fidato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "I due obiettivi del phishing attack",
+          "left": {
+            "title": "Ottenere",
+            "items": [
+              "Informazioni e dati personali",
+              "Credenziali di accesso, codici, dati di carte"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Usare",
+            "items": [
+              "Abilitarsi all'accesso ai servizi online",
+              "Assumere virtualmente l'identità del legittimo titolare"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il secondo obiettivo è un furto d'identità digitale: per la frode informatica commessa così il codice penale prevede una pena più alta (lezione 6).",
+          "noteRef": "c.p., art. 640-ter, terzo comma"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Italia",
+          "title": "Come si è evoluto",
+          "lead": "Il phishing ha cambiato lingua, canali e bersagli.",
+          "facts": [
+            {
+              "label": "Dal 2005",
+              "text": "E-mail che imitano banche italiane, in un italiano sempre più corretto. L'Italia sale nella classifica dei Paesi con più banche colpite."
+            },
+            {
+              "label": "Social network",
+              "text": "Gli attacchi si moltiplicano e usano anche i social: la fonte cita Facebook e Twitter, oggi X."
+            },
+            {
+              "label": "Più canali",
+              "text": "Phishing tramite VoIP, fax e SMS: varianti che permettono di colpire più vittime."
+            },
+            {
+              "label": "Meno successi",
+              "text": "Gli attacchi restano numerosi, ma quelli che vanno a buon fine sono sempre meno grazie alla sensibilizzazione."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Meno successi non vuol dire meno rischio",
+          "key": "La consapevolezza riduce gli attacchi riusciti: è la difesa che funziona. Ma basta un solo clic sbagliato in agenzia per aprire la porta a tutti i dati dei clienti.",
+          "body": "Altre parti del corso descrivono il phishing come il vettore di infezione di maggior successo negli attacchi mirati. Le due cose stanno insieme: meno vittime in proporzione, ma attacchi più curati e mirati."
+        },
+        {
+          "layout": "table",
+          "title": "Le sei fasi del phishing attack",
+          "head": [
+            "Fase",
+            "Che cosa fa il phisher",
+            "Dove si può fermare"
+          ],
+          "rows": [
+            [
+              "1 · Planning",
+              "Sceglie chi e che cosa colpire, le tecniche e gli obiettivi della frode",
+              "Poche informazioni pubbliche su persone e ruoli"
+            ],
+            [
+              "2 · Setup",
+              "Configura strumenti e meccanismi: siti clone, indirizzi, messaggi",
+              "Filtri della posta, segnalazione dei domini simili"
+            ],
+            [
+              "3 · Attack",
+              "Entra in contatto con le potenziali vittime",
+              "La persona che non clicca"
+            ],
+            [
+              "4 · Collection",
+              "Sottrae davvero le credenziali",
+              "Secondo fattore di autenticazione"
+            ],
+            [
+              "5 · Fraud",
+              "Compie l'attività fraudolenta vera e propria",
+              "Controlli su pagamenti e accessi anomali"
+            ],
+            [
+              "6 · Post attack",
+              "Cancella le proprie tracce",
+              "Registri degli accessi conservati"
+            ]
+          ],
+          "ref": "Fasi: materiale originale del corso. Difese: esempi didattici"
+        },
+        {
+          "layout": "concept",
+          "title": "Il deceptive phishing",
+          "key": "La forma più usata è il phishing ingannevole: il phisher invia a moltissime potenziali vittime un'e-mail ingannevole con l'invito a cliccare su un collegamento.",
+          "body": "Il link porta a un sito che raccoglie le informazioni riservate. Con quei dati il phisher si spaccia per la vittima, trasferisce denaro, acquista merce o causa qualsiasi altro tipo di danno.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il phishing basato su malware",
+          "key": "Fa eseguire un software o un codice maligno sul computer dell'utente, a sua insaputa, con inganni di social engineering o sfruttando vulnerabilità del sistema di sicurezza.",
+          "body": "Qui i dati non vengono consegnati in una pagina falsa: li raccoglie il programma installato, mentre l'utente lavora sui siti veri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le forme del phishing basato su codice maligno",
+          "head": [
+            "Forma",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Session hijacking",
+              "Dirottamento della sessione: l'attaccante si impadronisce di una sessione già aperta e agisce come l'utente, senza conoscerne la password"
+            ],
+            [
+              "Web trojan",
+              "Finestre false che compaiono sopra la pagina vera per raccogliere le credenziali"
+            ],
+            [
+              "Attacchi di configurazione del sistema",
+              "Cambiano le impostazioni del computer per dirottare l'utente verso siti falsi"
+            ],
+            [
+              "Keylogger",
+              "\"Registratori di tasti\": si installano nel browser o nel driver della tastiera, osservano i dati digitati e inviano quelli utili a un server di phishing"
+            ]
+          ],
+          "ref": "Forme: materiale originale del corso. Spiegazioni: integrazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "Il phishing basato sui motori di ricerca",
+          "key": "Il phisher crea pagine web dedicate a prodotti fittizi e le fa indicizzare dai motori di ricerca. Chi le trova e fa un ordine, un'iscrizione o un pagamento consegna i propri dati al phisher.",
+          "body": "Non arriva nessun messaggio sospetto: è la vittima a cercare. Per questo è particolarmente insidioso con prodotti molto richiesti, come una polizza RC auto \"a prezzo imbattibile\".",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Analizzare un messaggio sospetto",
+          "items": [
+            {
+              "text": "Confronta il nome visualizzato con l'indirizzo reale del mittente."
+            },
+            {
+              "text": "Leggi il dominio del link prima di aprirlo: tieni il dito premuto sul telefono o passa il mouse sul computer."
+            },
+            {
+              "text": "Il dominio vero è quello subito prima di .it o .com: in compagnia.it.verifica-dati.com il sito è verifica-dati.com."
+            },
+            {
+              "text": "Diffida di allegati inattesi: archivi compressi, pagine HTML, documenti che chiedono di attivare le macro."
+            },
+            {
+              "text": "Urgenza, minaccia di sospensione e premi improvvisi sono il segnale più frequente."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente riceve un'e-mail con il logo dell'autorità di vigilanza: per \"mantenere attiva l'iscrizione al Registro\" deve confermare i dati e pagare un piccolo diritto di segreteria entro 24 ore, tramite il link indicato. Il mittente è registro-intermediari@ivass-aggiornamenti.com.",
+          "questions": [
+            "Quale tipologia di phishing riconosci e in quale fase si trova l'attacco?",
+            "Che cosa deve fare l'agente?"
+          ],
+          "solution": "È deceptive phishing nella fase di attack: il phisher ha pianificato il bersaglio (gli intermediari), preparato dominio e pagina, e ora contatta le vittime. Il dominio non è quello dell'autorità: ivass-aggiornamenti.com. L'agente non clicca e non paga. Verifica digitando lui l'indirizzo del sito ufficiale, segnala il messaggio a chi gestisce l'informatica dell'agenzia e avvisa i colleghi, perché messaggi così arrivano a molti intermediari insieme."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In quale fase del phishing attack il phisher sottrae effettivamente le credenziali?",
+          "options": [
+            "Setup",
+            "Attack",
+            "Collection",
+            "Post attack"
+          ],
+          "answer": 2,
+          "explanation": "Nella collection il phisher raccoglie davvero le credenziali. Nell'attack prende contatto con le vittime; nel post attack copre le tracce."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente cerca online \"polizza auto economica\", trova un sito sconosciuto con prezzi molto bassi e paga. Di quale tipologia di phishing può trattarsi?",
+          "options": [
+            "Phishing basato sui motori di ricerca",
+            "Keylogger",
+            "Session hijacking",
+            "Nessuna: senza un'e-mail non c'è phishing"
+          ],
+          "answer": 0,
+          "explanation": "Il phisher crea pagine per prodotti fittizi e le fa indicizzare: è la vittima a trovarle. Non serve alcun messaggio."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Volontariamente",
+              "text": "la vittima consegna i dati: è social engineering"
+            },
+            {
+              "value": "2",
+              "text": "obiettivi: ottenere i dati e usarli assumendo l'identità del titolare"
+            },
+            {
+              "value": "6",
+              "text": "fasi: planning, setup, attack, collection, fraud, post attack"
+            },
+            {
+              "value": "3",
+              "text": "tipologie: ingannevole, basato su malware, sui motori di ricerca"
+            },
+            {
+              "value": "Dominio",
+              "text": "si legge subito prima di .it o .com"
+            }
+          ]
+        }
+      ],
+      "narration": "Il primo dei cinque attacchi è il phishing. Ne abbiamo già parlato nell'area amministrativa, a proposito di social engineering: lì abbiamo visto come funziona il messaggio-esca, le varianti per SMS e telefono, cioè smishing e vishing, e i consigli della Polizia Postale. Qui facciamo un passo in più: guardiamo come si è evoluto il fenomeno, come è organizzato un attacco dall'inizio alla fine e quali tipologie tecniche esistono.\n\nLa fonte definisce il phishing come una tecnica di social engineering che, attraverso l'invio di messaggi di posta elettronica ingannevoli, spinge le vittime a fornire volontariamente informazioni personali. La parola chiave è volontariamente. Nessuno forza il sistema: è la vittima che consegna i propri dati, perché crede di parlare con la banca, con la compagnia, con un fornitore di fiducia.\n\nGli obiettivi del phishing attack sono due. Il primo è portare l'utente a fornire informazioni e dati personali: credenziali di accesso, codici, dati delle carte di pagamento. Il secondo è usare quei dati per ottenere l'abilitazione ai servizi online, assumendo virtualmente l'identità del legittimo titolare. Questo secondo obiettivo è, a tutti gli effetti, un furto d'identità digitale. Lo ritroveremo nell'ultima lezione: quando una frode informatica è commessa con furto o indebito utilizzo dell'identità digitale, il codice penale prevede una pena più alta.\n\nVediamo l'evoluzione. Dalla fine del 2005 hanno cominciato a circolare e-mail riferite a banche italiane, scritte in un italiano sempre più corretto. Chi ricorda i primi messaggi, tradotti male da altre lingue, sa quanto fosse facile riconoscerli. Con il tempo l'Italia ha assunto un ruolo sempre più importante nella classifica dei Paesi con il maggior numero di banche colpite. Negli anni gli attacchi si sono moltiplicati e hanno cominciato a usare anche altre piattaforme, in particolare i social network: la fonte cita Facebook e Twitter, che oggi si chiama X. Le tecniche si sono perfezionate e oggi si parla di phishing tramite VoIP, cioè telefonate via internet, fax e SMS: varianti che permettono di raggiungere più vittime.\n\nLa fonte chiude con una nota positiva: anche se il numero di attacchi resta alto, in Italia e nel mondo, quelli che vanno a buon fine sono sempre meno, grazie alla maggiore sensibilizzazione e alla diffusione di metodi per difendersi. Attenzione però a non leggerla come un invito ad abbassare la guardia. Altre parti di questo corso descrivono il phishing come il vettore di infezione di maggior successo negli attacchi mirati. Le due affermazioni stanno insieme: in proporzione cadono meno persone, ma gli attacchi sono più curati e mirati. E in un'agenzia basta un solo clic sbagliato per aprire la porta all'archivio di tutti i clienti. La consapevolezza è la difesa che funziona, proprio per questo va mantenuta.\n\nPassiamo alle fasi. Secondo la fonte un phishing attack si articola in sei fasi. Nella prima, il planning, il phisher decide chi colpire, che cosa colpire, quali tecniche usare e quali sono gli obiettivi della frode. Nella seconda, il setup, configura gli strumenti e i meccanismi necessari: registra un dominio simile a quello vero, costruisce la pagina clone, prepara il testo del messaggio. Nella terza, l'attack, entra in contatto con le potenziali vittime. Nella quarta, la collection, sottrae effettivamente le credenziali. Nella quinta, la fraud, compie l'attività fraudolenta vera e propria: un bonifico, un acquisto, un accesso al portale. Nella sesta, il post attack, compie qualsiasi azione utile a coprire le proprie tracce.\n\nPerché è utile conoscere le fasi? Perché in ciascuna c'è un punto in cui la catena si può spezzare. Nel planning, il phisher si nutre di informazioni pubbliche: organigrammi, indirizzi e-mail, ruoli pubblicati sul sito o sui social. Meno informazioni inutili mettiamo in rete, più difficile è prepararci un messaggio su misura. Nel setup, i filtri della posta e la segnalazione dei domini simili al nostro possono bloccare il messaggio prima che arrivi. Nell'attack, la difesa è la persona che non clicca. Nella collection, anche se la password è stata consegnata, un secondo fattore di autenticazione può impedire l'accesso. Nella fraud, i controlli su pagamenti e accessi anomali possono fermare l'operazione. E nel post attack, i registri degli accessi, se sono conservati, permettono di ricostruire che cosa è successo. Notate che la persona entra in gioco soprattutto nella terza e nella quarta fase: lì la formazione fa la differenza.\n\nOra le tipologie. La più usata, dice la fonte, è il deceptive phishing, il phishing ingannevole. Il phisher invia a un gran numero di potenziali vittime un'e-mail ingannevole con l'invito a cliccare su un collegamento web. La vittima viene portata su un sito che permette al phisher di raccogliere le sue informazioni riservate. Con quei dati il phisher può spacciarsi per lei, trasferire denaro, acquistare merce o causare qualsiasi altro tipo di danno.\n\nC'è poi il phishing basato su malware. In questo caso il phisher fa eseguire sul computer dell'utente, a sua insaputa, un software o un codice maligno, usando inganni di social engineering, come un allegato che sembra una fattura, oppure sfruttando vulnerabilità del sistema di sicurezza. La differenza con il caso precedente è importante: qui i dati non vengono consegnati su una pagina falsa, li raccoglie il programma installato, mentre l'utente lavora tranquillamente sui siti veri.\n\nLa fonte elenca diverse forme di phishing basato su codice maligno. Il session hijacking, cioè il dirottamento della sessione: l'attaccante si impadronisce di una sessione già aperta e autenticata e agisce al posto dell'utente, senza bisogno di conoscerne la password. I web trojan: finestre false che compaiono sopra la pagina vera, ad esempio sopra la pagina di accesso della banca, per raccogliere le credenziali. Gli attacchi di configurazione del sistema, che modificano le impostazioni del computer per dirottare l'utente verso siti falsi anche quando digita l'indirizzo giusto. E infine i keylogger, letteralmente registratori di tasti: programmi che si installano nel browser o nel driver della tastiera, osservano i dati digitati e inviano quelli interessanti a un server di phishing. Del keylogger e degli altri tipi di malware abbiamo già parlato nell'argomento dedicato: qui ci interessa vederli come strumenti di phishing.\n\nL'ultima tipologia è il phishing basato sui motori di ricerca. Il phisher crea pagine web dedicate a prodotti fittizi e le fa indicizzare dai motori di ricerca. Gli utenti le trovano, fanno un ordine, un'iscrizione o un pagamento, e così inseriscono i loro dati, che finiscono nelle mani del phisher. Qui non arriva nessun messaggio sospetto: è la vittima a cercare. Per questo funziona bene con prodotti molto richiesti e confrontati sul prezzo. Una polizza RC auto \"a prezzo imbattibile\", offerta da un sito sconosciuto, è un esempio che chi lavora nel settore deve saper riconoscere, anche per mettere in guardia i propri clienti.\n\nCome si analizza un messaggio sospetto? Rispetto ai consigli generali che già conoscete, aggiungiamo qualche controllo concreto. Primo: confrontate il nome visualizzato con l'indirizzo reale del mittente, perché il nome si può scrivere come si vuole. Secondo: leggete il dominio del link prima di aprirlo; sul telefono tenete il dito premuto sul collegamento, sul computer passateci sopra con il mouse. Terzo: il dominio vero è quello che sta subito prima di punto it o punto com. Nell'indirizzo compagnia punto it punto verifica-dati punto com, il sito non è della compagnia: è verifica-dati punto com. Quarto: diffidate degli allegati inattesi, come archivi compressi, pagine HTML o documenti che chiedono di attivare le macro. Quinto: urgenza, minaccia di sospensione e premi improvvisi sono il segnale più frequente.\n\nUn caso pratico. Un agente riceve un'e-mail con il logo dell'autorità di vigilanza. Il messaggio dice che, per mantenere attiva l'iscrizione al Registro, deve confermare i propri dati e pagare un piccolo diritto di segreteria entro ventiquattro ore, tramite il link indicato. Il mittente è registro-intermediari chiocciola ivass-aggiornamenti punto com. Che tipologia è? È deceptive phishing, ed è nella fase di attack: il phisher ha pianificato il bersaglio, cioè gli intermediari, ha preparato dominio e pagina, e ora contatta le vittime. Il dominio non è quello dell'autorità. Che cosa fa l'agente? Non clicca e non paga. Verifica digitando lui l'indirizzo del sito ufficiale, segnala il messaggio a chi segue l'informatica dell'agenzia e avvisa i colleghi, perché messaggi di questo tipo arrivano a molti intermediari nello stesso momento.\n\nRiepiloghiamo. Il phishing è social engineering: la vittima consegna volontariamente i dati. Ha due obiettivi, ottenerli e usarli assumendo l'identità del titolare. Dal 2005 è diventato più credibile e ha cambiato canali. Si sviluppa in sei fasi: planning, setup, attack, collection, fraud e post attack, e in ognuna c'è un punto in cui fermarlo. Le tipologie principali sono tre: il phishing ingannevole, quello basato su malware, con session hijacking, web trojan, attacchi di configurazione e keylogger, e quello basato sui motori di ricerca. E quando leggete un link, guardate il dominio subito prima di punto it o punto com.",
+      "sources": [
+        {
+          "title": "Codice penale, art. 640-ter (Frode informatica), testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1930-10-19;1398~art640ter"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra il secondo obiettivo del phishing (assumere l'identità del titolare) e l'aggravante della frode informatica commessa con furto o indebito utilizzo dell'identità digitale.",
+          "source_ref": "c.p., art. 640-ter, terzo comma"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Per ogni fase del phishing attack, il punto in cui la catena si può spezzare; spiegazione di session hijacking, web trojan e attacchi di configurazione; controlli pratici su mittente, dominio e allegati; caso pratico (integrazioni didattiche senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Twitter indicato con il nome attuale X.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: gli attacchi di phishing che vanno a buon fine sono sempre meno. Manca un dato a supporto, e altre parti del corso descrivono il phishing come il vettore di maggior successo: riferimento da indicare / possibile aggiornamento.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: dalla fine del 2005 l'Italia sale nella classifica dei Paesi con più banche colpite da phishing. Fonte della classifica non indicata: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Formjacking, false app bancarie, cryptojacking e ransomware",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "Formjacking, false app bancarie, cryptojacking e ransomware",
+          "goals": [
+            "Capire come il formjacking ruba i dati di pagamento dai siti",
+            "Riconoscere i modi di operare delle false app bancarie",
+            "Sapere che cosa sono cryptojacking e ransomware e come difendersi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Prima, lo skimming allo sportello",
+          "key": "Lo skimming consiste nell'installare nella fessura del Bancomat un lettore di bande magnetiche, lo skimmer, che copia i dati della carta. Una minuscola telecamera nascosta registra il PIN e lo trasmette al truffatore.",
+          "body": "Il formjacking è una sorta di skimming degli \"sportelli virtuali\" di banche e istituti di credito accessibili online: funziona in modo analogo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il formjacking",
+          "key": "Il formjacking è la code injection di un JavaScript direttamente sul sito di e-commerce o sulla web application presa di mira. L'injection inserisce stringhe di codice eseguibile malevolo nei campi di inserimento dei dati.",
+          "body": "Il sito continua a funzionare normalmente e il pagamento va a buon fine. Intanto lo script copia ciò che il cliente digita nel modulo e lo invia all'attaccante.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come avviene un formjacking",
+          "steps": [
+            {
+              "label": "Compromissione",
+              "text": "L'attaccante entra nel sito o in un componente esterno che il sito carica, come un modulo di pagamento o un plugin."
+            },
+            {
+              "label": "Iniezione",
+              "text": "Aggiunge poche righe di JavaScript alla pagina del modulo."
+            },
+            {
+              "label": "Raccolta",
+              "text": "Lo script legge numero di carta, scadenza, codice e dati anagrafici mentre il cliente li scrive."
+            },
+            {
+              "label": "Invio",
+              "text": "I dati partono verso un server dell'attaccante, il pagamento prosegue regolarmente."
+            }
+          ],
+          "ref": "Spiegazione didattica"
+        },
+        {
+          "layout": "compare",
+          "title": "Formjacking e false app bancarie",
+          "cols": [
+            {
+              "title": "Formjacking",
+              "items": [
+                "Opera direttamente sul sito di e-commerce",
+                "È una tecnica",
+                "Colpisce tutti i clienti del sito compromesso"
+              ]
+            },
+            {
+              "title": "False app bancarie",
+              "items": [
+                "Operano direttamente sull'utente",
+                "Sono un vettore",
+                "Contenitore di malware che si attiva solo se l'utente scarica quella app"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Come operano le false app bancarie",
+          "head": [
+            "Modo",
+            "Che cosa fa"
+          ],
+          "rows": [
+            [
+              "Overlay",
+              "Quando l'utente apre un certo sito, il malware vi sovrappone una pagina identica"
+            ],
+            [
+              "Redirection",
+              "Opera a livello di processo: l'utente che apre un certo sito viene portato su un sito clone"
+            ],
+            [
+              "Keylogging",
+              "Legge tutto ciò che viene digitato sulla tastiera"
+            ],
+            [
+              "Form grabbing",
+              "Molto simile al keylogging: cattura i dati inseriti nei moduli"
+            ],
+            [
+              "Injection",
+              "Inserisce codice JavaScript malevolo nella pagina dell'home banking"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il caso BackSwap",
+          "key": "L'injection è usata soprattutto dal trojan bancario BackSwap: quando l'utente apre l'home banking, inserisce codice JavaScript malevolo direttamente nella barra degli indirizzi.",
+          "body": "La sua particolarità è avere una serie di codici precompilati e pronti all'uso per diverse applicazioni bancarie. Chi lo usa non deve scrivere nulla: sceglie la banca bersaglio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Criptovalute e mining",
+          "key": "Le criptovalute sono denaro digitale che esiste solo online, senza forma fisica. La maggior parte entra in circolazione con il mining, un processo che trasforma le risorse di un computer in criptovaluta.",
+          "body": "I proprietari tengono il denaro in \"portafogli\" virtuali protetti da codici privati. Ogni trasferimento tra due portafogli va registrato in un libro mastro pubblico e decentralizzato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si conferma una transazione",
+          "steps": [
+            {
+              "label": "Raccolta",
+              "text": "Computer speciali raccolgono le ultime transazioni di Bitcoin o di altre criptovalute, circa ogni 10 minuti."
+            },
+            {
+              "label": "Rompicapo",
+              "text": "Le trasformano in un rompicapo matematico: la transazione resta in attesa di conferma."
+            },
+            {
+              "label": "Soluzione",
+              "text": "I miner risolvono in modo indipendente il rompicapo, che prova la legittimità della transazione."
+            },
+            {
+              "label": "Ricompensa",
+              "text": "Il primo che lo risolve riceve una ricompensa, di solito una parte della nuova criptomoneta."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il cryptojacking",
+          "key": "Il cryptojacking sfrutta i dispositivi altrui, computer, smartphone, tablet o perfino server, senza che l'utente lo sappia o lo consenta, per generare criptovalute di nascosto a spese della vittima.",
+          "body": "La vittima paga in elettricità, usura dell'hardware e lentezza. I cryptojacker continuano a migliorarsi e invadono hardware sempre più potente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Le due vie d'ingresso",
+          "left": {
+            "title": "Il link nell'e-mail",
+            "items": [
+              "Un clic su un link dannoso",
+              "Il codice di cryptomining si carica sul computer",
+              "Resta attivo anche dopo"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Il drive-by cryptomining",
+            "items": [
+              "Codice JavaScript inserito in una pagina web",
+              "Mina finché la pagina resta aperta",
+              "Può infettare anche dispositivi Android"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il problema più grave resta il cryptojacking sui dispositivi personali: rubando poco a molti si guadagnano somme ingenti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Proteggersi dal cryptojacking",
+          "items": [
+            {
+              "text": "Come per tutti i malware, installare un sistema di sicurezza prima di diventare vittima.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Usare estensioni o programmi che bloccano le attività di mining nei browser più diffusi.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Bloccare JavaScript nel browser è un'opzione, ma molti siti di lavoro smettono di funzionare: valutarla con chi gestisce l'informatica.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Campanelli d'allarme: computer lento, ventola sempre al massimo, batteria del telefono che si scarica e si scalda senza motivo."
+            },
+            {
+              "text": "Chiudere le schede del browser che non servono e tenere aggiornati sistema e browser."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il ransomware",
+          "key": "Il ransomware è un malware che ottiene accesso a file o sistemi e ne blocca l'accesso agli utenti: file o interi dispositivi vengono cifrati e tenuti in ostaggio finché la vittima non paga un riscatto.",
+          "body": "Funzionamento, doppia estorsione e difese li abbiamo visti nell'argomento sul malware. Qui aggiungiamo che dal 2024 il codice penale punisce in modo specifico l'estorsione commessa con mezzi informatici (lezione 6).",
+          "ref": "Materiale originale del corso; c.p., art. 629, terzo comma"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il sito dell'agenzia permette di pagare online il premio di rinnovo con un modulo fornito da un plugin. Dopo qualche settimana tre clienti segnalano addebiti sconosciuti sulla carta usata per il rinnovo. Il sito sembra funzionare normalmente.",
+          "questions": [
+            "Quale attacco è più probabile?",
+            "Che cosa deve fare l'agenzia?"
+          ],
+          "solution": "Il quadro fa pensare a un formjacking: il modulo funziona, ma uno script copia i dati delle carte. L'agenzia avvisa subito chi gestisce il sito e il fornitore del servizio di pagamento, fa sospendere il modulo e aggiornare o rimuovere il plugin. Informa i clienti perché blocchino le carte, valuta con il titolare del trattamento la violazione dei dati personali e i relativi obblighi di notifica, e presenta denuncia alla Polizia Postale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è la differenza indicata dalla fonte tra formjacking e false app bancarie?",
+          "options": [
+            "Il formjacking opera sul sito ed è una tecnica; le false app operano sull'utente e sono un vettore",
+            "Il formjacking colpisce solo gli smartphone",
+            "Le false app operano sul sito di e-commerce",
+            "Non c'è differenza"
+          ],
+          "answer": 0,
+          "explanation": "Il formjacking compromette il sito e colpisce chiunque lo usi. La falsa app è un contenitore di malware che si attiva solo se l'utente la scarica."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa è il drive-by cryptomining?",
+          "options": [
+            "Un antivirus per criptovalute",
+            "Codice JavaScript inserito in una pagina web che usa il dispositivo di chi la visita per minare criptovalute",
+            "Il furto di un portafoglio di criptovalute",
+            "Un pagamento in criptovalute fatto per errore"
+          ],
+          "answer": 1,
+          "explanation": "Basta visitare la pagina: il codice usa le risorse del dispositivo finché la pagina resta aperta. Può colpire anche dispositivi Android."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "JavaScript",
+              "text": "il formjacking inietta codice nei moduli del sito"
+            },
+            {
+              "value": "5",
+              "text": "modi delle false app: overlay, redirection, keylogging, form grabbing, injection"
+            },
+            {
+              "value": "10 minuti",
+              "text": "circa, l'intervallo con cui vengono raccolte le transazioni da confermare"
+            },
+            {
+              "value": "Poco da molti",
+              "text": "la logica del cryptojacking sui dispositivi personali"
+            },
+            {
+              "value": "Riscatto",
+              "text": "il ransomware tiene in ostaggio i dati cifrati"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo tre attacchi che hanno un obiettivo comune, il denaro, ma lo raggiungono in modi molto diversi: il formjacking, che ruba i dati di pagamento dai siti, insieme alle false app bancarie; il cryptojacking, che ruba la potenza di calcolo dei nostri dispositivi; e il ransomware, che tiene in ostaggio i nostri dati.\n\nLa fonte spiega il formjacking partendo da una tecnica tradizionale, lo skimming. Lo skimming consiste nell'installare, nella fessura dello sportello Bancomat in cui si inserisce la carta, un lettore di bande magnetiche, lo skimmer, che copia i dati memorizzati nella carta. Quando la vittima inserisce la carta, una minuscola telecamera nascosta nello sportello registra anche il PIN e lo trasmette al truffatore. Il formjacking, dice la fonte, è una sorta di skimming degli sportelli virtuali di banche e istituti di credito accessibili online, e funziona in modo analogo.\n\nIn termini tecnici, il formjacking è la code injection, cioè l'iniezione di codice, di un JavaScript direttamente sul sito di e-commerce o sulla web application presa di mira. L'injection permette di inserire stringhe di codice eseguibile malevolo all'interno dei campi di inserimento dei dati. Il punto da capire è che il sito continua a funzionare normalmente: il cliente compila il modulo, paga, riceve la conferma. Nel frattempo lo script copia ciò che ha digitato e lo invia all'attaccante.\n\nVediamo il percorso tipico, in quattro passi. Primo, la compromissione: l'attaccante entra nel sito, oppure in un componente esterno che il sito carica, come un modulo di pagamento o un plugin. Questo secondo caso è molto frequente, perché i siti piccoli usano spesso componenti di terzi. Secondo, l'iniezione: aggiunge poche righe di JavaScript alla pagina del modulo. Terzo, la raccolta: lo script legge numero di carta, scadenza, codice di sicurezza e dati anagrafici mentre il cliente li scrive. Quarto, l'invio: i dati partono verso un server dell'attaccante, mentre il pagamento prosegue regolarmente. Per questo il formjacking può durare settimane prima che qualcuno se ne accorga: se ne accorgono i clienti, quando vedono addebiti sconosciuti.\n\nLa fonte mette il formjacking a confronto con le false app bancarie. Il formjacking opera direttamente sul sito di e-commerce, le false app bancarie operano direttamente sull'utente. Inoltre, dice la fonte, le false app sono un vettore, cioè un mezzo per portare il malware, mentre il formjacking è una tecnica. In pratica: il formjacking colpisce tutti i clienti del sito compromesso; la falsa app colpisce solo chi la scarica. Le app bancarie fasulle sono infatti un contenitore di malware che si attiva solo se l'utente scarica quella specifica app.\n\nCome operano le false app? La fonte indica cinque modi. Con l'overlay, quando l'utente accede a un certo sito, il malware vi sovrappone una pagina identica, in cui l'utente inserisce le credenziali credendo di essere sul sito vero. Con la redirection, che opera a livello di processo, l'utente che accede a un certo sito viene reindirizzato su un sito clone. Con il keylogging, il malware legge tutto ciò che viene digitato sulla tastiera. Il form grabbing, dice la fonte, è estremamente simile al keylogging: cattura i dati inseriti nei moduli. Infine c'è l'injection.\n\nL'injection, spiega la fonte, è usata soprattutto dal trojan bancario BackSwap. Quando l'utente apre l'home banking, BackSwap inserisce codice JavaScript malevolo direttamente nella barra degli indirizzi. La sua particolarità è che dispone di una serie di codici precompilati, pronti all'uso, per diverse applicazioni bancarie. È un buon esempio di quello che abbiamo chiamato crimine come servizio: chi usa lo strumento non deve scrivere nulla, sceglie la banca bersaglio. La difesa, per noi e per i clienti, è installare le app bancarie e assicurative solo dai negozi ufficiali, partendo dal sito della banca o della compagnia, e diffidare di app che chiedono permessi sproporzionati, come l'accesso ai servizi di accessibilità o ai messaggi.\n\nPassiamo al cryptojacking. Per capirlo serve qualche nozione sulle criptovalute. Le criptovalute sono tipi di denaro digitale che esistono soltanto online e non hanno una forma fisica. La maggior parte entra in circolazione attraverso un processo chiamato mining, letteralmente estrazione, che trasforma le risorse di un computer in criptovaluta. I proprietari tengono il denaro in portafogli virtuali, protetti da codici privati. Quando due proprietari si scambiano fondi, il trasferimento va registrato in un libro mastro pubblico e decentralizzato.\n\nCome avviene la registrazione? Computer speciali raccolgono i dati delle ultime transazioni di Bitcoin o di altre criptovalute, circa ogni dieci minuti, e li trasformano in un rompicapo matematico. A questo punto la transazione resta in attesa di conferma. La conferma arriva quando un'altra categoria di partecipanti, i miner, risolve in modo indipendente il complicato rompicapo che prova la legittimità della transazione. Il miner che risolve per primo il problema crittografico riceve una ricompensa, in genere una parte della nuova criptomoneta. Risolvere questi rompicapi richiede moltissima potenza di calcolo, e quindi energia. Ed ecco l'idea del criminale: farla pagare a qualcun altro.\n\nIl cryptojacking, dice la fonte, è una minaccia che si nasconde su un computer o su un dispositivo mobile e ne usa le risorse per generare criptovalute. Sfrutta dispositivi altrui, computer, smartphone, tablet o perfino server, senza che l'utente ne sia consapevole o dia il proprio consenso, per produrre criptovalute di nascosto a spese della vittima. La vittima paga in elettricità, in usura dell'hardware e in lentezza di lavoro. E i cryptojacker continuano a migliorarsi, invadendo hardware sempre più potente.\n\nLe vie d'ingresso sono due. La prima è il link dannoso in un'e-mail: con un clic, il codice di cryptomining viene caricato direttamente sul computer e resta attivo. La seconda è il drive-by cryptomining: un codice JavaScript inserito in una pagina web, che usa il dispositivo di chi la visita finché la pagina resta aperta. Il drive-by cryptomining può infettare persino i dispositivi mobili Android. Secondo la fonte il problema più grave resta il cryptojacking sui dispositivi personali, perché rubando poco a molti si possono guadagnare somme ingenti.\n\nCome proteggersi? La fonte ricorda che, come per tutti i malware, è decisamente meglio installare un sistema di sicurezza prima di diventare vittime. Esistono poi programmi specializzati che bloccano le attività di mining nei browser più diffusi. La fonte indica anche un'opzione ovvia: bloccare JavaScript nel browser. È vero, ma va detto con onestà che oggi quasi tutti i siti, compresi i portali delle compagnie e l'home banking, usano JavaScript per funzionare: bloccarlo del tutto non è praticabile per chi lavora, e la scelta va valutata con chi gestisce l'informatica dell'agenzia. Aggiungiamo qualche campanello d'allarme: computer improvvisamente lento, ventola sempre al massimo, batteria del telefono che si scarica e si scalda senza motivo. E due buone abitudini: chiudere le schede del browser che non servono e tenere aggiornati sistema e browser.\n\nChiudiamo con il ransomware. Per la fonte il ransomware è un tipo di malware che ottiene accesso a file o sistemi e ne blocca l'accesso agli utenti. File o interi dispositivi vengono cifrati e tenuti in ostaggio finché la vittima non paga un riscatto e vengono decifrati. Il funzionamento, la doppia estorsione con la minaccia di pubblicare i dati e le difese, a cominciare dal backup, le abbiamo viste nell'argomento sul malware. Qui aggiungiamo un aspetto giuridico che riprenderemo nell'ultima lezione: dal 2024 il codice penale punisce in modo specifico l'estorsione commessa con mezzi informatici, cioè proprio lo schema del ransomware.\n\nUn caso pratico. Il sito dell'agenzia permette di pagare online il premio di rinnovo con un modulo fornito da un plugin. Dopo qualche settimana tre clienti segnalano addebiti sconosciuti sulla carta usata per il rinnovo. Il sito sembra funzionare normalmente. Quale attacco è più probabile? Il quadro fa pensare a un formjacking: il modulo funziona, ma uno script copia i dati delle carte. Che cosa deve fare l'agenzia? Avvisare subito chi gestisce il sito e il fornitore del servizio di pagamento, far sospendere il modulo e aggiornare o rimuovere il plugin. Informare i clienti perché blocchino le carte. Valutare con il titolare del trattamento la violazione dei dati personali e gli obblighi di notifica, che abbiamo visto nell'argomento sulla privacy. E presentare denuncia alla Polizia Postale.\n\nRiepiloghiamo. Il formjacking è l'iniezione di codice JavaScript nei moduli di un sito: il sito funziona, ma i dati di pagamento vengono copiati. Le false app bancarie sono un vettore che opera sull'utente, con cinque modalità: overlay, redirection, keylogging, form grabbing e injection, come nel caso BackSwap. Il cryptojacking usa di nascosto i nostri dispositivi per minare criptovalute, tramite link dannosi o pagine web, e guadagna rubando poco a molti. Il ransomware cifra i dati e chiede un riscatto, e oggi è anche un'ipotesi specifica di estorsione.",
+      "sources": [
+        {
+          "title": "Legge 28 giugno 2024, n. 90 (GU n. 153 del 2 luglio 2024), art. 16",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/02/24G00108/sg"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Percorso didattico in quattro passi del formjacking, segnali e abitudini contro il cryptojacking, consigli sull'installazione delle app, caso pratico (integrazioni esplicative senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Richiamo all'estorsione commessa mediante condotte informatiche, introdotta nel codice penale dalla L. 90/2024.",
+          "source_ref": "L. 90/2024, art. 16, lett. m); c.p., art. 629, terzo comma"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella fonte la slide \"Formjacking 3/3\" descrive in realtà le false app bancarie: qui sono presentate come argomento distinto, a confronto con il formjacking, come la fonte stessa suggerisce (tecnica contro vettore).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'indicazione di bloccare JavaScript nel browser contro il cryptojacking, con la precisazione che molti siti di lavoro non funzionano senza JavaScript.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione di BackSwap (injection nella barra degli indirizzi, codici precompilati per diverse banche). Riferimento tecnico da indicare / possibile aggiornamento: è un trojan individuato alcuni anni fa.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "L'attacco man-in-the-middle: intercettare e decifrare",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "L'attacco man-in-the-middle: intercettare e decifrare",
+          "goals": [
+            "Sapere che cos'è un attacco man-in-the-middle e quali siti prende di mira",
+            "Riconoscere la tecnica Evil Twin sulle reti Wi-Fi",
+            "Conoscere le due fasi dell'attacco e le tecniche di ciascuna"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è il man-in-the-middle",
+          "key": "Man-in-the-middle (MITM) è un termine generico per un attacco in cui qualcuno si intromette tra una persona e le attività che svolge online.",
+          "body": "Nell'argomento sulle minacce abbiamo visto il principio: se mancano autenticazione e cifratura, chi intercetta può leggere e modificare i dati. Qui entriamo nelle tecniche con cui l'attacco si realizza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli obiettivi più comuni",
+          "items": [
+            {
+              "text": "Siti di shopping online.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Siti di banking online.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Qualsiasi altro sito in cui si inseriscono nome utente e password per accedere a conti e carte di credito.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Per un intermediario: i portali delle compagnie, la posta, l'area riservata dei clienti."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'Evil Twin",
+          "key": "Per un attacco MITM via Wi-Fi gli hacker usano in genere una rete contraffatta o la tecnica Evil Twin: una rete Wi-Fi pubblica configurata per simulare in tutto e per tutto una rete legittima già usata dalla vittima.",
+          "body": "Evil Twin significa \"gemello cattivo\": stesso nome della rete, a volte stessa pagina di accesso. Il dispositivo della vittima la riconosce come rete nota.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come nasce un Evil Twin",
+          "steps": [
+            {
+              "label": "Il luogo",
+              "text": "L'attaccante sceglie un posto con Wi-Fi pubblico: hotel, stazione, centro congressi."
+            },
+            {
+              "label": "Il gemello",
+              "text": "Crea un punto di accesso con lo stesso nome della rete legittima."
+            },
+            {
+              "label": "Il segnale",
+              "text": "Lo rende più forte o più vicino dell'originale."
+            },
+            {
+              "label": "La connessione",
+              "text": "I dispositivi che ricordano quella rete si collegano da soli: tutto il traffico passa dall'attaccante."
+            }
+          ],
+          "ref": "Spiegazione didattica"
+        },
+        {
+          "layout": "compare",
+          "title": "Le due fasi dell'attacco",
+          "cols": [
+            {
+              "title": "Fase 1 · Intercettazione",
+              "items": [
+                "Il traffico della vittima viene catturato prima che arrivi a destinazione",
+                "Spoofing IP, spoofing ARP, spoofing DNS"
+              ]
+            },
+            {
+              "title": "Fase 2 · Decriptaggio",
+              "items": [
+                "Il traffico intercettato, se cifrato, va reso leggibile",
+                "Spoofing HTTPS, BEAST SSL, dirottamento SSL, SSL strip"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Fase 1: le tecniche di intercettazione",
+          "head": [
+            "Tecnica",
+            "Come funziona",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "IP · Spoofing IP",
+              "L'attaccante falsifica l'indirizzo IP di origine dei pacchetti per spacciarsi per un altro dispositivo",
+              "Si presenta come un server fidato"
+            ],
+            [
+              "ARP · Spoofing ARP",
+              "Nella rete locale associa il proprio indirizzo MAC all'indirizzo IP di un altro dispositivo, di solito il router",
+              "Il traffico dell'ufficio verso internet passa dal suo PC"
+            ],
+            [
+              "DNS · Spoofing DNS",
+              "Altera la risposta che traduce il nome del sito in indirizzo IP",
+              "Scrivi l'indirizzo giusto, arrivi a un sito falso"
+            ]
+          ],
+          "ref": "Tecniche: materiale originale del corso. Spiegazioni: integrazione didattica"
+        },
+        {
+          "layout": "table",
+          "title": "Fase 2: le tecniche di decriptaggio",
+          "head": [
+            "Tecnica",
+            "Come funziona"
+          ],
+          "rows": [
+            [
+              "Spoofing HTTPS",
+              "Un sito falso con un indirizzo quasi identico e un proprio certificato si fa passare per quello vero"
+            ],
+            [
+              "BEAST SSL",
+              "Sfrutta una debolezza di vecchie versioni dei protocolli di cifratura per ricostruire parti dei dati cifrati"
+            ],
+            [
+              "Dirottamento SSL",
+              "L'attaccante si inserisce nella sessione cifrata e la apre separatamente con la vittima e con il sito"
+            ],
+            [
+              "SSL strip",
+              "Trasforma la connessione in una non cifrata: la vittima naviga in http mentre l'attaccante parla in https con il sito"
+            ]
+          ],
+          "ref": "Tecniche: materiale originale del corso. Spiegazioni: integrazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "SSL, TLS e il lucchetto",
+          "key": "SSL è il vecchio nome dei protocolli di cifratura del web; oggi si usa il suo successore, TLS. Molti attacchi della fase 2 sfruttano versioni vecchie o configurazioni deboli.",
+          "body": "Per questo contano gli aggiornamenti di browser, sistemi e router. Il lucchetto indica una connessione cifrata, non che il sito sia onesto: anche un sito falso può averlo."
+        },
+        {
+          "layout": "concept",
+          "title": "Perché digitare l'indirizzo o usare i preferiti",
+          "key": "Lo SSL strip funziona soprattutto sul primo collegamento in http: quando si scrive solo il nome del sito o si segue un vecchio link. Aprire il portale dai preferiti salvati in https, o dall'app ufficiale, toglie spazio all'attaccante.",
+          "body": "Molti siti importanti dicono al browser di usare sempre la connessione cifrata, e il browser lo ricorda per le visite successive. Anche per questo un avviso di connessione non sicura su un sito noto va preso sul serio."
+        },
+        {
+          "layout": "concept",
+          "title": "La pagina di accesso del Wi-Fi",
+          "key": "Hotel e locali mostrano spesso una pagina di accesso prima di dare la connessione. È il punto preferito da chi crea una rete falsa: può chiedere e-mail, password o perfino una carta di credito.",
+          "body": "Una pagina di accesso al Wi-Fi non dovrebbe mai chiedere le credenziali della posta o del portale di lavoro. Se succede, ci si scollega e si usa l'hotspot del telefono."
+        },
+        {
+          "layout": "compare",
+          "title": "Che cosa può notare la vittima",
+          "cols": [
+            {
+              "title": "Segnali di SSL strip o rete falsa",
+              "items": [
+                "L'indirizzo è http e manca il lucchetto su un sito che di solito lo ha",
+                "Due reti con lo stesso nome",
+                "La pagina di accesso al Wi-Fi chiede dati personali o di pagamento"
+              ]
+            },
+            {
+              "title": "Segnali di spoofing HTTPS o DNS",
+              "items": [
+                "Il browser avvisa che il certificato non è valido",
+                "Il dominio ha una lettera diversa o un'estensione insolita",
+                "Il portale chiede di nuovo le credenziali o un codice senza motivo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Difendersi, oltre alle regole di base",
+          "items": [
+            {
+              "text": "Disattiva la connessione automatica alle reti Wi-Fi note e fai \"dimenticare\" al dispositivo le reti pubbliche usate."
+            },
+            {
+              "text": "Fuori ufficio preferisci l'hotspot del tuo telefono alla rete pubblica."
+            },
+            {
+              "text": "Accedi ai portali dai preferiti o dall'app ufficiale, non da link."
+            },
+            {
+              "text": "Non ignorare mai un avviso di certificato: chiudi la pagina."
+            },
+            {
+              "text": "In ufficio: cambia la password di amministrazione del router e tienilo aggiornato, perché ARP e DNS si attaccano da lì."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "In agenzia il router è ancora quello installato anni fa, con la password di amministrazione di fabbrica. Una mattina più colleghi, digitando correttamente l'indirizzo del portale di una compagnia, trovano una pagina di accesso leggermente diversa dal solito, che dopo la password chiede anche il codice ricevuto via SMS.",
+          "questions": [
+            "Quale tecnica di intercettazione è plausibile?",
+            "Che cosa si fa subito?"
+          ],
+          "solution": "Se l'indirizzo è giusto ma il sito è falso, è plausibile uno spoofing DNS, ad esempio dopo che qualcuno ha modificato le impostazioni del router lasciato con la password di fabbrica. Si smette subito di usare il portale da quella rete, si avvisa la compagnia perché blocchi le utenze, si cambiano le credenziali da una rete sicura e si fa controllare e aggiornare il router da un tecnico, cambiandone la password."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è un attacco Evil Twin?",
+          "options": [
+            "Un virus che si copia due volte",
+            "Una rete Wi-Fi configurata dagli hacker per simulare in tutto una rete legittima già usata dalla vittima",
+            "Un sito con due pagine di accesso",
+            "Un attacco che colpisce due computer insieme"
+          ],
+          "answer": 1,
+          "explanation": "Il \"gemello cattivo\" ha lo stesso nome della rete legittima: il dispositivo vi si collega convinto di essere sulla rete conosciuta."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nell'attacco SSL strip, che cosa vede di solito la vittima?",
+          "options": [
+            "Un avviso di virus",
+            "Un indirizzo in http senza lucchetto su un sito che normalmente è in https",
+            "Una richiesta di riscatto",
+            "Il computer che si spegne"
+          ],
+          "answer": 1,
+          "explanation": "L'SSL strip toglie la cifratura dal tratto tra vittima e attaccante: la connessione appare in http, senza lucchetto."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "MITM",
+              "text": "qualcuno si intromette tra la persona e le sue attività online"
+            },
+            {
+              "value": "Evil Twin",
+              "text": "la rete Wi-Fi gemella di una rete legittima"
+            },
+            {
+              "value": "2",
+              "text": "fasi: intercettazione e decriptaggio"
+            },
+            {
+              "value": "3 + 4",
+              "text": "tecniche: spoofing IP, ARP, DNS; spoofing HTTPS, BEAST, dirottamento SSL, SSL strip"
+            },
+            {
+              "value": "Router",
+              "text": "password di fabbrica da cambiare e aggiornamenti"
+            }
+          ]
+        }
+      ],
+      "narration": "L'ultimo dei cinque attacchi è il man-in-the-middle, letteralmente l'uomo nel mezzo, spesso abbreviato in MITM. Nell'argomento sulle minacce, parlando di intercettazione, abbiamo visto il principio e le regole di base: controllare il lucchetto e l'https, diffidare delle reti Wi-Fi pubbliche, usare connessioni protette. Qui entriamo nel dettaglio delle tecniche con cui l'attacco si realizza, perché conoscerle aiuta a riconoscere i segnali.\n\nLa fonte definisce il man-in-the-middle come un termine generico che indica un attacco informatico in cui qualcuno si intromette tra una persona e le attività che svolge online. La vittima crede di parlare direttamente con la banca, con il negozio o con il portale della compagnia; in realtà ogni dato passa prima dall'attaccante, che può leggerlo, copiarlo e perfino modificarlo prima di inoltrarlo.\n\nQuali sono gli obiettivi più comuni? La fonte ne indica tre: i siti di shopping online, i siti di banking online e, più in generale, qualsiasi sito in cui si devono inserire nome utente e password per accedere ai dati di conti e carte di credito. Per un intermediario aggiungiamo i portali delle compagnie, la posta elettronica e l'area riservata dei clienti: tutti luoghi dove si inseriscono credenziali di valore.\n\nCome si conduce un attacco man-in-the-middle tramite Wi-Fi? Di solito, dice la fonte, gli hacker sfruttano una rete contraffatta oppure una tecnica chiamata Evil Twin. Si parla di Evil Twin, cioè gemello cattivo, quando una rete Wi-Fi pubblica viene configurata dagli hacker in modo da simulare in tutto e per tutto una rete legittima già usata in precedenza dalla vittima. Stesso nome della rete, a volte la stessa pagina di accesso. Il dispositivo della vittima la riconosce come una rete già nota.\n\nVediamo come nasce, passo per passo. L'attaccante sceglie un luogo con un Wi-Fi pubblico frequentato: un hotel, una stazione, un centro congressi dove si tiene una convention di agenti. Crea un punto di accesso con lo stesso nome della rete legittima, cosa che si può fare con un normale computer portatile. Fa in modo che il suo segnale sia più forte o più vicino di quello originale. A quel punto i dispositivi che ricordano quella rete, e che sono impostati per collegarsi automaticamente, si collegano da soli al gemello cattivo. Da quel momento tutto il traffico passa dall'attaccante. Notate che la vittima non deve fare nulla di sbagliato: basta che il telefono in tasca abbia memorizzato la rete dell'hotel di qualche mese prima.\n\nLa fonte spiega che un attacco MITM è costituito da due fasi. La prima è l'intercettazione: chi attacca cattura il traffico internet della vittima prima che raggiunga la destinazione. La seconda è il decriptaggio: se il traffico intercettato è cifrato, come accade per quasi tutti i siti seri, l'attaccante deve renderlo leggibile. Ciascuna fase ha le sue tecniche.\n\nPer l'intercettazione la fonte cita tre tecniche: lo spoofing IP, lo spoofing ARP e lo spoofing DNS. Spoofing significa falsificazione, travestimento. Nello spoofing IP l'attaccante falsifica l'indirizzo IP di origine dei pacchetti di dati, per spacciarsi per un altro dispositivo, ad esempio un server fidato. Nello spoofing ARP l'attacco avviene dentro la rete locale. ARP è il meccanismo con cui i dispositivi di una rete locale associano gli indirizzi IP agli indirizzi fisici delle schede di rete, i cosiddetti indirizzi MAC. L'attaccante, collegato alla stessa rete, annuncia che il suo indirizzo MAC corrisponde all'indirizzo IP del router: da quel momento il traffico degli altri computer verso internet passa dal suo. È una tecnica che richiede di essere già dentro la rete, ed è per questo che un Wi-Fi dell'ufficio con password debole è un rischio concreto. Nello spoofing DNS, infine, si altera la risposta che traduce il nome di un sito nel suo indirizzo IP. È il caso più subdolo: l'utente scrive correttamente l'indirizzo del sito, ma viene portato su un sito falso.\n\nPer il decriptaggio la fonte cita quattro tecniche: lo spoofing HTTPS, il BEAST SSL, il dirottamento SSL e l'SSL strip. Nello spoofing HTTPS un sito falso, con un indirizzo quasi identico a quello vero e con un proprio certificato, si fa passare per l'originale: il lucchetto c'è, ma è il lucchetto del sito sbagliato. Il BEAST sfrutta una debolezza di versioni ormai vecchie dei protocolli di cifratura per ricostruire parti dei dati cifrati. Nel dirottamento SSL l'attaccante si inserisce nella sessione cifrata e ne apre in realtà due: una con la vittima e una con il sito, leggendo tutto nel mezzo. Nell'SSL strip, letteralmente \"spogliare dell'SSL\", l'attaccante trasforma la connessione in una connessione non cifrata: la vittima naviga in http, senza cifratura, mentre l'attaccante parla in https con il sito vero. La vittima vede il sito giusto, ma senza lucchetto.\n\nUna precisazione sui nomi. SSL è il nome storico dei protocolli di cifratura del web; oggi si usa il suo successore, TLS, ma per abitudine si continua a dire SSL. Molti degli attacchi della seconda fase funzionano contro versioni vecchie o configurazioni deboli di questi protocolli. Per questo gli aggiornamenti di browser, sistemi operativi e router non sono un dettaglio. E ricordiamo che il lucchetto indica che la connessione è cifrata, non che il sito sia onesto: anche un sito falso può avere il suo lucchetto.\n\nDue approfondimenti pratici. Il primo riguarda lo SSL strip. Questo attacco funziona soprattutto sul primo collegamento in chiaro: quando scriviamo nel browser solo il nome del sito, senza https, o seguiamo un vecchio link salvato in http. Molti siti importanti dicono al browser di usare sempre la connessione cifrata, e il browser lo ricorda per le visite successive; ma il modo più semplice per togliere spazio all'attaccante è aprire il portale dai preferiti salvati in https, o dall'app ufficiale. E se un sito che usiamo ogni giorno, all'improvviso, viene segnalato come connessione non sicura, non è un capriccio del browser: va preso sul serio.\n\nIl secondo riguarda la pagina di accesso del Wi-Fi, quella che hotel e locali mostrano prima di dare la connessione, a volte chiedendo il numero della camera o un indirizzo e-mail. È il punto preferito da chi crea una rete falsa, perché l'utente si aspetta di dover inserire qualcosa. Una pagina di questo tipo può chiedere una password o perfino i dati di una carta di credito \"per verificare l'identità\". Regola semplice: una pagina di accesso al Wi-Fi non dovrebbe mai chiedere le credenziali della posta o del portale di lavoro. Se succede, ci si scollega e si usa l'hotspot del telefono.\n\nChe cosa può notare la vittima? Dipende dalla tecnica. Con l'SSL strip o con una rete falsa, i segnali tipici sono un indirizzo in http senza lucchetto su un sito che di solito lo ha, due reti Wi-Fi con lo stesso nome, oppure una pagina di accesso al Wi-Fi che chiede dati personali o addirittura di pagamento. Con lo spoofing HTTPS o DNS i segnali sono un avviso del browser sul certificato non valido, un dominio con una lettera diversa o un'estensione insolita, oppure un portale che chiede di nuovo le credenziali, o un codice di conferma, senza un motivo apparente.\n\nE come ci si difende, oltre alle regole di base che già conosciamo? Disattivate la connessione automatica alle reti Wi-Fi note e fate dimenticare al dispositivo le reti pubbliche che avete usato: così il gemello cattivo non vi aggancia da solo. Fuori ufficio preferite l'hotspot del vostro telefono alla rete pubblica. Accedete ai portali dai preferiti del browser o dall'app ufficiale, non da link ricevuti. Non ignorate mai un avviso di certificato: chiudete la pagina, anche se avete fretta. E in ufficio cambiate la password di amministrazione del router e tenetelo aggiornato, perché spoofing ARP e DNS si attaccano proprio da lì.\n\nUn caso pratico. In agenzia il router è ancora quello installato anni fa, con la password di amministrazione di fabbrica. Una mattina più colleghi, digitando correttamente l'indirizzo del portale di una compagnia, trovano una pagina di accesso leggermente diversa dal solito, che dopo la password chiede anche il codice ricevuto via SMS. Quale tecnica è plausibile? Se l'indirizzo digitato è giusto ma il sito è falso, è plausibile uno spoofing DNS, ad esempio dopo che qualcuno è riuscito a modificare le impostazioni del router lasciato con la password di fabbrica. Che cosa si fa subito? Si smette di usare il portale da quella rete. Si avvisa la compagnia, perché blocchi le utenze che potrebbero essere state compromesse. Si cambiano le credenziali da una rete sicura, ad esempio dall'hotspot del telefono. E si fa controllare e aggiornare il router da un tecnico, cambiandone finalmente la password.\n\nRiepiloghiamo. Nel man-in-the-middle qualcuno si intromette tra la persona e le attività che svolge online, soprattutto su siti di shopping, banking e su tutti i siti con credenziali. Via Wi-Fi la tecnica tipica è l'Evil Twin, la rete gemella di una rete legittima. L'attacco ha due fasi: l'intercettazione, con spoofing IP, ARP e DNS, e il decriptaggio, con spoofing HTTPS, BEAST, dirottamento SSL e SSL strip. Il lucchetto indica cifratura, non onestà. E il router dell'ufficio, con la sua password, è una porta da chiudere bene.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione delle tecniche di spoofing IP, ARP e DNS e delle tecniche di decriptaggio (spoofing HTTPS, BEAST, dirottamento SSL, SSL strip), percorso dell'Evil Twin, segnali per la vittima, difese specifiche e caso pratico (integrazioni tecniche generali senza dati, non presenti nella fonte).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Precisato che SSL è il nome storico dei protocolli di cifratura del web, oggi sostituiti da TLS, e che BEAST riguarda versioni vecchie dei protocolli: l'elenco delle tecniche della fonte è mantenuto. Possibile aggiornamento con riferimento tecnico ufficiale.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Il cyber crime nel codice penale: dalla Convenzione di Budapest alla legge 90/2024",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/1. Il cyber crime.pdf",
+        "Corso Ivass 60 ore/Materiale /1. Il cyber crime.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Il cyber crime",
+          "title": "Il cyber crime nel codice penale",
+          "goals": [
+            "Conoscere la Convenzione di Budapest e la legge 48/2008",
+            "Riconoscere i principali reati informatici e le novità della legge 90/2024",
+            "Collegare gli attacchi visti nel corso ai reati e sapere quando serve la querela"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché serve una risposta comune",
+          "key": "Il crimine informatico non ha confini: l'attaccante, i server e le vittime possono stare in Paesi diversi. Per questo la fonte osserva che resterà un grave problema internazionale finché alcuni Stati non applicheranno leggi contro l'hacking criminale.",
+          "body": "La risposta europea è la Convenzione del Consiglio d'Europa sulla criminalità informatica, firmata a Budapest il 23 novembre 2001. L'Italia l'ha ratificata con la legge 18 marzo 2008, n. 48.",
+          "ref": "Materiale originale del corso; L. 48/2008, art. 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa ha introdotto la legge 48/2008",
+          "items": [
+            {
+              "text": "La ratifica e l'esecuzione della Convenzione di Budapest.",
+              "ref": "artt. 1-2"
+            },
+            {
+              "text": "I reati di danneggiamento informatico: di dati e programmi, anche pubblici, e di sistemi, anche di pubblica utilità.",
+              "ref": "art. 5; c.p., artt. 635-bis - 635-quinquies"
+            },
+            {
+              "text": "Il reato di diffusione di programmi diretti a danneggiare o interrompere un sistema (oggi spostato nell'art. 635-quater.1).",
+              "ref": "art. 4"
+            },
+            {
+              "text": "La responsabilità delle società e degli enti per i delitti informatici.",
+              "ref": "art. 7; D.Lgs. 231/2001, art. 24-bis"
+            },
+            {
+              "text": "Regole per perquisizioni e sequestri informatici che conservino i dati originali e ne impediscano l'alterazione.",
+              "ref": "art. 8"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "La legge 90/2024",
+          "lead": "Legge 28 giugno 2024, n. 90, \"Disposizioni in materia di rafforzamento della cybersicurezza nazionale e di reati informatici\". In vigore dal 17 luglio 2024.",
+          "facts": [
+            {
+              "label": "Pene più alte",
+              "text": "Aumentate le pene per accesso abusivo, intercettazione e danneggiamento."
+            },
+            {
+              "label": "Estorsione informatica",
+              "text": "Nuovo terzo comma dell'art. 629: l'estorsione commessa con attacchi informatici o con la minaccia di compierli."
+            },
+            {
+              "label": "Art. 635-quater.1",
+              "text": "Abrogato il 615-quinquies: la detenzione e diffusione di programmi dannosi passa qui."
+            },
+            {
+              "label": "Truffa a distanza",
+              "text": "Aggravante per la truffa commessa a distanza con strumenti che ostacolano l'identificazione."
+            },
+            {
+              "label": "Attenuanti",
+              "text": "Pene ridotte per i fatti di lieve entità e per chi collabora con le autorità."
+            },
+            {
+              "label": "Enti",
+              "text": "Aumentate le sanzioni per le società (art. 24-bis D.Lgs. 231/2001)."
+            }
+          ],
+          "ref": "L. 90/2024, artt. 16 e 20"
+        },
+        {
+          "layout": "table",
+          "title": "Entrare e procurarsi le chiavi",
+          "head": [
+            "Articolo",
+            "Che cosa punisce",
+            "Pena"
+          ],
+          "rows": [
+            [
+              "615-ter · Accesso abusivo",
+              "Chi si introduce abusivamente in un sistema protetto da misure di sicurezza, o vi resta contro la volontà di chi ha diritto di escluderlo",
+              "Fino a 3 anni. Da 2 a 10 anni se aggravato, ad esempio se causa la sottrazione o l'inaccessibilità dei dati"
+            ],
+            [
+              "615-quater · Codici di accesso",
+              "Chi si procura, detiene, diffonde o installa abusivamente codici, parole chiave o strumenti per accedere a un sistema protetto, per un vantaggio o per danneggiare",
+              "Fino a 2 anni e multa fino a 5.164 euro; più alta nei casi aggravati"
+            ]
+          ],
+          "ref": "c.p., artt. 615-ter e 615-quater, testo vigente"
+        },
+        {
+          "layout": "table",
+          "title": "Intercettare e falsificare le comunicazioni",
+          "head": [
+            "Articolo",
+            "Che cosa punisce",
+            "Pena"
+          ],
+          "rows": [
+            [
+              "617-quater · Intercettazione",
+              "Chi intercetta fraudolentemente comunicazioni informatiche, o le impedisce o le interrompe, o ne rivela il contenuto al pubblico",
+              "Da 1 anno e 6 mesi a 5 anni"
+            ],
+            [
+              "617-quinquies · Strumenti",
+              "Chi si procura, detiene o installa apparecchiature o programmi per intercettare, impedire o interrompere comunicazioni informatiche",
+              "Da 1 a 4 anni"
+            ],
+            [
+              "617-sexies · Falsificazione",
+              "Chi forma falsamente, altera o sopprime il contenuto di comunicazioni informatiche, anche intercettate per caso, e ne fa uso",
+              "Da 1 a 4 anni"
+            ]
+          ],
+          "ref": "c.p., artt. 617-quater, 617-quinquies, 617-sexies"
+        },
+        {
+          "layout": "table",
+          "title": "Danneggiare dati e sistemi",
+          "head": [
+            "Articolo",
+            "Che cosa punisce",
+            "Pena"
+          ],
+          "rows": [
+            [
+              "635-bis · Dati",
+              "Distruggere, deteriorare, cancellare, alterare o sopprimere informazioni, dati o programmi altrui",
+              "Da 2 a 6 anni, a querela"
+            ],
+            [
+              "635-ter · Dati pubblici",
+              "Lo stesso, su dati di interesse militare, di ordine e sicurezza pubblica, sanità, protezione civile o comunque di interesse pubblico",
+              "Da 2 a 6 anni"
+            ],
+            [
+              "635-quater · Sistemi",
+              "Rendere inservibili, in tutto o in parte, sistemi informatici altrui o ostacolarne gravemente il funzionamento",
+              "Da 2 a 6 anni"
+            ],
+            [
+              "635-quater.1 · Programmi dannosi",
+              "Procurarsi, detenere, diffondere o installare programmi o dispositivi diretti a danneggiare o interrompere un sistema",
+              "Fino a 2 anni e multa fino a 10.329 euro"
+            ],
+            [
+              "635-quinquies · Sistemi pubblici",
+              "Atti diretti a rendere inservibili sistemi di pubblico interesse o a ostacolarne gravemente il funzionamento",
+              "Da 2 a 6 anni"
+            ]
+          ],
+          "ref": "c.p., artt. 635-bis - 635-quinquies, testo vigente"
+        },
+        {
+          "layout": "table",
+          "title": "Frode, truffa ed estorsione",
+          "head": [
+            "Articolo",
+            "Che cosa punisce",
+            "Pena"
+          ],
+          "rows": [
+            [
+              "640-ter · Frode informatica",
+              "Alterare un sistema o intervenire senza diritto su dati e programmi, procurandosi un ingiusto profitto con altrui danno",
+              "Da 6 mesi a 3 anni. Da 1 a 5 anni se c'è trasferimento di denaro o valuta virtuale. Da 2 a 6 anni con furto o indebito utilizzo dell'identità digitale"
+            ],
+            [
+              "640 · Truffa a distanza",
+              "Truffa commessa a distanza con strumenti informatici idonei a ostacolare l'identificazione (secondo comma, n. 2-ter)",
+              "Da 1 a 5 anni e multa da 309 a 1.549 euro"
+            ],
+            [
+              "629 · Estorsione informatica",
+              "Costringere qualcuno a fare o non fare qualcosa con accessi abusivi, intercettazioni, danneggiamenti, o con la minaccia di compierli, per un ingiusto profitto",
+              "Da 6 a 12 anni e multa da 5.000 a 10.000 euro; fino a 22 anni se aggravata"
+            ]
+          ],
+          "ref": "c.p., artt. 640-ter, 640, 629, terzo comma"
+        },
+        {
+          "layout": "table",
+          "title": "Dagli attacchi ai reati",
+          "lead": "Esempi di fattispecie che possono venire in rilievo. La qualificazione del fatto spetta sempre all'autorità giudiziaria.",
+          "head": [
+            "Attacco",
+            "Possibili reati"
+          ],
+          "rows": [
+            [
+              "Phishing",
+              "Frode informatica, anche con furto d'identità digitale; accesso abusivo quando si usano le credenziali rubate; sostituzione di persona"
+            ],
+            [
+              "Kit e keylogger",
+              "Detenzione e diffusione di codici di accesso; detenzione di strumenti per intercettare"
+            ],
+            [
+              "Man-in-the-middle",
+              "Intercettazione di comunicazioni informatiche; falsificazione del contenuto, ad esempio un IBAN cambiato in una e-mail"
+            ],
+            [
+              "Ransomware",
+              "Accesso abusivo, danneggiamento di sistemi, estorsione informatica"
+            ],
+            [
+              "Formjacking",
+              "Accesso abusivo al sito, intercettazione dei dati, frode informatica"
+            ]
+          ],
+          "ref": "Esempi didattici su c.p., artt. 494, 615-ter, 615-quater, 617-quater, 617-quinquies, 617-sexies, 629, 635-quater, 640-ter"
+        },
+        {
+          "layout": "split",
+          "title": "Querela o d'ufficio",
+          "left": {
+            "title": "Serve la querela della vittima",
+            "items": [
+              "Accesso abusivo semplice (615-ter, primo comma)",
+              "Intercettazione non aggravata (617-quater)",
+              "Danneggiamento di dati altrui (635-bis)",
+              "Frode informatica non aggravata (640-ter)"
+            ]
+          },
+          "right": {
+            "title": "Si procede d'ufficio",
+            "items": [
+              "Accesso abusivo aggravato o a sistemi di interesse pubblico",
+              "Intercettazione aggravata",
+              "Danneggiamento di sistemi (635-quater)",
+              "Estorsione informatica (629)"
+            ]
+          },
+          "note": "La querela va presentata entro tre mesi dal giorno in cui si ha notizia del fatto, salvo che la legge disponga diversamente.",
+          "noteRef": "c.p., art. 124"
+        },
+        {
+          "layout": "concept",
+          "title": "Attenuanti e confisca",
+          "key": "Dal 2024 le pene per i principali reati informatici sono diminuite se il fatto è di lieve entità, e diminuite dalla metà a due terzi per chi si adopera per evitare conseguenze ulteriori, anche aiutando polizia e magistratura.",
+          "body": "In caso di condanna è sempre ordinata la confisca dei beni e degli strumenti informatici usati per commettere i reati e dei beni che ne costituiscono il profitto, salvo che appartengano a persone estranee al reato.",
+          "ref": "c.p., artt. 623-quater, 639-ter, 240"
+        },
+        {
+          "layout": "concept",
+          "title": "Le società: art. 24-bis D.Lgs. 231/2001",
+          "key": "Una società risponde dei delitti informatici commessi nel suo interesse o a suo vantaggio da chi la amministra o dirige, o da chi è sottoposto alla loro direzione o vigilanza. Non risponde se queste persone hanno agito nell'interesse esclusivo proprio o di terzi.",
+          "body": "Per accesso abusivo, intercettazione e danneggiamento la sanzione va da 200 a 700 quote; per l'estorsione informatica da 300 a 800 quote, con sanzioni interdittive per almeno due anni.",
+          "ref": "D.Lgs. 231/2001, artt. 5 e 24-bis"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia costituita in società trova i server cifrati e un messaggio: per riavere i dati e non vederli pubblicati deve pagare in criptovaluta entro 72 ore. Un mese dopo, un ex collaboratore si collega ancora al gestionale con le vecchie credenziali, mai disattivate, e scarica l'elenco dei clienti.",
+          "questions": [
+            "Quali reati possono venire in rilievo nei due episodi?",
+            "Che cosa fa l'agenzia sul piano della denuncia?"
+          ],
+          "solution": "Nel primo episodio possono venire in rilievo accesso abusivo, danneggiamento di sistemi ed estorsione informatica, procedibili d'ufficio: l'agenzia presenta denuncia alla Polizia Postale e valuta gli obblighi verso il Garante. Nel secondo, chi resta nel sistema contro la volontà del titolare commette accesso abusivo anche se un tempo era autorizzato: nella forma semplice serve la querela entro tre mesi da quando l'agenzia ne ha notizia. Lezione organizzativa: le utenze di chi lascia l'agenzia vanno disattivate subito."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un ex collaboratore usa le vecchie credenziali, mai disattivate, per entrare nel gestionale protetto da password. Commette accesso abusivo?",
+          "options": [
+            "No, perché le credenziali erano sue",
+            "No, perché il sistema non era protetto",
+            "Sì: è punito anche chi si mantiene nel sistema contro la volontà espressa o tacita di chi ha il diritto di escluderlo",
+            "Solo se cancella dei dati"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 615-ter punisce chi si introduce abusivamente in un sistema protetto o vi si mantiene contro la volontà del titolare. Non serve rubare o cancellare nulla."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale novità ha introdotto la legge 90/2024 per lo schema tipico del ransomware?",
+          "options": [
+            "L'obbligo di pagare il riscatto entro 24 ore",
+            "Un'ipotesi specifica di estorsione commessa con attacchi informatici o con la minaccia di compierli",
+            "La depenalizzazione del danneggiamento informatico",
+            "Nessuna novità"
+          ],
+          "answer": 1,
+          "explanation": "Il nuovo terzo comma dell'art. 629 c.p. punisce con la reclusione da 6 a 12 anni chi costringe qualcuno a fare o non fare qualcosa con accessi abusivi, intercettazioni o danneggiamenti, o con la minaccia di compierli."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "48/2008",
+              "text": "la legge che ha ratificato la Convenzione di Budapest del 2001"
+            },
+            {
+              "value": "90/2024",
+              "text": "pene più alte, estorsione informatica, art. 635-quater.1"
+            },
+            {
+              "value": "615-ter",
+              "text": "accesso abusivo: anche restare nel sistema contro la volontà del titolare"
+            },
+            {
+              "value": "3 mesi",
+              "text": "per presentare la querela, quando serve"
+            },
+            {
+              "value": "24-bis",
+              "text": "le società rispondono dei delitti informatici commessi a loro vantaggio"
+            }
+          ]
+        }
+      ],
+      "narration": "Nelle lezioni precedenti abbiamo guardato il cyber crime come fenomeno economico e come insieme di tecniche. Ora lo guardiamo con gli occhi del diritto penale: quali comportamenti sono reato, quali pene sono previste, quando serve la querela della vittima e quando si procede d'ufficio. E vedremo che anche una società, compresa un'agenzia costituita in forma societaria, può essere chiamata a rispondere.\n\nPartiamo da un'osservazione della fonte. Il crimine informatico, dice, resterà un grave problema internazionale finché alcuni Stati non cambieranno comportamento, smettendo di sostenere l'hacking o applicando leggi contro l'hacking criminale. In effetti l'attaccante, i server che usa e le vittime possono stare in Paesi diversi. Senza regole comuni e senza cooperazione tra gli Stati, è facile sfuggire.\n\nLa risposta europea è la Convenzione del Consiglio d'Europa sulla criminalità informatica, firmata a Budapest il 23 novembre 2001, per questo nota come Convenzione di Budapest. L'Italia l'ha ratificata con la legge 18 marzo 2008, numero 48, pubblicata in Gazzetta Ufficiale il 4 aprile 2008. La legge non si è limitata alla ratifica: ha adeguato il codice penale, il codice di procedura penale e la disciplina sulla responsabilità degli enti.\n\nVediamo le novità principali della legge 48. Ha riscritto i reati di danneggiamento informatico, distinguendo dati e programmi da un lato e sistemi dall'altro: sono gli articoli dal 635-bis al 635-quinquies del codice penale. Ha introdotto nel decreto legislativo 231 del 2001 l'articolo 24-bis, che estende ai delitti informatici la responsabilità delle società. E ha previsto che perquisizioni e sequestri informatici avvengano con misure che conservino i dati originali e ne impediscano l'alterazione.\n\nArriviamo alla riforma più recente: la legge 28 giugno 2024, numero 90, intitolata \"Disposizioni in materia di rafforzamento della cybersicurezza nazionale e di reati informatici\", pubblicata nella Gazzetta Ufficiale del 2 luglio 2024 ed entrata in vigore il 17 luglio 2024. La prima parte riguarda la cybersicurezza delle pubbliche amministrazioni, che devono segnalare gli incidenti all'Agenzia per la cybersicurezza nazionale entro ventiquattro ore e completare la notifica entro settantadue: non tocca direttamente gli intermediari. La seconda parte riguarda tutti, perché modifica il codice penale.\n\nOra passiamo in rassegna i reati, per gruppi. Il primo gruppo riguarda l'ingresso nei sistemi. L'articolo 615-ter punisce l'accesso abusivo a un sistema informatico o telematico: chi si introduce abusivamente in un sistema protetto da misure di sicurezza, oppure vi si mantiene contro la volontà espressa o tacita di chi ha il diritto di escluderlo. La pena base è la reclusione fino a tre anni. Diventa da due a dieci anni nei casi aggravati: ad esempio se il fatto è commesso con abuso della qualità di operatore del sistema, se il colpevole usa minaccia o violenza, oppure se dal fatto deriva la distruzione o il danneggiamento del sistema, o la sottrazione, anche mediante copia, o l'inaccessibilità dei dati per il titolare. Se i sistemi sono di interesse militare, di ordine pubblico, di sicurezza pubblica, di sanità, di protezione civile o comunque di interesse pubblico, le pene salgono ancora. Notate due cose. Il sistema deve essere protetto da misure di sicurezza, anche solo una password. E il reato c'è anche se non si ruba nulla: basta entrare, o restare, senza diritto.\n\nAccanto all'accesso abusivo c'è l'articolo 615-quater, che punisce chi si procura, detiene, diffonde o installa abusivamente codici, parole chiave o altri strumenti per accedere a un sistema protetto. Chi compra o rivende un elenco di credenziali rubate, ad esempio, può rientrare in questa ipotesi.\n\nIl secondo gruppo riguarda le comunicazioni. L'articolo 617-quater punisce chi intercetta fraudolentemente comunicazioni informatiche, o le impedisce o le interrompe, con la reclusione da un anno e sei mesi a cinque anni; la stessa pena vale per chi ne rivela il contenuto al pubblico. Il 617-quinquies punisce chi si procura o installa apparecchiature e programmi per intercettare. Il 617-sexies punisce chi altera o falsifica il contenuto di una comunicazione informatica e ne fa uso. Pensate all'e-mail con l'IBAN cambiato: è esattamente questo.\n\nIl terzo gruppo è il danneggiamento. L'articolo 635-bis punisce chi distrugge, deteriora, cancella, altera o sopprime informazioni, dati o programmi altrui: dopo il 2024, reclusione da due a sei anni, a querela della persona offesa. L'articolo 635-quater punisce, con la stessa pena, chi rende inservibili sistemi informatici altrui o ne ostacola gravemente il funzionamento. Il nuovo 635-quater.1 colpisce chi si procura, detiene, diffonde o installa programmi o dispositivi diretti a danneggiare un sistema. Gli articoli 635-ter e 635-quinquies riguardano dati e sistemi di interesse pubblico.\n\nIl quarto gruppo riguarda il denaro. L'articolo 640-ter punisce la frode informatica: chi, alterando il funzionamento di un sistema o intervenendo senza diritto su dati e programmi, procura a sé o ad altri un ingiusto profitto con altrui danno. La pena base va da sei mesi a tre anni; sale da uno a cinque anni se il fatto produce un trasferimento di denaro o di valuta virtuale, e da due a sei anni se è commesso con furto o indebito utilizzo dell'identità digitale, come nel phishing della terza lezione. La truffa dell'articolo 640 ha ora un'aggravante quando è commessa a distanza con strumenti che ostacolano l'identificazione. Infine l'estorsione informatica, nel nuovo terzo comma dell'articolo 629: chi costringe qualcuno a fare o non fare qualcosa con accessi abusivi, intercettazioni o danneggiamenti, o con la minaccia di compierli, rischia da sei a dodici anni di reclusione. È lo schema del ransomware e della minaccia di pubblicare i dati rubati.\n\nLa tabella collega gli attacchi del corso ai reati che possono venire in rilievo; sono esempi, perché la qualificazione di un fatto concreto spetta sempre all'autorità giudiziaria. Un solo caso per tutti: nel phishing possono concorrere la frode informatica, aggravata dal furto d'identità digitale, l'accesso abusivo quando si usano le credenziali rubate e la sostituzione di persona dell'articolo 494.\n\nUna questione molto pratica: serve la querela? Per alcuni reati, nella forma semplice, si procede solo se la vittima presenta querela: l'accesso abusivo non aggravato, l'intercettazione non aggravata, il danneggiamento di dati altrui, la frode informatica non aggravata. Per altri si procede d'ufficio: l'accesso abusivo aggravato o a sistemi di interesse pubblico, l'intercettazione aggravata, il danneggiamento di sistemi, l'estorsione informatica. Attenzione al termine: salvo che la legge disponga diversamente, la querela va presentata entro tre mesi dal giorno in cui si ha notizia del fatto. Un'agenzia che scopre un accesso abusivo e aspetta troppo rischia di perdere la possibilità di agire.\n\nLa legge 90 ha introdotto anche attenuanti: le pene sono diminuite se il fatto è di lieve entità, e diminuite dalla metà a due terzi per chi si adopera per evitare conseguenze ulteriori, anche aiutando polizia e magistratura. In caso di condanna, invece, è sempre ordinata la confisca degli strumenti informatici usati e dei beni che costituiscono il profitto.\n\nInfine le società. In base al decreto legislativo 231 del 2001, una società risponde dei reati commessi nel suo interesse o a suo vantaggio da chi la rappresenta, la amministra o la dirige, oppure da chi è sottoposto alla loro direzione o vigilanza; non risponde se queste persone hanno agito nell'interesse esclusivo proprio o di terzi. L'articolo 24-bis estende questa responsabilità ai delitti informatici. Dopo la legge 90, la sanzione pecuniaria per accesso abusivo, intercettazione e danneggiamento va da duecento a settecento quote, e per l'estorsione informatica da trecento a ottocento quote, con sanzioni interdittive per almeno due anni. Il dipendente che entra senza diritto nell'archivio di un concorrente per procurare clienti alla società espone anche la società.\n\nUn caso pratico per chiudere. Un'agenzia costituita in società trova i server cifrati e un messaggio: per riavere i dati e non vederli pubblicati deve pagare in criptovaluta entro settantadue ore. Un mese dopo, un ex collaboratore si collega ancora al gestionale con le vecchie credenziali, mai disattivate, e scarica l'elenco dei clienti. Nel primo episodio possono venire in rilievo accesso abusivo, danneggiamento di sistemi ed estorsione informatica, che sono procedibili d'ufficio: l'agenzia presenta denuncia alla Polizia Postale e valuta gli obblighi verso il Garante per la protezione dei dati personali. Nel secondo episodio chi resta nel sistema contro la volontà del titolare commette accesso abusivo, anche se un tempo era autorizzato. Nella forma semplice serve la querela, entro tre mesi da quando l'agenzia ne ha notizia. E c'è una lezione organizzativa: le utenze di chi lascia l'agenzia vanno disattivate il giorno stesso.\n\nRiepiloghiamo. La Convenzione di Budapest, ratificata con la legge 48 del 2008, ha portato i reati di danneggiamento informatico, la responsabilità degli enti e le regole per le indagini informatiche. La legge 90 del 2024 ha aumentato le pene, introdotto l'estorsione informatica e previsto attenuanti. L'accesso abusivo punisce anche chi resta nel sistema contro la volontà del titolare. La querela, quando serve, va presentata entro tre mesi. E le società rispondono dei delitti informatici commessi a loro vantaggio.",
+      "sources": [
+        {
+          "title": "Legge 18 marzo 2008, n. 48 - Ratifica della Convenzione di Budapest sulla criminalità informatica",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2008-03-18;48"
+        },
+        {
+          "title": "Legge 28 giugno 2024, n. 90 - Rafforzamento della cybersicurezza nazionale e reati informatici (GU n. 153 del 2 luglio 2024)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/02/24G00108/sg"
+        },
+        {
+          "title": "Legge 28 giugno 2024, n. 90 su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2024-06-28;90"
+        },
+        {
+          "title": "Codice penale, art. 615-ter, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1930-10-19;1398~art615ter"
+        },
+        {
+          "title": "Codice penale, art. 640-ter, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1930-10-19;1398~art640ter"
+        },
+        {
+          "title": "Codice penale, art. 629, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1930-10-19;1398~art629"
+        },
+        {
+          "title": "Codice penale, art. 124 (termine per la querela)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1930-10-19;1398~art124"
+        },
+        {
+          "title": "D.Lgs. 8 giugno 2001, n. 231, artt. 5 e 24-bis, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2001-06-08;231"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Convenzione di Budapest (23 novembre 2001) e L. 48/2008: ratifica, reati di danneggiamento informatico, art. 24-bis D.Lgs. 231/2001, perquisizioni e sequestri informatici.",
+          "source_ref": "L. 48/2008, artt. 1, 4, 5, 7, 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "L. 90/2024: data, entrata in vigore, obblighi di segnalazione delle PA in 24/72 ore, aumento delle pene, estorsione informatica, abrogazione del 615-quinquies e nuovo 635-quater.1, aggravante della truffa a distanza, attenuanti (623-quater, 639-ter), confisca, sanzioni per gli enti.",
+          "source_ref": "L. 90/2024, artt. 1, 16, 20"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Rassegna dei reati informatici con pene vigenti: artt. 615-ter, 615-quater, 617-quater, 617-quinquies, 617-sexies, 635-bis, 635-ter, 635-quater, 635-quater.1, 635-quinquies, 640-ter, 640 c. 2 n. 2-ter, 629 c. 3, 494 c.p.",
+          "source_ref": "Codice penale, testo vigente su Normattiva; L. 90/2024, art. 16 (note con testo coordinato)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Procedibilità a querela o d'ufficio dei principali reati e termine di tre mesi per la querela.",
+          "source_ref": "c.p., artt. 124, 615-ter, 617-quater, 635-bis, 640-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Responsabilità della società per i reati commessi nel suo interesse o vantaggio e sanzioni dell'art. 24-bis.",
+          "source_ref": "D.Lgs. 231/2001, artt. 5 e 24-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tabella didattica che collega gli attacchi del corso alle possibili fattispecie, con l'avvertenza che la qualificazione spetta all'autorità giudiziaria; caso pratico.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Le multe dell'art. 640-ter non sono riportate: il testo vigente su Normattiva le esprime ancora in lire nel primo e secondo comma (conversione in euro da indicare). Sono riportate solo le pene detentive.",
+          "source_ref": "c.p., art. 640-ter"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1728 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Il sistema pensionistico italiano",
+  "topic_order": 8,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Fondamenti ed evoluzione del sistema pensionistico",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Organizzazione e benefici garantiti dal sistema pensionistico dello stato italiano ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "title": "Fondamenti ed evoluzione del sistema pensionistico",
+          "goals": [
+            "Spiegare il fondamento costituzionale e il criterio della ripartizione",
+            "Distinguere sistema retributivo, contributivo e misto",
+            "Ripercorrere le riforme dal 1992 al 2011"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il fondamento: l'articolo 38 della Costituzione",
+          "key": "«I lavoratori hanno diritto che siano preveduti ed assicurati mezzi adeguati alle loro esigenze di vita in caso di infortunio, malattia, invalidità e vecchiaia, disoccupazione involontaria.»",
+          "body": "La pensione pubblica è lo strumento con cui lo Stato garantisce questi mezzi in caso di vecchiaia. L'adeguatezza dei mezzi è il metro con cui si giudicano tutte le riforme.",
+          "ref": "Costituzione, art. 38, c. 2"
+        },
+        {
+          "layout": "compare",
+          "title": "Ripartizione e capitalizzazione",
+          "cols": [
+            {
+              "title": "Ripartizione: la pensione pubblica",
+              "items": [
+                "I contributi di lavoratori e aziende pagano le pensioni di chi ha già smesso di lavorare",
+                "Non si accumulano riserve per le pensioni future",
+                "Dipende dal rapporto tra lavoratori attivi e pensionati"
+              ]
+            },
+            {
+              "title": "Capitalizzazione: la previdenza complementare",
+              "items": [
+                "I contributi di ciascuno sono investiti e accumulati",
+                "La prestazione dipende dal capitale maturato e dai rendimenti",
+                "Il rischio è sui mercati, non sulla demografia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Due modi di calcolare la pensione",
+          "cols": [
+            {
+              "title": "Retributivo",
+              "items": [
+                "Importo legato alle retribuzioni degli ultimi anni di lavoro",
+                "Premia le carriere con stipendi crescenti",
+                "Poco legato ai contributi effettivamente versati"
+              ]
+            },
+            {
+              "title": "Contributivo",
+              "items": [
+                "Si sommano i contributi versati, rivalutati nel tempo: il montante",
+                "Il montante si trasforma in pensione con un coefficiente legato all'età",
+                "Più contributi si versano, maggiore è la pensione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il calcolo contributivo in quattro passi",
+          "steps": [
+            {
+              "label": "Contributi",
+              "text": "Ogni anno si accantona una quota della retribuzione."
+            },
+            {
+              "label": "Rivalutazione",
+              "text": "I contributi accumulati sono rivalutati secondo la legge."
+            },
+            {
+              "label": "Montante",
+              "text": "Alla pensione si ottiene il montante contributivo."
+            },
+            {
+              "label": "Coefficiente",
+              "text": "Montante × coefficiente di trasformazione, più alto quanto più tardi si esce."
+            }
+          ],
+          "ref": "L. 335/1995, tabella A; D.L. 201/2011, art. 24, c. 4"
+        },
+        {
+          "layout": "timeline",
+          "title": "Le prime riforme",
+          "items": [
+            {
+              "value": "Fino al 1992",
+              "text": "pensione INPS collegata alla retribuzione degli ultimi anni",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "value": "1992",
+              "text": "riforma Amato: età più alta, calcolo esteso all'intera vita lavorativa",
+              "ref": "D.Lgs. 503/1992"
+            },
+            {
+              "value": "1995",
+              "text": "riforma Dini: dal sistema retributivo a quello contributivo",
+              "ref": "L. 335/1995"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "La riforma Amato del 1992",
+          "items": [
+            {
+              "text": "Innalza l'età per la pensione di vecchiaia."
+            },
+            {
+              "text": "Estende gradualmente, fino all'intera vita lavorativa, il periodo di contribuzione valido per il calcolo."
+            },
+            {
+              "text": "Le retribuzioni di riferimento sono rivalutate all'1%: molto meno di prima della riforma."
+            },
+            {
+              "text": "Conserva alcune deroghe: per esempio 15 anni di contributi per chi li aveva già al 31 dicembre 1992."
+            }
+          ],
+          "ref": "Materiale originale; D.Lgs. 503/1992; INPS, Pensione di vecchiaia"
+        },
+        {
+          "layout": "table",
+          "title": "Dal 2000 al 2009",
+          "head": [
+            "Anno",
+            "Intervento",
+            "Che cosa cambia"
+          ],
+          "rows": [
+            [
+              "2000 · D.Lgs. 47/2000",
+              "Fisco della previdenza complementare",
+              "Trattamento fiscale migliore per chi aderisce a un fondo pensione; adesione anche individuale"
+            ],
+            [
+              "2004 · Riforma Maroni",
+              "L. 243/2004",
+              "Incentivi a chi rinvia la pensione di anzianità"
+            ],
+            [
+              "2005 · D.Lgs. 252/2005",
+              "Previdenza complementare",
+              "Attua la legge delega e sostituisce interamente il D.Lgs. 124/1993"
+            ],
+            [
+              "2007 · Riforma Prodi",
+              "Le «quote»",
+              "Pensione di anzianità con somma di età e anni lavorati"
+            ],
+            [
+              "2009 · L. 102/2009",
+              "Pubblico impiego",
+              "Età di vecchiaia delle lavoratrici pubbliche portata gradualmente a 65 anni"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La manovra «Salva Italia» del 2011",
+          "key": "Dal 2012 cambiano il calcolo delle pensioni, i requisiti di età per la vecchiaia, con il minimo di 20 anni di contributi, e i requisiti per la pensione anticipata, ex pensione di anzianità.",
+          "body": "Dal 1° gennaio 2012, per le anzianità maturate da quella data, la quota di pensione si calcola per tutti con il sistema contributivo.",
+          "ref": "Materiale originale; D.L. 201/2011, art. 24, c. 2"
+        },
+        {
+          "layout": "table",
+          "title": "Chi ha quale sistema",
+          "head": [
+            "Lavoratore",
+            "Calcolo"
+          ],
+          "rows": [
+            [
+              "1 · Contributi prima del 1996",
+              "Sistema misto: retributivo per gli anni passati, contributivo per gli altri, e comunque contributivo dal 2012"
+            ],
+            [
+              "2 · Primo contributo dal 1996",
+              "Interamente contributivo: regole e soglie di importo specifiche"
+            ]
+          ],
+          "ref": "INPS, Pensione di vecchiaia; D.L. 201/2011, art. 24, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "La speranza di vita",
+          "key": "I requisiti di età e di contribuzione si adeguano periodicamente all'aumento della speranza di vita, con decreti del Ministero dell'economia.",
+          "body": "Il decreto del 19 dicembre 2025 ha previsto tre mesi in più dal 2027. La legge di bilancio 2026 li applica in misura di un mese nel 2027 e per intero dal 2028.",
+          "ref": "D.L. 78/2010, art. 12; INPS, Circ. 28/2026"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente di 35 anni, primo contributo nel 2013, dice all'agente: «La pensione me la darà l'INPS sulla base del mio ultimo stipendio, come a mio padre».",
+          "questions": [
+            "Con quale sistema sarà calcolata la sua pensione?",
+            "Che cosa significa per lui in pratica?"
+          ],
+          "solution": "Avendo iniziato a contribuire dopo il 1995, ha un calcolo interamente contributivo: la pensione dipende dai contributi versati in tutta la vita lavorativa e dall'età di uscita, non dall'ultimo stipendio. Carriere discontinue o stipendi bassi nei primi anni pesano. È il punto di partenza per parlare di previdenza complementare."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa significa che il sistema pubblico è «a ripartizione»?",
+          "options": [
+            "Ognuno riceve i propri contributi investiti",
+            "I contributi di chi lavora pagano le pensioni in corso",
+            "Lo Stato accumula riserve per le pensioni future",
+            "Le pensioni sono pagate dai fondi pensione"
+          ],
+          "answer": 1,
+          "explanation": "Con la ripartizione i contributi versati oggi servono a pagare le pensioni di oggi. Non c'è accumulo di riserve per il futuro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale riforma ha introdotto il passaggio dal sistema retributivo al contributivo?",
+          "options": [
+            "La riforma Amato del 1992",
+            "La riforma Dini del 1995",
+            "La riforma Maroni del 2004",
+            "La riforma Prodi del 2007"
+          ],
+          "answer": 1,
+          "explanation": "La riforma Dini, legge 335 del 1995, ha introdotto il calcolo contributivo. La riforma Monti-Fornero lo ha esteso a tutti dal 2012."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una lavoratrice ha versato contributi dal 1990. Con quale sistema sarà calcolata la sua pensione?",
+          "options": [
+            "Solo retributivo",
+            "Solo contributivo",
+            "Misto: retributivo per una parte, contributivo per il resto e comunque dal 2012",
+            "Lo sceglie lei al momento della domanda"
+          ],
+          "answer": 2,
+          "explanation": "Chi ha contributi prima del 1996 ha un sistema misto. Dal 2012 le anzianità maturate si calcolano per tutti con il contributivo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 38",
+              "text": "Costituzione: mezzi adeguati in caso di vecchiaia"
+            },
+            {
+              "value": "Ripartizione",
+              "text": "i contributi di oggi pagano le pensioni di oggi"
+            },
+            {
+              "value": "1995",
+              "text": "riforma Dini: nasce il sistema contributivo"
+            },
+            {
+              "value": "2012",
+              "text": "contributivo per tutti sulle anzianità maturate"
+            },
+            {
+              "value": "Speranza di vita",
+              "text": "i requisiti salgono con l'aumento della longevità"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questo argomento studiamo il sistema pensionistico pubblico italiano: come è organizzato, quali benefici garantisce e come è cambiato negli ultimi trent'anni. Per un intermediario non è un tema lontano. Ogni proposta di previdenza complementare, di polizza vita o di piano di risparmio parte da una domanda: quanto prenderà il cliente dalla pensione pubblica, e quando?\n\nIl fondamento è nell'articolo 38, comma 2, della Costituzione: «I lavoratori hanno diritto che siano preveduti ed assicurati mezzi adeguati alle loro esigenze di vita in caso di infortunio, malattia, invalidità e vecchiaia, disoccupazione involontaria.» La pensione di vecchiaia è lo strumento con cui lo Stato garantisce questi mezzi quando si smette di lavorare. La parola chiave è «adeguati»: tutte le riforme che vedremo hanno cercato un equilibrio tra l'adeguatezza delle pensioni e la sostenibilità dei conti pubblici.\n\nNel nostro Paese il sistema pensionistico pubblico è strutturato secondo il criterio della ripartizione. Significa che i contributi che i lavoratori e le aziende versano agli enti di previdenza servono a pagare le pensioni di chi ha già lasciato l'attività lavorativa. Per far fronte alle pensioni future, dunque, non è previsto alcun accumulo di riserve. Il sistema funziona finché il numero e i redditi di chi lavora sono sufficienti a pagare le pensioni di chi è in quiescenza: per questo l'invecchiamento della popolazione e la bassa natalità lo mettono sotto pressione. La previdenza complementare funziona invece a capitalizzazione: i contributi di ciascun aderente sono investiti e accumulati sulla sua posizione individuale, e la prestazione dipende dal capitale maturato.\n\nAccanto al modo di finanziare, c'è il modo di calcolare la pensione. Nel sistema retributivo l'importo è legato alle retribuzioni degli ultimi anni di lavoro: premia chi ha avuto una carriera con stipendi crescenti, ed è poco legato ai contributi effettivamente versati. Nel sistema contributivo, invece, si sommano i contributi versati in tutta la vita lavorativa, rivalutati anno per anno secondo le regole di legge. Si ottiene così il montante contributivo, che al momento della pensione viene moltiplicato per un coefficiente di trasformazione, fissato dalla legge in base all'età. Il coefficiente cresce con l'età di uscita, perché la pensione dovrà essere pagata per meno anni. In sintesi: nel contributivo più contributi si versano e più tardi si esce, maggiore è la pensione.\n\nVediamo ora l'evoluzione. Fino a dicembre del 1992 il lavoratore iscritto all'INPS riceveva una pensione il cui importo era collegato alla retribuzione percepita negli ultimi anni di lavoro. Con la riforma Amato del 1992 lo scenario cambia: si innalza l'età per la pensione di vecchiaia e si estende gradualmente, fino all'intera vita lavorativa, il periodo di contribuzione valido per il calcolo; le retribuzioni prese a riferimento per determinare l'importo sono rivalutate all'1 per cento, una percentuale nettamente inferiore a quella applicata prima. Di quella riforma, il decreto legislativo 503 del 1992, restano ancora oggi alcune deroghe, come la possibilità di andare in pensione di vecchiaia con 15 anni di contributi per chi li aveva già maturati al 31 dicembre 1992.\n\nCon la riforma Dini del 1995, la legge 335, si passa dal sistema retributivo a quello contributivo. È una svolta: il calcolo contributivo si applica per intero a chi inizia a lavorare dal 1996, mentre chi aveva già contributi prima conserva, in tutto o in parte, il calcolo retributivo per gli anni passati.\n\nSeguono altri interventi. Con il decreto legislativo 47 del 2000 viene migliorato il trattamento fiscale per chi aderisce a un fondo pensione e si aprono nuove possibilità per aderire in forma individuale alla previdenza complementare. Con la riforma Maroni del 2004, la legge 243, vengono stabiliti incentivi per chi rinvia la pensione di anzianità. Con il decreto legislativo 252 del 2005 viene data attuazione alla legge delega del 2004 in materia di previdenza complementare, sostituendo interamente il decreto legislativo 124 del 1993. Con la riforma Prodi del 2007 si introducono le cosiddette quote per accedere alla pensione di anzianità, determinate dalla somma dell'età e degli anni lavorati. Con la legge 102 del 2009, dal primo gennaio 2010, l'età di pensionamento delle lavoratrici del pubblico impiego aumenta progressivamente fino a 65 anni.\n\nArriviamo alla manovra «Salva Italia», il decreto-legge 201 del 2011. Dal 2012 cambiano il sistema di calcolo delle pensioni, i requisiti di età per la pensione di vecchiaia, fermo restando il minimo di 20 anni di contributi, e i requisiti contributivi per la pensione anticipata, che prende il posto della pensione di anzianità. L'articolo 24, comma 2, stabilisce che dal primo gennaio 2012, per le anzianità contributive maturate da quella data, la quota di pensione si calcola per tutti con il sistema contributivo. La studieremo in dettaglio nella prossima lezione.\n\nOggi, quindi, i lavoratori si dividono in due grandi gruppi. Chi ha contributi versati prima del primo gennaio 1996 ha un sistema misto: retributivo per una parte del periodo e contributivo per il resto, e comunque contributivo per gli anni dal 2012. Chi ha il primo contributo dal 1996 ha un calcolo interamente contributivo, con regole e soglie specifiche che vedremo. Distinguere i due gruppi è il primo passo di ogni analisi previdenziale.\n\nUn ultimo meccanismo, decisivo: l'adeguamento alla speranza di vita. L'articolo 12 del decreto-legge 78 del 2010 prevede che i requisiti di età e di contribuzione si aggiornino periodicamente in base all'aumento della speranza di vita, con un decreto del Ministero dell'economia. Per il biennio 2027-2028 il decreto del 19 dicembre 2025 ha previsto un aumento di tre mesi. La legge di bilancio 2026 lo ha diluito: un mese in più nel 2027 e l'aumento intero di tre mesi dal 2028, come spiega la circolare INPS numero 28 del 2026. I requisiti, quindi, non sono numeri fissi: vanno sempre verificati sull'anno in cui il cliente andrà in pensione.\n\nPerché tutto questo interessa l'intermediario? Perché il passaggio al contributivo ha spostato sul lavoratore una parte del rischio. Con il retributivo la pensione era in gran parte prevedibile, perché agganciata all'ultimo stipendio. Con il contributivo l'importo dipende da quanto e per quanto tempo si è contribuito, dalla crescita dell'economia che rivaluta il montante e dall'età di uscita. Il rapporto tra la prima pensione e l'ultimo stipendio, che gli esperti chiamano tasso di sostituzione, tende quindi a essere più basso e più variabile da persona a persona. La differenza tra il reddito di cui il cliente avrà bisogno e la pensione pubblica attesa è lo spazio della previdenza complementare e del risparmio assicurativo. Ma va stimata con dati veri, partendo dall'estratto conto contributivo del cliente, e non con formule generiche.\n\nIl caso pratico. Un cliente di 35 anni, che ha versato il primo contributo nel 2013, dice all'agente: «La pensione me la darà l'INPS sulla base del mio ultimo stipendio, come a mio padre». Non è così. Avendo iniziato a lavorare dopo il 1995, la sua pensione sarà calcolata interamente con il sistema contributivo: dipenderà dai contributi versati in tutta la vita lavorativa e dall'età in cui andrà in pensione, non dall'ultimo stipendio. Anni di lavoro discontinuo o con retribuzioni basse peseranno sull'importo. Questa consapevolezza è il punto di partenza per una conversazione seria sulla previdenza complementare, da condurre con gli strumenti di stima messi a disposizione dall'INPS e dalle forme pensionistiche, senza promettere importi.",
+      "sources": [
+        {
+          "title": "D.L. 6 dicembre 2011, n. 201, art. 24 (riforma Monti-Fornero)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-12-06;201~art24"
+        },
+        {
+          "title": "INPS, Pensione di vecchiaia",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html"
+        },
+        {
+          "title": "INPS, Circolare n. 28 del 16 marzo 2026 – Adeguamento dei requisiti alla speranza di vita 2027-2028",
+          "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/03/Circolare_15199/Allegati/16640_Circolare-numero-28-del-16-03-2026.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Confronto tra ripartizione e capitalizzazione e tra calcolo retributivo e contributivo, con i passaggi del calcolo contributivo.",
+          "source_ref": "L. 335/1995, tabella A (richiamata dal D.Lgs. 252/2005, art. 11, c. 3-ter); D.L. 201/2011, art. 24, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Deroga dei 15 anni di contributi per chi li aveva al 31.12.1992 (D.Lgs. 503/1992).",
+          "source_ref": "INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Calcolo contributivo per tutti dal 2012 per le anzianità maturate da quella data; distinzione tra sistema misto e contributivo puro.",
+          "source_ref": "D.L. 201/2011, art. 24, c. 2; INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Adeguamento dei requisiti alla speranza di vita e incremento 2027-2028.",
+          "source_ref": "D.L. 78/2010, art. 12; INPS, Circ. 28 del 16.03.2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e verifiche.",
+          "source_ref": "INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: con la riforma Amato le retribuzioni di riferimento «vengono rivalutate all'1%». Meccanismo esatto (indice ISTAT più un punto percentuale) e riferimento normativo da verificare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte la riforma Prodi del 2007 (quote) e la L. 102/2009 (età delle lavoratrici pubbliche a 65 anni): riferimenti puntuali (L. 247/2007; D.L. 78/2009 conv. L. 102/2009, art. 22-ter) non verificati.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte che il D.Lgs. 252/2005 attua «la predetta legge delega»: si tratta della delega della L. 243/2004. Precisato nel testo.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "La riforma Monti-Fornero e la pensione di vecchiaia",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Organizzazione e benefici garantiti dal sistema pensionistico dello stato italiano ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "title": "La riforma Monti-Fornero e la pensione di vecchiaia",
+          "goals": [
+            "Conoscere gli obiettivi e le novità della riforma del 2011",
+            "Indicare i requisiti attuali della pensione di vecchiaia",
+            "Capire il ruolo dell'assegno sociale come soglia e come tutela"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La prima grande innovazione",
+          "key": "La riforma estende su scala generale il calcolo contributivo: più contributi si versano, maggiore sarà la pensione, indipendentemente dalla retribuzione percepita durante la vita lavorativa.",
+          "body": "L'obiettivo dichiarato è equiparare il trattamento pensionistico di tutti i lavoratori, per l'equità del sistema, e rafforzarne la sostenibilità nel lungo periodo.",
+          "ref": "Materiale originale; D.L. 201/2011, art. 24, c. 1-2"
+        },
+        {
+          "layout": "compare",
+          "title": "Due soli tipi di pensione dal 2012",
+          "cols": [
+            {
+              "title": "Pensione di vecchiaia",
+              "items": [
+                "Resta in vigore, con requisiti nuovi",
+                "Si basa su età e almeno 20 anni di contributi"
+              ]
+            },
+            {
+              "title": "Pensione anticipata",
+              "items": [
+                "Sostituisce la pensione di anzianità",
+                "Si basa sui contributi versati, non sull'età"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "La vecchiaia come la prevedeva la riforma",
+          "head": [
+            "Categoria",
+            "Requisito di età indicato dalla fonte"
+          ],
+          "rows": [
+            [
+              "1 · Dipendenti pubblici e autonomi",
+              "66 anni"
+            ],
+            [
+              "2 · Lavoratrici del settore privato",
+              "66 anni e 3 mesi nel 2018"
+            ],
+            [
+              "3 · Lavoratrici autonome",
+              "66 anni nel 2018"
+            ]
+          ],
+          "lead": "Sono i requisiti del percorso di convergenza tra uomini e donne: oggi sono superati.",
+          "ref": "Materiale originale del corso; D.L. 201/2011, art. 24, c. 6"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il requisito di età oggi",
+          "items": [
+            {
+              "value": "67 anni",
+              "text": "nel 2026, per tutti gli iscritti a INPS e Gestione separata",
+              "ref": "INPS, Pensione di vecchiaia"
+            },
+            {
+              "value": "67 anni e 1 mese",
+              "text": "nel 2027",
+              "ref": "INPS, Circ. 28/2026"
+            },
+            {
+              "value": "67 anni e 3 mesi",
+              "text": "nel 2028, poi da adeguare alla speranza di vita",
+              "ref": "INPS, Circ. 28/2026"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I requisiti contributivi",
+          "items": [
+            {
+              "text": "Con contributi prima del 1996: almeno 20 anni, contando contributi da lavoro, riscatto, volontari e figurativi.",
+              "ref": "INPS"
+            },
+            {
+              "text": "Deroga a 15 anni per chi li aveva al 31.12.1992 o era autorizzato ai volontari prima di quella data, e per alcuni lavoratori discontinui.",
+              "ref": "D.Lgs. 503/1992"
+            },
+            {
+              "text": "Primo contributo dal 1996: 20 anni e una pensione almeno pari all'assegno sociale.",
+              "ref": "D.L. 201/2011, art. 24, c. 7"
+            },
+            {
+              "text": "In alternativa, sempre per chi ha iniziato dal 1996: 71 anni nel 2026 con 5 anni di contributi effettivi.",
+              "ref": "INPS"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "La soglia di importo per i contributivi",
+          "left": {
+            "title": "Che cosa diceva la riforma",
+            "items": [
+              "Pensione non inferiore a 1,5 volte l'assegno sociale",
+              "Soglia rivalutata con la variazione quinquennale del PIL nominale calcolata dall'ISTAT"
+            ]
+          },
+          "right": {
+            "title": "Che cosa dice la norma oggi",
+            "items": [
+              "Pensione non inferiore all'importo dell'assegno sociale",
+              "Soglia rivalutata con il PIL, ma mai sotto l'assegno sociale dell'anno"
+            ]
+          },
+          "note": "Chi non raggiunge la soglia a 67 anni può uscire a 71 anni con 5 anni di contributi, senza soglia.",
+          "noteRef": "D.L. 201/2011, art. 24, c. 7 (testo vigente); INPS"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Tutela assistenziale",
+          "title": "L'assegno sociale nel 2026",
+          "lead": "È la prestazione assistenziale per chi ha 67 anni e redditi sotto le soglie di legge. Ha sostituito la pensione sociale dal 1996.",
+          "facts": [
+            {
+              "label": "Importo",
+              "text": "546,24 euro al mese per 13 mensilità."
+            },
+            {
+              "label": "Reddito",
+              "text": "Sotto 7.101,12 euro l'anno se non coniugato, 14.202,24 euro se coniugato."
+            },
+            {
+              "label": "Requisiti",
+              "text": "Residenza effettiva in Italia e 10 anni di soggiorno legale e continuativo."
+            },
+            {
+              "label": "Caratteri",
+              "text": "Non reversibile, non tassato, non esportabile, non cedibile né pignorabile."
+            }
+          ],
+          "ref": "INPS, Assegno sociale (aggiornato al 20 ottobre 2026)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le categorie con regole diverse",
+          "items": [
+            {
+              "text": "Attività gravose (7 anni negli ultimi 10) e lavori faticosi e pesanti: 66 anni e 7 mesi con 30 anni di contributi fino al 2028."
+            },
+            {
+              "text": "Attività gravose per 6 anni negli ultimi 7: 67 anni con 30 anni di contributi fino al 2028."
+            },
+            {
+              "text": "Dipendenti con invalidità almeno dell'80%: nel 2026 56 anni le donne e 61 gli uomini, con finestra di 12 mesi."
+            }
+          ],
+          "ref": "INPS, Pensione di vecchiaia; L. 199/2025, art. 1, c. 186-189"
+        },
+        {
+          "layout": "concept",
+          "title": "Lavorare più a lungo: la flessibilità in uscita",
+          "key": "Chi ha i requisiti per la vecchiaia può proseguire l'attività: i coefficienti di trasformazione sono calcolati fino a 70 anni, quindi più si lavora, maggiore è la pensione maturata.",
+          "body": "La fonte descrive un pensionamento flessibile tra i 62 anni, 66 per i dipendenti pubblici, e i 70 anni. Nella norma vigente la flessibilità è affidata ai coefficienti, fatti salvi gli adeguamenti alla speranza di vita.",
+          "ref": "Materiale originale; D.L. 201/2011, art. 24, c. 4"
+        },
+        {
+          "layout": "compare",
+          "title": "Finestre e quote",
+          "cols": [
+            {
+              "title": "Finestre mobili abolite",
+              "items": [
+                "Dal 2012 la pensione di vecchiaia decorre dal mese successivo ai requisiti",
+                "Per la pensione anticipata dal 2019 c'è però una finestra di 3 mesi"
+              ]
+            },
+            {
+              "title": "Quote abolite, ma non del tutto",
+              "items": [
+                "Superato il sistema delle quote età + contributi",
+                "Restano per i lavori usuranti, indicizzate alla speranza di vita"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente nata nel 1960, che lavora dal 1998 con contratti discontinui, ha 17 anni di contributi. Chiede all'agente se potrà andare in pensione a 67 anni.",
+          "questions": [
+            "Ha i requisiti per la vecchiaia nel 2027?",
+            "Quali strade ha?"
+          ],
+          "solution": "Ha iniziato dopo il 1995: per la vecchiaia servono 20 anni di contributi e un importo almeno pari all'assegno sociale. Con 17 anni non li ha. Può continuare a lavorare o versare contributi volontari per raggiungere i 20 anni, oppure uscire a 71 anni con almeno 5 anni di contributi effettivi. La verifica va fatta sull'estratto conto INPS o con un patronato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è l'età per la pensione di vecchiaia nel 2026?",
+          "options": [
+            "66 anni",
+            "66 anni e 3 mesi",
+            "67 anni",
+            "67 anni e 3 mesi"
+          ],
+          "answer": 2,
+          "explanation": "Nel 2026 servono 67 anni. Salirà a 67 anni e 1 mese nel 2027 e a 67 anni e 3 mesi nel 2028."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per chi ha il primo contributo dal 1996, quale soglia di importo serve oggi per la vecchiaia a 67 anni?",
+          "options": [
+            "1,5 volte l'assegno sociale",
+            "Almeno l'importo dell'assegno sociale",
+            "3 volte l'assegno sociale",
+            "Nessuna soglia"
+          ],
+          "answer": 1,
+          "explanation": "La norma vigente chiede una pensione non inferiore all'assegno sociale. La soglia di 1,5 volte prevista nel 2011 è superata."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2 pensioni",
+              "text": "vecchiaia e anticipata, dal 2012"
+            },
+            {
+              "value": "67",
+              "text": "anni nel 2026; 67 e 1 mese nel 2027; 67 e 3 mesi nel 2028"
+            },
+            {
+              "value": "20",
+              "text": "anni di contributi, con le deroghe del 1992"
+            },
+            {
+              "value": "71",
+              "text": "anni con 5 di contributi, per i contributivi puri"
+            },
+            {
+              "value": "546,24",
+              "text": "euro: assegno sociale mensile 2026"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione studiamo la riforma Monti-Fornero, contenuta nell'articolo 24 del decreto-legge 201 del 2011, e la pensione di vecchiaia, cioè la prestazione su cui si basa la maggior parte delle pianificazioni previdenziali dei nostri clienti.\n\nLa prima grande innovazione della riforma è l'estensione, su scala generale, del calcolo contributivo. Secondo questo sistema, più contributi si versano, maggiore sarà la pensione corrisposta, indipendentemente dalla retribuzione percepita durante la vita lavorativa. La finalità del provvedimento è stata quella di equiparare il trattamento pensionistico di tutti i lavoratori, per raggiungere l'equità del sistema. Il comma 1 dell'articolo 24 indica anche gli altri principi: equità tra generazioni, flessibilità nell'accesso con incentivi a proseguire il lavoro, adeguamento dei requisiti alla speranza di vita, armonizzazione delle diverse gestioni.\n\nUn altro obiettivo è stato ridefinire le tipologie di pensione, sia nel sistema contributivo sia in quello misto. La pensione di anzianità cede il passo alla pensione anticipata; resta invece in vigore la pensione di vecchiaia. Dal 2012, quindi, i lavoratori possono contare sostanzialmente su due tipi di pensione: la nuova pensione di vecchiaia e la pensione anticipata. Oggi ci concentriamo sulla prima.\n\nIl materiale del corso descrive i requisiti come li prevedeva il percorso della riforma: per i dipendenti pubblici e per i lavoratori autonomi 66 anni; per le lavoratrici del settore privato 66 anni e 3 mesi nel 2018; per le lavoratrici autonome 66 anni nel 2018. Erano le tappe di un percorso di convergenza tra uomini e donne e tra dipendenti e autonomi, a cui si sono sommati gli adeguamenti alla speranza di vita. Oggi quei valori sono superati: il requisito è unico.\n\nSecondo l'INPS, nel 2026 per la pensione di vecchiaia servono 67 anni di età. Con l'adeguamento alla speranza di vita, l'età sale a 67 anni e 1 mese nel 2027 e a 67 anni e 3 mesi nel 2028; dal 2029 sarà da adeguare di nuovo. Il requisito vale per gli iscritti all'assicurazione generale obbligatoria, cioè lavoratori dipendenti e autonomi come artigiani, commercianti e coltivatori diretti, per le forme sostitutive ed esclusive e per la Gestione separata. Per i lavoratori del settore privato la pensione decorre dal primo giorno del mese successivo a quello in cui si perfezionano tutti i requisiti, o, su richiesta, dal mese successivo alla domanda.\n\nInsieme all'età servono i contributi. Per chi ha contributi versati prima del 1996 il requisito è di almeno 20 anni, contando tutta la contribuzione: da lavoro, da riscatto, volontaria e figurativa. Restano alcune deroghe introdotte dal decreto legislativo 503 del 1992, che consentono di andare in pensione con 15 anni di contributi: per chi li aveva già maturati al 31 dicembre 1992, per chi era stato autorizzato ai versamenti volontari prima di quella data e per alcuni lavoratori dipendenti con lunga anzianità assicurativa ma con anni di lavoro discontinuo.\n\nPer chi ha il primo contributo dal 1996, cioè per i contributivi puri, servono 67 anni nel 2026, almeno 20 anni di contributi e una condizione in più sull'importo. Il materiale del corso, rispecchiando il testo originario della riforma, indica che la pensione doveva avere un importo non inferiore a 1,5 volte l'assegno sociale, rivalutato annualmente in base alla variazione quinquennale del PIL nominale calcolata dall'ISTAT. Il testo vigente del comma 7 è cambiato: oggi basta una pensione non inferiore all'importo dell'assegno sociale. La soglia resta rivalutata con il PIL, ma non può mai essere inferiore all'assegno sociale dell'anno. Chi non raggiunge la soglia ha un'alternativa: andare in pensione a 71 anni nel 2026, 71 anni e 1 mese nel 2027 e 71 anni e 3 mesi nel 2028, con almeno cinque anni di contribuzione effettiva, senza vincolo di importo.\n\nVisto che è il riferimento delle soglie, conosciamo l'assegno sociale. È una prestazione assistenziale, non previdenziale: spetta a chi ha 67 anni ed è in condizioni economiche disagiate, anche senza contributi. Dal primo gennaio 1996 ha sostituito la pensione sociale. Per il 2026 vale 546,24 euro al mese per 13 mensilità, e spetta se il reddito annuo è inferiore a 7.101,12 euro per chi non è coniugato, o a 14.202,24 euro di reddito coniugale. Servono la residenza effettiva in Italia e dieci anni di soggiorno legale e continuativo. Non è reversibile ai superstiti, non è tassato, non è esportabile e non è cedibile né pignorabile. Se il titolare soggiorna all'estero per più di 29 giorni di fila, l'assegno è sospeso.\n\nAlcune categorie hanno requisiti diversi. I lavoratori addetti ad attività gravose per almeno sette anni negli ultimi dieci e quelli addetti ad attività particolarmente faticose e pesanti possono andare in pensione di vecchiaia a 66 anni e 7 mesi, con almeno 30 anni di contributi, fino al 2028. Chi ha svolto attività gravose per almeno sei anni negli ultimi sette può uscire a 67 anni con 30 anni di contributi, sempre fino al 2028: la legge di bilancio 2026 ha escluso queste categorie dall'aumento del biennio 2027-2028. I lavoratori dipendenti riconosciuti invalidi almeno all'80 per cento conservano requisiti di età più bassi: nel 2026 56 anni per le donne e 61 per gli uomini, con una finestra di dodici mesi.\n\nLa riforma ha anche introdotto una forma di flessibilità verso l'alto. Chi ha raggiunto i requisiti minimi per la vecchiaia può prolungare la vita lavorativa: il materiale del corso indica fino a un massimo di 70 anni, e precisa che più si continua a lavorare, maggiore sarà la pensione maturata. Il meccanismo, nel testo vigente del comma 4, è questo: il proseguimento dell'attività è incentivato dai coefficienti di trasformazione calcolati fino a 70 anni, fatti salvi gli adeguamenti alla speranza di vita. Il materiale parla anche di un pensionamento flessibile tra i 62 anni, 66 per i dipendenti pubblici, e i 70 anni: questa forbice non si ritrova nel testo vigente della norma, ed è da leggere come descrizione dell'impostazione originaria.\n\nDue ultime novità della riforma. Vengono eliminate le cosiddette finestre mobili: chi va in pensione dal primo gennaio 2012 riceve l'assegno già dal mese successivo alla maturazione dei requisiti. Va però precisato che per la pensione anticipata, dal 2019, il decreto-legge 4 del 2019 ha reintrodotto una finestra di tre mesi, che vedremo nella prossima lezione. Viene inoltre abrogato il sistema delle quote, secondo cui si aveva diritto alla pensione raggiungendo una certa somma di età e anzianità contributiva. Le quote non spariscono del tutto: per i lavoratori che svolgono attività usuranti si continua a usare questo sistema, indicizzato alla speranza di vita.\n\nChe cosa deve fare l'intermediario con queste informazioni? Non deve calcolare la pensione del cliente: è un compito dell'INPS, dei patronati e dei consulenti abilitati. Deve però saper porre le domande giuste. Quando ha iniziato a versare contributi, prima o dopo il 1996? Quanti anni di contributi ha oggi, e con quale continuità? Ha periodi di lavoro gravoso o un'invalidità riconosciuta? Le risposte dicono subito se il cliente rientra nel sistema misto o nel contributivo, se rischia di non raggiungere i 20 anni o la soglia di importo, e quanti anni mancano alla pensione. Sono le informazioni che servono per proporre, in modo adeguato, un prodotto previdenziale o di risparmio con l'orizzonte giusto.\n\nIl caso pratico. Una cliente nata nel 1960 lavora dal 1998 con contratti discontinui e ha 17 anni di contributi. Compie 67 anni nel 2027, quando il requisito sarà di 67 anni e 1 mese. Avendo iniziato dopo il 1995, per la vecchiaia le servono 20 anni di contributi e un importo almeno pari all'assegno sociale: con 17 anni non li ha. Le strade sono continuare a lavorare o valutare i contributi volontari per arrivare a 20 anni, oppure attendere i 71 anni e qualche mese, quando basteranno cinque anni di contribuzione effettiva. Per lei una rendita integrativa avrebbe un valore molto concreto. L'agente non deve fare il calcolo al posto dell'INPS: deve far emergere il problema e indirizzare la cliente all'estratto conto contributivo o a un patronato.",
+      "sources": [
+        {
+          "title": "D.L. 6 dicembre 2011, n. 201, art. 24 (riforma Monti-Fornero)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-12-06;201~art24"
+        },
+        {
+          "title": "INPS, Pensione di vecchiaia",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html"
+        },
+        {
+          "title": "INPS, Circolare n. 28 del 16 marzo 2026 – Adeguamento dei requisiti alla speranza di vita 2027-2028",
+          "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/03/Circolare_15199/Allegati/16640_Circolare-numero-28-del-16-03-2026.pdf"
+        },
+        {
+          "title": "INPS, Assegno sociale",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Requisito di età vigente: 67 anni nel 2026, 67 anni e 1 mese nel 2027, 67 anni e 3 mesi nel 2028; decorrenza.",
+          "source_ref": "INPS, Pensione di vecchiaia (aggiornata al 12.06.2026); INPS, Circ. 28/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti contributivi, deroghe a 15 anni, uscita a 71 anni con 5 anni di contributi effettivi.",
+          "source_ref": "INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Assegno sociale 2026: importo, soglie di reddito, requisiti e caratteri.",
+          "source_ref": "INPS, Assegno sociale (aggiornata al 20.10.2026)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti per attività gravose, faticose e pesanti e per invalidi almeno all'80%; esclusione dall'aumento 2027-2028.",
+          "source_ref": "INPS, Pensione di vecchiaia; INPS, Circ. 28/2026; L. 199/2025, art. 1, c. 186-189"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Finestra di tre mesi per la pensione anticipata dal 2019.",
+          "source_ref": "INPS, Pensione anticipata"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e verifiche.",
+          "source_ref": "INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i requisiti di 66 anni e di 66 anni e 3 mesi nel 2018: superati, oggi 67 anni (2026) con adeguamenti successivi.",
+          "source_ref": "INPS, Pensione di vecchiaia"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la soglia di 1,5 volte l'assegno sociale per i contributivi puri: il testo vigente dell'art. 24, c. 7, richiede un importo non inferiore all'assegno sociale.",
+          "source_ref": "D.L. 201/2011, art. 24, c. 7 (testo vigente)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la forbice di pensionamento flessibile tra 62 (66 per i pubblici) e 70 anni: non trovata nel testo vigente, che prevede coefficienti di trasformazione calcolati fino a 70 anni.",
+          "source_ref": "D.L. 201/2011, art. 24, c. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'abolizione delle finestre mobili dal 2012: precisato che per la pensione anticipata dal 2019 si applica una finestra di tre mesi (D.L. 4/2019).",
+          "source_ref": "INPS, Pensione anticipata"
+        }
+      ]
+    },
+    {
+      "title": "La pensione anticipata",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Organizzazione e benefici garantiti dal sistema pensionistico dello stato italiano ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "title": "La pensione anticipata",
+          "goals": [
+            "Distinguere la vecchia pensione di anzianità dalla pensione anticipata",
+            "Conoscere i requisiti ordinari, quelli dei contributivi puri e dei lavoratori precoci",
+            "Calcolare la decorrenza con la finestra di tre mesi"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Dalla pensione di anzianità a quella anticipata",
+          "cols": [
+            {
+              "title": "Pensione di anzianità",
+              "items": [
+                "Si otteneva facendo valere una certa contribuzione, indipendentemente dall'età",
+                "Eliminata dalla riforma del 2011",
+                "Resta per chi aveva maturato i requisiti entro il 31 dicembre 2011"
+              ]
+            },
+            {
+              "title": "Pensione anticipata",
+              "items": [
+                "In vigore dal 1° gennaio 2012",
+                "I requisiti si basano sui contributi versati, non sull'età",
+                "Consente di uscire prima dell'età di vecchiaia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "I contributi richiesti",
+          "items": [
+            {
+              "value": "42 anni e 10 mesi",
+              "text": "uomini, fino al 2026; donne: 41 anni e 10 mesi",
+              "ref": "Materiale originale; INPS"
+            },
+            {
+              "value": "42 anni e 11 mesi",
+              "text": "uomini nel 2027; donne: 41 anni e 11 mesi",
+              "ref": "INPS, Circ. 28/2026"
+            },
+            {
+              "value": "43 anni e 1 mese",
+              "text": "uomini nel 2028; donne: 42 anni e 1 mese",
+              "ref": "INPS, Circ. 28/2026"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Come si contano i contributi",
+          "items": [
+            {
+              "text": "Valgono i contributi versati o accreditati a qualsiasi titolo."
+            },
+            {
+              "text": "Nelle gestioni INPS servono comunque 35 anni senza malattia, disoccupazione e periodi simili."
+            },
+            {
+              "text": "Per chi è assicurato dal 1993, i contributi figurativi contano al massimo per cinque anni; il limite non vale per i contributivi puri."
+            },
+            {
+              "text": "Per i lavoratori dipendenti serve la cessazione del rapporto di lavoro; per gli autonomi no."
+            }
+          ],
+          "ref": "INPS, Pensione anticipata"
+        },
+        {
+          "layout": "steps",
+          "title": "La decorrenza: la finestra di tre mesi",
+          "steps": [
+            {
+              "label": "Requisito",
+              "text": "Il lavoratore matura i contributi richiesti."
+            },
+            {
+              "label": "Finestra",
+              "text": "Passano tre mesi, dal 30 gennaio 2019."
+            },
+            {
+              "label": "Decorrenza",
+              "text": "La pensione decorre dal mese successivo alla domanda, aperta la finestra."
+            },
+            {
+              "label": "Pubblici",
+              "text": "Per alcune casse dei dipendenti pubblici la finestra si allunga: 5 mesi nel 2026, 7 nel 2027, 9 dal 2028."
+            }
+          ],
+          "ref": "INPS, Pensione anticipata; D.L. 4/2019; L. 213/2023, art. 1, c. 162"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Contributivi puri",
+          "title": "L'anticipata per chi ha iniziato dal 1996",
+          "lead": "Oltre all'anticipata ordinaria, chi ha il primo contributo dal 1996 può uscire con un requisito di età.",
+          "facts": [
+            {
+              "label": "Età",
+              "text": "64 anni fino al 2026; 64 anni e 1 mese nel 2027; 64 anni e 3 mesi nel 2028."
+            },
+            {
+              "label": "Contributi",
+              "text": "Almeno 20 anni di contribuzione effettiva, senza figurativi; 20 anni e 1 mese nel 2027."
+            },
+            {
+              "label": "Importo",
+              "text": "Prima rata almeno 3 volte l'assegno sociale; 2,8 volte per le donne con un figlio, 2,6 con due o più."
+            },
+            {
+              "label": "Tetto",
+              "text": "Fino alla vecchiaia l'importo non supera 5 volte il trattamento minimo."
+            },
+            {
+              "label": "Finestra",
+              "text": "Tre mesi dalla maturazione dei requisiti."
+            }
+          ],
+          "ref": "INPS, Pensione anticipata; D.L. 201/2011, art. 24, c. 11"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché la soglia di importo conta",
+          "key": "Con l'assegno sociale 2026 a 546,24 euro, la prima rata deve essere di almeno 1.638,72 euro al mese: tre volte l'assegno.",
+          "body": "Per una donna con un figlio la soglia scende a 2,8 volte, circa 1.529 euro; con due o più figli a 2,6 volte, circa 1.420 euro. Una carriera con redditi bassi difficilmente la raggiunge.",
+          "ref": "Calcolo su INPS, Assegno sociale e Pensione anticipata"
+        },
+        {
+          "layout": "split",
+          "title": "Previdenza complementare e soglia: una regola durata un anno",
+          "left": {
+            "title": "Legge di bilancio 2025",
+            "items": [
+              "Consentiva di contare anche la rendita della previdenza complementare per raggiungere la soglia minima"
+            ]
+          },
+          "right": {
+            "title": "Legge di bilancio 2026",
+            "items": [
+              "Ha abrogato questa possibilità",
+              "La soglia va raggiunta con la sola pensione pubblica"
+            ]
+          },
+          "note": "Le regole cambiano spesso: prima di usare un argomento in una proposta, va verificato sulla fonte ufficiale.",
+          "noteRef": "INPS, Legge di bilancio 2026: le novità sulle pensioni"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Lavoratori precoci",
+          "title": "L'anticipata con 41 anni di contributi",
+          "lead": "Chi ha almeno 12 mesi di lavoro effettivo prima dei 19 anni può uscire con 41 anni di contributi, se si trova in una situazione tutelata.",
+          "facts": [
+            {
+              "label": "Disoccupati",
+              "text": "Dopo licenziamento o dimissioni per giusta causa, con l'indennità finita da almeno tre mesi."
+            },
+            {
+              "label": "Caregiver",
+              "text": "Da almeno sei mesi assistono un familiare convivente con disabilità grave."
+            },
+            {
+              "label": "Invalidi",
+              "text": "Riduzione della capacità lavorativa almeno del 74%."
+            },
+            {
+              "label": "Lavori gravosi",
+              "text": "Addetti a mansioni gravose per il periodo previsto dalla legge."
+            },
+            {
+              "label": "Dal 2027",
+              "text": "41 anni e 1 mese, poi 41 anni e 3 mesi nel 2028; per i gravosi resta 41 anni."
+            }
+          ],
+          "ref": "L. 232/2016, art. 1, c. 199; INPS, Circ. 28/2026"
+        },
+        {
+          "layout": "concept",
+          "title": "Restare al lavoro: l'incentivo al posticipo",
+          "key": "Il dipendente che matura i requisiti per l'anticipata ordinaria entro il 31 dicembre 2026 e sceglie di continuare a lavorare può beneficiare di un incentivo.",
+          "body": "La legge di bilancio 2026 lo ha esteso ai lavoratori che raggiungono 41 anni e 10 mesi di contributi, se donne, o 42 anni e 10 mesi, se uomini. Riprende l'idea della riforma Maroni: premiare chi rinvia l'uscita.",
+          "ref": "INPS, Legge di bilancio 2026: le novità sulle pensioni"
+        },
+        {
+          "layout": "compare",
+          "title": "Vecchiaia o anticipata? Le domande da fare",
+          "cols": [
+            {
+              "title": "Pensione di vecchiaia",
+              "items": [
+                "Conta l'età: 67 anni nel 2026",
+                "Bastano 20 anni di contributi",
+                "Decorre dal mese successivo ai requisiti",
+                "Adatta a carriere brevi o discontinue"
+              ]
+            },
+            {
+              "title": "Pensione anticipata",
+              "items": [
+                "Conta la durata dei contributi, non l'età",
+                "Serve una carriera lunga",
+                "Finestra di tre mesi",
+                "Il dipendente deve cessare il rapporto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un artigiano nato nel 1965 ha iniziato a lavorare a 17 anni, a luglio 1982, senza interruzioni. A gennaio 2027 avrà 44 anni e 6 mesi di contributi. Chiede all'agente quando potrà smettere e se gli conviene un piano di accumulo per i prossimi due anni.",
+          "questions": [
+            "Ha già i requisiti per l'anticipata?",
+            "Quando decorre la pensione?"
+          ],
+          "solution": "Nel 2026 servono 42 anni e 10 mesi agli uomini: li ha già maturati, a maggio 2025. La pensione decorre trascorsi tre mesi dalla maturazione, dal mese successivo alla domanda. Da autonomo non deve cessare l'attività. Un piano di accumulo di due anni ha senso solo come risparmio: per la previdenza complementare servono almeno cinque anni di partecipazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quanti anni di contributi servono a una donna per la pensione anticipata ordinaria nel 2026?",
+          "options": [
+            "41 anni e 10 mesi",
+            "42 anni e 10 mesi",
+            "38 anni",
+            "35 anni"
+          ],
+          "answer": 0,
+          "explanation": "Fino al 2026 servono 41 anni e 10 mesi per le donne e 42 anni e 10 mesi per gli uomini, senza requisito di età."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale condizione di importo serve per l'anticipata contributiva a 64 anni, per un uomo?",
+          "options": [
+            "Nessuna",
+            "Pensione almeno pari all'assegno sociale",
+            "Prima rata almeno 3 volte l'assegno sociale",
+            "Prima rata almeno 5 volte il trattamento minimo"
+          ],
+          "answer": 2,
+          "explanation": "Servono 64 anni, 20 anni di contribuzione effettiva e una prima rata di almeno 3 volte l'assegno sociale; 2,8 o 2,6 volte per le donne con figli."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "42 a 10 m",
+              "text": "contributi per gli uomini fino al 2026; 41 e 10 mesi per le donne"
+            },
+            {
+              "value": "3 mesi",
+              "text": "la finestra prima della decorrenza"
+            },
+            {
+              "value": "64 anni",
+              "text": "anticipata dei contributivi puri, con 20 anni e 3 volte l'assegno sociale"
+            },
+            {
+              "value": "41 anni",
+              "text": "contributi per i lavoratori precoci tutelati"
+            },
+            {
+              "value": "2027",
+              "text": "tutti i requisiti salgono di un mese"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto la pensione di vecchiaia. Ora ci occupiamo dell'altra pensione prevista dalla riforma del 2011: la pensione anticipata. È quella che interessa a chi ha iniziato a lavorare presto e ha una carriera lunga, e su cui i clienti hanno spesso idee confuse, anche perché le regole sono cambiate più volte.\n\nPartiamo dalla storia. La pensione di anzianità era il trattamento che si poteva ottenere facendo valere una certa contribuzione, indipendentemente dall'età raggiunta, o con la combinazione di età e contributi delle quote. Con la riforma si è deciso di eliminare le pensioni di anzianità: dal primo gennaio 2012 al loro posto entra in vigore la nuova pensione anticipata. L'INPS precisa che la pensione di anzianità resta accessibile solo per chi aveva maturato i requisiti entro il 31 dicembre 2011, cioè per i destinatari delle norme di salvaguardia.\n\nLa pensione anticipata sostituisce dunque la pensione di anzianità, e i requisiti si basano sui contributi versati, non sull'età del lavoratore. Il materiale del corso indica 42 anni e 10 mesi di contributi per gli uomini e 41 anni e 10 mesi per le donne. Questi valori sono ancora validi fino al 2026: sono rimasti fermi, senza adeguamenti alla speranza di vita, dal 2019. Dal 2027 cambiano: 42 anni e 11 mesi per gli uomini e 41 anni e 11 mesi per le donne; nel 2028 43 anni e 1 mese per gli uomini e 42 anni e 1 mese per le donne. Dal 2029 i requisiti andranno di nuovo adeguati.\n\nCome si contano i contributi? Valgono tutti i contributi versati o accreditati a qualsiasi titolo. Nelle gestioni dell'assicurazione generale obbligatoria resta però necessario avere 35 anni di contributi al netto dei periodi di malattia, disoccupazione e simili. Per chi è assicurato per la prima volta dal 1993, la contribuzione figurativa conta al massimo per cinque anni; il limite non vale per chi ha il primo contributo dal 1996. Il lavoratore dipendente deve cessare il rapporto di lavoro per ottenere la pensione, mentre l'autonomo può continuare la sua attività.\n\nAbbiamo visto che la riforma aveva abolito le finestre mobili. Per la pensione anticipata, però, il decreto-legge 4 del 2019 ha introdotto una finestra: per chi matura il requisito dal 30 gennaio 2019, la pensione decorre trascorsi tre mesi dalla maturazione del requisito contributivo, dal primo giorno del mese successivo alla domanda. Per i dipendenti pubblici iscritti ad alcune casse, come quelle degli enti locali e dei sanitari, la legge di bilancio 2024 ha allungato la finestra: cinque mesi per chi matura i requisiti nel 2026, sette nel 2027 e nove dal 2028.\n\nPer chi ha il primo contributo dal 1996, c'è anche una seconda strada, prevista dal comma 11 dell'articolo 24. Si può andare in pensione a 64 anni fino al 2026, a 64 anni e 1 mese nel 2027 e a 64 anni e 3 mesi nel 2028, con almeno 20 anni di contribuzione effettiva, senza contributi figurativi, che diventano 20 anni e 1 mese nel 2027 e 20 anni e 3 mesi nel 2028. Ma c'è una condizione sull'importo: la prima rata di pensione non deve essere inferiore a tre volte l'assegno sociale mensile. La soglia scende a 2,8 volte per le donne con un figlio e a 2,6 volte per quelle con due o più figli. Fino all'età della vecchiaia, l'importo di questa pensione non può superare cinque volte il trattamento minimo. Anche qui si applica la finestra di tre mesi.\n\nFacciamo due conti con l'assegno sociale del 2026, che vale 546,24 euro al mese. Tre volte fa 1.638,72 euro: è la prima rata lorda che serve a un uomo per uscire a 64 anni. Per una donna con un figlio, 2,8 volte fa circa 1.529 euro; con due o più figli, 2,6 volte fa circa 1.420 euro. Con il calcolo contributivo e 20 o 25 anni di contributi, raggiungere questi importi richiede redditi medio-alti. Per molti contributivi puri questa porta, in pratica, resta chiusa.\n\nUna notizia utile proprio per chi si occupa di previdenza complementare. La legge di bilancio 2025 aveva consentito di contare anche le rendite della previdenza complementare per raggiungere la soglia minima richiesta per la pensione anticipata o di vecchiaia nel sistema contributivo. La legge di bilancio 2026 ha abrogato questa norma dopo appena un anno. Oggi la soglia va raggiunta con la sola pensione pubblica. È un buon esempio di quanto sia rischioso usare in una proposta commerciale un argomento normativo senza verificarne la vigenza.\n\nCi sono poi i lavoratori precoci. L'articolo 1, comma 199, della legge 232 del 2016 consente di andare in pensione anticipata con un requisito contributivo ridotto, 41 anni, a chi ha almeno dodici mesi di contributi per lavoro effettivo prima dei 19 anni e si trova in una di queste condizioni: è disoccupato dopo un licenziamento, anche collettivo, dimissioni per giusta causa o risoluzione consensuale, e ha concluso da almeno tre mesi l'indennità di disoccupazione; assiste da almeno sei mesi il coniuge o un parente di primo grado convivente con disabilità grave, o in certi casi un parente o affine di secondo grado; ha una riduzione della capacità lavorativa almeno del 74 per cento; oppure è addetto a mansioni gravose per il periodo previsto dalla legge. Il requisito sale a 41 anni e 1 mese nel 2027 e a 41 anni e 3 mesi nel 2028, tranne che per gli addetti a mansioni gravose, per i quali la legge di bilancio 2026 lo ha lasciato a 41 anni. Anche qui la pensione decorre dopo tre mesi.\n\nInfine, chi ha i requisiti ma vuole restare al lavoro. Già la riforma Maroni del 2004 prevedeva incentivi per chi rinviava la pensione di anzianità. Oggi esiste un incentivo al posticipo del pensionamento per i lavoratori dipendenti, che la legge di bilancio 2026 ha esteso a chi matura entro il 31 dicembre 2026 i requisiti per la pensione anticipata ordinaria, cioè 41 anni e 10 mesi di contributi per le donne e 42 anni e 10 mesi per gli uomini. Le modalità le gestisce l'INPS su domanda del lavoratore.\n\nQuando un cliente chiede «quando vado in pensione?», conviene quindi fare due conti in parallelo. Il primo sull'età: in che anno compirà l'età di vecchiaia, tenendo conto che nel 2027 e nel 2028 i requisiti salgono. Il secondo sui contributi: in che anno raggiungerà i contributi richiesti per l'anticipata, e quindi, aggiungendo la finestra di tre mesi, quando decorrerà la pensione. Vince la data più vicina. Per chi ha iniziato a lavorare giovane e senza interruzioni, spesso è l'anticipata; per chi ha una carriera breve o discontinua, quasi sempre la vecchiaia, a patto di avere almeno 20 anni di contributi. Sono stime da confermare con l'estratto conto contributivo, ma bastano all'intermediario per capire quanti anni mancano e quale orizzonte dare a un piano di risparmio.\n\nIl caso pratico. Un artigiano nato nel 1965 ha iniziato a lavorare a 17 anni, a luglio 1982, senza interruzioni. A gennaio 2027 avrà 44 anni e 6 mesi di contributi. Nel 2026 il requisito per gli uomini è di 42 anni e 10 mesi: lo ha già maturato, a maggio 2025. La pensione decorre trascorsi tre mesi dalla maturazione, dal mese successivo alla domanda; essendo autonomo, non deve chiudere l'attività. Se pensa a un piano di accumulo per i prossimi due anni, l'agente deve essere chiaro: come risparmio può avere senso, ma per ottenere le prestazioni della previdenza complementare servono almeno cinque anni di partecipazione. Il prodotto va scelto sull'orizzonte reale del cliente.",
+      "sources": [
+        {
+          "title": "INPS, Pensione anticipata",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html"
+        },
+        {
+          "title": "INPS, Circolare n. 28 del 16 marzo 2026 – Adeguamento dei requisiti alla speranza di vita 2027-2028",
+          "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/03/Circolare_15199/Allegati/16640_Circolare-numero-28-del-16-03-2026.pdf"
+        },
+        {
+          "title": "INPS, Legge di bilancio 2026: le novità sulle pensioni",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html"
+        },
+        {
+          "title": "INPS, Assegno sociale",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html"
+        },
+        {
+          "title": "D.L. 6 dicembre 2011, n. 201, art. 24 (riforma Monti-Fornero)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-12-06;201~art24"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Pensione di anzianità ancora accessibile per i requisiti maturati entro il 31.12.2011.",
+          "source_ref": "INPS, Pensione anticipata"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conferma dei requisiti della fonte fino al 2026 e nuovi requisiti 2027-2028.",
+          "source_ref": "INPS, Pensione anticipata; INPS, Circ. 28/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole di computo dei contributi, cessazione del rapporto di lavoro, finestra di tre mesi e finestre più lunghe per alcune casse pubbliche.",
+          "source_ref": "INPS, Pensione anticipata; L. 213/2023, art. 1, c. 162"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pensione anticipata dei contributivi puri a 64 anni: contributi, soglia di 3 volte (2,8 e 2,6) l'assegno sociale, tetto di 5 volte il minimo; calcolo delle soglie 2026.",
+          "source_ref": "INPS, Pensione anticipata; INPS, Assegno sociale; D.L. 201/2011, art. 24, c. 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Abrogazione, con la legge di bilancio 2026, del computo delle rendite complementari per la soglia.",
+          "source_ref": "INPS, Legge di bilancio 2026: le novità sulle pensioni"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Lavoratori precoci: requisiti, condizioni tutelate e adeguamenti 2027-2028.",
+          "source_ref": "L. 232/2016, art. 1, c. 199; INPS, Circ. 28/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Incentivo al posticipo del pensionamento esteso dalla legge di bilancio 2026.",
+          "source_ref": "INPS, Legge di bilancio 2026: le novità sulle pensioni"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e verifiche.",
+          "source_ref": "INPS, Pensione anticipata"
+        }
+      ]
+    },
+    {
+      "title": "Le uscite anticipate temporanee: quote, Opzione donna e APE",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Organizzazione e benefici garantiti dal sistema pensionistico dello stato italiano ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "title": "Le uscite anticipate temporanee: quote, Opzione donna e APE",
+          "goals": [
+            "Conoscere Quota 100 e la pensione anticipata flessibile",
+            "Ricostruire requisiti e stato attuale di Opzione donna",
+            "Distinguere APE volontario e APE sociale, e il ruolo dell'assicurazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Misure sperimentali, a tempo",
+          "key": "Accanto a vecchiaia e anticipata, il legislatore ha previsto più volte canali di uscita temporanei, validi solo per chi matura i requisiti in un certo periodo.",
+          "body": "Chi ha maturato i requisiti nel periodo previsto conserva il diritto anche dopo la scadenza della misura. Per tutti gli altri conta la data: va sempre controllato se la misura è stata prorogata.",
+          "ref": "INPS, schede Quota 100, Pensione anticipata flessibile, Opzione donna"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "2019-2021",
+          "title": "Quota 100",
+          "lead": "Pensione anticipata introdotta dal 2019 per chi raggiungeva una «quota» di 100 tra età e contributi, ma con minimi precisi.",
+          "facts": [
+            {
+              "label": "Età",
+              "text": "Almeno 62 anni."
+            },
+            {
+              "label": "Contributi",
+              "text": "Almeno 38 anni, anche sommando gestioni INPS diverse."
+            },
+            {
+              "label": "Periodo",
+              "text": "Requisiti maturati tra il 1° gennaio 2019 e il 31 dicembre 2021."
+            },
+            {
+              "label": "Lavoro",
+              "text": "Necessaria la cessazione del lavoro dipendente; esclusi militari e forze di polizia."
+            },
+            {
+              "label": "Finestra",
+              "text": "Tre mesi nel privato, sei mesi nel pubblico impiego."
+            }
+          ],
+          "ref": "Materiale originale; INPS, Pensione Quota 100"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché non bastava «fare 100»",
+          "key": "Non tutti coloro la cui somma di età e contributi era 100 potevano uscire con Quota 100: servivano almeno 62 anni di età e 38 di contributi.",
+          "body": "Un lavoratore di 60 anni con 40 di contributi arrivava a 100, ma non aveva l'età minima. Uno di 64 anni con 36 di contributi, nemmeno: mancavano i contributi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "2024-2025",
+          "title": "La pensione anticipata flessibile (Quota 103)",
+          "lead": "Per chi ha maturato nel 2024 o nel 2025 almeno 62 anni di età e 41 anni di contributi.",
+          "facts": [
+            {
+              "label": "Calcolo",
+              "text": "Interamente con il sistema contributivo."
+            },
+            {
+              "label": "Tetto",
+              "text": "Fino alla vecchiaia, massimo 4 volte il trattamento minimo al mese."
+            },
+            {
+              "label": "Finestra",
+              "text": "7 mesi nel privato, 9 mesi nel pubblico impiego."
+            },
+            {
+              "label": "Redditi",
+              "text": "Non cumulabile con redditi da lavoro, salvo lavoro autonomo occasionale fino a 5.000 euro lordi l'anno."
+            },
+            {
+              "label": "2026",
+              "text": "Non prorogata: resta solo per chi aveva i requisiti entro il 31 dicembre 2025."
+            }
+          ],
+          "ref": "INPS, Pensione anticipata flessibile; INPS, Legge di bilancio 2026"
+        },
+        {
+          "layout": "concept",
+          "title": "Opzione donna: lo scambio",
+          "key": "Pensione agevolata riservata alle lavoratrici, che possono anticipare notevolmente l'uscita dal lavoro in cambio del ricalcolo contributivo della prestazione.",
+          "body": "Il ricalcolo contributivo riduce di solito l'importo rispetto al sistema misto. È una scelta definitiva: va valutata con una simulazione.",
+          "ref": "Materiale originale; INPS, Opzione donna"
+        },
+        {
+          "layout": "compare",
+          "title": "Opzione donna: requisiti di ieri e di oggi",
+          "cols": [
+            {
+              "title": "Nella fonte (versione 2016)",
+              "items": [
+                "Dipendenti: 57 anni e 7 mesi entro il 31 luglio 2016",
+                "Autonome: 58 anni e 7 mesi entro il 31 luglio 2016",
+                "35 anni di contributi al 31 dicembre 2015"
+              ]
+            },
+            {
+              "title": "Ultime versioni (2023-2025)",
+              "items": [
+                "35 anni di contributi e 60 anni (2022) o 61 anni (2023 e 2024), entro il 31 dicembre",
+                "Età ridotta di un anno per figlio, fino a due",
+                "Solo caregiver, invalide almeno al 74%, lavoratrici di aziende in crisi"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Opzione donna: decorrenza e stato attuale",
+          "items": [
+            {
+              "value": "12 mesi",
+              "text": "dalla maturazione dei requisiti, per le lavoratrici dipendenti",
+              "ref": "INPS, Opzione donna"
+            },
+            {
+              "value": "18 mesi",
+              "text": "per le lavoratrici autonome",
+              "ref": "INPS, Opzione donna"
+            },
+            {
+              "value": "31.12.2024",
+              "text": "ultima data utile per maturare i requisiti: non prorogata per il 2026",
+              "ref": "INPS, Legge di bilancio 2026"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "2017-2019",
+          "title": "L'APE volontario",
+          "lead": "Anticipo pensionistico ottenuto con un prestito bancario, il «prestito pensionistico», da restituire in 20 anni una volta ottenuta la pensione.",
+          "facts": [
+            {
+              "label": "Anticipo",
+              "text": "Fino a 3 anni e 7 mesi prima della vecchiaia, per almeno 6 mesi."
+            },
+            {
+              "label": "Requisiti",
+              "text": "Almeno 63 anni e 20 anni di contributi."
+            },
+            {
+              "label": "Restituzione",
+              "text": "240 rate trattenute sulla pensione."
+            },
+            {
+              "label": "Assicurazione",
+              "text": "Prestito assicurato contro la premorienza: se il beneficiario muore, la compagnia paga il debito residuo."
+            },
+            {
+              "label": "Oggi",
+              "text": "Sperimentale dal 1° maggio 2017 al 31 dicembre 2019: non si può più richiedere."
+            }
+          ],
+          "ref": "Materiale originale; INPS, APE volontario"
+        },
+        {
+          "layout": "compare",
+          "title": "APE volontario e APE sociale",
+          "cols": [
+            {
+              "title": "APE volontario",
+              "items": [
+                "Prestito bancario, a carico del lavoratore",
+                "Restituito con la pensione",
+                "Chiuso dal 2020"
+              ]
+            },
+            {
+              "title": "APE sociale",
+              "items": [
+                "Indennità a carico dello Stato per categorie tutelate",
+                "Prorogata fino al 31 dicembre 2026",
+                "63 anni e 5 mesi; domande entro il 30 novembre 2026"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Davanti a una misura «a tempo»: quattro controlli",
+          "items": [
+            {
+              "text": "Entro quale data vanno maturati i requisiti?"
+            },
+            {
+              "text": "La misura è stata prorogata dall'ultima legge di bilancio?"
+            },
+            {
+              "text": "Come si calcola l'assegno: misto o solo contributivo? C'è un tetto?"
+            },
+            {
+              "text": "Quale finestra si applica e si può continuare a lavorare?"
+            }
+          ],
+          "ref": "INPS, schede delle singole misure"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una lavoratrice dipendente nata nel 1963, con 36 anni di contributi e due figli, ha letto online di Opzione donna e vuole uscire nel 2027. Non è caregiver, non è invalida e la sua azienda non è in crisi.",
+          "questions": [
+            "Può usare Opzione donna?",
+            "Che cosa le dice l'intermediario?"
+          ],
+          "solution": "No. Le ultime versioni richiedevano requisiti maturati entro il 31 dicembre 2024 e l'appartenenza a una delle categorie tutelate; la misura non è stata prorogata per il 2026. Le restano la pensione anticipata ordinaria (41 anni e 11 mesi di contributi nel 2027) o la vecchiaia. L'intermediario la invita a verificare con l'INPS o un patronato e può proporle di integrare il reddito dei prossimi anni con strumenti complementari."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un lavoratore aveva 61 anni e 39 di contributi nel 2020. Poteva uscire con Quota 100?",
+          "options": [
+            "Sì, la somma supera 100",
+            "No, mancava l'età minima di 62 anni",
+            "No, servivano 41 anni di contributi",
+            "Sì, ma solo da autonomo"
+          ],
+          "answer": 1,
+          "explanation": "Quota 100 richiedeva almeno 62 anni di età e almeno 38 di contributi. La somma da sola non bastava."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nell'APE volontario, che cosa succedeva se il beneficiario moriva prima di restituire il prestito?",
+          "options": [
+            "Il debito passava agli eredi",
+            "La pensione ai superstiti veniva ridotta",
+            "L'assicurazione pagava il debito residuo alla banca",
+            "Lo Stato cancellava il debito"
+          ],
+          "answer": 2,
+          "explanation": "Il prestito era assicurato contro il rischio di premorienza: la compagnia pagava il residuo e la pensione ai superstiti era corrisposta senza decurtazioni."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "62 + 38",
+              "text": "Quota 100, per i requisiti maturati nel 2019-2021"
+            },
+            {
+              "value": "62 + 41",
+              "text": "pensione anticipata flessibile 2024-2025, non prorogata"
+            },
+            {
+              "value": "Contributivo",
+              "text": "il prezzo di Opzione donna e di Quota 103"
+            },
+            {
+              "value": "240 rate",
+              "text": "la restituzione dell'APE volontario, chiuso nel 2019"
+            },
+            {
+              "value": "2026",
+              "text": "APE sociale prorogata fino al 31 dicembre"
+            }
+          ]
+        }
+      ],
+      "narration": "Nelle lezioni precedenti abbiamo visto le due pensioni ordinarie, vecchiaia e anticipata. Negli ultimi anni il legislatore ha affiancato a queste regole diversi canali di uscita temporanei e sperimentali. Il materiale del corso ne cita alcuni: Quota 100, Opzione donna e APE volontario. Li studiamo insieme alle misure che li hanno seguiti, verificando sulle fonti INPS che cosa è ancora possibile oggi. È un esercizio utile anche perché i clienti si informano online, e spesso su misure che non esistono più.\n\nUna regola generale prima di cominciare. Queste misure valgono per chi matura i requisiti entro un certo periodo. Chi li ha maturati in tempo conserva il diritto e può chiedere la pensione anche dopo, purché le altre condizioni siano rispettate. Per tutti gli altri, la prima domanda da porsi è: la misura è stata prorogata?\n\nQuota 100. La pensione anticipata Quota 100, introdotta dal 2019, prevede la possibilità di uscire dal lavoro quando la somma di età e contribuzione è pari a 100. Ma, come sottolinea il materiale del corso, non tutti coloro la cui quota era pari a 100 potevano andare in pensione: serviva un'età minima di 62 anni e un requisito contributivo di 38 anni. L'INPS precisa che la misura riguarda i lavoratori dipendenti e autonomi che hanno maturato i requisiti tra il primo gennaio 2019 e il 31 dicembre 2021, iscritti all'assicurazione generale obbligatoria, alle forme sostitutive ed esclusive e alla Gestione separata, anche sommando i contributi di gestioni diverse. Era necessaria la cessazione del rapporto di lavoro dipendente, e restavano esclusi militari, forze di polizia, vigili del fuoco e Guardia di finanza. La pensione decorreva dopo una finestra di tre mesi nel settore privato e di sei mesi nel pubblico impiego.\n\nFacciamo due esempi per capire il senso dei minimi. Un lavoratore di 60 anni con 40 anni di contributi faceva 100, ma non aveva l'età minima di 62 anni. Uno di 64 anni con 36 anni di contributi faceva anch'esso 100, ma non aveva i 38 anni di contributi. Nessuno dei due poteva usare Quota 100.\n\nDopo Quota 100 sono arrivate altre quote. La più recente è la pensione anticipata flessibile, nota come Quota 103, che l'INPS descrive nelle versioni delle leggi di bilancio 2024 e 2025: spetta a chi ha maturato, nel 2024 o nel 2025, almeno 62 anni di età e 41 anni di contributi. Ha regole più restrittive: la pensione è calcolata interamente con il sistema contributivo; fino all'età della vecchiaia l'importo lordo mensile non può superare quattro volte il trattamento minimo; la finestra è di sette mesi nel privato e di nove nel pubblico impiego; e la pensione non è cumulabile con redditi da lavoro, salvo il lavoro autonomo occasionale fino a 5.000 euro lordi l'anno. La legge di bilancio 2026 non l'ha prorogata: resta accessibile solo a chi aveva maturato i requisiti entro il 31 dicembre 2025.\n\nOpzione donna. Il materiale del corso la descrive come una pensione agevolata dedicata alle sole lavoratrici, che possono anticipare notevolmente l'uscita dal lavoro in cambio del ricalcolo contributivo della prestazione. È uno scambio: si esce prima, ma con un assegno calcolato interamente con il sistema contributivo, che per chi ha contributi prima del 1996 è di norma più basso di quello del sistema misto. La scelta è definitiva e va valutata con una simulazione.\n\nI requisiti indicati nella fonte sono quelli della versione del 2016: per le lavoratrici dipendenti 57 anni e 7 mesi di età entro il 31 luglio 2016 e 35 anni di contributi al 31 dicembre 2015; per le lavoratrici autonome 58 anni e 7 mesi entro il 31 luglio 2016 e gli stessi 35 anni di contributi. Da allora la misura è stata più volte prorogata e modificata. Nelle ultime versioni, previste dalle leggi di bilancio 2023, 2024 e 2025, l'INPS indica questi requisiti: 35 anni di contributi e un'età di almeno 60 anni maturati entro il 31 dicembre 2022, oppure di almeno 61 anni maturati entro il 31 dicembre 2023 o entro il 31 dicembre 2024. L'età si riduce di un anno per ogni figlio, fino a un massimo di due anni; la riduzione massima vale anche senza figli per le dipendenti o licenziate da imprese con un tavolo di crisi aziendale. Inoltre, alla data della domanda, la lavoratrice deve trovarsi in una condizione tutelata: assistere un familiare con disabilità grave, avere un'invalidità almeno del 74 per cento, oppure lavorare o essere stata licenziata da un'azienda in crisi.\n\nLa pensione Opzione donna decorre dopo dodici mesi dalla maturazione dei requisiti per le dipendenti e dopo diciotto mesi per le autonome. La legge di bilancio 2026 non l'ha prorogata: resta solo per chi ha maturato i requisiti entro il 31 dicembre 2024.\n\nAPE volontario. Secondo il materiale del corso, è l'anticipo pensionistico che consente di uscire dal lavoro con 3 anni e 7 mesi di anticipo rispetto alla maturazione dei requisiti per la pensione di vecchiaia. Lo si ottiene grazie a un prestito bancario, il cosiddetto prestito pensionistico, che deve essere restituito in 20 anni, una volta perfezionati i requisiti per la pensione. L'INPS aggiunge i dettagli. Servivano almeno 63 anni di età e 20 anni di contributi; l'anticipo durava almeno sei mesi. Il prestito era erogato in quote mensili da banche aderenti a un accordo quadro con l'ABI e veniva restituito in 240 rate trattenute sulla pensione. Le somme ricevute non erano reddito ai fini IRPEF.\n\nC'è un aspetto che riguarda direttamente il nostro settore: il prestito era assicurato contro il rischio di premorienza da imprese di assicurazione aderenti a un accordo quadro con l'ANIA. Se il beneficiario moriva prima di aver restituito tutto, l'assicurazione pagava alla banca il debito residuo, e l'eventuale pensione ai superstiti veniva corrisposta senza decurtazioni. Una vera polizza credito vita, inserita in uno strumento pubblico. L'APE volontario però era sperimentale, dal primo maggio 2017 al 31 dicembre 2019: oggi non si può più chiedere, e il servizio INPS resta attivo solo per estinzioni e comunicazioni sui prestiti in corso.\n\nNon va confuso con l'APE sociale, che non è un prestito ma un'indennità a carico dello Stato per alcune categorie di lavoratori in difficoltà, fino alla pensione. La legge di bilancio 2026 l'ha prorogata fino al 31 dicembre 2026, con gli stessi requisiti, tra cui i 63 anni e 5 mesi di età, e con il divieto di cumulo con i redditi da lavoro, salvo il lavoro autonomo occasionale fino a 5.000 euro lordi l'anno. Le domande vanno presentate entro il 30 novembre 2026. Chi al momento del pensionamento gode dell'APE sociale, ricorda la circolare INPS 28 del 2026, non beneficia delle esclusioni dall'aumento dei requisiti previste per alcune categorie.\n\nDa queste misure possiamo ricavare un metodo semplice, da usare ogni volta che un cliente porta una notizia su una nuova uscita anticipata. Primo: entro quale data vanno maturati i requisiti? Secondo: la misura è stata prorogata dall'ultima legge di bilancio? Terzo: come si calcola l'assegno, con il sistema misto o solo con il contributivo, e c'è un tetto fino alla vecchiaia? Quarto: quale finestra si applica, e si può continuare a lavorare dopo la pensione? Le risposte si trovano sulle schede INPS, che riportano la data dell'ultimo aggiornamento. Con questi quattro controlli l'intermediario evita di alimentare aspettative sbagliate e può dare al cliente una prima indicazione affidabile.\n\nIl caso pratico. Una lavoratrice dipendente nata nel 1963, con 36 anni di contributi e due figli, ha letto online di Opzione donna e vorrebbe uscire nel 2027. Non assiste familiari disabili, non è invalida e la sua azienda non è in crisi. Non può usare Opzione donna: le ultime versioni richiedevano requisiti maturati entro il 31 dicembre 2024 e una delle condizioni tutelate, e la misura non è stata prorogata. Le restano la pensione anticipata ordinaria, che nel 2027 richiede alle donne 41 anni e 11 mesi di contributi, o la vecchiaia. L'intermediario non deve improvvisarsi consulente previdenziale: la invita a verificare la sua posizione con l'INPS o con un patronato e, se lei vuole lasciare prima il lavoro, può valutare con lei strumenti complementari per integrare il reddito degli anni che mancano. Nella prossima lezione vedremo proprio uno di questi strumenti: la RITA.",
+      "sources": [
+        {
+          "title": "INPS, Pensione Quota 100",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.52405.pensione-quota-100.html"
+        },
+        {
+          "title": "INPS, Pensione anticipata flessibile (leggi di bilancio 2024 e 2025)",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-flessibile-legge-di-bilancio-2024-e-legge-di-bilancio-2025-.html"
+        },
+        {
+          "title": "INPS, Pensione «Opzione donna» (leggi di bilancio 2023, 2024 e 2025)",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-opzione-donna-legge-di-bilancio-2023-legge-di-bilancio-2024-e-legge-di-bilancio-2025.html"
+        },
+        {
+          "title": "INPS, APE volontario – Anticipo finanziario a garanzia pensionistica",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.ape-volontario---anticipo-finanziario-a-garanzia-pensionistica-50306.ape-volontario---anticipo-finanziario-a-garanzia-pensionistica.html"
+        },
+        {
+          "title": "INPS, Legge di bilancio 2026: le novità sulle pensioni",
+          "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html"
+        },
+        {
+          "title": "INPS, Circolare n. 28 del 16 marzo 2026 – Adeguamento dei requisiti alla speranza di vita 2027-2028",
+          "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/03/Circolare_15199/Allegati/16640_Circolare-numero-28-del-16-03-2026.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Quota 100: periodo 2019-2021, destinatari, esclusioni, cumulo delle gestioni, finestre di 3 e 6 mesi.",
+          "source_ref": "INPS, Pensione Quota 100"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pensione anticipata flessibile 2024-2025 (62 anni e 41 di contributi): calcolo contributivo, tetto, finestre, incumulabilità; non prorogata nel 2026.",
+          "source_ref": "INPS, Pensione anticipata flessibile; INPS, Legge di bilancio 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Opzione donna nelle leggi di bilancio 2023-2025: requisiti, riduzioni per figli, categorie, decorrenze; non prorogata nel 2026.",
+          "source_ref": "INPS, Opzione donna; INPS, Legge di bilancio 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "APE volontario: 63 anni e 20 di contributi, 240 rate, assicurazione contro la premorienza con accordo ANIA, periodo sperimentale 2017-2019.",
+          "source_ref": "INPS, APE volontario"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "APE sociale prorogata fino al 31.12.2026, 63 anni e 5 mesi, domande entro il 30.11.2026.",
+          "source_ref": "INPS, Legge di bilancio 2026; INPS, Circ. 28/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi, caso pratico e verifiche.",
+          "source_ref": "INPS, schede citate"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i requisiti di Opzione donna della versione 2016: superati dalle versioni successive; misura non prorogata per il 2026.",
+          "source_ref": "INPS, Opzione donna; INPS, Legge di bilancio 2026"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la descrizione dell'APE volontario come misura disponibile: era sperimentale fino al 31.12.2019 e oggi non è più richiedibile.",
+          "source_ref": "INPS, APE volontario"
+        }
+      ]
+    },
+    {
+      "title": "RITA e PIR: anticipare e integrare il reddito",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Organizzazione e benefici garantiti dal sistema pensionistico dello stato italiano ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "title": "RITA e PIR: anticipare e integrare il reddito",
+          "goals": [
+            "Conoscere requisiti e funzionamento della RITA",
+            "Spiegare vantaggi e vincoli dei Piani individuali di risparmio",
+            "Usare questi strumenti in una consulenza corretta"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la RITA",
+          "key": "La Rendita integrativa temporanea anticipata permette agli iscritti alla previdenza complementare di ricevere una «rendita temporanea» dal proprio fondo pensione, fino all'età della pensione di vecchiaia.",
+          "body": "In pratica è l'erogazione frazionata, a rate, del montante accumulato nel fondo. Non è una pensione pubblica: è un ponte verso la pensione, pagato con i propri risparmi previdenziali.",
+          "ref": "Materiale originale; D.Lgs. 252/2005, art. 11, c. 4"
+        },
+        {
+          "layout": "compare",
+          "title": "Le due strade per ottenere la RITA",
+          "cols": [
+            {
+              "title": "Prima ipotesi",
+              "items": [
+                "Cessazione dell'attività lavorativa",
+                "Età di vecchiaia raggiunta entro 5 anni",
+                "Almeno 20 anni di contributi nei regimi obbligatori",
+                "Almeno 5 anni di partecipazione alla previdenza complementare"
+              ]
+            },
+            {
+              "title": "Seconda ipotesi",
+              "items": [
+                "Cessazione dell'attività lavorativa",
+                "Inoccupazione per oltre 24 mesi",
+                "Età di vecchiaia raggiunta entro 10 anni",
+                "Almeno 5 anni di partecipazione alla previdenza complementare"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "Quanto prima si può ricevere",
+          "items": [
+            {
+              "value": "5 anni",
+              "text": "prima dell'età di vecchiaia, dopo la cessazione del lavoro",
+              "ref": "D.Lgs. 252/2005, art. 11, c. 4"
+            },
+            {
+              "value": "10 anni",
+              "text": "prima, se si è inoccupati da oltre 24 mesi",
+              "ref": "art. 11, c. 4-bis"
+            },
+            {
+              "value": "57 anni",
+              "text": "l'età minima nel 2026 (67 − 10); dal 2027 sale con l'età di vecchiaia",
+              "ref": "Materiale originale; INPS"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Come funziona la RITA",
+          "items": [
+            {
+              "text": "Il lavoratore sceglie quanta parte del montante destinare alla RITA: tutto o solo una parte.",
+              "ref": "COVIP"
+            },
+            {
+              "text": "Le rate vanno dalla richiesta all'età di vecchiaia, con periodicità non superiore a tre mesi.",
+              "ref": "COVIP"
+            },
+            {
+              "text": "La eroga direttamente il fondo pensione.",
+              "ref": "COVIP"
+            },
+            {
+              "text": "Ha gli stessi limiti di cedibilità, sequestrabilità e pignorabilità delle pensioni pubbliche.",
+              "ref": "D.Lgs. 252/2005, art. 11, c. 10"
+            },
+            {
+              "text": "La parte di montante non usata resta investita e può essere chiesta poi in capitale o in rendita.",
+              "ref": "art. 11, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Trasferimento e decesso",
+          "left": {
+            "title": "Trasferimento ad altro fondo",
+            "items": [
+              "È sempre possibile",
+              "Riguarda l'intera posizione, compresa la parte impegnata per la RITA",
+              "La RITA è revocata automaticamente"
+            ]
+          },
+          "right": {
+            "title": "Decesso durante la RITA",
+            "items": [
+              "Il montante residuo delle rate non erogate, ancora in accumulo, può essere riscattato",
+              "Dagli eredi o dai beneficiari designati"
+            ]
+          },
+          "note": "Ogni anno chi riceve la RITA ottiene una comunicazione con rate erogate, operazioni, imposta applicata, rate residue e periodicità.",
+          "noteRef": "Materiale originale; COVIP"
+        },
+        {
+          "layout": "concept",
+          "title": "Il fisco della RITA in una riga",
+          "key": "La parte imponibile della RITA è tassata con ritenuta a titolo d'imposta dal 15% al 9%, secondo gli anni di partecipazione, salvo scelta della tassazione ordinaria.",
+          "body": "Lo abbiamo visto nell'argomento sul trattamento fiscale delle polizze vita e previdenziali.",
+          "ref": "D.Lgs. 252/2005, art. 11, c. 4-ter; dal 2027 TUIR, art. 258"
+        },
+        {
+          "layout": "concept",
+          "title": "I Piani individuali di risparmio",
+          "key": "I PIR permettono di investire, sostenere la crescita delle imprese italiane ed europee radicate in Italia e avere importanti agevolazioni fiscali. Sono un investimento di medio-lungo periodo riservato alle persone fisiche residenti in Italia.",
+          "body": "Si possono costituire con un deposito titoli, una gestione, quote di fondi o anche con un contratto di assicurazione sulla vita o di capitalizzazione.",
+          "ref": "Materiale originale; L. 232/2016, art. 1, c. 100-114; dal 2027 TUIR, art. 209"
+        },
+        {
+          "layout": "checklist",
+          "title": "I vantaggi indicati dalla fonte",
+          "items": [
+            {
+              "text": "Esenzione totale sui redditi finanziari, che altrimenti sarebbero tassati dal 12,5% al 26%."
+            },
+            {
+              "text": "Esenzione anche dalle imposte di successione."
+            },
+            {
+              "text": "Accessibili a tutti: si può attivare un piano di accumulo (PAC) anche con importi contenuti."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le condizioni: fonte e norma vigente",
+          "head": [
+            "Condizione",
+            "Nella fonte",
+            "Oggi"
+          ],
+          "rows": [
+            [
+              "1 · Durata",
+              "Almeno 5 anni",
+              "Strumenti detenuti almeno 5 anni, altrimenti tassazione ordinaria"
+            ],
+            [
+              "2 · Limiti",
+              "30.000 euro l'anno, 150.000 in totale",
+              "40.000 euro l'anno, 200.000 in totale; PIR alternativi 300.000 e 1.500.000"
+            ],
+            [
+              "3 · Composizione",
+              "70% Italia o UE con stabile organizzazione; 21% medie e piccole",
+              "70% come prima; per i piani dal 2020 almeno 25% fuori dal FTSE MIB e 5% fuori da FTSE MIB e Mid Cap"
+            ],
+            [
+              "4 · Concentrazione",
+              "—",
+              "Massimo 10% in un solo emittente o in liquidità"
+            ]
+          ],
+          "ref": "Materiale originale; D.Lgs. 117/2026, artt. 209-211 (testo coordinato di L. 232/2016 e D.L. 124/2019)"
+        },
+        {
+          "layout": "split",
+          "title": "La RITA: punti di forza e limiti",
+          "left": {
+            "title": "Punti di forza",
+            "items": [
+              "Reddito ponte per chi perde il lavoro vicino alla pensione",
+              "Tassazione agevolata, dal 15% al 9%",
+              "Flessibile: si sceglie quanta parte del montante usare"
+            ]
+          },
+          "right": {
+            "title": "Limiti",
+            "items": [
+              "Consuma il montante destinato alla pensione complementare",
+              "Richiede di aver aderito alla previdenza complementare per tempo",
+              "Non esiste per chi ha forme a prestazione definita"
+            ]
+          },
+          "note": "Va confrontata con le altre possibilità: anticipazioni, ammortizzatori sociali, APE sociale.",
+          "noteRef": "D.Lgs. 252/2005, art. 11, c. 4 e 4-ter"
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Parti dalla posizione pubblica del cliente: requisiti, data probabile di uscita, stima dell'importo."
+            },
+            {
+              "text": "Se il cliente rischia di smettere di lavorare prima, valuta l'adesione alla previdenza complementare almeno 5 anni prima: senza, la RITA non c'è."
+            },
+            {
+              "text": "Il PIR è un investimento con rischio di mercato e vincolo di 5 anni: va proposto solo se adeguato."
+            },
+            {
+              "text": "Non presentare la RITA come una pensione: riduce il montante che resterà dopo."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un dipendente di 59 anni, iscritto a un fondo pensione da 12 anni, con 34 anni di contributi INPS, viene licenziato a marzo 2026. Trova solo lavori saltuari. Chiede se può usare il fondo pensione per arrivare alla pensione.",
+          "questions": [
+            "Ha i requisiti per la RITA subito?",
+            "Quando potrebbe chiederla?"
+          ],
+          "solution": "Con la prima ipotesi no: la vecchiaia arriverà tra più di 5 anni. Con la seconda sì, ma dopo oltre 24 mesi di inoccupazione, quindi dal 2028, se l'età di vecchiaia è entro 10 anni: lo è. Ha più di 5 anni di partecipazione. Nel frattempo può chiedere un'anticipazione per esigenze proprie (fino al 30%, dopo 8 anni di iscrizione). La verifica va fatta con il fondo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa succede alla RITA se l'aderente trasferisce la posizione a un altro fondo?",
+          "options": [
+            "Continua presso il nuovo fondo",
+            "È revocata automaticamente e si trasferisce l'intera posizione",
+            "Il trasferimento è vietato",
+            "Si trasferisce solo la parte non impegnata"
+          ],
+          "answer": 1,
+          "explanation": "Il trasferimento resta possibile, ma riguarda l'intera posizione individuale, compresa la parte destinata alla RITA, che è revocata automaticamente."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quanto si può versare oggi in un PIR ordinario?",
+          "options": [
+            "30.000 euro l'anno, 150.000 in totale",
+            "40.000 euro l'anno, 200.000 in totale",
+            "300.000 euro l'anno, 1.500.000 in totale",
+            "Senza limiti"
+          ],
+          "answer": 1,
+          "explanation": "I limiti dei PIR ordinari sono stati elevati a 40.000 euro l'anno e 200.000 complessivi. I limiti di 300.000 e 1.500.000 euro valgono per i PIR alternativi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "5 o 10",
+              "text": "anni prima della vecchiaia: le due strade della RITA"
+            },
+            {
+              "value": "3 mesi",
+              "text": "periodicità massima delle rate RITA"
+            },
+            {
+              "value": "Revoca",
+              "text": "automatica della RITA in caso di trasferimento"
+            },
+            {
+              "value": "5 anni",
+              "text": "detenzione minima per l'esenzione del PIR"
+            },
+            {
+              "value": "40.000",
+              "text": "euro l'anno e 200.000 in totale nei PIR ordinari"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione dell'argomento vediamo due strumenti che il materiale del corso affianca al sistema pensionistico pubblico: la RITA, che consente di anticipare l'uso della previdenza complementare, e i PIR, i piani individuali di risparmio. Sono strumenti diversi: uno previdenziale, l'altro di investimento. Ma rispondono alla stessa esigenza: avere un reddito o un capitale in più rispetto a ciò che garantirà la pensione pubblica.\n\nLa RITA, Rendita integrativa temporanea anticipata, offre ai lavoratori iscritti alla previdenza complementare la possibilità di avere una «rendita temporanea» dal proprio fondo pensione, dal momento in cui la richiesta è accettata fino all'età della pensione di vecchiaia. Praticamente, è l'erogazione frazionata del montante accumulato nel fondo. È disciplinata dall'articolo 11, commi 4 e 4-bis, del decreto legislativo 252 del 2005. Attenzione a un equivoco: il materiale del corso dice che con la RITA diventa possibile mettersi in pensione a 57 anni. È vero che si può smettere di lavorare e ricevere la RITA da 57 anni, cioè dieci anni prima dei 67 della vecchiaia del 2026; ma non è una pensione pubblica, è il consumo anticipato dei propri risparmi previdenziali. E dal 2027, con l'aumento dell'età di vecchiaia, anche questa soglia sale.\n\nLa condizione basilare è la perdita del posto di lavoro, o più in generale la cessazione dell'attività lavorativa. Ci sono due vie alternative, con requisiti specifici. Prima ipotesi: cessazione dell'attività; maturazione dell'età per la pensione di vecchiaia nel regime obbligatorio entro cinque anni dalla cessazione; almeno 20 anni di contributi nei regimi obbligatori; almeno cinque anni di partecipazione alla previdenza complementare. Seconda ipotesi: cessazione dell'attività; maturazione dell'età di vecchiaia entro dieci anni; inoccupazione per oltre 24 mesi dopo la cessazione; almeno cinque anni di partecipazione alla previdenza complementare. Nella seconda ipotesi, dunque, la RITA può essere chiesta fino a dieci anni prima della vecchiaia. Una nota per completezza: il testo vigente dei commi 4 e 4-bis non nomina espressamente i cinque anni di partecipazione, che il materiale del corso indica tra i requisiti; è un punto da verificare con il regolamento del fondo e le istruzioni COVIP.\n\nCome funziona? Spetta al lavoratore decidere quanta parte del montante trasformare in RITA: secondo la COVIP, la scelta può riguardare l'intera posizione individuale o solo una sua parte. La parte non utilizzata resta investita e, al momento della pensione, può essere chiesta in capitale o in rendita. Il periodo di erogazione va dalla richiesta fino all'età di vecchiaia. La COVIP ritiene che le rate debbano avere una periodicità non superiore a tre mesi, e ha segnalato come irregolari i fondi che prevedevano rate semestrali o annuali. Rientra nella competenza dei fondi pensione erogare direttamente la RITA, che è soggetta agli stessi limiti di cedibilità, sequestrabilità e pignorabilità delle pensioni pubbliche, come conferma il comma 10 dell'articolo 11.\n\nChi riceve la RITA può trasferirsi presso un altro fondo pensione. Tuttavia il trasferimento deve riguardare l'intera posizione individuale, compresa la parte impegnata per la RITA: di conseguenza la RITA viene necessariamente e automaticamente revocata. In caso di decesso dell'iscritto durante la RITA, il montante residuo corrispondente alle rate non ancora erogate, che è ancora in fase di accumulo, può essere riscattato. E ogni anno chi riceve la RITA ottiene dal fondo una comunicazione specifica sulle rate erogate, le operazioni dell'anno, l'imposta applicata, il numero delle rate residue e la loro periodicità. Sul piano fiscale, come abbiamo visto nell'argomento dedicato, la parte imponibile è tassata con una ritenuta dal 15 al 9 per cento, salvo scelta della tassazione ordinaria.\n\nPassiamo ai PIR. Il materiale del corso li presenta come un nuovo strumento, ideato per consentire ai risparmiatori di investire il proprio denaro, contribuire alla crescita economica del Paese e usufruire allo stesso tempo di importanti agevolazioni fiscali. Sono uno strumento di investimento di medio e lungo periodo, riservato alle persone fisiche fiscalmente residenti in Italia. Sono nati con la legge di bilancio 2017, la 232 del 2016, e dal 2027 la loro disciplina si trova negli articoli da 209 a 211 del nuovo testo unico delle imposte sui redditi. Per noi è importante un dettaglio: il piano si può costituire anche con un contratto di assicurazione sulla vita o di capitalizzazione, quindi esistono PIR assicurativi.\n\nI vantaggi indicati dalla fonte sono tre. L'esenzione totale della tassazione sui redditi finanziari, che normalmente sono tassati dal 12,5 al 26 per cento: il risparmiatore non paga imposte sulle rendite finanziarie generate dall'investimento, a condizione di rispettare i vincoli. L'esenzione dalle imposte di successione. E l'accessibilità: i fondi PIR sono alla portata di tutti, ed è possibile attivare un piano di accumulo, il PAC, anche con importi contenuti.\n\nLe condizioni per i benefici, invece, sono cambiate. Il materiale del corso indica: mantenere il PIR per almeno cinque anni; un importo massimo di 30.000 euro l'anno e di 150.000 euro in totale; una composizione per almeno il 70 per cento in azioni e obbligazioni di emittenti italiani o europei con stabile organizzazione in Italia, e per il 21 per cento, cioè il 30 per cento del 70, in società a media e piccola capitalizzazione. Il vincolo dei cinque anni è confermato: gli strumenti devono essere detenuti almeno cinque anni, altrimenti i redditi realizzati sono tassati secondo le regole ordinarie. I limiti, invece, sono oggi più alti: 40.000 euro l'anno ed entro 200.000 euro complessivi. Esistono poi i PIR cosiddetti alternativi, più concentrati sulle piccole e medie imprese non quotate nei listini principali, con limiti di 300.000 euro l'anno e 1.500.000 euro complessivi. Il 70 per cento resta, ma per i piani costituiti dal 2020 almeno il 25 per cento del valore complessivo va investito in imprese fuori dal FTSE MIB e almeno un ulteriore 5 per cento in imprese fuori sia dal FTSE MIB sia dal FTSE Mid Cap. In ogni caso non si può investire più del 10 per cento in strumenti di uno stesso emittente o in depositi e conti correnti.\n\nProviamo a mettere sulla bilancia la RITA. I punti di forza sono evidenti: offre un reddito ponte a chi perde il lavoro a pochi anni dalla pensione, con una tassazione agevolata dal 15 al 9 per cento, e lascia libero l'aderente di decidere quanta parte del montante usare. Ma ha anche limiti che vanno detti. Consuma il montante che altrimenti integrerebbe la pensione per tutta la vita: ciò che si prende prima non ci sarà dopo. Richiede di aver aderito alla previdenza complementare con sufficiente anticipo. E non si applica alle forme pensionistiche in regime di prestazione definita, che la legge esclude espressamente. Per questo va sempre confrontata con le altre possibilità: un'anticipazione, gli ammortizzatori sociali, o l'APE sociale per chi rientra nelle categorie tutelate.\n\nCome usare questi strumenti in una consulenza corretta? Il punto di partenza è sempre la posizione pubblica del cliente: quando potrà andare in pensione, con quali requisiti e con quale importo stimato. Se il cliente rischia di smettere di lavorare prima, la RITA può essere un ponte prezioso, ma solo se ha aderito alla previdenza complementare con sufficiente anticipo. Il PIR è invece un investimento con rischio di mercato, concentrato su imprese italiane e spesso di minori dimensioni, con un vincolo di cinque anni: va proposto solo se adeguato al profilo del cliente. E la RITA non va mai presentata come una pensione: ogni rata riduce il montante che resterà dopo.\n\nIl caso pratico. Un dipendente di 59 anni, iscritto a un fondo pensione da dodici anni e con 34 anni di contributi INPS, viene licenziato a marzo 2026 e trova solo lavori saltuari. Può usare il fondo per arrivare alla pensione? Con la prima ipotesi no: l'età di vecchiaia arriverà fra più di cinque anni. Con la seconda ipotesi sì, ma solo dopo oltre 24 mesi di inoccupazione, quindi dalla primavera del 2028, quando l'età di vecchiaia sarà entro dieci anni. Ha più di cinque anni di partecipazione. Nel frattempo, avendo più di otto anni di iscrizione, può chiedere un'anticipazione fino al 30 per cento per ulteriori esigenze, tassata al 23 per cento. Sono valutazioni da fare con il fondo, ma il ruolo dell'intermediario è far conoscere al cliente strade che spesso ignora. Con questa lezione abbiamo completato il quadro del sistema pensionistico: dalla pensione pubblica agli strumenti che la integrano.",
+      "sources": [
+        {
+          "title": "D.Lgs. 5 dicembre 2005, n. 252, art. 11 – Prestazioni",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252~art11"
+        },
+        {
+          "title": "COVIP, Note informative: criticità riscontrate sulla RITA",
+          "url": "https://www.covip.it/sites/default/files/notizie/RITA_Circolare_Criticita-Versione-2.pdf"
+        },
+        {
+          "title": "COVIP, Schemi di statuto e regolamento – documento per la consultazione",
+          "url": "https://www.covip.it/sites/default/files/pubbliche_consultazioni/Documento-per-la-consultazione.pdf"
+        },
+        {
+          "title": "D.Lgs. 19 giugno 2026, n. 117 – Nuovo Testo unico delle imposte sui redditi (applicabile dal 1° gennaio 2027)",
+          "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+        },
+        {
+          "title": "INPS, Pensione di vecchiaia",
+          "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Riferimento normativo della RITA e conferma delle due ipotesi; parte di montante non utilizzata richiedibile poi in capitale o rendita.",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 4 e 4-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Periodicità delle rate non superiore a tre mesi, come indicato dalla COVIP (Circ. 888/2018), e irregolarità delle rate semestrali o annuali.",
+          "source_ref": "COVIP, criticità riscontrate sulla RITA"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Revoca automatica della RITA in caso di trasferimento, come previsto negli schemi COVIP.",
+          "source_ref": "COVIP, documento per la consultazione sugli schemi di statuto"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "PIR: costituzione anche tramite contratto vita o di capitalizzazione; limiti vigenti 40.000/200.000 euro; PIR alternativi 300.000/1.500.000 euro; vincolo di 5 anni; composizione per i piani dal 2020; limite del 10% per emittente.",
+          "source_ref": "D.Lgs. 117/2026, artt. 209-211 (testo coordinato di L. 232/2016 e D.L. 124/2019)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indicazioni operative, caso pratico e verifiche.",
+          "source_ref": "D.Lgs. 252/2005, art. 11"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «Con la Rita diventa possibile mettersi in pensione a 57 anni». Precisato che la RITA non è una pensione pubblica e che l'età minima (vecchiaia − 10 anni) cresce dal 2027.",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 4-bis; INPS, Circ. 28/2026"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il requisito di 5 anni di partecipazione alla previdenza complementare per la RITA: non compare espressamente nel testo vigente dei commi 4 e 4-bis. Da verificare con le istruzioni COVIP.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la possibilità di riscattare il montante residuo in caso di decesso durante la RITA. Riferimento normativo (D.Lgs. 252/2005, art. 14, c. 3) da verificare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i limiti PIR di 30.000/150.000 euro e la composizione 70%/21%: superati. Limiti elevati a 40.000/200.000 euro; per i piani dal 2020 vincoli del 25% + 5%.",
+          "source_ref": "D.Lgs. 117/2026, artt. 209 e 211"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'esenzione dalle imposte di successione per i PIR: riferimento normativo non verificato.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte definisce i PIR «un nuovo strumento»: sono stati introdotti nel 2017. Mantenuta la descrizione con la data.",
+          "source_ref": "L. 232/2016, art. 1, c. 100-114"
+        }
+      ]
+    }
+  ]
+}

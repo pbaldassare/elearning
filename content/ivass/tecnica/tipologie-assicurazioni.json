@@ -1,0 +1,1327 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Principali tipologie di assicurazioni",
+  "topic_order": 9,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Una mappa delle tipologie: vita, danni, famiglie e aziende",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Principali tipologie di assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Principali tipologie di assicurazioni.pdf (1).pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di assicurazioni",
+          "title": "Una mappa delle tipologie di assicurazione",
+          "goals": [
+            "Classificare un prodotto per copertura (vita o danni) e per mercato (famiglie o aziende)",
+            "Collocare nei rami del Codice le dieci famiglie di assicurazioni danni",
+            "Capire perché il premio vita e il premio danni si calcolano in modo diverso"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Due criteri per orientarsi",
+          "key": "I prodotti assicurativi si distinguono in base alla copertura offerta, polizze vita o polizze danni, e al mercato finale a cui si rivolgono: famiglie o aziende.",
+          "body": "La definizione resta quella dell'art. 1882 c.c.: l'assicuratore, verso un premio, risarcisce un danno oppure paga un capitale o una rendita al verificarsi di un evento attinente alla vita umana.",
+          "ref": "Art. 1882 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Famiglie e aziende",
+          "cols": [
+            {
+              "title": "Mercato famiglie (retail)",
+              "items": [
+                "Auto, casa, infortuni, salute",
+                "Vita: protezione e risparmio",
+                "RC della vita privata, viaggio, animali domestici",
+                "Prodotti standard, condizioni predefinite"
+              ]
+            },
+            {
+              "title": "Mercato aziende",
+              "items": [
+                "Beni aziendali, RC dell'impresa e professionale",
+                "Credito, cauzioni, trasporti, rischi tecnici",
+                "Coperture per dipendenti e soci",
+                "Per le grandi imprese, contratti costruiti su misura"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze linked: vita, ma con anima finanziaria",
+          "key": "Le polizze linked restano assicurazioni sulla vita, ma sono veri strumenti di investimento: il loro valore dipende dall'andamento di un'attività di riferimento.",
+          "body": "Nelle unit linked il riferimento è un fondo d'investimento; nelle index linked un indice azionario o un altro valore. Il dettaglio sul ramo III e sulle regole di distribuzione è nell'area giuridica.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le dieci famiglie danni e i rami del Codice",
+          "lead": "Il materiale elenca dieci tipologie. Ecco dove si collocano nella classificazione dell'art. 2 CAP.",
+          "head": [
+            "Tipologia",
+            "Che cosa tutela",
+            "Rami"
+          ],
+          "rows": [
+            [
+              "1 · Cose",
+              "Singoli beni del patrimonio",
+              "3-9"
+            ],
+            [
+              "2 · Persone",
+              "Infortuni e malattia",
+              "1-2"
+            ],
+            [
+              "3 · Responsabilità civile",
+              "Il patrimonio contro le richieste dei terzi",
+              "10-13"
+            ],
+            [
+              "4 · Credito",
+              "Insolvenza dei debitori",
+              "14"
+            ],
+            [
+              "5 · Cauzioni",
+              "Il beneficiario di un obbligo del contraente",
+              "15"
+            ],
+            [
+              "6 · Grandine",
+              "Soprattutto i raccolti",
+              "9"
+            ],
+            [
+              "7 · Trasporti",
+              "Corpi di veicoli, merci, RC marittima",
+              "4, 6, 7, 12"
+            ],
+            [
+              "8 · Aviazione",
+              "Corpi di veicoli aerei e RC aeromobili",
+              "5, 11"
+            ],
+            [
+              "9 · Tecniche",
+              "Cantieri, macchinari, impianti",
+              "Più rami (categoria di mercato)"
+            ],
+            [
+              "10 · Assistenza",
+              "Persone in situazione di difficoltà",
+              "18"
+            ]
+          ],
+          "ref": "Materiale originale; art. 2, c. 3 CAP"
+        },
+        {
+          "layout": "facts",
+          "title": "Quattro famiglie meno note",
+          "lead": "Le prime tipologie sono trattate negli altri argomenti dell'area. Queste quattro meritano una parola in più.",
+          "facts": [
+            {
+              "label": "Trasporti",
+              "text": "Ramo 7: ogni danno a merci e bagagli trasportati, qualunque sia il mezzo. Rami 4 e 6: corpi di veicoli ferroviari e marittimi."
+            },
+            {
+              "label": "Aviazione",
+              "text": "Ramo 5: ogni danno subito da veicoli aerei. Ramo 11: ogni responsabilità dall'uso di veicoli aerei, compresa quella del vettore."
+            },
+            {
+              "label": "Tecniche",
+              "text": "Non è un ramo del Codice: il mercato chiama così le coperture di cantieri, macchinari e impianti, che ricadono in più rami."
+            },
+            {
+              "label": "Assistenza",
+              "text": "Ramo 18: assistenza alle persone in situazione di difficoltà."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le autorizzazioni per gruppi di rami",
+          "lead": "Quando l'impresa è autorizzata per più rami insieme, l'autorizzazione prende un nome.",
+          "head": [
+            "Denominazione",
+            "Rami compresi"
+          ],
+          "rows": [
+            [
+              "Assicurazioni auto",
+              "1 (persone trasportate), 3, 7 e 10"
+            ],
+            [
+              "Assicurazioni marittime e trasporti",
+              "1 (persone trasportate), 4, 6, 7 e 12"
+            ],
+            [
+              "Assicurazioni aeronautiche",
+              "1 (persone trasportate), 5, 7 e 11"
+            ],
+            [
+              "Incendio ed altri danni ai beni",
+              "8 e 9"
+            ],
+            [
+              "Credito e cauzione",
+              "14 e 15"
+            ]
+          ],
+          "ref": "Art. 2, c. 4 CAP"
+        },
+        {
+          "layout": "split",
+          "title": "Come si calcola il premio",
+          "left": {
+            "title": "Vita",
+            "items": [
+              "Si parte dal rischio attinente alla vita umana",
+              "Si usano tavole demografiche coerenti con l'oggetto della copertura",
+              "Un caso morte e una rendita usano ipotesi diverse sulla durata della vita"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Danni",
+            "items": [
+              "Criteri soggettivi: chi è l'assicurato, la sua storia, le sue abitudini",
+              "Criteri oggettivi: il bene, il luogo, l'attività, le protezioni",
+              "Nella RC auto: dati del contraente, del veicolo e personalizzazione tariffaria"
+            ],
+            "ref": "Materiale originale; Glossario IVASS, voce Premio"
+          },
+          "note": "Il premio di tariffa è la somma del premio puro, calcolato sul rischio, e dei caricamenti. Aggiungendo le imposte si ottiene il premio lordo.",
+          "noteRef": "Glossario IVASS"
+        },
+        {
+          "layout": "facts",
+          "title": "Come si paga il premio",
+          "lead": "Le parole del glossario IVASS.",
+          "facts": [
+            {
+              "label": "Premio unico",
+              "text": "Versato in un'unica soluzione alla stipula, per tutta la durata. Tipico della vita."
+            },
+            {
+              "label": "Premio annuo",
+              "text": "Periodico, costante o crescente secondo il contratto."
+            },
+            {
+              "label": "Premio ricorrente",
+              "text": "Periodico, di importo variabile a scelta del contraente entro i limiti del contratto."
+            },
+            {
+              "label": "Premio frazionato",
+              "text": "Diviso in rate; di solito con una maggiorazione, i diritti di frazionamento."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Più rischi in una polizza",
+          "key": "Nel ramo danni si possono assicurare più rischi nella stessa polizza, e il contratto si può rinnovare a ogni scadenza, perché il sinistro è ripetibile.",
+          "body": "È la logica delle polizze multirischio: casa, negozio, ufficio, PMI. Quando a un prodotto vita si abbinano garanzie danni, il cliente riceve un DIP aggiuntivo Multirischi.",
+          "ref": "Materiale originale; Glossario IVASS, voce DIP aggiuntivo Multirischi"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un piccolo spedizioniere chiede all'agenzia di assicurare i camion, le merci dei clienti durante il viaggio e i danni che i mezzi possono causare a terzi. Il titolare chiede anche una polizza per l'autista in caso di infortunio alla guida.",
+          "questions": [
+            "In quali tipologie e rami ricadono le richieste?",
+            "Che cosa deve verificare l'intermediario sull'impresa proposta?"
+          ],
+          "solution": "Corpi dei camion: ramo 3. Merci trasportate: ramo 7. RC dei mezzi: ramo 10. Infortuni del conducente: ramo 1. L'intermediario verifica che l'impresa sia autorizzata in tutti i rami necessari (ad esempio con l'autorizzazione \"Assicurazioni auto\") o propone più imprese."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una polizza che copre i danni a un aereo da turismo e la responsabilità del proprietario verso terzi rientra nei rami:",
+          "options": [
+            "3 e 10",
+            "5 e 11",
+            "6 e 12",
+            "8 e 13"
+          ],
+          "answer": 1,
+          "explanation": "Il ramo 5 riguarda i corpi di veicoli aerei, il ramo 11 la responsabilità civile aeromobili."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché nel ramo danni il premio si basa su criteri soggettivi e oggettivi?",
+          "options": [
+            "Perché le tavole demografiche non si possono usare per legge",
+            "Perché il rischio dipende sia dalle caratteristiche dell'assicurato sia da quelle del bene o dell'attività",
+            "Perché il premio danni è uguale per tutti i clienti",
+            "Perché il sinistro danni non si può ripetere"
+          ],
+          "answer": 1,
+          "explanation": "Nei danni pesano chi è l'assicurato (criteri soggettivi) e che cosa si assicura, dove e come (criteri oggettivi). Le tavole demografiche servono nel ramo vita."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2 criteri",
+              "text": "copertura (vita o danni) e mercato (famiglie o aziende)"
+            },
+            {
+              "value": "10",
+              "text": "famiglie di assicurazioni danni, tutte riconducibili ai 18 rami"
+            },
+            {
+              "value": "5 · 11",
+              "text": "i rami dell'aviazione; 4, 6, 7 e 12 quelli dei trasporti"
+            },
+            {
+              "value": "Tavole",
+              "text": "demografiche per il premio vita; criteri soggettivi e oggettivi per i danni"
+            },
+            {
+              "value": "Multirischio",
+              "text": "più rischi nella stessa polizza danni"
+            }
+          ]
+        }
+      ],
+      "narration": "Questo argomento fa parte del percorso di sessanta ore e riprende un tema già incontrato: le principali tipologie di coperture. Le assicurazioni sulla vita, i principi dei danni, la responsabilità civile, l'incendio, il furto, il credito e la cauzione sono già stati spiegati nell'argomento sulle principali tipologie di coperture assicurative e in quello sulle assicurazioni contro i danni. Qui non li ripetiamo. Usiamo invece questo spazio per costruire una mappa che aiuti a orientarsi, per approfondire le famiglie di coperture meno note e, nelle lezioni successive, per lavorare sul bisogno del cliente e sulle regole tecniche dei danni alle cose.\n\nPartiamo dalla definizione, che conosciamo: per l'articolo 1882 del Codice civile l'assicurazione è il contratto con cui l'assicuratore, verso il pagamento di un premio, si obbliga a rivalere l'assicurato, entro i limiti convenuti, del danno prodotto da un sinistro, oppure a pagare un capitale o una rendita al verificarsi di un evento attinente alla vita umana. Su questa base il materiale propone due criteri per classificare i prodotti. Il primo è la tipologia di copertura: polizze vita o polizze danni. Il secondo è il mercato finale a cui il prodotto si rivolge: famiglie o aziende.\n\nIl secondo criterio è meno scolastico di quanto sembri, ed è molto utile nel lavoro quotidiano. Il mercato delle famiglie, quello che spesso si chiama retail, è fatto di prodotti standard, con condizioni predefinite: l'auto, la casa, gli infortuni, la salute, la vita, la responsabilità civile della vita privata, il viaggio, gli animali domestici. Il mercato delle aziende comprende i beni dell'impresa, la responsabilità civile dell'impresa e quella professionale, il credito, le cauzioni, i trasporti, i rischi tecnici e le coperture per dipendenti e soci. Per le imprese più grandi il contratto viene spesso costruito su misura, nel confronto diretto con l'azienda. Lo ha osservato anche l'IVASS nella sua indagine del 2024 sulle polizze catastrofali, che ha escluso dall'analisi proprio le polizze delle grandi aziende perché i loro contenuti sono negoziati caso per caso. Per l'intermediario significa che con una famiglia il lavoro è soprattutto scegliere e spiegare un prodotto, con un'azienda è anche negoziare le condizioni.\n\nUna precisazione sulle polizze linked. Il materiale sottolinea che mantengono la connotazione di assicurazioni sulla vita, ma sono veri e propri strumenti di investimento, perché il loro valore dipende direttamente dalle prestazioni di un'attività di riferimento: un fondo d'investimento per le unit linked, un indice azionario o un altro valore di riferimento per le index linked. Nella mappa le collochiamo quindi in una zona di confine tra la protezione e il risparmio gestito. Il ramo III e le regole di distribuzione dei prodotti di investimento assicurativi sono trattati nell'area giuridica.\n\nVeniamo ai danni. Le polizze del ramo danni tutelano l'assicurato da eventi che possono danneggiare singoli beni del suo patrimonio, le sue possibilità di guadagno, il patrimonio nel suo complesso o la sua persona. Il materiale elenca dieci tipologie: le assicurazioni contro i danni alle cose, contro i danni alle persone, di responsabilità civile, del credito, delle cauzioni, della grandine, dei trasporti, dell'aviazione, le assicurazioni tecniche e l'assistenza.\n\nÈ un elenco commerciale, non giuridico, ed è utile collegarlo ai diciotto rami dell'articolo 2 del Codice delle assicurazioni, che abbiamo visto nell'argomento sulla classificazione per rami. I danni alle cose vanno dal ramo 3 al ramo 9. I danni alle persone sono infortuni e malattia, rami 1 e 2. La responsabilità civile va dal ramo 10 al 13. Il credito è il ramo 14 e la cauzione il 15. La grandine non ha un ramo proprio: per il Codice rientra nel ramo 9, altri danni ai beni, insieme al gelo e al furto. I trasporti e l'aviazione, invece, si distribuiscono su più rami, e le assicurazioni tecniche non corrispondono a nessun ramo specifico.\n\nFermiamoci sulle quattro famiglie meno note. Le assicurazioni trasporti comprendono il ramo 7, merci trasportate, che copre ogni danno subito dalle merci o dai bagagli trasportati, indipendentemente dalla natura del mezzo di trasporto; e poi i corpi di veicoli ferroviari, ramo 4, e marittimi, lacustri e fluviali, ramo 6, oltre alla responsabilità civile dei veicoli marittimi, ramo 12. Le assicurazioni aviazione comprendono il ramo 5, ogni danno subito da veicoli aerei, e il ramo 11, ogni responsabilità che deriva dall'uso di veicoli aerei, compresa la responsabilità del vettore. Le assicurazioni tecniche sono una categoria di mercato: con questo nome si indicano di solito le coperture dei cantieri, dei macchinari e degli impianti, che il Codice colloca nei rami dei danni ai beni e della responsabilità civile. Infine l'assistenza, ramo 18, che il Codice descrive in modo molto sintetico: assistenza alle persone in situazione di difficoltà. È la garanzia che manda il carro attrezzi, l'idraulico o il medico, invece di pagare una somma.\n\nC'è un dettaglio del Codice che aiuta a capire come il mercato raggruppa questi rischi. Quando un'impresa è autorizzata per più rami insieme, l'autorizzazione prende un nome. Per i rami 1, limitatamente alle persone trasportate, 3, 7 e 10 si parla di assicurazioni auto. Per i rami 1, persone trasportate, 4, 6, 7 e 12, di assicurazioni marittime e trasporti. Per i rami 1, persone trasportate, 5, 7 e 11, di assicurazioni aeronautiche. Per l'8 e il 9, di incendio ed altri danni ai beni. Per il 14 e il 15, di credito e cauzione. Notate come il ramo 7, le merci, compaia in tutti e tre i gruppi legati ai mezzi di trasporto: il bagaglio o la merce viaggiano sull'auto, sulla nave o sull'aereo.\n\nPassiamo al premio. Il materiale mette a confronto i due mondi. Nelle assicurazioni sulla vita, per determinare il premio si fa riferimento al rischio attinente alla vita umana, usando tavole demografiche che riflettono l'oggetto della copertura. Una polizza caso morte e una rendita vitalizia, ad esempio, guardano allo stesso fenomeno da lati opposti: nella prima il rischio per l'impresa è che l'assicurato muoia presto, nella seconda che viva a lungo. Nel ramo danni, invece, il premio si calcola combinando criteri soggettivi e criteri oggettivi. I primi riguardano la persona: chi è l'assicurato, la sua storia assicurativa, le sue abitudini. I secondi riguardano il rischio in sé: il bene, il luogo in cui si trova, l'attività svolta, le protezioni presenti. Il glossario dell'IVASS lo conferma per la RC auto: il premio è stabilito dalle compagnie in funzione dei dati del contraente, del veicolo e di ogni altro elemento di personalizzazione tariffaria. E ricorda la struttura del prezzo: il premio puro è calcolato sulla valutazione del rischio, il premio di tariffa aggiunge i caricamenti, il premio lordo aggiunge le imposte.\n\nAnche il modo di pagare il premio cambia tra le tipologie, e il glossario IVASS ne fissa le parole. I premi unici si versano in un'unica soluzione alla stipula, per l'intera durata del contratto, e sono tipici delle polizze vita. I premi periodici si versano a intervalli e per una durata prefissati: possono essere costanti o crescenti, ed è il premio annuo, oppure variabili a discrezione del contraente entro i limiti del contratto, ed è il premio ricorrente. Nei danni il premio è di regola annuale, ma può essere frazionato in rate: è una comodità per il cliente, che però di solito comporta una maggiorazione, i cosiddetti diritti di frazionamento. Conviene dirlo quando il cliente sceglie la rata mensile.\n\nIl materiale aggiunge due caratteristiche del ramo danni. Nella stessa polizza si possono assicurare più rischi, e il contratto si può rinnovare ogni volta, proprio perché il sinistro è ripetibile: un appartamento può subire più danni da acqua nello stesso anno. È la logica delle polizze multirischio della casa, del negozio, dell'ufficio o della piccola impresa, che riuniscono in un solo contratto incendio, furto, responsabilità civile, assistenza e tutela legale. Il mondo vita e il mondo danni possono anche incontrarsi: quando a un prodotto vita vengono abbinate garanzie danni, il cliente riceve un documento informativo specifico, il DIP aggiuntivo Multirischi.\n\nProviamo ad applicare la mappa. Un piccolo spedizioniere chiede di assicurare i camion, le merci dei clienti durante il viaggio e i danni che i mezzi possono causare a terzi, e vuole proteggere l'autista in caso di infortunio alla guida. I danni ai camion sono ramo 3, corpi di veicoli terrestri. Le merci trasportate sono ramo 7. La responsabilità civile dei mezzi è ramo 10. L'infortunio del conducente è ramo 1. Prima di proporre una soluzione l'intermediario deve verificare che l'impresa sia autorizzata in tutti i rami necessari, oppure costruire il programma con più imprese. E deve spiegare al cliente che si tratta di coperture diverse, ciascuna con le proprie condizioni.\n\nRicapitolando: i prodotti si classificano per copertura e per mercato; le dieci famiglie danni del materiale si ritrovano nei diciotto rami del Codice; trasporti e aviazione si distribuiscono su più rami, mentre le assicurazioni tecniche sono una categoria di mercato; e il premio vita si basa su tavole demografiche, quello danni su criteri soggettivi e oggettivi, con la possibilità di riunire più rischi in una sola polizza.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1882 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1882"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS, art. 2",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Glossario - Educazione assicurativa",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/glossario/glossario_educazione_assicurativa.pdf"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura dei rischi catastrofali, giugno 2024",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2024/IVASS_Report_analisi_polizze_con_rischi_catastrofali_giugno_2024.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento delle dieci tipologie danni del materiale ai rami dell'art. 2, c. 3 CAP, con il dettaglio dei rami 4, 5, 6, 7, 11, 12 e 18.",
+          "source_ref": "Art. 2, c. 3 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Denominazioni delle autorizzazioni cumulative per gruppi di rami (auto, marittime e trasporti, aeronautiche, incendio ed altri danni ai beni, credito e cauzione).",
+          "source_ref": "Art. 2, c. 4 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Premio RC auto in funzione di contraente, veicolo e personalizzazione; premio puro, di tariffa e lordo; DIP aggiuntivo Multirischi; premi unici, periodici (annuo e ricorrente) e frazionati.",
+          "source_ref": "Glossario IVASS - Educazione assicurativa"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Osservazione dell'IVASS: le polizze delle grandi aziende sono costruite su misura, per questo escluse dall'indagine 2024.",
+          "source_ref": "IVASS, Indagine polizze rischi catastrofali, giugno 2024"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la voce \"assicurazioni tecniche\". Non è un ramo del Codice: è indicata come categoria di mercato che ricade in più rami. Riferimento da indicare / possibile aggiornamento: nessuna definizione ufficiale trovata.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Le parti di vita, RC, incendio, furto, credito e cauzione già trattate in coperture-assicurative e danni sono richiamate e non ripetute.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Dal bisogno del cliente alla polizza: le tipologie più richieste",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Principali Tipologie di Assicurazioni.pdf",
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Principali tipologie di assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Principali tipologie di assicurazioni.pdf (1).pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di assicurazioni",
+          "title": "Dal bisogno del cliente alla polizza",
+          "goals": [
+            "Riconoscere le dieci tipologie di polizza più richieste da famiglie e imprese",
+            "Distinguere salute, infortuni e reddito, e le principali forme vita",
+            "Usare le parole giuste con il cliente: carenza, diaria, vita intera, rendita"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Partire dal bisogno",
+          "key": "Le assicurazioni abbracciano una vasta gamma di situazioni: ogni tipologia nasce per proteggere individui, famiglie e imprese da una specifica incertezza.",
+          "body": "Il cliente non chiede un ramo, chiede una protezione: \"se mi fermo\", \"se rubano\", \"se faccio un danno\". Il lavoro dell'intermediario è tradurre il bisogno nella copertura giusta.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tipologie più richieste (1/2)",
+          "head": [
+            "Tipologia",
+            "Che cosa protegge",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "Auto · Veicoli",
+              "Responsabilità civile, danni al mezzo, furto, lesioni a terzi",
+              "RC ramo 10 obbligatoria, il resto facoltativo"
+            ],
+            [
+              "Casa · Abitazione",
+              "Incendi, inondazioni, furti, danni strutturali",
+              "Può coprire anche la RC del proprietario"
+            ],
+            [
+              "Vita · Persone",
+              "Sostegno ai beneficiari in caso di morte",
+              "Temporanea, vita intera e altre forme"
+            ],
+            [
+              "Sanitaria · Salute",
+              "Spese mediche: ricoveri, visite, farmaci",
+              "Individuale o fornita dal datore di lavoro"
+            ],
+            [
+              "Viaggio · Imprevisti",
+              "Annullamento, ritardi, bagagli, assistenza medica all'estero",
+              "Più rami in un solo prodotto"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tipologie più richieste (2/2)",
+          "head": [
+            "Tipologia",
+            "Che cosa protegge",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "RC · Terzi",
+              "Richieste di risarcimento per lesioni o danni a cose di terzi",
+              "Per privati, aziende o professionisti"
+            ],
+            [
+              "Aziendale · Impresa",
+              "RC aziendale, beni dell'azienda, RC professionale",
+              "Spesso in un programma multirischio"
+            ],
+            [
+              "Infortuni · Persona",
+              "Un pagamento per lesioni o invalidità da incidente",
+              "Individuale o fornita dal datore di lavoro"
+            ],
+            [
+              "Reddito · Lavoro",
+              "Un reddito se malattia o infortunio impediscono di lavorare",
+              "Sicurezza finanziaria continua"
+            ],
+            [
+              "Pet · Animali",
+              "Spese veterinarie per malattie o incidenti dell'animale",
+              "Spesso abbinata alla RC del proprietario"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Viaggio: un prodotto, molti rami",
+          "left": {
+            "title": "Le garanzie",
+            "items": [
+              "Spese mediche in viaggio",
+              "Assistenza: rientro, medico, informazioni",
+              "Bagaglio smarrito o danneggiato",
+              "Annullamento del viaggio"
+            ]
+          },
+          "right": {
+            "title": "I rami del Codice",
+            "items": [
+              "Ramo 2, malattia",
+              "Ramo 18, assistenza alle persone in difficoltà",
+              "Ramo 7, merci e bagagli trasportati",
+              "Ramo 16, perdite pecuniarie"
+            ],
+            "ref": "Art. 2, c. 3 CAP"
+          },
+          "note": "Leggere sempre massimali, esclusioni e Paesi coperti: le garanzie hanno limiti diversi.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Salute, infortuni e reddito",
+          "cols": [
+            {
+              "title": "Che cosa scatena la copertura",
+              "items": [
+                "Malattia: ogni alterazione dello stato di salute non dipendente da infortunio",
+                "Infortunio: un incidente che causa lesioni o invalidità",
+                "Reddito: l'incapacità di lavorare per malattia o infortunio"
+              ]
+            },
+            {
+              "title": "Parole da spiegare al cliente",
+              "items": [
+                "Carenza: periodo iniziale in cui il sinistro non è in garanzia",
+                "Inabilità temporanea: incapacità di lavorare per un periodo limitato",
+                "Diaria: indennità per ogni giorno di inabilità o di ricovero",
+                "LTC: rendita o assistenza se si perde l'autosufficienza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le forme vita in parole semplici",
+          "head": [
+            "Forma",
+            "Quando paga"
+          ],
+          "rows": [
+            [
+              "Temporanea caso morte",
+              "Se la morte avviene entro la scadenza del contratto"
+            ],
+            [
+              "Vita intera",
+              "Alla morte dell'assicurato, in qualunque momento avvenga"
+            ],
+            [
+              "Capitale differito",
+              "A una data prestabilita, se l'assicurato è in vita"
+            ],
+            [
+              "Rendita vitalizia",
+              "Una prestazione periodica per tutta la vita dell'assicurato"
+            ],
+            [
+              "Mista",
+              "A scadenza se l'assicurato è vivo, oppure prima, in caso di premorienza"
+            ]
+          ],
+          "ref": "Glossario IVASS; materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Rendita immediata o differita",
+          "cols": [
+            {
+              "title": "Differita",
+              "items": [
+                "Il contraente paga i premi per il periodo previsto",
+                "Alla scadenza, se l'assicurato è in vita, parte la rendita",
+                "Vitalizia, se dura tutta la vita; temporanea, se per un periodo"
+              ]
+            },
+            {
+              "title": "Immediata",
+              "items": [
+                "Si paga un premio unico alla stipula",
+                "La rendita viene erogata subito",
+                "Tipica di chi trasforma un capitale in un reddito"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Il contratto vita in sintesi",
+          "lead": "Elementi già visti nell'area giuridica, che il materiale riassume così.",
+          "facts": [
+            {
+              "label": "Natura",
+              "text": "Sinallagmatico, aleatorio e di durata. L'evento incide solo sulla prestazione dell'assicuratore, e questo basta a renderlo aleatorio."
+            },
+            {
+              "label": "Premio",
+              "text": "Annuo, vitalizio o temporaneo; oppure unico, versato alla stipula."
+            },
+            {
+              "label": "Le parti",
+              "text": "Impresa autorizzata dall'IVASS, contraente, assicurato e beneficiario."
+            },
+            {
+              "label": "Premi non pagati",
+              "text": "L'assicuratore può sciogliere il contratto, salvo riscatto o riduzione."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quali documenti riceve il cliente",
+          "lead": "Ogni contratto ha un documento di base e uno aggiuntivo, in forma standardizzata.",
+          "head": [
+            "Tipologia",
+            "Di base",
+            "Aggiuntivo"
+          ],
+          "rows": [
+            [
+              "Danni · Auto, casa, salute, viaggio",
+              "DIP Danni (IPID)",
+              "DIP aggiuntivo Danni; per la RC auto, DIP aggiuntivo R.C. Auto"
+            ],
+            [
+              "Vita puro rischio · Caso morte",
+              "DIP Vita",
+              "DIP aggiuntivo Vita"
+            ],
+            [
+              "Vita di investimento · Rivalutabili, linked, multiramo",
+              "KID",
+              "DIP aggiuntivo IBIP"
+            ],
+            [
+              "Vita con garanzie danni · Abbinati",
+              "DIP Vita e DIP Danni",
+              "DIP aggiuntivo Multirischi"
+            ]
+          ],
+          "ref": "Glossario IVASS, voce Documentazione informativa precontrattuale"
+        },
+        {
+          "layout": "concept",
+          "title": "E la \"universal life\"?",
+          "key": "Il materiale cita anche le assicurazioni sulla vita universali: è un termine del mercato anglosassone, che indica polizze vita flessibili nei premi e nel capitale.",
+          "body": "Nella classificazione italiana non esiste una categoria con questo nome: un prodotto del genere va ricondotto ai rami vita del Codice e ai suoi documenti informativi.",
+          "ref": "Art. 2, c. 1 CAP"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Giulia, 34 anni, grafica freelance, ha un mutuo e un cane. Dice: \"Se mi ammalo o mi faccio male non guadagno nulla, e non ho un datore di lavoro che mi copra\".",
+          "questions": [
+            "Quali tipologie rispondono al suo bisogno principale?",
+            "Che cosa le spieghi prima della firma?",
+            "C'è qualcos'altro da proporre?"
+          ],
+          "solution": "Il bisogno principale è il reddito: una copertura infortuni e malattia con indennità per inabilità temporanea, o un prodotto di protezione del reddito. Va spiegata la carenza della garanzia malattia e come si calcola la diaria. Per il mutuo può servire una temporanea caso morte; per il cane, la RC del proprietario e una polizza per le spese veterinarie."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella vita intera l'assicuratore paga:",
+          "options": [
+            "Solo se la morte avviene entro la scadenza",
+            "Alla morte dell'assicurato, in qualunque momento avvenga",
+            "A una data prestabilita se l'assicurato è vivo",
+            "Una rendita per tutta la vita"
+          ],
+          "answer": 1,
+          "explanation": "Nella vita intera la durata del contratto coincide con la vita dell'assicurato: il capitale è pagato alla morte, quando che sia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Il periodo di carenza è:",
+          "options": [
+            "Il periodo in cui il premio non si paga",
+            "Il periodo iniziale in cui l'eventuale sinistro non è in garanzia",
+            "Il tempo per denunciare il sinistro",
+            "La durata minima del contratto"
+          ],
+          "answer": 1,
+          "explanation": "Per il glossario IVASS la carenza, detta anche termine di aspettativa, decorre dalla data di validità del contratto: in quel periodo il sinistro non è coperto."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "10",
+              "text": "tipologie più richieste: auto, casa, vita, salute, viaggio, RC, azienda, infortuni, reddito, pet"
+            },
+            {
+              "value": "Bisogno",
+              "text": "prima si capisce che cosa il cliente teme, poi si sceglie la copertura"
+            },
+            {
+              "value": "Carenza",
+              "text": "il periodo iniziale in cui il sinistro non è coperto"
+            },
+            {
+              "value": "Vita intera",
+              "text": "paga alla morte, quando che sia; la temporanea solo entro la scadenza"
+            },
+            {
+              "value": "Immediata",
+              "text": "rendita con premio unico; differita dopo anni di premi"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo costruito una mappa partendo dai rami. In questa facciamo il percorso inverso: partiamo da quello che chiede il cliente. Il secondo materiale del corso lo dice con una frase efficace: l'universo delle assicurazioni abbraccia una vasta gamma di situazioni e necessità, e offre soluzioni progettate per proteggere individui, famiglie e imprese dalle incertezze della vita. Ogni tipologia è creata per affrontare una sfida specifica e mitigare un rischio.\n\nIl cliente, infatti, non entra in agenzia chiedendo una polizza di ramo 9. Dice: ho paura che mi entrino i ladri in casa, se mi faccio male non lavoro, se il mio cane morde qualcuno chi paga? Il compito dell'intermediario è tradurre quel timore nella copertura adatta, e poi spiegare con parole semplici che cosa la polizza fa e che cosa non fa. È lo stesso spirito della valutazione delle richieste e delle esigenze del cliente, che abbiamo visto parlando delle regole di comportamento.\n\nIl materiale elenca dieci tipologie. L'assicurazione auto è progettata per proteggere i proprietari di veicoli contro danni materiali e responsabilità civile derivanti da incidenti stradali, e include coperture per danni fisici, furto e lesioni a terzi. Ricordiamo che solo la responsabilità civile è obbligatoria; le altre garanzie, dal furto e incendio alla kasko, sono facoltative.\n\nL'assicurazione casa offre protezione contro perdite e danni alla proprietà abitativa, compresi eventi come incendi, inondazioni, furti e danni strutturali, e può coprire anche la responsabilità civile del proprietario. Sulle inondazioni torneremo nell'ultima lezione: l'IVASS ha rilevato che sul mercato queste garanzie sono per lo più aggiuntive alla polizza incendio, con un supplemento di premio, e molto diverse tra un'impresa e l'altra.\n\nL'assicurazione vita garantisce un sostegno finanziario ai beneficiari in caso di morte dell'assicurato. Il materiale ricorda che può includere polizze a termine, cioè temporanee, polizze a vita intera o le cosiddette assicurazioni sulla vita universali. Ci torniamo tra poco.\n\nL'assicurazione sanitaria assicura la copertura finanziaria delle spese mediche: trattamenti ospedalieri, visite e farmaci. Può essere fornita dal datore di lavoro o acquistata individualmente. Lo stesso vale per l'assicurazione infortuni, che offre un pagamento in caso di incidenti che causano lesioni o invalidità.\n\nL'assicurazione viaggio copre gli imprevisti durante i viaggi: cancellazioni, ritardi, perdita dei bagagli e assistenza medica in caso di emergenza all'estero. L'assicurazione di responsabilità civile protegge dalle richieste di risarcimento dei terzi per lesioni personali o danni alle proprietà, e può essere pensata per privati, aziende o professionisti. L'assicurazione aziendale riunisce diverse forme di copertura per le imprese, come la responsabilità civile aziendale, l'assicurazione dei beni aziendali e la responsabilità professionale. L'assicurazione del reddito garantisce una fonte di entrate in caso di incapacità di lavorare per malattia o infortunio, offrendo una sicurezza finanziaria continua. Infine l'assicurazione pet, che copre le spese veterinarie in caso di malattia o incidente dell'animale domestico; per chi ha un cane, conviene ricordare anche la responsabilità civile per i danni che l'animale può causare.\n\nPrendiamo la polizza viaggio come esempio di prodotto che sembra unico ma mette insieme rischi diversi. Le spese mediche sostenute in viaggio sono una copertura malattia, ramo 2. L'assistenza, il rientro sanitario, il medico al telefono sono il ramo 18, assistenza alle persone in situazione di difficoltà. Il bagaglio rientra nel ramo 7, che il Codice descrive come merci trasportate, compresi merci, bagagli e ogni altro bene. L'annullamento del viaggio, come abbiamo visto, è una perdita pecuniaria, ramo 16. Ogni garanzia ha i suoi massimali, le sue franchigie e le sue esclusioni: il cliente che legge solo il nome del prodotto rischia di scoprire i limiti al momento del bisogno.\n\nLe tre coperture della persona si confondono facilmente, ed è uno dei punti su cui il cliente ha più bisogno di chiarezza. La differenza sta nell'evento che fa scattare la garanzia. Nella polizza malattia è la malattia, che il glossario dell'IVASS definisce come ogni alterazione dello stato di salute non dipendente da infortunio. Nella polizza infortuni è l'incidente che provoca lesioni o invalidità. Nella protezione del reddito è l'incapacità di lavorare, qualunque ne sia la causa tra malattia e infortunio.\n\nQuattro parole vanno spiegate sempre. La carenza è il periodo iniziale, che decorre dalla data di validità del contratto, durante il quale l'eventuale sinistro non è in garanzia; si chiama anche termine di aspettativa, ed è tipica delle polizze malattia. L'inabilità temporanea è l'incapacità, totale o parziale, di attendere alle proprie occupazioni per un periodo limitato. La diaria è l'indennità prevista per ogni giorno di inabilità temporanea, nelle polizze infortuni, o per ogni giorno di ricovero, nelle polizze di indennità giornaliera. La Long Term Care, infine, è l'assicurazione per il rischio di non autosufficienza nel compimento degli atti della vita quotidiana, con prestazioni temporanee o vitalizie in forma di rendita o di assistenza, a domicilio o in casa di cura.\n\nVeniamo alle forme vita, usando le definizioni del glossario dell'IVASS. La polizza caso morte, o temporanea caso morte, paga un capitale se la morte avviene entro la scadenza del contratto. La vita intera paga il capitale alla morte dell'assicurato, indipendentemente dal momento in cui si verifica: come dice il materiale, la durata del contratto coincide con la durata della vita dell'assicurato. Il capitale differito paga a una data prestabilita, se l'assicurato è ancora in vita. La rendita vitalizia è una prestazione periodica di denaro dovuta per l'intera durata della vita dell'assicurato. La mista, infine, paga il capitale all'assicurato se è vivo alla scadenza, oppure al beneficiario se l'assicurato muore prima.\n\nPer le rendite il materiale distingue due forme. Nella rendita differita il contraente paga i premi per l'arco di tempo previsto nel contratto; alla scadenza, se l'assicurato è in vita, l'assicuratore paga una rendita, vitalizia se dura tutta la vita, temporanea se dura un periodo stabilito. Nella rendita immediata si paga un premio unico alla stipula e l'erogazione della rendita parte subito. È la scelta tipica di chi ha un capitale, ad esempio una liquidazione, e vuole trasformarlo in un reddito per la vecchiaia.\n\nIl materiale riassume anche le caratteristiche del contratto vita, che abbiamo già studiato nell'area giuridica. È un contratto sinallagmatico, aleatorio e di durata. Nell'assicurazione caso morte l'assicuratore, dietro un premio annuo, che può essere vitalizio o temporaneo, cioè pagato per tutta la vita o solo per alcuni anni, paga alla morte dell'assicurato. Il contratto può essere stipulato solo da imprese che abbiano ottenuto dall'IVASS, prima di iniziare l'attività, l'autorizzazione a operare. Il contraente è colui sul quale gravano le obbligazioni del contratto; il beneficiario è il soggetto a cui è destinata la prestazione; l'assicurato è la persona alla cui vita si riferisce l'evento. Quanto alla natura aleatoria, il materiale la spiega così: chi paga il premio acquista la certezza di neutralizzare un'alea, e nel contratto l'evento incide soltanto sulla prestazione dell'assicuratore; basta questo a renderlo aleatorio. Infine, se i premi non vengono pagati l'assicuratore può sciogliere il contratto: per l'articolo 1924 del Codice civile, se il contraente non paga i premi successivi al primo nel termine di tolleranza, il contratto si risolve di diritto e i premi restano all'impresa, salvo che ci siano le condizioni per il riscatto o la riduzione.\n\nLa tipologia di prodotto determina anche i documenti che il cliente deve ricevere prima della firma. Il glossario dell'IVASS lo riassume così: ogni contratto è accompagnato da due documenti in forma standardizzata, uno di base, con le informazioni chiave, e uno aggiuntivo, più dettagliato. Per i prodotti danni, quindi auto, casa, salute, viaggio, il documento di base è il DIP Danni, chiamato anche IPID, che segue uno schema europeo e permette di confrontare prodotti simili in tutta Europa; l'aggiuntivo è il DIP aggiuntivo Danni, o il DIP aggiuntivo R.C. Auto per la responsabilità civile auto. Per i prodotti vita di puro rischio, come la temporanea caso morte, che non hanno natura finanziaria, il documento di base è il DIP Vita e non è previsto il KID. Per i prodotti vita di investimento, come rivalutabili, linked e multiramo, il documento di base è il KID e l'aggiuntivo è il DIP aggiuntivo IBIP. Quando a un prodotto vita sono abbinate garanzie danni, il DIP aggiuntivo Multirischi sostituisce i due aggiuntivi separati. Riconoscere la tipologia serve anche a non sbagliare i documenti.\n\nUna nota sulle assicurazioni sulla vita universali citate nel materiale. È un'espressione che viene dal mercato anglosassone, la universal life, e indica polizze vita flessibili, in cui il cliente può variare premi e capitale nel tempo. Nella classificazione italiana non esiste una categoria con questo nome: un prodotto con caratteristiche simili va sempre ricondotto ai rami vita dell'articolo 2 del Codice, e il cliente riceve i documenti informativi previsti per quel tipo di prodotto. Con il cliente è meglio evitare l'etichetta e descrivere che cosa fa la polizza.\n\nVediamo un caso. Giulia ha trentaquattro anni, è una grafica freelance, ha un mutuo e un cane. Dice: se mi ammalo o mi faccio male non guadagno nulla, e non ho un datore di lavoro che mi copra. Il suo bisogno principale è il reddito: una copertura infortuni e malattia con un'indennità per inabilità temporanea, oppure un prodotto specifico di protezione del reddito. Prima della firma le va spiegata la carenza della garanzia malattia e come si calcola la diaria. Per il mutuo può servire una temporanea caso morte, che lascia alla famiglia il capitale per estinguere il debito. Per il cane, la responsabilità civile del proprietario e, se lo desidera, una polizza per le spese veterinarie. Come sempre, la proposta deve essere coerente con le sue richieste ed esigenze.\n\nRicapitolando: le tipologie più richieste sono dieci; si parte dal bisogno del cliente e poi si sceglie la copertura; salute, infortuni e reddito si distinguono per l'evento che le attiva; carenza, inabilità, diaria e Long Term Care sono parole da spiegare sempre; e tra le forme vita la vita intera paga in ogni caso alla morte, la temporanea solo entro la scadenza, la rendita immediata parte subito con un premio unico.",
+      "sources": [
+        {
+          "title": "IVASS, Glossario - Educazione assicurativa",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/glossario/glossario_educazione_assicurativa.pdf"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo coordinato IVASS, art. 2",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Codice civile, artt. 1924-1926 (Assicurazione sulla vita) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1924"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni IVASS di malattia, carenza, inabilità temporanea, diaria, Long Term Care, vita intera, caso morte, capitale differito, rendita vitalizia, mista, premi unici.",
+          "source_ref": "Glossario IVASS - Educazione assicurativa"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Scomposizione della polizza viaggio nei rami 2, 7, 16 e 18.",
+          "source_ref": "Art. 2, c. 3 CAP"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Effetti del mancato pagamento dei premi vita successivi al primo.",
+          "source_ref": "Art. 1924 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Documenti precontrattuali di base e aggiuntivi per ciascuna tipologia di prodotto (DIP Danni/IPID, DIP Vita, KID, DIP aggiuntivi).",
+          "source_ref": "Glossario IVASS, voci DIP e Documentazione informativa precontrattuale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"assicurazioni sulla vita universali\". Spiegata come termine del mercato anglosassone, senza corrispondenza nella classificazione italiana. Riferimento da indicare / possibile aggiornamento: nessuna fonte ufficiale italiana usa questa categoria.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nella rendita differita \"l'assicurato\" paga i premi. Riformulato con \"il contraente\", che è chi paga il premio.",
+          "source_ref": "Glossario IVASS, voce Contraente"
+        },
+        {
+          "kind": "modificato",
+          "description": "Caratteristiche e parti del contratto vita, già trattate in giuridica/contratto.json e tecnica/coperture-assicurative.json, riassunte in una sola slide.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Danni alle cose: interesse, valore e forme di garanzia",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Principali tipologie di assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Principali tipologie di assicurazioni.pdf (1).pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di assicurazioni",
+          "title": "Danni alle cose: interesse, valore e forme di garanzia",
+          "goals": [
+            "Riconoscere i requisiti dell'interesse assicurabile",
+            "Distinguere valore allo stato d'uso, stima accettata e valore a nuovo",
+            "Calcolare l'indennizzo a valore intero, a primo rischio relativo e a primo rischio assoluto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Rischio e interesse",
+          "key": "Il rischio contrattuale è l'evento che, se si verifica, fa sorgere il debito dell'assicuratore. È un presupposto del contratto. Accanto al rischio serve l'interesse dell'assicurato al risarcimento.",
+          "body": "Senza interesse, quando l'assicurazione deve avere inizio, il contratto danni è nullo (art. 1904 c.c.). Senza rischio manca la causa del contratto, come visto nell'area giuridica.",
+          "ref": "Art. 1904 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le caratteristiche dell'interesse",
+          "items": [
+            {
+              "text": "È economico: il bene deve avere un valore misurabile in denaro."
+            },
+            {
+              "text": "Si fonda su una relazione legittima con il bene: proprietà, uso, garanzia di un credito."
+            },
+            {
+              "text": "Esiste dal momento in cui il contratto inizia a produrre effetti. Può mancare solo se il contratto è sottoposto a condizione sospensiva."
+            },
+            {
+              "text": "Al momento del sinistro la cosa assicurata deve avere un valore monetario."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Più interessi sulla stessa cosa",
+          "key": "Nei danni alle cose l'interesse è il rapporto tra l'assicurato e il suo patrimonio. Più soggetti, con interessi concorrenti, possono assicurare la stessa cosa: la somma delle polizze può superare il valore del bene.",
+          "body": "Esempio: il proprietario assicura il negozio, l'inquilino le sue migliorie, la banca è garantita da un vincolo. Interessi diversi non vanno confusi con più polizze sullo stesso interesse, regolate dall'art. 1910 c.c.",
+          "ref": "Materiale originale; art. 1910 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Il valore della cosa assicurata",
+          "left": {
+            "title": "Le regole",
+            "items": [
+              "Il valore è la misura dell'interesse",
+              "Non si può attribuire alle cose un valore superiore a quello che avevano al tempo del sinistro",
+              "Le parti possono fissarlo alla stipula, con una stima accettata per iscritto"
+            ],
+            "ref": "Art. 1908, c. 1-2 c.c."
+          },
+          "right": {
+            "title": "Le eccezioni da conoscere",
+            "items": [
+              "La dichiarazione di valore in polizza non equivale a stima",
+              "Per i prodotti del suolo conta il valore alla maturazione o alla raccolta",
+              "È la regola che si applica alla grandine sui raccolti"
+            ],
+            "ref": "Art. 1908, c. 3-4 c.c."
+          },
+          "note": "Assicurazione piena: valore assicurato uguale al valore assicurabile. Sottoassicurazione se è minore, soprassicurazione se è maggiore.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Stato d'uso o valore a nuovo",
+          "cols": [
+            {
+              "title": "Valore allo stato d'uso",
+              "items": [
+                "Tiene conto di età, usura e stato di conservazione",
+                "È la regola di partenza dell'art. 1908",
+                "Un divano di dieci anni vale meno di uno nuovo"
+              ]
+            },
+            {
+              "title": "Valore a nuovo",
+              "items": [
+                "Fabbricato: costo di ricostruzione con beni equivalenti",
+                "Contenuto: costo di rimpiazzo con beni di simile utilità",
+                "Di regola riconosciuto solo dopo l'effettiva ricostruzione o il rimpiazzo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tre forme di garanzia",
+          "head": [
+            "Forma",
+            "Come funziona",
+            "Regola proporzionale"
+          ],
+          "rows": [
+            [
+              "VI · Valore intero",
+              "La somma assicurata deve corrispondere al valore reale dei beni",
+              "Sì, se c'è sottoassicurazione"
+            ],
+            [
+              "PRR · Primo rischio relativo",
+              "Si assicura una parte, ma si dichiara il valore complessivo dei beni",
+              "No, se il valore complessivo è indicato correttamente"
+            ],
+            [
+              "PRA · Primo rischio assoluto",
+              "Si paga il danno fino alla somma assicurata, qualunque sia il valore dei beni",
+              "No"
+            ]
+          ],
+          "ref": "Glossario IVASS; art. 1907 c.c."
+        },
+        {
+          "layout": "steps",
+          "title": "Lo stesso danno, tre risultati",
+          "steps": [
+            {
+              "label": "La situazione",
+              "text": "Merci in magazzino per 50.000 euro. Danno da allagamento di 12.000 euro."
+            },
+            {
+              "label": "Valore intero per 25.000",
+              "text": "Si assicura metà del valore: l'indennizzo è il 50% del danno, 6.000 euro."
+            },
+            {
+              "label": "Primo rischio relativo 25.000",
+              "text": "Valore totale dichiarato: si paga il danno intero, 12.000 euro."
+            },
+            {
+              "label": "Primo rischio assoluto 10.000",
+              "text": "Si paga il danno fino alla somma assicurata: 10.000 euro."
+            }
+          ],
+          "ref": "Esempio didattico; regole: Glossario IVASS, art. 1907 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Chi fissa il valore",
+          "key": "Nelle polizze sul mercato la quantificazione del valore è lasciata all'assicurato, e l'impresa ne verifica la congruità di solito solo al momento del sinistro.",
+          "body": "Il valore va costruito con il cliente alla stipula e aggiornato nel tempo. L'area su cui sorge l'immobile non entra nel valore da assicurare: conta il costo di ricostruzione, non il prezzo di mercato.",
+          "ref": "IVASS, Indagine polizze rischi catastrofali, 2024"
+        },
+        {
+          "layout": "concept",
+          "title": "L'indennizzo",
+          "key": "Appena si verifica il danno, l'assicurato può far valere il diritto all'indennità. L'assicuratore risarcisce nei modi e nei limiti del contratto, e del profitto sperato solo se espressamente obbligato.",
+          "body": "Indennizzo è la somma dovuta dalla compagnia all'assicurato di una polizza danni. Non può superare il danno: l'assicurazione non deve diventare un guadagno.",
+          "ref": "Art. 1905 c.c.; Glossario IVASS, voce Indennizzo"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un ottico assicura l'arredamento del negozio, che dichiara valere 40.000 euro, \"a valore intero\" per 40.000. Dopo un incendio il perito accerta che, allo stato d'uso, l'arredamento valeva 32.000 euro e il danno è di 20.000 euro. Il cliente chiede anche perché non riceve il prezzo di un arredamento nuovo.",
+          "questions": [
+            "Si applica la regola proporzionale?",
+            "Quanto conta la cifra scritta in polizza?",
+            "Come si poteva ottenere il prezzo del nuovo?"
+          ],
+          "solution": "No: la somma assicurata supera il valore reale, quindi non c'è sottoassicurazione e il danno di 20.000 euro si paga per intero. La cifra in polizza non è una stima: conta il valore al tempo del sinistro. Per ottenere il costo del nuovo serviva una garanzia a valore a nuovo, di regola pagata dopo il rimpiazzo effettivo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nella garanzia a primo rischio relativo la regola proporzionale non si applica a condizione che:",
+          "options": [
+            "La somma assicurata sia pari al valore totale",
+            "L'assicurato abbia indicato correttamente il valore complessivo dei beni",
+            "Il danno sia inferiore alla franchigia",
+            "Il bene sia nuovo"
+          ],
+          "answer": 1,
+          "explanation": "Il primo rischio relativo collega la somma assicurata al valore complessivo dichiarato: se questo è corretto, il danno si paga fino al massimale senza proporzione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "La dichiarazione del valore delle cose contenuta in polizza:",
+          "options": [
+            "Equivale sempre a una stima accettata",
+            "Non equivale a stima: conta il valore al tempo del sinistro",
+            "Obbliga l'impresa a pagare quella cifra",
+            "Vale solo nelle polizze vita"
+          ],
+          "answer": 1,
+          "explanation": "Per l'art. 1908, terzo comma, la dichiarazione di valore non equivale a stima. Serve una stima accettata per iscritto dalle parti."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Interesse",
+              "text": "economico, legittimo, presente quando il contratto produce effetti"
+            },
+            {
+              "value": "1908",
+              "text": "valore al tempo del sinistro, salvo stima accettata per iscritto"
+            },
+            {
+              "value": "A nuovo",
+              "text": "ricostruzione o rimpiazzo, di regola dopo l'effettiva sostituzione"
+            },
+            {
+              "value": "VI · PRR · PRA",
+              "text": "tre forme di garanzia, con o senza regola proporzionale"
+            },
+            {
+              "value": "Valore",
+              "text": "lo fissa il cliente con l'intermediario: va verificato e aggiornato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nelle regole tecniche delle assicurazioni dei danni alle cose. Il principio indennitario, la regola proporzionale, la sovrassicurazione e il salvataggio sono già stati spiegati negli argomenti precedenti dell'area tecnica e nell'area giuridica: qui li richiamiamo solo dove servono, e ci concentriamo su tre temi che il materiale approfondisce. I requisiti dell'interesse, il modo in cui si stabilisce il valore e le tre forme di garanzia: valore intero, primo rischio relativo e primo rischio assoluto.\n\nPartiamo dal rischio e dall'interesse. Il materiale definisce l'assicurazione danni come il contratto in cui l'assicuratore, dietro pagamento di un premio, si obbliga al risarcimento del danno subito per il verificarsi di un evento dannoso. Il rischio coperto, il cosiddetto rischio contrattuale, è proprio quell'evento che, se si manifesta, fa sorgere il debito dell'assicuratore. È un presupposto del contratto e deve esserci. Accanto al rischio serve l'interesse dell'assicurato al risarcimento: l'articolo 1904 del Codice civile stabilisce che il contratto contro i danni è nullo se, nel momento in cui l'assicurazione deve avere inizio, non esiste un interesse dell'assicurato al risarcimento del danno.\n\nIl materiale precisa quattro caratteristiche dell'interesse. Deve essere economico: si assicura qualcosa che ha un valore in denaro, non un affetto. Deve basarsi su una relazione legittima con il bene, come la proprietà, l'uso in base a un contratto di locazione o la garanzia di un credito. Deve esistere dal momento in cui il contratto inizia a produrre i suoi effetti; può mancare solo se il contratto è sottoposto a una condizione sospensiva, cioè se i suoi effetti dipendono da un evento futuro, come l'acquisto di un bene che ancora non si possiede. E al momento del sinistro la cosa assicurata deve avere un valore monetario. Pensate a chi assicura un'auto già venduta: dopo la vendita, il venditore non ha più alcun interesse a quel bene.\n\nNelle assicurazioni dei danni alle cose l'interesse si identifica nel rapporto tra l'assicurato e il suo patrimonio, e il suo valore viene definito al momento della conclusione del contratto. Il materiale aggiunge un'osservazione importante: può succedere che più soggetti, con interessi concorrenti, assicurino la stessa cosa, e che il totale delle somme assicurate superi il valore assicurabile. Facciamo un esempio. Il proprietario di un locale commerciale assicura il fabbricato. L'inquilino, che ha rifatto a sue spese impianti e vetrine, assicura le migliorie. La banca che ha concesso il mutuo chiede che la polizza del proprietario sia vincolata a suo favore. Sono interessi diversi sullo stesso bene, e ciascuno è tutelato nei limiti del proprio. A volte, poi, chi stipula non è il titolare dell'interesse: è l'assicurazione per conto altrui o per conto di chi spetta, regolata dall'articolo 1891 del Codice civile. Pensiamo a un trasportatore che assicura le merci per conto di chi spetta, cioè di chi ne sarà proprietario al momento del sinistro. Il contraente deve adempiere gli obblighi del contratto, come pagare il premio, ma i diritti derivanti dal contratto spettano all'assicurato, e il contraente non può farli valere senza il suo espresso consenso, anche se ha in mano la polizza. Questa situazione non va confusa con quella dell'articolo 1910, che abbiamo visto nell'area giuridica: lì lo stesso rischio dello stesso assicurato è coperto da più polizze presso assicuratori diversi, e l'assicurato deve avvisare ciascuno di tutte le altre, senza poter incassare complessivamente più del danno.\n\nVeniamo al valore. Il materiale lo dice in modo netto: il valore della cosa assicurata è la misura dell'interesse. Quando il valore assicurato coincide con il valore assicurabile si ha assicurazione piena; se è minore si ha assicurazione parziale, o sottoassicurazione; se è maggiore si ha soprassicurazione, o assicurazione eccedente. Le conseguenze, cioè la regola proporzionale e la riduzione al valore reale, le conosciamo già.\n\nMa come si stabilisce il valore? La regola è l'articolo 1908 del Codice civile, che vale la pena leggere per intero. Primo comma: nell'accertare il danno non si può attribuire alle cose perite o danneggiate un valore superiore a quello che avevano al tempo del sinistro. Secondo comma: il valore può però essere stabilito al tempo della conclusione del contratto, mediante una stima accettata per iscritto dalle parti. Terzo comma, spesso dimenticato: non equivale a stima la dichiarazione di valore delle cose assicurate contenuta nella polizza o in altri documenti. In altre parole, la cifra che il cliente scrive nel modulo non vincola l'assicuratore: è un'indicazione, e al momento del sinistro il perito accerterà il valore reale. Quarto comma: nell'assicurazione dei prodotti del suolo il danno si determina in relazione al valore che i prodotti avrebbero avuto al tempo della maturazione o della raccolta. È la regola che governa la grandine sui raccolti, una delle tipologie del nostro elenco: il grano distrutto a maggio si valuta per quello che sarebbe valso al raccolto.\n\nIl valore al tempo del sinistro è quello che il mercato chiama valore allo stato d'uso: tiene conto dell'età del bene, dell'usura, dello stato di conservazione. Un divano di dieci anni vale meno di uno nuovo, anche se per sostituirlo bisogna comprarne uno nuovo. Il materiale cita a questo proposito il valore a nuovo, e l'IVASS, nella sua indagine del 2024 sulle polizze contro i rischi catastrofali, ne descrive il funzionamento. Le polizze consentono di assicurare il bene allo stato d'uso oppure secondo la formula del valore a nuovo. Per il fabbricato il valore a nuovo è il costo di ricostruzione con beni equivalenti per materiali, tipologia, caratteristiche costruttive, dimensioni e funzionalità; per il contenuto è il costo di rimpiazzo con beni di simile utilità, correntemente offerti sul mercato. C'è però una condizione che l'IVASS evidenzia: il valore a nuovo viene riconosciuto solo dopo l'effettiva ricostruzione o il rimpiazzo. Il cliente deve saperlo, perché influisce sui tempi e sul modo in cui riceverà il denaro.\n\nPassiamo alle tre forme di garanzia, che il materiale elenca in relazione al valore della cosa assicurata. Usiamo le definizioni del glossario dell'IVASS, che sono più precise.\n\nNella garanzia a valore intero il valore assicurato deve corrispondere al valore reale dei beni, cioè al valore assicurabile. Se la somma assicurata è inferiore al valore reale stimato al momento del sinistro, la compagnia ha diritto di applicare la regola proporzionale dell'articolo 1907 e paga il danno nella stessa proporzione che c'è tra valore assicurato e valore reale. Il materiale aggiunge che il valore assicurato comprende l'intero bene, e che l'assicuratore risponde dei danni fino al valore intero, stabilito dalla stima fatta in sede di contratto. È la formula più comune per il fabbricato e il contenuto: l'IVASS lo ha rilevato anche nelle polizze esaminate nel 2024.\n\nNella garanzia a primo rischio relativo la compagnia indennizza il danno fino al massimale, senza regola proporzionale, anche se la somma assicurata riguarda solo una parte dei beni, ma a una condizione: l'assicurato deve indicare correttamente anche il valore effettivo e complessivo dei beni. È ciò che il materiale chiama connessione tra l'assicurazione sottoscritta e il valore del bene: il valore complessivo diventa l'elemento di riferimento per il premio e per la valutazione del rischio. È una formula intermedia, adatta quando è molto improbabile che un sinistro colpisca tutti i beni insieme.\n\nNella garanzia a primo rischio assoluto la compagnia paga il danno fino alla somma assicurata, senza regola proporzionale, indipendentemente dal valore complessivo dei beni. Come dice il materiale, al verificarsi del sinistro l'assicurato ha diritto all'intero indennizzo del danno subito, fino al raggiungimento della somma assicurata. La somma assicurata è quindi il tetto massimo, qualunque sia il valore reale.\n\nVediamo lo stesso danno nelle tre formule, con un esempio didattico. In un magazzino ci sono merci per cinquantamila euro, e un allagamento causa un danno di dodicimila euro. Se il titolare ha assicurato le merci a valore intero, ma per venticinquemila euro, ha coperto metà del valore: la regola proporzionale gli riconosce metà del danno, seimila euro. Se ha assicurato venticinquemila euro a primo rischio relativo, dichiarando correttamente il valore complessivo di cinquantamila, riceve l'intero danno, dodicimila euro, perché sta sotto il massimale. Se ha assicurato diecimila euro a primo rischio assoluto, riceve il danno fino alla somma assicurata, quindi diecimila euro. Tre premi diversi, tre risultati diversi: per questo la forma di garanzia va scelta e spiegata, non lasciata al caso.\n\nChi stabilisce il valore da assicurare? L'indagine IVASS del 2024 ha fotografato una realtà che ogni intermediario conosce: la quantificazione del valore dei beni è lasciata all'assicurato, e l'impresa ne verifica la congruità di solito solo al momento del sinistro. È esattamente il momento peggiore per scoprire una sottoassicurazione. Il valore va quindi costruito con il cliente alla stipula, con dati concreti come metri quadrati, inventari e fatture, e va aggiornato nel tempo. Un dettaglio che l'IVASS segnala e che spesso sfugge: l'area su cui sorge l'immobile non contribuisce a formare il valore da assicurare. Il valore di un fabbricato ai fini della polizza è il costo per ricostruirlo, non il prezzo di mercato dell'appartamento, che comprende anche il terreno e la posizione. Usare il prezzo di compravendita porta spesso a pagare un premio più alto del necessario, oppure, in zone in cui costruire costa molto, a sottoassicurare.\n\nInfine l'indennizzo, cioè, secondo il glossario IVASS, la somma dovuta dalla compagnia all'assicurato di una polizza danni. Il materiale ricorda che, non appena si verifica il danno, l'assicurato può far valere il diritto al pagamento. L'assicuratore risarcisce, nei modi e nei limiti del contratto, il danno sofferto in conseguenza del sinistro, e risponde del profitto sperato solo se si è obbligato espressamente: è l'articolo 1905. E nell'accertare il danno non si può attribuire alle cose un valore superiore a quello che avevano al momento del sinistro, salvo le eccezioni che abbiamo visto.\n\nVediamo un caso. Un ottico assicura l'arredamento del negozio a valore intero per quarantamila euro, la cifra che ha dichiarato. Dopo un incendio il perito accerta che, allo stato d'uso, l'arredamento valeva trentaduemila euro, e il danno è di ventimila. Si applica la regola proporzionale? No: la somma assicurata supera il valore reale, quindi non c'è sottoassicurazione e il danno di ventimila euro è pagato per intero. Il cliente però chiede perché non riceve il prezzo di un arredamento nuovo. La risposta è che la cifra scritta in polizza non è una stima accettata, e che vale il valore al tempo del sinistro. Per ottenere il costo del nuovo serviva una garanzia a valore a nuovo, che di regola si paga dopo il rimpiazzo effettivo. E, per il futuro, è inutile pagare un premio su quarantamila euro se il valore reale è più basso: l'eccedenza non viene mai indennizzata.\n\nRicapitolando: l'interesse deve essere economico, legittimo e presente quando il contratto produce effetti; più soggetti possono avere interessi concorrenti sullo stesso bene; il valore si accerta al tempo del sinistro, salvo una stima accettata per iscritto, e la cifra dichiarata in polizza non è una stima; il valore a nuovo copre ricostruzione o rimpiazzo, di regola dopo la sostituzione; e valore intero, primo rischio relativo e primo rischio assoluto portano, a parità di danno, a indennizzi diversi.",
+      "sources": [
+        {
+          "title": "IVASS, Glossario - Educazione assicurativa",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/glossario/glossario_educazione_assicurativa.pdf"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura dei rischi catastrofali, giugno 2024",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2024/IVASS_Report_analisi_polizze_con_rischi_catastrofali_giugno_2024.pdf"
+        },
+        {
+          "title": "Codice civile, art. 1891 (Assicurazione per conto altrui o per conto di chi spetta) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1891"
+        },
+        {
+          "title": "Codice civile, artt. 1905-1911 (Assicurazione contro i danni) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1907"
+        },
+        {
+          "title": "Codice civile, art. 1904 (Interesse all'assicurazione) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1904"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Assicurazione per conto altrui o per conto di chi spetta: obblighi del contraente e diritti dell'assicurato.",
+          "source_ref": "Art. 1891 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 1908 c.c. per intero: stima accettata per iscritto, dichiarazione di valore che non equivale a stima, prodotti del suolo.",
+          "source_ref": "Art. 1908 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Valore allo stato d'uso e valore a nuovo (costo di ricostruzione o rimpiazzo), riconosciuto dopo l'effettiva sostituzione; valore lasciato all'assicurato e verificato solo al sinistro; area dell'immobile esclusa dal valore da assicurare.",
+          "source_ref": "IVASS, Indagine polizze rischi catastrofali, giugno 2024, par. 2 e 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizioni IVASS di garanzia a valore intero, a primo rischio relativo e a primo rischio assoluto, con esempio di calcolo comparato.",
+          "source_ref": "Glossario IVASS - Educazione assicurativa"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la frase sull'interesse che \"può mancare solamente in caso di condizione sospensiva\", spiegata come contratto i cui effetti dipendono da un evento futuro. Riferimento da indicare / possibile aggiornamento: la fonte non cita una norma.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "La slide originale \"L'indennizzo e il valore a nuovo\" non spiegava il valore a nuovo: aggiunta la spiegazione da fonte IVASS. Nella fonte il valore intero è \"stabilito da stima effettuata in sede di contratto\": mantenuto, chiarendo che conta la stima accettata per iscritto (art. 1908, c. 2-3).",
+          "source_ref": "Art. 1908 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Il glossario IVASS, nell'esempio sul valore intero, indica 112.000 euro come 75% di 150.000 (il risultato corretto è 112.500): l'esempio non è stato riportato e ne è stato usato uno nuovo.",
+          "source_ref": "Glossario IVASS, voce Garanzia a valore intero"
+        }
+      ]
+    },
+    {
+      "title": "Rischi nominati e all risks, incendio, furto, catastrofali e sinistro",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Principali tipologie di assicurazioni.pdf",
+        "Corso Ivass 60 ore/Materiale /Principali tipologie di assicurazioni.pdf (1).pdf",
+        "Corso Ivass 60 ore/Materiale /Principali Tipologie di Assicurazioni.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Principali tipologie di assicurazioni",
+          "title": "Rischi nominati e all risks, incendio, furto e catastrofali",
+          "goals": [
+            "Distinguere una polizza a rischi nominati da una polizza tutti i rischi",
+            "Sapere che cosa è assicurato nel fabbricato e nel contenuto, e quando il furto è indennizzabile",
+            "Conoscere l'obbligo catastrofale delle imprese e gli obblighi dopo il sinistro"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Named perils o all risks",
+          "cols": [
+            {
+              "title": "Rischi nominati (named perils)",
+              "items": [
+                "Elenco chiaro e dettagliato degli eventi coperti",
+                "Più le esclusioni tipiche di ogni contratto",
+                "Se l'evento non è nell'elenco, non è coperto"
+              ]
+            },
+            {
+              "title": "Tutti i rischi (all risks)",
+              "items": [
+                "Copre l'intero spettro di una categoria di eventi dannosi",
+                "Sono elencate solo le esclusioni",
+                "Se l'evento non è escluso, è coperto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Come leggere le due polizze",
+          "key": "Con i rischi nominati si cerca l'evento nell'elenco delle garanzie. Con gli all risks si cerca l'evento nell'elenco delle esclusioni. \"Tutti i rischi\" non significa \"tutto\".",
+          "body": "Una all risks ha di solito esclusioni lunghe e limiti per singole garanzie. Il confronto tra due offerte si fa leggendo le esclusioni, non il nome del prodotto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Incendio: che cosa si assicura",
+          "left": {
+            "title": "Fabbricato",
+            "items": [
+              "Costruzioni murarie",
+              "Fissi e infissi",
+              "Opere di fondazione",
+              "Eventuali pertinenze"
+            ]
+          },
+          "right": {
+            "title": "Contenuto",
+            "items": [
+              "Arredo e mobili",
+              "Effetti personali",
+              "Alcuni tipi di impianto",
+              "I beni normalmente contenuti nei locali"
+            ]
+          },
+          "note": "Incendio: combustione, con fiamma, di beni materiali al di fuori di appropriato focolare, che può autoestendersi e propagarsi.",
+          "noteRef": "Materiale originale; Glossario IVASS, voce Incendio"
+        },
+        {
+          "layout": "checklist",
+          "title": "Furto in casa: quando è indennizzabile",
+          "items": [
+            {
+              "text": "Violazione delle protezioni esterne con rottura o scasso."
+            },
+            {
+              "text": "Uso di chiavi rubate o false, o di arnesi da scasso."
+            },
+            {
+              "text": "Ingresso con mezzi artificiali o con particolare agilità, ad esempio da una finestra alta."
+            },
+            {
+              "text": "Permanenza clandestina nei locali: il ladro si nasconde e agisce dopo la chiusura."
+            },
+            {
+              "text": "Sono coperti anche rapina ed estorsione, e i danni a edificio e impianti causati dai ladri.",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I rischi catastrofali nelle polizze casa",
+          "key": "Nelle polizze sul mercato le coperture catastrofali sono per lo più garanzie aggiuntive alla polizza \"Incendio e danni ai beni\", con un supplemento di premio. Le polizze solo catastrofali sono poche.",
+          "body": "Per le famiglie l'offerta è più ridotta che per le PMI. La frana è spesso coperta solo come causa di alluvione, e le definizioni degli eventi cambiano tra le imprese.",
+          "ref": "IVASS, Indagine polizze rischi catastrofali, 2024"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità normativa",
+          "title": "L'obbligo catastrofale per le imprese",
+          "lead": "Dalla legge di bilancio 2024 le imprese devono assicurare i propri beni contro le catastrofi naturali.",
+          "facts": [
+            {
+              "label": "Norma",
+              "text": "Legge 30 dicembre 2023, n. 213, art. 1, commi 101 e seguenti; decreto interministeriale 30 gennaio 2025, n. 18."
+            },
+            {
+              "label": "Chi",
+              "text": "Imprese non agricole con sede legale o stabile organizzazione in Italia. Escluse anche le imprese con immobili abusivi."
+            },
+            {
+              "label": "Eventi",
+              "text": "Sismi, alluvioni, frane, inondazioni ed esondazioni."
+            },
+            {
+              "label": "Beni",
+              "text": "Terreni, fabbricati, impianti e macchinari, attrezzature industriali e commerciali."
+            },
+            {
+              "label": "Tempi",
+              "text": "Obbligo graduale: nel 2025 le imprese più grandi, dal 1° aprile 2026 la generalità delle imprese tenute all'iscrizione al Registro."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Polizze catastrofali PMI: che cosa guardare",
+          "items": [
+            {
+              "text": "Beni coperti: sempre i fabbricati, di norma esclusi i terreni su cui sorgono; in genere macchinari, attrezzature, arredi e merci."
+            },
+            {
+              "text": "Spese accessorie: in alcuni casi demolizione e sgombero, ripristino dei locali, periti, riprogettazione."
+            },
+            {
+              "text": "Danni indiretti: alcune polizze coprono maggiori costi e minori ricavi da interruzione dell'attività (business interruption)."
+            },
+            {
+              "text": "Servizi di assistenza in emergenza e, in alcune polizze, un anticipo sull'indennizzo prima della liquidazione."
+            },
+            {
+              "text": "Terremoto: le scosse delle 72 ore successive alla prima sono un unico sinistro."
+            },
+            {
+              "text": "Fabbricati: classi costruttive di merito, con premi più bassi per edifici più robusti; le caratteristiche le dichiara l'assicurato.",
+              "ref": "IVASS, Indagine polizze rischi catastrofali, 2024, par. 6.1"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le polizze parametriche",
+          "key": "Nelle polizze parametriche l'indennizzo è stabilito nel contratto e scatta automaticamente quando un indice supera una soglia, ad esempio pioggia o velocità del vento.",
+          "body": "Non serve la perizia e il pagamento è rapido, ma l'importo non è commisurato al danno effettivo: può essere più alto o più basso.",
+          "ref": "IVASS, Indagine polizze rischi catastrofali, 2024"
+        },
+        {
+          "layout": "steps",
+          "title": "Quando arriva il sinistro",
+          "steps": [
+            {
+              "label": "Salvare",
+              "text": "Fare quanto possibile per evitare o diminuire il danno."
+            },
+            {
+              "label": "Avvisare entro 3 giorni",
+              "text": "All'assicuratore o all'agente autorizzato a concludere il contratto, da quando il sinistro è avvenuto o se ne è avuta conoscenza."
+            },
+            {
+              "label": "Avviso non necessario",
+              "text": "Se assicuratore o agente intervengono entro quel termine al salvataggio o alla constatazione del danno."
+            },
+            {
+              "label": "Spese di salvataggio",
+              "text": "A carico dell'assicuratore, in proporzione al valore assicurato rispetto al valore della cosa al tempo del sinistro."
+            }
+          ],
+          "ref": "Artt. 1913, 1914 c.c."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una famiglia ha una polizza casa a rischi nominati: incendio, furto, acqua condotta. Una sera rientra e trova la porta intatta, ma mancano gioielli e computer: la finestra del bagno, al secondo piano, era aperta. Una settimana dopo, una bomba d'acqua allaga la taverna.",
+          "questions": [
+            "Il furto è indennizzabile?",
+            "L'allagamento è coperto?",
+            "Che cosa doveva fare la famiglia per entrambi i sinistri?"
+          ],
+          "solution": "Il furto può essere indennizzabile se i ladri sono entrati con particolare agilità: va verificato come la polizza descrive le modalità di ingresso. L'allagamento da pioggia non rientra nell'acqua condotta e, con i rischi nominati, è coperto solo se è nell'elenco. Per entrambi: avviso entro tre giorni e misure per limitare il danno; per il furto anche la denuncia all'autorità, se la polizza la richiede."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In una polizza all risks un evento dannoso è coperto se:",
+          "options": [
+            "È indicato nell'elenco delle garanzie",
+            "Non rientra tra le esclusioni",
+            "È stato denunciato entro 24 ore",
+            "Il bene è nuovo"
+          ],
+          "answer": 1,
+          "explanation": "La all risks copre l'intero spettro di una categoria di eventi e menziona solo le esclusioni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "L'obbligo di assicurazione contro le catastrofi naturali introdotto dalla legge 213/2023 riguarda:",
+          "options": [
+            "Tutte le famiglie proprietarie di casa",
+            "Le imprese non agricole con sede legale o stabile organizzazione in Italia",
+            "Solo le imprese agricole",
+            "Solo le imprese con più di 250 dipendenti, per sempre"
+          ],
+          "answer": 1,
+          "explanation": "L'obbligo riguarda le imprese non agricole; l'applicazione è stata graduale per dimensione, e dal 1° aprile 2026 si estende alla generalità delle imprese."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Named · All",
+              "text": "elenco degli eventi coperti oppure elenco delle sole esclusioni"
+            },
+            {
+              "value": "4 modi",
+              "text": "di ingresso che rendono indennizzabile il furto in casa"
+            },
+            {
+              "value": "213/2023",
+              "text": "obbligo catastrofale per le imprese non agricole"
+            },
+            {
+              "value": "3 giorni",
+              "text": "per l'avviso, salvo intervento di assicuratore o agente"
+            },
+            {
+              "value": "Salvataggio",
+              "text": "spese a carico dell'assicuratore in proporzione al valore assicurato"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa ultima lezione restiamo nei danni alle cose e guardiamo come sono costruite le polizze: la differenza tra rischi nominati e tutti i rischi, il contenuto delle garanzie incendio e furto, i rischi catastrofali, compreso il nuovo obbligo per le imprese, e infine gli obblighi dell'assicurato quando arriva il sinistro.\n\nIl materiale individua due principali modalità di assicurazione. La prima è la polizza named perils, o a rischi nominati: contiene un elenco chiaro e dettagliato degli eventi che generano il rischio e per i quali opera la copertura, più le esclusioni tipiche presenti in ogni contratto. La seconda è la polizza all risks, o tutti i rischi: copre l'intero spettro di una particolare categoria di eventi dannosi, e quindi menziona solo le esclusioni.\n\nLa differenza cambia il modo di leggere il contratto. Con una polizza a rischi nominati la domanda è: l'evento che mi è capitato è nell'elenco? Se non c'è, non sono coperto. Con una polizza all risks la domanda è opposta: l'evento è tra le esclusioni? Se non c'è, sono coperto. Attenzione però a un equivoco frequente: tutti i rischi non significa tutto. Le polizze all risks hanno di solito un elenco di esclusioni lungo e articolato, e limiti, franchigie e scoperti diversi per singole garanzie. Quando un cliente confronta due offerte, il lavoro utile è mettere a confronto le esclusioni, non il nome del prodotto.\n\nPassiamo all'incendio. Ricordiamo la definizione del glossario IVASS: è la combustione, con fiamma, di beni materiali al di fuori di appropriato focolare, che può autoestendersi e propagarsi. Nel caso dell'abitazione, dice il materiale, sono assicurati sia l'edificio, o i locali in cui si sviluppa l'abitazione, sia i beni che si trovano al suo interno. Per i locali o gli edifici sono oggetto di indennizzo le costruzioni murarie, i relativi fissi e infissi, le opere di fondazione e le eventuali pertinenze. Per il contenuto si considerano i beni normalmente presenti nei locali: arredo e mobili, effetti personali e alcuni tipi di impianto. La distinzione è pratica: chi vive in affitto assicura di solito il contenuto, mentre il fabbricato è interesse del proprietario. E nei condomini il fabbricato è spesso assicurato con la polizza globale dell'edificio: prima di proporre una garanzia sul fabbricato a un condomino conviene sapere che cosa copre già quella polizza.\n\nVeniamo al furto nell'abitazione privata. La copertura riguarda il valore dei beni sottratti, anche quando l'appropriazione avviene con rapina o estorsione, e i danni all'edificio e agli impianti causati dall'azione dei ladri. Il materiale indica quando l'assicurato ha diritto all'indennizzo: il furto deve essere avvenuto violando le protezioni esterne con rottura o scasso, oppure usando chiavi rubate o false o arnesi da scasso; oppure ricorrendo a mezzi artificiali o a una particolare agilità, come chi entra arrampicandosi fino a una finestra alta; oppure con una permanenza clandestina nei locali, cioè il ladro che si nasconde e agisce dopo la chiusura. Sono le modalità di ingresso che le condizioni di polizza descrivono, ciascuna con le sue parole. La conseguenza è importante: se la porta era aperta e non c'è alcuna di queste modalità, il furto di solito non è indennizzabile. È una delle contestazioni più frequenti, e si previene spiegando al cliente, alla firma, quali condizioni deve rispettare.\n\nIl materiale cita, tra i rischi della casa, anche le inondazioni. Su questo tema l'IVASS ha pubblicato nel 2024 un'indagine su quarantasei polizze in commercio, di quattordici compagnie, destinate a piccole e medie imprese e a famiglie. Le evidenze sono molto utili per chi consiglia. L'offerta riguarda prevalentemente coperture catastrofali che si aggiungono alla polizza incendio e danni ai beni, con un supplemento di premio; le polizze solo catastrofali, le cosiddette stand alone, sono poche. L'offerta è più ampia per le PMI che per la clientela retail. Nelle polizze per le famiglie la frana è coperta solo da alcune compagnie, e in molti casi la frana è assicurata solo in via indiretta, come causa di alluvioni o allagamenti. Le definizioni degli eventi non sono omogenee tra le imprese, e a volte richiamano soglie di intensità, come un grado minimo per i terremoti. Per l'intermediario il messaggio è chiaro: con i rischi catastrofali bisogna leggere le definizioni, non fidarsi del titolo della garanzia.\n\nPer le imprese, invece, c'è una novità normativa. La legge di bilancio 2024, cioè la legge 30 dicembre 2023 numero 213, all'articolo 1, commi 101 e seguenti, ha introdotto l'obbligo per le imprese di assicurarsi contro i danni causati da calamità naturali ed eventi catastrofali. Le modalità attuative sono nel decreto interministeriale 30 gennaio 2025, numero 18. L'obbligo riguarda le imprese non agricole con sede legale o stabile organizzazione in Italia; secondo l'IVASS ne sono escluse anche le imprese i cui immobili risultano gravati da abuso edilizio. Gli eventi sono cinque: sismi, alluvioni, frane, inondazioni ed esondazioni. I beni da assicurare sono le immobilizzazioni materiali: terreni, fabbricati, impianti e macchinari, attrezzature industriali e commerciali. L'applicazione è stata graduale. Il decreto legge 39 del 2025 ha scaglionato i termini per dimensione d'impresa, e secondo il rapporto IVASS del 2026 nel corso del 2025 l'obbligo ha riguardato le imprese più grandi, mentre dal primo aprile 2026 si estende alla generalità delle imprese non agricole tenute all'iscrizione nel Registro delle imprese. Lo scopo dichiarato, ricorda l'IVASS, è ridurre la sottoassicurazione diffusa nel nostro Paese. Per un agente o un broker che ha clienti artigiani, commercianti o piccole imprese, è oggi uno dei temi di consulenza più concreti: verificare se il cliente è obbligato, che cosa copre già la sua polizza incendio e quali beni mancano.\n\nQuando si propone una copertura catastrofale a una piccola o media impresa, l'indagine IVASS suggerisce una vera e propria lista di controllo. Primo, i beni coperti: nelle polizze esaminate i fabbricati sono sempre coperti, mentre sono di norma esclusi i terreni su cui sorgono; in genere sono assicurati anche macchinari, attrezzature, arredi e merci, e solo alcune compagnie coprono valori e oggetti d'arte, archivi, beni in leasing o impianti fotovoltaici sui tetti. Secondo, le spese accessorie: in qualche caso sono comprese le spese di demolizione e sgombero dei residui, il ripristino dei locali, gli onorari dei periti e la riprogettazione del fabbricato. Terzo, i danni indiretti: alcune polizze coprono i maggiori costi o i minori ricavi dovuti all'interruzione dell'attività, la cosiddetta business interruption, che per un'impresa ferma per mesi può valere più del danno materiale. Quarto, i servizi: alcune compagnie prevedono interventi di emergenza, come l'invio di un idraulico o di personale per l'asciugatura, e alcune riconoscono un anticipo sull'indennizzo durante l'accertamento del danno, per far partire subito il ripristino. Quinto, le definizioni: nelle polizze esaminate il terremoto è definito come sommovimento brusco e repentino della crosta terrestre dovuto a cause endogene, e le scosse registrate nelle settantadue ore successive al primo evento sono considerate un unico sinistro, con una sola franchigia. Infine i fabbricati: le compagnie li suddividono in classi costruttive di merito, con premi più bassi per gli edifici più robusti, e le caratteristiche costruttive vanno dichiarate dall'assicurato, che spesso non le conosce. Qui l'aiuto dell'intermediario, magari coinvolgendo il tecnico dell'impresa, evita dichiarazioni inesatte.\n\nNella stessa indagine l'IVASS descrive anche le polizze parametriche. Sono polizze disegnate sulle esigenze della singola azienda, in cui la copertura è legata a un accadimento predefinito, come il livello delle precipitazioni o la velocità del vento. L'indennizzo è stabilito nel contratto e viene pagato automaticamente, senza denuncia e senza perizia, quando un soggetto terzo verifica il superamento del parametro. Il vantaggio è la rapidità. Il limite va spiegato con chiarezza: l'importo non è commisurato al danno effettivamente subito, quindi può essere più alto o più basso del danno reale.\n\nChiudiamo con il sinistro. Il materiale lo descrive come la causa del danno provocato dall'evento assicurato; il glossario dell'IVASS lo definisce come il verificarsi dell'evento per il quale è prevista la prestazione della compagnia. Il materiale ricorda poi che dal momento in cui si verifica decorre il termine per l'avviso, articolo 1913, e nasce l'obbligo di salvataggio, articolo 1914. L'avviso spetta all'assicurato e va dato entro tre giorni da quello in cui il sinistro si è verificato o in cui l'assicurato ne ha avuto conoscenza, all'assicuratore o all'agente autorizzato a concludere il contratto. C'è un dettaglio dell'articolo 1913 utile in agenzia: l'avviso non è necessario se l'assicuratore o l'agente autorizzato intervengono entro quel termine alle operazioni di salvataggio o di constatazione del sinistro. Sull'assicurato grava poi l'obbligo di salvataggio, cioè fare quanto possibile per evitare o diminuire il danno. Le spese di salvataggio sono a carico dell'assicuratore in proporzione del valore assicurato rispetto al valore che la cosa aveva al tempo del sinistro. Le conseguenze di un avviso o di un salvataggio omessi, cioè la perdita o la riduzione dell'indennità, le abbiamo già viste nell'area giuridica.\n\nVediamo un caso che mette insieme i temi della lezione. Una famiglia ha una polizza casa a rischi nominati, con incendio, furto e acqua condotta. Una sera trova la porta intatta, ma mancano gioielli e computer: la finestra del bagno, al secondo piano, era rimasta aperta. Il furto può essere indennizzabile se i ladri sono entrati con particolare agilità, ma bisogna verificare come la polizza descrive le modalità di ingresso e se prevede limiti per i gioielli. Una settimana dopo una bomba d'acqua allaga la taverna. L'acqua piovana non è acqua condotta, che riguarda la fuoriuscita da impianti, e con una polizza a rischi nominati l'allagamento è coperto solo se è nell'elenco. In entrambi i casi la famiglia deve dare l'avviso entro tre giorni e fare il possibile per limitare il danno; per il furto, di solito, la polizza chiede anche la copia della denuncia all'autorità.\n\nRicapitolando: le polizze named perils elencano gli eventi coperti, le all risks solo le esclusioni; l'incendio della casa copre fabbricato e contenuto, ciascuno con il suo perimetro; il furto in casa è indennizzabile se avviene con le modalità di ingresso previste; i rischi catastrofali vanno letti nelle definizioni, e per le imprese non agricole oggi sono oggetto di un obbligo assicurativo; e dopo il sinistro restano due obblighi, l'avviso entro tre giorni e il salvataggio, con le spese a carico dell'assicuratore in proporzione al valore assicurato.",
+      "sources": [
+        {
+          "title": "IVASS, Glossario - Educazione assicurativa",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/glossario/glossario_educazione_assicurativa.pdf"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura dei rischi catastrofali, giugno 2024",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2024/IVASS_Report_analisi_polizze_con_rischi_catastrofali_giugno_2024.pdf"
+        },
+        {
+          "title": "IVASS, Rischi da catastrofi naturali e di sostenibilità: IV monitoraggio annuale, 2026",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/stabilita-finanziaria/2026/2026-rischi-cat-nat-sost/Rischi_cat_nat_e_sost_IV_monitoraggio_annuale_2026.pdf"
+        },
+        {
+          "title": "IVASS, Le recenti misure sull'assicurazione dei rischi catastrofali, audizione del 9 aprile 2025",
+          "url": "https://www.ivass.it/media/interviste/documenti/audizioni/2025/rc-09-04-2025-catastrofali/RC_IVASS_Audizione_ddl_C2333_slide.pdf"
+        },
+        {
+          "title": "Codice civile, artt. 1913-1915 (Avviso e salvataggio) - Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1913"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Coperture catastrofali nelle polizze casa e PMI: garanzie aggiuntive con supplemento di premio, poche stand alone, offerta retail più ridotta, frana spesso indiretta, definizioni non omogenee; polizze parametriche.",
+          "source_ref": "IVASS, Indagine polizze rischi catastrofali, giugno 2024, par. 2 e 6.2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Lista di controllo per le polizze catastrofali PMI: beni coperti ed esclusi, spese accessorie, business interruption, assistenza e anticipo, definizione di terremoto e regola delle 72 ore, classi costruttive.",
+          "source_ref": "IVASS, Indagine polizze rischi catastrofali, giugno 2024, par. 6.1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo assicurativo catastrofale per le imprese non agricole: norma, decreto attuativo, eventi, beni, esclusioni, applicazione graduale fino al 1° aprile 2026.",
+          "source_ref": "L. 213/2023, art. 1, c. 101 ss.; D.M. 18/2025; IVASS, Rapporto rischi cat nat 2026, note 4 e 18; IVASS, audizione 9 aprile 2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Avviso non necessario se assicuratore o agente intervengono entro i tre giorni; testo dell'art. 1914 sulle spese di salvataggio.",
+          "source_ref": "Artt. 1913, 1914 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione IVASS di incendio.",
+          "source_ref": "Glossario IVASS, voce Incendio"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la frase \"il sinistro è la causa del danno provocato dall'evento assicurato\". Riferimento da indicare / possibile aggiornamento: per il glossario IVASS il sinistro è il verificarsi dell'evento per il quale è prevista la prestazione della compagnia.",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Le osservazioni pratiche su polizza condominiale, acqua condotta e denuncia all'autorità sono indicate come cose da verificare nelle condizioni di polizza, non come regole generali.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

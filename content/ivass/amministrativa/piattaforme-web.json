@@ -1,0 +1,1205 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Piattaforme web assicurative",
+  "topic_order": 7,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "La piattaforma web per la rete di vendita",
+      "source_files": [
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative prima parte.mp4 (trascrizione audio)",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative terza parte.mp4 (trascrizione audio)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Piattaforme web assicurative",
+          "title": "La piattaforma web per la rete di vendita",
+          "goals": [
+            "Capire a che cosa serve una piattaforma web per intermediari",
+            "Distinguere compagnie specialist e generaliste e le linee di prodotto",
+            "Usare comparatori, Preventivass e call center rispettando le regole IVASS"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è una piattaforma web assicurativa",
+          "key": "Un ambiente online in cui la rete trova le compagnie mandanti, fa preventivi ed emette i contratti in autonomia, con l'appoggio di un back-office specializzato.",
+          "body": "Nel video la piattaforma nasce dentro un gruppo che opera sia nel credito sia nelle assicurazioni. Serve a valorizzare i progetti del gruppo e a mettere a disposizione dei consulenti, in base alle loro esigenze, i prodotti da abbinare o non abbinare a un finanziamento.",
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "facts",
+          "title": "Che cosa trova il consulente sulla piattaforma",
+          "lead": "Le funzioni descritte nel video.",
+          "facts": [
+            {
+              "label": "Accesso",
+              "text": "Credenziali individuali per ogni intermediario e consulente."
+            },
+            {
+              "label": "Quotazione",
+              "text": "Preventivi fatti in autonomia, scegliendo tra le compagnie mandanti."
+            },
+            {
+              "label": "Emissione",
+              "text": "Il contratto si emette dalla piattaforma, anche senza abbinamento al credito."
+            },
+            {
+              "label": "Back-office",
+              "text": "Assistenza dedicata e specializzata per la rete."
+            },
+            {
+              "label": "Gestionale",
+              "text": "Un CRM con anagrafiche, archivio clienti e report della produzione mensile."
+            },
+            {
+              "label": "Supporto",
+              "text": "Formazione tecnica, commerciale e amministrativa; ufficio marketing."
+            }
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "compare",
+          "title": "Compagnie specialist e generaliste",
+          "cols": [
+            {
+              "title": "Specialist",
+              "items": [
+                "Nate per coprire un settore preciso, ad esempio il mondo del credito",
+                "Prodotti costruiti come «fabbrica prodotto»",
+                "Una sola polizza può coprire più rischi insieme",
+                "Nel video anche specialist del ramo vita: piani di accumulo, investimenti e raccolta"
+              ]
+            },
+            {
+              "title": "Generaliste",
+              "items": [
+                "Offrono tutti i rami con prodotti standard",
+                "Nel credito propongono soprattutto la temporanea caso morte",
+                "Utili per fidelizzare il cliente sugli altri bisogni",
+                "Prodotti da banco: casa, auto, animali"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Diventare intermediario: formazione e registri",
+          "head": [
+            "Tema",
+            "Che cosa prevede"
+          ],
+          "rows": [
+            [
+              "Formazione iniziale",
+              "Corsi di almeno 60 ore nei 12 mesi prima della domanda di iscrizione o dell'inizio dell'attività."
+            ],
+            [
+              "Aggiornamento",
+              "Almeno 30 ore ogni anno, dal 1° gennaio dell'anno dopo l'iscrizione. 15 ore per gli intermediari a titolo accessorio in sezione E."
+            ],
+            [
+              "Test e attestato",
+              "Ogni corso finisce con un test di verifica; se superato, si riceve l'attestato."
+            ],
+            [
+              "Doppia iscrizione",
+              "Per la fonte si può essere iscritti insieme nel RUI (IVASS) e negli elenchi OAM (credito): le ore OAM conformi alla Parte IV e alle materie dell'Allegato 6 valgono anche per l'IVASS."
+            ]
+          ],
+          "ref": "Reg. IVASS 40/2018, artt. 88, 89, 89-bis, 90"
+        },
+        {
+          "layout": "table",
+          "title": "Le tre aree di prodotto",
+          "lead": "La piattaforma del video divide l'offerta per aree, per renderla più leggibile.",
+          "head": [
+            "Area",
+            "Che cosa contiene",
+            "Nota"
+          ],
+          "rows": [
+            [
+              "1 · Danni e vita",
+              "Linea persona, linea professionisti, linea aziende.",
+              "Prodotti standard e su misura."
+            ],
+            [
+              "2 · Cauzioni e credito",
+              "Garanzie a favore di terzi, polizze sul credito.",
+              "Settore specialistico."
+            ],
+            [
+              "3 · Mutui e finanziamenti",
+              "Incendio e scoppio, CPI, income protection.",
+              "Il core business della piattaforma."
+            ]
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "split",
+          "title": "La linea persona",
+          "left": {
+            "title": "Protezione e risparmio",
+            "items": [
+              "Malattia e infortuni",
+              "Vita e risparmio",
+              "Previdenza integrativa, complementare e facoltativa",
+              "Tutela legale anche per l'azienda"
+            ],
+            "ref": "Materiale originale del corso (video)"
+          },
+          "right": {
+            "title": "Prodotti da banco",
+            "items": [
+              "RC auto e polizze accessorie",
+              "Casa e animali",
+              "Polizza professionale"
+            ],
+            "ref": "Materiale originale del corso (video)"
+          },
+          "note": "Le forme pensionistiche complementari possono essere collocate dagli intermediari iscritti nel RUI, non da quelli a titolo accessorio, e mai tramite reti multilevel.",
+          "noteRef": "Reg. IVASS 40/2018, artt. 49 e 50"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché parlare di previdenza integrativa",
+          "key": "Per la fonte la pensione pubblica da sola non basterà a mantenere il tenore di vita: si calcola sui contributi versati in tutta la vita lavorativa.",
+          "body": "La piattaforma propone prodotti di previdenza integrativa, complementari e facoltativi, per compensare le esigenze di una persona o di una famiglia oggi e domani. Il consulente parte dai bisogni: età, reddito, famiglia, tenore di vita desiderato.",
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "table",
+          "title": "La linea professionisti",
+          "head": [
+            "Chi",
+            "Che cosa serve"
+          ],
+          "rows": [
+            [
+              "Professioni con albo",
+              "Avvocati, commercialisti, ingegneri, tecnici, medici: RC professionale obbligatoria, da rinnovare ogni anno adeguando i massimali."
+            ],
+            [
+              "Professioni non regolamentate",
+              "Attività senza albo né riconoscimento: si può costruire una copertura su misura."
+            ],
+            [
+              "Personalizzazione",
+              "Massimali e premio cambiano con attività, fatturato e rischio."
+            ]
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "table",
+          "title": "La linea aziende",
+          "lead": "Per la fonte il mondo aziendale è molto più ampio di quanto si pensi.",
+          "head": [
+            "Copertura",
+            "Che cosa protegge"
+          ],
+          "rows": [
+            [
+              "Incendio e danni",
+              "Danni diretti e indiretti ai beni dell'azienda."
+            ],
+            [
+              "RCT e RCO",
+              "Responsabilità civile verso terzi e verso i dipendenti (prestatori d'opera)."
+            ],
+            [
+              "Globale fabbricati",
+              "Fabbricati, anche collettivi, legati a mutui ipotecari o fondiari: incendio, furto e altre componenti."
+            ],
+            [
+              "Terremoto e catastrofi",
+              "Nuova esigenza: il clima cambia e cresce la domanda di tutela del patrimonio."
+            ]
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "concept",
+          "title": "Prodotti standard e prodotti su misura",
+          "key": "Accanto ai prodotti da banco, la piattaforma crea polizze «tailor made»: come un sarto, si costruisce un abito su misura del cliente.",
+          "body": "Nel video sono previsti anche rischi particolari che non tutte le compagnie gradiscono. Ricorda: se l'intermediario decide in autonomia coperture, tariffe e mercato di riferimento può diventare produttore di fatto, con gli obblighi POG; non lo è se personalizza un prodotto esistente per un singolo cliente.",
+          "ref": "Materiale originale; Reg. IVASS 45/2020, art. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il comparatore deve...",
+          "items": [
+            {
+              "text": "Indicare in home page, o in una pagina collegata, la quota di mercato comparata e l'elenco delle imprese convenzionate.",
+              "ref": "Reg. 40/2018, art. 80, lett. a"
+            },
+            {
+              "text": "Confrontare davvero tutte le imprese che pubblicizza; se una non quota, spiegare perché e dare la quotazione anche dopo.",
+              "ref": "lett. b-c"
+            },
+            {
+              "text": "Confrontare non solo il prezzo ma le caratteristiche principali, con uno standard uniforme.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Rilevare le esigenze del cliente e proporre solo prodotti coerenti.",
+              "ref": "lett. e"
+            },
+            {
+              "text": "Evitare abbinamenti forzati all'RC auto e garanzie attribuite in automatico (opt-out).",
+              "ref": "lett. f"
+            },
+            {
+              "text": "Rendere trasparenti i compensi ricevuti da ogni impresa, anche per singola polizza.",
+              "ref": "lett. g; CAP art. 120-bis"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Preventivass, il preventivatore pubblico",
+          "lead": "Il servizio pubblico e gratuito per confrontare il contratto base RC auto.",
+          "facts": [
+            {
+              "label": "Che cosa",
+              "text": "Preventivi del contratto base RC auto, più eventuali clausole aggiuntive. Niente garanzie accessorie."
+            },
+            {
+              "label": "Per chi",
+              "text": "Auto, moto e ciclomotori a uso privato, con formula bonus-malus."
+            },
+            {
+              "label": "Ordine",
+              "text": "Per prezzo crescente; a parità di prezzo, in ordine alfabetico."
+            },
+            {
+              "label": "Validità",
+              "text": "60 giorni dall'emissione."
+            },
+            {
+              "label": "Acquisto",
+              "text": "Non sul preventivatore: dall'impresa o da un intermediario, con il numero di preventivo."
+            },
+            {
+              "label": "Numeri",
+              "text": "Quasi 85 milioni di preventivi tra giugno 2025 e fine maggio 2026."
+            }
+          ],
+          "ref": "IVASS, FAQ Preventivass; Relazione annuale 2025"
+        },
+        {
+          "layout": "checklist",
+          "title": "Se la rete usa un call center",
+          "items": [
+            {
+              "text": "Possono usarlo imprese e intermediari delle sezioni A, B, D e F.",
+              "ref": "Reg. 40/2018, art. 76, c. 1"
+            },
+            {
+              "text": "L'intermediario risponde in pieno degli addetti e nomina per ogni sede un collaboratore di sezione E che coordina e controlla.",
+              "ref": "art. 76, c. 1, lett. b"
+            },
+            {
+              "text": "Gli addetti sono formati e al primo contatto danno codice o generalità, impresa e intermediario.",
+              "ref": "art. 76, c. 2"
+            },
+            {
+              "text": "Risposte uniformi e conformi alle condizioni di contratto, in italiano, chiare.",
+              "ref": "art. 76, c. 2-3"
+            },
+            {
+              "text": "Il cliente può chiedere di parlare con il responsabile del call center.",
+              "ref": "art. 76, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un consulente appena entrato in una rete riceve le credenziali della piattaforma. Un cliente gli chiede la RC auto più economica e una polizza per il suo studio di architettura. Il consulente vorrebbe mandargli solo lo screenshot del prezzo più basso trovato sulla piattaforma.",
+          "questions": [
+            "Che cosa deve fare prima della RC auto?",
+            "Come imposta la polizza dello studio?",
+            "Va bene confrontare solo il prezzo?"
+          ],
+          "solution": "Per la RC auto informa il cliente sui premi del contratto base di tutte le compagnie di cui è mandatario, tramite Preventivass, e raccoglie la dichiarazione del cliente. Per lo studio parte dalle esigenze: attività, fatturato e rischio determinano i massimali della RC professionale obbligatoria. Non basta il prezzo: vanno confrontate garanzie, esclusioni e massimali, come chiede anche l'art. 80 ai comparatori."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quante ore di aggiornamento professionale servono ogni anno, in via generale, a un intermediario?",
+          "options": [
+            "15 ore",
+            "30 ore",
+            "60 ore",
+            "Nessuna, dopo la prova di idoneità"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 89 del Reg. IVASS 40/2018 prevede almeno 30 ore annuali. Le 60 ore sono la formazione iniziale; 15 ore valgono solo per gli intermediari a titolo accessorio in sezione E."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un comparatore online pubblicizza 20 compagnie ma ne confronta 12. È corretto?",
+          "options": [
+            "Sì, se il prezzo mostrato è il più basso",
+            "No: le imprese pubblicizzate devono corrispondere a quelle effettivamente comparate",
+            "Sì, se lo scrive nelle condizioni generali",
+            "Sì, perché il comparatore non è un intermediario"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 80 del Reg. 40/2018 chiede che il numero di imprese pubblicizzate corrisponda a quelle davvero comparate. Il confronto via web è attività di distribuzione (CAP, art. 106)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Rete",
+              "text": "accessi individuali, quotazione ed emissione autonome, back-office e CRM"
+            },
+            {
+              "value": "Specialist",
+              "text": "compagnie nate per un settore, come il credito"
+            },
+            {
+              "value": "60 · 30",
+              "text": "ore di formazione iniziale e di aggiornamento annuale"
+            },
+            {
+              "value": "Art. 80",
+              "text": "comparatori trasparenti: imprese, quote, caratteristiche, compensi"
+            },
+            {
+              "value": "Art. 76",
+              "text": "call center sotto la piena responsabilità dell'intermediario"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo in una piattaforma web assicurativa costruita per una rete di vendita. Il materiale di partenza è la presentazione video di un gruppo che lavora sia nel credito sia nelle assicurazioni. Ne ricaviamo un modello generale: che cosa offre una piattaforma alla rete, come è organizzata l'offerta e quali regole IVASS valgono quando si usano strumenti online per confrontare e vendere polizze.\n\nPartiamo dall'idea. Una piattaforma web assicurativa è un ambiente online in cui la rete trova le compagnie mandanti, prepara i preventivi ed emette i contratti in autonomia, con l'appoggio di un back-office specializzato. Nel video la piattaforma serve a valorizzare i progetti del gruppo e a offrire alla rete, in base alle esigenze, i prodotti da abbinare o non abbinare a un finanziamento. Pensate a un consulente del credito che segue un mutuo: dalla stessa piattaforma può proporre la copertura del finanziamento, ma anche la polizza casa o la RC auto del cliente.\n\nVediamo le funzioni descritte. Ogni intermediario e consulente ha credenziali individuali. Fa le quotazioni da solo, scegliendo tra le compagnie rappresentate come mandanti, ed emette i contratti. Alle spalle c'è un back-office dedicato. C'è poi un gestionale, un CRM, con l'archivio dei clienti, le anagrafiche e i report della produzione mensile; nel mandato sono indicati anche gli allegati provvigionali. Completano il quadro la formazione tecnica, commerciale e amministrativa e un ufficio marketing che prepara campagne, grafiche personalizzate e comunicazioni sui social. Ricordate però che ogni comunicazione pubblicitaria dell'intermediario richiede l'autorizzazione delle imprese preponenti, come abbiamo visto nelle lezioni sul marketing.\n\nIl video insiste su una distinzione: compagnie specialist e compagnie generaliste. La compagnia specialist è nata per coprire un settore preciso, per esempio il mondo del credito. I suoi prodotti sono costruiti come una fabbrica prodotto: dentro la stessa polizza si coprono più rischi. Nel credito, mentre la concorrenza propone di solito solo la temporanea caso morte, il pacchetto specialist aggiunge invalidità, malattia e perdita del posto di lavoro. Nel video compaiono anche specialist di altri campi: compagnie per i prodotti da banco e compagnie specializzate in piani di accumulo, investimenti e raccolta. Le generaliste offrono un po' di tutto con prodotti standard e servono, ad esempio, per fidelizzare il cliente sugli altri bisogni.\n\nPrima di usare la piattaforma, però, bisogna essere intermediari. La fonte ricorda che per entrare nel settore servono 60 ore di formazione iniziale e poi 30 ore di aggiornamento ogni anno, e questo è confermato dal Regolamento IVASS 40 del 2018. La formazione iniziale consiste in corsi di almeno 60 ore svolti nei 12 mesi prima della domanda di iscrizione o dell'inizio dell'attività. L'aggiornamento richiede almeno 30 ore annuali, a partire dal primo gennaio dell'anno successivo all'iscrizione; per gli intermediari a titolo accessorio iscritti in sezione E bastano 15 ore. Ogni corso si chiude con un test di verifica e, se è superato, con un attestato.\n\nLa fonte sottolinea un'altra opportunità: in Italia chi lavora tra credito e assicurazioni può essere iscritto contemporaneamente in due registri, quello degli intermediari assicurativi tenuto dall'IVASS e gli elenchi dell'OAM per agenti in attività finanziaria e mediatori creditizi, vigilati dalla Banca d'Italia. Per la fonte questo è un vantaggio rispetto ad altre professioni, che hanno un unico albo. Il Regolamento 40 aggiunge un dettaglio utile: le ore di formazione svolte per gli elenchi OAM possono valere anche per l'IVASS, se rispettano le regole della Parte quarta del Regolamento e le materie del suo allegato 6.\n\nPassiamo all'offerta. La piattaforma del video divide i prodotti in tre aree, per renderli più leggibili per collaboratori e clienti: l'area danni e vita, l'area cauzioni e credito, e l'area polizze per mutui e finanziamenti, che è il vero core business. Alle polizze per i finanziamenti dedicheremo la prossima lezione; a cauzioni e rischi d'impresa la terza.\n\nL'area danni e vita si articola in linee. La linea persona va dalla malattia agli infortuni, dalla vita al risparmio, fino ai prodotti da banco: RC auto, polizze accessorie, casa, animali, la polizza professionale. Comprende anche la tutela legale, utile non solo alla famiglia ma anche all'azienda, per controversie civili, penali, amministrative e contrattuali con clienti, fornitori e dipendenti. E comprende la previdenza integrativa. Su questo punto attenzione a una regola: le forme pensionistiche complementari si possono collocare solo da parte di imprese e intermediari iscritti nel Registro, non da parte degli intermediari a titolo accessorio, e mai attraverso reti multilevel.\n\nPerché la previdenza? La fonte spiega che la pensione pubblica, da sola, non basterà a soddisfare le esigenze future, perché si calcola su quanto versato durante tutta la vita lavorativa. Per questo si propongono prodotti di previdenza integrativa, complementari e facoltativi, per compensare le esigenze di una persona o di una famiglia e mantenere il tenore di vita di oggi anche domani. In pratica, il consulente non parte dal prodotto, ma dalle domande: quanti anni ha il cliente, quanto guadagna, chi dipende da lui, che tenore di vita vuole mantenere.\n\nLa linea professionisti abbraccia un mondo variegato: avvocati, commercialisti, ingegneri, tecnici, medici, ma anche professioni non regolamentate, che non hanno un albo né un riconoscimento formale. Per queste ultime si può costruire una copertura su misura. Per le professioni con obbligo assicurativo, la fonte ricorda che la polizza va rinnovata ogni anno e che si interviene soprattutto sui massimali, che cambiano con l'attività, il fatturato e il rischio. I dettagli dell'obbligo e della clausola claims made li avete visti nell'area tecnica.\n\nLa linea aziende, dice la fonte, è molto più ampia di quanto si pensi. Si parte dalle coperture più semplici, incendio e danni diretti e indiretti, ma la cosa più importante è proteggere anche l'attività e i dipendenti, con la responsabilità civile verso terzi e la RCO verso i prestatori di lavoro. Poi, secondo il profilo dell'azienda, si coprono altri rischi, come la globale fabbricati, che interessa anche i mutui ipotecari e fondiari quando si costruiscono fabbricati collettivi. E c'è una nuova esigenza, sempre più richiesta: la garanzia terremoto e catastrofi. Il clima sta cambiando e chi prima, con il mutuo, copriva solo fabbricato e contenuto oggi vuole tutelare il patrimonio anche da questi eventi. Vedremo nella terza lezione che per le imprese questa copertura è diventata un obbligo di legge.\n\nAccanto ai prodotti standard, la piattaforma crea polizze tailor made: come un bravo sarto, si costruisce un abito su misura del cliente, mettendo insieme esigenze ed esperienza. Il video parla anche di coperture per rischi particolari che non tutte le compagnie gradiscono. Qui serve un richiamo alla disciplina POG: se l'intermediario decide in autonomia coperture, tariffe, costi e mercato di riferimento, e l'impresa non li cambia in modo sostanziale, diventa produttore di fatto, con i relativi obblighi. Non lo diventa se si limita a personalizzare un prodotto esistente o a costruire un contratto per un singolo cliente.\n\nUna piattaforma che confronta più compagnie è spesso anche un comparatore. Il Codice delle assicurazioni, all'articolo 106, considera distribuzione anche fornire informazioni su più contratti tramite un sito, stilare una classifica e confrontare prezzi e prodotti, se il cliente può poi stipulare. L'articolo 80 del Regolamento 40 detta le regole per gli intermediari che offrono questi servizi. Devono indicare in home page, o in una pagina collegata, la quota di mercato comparata e l'elenco delle imprese con cui hanno accordi. Il numero di imprese pubblicizzate deve corrispondere a quello delle imprese davvero comparate; se un'impresa non quota, bisogna spiegare il motivo e dare la quotazione anche più tardi. Il confronto non si basa solo sul prezzo, ma anche sulle caratteristiche principali delle polizze, con uno standard uniforme. Bisogna rilevare le esigenze del cliente e proporre solo prodotti coerenti, evitare abbinamenti forzati di coperture accessorie all'RC auto e meccanismi di opt-out, e rendere trasparenti i compensi che ogni impresa riconosce, anche per singola polizza. Valgono infine le regole sulla pubblicità e sulla riservatezza.\n\nPer l'RC auto esiste anche un comparatore pubblico: Preventivass, il preventivatore dell'IVASS e del Ministero delle imprese. È gratuito e senza registrazione. Mostra i preventivi del contratto base, con eventuali clausole aggiuntive, per auto, moto e ciclomotori a uso privato, con formula bonus-malus; non comprende le garanzie accessorie come furto, incendio o kasko. I preventivi sono ordinati per prezzo crescente e valgono 60 giorni. Sul preventivatore non si compra: si conclude il contratto con l'impresa oppure presentando il preventivo a un intermediario, che può anche vendere le garanzie accessorie. Il servizio è molto usato: secondo l'IVASS ha elaborato quasi 85 milioni di preventivi tra giugno 2025 e fine maggio 2026. Ricordate che l'agente, prima di far firmare una RC auto, deve informare il consumatore sui premi del contratto base delle compagnie di cui è mandatario, come avete visto nell'area tecnica.\n\nMolte reti affiancano alla piattaforma un call center. Possono usarlo le imprese e gli intermediari delle sezioni A, B, D e F. L'intermediario si assume la piena responsabilità dell'operato degli addetti e nomina, per ogni sede, un collaboratore iscritto in sezione E che coordina e controlla l'attività. Gli addetti devono essere formati e conoscere i prodotti; al primo contatto danno il proprio codice o le proprie generalità, il nome dell'impresa e quello dell'intermediario; danno risposte uniformi e conformi alle condizioni di contratto. Il cliente riceve le informazioni in italiano, in modo chiaro, e può chiedere di parlare con il responsabile del call center. Le altre regole della vendita a distanza, dal consenso espresso alle informazioni preliminari, le avete già viste nelle lezioni dedicate.\n\nNel caso pratico il consulente vorrebbe mandare al cliente solo lo screenshot del prezzo più basso. Non basta: per la RC auto ci sono gli obblighi informativi sul contratto base, per lo studio professionale bisogna partire dalle esigenze e dai massimali, e in ogni caso si confrontano garanzie ed esclusioni, non solo il prezzo.\n\nRicapitolando: la piattaforma dà alla rete accessi individuali, quotazione ed emissione autonome, back-office e CRM. Le compagnie specialist sono nate per un settore preciso. Per lavorare servono 60 ore di formazione iniziale e 30 di aggiornamento annuale. Chi confronta polizze online rispetta l'articolo 80, e chi usa un call center ne risponde in pieno.",
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, FAQ Preventivatore pubblico (Preventivass)",
+          "url": "https://www.ivass.it/consumatori/preventivatore/faq-preventivatore/index.html"
+        },
+        {
+          "title": "IVASS, Relazione annuale sul 2025 in sintesi (18 giugno 2026)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Generalizzati i riferimenti al gruppo, alle società e alle compagnie partner nominati nel video (presentazione commerciale): restano le affermazioni sulla struttura della piattaforma e dell'offerta. Omessi nome e ruolo del relatore.",
+          "source_ref": "Materiale originale (video, prima e terza parte)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Correzioni del riconoscimento vocale: «telormed» = tailor made; «recci» = RC; «RCO per i propri dipendenti» = RC verso prestatori di lavoro; «doppio albo OM» = elenchi OAM.",
+          "source_ref": "Trascrizione audio"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Formazione iniziale 60 ore nei 12 mesi precedenti, aggiornamento 30 ore annue (15 per gli accessori in sezione E), test e attestato, riconoscimento delle ore OAM.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 88, 89, 89-bis, 90"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: gli intermediari possono essere iscritti contemporaneamente in due albi (RUI e OAM), a differenza di altre professioni con albo unico. Regole di compatibilità tra iscrizioni da verificare caso per caso (TUB e normativa OAM).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limiti al collocamento delle forme pensionistiche complementari (non per gli accessori, mai in multilevel).",
+          "source_ref": "Reg. IVASS 40/2018, artt. 49 e 50"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la pensione pubblica da sola non basterà; si calcola sui versamenti della vita lavorativa. Riferimento normativo sul sistema di calcolo da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la polizza professionale è obbligatoria e si rinnova ogni anno modificando i massimali. L'obbligo vale per le professioni regolamentate secondo le rispettive norme; la durata annuale dipende dal contratto.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Intermediario produttore di fatto nei prodotti tailor made (richiamo alla disciplina POG).",
+          "source_ref": "Reg. IVASS 45/2020, art. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole per i servizi di comparazione e nozione di distribuzione via web.",
+          "source_ref": "Reg. IVASS 40/2018, art. 80; CAP, art. 106"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Preventivass: oggetto, veicoli, ordinamento, validità 60 giorni, acquisto tramite impresa o intermediario; quasi 85 milioni di preventivi (giugno 2025 - maggio 2026).",
+          "source_ref": "IVASS, FAQ Preventivatore; Relazione annuale 2025 in sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole per l'uso dei call center nella vendita a distanza.",
+          "source_ref": "Reg. IVASS 40/2018, art. 76"
+        }
+      ]
+    },
+    {
+      "title": "Proteggere mutui e finanziamenti: incendio e scoppio, CPI e income protection",
+      "source_files": [
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative prima parte.mp4 (trascrizione audio)",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative terza parte.mp4 (trascrizione audio)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Piattaforme web assicurative",
+          "title": "Proteggere mutui e finanziamenti",
+          "goals": [
+            "Distinguere la polizza incendio e scoppio dalle coperture facoltative",
+            "Spiegare CPI e income protection con un esempio numerico",
+            "Applicare le regole su scelta della polizza, recesso e conflitti di interesse"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché proteggere il credito",
+          "key": "Un mutuo dura anni. Se chi lo paga muore, si ammala o perde il lavoro, la rata resta: la copertura permette di onorare l'impegno fino alla fine.",
+          "body": "Per la fonte è decisivo soprattutto quando in famiglia lavora una sola persona, unico percettore di reddito. La polizza garantisce tranquillità alla famiglia per tutta la durata e per l'importo del finanziamento.",
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "split",
+          "title": "Obbligatoria o facoltativa?",
+          "left": {
+            "title": "Incendio e scoppio",
+            "items": [
+              "Per la fonte è l'unica copertura che la banca impone per il mutuo",
+              "Protegge l'immobile che garantisce il credito",
+              "Resta attiva per tutta la durata del mutuo",
+              "Spesso vincolata a favore della banca"
+            ],
+            "ref": "Materiale originale del corso (video)"
+          },
+          "right": {
+            "title": "Tutto il resto",
+            "items": [
+              "Decesso, invalidità, malattia, perdita d'impiego",
+              "Coperture facoltative, proposte in consulenza",
+              "Vanno spiegate, non imposte"
+            ],
+            "ref": "Materiale originale del corso (video)"
+          },
+          "note": "Se il finanziatore chiede una polizza, deve accettare quella che il cliente presenta o trova sul mercato, senza cambiare le condizioni del finanziamento.",
+          "noteRef": "D.L. 1/2012, art. 28, c. 1"
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa c'è dentro una CPI",
+          "lead": "CPI sta per Credit Protection Insurance: un pacchetto di garanzie legate al finanziamento.",
+          "head": [
+            "Garanzia",
+            "Che cosa fa",
+            "Ramo"
+          ],
+          "rows": [
+            [
+              "1 · Decesso",
+              "Estingue o riduce il debito residuo.",
+              "Vita, ramo I"
+            ],
+            [
+              "2 · Invalidità",
+              "Interviene se l'assicurato non può più lavorare.",
+              "Infortuni e malattia, rami 1-2"
+            ],
+            [
+              "3 · Malattia",
+              "Copre le rate in caso di malattia grave o inabilità.",
+              "Malattia, ramo 2"
+            ],
+            [
+              "4 · Perdita d'impiego",
+              "Per il dipendente privato paga le rate per un periodo: nel video 8-12 mesi.",
+              "Perdite pecuniarie, ramo 16"
+            ]
+          ],
+          "ref": "Materiale originale; CAP, art. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "La regola della CPI: stesso importo, stessa durata",
+          "key": "Per la fonte la CPI deve essere identica al finanziamento: stesso importo e stessa durata del mutuo erogato. Il vincolo a favore della banca può essere inserito.",
+          "body": "Nel caso di perdita del lavoro la polizza si sostituisce al cliente nelle rate per un periodo, dandogli il tempo di trovare un'altra occupazione. IVASS e Banca d'Italia hanno segnalato come criticità proprio le coperture con durata non allineata al finanziamento.",
+          "ref": "Materiale originale; IVASS-Banca d'Italia, lettera 26/8/2015"
+        },
+        {
+          "layout": "compare",
+          "title": "CPI o income protection?",
+          "cols": [
+            {
+              "title": "CPI",
+              "items": [
+                "Legata al finanziamento",
+                "Importo e durata uguali a quelli del mutuo",
+                "La prestazione estingue il debito",
+                "Può avere il vincolo a favore della banca"
+              ]
+            },
+            {
+              "title": "Income protection",
+              "items": [
+                "Stesse garanzie: vita, malattia, invalidità, perdita del lavoro",
+                "Slegata dal finanziamento",
+                "Importo e durata li sceglie il cliente",
+                "Può coprire il mutuo e lasciare un capitale alla famiglia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "L'esempio del video",
+          "steps": [
+            {
+              "label": "Il mutuo",
+              "text": "Il cliente, unico reddito della famiglia, ottiene un mutuo di 150.000 euro."
+            },
+            {
+              "label": "La scelta",
+              "text": "Invece di una CPI da 150.000 euro sceglie una income protection da 200.000 euro."
+            },
+            {
+              "label": "Il sinistro",
+              "text": "In caso di decesso, grave malattia o invalidità, 150.000 euro estinguono il mutuo."
+            },
+            {
+              "label": "La differenza",
+              "text": "Gli altri 50.000 euro vanno alla famiglia, per le altre esigenze."
+            }
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le regole sulle polizze abbinate al credito",
+          "items": [
+            {
+              "text": "Se il finanziamento è condizionato a una polizza, il finanziatore accetta quella scelta dal cliente, con garanzia equivalente, senza cambiare le condizioni.",
+              "ref": "D.L. 1/2012, art. 28, c. 1"
+            },
+            {
+              "text": "Se il cliente firma la polizza proposta dal finanziatore, può recedere entro 60 giorni: il finanziamento non cambia.",
+              "ref": "art. 28, c. 2-bis"
+            },
+            {
+              "text": "Nel credito al consumo il cliente ha almeno 3 giorni per confrontare le offerte, che nel frattempo non cambiano.",
+              "ref": "art. 28, c. 2-ter"
+            },
+            {
+              "text": "Banche e intermediari finanziari indicano la provvigione percepita, in valore assoluto e in percentuale.",
+              "ref": "art. 28, c. 3-bis"
+            },
+            {
+              "text": "Il distributore non può essere anche beneficiario o vincolatario della polizza, salvo le polizze danni legate al leasing.",
+              "ref": "Reg. IVASS 40/2018, art. 55, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa non ha funzionato: le criticità PPI",
+          "lead": "Le hanno rilevate IVASS e Banca d'Italia nella lettera congiunta del 26 agosto 2015.",
+          "head": [
+            "Criticità",
+            "In concreto"
+          ],
+          "rows": [
+            [
+              "Garanzie «rotanti»",
+              "Pacchetto unico, ma ogni garanzia opera solo per alcune categorie: chi è dipendente pubblico paga anche la perdita d'impiego che non lo coprirà mai."
+            ],
+            [
+              "Clausole che svuotano",
+              "Durate non allineate al finanziamento, carenze e franchigie lunghe, meno rate rimborsate di quelle dovute."
+            ],
+            [
+              "Stato di salute",
+              "Dichiarazione di buona salute prestampata al posto di un vero questionario: rifiuti al momento del sinistro."
+            ],
+            [
+              "Vendita abbinata",
+              "Polizze presentate come obbligatorie; penetrazione anche oltre l'80%."
+            ],
+            [
+              "Costi",
+              "Premio unico anticipato e spesso finanziato; provvigioni anche oltre il 50% del premio."
+            ]
+          ],
+          "ref": "IVASS-Banca d'Italia, lettera 26/8/2015"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le buone pratiche attese",
+          "items": [
+            {
+              "text": "Proporre il prodotto solo a chi ha i requisiti di assicurabilità: verificare se il cliente è dipendente privato, pubblico, autonomo.",
+              "ref": "Lettera 2015, par. 4.2.2"
+            },
+            {
+              "text": "Usare un questionario sanitario vero, non precompilato dal sistema.",
+              "ref": "par. 4.1.3"
+            },
+            {
+              "text": "Documentazione distinta per finanziamento e polizza, con costi e rate indicati separatamente.",
+              "ref": "par. 4.2.1"
+            },
+            {
+              "text": "Dire chiaramente che si può recedere entro 60 giorni e avere il rimborso del premio.",
+              "ref": "par. 4.2.1"
+            },
+            {
+              "text": "In caso di estinzione anticipata, restituire d'ufficio il premio non goduto, salvo che il cliente voglia mantenere la copertura.",
+              "ref": "par. 4.1.5"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una coppia chiede un mutuo di 180.000 euro a 25 anni. Lavora solo lui, dipendente pubblico. La banca chiede la polizza incendio e scoppio. Il consulente propone la CPI della piattaforma, con perdita d'impiego compresa, e dice che «senza la CPI il mutuo non passa».",
+          "questions": [
+            "La frase sulla CPI è corretta?",
+            "La perdita d'impiego serve a questo cliente?",
+            "Quale alternativa può valutare?"
+          ],
+          "solution": "No: la CPI è facoltativa e, se il finanziatore chiede una polizza, deve accettare anche quella scelta dal cliente, con garanzia equivalente. La perdita d'impiego in molti pacchetti copre solo i dipendenti privati: va verificato prima, altrimenti il cliente paga una garanzia inutile. Si può valutare una CPI senza quella garanzia o una income protection slegata dal mutuo, con un capitale anche superiore. In ogni caso: questionario sanitario, documenti e costi separati, recesso entro 60 giorni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che differenza c'è tra CPI e income protection?",
+          "options": [
+            "La CPI copre solo il decesso",
+            "La income protection è slegata dal finanziamento: importo e durata li sceglie il cliente",
+            "La income protection è obbligatoria per legge",
+            "Non c'è differenza"
+          ],
+          "answer": 1,
+          "explanation": "Le garanzie sono simili, ma la CPI segue importo e durata del finanziamento, mentre la income protection è un prodotto autonomo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Il cliente ha firmato la polizza proposta dalla banca insieme al mutuo. Dopo un mese ci ripensa. Che cosa può fare?",
+          "options": [
+            "Nulla, la polizza dura quanto il mutuo",
+            "Recedere entro 60 giorni senza effetti sul mutuo e sostituirla con una polizza equivalente",
+            "Recedere solo se estingue il mutuo",
+            "Recedere solo con il consenso della banca"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 28, comma 2-bis, del D.L. 1/2012 prevede il recesso entro 60 giorni; il finanziamento non cambia e il cliente può presentare una polizza autonoma equivalente."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Incendio",
+              "text": "per la fonte l'unica copertura imposta dalla banca sul mutuo"
+            },
+            {
+              "value": "CPI",
+              "text": "pacchetto legato al credito: stesso importo, stessa durata"
+            },
+            {
+              "value": "Income",
+              "text": "protection slegata dal finanziamento, importo libero"
+            },
+            {
+              "value": "60",
+              "text": "giorni per recedere dalla polizza proposta dal finanziatore"
+            },
+            {
+              "value": "Art. 55",
+              "text": "il distributore non è anche beneficiario o vincolatario"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione ci occupiamo del cuore della piattaforma presentata nel video: le polizze legate a mutui e finanziamenti. Vedremo la polizza incendio e scoppio, la CPI e la income protection, e poi le regole che proteggono il cliente quando una polizza viene proposta insieme a un credito.\n\nPerché proteggere un finanziamento? Un mutuo dura molti anni. Se chi paga le rate muore, si ammala gravemente o perde il lavoro, il debito resta. La fonte insiste su un caso tipico: la famiglia in cui lavora una sola persona, l'unico percettore di reddito. Una copertura legata al credito permette di onorare comunque l'impegno preso e di portarlo a termine, garantendo tranquillità alla famiglia per tutta la durata scelta e per l'importo stabilito.\n\nPartiamo dalla distinzione più importante: che cosa è obbligatorio e che cosa no. Per la fonte la componente obbligatoria del mutuo è l'incendio e scoppio: è l'unico prodotto che la banca impone quando eroga il mutuo, perché deve essere tutelato l'immobile che garantisce il credito. La copertura deve restare attiva per tutta la durata, spesso con un vincolo a favore della banca che ha concesso la linea di credito. Fatta questa copertura, dice la fonte, tutto diventa facoltativo. Ed è qui che entra la consulenza: far capire al cliente l'importanza di accostare al credito una garanzia, senza imporla.\n\nSu questo punto c'è una regola di legge da conoscere bene. L'articolo 28 del decreto legge 1 del 2012 stabilisce che, se il finanziatore condiziona il mutuo o il credito al consumo alla stipula di una polizza, deve accettare la polizza che il cliente presenta o trova sul mercato, senza modificare le condizioni del finanziamento. Se la polizza è necessaria per avere il credito, quella del cliente deve offrire una garanzia equivalente a quella proposta dal finanziatore.\n\nVediamo la CPI. La fonte la descrive come un pacchetto di garanzie: non è solo una temporanea caso morte, ma mette insieme decesso, invalidità, malattia e perdita del posto di lavoro. L'acronimo sta per Credit Protection Insurance, cioè assicurazione a protezione del credito; in Europa si parla anche di PPI, Payment Protection Insurance. Per chi lavora con la piattaforma è utile sapere che una CPI attraversa rami diversi: il decesso è un'assicurazione vita di ramo primo, invalidità e malattia appartengono ai rami infortuni e malattia, la perdita d'impiego rientra nel ramo 16, perdite pecuniarie di vario genere, che il Codice descrive anche come rischi relativi all'occupazione. Nel video, per il dipendente privato che perde il lavoro o va in cassa integrazione, la polizza si sostituisce al cliente per un periodo da 8 a 12 mesi, pagando le rate e dandogli il tempo di trovare un'altra occupazione. Si tratta delle condizioni di quel prodotto: ogni polizza ha le sue, e vanno lette.\n\nLa fonte indica una caratteristica precisa della CPI: deve rispettare due fattori, importo e durata. La CPI deve essere identica al finanziamento: stesso importo del mutuo erogato e stessa durata. Può essere inserito il vincolo a favore della banca. Questa regola di costruzione è importante anche perché, come vedremo, IVASS e Banca d'Italia hanno indicato come una delle criticità del mercato proprio le coperture di durata non allineata al finanziamento.\n\nPoi c'è la income protection. Ha al suo interno le stesse garanzie della CPI, vita, malattia, invalidità e perdita del lavoro, ma è un prodotto slegato dal finanziamento. Mentre nella CPI importo e durata devono coincidere con quelli del credito, nella income protection il cliente li sceglie in modo diverso.\n\nL'esempio del video chiarisce bene la differenza. Un cliente ottiene un mutuo di 150.000 euro ed è monoreddito. Vuole proteggere la famiglia in caso di sua mancanza o di gravi malattie e invalidità. Invece di una CPI da 150.000 euro sceglie una income protection da 200.000 euro. Se succede il sinistro, 150.000 euro servono a estinguere il mutuo, e la differenza di 50.000 euro va alla famiglia, per coprire altre esigenze. È un esempio di consulenza: si parte dal bisogno della famiglia, non solo da quello della banca.\n\nOra le regole. Oltre all'obbligo di accettare la polizza scelta dal cliente, l'articolo 28 prevede che, se il cliente sottoscrive al momento della stipula la polizza proposta dal finanziatore, può recedere entro sessanta giorni. Il recesso non tocca il contratto di finanziamento, e il cliente può sostituire la polizza con una polizza autonoma di garanzia equivalente; finanziatori o compagnie devono informarlo con una comunicazione separata. Nel credito al consumo il cliente ha almeno tre giorni per confrontare le offerte assicurative richieste, che in quel periodo non possono cambiare. E banche e intermediari finanziari devono dire al cliente quanto percepiscono di provvigione, in valore assoluto e in percentuale.\n\nC'è poi un divieto del Regolamento IVASS 40 del 2018 che avete già incontrato nelle regole di comportamento: il distributore non può assumere, nemmeno tramite società del gruppo, la doppia veste di beneficiario o vincolatario delle prestazioni e di distributore della polizza. L'unica eccezione riguarda le polizze danni connesse al leasing. In una piattaforma che nasce dentro un gruppo attivo nel credito, questo divieto va tenuto presente ogni volta che chi finanzia e chi colloca la polizza appartengono allo stesso gruppo.\n\nPerché tanta attenzione? Perché in passato il mercato di queste polizze ha avuto problemi seri. Il 26 agosto 2015 IVASS e Banca d'Italia hanno scritto a imprese, banche e intermediari una lettera sulle polizze abbinate ai finanziamenti. Hanno rilevato pacchetti con garanzie cosiddette rotanti: il cliente paga un premio unico per tutte le garanzie, ma ognuna opera solo per alcune categorie di persone. Per esempio, la perdita d'impiego per i soli dipendenti privati e l'inabilità temporanea per autonomi e dipendenti pubblici. Così il cliente paga anche garanzie di cui non beneficerà mai. Hanno trovato durate non allineate al finanziamento, carenze e franchigie molto lunghe e cumulate, un numero di rate rimborsate inferiore a quelle del finanziamento. Hanno visto usare una dichiarazione di buono stato di salute prestampata, invece di un questionario sanitario, con il risultato che le malattie pregresse venivano contestate solo al momento del sinistro. Hanno rilevato casi di vendita sistematicamente abbinata al prestito, con tassi di penetrazione anche superiori all'80 per cento, polizze presentate come obbligatorie, premi pagati tutti in anticipo e spesso finanziati, e provvigioni che a volte superavano il 50 per cento del premio.\n\nLe autorità hanno indicato anche che cosa si aspettano. Il prodotto va offerto solo a chi ha i requisiti di assicurabilità e appartiene al target: prima di proporre la perdita d'impiego bisogna sapere se il cliente è dipendente privato, pubblico o autonomo. Serve un questionario sanitario vero, che il cliente compila in modo consapevole, e non risposte precompilate dal sistema informatico. La documentazione del finanziamento e quella della polizza devono essere distinte, con i costi indicati separatamente, ad esempio mostrando la rata del finanziamento e quella del premio. Il cliente deve sapere che può recedere entro sessanta giorni e ottenere il rimborso del premio, o la riduzione della rata se il premio è finanziato. E in caso di estinzione anticipata o trasferimento del finanziamento l'impresa deve attivarsi da sola per restituire la parte di premio non goduta, salvo che il cliente chieda di mantenere la copertura.\n\nNel caso pratico il consulente dice alla coppia che senza la CPI il mutuo non passa. È sbagliato: la copertura è facoltativa e, anche quando una polizza è richiesta, il cliente può sceglierla sul mercato. E la perdita d'impiego, per un dipendente pubblico, rischia di essere una garanzia che non opererà mai: va verificato prima di proporla.\n\nRicapitolando: per la fonte l'incendio e scoppio è la copertura imposta dalla banca sul mutuo; la CPI è un pacchetto che segue importo e durata del finanziamento; la income protection è slegata e lascia libero l'importo. Il cliente può recedere entro sessanta giorni dalla polizza proposta dal finanziatore, e il distributore non può essere anche beneficiario o vincolatario della polizza che colloca.",
+      "sources": [
+        {
+          "title": "D.L. 24 gennaio 2012, n. 1, art. 28 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2012-01-24;1~art28"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS e Banca d'Italia, Polizze abbinate a finanziamenti (PPI). Misure a tutela dei clienti, 26 agosto 2015",
+          "url": "https://www.bancaditalia.it/compiti/vigilanza/avvisi-pub/relazioni-int-clienti/tutela-trasparenza/PPI-misure-tutela-clienti.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Correzione del riconoscimento vocale e della fonte: CPI sta per Credit Protection Insurance (nel video «credito protetto insurance»).",
+          "source_ref": "Trascrizione audio"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: l'incendio e scoppio è l'unico prodotto obbligatorio che la banca impone sul mutuo. Fonte normativa dell'obbligo (contratto di mutuo e prassi bancaria) da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la CPI deve avere stesso importo e stessa durata del mutuo. È una caratteristica di costruzione del prodotto indicata dal relatore, non un obbligo di legge verificato.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: in caso di perdita del lavoro la polizza paga le rate per 8-12 mesi. Dato riferito al prodotto presentato nel video.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Classificazione per ramo delle garanzie della CPI (ramo vita I, rami 1-2, ramo 16 «rischi relativi all'occupazione»).",
+          "source_ref": "CAP, art. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole sulle polizze connesse a mutui e credito al consumo: accettazione della polizza del cliente, recesso 60 giorni, 3 giorni di confronto, informativa sulle provvigioni.",
+          "source_ref": "D.L. 1/2012, art. 28, c. 1, 2-bis, 2-ter, 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto di essere insieme distributore e beneficiario o vincolatario, con l'eccezione del leasing danni.",
+          "source_ref": "Reg. IVASS 40/2018, art. 55, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Criticità PPI rilevate dalle autorità e buone pratiche attese (garanzie rotanti, questionario sanitario, documentazione distinta, recesso, rimborso del premio non goduto).",
+          "source_ref": "IVASS-Banca d'Italia, lettera 26 agosto 2015"
+        }
+      ]
+    },
+    {
+      "title": "Rischi d'impresa, cauzioni e servizi sanitari digitali",
+      "source_files": [
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative seconda parte.mp4 (trascrizione audio)",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/ Area amministrativa e gestionale /Piattaforme web assicurative/Piattaforme web assicurative terza parte.mp4 (trascrizione audio)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Piattaforme web assicurative",
+          "title": "Rischi d'impresa, cauzioni e servizi sanitari digitali",
+          "goals": [
+            "Conoscere le coperture per costruzioni, tecnologia e responsabilità dell'impresa",
+            "Spiegare perché una cauzione assicurativa conviene rispetto a quella bancaria",
+            "Valutare con prudenza i servizi sanitari digitali offerti in polizza"
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Obbligo di legge",
+          "title": "Le imprese e i rischi catastrofali",
+          "lead": "La garanzia terremoto e catastrofi, chiesta sempre di più dal mercato, per le imprese è diventata obbligatoria.",
+          "facts": [
+            {
+              "label": "Chi",
+              "text": "Le imprese italiane e quelle estere con stabile organizzazione in Italia."
+            },
+            {
+              "label": "Eventi",
+              "text": "Sisma, alluvione, inondazione, esondazione, frana."
+            },
+            {
+              "label": "Beni",
+              "text": "Terreni, fabbricati, impianti, macchinari, attrezzature industriali e commerciali usati nell'attività."
+            },
+            {
+              "label": "Quando",
+              "text": "Medie imprese dal 1° ottobre 2025, micro e piccole dal 1° gennaio 2026; per le grandi sanzioni rinviate al 30 giugno 2025."
+            },
+            {
+              "label": "Assicuratori",
+              "text": "Le compagnie del ramo 8 che già coprivano eventi catastrofali devono offrire la copertura."
+            },
+            {
+              "label": "Numeri",
+              "text": "Oltre 700 mila polizze a fine aprile 2026, contro 289 mila a luglio 2025, su circa 4,5 milioni di imprese."
+            }
+          ],
+          "ref": "L. 213/2023, art. 1, c. 101-112; DM 18/2025; DL 39/2025; IVASS 2025-2026"
+        },
+        {
+          "layout": "split",
+          "title": "Le costruzioni: CAR e postuma decennale",
+          "left": {
+            "title": "CAR (all risks)",
+            "items": [
+              "Copre l'opera dall'inizio dei lavori",
+              "Nei lavori pubblici va consegnata almeno 10 giorni prima dell'avvio",
+              "Dura fino al collaudo, o comunque 12 mesi dalla fine lavori",
+              "Con RC verso terzi: 5% della somma assicurata, da 500.000 a 5 milioni di euro"
+            ],
+            "ref": "D.Lgs. 36/2023, art. 117, c. 10"
+          },
+          "right": {
+            "title": "Postuma decennale",
+            "items": [
+              "Dopo la fine dei lavori, per 10 anni",
+              "Rovina totale o parziale e gravi difetti costruttivi",
+              "Lavori pubblici sopra il doppio della soglia europea: indennizzo dal 20% al 40% del valore",
+              "Immobili da costruire: il costruttore la consegna all'acquirente al rogito, pena la nullità"
+            ],
+            "ref": "D.Lgs. 36/2023, art. 117, c. 11; D.Lgs. 122/2005, art. 4"
+          },
+          "note": "Per la fonte le imprese edili devono fare la CAR per lavorare, sia in un contratto privato sia in un bando pubblico; nei lavori pubblici l'obbligo è nel Codice dei contratti.",
+          "noteRef": "Materiale originale; D.Lgs. 36/2023"
+        },
+        {
+          "layout": "table",
+          "title": "Tecnologia, leasing e responsabilità",
+          "head": [
+            "Copertura",
+            "Che cosa protegge"
+          ],
+          "rows": [
+            [
+              "Rischi tecnologici e guasti",
+              "Beni in leasing strumentale o immobiliare, rinnovi tecnologici, guasti; molto usata per il legame con il leasing."
+            ],
+            [
+              "Cyber risk",
+              "Incidenti e attacchi informatici durante la vita lavorativa dell'impresa."
+            ],
+            [
+              "RCO",
+              "Responsabilità verso i dipendenti per l'attività svolta sul territorio."
+            ],
+            [
+              "RC patrimoniale e management",
+              "Il segmento professionale e i danni patrimoniali causati da imprenditori e amministratori."
+            ]
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "concept",
+          "title": "Le assicurazioni del credito",
+          "key": "Proteggono gli impegni che una persona o un'azienda prende nel tempo: fidi, conti correnti, carte di credito, finanziamenti.",
+          "body": "Nel video coprono smarrimento, perdita e furto d'identità, del documento o della carta di credito, e i finanziamenti usati per esigenze personali o aziendali. Nel Codice il ramo 14, credito, riguarda le perdite da insolvenza; il furto della carta rientra nelle perdite pecuniarie.",
+          "ref": "Materiale originale; CAP, art. 2, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è una cauzione",
+          "key": "Una garanzia a favore di un terzo: il contraente la presenta perché un ente o un committente la richiede per partecipare a una gara, ottenere una licenza o svolgere un'attività.",
+          "body": "Ci sono tre soggetti: contraente, assicurato beneficiario e compagnia. Il testo è ben delineato ma cambia secondo le richieste dell'ente. Esempi della fonte: appalti, licenze, trasporto rifiuti, rimborsi IVA. Si dice che la fideiussione «non è una scienza esatta».",
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "table",
+          "title": "Bancaria, assicurativa o finanziaria?",
+          "head": [
+            "Garanzia",
+            "Come funziona",
+            "Per la fonte"
+          ],
+          "rows": [
+            [
+              "1 · Bancaria",
+              "Su 100.000 euro di garanzia la banca può chiedere di vincolare su un conto il 70% fino alla fine dei lavori.",
+              "Molto onerosa."
+            ],
+            [
+              "2 · Assicurativa",
+              "Costo molto inferiore; non serve vincolare somme. Si chiede una controgaranzia: reddito, garante, ipoteca.",
+              "La più indicata."
+            ],
+            [
+              "3 · Finanziaria",
+              "Rilasciata da intermediari finanziari autorizzati dalla Banca d'Italia.",
+              "Pochi operatori, costi alti."
+            ]
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le garanzie negli appalti pubblici",
+          "items": [
+            {
+              "text": "Garanzia provvisoria: 2% del valore della procedura, riducibile all'1% o aumentabile fino al 4%.",
+              "ref": "D.Lgs. 36/2023, art. 106, c. 1"
+            },
+            {
+              "text": "Fideiussione rilasciata da banche, assicurazioni o intermediari finanziari dell'albo art. 106 TUB.",
+              "ref": "art. 106, c. 3"
+            },
+            {
+              "text": "Rinuncia alla preventiva escussione del debitore e operatività entro 15 giorni dalla richiesta scritta.",
+              "ref": "art. 106"
+            },
+            {
+              "text": "Validità di almeno 180 giorni dalla presentazione dell'offerta.",
+              "ref": "art. 106"
+            },
+            {
+              "text": "Garanzia definitiva: 10% dell'importo del contratto, che si riduce con l'avanzamento dei lavori.",
+              "ref": "art. 117, c. 1"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La tutela legale per l'imprenditore",
+          "key": "Il prodotto del video lascia all'imprenditore la scelta dello studio o dell'avvocato, singolo o associato, in qualsiasi parte d'Italia, entro massimali ben definiti.",
+          "body": "Serve per ricorsi, recupero crediti e controversie con clienti, fornitori e dipendenti. La libera scelta del legale è un diritto dell'assicurato nella tutela legale, come avete visto nell'area tecnica.",
+          "ref": "Materiale originale; CAP, art. 174"
+        },
+        {
+          "layout": "concept",
+          "title": "Collettive sanitarie: perché la prevenzione",
+          "key": "Per la fonte oggi si fa poca prevenzione per due motivi: mancanza di cultura e carenza di reddito. Ci si rivolge alla sanità solo in caso di bisogno.",
+          "body": "Una prevenzione annuale, fatta in tempo, dà un quadro clinico chiaro della persona. Per questo il video propone collettive sanitarie da presentare con prudenza ai clienti, come messaggio di cultura sanitaria.",
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "facts",
+          "title": "L'esempio di prodotto: la salute in un'app",
+          "lead": "Le caratteristiche del prodotto presentato nel video, da verificare sempre sulle condizioni di polizza.",
+          "facts": [
+            {
+              "label": "Famiglia",
+              "text": "Un solo pagamento annuo per il nucleo che vive in casa, fino a 6 persone."
+            },
+            {
+              "label": "Accesso",
+              "text": "App, computer e tablet; numero verde per chi non usa la tecnologia. Centrale operativa H24."
+            },
+            {
+              "label": "Visite",
+              "text": "Prenotazione in tempo reale, attesa di 2-4 giorni, convenzione fino al 50% delle tariffe."
+            },
+            {
+              "label": "Consulti",
+              "text": "In un anno, per persona, 3 consulti con un medico generico e 3 con uno specialista, al telefono o in videoconferenza."
+            },
+            {
+              "label": "Cartella",
+              "text": "Cartella sanitaria digitale consultabile da più medici, tradotta in 10 lingue: un «passaporto sanitario»."
+            },
+            {
+              "label": "Servizi",
+              "text": "Medico e ambulanza a domicilio, spesa e farmaci consegnati a casa."
+            }
+          ],
+          "ref": "Materiale originale del corso (video)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Prima di proporre un servizio digitale in polizza",
+          "items": [
+            {
+              "text": "Distingui le garanzie assicurative dai servizi di assistenza e dalle convenzioni: il cliente deve sapere che cosa è polizza e che cosa è sconto."
+            },
+            {
+              "text": "Verifica esclusioni, limiti, franchigie e periodi di carenza, e mettili in evidenza.",
+              "ref": "IVASS, report distributori non tradizionali 2026"
+            },
+            {
+              "text": "Controlla che il prodotto sia coerente con le esigenze del cliente: ha già coperture simili?",
+              "ref": "IVASS, report 2026"
+            },
+            {
+              "text": "La cartella sanitaria contiene dati sulla salute: servono informative e consensi privacy adeguati."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola impresa edile con 12 dipendenti partecipa a una gara pubblica da 400.000 euro. Il titolare ha un capannone con macchinari e chiede al consulente quale garanzia presentare. La sua banca gli ha chiesto di vincolare una somma su un conto.",
+          "questions": [
+            "Quale garanzia serve per partecipare alla gara?",
+            "Che cosa serve se vince e avvia i lavori?",
+            "Il capannone ha un obbligo assicurativo?"
+          ],
+          "solution": "Per partecipare serve la garanzia provvisoria, di regola il 2% del valore (8.000 euro), anche come fideiussione assicurativa, senza vincolare somme. Se vince: garanzia definitiva del 10% del contratto e polizza CAR con RC verso terzi, consegnata almeno 10 giorni prima dell'avvio dei lavori. Il capannone e i macchinari rientrano nell'obbligo di copertura dei rischi catastrofali, in vigore per le piccole imprese dal 1° gennaio 2026."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Nei lavori pubblici, quando va consegnata la polizza CAR?",
+          "options": [
+            "Alla firma del contratto",
+            "Almeno 10 giorni prima dell'avvio dei lavori",
+            "Al collaudo",
+            "Entro 12 mesi dalla fine dei lavori"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 117, comma 10, del D.Lgs. 36/2023 chiede all'esecutore di consegnare la polizza almeno 10 giorni prima della consegna dei lavori."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quali beni comprende l'obbligo di assicurazione catastrofale delle imprese?",
+          "options": [
+            "Solo i fabbricati di proprietà",
+            "Terreni, fabbricati, impianti, macchinari e attrezzature usati nell'attività",
+            "Merci, veicoli e dati informatici",
+            "Solo le abitazioni dei soci"
+          ],
+          "answer": 1,
+          "explanation": "La copertura base riguarda terreni, fabbricati, impianti, macchinari e attrezzature industriali e commerciali, anche di terzi, usati nell'attività."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Cat-nat",
+              "text": "obbligo per le imprese: sisma, alluvione, inondazione, esondazione, frana"
+            },
+            {
+              "value": "CAR",
+              "text": "dall'avvio dei lavori al collaudo; poi la postuma decennale"
+            },
+            {
+              "value": "2% · 10%",
+              "text": "garanzia provvisoria e definitiva negli appalti pubblici"
+            },
+            {
+              "value": "Cauzione",
+              "text": "assicurativa: meno costosa e senza somme vincolate"
+            },
+            {
+              "value": "Salute",
+              "text": "servizi digitali utili, ma da spiegare distinguendo polizza e convenzioni"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione completiamo il giro della piattaforma con le coperture per le imprese, le cauzioni e i servizi sanitari digitali. Il filo conduttore è sempre lo stesso: la piattaforma offre i prodotti, ma è l'intermediario che deve capire che cosa serve al cliente e spiegarlo bene.\n\nCominciamo da dove ci eravamo fermati: la garanzia terremoto e catastrofi. La fonte la presenta come una nuova esigenza, sempre più richiesta per tutelare il patrimonio, perché il clima e gli ecosistemi stanno cambiando. Per le imprese, nel frattempo, è diventata un obbligo. La legge di bilancio 213 del 2023, ai commi da 101 a 112, impone alle imprese italiane e a quelle estere con stabile organizzazione in Italia di assicurarsi contro i danni da sisma, alluvione, inondazione, esondazione e frana. La copertura riguarda terreni, fabbricati, impianti, macchinari e attrezzature industriali e commerciali usati per l'attività, anche se di proprietà di terzi. Le regole attuative sono nel decreto 18 del 2025, e il decreto legge 39 del 2025 ha rinviato i termini: dal primo ottobre 2025 per le medie imprese e dal primo gennaio 2026 per le micro e piccole; per le grandi imprese le sanzioni sono state rinviate di novanta giorni, al 30 giugno 2025. Dall'altra parte, le compagnie autorizzate nel ramo 8, incendio ed elementi naturali, che già assicuravano eventi catastrofali, devono offrire la copertura. I numeri dell'IVASS mostrano la crescita: oltre 700 mila polizze a fine aprile 2026, contro 289 mila a luglio 2025. Ma il potenziale è molto più ampio, circa 4,5 milioni di imprese, e la diffusione è ancora bassa tra le piccole e le micro. Per l'intermediario che segue piccole aziende, è un tema da affrontare a ogni rinnovo.\n\nPassiamo alle costruzioni. Nel video si parla delle polizze all risks, le coperture complete del mondo delle costruzioni: la CAR, cioè contractors' all risks, e la postuma. Per la fonte le imprese edili, per lavorare in un contratto privato o in un bando pubblico, devono fare una CAR, che copre dall'inizio dei lavori, e poi una postuma decennale, perché non sempre si può stabilire all'inizio quando un lavoro comincerà e finirà. Per i lavori pubblici l'obbligo è scritto nel Codice dei contratti, il decreto legislativo 36 del 2023. All'articolo 117 si prevede che l'esecutore consegni almeno dieci giorni prima dell'avvio dei lavori una polizza che copra i danni a impianti e opere, anche preesistenti, di regola per una somma pari all'importo del contratto, dall'inizio dei lavori fino al collaudo o comunque per dodici mesi dalla fine. La stessa polizza copre la responsabilità civile verso terzi, con un massimale pari al 5 per cento della somma assicurata, da un minimo di 500 mila a un massimo di 5 milioni di euro. Per i lavori di importo superiore al doppio della soglia europea serve poi, dal collaudo, una polizza indennitaria decennale contro la rovina totale o parziale dell'opera e i gravi difetti costruttivi, con un limite di indennizzo tra il 20 e il 40 per cento del valore dell'opera, più una RC decennale verso terzi. Nel privato c'è un caso importante: chi compra un immobile da costruire deve ricevere dal costruttore, al momento del trasferimento della proprietà, una polizza decennale sui danni materiali e diretti all'immobile, compresi quelli a terzi. Se manca, il contratto è nullo, ma la nullità la può far valere solo l'acquirente.\n\nAltre coperture per le aziende. Le polizze per i rischi tecnologici e i guasti sono molto usate, dice la fonte, perché sono legate ai leasing strumentali o immobiliari e alle operazioni di rinnovo tecnologico. Vicina a questo mondo c'è la cyber risk, che copre incidenti e attacchi informatici che possono avvenire durante la vita lavorativa dell'impresa: un tema che conoscete dall'area informatica. Ci sono poi la RCO, per tutelare l'azienda rispetto ai dipendenti che lavorano sul territorio, e le RC patrimoniali dell'imprenditore e del management, che coprono anche il segmento professionale.\n\nLe assicurazioni del credito, nel video, proteggono gli impegni che una persona o un'azienda assume nel corso della vita: un fido, un conto corrente con un tasso agevolato, le carte di credito, i finanziamenti per esigenze personali o aziendali. Coprono lo smarrimento, la perdita, il furto d'identità, del documento o della carta. Una precisazione tecnica: nel Codice il ramo 14, credito, riguarda le perdite patrimoniali da insolvenza, mentre il furto della carta o dell'identità rientra di solito nelle perdite pecuniarie. Quando proponete queste polizze, controllate a quale ramo appartengono e che cosa coprono davvero.\n\nVeniamo alle cauzioni, la linea credito e cauzioni della piattaforma. La cauzione è una garanzia a favore di terzi. Si presenta quando si partecipa a una gara, nelle costruzioni o in altri settori, quando si chiede una licenza, quando un ente obbliga a presentare una garanzia: la fonte cita il trasporto dei rifiuti e i rimborsi IVA. I soggetti sono tre: il contraente, l'assicurato beneficiario, cioè l'ente che chiede la garanzia, e la compagnia. Il testo è ben delineato, ma cambia secondo le richieste dell'ente. Il relatore ricorda una frase di un professore universitario: la fideiussione non è una scienza esatta.\n\nIn Italia, spiega la fonte, una garanzia si può ottenere in tre modi: bancaria, assicurativa e finanziaria. La bancaria è poco preferita perché molto onerosa. L'esempio del video: per una garanzia di 100 mila euro la banca chiede al cliente di depositare e vincolare su un conto dedicato il 70 per cento, che si sblocca solo alla fine dei lavori, oltre a pagare la garanzia. La garanzia assicurativa costa molto meno e non obbliga ad aprire un conto né a vincolare somme: la compagnia chiede una controgaranzia, che può essere il reddito da lavoro, un garante o, volendo, un'ipoteca. La terza strada, quella finanziaria, è la meno usata perché, secondo la fonte, le società finanziarie autorizzate dalla Banca d'Italia sono poche e spesso hanno costi elevati. Per questo il relatore indirizza le richieste di garanzia soprattutto verso il settore assicurativo.\n\nNegli appalti pubblici le regole sono precise. Per partecipare serve una garanzia provvisoria del 2 per cento del valore della procedura, che la stazione appaltante può ridurre all'1 o aumentare fino al 4 per cento. Può essere una cauzione, versata solo con bonifico o strumenti elettronici, o una fideiussione rilasciata da banche, imprese di assicurazione o intermediari finanziari iscritti nell'albo dell'articolo 106 del Testo unico bancario. La fideiussione deve prevedere la rinuncia alla preventiva escussione del debitore principale, essere operativa entro quindici giorni dalla richiesta scritta e valere almeno 180 giorni dall'offerta. Chi vince presta una garanzia definitiva del 10 per cento dell'importo del contratto, che si riduce progressivamente con l'avanzamento dei lavori.\n\nNella linea aziende il video presenta anche una tutela legale costruita per l'imprenditore: può scegliere lo studio o l'avvocato che preferisce, singolo o associato, in qualsiasi parte d'Italia, entro massimali ben delineati, per ricorsi, recupero crediti o controversie con clienti, fornitori e dipendenti. La libera scelta del legale, come avete visto nell'area tecnica, è un diritto dell'assicurato nella tutela legale.\n\nL'ultima parte del video è dedicata alla salute. La fonte osserva che oggi si fa poca prevenzione per due fattori: la mancanza di cultura, per cui ci si rivolge al mondo sanitario solo in caso di bisogno, e la carenza di reddito. Una prevenzione annuale fatta in tempo permetterebbe invece di avere un quadro clinico chiaro e di stare bene anche nell'attività lavorativa. Per questo il relatore invita a presentare con prudenza le collettive sanitarie a tutti i clienti, come messaggio di cultura sanitaria. Osserva anche che nella giornata ci sono fasce orarie poco coperte tra medico di base e guardia medica, oltre a notti e festivi, in cui spesso resta solo il pronto soccorso.\n\nIl prodotto presentato, realizzato con un partner, funziona tramite un'app. Con un solo pagamento annuo copre il nucleo che vive davvero in casa, non lo stato di famiglia: fino a sei persone, compresi conviventi e nonni. Si usa da smartphone, computer o tablet, e chi non è tecnologico usa un numero verde; la centrale operativa è attiva ventiquattro ore su ventiquattro. Si prenotano visite in tempo reale, scegliendo regione, provincia, medico o struttura, con attese indicate in due-quattro giorni e una convenzione fino al 50 per cento delle tariffe. Per persona sono previsti in un anno tre consulti con un medico generico e tre con uno specialista, al telefono o in videoconferenza, ad esempio pediatra, cardiologo, nutrizionista, neurologo, ginecologo, geriatra. Dall'app si indicano i sintomi, risponde un medico, si può ottenere una ricetta anche in orario tardo. C'è una cartella sanitaria digitale, con misurazioni, vaccini, farmaci e referti, consultabile da più medici e strutture e tradotta in dieci lingue, utile anche all'estero: un passaporto sanitario. Si aggiungono medico e ambulanza a domicilio, consegna della spesa per gli anziani e dei farmaci a casa, e una rete di dentisti, fisioterapisti, centri medici e centri analisi. Sono caratteristiche di quel prodotto, e vanno sempre verificate sulle condizioni.\n\nChe cosa deve fare l'intermediario con prodotti di questo tipo? L'IVASS, in un'indagine pubblicata a luglio 2026 sui distributori non tradizionali, ha indicato alcune buone pratiche che valgono anche qui. Mettere in evidenza esclusioni, limitazioni, franchigie e periodi di carenza. Distinguere chiaramente il prodotto assicurativo dal servizio abbinato. Verificare che il prodotto risponda ai bisogni reali, ad esempio se il cliente ha già coperture simili. E poiché la cartella digitale contiene dati sulla salute, servono informative e consensi privacy adeguati.\n\nNel caso pratico l'impresa edile ha bisogno della garanzia provvisoria per la gara e, se vince, della definitiva e della CAR; il suo capannone rientra poi nell'obbligo catastrofale. Una sola conversazione, tre coperture diverse.\n\nRicapitolando: le imprese devono assicurarsi contro i rischi catastrofali; la CAR copre dall'avvio dei lavori al collaudo, poi c'è la postuma decennale; negli appalti la garanzia provvisoria è di regola il 2 per cento e la definitiva il 10; la cauzione assicurativa evita di vincolare somme; e i servizi sanitari digitali sono utili solo se il cliente capisce che cosa è garanzia e che cosa è convenzione.",
+      "sources": [
+        {
+          "title": "IVASS, Seconda indagine sulle polizze a copertura dei rischi catastrofali (giugno 2026)",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2026/IVASS_Secondo_Report_analisi_polizze_con_rischi_catastrofali_Giugno_2026.pdf"
+        },
+        {
+          "title": "IVASS, Le recenti misure sull'assicurazione dei rischi catastrofali, audizione del 9 aprile 2025",
+          "url": "https://www.ivass.it/media/interviste/documenti/audizioni/2025/rc-09-04-2025-catastrofali/RC_IVASS_Audizione_ddl_C2333_slide.pdf"
+        },
+        {
+          "title": "IVASS, Relazione annuale sul 2025 in sintesi (18 giugno 2026)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        },
+        {
+          "title": "D.Lgs. 31 marzo 2023, n. 36, art. 117 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36~art117"
+        },
+        {
+          "title": "D.Lgs. 31 marzo 2023, n. 36, art. 106 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36~art106"
+        },
+        {
+          "title": "D.Lgs. 20 giugno 2005, n. 122, art. 4 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-06-20;122~art4"
+        },
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, L'assicurazione oltre i canali distributivi tradizionali (luglio 2026)",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2026/IVASS-Report_distributori_non_tradizionali-Luglio_2026_autocopertinato_.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Correzioni del riconoscimento vocale: «o risk» = all risks; «car» = CAR (Contractors' All Risks); «recivo verso tessi prestaturi» = RCO; «caucione» = cauzione.",
+          "source_ref": "Trascrizione audio"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di copertura dei rischi catastrofali per le imprese: soggetti, eventi, beni, termini, obbligo a contrarre del ramo 8; numero di polizze 2025-2026.",
+          "source_ref": "L. 213/2023, art. 1, c. 101-112; DM 18/2025; DL 39/2025; IVASS, indagine giugno 2026, audizione 9/4/2025, Relazione annuale 2025"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "CAR, RC verso terzi e polizza decennale postuma nei lavori pubblici; polizza decennale per gli immobili da costruire.",
+          "source_ref": "D.Lgs. 36/2023, art. 117, c. 10-11; D.Lgs. 122/2005, art. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: le imprese edili devono obbligatoriamente fare una CAR anche per i contratti privati. Verificato l'obbligo per i lavori pubblici; per i privati dipende dal contratto.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Garanzie provvisoria e definitiva negli appalti pubblici e soggetti abilitati a rilasciarle.",
+          "source_ref": "D.Lgs. 36/2023, artt. 106 e 117"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte: l'esempio della banca che vincola il 70% su una garanzia di 100.000 euro e il giudizio sulle garanzie finanziarie (poche società, costi alti). Esempio di prassi del relatore, non verificabile in fonti ufficiali.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Facoltà di scelta del professionista nella tutela legale (richiamo).",
+          "source_ref": "CAP, art. 174"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Precisazione sui rami: ramo 14 credito (insolvenze) e perdite pecuniarie.",
+          "source_ref": "CAP, art. 2, c. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le caratteristiche del prodotto sanitario presentato (6 persone, attesa 2-4 giorni, convenzione fino al 50%, 3+3 consulti, 10 lingue). Dati commerciali di un singolo prodotto, non verificabili; nel video si parla anche di «sconti fino al 30» poi corretti al 50%.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'osservazione sulle fasce orarie scoperte tra medico di base e guardia medica; gli orari citati nel video non sono chiari nella trascrizione e non sono riportati.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Buone pratiche IVASS per prodotti semplificati e digitali (evidenza di esclusioni e carenze, distinzione tra polizza e servizio, coerenza con le esigenze).",
+          "source_ref": "IVASS, L'assicurazione oltre i canali distributivi tradizionali, luglio 2026"
+        }
+      ]
+    }
+  ]
+}

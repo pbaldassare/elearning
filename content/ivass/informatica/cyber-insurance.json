@@ -1,0 +1,1284 @@
+{
+  "module": "Area informatica",
+  "topic": "Cyber insurance",
+  "topic_order": 8,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "La polizza cyber: che cosa è e che cosa copre",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /5. Cyber insurance.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cyber insurance",
+          "title": "La polizza cyber: che cosa è e che cosa copre",
+          "goals": [
+            "Spiegare a che cosa serve una polizza cyber e perché il mercato è cresciuto",
+            "Distinguere le garanzie di prima parte, di terze parti e di tutela legale",
+            "Riconoscere le garanzie accessorie e le differenze tra polizze per PMI e per famiglie"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché nasce la cyber insurance",
+          "key": "Le aziende colpite da attacchi informatici si sono interessate sempre di più alle polizze cyber per mitigare le perdite future. Le compagnie hanno sviluppato prodotti per questa esigenza.",
+          "body": "Negli anni le polizze sono diventate sempre più sofisticate, per stare al passo con l'evoluzione degli attacchi e con la complessità dei sistemi informativi.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è l'assicurazione cyber",
+          "key": "È un prodotto che protegge aziende e singoli individui dai rischi dell'uso di Internet e, più in generale, dai rischi legati a infrastrutture e attività informatiche.",
+          "body": "Per l'IVASS il cyber risk è la combinazione della probabilità che si verifichino incidenti cyber e del loro impatto. Un incidente cyber è una violazione della sicurezza di un sistema informativo o delle informazioni che tratta, dolosa o no.",
+          "ref": "Materiale originale; IVASS, Indagine polizze cyber, ott. 2023"
+        },
+        {
+          "layout": "concept",
+          "title": "Un rischio difficile da misurare",
+          "key": "L'impatto di un attacco è difficile da prevedere: le informazioni disponibili sono poche e gli attacchi sono facili da eseguire.",
+          "body": "Nel mondo digitale non è sempre chiaro chi sia responsabile del danno e chi debba sopportare la perdita. Per questo quantificare il rischio cyber è decisivo: crimini informatici e violazioni dei dati possono colpire duramente il business.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Un ripasso: processo e assicurabilità",
+          "left": {
+            "title": "Come nasce la polizza",
+            "items": [
+              "Un valutatore individua beni, minacce e vulnerabilità",
+              "Si stimano probabilità e impatto di un incidente",
+              "Agente e assicuratore fissano copertura e premio",
+              "Il contratto viene scritto e firmato"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Quando il rischio è assicurabile",
+            "items": [
+              "Perdita accidentale, calcolabile e definita",
+              "Rischio limitato di perdite catastrofiche",
+              "Molte unità di esposizione simili",
+              "Premio accessibile e perdita grande abbastanza"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Questi due temi sono già trattati nel modulo «Cybersecurity e rischio cyber»: qui li diamo per acquisiti.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Tre forme di polizza",
+          "head": [
+            "Forma",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Stand alone",
+              "Polizza disegnata apposta per il rischio cyber, con garanzie di base e coperture facoltative aggiuntive"
+            ],
+            [
+              "Modulare",
+              "Polizza con molti moduli combinabili: la copertura cyber è un modulo opzionale da abbinare ad altre garanzie"
+            ],
+            [
+              "Multirischio",
+              "Polizza per beni e patrimonio con sezioni opzionali: il cyber compare soprattutto in tutela legale e assistenza"
+            ]
+          ],
+          "ref": "IVASS, Indagine polizze cyber, par. 2 e 3.4"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "IVASS, ottobre 2023",
+          "title": "Che cosa ha guardato l'IVASS",
+          "lead": "L'Istituto ha analizzato i contratti di 50 polizze cyber in commercio al 30 luglio 2023, senza giudicarne convenienza o successo commerciale.",
+          "facts": [
+            {
+              "label": "PMI",
+              "text": "26 polizze: 14 stand alone e 12 modulari"
+            },
+            {
+              "label": "Famiglie",
+              "text": "24 polizze: 6 stand alone e 18 modulari"
+            },
+            {
+              "label": "Grandi imprese",
+              "text": "Solo 5 polizze dedicate"
+            },
+            {
+              "label": "Premio",
+              "text": "Per le PMI è spesso rapportato al fatturato"
+            }
+          ],
+          "ref": "IVASS, Indagine polizze cyber, par. 2 e 3.1"
+        },
+        {
+          "layout": "split",
+          "title": "La copertura di prima parte",
+          "left": {
+            "title": "Che cosa dice il corso",
+            "items": [
+              "Servizi legali e forensi per capire se c'è stata una violazione",
+              "Aiuto per rispettare le norme",
+              "Costi per informare dipendenti e terzi interessati",
+              "Costi di notifica della violazione dei dati",
+              "Assistenza legale per coordinare la risposta all'incidente"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Che cosa si trova nelle polizze",
+            "items": [
+              "Ripristino di dati e sistemi",
+              "Costi dell'interruzione di attività",
+              "Indagine su cause e modalità dell'attacco",
+              "Diaria per ogni giorno di fermo",
+              "Consulenza di esperti di attacchi informatici"
+            ],
+            "ref": "IVASS, Indagine polizze cyber, par. 3.1.1.1"
+          },
+          "note": "La prima parte copre i danni che l'attacco provoca direttamente all'assicurato.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "La copertura di terze parti",
+          "left": {
+            "title": "Richieste che può coprire",
+            "items": [
+              "Violazione della privacy",
+              "Uso improprio dei dati personali",
+              "Diffamazione o calunnia",
+              "Trasmissione di contenuti dannosi",
+              "Responsabilità dei media elettronici, multe e sanzioni"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Esclusioni tipiche nella RC cyber",
+            "items": [
+              "Responsabilità contrattuali",
+              "Pubblicazioni su siti non controllati dall'assicurato",
+              "Responsabilità che non derivano dalla legge",
+              "Contenuti non rimossi dopo una denuncia del terzo"
+            ],
+            "ref": "IVASS, Indagine polizze cyber, par. 3.1.1.2"
+          },
+          "note": "La copertura paga costi legali, risarcimenti e danni dovuti ai terzi. Alcune polizze coprono anche danni reputazionali del terzo e violazioni di proprietà intellettuale.",
+          "noteRef": "Materiale originale; IVASS, par. 3.1.1.2"
+        },
+        {
+          "layout": "concept",
+          "title": "La tutela legale",
+          "key": "Copre le spese legali dell'assicurato nelle vertenze nate da un attacco o dall'uso del web e dei social nell'attività.",
+          "body": "Spesso c'è anche consulenza legale telefonica. L'IVASS l'ha trovata meno ampia delle altre garanzie, a volte acquistabile solo insieme a perdite pecuniarie o RC. Di regola esclude multe, sanzioni, spese non concordate con la compagnia.",
+          "ref": "IVASS, Indagine polizze cyber, par. 3.1.1.3"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le garanzie accessorie",
+          "items": [
+            {
+              "text": "Estorsione"
+            },
+            {
+              "text": "Ingegneria sociale"
+            },
+            {
+              "text": "Perdite per i dirigenti e responsabilità della direzione"
+            },
+            {
+              "text": "Furto di identità aziendale"
+            },
+            {
+              "text": "Interruzione dell'attività"
+            },
+            {
+              "text": "Violazione del telefono"
+            },
+            {
+              "text": "Perdita reputazionale"
+            },
+            {
+              "text": "Danni materiali e lesioni personali",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "PMI e famiglie",
+          "cols": [
+            {
+              "title": "Polizze per PMI",
+              "items": [
+                "Perdite pecuniarie, RC verso terzi, tutela legale",
+                "Servizi prima dell'attacco: ricerca di vulnerabilità, presidi di protezione",
+                "Servizi dopo l'attacco: ripristino, gestione del danno reputazionale",
+                "Coperture ancora molto standardizzate"
+              ]
+            },
+            {
+              "title": "Polizze per famiglie",
+              "items": [
+                "Furto o clonazione di carte, furto di identità digitale, acquisti online fraudolenti",
+                "Assistenza telefonica e monitoraggio dei dispositivi",
+                "Supporto psicologico per cyberbullismo e cyberstalking",
+                "Spesso serve una connessione Internet minima per l'assistenza da remoto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Uno studio dentistico cliente subisce un attacco: l'agenda e le cartelle dei pazienti sono cifrate per quattro giorni. Alcuni pazienti scrivono allo studio perché temono che i loro dati sanitari siano finiti online.",
+          "questions": [
+            "Quali costi rientrano nella prima parte?",
+            "Quali nelle terze parti?",
+            "Che cosa controlli nella polizza prima di rispondere al cliente?"
+          ],
+          "solution": "Prima parte: indagine forense, ripristino di dati e sistemi, fermo dell'attività per quattro giorni, eventuale diaria, costi di notifica ai pazienti. Terze parti: richieste di risarcimento dei pazienti, spese legali di difesa. Prima di rispondere controlli le garanzie acquistate (base e facoltative), franchigie temporali sul fermo, massimali e l'obbligo di avviso del sinistro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una PMI acquista una polizza multirischio per il suo negozio. Dove è più probabile trovare la parte cyber?",
+          "options": [
+            "Solo nella garanzia incendio",
+            "Nelle garanzie tutela legale e assistenza",
+            "Non può esserci una parte cyber in una multirischio",
+            "Solo nella garanzia infortuni"
+          ],
+          "answer": 1,
+          "explanation": "L'IVASS ha rilevato che nelle multirischio la copertura cyber compare soprattutto nelle garanzie tutela legale e assistenza, con limiti e franchigie simili alle altre polizze."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di queste voci è una tipica copertura di prima parte?",
+          "options": [
+            "Il risarcimento chiesto da un cliente per la diffusione dei suoi dati",
+            "Il costo per ripristinare i dati e i sistemi dopo l'attacco",
+            "La difesa in una causa per diffamazione online",
+            "La responsabilità per contenuti dannosi trasmessi a terzi"
+          ],
+          "answer": 1,
+          "explanation": "La prima parte copre i danni subiti direttamente dall'assicurato: ripristino, fermo, indagine, notifiche. Le altre voci riguardano richieste di terzi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3 forme",
+              "text": "stand alone, modulare, multirischio"
+            },
+            {
+              "value": "1ª parte",
+              "text": "danni propri: ripristino, fermo, indagine, notifiche"
+            },
+            {
+              "value": "3ª parte",
+              "text": "richieste dei terzi: privacy, diffamazione, contenuti dannosi"
+            },
+            {
+              "value": "Tutela legale",
+              "text": "spese legali, spesso più limitata"
+            },
+            {
+              "value": "50",
+              "text": "polizze esaminate dall'IVASS nel 2023"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel prodotto. Vediamo che cos'è una polizza cyber, in quali forme si trova sul mercato italiano e che cosa copre davvero, garanzia per garanzia. È la base per poter parlare con un cliente di rischio cyber senza promettere più di quello che il contratto contiene.\n\nPartiamo dal perché. Le aziende che hanno subito attacchi informatici hanno cominciato a guardare con interesse alle polizze cyber, per mitigare le perdite future. Le compagnie hanno risposto sviluppando prodotti dedicati. Nel corso degli anni queste polizze sono diventate sempre più sofisticate, perché dovevano stare al passo con due cose che cambiano in fretta: gli attacchi, che evolvono di continuo, e i sistemi informativi delle imprese, sempre più complessi e interconnessi.\n\nChe cos'è, allora, l'assicurazione cyber? È un prodotto assicurativo che protegge utenti aziendali e singoli individui dai rischi che derivano dall'uso di Internet e, più in generale, dai rischi collegati a infrastrutture e attività informatiche. L'IVASS, nella sua indagine sulle polizze cyber dell'ottobre 2023, riprende una definizione del Financial Stability Board: il cyber risk è la combinazione della probabilità che si verifichino incidenti cyber e del loro impatto. E un incidente cyber è una violazione della sicurezza di un sistema informativo, o delle informazioni che quel sistema elabora, memorizza o trasmette, indipendentemente dal fatto che sia doloso o no. Quest'ultimo punto è importante: anche un errore o un guasto può essere un incidente cyber, non solo l'attacco di un criminale.\n\nPerché è un rischio così particolare? Perché l'impatto di un attacco è difficile da prevedere. Le informazioni disponibili sono poche e non omogenee, e gli attacchi si possono eseguire con grande facilità, anche a distanza e da chiunque. Nel mondo digitale, poi, non è sempre chiaro chi sia responsabile del danno e chi debba sopportarne la perdita: il fornitore del software, l'impresa che non ha aggiornato i sistemi, il dipendente che ha aperto un allegato. Per l'assicurazione quantificare il rischio è fondamentale, perché i crimini informatici e le violazioni dei dati possono avere ripercussioni pesanti sul business delle aziende.\n\nDue argomenti li diamo per acquisiti, perché li avete già visti nel modulo sulla cybersecurity e il rischio cyber. Il primo è il processo con cui nasce una polizza: un valutatore identifica i parametri di rischio, cioè i beni di valore, le minacce e le vulnerabilità del sistema di sicurezza; il rischio viene analizzato stimando probabilità e impatto di un incidente e aggregando questi valori; l'agente e l'assicuratore specificano copertura e premio; infine il contratto viene scritto e firmato. Il secondo è l'assicurabilità: perché un rischio sia assicurabile servono una perdita accidentale, rischi limitati di perdite catastroficamente grandi, una perdita calcolabile, un grande numero di unità di esposizione simili, un premio a prezzi accessibili, una perdita definita e una perdita abbastanza grande da giustificare la copertura. Teneteli a mente, perché ci torneremo quando parleremo di esclusioni e di prezzo.\n\nVediamo ora come si presentano le polizze sul mercato. L'IVASS distingue tre forme. Le polizze stand alone sono disegnate apposta per il rischio cyber: hanno garanzie di base a cui si possono aggiungere coperture facoltative, acquistate separatamente, con tutele crescenti. Le polizze modulari offrono un'ampia gamma di garanzie per la persona o per i beni, organizzate in moduli combinabili: la parte cyber è un modulo opzionale, da comprare insieme ad altre garanzie, e in genere ha una portata contenuta. Infine ci sono le multirischio, che proteggono beni e patrimonio di proprietari, locatari o PMI e hanno sezioni opzionali: qui il cyber compare soprattutto nelle garanzie tutela legale e assistenza. Per l'intermediario la distinzione conta: un cliente che dice «ho già il cyber nella polizza del negozio» potrebbe avere solo un'assistenza telefonica e qualche spesa legale, non il rimborso del fermo attività.\n\nL'indagine IVASS ci dà anche una fotografia del campione. Sono state analizzate 50 polizze in commercio al 30 luglio 2023, studiando i set informativi pubblicati sui siti delle compagnie. L'IVASS precisa che non ha valutato la bontà o la convenienza delle polizze, né il loro successo commerciale. Ventisei polizze erano rivolte alle PMI, di cui 14 stand alone e 12 modulari; ventiquattro a individui e famiglie, di cui 6 stand alone e 18 modulari. Solo 5 erano dedicate a imprese di grandi dimensioni. Le stand alone per le PMI si rivolgono a imprese manifatturiere e di servizi, anche artigiane, a esercizi commerciali, studi professionali e strutture ricettive, e il premio è spesso rapportato al fatturato. Il messaggio di fondo dell'Istituto è che il mercato è destinato a crescere, e che l'assistenza di intermediari professionisti, aggiornati sui rischi cyber e sugli aspetti tecnici di queste polizze, è cruciale.\n\nEntriamo nelle garanzie. La prima famiglia è la copertura di prima parte, in inglese first party coverage. Il materiale del corso la descrive così: comprende servizi legali e forensi per stabilire se una violazione c'è stata e, se c'è stata, per aiutare l'assicurato a rispettare la normativa, a sostenere i costi per informare i dipendenti e i terzi interessati e i costi di notifica della violazione dei dati. In caso di violazione dei dati la polizza in genere prevede assistenza legale per coordinare la risposta dell'assicurato all'incidente. Nelle polizze reali, secondo l'IVASS, la garanzia di base delle perdite pecuniarie risarcisce i costi per ripristinare dati e sistemi e quelli dovuti all'interruzione dell'attività. Spesso è integrata da altre voci: i costi di istruttoria per accertare cause e modalità dell'attacco, i costi di notifica ai terzi in caso di data breach, i costi per ottenere di nuovo carte di pagamento quando sono coinvolti dati di carte, una diaria per ogni giorno di inattività forzata, la consulenza di esperti. Solo due compagnie, nel campione, assicuravano anche i danni alle apparecchiature informatiche.\n\nLa seconda famiglia è la copertura di terze parti. Qui il punto non è il danno che subisco io, ma quello che devo pagare agli altri. Può riguardare rivendicazioni per violazione della privacy, uso improprio dei dati personali, diffamazione o calunnia, trasmissione di contenuti dannosi. La copertura è disponibile per i costi legali, i risarcimenti o i danni che l'assicurato deve pagare a seguito di una violazione, per la responsabilità dei media elettronici e per multe e sanzioni. Nelle polizze esaminate dall'IVASS, la garanzia di responsabilità civile copre in genere i danni causati a terzi da un attacco che porta a una violazione della privacy o della sicurezza informatica. Alcune compagnie aggiungono i danni reputazionali del terzo, le violazioni della proprietà intellettuale, i costi degli esperti per contenere il danno, le perdite dei terzi per l'interruzione della loro attività, perfino le sanzioni per inadempimento di obblighi amministrativi. Attenzione però alle esclusioni tipiche: le responsabilità contrattuali, i danni da pubblicazioni su siti che l'assicurato non controlla, le responsabilità che non derivano dalla legge e i danni dovuti alla mancata rimozione di un contenuto dopo la segnalazione del terzo.\n\nLa terza famiglia è la tutela legale. La compagnia riconosce le spese legali nelle vertenze che coinvolgono l'assicurato: per esempio i danni subiti per fatti illeciti di terzi, o i danni causati a terzi per reati legati all'uso del web e dei social nell'attività. A volte comprende le controversie con i fornitori di servizi informatici, come posta elettronica, software, connessione o gestione del sito. L'IVASS ha notato che questa garanzia è meno ampia delle altre, spesso limitata a coperture di base, e in alcuni casi acquistabile solo insieme alle perdite pecuniarie o alla responsabilità civile. Spesso i sinistri sono gestiti da centrali operative di compagnie specializzate. Tra le esclusioni ricorrenti: le spese legali non concordate con la compagnia, i risarcimenti punitivi, le multe, le sanzioni e gli oneri fiscali.\n\nAccanto alle garanzie principali, il materiale del corso elenca le esposizioni per cui può essere disponibile una copertura accessoria: estorsione, ingegneria sociale, perdite per i dirigenti, furto di identità aziendale, interruzione dell'attività, violazione del telefono, responsabilità della direzione, perdita reputazionale, danni materiali e lesioni personali. Non tutte sono presenti in tutte le polizze: sono voci da cercare e leggere nel contratto, una per una.\n\nUltimo confronto: PMI e famiglie. Le polizze per le PMI sono piuttosto articolate: coprono i danni dell'attacco, i danni ai terzi e le spese legali, e diverse offrono servizi prima dell'attacco, come l'identificazione di vulnerabilità e l'installazione di presidi, e dopo, come il ripristino dell'operatività e la gestione del danno reputazionale. Sono però ancora molto standardizzate. Le polizze per individui e famiglie coprono soprattutto furto o clonazione di carte, furto di identità digitale e acquisti online fraudolenti. Spesso offrono assistenza telefonica e un monitoraggio dei dispositivi che segnala alla compagnia un sospetto attacco, così da attivare un tecnico. Ci sono anche coperture per il supporto psicologico in caso di cyberbullismo e cyberstalking. Una curiosità utile: molte polizze retail richiedono una connessione Internet minima, perché l'assistenza si fa da remoto.\n\nProviamo con un caso. Uno studio dentistico cliente subisce un attacco: per quattro giorni agenda e cartelle sono cifrate, e alcuni pazienti scrivono temendo che i loro dati sanitari siano finiti online. Nella prima parte rientrano l'indagine forense, il ripristino, il fermo dell'attività, l'eventuale diaria e i costi di notifica ai pazienti. Nella terza parte rientrano le eventuali richieste di risarcimento dei pazienti e le spese di difesa. Prima di rispondere al cliente, però, si apre la polizza: quali garanzie ha davvero acquistato, c'è una franchigia temporale sul fermo, quali sono i massimali, entro quando va denunciato il sinistro. Sono proprio i temi della prossima lezione.\n\nRicapitolando: tre forme di polizza, tre famiglie di garanzie, molte coperture accessorie da verificare caso per caso. E un mercato che l'IVASS vede in crescita, dove il valore dell'intermediario sta nel saper leggere il contratto insieme al cliente.",
+      "sources": [
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk (pagina)",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/altre-pubblicazioni/2023/indagine-cyber-risk/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di cyber risk e di incidente cyber adottata dall'IVASS (dal Cyber Lexicon FSB).",
+          "source_ref": "IVASS, Indagine polizze cyber, ott. 2023, par. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Forme di polizza (stand alone, modulari, multirischio) e composizione del campione IVASS: 50 polizze, 26 PMI (14+12), 24 retail (6+18), 5 per grandi imprese, premio spesso rapportato al fatturato.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 2, 3.1, 3.3, 3.4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto concreto delle garanzie perdite pecuniarie, responsabilità civile e tutela legale, con le relative esclusioni.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Coperture per individui e famiglie: carte, identità digitale, acquisti online, assistenza, cyberbullismo; requisito di connessione per l'assistenza remota.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Processo di costruzione della polizza e fattori di assicurabilità mantenuti in forma di ripasso, perché già sviluppati nel modulo «Cybersecurity e rischio cyber».",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la copertura di terze parti include «multe e sanzioni». L'IVASS rileva che solo alcune polizze coprono sanzioni e che la tutela legale di regola le esclude: va verificato il singolo contratto.",
+          "source_ref": "Materiale originale; IVASS, par. 3.1.1.2 e 3.1.1.3"
+        }
+      ]
+    },
+    {
+      "title": "Le condizioni che fanno la differenza: claims made, esclusioni e limiti",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /5. Cyber insurance.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cyber insurance",
+          "title": "Le condizioni che fanno la differenza",
+          "goals": [
+            "Capire come funzionano claims made, retroattività e garanzia postuma nelle polizze cyber",
+            "Riconoscere le condizioni di assicurabilità e le esclusioni più diffuse",
+            "Leggere franchigie, massimali, carenze e limiti territoriali"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Su che base opera la copertura",
+          "key": "A differenza di molte polizze tradizionali, la copertura cyber è spesso offerta solo nella forma «a richiesta di risarcimento» (claims made).",
+          "body": "Il corso dice che la copertura informatica è disponibile «solo su base sinistri». L'IVASS precisa che molte polizze sono claims made, mentre altre coprono i sinistri avvenuti durante la polizza e offrono la retroattività come garanzia aggiuntiva.",
+          "ref": "Materiale originale; IVASS, Indagine polizze cyber, par. 3.1.3"
+        },
+        {
+          "layout": "compare",
+          "title": "Due logiche a confronto",
+          "cols": [
+            {
+              "title": "Claims made",
+              "items": [
+                "Conta quando il sinistro è denunciato per la prima volta",
+                "Vale per sinistri denunciati durante la polizza, anche se avvenuti prima",
+                "Può prevedere un periodo di denuncia postuma"
+              ]
+            },
+            {
+              "title": "Base + retroattività",
+              "items": [
+                "La base copre i sinistri avvenuti durante la polizza",
+                "La retroattività, accessoria, copre fatti precedenti alla firma",
+                "Prima della «data di retroattività» nulla è coperto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Le parole dei limiti",
+          "lead": "Quattro elementi riducono o spostano nel tempo l'indennizzo. Vanno spiegati al cliente prima della firma.",
+          "facts": [
+            {
+              "label": "Franchigia fissa",
+              "text": "Un importo che si deduce dall'indennizzo"
+            },
+            {
+              "label": "Franchigia temporale",
+              "text": "I giorni di fermo da superare prima che maturi l'indennizzo"
+            },
+            {
+              "label": "Massimale",
+              "text": "Per singolo sinistro o come importo massimo nell'anno"
+            },
+            {
+              "label": "Carenza",
+              "text": "Periodo iniziale senza copertura: fino a 90 giorni per tutela legale o interruzione di attività"
+            }
+          ],
+          "ref": "IVASS, Indagine polizze cyber, par. 3.1.5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le condizioni di assicurabilità",
+          "items": [
+            {
+              "text": "Presidi informatici idonei a prevenire e affrontare gli attacchi"
+            },
+            {
+              "text": "Antivirus e firewall adeguati e aggiornati spesso"
+            },
+            {
+              "text": "Backup periodici e frequenti"
+            },
+            {
+              "text": "Connessione adeguata per le riparazioni da remoto"
+            },
+            {
+              "text": "Presidi organizzativi: procedure, strutture IT interne o esterne, formazione continua"
+            },
+            {
+              "text": "Contratto di assistenza e manutenzione hardware e software per tutta la durata",
+              "ref": "IVASS, Indagine polizze cyber, par. 3.1.2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Requisito o esclusione?",
+          "key": "La stessa carenza di sicurezza può impedire di assicurarsi con una compagnia ed essere invece un'esclusione con un'altra.",
+          "body": "Esempi: niente antivirus o firewall adeguati, backup non regolari, credenziali di default mai cambiate. Nel primo caso la polizza non nasce. Nel secondo nasce, ma il sinistro collegato non viene pagato.",
+          "ref": "IVASS, Indagine polizze cyber, par. 3.1.4"
+        },
+        {
+          "layout": "table",
+          "title": "Esclusioni da leggere con attenzione",
+          "head": [
+            "Esclusione",
+            "Perché conta"
+          ],
+          "rows": [
+            [
+              "Guerra",
+              "Quasi sempre presente. Spesso non dice se comprende la «guerra informatica»"
+            ],
+            [
+              "Infrastrutture esterne",
+              "Guasti di Internet, rete elettrica o servizi fuori dal controllo dell'assicurato"
+            ],
+            [
+              "Antivirus",
+              "Assente, non aggiornato da oltre 6 mesi o solo gratuito"
+            ],
+            [
+              "Credenziali di default",
+              "Password di fabbrica mai cambiate"
+            ],
+            [
+              "Dolo dei dipendenti",
+              "Condotte dolose di chi lavora per l'assicurato"
+            ]
+          ],
+          "ref": "IVASS, Indagine polizze cyber, par. 3.1.1.1 e 3.1.4"
+        },
+        {
+          "layout": "concept",
+          "title": "Il nodo del riscatto",
+          "key": "Anche quando il ransomware è coperto, il rimborso del riscatto pagato è in genere escluso.",
+          "body": "Nel campione IVASS otto compagnie coprivano i danni da estorsione cyber, ma solo per le spese: ripristino dei dati, rimozione del malware. Poche compagnie, soprattutto estere, coprivano anche le somme pagate, a condizione di riservatezza della polizza e di pronta informativa alle Autorità.",
+          "ref": "IVASS, Indagine polizze cyber, par. 3.1.1.1 e 3.1.1.4"
+        },
+        {
+          "layout": "split",
+          "title": "Dove vale la copertura",
+          "left": {
+            "title": "Garanzie sui danni propri",
+            "items": [
+              "Sistema informatico in Italia, San Marino, Vaticano",
+              "Assistenza da remoto in tutta l'UE",
+              "Intervento fisico del tecnico solo in Italia"
+            ]
+          },
+          "right": {
+            "title": "RC e tutela legale",
+            "items": [
+              "RC: a volte tutto il mondo, a volte solo UE o giudice italiano",
+              "Tutela legale: estensione diversa per cause extracontrattuali, contrattuali e amministrative"
+            ]
+          },
+          "note": "Esempi rilevati dall'IVASS su alcune polizze: ogni contratto ha i suoi limiti.",
+          "noteRef": "IVASS, Indagine polizze cyber, par. 3.1.5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Polizze per famiglie: requisiti particolari",
+          "items": [
+            {
+              "text": "Connessione minima, di solito 2 Mbps in download e 0,80 in upload, per l'assistenza da remoto"
+            },
+            {
+              "text": "A volte solo computer fissi o portatili, non tablet, smartphone o memorie esterne"
+            },
+            {
+              "text": "Software con regolare licenza e dispositivi certificati CE"
+            },
+            {
+              "text": "Backup, controlli periodici e programmi di protezione installati"
+            },
+            {
+              "text": "Sistema operativo Windows, macOS o GNU/Linux",
+              "ref": "IVASS, Indagine polizze cyber, par. 3.2.6"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando il cyber è solo un nome",
+          "key": "In una polizza auto modulare l'IVASS ha trovato una copertura «per attacchi cyber» che, per effetto delle esclusioni, copriva di fatto solo il ritrovamento delle chiavi dell'auto.",
+          "body": "Il cyberterrorismo era coperto solo acquistando il modulo «eventi sociopolitici». Nelle modulari la parte cyber ha spesso portata contenuta: il nome della garanzia non basta, contano le esclusioni.",
+          "ref": "IVASS, Indagine polizze cyber, par. 3.3"
+        },
+        {
+          "layout": "concept",
+          "title": "Le parole del contratto",
+          "key": "L'IVASS ha trovato glossari poco uniformi: «dati», «attacco informatico» o «guerra» hanno definizioni diverse da polizza a polizza.",
+          "body": "Una definizione ampia di attacco include accesso abusivo, malware, trasmissione di virus a terzi, DoS ed estorsione. Una sintetica può lasciare dubbi. L'IVASS suggerisce alle compagnie un glossario unico, partendo dal Cyber Lexicon del Financial Stability Board.",
+          "ref": "IVASS, Indagine polizze cyber, cap. 4 e 5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Prima di proporre: che cosa controllare",
+          "items": [
+            {
+              "text": "Formula: claims made o base più retroattività? C'è la postuma?"
+            },
+            {
+              "text": "Requisiti minimi di sicurezza: il cliente li rispetta oggi?"
+            },
+            {
+              "text": "Esclusioni su guerra, infrastrutture esterne, riscatto"
+            },
+            {
+              "text": "Franchigie fisse e temporali, massimali, carenze"
+            },
+            {
+              "text": "Definizioni del glossario: che cosa è «attacco» e che cosa è «dato»"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia viaggi cliente ha una polizza cyber claims made da gennaio. A marzo un cliente le chiede un risarcimento per dati rubati da un attacco avvenuto a novembre dell'anno prima. Poi si scopre che il gestionale usava ancora la password di fabbrica.",
+          "questions": [
+            "La formula claims made può coprire un fatto avvenuto prima della polizza?",
+            "Che peso ha la password di fabbrica?"
+          ],
+          "solution": "Con il claims made conta la prima richiesta di risarcimento, arrivata durante la polizza: il fatto precedente può essere coperto, nei limiti dell'eventuale data di retroattività. La password di fabbrica può però far scattare un'esclusione per uso di credenziali di default: va verificato il testo. Per il futuro: cambiare subito le credenziali e documentarlo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente vittima di ransomware chiede se la polizza gli rimborsa il riscatto pagato. Che cosa ha rilevato l'IVASS?",
+          "options": [
+            "Il riscatto è sempre rimborsato",
+            "Il riscatto è in genere escluso, anche se il ransomware è coperto",
+            "Il riscatto è rimborsato solo dalle polizze per famiglie",
+            "Il riscatto è coperto dalla tutela legale"
+          ],
+          "answer": 1,
+          "explanation": "Di regola le polizze rimborsano le spese di ripristino e di rimozione del malware, non il riscatto. Solo pochissime polizze lo coprono, e a condizioni precise."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cos'è una franchigia temporale nelle polizze cyber per PMI?",
+          "options": [
+            "Il periodo iniziale in cui la polizza non copre",
+            "Il numero di giorni di fermo da superare prima che maturi l'indennizzo",
+            "Il tempo massimo per pagare il premio",
+            "La durata della garanzia postuma"
+          ],
+          "answer": 1,
+          "explanation": "La franchigia temporale riguarda l'interruzione di attività: l'indennizzo matura solo dopo un certo numero di giorni di fermo. Il periodo iniziale senza copertura è invece la carenza."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Claims made",
+              "text": "conta la prima denuncia, non la data del fatto"
+            },
+            {
+              "value": "6 mesi",
+              "text": "antivirus non aggiornato oltre questo limite: esclusione in alcune polizze"
+            },
+            {
+              "value": "Riscatto",
+              "text": "in genere escluso dal rimborso"
+            },
+            {
+              "value": "90 giorni",
+              "text": "carenze possibili su tutela legale e fermo attività"
+            },
+            {
+              "value": "Glossario",
+              "text": "leggere le definizioni di attacco, dati, guerra"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che cosa copre una polizza cyber. In questa vediamo le condizioni che decidono se, quando e quanto la polizza paga. Sono le clausole che, in caso di sinistro, fanno la differenza tra un cliente soddisfatto e un reclamo.\n\nPartiamo dalla base temporale della copertura. Il materiale del corso afferma che, diversamente dalle polizze commerciali tradizionali, la copertura informatica è disponibile solo «su base sinistri». È un'espressione che va chiarita: si riferisce alla formula che in inglese si chiama claims made, cioè a richiesta di risarcimento. L'indagine IVASS del 2023 conferma che molte polizze cyber operano proprio così, ma aggiunge che non è l'unica formula sul mercato. In altri casi c'è una copertura di base per i sinistri avvenuti durante la validità della polizza, e il cliente può aggiungere, come garanzia accessoria, un periodo di retroattività.\n\nVediamo meglio le due logiche. Con il claims made la garanzia opera per i sinistri denunciati per la prima volta durante la validità della polizza, anche se avvenuti prima. Alcuni contratti prevedono anche un periodo di denuncia postuma, detto anche garanzia postuma o ultrattività, che allunga il tempo entro cui si può denunciare un sinistro dopo la scadenza. Con la formula base più retroattività, invece, la copertura è attiva per le richieste di risarcimento presentate durante la polizza, a condizione che il comportamento colposo dell'assicurato sia avvenuto durante il periodo di assicurazione o comunque non prima della data di retroattività indicata nel contratto. Quella data è il confine: prima, nulla è coperto. Nel cyber questo conta moltissimo, perché un'intrusione può restare nascosta per mesi. Il cliente che scopre oggi un accesso abusivo iniziato un anno fa deve sapere se la sua polizza lo copre.\n\nPassiamo ai limiti economici. L'IVASS ne descrive quattro. La franchigia fissa è un importo che si deduce dall'indennizzo. La franchigia temporale riguarda il fermo: è il numero di giorni di interruzione dell'attività, stabilito nel contratto, trascorso il quale matura il diritto all'indennizzo. Se la franchigia temporale è di tre giorni e il fermo ne dura due, per il fermo non si riceve nulla. Il massimale è fissato per singolo sinistro oppure come importo massimo risarcibile nell'anno. La carenza, infine, è il periodo iniziale dalla data del contratto in cui un eventuale sinistro non è in garanzia: alcune garanzie, come la tutela legale o l'interruzione di attività, prevedono carenze anche di 90 giorni. Sono concetti che il cliente conosce poco e che vanno spiegati con esempi concreti prima della firma.\n\nC'è poi il tema delle condizioni di assicurabilità. Per assicurare il rischio cyber le compagnie chiedono requisiti minimi, in particolare di avere già lavorato sulla sicurezza preventiva. Così la compagnia può valutare come reagirebbe l'azienda ai diversi tipi di attacco, in base all'analisi del rischio, alla tecnologia, ai presidi e alla formazione di responsabili e dipendenti. Le condizioni più frequenti trovate dall'IVASS sono: presidi informatici idonei a prevenire e fronteggiare gli attacchi; antivirus e firewall adeguati e aggiornati spesso; backup periodici e frequenti; una connessione Internet adeguata per le riparazioni da remoto; presidi organizzativi come procedure, strutture interne o esterne dedicate all'IT e formazione digitale continua; e infine un contratto di assistenza e manutenzione per hardware e software, da mantenere per tutta la durata della polizza.\n\nQui c'è un'osservazione dell'IVASS molto utile nel lavoro quotidiano. Le stesse condizioni che per alcune compagnie rendono il rischio non assicurabile, per altre sono cause di esclusione o di limitazione delle garanzie. Facciamo un esempio: l'assenza di backup regolari. Con la compagnia A la polizza non si stipula finché il cliente non organizza i backup. Con la compagnia B la polizza si stipula, ma se il sinistro dipende dalla mancanza di backup non viene pagato. Per il cliente la seconda situazione è più pericolosa, perché crede di essere coperto. Il compito dell'intermediario è far emergere il problema prima, non dopo.\n\nVediamo le esclusioni più frequenti. La clausola di guerra è presente nella maggior parte dei contratti esaminati, ma spesso non chiarisce se «guerra» comprende anche la «guerra informatica»: un tema di grande attualità, visto che i conflitti si combattono anche con attacchi informatici. Alcune polizze escludono espressamente la guerra informatica, altre parlano genericamente di guerra, e il glossario non sempre aiuta. Quasi tutte le polizze escludono i danni da guasti o interruzioni di infrastrutture esterne non controllate dall'assicurato: Internet, rete elettrica, servizi di comunicazione. Tra le esclusioni specifiche della garanzia perdite pecuniarie l'IVASS segnala l'assenza di antivirus, o aggiornamenti fermi da oltre sei mesi, o la presenza di soli antivirus gratuiti; l'uso di credenziali di default non modificate; le condotte dolose dei dipendenti dell'assicurato; il furto di proprietà intellettuale; atti di guerra e terrorismo. In alcune polizze sono escluse le spese per l'hardware danneggiato, mentre sono indennizzabili i danni al software.\n\nUn capitolo a parte è il riscatto. Il ransomware è un malware che cifra i dati e chiede un pagamento, di solito in criptovalute, per restituirli o per non pubblicarli. Nel campione IVASS otto compagnie coprivano i danni da estorsione cyber, ma rimborsando le spese, come il ripristino dei dati e la rimozione del malware. Il rimborso del riscatto pagato risultava in genere escluso, anche quando l'evento ransomware era coperto. Due compagnie estere operanti in Italia coprivano le perdite derivanti dalla richiesta di riscatto, e un'impresa offriva una garanzia che includeva le somme pagate per far cessare l'estorsione e i consulenti specializzati, a due condizioni: che la sottoscrizione della polizza restasse riservata e che la minaccia fosse comunicata prontamente alle Autorità. Se un cliente vi chiede «se mi bloccano i dati, la polizza paga il riscatto?», la risposta onesta, nella grande maggioranza dei casi, è no.\n\nAnche il territorio conta. Per la garanzia sui danni al sistema informatico, alcune polizze coprono solo sistemi situati in Italia, San Marino e Vaticano, con assistenza da remoto in tutta l'Unione europea e intervento fisico del tecnico solo in Italia. Per la responsabilità civile alcune polizze valgono in tutto il mondo, altre solo per violazioni commesse nell'Unione o per richieste davanti al giudice italiano. La tutela legale ha estensioni diverse a seconda che la causa sia extracontrattuale, contrattuale o amministrativa. Per un cliente che vende online all'estero o usa server fuori dall'Italia, sono dettagli decisivi.\n\nPer le polizze rivolte a individui e famiglie le condizioni di assicurabilità sono diverse, e a volte sorprendenti. La più comune è una connessione Internet minima, di solito almeno 2 megabit al secondo in download e 0,80 in upload, perché in caso di malware il ripristino si fa da remoto. Alcune compagnie limitano poi la garanzia ai computer fissi o portatili, escludendo tablet, smartphone e memorie esterne, e ai dispositivi non usati esclusivamente per lavoro. Possono chiedere software con regolare licenza, dispositivi certificati CE, backup e controlli periodici, programmi di protezione installati, e un sistema operativo tra Windows, macOS e GNU/Linux. Pensate a una famiglia che usa quasi solo lo smartphone: una polizza così le copre molto meno di quanto creda.\n\nL'IVASS segnala anche un esempio istruttivo nelle polizze modulari. Nella garanzia Corpi veicoli terrestri di una polizza auto c'era una copertura per attacchi cyber che, per effetto delle esclusioni, copriva in pratica solo il ritrovamento delle chiavi dell'auto; il cyberterrorismo era coperto solo acquistando il modulo «eventi sociopolitici». Più in generale, nelle modulari la parte cyber ha spesso una portata contenuta. Il nome della garanzia, quindi, non basta: contano le esclusioni.\n\nL'ultimo elemento sono le parole. L'IVASS ha esaminato i glossari e li ha trovati poco uniformi. La parola «dati» in un glossario è definita in modo preciso, come qualsiasi informazione digitale memorizzata fuori dalla memoria RAM, in qualunque forma; in un altro genericamente come «dati elettronici e software». L'«attacco informatico» in un caso è un atto doloso, malware o furto contro il sistema; in un altro è un elenco dettagliato che comprende accesso e sottrazione di dati, uso non autorizzato del sistema, infezione da programmi dannosi, trasmissione di malware a terzi, attacco DoS ed estorsione. Altri termini, come guerra, ransomware o phishing, spesso non sono definiti. L'IVASS suggerisce un glossario unico e indica come riferimento il Cyber Lexicon del Financial Stability Board.\n\nDa qui una piccola lista di controllo, da usare prima di proporre una polizza: la formula temporale e la presenza della postuma; i requisiti minimi di sicurezza e se il cliente li rispetta oggi; le esclusioni su guerra, infrastrutture esterne e riscatto; franchigie, massimali e carenze; e le definizioni del glossario.\n\nChiudiamo con un caso. Un'agenzia viaggi ha una polizza claims made da gennaio. A marzo un cliente le chiede un risarcimento per dati rubati in un attacco avvenuto a novembre dell'anno prima. Con il claims made conta la prima richiesta di risarcimento, arrivata durante la polizza: il fatto precedente può rientrare, nei limiti della data di retroattività se prevista. Ma poi emerge che il gestionale usava ancora la password di fabbrica. Qui può scattare l'esclusione per credenziali di default: bisogna leggere il testo. E per il futuro il consiglio è semplice: cambiare subito le credenziali e conservarne traccia.\n\nIn sintesi: la polizza cyber si giudica dalle condizioni, non dal nome. Claims made, requisiti di sicurezza, esclusioni, limiti e glossario vanno letti tutti, e spiegati al cliente con parole sue.",
+      "sources": [
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la copertura cyber è disponibile «solo su base sinistri». Chiarito che si tratta della formula claims made e che, secondo l'IVASS, molte (non tutte) le polizze la adottano; altre coprono i sinistri avvenuti in polizza con retroattività accessoria.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Garanzia postuma, data di retroattività, franchigie fisse e temporali, massimali, carenze fino a 90 giorni, limiti territoriali.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.3 e 3.1.5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni di assicurabilità richieste dalle compagnie e loro uso alternativo come esclusioni.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.2 e 3.1.4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusioni ricorrenti (guerra e guerra informatica, infrastrutture esterne, antivirus non aggiornato da oltre 6 mesi o freeware, credenziali di default, dolo dei dipendenti) e trattamento del riscatto da ransomware.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.1.1, 3.1.1.4, 3.1.4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Disomogeneità dei glossari e raccomandazione IVASS di un glossario unico basato sul Cyber Lexicon FSB.",
+          "source_ref": "IVASS, Indagine polizze cyber, cap. 4 e 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni di assicurabilità delle polizze retail e caso della copertura cyber nella CVT modulare.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.2.6 e 3.3"
+        }
+      ]
+    },
+    {
+      "title": "Ottenere la giusta copertura ed evitare i passi falsi",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /5. Cyber insurance.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cyber insurance",
+          "title": "Ottenere la giusta copertura ed evitare i passi falsi",
+          "goals": [
+            "Accompagnare il cliente nei cinque passaggi per arrivare alla copertura giusta",
+            "Riconoscere le clausole che possono far perdere la copertura",
+            "Verificare se una polizza cyber è coerente con i rischi GDPR del cliente"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Cinque passaggi verso la copertura",
+          "steps": [
+            {
+              "label": "1 · Pericoli",
+              "text": "Valutare l'esposizione ai pericoli informatici"
+            },
+            {
+              "label": "2 · Polizze esistenti",
+              "text": "Verificare che cosa coprono già le polizze in essere"
+            },
+            {
+              "label": "3 · Richiesta",
+              "text": "Chiedere la copertura, con dati finanziari e di sicurezza informatica"
+            },
+            {
+              "label": "4 · Mercato",
+              "text": "Trovare la copertura giusta in un mercato in movimento"
+            },
+            {
+              "label": "5 · Dopo la firma",
+              "text": "Capire e rispettare requisiti e condizioni di polizza"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il questionario di sicurezza",
+          "key": "Oltre ai consueti dati finanziari, l'assicuratore chiede informazioni sulla sicurezza informatica. Informazioni imprecise possono compromettere la copertura quando arriva una richiesta di risarcimento.",
+          "body": "Le risposte al questionario entrano a far parte della polizza, se questa viene emessa. Ogni «sì» deve corrispondere a una realtà verificabile: backup, aggiornamenti, autenticazione, formazione.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Dichiarazioni inesatte: che cosa dice il codice civile",
+          "cols": [
+            {
+              "title": "Con dolo o colpa grave (art. 1892)",
+              "items": [
+                "Il contratto è annullabile se l'assicuratore, sapendo il vero, non avrebbe contratto o lo avrebbe fatto a condizioni diverse",
+                "L'assicuratore deve impugnare entro tre mesi da quando lo scopre",
+                "Se il sinistro avviene prima, non paga"
+              ]
+            },
+            {
+              "title": "Senza dolo o colpa grave (art. 1893)",
+              "items": [
+                "Il contratto non è annullabile",
+                "L'assicuratore può recedere entro tre mesi da quando lo scopre",
+                "Se il sinistro avviene prima, l'indennizzo si riduce in proporzione al premio che sarebbe stato dovuto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I passi falsi che compromettono la copertura",
+          "head": [
+            "Clausola",
+            "Il rischio"
+          ],
+          "rows": [
+            [
+              "Dichiarazioni all'assicuratore",
+              "Risposte inaccurate nella domanda, che diventa parte della polizza"
+            ],
+            [
+              "Pratiche minime richieste",
+              "Esclusione se l'assicurato non osserva le pratiche dichiarate nel modulo"
+            ],
+            [
+              "Avviso del sinistro",
+              "Regole precise su come e quando comunicare la richiesta"
+            ],
+            [
+              "Consenso preliminare",
+              "Spese sostenute senza il consenso dell'assicuratore"
+            ],
+            [
+              "Responsabilità contrattuale",
+              "Esclusa la responsabilità assunta per contratto"
+            ],
+            [
+              "Fusioni e acquisizioni",
+              "Coperti l'assicurato nominato e le sue controllate esistenti alla data di effetto"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Assistenza e cooperazione",
+          "key": "La clausola «assistenza e cooperazione» può chiedere espressamente all'assicurato di collaborare a ogni indagine che la compagnia ritenga necessaria sulla domanda di copertura.",
+          "body": "In pratica: conservare log, e-mail e documenti dell'incidente, non cancellare tracce, rendere disponibili i tecnici. Una risposta lenta o incompleta può diventare un problema per l'indennizzo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Prima di spendere, chiedere",
+          "key": "Le polizze cyber possono richiedere il consenso dell'assicuratore prima di spendere denaro per un evento coperto.",
+          "body": "Il cliente in emergenza tende a chiamare il primo tecnico o il primo avvocato. Molte polizze offrono una linea per l'incidente e fornitori convenzionati. La tutela legale, ad esempio, esclude spesso le spese legali non concordate con la compagnia.",
+          "ref": "Materiale originale; IVASS, Indagine polizze cyber, par. 3.1.1.3"
+        },
+        {
+          "layout": "concept",
+          "title": "Contratti e operazioni societarie",
+          "key": "Come molte polizze di responsabilità civile, quelle cyber escludono in genere la responsabilità che l'assicurato si è assunto per contratto.",
+          "body": "Esempio: penali promesse a un cliente in caso di indisponibilità del servizio. Quanto a fusioni e acquisizioni, la polizza copre l'assicurato nominato e le controllate esistenti alla data di effetto: una società acquisita dopo va comunicata.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "GDPR e polizza cyber: cinque verifiche",
+          "items": [
+            {
+              "text": "Come la polizza definisce il «regolatore della privacy»"
+            },
+            {
+              "text": "Quali sfaccettature di «violazione della privacy» comprende"
+            },
+            {
+              "text": "Quale sede è più favorevole per sanzioni e multe"
+            },
+            {
+              "text": "Qual è il limite della copertura"
+            },
+            {
+              "text": "Se c'è copertura per i fornitori",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "GDPR",
+          "title": "Che cosa rischia chi subisce un data breach",
+          "lead": "Il GDPR prevede sanzioni e risarcimenti: è la base delle richieste che una polizza cyber può dover affrontare.",
+          "facts": [
+            {
+              "label": "Sanzioni minori",
+              "text": "Fino a 10 milioni di euro o al 2% del fatturato mondiale, se superiore: ad esempio per le violazioni sulla sicurezza (artt. 25-39)"
+            },
+            {
+              "label": "Sanzioni maggiori",
+              "text": "Fino a 20 milioni o al 4%: ad esempio per principi e diritti degli interessati"
+            },
+            {
+              "label": "Risarcimento",
+              "text": "Chi subisce un danno materiale o immateriale per una violazione può chiederlo al titolare o al responsabile"
+            }
+          ],
+          "ref": "Reg. (UE) 2016/679, artt. 82 e 83"
+        },
+        {
+          "layout": "concept",
+          "title": "Sanzioni: coperte o no?",
+          "key": "Il corso afferma che l'assicurazione informatica copre sanzioni e multe per violazioni della privacy. Nel mercato italiano non è una regola generale.",
+          "body": "L'IVASS ha trovato alcune garanzie RC che coprono sanzioni per inadempimenti amministrativi, mentre la tutela legale di regola esclude multe e sanzioni. Va sempre letta la singola polizza, senza promettere al cliente che «la multa la paga l'assicurazione».",
+          "ref": "Materiale originale; IVASS, Indagine polizze cyber, par. 3.1.1.2-3"
+        },
+        {
+          "layout": "concept",
+          "title": "Il ruolo dell'intermediario",
+          "key": "Per l'IVASS le polizze cyber vanno calibrate sul profilo digitale del cliente, e la rete distributiva deve essere formata e aggiornata.",
+          "body": "Una piccola impresa che non vende online ha un rischio diverso da una che vende anche in e-commerce. Rilevare l'operatività del cliente serve a offrire una polizza coerente con il target market e con le sue richieste ed esigenze.",
+          "ref": "IVASS, Indagine polizze cyber, cap. 5"
+        },
+        {
+          "layout": "steps",
+          "title": "Le prime ore: che cosa dire al cliente",
+          "steps": [
+            {
+              "label": "Contenere",
+              "text": "Isolare i sistemi colpiti senza cancellare tracce e log"
+            },
+            {
+              "label": "Avvisare",
+              "text": "Chiamare il numero indicato in polizza, nei tempi previsti"
+            },
+            {
+              "label": "Concordare",
+              "text": "Usare fornitori e spese approvati dall'assicuratore"
+            },
+            {
+              "label": "Valutare il GDPR",
+              "text": "Se ci sono dati personali, valutare la notifica al Garante entro 72 ore"
+            },
+            {
+              "label": "Documentare",
+              "text": "Raccogliere fatti, tempi e decisioni per assicuratore e autorità"
+            }
+          ],
+          "ref": "Materiale originale; Reg. (UE) 2016/679, art. 33"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'impresa di installazione impianti, 25 dipendenti, chiede una polizza cyber. Nel questionario il titolare vuole rispondere «sì» alla domanda sull'autenticazione a più fattori, «perché la faremo il mese prossimo». Ha inoltre promesso per contratto a un grande cliente una penale se i suoi dati vengono violati.",
+          "questions": [
+            "Che cosa gli consigli sul questionario?",
+            "La penale contrattuale sarà coperta?"
+          ],
+          "solution": "Va risposto secondo la situazione attuale: una dichiarazione inesatta può portare ad annullamento o riduzione dell'indennizzo (artt. 1892-1893 c.c.) o a un'esclusione per mancato rispetto delle pratiche minime. Si può segnalare all'assicuratore il piano di adeguamento. La penale è una responsabilità assunta per contratto: in genere esclusa, va verificato il testo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Dopo un attacco il cliente incarica subito, a sue spese, uno studio forense scelto da lui. Quale clausola rischia di violare?",
+          "options": [
+            "La clausola di guerra",
+            "Il consenso preliminare dell'assicuratore alle spese",
+            "La retroattività",
+            "La garanzia postuma"
+          ],
+          "answer": 1,
+          "explanation": "Molte polizze cyber chiedono il consenso dell'assicuratore prima di spendere fondi per un evento coperto, e spesso mettono a disposizione fornitori convenzionati."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un contraente, senza dolo né colpa grave, ha dichiarato backup giornalieri che in realtà erano settimanali. Il sinistro avviene prima che l'assicuratore lo scopra. Che cosa prevede l'art. 1893 c.c.?",
+          "options": [
+            "Il contratto è nullo e non si paga nulla",
+            "L'indennizzo si riduce in proporzione tra premio convenuto e premio che sarebbe stato applicato",
+            "L'assicuratore paga per intero",
+            "L'assicuratore paga il doppio"
+          ],
+          "answer": 1,
+          "explanation": "Senza dolo o colpa grave il contratto non è annullato, ma la somma dovuta si riduce in proporzione alla differenza tra il premio convenuto e quello che sarebbe stato applicato conoscendo il vero stato delle cose."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "5",
+              "text": "passaggi: pericoli, polizze esistenti, richiesta, mercato, dopo la firma"
+            },
+            {
+              "value": "1892 · 1893",
+              "text": "dichiarazioni inesatte: annullamento o riduzione"
+            },
+            {
+              "value": "6",
+              "text": "passi falsi da evitare"
+            },
+            {
+              "value": "4% · 2%",
+              "text": "i tetti delle sanzioni GDPR sul fatturato"
+            },
+            {
+              "value": "Profilo",
+              "text": "digitale del cliente alla base della proposta"
+            }
+          ]
+        }
+      ],
+      "narration": "Abbiamo visto che cosa copre una polizza cyber e quali condizioni ne limitano l'efficacia. Adesso mettiamoci dalla parte del cliente: come si arriva alla copertura giusta, e quali errori possono farla perdere proprio quando serve.\n\nIl materiale del corso propone un percorso in cinque passaggi. Il primo è identificare i propri pericoli informatici, cioè valutare l'esposizione: quali dati tratta l'azienda, quali sistemi usa, che cosa succede se si fermano. Il secondo è analizzare con attenzione le polizze già in essere, per capire come le coperture attuali si abbinano ai rischi informatici individuati. È un passaggio spesso saltato: alcune multirischio contengono già piccole garanzie cyber, e alcune polizze danni o di responsabilità civile escludono espressamente gli eventi informatici. Il terzo passaggio è la richiesta di copertura vera e propria. Il quarto è trovare la copertura giusta in un mercato, quello cyber, che il corso definisce dinamico, cioè in continuo cambiamento di prodotti, condizioni e prezzi. Il quinto riguarda il dopo: una volta stabilita la copertura, l'assicurato deve comprendere i requisiti e le condizioni di polizza a cui deve conformarsi. Una polizza cyber, infatti, non si mette nel cassetto: chiede comportamenti costanti, come gli aggiornamenti e i backup che abbiamo visto nella lezione precedente.\n\nSoffermiamoci sul terzo passaggio. Oltre alle informazioni che si chiedono di solito, come i dati finanziari della società, per questa polizza l'assicuratore chiede informazioni sulla sicurezza informatica. Ed ecco il punto delicato: informazioni imprecise possono compromettere la copertura se poi viene presentata una richiesta di risarcimento. Il corso ricorda che la domanda di cyber insurance, se la polizza viene emessa, entra a far parte della polizza stessa. Ogni risposta, quindi, diventa una dichiarazione su cui l'assicuratore fa affidamento.\n\nIl codice civile disciplina proprio questo. L'articolo 1892 riguarda le dichiarazioni inesatte e le reticenze fatte con dolo o colpa grave, relative a circostanze tali che l'assicuratore non avrebbe dato il consenso, o non lo avrebbe dato alle stesse condizioni, se avesse conosciuto il vero stato delle cose. In questo caso il contratto è annullabile. L'assicuratore decade dal diritto di impugnarlo se non dichiara di volerlo fare entro tre mesi dal giorno in cui ha scoperto l'inesattezza; ha diritto ai premi del periodo in corso e comunque al premio del primo anno; e se il sinistro avviene prima che siano trascorsi quei tre mesi, non è tenuto a pagare. L'articolo 1893 riguarda invece le dichiarazioni inesatte fatte senza dolo né colpa grave. Qui il contratto non si annulla, ma l'assicuratore può recedere entro tre mesi da quando ha scoperto l'inesattezza. Se il sinistro avviene prima, la somma dovuta si riduce in proporzione alla differenza tra il premio convenuto e quello che sarebbe stato applicato conoscendo la verità. Tradotto nel cyber: un cliente che dichiara l'autenticazione a più fattori senza averla, o backup giornalieri che in realtà sono settimanali, rischia di vedersi ridurre o negare l'indennizzo.\n\nIl corso elenca poi sei passi falsi che possono compromettere la copertura. Il primo sono proprio le dichiarazioni fatte all'assicuratore: bisogna compilare la domanda con molta attenzione. A questo si lega la condizione di «assistenza e cooperazione», che può chiedere espressamente all'assicurato di collaborare con la compagnia in ogni indagine che ritenga necessaria sulla domanda di copertura. Il secondo passo falso riguarda le esclusioni legate alle risposte del modulo: le polizze possono contenere un'esclusione per «mancata osservanza delle pratiche minime richieste» o una clausola simile. Se nel modulo ho dichiarato di aggiornare i sistemi ogni mese e poi non lo faccio, il sinistro collegato può essere escluso.\n\nIl terzo è l'avviso del sinistro. Le polizze cyber contengono abitualmente disposizioni esplicite su come e quando l'assicurato deve comunicare una richiesta di risarcimento. Nel cyber la tempestività è doppiamente importante: lo è per la polizza, e lo è perché nelle prime ore si decide quanto danno farà l'attacco. Il quarto è il consenso preliminare: le polizze possono richiedere all'assicurato di ottenere il consenso dell'assicuratore prima di spendere fondi in relazione a un evento coperto. Il cliente in emergenza tende a chiamare il primo tecnico disponibile; molte polizze, invece, offrono una linea dedicata e fornitori convenzionati, e l'IVASS ricorda che la tutela legale esclude spesso le spese legali non concordate con la compagnia. Il consiglio pratico è dare al cliente, insieme alla polizza, un foglio con il numero da chiamare e le prime cose da fare.\n\nIl quinto passo falso è la responsabilità assunta per contratto. Come molte polizze di responsabilità civile, le polizze cyber escludono di solito la responsabilità che l'assicurato si è assunto in virtù di un contratto. Se l'impresa ha promesso a un cliente una penale in caso di violazione dei dati o di indisponibilità del servizio, quella penale in genere non è coperta, salvo patto diverso. Anche l'IVASS, tra le esclusioni della garanzia RC, segnala i danni da responsabilità contrattuale. Il sesto passo falso riguarda fusioni e acquisizioni: la polizza, come la maggior parte delle polizze, copre l'assicurato designato e identificato e le sue controllate esistenti alla data di effetto. Una società acquisita dopo non è automaticamente coperta: va comunicata e, se serve, inclusa.\n\nPassiamo al rapporto tra polizza e GDPR. Il corso afferma che l'assicurazione informatica copre sanzioni e multe associate alla violazione della privacy e della protezione dei dati, e suggerisce cinque verifiche quando si valuta una polizza rispetto al GDPR. Primo: come la polizza definisce il regolatore della privacy, cioè quali autorità di controllo considera. Secondo: quali sfaccettature del termine «violazione della privacy» comprende: perdita, furto, divulgazione, accesso abusivo, uso non autorizzato. Terzo: la sede più favorevole per sanzioni e multe, cioè in quali ordinamenti e davanti a quali autorità la copertura opera. Quarto: il limite della copertura, cioè massimali e sottolimiti specifici. Quinto: l'eventuale copertura per i fornitori, perché molte violazioni nascono da un fornitore esterno che tratta dati per conto dell'assicurato.\n\nPer capire che cosa c'è in gioco, ricordiamo le cifre del GDPR, che trovate approfondite nel modulo giuridico sulla protezione dei dati. Le violazioni degli obblighi del titolare e del responsabile previsti dagli articoli da 25 a 39, tra cui la sicurezza e la notifica delle violazioni, sono punite con sanzioni fino a 10 milioni di euro o, per le imprese, fino al 2 per cento del fatturato mondiale annuo dell'esercizio precedente, se superiore. Le violazioni dei principi di base e dei diritti degli interessati arrivano fino a 20 milioni o al 4 per cento. E l'articolo 82 riconosce a chiunque subisca un danno materiale o immateriale per una violazione del regolamento il diritto al risarcimento da parte del titolare o del responsabile. È questo il terreno delle richieste di terze parti che la polizza deve affrontare.\n\nMa le sanzioni sono davvero coperte? Qui serve prudenza. L'affermazione del corso va letta alla luce dell'indagine IVASS: alcune garanzie di responsabilità civile coprono sanzioni e ammende per inadempimento di obblighi amministrativi, mentre la tutela legale, di regola, esclude multe, sanzioni e oneri fiscali. Non c'è quindi una regola generale. La frase «tanto la multa del Garante la paga l'assicurazione» non va mai detta al cliente: va verificata nel testo della singola polizza.\n\nE qui arriviamo al ruolo dell'intermediario. Nelle conclusioni dell'indagine l'IVASS osserva che le polizze cyber sono ancora standardizzate e che dovrebbero essere più calibrate sulle esigenze del cliente e sul suo grado di esposizione. Fa un esempio chiaro: una piccola impresa che non opera in e-commerce ha un profilo di rischio diverso da una che vende anche online. Rilevare l'operatività digitale del cliente serve a offrire una polizza coerente con il suo profilo e con il target market del prodotto. E l'IVASS sottolinea l'importanza di una formazione adeguata della rete distributiva, vista la complessità tecnica delle polizze e delle condizioni di assicurabilità. Le regole generali su richieste ed esigenze e sul governo del prodotto le trovate nei moduli dedicati; qui conta applicarle a un rischio tecnico.\n\nMettiamo insieme queste clausole in un piccolo promemoria da lasciare al cliente: le prime ore dopo un incidente. Primo, contenere: isolare i sistemi colpiti, per esempio scollegandoli dalla rete, ma senza cancellare file, log ed e-mail, che serviranno all'indagine e alla clausola di cooperazione. Secondo, avvisare: chiamare il numero indicato in polizza, nei tempi e nei modi previsti per la denuncia. Terzo, concordare: usare i fornitori indicati dall'assicuratore, o farsi approvare prima le spese, per rispettare il consenso preliminare. Quarto, valutare gli obblighi GDPR: se sono coinvolti dati personali, il titolare deve valutare la notifica al Garante entro 72 ore, come avete visto nel modulo sulla sicurezza informatica. Quinto, documentare tutto: fatti, orari, decisioni, comunicazioni. Questa documentazione serve sia per il sinistro sia per le autorità. È un foglio di una pagina, ma può valere l'intero indennizzo.\n\nChiudiamo con un caso. Un'impresa di installazione impianti con 25 dipendenti chiede una polizza cyber. Nel questionario il titolare vuole rispondere sì sull'autenticazione a più fattori, perché la introdurrà il mese prossimo. In più ha promesso a un grande cliente una penale se i suoi dati venissero violati. Il consiglio corretto è rispondere secondo la situazione di oggi, eventualmente segnalando all'assicuratore il piano di adeguamento: una dichiarazione inesatta può portare all'annullamento o alla riduzione dell'indennizzo, oppure a un'esclusione per mancato rispetto delle pratiche minime. Quanto alla penale, è una responsabilità assunta per contratto: in genere esclusa, va verificato il testo ed eventualmente negoziata una copertura specifica.\n\nIn sintesi: la copertura giusta nasce da un'analisi onesta del rischio, da un questionario veritiero e da un cliente che sa che cosa fare dopo la firma e nelle prime ore di un incidente.",
+      "sources": [
+        {
+          "title": "Codice civile, artt. 1892 e 1893 (testo pubblicato dall'IVASS)",
+          "url": "https://www.ivass.it/consumatori/preventivatore/faq-preventivatore/norme-preventivatore/artt_1892_1893_cc.pdf"
+        },
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante Privacy",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/6264597"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Disciplina delle dichiarazioni inesatte e reticenze (artt. 1892 e 1893 c.c.) collegata al questionario di sicurezza informatica.",
+          "source_ref": "Codice civile, artt. 1892-1893"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tetti delle sanzioni GDPR (10 mln/2% e 20 mln/4%) e diritto al risarcimento come base delle richieste di terzi.",
+          "source_ref": "Reg. (UE) 2016/679, artt. 82 e 83"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esclusione delle spese legali non concordate e della responsabilità contrattuale anche nelle polizze italiane; raccomandazioni IVASS su profilazione del cliente, target market e formazione della rete.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.1.2-3 e cap. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «l'assicurazione informatica copre sanzioni e multe» per violazioni della privacy. Precisato che, secondo l'IVASS, è vero solo per alcune garanzie RC; la tutela legale di regola le esclude. Possibile aggiornamento: indicare un riferimento sull'assicurabilità delle sanzioni amministrative in Italia.",
+          "source_ref": "Materiale originale; IVASS, par. 3.1.1.2-3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la verifica sulla «sede più favorevole per sanzioni e multe»: il concetto è riportato come nel materiale; riferimento da indicare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Promemoria per le prime ore dopo un incidente, che collega clausole di polizza e valutazione della notifica GDPR entro 72 ore.",
+          "source_ref": "Reg. (UE) 2016/679, art. 33"
+        }
+      ]
+    },
+    {
+      "title": "Come si misura e si prezza il rischio cyber",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /5. Cyber insurance.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Cyber insurance",
+          "title": "Come si misura e si prezza il rischio cyber",
+          "goals": [
+            "Conoscere le tecniche di mitigazione del rischio e il posto del trasferimento assicurativo",
+            "Capire perché l'interconnessione rende il rischio cyber diverso dai rischi tradizionali",
+            "Orientarsi tra i modelli usati per stimare frequenze, valori estremi e premi"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le tecniche di mitigazione",
+          "lead": "Nessuno può eliminare ogni vulnerabilità. Il NIST raccomanda tecniche di mitigazione basate su controlli tecnici e non tecnici.",
+          "head": [
+            "Tecnica",
+            "In pratica"
+          ],
+          "rows": [
+            [
+              "Assunzione",
+              "Si accetta il rischio residuo, consapevolmente"
+            ],
+            [
+              "Prevenzione",
+              "Si evita l'attività o la causa che genera il rischio"
+            ],
+            [
+              "Limitazione",
+              "Si riducono probabilità o impatto con i controlli"
+            ],
+            [
+              "Pianificazione",
+              "Si decide in anticipo che cosa proteggere e come"
+            ],
+            [
+              "Ricerca e riconoscimento",
+              "Si studiano le vulnerabilità e si riconoscono i difetti"
+            ],
+            [
+              "Trasferimento",
+              "Si trasferisce la perdita ad altri, ad esempio con una polizza"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché il cyber è diverso",
+          "key": "Il rischio di cyber security è molto diverso dai rischi tradizionali della responsabilità civile. Ciò che lo distingue è l'interconnessione delle risorse ICT.",
+          "body": "Per questo l'analisi del rischio e delle perdite potenziali deve tener conto della struttura della rete: chi è collegato a chi, e attraverso quali fornitori.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Un esempio: il rischio di accumulo",
+          "key": "Un incendio colpisce un edificio. Un attacco a un fornitore di software comune può colpire migliaia di assicurati nello stesso momento.",
+          "body": "Se i sinistri arrivano insieme, la mutualità funziona peggio: i rischi non sono indipendenti. È uno dei motivi per cui le compagnie fissano massimali, sottolimiti ed esclusioni per le infrastrutture esterne.",
+          "ref": "Esempio didattico"
+        },
+        {
+          "layout": "table",
+          "title": "I modelli matematici in letteratura",
+          "head": [
+            "Approccio",
+            "Idea di fondo"
+          ],
+          "rows": [
+            [
+              "Piano decisionale in quattro fasi",
+              "Un percorso strutturato per decidere come trattare il rischio informatico"
+            ],
+            [
+              "Distribuzione beta-binomiale e fattore latente",
+              "Rischi correlati: un fattore comune nascosto fa aumentare insieme le perdite"
+            ],
+            [
+              "Copula gaussiana multivariata",
+              "Distribuzione congiunta e condizionale di ogni nodo della rete"
+            ],
+            [
+              "Premio da valore atteso",
+              "Il premio come funzione del valore atteso della gravità del sinistro"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il valore delle informazioni",
+          "key": "In economia il valore di un'informazione dipende da quanto riduce l'incertezza sugli eventi, da chi la usa, da che cosa sapeva prima e dalla sua avversione al rischio.",
+          "body": "Va distinta l'informazione privata, posseduta da singoli soggetti, da quella pubblica, nota al mercato. Nel cyber l'assicurato conosce i propri sistemi meglio della compagnia: il questionario serve a ridurre questa distanza.",
+          "ref": "Materiale originale; collegamento didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Mercati efficienti e prezzi di stato",
+          "key": "Dall'efficienza dei mercati si possono ricavare i prezzi di Arrow-Debreu: i prezzi di titoli che pagano solo se si verifica un certo stato del mondo.",
+          "body": "Da questi prezzi si estraggono le probabilità e le valutazioni soggettive dei rischi attese dai mercati finanziari. Servono a valutare i beni, e hanno una stretta relazione con l'entropia, una misura dell'incertezza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Prevedere il tasso di attacco",
+          "cols": [
+            {
+              "title": "Black box",
+              "items": [
+                "Il modello prevede senza usare le proprietà statistiche dei dati",
+                "Funziona come una scatola chiusa"
+              ]
+            },
+            {
+              "title": "Grey box",
+              "items": [
+                "Tiene conto delle proprietà statistiche dei dati",
+                "Usato per prevedere il numero di attacchi per unità di tempo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il problema dei valori estremi",
+          "key": "Gli errori di previsione nascono soprattutto dall'incapacità di prevedere i grandi tassi di attacco: sono valori estremi.",
+          "body": "La teoria dei valori estremi (EVT) studia proprio le code della distribuzione: gli eventi rari ma molto gravi. Nel cyber sono quelli che pesano di più sui conti di una compagnia.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Prezzare i rischi estremi: gli swap",
+          "key": "I prodotti standard sono una sorta di swap: una controparte si assicura contro un rischio pagando un premio.",
+          "body": "Nel rischio di credito il più usato è il Credit Default Swap (CDS): una controparte riceve un premio e copre le perdite se scatta il default. Swap specifici e prodotti di correlazione, come tranche e CDO, possono servire a misurare l'incertezza sul rischio di accumulo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il modello copula",
+          "key": "La copula permette di cogliere dipendenze non lineari tra le variabili di prezzo, senza vincoli sul tipo di distribuzioni marginali.",
+          "body": "In parole semplici: si descrive separatamente come si comporta ogni rischio e poi, con la copula, come i rischi si muovono insieme. È lo strumento adatto quando molti assicurati possono essere colpiti dallo stesso evento.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Dal valore atteso al premio: un esempio",
+          "lead": "Numeri di fantasia, solo per capire perché il premio non è la media dei sinistri.",
+          "facts": [
+            {
+              "label": "Danno medio",
+              "text": "8.000 euro per sinistro"
+            },
+            {
+              "label": "Probabilità",
+              "text": "1 assicurato su 20 ha un sinistro all'anno: 5%"
+            },
+            {
+              "label": "Valore atteso",
+              "text": "8.000 × 5% = 400 euro: è il premio puro"
+            },
+            {
+              "label": "Caricamento",
+              "text": "Si aggiunge una parte per costi e per il rischio di anni estremi, in cui molti sinistri arrivano insieme"
+            }
+          ],
+          "ref": "Esempio didattico"
+        },
+        {
+          "layout": "table",
+          "title": "Dai modelli alle condizioni di polizza",
+          "head": [
+            "Che cosa emerge dai modelli",
+            "Come si vede nel contratto"
+          ],
+          "rows": [
+            [
+              "Eventi correlati e accumulo",
+              "Massimali annui e sottolimiti per garanzia"
+            ],
+            [
+              "Eventi fuori dal controllo dell'assicurato",
+              "Esclusioni su guerra e infrastrutture esterne"
+            ],
+            [
+              "Informazione privata dell'assicurato",
+              "Questionario e condizioni di assicurabilità"
+            ],
+            [
+              "Piccoli sinistri frequenti",
+              "Franchigie fisse e temporali"
+            ]
+          ],
+          "ref": "Collegamento didattico; IVASS, Indagine polizze cyber, par. 3.1.2-3.1.5"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente commerciante legge che il premio della sua polizza cyber è salito, pur non avendo mai avuto sinistri. Chiede all'intermediario perché paga di più «per colpa degli altri».",
+          "questions": [
+            "Quale caratteristica del rischio cyber puoi spiegargli?",
+            "Che cosa può fare per migliorare la sua posizione?"
+          ],
+          "solution": "Il rischio cyber è interconnesso: un attacco a fornitori o software comuni colpisce molti assicurati insieme, e le compagnie stimano anche questi eventi estremi. Il cliente può lavorare sulla parte che dipende da lui: presidi di sicurezza documentati, backup, aggiornamenti, formazione. Sono le stesse condizioni che le compagnie valutano nel questionario."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale caratteristica distingue, secondo il corso, il rischio cibernetico dai rischi convenzionali?",
+          "options": [
+            "La bassa frequenza degli eventi",
+            "L'interconnessione delle risorse ICT",
+            "L'assenza di danni a terzi",
+            "Il fatto che riguardi solo grandi imprese"
+          ],
+          "answer": 1,
+          "explanation": "Le risorse ICT sono interconnesse: per questo l'analisi del rischio e delle perdite deve considerare la struttura della rete."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "A che cosa serve la teoria dei valori estremi (EVT) nel rischio cyber?",
+          "options": [
+            "A stimare il premio medio di tutte le polizze",
+            "A modellare i grandi tassi di attacco, rari ma molto gravi",
+            "A sostituire il questionario di sicurezza",
+            "A calcolare le provvigioni"
+          ],
+          "answer": 1,
+          "explanation": "Gli errori di previsione derivano soprattutto dai grandi tassi di attacco, che sono valori estremi: l'EVT serve a modellarli."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Trasferimento",
+              "text": "una delle tecniche di mitigazione, dopo le altre"
+            },
+            {
+              "value": "Rete",
+              "text": "l'interconnessione rende i rischi correlati"
+            },
+            {
+              "value": "Grey box",
+              "text": "previsioni che usano le proprietà statistiche dei dati"
+            },
+            {
+              "value": "EVT",
+              "text": "per gli eventi estremi"
+            },
+            {
+              "value": "Copula",
+              "text": "per le dipendenze tra rischi"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione sulla cyber insurance guardiamo il prodotto dal lato della compagnia. Come si misura un rischio così nuovo? Perché i premi si muovono? Non serve diventare attuari: serve capire le idee di fondo, per spiegarle al cliente e per capire le scelte delle compagnie su massimali, esclusioni e prezzi.\n\nPartiamo da un'ammissione di realismo. Per i responsabili della sicurezza di qualsiasi organizzazione è difficile conoscere ed eliminare tutti i punti di vulnerabilità di un sistema IT. Per questo il National Institute of Standards and Technology, il NIST statunitense, raccomanda diverse tecniche di mitigazione, basate su controlli tecnici e non tecnici. Il materiale ne elenca sette: l'assunzione del rischio, la prevenzione per evitarlo, la limitazione, la pianificazione, la ricerca, il riconoscimento e il trasferimento del rischio. Proviamo a tradurle. Assumere il rischio significa accettarlo consapevolmente, perché il costo di ridurlo è superiore al beneficio. Prevenire per evitarlo significa eliminare la causa: per esempio non conservare dati che non servono. Limitare significa ridurre probabilità o impatto con controlli: password robuste, aggiornamenti, backup. Pianificare significa decidere in anticipo che cosa proteggere e con quali priorità. Ricerca e riconoscimento significano studiare le vulnerabilità e riconoscere i difetti prima che li trovi un attaccante. E infine il trasferimento: spostare su altri le conseguenze economiche, tipicamente con una polizza. Notate l'ordine: il trasferimento arriva dopo le altre leve. Una polizza non sostituisce la sicurezza, la completa. È esattamente la logica con cui le compagnie chiedono requisiti minimi.\n\nPerché il rischio cyber è così diverso? Il corso è netto: è molto diverso dai rischi tradizionali coperti dall'assicurazione di responsabilità civile, e la proprietà che lo distingue è l'interconnessione delle risorse ICT. Per questo l'analisi del rischio e delle perdite potenziali deve tener conto della tipologia della rete. Facciamo un esempio, che è un nostro esempio didattico. Un incendio colpisce un edificio, al massimo qualche edificio vicino. Un attacco a un fornitore di software molto diffuso, o a un grande servizio cloud, può colpire nello stesso momento migliaia di imprese assicurate, in città e Paesi diversi. Gli assicuratori chiamano questo fenomeno rischio di accumulo. Quando i sinistri arrivano tutti insieme, la mutualità funziona peggio, perché i rischi non sono indipendenti. Ricordate tra i requisiti di assicurabilità il «rischio limitato di perdite catastroficamente grandi»? È proprio il punto critico del cyber, ed è una delle ragioni per cui le polizze hanno massimali e sottolimiti, ed escludono i guasti delle infrastrutture esterne.\n\nCome si studia, allora, il rischio cyber con la matematica? Il corso ricorda che la letteratura ha proposto diversi modelli. C'è chi propone un piano decisionale in quattro fasi per il rischio informatico, cioè un percorso strutturato per decidere come trattarlo. C'è chi considera la correlazione tra i rischi e usa la distribuzione beta-binomiale insieme a un modello di rischio latente a un fattore. L'idea, detta semplicemente, è questa: c'è un fattore comune nascosto, per esempio una vulnerabilità diffusa, che fa crescere insieme la probabilità di sinistro di molti assicurati. C'è poi chi usa la copula gaussiana multivariata per modellare la distribuzione congiunta e la distribuzione condizionale di ciascun nodo della rete, e calcola i premi in funzione del valore atteso della gravità del sinistro. Valore atteso significa, in sostanza, la perdita media che ci si aspetta, pesando ogni possibile danno per la sua probabilità.\n\nC'è poi un tema economico: il valore delle informazioni. Da un punto di vista economico, il valore delle informazioni dipende da quanto quelle nuove riducono l'incertezza sugli eventi, da chi le usa, da quali informazioni aveva prima e dalla sua avversione al rischio. È importante distinguere l'informazione privata, detenuta da singoli soggetti, da quella pubblica, nota al mercato. Facciamo un collegamento con il nostro lavoro. Nel cyber l'assicurato conosce i propri sistemi molto meglio della compagnia: sa se fa davvero i backup, se le password sono condivise, se il gestionale è aggiornato. Questa è informazione privata. Il questionario, le verifiche di sicurezza e le condizioni di assicurabilità servono a ridurre questa distanza. Ed è anche per questo che le dichiarazioni inesatte, viste nella lezione precedente, sono trattate con severità.\n\nIl corso cita anche approcci basati sull'efficienza dei mercati, che collegano il rischio ai cosiddetti prezzi di stato di Arrow-Debreu. Un prezzo di Arrow-Debreu è il prezzo di un titolo teorico che paga un euro solo se si verifica un certo stato del mondo, per esempio «si verifica un grande attacco», e zero altrimenti. Dai prezzi di questi titoli si possono estrarre le probabilità e le valutazioni soggettive dei rischi attese dai mercati finanziari. Il corso aggiunge che a queste probabilità si ricorre per valutare i beni, e che hanno una stretta relazione con l'entropia, cioè con la misura dell'incertezza. Per l'intermediario basta cogliere il messaggio: il mercato finanziario può dare indicazioni su come gli investitori valutano i rischi rari.\n\nUn altro filone riguarda la previsione della frequenza. Alcuni autori hanno usato la cosiddetta grey box prediction per prevedere il tasso di attacco informatico, cioè il numero di attacchi per unità di tempo. I modelli grey box, a scatola grigia, tengono conto delle proprietà statistiche dei dati; i modelli black box, a scatola nera, non lo fanno. Gli stessi autori notano che gli errori di previsione dipendono soprattutto dall'incapacità di prevedere i grandi tassi di attacco. È un fenomeno dovuto ai valori estremi, che si possono modellare con l'apposita teoria, la teoria dei valori estremi, in sigla EVT. L'EVT si concentra sulle code della distribuzione, cioè sugli eventi rari ma molto gravi. Nel cyber sono proprio questi a pesare di più sui conti di una compagnia, molto più della media dei piccoli sinistri.\n\nCome si mette un prezzo ai rischi estremi? Il corso richiama il mondo della finanza. I prodotti standard sono una sorta di swap che consentono a una controparte di assicurarsi contro un certo rischio a fronte del pagamento di un premio. Il prodotto più usato nel rischio di credito è il Credit Default Swap, il CDS: una controparte riceve un premio e in cambio copre le perdite se si verifica il default. Si possono specificare diversi tipi di swap che tengono conto di rischi come quello cyber, e i prodotti di correlazione, come le tranche di primo livello e i CDO, cioè le obbligazioni di debito collateralizzate, possono servire a estrarre l'incertezza sul rischio di accumulo. L'idea è che il prezzo di questi strumenti rivela quanto il mercato teme che molti eventi accadano insieme.\n\nL'ultimo strumento è la copula. La metodologia delle copule consente di acquisire dipendenze non lineari tra le variabili di prezzo, senza porre restrizioni al tipo di distribuzioni marginali. Spieghiamolo con parole semplici. Prima si descrive come si comporta ogni singolo rischio, preso da solo: questa è la distribuzione marginale. Poi, con la copula, si descrive come i rischi si muovono insieme: per esempio, che quando uno va molto male anche gli altri tendono ad andare molto male. È lo strumento adatto a un portafoglio in cui molti assicurati possono essere colpiti dallo stesso evento.\n\nFacciamo ora un esempio numerico, con numeri di pura fantasia, per capire che cosa vuol dire calcolare il premio in funzione del valore atteso della gravità del sinistro. Immaginiamo un gruppo di piccoli negozi simili. Il danno medio di un sinistro cyber è di 8.000 euro e, in media, un negozio su venti ha un sinistro all'anno, cioè il 5 per cento. Il valore atteso della perdita per ogni negozio è 8.000 per 5 per cento, cioè 400 euro: è quello che gli assicuratori chiamano premio puro. Ma il premio che paga il cliente è più alto, perché la compagnia deve coprire i costi e, soprattutto, il rischio degli anni cattivi, quelli in cui per un evento comune non uno su venti ma uno su cinque dei negozi ha un sinistro. È qui che entrano i valori estremi e le copule: servono a stimare quanto possono essere gravi questi anni e quanto capitale serve per reggerli.\n\nE come si vede tutto questo nel contratto? Proviamo a collegare i modelli alle clausole che abbiamo studiato. Il rischio di accumulo e gli eventi correlati si traducono in massimali annui e sottolimiti per garanzia. Gli eventi fuori dal controllo dell'assicurato, come la guerra o il blocco di infrastrutture esterne, si traducono in esclusioni. L'informazione privata dell'assicurato si traduce nel questionario e nelle condizioni di assicurabilità. I piccoli sinistri frequenti si gestiscono con franchigie fisse e temporali. Questo collegamento è una nostra chiave di lettura, ma aiuta molto a spiegare al cliente che le clausole non sono capricci: sono il modo in cui un rischio difficile diventa assicurabile.\n\nChe cosa ce ne facciamo, nel lavoro di tutti i giorni? Un caso. Un cliente commerciante vede salire il premio della sua polizza cyber, senza aver mai avuto sinistri, e chiede perché debba pagare «per colpa degli altri». Possiamo spiegargli che il rischio cyber è interconnesso: un attacco a un fornitore o a un software comune colpisce molti assicurati insieme, e le compagnie devono stimare e coprire anche questi eventi estremi. Poi possiamo indicargli la parte che dipende da lui: presidi di sicurezza documentati, backup, aggiornamenti, formazione del personale. Sono le stesse informazioni che la compagnia valuta nel questionario, e possono migliorare la sua posizione al rinnovo.\n\nIn sintesi: la polizza è l'ultima delle tecniche di mitigazione, non la prima; il cyber è un rischio di rete, con eventi correlati ed estremi; e per misurarlo servono modelli specifici, dalla teoria dei valori estremi alle copule. Capire queste idee aiuta a spiegare al cliente perché le condizioni e i prezzi sono quelli che sono.",
+      "sources": [
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte l'elenco delle tecniche di mitigazione raccomandate dal NIST (assunzione, prevenzione, limitazione, pianificazione, ricerca, riconoscimento, trasferimento). Riferimento da indicare: la fonte non cita il documento NIST specifico.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i riferimenti ai modelli di letteratura (beta-binomiale, fattore latente, copula gaussiana, grey box, EVT, swap, CDS, CDO, prezzi di Arrow-Debreu), spiegati in linguaggio semplice. La fonte non cita gli autori: riferimenti bibliografici da indicare.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio didattico sul rischio di accumulo e collegamento con massimali ed esclusioni; collegamento tra informazione privata e questionario. Nessun dato numerico aggiunto.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio didattico di premio puro come valore atteso (numeri di fantasia) e tabella di collegamento tra modelli e clausole contrattuali.",
+          "source_ref": "Esempio didattico; IVASS, Indagine polizze cyber, par. 3.1.2-3.1.5"
+        }
+      ]
+    }
+  ]
+}

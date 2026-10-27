@@ -1,0 +1,2096 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Trattamento fiscale delle polizze vita e previdenziali",
+  "topic_order": 7,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "I principi della fiscalità assicurativa",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "I principi della fiscalità assicurativa",
+          "goals": [
+            "Orientarsi tra le norme fiscali che riguardano le polizze",
+            "Distinguere deduzione, detrazione, imposta sostitutiva e ritenuta d'acconto",
+            "Applicare i principi cardine: momento impositivo, territorialità, danno emergente e lucro cessante"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Capacità contributiva: prelievo proporzionale o progressivo",
+          "key": "Ogni contribuente partecipa alla spesa pubblica in ragione della propria capacità contributiva. Il prelievo può essere proporzionale, con aliquota costante, o progressivo, con aliquote che crescono più che proporzionalmente al crescere dell'imponibile.",
+          "body": "L'IRPEF è progressiva per scaglioni: per il 2026 le aliquote sono 23% fino a 28.000 euro, 33% da 28.000 a 50.000 euro e 43% oltre. Le imposte sostitutive sui rendimenti finanziari, come il 26%, sono invece proporzionali.",
+          "ref": "Materiale originale del corso; TUIR, art. 11, c. 1 (testo in vigore dal 1° gennaio 2026)"
+        },
+        {
+          "layout": "table",
+          "title": "Il TUIR: gli articoli che contano per le persone fisiche",
+          "head": [
+            "Articolo",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "3 · 6 · 11",
+              "Base imponibile, classificazione dei redditi, calcolo dell'imposta"
+            ],
+            [
+              "10 · 15",
+              "Oneri deducibili e detrazioni per oneri (qui i premi vita e infortuni)"
+            ],
+            [
+              "17 · 18",
+              "Tassazione separata; imposta sostitutiva sui redditi di capitale di fonte estera"
+            ],
+            [
+              "20",
+              "Prestazioni pensionistiche"
+            ],
+            [
+              "44 · 45",
+              "Redditi di capitale e loro determinazione (capitali vita e capitalizzazione)"
+            ]
+          ],
+          "ref": "Materiale originale del corso; D.P.R. 917/1986"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le altre norme fiscali da conoscere",
+          "items": [
+            {
+              "text": "D.P.R. 600/1973, art. 26-ter: imposta sostitutiva applicata dall'impresa sui redditi delle polizze vita.",
+              "ref": "D.P.R. 600/1973"
+            },
+            {
+              "text": "D.Lgs. 47/2000 e successive modifiche: riforma della fiscalità della previdenza complementare.",
+              "ref": "D.Lgs. 47/2000"
+            },
+            {
+              "text": "D.P.R. 633/1972: le operazioni di assicurazione sono esenti da IVA.",
+              "ref": "D.P.R. 633/1972"
+            },
+            {
+              "text": "L. 1216/1961 e tariffe allegate: imposte sulle assicurazioni private e sui contratti vitalizi.",
+              "ref": "L. 1216/1961"
+            },
+            {
+              "text": "D.P.R. 601/1973, art. 34, ultimo comma: esenzione dei capitali caso morte.",
+              "ref": "D.P.R. 601/1973"
+            }
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Prassi, giurisprudenza e dottrina",
+          "items": [
+            {
+              "label": "Prassi",
+              "detail": "Circolari, risoluzioni e comunicati dell'Agenzia delle Entrate: spiegano come applicare le norme."
+            },
+            {
+              "label": "Giurisprudenza",
+              "detail": "Sentenze delle Corti di giustizia tributaria (ex Commissioni tributarie) e della Cassazione."
+            },
+            {
+              "label": "Dottrina",
+              "detail": "Pubblicazioni e articoli degli studiosi: aiutano a interpretare i casi dubbi."
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Novità",
+          "title": "Dal 2027 un nuovo Testo unico",
+          "lead": "Il D.Lgs. 19 giugno 2026, n. 117 riscrive il TUIR. Si applica dal 1° gennaio 2027; da quella data il D.P.R. 917/1986 è abrogato.",
+          "facts": [
+            {
+              "label": "Detrazioni",
+              "text": "L'art. 15 diventa l'art. 14: premi vita e infortuni alla lettera o), eventi calamitosi alla lettera p)."
+            },
+            {
+              "label": "Redditi di capitale",
+              "text": "Gli artt. 44 e 45 diventano gli artt. 46 e 47."
+            },
+            {
+              "label": "Riordino detrazioni",
+              "text": "L'art. 16-ter diventa l'art. 18."
+            },
+            {
+              "label": "Previdenza complementare",
+              "text": "Le norme fiscali del D.Lgs. 252/2005 confluiscono negli artt. 257-259."
+            },
+            {
+              "label": "Sostanza",
+              "text": "Gli importi e le aliquote visti in questo corso restano gli stessi: cambia la numerazione."
+            }
+          ],
+          "ref": "D.Lgs. 117/2026, artt. 14, 18, 46, 47, 257-259, 376 e 377"
+        },
+        {
+          "layout": "table",
+          "title": "I principi cardine",
+          "head": [
+            "Principio",
+            "Domanda a cui risponde"
+          ],
+          "rows": [
+            [
+              "1 · Momento impositivo",
+              "Quando nasce l'aspetto fiscale?"
+            ],
+            [
+              "2 · Territorialità",
+              "Dove è tassato il reddito?"
+            ],
+            [
+              "3 · Utilità sociale",
+              "Agevolo il costo o il provento?"
+            ],
+            [
+              "4 · Danno emergente e lucro cessante",
+              "L'indennizzo è reddito?"
+            ],
+            [
+              "5 · Imposizione sostitutiva",
+              "Chi preleva l'imposta e a che titolo?"
+            ],
+            [
+              "6 · Deducibilità e detraibilità",
+              "Come si riduce l'imposta?"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Il momento impositivo: tre fasi della polizza",
+          "steps": [
+            {
+              "label": "Sottoscrizione e premio",
+              "text": "Si valuta se il premio è deducibile, detraibile o nessuna delle due."
+            },
+            {
+              "label": "Vita della polizza",
+              "text": "Rendimenti, imposta di bollo, eventuali riscatti parziali."
+            },
+            {
+              "label": "Sinistro o scadenza",
+              "text": "Si tassa, o no, la prestazione: capitale, rendita, indennizzo."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Territorialità: la polizza «estera»",
+          "left": {
+            "title": "Il principio",
+            "items": [
+              "Senza tassazione estera, i proventi di una polizza vita estera sono tassati in Italia come quelli di una polizza italiana",
+              "Riferimento: art. 18 TUIR, redditi di capitale di fonte estera"
+            ]
+          },
+          "right": {
+            "title": "La compagnia in LPS",
+            "items": [
+              "Se applica l'imposta sostitutiva, direttamente o con un rappresentante fiscale, il cliente non deve fare nulla",
+              "Altrimenti l'imposta la applica l'intermediario italiano che incassa i proventi",
+              "Se i proventi arrivano direttamente dall'estero, il cliente li indica in dichiarazione e si autotassa"
+            ]
+          },
+          "note": "Per il cliente fa una grande differenza: con il sostituto d'imposta il prelievo è definitivo e non ci sono adempimenti.",
+          "noteRef": "Materiale originale; D.P.R. 600/1973, art. 26-ter, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "L'utilità sociale della copertura",
+          "key": "Se il costo iniziale è deducibile o detraibile, sarà tassato il provento. Se il costo iniziale è tassato, il provento può beneficiare di agevolazioni fiscali.",
+          "body": "È una logica di equilibrio: lo Stato agevola una sola volta. Lo vedremo nella previdenza complementare, con contributi deducibili e prestazioni tassate, e nelle polizze vita, con premi non deducibili e capitale caso morte esente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Danno emergente e lucro cessante",
+          "cols": [
+            {
+              "title": "Lucro cessante: tassabile",
+              "items": [
+                "L'indennizzo sostituisce un reddito venuto a mancare",
+                "È tassato come il reddito che sostituisce",
+                "Esempio: diaria che rimpiazza il compenso di un professionista"
+              ]
+            },
+            {
+              "title": "Danno emergente: non tassabile",
+              "items": [
+                "L'indennizzo rimborsa una perdita subita",
+                "Non è reddito",
+                "Esempio: rimborso del furto di un bene o della distruzione di un'auto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Il prelievo alla fonte",
+          "cols": [
+            {
+              "title": "Imposta sostitutiva",
+              "items": [
+                "Sostituisce l'IRPEF su quel reddito",
+                "Il prelievo è definitivo",
+                "Il reddito non va in dichiarazione"
+              ]
+            },
+            {
+              "title": "Ritenuta d'acconto",
+              "items": [
+                "È un anticipo dell'imposta",
+                "Il reddito va in dichiarazione",
+                "Si conguaglia con l'IRPEF dovuta"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Deduzione e detrazione",
+          "left": {
+            "title": "Deducibilità",
+            "items": [
+              "Il costo riduce il reddito imponibile prima del calcolo dell'imposta",
+              "Il risparmio dipende dall'aliquota marginale",
+              "Esempio: contributi a un fondo pensione"
+            ]
+          },
+          "right": {
+            "title": "Detraibilità",
+            "items": [
+              "Si sottrae dall'imposta una percentuale del costo",
+              "Il risparmio è uguale per tutti, nei limiti di reddito",
+              "Esempio: 19% dei premi caso morte"
+            ]
+          },
+          "note": "Con 40.000 euro di reddito, 1.000 euro dedotti fanno risparmiare 330 euro di IRPEF; 500 euro di premio detraibile ne fanno risparmiare 95.",
+          "noteRef": "Calcolo su TUIR, art. 11 (aliquote 2026) e art. 15"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un artigiano con reddito di 40.000 euro chiede al suo agente se gli conviene di più versare 1.000 euro in un fondo pensione o pagare 1.000 euro di premio per una temporanea caso morte. Vuole sapere quanto risparmia di IRPEF nei due casi.",
+          "questions": [
+            "Quale dei due costi si deduce e quale si detrae?",
+            "Quanto risparmia, all'incirca, in ciascun caso?"
+          ],
+          "solution": "Il contributo al fondo pensione è deducibile: riduce il reddito e, con aliquota marginale del 33%, fa risparmiare circa 330 euro. Il premio TCM è detraibile al 19%, ma solo fino a 530 euro di premio: la detrazione massima è di circa 100 euro. I due prodotti hanno finalità diverse: la scelta va fatta sui bisogni del cliente, non solo sul risparmio fiscale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un indennizzo che sostituisce il reddito perduto da un professionista durante una malattia è:",
+          "options": [
+            "Sempre esente perché è un risarcimento",
+            "Tassato come il reddito che sostituisce",
+            "Tassato con imposta sostitutiva del 26%",
+            "Detraibile al 19%"
+          ],
+          "answer": 1,
+          "explanation": "È lucro cessante: il TUIR lo considera reddito della stessa categoria di quello perduto. Sono esclusi solo gli indennizzi per invalidità permanente o morte."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3 fasi",
+              "text": "premio, vita della polizza, sinistro o scadenza"
+            },
+            {
+              "value": "LPS",
+              "text": "con sostituto d'imposta il cliente non ha adempimenti"
+            },
+            {
+              "value": "Lucro cessante",
+              "text": "è tassato; il danno emergente no"
+            },
+            {
+              "value": "Sostitutiva",
+              "text": "prelievo definitivo; la ritenuta d'acconto no"
+            },
+            {
+              "value": "2027",
+              "text": "nuovo TUIR (D.Lgs. 117/2026): cambia la numerazione"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa prima lezione costruiamo le fondamenta per tutto il percorso sulla fiscalità delle polizze. Vedremo dove si trovano le regole, quali sono i principi che le reggono e quali strumenti tecnici usa il legislatore: deduzione, detrazione, imposta sostitutiva, ritenuta. Sono concetti che il cliente spesso confonde, e che l'intermediario deve saper spiegare con parole semplici.\n\nPartiamo da una premessa. Ogni contribuente partecipa al finanziamento della spesa pubblica in ragione della propria capacità contributiva. Il prelievo può essere proporzionale, cioè calcolato con un'aliquota costante che non cambia al crescere dell'imponibile, oppure progressivo, cioè calcolato con aliquote che aumentano più che proporzionalmente al crescere della base imponibile. L'IRPEF, l'imposta sul reddito delle persone fisiche, è progressiva per scaglioni. Per il 2026 l'articolo 11 del TUIR prevede il 23 per cento fino a 28.000 euro, il 33 per cento sulla parte tra 28.000 e 50.000 euro e il 43 per cento oltre i 50.000 euro. Le imposte sostitutive sui redditi finanziari, invece, sono proporzionali: il 26 per cento si applica allo stesso modo a chi guadagna poco e a chi guadagna molto. Questa differenza spiega perché, come vedremo, una deduzione vale di più per chi ha un reddito alto.\n\nLe regole che ci interessano si muovono su due livelli. C'è un livello civilistico e regolamentare: il codice civile, che disciplina il contratto di assicurazione e la designazione del beneficiario; il Codice delle assicurazioni e i regolamenti IVASS; le norme sulla previdenza complementare. E c'è un livello fiscale, che decide come quei contratti vengono tassati. Il settore assicurativo sta proprio all'incrocio dei due livelli: la natura del contratto, cioè se copre un rischio, se accumula un capitale o se ha finalità previdenziale, determina il trattamento fiscale.\n\nIl testo principale è il Testo unico delle imposte sui redditi, il TUIR, approvato con il D.P.R. 917 del 1986. Per le persone fisiche gli articoli chiave sono quelli sulla base imponibile e sulla classificazione dei redditi, il 10 sugli oneri deducibili, l'11 sull'imposta, il 15 sulle detrazioni, dove troviamo i premi vita e infortuni, il 17 sulla tassazione separata, il 18 sui redditi di capitale di fonte estera, il 20 sulle prestazioni pensionistiche, il 44 e il 45 sui redditi di capitale, dove rientrano i rendimenti delle polizze vita e di capitalizzazione, e quelli sui redditi assimilati al lavoro dipendente e sul lavoro autonomo. Gli articoli dedicati al reddito d'impresa li vedremo nell'ultima lezione.\n\nAccanto al TUIR ci sono altre disposizioni. L'articolo 26-ter del D.P.R. 600 del 1973 prevede che sia l'impresa di assicurazione ad applicare l'imposta sostitutiva sui redditi delle polizze vita. Il decreto legislativo 47 del 2000, con le modifiche successive, ha riformato la disciplina fiscale della previdenza complementare. Il D.P.R. 633 del 1972 elenca le operazioni esenti da IVA, tra cui le operazioni di assicurazione. La legge 1216 del 1961, con le tariffe allegate, contiene le disposizioni tributarie sulle assicurazioni private e sui contratti vitalizi: è la legge dell'imposta sulle assicurazioni che il cliente vede indicata in quietanza. Infine, l'ultimo comma dell'articolo 34 del D.P.R. 601 del 1973 prevede l'esenzione dei capitali percepiti in caso di morte.\n\nLe norme non bastano: servono anche la prassi, cioè circolari, risoluzioni e comunicati dell'Agenzia delle Entrate, che spiegano come applicarle; la giurisprudenza, cioè le sentenze dei giudici tributari, un tempo chiamati Commissioni tributarie, e della Cassazione; e la dottrina, cioè gli studi e gli articoli che aiutano a interpretare i casi dubbi. In concreto, la fonte di prassi più utile è la guida annuale dell'Agenzia delle Entrate alle agevolazioni della dichiarazione dei redditi.\n\nUna novità importante, che riguarda chi seguirà questo corso nei prossimi anni. Il decreto legislativo 19 giugno 2026, numero 117, ha approvato un nuovo Testo unico delle imposte sui redditi, che si applica dal primo gennaio 2027. Da quella data gli articoli del vecchio TUIR sono abrogati e le regole si ritrovano, riordinate, nel nuovo testo. Qualche esempio: la detrazione dei premi vita e infortuni passa dall'articolo 15 all'articolo 14; i redditi di capitale dagli articoli 44 e 45 agli articoli 46 e 47; le norme fiscali della previdenza complementare confluiscono negli articoli da 257 a 259. Anche l'articolo 26-ter del D.P.R. 600 è abrogato dal 2027 dal decreto legislativo 33 del 2025, il testo unico su versamenti e riscossione. La sostanza, per gli importi e le aliquote che vedremo, resta la stessa: cambia la numerazione. In questo corso citiamo gli articoli vigenti nel 2026, indicando dove serve la nuova collocazione.\n\nVediamo ora i principi cardine della normativa fiscale italiana applicata alle assicurazioni. Sono sei: il momento impositivo, la territorialità del reddito, l'utilità sociale della copertura, la trasposizione fiscale del principio civilistico del danno emergente e del lucro cessante, l'imposizione sostitutiva, la deducibilità e la detraibilità dei costi.\n\nIl momento impositivo è il fatto che fa nascere un aspetto fiscalmente rilevante. In una polizza ci sono tre fasi da guardare. La prima è la sottoscrizione con il pagamento del premio: qui ci chiediamo se il premio dà diritto a una deduzione, a una detrazione o a niente. La seconda è la vita della polizza: maturano rendimenti, si paga l'imposta di bollo sui prodotti finanziari, si possono fare riscatti parziali. La terza è il sinistro, o la scadenza: qui ci chiediamo se la prestazione, che sia un capitale, una rendita o un indennizzo, è tassata. Un buon metodo, davanti a qualsiasi prodotto, è passare in rassegna queste tre fasi.\n\nIl secondo principio è la territorialità del reddito imponibile. L'articolo 18 del TUIR regola i redditi di capitale di fonte estera. Il principio è questo: se non ci fosse alcuna tassazione estera, i proventi di una polizza vita estera sarebbero tassati in Italia allo stesso modo di quelli di una polizza italiana. Il caso pratico più frequente è la polizza sottoscritta con una compagnia estera che opera in Italia in libera prestazione di servizi. Se la compagnia ha scelto di operare come sostituto d'imposta, direttamente o tramite un rappresentante fiscale in Italia, il cliente non deve fare nulla: l'imposta viene trattenuta alla fonte. Se la compagnia non applica l'imposta, la norma prevede che la applichi l'intermediario italiano attraverso il quale il cliente incassa i proventi. Se invece i proventi arrivano direttamente dall'estero, il residente deve indicare le informazioni rilevanti nella propria dichiarazione e, al momento della prestazione, autotassarsi in dichiarazione. Per il cliente la differenza è grande: è bene chiarirla prima della firma.\n\nIl terzo principio è l'utilità sociale della copertura assicurativa. Se il costo iniziale è deducibile o detraibile, allora sarà tassato il provento; se invece è tassato il costo iniziale, cioè il premio si paga con reddito già tassato, il provento può beneficiare di agevolazioni. È una logica di equilibrio: lo Stato agevola una volta, all'ingresso o all'uscita. Lo ritroveremo nella previdenza complementare, dove i contributi sono deducibili e le prestazioni sono tassate, e nelle polizze caso morte, dove il premio dà al massimo una piccola detrazione e il capitale ai beneficiari è esente.\n\nIl quarto principio è la trasposizione fiscale del principio civilistico del danno emergente e del lucro cessante. Quando un rimborso assicurativo serve a sostituire un reddito che è venuto a mancare, cioè il lucro cessante, anche il rimborso è tassabile, con le stesse modalità del reddito che sostituisce. Non è invece reddito la prestazione che sia un puro e semplice rimborso di un danno subito: il danno emergente. Pensate a due indennizzi pagati allo stesso cliente: il rimborso per il furto dell'auto non è reddito; la diaria che sostituisce i compensi persi da un libero professionista durante un ricovero lo è.\n\nLa regola è scritta nell'articolo 6, comma 2, del TUIR: i proventi conseguiti in sostituzione di redditi e le indennità conseguite, anche in forma assicurativa, a titolo di risarcimento di danni consistenti nella perdita di redditi costituiscono redditi della stessa categoria di quelli sostituiti o perduti. La norma esclude però quelli dipendenti da invalidità permanente o da morte. E c'è un'eccezione ancora più importante per chi vende polizze vita: la prestazione che spetta al beneficiario per la morte dell'assicurato è esente da IRPEF, nei limiti che approfondiremo nella lezione sulle prestazioni.\n\nIl quinto principio è il prelievo alla fonte da parte del sostituto d'imposta. Il sostituto, nel nostro caso l'impresa di assicurazione, trattiene l'imposta al momento del pagamento e la versa all'Erario. Questo sistema agevola chi percepisce il reddito, perché lo libera da adempimenti dichiarativi e di autotassazione, e semplifica il lavoro dell'amministrazione finanziaria e i suoi controlli. Il prelievo alla fonte può avere due nature diverse. Può essere un'imposta sostitutiva: sostituisce l'IRPEF su quel reddito, è definitiva e il reddito non va dichiarato. Oppure può essere una ritenuta a titolo d'acconto: è solo un anticipo, il reddito va in dichiarazione e si fa il conguaglio con l'imposta dovuta. Per le polizze stipulate da persone fisiche la tassazione è sempre a titolo definitivo.\n\nIl sesto principio riguarda la deducibilità e la detraibilità di un costo. Un costo deducibile, in tutto o in parte, riduce il reddito imponibile prima che si calcoli l'imposta. Un costo detraibile, invece, consente di calcolare una certa percentuale su quel costo e di sottrarla dall'imposta. Facciamo un esempio con le aliquote IRPEF del 2026, senza considerare le addizionali. Un contribuente con 40.000 euro di reddito ha un'aliquota marginale del 33 per cento. Se deduce 1.000 euro di contributi a un fondo pensione, risparmia 330 euro. Se invece paga 500 euro di premio per una polizza caso morte, ne detrae il 19 per cento, cioè 95 euro. Lo stesso premio, per un contribuente con reddito più basso, vale sempre 95 euro di detrazione, purché abbia abbastanza imposta da cui sottrarla; mentre la stessa deduzione varrebbe meno.\n\nConcludiamo con il caso pratico. Un artigiano con 40.000 euro di reddito chiede se gli conviene versare 1.000 euro in un fondo pensione o pagare 1.000 euro di premio per una temporanea caso morte. Il contributo al fondo pensione è deducibile e gli fa risparmiare circa 330 euro di IRPEF. Il premio della temporanea caso morte è detraibile al 19 per cento, ma solo fino a 530 euro di premio: il risparmio massimo è di circa 100 euro. Attenzione però: i due prodotti rispondono a bisogni diversi, uno previdenziale e uno di protezione della famiglia. Il fisco è un argomento di vendita legittimo, ma la proposta deve partire dalle esigenze del cliente, come richiede la disciplina della distribuzione.",
+      "sources": [
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        },
+        {
+          "title": "TUIR, art. 11 – Aliquote IRPEF",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917~art11"
+        },
+        {
+          "title": "D.Lgs. 19 giugno 2026, n. 117 – Nuovo Testo unico delle imposte sui redditi (applicabile dal 1° gennaio 2027)",
+          "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+        },
+        {
+          "title": "D.P.R. 29 settembre 1973, n. 600, art. 26-ter",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1973-09-29;600~art26ter"
+        },
+        {
+          "title": "Agenzia delle Entrate, Premi di assicurazione – Tutte le agevolazioni della dichiarazione 2026",
+          "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/10186910/Premi_di_assicurazione.pdf/2479e407-3f4e-8c51-c7b9-1a3701d60d7f?t=1782456657715"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Aliquote IRPEF 2026 (23%, 33%, 43%) come esempio di prelievo progressivo.",
+          "source_ref": "TUIR, art. 11, c. 1, testo in vigore dal 1° gennaio 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Nuovo Testo unico delle imposte sui redditi (D.Lgs. 117/2026), applicabile dal 1° gennaio 2027, con la corrispondenza degli articoli citati nel corso.",
+          "source_ref": "D.Lgs. 117/2026, artt. 14, 18, 46, 47, 257-259, 376, 377"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Testo dell'art. 6, c. 2, TUIR sui proventi sostitutivi di redditi, con esclusione di invalidità permanente e morte.",
+          "source_ref": "TUIR, art. 6, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Meccanismo LPS: imposta applicata dalla compagnia estera o dal rappresentante fiscale, altrimenti dall'intermediario italiano che incassa i proventi.",
+          "source_ref": "D.P.R. 600/1973, art. 26-ter, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi numerici di deduzione e detrazione e caso pratico.",
+          "source_ref": "TUIR, artt. 11 e 15"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte cita le «Commissioni Tributarie»: oggi si chiamano Corti di giustizia tributaria. Mantenuto il riferimento con la precisazione.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «le spese sostenute dalla persona fisica per sé o per i familiari a carico non determinano risparmio fiscale». Precisato che valgono le eccezioni di legge (premi rischio morte, invalidità permanente non inferiore al 5%, non autosufficienza, eventi calamitosi).",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f) e f-bis)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «la tassazione, nel caso delle polizze stipulate da persone fisiche, è sempre a titolo definitivo». Riferimento puntuale da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Art. 26-ter D.P.R. 600/1973 abrogato dal 1° gennaio 2027 dal D.Lgs. 33/2025: segnalato nel testo.",
+          "source_ref": "Normattiva, D.P.R. 600/1973, art. 26-ter, versione in vigore dal 1-1-2027"
+        }
+      ]
+    },
+    {
+      "title": "Le polizze vita e la detrazione dei premi",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "Le polizze vita e la detrazione dei premi",
+          "goals": [
+            "Classificare le polizze connesse alla vita umana ai fini fiscali",
+            "Sapere quali premi danno diritto alla detrazione del 19% e fino a quale importo",
+            "Verificare in pratica chi può detrarre e con quali documenti"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tre categorie di polizze connesse alla vita umana",
+          "head": [
+            "Categoria",
+            "Che cosa copre"
+          ],
+          "rows": [
+            [
+              "1 · Rischio",
+              "Morte, invalidità permanente non inferiore al 5% da qualsiasi causa, non autosufficienza"
+            ],
+            [
+              "2 · Capitalizzazione",
+              "Accumulo e rivalutazione di un capitale, senza rischio demografico"
+            ],
+            [
+              "3 · Previdenza complementare",
+              "Prestazioni pensionistiche integrative della pensione pubblica"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le polizze vita con finalità assicurativa",
+          "items": [
+            {
+              "text": "Temporanea caso morte (TCM): paga un capitale ai beneficiari se l'assicurato muore nel periodo."
+            },
+            {
+              "text": "Miste: pagano in caso di morte e in caso di vita alla scadenza."
+            },
+            {
+              "text": "Long Term Care (LTC): rendita o capitale in caso di non autosufficienza."
+            },
+            {
+              "text": "Dread Disease: capitale alla diagnosi di una malattia grave prevista dal contratto."
+            },
+            {
+              "text": "Invalidità permanente non inferiore al 5%, da infortunio o malattia."
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Unit linked e index linked: il contenuto finanziario",
+          "cols": [
+            {
+              "title": "Caratteristiche comuni",
+              "items": [
+                "La prestazione può arrivare anche prima della pensione",
+                "Nessun vincolo sulla riscossione delle somme maturate a scadenza",
+                "Il rendimento dipende dai mercati"
+              ]
+            },
+            {
+              "title": "Differenze",
+              "items": [
+                "Index linked: premio unico, investito in strumenti finanziari indicizzati, durata prestabilita",
+                "Unit linked: premi investiti in fondi di diversa tipologia"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le forme pensionistiche complementari",
+          "head": [
+            "Forma",
+            "In breve"
+          ],
+          "rows": [
+            [
+              "1 · Fondi negoziali",
+              "Istituiti da accordi collettivi, per categorie di lavoratori"
+            ],
+            [
+              "2 · Fondi aperti",
+              "Istituiti da banche, SGR, SIM e imprese di assicurazione; adesione individuale o collettiva"
+            ],
+            [
+              "3 · PIP",
+              "Piani individuali pensionistici di tipo assicurativo"
+            ],
+            [
+              "4 · Fondi preesistenti",
+              "Già esistenti prima della riforma del 1993"
+            ]
+          ],
+          "ref": "Materiale originale del corso; D.Lgs. 252/2005"
+        },
+        {
+          "layout": "concept",
+          "title": "La detrazione del 19%",
+          "key": "Dall'imposta lorda si detrae il 19% dei premi per assicurazioni sul rischio di morte, di invalidità permanente non inferiore al 5% da qualsiasi causa, o di non autosufficienza, se l'impresa non può recedere dal contratto.",
+          "body": "La detrazione riguarda solo la parte di premio che copre questi rischi. Per i contratti stipulati o rinnovati fino al 31 dicembre 2000 valgono regole diverse.",
+          "ref": "TUIR, art. 15, c. 1, lett. f); Guida AdE dichiarazione 2026"
+        },
+        {
+          "layout": "timeline",
+          "title": "I limiti di premio detraibile",
+          "items": [
+            {
+              "value": "530 euro",
+              "text": "rischio morte o invalidità permanente, dal 2014 (630 euro solo per il 2013)",
+              "ref": "TUIR, art. 15, c. 1, lett. f)"
+            },
+            {
+              "value": "750 euro",
+              "text": "rischio morte a tutela di persone con disabilità grave, dal 2016",
+              "ref": "TUIR, art. 15, c. 1, lett. f)"
+            },
+            {
+              "value": "1.291,14 euro",
+              "text": "non autosufficienza, al netto dei premi per gli altri rischi",
+              "ref": "TUIR, art. 15, c. 1, lett. f)"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Contratti fino al 2000 e dal 2001",
+          "cols": [
+            {
+              "title": "Stipulati o rinnovati entro il 31.12.2000",
+              "items": [
+                "Polizze vita e infortuni",
+                "Durata non inferiore a 5 anni",
+                "Nessun prestito nel periodo di durata minima"
+              ]
+            },
+            {
+              "title": "Stipulati o rinnovati dal 1.1.2001",
+              "items": [
+                "Solo rischio morte o invalidità permanente non inferiore al 5%",
+                "Non autosufficienza, se l'impresa non può recedere",
+                "Nella polizza va indicato il premio di ciascun rischio"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le polizze miste: che cosa si detrae",
+          "head": [
+            "Polizza",
+            "Parte detraibile"
+          ],
+          "rows": [
+            [
+              "Mista morte-vita",
+              "Solo la quota di premio per il rischio morte, indicata dalla compagnia"
+            ],
+            [
+              "Con malattia o infortunio",
+              "Solo la quota per l'invalidità permanente non inferiore al 5%"
+            ],
+            [
+              "Rischio malattia",
+              "Non detraibile"
+            ],
+            [
+              "Invalidità temporanea",
+              "Non detraibile, anche se totale"
+            ]
+          ],
+          "ref": "Guida AdE dichiarazione 2026; Circ. AdE 29/E del 2001; D.Lgs. 47/2000, art. 13, c. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi può detrarre",
+          "items": [
+            {
+              "text": "Regola: contraente e assicurato devono coincidere. Il beneficiario può essere chiunque."
+            },
+            {
+              "text": "Il contribuente è contraente e un familiare a carico è l'assicurato, o viceversa."
+            },
+            {
+              "text": "Un familiare a carico è contraente e assicurato, oppure contraente e assicurato sono due familiari a carico."
+            },
+            {
+              "text": "Polizze collettive, come quelle legate al mutuo: detrae chi paga il premio per la propria copertura."
+            },
+            {
+              "text": "Polizza auto per il conducente: detraibile solo se il conducente è individuato nel contratto."
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Condizioni",
+          "title": "Le regole da non dimenticare",
+          "lead": "Anche con il contratto giusto, la detrazione può saltare per un dettaglio.",
+          "facts": [
+            {
+              "label": "Pagamento",
+              "text": "Dal 2020 il premio va pagato con strumenti tracciabili: bonifico, carta, bollettino, PagoPA."
+            },
+            {
+              "label": "Reddito",
+              "text": "Detrazione piena fino a 120.000 euro di reddito; si riduce fino ad azzerarsi a 240.000 euro."
+            },
+            {
+              "label": "Estero",
+              "text": "Spetta anche per premi pagati a compagnie estere."
+            },
+            {
+              "label": "Datore",
+              "text": "Si sommano i premi già detratti dal datore di lavoro e indicati nella CU."
+            },
+            {
+              "label": "Documenti",
+              "text": "Quietanza con modalità di pagamento e copia del contratto o attestazione della compagnia."
+            }
+          ],
+          "ref": "Guida AdE dichiarazione 2026; TUIR, art. 15, c. 3-bis"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "La signora Bianchi paga 400 euro l'anno per una TCM di cui è contraente e assicurata, e 300 euro per una TCM intestata al figlio studente a suo carico, contraente e assicurato. Paga entrambe in contanti in agenzia. Ha un reddito di 35.000 euro.",
+          "questions": [
+            "Quanto può detrarre?",
+            "Che cosa le consiglieresti per il prossimo anno?"
+          ],
+          "solution": "Le due polizze rientrano nel limite unico di 530 euro: la detrazione potrebbe arrivare a 100,70 euro (19% di 530). Ma dal 2020 la detrazione spetta solo con pagamento tracciabile: in contanti la perde. Conviene pagare con carta, bonifico o addebito, e conservare quietanze e contratti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In una polizza mista stipulata nel 2015, quale parte del premio è detraibile?",
+          "options": [
+            "Tutto il premio",
+            "Nessuna parte",
+            "Solo la quota riferita al rischio morte",
+            "Solo la quota di risparmio"
+          ],
+          "answer": 2,
+          "explanation": "Per i contratti dal 2001 si detrae solo la quota per il rischio morte, che la compagnia deve evidenziare nel documento di spesa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente ha due TCM con premi di 400 e 350 euro. Su quale importo calcola il 19%?",
+          "options": [
+            "750 euro",
+            "530 euro",
+            "400 euro",
+            "1.291,14 euro"
+          ],
+          "answer": 1,
+          "explanation": "Il limite di 530 euro è complessivo: vale per tutti i contratti insieme, non per ciascuno."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "19%",
+              "text": "la detrazione dei premi per rischio morte, IP e non autosufficienza"
+            },
+            {
+              "value": "530",
+              "text": "euro: limite unico per rischio morte e IP non inferiore al 5%"
+            },
+            {
+              "value": "2001",
+              "text": "dalle polizze stipulate da quell'anno si detrae solo la quota di rischio"
+            },
+            {
+              "value": "Tracciabile",
+              "text": "il pagamento, dal 2020, a pena di perdere la detrazione"
+            },
+            {
+              "value": "120.000",
+              "text": "euro di reddito: oltre, la detrazione si riduce"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel vivo: le polizze vita e il trattamento fiscale dei premi. È la domanda che i clienti fanno più spesso: «Questa polizza si scarica?». Per rispondere bene bisogna prima classificare il prodotto, poi verificare i limiti e infine controllare alcuni dettagli pratici che, se trascurati, fanno perdere la detrazione.\n\nAi fini fiscali, le polizze connesse con la vita umana si distinguono in tre categorie. Le polizze che hanno per oggetto il rischio di morte e di invalidità permanente non inferiore al 5 per cento, da qualsiasi causa derivante, e il rischio di non autosufficienza. Le polizze di capitalizzazione, che servono ad accumulare e rivalutare un capitale e non dipendono dalla durata della vita. E le polizze di previdenza complementare, che integrano la pensione pubblica.\n\nTra le polizze vita con finalità assicurativa troviamo anzitutto la temporanea caso morte, che paga un capitale ai beneficiari se l'assicurato muore durante il contratto. Poi le polizze miste, che pagano sia in caso di morte sia in caso di vita alla scadenza. Le polizze Long Term Care, che pagano una rendita o un capitale quando l'assicurato non è più autosufficiente. Le polizze Dread Disease, che pagano alla diagnosi di una malattia grave prevista dal contratto. E le polizze per l'invalidità permanente, che ai fini della detrazione devono coprire un'invalidità non inferiore al 5 per cento.\n\nCi sono poi le polizze a prevalente contenuto finanziario: unit linked e index linked. Le abbiamo già studiate nell'area giuridica, nell'argomento sui prodotti di investimento assicurativi, quindi qui ricordiamo solo ciò che serve al fisco. Sono polizze di carattere finanziario: la prestazione può essere erogata anche prima del pensionamento dell'assicurato e non c'è alcun vincolo alla riscossione delle somme maturate alla scadenza. Le index linked prevedono un premio unico, investito soprattutto in strumenti finanziari, con indicizzazione del capitale versato e durata prestabilita. Le unit linked prevedono l'investimento dei premi in fondi di diversa tipologia. Il loro premio, per la parte di investimento, non dà diritto ad alcuna detrazione.\n\nInfine le forme pensionistiche complementari: i fondi pensione negoziali, nati dalla contrattazione collettiva; i fondi pensione aperti, istituiti da banche, società di gestione, SIM e imprese di assicurazione; i piani individuali pensionistici di tipo assicurativo, i PIP; e i fondi pensione preesistenti, già attivi prima della prima riforma della previdenza complementare. La loro fiscalità ha regole proprie, che vedremo in una lezione dedicata.\n\nVeniamo alla detrazione. L'articolo 15, comma 1, lettera f, del TUIR consente di detrarre dall'imposta lorda il 19 per cento dei premi per assicurazioni che hanno per oggetto il rischio di morte, di invalidità permanente non inferiore al 5 per cento da qualsiasi causa derivante, oppure di non autosufficienza nel compimento degli atti della vita quotidiana. Per quest'ultima c'è una condizione in più: l'impresa di assicurazione non deve avere la facoltà di recedere dal contratto.\n\nQuanto si può detrarre? Il materiale del corso ricorda che il decreto-legge 102 del 2013 ha introdotto soglie massime di detraibilità. Il testo vigente dell'articolo 15 le precisa così: 630 euro per il solo periodo d'imposta 2013 e, dal 2014, 530 euro per i premi sul rischio di morte o di invalidità permanente, e anche sul rischio infortuni per le sole polizze stipulate entro il 31 dicembre 2000. Per la non autosufficienza il limite è di 1.291,14 euro, al netto dei premi per gli altri rischi. Dal 2016 c'è anche un limite di 750 euro per i premi caso morte finalizzati alla tutela delle persone con disabilità grave. Attenzione al punto più frainteso: il limite di 530 euro è complessivo. Se il cliente ha tre polizze, la somma dei premi detraibili non può superare 530 euro. La detrazione massima è quindi il 19 per cento di 530, cioè 100 euro e 70 centesimi.\n\nConta molto la data del contratto. Per i contratti di assicurazione sulla vita e contro gli infortuni stipulati o rinnovati entro il 31 dicembre 2000 la detrazione spetta a due condizioni: durata non inferiore a cinque anni e nessuna concessione di prestiti nel periodo di durata minima. Per i contratti stipulati o rinnovati dal 2001, invece, la detrazione spetta solo se il contratto copre il rischio morte, l'invalidità permanente non inferiore al 5 per cento o la non autosufficienza. Quando un contratto copre più rischi con un regime fiscale diverso, la polizza deve indicare il premio riferito a ciascun rischio.\n\nDa qui la regola sulle polizze miste. Nel caso di polizze miste stipulate o rinnovate dal 2001, che prevedono la copertura in caso di morte, in caso di vita alla scadenza e il riscatto, la parte di premio detraibile è solo la quota riferibile al rischio di morte, che la compagnia evidenzia nel documento di spesa. Nel caso di polizze che coprono anche malattia o infortunio bisogna individuare la quota di premio che copre il rischio di invalidità permanente non inferiore al 5 per cento: quella è detraibile, mentre la quota per il rischio malattia non lo è. L'Agenzia delle Entrate precisa che la compagnia può individuare questa quota anche in modo forfetario, sulla base dei dati del proprio portafoglio, e deve indicarla nel contratto e nelle comunicazioni annuali. E aggiunge che non sono detraibili i premi per l'invalidità temporanea, anche se totale. I premi sono detraibili anche se pagati a compagnie assicurative straniere.\n\nChi può detrarre? La regola generale è che contraente e assicurato coincidano; il beneficiario, invece, può essere chiunque. La detrazione spetta a chi sostiene la spesa anche quando contraente o assicurato è un familiare fiscalmente a carico: per esempio, il genitore che è contraente di una polizza in cui è assicurato il figlio a carico, o che paga la polizza di cui il figlio a carico è contraente e assicurato. Due casi pratici chiariti dall'Agenzia. Nelle polizze collettive, come quelle stipulate dalla banca quando eroga un mutuo, il mutuatario che paga il premio per la propria copertura è equiparato al contraente e può detrarre. Nelle polizze auto che coprono il conducente, invece, la detrazione non spetta se l'assicurato non è individuato, perché può essere qualsiasi persona alla guida.\n\nCi sono poi condizioni che valgono per tutti. Dal 2020 la detrazione spetta solo se il premio è pagato con versamento bancario o postale o con altri sistemi tracciabili: carta di debito o di credito, bollettino, MAV, PagoPA, app di pagamento autorizzate. La prova è l'annotazione della modalità di pagamento sulla quietanza, oppure la ricevuta della carta o l'estratto conto. Sempre dal 2020, la detrazione spetta per intero solo a chi ha un reddito complessivo fino a 120.000 euro; oltre, si riduce progressivamente fino ad azzerarsi a 240.000 euro. Per i lavoratori dipendenti, nel limite di 530 euro si contano anche i premi che il datore di lavoro ha già fatto detrarre in busta paga e che sono indicati nella Certificazione Unica. I documenti da conservare sono la quietanza con la modalità di pagamento e la copia del contratto, o un'attestazione della compagnia con i dati di contraente e assicurato, il tipo di contratto, la decorrenza e gli importi fiscalmente rilevanti.\n\nVediamo il caso pratico. La signora Bianchi paga 400 euro l'anno per una temporanea caso morte di cui è contraente e assicurata, e 300 euro per una polizza analoga intestata al figlio studente, fiscalmente a carico, che ne è contraente e assicurato. Paga entrambe in contanti in agenzia. Le due polizze rientrano nello stesso limite complessivo di 530 euro: in teoria potrebbe detrarre 100 euro e 70 centesimi. Ma ha pagato in contanti, e dal 2020 questo le fa perdere la detrazione. Il consiglio dell'intermediario è semplice e prezioso: dal prossimo anno pagare con carta, bonifico o addebito, e conservare quietanze e contratti. È un esempio di come una buona consulenza passi anche da dettagli operativi.\n\nNella prossima lezione completiamo il quadro con le polizze per la non autosufficienza e per la tutela delle persone con disabilità, con la detrazione per i rischi catastrofali sulle abitazioni e con le nuove regole sulle detrazioni per i redditi oltre 75.000 euro.",
+      "sources": [
+        {
+          "title": "Agenzia delle Entrate, Premi di assicurazione – Tutte le agevolazioni della dichiarazione 2026",
+          "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/10186910/Premi_di_assicurazione.pdf/2479e407-3f4e-8c51-c7b9-1a3701d60d7f?t=1782456657715"
+        },
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        },
+        {
+          "title": "D.Lgs. 19 giugno 2026, n. 117 – Nuovo Testo unico delle imposte sui redditi (applicabile dal 1° gennaio 2027)",
+          "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Testo vigente del limite: 630 euro per il 2013, 530 euro dal 2014; 750 euro dal 2016 per la tutela delle persone con disabilità grave.",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni per i contratti fino al 31.12.2000 (durata minima 5 anni, nessun prestito) e indicazione separata dei premi per rischio.",
+          "source_ref": "Guida AdE dichiarazione 2026; D.Lgs. 47/2000, art. 13, c. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Quota IP individuabile in modo forfetario; invalidità temporanea non detraibile.",
+          "source_ref": "Guida AdE dichiarazione 2026; Circ. AdE 29/E del 20.03.2001"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Chi può detrarre: coincidenza contraente-assicurato, familiari a carico, polizze collettive legate al mutuo, polizze del conducente.",
+          "source_ref": "Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pagamento tracciabile dal 2020, riduzione oltre 120.000 euro di reddito, premi in CU, documentazione.",
+          "source_ref": "Guida AdE dichiarazione 2026; TUIR, art. 15, c. 3-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e verifiche.",
+          "source_ref": "Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte indica «polizze per l'Invalidità Permanente superiore al 5%»: la norma richiede un'invalidità permanente «non inferiore al 5%». Corretto il testo.",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f)"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte attribuisce al D.L. 102/2013 il limite di 530 euro: il testo vigente prevede 630 euro per il 2013 e 530 euro dal 2014. Mantenuto il riferimento con la precisazione.",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f)"
+        }
+      ]
+    },
+    {
+      "title": "Non autosufficienza, disabilità, eventi calamitosi e limiti di reddito",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "Non autosufficienza, disabilità, eventi calamitosi e limiti di reddito",
+          "goals": [
+            "Conoscere le condizioni fiscali delle polizze Long Term Care",
+            "Calcolare i limiti combinati di 530, 750 e 1.291,14 euro",
+            "Applicare la detrazione per eventi calamitosi e il riordino per i redditi oltre 75.000 euro"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La non autosufficienza: perché il fisco la favorisce",
+          "key": "Per i premi delle polizze che coprono il rischio di non autosufficienza nel compimento degli atti della vita quotidiana il limite detraibile è di 1.291,14 euro, il più alto tra le polizze di persone.",
+          "body": "Il premio è detraibile solo se l'impresa non può recedere dal contratto e se il contratto rispetta le caratteristiche fissate da un decreto del Ministero delle finanze.",
+          "ref": "Materiale originale; TUIR, art. 15, c. 1, lett. f)"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le caratteristiche del contratto LTC",
+          "items": [
+            {
+              "text": "Atti della vita quotidiana: assunzione di alimenti, funzioni fisiologiche e igiene personale, deambulazione, indossare gli indumenti."
+            },
+            {
+              "text": "È non autosufficiente anche chi ha bisogno di sorveglianza continuativa o non svolge, anche solo in parte, uno o più di questi atti."
+            },
+            {
+              "text": "Copertura per l'intera vita; nell'assicurazione malattia, durata di 10 anni con rinnovo obbligatorio per l'impresa."
+            },
+            {
+              "text": "Nelle polizze collettive del datore di lavoro, copertura almeno per tutta la durata del rapporto."
+            },
+            {
+              "text": "Premi rivedibili a intervalli non inferiori a 5 anni; con riscatto, va indicata la quota per la non autosufficienza."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La tutela delle persone con disabilità grave",
+          "key": "Dal 2016 il limite di 530 euro sale a 750 euro per i premi delle polizze caso morte finalizzate alla tutela delle persone con disabilità grave, accertata secondo la legge 104/1992.",
+          "body": "Qui conta il beneficiario: è la persona da proteggere. Se i beneficiari sono più di uno e uno ha una disabilità grave, si applica l'unico limite più alto di 750 euro.",
+          "ref": "TUIR, art. 15, c. 1, lett. f); L. 104/1992, art. 3, c. 3"
+        },
+        {
+          "layout": "table",
+          "title": "Come si combinano i limiti",
+          "head": [
+            "Rischio",
+            "Limite",
+            "Come si calcola"
+          ],
+          "rows": [
+            [
+              "Codici 36 e 51 · Morte e IP",
+              "530 euro",
+              "Limite proprio"
+            ],
+            [
+              "Codici 38 e 52 · Disabilità grave",
+              "750 euro",
+              "Insieme ai premi per morte e IP non oltre 750"
+            ],
+            [
+              "Codici 39 e 53 · Non autosufficienza",
+              "1.291,14 euro",
+              "Tutti i premi insieme non oltre 1.291,14"
+            ]
+          ],
+          "lead": "I codici sono quelli del modello 730: i primi per i contratti fino al 2024, i secondi per quelli dal 2025.",
+          "ref": "Guida AdE dichiarazione 2026"
+        },
+        {
+          "layout": "steps",
+          "title": "Un esempio dell'Agenzia delle Entrate",
+          "steps": [
+            {
+              "label": "Morte e IP",
+              "text": "Premi per 530 euro: detraibili per intero."
+            },
+            {
+              "label": "Disabilità grave",
+              "text": "Premi per 500 euro: ammessi solo 220, perché 530 + 220 = 750."
+            },
+            {
+              "label": "Non autosufficienza",
+              "text": "Premi per 1.000 euro: ammessi 541, perché 1.291 − 530 − 220 = 541."
+            },
+            {
+              "label": "Risultato",
+              "text": "Spesa detraibile 1.291 euro: detrazione del 19%, circa 245 euro."
+            }
+          ],
+          "ref": "Guida AdE dichiarazione 2026, tabella riepilogativa"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Rischi catastrofali",
+          "title": "I premi per eventi calamitosi",
+          "lead": "Detrazione del 19% dei premi per assicurazioni contro il rischio di eventi calamitosi sulle unità immobiliari ad uso abitativo.",
+          "facts": [
+            {
+              "label": "Da quando",
+              "text": "Polizze stipulate o rinnovate dal 1° gennaio 2018."
+            },
+            {
+              "label": "Limite",
+              "text": "Nessun limite di importo, anche per più abitazioni."
+            },
+            {
+              "label": "Chi detrae",
+              "text": "Il contraente, anche se non è proprietario dell'immobile."
+            },
+            {
+              "label": "Multirischio",
+              "text": "Si detrae solo la quota di premio per gli eventi calamitosi."
+            },
+            {
+              "label": "Condominio",
+              "text": "Ciascun condomino detrae la quota riferita alla propria abitazione."
+            },
+            {
+              "label": "Esclusi",
+              "text": "Polizze solo sulla pertinenza; polizze pluriennali stipulate prima del 2018."
+            }
+          ],
+          "ref": "TUIR, art. 15, c. 1, lett. f-bis); Guida AdE dichiarazione 2026"
+        },
+        {
+          "layout": "concept",
+          "title": "Il caso del Superbonus sismico",
+          "key": "Se il credito d'imposta del Sismabonus al 110% è ceduto a un'impresa di assicurazione e contestualmente si stipula una polizza contro gli eventi calamitosi, la detrazione del premio sale al 90%.",
+          "body": "È un'ipotesi particolare, legata ai lavori sostenuti nel periodo del Superbonus. In dichiarazione si usa un codice dedicato, l'81.",
+          "ref": "D.L. 34/2020, art. 119, c. 4; Guida AdE dichiarazione 2026"
+        },
+        {
+          "layout": "split",
+          "title": "Due limiti di reddito",
+          "left": {
+            "title": "Dal 2020: oltre 120.000 euro",
+            "items": [
+              "Detrazione piena fino a 120.000 euro",
+              "Poi decresce fino a zero a 240.000 euro",
+              "Vale per tutti i premi visti finora"
+            ],
+            "ref": "TUIR, art. 15, c. 3-bis"
+          },
+          "right": {
+            "title": "Dal 2025: oltre 75.000 euro",
+            "items": [
+              "Tetto complessivo a molte detrazioni",
+              "Importo base: 14.000 euro fino a 100.000 di reddito, 8.000 oltre",
+              "Moltiplicato per 0,50 senza figli, fino a 1 con più di due figli"
+            ],
+            "ref": "TUIR, art. 16-ter (dal 2027 art. 18)"
+          },
+          "note": "I premi assicurativi rientrano nel tetto solo per i contratti stipulati dal 1° gennaio 2025.",
+          "noteRef": "TUIR, art. 16-ter; Guida AdE dichiarazione 2026"
+        },
+        {
+          "layout": "timeline",
+          "title": "I coefficienti del tetto per redditi oltre 75.000 euro",
+          "items": [
+            {
+              "value": "0,50",
+              "text": "senza figli a carico",
+              "ref": "art. 16-ter, c. 3"
+            },
+            {
+              "value": "0,70",
+              "text": "con un figlio a carico",
+              "ref": "art. 16-ter, c. 3"
+            },
+            {
+              "value": "0,85",
+              "text": "con due figli a carico",
+              "ref": "art. 16-ter, c. 3"
+            },
+            {
+              "value": "1",
+              "text": "con più di due figli o un figlio con disabilità",
+              "ref": "art. 16-ter, c. 3"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "In pratica, per l'intermediario",
+          "items": [
+            {
+              "text": "Nella proposta indica la quota di premio per ciascun rischio: è quella che il cliente potrà detrarre."
+            },
+            {
+              "text": "Su una LTC verifica che l'impresa non abbia facoltà di recesso."
+            },
+            {
+              "text": "Nelle polizze multirischio casa separa la garanzia eventi calamitosi."
+            },
+            {
+              "text": "Ricorda al cliente di pagare con strumenti tracciabili."
+            },
+            {
+              "text": "Non promettere un risparmio preciso: dipende da reddito, figli e altre detrazioni del cliente."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente con reddito di 90.000 euro e nessun figlio a carico stipula nel 2026 una polizza casa con la garanzia eventi calamitosi (premio della garanzia: 280 euro) e una LTC. Ha già molte spese detraibili per ristrutturazioni iniziate nel 2025.",
+          "questions": [
+            "I premi sono detraibili?",
+            "Il tetto per i redditi oltre 75.000 euro li riguarda?"
+          ],
+          "solution": "La quota calamitosi è detraibile al 19% senza limite di importo; la LTC fino a 1.291,14 euro, se l'impresa non può recedere. Il reddito è sotto 120.000 euro: nessuna riduzione. Ma i contratti sono del 2026: i premi entrano nel tetto complessivo, che con 90.000 euro e nessun figlio vale 14.000 × 0,50 = 7.000 euro di oneri. Se le altre spese lo esauriscono, i premi possono non dare beneficio: va detto con chiarezza al cliente, rinviandolo al suo consulente fiscale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è il limite di premio detraibile per le polizze contro gli eventi calamitosi sull'abitazione?",
+          "options": [
+            "530 euro",
+            "750 euro",
+            "1.291,14 euro",
+            "Nessun limite di importo"
+          ],
+          "answer": 3,
+          "explanation": "Per gli eventi calamitosi la legge non fissa un limite di importo, anche se le abitazioni sono più di una. Si detrae solo la quota di premio di quella garanzia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale condizione serve perché il premio di una LTC sia detraibile?",
+          "options": [
+            "Che l'impresa non possa recedere dal contratto",
+            "Che il contratto duri almeno 5 anni",
+            "Che il beneficiario sia un familiare",
+            "Che il premio sia unico"
+          ],
+          "answer": 0,
+          "explanation": "La norma richiede che l'impresa non abbia la facoltà di recesso e che il contratto rispetti le caratteristiche del D.M. 22 dicembre 2000."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1.291,14",
+              "text": "euro: limite complessivo con la non autosufficienza"
+            },
+            {
+              "value": "750",
+              "text": "euro: polizze caso morte a tutela di persone con disabilità grave"
+            },
+            {
+              "value": "Nessun limite",
+              "text": "per i premi contro gli eventi calamitosi sulla casa"
+            },
+            {
+              "value": "240.000",
+              "text": "euro di reddito: la detrazione si azzera"
+            },
+            {
+              "value": "75.000",
+              "text": "euro: oltre, tetto complessivo per i contratti dal 2025"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto la regola base: detrazione del 19 per cento sui premi per il rischio morte e invalidità permanente, fino a 530 euro. Ora completiamo il quadro con tre casi che l'intermediario incontra sempre più spesso: le polizze per la non autosufficienza, quelle a tutela delle persone con disabilità grave e quelle contro gli eventi calamitosi sulla casa. Poi vediamo come i limiti di reddito possono ridurre o annullare il beneficio.\n\nLe polizze Long Term Care coprono il rischio di non autosufficienza nel compimento degli atti della vita quotidiana. Come ricorda il materiale del corso, per questi premi il limite detraibile è di 1.291,14 euro: è il limite più alto tra le polizze di persone, e si intende al netto dei premi per gli altri rischi. Il legislatore lo ha voluto perché la non autosufficienza è un rischio di lunga durata, costoso per le famiglie e per il sistema pubblico.\n\nPer detrarre il premio servono due condizioni: l'impresa non deve avere facoltà di recesso e il contratto deve rispettare le caratteristiche fissate dal decreto del Ministro delle finanze del 22 dicembre 2000. Il decreto individua gli atti della vita quotidiana: l'assunzione di alimenti, l'espletamento delle funzioni fisiologiche e dell'igiene personale, la deambulazione e l'indossare gli indumenti. È considerato non autosufficiente anche chi ha bisogno di sorveglianza continuativa e chi non è in grado di svolgere, anche solo in parte, uno o più di questi atti. I contratti possono essere stipulati nell'ambito dell'assicurazione malattia o dell'assicurazione sulla vita e devono coprire il rischio per l'intera vita dell'assicurato. Se si tratta di un'assicurazione malattia, la condizione si realizza con contratti di dieci anni e rinnovo obbligatorio da parte dell'impresa a ogni scadenza, senza facoltà di recesso. Nelle polizze collettive stipulate dal datore di lavoro, la copertura deve durare almeno quanto il rapporto di lavoro. L'impresa può rivedere i premi, ma a intervalli non inferiori a cinque anni e in base all'esperienza statistica della collettività. Se il contratto prevede il riscatto, la polizza deve evidenziare la parte di premio riferita alla non autosufficienza, che è quella detraibile.\n\nIl secondo caso è la tutela delle persone con disabilità grave. Dal periodo d'imposta 2016 il limite di 530 euro è elevato a 750 euro per i premi delle polizze che hanno per oggetto il rischio di morte e sono finalizzate alla tutela delle persone con disabilità grave, come definita dall'articolo 3, comma 3, della legge 104 del 1992 e accertata secondo l'articolo 4 della stessa legge. Pensiamo a un genitore che vuole garantire un capitale al figlio con disabilità nel caso in cui venga a mancare. Qui, a differenza della regola generale, conta il beneficiario: è lui la persona da proteggere. Se nel contratto ci sono più beneficiari e uno di loro ha una disabilità grave, si applica l'unico limite più elevato di 750 euro. Se dalla documentazione della compagnia non risulta la condizione del beneficiario, il contribuente può presentare un'autocertificazione, conservando la documentazione che la prova. Nelle guide più recenti l'Agenzia parla di persone con necessità di sostegno intensivo, ma il riferimento resta la legge 104.\n\nCome si combinano i tre limiti? L'Agenzia delle Entrate lo spiega con una tabella e con un esempio. Nel modello 730 i premi per morte e invalidità permanente hanno i codici 36 e 51; quelli a tutela delle persone con disabilità grave i codici 38 e 52; quelli per la non autosufficienza i codici 39 e 53. Il primo codice di ogni coppia vale per i contratti stipulati fino al 31 dicembre 2024, il secondo per quelli stipulati dal 2025: tra poco capiremo perché. Le regole sono due: la somma dei premi per morte, invalidità e disabilità grave non può superare 750 euro; la somma di tutti, compresa la non autosufficienza, non può superare 1.291,14 euro.\n\nL'esempio ufficiale è questo. Un contribuente ha premi per morte e invalidità per 530 euro, premi a tutela di un familiare con disabilità grave per 500 euro e premi per la non autosufficienza per 1.000 euro. I primi 530 euro sono ammessi per intero. Dei 500 euro per la disabilità sono ammessi solo 220, perché 530 più 220 fa 750. Dei 1.000 euro per la non autosufficienza sono ammessi 541, perché 1.291 meno 530 meno 220 fa 541. La spesa detraibile complessiva è quindi di circa 1.291 euro, e la detrazione del 19 per cento vale circa 245 euro.\n\nPassiamo ai rischi catastrofali. La lettera f-bis dell'articolo 15 consente di detrarre il 19 per cento dei premi per assicurazioni contro il rischio di eventi calamitosi stipulate per unità immobiliari ad uso abitativo. La detrazione vale per le polizze stipulate dal primo gennaio 2018; vi rientrano anche i rinnovi, dalla stessa data, di contratti preesistenti, mentre restano escluse le polizze pluriennali stipulate prima del 2018 fino alla loro scadenza naturale. Non c'è limite di importo, anche se le abitazioni assicurate sono più di una. La detrazione spetta al contraente, anche se l'immobile non è intestato a lui, perché l'agevolazione è legata al bene. Non spetta se si assicura solo la pertinenza, come il box. Nelle polizze multirischio si detrae solo la quota di premio relativa alle garanzie per gli eventi calamitosi: per questo è importante che la polizza la indichi. Anche la polizza del condominio sul fabbricato dà diritto alla detrazione, per la quota di premio riferita alla singola abitazione e alle sue pertinenze, certificata dall'amministratore.\n\nC'è un caso particolare legato al Superbonus. Quando il credito d'imposta per gli interventi antisismici con detrazione al 110 per cento è stato ceduto a un'impresa di assicurazione e, contestualmente, è stata stipulata una polizza contro gli eventi calamitosi, la detrazione del premio sale al 90 per cento. Lo prevede l'articolo 119, comma 4, del decreto-legge 34 del 2020; in dichiarazione si usa il codice 81.\n\nArriviamo ai limiti di reddito, che oggi pesano molto. Il primo vale dal 2020: la detrazione spetta per intero se il reddito complessivo non supera 120.000 euro; oltre, si riduce in proporzione e si azzera a 240.000 euro. Ai fini del calcolo il reddito si considera al netto di quello dell'abitazione principale. Il secondo limite vale dal 2025 ed è stato introdotto con l'articolo 16-ter del TUIR, che dal 2027 diventa l'articolo 18 del nuovo testo unico. Per chi ha un reddito complessivo superiore a 75.000 euro, molti oneri detraibili, considerati insieme, sono ammessi solo fino a un tetto. Il tetto si calcola moltiplicando un importo base, di 14.000 euro se il reddito è tra 75.000 e 100.000 euro e di 8.000 euro se è superiore, per un coefficiente che dipende dai figli a carico: 0,50 senza figli, 0,70 con un figlio, 0,85 con due figli e 1 con più di due figli o con almeno un figlio con disabilità.\n\nPer le polizze c'è un punto decisivo: i premi assicurativi entrano nel tetto solo se il contratto è stipulato dal primo gennaio 2025. I premi dei contratti stipulati fino al 31 dicembre 2024 ne restano fuori. Ecco perché il modello 730 usa codici diversi per i contratti vecchi e nuovi. Quando un cliente propone di sostituire una vecchia polizza con una nuova, anche questo aspetto va considerato.\n\nChe cosa significa tutto questo per l'intermediario? Nella proposta e nella polizza la quota di premio di ciascun rischio deve essere chiara, perché è quella che il cliente potrà detrarre. Su una LTC va verificato che l'impresa non abbia facoltà di recesso. Nelle polizze casa va separata la garanzia eventi calamitosi. Va ricordato il pagamento tracciabile. E non bisogna mai promettere un risparmio fiscale preciso: dipende dal reddito, dai figli e dalle altre detrazioni del cliente, che l'intermediario di solito non conosce.\n\nIl caso pratico lo mostra bene. Un cliente con 90.000 euro di reddito e nessun figlio a carico stipula nel 2026 una polizza casa con la garanzia eventi calamitosi, la cui quota di premio è di 280 euro, e una LTC. La quota calamitosi è detraibile al 19 per cento senza limite di importo; la LTC fino a 1.291,14 euro, purché l'impresa non possa recedere. Il reddito è sotto i 120.000 euro, quindi nessuna riduzione per quel motivo. Ma i contratti sono del 2026 e il reddito supera 75.000 euro: i premi entrano nel tetto complessivo, che per lui vale 14.000 per 0,50, cioè 7.000 euro di oneri. Se le spese per le ristrutturazioni già in corso esauriscono il tetto, i premi possono non dare alcun beneficio. Va detto con chiarezza al cliente, invitandolo a verificarlo con il suo consulente fiscale.",
+      "sources": [
+        {
+          "title": "Agenzia delle Entrate, Premi di assicurazione – Tutte le agevolazioni della dichiarazione 2026",
+          "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/10186910/Premi_di_assicurazione.pdf/2479e407-3f4e-8c51-c7b9-1a3701d60d7f?t=1782456657715"
+        },
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        },
+        {
+          "title": "D.Lgs. 19 giugno 2026, n. 117 – Nuovo Testo unico delle imposte sui redditi (applicabile dal 1° gennaio 2027)",
+          "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Caratteristiche dei contratti LTC secondo il D.M. 22 dicembre 2000.",
+          "source_ref": "Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limite di 750 euro per le polizze caso morte a tutela delle persone con disabilità grave e regole sul beneficiario.",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f); Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Combinazione dei limiti 530/750/1.291,14 euro con l'esempio ufficiale e i codici del modello 730.",
+          "source_ref": "Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Detrazione dei premi per eventi calamitosi su abitazioni (dal 2018, senza limite) e caso del 90% con Sismabonus.",
+          "source_ref": "TUIR, art. 15, c. 1, lett. f-bis); D.L. 34/2020, art. 119, c. 4; Guida AdE dichiarazione 2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riduzione della detrazione oltre 120.000 euro di reddito e tetto per i redditi oltre 75.000 euro (contratti dal 2025).",
+          "source_ref": "TUIR, artt. 15, c. 3-bis e 16-ter; D.Lgs. 117/2026, art. 18"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indicazioni operative, caso pratico e verifiche.",
+          "source_ref": "Guida AdE dichiarazione 2026"
+        }
+      ]
+    },
+    {
+      "title": "La tassazione delle prestazioni vita e l'imposta di bollo",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "La tassazione delle prestazioni vita e l'imposta di bollo",
+          "goals": [
+            "Calcolare il reddito tassabile di un capitale vita o di un riscatto",
+            "Applicare le aliquote del 26% e del 12,5% e il regime per i contratti più vecchi",
+            "Spiegare al cliente l'esenzione caso morte e l'imposta di bollo"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa si tassa in un capitale vita",
+          "key": "I capitali corrisposti per contratti di assicurazione sulla vita e di capitalizzazione sono reddito solo per la differenza tra l'ammontare percepito e i premi pagati.",
+          "body": "Sono redditi di capitale. Si considera corrisposto anche il capitale convertito in rendita a seguito di opzione. Non si tassa quindi il capitale restituito, ma solo il rendimento.",
+          "ref": "TUIR, art. 44, c. 1, lett. g-quater) e art. 45, c. 4"
+        },
+        {
+          "layout": "steps",
+          "title": "Dal capitale all'imposta",
+          "steps": [
+            {
+              "label": "Capitale percepito",
+              "text": "A scadenza o con il riscatto, per esempio 60.000 euro."
+            },
+            {
+              "label": "Meno premi pagati",
+              "text": "Per esempio 50.000 euro."
+            },
+            {
+              "label": "Rendimento",
+              "text": "10.000 euro: è il reddito di capitale."
+            },
+            {
+              "label": "Imposta sostitutiva",
+              "text": "La applica l'impresa al pagamento: con il 26%, 2.600 euro."
+            }
+          ],
+          "ref": "TUIR, art. 45, c. 4; D.P.R. 600/1973, art. 26-ter"
+        },
+        {
+          "layout": "timeline",
+          "title": "Le aliquote nel tempo",
+          "items": [
+            {
+              "value": "12,5 %",
+              "text": "rendimenti maturati fino al 31 dicembre 2011",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "value": "20 %",
+              "text": "rendimenti maturati dal 1° gennaio 2012 al 30 giugno 2014",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "value": "26 %",
+              "text": "rendimenti maturati dal 1° luglio 2014, anche su contratti più vecchi",
+              "ref": "D.L. 66/2014, art. 3, c. 1 e 11"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Contratti nuovi e contratti vecchi",
+          "key": "Ai contratti sottoscritti dal 1° luglio 2014 si applica il 26%. Per quelli stipulati entro il 30 giugno 2014 il rendimento si divide per periodo di maturazione: 12,5%, 20% e 26%.",
+          "body": "È l'impresa a fare il calcolo pro rata. Per il cliente conta sapere che un contratto «vecchio» conserva l'aliquota più bassa sui rendimenti maturati negli anni passati.",
+          "ref": "Materiale originale; D.L. 66/2014, art. 3, c. 11"
+        },
+        {
+          "layout": "split",
+          "title": "La quota in titoli di Stato",
+          "left": {
+            "title": "Come funziona",
+            "items": [
+              "I rendimenti da titoli di Stato italiani e di Paesi collaborativi sono tassati in modo agevolato",
+              "Si riduce la base imponibile, non l'aliquota",
+              "Il risultato è sempre un prelievo effettivo del 12,5%"
+            ]
+          },
+          "right": {
+            "title": "I numeri",
+            "items": [
+              "Dal 2012 a giugno 2014: si esclude il 37,50%; si tassa il 62,50% al 20%",
+              "Dal 1° luglio 2014: si esclude il 51,92%; si tassa il 48,08% al 26%",
+              "62,50% × 20% = 48,08% × 26% = 12,5%"
+            ]
+          },
+          "note": "Per questo una gestione separata investita molto in titoli di Stato ha un prelievo medio inferiore al 26%.",
+          "noteRef": "Materiale originale; D.L. 66/2014, art. 3, c. 2"
+        },
+        {
+          "layout": "concept",
+          "title": "Le rendite vitalizie",
+          "key": "Nelle rendite con funzione previdenziale si tassa solo il rendimento finanziario: la differenza tra la rata pagata e la rata calcolata senza tener conto dei rendimenti.",
+          "body": "Anche questo è reddito di capitale, soggetto a imposta sostitutiva. La parte di rata che restituisce il capitale non è tassata.",
+          "ref": "TUIR, art. 44, c. 1, lett. g-quinquies) e art. 45, c. 4-ter"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Esenzione",
+          "title": "Il capitale caso morte",
+          "lead": "«I capitali percepiti in caso di morte in dipendenza di contratti di assicurazione sulla vita, a copertura del rischio demografico, sono esenti dall'imposta sul reddito delle persone fisiche».",
+          "facts": [
+            {
+              "label": "Dal 2015",
+              "text": "L'esenzione vale solo per la parte che copre il rischio demografico."
+            },
+            {
+              "label": "Rendimenti",
+              "text": "Le plusvalenze maturate nel contratto e pagate al beneficiario sono tassate come in caso di riscatto."
+            },
+            {
+              "label": "TCM",
+              "text": "Il capitale di una temporanea caso morte è tutto rischio: esente."
+            },
+            {
+              "label": "Linked e multiramo",
+              "text": "Esente la sola maggiorazione caso morte; il rendimento dell'investimento è tassato."
+            }
+          ],
+          "ref": "D.P.R. 601/1973, art. 34, ultimo comma (in vigore dal 1° gennaio 2015)"
+        },
+        {
+          "layout": "compare",
+          "title": "Riscatto o decesso: che cosa cambia",
+          "cols": [
+            {
+              "title": "Riscatto o scadenza",
+              "items": [
+                "Il contraente incassa il capitale",
+                "Tassato il rendimento: capitale meno premi",
+                "Imposta sostitutiva applicata dall'impresa"
+              ]
+            },
+            {
+              "title": "Decesso dell'assicurato",
+              "items": [
+                "Il beneficiario incassa il capitale",
+                "Esente la parte a copertura del rischio demografico",
+                "Tassato il rendimento finanziario, con le stesse regole del riscatto"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Imposta di bollo",
+          "title": "Il bollo sui prodotti finanziario-assicurativi",
+          "lead": "Sulle comunicazioni periodiche delle polizze di ramo III e delle operazioni di capitalizzazione di ramo V si applica un'imposta di bollo annuale sul valore di riscatto.",
+          "facts": [
+            {
+              "label": "2012",
+              "text": "0,10%, con minimo di 34,20 euro e massimo di 1.200 euro."
+            },
+            {
+              "label": "2013",
+              "text": "0,15%, minimo 34,20 euro; massimo 4.500 euro solo per i soggetti diversi dalle persone fisiche."
+            },
+            {
+              "label": "Dal 2014",
+              "text": "0,20% (2 per mille), senza minimo; massimo 14.000 euro solo per i soggetti diversi dalle persone fisiche."
+            }
+          ],
+          "ref": "Materiale originale; D.P.R. 642/1972, Tariffa, art. 13, c. 2-ter"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il bollo vita dal 2025",
+          "items": [
+            {
+              "value": "Fino al 2024",
+              "text": "il bollo maturava ogni anno ma si pagava al rimborso o al riscatto",
+              "ref": "Circ. AdE 7/E del 2025"
+            },
+            {
+              "value": "Dal 2025",
+              "text": "l'impresa lo versa ogni anno e lo trattiene dalla prestazione finale",
+              "ref": "L. 207/2024, art. 1, c. 87"
+            },
+            {
+              "value": "4 rate",
+              "text": "per il bollo arretrato: 50% entro giugno 2025, 20% nel 2026, 20% nel 2027, 10% nel 2028",
+              "ref": "L. 207/2024, art. 1, c. 88"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente ha versato 100.000 euro in una unit linked nel 2016. Nel 2026 muore; ai beneficiari spettano 128.000 euro, di cui 1.000 euro di maggiorazione caso morte. La figlia chiede all'agente se dovrà pagare tasse.",
+          "questions": [
+            "Quale parte del capitale è esente?",
+            "Su quale importo si applica l'imposta sostitutiva?"
+          ],
+          "solution": "Dal 2015 è esente solo la parte a copertura del rischio demografico, cioè la maggiorazione di 1.000 euro. Il rendimento dell'investimento, 27.000 euro (127.000 meno 100.000 di premi), è tassato con imposta sostitutiva, applicata dall'impresa: 26%, ridotto per la quota eventualmente investita in titoli di Stato. Dal capitale si scomputa anche il bollo già versato ogni anno dall'impresa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un riscatto di 40.000 euro a fronte di 36.000 euro di premi, su contratto del 2018. Qual è il reddito tassabile?",
+          "options": [
+            "40.000 euro",
+            "36.000 euro",
+            "4.000 euro",
+            "Nessuno, il riscatto è esente"
+          ],
+          "answer": 2,
+          "explanation": "È reddito di capitale solo la differenza tra l'ammontare percepito e i premi pagati: 4.000 euro, tassati al 26% salvo la quota in titoli di Stato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché si tassa il 48,08% dei rendimenti da titoli di Stato?",
+          "options": [
+            "Perché la legge li esclude quasi a metà per errore",
+            "Perché 48,08% × 26% dà un prelievo effettivo del 12,5%",
+            "Perché è il limite previsto per le persone giuridiche",
+            "Perché vale solo per i contratti prima del 2014"
+          ],
+          "answer": 1,
+          "explanation": "Ridurre la base imponibile al 48,08% e applicare il 26% equivale a tassare quei rendimenti al 12,5%, come i titoli di Stato detenuti direttamente."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Differenza",
+              "text": "si tassa solo capitale percepito meno premi pagati"
+            },
+            {
+              "value": "26%",
+              "text": "aliquota dal 1° luglio 2014; 12,5% effettivo sui titoli di Stato"
+            },
+            {
+              "value": "Esente",
+              "text": "il capitale caso morte, per la parte di rischio demografico"
+            },
+            {
+              "value": "2 per mille",
+              "text": "il bollo annuo su polizze di ramo III e V"
+            },
+            {
+              "value": "2025",
+              "text": "da quest'anno il bollo vita si versa ogni anno"
+            }
+          ]
+        }
+      ],
+      "narration": "Abbiamo visto il premio, cioè la fase d'ingresso. Ora passiamo all'altra estremità: che cosa succede quando la polizza paga, a scadenza, con un riscatto o al decesso dell'assicurato. E vediamo l'imposta che accompagna la polizza durante la sua vita, l'imposta di bollo.\n\nLa regola di partenza è nel TUIR. L'articolo 44 classifica tra i redditi di capitale i redditi compresi nei capitali corrisposti in dipendenza di contratti di assicurazione sulla vita e di capitalizzazione. L'articolo 45, comma 4, dice come si calcolano: costituiscono reddito per la parte corrispondente alla differenza tra l'ammontare percepito e quello dei premi pagati. Si considera corrisposto anche il capitale convertito in rendita a seguito di opzione. In parole semplici: non si tassa il capitale che il cliente ha versato e che gli viene restituito, ma solo il guadagno.\n\nFacciamo un esempio. Un cliente ha pagato premi per 50.000 euro e al riscatto incassa 60.000 euro. Il reddito di capitale è di 10.000 euro. Su questo importo l'impresa di assicurazione, che agisce come sostituto d'imposta in base all'articolo 26-ter del D.P.R. 600 del 1973, applica l'imposta sostitutiva. Con l'aliquota del 26 per cento, l'imposta è di 2.600 euro, e il cliente riceve il netto senza dover dichiarare nulla.\n\nL'aliquota è cambiata nel tempo. Il decreto-legge 66 del 2014 ha portato al 26 per cento le ritenute e le imposte sostitutive sui redditi di capitale. Il materiale del corso riassume così il regime per le polizze. L'imposta sostitutiva del 26 per cento si applica ai redditi di capitale derivanti da contratti sottoscritti dal primo luglio 2014. Per i contratti stipulati entro il 30 giugno 2014 si applica il 12,50 per cento alla parte di redditi maturata fino al 31 dicembre 2011, il 20 per cento alla parte maturata dal primo gennaio 2012 al 30 giugno 2014 e il 26 per cento alla parte maturata dal primo luglio 2014. Il comma 11 dell'articolo 3 del decreto 66 lo conferma: per i contratti sottoscritti fino al 30 giugno 2014, il 26 per cento si applica sulla parte dei redditi maturati dal primo luglio 2014. Il calcolo pro rata lo fa l'impresa. Per il cliente conta un messaggio: un contratto stipulato molti anni fa conserva un'aliquota più bassa sui rendimenti maturati in passato. È un elemento da considerare prima di consigliare di chiudere una polizza per aprirne un'altra.\n\nC'è poi una regola di favore per i titoli di Stato. I rendimenti che derivano da titoli del debito pubblico italiano e da obbligazioni di Stati che consentono un adeguato scambio di informazioni, la cosiddetta white list, devono essere tassati come se il risparmiatore li possedesse direttamente, cioè al 12,5 per cento. Per le polizze questo risultato si ottiene riducendo la base imponibile. Il materiale del corso indica le percentuali. Per i proventi maturati dal primo gennaio 2012 al 30 giugno 2014 si esclude dalla base imponibile il 37,50 per cento e si tassa il restante 62,50 per cento al 20 per cento. Per i proventi maturati dal primo luglio 2014 si esclude il 51,92 per cento e si tassa il 48,08 per cento al 26 per cento. Verifichiamo i conti: 62,50 per cento per 20 per cento fa 12,5; 48,08 per cento per 26 per cento fa ancora, arrotondando, 12,5. Per questo una gestione separata con molti titoli di Stato in portafoglio ha un prelievo medio inferiore al 26 per cento.\n\nSe il cliente sceglie una rendita vitalizia, la logica è simile. L'articolo 44, lettera g-quinquies, considera redditi di capitale i rendimenti delle rendite vitalizie aventi funzione previdenziale, e l'articolo 45, comma 4-ter, dice come calcolarli: è la differenza tra l'importo di ciascuna rata di rendita e quello della rata calcolata senza tener conto dei rendimenti finanziari. La parte della rata che restituisce il capitale non è tassata; si tassa solo la parte che deriva dalla rivalutazione.\n\nVeniamo al punto che interessa di più le famiglie: il capitale pagato ai beneficiari quando l'assicurato muore. L'ultimo comma dell'articolo 34 del D.P.R. 601 del 1973 dice: «I capitali percepiti in caso di morte in dipendenza di contratti di assicurazione sulla vita, a copertura del rischio demografico, sono esenti dall'imposta sul reddito delle persone fisiche». È l'eccezione al principio del lucro cessante che abbiamo visto nella prima lezione.\n\nLe parole «a copertura del rischio demografico» sono state aggiunte con effetto dal primo gennaio 2015. Da allora, come spiega il materiale del corso, anche le plusvalenze maturate nel contratto e versate al beneficiario designato a seguito del decesso dell'assicurato sono tassate, con modalità e misure analoghe alla tassazione delle plusvalenze realizzate dal contraente in caso di riscatto, parziale o totale. Cosa significa in pratica? Il capitale di una temporanea caso morte è tutto copertura del rischio: è esente. In una unit linked o in una polizza multiramo, invece, il capitale pagato al decesso è formato in gran parte dal valore dell'investimento: è esente solo la maggiorazione per il caso morte, mentre il rendimento dell'investimento è tassato come in un riscatto.\n\nDurante la vita della polizza c'è un'altra imposta da conoscere: l'imposta di bollo sulle comunicazioni periodiche relative ai prodotti finanziari, prevista dall'articolo 13, comma 2-ter, della tariffa allegata al D.P.R. 642 del 1972. Per le assicurazioni vale per le polizze di ramo III, cioè unit e index linked, e per le operazioni di capitalizzazione di ramo V, e si calcola sul valore di riscatto. Le aliquote annue e i limiti fissati per legge sono stati: per il 2012, lo 0,10 per cento, con un minimo di 34,20 euro e un massimo di 1.200 euro; per il 2013, lo 0,15 per cento, con un minimo di 34,20 euro e un massimo di 4.500 euro solo per i soggetti diversi dalle persone fisiche; dal 2014, lo 0,20 per cento, cioè il 2 per mille, senza importo minimo e con un massimo di 14.000 euro solo per i soggetti diversi dalle persone fisiche. Su 100.000 euro di valore di riscatto, il bollo annuo è quindi di 200 euro.\n\nDal 2025 è cambiato il momento del pagamento. Fino al 2024 il bollo maturava ogni anno ma era dovuto solo al rimborso o al riscatto: la compagnia lo accantonava e lo tratteneva alla fine. La legge di bilancio 2025, la 207 del 2024, ha stabilito che dal 2025 le imprese versino il bollo ogni anno; l'importo versato viene poi scomputato dalla prestazione alla scadenza o al riscatto. Per i contratti in corso al primo gennaio 2025, il bollo arretrato fino al 2024 si versa in quattro quote: il 50 per cento entro il 30 giugno 2025, il 20 per cento entro il 30 giugno 2026, il 20 per cento entro il 30 giugno 2027 e il 10 per cento entro il 30 giugno 2028. Per il cliente non cambia quanto paga, ma è utile saperlo per leggere correttamente l'estratto conto e la liquidazione.\n\nMettiamo tutto insieme con il caso pratico. Un cliente ha versato 100.000 euro in una unit linked nel 2016 e muore nel 2026. Ai beneficiari spettano 128.000 euro, di cui 1.000 euro sono la maggiorazione caso morte prevista dal contratto. La figlia chiede all'agente se dovrà pagare imposte. La risposta: la maggiorazione di 1.000 euro copre il rischio demografico ed è esente. Il resto, 127.000 euro, è il valore dell'investimento: il rendimento di 27.000 euro rispetto ai premi è tassato con imposta sostitutiva, applicata direttamente dalla compagnia, con l'aliquota del 26 per cento ridotta per la parte di rendimento che deriva da titoli di Stato. Dalla prestazione si scomputa anche il bollo versato negli anni. La figlia non deve fare nulla in dichiarazione: riceverà il netto. È una spiegazione che conviene dare prima, quando si propone il prodotto, e non solo dopo il sinistro.",
+      "sources": [
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        },
+        {
+          "title": "D.L. 24 aprile 2014, n. 66, art. 3",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-04-24;66~art3"
+        },
+        {
+          "title": "D.P.R. 29 settembre 1973, n. 601, art. 34",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1973-09-29;601~art34"
+        },
+        {
+          "title": "D.P.R. 29 settembre 1973, n. 600, art. 26-ter",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1973-09-29;600~art26ter"
+        },
+        {
+          "title": "Agenzia delle Entrate, Circolare n. 7/E del 4 giugno 2025 – Imposta di bollo sui contratti di assicurazione sulla vita",
+          "url": "https://www.agenziaentrate.gov.it/portale/documents/20143/8410825/Circolare_imposta_di_bollo_assicurazioni.n.+7+del+4+giugno+2025.pdf/feb3d16b-506c-8af1-b53c-2af4e87fe5d4"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Base imponibile dei capitali vita: differenza tra ammontare percepito e premi pagati; capitale convertito in rendita.",
+          "source_ref": "TUIR, art. 44, c. 1, lett. g-quater) e art. 45, c. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conferma normativa del 26% e del regime pro rata per i contratti fino al 30 giugno 2014.",
+          "source_ref": "D.L. 66/2014, art. 3, c. 1 e 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Rendite vitalizie: tassazione del solo rendimento finanziario della rata.",
+          "source_ref": "TUIR, art. 44, c. 1, lett. g-quinquies) e art. 45, c. 4-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Testo vigente dell'esenzione caso morte, in vigore dal 1° gennaio 2015, con esempi su TCM e unit linked.",
+          "source_ref": "D.P.R. 601/1973, art. 34, ultimo comma"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Bollo 2 per mille sulle comunicazioni di ramo III e V; dal 2025 versamento annuale da parte dell'impresa e piano in quattro rate per il bollo arretrato.",
+          "source_ref": "Circ. AdE 7/E del 4 giugno 2025; L. 207/2024, art. 1, c. 87-88"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi numerici, caso pratico e verifiche.",
+          "source_ref": "TUIR, art. 45; D.P.R. 601/1973, art. 34"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le aliquote del 12,50% (fino al 2011) e del 20% (2012 - giugno 2014) e le percentuali di esclusione del 37,50% e del 51,92%: coerenti con il D.L. 66/2014 (che riporta la base del 48,08%); riferimento puntuale per il periodo 2012-2014 da indicare (D.L. 138/2011).",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte i limiti del bollo per 2012 e 2013 e il massimo di 14.000 euro per i soggetti diversi dalle persone fisiche; verificata sul testo della Circ. AdE 7/E del 2025 solo l'aliquota del 2 per mille.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "La fiscalità della previdenza complementare",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "La fiscalità della previdenza complementare",
+          "goals": [
+            "Calcolare la deduzione dei contributi a fondi pensione e PIP",
+            "Conoscere la tassazione dei rendimenti durante l'accumulo",
+            "Applicare le aliquote su prestazioni, RITA, anticipazioni e riscatti"
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Il fisco in tre fasi",
+          "steps": [
+            {
+              "label": "Versamento",
+              "text": "I contributi sono deducibili dal reddito, entro un limite annuo."
+            },
+            {
+              "label": "Accumulo",
+              "text": "I rendimenti sono tassati ogni anno con imposta sostitutiva del 20%."
+            },
+            {
+              "label": "Erogazione",
+              "text": "La prestazione è tassata con ritenuta a titolo d'imposta dal 15% al 9%."
+            }
+          ],
+          "ref": "D.Lgs. 252/2005, artt. 8, 11 e 17"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Fase 1",
+          "title": "La deduzione dei contributi",
+          "lead": "Si deducono dal reddito complessivo i contributi del lavoratore e del datore di lavoro o committente, volontari o previsti da contratti e accordi collettivi.",
+          "facts": [
+            {
+              "label": "Limite",
+              "text": "5.164,57 euro l'anno; dal periodo d'imposta 2026 il limite è 5.300 euro."
+            },
+            {
+              "label": "Cosa si somma",
+              "text": "Contributi propri, del datore e quote accantonate dal datore ai fondi di previdenza aziendali."
+            },
+            {
+              "label": "Non dedotti",
+              "text": "Vanno comunicati alla forma pensionistica entro il 31 dicembre dell'anno successivo."
+            },
+            {
+              "label": "Familiari a carico",
+              "text": "Chi li ha a carico deduce la parte che non hanno dedotto loro, entro il limite complessivo."
+            }
+          ],
+          "ref": "D.Lgs. 252/2005, art. 8, c. 4-5; TUIR, art. 10"
+        },
+        {
+          "layout": "concept",
+          "title": "Perché comunicare i contributi non dedotti",
+          "key": "I contributi non dedotti non saranno tassati una seconda volta: al momento della prestazione vengono esclusi dalla base imponibile.",
+          "body": "Se il cliente versa più del limite, o non ha abbastanza reddito per dedurre, deve comunicarlo al fondo o al PIP. Altrimenti rischia di pagare l'imposta su somme già tassate.",
+          "ref": "D.Lgs. 252/2005, art. 8, c. 4 e art. 11, c. 6"
+        },
+        {
+          "layout": "concept",
+          "title": "I giovani alla prima occupazione",
+          "key": "Chi ha iniziato a lavorare dopo il 2006 e nei primi cinque anni ha versato meno del massimo può recuperare la deduzione nei vent'anni successivi.",
+          "body": "Può dedurre, oltre al limite, la differenza tra 25.822,85 euro e i contributi versati nei primi cinque anni, fino a 2.582,29 euro l'anno in più.",
+          "ref": "D.Lgs. 252/2005, art. 8, c. 6"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Fase 2",
+          "title": "La tassazione durante l'accumulo",
+          "lead": "Il fondo pensione paga un'imposta sostitutiva sul risultato netto maturato in ciascun anno.",
+          "facts": [
+            {
+              "label": "Aliquota",
+              "text": "20%, aumentata dal comma 621 della Legge di stabilità 2015 con effetto dal 1° gennaio 2014."
+            },
+            {
+              "label": "Titoli di Stato",
+              "text": "I loro redditi concorrono alla base imponibile per il 62,50%: prelievo effettivo del 12,50%."
+            },
+            {
+              "label": "Anche indiretti",
+              "text": "Il 12,50% vale anche per titoli pubblici detenuti tramite OICR e contratti di assicurazione."
+            },
+            {
+              "label": "Risultato negativo",
+              "text": "Si porta in diminuzione dei risultati degli anni successivi."
+            }
+          ],
+          "ref": "Materiale originale; D.Lgs. 252/2005, art. 17; L. 190/2014, art. 1, c. 621-622"
+        },
+        {
+          "layout": "timeline",
+          "title": "Fase 3: l'aliquota sulle prestazioni",
+          "items": [
+            {
+              "value": "15 %",
+              "text": "fino a 15 anni di partecipazione",
+              "ref": "D.Lgs. 252/2005, art. 11, c. 6"
+            },
+            {
+              "value": "− 0,30 %",
+              "text": "per ogni anno oltre il quindicesimo",
+              "ref": "art. 11, c. 6"
+            },
+            {
+              "value": "12 %",
+              "text": "con 25 anni di partecipazione",
+              "ref": "calcolo sulla norma"
+            },
+            {
+              "value": "9 %",
+              "text": "minimo, da 35 anni di partecipazione",
+              "ref": "art. 11, c. 6"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "La base imponibile della prestazione",
+          "items": [
+            {
+              "text": "Capitale e rendita sono tassati sull'importo complessivo, al netto dei redditi già tassati durante l'accumulo."
+            },
+            {
+              "text": "Si escludono anche i contributi non dedotti e comunicati."
+            },
+            {
+              "text": "Nella rendita si esclude anche il rendimento maturato durante l'erogazione, tassato come reddito di capitale."
+            },
+            {
+              "text": "Per chi era iscritto prima del 2007, gli anni precedenti contano al massimo per quindici."
+            },
+            {
+              "text": "La ritenuta è a titolo d'imposta: il pensionato non deve dichiarare la prestazione."
+            }
+          ],
+          "ref": "D.Lgs. 252/2005, art. 11, c. 6"
+        },
+        {
+          "layout": "table",
+          "title": "Le nuove forme di erogazione",
+          "head": [
+            "Forma",
+            "Tassazione"
+          ],
+          "rows": [
+            [
+              "Rendita a durata definita o prelievi",
+              "Come la prestazione in capitale: dal 15% al 9%"
+            ],
+            [
+              "Erogazione frazionata, almeno 5 anni",
+              "20%, ridotto di 0,25 punti per ogni anno oltre il quindicesimo, fino a un minimo del 15%"
+            ]
+          ],
+          "lead": "Introdotte dalla legge di bilancio 2026 per le forme a contribuzione definita.",
+          "ref": "D.Lgs. 252/2005, art. 11, c. 3-bis, 6-bis e 6-ter; L. 199/2025, art. 1, c. 202"
+        },
+        {
+          "layout": "table",
+          "title": "RITA, anticipazioni e riscatti",
+          "head": [
+            "Operazione",
+            "Limite",
+            "Aliquota"
+          ],
+          "rows": [
+            [
+              "RITA · Rendita temporanea anticipata",
+              "Tutto o parte del montante",
+              "Dal 15% al 9%, o tassazione ordinaria a scelta"
+            ],
+            [
+              "A · Spese sanitarie gravi",
+              "75%, in qualsiasi momento",
+              "Dal 15% al 9%"
+            ],
+            [
+              "B · Prima casa",
+              "75%, dopo 8 anni di iscrizione",
+              "23%"
+            ],
+            [
+              "C · Altre esigenze",
+              "30%, dopo 8 anni di iscrizione",
+              "23%"
+            ],
+            [
+              "R · Riscatti",
+              "Per le cause tutelate dalla legge / per altre cause",
+              "Dal 15% al 9% / 23%"
+            ]
+          ],
+          "ref": "D.Lgs. 252/2005, art. 11, c. 4-ter e 7; art. 14, c. 4-5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Altre regole utili",
+          "items": [
+            {
+              "text": "Le anticipazioni insieme non superano il 75% dei versamenti, compreso il TFR, più le plusvalenze."
+            },
+            {
+              "text": "Le anticipazioni si possono reintegrare, anche oltre il limite di deduzione: sul reintegro spetta un credito d'imposta."
+            },
+            {
+              "text": "I trasferimenti tra forme pensionistiche sono esenti da ogni onere fiscale."
+            },
+            {
+              "text": "Dal 2018 le stesse regole valgono per i dipendenti pubblici."
+            },
+            {
+              "text": "Dal 2027 queste norme si trovano negli artt. 257-259 del nuovo TUIR."
+            }
+          ],
+          "ref": "D.Lgs. 252/2005, artt. 11, c. 8 e 14, c. 6; D.Lgs. 117/2026"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente di 40 anni, dipendente con 45.000 euro di reddito, aderisce a un PIP e versa 3.000 euro l'anno. Chiede quanto risparmia subito e quanto pagherà sulla prestazione se resterà iscritta fino a 67 anni.",
+          "questions": [
+            "Quanto vale la deduzione ogni anno?",
+            "Quale aliquota si applicherà alla prestazione?"
+          ],
+          "solution": "I 3.000 euro sono sotto il limite di 5.300 euro: deducendoli, con aliquota marginale del 33%, risparmia circa 990 euro di IRPEF l'anno. Con 27 anni di partecipazione l'aliquota sulla prestazione sarà 15% − 0,30% × 12 = 11,4%, applicata sui contributi dedotti, mentre i rendimenti già tassati durante l'accumulo sono esclusi."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un aderente iscritto da 10 anni chiede un'anticipazione per comprare la prima casa. Qual è l'aliquota?",
+          "options": [
+            "9%",
+            "15%",
+            "23%",
+            "26%"
+          ],
+          "answer": 2,
+          "explanation": "Per la prima casa, dopo 8 anni di iscrizione, si può chiedere fino al 75% e si applica una ritenuta a titolo d'imposta del 23%."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa deve fare un aderente che ha versato più del limite di deduzione?",
+          "options": [
+            "Niente, l'eccedenza è persa",
+            "Comunicare al fondo l'importo non dedotto entro il 31 dicembre dell'anno successivo",
+            "Chiedere il rimborso all'Agenzia delle Entrate",
+            "Trasferire la posizione a un altro fondo"
+          ],
+          "answer": 1,
+          "explanation": "Comunicando i contributi non dedotti, l'aderente li fa escludere dalla base imponibile della prestazione: non saranno tassati due volte."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "5.300",
+              "text": "euro: limite di deduzione dal 2026 (prima 5.164,57)"
+            },
+            {
+              "value": "20%",
+              "text": "imposta sui rendimenti; 12,50% effettivo sui titoli di Stato"
+            },
+            {
+              "value": "15 → 9%",
+              "text": "aliquota sulle prestazioni, 0,30 in meno per anno oltre il 15°"
+            },
+            {
+              "value": "23%",
+              "text": "anticipazioni per prima casa e altre esigenze"
+            },
+            {
+              "value": "Esenti",
+              "text": "i trasferimenti tra forme pensionistiche"
+            }
+          ]
+        }
+      ],
+      "narration": "La previdenza complementare è il settore in cui il fisco interviene di più, e in modo più favorevole. Nell'area giuridica abbiamo già visto come funzionano i PIP e quali prestazioni possono pagare; qui ci occupiamo solo del trattamento fiscale, che vale allo stesso modo per fondi negoziali, fondi aperti e PIP. È uno degli argomenti di vendita più forti, ma anche uno dei più facili da semplificare troppo.\n\nIl modello si capisce ricordando il principio di utilità sociale: se il costo iniziale è deducibile, sarà tassato il provento. Infatti, i contributi sono deducibili all'ingresso; i rendimenti sono tassati ogni anno durante l'accumulo con un'imposta sostitutiva; la prestazione finale è tassata con una ritenuta a titolo d'imposta, con aliquote basse che si riducono con gli anni di partecipazione.\n\nPrima fase: il versamento. L'articolo 8, comma 4, del decreto legislativo 252 del 2005 stabilisce che i contributi versati dal lavoratore e dal datore di lavoro o committente, sia volontari sia dovuti in base a contratti o accordi collettivi, anche aziendali, sono deducibili dal reddito complessivo, ai sensi dell'articolo 10 del TUIR. Il limite è stato per molti anni di 5.164,57 euro; il testo vigente prevede che dal periodo d'imposta 2026 il limite sia innalzato a 5.300 euro. Nel limite si contano i contributi del lavoratore, quelli del datore di lavoro e anche le quote che il datore accantona ai fondi di previdenza aziendali.\n\nChe cosa succede ai contributi che non si deducono, perché superano il limite o perché il cliente non ha abbastanza reddito? Il contribuente deve comunicare alla forma pensionistica, entro il 31 dicembre dell'anno successivo a quello del versamento, o prima se matura il diritto alla prestazione, l'importo non dedotto. È una comunicazione importante: quei contributi, già tassati come reddito, saranno esclusi dalla base imponibile della prestazione. Se il cliente se ne dimentica, rischia di pagare due volte. Un buon intermediario lo ricorda ogni anno.\n\nSi può dedurre anche per i familiari fiscalmente a carico. Se un genitore versa contributi alla posizione del figlio a carico, deduce la parte che il figlio non ha dedotto, fermo restando il limite complessivo. È un modo concreto per avviare presto la previdenza dei figli.\n\nC'è poi una regola per i giovani. Ai lavoratori di prima occupazione successiva all'entrata in vigore del decreto, cioè dal 2007, che nei primi cinque anni di partecipazione hanno versato meno del massimo, è consentito recuperare la deduzione nei vent'anni successivi al quinto anno. Possono dedurre, oltre al limite ordinario, la differenza tra 25.822,85 euro e i contributi effettivamente versati nei primi cinque anni, fino a un massimo di 2.582,29 euro l'anno. Chi inizia a lavorare con uno stipendio basso non perde quindi il beneficio fiscale.\n\nSeconda fase: l'accumulo. I fondi pensione sono soggetti a un'imposta sostitutiva sul risultato netto maturato in ciascun periodo d'imposta. Il materiale del corso ricorda che il comma 621 dell'articolo 1 della Legge di stabilità 2015, la legge 190 del 2014, ha aumentato al 20 per cento la misura dell'imposta, con effetto dal primo gennaio 2014. Il successivo comma 622 ha regolato la base imponibile in modo che i redditi dei titoli del debito pubblico italiano e dei Paesi collaborativi, percepiti dalle forme pensionistiche, siano tassati nella misura del 12,50 per cento. Per ottenerlo, i redditi dei titoli di Stato concorrono alla base imponibile per il 62,50 per cento: 62,50 per cento per 20 per cento dà proprio 12,50. L'aliquota del 12,50 vale anche per gli investimenti indiretti in titoli pubblici, fatti dai fondi tramite organismi di investimento collettivo del risparmio e contratti di assicurazione. Se in un anno il risultato è negativo, si porta in diminuzione dei risultati degli anni successivi. Per completezza, la legge prevede anche un'esenzione per i redditi derivanti da alcuni investimenti qualificati nell'economia reale, a determinate condizioni.\n\nIl materiale del corso aggiunge che la Legge di stabilità 2015 non ha modificato le norme fiscali della previdenza complementare né in fase di versamento né in fase di erogazione. Vediamo allora l'erogazione.\n\nTerza fase: la prestazione. Sulla parte imponibile delle prestazioni, in capitale o in rendita, la forma pensionistica o l'impresa che paga la rendita applica una ritenuta a titolo d'imposta del 15 per cento, ridotta di 0,30 punti percentuali per ogni anno di partecipazione oltre il quindicesimo, con una riduzione massima di 6 punti. L'aliquota quindi scende fino al 9 per cento, che si raggiunge con 35 anni di partecipazione. Con 25 anni di partecipazione, per esempio, l'aliquota è del 12 per cento. Per chi era iscritto prima del 2007, gli anni di iscrizione precedenti si contano fino a un massimo di quindici.\n\nSu quale base si applica? Le prestazioni sono imponibili per il loro ammontare complessivo, al netto della parte corrispondente ai redditi già assoggettati a imposta, cioè i rendimenti già tassati anno per anno, e dei contributi non dedotti che il cliente ha comunicato. Per le rendite si esclude anche la parte di rendimento che matura durante l'erogazione, che è tassata come reddito di capitale. In pratica, la ritenuta colpisce soprattutto i contributi dedotti: quelli che all'ingresso hanno dato il risparmio fiscale.\n\nLa legge di bilancio 2026 ha introdotto, per le forme a contribuzione definita, nuove modalità di erogazione in alternativa alla rendita vitalizia; le abbiamo citate nell'area giuridica. Qui vediamo solo il fisco. La rendita a durata definita e i prelievi sono tassati come la prestazione in capitale, quindi dal 15 al 9 per cento. L'erogazione frazionata del montante, per un periodo non inferiore a cinque anni, ha invece un regime proprio: ritenuta del 20 per cento, ridotta di 0,25 punti per ogni anno oltre il quindicesimo, con una riduzione massima di 5 punti, quindi fino al 15 per cento. Queste regole si applicano dal primo luglio 2026, e per l'erogazione frazionata dal 31 ottobre 2026.\n\nLa RITA, la rendita integrativa temporanea anticipata, la studieremo nell'argomento sul sistema pensionistico. Dal punto di vista fiscale, la sua parte imponibile è tassata con la stessa ritenuta dal 15 al 9 per cento, ma il percettore può scegliere la tassazione ordinaria, indicandolo espressamente in dichiarazione. Le somme erogate come RITA si imputano prima agli importi maturati fino al 2000, poi a quelli dal 2001 al 2006 e infine a quelli dal 2007.\n\nLe anticipazioni hanno tre regimi. Per spese sanitarie dovute a situazioni gravissime per sé, per il coniuge o per i figli, si può chiedere in qualsiasi momento fino al 75 per cento della posizione, con la ritenuta agevolata dal 15 al 9 per cento. Dopo otto anni di iscrizione si può chiedere fino al 75 per cento per comprare o ristrutturare la prima casa, per sé o per i figli, e fino al 30 per cento per ulteriori esigenze: in entrambi i casi la ritenuta è del 23 per cento. Le anticipazioni, nel complesso, non possono superare il 75 per cento dei versamenti, compreso il TFR, più le plusvalenze. Si possono reintegrare in qualsiasi momento, anche con contributi oltre il limite di deduzione: sulla parte reintegrata spetta un credito d'imposta pari all'imposta pagata sull'anticipazione.\n\nI riscatti seguono una logica simile: per le cause tutelate dall'articolo 14, commi 2 e 3, del decreto si applica la ritenuta dal 15 al 9 per cento; per la perdita dei requisiti di partecipazione per altre cause, il 23 per cento. I trasferimenti da una forma pensionistica a un'altra sono invece esenti da ogni onere fiscale. Dal 2018 queste regole valgono anche per i dipendenti pubblici. E, come abbiamo detto, dal 2027 le disposizioni fiscali del decreto 252 si trovano negli articoli da 257 a 259 del nuovo testo unico.\n\nChiudiamo con il caso pratico. Una cliente di 40 anni, dipendente con 45.000 euro di reddito, aderisce a un PIP e versa 3.000 euro l'anno. I 3.000 euro stanno sotto il limite di 5.300 euro: deducendoli, con un'aliquota marginale del 33 per cento, risparmia circa 990 euro di IRPEF ogni anno. Se resterà iscritta fino a 67 anni avrà 27 anni di partecipazione: l'aliquota sulla prestazione sarà del 15 per cento meno 0,30 per 12 anni, cioè l'11,4 per cento, applicata sostanzialmente sui contributi dedotti. È un vantaggio reale, che si può mostrare con i numeri. Ma la scelta di aderire deve basarsi anche su costi, linee di investimento e orizzonte temporale, come richiede la valutazione di adeguatezza.",
+      "sources": [
+        {
+          "title": "D.Lgs. 5 dicembre 2005, n. 252, testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-12-05;252"
+        },
+        {
+          "title": "D.Lgs. 19 giugno 2026, n. 117 – Nuovo Testo unico delle imposte sui redditi (applicabile dal 1° gennaio 2027)",
+          "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+        },
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Deducibilità dei contributi: limite di 5.164,57 euro innalzato a 5.300 euro dal periodo d'imposta 2026; contributi del datore, quote ai fondi aziendali, comunicazione dei non dedotti, familiari a carico, recupero per i giovani alla prima occupazione.",
+          "source_ref": "D.Lgs. 252/2005, art. 8, c. 4-6 (testo vigente)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Risultato negativo riportabile e richiamo all'esenzione per investimenti qualificati.",
+          "source_ref": "D.Lgs. 252/2005, art. 17; D.Lgs. 117/2026, artt. 257 e 286"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tassazione delle prestazioni: 15% ridotto di 0,30 punti per anno oltre il 15°, minimo 9%; base imponibile; anni ante 2007 fino a 15.",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fiscalità delle nuove forme di erogazione (rendita a durata definita, prelievi, erogazione frazionata) e date di applicazione.",
+          "source_ref": "D.Lgs. 252/2005, art. 11, c. 6-bis e 6-ter; L. 199/2025, art. 1, c. 202, come modificato dal D.L. 62/2026"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tassazione di RITA, anticipazioni, riscatti, trasferimenti; reintegro con credito d'imposta; dipendenti pubblici dal 2018.",
+          "source_ref": "D.Lgs. 252/2005, artt. 11, c. 4-ter, 7-8 e 14; D.Lgs. 117/2026, artt. 258-259"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi numerici, caso pratico e verifiche.",
+          "source_ref": "D.Lgs. 252/2005, artt. 8 e 11"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte cita «il comma 621 dell'articolo 1 della Legge di Stabilità» senza indicare l'anno: si tratta della L. 190/2014 (Legge di stabilità 2015). Mantenuta l'indicazione della decorrenza dal 1° gennaio 2014.",
+          "source_ref": "D.Lgs. 117/2026, art. 257 (rubrica: art. 1, c. 622, L. 190/2014)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «La Legge di stabilità 2015 non ha modificato le norme fiscali della previdenza complementare in fase di versamento e di erogazione». Superata per gli anni successivi: limite di deduzione elevato a 5.300 euro dal 2026 e nuovi regimi di erogazione dalla L. 199/2025.",
+          "source_ref": "D.Lgs. 252/2005, artt. 8 e 11 (testo vigente)"
+        }
+      ]
+    },
+    {
+      "title": "Rami danni, imprese e casi controversi",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Trattamento fiscale dei vari tipi di polizze vita e pensionistiche.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Trattamento fiscale delle polizze vita e previdenziali",
+          "title": "Rami danni, imprese e casi controversi",
+          "goals": [
+            "Spiegare perché una polizza danni della persona fisica non dà benefici fiscali",
+            "Capire come premi e indennizzi entrano nel reddito d'impresa",
+            "Riconoscere addizionali sui premi e casi dubbi come le polizze con cedola"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Rami danni: persona fisica e impresa",
+          "cols": [
+            {
+              "title": "Persona fisica",
+              "items": [
+                "RC, incendio, furto e simili: premi né deducibili né detraibili",
+                "Le prestazioni non sono tassate, se non producono un provento assimilabile a un reddito",
+                "Il rimborso di un bene perso o distrutto non è reddito"
+              ]
+            },
+            {
+              "title": "Impresa",
+              "items": [
+                "Il premio contro un evento dannoso legato all'attività è un costo deducibile",
+                "L'indennizzo è un componente positivo di reddito",
+                "Vale il principio di inerenza"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il principio di inerenza",
+          "key": "Ogni costo dell'impresa è fiscalmente deducibile nella misura in cui è inerente all'attività esercitata, cioè è direttamente o indirettamente idoneo a produrre ricavi tassabili.",
+          "body": "Così partecipa a pieno titolo alla formazione del reddito d'impresa. La polizza incendio sul capannone o la RC prodotti di un'azienda sono costi inerenti.",
+          "ref": "Materiale originale; TUIR, art. 109"
+        },
+        {
+          "layout": "table",
+          "title": "Il TUIR per imprese e società",
+          "head": [
+            "Articolo",
+            "Che cosa regola"
+          ],
+          "rows": [
+            [
+              "75 · 81",
+              "Base imponibile e reddito complessivo delle società"
+            ],
+            [
+              "86",
+              "Plusvalenze, anche quelle realizzate con un risarcimento assicurativo per perdita o danneggiamento di beni"
+            ],
+            [
+              "88",
+              "Sopravvenienze attive, tra cui gli altri indennizzi assicurativi"
+            ],
+            [
+              "100",
+              "Oneri di utilità sociale"
+            ],
+            [
+              "106",
+              "Svalutazione dei crediti"
+            ],
+            [
+              "109",
+              "Norme generali sui componenti del reddito"
+            ]
+          ],
+          "ref": "Materiale originale; TUIR, artt. 86, c. 1, lett. b) e 88, c. 3, lett. a)"
+        },
+        {
+          "layout": "steps",
+          "title": "L'indennizzo nel bilancio dell'impresa",
+          "steps": [
+            {
+              "label": "Il sinistro",
+              "text": "Un macchinario con valore fiscale di 20.000 euro va distrutto."
+            },
+            {
+              "label": "L'indennizzo",
+              "text": "La compagnia paga 35.000 euro."
+            },
+            {
+              "label": "La plusvalenza",
+              "text": "La differenza di 15.000 euro concorre a formare il reddito."
+            },
+            {
+              "label": "Altri danni",
+              "text": "Gli indennizzi per danni diversi sono sopravvenienze attive."
+            }
+          ],
+          "ref": "TUIR, artt. 86, c. 1, lett. b) e 88, c. 3, lett. a)"
+        },
+        {
+          "layout": "table",
+          "title": "Le addizionali con finalità specifiche",
+          "head": [
+            "Addizionale",
+            "Su che cosa",
+            "Misura"
+          ],
+          "rows": [
+            [
+              "SSN · Servizio sanitario",
+              "Premi RC auto e natanti",
+              "10,50%, indicato in polizza e quietanza"
+            ],
+            [
+              "FGVS · Vittime della strada",
+              "Premi RC auto obbligatoria",
+              "Contributo commisurato al premio, versato a CONSAP"
+            ],
+            [
+              "Usura · Anti-usura",
+              "Premi assicurativi",
+              "Addizionale con finalità di contrasto all'usura"
+            ]
+          ],
+          "lead": "Si aggiungono al premio e all'imposta sulle assicurazioni.",
+          "ref": "CAP, artt. 285, c. 3 e 334; materiale originale"
+        },
+        {
+          "layout": "concept",
+          "title": "Il contributo al Servizio sanitario nazionale",
+          "key": "Sui premi RC auto e natanti si applica un contributo del 10,5% che sostituisce le azioni di Regioni ed enti sanitari per recuperare le spese di cura dei danneggiati.",
+          "body": "L'impresa lo indica distintamente in polizza e nelle quietanze e ha diritto di rivalersi sul contraente: per questo il cliente lo trova nel totale da pagare.",
+          "ref": "CAP, art. 334"
+        },
+        {
+          "layout": "checklist",
+          "title": "Altre imposte sui contratti",
+          "items": [
+            {
+              "text": "IVA: le operazioni di assicurazione sono esenti.",
+              "ref": "D.P.R. 633/1972"
+            },
+            {
+              "text": "Imposta sulle assicurazioni: si applica ai premi secondo le tariffe della L. 1216/1961.",
+              "ref": "L. 1216/1961"
+            },
+            {
+              "text": "Contributi e addizionali speciali: sono a carico del contraente per rivalsa.",
+              "ref": "CAP, art. 334, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'assicurazione dei crediti",
+          "key": "Le svalutazioni dei crediti verso clienti sono deducibili ogni anno nel limite dello 0,50% del loro valore, fino a un massimo complessivo del 5%, ma solo per la parte non coperta da garanzia assicurativa.",
+          "body": "Se il credito è assicurato, il rischio è già trasferito alla compagnia: l'impresa non può anche svalutarlo fiscalmente. La perdita eventuale emerge dopo, al netto dell'indennizzo.",
+          "ref": "Materiale originale; TUIR, art. 106, c. 1"
+        },
+        {
+          "layout": "split",
+          "title": "Le polizze cum cedola: il problema",
+          "left": {
+            "title": "Il prodotto",
+            "items": [
+              "Paga cedole periodiche durante il contratto",
+              "A scadenza paga un capitale, spesso con un minimo garantito",
+              "Le cedole possono essere in parte restituzione dei premi"
+            ]
+          },
+          "right": {
+            "title": "La domanda",
+            "items": [
+              "Le cedole sono reddito subito?",
+              "O solo quando superano i premi pagati?",
+              "Alla scadenza, si rischia di tassare un reddito che non c'è?"
+            ]
+          },
+          "note": "Va calcolato se nelle cedole c'è una componente reddituale e, se c'è, quanto vale.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due letture a confronto",
+          "cols": [
+            {
+              "title": "Quando le cedole diventano imponibili",
+              "items": [
+                "Se è garantito un capitale minimo predeterminato",
+                "E se capitale minimo garantito più cedole già erogate supera i premi versati",
+                "In caso di recesso si guarda al capitale minimo garantito"
+              ]
+            },
+            {
+              "title": "La posizione dell'Agenzia delle Entrate",
+              "items": [
+                "Non si può aspettare che le cedole superino i premi",
+                "Altrimenti si presumerebbe che la restituzione dei premi venga prima dei rendimenti",
+                "Una presunzione che la legge non prevede"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola azienda di trasporti chiede al broker se può dedurre il premio della polizza incendio del magazzino, della RC auto dei camion e di una polizza vita sul titolare con beneficiari i suoi figli.",
+          "questions": [
+            "Quali premi sono costi deducibili per l'impresa?",
+            "Che cosa trova il cliente nella quietanza RC auto oltre al premio?"
+          ],
+          "solution": "Incendio del magazzino e RC auto dei mezzi sono inerenti all'attività: costi deducibili, secondo le regole del reddito d'impresa. La polizza vita con beneficiari i figli tutela interessi personali del titolare: non è inerente e va valutata come polizza della persona fisica. Nella quietanza RC auto ci sono l'imposta sulle assicurazioni, il contributo SSN del 10,5% e il contributo al Fondo di garanzia vittime della strada."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un privato riceve 8.000 euro dalla compagnia per il furto della sua auto. Deve pagare imposte sull'indennizzo?",
+          "options": [
+            "Sì, è reddito diverso",
+            "Sì, con imposta sostitutiva del 26%",
+            "No, è il rimborso di un danno emergente",
+            "Solo se supera i premi pagati"
+          ],
+          "answer": 2,
+          "explanation": "L'indennizzo rimborsa la perdita di un bene: è danno emergente, non reddito. Per un'impresa, invece, concorrerebbe al reddito come plusvalenza o sopravvenienza."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quanto vale il contributo al Servizio sanitario nazionale sui premi RC auto?",
+          "options": [
+            "2,5%",
+            "10,5%",
+            "12,5%",
+            "26%"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 334 del Codice delle assicurazioni fissa il contributo al 10,5% dei premi incassati; l'impresa si rivale sul contraente."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Nessuno",
+              "text": "beneficio fiscale per le polizze danni della persona fisica"
+            },
+            {
+              "value": "Inerenza",
+              "text": "il premio è deducibile se legato all'attività d'impresa"
+            },
+            {
+              "value": "10,5%",
+              "text": "contributo SSN sui premi RC auto e natanti"
+            },
+            {
+              "value": "0,50 · 5%",
+              "text": "limiti di svalutazione dei crediti non assicurati"
+            },
+            {
+              "value": "Cedole",
+              "text": "si cerca la componente di reddito, senza presumere prima la restituzione dei premi"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione dell'argomento usciamo dal ramo vita. Vediamo come il fisco tratta le polizze danni, con l'esclusione di infortuni e malattia che abbiamo già visto tra le polizze di persone; come premi e indennizzi entrano nel reddito d'impresa; quali addizionali gravano sui premi; e due casi particolari su cui l'amministrazione finanziaria ha preso posizione.\n\nCominciamo dalla persona fisica. Quando un privato stipula una polizza di responsabilità civile, incendio, furto e simili, i premi non danno diritto ad alcuna deduzione né detrazione. In compenso, le prestazioni pagate dalla compagnia non sono tassate, nella misura in cui non determinano un provento assimilabile a un reddito tassabile. È l'applicazione del principio del danno emergente: il rimborso del furto dell'auto o della ristrutturazione dopo un incendio non è reddito, perché ripara una perdita. Tra le polizze danni c'è un'eccezione, che abbiamo visto in una lezione precedente: dal 2018 sono detraibili al 19 per cento i premi per il rischio di eventi calamitosi sull'abitazione.\n\nPer l'impresa il quadro è opposto. Il premio pagato per assicurarsi contro un evento dannoso relativo all'attività esercitata è un componente negativo di reddito e, come tale, è deducibile. Vale il principio di inerenza: ogni costo sostenuto dall'impresa può essere dedotto nella misura in cui è inerente all'attività, cioè è direttamente o indirettamente idoneo a produrre ricavi tassabili, partecipando a pieno titolo alla formazione del reddito. La polizza incendio sul capannone, la RC verso terzi, la RC prodotti, la polizza sui mezzi aziendali sono costi inerenti.\n\nGli articoli del TUIR da conoscere per il reddito d'impresa e per le persone giuridiche sono il 75 sulla base imponibile, l'81 sul reddito complessivo, l'86 sulle plusvalenze patrimoniali, l'88 sulle sopravvenienze attive, il 100 sugli oneri di utilità sociale, il 106 sulla svalutazione dei crediti e il 109 sulle norme generali dei componenti del reddito d'impresa. Due di questi riguardano direttamente gli indennizzi. L'articolo 86 stabilisce che le plusvalenze dei beni d'impresa concorrono a formare il reddito anche quando sono realizzate mediante il risarcimento, anche in forma assicurativa, per la perdita o il danneggiamento dei beni. L'articolo 88 considera sopravvenienze attive le indennità conseguite a titolo di risarcimento, anche in forma assicurativa, di danni diversi.\n\nUn esempio. Un macchinario ha un valore fiscale residuo di 20.000 euro e viene distrutto da un incendio. La compagnia paga 35.000 euro, il valore a nuovo. La differenza di 15.000 euro è una plusvalenza che concorre a formare il reddito dell'impresa. Se invece l'indennizzo copre un danno diverso, per esempio un fermo dell'attività, è una sopravvenienza attiva. In entrambi i casi l'indennizzo entra nel reddito, perché il premio, a suo tempo, era stato dedotto: è ancora la logica dell'utilità sociale, applicata all'impresa.\n\nPassiamo alle addizionali con finalità specifiche, che il cliente trova in quietanza insieme all'imposta sulle assicurazioni. Il materiale del corso ne ricorda tre. La prima è l'addizionale anti-usura, con finalità di contrasto all'usura. La seconda è l'addizionale sul premio RC auto a favore del Fondo di garanzia per le vittime della strada: l'articolo 285 del Codice delle assicurazioni prevede che le imprese che esercitano la RC auto versino ogni anno alla CONSAP, che gestisce il Fondo, un contributo commisurato al premio di ciascun contratto obbligatorio. La terza è il contributo a favore del Servizio sanitario nazionale, attualmente nella misura del 10,50 per cento.\n\nVale la pena soffermarsi su quest'ultimo, regolato dall'articolo 334 del Codice. Si applica sui premi delle assicurazioni di responsabilità civile per i danni causati dalla circolazione dei veicoli a motore e dei natanti. Sostituisce le azioni che Regioni ed enti del Servizio sanitario potrebbero esercitare contro l'impresa o il responsabile del sinistro per recuperare il costo delle cure prestate ai danneggiati. L'aliquota è del dieci virgola cinque per cento sui premi incassati, va indicata distintamente in polizza e nelle quietanze, e l'impresa ha diritto di rivalersi sul contraente. Quando un cliente chiede perché il totale della RC auto è più alto del premio, l'intermediario può spiegarlo con precisione.\n\nRicordiamo poi due regole sulle imposte indirette. Le operazioni di assicurazione sono esenti da IVA, secondo il D.P.R. 633 del 1972. Sui premi si applica invece l'imposta sulle assicurazioni, disciplinata dalla legge 1216 del 1961 e dalle tariffe allegate, con aliquote diverse a seconda del ramo.\n\nVeniamo ai casi particolari e alla posizione dell'amministrazione finanziaria su situazioni controverse. Il primo è l'assicurazione dei crediti. L'articolo 106 del TUIR consente all'impresa di svalutare fiscalmente i crediti verso clienti nel limite annuo dello 0,50 per cento del loro valore nominale o di acquisizione, e non oltre un limite complessivo del 5 per cento dei crediti in bilancio. Ma la norma dice anche che si svaluta solo l'importo non coperto da garanzia assicurativa. Il materiale del corso lo presenta come eccezione, solo e unicamente per i crediti coperti da garanzia assicurativa. Il senso è chiaro: se il credito è assicurato, il rischio di insolvenza è già passato alla compagnia, e l'impresa non può dedurre anche un accantonamento per lo stesso rischio. Per un'azienda che valuta una polizza credito, è un elemento da mettere sul tavolo.\n\nIl secondo caso sono le polizze cum cedola, cioè le polizze vita che pagano prestazioni periodiche durante il contratto e un capitale alla scadenza. La domanda è: le cedole sono tassabili subito? Una lettura, riportata nel materiale del corso, sostiene che queste prestazioni diventino imponibili soltanto se è garantito un capitale minimo di ammontare predeterminato e se la somma del capitale minimo garantito e delle prestazioni erogate supera i premi versati. Il rischio, altrimenti, è di trovarsi alla scadenza a tassare un reddito che, come differenza tra capitale, cedole e premi, in tutto o in parte non c'è. In caso di recesso, si deve avere riguardo al capitale minimo garantito. Il metodo corretto è calcolare se nelle cedole c'è una componente reddituale e, in caso positivo, quantificarla.\n\nL'Agenzia delle Entrate ha però escluso una soluzione più comoda per il contribuente: secondo l'Agenzia, deve escludersi l'ipotesi che le prestazioni annuali siano imponibili solo una volta che il loro importo abbia superato quello dei premi pagati, perché si ammetterebbe una presunzione secondo cui la restituzione dei premi precederebbe il pagamento dei rendimenti. In pratica, non si può considerare ogni cedola come restituzione di capitale finché i premi non sono stati recuperati. Per l'intermediario il messaggio è prudente: su questi prodotti la tassazione delle cedole dipende dal contratto, e la compagnia, che agisce come sostituto d'imposta, è la fonte da consultare.\n\nChiudiamo con il caso pratico. Una piccola azienda di trasporti chiede al broker se può dedurre tre premi: la polizza incendio del magazzino, la RC auto dei camion e una polizza vita sul titolare con beneficiari i figli. Le prime due sono inerenti all'attività: sono costi deducibili, secondo le regole del reddito d'impresa. La polizza vita a favore dei figli tutela invece interessi personali e familiari del titolare: non è inerente, e va valutata come polizza della persona fisica, con la detrazione del 19 per cento sulla quota di rischio, se ne ricorrono le condizioni. E nella quietanza RC auto il cliente troverà, oltre al premio, l'imposta sulle assicurazioni, il contributo al Servizio sanitario nazionale e quello al Fondo di garanzia per le vittime della strada. Con questa lezione abbiamo completato il quadro: dal premio alla prestazione, dalla persona fisica all'impresa.",
+      "sources": [
+        {
+          "title": "D.P.R. 22 dicembre 1986, n. 917 (TUIR), testo vigente su Normattiva",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917"
+        },
+        {
+          "title": "TUIR, art. 106 – Svalutazione dei crediti",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.presidente.repubblica:1986-12-22;917~art106"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (CAP), art. 334",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art334"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (CAP), art. 285",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art285"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Indennizzi nel reddito d'impresa: plusvalenze da risarcimento assicurativo e sopravvenienze attive, con esempio numerico.",
+          "source_ref": "TUIR, artt. 86, c. 1, lett. b) e 88, c. 3, lett. a)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contributo SSN del 10,5% sui premi RC auto e natanti: funzione, indicazione in polizza e rivalsa sul contraente.",
+          "source_ref": "CAP, art. 334"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contributo al Fondo di garanzia per le vittime della strada versato a CONSAP, commisurato al premio.",
+          "source_ref": "CAP, art. 285, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Testo dell'art. 106 TUIR: svalutazione limitata all'importo non coperto da garanzia assicurativa.",
+          "source_ref": "TUIR, art. 106, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e verifiche.",
+          "source_ref": "TUIR, art. 109; CAP, art. 334"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte presenta i crediti assicurati come «eccezione» alla svalutazione: la norma esclude dalla svalutazione la parte coperta da garanzia assicurativa. Chiarito il significato.",
+          "source_ref": "TUIR, art. 106, c. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'«addizionale anti-usura» sui premi. Riferimento normativo e misura da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la citazione della posizione dell'Agenzia delle Entrate sulle polizze cum cedola e la tesi sull'imponibilità condizionata. Documento di prassi (circolare o risoluzione) da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuto dalla fonte il richiamo alle esenzioni IVA (D.P.R. 633/1972) e alla L. 1216/1961 senza indicare aliquote: articoli e misure da indicare.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}

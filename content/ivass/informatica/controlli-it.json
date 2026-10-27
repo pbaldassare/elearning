@@ -1,0 +1,704 @@
+{
+  "module": "Area informatica",
+  "topic": "Controlli di sicurezza IT",
+  "topic_order": 10,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Principi della cyber security e controlli generali IT",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Cyber Security ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Controlli di sicurezza IT",
+          "title": "Principi della cyber security e controlli generali IT",
+          "goals": [
+            "Collegare la triade riservatezza, integrità e disponibilità ai controlli quotidiani",
+            "Conoscere le quattro macro-aree dei controlli generali IT",
+            "Applicarle a un'agenzia: utenze, aggiornamenti, nuovi applicativi, elaborazioni"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la cyber security aziendale",
+          "key": "È l'insieme di prodotti, servizi, processi organizzativi e comportamenti individuali che proteggono i sistemi informatici di un'azienda.",
+          "body": "Quattro ingredienti, non uno. Un antivirus è un prodotto; l'assistenza esterna è un servizio; la procedura per creare un'utenza è un processo; non condividere la password è un comportamento. Se ne manca uno, gli altri rendono meno.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La triade CIA",
+          "lead": "Tre elementi cardine, noti con l'acronimo inglese CIA. Li avete già visti nel modulo «Sicurezza informatica»: qui li usiamo come metro dei controlli.",
+          "head": [
+            "Elemento",
+            "Che cosa significa",
+            "Controllo tipico"
+          ],
+          "rows": [
+            [
+              "C · Confidenzialità",
+              "Proteggere i dati da accessi non autorizzati",
+              "Profili di accesso minimi"
+            ],
+            [
+              "I · Integrità",
+              "Proteggere le informazioni da modifiche o cancellazioni indesiderate",
+              "Modifiche autorizzate e tracciate"
+            ],
+            [
+              "A · Disponibilità",
+              "Permettere un accesso sicuro ai dati quando serve",
+              "Backup e piano di ripristino"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Prevenire evolvendo",
+          "items": [
+            {
+              "text": "Ricerca costante di soluzioni all'avanguardia e aggiornate"
+            },
+            {
+              "text": "Dinamismo e capacità di autoanalisi per prevenire gli attacchi"
+            },
+            {
+              "text": "Flessibilità mentale per pensare in modo innovativo",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Perché l'IT entra nella revisione",
+          "key": "Con i gestionali integrati (ERP) i numeri dell'azienda nascono dentro i sistemi: per questo la revisione contabile deve avvalersi dell'Information Technology.",
+          "body": "Se chiunque può modificare un dato o un programma, anche il bilancio è a rischio. I controlli generali IT (GITC) servono a fidarsi di ciò che i sistemi producono: premi incassati, provvigioni, rimesse.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Due fronti di rischio",
+          "cols": [
+            {
+              "title": "Rischi interni",
+              "items": [
+                "Nascono da una minaccia interna",
+                "Comportamenti non idonei del personale",
+                "Esempi: accessi oltre il necessario, modifiche non autorizzate, errori"
+              ]
+            },
+            {
+              "title": "Rischi esterni",
+              "items": [
+                "Nascono da minacce dell'ambiente esterno",
+                "Esempi: malware, intrusioni, eventi che danneggiano i sistemi",
+                "Si affrontano con procedure preventive e piani di ripristino"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le quattro macro-aree dei controlli IT",
+          "head": [
+            "Area",
+            "Che cosa garantisce"
+          ],
+          "rows": [
+            [
+              "1 · Accesso a programmi e dati",
+              "Riduce gli accessi non autorizzati o inappropriati ai sistemi rilevanti per il reporting finanziario"
+            ],
+            [
+              "2 · Modifiche ai programmi",
+              "Le modifiche sono autorizzate, testate, approvate, implementate e documentate"
+            ],
+            [
+              "3 · Sviluppo dei programmi",
+              "Nuovi sistemi, applicazioni o versioni, sviluppati o acquistati, sono autorizzati, implementati, testati, approvati e documentati"
+            ],
+            [
+              "4 · Operazioni del computer",
+              "Le elaborazioni sono appropriate, autorizzate, pianificate e monitorate; le anomalie sono identificate e risolte"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Area 1: il ciclo di vita di un'utenza",
+          "steps": [
+            {
+              "label": "Richiesta",
+              "text": "Chi ha l'autorità chiede per iscritto l'accesso per una persona e un ruolo"
+            },
+            {
+              "label": "Profilo",
+              "text": "Si concede solo ciò che serve a quel ruolo"
+            },
+            {
+              "label": "Revisione",
+              "text": "Periodicamente si verifica che utenze e profili siano ancora giusti"
+            },
+            {
+              "label": "Cessazione",
+              "text": "All'uscita della persona l'utenza si blocca subito"
+            }
+          ],
+          "ref": "Esempio didattico sulla base del materiale originale"
+        },
+        {
+          "layout": "split",
+          "title": "Area 1: credenziali e autenticazione",
+          "left": {
+            "title": "Errori frequenti",
+            "items": [
+              "Utenze condivise tra più persone",
+              "Password di fabbrica mai cambiate",
+              "Password annotate o inviate per e-mail"
+            ]
+          },
+          "right": {
+            "title": "Che cosa chiedono norme e polizze",
+            "items": [
+              "Il decreto NIS prevede, ove opportuno, l'autenticazione a più fattori",
+              "Alcune polizze cyber escludono i sinistri con credenziali di default non modificate"
+            ]
+          },
+          "note": "Un'utenza personale per ogni persona è il presupposto di ogni altro controllo: senza, non si sa chi ha fatto che cosa.",
+          "noteRef": "D.Lgs. 138/2024, art. 24, c. 2, lett. l; IVASS, Indagine polizze cyber, par. 3.1.4"
+        },
+        {
+          "layout": "concept",
+          "title": "Area 2: le modifiche ai programmi",
+          "key": "Ogni modifica a un sistema esistente segue cinque passaggi: autorizzata, testata, approvata, implementata, documentata.",
+          "body": "Esempio: il fornitore propone di cambiare il calcolo delle provvigioni nel gestionale. Chi decide la modifica? È stata provata su dati di prova? Chi la approva prima che vada in uso? Resta traccia di che cosa è cambiato e quando?",
+          "ref": "Materiale originale; esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Area 3: nuovi sistemi e applicativi",
+          "key": "Gli stessi controlli valgono per i sistemi nuovi, sviluppati in casa o acquistati, e per gli aggiornamenti di versione.",
+          "body": "Esempio: l'agenzia adotta un nuovo CRM in cloud. Prima di usarlo: chi lo ha autorizzato, quali dati vi migrano, se la migrazione è stata verificata, se il fornitore è nominato responsabile del trattamento, se c'è documentazione.",
+          "ref": "Materiale originale; Reg. (UE) 2016/679, art. 28"
+        },
+        {
+          "layout": "concept",
+          "title": "Area 4: le operazioni del computer",
+          "key": "Le elaborazioni devono essere appropriate, autorizzate, pianificate e monitorate, così che le anomalie nel servizio siano identificate e risolte.",
+          "body": "Esempi in agenzia: il backup notturno, l'invio dei flussi alla compagnia, l'importazione degli incassi. Se un'elaborazione fallisce, qualcuno deve accorgersene il giorno stesso, non al momento del bisogno.",
+          "ref": "Materiale originale; esempio didattico"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Garante Privacy",
+          "title": "Gli amministratori di sistema",
+          "lead": "Chi ha i «superpoteri» sui sistemi va controllato con particolare cura. Il Garante ha dettato misure specifiche con un provvedimento del 27 novembre 2008.",
+          "facts": [
+            {
+              "label": "Scelta",
+              "text": "Valutare esperienza, capacità e affidabilità"
+            },
+            {
+              "label": "Designazione",
+              "text": "Individuale, con l'elenco degli ambiti consentiti"
+            },
+            {
+              "label": "Elenco",
+              "text": "Documento interno aggiornato con nomi e funzioni"
+            },
+            {
+              "label": "Verifica",
+              "text": "Almeno una volta l'anno sul loro operato"
+            },
+            {
+              "label": "Log",
+              "text": "Registrazione degli accessi, inalterabile, conservata almeno 6 mesi"
+            }
+          ],
+          "ref": "Garante Privacy, provv. 27 novembre 2008, punto 4"
+        },
+        {
+          "layout": "table",
+          "title": "Controlli IT e decreto NIS",
+          "lead": "Le quattro aree corrispondono a misure minime che il decreto NIS chiede ai soggetti in ambito.",
+          "head": [
+            "Area di controllo",
+            "Misura dell'art. 24 D.Lgs. 138/2024"
+          ],
+          "rows": [
+            [
+              "Accesso a programmi e dati",
+              "Lett. i: controllo dell'accesso; lett. l: autenticazione a più fattori"
+            ],
+            [
+              "Modifiche e sviluppo",
+              "Lett. e: sicurezza di acquisizione, sviluppo e manutenzione dei sistemi"
+            ],
+            [
+              "Operazioni del computer",
+              "Lett. c: continuità operativa, backup, ripristino"
+            ],
+            [
+              "Test dei controlli",
+              "Lett. f: valutare l'efficacia delle misure"
+            ]
+          ],
+          "ref": "D.Lgs. 138/2024, art. 24, c. 2"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "In un'agenzia con otto persone tutti usano lo stesso utente amministratore del gestionale, «per comodità». Una collaboratrice uscita tre mesi fa riesce ancora a collegarsi da casa. Il fornitore, inoltre, aggiorna il software quando vuole, senza avvisare.",
+          "questions": [
+            "Quali macro-aree dei controlli IT sono scoperte?",
+            "Quali proprietà della triade sono a rischio?",
+            "Da dove cominceresti?"
+          ],
+          "solution": "Sono scoperte l'area 1, accesso (utenza condivisa, profili eccessivi, utenza non cessata), e l'area 2, modifiche (aggiornamenti non autorizzati né documentati). A rischio la confidenzialità (accesso dell'ex collaboratrice), l'integrità (chiunque può modificare tutto, senza sapere chi) e la disponibilità (un aggiornamento non testato può bloccare il lavoro). Primo passo: bloccare l'utenza della persona uscita e creare utenze personali con profili minimi; poi concordare con il fornitore regole scritte per gli aggiornamenti."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un aggiornamento del preventivatore viene installato direttamente in produzione, senza prove. Quale macro-area dei controlli IT non è stata rispettata?",
+          "options": [
+            "Accesso a programmi e dati",
+            "Modifiche ai programmi",
+            "Operazioni del computer",
+            "Nessuna: gli aggiornamenti non sono controlli"
+          ],
+          "answer": 1,
+          "explanation": "Le modifiche ai sistemi esistenti devono essere autorizzate, testate, approvate, implementate e documentate. Qui manca almeno il test."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per il materiale del corso, che cosa indica la «A» della triade CIA?",
+          "options": [
+            "Autenticazione",
+            "Availability: accesso sicuro ai dati nel momento del bisogno",
+            "Antivirus",
+            "Amministrazione di sistema"
+          ],
+          "answer": 1,
+          "explanation": "CIA sta per Confidentiality, Integrity, Availability: confidenzialità, integrità, disponibilità."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "CIA",
+              "text": "confidenzialità, integrità, disponibilità"
+            },
+            {
+              "value": "GITC",
+              "text": "controlli generali IT contro rischi interni ed esterni"
+            },
+            {
+              "value": "4 aree",
+              "text": "accesso, modifiche, sviluppo, operazioni"
+            },
+            {
+              "value": "5 passi",
+              "text": "autorizzare, testare, approvare, implementare, documentare"
+            },
+            {
+              "value": "6 mesi",
+              "text": "conservazione minima dei log degli amministratori di sistema"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento passiamo dalle regole ai controlli: le azioni concrete con cui un'organizzazione verifica, ogni giorno, che i suoi sistemi informatici siano protetti. Nei moduli precedenti avete visto minacce, malware, difese e norme. Qui ci chiediamo: come faccio a sapere che le difese ci sono davvero e che funzionano?\n\nPartiamo dalla definizione. La sicurezza informatica aziendale, o cyber security, può essere definita come l'insieme di prodotti, servizi, processi organizzativi e comportamenti individuali che proteggono i sistemi informatici di un'azienda. Vale la pena fermarsi su questi quattro ingredienti. Un antivirus o un firewall sono prodotti. L'assistenza di una ditta informatica esterna è un servizio. La procedura con cui si crea o si chiude un'utenza è un processo organizzativo. E non scrivere la password su un post-it, o non aprire l'allegato sospetto, è un comportamento individuale. Una sicurezza fatta solo di prodotti è come una porta blindata lasciata aperta.\n\nLa sicurezza informatica si basa su tre elementi cardine, che formano la triade della sicurezza e sono noti con l'acronimo inglese CIA. Confidentiality, confidenzialità o riservatezza: la capacità di proteggere i dati da accessi non autorizzati. Integrity, integrità: la capacità di proteggere le informazioni da modifiche o cancellazioni indesiderate. Availability, disponibilità: la capacità di permettere un accesso sicuro ai dati nel momento del bisogno. Li avete già incontrati nel modulo sulla sicurezza informatica, con esempi dal lavoro di agenzia. Qui li usiamo come metro: ogni controllo che vedremo protegge almeno uno dei tre. I profili di accesso proteggono la confidenzialità, le modifiche autorizzate e tracciate proteggono l'integrità, backup e piano di ripristino proteggono la disponibilità.\n\nIl corso aggiunge un'idea importante: la sicurezza è una continua evoluzione, e l'evoluzione è essa stessa un'arma di prevenzione. I pilastri su cui ogni strategia di prevenzione dovrebbe basarsi sono tre: la ricerca costante di soluzioni all'avanguardia e aggiornate; il dinamismo e la capacità di autoanalisi per prevenire eventuali attacchi; e la flessibilità mentale per pensare in modo innovativo. In pratica: i controlli non si fanno una volta per tutte. Un'agenzia che si è organizzata bene tre anni fa, ma da allora ha cambiato gestionale, è passata al cloud e lavora con lo smartphone, deve rifare l'analisi.\n\nPerché parliamo di controlli generali IT? Il corso parte da un'osservazione sulle aziende: l'uso sempre crescente di sistemi gestionali integrati, i cosiddetti ERP, Enterprise Resource Planning, fa sì che nella revisione contabile sia indispensabile avvalersi dell'Information Technology. Il motivo è semplice. Quando i numeri di un'azienda nascono dentro i sistemi, per fidarsi dei numeri bisogna fidarsi dei sistemi. Pensate a un'agenzia: premi incassati, provvigioni maturate, rimesse alla compagnia, tutto viene calcolato dal gestionale. Se chiunque può modificare un dato o un programma, anche il rendiconto è a rischio.\n\nI controlli generali IT, in inglese General IT Controls, in sigla GITC, hanno lo scopo di ridurre due tipi di rischio. I rischi interni, che derivano da una minaccia interna e sono legati a comportamenti non idonei del personale: accessi oltre il necessario, modifiche non autorizzate, ma anche semplici errori. E i rischi esterni, legati alle minacce dell'ambiente esterno, come malware e intrusioni. Ai rischi esterni dedicheremo la prossima lezione; ora concentriamoci sui controlli che, secondo il corso, sono essenziali per un controllo IT adeguato e che si raggruppano in quattro macro-aree.\n\nLa prima macro-area è l'accesso ai programmi e ai dati. I controlli sull'accesso riducono il rischio di accessi non autorizzati o inappropriati ai sistemi informativi rilevanti per il reporting finanziario. Il modo più chiaro per capirli è seguire il ciclo di vita di un'utenza, con un esempio che costruiamo a partire dal materiale. Tutto comincia con una richiesta: chi ha l'autorità, per esempio il titolare dell'agenzia, chiede per iscritto l'accesso per una persona precisa e per un ruolo preciso. Poi si assegna il profilo: solo ciò che serve a quel ruolo. Un collaboratore che fa preventivi non ha bisogno di vedere la contabilità. Poi, periodicamente, si fa una revisione: le utenze attive corrispondono alle persone che lavorano davvero in agenzia? I profili sono ancora giusti, o qualcuno ha cambiato mansione e ha accumulato permessi? Infine la cessazione: quando la persona lascia l'agenzia, l'utenza si blocca subito, non dopo settimane.\n\nDentro la prima area c'è un tema che merita un approfondimento: le credenziali. Gli errori più comuni sono tre: utenze condivise tra più persone, password di fabbrica mai cambiate, password annotate su un foglio o inviate per e-mail. Norme e mercato assicurativo vanno nella stessa direzione. Il decreto NIS indica tra le misure minime, ove opportuno, l'uso dell'autenticazione a più fattori, cioè di un secondo elemento oltre alla password, come un codice sullo smartphone. E l'indagine IVASS sulle polizze cyber ha rilevato che alcune polizze escludono i sinistri quando l'assicurato usa credenziali di default non modificate. C'è poi una ragione più semplice: un'utenza personale per ogni persona è il presupposto di tutti gli altri controlli. Se tutti usano lo stesso utente, nessun registro potrà mai dire chi ha fatto che cosa.\n\nLa seconda macro-area sono le modifiche ai programmi. I controlli garantiscono che le modifiche ai sistemi e alle applicazioni esistenti siano autorizzate, testate, approvate, implementate e adeguatamente documentate. Cinque parole da ricordare in sequenza. Facciamo un esempio. Il fornitore propone di cambiare il modo in cui il gestionale calcola le provvigioni. Chi decide la modifica? È stata provata su dati di prova prima di toccare quelli veri? Chi la approva prima che vada in uso? È stata installata nel modo previsto? E resta traccia scritta di che cosa è cambiato e quando? Se a fine mese i conti con la compagnia non tornano, quella traccia è l'unico modo per capire perché.\n\nLa terza macro-area è lo sviluppo dei programmi. I controlli garantiscono che i nuovi sistemi, le nuove applicazioni o gli aggiornamenti di versione, sviluppati internamente o acquistati, siano autorizzati, correttamente implementati, testati, approvati e documentati. Per un'agenzia raramente si tratta di sviluppare software; molto più spesso si tratta di acquistarlo. Esempio: l'agenzia adotta un nuovo CRM in cloud. Prima di usarlo bisogna sapere chi lo ha autorizzato, quali dati vi vengono migrati e se la migrazione è stata verificata, se c'è documentazione d'uso. E, collegando questo argomento al GDPR, il fornitore che tratterà i dati dei clienti va nominato responsabile del trattamento, come prevede l'articolo 28.\n\nLa quarta macro-area sono le operazioni del computer. I controlli sono finalizzati a garantire che le elaborazioni applicative siano appropriate, autorizzate, pianificate e monitorate, così che eventuali anomalie nell'erogazione dei servizi siano identificate e risolte. In agenzia le elaborazioni sono, per esempio, il backup notturno, l'invio dei flussi alla compagnia, l'importazione degli incassi. Il punto chiave è il monitoraggio: se un'elaborazione fallisce, qualcuno deve accorgersene il giorno stesso. Il backup che non funziona da due mesi si scopre, di solito, proprio il giorno in cui serve.\n\nC'è una figura su cui i controlli d'accesso devono essere particolarmente attenti: l'amministratore di sistema, cioè chi ha i permessi più ampi sui sistemi. Il Garante per la protezione dei dati personali ha dettato misure specifiche con un provvedimento del 27 novembre 2008, poi modificato nel 2009. Prevede di valutare esperienza, capacità e affidabilità di chi riceve questo ruolo; di fare una designazione individuale, con l'elenco degli ambiti consentiti; di tenere un documento interno aggiornato con i nomi degli amministratori e le loro funzioni, anche quando il servizio è affidato in outsourcing; di verificare almeno una volta l'anno il loro operato; e di registrare i loro accessi ai sistemi con log completi, inalterabili e verificabili, conservati per almeno sei mesi. Il provvedimento è stato adottato prima del GDPR, quando era in vigore il vecchio Codice privacy, ma le sue indicazioni restano un riferimento pratico molto utile anche per una piccola agenzia che affida i sistemi a un tecnico esterno.\n\nI controlli IT non sono solo buona pratica. Il decreto NIS, che avete visto nell'argomento sulla regolamentazione cyber, chiede ai soggetti in ambito misure minime che corrispondono quasi una per una alle quattro macro-aree. L'articolo 24 parla di controllo dell'accesso e di autenticazione a più fattori, che corrispondono all'area dell'accesso; di sicurezza nell'acquisizione, nello sviluppo e nella manutenzione dei sistemi, che corrisponde alle aree delle modifiche e dello sviluppo; di continuità operativa con backup e ripristino, che corrisponde alle operazioni del computer; e di procedure per valutare l'efficacia delle misure, che sono i test dei controlli, tema della prossima lezione. Un'agenzia piccola non è soggetta al decreto NIS, ma può usarlo come una lista di controllo autorevole.\n\nApplichiamo tutto a un caso. In un'agenzia con otto persone tutti usano lo stesso utente amministratore del gestionale, per comodità. Una collaboratrice uscita tre mesi fa riesce ancora a collegarsi da casa. E il fornitore aggiorna il software quando vuole, senza avvisare. Le aree scoperte sono due: l'accesso, per l'utenza condivisa, i profili eccessivi e l'utenza non cessata; e le modifiche, per gli aggiornamenti non autorizzati né documentati. La triade è a rischio su tutti e tre i fronti: la confidenzialità, perché un'ex collaboratrice vede i dati dei clienti; l'integrità, perché chiunque può modificare tutto e nessuno sa chi l'ha fatto; la disponibilità, perché un aggiornamento non provato può bloccare il lavoro il giorno delle scadenze. Da dove cominciare? Bloccare subito l'utenza della persona uscita, creare utenze personali con profili minimi, e concordare per iscritto con il fornitore regole per gli aggiornamenti.\n\nIn sintesi: la cyber security è fatta di prodotti, servizi, processi e comportamenti; la triade CIA è il metro; i controlli generali IT si organizzano in quattro macro-aree, accesso, modifiche, sviluppo e operazioni. Nella prossima lezione vediamo le difese contro le minacce esterne e, soprattutto, come si mette alla prova un controllo.",
+      "sources": [
+        {
+          "title": "Garante Privacy, Misure e accorgimenti prescritti ai titolari dei trattamenti effettuati con strumenti elettronici relativamente alle attribuzioni delle funzioni di amministratore di sistema, 27 novembre 2008",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/print/1577499"
+        },
+        {
+          "title": "Garante Privacy, Modifiche del provvedimento del 27 novembre 2008",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/1626595"
+        },
+        {
+          "title": "D.Lgs. 4 settembre 2024, n. 138 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg"
+        },
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante Privacy",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/6264597"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Triade CIA mantenuta con le definizioni della fonte e presentata come richiamo, perché già sviluppata nel modulo «Sicurezza informatica e protezione dei dati»; aggiunto per ciascun elemento un controllo tipico.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi applicativi in agenzia per ciascuna delle quattro macro-aree dei controlli IT, incluso il ciclo di vita delle utenze (esempio didattico).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Misure del Garante sugli amministratori di sistema: valutazione, designazione individuale, elenco, verifica annuale, log degli accessi conservati almeno 6 mesi.",
+          "source_ref": "Garante Privacy, provv. 27 novembre 2008, punto 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Corrispondenza tra macro-aree dei controlli IT e misure minime dell'art. 24 del decreto NIS; nomina del fornitore come responsabile del trattamento.",
+          "source_ref": "D.Lgs. 138/2024, art. 24, c. 2; Reg. (UE) 2016/679, art. 28"
+        },
+        {
+          "kind": "modificato",
+          "description": "Provvedimento del Garante sugli amministratori di sistema presentato come riferimento pratico: adottato sotto il previgente Codice privacy; attuale vigenza dopo il GDPR da verificare.",
+          "source_ref": "Garante Privacy, provv. 27 novembre 2008"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Approfondimento su credenziali e autenticazione a più fattori, con collegamento all'esclusione per credenziali di default nelle polizze cyber.",
+          "source_ref": "D.Lgs. 138/2024, art. 24, c. 2, lett. l; IVASS, Indagine polizze cyber, par. 3.1.4"
+        }
+      ]
+    },
+    {
+      "title": "Difese dalle minacce esterne e test dei controlli IT",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Cyber Security ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Controlli di sicurezza IT",
+          "title": "Difese dalle minacce esterne e test dei controlli IT",
+          "goals": [
+            "Distinguere vulnerability assessment e penetration test",
+            "Conoscere i tre test con cui si verifica un controllo: design, implementazione, efficacia operativa",
+            "Riconoscere i controlli IT più importanti per un'agenzia o un broker"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Le procedure preventive contro le minacce esterne",
+          "items": [
+            {
+              "text": "Test di penetrazione (PT)"
+            },
+            {
+              "text": "Valutazione delle vulnerabilità (VA)"
+            },
+            {
+              "text": "Procedure di aggiornamento dell'antivirus"
+            },
+            {
+              "text": "Procedure di backup"
+            },
+            {
+              "text": "Per i danni da eventi esterni, il piano principale è il Piano di ripristino in caso di disastro (Disaster Recovery)",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Vulnerability assessment e penetration test",
+          "cols": [
+            {
+              "title": "Vulnerability assessment",
+              "items": [
+                "Analizza le vulnerabilità interne all'azienda",
+                "Cerca e elenca i punti deboli noti di sistemi e reti",
+                "Riduce l'esposizione al rischio informatico"
+              ]
+            },
+            {
+              "title": "Penetration test",
+              "items": [
+                "Mette alla prova la resistenza dei sistemi",
+                "Simula un attacco reale, autorizzato, per vedere fin dove si arriva",
+                "Mostra se le vulnerabilità sono davvero sfruttabili"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un riferimento tecnico",
+          "key": "Il NIST ha pubblicato una guida tecnica ai test e alle valutazioni di sicurezza, la SP 800-115, dedicata a pianificare e condurre test, analizzarne i risultati e sviluppare strategie di mitigazione.",
+          "body": "Tra le tecniche trattate ci sono il vulnerability scanning e il penetration testing. Per l'intermediario non serve saperli eseguire: serve sapere che cosa chiedere al fornitore e che cosa fare dei risultati.",
+          "ref": "NIST SP 800-115, Technical Guide to Information Security Testing and Assessment"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa chiedere a chi fa un test",
+          "items": [
+            {
+              "text": "Un incarico scritto che indichi quali sistemi si testano e quando"
+            },
+            {
+              "text": "Un rapporto con le vulnerabilità ordinate per gravità"
+            },
+            {
+              "text": "Le azioni consigliate e chi deve farle"
+            },
+            {
+              "text": "Una nuova verifica dopo le correzioni"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Antivirus e backup: anche la polizza li guarda",
+          "key": "Pianificare ed eseguire gli aggiornamenti antivirus e fare backup frequenti sono controlli essenziali.",
+          "body": "Serve un backup recente e aggiornato da reinstallare in caso di perdita dei dati. Come visto nel modulo «Cyber insurance», molte polizze cyber chiedono antivirus aggiornati e backup regolari, e alcune escludono i sinistri con antivirus fermo da oltre sei mesi.",
+          "ref": "Materiale originale; IVASS, Indagine polizze cyber, par. 3.1.1.1 e 3.1.2"
+        },
+        {
+          "layout": "steps",
+          "title": "Tre test su un controllo",
+          "steps": [
+            {
+              "label": "Design",
+              "text": "Indagine e valutazione: il controllo, come è pensato, attenua davvero il rischio?"
+            },
+            {
+              "label": "Implementazione",
+              "text": "Verifica indipendente: il controllo descritto è effettivamente operativo?"
+            },
+            {
+              "label": "Efficacia operativa",
+              "text": "Il controllo funziona in modo completo, accurato e costante nel tempo?"
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Un esempio: la cessazione delle utenze",
+          "head": [
+            "Test",
+            "Domanda",
+            "Come si verifica"
+          ],
+          "rows": [
+            [
+              "1 · Design",
+              "La procedura prevede il blocco dell'utenza il giorno dell'uscita?",
+              "Si legge la procedura e si chiede chi la applica"
+            ],
+            [
+              "2 · Implementazione",
+              "La procedura è applicata davvero?",
+              "Si prende un caso recente e si controlla la data del blocco"
+            ],
+            [
+              "3 · Efficacia",
+              "Funziona sempre?",
+              "Si confrontano tutte le uscite dell'anno con le utenze ancora attive"
+            ]
+          ],
+          "ref": "Esempio didattico sulla base del materiale originale"
+        },
+        {
+          "layout": "checklist",
+          "title": "I controlli che contano di più",
+          "items": [
+            {
+              "text": "Processo autorizzativo per creare nuove utenze: un profilo sbagliato può dare accesso a informazioni riservate"
+            },
+            {
+              "text": "Cancellazione delle utenze del personale dimesso"
+            },
+            {
+              "text": "Profili del personale amministrativo e dei vertici solo a persone autorizzate"
+            },
+            {
+              "text": "Controllo delle modifiche applicative"
+            },
+            {
+              "text": "Backup frequenti e aggiornati"
+            },
+            {
+              "text": "Aggiornamenti antivirus pianificati ed eseguiti"
+            },
+            {
+              "text": "Vulnerability assessment e penetration test",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I profili privilegiati",
+          "key": "I profili del personale amministrativo e dei vertici, fino al consiglio di amministrazione, vanno attribuiti solo a personale autorizzato.",
+          "body": "Sono i profili che possono vedere tutto, autorizzare pagamenti, cambiare dati bancari o creare altre utenze. Vanno elencati, ridotti al minimo e controllati più spesso degli altri. Per gli amministratori di sistema valgono le misure del Garante viste nella lezione precedente.",
+          "ref": "Materiale originale; Garante Privacy, provv. 27 novembre 2008"
+        },
+        {
+          "layout": "concept",
+          "title": "Chi controlla il controllo",
+          "key": "Il test di implementazione chiede di verificare il controllo in modo indipendente: non può farlo solo chi lo esegue.",
+          "body": "In una grande impresa lo fanno funzioni dedicate o revisori. In una piccola agenzia basta che chi verifica non sia chi gestisce: per esempio il titolare controlla le utenze create dal tecnico, o un consulente esterno controlla il lavoro del titolare.",
+          "ref": "Materiale originale; esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Verificare è un obbligo",
+          "key": "Il GDPR chiede una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure di sicurezza. Il decreto NIS chiede politiche per valutare l'efficacia delle misure.",
+          "body": "I tre test sui controlli sono il modo concreto di farlo, e di dimostrarlo. Il risultato va scritto: data, che cosa si è controllato, esito, azioni correttive.",
+          "ref": "Reg. (UE) 2016/679, art. 32, par. 1, lett. d; D.Lgs. 138/2024, art. 24, c. 2, lett. f"
+        },
+        {
+          "layout": "split",
+          "title": "Un controllo in un'ora al mese",
+          "left": {
+            "title": "Che cosa verificare",
+            "items": [
+              "Utenze attive contro elenco del personale",
+              "Esito degli ultimi backup e prova di ripristino di un file",
+              "Stato degli aggiornamenti e dell'antivirus su ogni PC"
+            ]
+          },
+          "right": {
+            "title": "Che cosa annotare",
+            "items": [
+              "Data e chi ha controllato",
+              "Anomalie trovate",
+              "Azioni decise e scadenza"
+            ]
+          },
+          "note": "Una proposta di routine per una piccola agenzia: non è un obbligo di legge, ma documenta l'accountability.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker con 15 dipendenti ha una procedura scritta di backup giornaliero. Il tecnico conferma che il software di backup è installato. Nessuno, però, ha mai provato a ripristinare un file, e il registro mostra che il backup non è riuscito per 11 notti nell'ultimo mese.",
+          "questions": [
+            "Quale dei tre test è superato e quale no?",
+            "Che cosa rischia il broker, anche verso la polizza cyber?"
+          ],
+          "solution": "Il design è adeguato (c'è una procedura sensata) e l'implementazione c'è (il software è installato), ma l'efficacia operativa no: il controllo non funziona in modo costante e il ripristino non è mai stato provato. Il broker rischia di perdere dati in caso di ransomware, con problemi di disponibilità e di obblighi GDPR; e se la polizza cyber richiede backup regolari, il sinistro potrebbe essere escluso o contestato. Serve monitorare gli esiti ogni giorno e fare prove di ripristino periodiche."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Qual è lo scopo del test di efficacia operativa?",
+          "options": [
+            "Valutare se il controllo è ben pensato sulla carta",
+            "Verificare che il controllo esista",
+            "Verificare che il controllo sia completo, accurato e costantemente efficace nel mitigare il rischio",
+            "Scegliere l'antivirus"
+          ],
+          "answer": 2,
+          "explanation": "Il design valuta il disegno del controllo, l'implementazione verifica che sia operativo, l'efficacia operativa verifica che funzioni bene e in modo costante nel tempo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che differenza c'è tra vulnerability assessment e penetration test?",
+          "options": [
+            "Sono la stessa cosa",
+            "Il VA individua le vulnerabilità; il PT simula un attacco per verificare la resistenza dei sistemi",
+            "Il VA si fa solo dopo un attacco",
+            "Il PT riguarda solo l'antivirus"
+          ],
+          "answer": 1,
+          "explanation": "Il vulnerability assessment analizza le vulnerabilità; il penetration test mette alla prova la resistenza dei sistemi informativi, mostrando se i punti deboli sono sfruttabili."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "VA · PT",
+              "text": "trovare le vulnerabilità e mettere alla prova le difese"
+            },
+            {
+              "value": "DR",
+              "text": "il piano principale contro i danni da eventi esterni"
+            },
+            {
+              "value": "3 test",
+              "text": "design, implementazione, efficacia operativa"
+            },
+            {
+              "value": "Utenze",
+              "text": "create con autorizzazione, cancellate all'uscita"
+            },
+            {
+              "value": "Art. 32",
+              "text": "GDPR: verificare regolarmente l'efficacia delle misure"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto i controlli generali IT contro i rischi interni. In questa guardiamo all'esterno, alle procedure preventive contro le minacce che arrivano da fuori, e poi rispondiamo a una domanda decisiva: come si verifica che un controllo funzioni davvero?\n\nLe aziende che usano sistemi informativi sono esposte a minacce esterne e per questo devono adottare procedure preventive. Il corso ne elenca quattro: i test di penetrazione, in sigla PT; la valutazione delle vulnerabilità, in sigla VA; le procedure di aggiornamento dell'antivirus; e le procedure di backup. E aggiunge che, in caso di danni causati da eventi esterni, il principale piano adottato dalla società è il piano di ripristino in caso di disastro, il Disaster Recovery. Del Disaster Recovery e della continuità operativa avete già parlato nel modulo sulla sicurezza informatica, a proposito di robustezza e resilienza; qui ci basta ricordare che è il piano che dice come e in quanto tempo si torna a lavorare dopo un evento grave.\n\nSoffermiamoci su VA e PT, che spesso vengono confusi. Il corso descrive l'analisi delle vulnerabilità interne all'azienda, fatta con il Vulnerability Assessment, come un'azione molto utile per ridurre l'esposizione al rischio informatico. In pratica il vulnerability assessment cerca ed elenca i punti deboli noti: software non aggiornati, servizi esposti senza motivo, configurazioni sbagliate. Il penetration test è, per il corso, il secondo strumento con cui le aziende testano la resistenza dei propri sistemi informativi. Qui non ci si limita a elencare i punti deboli: un esperto, autorizzato, simula un attacco reale per vedere fin dove riesce ad arrivare. Una buona immagine è quella di una casa: il vulnerability assessment è il sopralluogo che segnala la finestra senza serratura; il penetration test è la prova di qualcuno che, con il nostro permesso, prova davvero a entrare.\n\nC'è un riferimento tecnico internazionale per queste attività: il NIST, l'istituto statunitense per gli standard, ha pubblicato la guida tecnica SP 800-115 ai test e alle valutazioni di sicurezza delle informazioni. Aiuta a pianificare e condurre test tecnici, analizzarne i risultati e sviluppare strategie di mitigazione, e tra le tecniche tratta proprio il vulnerability scanning e il penetration testing. Un intermediario non deve saperli eseguire. Deve però sapere che cosa chiedere al fornitore che li esegue. Proponiamo quattro richieste, come buona pratica: un incarico scritto che indichi quali sistemi si testano e quando, perché un test non autorizzato è a sua volta un problema; un rapporto con le vulnerabilità ordinate per gravità, comprensibile anche a chi non è tecnico; le azioni consigliate, con l'indicazione di chi deve farle; e una nuova verifica dopo le correzioni, per chiudere il cerchio.\n\nGli altri due controlli contro le minacce esterne sono più familiari, ma non per questo più facili. Il corso dice che è essenziale pianificare ed eseguire gli aggiornamenti antivirus, e che è fondamentale fare frequentemente backup dei dati, perché bisogna disporre di un backup recente e aggiornato da poter reinstallare sulle macchine in caso di perdita dei dati. C'è un collegamento diretto con il modulo sulla cyber insurance. L'indagine IVASS del 2023 ha rilevato che molte polizze cyber chiedono, come condizione di assicurabilità, antivirus e firewall aggiornati e backup periodici e frequenti; e che alcune escludono i sinistri quando l'antivirus manca, è gratuito o non è aggiornato da oltre sei mesi. Un controllo IT trascurato, quindi, non è solo un rischio tecnico: può diventare un sinistro non pagato.\n\nPassiamo ora alla parte più originale di questa lezione: i test sui controlli generali IT. Il corso indica tre passi chiave. Il primo è il test di design: si svolge con un'indagine seguita da una valutazione dell'efficacia del disegno del controllo nell'attenuare i rischi connessi. In altre parole: sulla carta, il controllo è pensato bene? Il secondo è il test di implementazione: il suo obiettivo è verificare in modo indipendente che il controllo, così come è descritto, sia effettivamente operativo. Cioè: esiste davvero, non solo nel documento? Il terzo è il test di efficacia operativa: serve a verificare che il controllo esistente e funzionante sia completo, accurato e costantemente efficace nel mitigare il rischio. Cioè: funziona sempre, nel tempo, non solo il giorno della verifica?\n\nVediamolo con un esempio concreto, costruito sul materiale: la cessazione delle utenze. Test di design: la procedura prevede il blocco dell'utenza il giorno stesso dell'uscita della persona? Si legge la procedura e si chiede chi la applica. Test di implementazione: la procedura è applicata davvero? Si prende un caso recente di uscita e si controlla in che data l'utenza è stata bloccata. Test di efficacia operativa: funziona sempre? Si confrontano tutte le uscite dell'anno con l'elenco delle utenze ancora attive. Se anche una sola persona uscita ha ancora l'accesso, il controllo non è costantemente efficace. Notate la progressione: ogni test è più impegnativo del precedente, e solo il terzo dà vera fiducia.\n\nQuali sono i controlli più importanti su cui applicare questi test? Il corso li indica con chiarezza. Prima di tutto i processi autorizzativi per la creazione di nuove utenze, che sono di fondamentale importanza: un'utenza creata in modo errato, o con profili non adatti, può accedere a informazioni riservate o che non sono di sua competenza. Poi la cancellazione delle utenze del personale dimesso, perché non possa più accedere ai sistemi dopo la fine del rapporto di lavoro. Poi la verifica che i profili del personale amministrativo e dei massimi vertici, fino al consiglio di amministrazione, siano attribuiti solo a personale autorizzato. Poi il controllo delle modifiche applicative e i backup frequenti, con un backup recente e aggiornato sempre disponibile. Poi la pianificazione e l'esecuzione degli aggiornamenti antivirus. E infine i due strumenti visti prima: il vulnerability assessment e il penetration test.\n\nTra questi controlli due meritano un'attenzione in più. Il primo sono i profili privilegiati: quelli del personale amministrativo e dei vertici, che possono vedere tutto, autorizzare pagamenti, modificare dati bancari o creare nuove utenze. Un profilo così, attribuito alla persona sbagliata o rubato da un attaccante, è la chiave di tutta la casa. Per questo vanno elencati, ridotti al minimo indispensabile e controllati più spesso degli altri; per gli amministratori di sistema valgono le misure del Garante che abbiamo visto nella lezione precedente, con la verifica almeno annuale e la registrazione degli accessi.\n\nIl secondo punto riguarda chi fa i test. Il corso dice che il test di implementazione serve a verificare in modo indipendente che il controllo sia operativo. Indipendente significa che non può controllarsi da solo chi esegue il controllo. In una grande impresa questo compito spetta a funzioni dedicate o ai revisori. In una piccola agenzia la soluzione può essere semplice: chi verifica non è chi gestisce. Per esempio, il titolare controlla le utenze create dal tecnico informatico; oppure un consulente esterno, una volta l'anno, controlla il lavoro fatto dal titolare. Un controllo verificato da chi lo esegue è una dichiarazione, non una verifica.\n\nVerificare i controlli, oltre che utile, è anche richiesto dalle norme. L'articolo 32 del GDPR, che avete visto nel modulo sulla sicurezza informatica, include tra le misure adeguate una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure tecniche e organizzative. E il decreto NIS, all'articolo 24, chiede ai soggetti in ambito politiche e procedure per valutare l'efficacia delle misure di gestione dei rischi. I tre test sono il modo concreto di farlo, e di dimostrarlo. Per questo il risultato va scritto: la data, che cosa si è controllato, l'esito, le azioni correttive decise.\n\nPer una piccola agenzia tutto questo può sembrare impegnativo. Proponiamo allora, come esempio didattico, una routine di un'ora al mese. Si confrontano le utenze attive del gestionale, della posta e del portale della compagnia con l'elenco delle persone che lavorano davvero in agenzia. Si controlla l'esito degli ultimi backup e si prova a ripristinare un file, perché un backup mai provato è una speranza, non un controllo. Si verifica su ogni computer lo stato degli aggiornamenti e dell'antivirus. E si annotano la data, chi ha controllato, le anomalie trovate, le azioni decise con una scadenza. Non è un obbligo di legge, ma è il modo più semplice per poter dimostrare, se un giorno servisse, di aver fatto la propria parte.\n\nChiudiamo con un caso. Un broker con 15 dipendenti ha una procedura scritta di backup giornaliero, e il tecnico conferma che il software di backup è installato. Nessuno però ha mai provato un ripristino, e il registro mostra che nell'ultimo mese il backup non è riuscito per 11 notti. Applichiamo i tre test. Il design è adeguato: c'è una procedura sensata. L'implementazione c'è: il software è installato e gira. Ma l'efficacia operativa manca: il controllo non funziona in modo costante, e il ripristino non è mai stato verificato. Le conseguenze sono serie. In caso di ransomware il broker rischia di perdere i dati, con un problema di disponibilità e con gli obblighi del GDPR. E se la sua polizza cyber richiede backup regolari, il sinistro potrebbe essere escluso o contestato. Le correzioni sono semplici: monitorare ogni giorno l'esito dei backup e fare prove di ripristino periodiche, documentandole.\n\nIn sintesi: contro le minacce esterne servono vulnerability assessment, penetration test, antivirus aggiornati, backup e un piano di disaster recovery. E ogni controllo va messo alla prova con tre test, design, implementazione ed efficacia operativa, perché un controllo che esiste solo sulla carta non protegge nessuno.",
+      "sources": [
+        {
+          "title": "NIST SP 800-115, Technical Guide to Information Security Testing and Assessment",
+          "url": "https://csrc.nist.gov/pubs/sp/800/115/final"
+        },
+        {
+          "title": "IVASS, Indagine sulle polizze a copertura del cyber risk, ottobre 2023",
+          "url": "https://www.ivass.it/consumatori/azioni-tutela/indagini-tematiche/documenti/2023/Indagine_cyber_risk_10_2023.pdf"
+        },
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo pubblicato dal Garante Privacy",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/6264597"
+        },
+        {
+          "title": "D.Lgs. 4 settembre 2024, n. 138 (Gazzetta Ufficiale)",
+          "url": "https://www.gazzettaufficiale.it/eli/id/2024/10/01/24G00155/sg"
+        },
+        {
+          "title": "Garante Privacy, provvedimento sugli amministratori di sistema, 27 novembre 2008",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/print/1577499"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Riferimento alla guida NIST SP 800-115 su vulnerability scanning e penetration testing; indicazioni di buona pratica su che cosa chiedere a chi esegue un test.",
+          "source_ref": "NIST SP 800-115"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra controlli su antivirus e backup e condizioni di assicurabilità ed esclusioni delle polizze cyber.",
+          "source_ref": "IVASS, Indagine polizze cyber, par. 3.1.1.1 e 3.1.2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio dei tre test (design, implementazione, efficacia operativa) applicati alla cessazione delle utenze e routine mensile per una piccola agenzia (esempi didattici).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo di verifica periodica dell'efficacia delle misure nel GDPR e nel decreto NIS.",
+          "source_ref": "Reg. (UE) 2016/679, art. 32, par. 1, lett. d; D.Lgs. 138/2024, art. 24, c. 2, lett. f"
+        },
+        {
+          "kind": "modificato",
+          "description": "Disaster Recovery mantenuto come indicato dalla fonte e richiamato in breve, perché già sviluppato nel modulo «Sicurezza informatica e protezione dei dati».",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Approfondimento sui profili privilegiati e sull'indipendenza di chi verifica i controlli (esempio didattico per la piccola agenzia).",
+          "source_ref": "Materiale originale; Garante Privacy, provv. 27 novembre 2008"
+        }
+      ]
+    }
+  ]
+}

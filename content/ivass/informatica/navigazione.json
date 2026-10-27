@@ -1,0 +1,883 @@
+{
+  "module": "Area informatica",
+  "topic": "Navigazione web e uso di internet",
+  "topic_order": 7,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Internet e trasformazione digitale: dal Web 1.0 al Web 3.0",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Navigazione web e utilizzo di internet.pdf",
+        "Corso Ivass 60 ore/Materiale /Navigazione web e utilizzo di internet.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Navigazione web e uso di internet",
+          "title": "Internet e trasformazione digitale: dal Web 1.0 al Web 3.0",
+          "goals": [
+            "Ripercorrere le fasi del web e capire che cosa ha cambiato ciascuna",
+            "Distinguere internet, intranet e i due mercati della rete",
+            "Capire perché il cliente arriva in agenzia già informato"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Internet al posto di libri, radio e giornali",
+          "key": "Internet ha preso il posto di libri, radio e giornali di carta. Dimostra che l'uomo vuole conoscere, avere notizie in tempo reale ed entrare in contatto con le persone stando comodamente davanti a un pc.",
+          "body": "Oggi questo vale anche, e soprattutto, dallo smartphone. Per un intermediario significa che il primo contatto con il cliente avviene spesso in rete, prima ancora che il cliente entri in agenzia.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tre fasi del web",
+          "head": [
+            "Fase",
+            "Che cosa offre",
+            "Per l'utente"
+          ],
+          "rows": [
+            [
+              "1.0 · Web statico",
+              "Siti statici: navigazione tra le pagine, e-mail, motori di ricerca",
+              "Legge, non interagisce"
+            ],
+            [
+              "2.0 · Web sociale",
+              "Social media, contenuti creati dagli utenti, recensioni, commenti",
+              "Legge, scrive, commenta, condivide"
+            ],
+            [
+              "3.0 · Web dei dati",
+              "Servizi che interpretano dati e preferenze: risultati personalizzati, assistenti, applicazioni intelligenti",
+              "Riceve risposte su misura"
+            ]
+          ],
+          "ref": "Fasi 1.0 e 2.0: materiale originale del corso. Fase 3.0: integrazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "La trasformazione digitale",
+          "key": "Internet ha dato vita alla trasformazione digitale. Il Web 2.0 nasce dall'innovazione tecnologica prodotta soprattutto dalla digitalizzazione dell'informazione.",
+          "body": "Quando l'informazione diventa digitale si copia, si trasmette e si cerca a costo quasi nullo. Da qui nascono servizi che prima non esistevano, e cambiano quelli che esistevano già, compresa la distribuzione assicurativa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "In rete si è presenti anche senza volerlo",
+          "key": "Social media e rete non sono canali che l'azienda può decidere se usare o no per comunicare e fare marketing. Un'azienda attiva sul mercato è probabilmente già presente sui social, anche se non ha fatto niente per esserci.",
+          "body": "Recensioni sulle mappe, commenti, post di clienti soddisfatti o arrabbiati: si parla dell'agenzia anche senza l'agenzia. Non presidiare la rete non vuol dire esserne fuori.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Presidiare la propria presenza in rete",
+          "items": [
+            {
+              "text": "Cerca periodicamente il nome dell'agenzia su motori di ricerca, mappe e social."
+            },
+            {
+              "text": "Controlla che indirizzo, orari e recapiti delle schede online siano corretti."
+            },
+            {
+              "text": "Rispondi alle recensioni con garbo e senza mai citare dati del cliente o della polizza."
+            },
+            {
+              "text": "Segnala alla piattaforma i profili falsi che usano nome o logo dell'agenzia."
+            },
+            {
+              "text": "Ricorda: un reclamo scritto arrivato da un canale social va gestito come reclamo."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Il mercato di internet",
+          "left": {
+            "title": "Due fasce di mercato",
+            "items": [
+              "Il mondo aziendale",
+              "L'informatica di consumo"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Due modelli di rete in azienda",
+            "items": [
+              "Internet: per parlare con gli utenti e servirli con un sito e servizi mirati",
+              "Intranet: le tecnologie della rete usate all'interno dell'azienda"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Il portale agenzie di una compagnia è un buon esempio: usa le tecnologie del web, ma è riservato a chi ha le credenziali.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "compare",
+          "title": "Internet e intranet in agenzia",
+          "cols": [
+            {
+              "title": "Internet",
+              "items": [
+                "Sito dell'agenzia, schede sulle mappe, social",
+                "Aperto a tutti",
+                "Serve a farsi trovare, informare, raccogliere contatti"
+              ]
+            },
+            {
+              "title": "Intranet",
+              "items": [
+                "Cartelle condivise, procedure interne, gestionale",
+                "Riservata a dipendenti e collaboratori",
+                "Serve a lavorare insieme e a condividere informazioni"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I cambiamenti portati da internet",
+          "key": "Oggi la maggior parte degli acquisti che i più giovani fanno nei negozi tradizionali è la conseguenza di scelte fatte online.",
+          "body": "Questi cambiamenti hanno costi e problemi. La libertà totale ha portato al cosiddetto affollamento di internet: è oggettivamente impossibile tenere traccia di ciò che miliardi di persone fanno e comunicano. Per questo nascono i motori di ricerca.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come lavora un motore di ricerca",
+          "steps": [
+            {
+              "label": "Scansione",
+              "text": "Programmi automatici visitano le pagine seguendo i link."
+            },
+            {
+              "label": "Indice",
+              "text": "Le pagine vengono catalogate per parole e argomenti."
+            },
+            {
+              "label": "Ordinamento",
+              "text": "Per ogni ricerca i risultati sono ordinati per pertinenza e affidabilità stimate."
+            },
+            {
+              "label": "Risultato",
+              "text": "In cima possono esserci anche annunci a pagamento, segnalati come tali."
+            }
+          ],
+          "ref": "Spiegazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "La tecnologia digitale e il consumatore",
+          "key": "La tecnologia digitale permette di creare contenuti, pubblicarli e consumarli in modo veloce e semplice. Il consumatore può confrontare prodotti e servizi prima di comprarli: la conoscenza è potere, e il digitale ne sposta l'equilibrio a suo favore.",
+          "body": "Notizie, opinioni e informazioni a disposizione del consumatore sono più ampie e profonde che in passato. Il cliente che entra in agenzia ha spesso già letto preventivi, confronti e recensioni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Valutare un'informazione trovata in rete",
+          "items": [
+            {
+              "text": "Chi la pubblica? Cerca il nome del titolare del sito, la sede e i recapiti."
+            },
+            {
+              "text": "È un operatore autorizzato? Per intermediari e imprese si verifica sul sito dell'IVASS, nel Registro degli intermediari (RUI) e negli elenchi delle imprese."
+            },
+            {
+              "text": "È aggiornata? Controlla la data: tariffe e norme cambiano."
+            },
+            {
+              "text": "Trovi conferma su una fonte ufficiale o su un secondo sito indipendente?"
+            },
+            {
+              "text": "È un contenuto pubblicitario? Gli annunci devono essere segnalati come tali."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente entra in agenzia con lo screenshot di un preventivo RC auto trovato online, più basso di quello che le è stato proposto. Dice di aver letto anche alcune recensioni negative sull'agenzia.",
+          "questions": [
+            "Che cosa ci dice questa scena sul nuovo equilibrio tra cliente e intermediario?",
+            "Come conviene muoversi?"
+          ],
+          "solution": "La cliente si è informata da sola, come prevede la fonte: la conoscenza si è spostata dalla sua parte. L'intermediario non contesta il confronto: lo usa. Confronta garanzie, massimali, franchigie ed esclusioni, perché a parità di prezzo la copertura può essere diversa. Poi verifica che il sito del preventivo sia di un operatore autorizzato. Sulle recensioni: le legge, risponde online con garbo e senza dati personali, e corregge ciò che va corretto."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa caratterizza il Web 1.0?",
+          "options": [
+            "Social network e contenuti creati dagli utenti",
+            "Siti statici, senza interazione con l'utente oltre alla navigazione, alle e-mail e ai motori di ricerca",
+            "Assistenti intelligenti e risultati personalizzati",
+            "Applicazioni per smartphone"
+          ],
+          "answer": 1,
+          "explanation": "Nel Web 1.0 l'utente legge pagine statiche. L'interazione diffusa arriva con il Web 2.0 e i social media."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo la fonte, che cos'è una intranet?",
+          "options": [
+            "Una rete senza fili",
+            "Internet usata per servire i clienti con un sito",
+            "L'uso delle tecnologie della rete all'interno dell'azienda",
+            "Un motore di ricerca aziendale"
+          ],
+          "answer": 2,
+          "explanation": "Internet serve a parlare con gli utenti e a servirli; la intranet porta le stesse tecnologie dentro l'azienda, per uso interno."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1.0 · 2.0 · 3.0",
+              "text": "web statico, web sociale, web dei dati"
+            },
+            {
+              "value": "Già presenti",
+              "text": "in rete e sui social, anche senza averlo deciso"
+            },
+            {
+              "value": "2",
+              "text": "mercati: aziendale e di consumo; 2 modelli: internet e intranet"
+            },
+            {
+              "value": "Affollamento",
+              "text": "il problema da cui nascono i motori di ricerca"
+            },
+            {
+              "value": "Potere",
+              "text": "la conoscenza si sposta verso il consumatore"
+            }
+          ]
+        }
+      ],
+      "narration": "Questo argomento è dedicato alla navigazione web e all'uso di internet. Nelle lezioni sulla sicurezza abbiamo parlato molto dei rischi della rete. Qui facciamo un passo indietro e guardiamo la rete per quello che è: come è nata e cambiata, come ci si collega, come funziona la navigazione. Conoscere bene lo strumento serve per usarlo meglio e, alla fine, anche per usarlo con più sicurezza.\n\nLa fonte comincia con una constatazione: internet ha preso il posto di libri, radio e giornali di carta. E questo, dice, dimostra che l'uomo desidera conoscere, avere notizie in tempo reale ed entrare in contatto con le persone stando comodamente seduto davanti a un pc. Oggi aggiungiamo che lo fa soprattutto dallo smartphone. Per chi lavora nella distribuzione assicurativa la conseguenza è concreta: il primo contatto con il cliente avviene spesso in rete, prima che il cliente entri in agenzia o telefoni.\n\nInternet ha dato vita alla cosiddetta trasformazione digitale, che la fonte racconta per fasi. Quando la rivoluzione è cominciata è nata l'era del Web 1.0, fatta soprattutto di siti statici, senza alcuna possibilità di interazione con l'utente oltre alla normale navigazione tra le pagine, all'uso delle e-mail e dei motori di ricerca. L'utente leggeva, ma non scriveva. Pensate al primo sito di una compagnia: una vetrina con l'indirizzo della sede e l'elenco dei prodotti.\n\nPoi l'innovazione tecnologica, prodotta soprattutto dalla digitalizzazione dell'informazione, ha generato il fenomeno di internet come lo conosciamo e il Web 2.0. È il web sociale: l'utente non solo legge, ma scrive, commenta, condivide, pubblica recensioni. Il titolo della fonte arriva fino al Web 3.0, senza descriverlo. Con questa espressione si indica di solito un web che interpreta dati e preferenze per dare risposte su misura: risultati personalizzati, assistenti, applicazioni intelligenti. È un'etichetta più che una data precisa, ma descrive bene la direzione.\n\nPerché la digitalizzazione dell'informazione è così importante? Perché un'informazione digitale si copia, si trasmette e si cerca a un costo quasi nullo. Da qui nascono servizi che prima non esistevano, e cambiano profondamente quelli che c'erano già, compresa la distribuzione assicurativa, con preventivatori online, firma elettronica e polizze digitali, di cui abbiamo parlato in altri argomenti di quest'area.\n\nIl Web 2.0 porta con sé un'osservazione che la fonte sottolinea con forza. I social media e la rete in generale non sono canali che l'azienda può decidere se usare o meno per fare comunicazione e marketing. Qualsiasi azienda attiva sul mercato è probabilmente già presente sui social, anche se non ha fatto niente per esserci. Per un'agenzia questo è molto reale: c'è la scheda sulle mappe con le recensioni, ci sono i commenti nei gruppi di quartiere, ci sono i post di clienti soddisfatti o arrabbiati. Si parla dell'agenzia anche senza l'agenzia. Non presidiare la rete non vuol dire esserne fuori: vuol dire lasciare che siano gli altri a raccontarci.\n\nCome si presidia, in pratica? Cercando ogni tanto il nome dell'agenzia su motori di ricerca, mappe e social. Controllando che indirizzo, orari e recapiti delle schede online siano corretti, perché un numero di telefono sbagliato manda i clienti altrove. Rispondendo alle recensioni con garbo e senza mai citare dati del cliente o della sua polizza: anche una risposta ben intenzionata può violare la riservatezza. Segnalando alla piattaforma i profili falsi che usano nome o logo dell'agenzia, che come abbiamo visto sono uno strumento delle truffe. E ricordando che un reclamo scritto arrivato da un canale social resta un reclamo, e va gestito con le regole che conosciamo.\n\nPassiamo al mercato di internet. A livello mondiale la fonte distingue due fasce: quella che riguarda il mondo aziendale e quella dell'informatica di consumo, cioè dei privati. Nel mondo aziendale si sono affermati due modelli di rete. Internet, per parlare con gli utenti e servirli attraverso un sito con servizi mirati. E intranet, cioè l'uso delle tecnologie di comunicazione della rete all'interno dell'azienda. Il portale agenzie di una compagnia è un buon esempio di questo secondo modello, o di una via di mezzo: usa le tecnologie del web, ma è riservato a chi ha le credenziali.\n\nProviamo a portare la distinzione in agenzia. Internet è il sito, sono le schede sulle mappe e i profili social: aperti a tutti, servono a farsi trovare, a informare e a raccogliere contatti. La intranet sono le cartelle condivise, le procedure interne, il gestionale: riservati a dipendenti e collaboratori, servono a lavorare insieme e a condividere informazioni. Tenere separati i due mondi è anche una regola di sicurezza: ciò che sta sulla intranet non deve finire per errore sul sito.\n\nVeniamo ai cambiamenti portati da internet. Secondo la fonte, oggi la maggior parte degli acquisti che i più giovani fanno nel mercato tradizionale è la conseguenza di scelte fatte online: si cerca, si confronta, si legge, e poi magari si compra in negozio. Questi cambiamenti, però, non arrivano senza costi e problemi. La libertà totale che si è creata ha portato a quello che la fonte chiama affollamento di internet: l'impossibilità oggettiva di tenere traccia di quello che miliardi di persone fanno e comunicano. È per rispondere a questo problema che nascono i motori di ricerca.\n\nCome lavora, in generale, un motore di ricerca? Programmi automatici visitano le pagine seguendo i link da una pagina all'altra. Le pagine trovate vengono catalogate in un grande indice, per parole e argomenti. Quando facciamo una ricerca, il motore ordina i risultati in base alla pertinenza e all'affidabilità che stima. E in cima possono comparire annunci a pagamento, che devono essere segnalati come tali. Sapere questo aiuta a leggere i risultati con spirito critico: il primo risultato non è necessariamente il più affidabile, e nella lezione sul cyber crime abbiamo visto che esiste perfino un phishing basato sui motori di ricerca.\n\nL'ultimo passaggio della fonte riguarda la tecnologia digitale e il consumatore. La tecnologia digitale permette di creare contenuti, di pubblicarli, di accedervi e consumarli in modo veloce e semplice. Di conseguenza notizie, opinioni e informazioni a disposizione del consumatore sono più ampie e profonde che mai. Il consumatore può fare ricerche imparziali, confrontando prodotti e servizi prima di acquistarli. La fonte lo dice così: la conoscenza è potere, e la tecnologia digitale ne sta spostando l'equilibrio a favore del consumatore.\n\nSe la conoscenza si sposta verso il consumatore, conta molto la qualità di ciò che il consumatore trova. E conta anche per noi, quando cerchiamo informazioni per lavoro. Ecco qualche domanda da farsi davanti a un'informazione trovata in rete. Chi la pubblica? Un sito serio indica il titolare, la sede e i recapiti. È un operatore autorizzato? Per gli intermediari e le imprese di assicurazione la verifica si fa sul sito dell'IVASS, nel Registro unico degli intermediari e negli elenchi delle imprese: è utile anche da suggerire ai clienti che trovano offerte da soggetti sconosciuti. È aggiornata? Controllate la data: tariffe, prodotti e norme cambiano. Trova conferma su una fonte ufficiale o su un secondo sito indipendente? E infine: è un contenuto pubblicitario? Gli annunci devono essere segnalati come tali, e un contenuto sponsorizzato non è una recensione imparziale.\n\nUn caso pratico. Una cliente entra in agenzia con lo screenshot di un preventivo RC auto trovato online, più basso di quello che le è stato proposto. Dice anche di aver letto alcune recensioni negative sull'agenzia. Che cosa ci dice questa scena? Che la cliente si è informata da sola, esattamente come descrive la fonte: la conoscenza si è spostata dalla sua parte. L'intermediario non contesta il confronto, lo usa. Mette a confronto garanzie, massimali, franchigie ed esclusioni, perché a parità di prezzo la copertura può essere molto diversa. Verifica che il sito del preventivo appartenga a un operatore autorizzato. E sulle recensioni le legge, risponde online con garbo e senza dati personali, e corregge ciò che effettivamente va corretto.\n\nRiepiloghiamo. Il web è passato dalla fase statica del Web 1.0 a quella sociale del Web 2.0, e oggi si parla di Web 3.0 per indicare servizi che interpretano dati e preferenze. Ogni azienda è già presente in rete, anche senza averlo deciso: conviene presidiare quella presenza. Il mercato della rete ha una fascia aziendale e una di consumo, e in azienda convivono internet e intranet. L'affollamento della rete ha fatto nascere i motori di ricerca. E la tecnologia digitale ha spostato verso il consumatore l'equilibrio della conoscenza.",
+      "sources": [
+        {
+          "title": "IVASS, Il nuovo RUI è on line",
+          "url": "https://www.ivass.it/media/avviso/il-nuovo-rui-on-line/"
+        },
+        {
+          "title": "IVASS, Siti delle imprese e degli intermediari",
+          "url": "https://www.ivass.it/consumatori/siti-imprese-intermediari/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Verifica degli operatori sul sito IVASS: portale pubblico del Registro unico degli intermediari ed elenchi di imprese e siti internet di imprese e intermediari.",
+          "source_ref": "IVASS, avviso sul nuovo RUI; pagina Siti delle imprese e degli intermediari"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Descrizione del Web 3.0 (richiamato solo nel titolo della fonte), funzionamento generale dei motori di ricerca, presidio della presenza online dell'agenzia, confronto internet/intranet in agenzia e caso pratico (integrazioni didattiche senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la maggior parte degli acquisti dei più giovani nel mercato tradizionale è conseguenza di scelte fatte online. Manca un dato a supporto: riferimento da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: internet ha preso il posto di libri, radio e giornali di carta. Affermazione generale, da intendere come tendenza e non come sostituzione completa.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Connettersi a internet: dispositivi, reti, protocolli e indirizzi",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Navigazione web e utilizzo di internet.pdf",
+        "Corso Ivass 60 ore/Materiale /Navigazione web e utilizzo di internet.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Navigazione web e uso di internet",
+          "title": "Connettersi a internet: dispositivi, reti, protocolli e indirizzi",
+          "goals": [
+            "Riconoscere modem, router, switch e access point e che cosa fa ciascuno",
+            "Capire a che cosa servono indirizzo IP e indirizzo MAC",
+            "Conoscere il file sharing peer-to-peer e i suoi rischi in ufficio"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Come ci si collega",
+          "key": "Un computer si collega a internet di solito tramite modem, ADSL, connessioni senza fili o chiavette internet.",
+          "body": "Spesso i computer sono prima collegati tra loro in una rete locale (LAN), che a sua volta si collega a internet attraverso un router o un gateway.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I dispositivi della rete",
+          "head": [
+            "Dispositivo",
+            "Che cosa fa",
+            "Livello OSI"
+          ],
+          "rows": [
+            [
+              "M · Modem",
+              "Modula e demodula i segnali che portano l'informazione sulla linea",
+              "Fisico"
+            ],
+            [
+              "R · Router",
+              "Instrada i pacchetti tra sottoreti diverse, vicine o lontane, con le tabelle di instradamento",
+              "3 · Rete"
+            ],
+            [
+              "S · Switch",
+              "Smista i dati dentro la rete locale verso la porta del destinatario, usando gli indirizzi MAC",
+              "2 · Data link"
+            ],
+            [
+              "AP · Access point",
+              "Trasmette e riceve via radio: è il punto d'accesso della rete Wi-Fi",
+              "Senza fili"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il router",
+          "key": "Il router instrada i pacchetti di dati lavorando al livello 3 del modello OSI, quello di rete: tra due o più sottoreti vicine, ognuna con il proprio indirizzo, oppure verso sottoreti lontane con le tabelle di instradamento.",
+          "body": "In casa e nei piccoli uffici modem, router, switch e access point sono spesso riuniti in un'unica scatola, quella fornita dall'operatore. Per questo la sua configurazione conta tanto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Lo switch",
+          "key": "Lo switch è un nodo interno della rete che commuta al livello 2, Data Link, del modello OSI. Dentro la rete locale inoltra ogni frame solo verso la porta del destinatario, grazie alla corrispondenza tra porte e indirizzi MAC.",
+          "body": "È il dispositivo con tante prese a cui si collegano via cavo i computer e le stampanti dell'ufficio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La connessione wireless",
+          "key": "La rete Wi-Fi è una rete di telecomunicazioni, che può essere collegata a internet, simile a una piccola rete cellulare locale: al posto delle stazioni radio base usa gli access point.",
+          "body": "Il modello è client-server: i dispositivi si collegano all'access point, che gestisce la rete.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il Wi-Fi dell'agenzia",
+          "items": [
+            {
+              "text": "Cambia nome della rete e password di fabbrica del Wi-Fi e del pannello di amministrazione del router."
+            },
+            {
+              "text": "Usa la protezione più recente offerta dal router e una password lunga."
+            },
+            {
+              "text": "Crea una rete ospiti separata per i clienti in sala d'attesa."
+            },
+            {
+              "text": "Tieni aggiornato il router e spegni le funzioni che non usi."
+            },
+            {
+              "text": "Sostituisci il router quando il produttore non rilascia più aggiornamenti."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "I protocolli di connessione",
+          "left": {
+            "title": "PPPoE",
+            "items": [
+              "Point-to-Point Protocol over Ethernet",
+              "Protocollo punto a punto su Ethernet",
+              "Per connessioni internet ad alta velocità"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "PPPoA",
+            "items": [
+              "Point-to-Point Protocol over ATM",
+              "Protocollo punto a punto su ATM",
+              "Molto usato in passato, soprattutto con i modem USB"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Quando si accende, il router apre la connessione verso l'operatore (ISP) e la ridistribuisce nella rete di casa o dell'ufficio.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Indirizzo IP e indirizzo MAC",
+          "cols": [
+            {
+              "title": "Indirizzo IP",
+              "items": [
+                "Numero che identifica in modo univoco un dispositivo su una rete che usa il protocollo IP",
+                "Identifica il dispositivo",
+                "Indica il percorso per raggiungerlo"
+              ]
+            },
+            {
+              "title": "Indirizzo MAC",
+              "items": [
+                "Indirizzo della scheda di rete",
+                "Serve all'indirizzamento diretto dentro una sottorete locale",
+                "È quello che usa lo switch"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Indirizzi pubblici e privati",
+          "key": "Dentro l'ufficio ogni dispositivo ha un indirizzo IP privato, valido solo nella rete locale. Verso internet l'ufficio esce con l'indirizzo pubblico assegnato dall'operatore al router.",
+          "body": "Gli indirizzi più diffusi (IPv4) sono quattro numeri separati da punti, come 192.168.1.10. Il nuovo formato IPv6 è più lungo e permette moltissimi più indirizzi.",
+          "ref": "Spiegazione didattica"
+        },
+        {
+          "layout": "steps",
+          "title": "Se la connessione cade",
+          "steps": [
+            {
+              "label": "Verifica",
+              "text": "Controlla le spie del router e se il problema riguarda tutti i dispositivi o uno solo."
+            },
+            {
+              "label": "Riavvio",
+              "text": "Spegni e riaccendi il router; se non basta, chiama l'assistenza dell'operatore."
+            },
+            {
+              "label": "Alternativa",
+              "text": "Per le urgenze usa l'hotspot dello smartphone di lavoro, mai il Wi-Fi di un locale vicino."
+            },
+            {
+              "label": "Pianifica",
+              "text": "Se l'agenzia non può fermarsi, valuta una seconda linea di riserva."
+            }
+          ],
+          "ref": "Esempio didattico"
+        },
+        {
+          "layout": "concept",
+          "title": "Il file sharing",
+          "key": "Il file sharing è la condivisione di file in una rete di computer. Può avvenire con un'architettura client-server oppure peer-to-peer (P2P).",
+          "body": "Peer-to-peer è una rete paritaria: non ha nodi gerarchici fissi, client o server, ma nodi equivalenti (peer) che fanno da client e da server per gli altri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Client-server e peer-to-peer",
+          "cols": [
+            {
+              "title": "Client-server",
+              "items": [
+                "Un server centrale conserva e distribuisce i file",
+                "Accessi controllati e registrati",
+                "Esempio: la cartella condivisa dell'agenzia"
+              ]
+            },
+            {
+              "title": "Peer-to-peer",
+              "items": [
+                "Ogni computer prende e dà file agli altri",
+                "Nessun controllo centrale su chi condivide che cosa",
+                "Rischi in ufficio: malware, cartelle condivise per errore, contenuti illeciti"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un nuovo collaboratore installa sul portatile dell'agenzia un programma peer-to-peer per scaricare un manuale. Senza accorgersene condivide anche la cartella Documenti, dove ha salvato preventivi e copie dei documenti d'identità dei clienti.",
+          "questions": [
+            "Perché la rete paritaria crea un rischio particolare?",
+            "Che cosa si fa?"
+          ],
+          "solution": "In una rete peer-to-peer ogni nodo fa anche da server: la cartella condivisa è visibile agli altri utenti della rete, senza alcun controllo centrale. Si disinstalla subito il programma, si verifica che cosa è stato condiviso e per quanto tempo, e si valuta con il titolare del trattamento se c'è stata una violazione dei dati personali. Per il futuro: niente software non autorizzati sui dispositivi di lavoro, e documenti dei clienti solo negli archivi dell'agenzia."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale dispositivo smista i dati dentro la rete locale usando gli indirizzi MAC?",
+          "options": [
+            "Il modem",
+            "Lo switch",
+            "Il router verso internet",
+            "Il browser"
+          ],
+          "answer": 1,
+          "explanation": "Lo switch lavora al livello 2, Data Link: inoltra ogni frame alla porta del destinatario grazie alla corrispondenza tra porte e indirizzi MAC."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quali sono le due funzioni principali di un indirizzo IP?",
+          "options": [
+            "Cifrare i dati e proteggerli",
+            "Identificare un dispositivo sulla rete e indicare il percorso per raggiungerlo",
+            "Dare un nome al sito e mostrarlo nel browser",
+            "Collegare il computer alla presa elettrica"
+          ],
+          "answer": 1,
+          "explanation": "L'indirizzo IP identifica il dispositivo e ne fornisce il percorso di raggiungibilità. Dentro la sottorete locale si usa poi l'indirizzo MAC."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "LAN",
+              "text": "la rete locale, collegata a internet tramite router o gateway"
+            },
+            {
+              "value": "3 · 2",
+              "text": "i livelli OSI di router (rete) e switch (data link)"
+            },
+            {
+              "value": "PPPoE · PPPoA",
+              "text": "i protocolli punto a punto su Ethernet e su ATM"
+            },
+            {
+              "value": "IP · MAC",
+              "text": "identità e percorso in rete; indirizzo nella rete locale"
+            },
+            {
+              "value": "P2P",
+              "text": "rete paritaria: ogni nodo è client e server"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nella parte più tecnica: come ci si collega a internet, con quali dispositivi, con quali protocolli e con quali indirizzi. Non serve diventare tecnici di rete, ma sapere che cosa c'è nella scatola con le lucine sulla scrivania aiuta a capire tante cose, compresi i rischi di cui abbiamo parlato nelle lezioni sulla sicurezza.\n\nLa fonte ricorda che un computer si collega a internet di solito tramite un modem, l'ADSL, connessioni senza fili o chiavette internet. Oggi a questi si aggiungono la fibra ottica e la connessione condivisa dallo smartphone, ma la logica non cambia. Spesso i computer, prima di collegarsi a internet, sono collegati tra loro in una rete locale, la LAN, che a sua volta si collega a internet attraverso un router o un gateway. In agenzia è proprio così: i computer, la stampante, magari il centralino, formano una rete locale, e un solo dispositivo fa da porta verso l'esterno.\n\nVediamo i dispositivi uno per uno. Il modem, dice la fonte, permette la modulazione e la demodulazione dei segnali che contengono l'informazione: trasforma i dati digitali del computer in un segnale che viaggia sulla linea, e viceversa. La parola stessa nasce da modulatore-demodulatore.\n\nIl router è un dispositivo di rete che instrada i pacchetti di dati lavorando al livello 3 del modello OSI, il livello di rete. Il modello OSI è uno schema di riferimento che divide la comunicazione in rete in sette livelli, dal cavo fisico fino all'applicazione che usiamo. Il router instrada i pacchetti tra due o più sottoreti vicine, grazie alle sue interfacce, ciascuna con il proprio indirizzo, oppure verso sottoreti lontane, attraverso le tabelle di instradamento. In pratica decide da quale strada far passare ogni pacchetto per farlo arrivare a destinazione.\n\nLo switch è un dispositivo, o nodo interno di rete, che si occupa di commutazione al livello 2 del modello OSI, il livello Data Link. Lavora all'interno delle reti locali usando gli indirizzi MAC: inoltra in modo selettivo i frame ricevuti, cioè i blocchi di dati, verso una precisa porta di uscita, quella del destinatario, grazie a una corrispondenza univoca tra porta e indirizzo. È il dispositivo con tante prese a cui si collegano via cavo i computer e le stampanti dell'ufficio.\n\nNella maggior parte delle case e dei piccoli uffici modem, router, switch e access point sono riuniti in un'unica scatola, quella fornita dall'operatore. È comodo, ma significa anche che tutta la rete dipende da un solo apparecchio e dalla sua configurazione. Nella lezione sull'attacco man-in-the-middle abbiamo visto che un router lasciato con la password di fabbrica può diventare la porta di ingresso per dirottare il traffico.\n\nPoi c'è la connessione wireless. La rete Wi-Fi, spiega la fonte, è una rete di telecomunicazioni, eventualmente collegata a internet, paragonabile a una rete cellulare in piccola scala, locale. Al posto delle stazioni radio base delle reti di telefonia mobile usa dispositivi di ricetrasmissione radio, gli access point. Il modello è client-server: i dispositivi, i client, si collegano all'access point, che gestisce la rete.\n\nProprio perché il Wi-Fi si propaga oltre le pareti dell'ufficio, conviene curarlo. Cambiate il nome della rete e soprattutto la password di fabbrica, sia del Wi-Fi sia del pannello di amministrazione del router. Usate la protezione più recente offerta dal router e una password lunga. Create una rete ospiti separata per i clienti in sala d'attesa, così chi usa il Wi-Fi gratuito non entra nella stessa rete del gestionale. Tenete aggiornato il router e spegnete le funzioni che non usate. E quando il produttore smette di rilasciare aggiornamenti, sostituitelo: un router senza aggiornamenti resta con le sue falle per sempre.\n\nParliamo di protocolli. Quando accendiamo il router, dice la fonte, questo apre una connessione verso il nostro ISP, cioè l'operatore che fornisce l'accesso a internet, e poi la ridistribuisce nella rete domestica o dell'ufficio. Esistono vari protocolli di connessione. Il PPPoE, Point-to-Point Protocol over Ethernet, cioè protocollo punto a punto su Ethernet, è un protocollo di rete per le connessioni internet ad alta velocità. Il PPPoA, Point-to-Point Protocol over ATM, protocollo punto a punto su ATM, era molto usato in passato, soprattutto con i modem USB. Sono dettagli che di solito configura l'operatore, ma capita di trovarli nelle impostazioni del router quando si cambia fornitore.\n\nArriviamo agli indirizzi. Un indirizzo IP, Internet Protocol address, è un numero che identifica in modo univoco un dispositivo collegato a una rete che usa il protocollo IP per comunicare. Le sue funzioni principali sono due: identificare un dispositivo sulla rete e fornire il percorso per raggiungerlo. Un po' come un indirizzo postale, che dice chi sei e dove trovarti. L'indirizzo MAC, invece, è usato per l'indirizzamento diretto all'interno di una sottorete locale: è l'indirizzo della scheda di rete, ed è quello che usa lo switch per consegnare i dati al computer giusto.\n\nUna precisazione utile. Dentro l'ufficio ogni dispositivo ha di solito un indirizzo IP privato, valido solo nella rete locale. Verso internet, invece, l'intero ufficio si presenta con un solo indirizzo pubblico, quello assegnato dall'operatore al router. Gli indirizzi più diffusi, nel formato chiamato IPv4, sono quattro numeri separati da punti, come centonovantadue punto centosessantotto punto uno punto dieci, un tipico indirizzo privato. Il formato più recente, IPv6, è più lungo e permette un numero enormemente maggiore di indirizzi. Quando un servizio vi avvisa di un accesso \"da un nuovo indirizzo IP\", sta parlando dell'indirizzo pubblico da cui è arrivato il collegamento.\n\nUna parentesi pratica: che cosa fare se la connessione cade. Prima si verifica: le spie del router sono accese come al solito? Il problema riguarda tutti i dispositivi o uno solo? Se è uno solo, il guasto è probabilmente lì, non nella linea. Poi si prova il rimedio più semplice, spegnere e riaccendere il router; se non basta, si chiama l'assistenza dell'operatore. Nel frattempo, per le pratiche urgenti, si può usare l'hotspot dello smartphone di lavoro, mai il Wi-Fi gratuito di un locale vicino, per i motivi visti nelle lezioni sulla sicurezza. E se l'agenzia non può permettersi di restare ferma, ad esempio in periodo di rinnovi, conviene valutare una seconda linea di riserva, magari di un altro operatore. È un piccolo esempio di continuità operativa, un tema che abbiamo trattato parlando di resilienza.\n\nL'ultimo tema della lezione è il file sharing, cioè la condivisione di file in una rete di computer. Secondo la fonte può avvenire con un'architettura client-server, cliente-servente, oppure peer-to-peer, pari a pari. Il peer-to-peer, o P2P, è una rete paritaria: una rete di computer che non ha nodi gerarchici fissi, client o server, ma un certo numero di nodi equivalenti, i peer, che fanno sia da cliente sia da servente verso gli altri nodi.\n\nMettiamo a confronto i due modelli. Nel modello client-server un server centrale conserva e distribuisce i file, gli accessi si possono controllare e registrare: è il caso della cartella condivisa dell'agenzia o dell'archivio documentale. Nel peer-to-peer ogni computer prende e dà file agli altri, senza un controllo centrale su chi condivide che cosa. In ufficio questo porta tre rischi tipici: file scaricati che contengono malware, cartelle condivise per errore con sconosciuti, contenuti protetti o illeciti che passano dal computer di lavoro.\n\nUn caso pratico. Un nuovo collaboratore installa sul portatile dell'agenzia un programma peer-to-peer per scaricare un manuale. Senza accorgersene condivide anche la cartella Documenti, dove ha salvato preventivi e copie dei documenti d'identità dei clienti. Perché il rischio è particolare? Perché in una rete peer-to-peer ogni nodo fa anche da server: quella cartella diventa visibile agli altri utenti della rete, senza alcun controllo centrale. Che cosa si fa? Si disinstalla subito il programma, si verifica che cosa è stato condiviso e per quanto tempo, e si valuta con il titolare del trattamento se c'è stata una violazione dei dati personali. Per il futuro valgono due regole: niente software non autorizzati sui dispositivi di lavoro, e documenti dei clienti solo negli archivi dell'agenzia.\n\nRiepiloghiamo. Ci si collega a internet con modem, ADSL, fibra, Wi-Fi o chiavette, e spesso attraverso una rete locale collegata a internet da un router o un gateway. Il modem modula e demodula i segnali, il router instrada i pacchetti tra reti al livello 3, lo switch smista i dati dentro la rete locale al livello 2 con gli indirizzi MAC, l'access point porta la rete via radio. PPPoE e PPPoA sono protocolli punto a punto per la connessione con l'operatore. L'indirizzo IP identifica il dispositivo e il percorso per raggiungerlo, il MAC serve dentro la rete locale. E il peer-to-peer è una rete paritaria, comoda ma rischiosa sui computer di lavoro.",
+      "sources": [],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione del modello OSI, indirizzi IP pubblici e privati, IPv4 e IPv6, buone pratiche per il Wi-Fi dell'agenzia, confronto client-server e peer-to-peer con i rischi in ufficio, caso pratico (integrazioni tecniche generali senza dati).",
+          "source_ref": null
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte ADSL e chiavette tra le modalità di connessione e PPPoA tra i protocolli. Aggiunte fibra e hotspot dello smartphone: possibile aggiornamento dell'elenco.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "modificato",
+          "description": "Nella fonte il modello è indicato sia come \"OSI\" sia come \"ISO-OSI\": è lo stesso modello di riferimento.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    },
+    {
+      "title": "Browser, HTML e World Wide Web: come si visualizza una pagina e che cosa sono i cookie",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Navigazione web e utilizzo di internet.pdf",
+        "Corso Ivass 60 ore/Materiale /Navigazione web e utilizzo di internet.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area informatica · Navigazione web e uso di internet",
+          "title": "Browser, HTML e World Wide Web",
+          "goals": [
+            "Sapere che cosa fanno il browser e il linguaggio HTML",
+            "Distinguere internet e World Wide Web e leggere un indirizzo web",
+            "Conoscere le regole del Garante sui cookie, anche per il sito dell'agenzia"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il browser",
+          "key": "Il browser, o navigatore, è il programma che permette di usare i servizi di connettività in rete e di navigare nel World Wide Web. Si appoggia ai protocolli di rete forniti dal sistema operativo, attraverso apposite API.",
+          "body": "Mostra i contenuti delle pagine dei siti web e permette di interagire con esse: compilare un modulo, firmare un documento, scaricare una polizza.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il linguaggio HTML",
+          "key": "L'HyperText Markup Language (HTML) è il linguaggio di solito usato per i documenti ipertestuali del web. Non è un linguaggio di programmazione, ma di markup: con i tag descrive come impaginare, formattare e mostrare il contenuto di una pagina.",
+          "body": "I documenti HTML sono conservati di solito sui dischi di computer server sempre collegati a internet.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Le tre lingue di una pagina web",
+          "head": [
+            "Linguaggio",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "HTML",
+              "La struttura e il contenuto: titoli, paragrafi, immagini, moduli, link"
+            ],
+            [
+              "CSS",
+              "L'aspetto: colori, caratteri, impaginazione su computer e telefono"
+            ],
+            [
+              "JavaScript",
+              "Il comportamento: calcoli, controlli dei moduli, contenuti che si aggiornano"
+            ]
+          ],
+          "ref": "HTML e CSS: materiale originale del corso. Spiegazioni: integrazione didattica"
+        },
+        {
+          "layout": "concept",
+          "title": "Il World Wide Web",
+          "key": "Il World Wide Web (WWW), o semplicemente Web, è un servizio di internet che permette di navigare e usare un insieme vastissimo di contenuti multimediali e di altri servizi, accessibili a tutti o solo a una parte degli utenti di internet.",
+          "body": "Il Web è uno dei servizi di internet, non internet: anche la posta elettronica, ad esempio, usa internet ma non è il Web.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Le due caratteristiche del Web",
+          "left": {
+            "title": "Ipertesto",
+            "items": [
+              "I contenuti sono collegati tra loro dai link",
+              "Si passa da una pagina all'altra, anche di siti diversi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Servizi degli utenti",
+            "items": [
+              "I servizi possono essere offerti dagli stessi utenti di internet",
+              "Chiunque può pubblicare un sito"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Proprio perché chiunque può pubblicare, un link non garantisce nulla su chi c'è dall'altra parte.",
+          "noteRef": "Esempio didattico"
+        },
+        {
+          "layout": "steps",
+          "title": "Come si visualizza una pagina",
+          "steps": [
+            {
+              "label": "URL",
+              "text": "Si scrive l'indirizzo della pagina nel browser."
+            },
+            {
+              "label": "Dialogo",
+              "text": "Il browser scambia una serie di messaggi con il server web che ospita la pagina."
+            },
+            {
+              "label": "File",
+              "text": "Riceve i file richiesti dal server."
+            },
+            {
+              "label": "Impaginazione",
+              "text": "Compone la pagina seguendo HTML, CSS o altri linguaggi web, e inserisce immagini e altre risorse."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Leggere un indirizzo web",
+          "lead": "Esempio: https://www.agenziaesempio.it/preventivi/auto?targa=AB123CD",
+          "head": [
+            "Parte",
+            "Che cosa indica"
+          ],
+          "rows": [
+            [
+              "https://",
+              "Il protocollo: la s indica una connessione cifrata"
+            ],
+            [
+              "www.agenziaesempio.it",
+              "Il nome del server; il dominio vero è agenziaesempio.it"
+            ],
+            [
+              "/preventivi/auto",
+              "Il percorso della pagina nel sito"
+            ],
+            [
+              "?targa=AB123CD",
+              "I parametri: dati passati alla pagina, visibili a chiunque veda l'indirizzo"
+            ]
+          ],
+          "ref": "Spiegazione didattica"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il browser di lavoro",
+          "items": [
+            {
+              "text": "Tienilo aggiornato: molte falle si chiudono solo con gli aggiornamenti."
+            },
+            {
+              "text": "Installa solo le estensioni che servono, da fonti ufficiali: un'estensione può leggere le pagine che apri."
+            },
+            {
+              "text": "Non salvare le password su un computer condiviso; usa il gestore di password indicato dall'agenzia."
+            },
+            {
+              "text": "La navigazione in incognito non ti rende anonimo: evita solo di salvare cronologia e cookie su quel computer."
+            },
+            {
+              "text": "Chiudi la sessione dei portali quando hai finito, soprattutto su postazioni usate da più persone."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I cookie",
+          "key": "Quando visitiamo un sito, il browser può ricevere e conservare piccoli file, i cookie, e altri strumenti di tracciamento. Alcuni servono a far funzionare il sito, altri a profilare l'utente per la pubblicità.",
+          "body": "Il Garante per la protezione dei dati personali ha dettato le regole con le Linee guida del 10 giugno 2021, pubblicate in Gazzetta Ufficiale il 9 luglio 2021.",
+          "ref": "Garante privacy, Linee guida cookie, 10 giugno 2021"
+        },
+        {
+          "layout": "compare",
+          "title": "Cookie tecnici e di profilazione",
+          "cols": [
+            {
+              "title": "Tecnici",
+              "items": [
+                "Servono solo a trasmettere una comunicazione o a dare un servizio richiesto dall'utente",
+                "Non serve il consenso, ma serve l'informativa",
+                "Gli analytics possono essere equiparati, a condizioni precise"
+              ]
+            },
+            {
+              "title": "Di profilazione e altri non tecnici",
+              "items": [
+                "Servono a seguire l'utente e a profilarlo",
+                "Serve il consenso, dato con un'azione positiva",
+                "Non si può invocare il legittimo interesse"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Il banner dei cookie",
+          "items": [
+            {
+              "text": "Una X in alto a destra per chiudere: chi chiude mantiene le impostazioni predefinite, cioè nessun cookie non tecnico.",
+              "ref": "Linee guida cookie"
+            },
+            {
+              "text": "Un'informativa minima e un link alla privacy policy, raggiungibile anche dal fondo pagina.",
+              "ref": "Linee guida cookie"
+            },
+            {
+              "text": "Un comando per accettare tutto e un'area per scelte una per una, preimpostate sul rifiuto, con la stessa evidenza grafica.",
+              "ref": "Linee guida cookie"
+            },
+            {
+              "text": "Lo scorrimento della pagina da solo non è consenso; silenzio e caselle preselezionate nemmeno.",
+              "ref": "Linee guida cookie"
+            },
+            {
+              "text": "Dopo un rifiuto il banner non si ripropone, salvo cambi rilevanti, impossibilità di ricordare la scelta o almeno 6 mesi trascorsi.",
+              "ref": "Linee guida cookie"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il cookie wall",
+          "key": "Il meccanismo \"prendere o lasciare\", che blocca il sito finché l'utente non accetta i cookie, è considerato illecito, salvo che l'utente possa avere un contenuto o un servizio equivalente senza dare il consenso.",
+          "body": "Le scelte devono poter essere cambiate in ogni momento, con un link nel fondo pagina del tipo \"rivedi le tue scelte sui cookie\".",
+          "ref": "Garante privacy, Linee guida cookie, 10 giugno 2021"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "L'agenzia rifà il sito con un modulo per chiedere un preventivo. Il fornitore propone un banner con un solo pulsante \"Accetta\" e la frase \"continuando a navigare accetti i cookie\". Il sito usa anche strumenti pubblicitari per misurare le campagne sui social.",
+          "questions": [
+            "Che cosa non va nel banner proposto?",
+            "Che cosa chiede l'agenzia al fornitore?"
+          ],
+          "solution": "Lo scorrimento o la semplice navigazione non sono un consenso valido, e manca la possibilità di rifiutare con la stessa evidenza. Gli strumenti pubblicitari sono non tecnici: servono il consenso preventivo e un'informativa. L'agenzia chiede un banner con la X di chiusura, il pulsante per accettare tutto, l'area per le scelte una per una preimpostate sul rifiuto, il link alla privacy policy e il link nel fondo pagina per rivedere le scelte. E chiede che i cookie non tecnici partano solo dopo il consenso."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché l'HTML non è un linguaggio di programmazione?",
+          "options": [
+            "Perché è troppo recente",
+            "Perché è un linguaggio di markup: con i tag descrive impaginazione, formattazione e aspetto dei contenuti",
+            "Perché funziona solo sugli smartphone",
+            "Perché serve solo per la posta elettronica"
+          ],
+          "answer": 1,
+          "explanation": "L'HTML descrive come mostrare il contenuto di una pagina. Calcoli e comportamenti sono affidati ad altri linguaggi, come JavaScript."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo le Linee guida del Garante, l'utente che chiude il banner dei cookie con la X:",
+          "options": [
+            "Accetta tutti i cookie",
+            "Mantiene le impostazioni predefinite: nessun cookie non tecnico",
+            "Deve rivedere il banner a ogni pagina",
+            "Non può più usare il sito"
+          ],
+          "answer": 1,
+          "explanation": "La chiusura con la X conserva le impostazioni predefinite, che devono essere di rifiuto dei cookie non tecnici."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Browser",
+              "text": "il programma per navigare nel Web e interagire con le pagine"
+            },
+            {
+              "value": "HTML",
+              "text": "linguaggio di markup, non di programmazione"
+            },
+            {
+              "value": "Ipertesto",
+              "text": "i contenuti del Web sono collegati dai link"
+            },
+            {
+              "value": "Consenso",
+              "text": "necessario per i cookie di profilazione; lo scorrimento non basta"
+            },
+            {
+              "value": "6 mesi",
+              "text": "minimo prima di riproporre il banner dopo un rifiuto"
+            }
+          ]
+        }
+      ],
+      "narration": "Nell'ultima lezione dell'argomento arriviamo allo strumento che usiamo tutti i giorni senza pensarci: il browser. Vediamo che cosa fa, in che linguaggio sono scritte le pagine, che cosa distingue il Web da internet e che cosa succede quando apriamo una pagina. Chiudiamo con un tema molto concreto per chi ha un sito: i cookie e le regole del Garante per la protezione dei dati personali.\n\nIl browser, o navigatore, dice la fonte, è un programma che permette di usare i servizi di connettività in rete e di navigare nel World Wide Web. Si appoggia ai protocolli di rete forniti dal sistema operativo, attraverso apposite API, cioè interfacce di programmazione con cui un programma chiede servizi a un altro. Il browser mostra il contenuto delle pagine dei siti web e permette di interagire con esse. Per un intermediario il browser è ormai lo strumento di lavoro principale: ci passano il portale della compagnia, il preventivatore, la firma elettronica, la posta via web, l'home banking.\n\nLe pagine web sono scritte in HTML, HyperText Markup Language, il linguaggio di solito usato per i documenti ipertestuali disponibili nel World Wide Web. La fonte precisa un punto che spesso si confonde: l'HTML non è un linguaggio di programmazione, ma un linguaggio di markup, cioè di marcatura. Con i tag di formattazione descrive come impaginare, formattare e mostrare graficamente il contenuto di una pagina, testuale e non. Un tag dice, ad esempio, questo è un titolo, questo è un paragrafo, questa è un'immagine, questo è un modulo da compilare. I documenti HTML sono conservati di solito sui dischi di computer server collegati costantemente a internet.\n\nPer completare il quadro, una pagina web moderna parla di solito tre lingue. L'HTML dà la struttura e il contenuto. Il CSS, che la fonte cita parlando della visualizzazione, ne cura l'aspetto: colori, caratteri e impaginazione, che cambia quando la stessa pagina si apre sul computer o sul telefono. E JavaScript ne gestisce il comportamento: calcoli, controlli dei campi di un modulo, contenuti che si aggiornano senza ricaricare la pagina. Lo abbiamo incontrato nella lezione sul cyber crime: è proprio JavaScript che il formjacking inietta nei moduli di pagamento.\n\nChe cos'è il World Wide Web? È un servizio di internet, spesso abbreviato in Web e conosciuto anche come Grande Rete Mondiale, che permette di navigare e usare un insieme vastissimo di contenuti multimediali e di altri servizi, accessibili a tutti o solo a una parte selezionata degli utenti di internet. È importante non confondere i due termini: internet è l'insieme delle reti collegate tra loro, il Web è uno dei servizi che viaggiano su internet. La posta elettronica, per esempio, usa internet ma non è il Web.\n\nLa fonte indica due caratteristiche del Web. La prima: i suoi contenuti sono collegati tra loro, formando un ipertesto, attraverso i link, che permettono di passare da una pagina all'altra, anche tra siti diversi. La seconda: i suoi servizi possono essere offerti dagli stessi utenti di internet. Chiunque può pubblicare un sito. È la forza del Web e insieme il suo limite: proprio perché chiunque può pubblicare, un link non garantisce nulla su chi c'è dall'altra parte.\n\nCome si visualizza una pagina? La visione di una pagina web, spiega la fonte, comincia quando si digita il suo URL, cioè il suo indirizzo, nell'apposito campo del browser. Il browser avvia una serie di messaggi di comunicazione con il server web che ospita la pagina, con lo scopo di mostrarla sul dispositivo dell'utente. Una volta ricevuti i file richiesti dal server, il browser impagina la pagina sullo schermo seguendo le specifiche HTML, CSS o di altri linguaggi web, e incorpora immagini e altre risorse per produrre la pagina che l'utente vedrà. I passaggi intermedi, come la traduzione del nome del sito in indirizzo IP da parte del DNS e la memoria cache del browser, li abbiamo già visti nell'argomento sul malware, a proposito di come funziona davvero il web.\n\nAggiungiamo un'abilità pratica: leggere un indirizzo web. Prendiamo come esempio un indirizzo del tipo https, due punti, doppia barra, www punto agenziaesempio punto it, barra preventivi, barra auto, punto di domanda targa uguale a una targa. La prima parte, https, è il protocollo: la s finale indica una connessione cifrata. Poi c'è il nome del server, in cui il dominio vero è agenziaesempio punto it. Poi il percorso della pagina all'interno del sito, preventivi e auto. Infine, dopo il punto di domanda, i parametri, cioè dati passati alla pagina. Questi ultimi sono visibili a chiunque veda l'indirizzo: per questo un sito fatto bene non mette mai nell'indirizzo dati personali come il codice fiscale, e noi non dovremmo mai condividere link che contengono dati di un cliente.\n\nPrima dei cookie, qualche regola sul browser che usiamo per lavoro. Tenetelo aggiornato: molte falle si chiudono solo con gli aggiornamenti, e il browser è la porta da cui passano quasi tutti i servizi che usiamo. Installate solo le estensioni che servono davvero, e solo da fonti ufficiali: un'estensione può leggere il contenuto delle pagine che aprite, comprese quelle del portale della compagnia. Non salvate le password nel browser di un computer condiviso, e usate il gestore di password indicato dall'agenzia. Sappiate che la navigazione in incognito non vi rende anonimi: evita soltanto che cronologia e cookie restino salvati su quel computer, ma il sito, l'operatore e la rete dell'ufficio vedono comunque il collegamento. E chiudete la sessione dei portali quando avete finito, soprattutto sulle postazioni usate da più persone.\n\nVeniamo ai cookie. Quando visitiamo un sito, il browser può ricevere e conservare piccoli file di testo, i cookie, e il sito può usare anche altri strumenti di tracciamento. Alcuni servono semplicemente a far funzionare il sito, ad esempio a ricordare che abbiamo fatto l'accesso. Altri servono a seguire l'utente e a profilarlo, per mostrargli pubblicità mirata. Le regole sono state dettate dal Garante per la protezione dei dati personali con le Linee guida sui cookie e gli altri strumenti di tracciamento del 10 giugno 2021, pubblicate in Gazzetta Ufficiale il 9 luglio 2021.\n\nLe Linee guida distinguono due grandi famiglie. I cookie tecnici servono solo a trasmettere una comunicazione o a fornire un servizio esplicitamente richiesto dall'utente: non richiedono il consenso, ma va comunque data un'informativa. I cookie analitici, quelli che misurano le visite, possono essere equiparati ai tecnici, ma solo a condizioni precise: ad esempio che l'indirizzo IP venga in parte mascherato e che i dati servano solo a statistiche aggregate. I cookie di profilazione e gli altri strumenti non tecnici richiedono invece il consenso, espresso con un'azione positiva, e per questi il Garante afferma che non si può mai invocare il legittimo interesse. Le Linee guida si applicano anche al fingerprinting, una tecnica che riconosce il dispositivo dalle sue caratteristiche, che l'utente non può cancellare come farebbe con un cookie.\n\nCome deve essere fatto il banner? Deve avere una X in alto a destra per chiuderlo, con l'avvertenza che chi chiude mantiene le impostazioni predefinite, cioè nessun cookie non tecnico. Deve contenere un'informativa minima e un link alla privacy policy, raggiungibile anche dal fondo della pagina. Deve offrire un comando per accettare tutti i cookie e un collegamento a un'area in cui fare scelte una per una, con le opzioni preimpostate sul rifiuto. E tutti i comandi devono avere la stessa evidenza grafica: non si può fare un grande pulsante verde per accettare e un link minuscolo e grigio per rifiutare. Il Garante precisa inoltre che il semplice scorrimento della pagina non è di per sé un consenso valido, e che nemmeno il silenzio, l'inattività o le caselle già spuntate lo sono. Dopo un rifiuto il banner non va riproposto, salvo che cambino in modo rilevante le condizioni, ad esempio se si aggiungono nuove terze parti, che il sito non riesca più a ricordare la scelta perché l'utente ha cancellato i cookie, oppure che siano passati almeno sei mesi.\n\nC'è poi il cookie wall, il meccanismo prendere o lasciare che blocca il sito finché l'utente non accetta i cookie. Il Garante lo considera illecito, salvo che l'utente possa accedere a un contenuto o a un servizio equivalente senza dare il consenso, verifica da fare caso per caso. E le scelte devono poter essere cambiate in ogni momento, con un link nel fondo pagina con una dicitura come \"rivedi le tue scelte sui cookie\".\n\nPerché tutto questo riguarda l'intermediario? Perché molte agenzie hanno un sito, spesso con un modulo per i preventivi e qualche strumento per misurare le campagne pubblicitarie sui social. Chi gestisce il sito è responsabile delle scelte sui cookie, anche se il sito l'ha fatto un fornitore.\n\nUn caso pratico. L'agenzia rifà il sito con un modulo per chiedere un preventivo. Il fornitore propone un banner con un solo pulsante \"Accetta\" e la frase \"continuando a navigare accetti i cookie\". Il sito usa anche strumenti pubblicitari per misurare le campagne sui social. Che cosa non va? La navigazione o lo scorrimento non sono un consenso valido, e manca la possibilità di rifiutare con la stessa evidenza dell'accettazione. Gli strumenti pubblicitari non sono tecnici: servono il consenso preventivo e un'informativa. Che cosa chiede l'agenzia al fornitore? Un banner con la X di chiusura, il pulsante per accettare tutto, l'area per le scelte una per una preimpostate sul rifiuto, il link alla privacy policy e il link nel fondo pagina per rivedere le scelte. E soprattutto che i cookie non tecnici partano solo dopo il consenso, non al primo caricamento della pagina.\n\nRiepiloghiamo. Il browser è il programma con cui navighiamo nel Web e interagiamo con le pagine. Le pagine sono scritte in HTML, un linguaggio di markup e non di programmazione, insieme a CSS per l'aspetto e JavaScript per il comportamento. Il Web è un servizio di internet fatto di contenuti collegati dai link, che chiunque può pubblicare. Una pagina si visualizza in pochi passaggi: indirizzo, dialogo con il server, file, impaginazione. E per i cookie valgono le Linee guida del Garante del 2021: consenso con un'azione positiva per quelli di profilazione, nessun consenso con lo scorrimento, banner con la X e scelte preimpostate sul rifiuto, niente cookie wall.",
+      "sources": [
+        {
+          "title": "Garante per la protezione dei dati personali, Linee guida cookie e altri strumenti di tracciamento, 10 giugno 2021 (doc. web n. 9677876)",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9677876"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Linee guida del Garante sui cookie (provv. 10 giugno 2021, GU 9 luglio 2021): cookie tecnici e di profilazione, condizioni per gli analytics, consenso e scrolling, contenuto del banner, riproposizione dopo 6 mesi, cookie wall, link per rivedere le scelte, fingerprinting.",
+          "source_ref": "Garante privacy, doc. web n. 9677876"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ruolo di CSS e JavaScript, distinzione internet/Web, lettura di un indirizzo web, caso pratico sul sito dell'agenzia (integrazioni didattiche senza dati). I passaggi DNS e cache della visualizzazione sono richiamati dall'argomento Malware, senza ripeterli.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

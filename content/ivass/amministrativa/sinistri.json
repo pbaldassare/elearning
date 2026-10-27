@@ -1,0 +1,1913 @@
+{
+  "module": "Area amministrativa e gestionale",
+  "topic": "Gestione dei sinistri",
+  "topic_order": 6,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il rischio nella RC: esistenza, variazioni e accidentalità",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Gestione dei sinitri.pdf",
+        "Corso Ivass 60 ore/Materiale /Gestione dei sinitri.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "Il rischio nella RC: esistenza, variazioni e accidentalità",
+          "goals": [
+            "Capire perché nella RC il rischio riguarda un'attività e non un bene",
+            "Collegare cessazione, diminuzione e aggravamento del rischio alla gestione del sinistro",
+            "Riconoscere quando un evento è davvero «accidentale» per l'assicuratore"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un'assicurazione del patrimonio",
+          "key": "L'assicurazione di responsabilità civile appartiene ai rami danni ed è un'assicurazione di patrimoni: protegge tutto il patrimonio dell'assicurato dal debito di risarcimento verso i terzi.",
+          "body": "La garanzia si riferisce sempre a un'attività, non a un bene. Il patrimonio minacciato è tutto, ma il rischio coperto è solo quello di una specifica area (imprenditoriale, familiare, professionale…) descritta in polizza in modo tassativo e preventivo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa significa per chi gestisce il sinistro",
+          "left": {
+            "title": "Prima domanda",
+            "items": [
+              "Il fatto nasce dall'attività descritta in polizza?",
+              "Il danno al terzo deriva da quell'area di rischio?",
+              "Se la risposta è no, il sinistro è fuori garanzia anche se l'assicurato è responsabile"
+            ]
+          },
+          "right": {
+            "title": "Esempi",
+            "items": [
+              "RC della famiglia: copre la vita privata, non l'attività professionale",
+              "RC professionale del geometra: copre l'attività di geometra, non quella di amministratore di condominio se non dichiarata",
+              "RC dell'impresa: copre l'attività dichiarata, non un'attività nuova avviata dopo"
+            ]
+          },
+          "note": "Anche la guida IVASS ai consumatori raccomanda, come primo passo dopo un danno, di verificare che l'evento rientri nelle responsabilità garantite dalla polizza.",
+          "noteRef": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile"
+        },
+        {
+          "layout": "concept",
+          "title": "Senza rischio, niente contratto",
+          "key": "Le prestazioni eseguite in base a un contratto concluso senza rischio sono «sine causa» e vanno restituite: l'assicurato ha diritto alla restituzione del premio pagato.",
+          "body": "Anche la cessazione del rischio durante il contratto fa venir meno la polizza. L'assicuratore conserva però il diritto ai premi finché la cessazione non gli viene comunicata o non ne viene a conoscenza in altro modo; i premi del periodo in corso in quel momento sono dovuti per intero.",
+          "ref": "Materiale originale del corso; artt. 1895, 1896 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Il rischio cambia: diminuzione e aggravamento",
+          "cols": [
+            {
+              "title": "Diminuzione",
+              "items": [
+                "Il contraente comunica mutamenti che riducono il rischio",
+                "Se noti all'inizio, avrebbero portato a un premio minore",
+                "Dalla scadenza successiva l'assicuratore può esigere solo il minor premio",
+                "L'assicuratore può recedere entro 2 mesi dalla comunicazione; il recesso ha effetto dopo 1 mese"
+              ]
+            },
+            {
+              "title": "Aggravamento",
+              "items": [
+                "Aumenta la probabilità del fatto dannoso o il suo possibile valore economico",
+                "Il contraente deve dare immediato avviso",
+                "L'assicuratore può recedere per iscritto entro 1 mese dall'avviso o dalla conoscenza",
+                "Recesso immediato o dopo 15 giorni, secondo la gravità"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il sinistro durante l'aggravamento",
+          "key": "Se il sinistro avviene mentre corrono i termini per la comunicazione e per l'efficacia del recesso, l'assicuratore non paga se non avrebbe mai assicurato quel rischio; altrimenti paga una somma ridotta in proporzione al premio.",
+          "body": "Il materiale del corso lo sintetizza così: se il sinistro si verifica nell'intervallo della comunicazione, l'assicuratore non è tenuto al pagamento dell'indennizzo. Il Codice civile distingue i due casi: rifiuto totale o riduzione proporzionale.",
+          "ref": "Materiale originale del corso; art. 1898, c. 5, c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Mantenere il contratto e pagare il sinistro: due diritti distinti",
+          "key": "La scelta dell'assicuratore di tenere in vita o no la polizza non incide sul diverso diritto di negare o ridurre l'indennizzo per un sinistro avvenuto prima che conoscesse il vero rischio.",
+          "body": "Il principio vale per le dichiarazioni omesse o incomplete prima della stipula e, secondo il materiale del corso, si applica inevitabilmente anche alle variazioni di rischio avvenute durante il contratto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Dichiarazioni inesatte e reticenze: gli effetti sul sinistro",
+          "head": [
+            "Caso",
+            "Effetto sul contratto",
+            "Effetto sul sinistro"
+          ],
+          "rows": [
+            [
+              "Dolo · o colpa grave",
+              "Annullamento, se l'assicuratore lo dichiara entro 3 mesi da quando ha scoperto l'inesattezza",
+              "Se il sinistro avviene prima che scadano i 3 mesi, l'assicuratore non paga"
+            ],
+            [
+              "Senza · dolo né colpa grave",
+              "Niente annullamento: l'assicuratore può recedere entro 3 mesi",
+              "Somma ridotta in proporzione tra premio pagato e premio giusto"
+            ],
+            [
+              "Requisiti · comuni",
+              "Le inesattezze riguardano fatti, non valutazioni",
+              "Devono essere rilevanti per il consenso o per le condizioni"
+            ]
+          ],
+          "ref": "Artt. 1892, 1893 c.c.; materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il termine per annullare",
+          "key": "Il materiale del corso indica che l'assicuratore, in caso di dolo o colpa grave, può agire per l'annullamento con il consueto termine di cinque anni, che decorre dalla conoscenza dell'inesattezza o della reticenza.",
+          "body": "Attenzione a non confondere i piani: l'art. 1892 c.c. impone all'assicuratore di dichiarare entro 3 mesi che vuole impugnare il contratto, a pena di decadenza. Il termine di prescrizione di cinque anni dell'azione di annullamento è fissato in generale dall'art. 1442 c.c.",
+          "ref": "Materiale originale del corso; artt. 1892, 1442 c.c."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Durante il contratto il cliente trasforma il magazzino assicurato in un deposito di materiale infiammabile e non lo comunica. Prima che la compagnia lo sappia avviene un sinistro. Che cosa succede?",
+          "options": [
+            "La compagnia paga sempre per intero, perché il contratto era in vigore",
+            "Se la compagnia non avrebbe mai assicurato quel rischio non paga; se lo avrebbe assicurato con un premio più alto paga in misura ridotta",
+            "La compagnia può solo aumentare il premio dell'anno successivo",
+            "Il contratto è nullo dall'inizio e il premio va restituito"
+          ],
+          "answer": 1,
+          "explanation": "È un aggravamento del rischio non comunicato. Per l'art. 1898 c.c. l'assicuratore non risponde se non avrebbe consentito l'assicurazione; altrimenti la somma dovuta è ridotta in base al rapporto tra i premi."
+        },
+        {
+          "layout": "concept",
+          "title": "L'alea, presupposto del contratto",
+          "key": "Il contratto di assicurazione è legato in modo inscindibile all'alea: senza incertezza l'assicurazione non può esistere. È compito dell'assicurato adoperarsi perché l'alea permanga.",
+          "body": "Per la logica assicurativa «accidentale» è l'evento improvviso, inatteso, identificabile e non intenzionale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Le quattro caratteristiche dell'evento accidentale",
+          "lead": "Il fatto accidentale è il presupposto tipico della garanzia RC.",
+          "facts": [
+            {
+              "label": "Improvviso",
+              "text": "Si manifesta in un momento preciso, non è un processo lento e prevedibile."
+            },
+            {
+              "label": "Inatteso",
+              "text": "Non era previsto dall'assicurato al momento in cui ha agito."
+            },
+            {
+              "label": "Identificabile",
+              "text": "Si può collocare nel tempo e nello spazio e collegare al danno."
+            },
+            {
+              "label": "Non intenzionale",
+              "text": "Non è voluto: il danno doloso è fuori dall'area dell'assicurazione."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La formula tipica di polizza",
+          "key": "«La società si obbliga a tenere indenne l'assicurato di quanto questi sia tenuto a pagare, a titolo di risarcimento, per danni involontariamente cagionati a terzi in conseguenza di un fatto accidentale verificatosi in relazione ai rischi per i quali è stipulata l'assicurazione.»",
+          "body": "Ogni parola ha un peso nella gestione del sinistro: «involontariamente», «terzi», «fatto accidentale», «in relazione ai rischi» assicurati.",
+          "ref": "Materiale originale del corso; art. 1917, c. 1, c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Accidentale o no: la visione dell'assicuratore",
+          "cols": [
+            {
+              "title": "Sinistro accidentale",
+              "items": [
+                "Non poteva essere evitato dal «buon assicurato» con una corretta prevenzione",
+                "È il rischio che l'assicuratore ha accettato di sopportare"
+              ]
+            },
+            {
+              "title": "Sinistro non accidentale",
+              "items": [
+                "È, sotto certi profili, la conseguenza di un calcolo dell'assicurato",
+                "Ha ritenuto i costi di prevenzione troppo alti rispetto al premio",
+                "Ha scelto di non prevenire e di «scaricare» il costo sull'assicuratore"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un artigiano idraulico assicurato per la RC dell'attività segnala all'agenzia una perdita in un condominio dove ha lavorato. Emerge che da mesi un tubo da lui installato gocciolava e che il cliente gli aveva già scritto due volte, senza che lui intervenisse perché la sostituzione gli costava più del guadagno.",
+          "questions": [
+            "Il fatto rientra nell'area di rischio assicurata?",
+            "Quali profili di «accidentalità» possono essere contestati?",
+            "Che cosa conviene fare subito in agenzia?"
+          ],
+          "solution": "L'area di rischio è quella giusta: l'attività di idraulico è dichiarata in polizza. La compagnia può però discutere l'accidentalità: il danno non è stato improvviso né inatteso, e la scelta di non intervenire assomiglia a quel «calcolo» tra costo della prevenzione e premio che il materiale del corso considera tipico del sinistro non accidentale. L'agenzia raccoglie comunque subito la denuncia completa, con le lettere del cliente e le date: la valutazione spetta alla compagnia, ma un ritardo o una descrizione parziale peggiorerebbero la posizione dell'assicurato."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Attività",
+              "text": "la RC copre un'area di rischio dichiarata, non un bene"
+            },
+            {
+              "value": "Sine causa",
+              "text": "senza rischio il premio va restituito; se il rischio cessa, la polizza viene meno"
+            },
+            {
+              "value": "2 · 1",
+              "text": "mesi per il recesso dell'assicuratore: 2 per la diminuzione, 1 per l'aggravamento"
+            },
+            {
+              "value": "3 mesi",
+              "text": "per dichiarare di voler impugnare il contratto per dolo o colpa grave"
+            },
+            {
+              "value": "Accidentale",
+              "text": "improvviso, inatteso, identificabile, non intenzionale"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione apriamo l'argomento della gestione dei sinistri partendo da un punto che sembra teorico ma che, nella pratica di agenzia, decide moltissime pratiche: il rischio. Prima di chiederci come si liquida un sinistro, dobbiamo chiederci se quel sinistro rientra davvero nel rischio che l'assicuratore ha accettato. Le regole generali sulle dichiarazioni e sulle variazioni del rischio sono già state trattate nel modulo sul contratto di assicurazione; qui le guardiamo con gli occhi di chi deve gestire una denuncia.\n\nL'assicurazione di responsabilità civile appartiene all'assicurazione contro i danni ed è un'assicurazione di patrimoni. Non protegge un'auto, una casa o un macchinario: protegge l'intero patrimonio dell'assicurato dal debito di risarcimento che può nascere verso un terzo. Proprio per questo la garanzia fa sempre riferimento a un'attività e non a un bene. Il patrimonio potenzialmente minacciato è tutto, ma il rischio assicurato è riferito a una specifica area, imprenditoriale, familiare, professionale, che deve essere descritta in polizza in modo tassativo e preventivo.\n\nChe cosa significa, quando arriva una denuncia? La prima domanda è sempre la stessa: il fatto nasce dall'attività descritta in polizza? Pensiamo a un cliente con una polizza RC della famiglia che provoca un danno mentre lavora come consulente: quella polizza copre la vita privata, non l'attività professionale. Oppure a un geometra assicurato per l'attività tecnica che riceve una richiesta come amministratore di condominio, attività mai dichiarata. Anche se la responsabilità è evidente, il sinistro può restare fuori garanzia. La stessa guida IVASS ai consumatori sulle assicurazioni della responsabilità civile indica, come primo passo dopo un danno, proprio quello di verificare che l'evento rientri nelle responsabilità garantite dalla polizza. Per l'intermediario questo significa due cose: descrivere bene l'attività al momento della vendita e aggiornarla quando il cliente cambia lavoro o allarga il proprio business.\n\nPassiamo all'esistenza del rischio. Se il contratto è stato concluso in assenza di rischio, le prestazioni eventualmente eseguite sono, come dice il materiale del corso, sine causa, cioè prive di giustificazione, e devono essere restituite: l'assicurato ha diritto alla restituzione del premio pagato. Anche la cessazione del rischio durante il contratto fa venir meno la polizza. In questo caso, però, l'assicuratore ha diritto ai premi finché la cessazione non gli viene comunicata o non ne viene a conoscenza in altro modo; il Codice civile, all'articolo 1896, precisa che i premi del periodo in corso in quel momento sono dovuti per intero. Un esempio: il cliente chiude la propria attività artigiana a marzo ma lo comunica solo a novembre. Fino a novembre i premi restano dovuti, e il cliente non può pretendere indietro quanto ha pagato.\n\nIl rischio può anche cambiare. In caso di diminuzione del rischio, l'assicurato ha diritto a una riduzione del premio, a condizione di comunicare all'assicuratore i mutamenti che hanno ridotto il rischio in misura tale che, se fossero stati noti alla stipula, avrebbero portato a un premio minore. L'assicuratore, in questo caso, ha la facoltà di recedere dal contratto entro due mesi dalla comunicazione. L'articolo 1897 aggiunge che il minor premio decorre dalla scadenza successiva alla comunicazione e che il recesso ha effetto dopo un mese.\n\nL'aggravamento è il caso simmetrico: un aumento della probabilità che il fatto dannoso accada, o del suo possibile valore economico se accade. Qui l'assicurato ha l'obbligo di dare immediato avviso all'assicuratore. L'assicuratore può scegliere di recedere, con comunicazione scritta entro un mese dalla ricezione dell'avviso o dal giorno in cui ha saputo dell'aggravamento in altro modo. Il recesso ha effetto immediato se l'assicuratore non avrebbe mai assicurato quel rischio, dopo quindici giorni se avrebbe chiesto soltanto un premio più alto.\n\nE se il sinistro avviene proprio in quell'intervallo? Il materiale del corso è netto: l'assicuratore non è tenuto al pagamento dell'indennizzo. Il Codice civile, all'articolo 1898, quinto comma, distingue: l'assicuratore non risponde se l'aggravamento è tale che non avrebbe consentito l'assicurazione; negli altri casi la somma dovuta è ridotta, tenendo conto del rapporto tra il premio pattuito e quello che sarebbe stato chiesto per il rischio maggiore. È una differenza importante da spiegare al cliente: non sempre si perde tutto, ma si può perdere molto.\n\nC'è poi un principio che il materiale del corso sottolinea con forza. In tema di dichiarazioni omesse o incomplete prima della stipula, la decisione dell'assicuratore di mantenere o no in vita la polizza non è legata, e non è rilevante, rispetto all'altro diritto: quello di negare o ridurre l'indennizzo se il sinistro si è verificato prima che l'assicuratore conoscesse il vero rischio. Sono due diritti distinti. Lo stesso principio, secondo il corso, si applica inevitabilmente anche alle variazioni di rischio avvenute durante il contratto. In pratica: il fatto che la compagnia continui a incassare il premio non significa che pagherà un sinistro legato a un rischio che non conosceva.\n\nVediamo allora le dichiarazioni inesatte e le reticenze. Se sono tali che l'assicuratore non avrebbe concluso il contratto conoscendo il vero stato del rischio, e l'assicurato ha agito con dolo o colpa grave, l'assicuratore può chiedere l'annullamento del contratto. Per l'articolo 1892 deve dichiarare al contraente di voler impugnare entro tre mesi dal giorno in cui ha scoperto l'inesattezza; se il sinistro avviene prima che quel termine scada, non è tenuto a pagare. Se invece non c'è né dolo né colpa grave, l'articolo 1893 esclude l'annullamento: l'assicuratore può recedere entro tre mesi e, se il sinistro arriva prima, paga una somma ridotta in proporzione tra premio pagato e premio che sarebbe stato giusto. In ogni caso, ricorda il corso, le inesattezze o le reticenze devono riguardare fatti, non valutazioni, e devono essere rilevanti.\n\nSul termine per annullare, il materiale del corso parla del consueto termine quinquennale, citando l'articolo 1427 del Codice civile, a decorrere dalla conoscenza dell'inesattezza o della reticenza. Manteniamo l'indicazione, ma con una precisazione: il termine di prescrizione di cinque anni dell'azione di annullamento è stabilito in generale dall'articolo 1442, mentre l'articolo 1427 riguarda l'errore, la violenza e il dolo come cause di annullamento. E, soprattutto, nel contratto di assicurazione c'è un passaggio in più: entro tre mesi l'assicuratore deve dichiarare di voler impugnare, altrimenti decade da questo diritto.\n\nFacciamo una verifica con un caso concreto, quello del magazzino trasformato in deposito di materiale infiammabile. È un aggravamento non comunicato. Se la compagnia non avrebbe mai assicurato quel rischio, non paga; se lo avrebbe assicurato con un premio più alto, paga in misura ridotta.\n\nLa seconda parte della lezione riguarda l'accidentalità. La natura e il presupposto del contratto di assicurazione sono inscindibilmente legati al concetto di alea, cioè di incertezza: senza alea l'assicurazione non può esistere. Ed è compito dell'assicurato adoperarsi perché l'alea rimanga. Nella logica assicurativa il termine «accidentale» indica un evento improvviso, inatteso, identificabile e non intenzionale. Sono quattro caratteristiche da tenere a mente quando si legge una denuncia: un danno che matura lentamente nel tempo, un danno annunciato, un danno di cui non si riesce a individuare l'origine o un danno voluto mettono in discussione la garanzia.\n\nLa formula tipica delle polizze RC lo dice chiaramente: la società si obbliga a tenere indenne l'assicurato di quanto questi sia tenuto a pagare, a titolo di risarcimento, per danni involontariamente cagionati a terzi in conseguenza di un fatto accidentale verificatosi in relazione ai rischi per i quali è stipulata l'assicurazione. È la declinazione contrattuale dell'articolo 1917 del Codice civile. Ogni parola conta: involontariamente, terzi, fatto accidentale, in relazione ai rischi assicurati.\n\nNella convinzione dell'assicuratore, l'accidentalità è la condizione in cui il sinistro non poteva essere evitato dal cosiddetto buon assicurato con una corretta prevenzione. Il sinistro non accidentale, invece, rappresenta sotto certi profili l'espressione e la conseguenza di un calcolo dell'assicurato: ha ritenuto i costi della prevenzione eccessivi rispetto al premio e ha preferito non intervenire.\n\nIl caso pratico dell'idraulico mostra bene il punto. L'area di rischio è giusta, perché l'attività è quella dichiarata. Ma il tubo gocciolava da mesi, il cliente aveva scritto due volte e l'artigiano non è intervenuto perché gli conveniva di più non farlo. La compagnia potrà discutere l'accidentalità. L'agenzia, però, non deve decidere al posto della compagnia: raccoglie subito una denuncia completa, con le lettere e le date, perché un ritardo o una descrizione parziale peggiorerebbero soltanto la posizione dell'assicurato.\n\nRicapitolando: la RC copre un'area di rischio dichiarata e non un bene; senza rischio il premio va restituito e, se il rischio cessa, la polizza viene meno; per le variazioni del rischio l'assicuratore ha due mesi per recedere in caso di diminuzione e un mese in caso di aggravamento; per dolo o colpa grave nelle dichiarazioni deve dichiarare entro tre mesi di voler impugnare; e l'evento accidentale è improvviso, inatteso, identificabile e non intenzionale. Nella prossima lezione vedremo il secondo grande limite della garanzia RC: quello temporale.",
+      "sources": [
+        {
+          "title": "Codice civile, artt. 1892-1898 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1898"
+        },
+        {
+          "title": "Codice civile, art. 1442 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1442"
+        },
+        {
+          "title": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_5_Le_assicurazioni_della_responsabilita_civile_versione_web.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di aree di rischio e indicazione IVASS di verificare per prima cosa che l'evento rientri nelle responsabilità garantite.",
+          "source_ref": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Premi del periodo in corso dovuti per intero in caso di cessazione del rischio; decorrenza del minor premio ed efficacia del recesso dopo un mese per la diminuzione; efficacia immediata o dopo 15 giorni del recesso per aggravamento.",
+          "source_ref": "Artt. 1896, 1897, 1898 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: «se il sinistro si verifica nell'intervallo della comunicazione l'assicuratore non è tenuto al pagamento». Precisato che l'art. 1898, c. 5, c.c. esclude il pagamento solo se l'assicuratore non avrebbe consentito l'assicurazione, altrimenti riduce la somma.",
+          "source_ref": "Art. 1898, c. 5, c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Termine di 3 mesi per dichiarare l'impugnazione (art. 1892) e regime senza dolo o colpa grave (art. 1893).",
+          "source_ref": "Artt. 1892, 1893 c.c."
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: annullamento «con il consueto termine quinquennale previsto dall'art. 1427 c.c.». Riferimento da indicare / possibile aggiornamento: il termine quinquennale di prescrizione dell'azione di annullamento è nell'art. 1442 c.c.; l'art. 1427 riguarda le cause (errore, violenza, dolo). Aggiunto il termine di decadenza di 3 mesi dell'art. 1892 c.c.",
+          "source_ref": "Artt. 1442, 1892 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra la formula di polizza e l'art. 1917 c.c.; scomposizione didattica delle quattro caratteristiche dell'evento accidentale; caso pratico e verifica.",
+          "source_ref": "Art. 1917 c.c.; materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Le limitazioni temporali del rischio: claims made e deeming clause",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Gestione dei sinitri.pdf",
+        "Corso Ivass 60 ore/Materiale /Gestione dei sinitri.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "Le limitazioni temporali del rischio: claims made e deeming clause",
+          "goals": [
+            "Capire quale momento fa scattare la garanzia in una polizza claims made",
+            "Leggere le tre conseguenze della claims made «pura» su casi concreti",
+            "Usare la denuncia di circostanze e la deeming clause per evitare vuoti di copertura"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il momento che conta è la richiesta",
+          "key": "Nelle polizze claims made la garanzia non dipende dal momento in cui avviene il fatto, ma dal momento in cui all'assicurato arriva una richiesta di risarcimento (claim) entro un termine fissato dal contratto.",
+          "body": "Il modello opposto, loss occurrence, guarda invece al fatto: è coperto ciò che accade durante la polizza, anche se la richiesta arriva dopo. Le definizioni sono già state viste nei moduli sul contratto e sulla RC professionale: qui ci concentriamo su come incidono nella gestione del sinistro.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Perché le compagnie usano la claims made",
+          "left": {
+            "title": "Per l'assicuratore",
+            "items": [
+              "Sa con certezza quando cessa la sua esposizione al rischio",
+              "Dopo una certa data le richieste non sono più valide per la garanzia"
+            ]
+          },
+          "right": {
+            "title": "Per l'assicurato",
+            "items": [
+              "È coperto al momento davvero rilevante: quando riceve la richiesta",
+              "Non conta quando è accaduto il fatto"
+            ]
+          },
+          "note": "Nella RC il danno spesso emerge anni dopo l'errore: per questo il momento della richiesta è decisivo.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "La claims made «pura»: tre conseguenze",
+          "head": [
+            "Fatto",
+            "Richiesta",
+            "Garanzia"
+          ],
+          "rows": [
+            [
+              "A · Prima della polizza",
+              "Durante la polizza",
+              "Operante: la copertura è retroattiva per i comportamenti colposi precedenti"
+            ],
+            [
+              "B · Durante la polizza",
+              "Durante la polizza",
+              "Operante"
+            ],
+            [
+              "C · Durante la polizza",
+              "Dopo la scadenza",
+              "Non operante"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa fa nascere l'obbligo dell'assicuratore",
+          "key": "La RC si distingue da ogni altra assicurazione per un obbligo indennitario contrattuale che ha come presupposto un presunto illecito dell'assicurato.",
+          "body": "L'assicuratore adempie anche quando difende l'assicurato, non solo quando paga. Per questo ciò che rende vincolante l'obbligo di polizza non è l'aver commesso o no un illecito, ma l'arrivo all'assicurato della richiesta di un terzo.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "La clausola claims made secondo la giurisprudenza richiamata dal corso",
+          "items": [
+            {
+              "text": "Se copre fatti commessi prima della stipula non è nulla e non rende nullo il contratto per inesistenza del rischio.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Se subordina l'indennizzo alla richiesta del terzo entro la vigenza del contratto, delimita l'oggetto del contratto e non la responsabilità dell'assicuratore: quindi non è vessatoria.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "Pur non essendo vessatoria, in singoli casi potrebbe non realizzare «interessi meritevoli di tutela secondo l'ordinamento giuridico» (art. 1322 c.c.).",
+              "ref": "Materiale originale del corso"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'evoluzione: le Sezioni Unite del 2018",
+          "key": "Per la Cassazione a Sezioni Unite la claims made è una deroga all'art. 1917, c. 1, c.c. consentita dall'art. 1932: resta nel tipo dell'assicurazione danni e non è soggetta al giudizio di meritevolezza dell'art. 1322, c. 2.",
+          "body": "Il giudice verifica invece, ai sensi dell'art. 1322, c. 1, che il contratto rispetti i limiti di legge: causa concreta e adeguatezza dello scambio, obblighi di informazione nella fase precontrattuale, assenza di clausole abusive durante il rapporto. I rimedi per l'assicurato cambiano secondo il profilo violato.",
+          "ref": "Cass., Sez. Un., 24 settembre 2018, n. 22437"
+        },
+        {
+          "layout": "concept",
+          "title": "La denuncia cautelativa e la deeming clause",
+          "key": "Con la deeming clause la denuncia cautelativa fatta dall'assicurato ai sensi dell'art. 1913 c.c. diventa efficace per aprire un sinistro anche se, quando arriva il claim, la polizza è già cessata.",
+          "body": "Senza claim, quella denuncia di per sé non sarebbe rilevante per la polizza né interromperebbe la prescrizione dell'art. 2952 c.c. Senza la clausola, l'assicuratore subentrato potrebbe legittimamente negare l'indennizzo.",
+          "ref": "Materiale originale del corso; artt. 1913, 2952 c.c."
+        },
+        {
+          "layout": "split",
+          "title": "Perché la deeming clause riequilibra le posizioni",
+          "left": {
+            "title": "Il nuovo assicuratore",
+            "items": [
+              "Resta libero di sottoscrivere o no il rischio",
+              "Valuta le dichiarazioni dell'assicurato, che è tenuto alla trasparenza"
+            ]
+          },
+          "right": {
+            "title": "Il vecchio assicuratore",
+            "items": [
+              "Deve tenere fede ai propri impegni",
+              "Risponde dei claim futuri legati a fatti già denunciati durante il contratto"
+            ]
+          },
+          "note": "Il nome corretto è «deeming clause» (dall'inglese to deem, considerare): nel materiale originale compare anche nelle grafie «deenzing» e «deeining».",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Retroattività e «fatto noto»",
+          "key": "La claims made può essere legittima solo se retroattiva: così diventa simmetrica alla loss occurrence, che copre il futuro. Se la retroattività viene svuotata con interpretazioni strumentali del «fatto noto», non è nulla la clausola: è inadempiente l'assicuratore.",
+          "body": "Il «fatto noto» è la circostanza che l'assicurato conosceva già alla stipula e che di solito è esclusa dalla retroattività. Il confine tra fatto noto e fatto ignoto è uno dei punti più discussi nei sinistri claims made.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Un esempio di vuoto di copertura",
+          "steps": [
+            {
+              "label": "2021",
+              "text": "Il professionista commette un errore; è assicurato con polizza loss occurrence."
+            },
+            {
+              "label": "2023",
+              "text": "Passa a una claims made senza retroattività."
+            },
+            {
+              "label": "2025",
+              "text": "Arriva la richiesta: la nuova polizza non copre fatti precedenti; la vecchia copre il fatto del 2021 solo se le sue condizioni lo consentono."
+            }
+          ],
+          "ref": "Esempio didattico; IVASS, Guida 5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Al rinnovo o al cambio di polizza: che cosa controlla l'intermediario",
+          "items": [
+            {
+              "text": "Il regime: loss occurrence o claims made.",
+              "ref": "IVASS, Guida 5"
+            },
+            {
+              "text": "La retroattività: da quale data copre i fatti pregressi."
+            },
+            {
+              "text": "La postuma (ultrattività): per quanto tempo dopo la scadenza valgono le richieste, se il contratto lo prevede.",
+              "ref": "IVASS, Guida 5"
+            },
+            {
+              "text": "La deeming clause: se le circostanze denunciate in corso di contratto restano coperte."
+            },
+            {
+              "text": "Il questionario: tutte le circostanze note che potrebbero generare una richiesta vanno dichiarate.",
+              "ref": "IVASS, Guida 5"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un commercialista assicurato claims made pura riceve nel 2026, dopo la scadenza della polizza, una richiesta per un errore del 2024, quando la polizza era in vigore. Non aveva fatto alcuna denuncia. La garanzia è operante?",
+          "options": [
+            "Sì, perché l'errore è avvenuto durante la polizza",
+            "No, perché in una claims made pura la richiesta arrivata dopo la scadenza non è coperta",
+            "Sì, ma solo per le spese legali",
+            "Dipende solo dall'importo richiesto"
+          ],
+          "answer": 1,
+          "explanation": "È la terza conseguenza della claims made pura: fatto durante la polizza, richiesta dopo la scadenza, garanzia non operante. Una denuncia di circostanze con deeming clause, o una garanzia postuma, avrebbero potuto evitare il vuoto."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'architetta cliente dell'agenzia, a ottobre, scopre infiltrazioni in un edificio che ha progettato. Il committente non ha ancora chiesto nulla. La sua polizza claims made scade a dicembre e lei vuole passare a un'altra compagnia più economica.",
+          "questions": [
+            "Che cosa deve fare subito con la polizza in corso?",
+            "Che cosa deve dichiarare alla nuova compagnia?",
+            "Quale clausola conviene verificare?"
+          ],
+          "solution": "Deve fare subito una denuncia cautelativa alla compagnia attuale, descrivendo con precisione le circostanze: lo raccomanda anche la guida IVASS, anche quando non si è certi di aver causato un danno. Va verificato se la polizza contiene una deeming clause, che rende efficace quella denuncia per un claim futuro anche dopo la scadenza. Alla nuova compagnia l'architetta deve dichiarare la circostanza nel questionario: è un «fatto noto», che probabilmente sarà escluso, ma tacerlo esporrebbe a contestazioni per reticenza."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Claim",
+              "text": "nella claims made conta l'arrivo della richiesta, non la data del fatto"
+            },
+            {
+              "value": "3",
+              "text": "conseguenze della claims made pura: retroattività, copertura in vigenza, nessuna copertura dopo la scadenza"
+            },
+            {
+              "value": "22437/2018",
+              "text": "le Sezioni Unite: tipo assicurazione danni, controllo sui limiti di legge e sull'informazione"
+            },
+            {
+              "value": "Deeming",
+              "text": "la denuncia di circostanze resta efficace anche a polizza cessata"
+            },
+            {
+              "value": "Fatto noto",
+              "text": "va dichiarato; svuotare la retroattività è inadempimento dell'assicuratore"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto i limiti della garanzia RC legati al tipo di rischio. Ora affrontiamo i limiti legati al tempo, che nella gestione dei sinistri RC, soprattutto professionali, generano una parte molto grande delle contestazioni.\n\nNelle polizze di responsabilità civile l'operatività della garanzia può essere condizionata, sul piano temporale, non al verificarsi del fatto durante la copertura, ma all'arrivo all'assicurato di una richiesta di risarcimento, il claim, entro un termine fissato dal contratto. Per questo si parla di coperture claims made. Il modello alternativo, loss occurrence, guarda invece al momento del fatto: è coperto ciò che accade mentre la polizza è in vigore, anche se la richiesta arriva più tardi. Le definizioni le conoscete già dai moduli sul contratto e sulla RC professionale; qui ci interessa capire che cosa cambia quando arriva una denuncia.\n\nLe coperture claims made offrono un doppio vantaggio. All'assicuratore permettono di sapere con certezza quando cessa la sua esposizione al rischio, cioè la data oltre la quale una richiesta non sarà più valida per la garanzia. All'assicurato garantiscono una copertura riferita al momento davvero rilevante: quello in cui riceve la richiesta di risarcimento, non quello in cui è accaduto il fatto. Nella RC, infatti, il danno emerge spesso molto tempo dopo l'errore: un progetto sbagliato si scopre quando l'edificio dà problemi, un errore fiscale quando arriva l'accertamento.\n\nLa claims made cosiddetta pura comporta tre conseguenze. Primo: la copertura è retroattiva per i comportamenti colposi commessi prima dell'entrata in vigore della polizza, se la richiesta arriva all'assicurato durante la vigenza. Secondo: la garanzia opera per i fatti commessi durante la polizza, se anche la richiesta arriva finché la polizza non è cessata. Terzo: la garanzia non opera per fatti avvenuti durante la polizza se le richieste arrivano dopo la scadenza. È proprio questa terza conseguenza a creare i problemi più seri.\n\nPerché la richiesta pesa tanto? Il materiale del corso lo spiega così. La caratteristica principale dell'assicurazione di responsabilità civile, rispetto a ogni altra forma di assicurazione, è la presenza di un obbligo indennitario di natura contrattuale che trova il suo presupposto in un presunto illecito dell'assicurato. E l'assicuratore adempie al proprio obbligo anche quando difende l'assicurato, non soltanto quando paga il sinistro. Ne deriva che ciò che rende vincolante l'obbligo di polizza non è l'aver commesso o no un illecito, ma l'arrivo all'assicurato della richiesta di un terzo. Anche una richiesta infondata, quindi, attiva la garanzia, almeno sotto il profilo della difesa.\n\nSulla validità della clausola il corso richiama tre principi elaborati dalla giurisprudenza. La clausola claims made, nella parte in cui copre fatti commessi dall'assicurato prima della stipula, non è nulla e non rende nullo il contratto per inesistenza del rischio. Nella parte in cui subordina l'indennizzo alla richiesta del terzo entro la vigenza del contratto, delimita l'oggetto del contratto e non la responsabilità dell'assicuratore, e quindi non è vessatoria. Infine, pur non essendo vessatoria, potrebbe in singoli casi non realizzare interessi meritevoli di tutela secondo l'ordinamento giuridico, ai sensi dell'articolo 1322 del Codice civile.\n\nSu quest'ultimo punto la giurisprudenza si è evoluta. Con la sentenza numero 22437 del 24 settembre 2018, le Sezioni Unite della Cassazione hanno affermato che il modello claims made è una deroga convenzionale al primo comma dell'articolo 1917, consentita dall'articolo 1932, e rientra quindi nel tipo dell'assicurazione contro i danni. Per questo non è soggetto al controllo di meritevolezza del secondo comma dell'articolo 1322, ma alla verifica, ai sensi del primo comma, del rispetto dei limiti imposti dalla legge, intesa come l'intero ordinamento. Il controllo riguarda la causa concreta, cioè la liceità e l'adeguatezza dello scambio rispetto agli interessi delle parti; la fase precontrattuale, con gli obblighi di informazione dell'impresa sul contenuto della claims made; e l'esecuzione del rapporto, ad esempio se vengono inserite clausole abusive. I rimedi per l'assicurato cambiano a seconda del profilo violato. Per l'intermediario il messaggio è chiaro: l'informazione sul funzionamento della claims made non è un dettaglio, è uno degli elementi su cui il giudice valuta il contratto.\n\nVeniamo a uno strumento molto pratico: la deeming clause. Nel materiale originale la troverete scritta in modi diversi, ma il termine corretto è deeming, dall'inglese to deem, considerare. Grazie a questa clausola, la denuncia cautelativa fatta dall'assicurato ai sensi dell'articolo 1913 del Codice civile diventa efficace per aprire un sinistro anche se, quando arriva il claim, la polizza è già cessata. Senza claim, quella denuncia di per sé non sarebbe rilevante per la polizza, né interromperebbe la prescrizione dell'articolo 2952. E senza la clausola l'assicuratore subentrato sarebbe legittimato a negare l'indennizzo, perché si tratterebbe di un fatto già noto.\n\nLa deeming clause riequilibra le posizioni. Il nuovo assicuratore resta del tutto libero di sottoscrivere o no il rischio, potendo valutare le dichiarazioni di un assicurato che è libero e quindi tenuto alla trasparenza. Il vecchio assicuratore, che aveva offerto copertura, deve tenere fede ai propri impegni per tutti i claim che dovessero arrivare in futuro per fatti già denunciati mentre il contratto era in vigore.\n\nIl corso aggiunge un'affermazione forte: la clausola claims made può essere legittima solo se retroattiva, perché così diventa simmetrica alla loss occurrence, che invece copre il futuro. Se la retroattività viene svuotata attraverso interpretazioni strumentali del fatto noto, allora non è nulla la clausola, ma è inadempiente l'assicuratore. Il fatto noto è la circostanza che l'assicurato conosceva già alla stipula; di solito è escluso dalla retroattività. Ma se la compagnia considera noto qualsiasi fatto, anche quelli di cui l'assicurato non poteva sospettare le conseguenze, la retroattività esiste solo sulla carta.\n\nVediamo un esempio di vuoto di copertura. Un professionista commette un errore nel 2021, quando è assicurato loss occurrence. Nel 2023 passa a una claims made senza retroattività. Nel 2025 arriva la richiesta. La nuova polizza non copre fatti precedenti alla stipula; la vecchia copre il fatto del 2021 solo se lo prevedono le sue condizioni, ad esempio sui termini di denuncia. La guida IVASS sulle assicurazioni della responsabilità civile avverte proprio di questo: passare da un modello all'altro è possibile, ma bisogna stare attenti ai periodi che restano scoperti, e si può chiedere aiuto all'impresa o all'intermediario, che sono tenuti a fornire un'assistenza completa. La stessa guida ricorda che con la claims made la copertura vale per le richieste presentate durante la polizza o entro un termine successivo, se espressamente previsto dal contratto.\n\nEcco allora i controlli dell'intermediario al rinnovo o al cambio di polizza: il regime, loss occurrence o claims made; la retroattività, cioè da quale data sono coperti i fatti pregressi; l'eventuale garanzia postuma, che estende la validità alle richieste arrivate dopo la scadenza; la presenza della deeming clause; e il questionario, in cui vanno dichiarate tutte le circostanze note che potrebbero generare una richiesta. La guida IVASS lo dice in modo semplice: la sincerità paga, e se si omette qualcosa, per dimenticanza o intenzionalmente, si può perdere in tutto o in parte il diritto alla copertura.\n\nLa verifica del commercialista conferma la regola: errore durante la polizza, richiesta dopo la scadenza, nessuna denuncia, garanzia non operante. Una denuncia di circostanze con deeming clause, o una postuma, avrebbero potuto cambiare il risultato.\n\nE il caso dell'architetta mostra come comportarsi. Deve denunciare subito le infiltrazioni alla compagnia attuale, anche se il committente non ha ancora chiesto nulla: la guida IVASS raccomanda di riferire con esattezza le circostanze da cui potrebbero derivare richieste anche quando non si è sicuri al cento per cento di aver causato un danno. Va controllato se la polizza contiene la deeming clause. Alla nuova compagnia, poi, la circostanza va dichiarata: sarà probabilmente esclusa come fatto noto, ma tacerla significherebbe esporsi a una contestazione per reticenza.\n\nRicapitolando: nella claims made conta l'arrivo della richiesta; la claims made pura ha tre conseguenze, l'ultima delle quali lascia scoperte le richieste tardive; le Sezioni Unite del 2018 hanno ricondotto la clausola al tipo dell'assicurazione danni, con un controllo che passa anche per l'informazione al cliente; la deeming clause tiene in vita le circostanze denunciate; e il fatto noto va sempre dichiarato.",
+      "sources": [
+        {
+          "title": "Corte di Cassazione, Rassegna mensile settembre 2018 – Sez. Un. n. 22437/2018",
+          "url": "https://www.cortedicassazione.it/resources/cms/documents/RASSEGNA_SETTEMBRE_2018.pdf"
+        },
+        {
+          "title": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_5_Le_assicurazioni_della_responsabilita_civile_versione_web.pdf"
+        },
+        {
+          "title": "Codice civile, art. 2952 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art2952"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Massima delle Sezioni Unite n. 22437/2018: claims made riconducibile al tipo assicurazione danni, controllo ex art. 1322, c. 1, su causa concreta, informazione precontrattuale e clausole abusive.",
+          "source_ref": "Cass., Sez. Un., 24.9.2018, n. 22437 (Rassegna Cassazione)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: la clausola potrebbe non realizzare interessi meritevoli di tutela ex art. 1322 c.c. Possibile aggiornamento: dopo Sez. Un. 22437/2018 il controllo non è di meritevolezza (art. 1322, c. 2) ma di rispetto dei limiti di legge (art. 1322, c. 1).",
+          "source_ref": "Cass., Sez. Un., n. 22437/2018"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretta la grafia «deenzing/deeining clauses» e «claims mode» della fonte in «deeming clause» e «claims made».",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio di vuoto di copertura nel passaggio tra regimi, checklist di controllo al rinnovo (retroattività, postuma, deeming, questionario) e indicazioni IVASS su sincerità e denuncia delle circostanze.",
+          "source_ref": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione del «fatto noto», caso pratico e verifica.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "Dal fatto alla denuncia: avviso, salvataggio e prescrizione",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Gestione dei sinitri.pdf",
+        "Corso Ivass 60 ore/Materiale /Gestione dei sinitri.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "Dal fatto alla denuncia: avviso, salvataggio e prescrizione",
+          "goals": [
+            "Applicare i termini dell'avviso di sinistro e le conseguenze del ritardo",
+            "Distinguere omissione dolosa e colposa e i loro effetti sull'indennizzo",
+            "Gestire in agenzia una denuncia completa, tempestiva e documentata"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il sinistro apre una nuova fase del contratto",
+          "key": "Con il sinistro nascono obblighi precisi per l'assicurato: avvisare l'assicuratore, fare il possibile per limitare il danno, collaborare alla constatazione. Da come vengono rispettati dipende spesso l'esito della pratica.",
+          "body": "Nel modulo sul contratto questi obblighi sono stati presentati in sintesi. Qui li seguiamo passo per passo, con lo sguardo di chi in agenzia riceve la telefonata del cliente.",
+          "ref": "Artt. 1913-1915 c.c."
+        },
+        {
+          "layout": "timeline",
+          "title": "I termini dell'avviso",
+          "items": [
+            {
+              "value": "3 giorni",
+              "text": "dal sinistro o da quando l'assicurato ne ha avuto conoscenza",
+              "ref": "Art. 1913 c.c."
+            },
+            {
+              "value": "24 ore",
+              "text": "nelle assicurazioni contro la mortalità del bestiame, salvo patto contrario",
+              "ref": "Art. 1913 c.c."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "A chi va dato l'avviso",
+          "left": {
+            "title": "Il Codice civile",
+            "items": [
+              "All'assicuratore",
+              "Oppure all'agente autorizzato a concludere il contratto",
+              "L'avviso ricevuto da quell'agente vale come avviso all'impresa",
+              "Non serve avviso se assicuratore o agente intervengono entro il termine al salvataggio o alla constatazione"
+            ]
+          },
+          "right": {
+            "title": "In pratica",
+            "items": [
+              "Le condizioni di polizza indicano i canali: agenzia, numero verde, area clienti, PEC",
+              "Il contratto può prevedere un termine più lungo dei 3 giorni",
+              "Conviene sempre lasciare traccia scritta della data"
+            ]
+          },
+          "note": "L'agente che riceve una denuncia la registra con data certa e la trasmette subito: è la data dell'avviso che conta.",
+          "noteRef": "Art. 1913 c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "L'obbligo di salvataggio",
+          "key": "L'assicurato deve fare quanto gli è possibile per evitare o diminuire il danno. Le spese sostenute a questo scopo sono a carico dell'assicuratore, anche se il risultato non è raggiunto.",
+          "body": "Le spese si rimborsano in proporzione al valore assicurato rispetto al valore della cosa al momento del sinistro, anche oltre la somma assicurata, salvo che l'assicuratore provi che sono state fatte inconsideratamente. L'assicuratore che interviene al salvataggio, se richiesto, anticipa le spese o vi concorre.",
+          "ref": "Art. 1914 c.c."
+        },
+        {
+          "layout": "compare",
+          "title": "Se l'obbligo non viene rispettato",
+          "cols": [
+            {
+              "title": "Omissione dolosa",
+              "items": [
+                "L'assicurato non avvisa o non fa il salvataggio volontariamente",
+                "Perde il diritto all'indennità"
+              ]
+            },
+            {
+              "title": "Omissione colposa",
+              "items": [
+                "L'assicurato dimentica o ritarda per negligenza",
+                "L'assicuratore può ridurre l'indennità in ragione del pregiudizio sofferto",
+                "Se il ritardo non ha causato alcun pregiudizio, non c'è riduzione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Regole che non si possono peggiorare",
+          "key": "Le regole sulle spese di salvataggio (art. 1914, c. 2) e sulla riduzione per omissione colposa (art. 1915, c. 2) possono essere derogate dal contratto solo in senso più favorevole all'assicurato.",
+          "body": "Una clausola che, ad esempio, facesse perdere ogni diritto per un semplice ritardo colposo verrebbe sostituita di diritto dalla norma di legge.",
+          "ref": "Art. 1932 c.c."
+        },
+        {
+          "layout": "checklist",
+          "title": "Una buona denuncia RC contiene",
+          "items": [
+            {
+              "text": "Dati di polizza e dell'assicurato; data, luogo e ora del fatto."
+            },
+            {
+              "text": "Descrizione dettagliata ed esaustiva dei fatti, anche se l'assicurato non è sicuro di aver causato il danno.",
+              "ref": "IVASS, Guida 5"
+            },
+            {
+              "text": "Dati del danneggiato e di eventuali testimoni."
+            },
+            {
+              "text": "La richiesta di risarcimento ricevuta, se già arrivata, con i documenti utili a ricostruire i fatti.",
+              "ref": "IVASS, Guida 5"
+            },
+            {
+              "text": "Nessuna ammissione di responsabilità né promessa di pagamento al terzo senza accordo con la compagnia."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente denuncia un danno con 20 giorni di ritardo per pura dimenticanza. La compagnia dimostra che, se avvisata in tempo, avrebbe potuto fare un sopralluogo e limitare il danno. Che cosa può fare?",
+          "options": [
+            "Rifiutare tutto, perché il termine di 3 giorni è perentorio",
+            "Ridurre l'indennità in ragione del pregiudizio sofferto",
+            "Nulla: il ritardo colposo non ha mai conseguenze",
+            "Annullare il contratto"
+          ],
+          "answer": 1,
+          "explanation": "L'omissione è colposa, non dolosa: l'art. 1915, c. 2, c.c. consente di ridurre l'indennità in proporzione al pregiudizio effettivamente subito dall'assicuratore."
+        },
+        {
+          "layout": "facts",
+          "title": "La prescrizione nella RC",
+          "lead": "Il diritto dell'assicurato verso l'assicuratore si prescrive in 2 anni, ma nella RC il calcolo ha regole proprie.",
+          "facts": [
+            {
+              "label": "Decorrenza",
+              "text": "Dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha iniziato la causa contro di lui."
+            },
+            {
+              "label": "Sospensione",
+              "text": "La comunicazione all'assicuratore della richiesta del terzo sospende la prescrizione."
+            },
+            {
+              "label": "Fino a quando",
+              "text": "Finché il credito del danneggiato non diventa liquido ed esigibile, oppure finché il suo diritto non si prescrive."
+            },
+            {
+              "label": "Premi",
+              "text": "Il diritto alle rate di premio si prescrive in 1 anno dalle singole scadenze."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi paga il terzo",
+          "key": "Di regola il danneggiato non ha azione diretta verso l'assicuratore RC. L'assicuratore può pagare direttamente il terzo, dandone preventivo avviso all'assicurato, ed è obbligato a farlo se l'assicurato lo richiede.",
+          "body": "Fanno eccezione le assicurazioni obbligatorie per cui la legge prevede l'azione diretta, come la RC auto, che vedremo nelle ultime due lezioni.",
+          "ref": "Art. 1917, c. 2, c.c.; IVASS, Guida 5"
+        },
+        {
+          "layout": "concept",
+          "title": "Un ponte con la RC auto",
+          "key": "Nella RC auto l'impresa non può opporre al danneggiato l'eventuale mancato avviso di sinistro da parte dell'assicurato: la sanzione dell'art. 1915 c.c. resta un fatto tra impresa e assicurato.",
+          "body": "Se il conducente non presenta la denuncia, l'impresa può far valere l'art. 1915 c.c. nei suoi confronti, ad esempio con la rivalsa, ma il terzo danneggiato va comunque risarcito.",
+          "ref": "Artt. 143, c. 1, e 148, c. 9, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Venerdì sera un cliente con polizza RC della famiglia chiama l'agenzia: la lavatrice ha allagato l'appartamento sotto. Il vicino è furioso e gli ha detto «paghi tu». Il cliente chiede se deve chiudere l'acqua, se può promettere al vicino di pagare i danni e se può aspettare lunedì per la denuncia.",
+          "questions": [
+            "Quali obblighi scattano subito?",
+            "Che cosa rispondere sulla promessa di pagamento?",
+            "Come gestire i tempi della denuncia?"
+          ],
+          "solution": "Scatta l'obbligo di salvataggio: chiudere l'acqua e limitare il danno è un dovere, e le spese ragionevoli sono a carico dell'assicuratore anche se l'intervento non riesce. Il cliente non deve riconoscere responsabilità né promettere pagamenti senza la compagnia: la gestione della richiesta spetta all'assicuratore. La denuncia va fatta entro 3 giorni, salvo termine più lungo in polizza: meglio un avviso scritto subito (mail o area clienti), da completare lunedì con foto, dati del vicino e richiesta ricevuta."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3 giorni",
+              "text": "per l'avviso, salvo termine più favorevole in polizza"
+            },
+            {
+              "value": "Salvataggio",
+              "text": "spese a carico dell'assicuratore, anche senza risultato"
+            },
+            {
+              "value": "Dolo · colpa",
+              "text": "perdita del diritto oppure riduzione in base al pregiudizio"
+            },
+            {
+              "value": "2 anni",
+              "text": "di prescrizione, che nella RC decorrono dalla richiesta del terzo"
+            },
+            {
+              "value": "Art. 1932",
+              "text": "deroghe solo a favore dell'assicurato"
+            }
+          ]
+        }
+      ],
+      "narration": "Questa lezione segue il sinistro nel suo primo tratto: dal momento in cui il fatto accade, o in cui il cliente riceve una richiesta, fino alla denuncia all'assicuratore. È il tratto in cui l'intermediario è più coinvolto, perché spesso è il primo a ricevere la telefonata. Gli obblighi dell'assicurato dopo il sinistro sono già stati presentati nel modulo sul contratto: qui li approfondiamo con esempi pratici.\n\nCon il sinistro si apre una nuova fase del contratto. Nascono obblighi precisi per l'assicurato: avvisare l'assicuratore, fare il possibile per limitare il danno, collaborare alla constatazione. Da come vengono rispettati dipende spesso l'esito della pratica.\n\nIl primo obbligo è l'avviso. L'articolo 1913 del Codice civile stabilisce che l'assicurato deve dare avviso del sinistro all'assicuratore, o all'agente autorizzato a concludere il contratto, entro tre giorni da quello in cui il sinistro si è verificato o l'assicurato ne ha avuto conoscenza. L'avviso non è necessario se l'assicuratore o l'agente autorizzato intervengono entro quel termine alle operazioni di salvataggio o di constatazione. Per le assicurazioni contro la mortalità del bestiame il termine, salvo patto contrario, è di ventiquattro ore. Notate due dettagli. Il termine decorre anche dalla conoscenza: chi scopre un danno al rientro dalle vacanze ha tre giorni da quel momento. E l'avviso dato all'agente autorizzato a concludere il contratto vale come avviso all'impresa.\n\nIn pratica, le condizioni di polizza indicano i canali di denuncia, che oggi sono molti: l'agenzia, il numero verde, l'area riservata, la posta elettronica certificata. Spesso il contratto prevede un termine più lungo di tre giorni, ed è possibile, perché è una deroga favorevole all'assicurato. In ogni caso conviene lasciare traccia scritta della data. Per l'agente la regola operativa è semplice: la denuncia ricevuta si registra con data certa e si trasmette subito alla compagnia, perché è la data dell'avviso che conta.\n\nIl secondo obbligo è il salvataggio. L'articolo 1914 impone all'assicurato di fare quanto gli è possibile per evitare o diminuire il danno. Le spese sostenute a questo scopo sono a carico dell'assicuratore, in proporzione al valore assicurato rispetto al valore che la cosa aveva al momento del sinistro, anche se insieme al danno superano la somma assicurata e anche se lo scopo non è stato raggiunto. L'unica eccezione è che l'assicuratore provi che le spese sono state fatte inconsideratamente. L'assicuratore risponde anche dei danni materiali causati alle cose assicurate dai mezzi usati per il salvataggio, sempre salvo uso inconsiderato. Il suo intervento al salvataggio non pregiudica i suoi diritti e, se l'assicurato lo chiede, l'assicuratore che interviene deve anticipare le spese o concorrervi in proporzione al valore assicurato.\n\nChe cosa succede se questi obblighi non vengono rispettati? L'articolo 1915 distingue due situazioni. Se l'assicurato non adempie dolosamente, cioè volontariamente, all'obbligo di avviso o di salvataggio, perde il diritto all'indennità. Se invece omette di adempiere per colpa, l'assicuratore ha diritto di ridurre l'indennità in ragione del pregiudizio sofferto. La parola chiave è pregiudizio: se il ritardo non ha causato alcun danno all'assicuratore, non c'è nulla da ridurre.\n\nC'è poi una tutela importante. L'articolo 1932 elenca le norme che il contratto può modificare solo in senso più favorevole all'assicurato, e tra queste ci sono proprio il secondo comma dell'articolo 1914, sulle spese di salvataggio, e il secondo comma dell'articolo 1915, sulla riduzione per omissione colposa. Una clausola che facesse perdere ogni diritto per un semplice ritardo colposo sarebbe sostituita di diritto dalla norma di legge.\n\nChe cosa deve contenere una buona denuncia RC? I dati della polizza e dell'assicurato; data, luogo e ora del fatto; una descrizione dettagliata ed esaustiva, come raccomanda la guida IVASS ai consumatori, anche se l'assicurato non è sicuro al cento per cento di aver causato il danno; i dati del danneggiato e degli eventuali testimoni; la richiesta di risarcimento, se è già arrivata, con i documenti utili a capire come si sono svolti i fatti. E un consiglio da dare sempre al cliente: non ammettere responsabilità e non promettere pagamenti al terzo senza accordo con la compagnia. Come vedremo nella prossima lezione, la gestione della richiesta spetta di regola all'assicuratore.\n\nNella verifica il cliente ha denunciato con venti giorni di ritardo per dimenticanza, e la compagnia dimostra che con un avviso tempestivo avrebbe potuto limitare il danno. È un'omissione colposa: la compagnia può ridurre l'indennità in ragione del pregiudizio, non rifiutare tutto.\n\nPassiamo alla prescrizione, che nella RC ha regole particolari. L'articolo 2952 stabilisce che il diritto alle rate di premio si prescrive in un anno dalle singole scadenze, e che gli altri diritti derivanti dal contratto si prescrivono in due anni dal giorno in cui si è verificato il fatto su cui il diritto si fonda; per le assicurazioni sulla vita il termine è di dieci anni. Nell'assicurazione della responsabilità civile, però, il termine decorre dal giorno in cui il terzo ha chiesto il risarcimento all'assicurato o ha promosso contro di lui l'azione. E la comunicazione all'assicuratore della richiesta del terzo sospende la prescrizione finché il credito del danneggiato non sia diventato liquido ed esigibile, oppure finché il diritto del terzo non sia prescritto. Ecco perché la guida IVASS insiste: hai al massimo due anni dalla richiesta del danneggiato per chiedere l'intervento della tua impresa. Trasmettere subito la richiesta non è solo un obbligo contrattuale: è ciò che mette al sicuro il diritto dell'assicurato.\n\nChi paga il terzo? Di regola, nella RC volontaria, il danneggiato non ha un'azione diretta verso l'assicuratore. L'articolo 1917, secondo comma, prevede però che l'assicuratore possa pagare direttamente al terzo l'indennità dovuta, dandone preventivo avviso all'assicurato, e che sia obbligato a farlo se l'assicurato lo richiede. La guida IVASS aggiunge la precisazione ovvia ma importante: purché ritenga operante la copertura. Fanno eccezione le assicurazioni obbligatorie per cui la legge prevede l'azione diretta, come la RC auto.\n\nE proprio sulla RC auto anticipiamo un collegamento. L'articolo 143 del Codice delle assicurazioni private stabilisce che, se il conducente non presenta la denuncia di sinistro, si applica l'articolo 1915 del Codice civile per l'omesso avviso. Ma l'articolo 148, comma 9, precisa che l'impresa non può opporre al danneggiato l'eventuale inadempimento dell'assicurato all'obbligo di avviso. In altre parole: la sanzione resta un fatto interno tra impresa e assicurato, ad esempio attraverso la rivalsa, mentre il terzo va comunque risarcito.\n\nChiudiamo con il caso della lavatrice. Il cliente deve chiudere subito l'acqua: è l'obbligo di salvataggio, e le spese ragionevoli, come l'intervento urgente di un idraulico, sono a carico dell'assicuratore anche se non riescono a evitare tutto il danno. Non deve promettere al vicino di pagare: la gestione della richiesta spetta alla compagnia, e una promessa avventata può complicare la pratica. Quanto ai tempi, i tre giorni corrono da venerdì, salvo un termine più lungo in polizza: la soluzione migliore è un avviso scritto immediato, via mail o area clienti, da completare lunedì con foto, dati del vicino e l'eventuale richiesta scritta.\n\nRicapitolando: tre giorni per l'avviso, salvo termine più favorevole; spese di salvataggio a carico dell'assicuratore anche senza risultato; omissione dolosa uguale perdita del diritto, omissione colposa uguale riduzione in base al pregiudizio; due anni di prescrizione che nella RC decorrono dalla richiesta del terzo; e deroghe ammesse solo a favore dell'assicurato.",
+      "sources": [
+        {
+          "title": "Codice civile, art. 1913 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1913"
+        },
+        {
+          "title": "Codice civile, art. 1914 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1914"
+        },
+        {
+          "title": "Codice civile, art. 1915 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1915"
+        },
+        {
+          "title": "Codice civile, artt. 1932 e 2952 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art2952"
+        },
+        {
+          "title": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_5_Le_assicurazioni_della_responsabilita_civile_versione_web.pdf"
+        },
+        {
+          "title": "D.Lgs. 209/2005, artt. 143 e 148 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art148"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Lezione di approfondimento sugli obblighi dopo il sinistro: termini dell'avviso (3 giorni, 24 ore bestiame, esonero se interviene l'assicuratore), salvataggio e rimborso spese, conseguenze dell'omissione dolosa o colposa, inderogabilità.",
+          "source_ref": "Artt. 1913, 1914, 1915, 1932 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Prescrizione nella RC: decorrenza dalla richiesta del terzo, sospensione con la comunicazione all'assicuratore, premi in 1 anno.",
+          "source_ref": "Art. 2952 c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto della denuncia, pagamento diretto al terzo e indicazioni IVASS ai consumatori.",
+          "source_ref": "IVASS, Guida 5; art. 1917, c. 2, c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento con la RC auto: omessa denuncia ex art. 1915 c.c. non opponibile al danneggiato.",
+          "source_ref": "Artt. 143, c. 1, e 148, c. 9, D.Lgs. 209/2005"
+        }
+      ]
+    },
+    {
+      "title": "La gestione della lite e la fine della condivisione del rischio",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Gestione dei sinitri.pdf",
+        "Corso Ivass 60 ore/Materiale /Gestione dei sinitri.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "La gestione della lite e la fine della condivisione del rischio",
+          "goals": [
+            "Spiegare perché l'assicuratore RC adempie anche quando difende",
+            "Capire fino a quando l'assicuratore ha interesse a gestire il danno",
+            "Riconoscere i conflitti che nascono con franchigie elevate e SIR"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il patto di gestione della lite",
+          "key": "Il patto di gestione della lite mette per iscritto un principio: l'assicuratore RC adempie l'obbligo di tenere indenne l'assicurato anche senza pagare il terzo, difendendolo da pretese infondate nell'«an» o nel «quantum».",
+          "body": "«An debeatur»: se il risarcimento è dovuto. «Quantum debeatur»: quanto è dovuto. Difendere bene su uno dei due fronti è già una prestazione assicurativa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Che cosa promette la clausola",
+          "left": {
+            "title": "Per l'assicurato",
+            "items": [
+              "L'impresa nomina un avvocato a proprie spese per la difesa",
+              "Gestisce direttamente la lite per conto dell'assicurato",
+              "Le spese di resistenza sono a carico dell'impresa entro il quarto del massimale"
+            ]
+          },
+          "right": {
+            "title": "Per l'impresa",
+            "items": [
+              "La difesa è svolta anche nel suo interesse",
+              "Se l'assicurato vince, l'impresa risparmia",
+              "Controlla tempi, consulenti e strategia del sinistro"
+            ]
+          },
+          "note": "Patto di gestione della lite, spese di resistenza e mala gestio sono trattati in dettaglio nel modulo sulle assicurazioni contro i danni.",
+          "noteRef": "IVASS, Guida 5; art. 1917, c. 3, c.c."
+        },
+        {
+          "layout": "concept",
+          "title": "Un interesse che dura finché c'è",
+          "key": "Finché la garanzia è operante e il massimale è capiente, l'assicuratore ha interesse a gestire il danno. Quando l'interesse viene meno, deve interrompere la gestione a tutela dello stesso assicurato, lasciandogli la difesa dei propri interessi.",
+          "body": "Assicuratore e assicurato hanno entrambi interesse a che il sinistro non si avveri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Gestire finché c'è l'interesse, non nel proprio interesse",
+          "key": "Assumere la lite finché c'è interesse non significa gestire il sinistro nel proprio interesse: significa gestirlo finché l'interesse c'è e non gestirlo, o gestirlo d'intesa con l'assicurato, quando non c'è più.",
+          "body": "In questa attività l'assicuratore, in nome e per conto dell'assicurato, designa legali e tecnici. Non risponde delle spese dei fiduciari non designati da lui e scelti autonomamente dall'assicurato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "In agenzia: le domande del cliente sull'avvocato",
+          "items": [
+            {
+              "text": "«Posso scegliere il mio avvocato?» Sì, ma se la polizza prevede la gestione della lite le spese di un legale non designato dall'impresa di regola restano a suo carico.",
+              "ref": "Materiale originale del corso"
+            },
+            {
+              "text": "«Chi decide se transigere?» Finché c'è il patto, la strategia è dell'impresa, che deve però agire con correttezza verso l'assicurato."
+            },
+            {
+              "text": "«E se la richiesta supera il massimale?» L'interesse dell'impresa si riduce: la gestione va concordata con l'assicurato, che può affiancare un proprio legale."
+            },
+            {
+              "text": "«Che cosa devo fare io?» Trasmettere subito atti e documenti e non prendere iniziative con il danneggiato senza l'impresa."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il metodo principe della collaborazione",
+          "key": "Il patto di gestione della lite è il metodo principe per affiancare assicurato e assicuratore: aiuta l'azienda ad adottare le migliori pratiche di prevenzione, grazie all'esperienza della compagnia.",
+          "body": "In cambio l'azienda è garantita che l'assicuratore la affiancherà, accollandosi i costi di un operato già approvato in fase di assunzione del rischio.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le SIR: aree di non assicurazione",
+          "key": "Tutto questo viene meno con particolari franchigie, le SIR (Self Insured Retention): vere aree di non assicurazione in cui l'assicurato gestisce il rischio da sé.",
+          "body": "Con una franchigia ordinaria l'impresa gestisce il sinistro e poi recupera o trattiene la parte a carico dell'assicurato. Con una SIR, sotto la soglia, il sinistro è proprio dell'assicurato: lo gestisce e lo paga lui.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Franchigia, scoperto e SIR",
+          "head": [
+            "Strumento",
+            "Come funziona",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "F · Franchigia assoluta",
+              "L'impresa non paga i danni sotto la soglia; sopra, paga solo l'eccedenza",
+              "Franchigia 100 €, danno 150 €: l'impresa paga 50 €"
+            ],
+            [
+              "F · Franchigia relativa",
+              "Sotto la soglia non paga nulla; sopra, paga l'intero importo",
+              "Franchigia 100 €, danno 150 €: l'impresa paga 150 €"
+            ],
+            [
+              "S · Scoperto",
+              "Una parte del risarcimento, in percentuale, resta all'assicurato",
+              "Scoperto 10%: su 10.000 € l'assicurato sopporta 1.000 €"
+            ],
+            [
+              "SIR · Self Insured Retention",
+              "Sotto la soglia l'assicurato gestisce e paga da sé il sinistro",
+              "SIR 50.000 €: l'impresa interviene solo oltre"
+            ]
+          ],
+          "ref": "IVASS, Guida 5 (franchigie e scoperto); materiale originale del corso (SIR)"
+        },
+        {
+          "layout": "split",
+          "title": "Quando gli interessi divergono",
+          "left": {
+            "title": "L'assicuratore",
+            "items": [
+              "Può voler gestire anche un sinistro sotto la propria soglia",
+              "Teme che una gestione improvvida, di chi non è attrezzato, faccia lievitare il costo finale",
+              "Quel costo potrebbe arrivare a colpire il suo portafoglio"
+            ]
+          },
+          "right": {
+            "title": "L'assicurato",
+            "items": [
+              "Difficilmente lascia tutta la gestione all'assicuratore",
+              "Gli conviene ridurre la richiesta sotto la SIR",
+              "Ma rischia un esborso difficile da giustificare se non lo ha condiviso prima"
+            ]
+          },
+          "note": "Ogni sinistro ha un'area grigia di possibile oscillazione, in cui gli interessi delle due parti sono in totale conflitto.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "La fine della co-gestione del rischio",
+          "key": "Sono proprio queste divergenze, create dalle aree di non assicurazione, a rendere inapplicabile la gestione della lite, ad allontanare l'assicuratore dalla co-gestione del rischio e a svuotare il ruolo che gli si sarebbe voluto affidare.",
+          "body": "Il riferimento è alla teoria della responsabilità oggettiva, che vedeva nell'assicuratore un partner della prevenzione e della gestione del rischio dell'impresa.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'azienda ha una polizza RC prodotti con SIR di 50.000 euro. Arriva una richiesta di 40.000 euro che, gestita male, potrebbe crescere fino a 120.000. Quale affermazione è corretta?",
+          "options": [
+            "L'assicuratore non ha alcun interesse, perché la richiesta è sotto la SIR",
+            "L'assicuratore può avere interesse a seguire il sinistro, perché una gestione improvvida potrebbe portarlo sopra la soglia",
+            "L'azienda deve lasciare tutto all'assicuratore senza condizioni",
+            "La SIR funziona come una franchigia relativa"
+          ],
+          "answer": 1,
+          "explanation": "È l'«area grigia» descritta nel corso: il sinistro nasce sotto la soglia, ma può superarla. Per questo gli interessi divergono e conviene concordare in anticipo regole di gestione e di comunicazione."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker sta rinnovando la RC generale di una media impresa alimentare. Il cliente vuole un premio più basso e propone di passare da una franchigia di 5.000 euro a una SIR di 100.000 euro. Ha un solo addetto amministrativo che si occupa anche delle pratiche assicurative.",
+          "questions": [
+            "Che cosa cambia nella gestione dei sinistri sotto i 100.000 euro?",
+            "Quali rischi deve spiegare il broker?",
+            "Quali accordi conviene prevedere?"
+          ],
+          "solution": "Con la SIR i sinistri sotto la soglia diventano un'area di non assicurazione: l'impresa li gestisce e li paga da sé, senza la difesa e l'esperienza della compagnia. Il broker deve spiegare il rischio dell'area grigia: una gestione non professionale può far crescere il costo oltre la soglia, e allora l'assicuratore contesterà le scelte non condivise. Conviene prevedere un protocollo: obbligo di comunicare all'assicuratore i sinistri che superano una quota della SIR, consultazione prima di transazioni importanti, eventuale affidamento a un liquidatore esterno. E valutare se il risparmio di premio vale davvero la nuova struttura."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Difendere",
+              "text": "è già adempiere: l'assicuratore RC tutela anche senza pagare"
+            },
+            {
+              "value": "An · Quantum",
+              "text": "la difesa contesta se il danno è dovuto e quanto"
+            },
+            {
+              "value": "Interesse",
+              "text": "la gestione dura finché l'interesse c'è, poi va condivisa con l'assicurato"
+            },
+            {
+              "value": "Fiduciari",
+              "text": "l'assicuratore non paga legali e tecnici scelti da solo dall'assicurato"
+            },
+            {
+              "value": "SIR",
+              "text": "area di non assicurazione che rende inapplicabile la gestione della lite"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione guardiamo il sinistro RC dal punto di vista della sua gestione, cioè di chi decide come difendersi da una richiesta, e vediamo come alcune scelte contrattuali possono rompere l'alleanza tra assicuratore e assicurato.\n\nPartiamo dal patto di gestione della lite. Il materiale del corso lo descrive come la contrattualizzazione di un principio: l'obbligo dell'assicuratore di responsabilità civile di tenere indenne l'assicurato si adempie anche senza pagamenti al terzo, difendendo l'assicurato da pretese ritenute infondate sotto il profilo dell'an debeatur o del quantum debeatur. Sono due espressioni latine che chi lavora nei sinistri usa ogni giorno. An debeatur significa se il risarcimento è dovuto: c'è responsabilità o no? Quantum debeatur significa quanto è dovuto: la somma chiesta è corretta o gonfiata? Respingere una richiesta infondata, o ridurre una richiesta eccessiva, è già una prestazione assicurativa.\n\nLa guida IVASS ai consumatori spiega la clausola in parole semplici: l'impresa si impegna, in caso di giudizio di responsabilità civile, a nominare a proprie spese un avvocato per la difesa dell'assicurato e a gestire direttamente la lite per suo conto. È una clausola molto diffusa perché la difesa è svolta non solo nell'interesse dell'assicurato ma anche dell'impresa: se l'assicurato vince, l'impresa risparmia. Ricordiamo anche che per l'articolo 1917 del Codice civile le spese sostenute per resistere all'azione del danneggiato sono a carico dell'assicuratore nei limiti di un quarto della somma assicurata. Spese di resistenza e responsabilità per mala gestio sono state approfondite nel modulo sulle assicurazioni contro i danni: qui ci concentriamo su un altro aspetto, l'interesse a gestire.\n\nSi può affermare, dice il corso, che finché la garanzia è operante e il massimale è capiente, l'assicuratore ha interesse a gestire il danno. Quando invece l'interesse viene meno, deve interrompere la propria gestione, a tutela dello stesso assicurato, lasciando a lui la cura dei propri interessi nel modo che ritiene più opportuno. Pensate a una richiesta molto superiore al massimale: all'assicuratore potrebbe convenire chiudere pagando il massimale, mentre all'assicurato interessa una difesa che riduca l'intero debito. Alla base, comunque, c'è un dato comune: assicuratore e assicurato hanno entrambi interesse a che il sinistro non si avveri.\n\nUna precisazione importante. Assumere la gestione della lite finché c'è interesse non significa gestire il sinistro nel proprio interesse. Significa gestirlo finché l'interesse c'è, e non gestirlo, oppure gestirlo d'intesa con l'assicurato, quando l'interesse non c'è più. Nell'esercizio di questa facoltà l'assicuratore, in nome e per conto dell'assicurato, designa legali e tecnici, e non risponde delle spese dei fiduciari non designati da lui e scelti autonomamente dall'assicurato.\n\nQueste regole si traducono in domande molto concrete che i clienti fanno in agenzia. Posso scegliere il mio avvocato? Sì, ma se la polizza prevede la gestione della lite, le spese di un legale non designato dall'impresa di regola restano a carico del cliente. Chi decide se transigere? Finché c'è il patto, la strategia è dell'impresa, che però deve agire con correttezza verso l'assicurato. E se la richiesta supera il massimale? L'interesse dell'impresa si riduce e la gestione va concordata con l'assicurato, che può affiancare un proprio legale. Che cosa devo fare io? Trasmettere subito atti e documenti e non prendere iniziative con il danneggiato senza l'impresa.\n\nIl legame creato dal patto di gestione della lite, osserva il corso, è il metodo principe per garantire l'affiancamento tra assicurato e assicuratore. Consente all'assicurato, ad esempio a un'azienda, di adottare le migliori pratiche di prevenzione, anche grazie all'esperienza specifica della compagnia. E garantisce all'azienda che l'assicuratore la affiancherà, accollandosi gli eventuali costi di un operato comunque approvato in anticipo, in fase di assunzione del rischio.\n\nTutto questo però viene meno con l'introduzione di particolari franchigie: le SIR, Self Insured Retention, che costituiscono vere e proprie aree di non assicurazione, all'interno delle quali l'assicurato gestisce in proprio il rischio. La differenza con la franchigia tradizionale è sostanziale. Con una franchigia ordinaria il sinistro è gestito dall'impresa, che poi applica la parte a carico dell'assicurato. Con una SIR, sotto la soglia, il sinistro appartiene all'assicurato: è lui che lo istruisce, lo difende e lo paga.\n\nMettiamo a confronto gli strumenti. La guida IVASS spiega la franchigia assoluta e relativa con un esempio. Con una franchigia assoluta di 100 euro, l'impresa non rimborsa i danni inferiori a 100 euro e, se il danno è di 150, rimborsa solo l'eccedenza, cioè 50 euro. Con una franchigia relativa di 100 euro, l'impresa non rimborsa i danni inferiori a 100 euro ma, se il danno è di 150, rimborsa l'intera somma. Lo scoperto è sempre una parte del risarcimento che resta all'assicurato, ma espressa in percentuale: con uno scoperto del 10 per cento, su un danno di 10.000 euro l'assicurato sopporta 1.000 euro. La SIR, infine, è una soglia sotto la quale l'impresa non interviene affatto, nemmeno nella gestione.\n\nNella pratica, nota il corso, non è raro che l'interesse di una delle parti chiamate a gestire il danno diverga da quello dell'altra. L'assicuratore potrebbe voler gestire un sinistro anche di valore potenzialmente inferiore alla propria soglia di coinvolgimento, per timore che una gestione improvvida, da parte di chi non è tecnicamente attrezzato a gestire sinistri, faccia lievitare il costo finale fino a toccare il suo portafoglio. L'assicurato, però, difficilmente potrà lasciare tutta la gestione all'assicuratore: da un lato trarrebbe vantaggio dalla riduzione della richiesta sotto la soglia della SIR, dall'altro rischierebbe di dover sostenere un esborso difficile da giustificare, se non condiviso in anticipo. Ogni sinistro, conclude il corso, ha un'area grigia di possibile oscillazione, in cui gli interessi delle due parti sono in totale conflitto.\n\nSono proprio queste divergenze, legate alla creazione all'interno della copertura di aree di non assicurazione, a rendere inapplicabile la gestione della lite, ad allontanare l'assicuratore dalla co-gestione del rischio e a svuotare di fatto il ruolo che, nella teorizzazione della responsabilità oggettiva, gli si sarebbe voluto affidare: quello di partner dell'impresa nella prevenzione e nella gestione dei rischi.\n\nLa verifica lo mostra con i numeri: una richiesta di 40.000 euro con una SIR di 50.000 euro sembra solo affare dell'azienda, ma se rischia di arrivare a 120.000 l'assicuratore ha tutto l'interesse a seguirla. È l'area grigia.\n\nNel caso pratico, il broker che rinnova la RC di un'impresa alimentare deve spiegare al cliente che il risparmio di premio ha un costo organizzativo. Con una SIR di 100.000 euro e un solo addetto amministrativo, i sinistri sotto la soglia saranno gestiti senza l'esperienza della compagnia, con il rischio che crescano oltre la soglia e che l'assicuratore contesti scelte non condivise. Un buon consiglio professionale è prevedere un protocollo: comunicare all'assicuratore i sinistri che superano una certa quota della SIR, consultarlo prima di transazioni importanti, valutare un liquidatore esterno. E soprattutto chiedersi se il risparmio vale davvero la nuova struttura: è esattamente il tipo di valutazione delle esigenze del cliente che ci si aspetta da un intermediario.\n\nRicapitolando: difendere è già adempiere; la difesa contesta l'an e il quantum; la gestione dura finché c'è l'interesse e poi va condivisa; l'assicuratore non paga i fiduciari scelti da solo dall'assicurato; e le SIR creano aree di non assicurazione che rendono inapplicabile la gestione della lite.",
+      "sources": [
+        {
+          "title": "IVASS, Guida 5 – Le assicurazioni della responsabilità civile",
+          "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_5_Le_assicurazioni_della_responsabilita_civile_versione_web.pdf"
+        },
+        {
+          "title": "Codice civile, art. 1917 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1917"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione del patto di gestione della lite secondo la guida IVASS (avvocato a spese dell'impresa, interesse comune) e richiamo al limite del quarto per le spese di resistenza.",
+          "source_ref": "IVASS, Guida 5; art. 1917, c. 3, c.c."
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Tabella di confronto tra franchigia assoluta, franchigia relativa, scoperto (esempi IVASS) e SIR.",
+          "source_ref": "IVASS, Guida 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Sciolta la sigla S.I.R. della fonte («Self Insurance retention») nella forma d'uso «Self Insured Retention».",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Domande tipiche dei clienti in agenzia, verifica numerica sull'area grigia e caso pratico sul passaggio da franchigia a SIR.",
+          "source_ref": "Materiale originale del corso"
+        }
+      ]
+    },
+    {
+      "title": "La liquidazione dei danni RC: colpa, tempi e riserva",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Gestione dei sinitri.pdf",
+        "Corso Ivass 60 ore/Materiale /Gestione dei sinitri.pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "La liquidazione dei danni RC: colpa, tempi e riserva",
+          "goals": [
+            "Capire perché il risultato di una polizza RC si decide soprattutto in liquidazione",
+            "Collegare il regime di responsabilità (colpa o oggettiva) alla redditività del rischio",
+            "Spiegare il legame tra velocità di liquidazione e affidabilità della riserva"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Dove si decide il risultato di una polizza",
+          "key": "La gestione del sinistro, l'eventuale esborso e quindi la sostenibilità economica della polizza dipendono poco dalla fase di assunzione e moltissimo, in misura quasi determinante, dalla fase liquidativa.",
+          "body": "Un rischio ben tariffato può diventare in perdita se i sinistri sono gestiti male; un rischio difficile può restare sostenibile se la liquidazione è rigorosa e tempestiva.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Colpa o responsabilità oggettiva",
+          "cols": [
+            {
+              "title": "Responsabilità per colpa",
+              "items": [
+                "Il danneggiato deve provare la colpa dell'assicurato",
+                "Molte richieste possono essere respinte o ridotte",
+                "L'assicuratore RC guadagna"
+              ]
+            },
+            {
+              "title": "Responsabilità oggettiva",
+              "items": [
+                "L'assicurato risponde a prescindere dalla colpa",
+                "Gli spazi di difesa si riducono",
+                "I margini di profitto si riducono pesantemente"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Meno colpa, meno appeal",
+          "key": "Quanto più diminuisce il peso della colpa nel determinare la responsabilità, tanto più si riduce l'appeal del rischio assicurabile.",
+          "body": "L'andamento economico di un rischio RC è legato molto più alla gestione dei sinistri che alla valutazione del rischio o alla determinazione del premio. Il premio, del resto, è influenzato dalle esigenze di mercato e non si può calcolare in astratto.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Esempi di regimi diversi",
+          "lead": "Esempi didattici di come cambia la difesa a seconda del regime di responsabilità.",
+          "facts": [
+            {
+              "label": "Colpa",
+              "text": "Il professionista risponde se ha violato la diligenza richiesta: la difesa può dimostrare il corretto operato."
+            },
+            {
+              "label": "Presunzioni",
+              "text": "Il responsabile deve provare di aver fatto tutto il possibile per evitare il danno: la difesa è più difficile."
+            },
+            {
+              "label": "Oggettiva",
+              "text": "Il produttore risponde del prodotto difettoso anche senza colpa: si discute soprattutto del quantum e delle esclusioni di legge."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Liquidare fuori dall'impresa",
+          "key": "Alla liquidazione dei danni spesso non viene dato un ruolo centrale: nei paesi anglosassoni, e ormai in molti casi anche in Italia, è usuale affidarla a realtà esterne in outsourcing o comunque estranee all'attività di assunzione del rischio.",
+          "body": "In Italia il modello si è diffuso anche perché le compagnie straniere hanno riproposto qui l'organizzazione già usata nei loro mercati.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Esternalizzare non vuol dire delegare la responsabilità",
+          "key": "L'impresa che esternalizza funzioni o attività conserva la piena responsabilità degli obblighi di legge. Per le attività essenziali o importanti deve evitare, tra l'altro, di compromettere un servizio continuo e soddisfacente agli aventi diritto a una prestazione.",
+          "body": "L'impresa informa l'IVASS prima di esternalizzare funzioni o attività essenziali o importanti e garantisce all'Istituto l'accesso ai dati e ai locali del fornitore.",
+          "ref": "Art. 30-septies D.Lgs. 209/2005"
+        },
+        {
+          "layout": "concept",
+          "title": "Una criticità per i rischi industriali e professionali",
+          "key": "La scelta di molte compagnie di creare autonome realtà liquidative ha rappresentato e rappresenta una criticità e un ostacolo nella gestione dei rischi industriali e professionali di responsabilità civile.",
+          "body": "Per questo il corso propone un'analisi delle criticità dell'approccio liquidativo delle compagnie, nella convinzione che migliorarlo giovi prima di tutto alle aziende e poi alla società in generale.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "La vita di un sinistro e la sua riserva",
+          "steps": [
+            {
+              "label": "Apertura",
+              "text": "Arriva la denuncia: il sinistro viene aperto e riceve una prima riserva, cioè la stima di quanto costerà."
+            },
+            {
+              "label": "Istruttoria",
+              "text": "Documenti, perizie, consulenze: la stima viene aggiornata man mano."
+            },
+            {
+              "label": "Decisione",
+              "text": "Offerta, transazione, rigetto o causa."
+            },
+            {
+              "label": "Chiusura",
+              "text": "Pagamento o chiusura senza seguito: la riserva lascia il posto al costo effettivo."
+            }
+          ],
+          "ref": "Materiale originale del corso; le riserve tecniche sono trattate nel modulo «Elementi tariffari»"
+        },
+        {
+          "layout": "concept",
+          "title": "La velocità rende la riserva affidabile",
+          "key": "La velocità di liquidazione riduce il tempo tra apertura del sinistro (e prima riserva) e decisione. Minore è il tempo tra apertura e chiusura, maggiore è l'affidabilità della riserva.",
+          "body": "Ne beneficiano la redditività del programma assicurativo e quella della compagnia: meno sorprese nei bilanci, premi più stabili per il cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "I sinistri senza seguito",
+          "key": "Una quota variabile di sinistri si chiude senza alcuna istruttoria. Questi sinistri senza seguito o annullati sono un elemento economico decisivo per la redditività del programma.",
+          "body": "Con la concorrenza, il premio è spesso calcolato in modo tale che un solo claim può decidere se la polizza è profittevole o in perdita.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché, secondo il corso, una liquidazione rapida migliora la redditività di un programma RC?",
+          "options": [
+            "Perché permette di pagare sempre meno al danneggiato",
+            "Perché riduce il tempo tra prima riserva e decisione, rendendo la riserva più affidabile",
+            "Perché elimina la necessità della riserva",
+            "Perché sposta il costo del sinistro sull'intermediario"
+          ],
+          "answer": 1,
+          "explanation": "Meno tempo passa tra apertura e chiusura, più la riserva iniziale è attendibile: si riducono le revisioni a sorpresa e il programma diventa più prevedibile e redditizio."
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa può fare l'intermediario per una liquidazione efficace",
+          "items": [
+            {
+              "text": "Trasmettere denunce complete fin dall'inizio: ogni documento mancante allunga l'istruttoria."
+            },
+            {
+              "text": "Segnalare subito alla compagnia le richieste che potrebbero crescere di importo."
+            },
+            {
+              "text": "Aiutare il cliente aziendale a raccogliere prove sulla prevenzione adottata: nei regimi per colpa sono decisive."
+            },
+            {
+              "text": "Tenere traccia dei sinistri del cliente: l'andamento pesa sui rinnovi."
+            },
+            {
+              "text": "Spiegare al cliente perché una pratica è ferma e che cosa serve per chiuderla."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia gestisce la RC di un'impresa di pulizie industriali. In un anno arrivano 12 richieste di piccolo importo, quasi tutte per graffi su pavimenti, e una richiesta importante per una caduta di un dipendente del cliente su un pavimento bagnato. Al rinnovo la compagnia chiede un forte aumento.",
+          "questions": [
+            "Quale sinistro pesa di più sulla redditività e perché?",
+            "Come incide la prova della prevenzione?",
+            "Che cosa può fare l'agenzia prima del rinnovo?"
+          ],
+          "solution": "Pesa soprattutto la richiesta per lesioni: con premi competitivi, ricorda il corso, un solo claim può decidere se la polizza è in utile o in perdita. Siamo in un regime fondato sulla colpa: cartelli di pavimento bagnato, procedure e formazione documentate possono ridurre o escludere la responsabilità, e quindi il costo. Prima del rinnovo l'agenzia può aiutare il cliente a raccogliere queste prove, sollecitare la chiusura rapida dei sinistri minori (anche quelli senza seguito) e presentare alla compagnia un quadro aggiornato e motivato."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Liquidazione",
+              "text": "decide il risultato della polizza più dell'assunzione"
+            },
+            {
+              "value": "Colpa",
+              "text": "l'assicuratore RC guadagna; con la responsabilità oggettiva i margini si riducono"
+            },
+            {
+              "value": "Outsourcing",
+              "text": "diffuso, ma critico per i rischi industriali e professionali"
+            },
+            {
+              "value": "Velocità",
+              "text": "rende più affidabile la riserva"
+            },
+            {
+              "value": "1 claim",
+              "text": "può decidere se un programma è in utile o in perdita"
+            }
+          ]
+        }
+      ],
+      "narration": "Dopo aver visto come nasce e come si difende un sinistro RC, guardiamo ora la fase che, secondo il materiale del corso, decide davvero il risultato economico di una polizza: la liquidazione.\n\nIl principio di partenza è forte. La gestione del sinistro, con l'eventuale esborso economico, e quindi la stessa sostenibilità della polizza, sono legate poco alla fase di assunzione del rischio e molto di più, in misura quasi determinante, alla fase liquidativa. In altre parole: un rischio tariffato bene può andare in perdita se i sinistri sono gestiti male, mentre un rischio difficile può restare sostenibile se la liquidazione è rigorosa e tempestiva.\n\nC'è poi un fattore che dipende dal tipo di responsabilità. L'assicuratore di responsabilità civile guadagna quando il regime di responsabilità assicurato è fondato sulla colpa, e vede ridursi pesantemente i propri margini quando l'assicurato risponde oggettivamente, a prescindere dalla colpa. Il motivo è intuitivo: se il danneggiato deve dimostrare la colpa, molte richieste possono essere respinte o ridotte; se la responsabilità prescinde dalla colpa, gli spazi di difesa si restringono.\n\nIl corso ne trae due conseguenze. La prima: l'andamento economico di un rischio RC dipende molto di più dalla gestione dei sinistri che dalla valutazione del rischio o dalla determinazione del premio, che del resto è influenzato dalle esigenze del mercato e non è calcolabile in astratto. La seconda: quanto più diminuisce la rilevanza della colpa nella determinazione della responsabilità, tanto più si riduce l'appeal, cioè l'attrattività, del rischio assicurabile.\n\nFacciamo qualche esempio didattico. Per un professionista, che risponde se ha violato la diligenza richiesta, la difesa può puntare a dimostrare il corretto operato. Dove la legge prevede presunzioni di responsabilità, è il responsabile a dover provare di aver fatto tutto il possibile per evitare il danno, e la difesa diventa più difficile. Nella responsabilità del produttore per prodotto difettoso, che avete visto nel modulo sulle assicurazioni contro i danni, il produttore risponde anche senza colpa: la discussione si sposta soprattutto sull'importo e sulle cause di esclusione previste dalla legge.\n\nPassiamo all'organizzazione. Il corso osserva che alla liquidazione dei danni spesso non viene attribuito un ruolo centrale, al punto che nei paesi anglosassoni, e ormai in molti casi anche nel nostro paese, è usuale affidare questa fase a realtà esterne, in outsourcing, o comunque estranee all'attività di assunzione del rischio. In Italia il modello si è diffuso anche perché le compagnie straniere hanno riproposto qui l'organizzazione che usano nei loro mercati.\n\nSu questo punto è utile ricordare una regola del Codice delle assicurazioni private, l'articolo 30-septies. L'impresa che esternalizza funzioni o attività conserva la piena responsabilità dell'osservanza degli obblighi di legge e di regolamento. Se esternalizza attività essenziali o importanti, deve evitare che ciò pregiudichi gravemente il governo societario, aumenti indebitamente il rischio operativo, ostacoli i controlli dell'IVASS o comprometta la capacità di fornire un servizio continuo e soddisfacente ai contraenti, agli assicurati e agli aventi diritto a una prestazione. Deve informare l'IVASS prima dell'esternalizzazione e garantire all'Istituto l'accesso ai dati e ai locali del fornitore. Per il cliente, quindi, chi liquida il sinistro può cambiare, ma il responsabile resta sempre la compagnia.\n\nIl corso, comunque, è critico: la scelta di numerose compagnie di costituire autonome realtà liquidative ha costituito e costituisce una criticità e un ostacolo nella gestione dei rischi industriali e professionali di responsabilità civile. Chi liquida lontano da chi assume rischia di perdere la conoscenza del cliente e del suo rischio. Per questo, dice il materiale, è utile analizzare le criticità dell'approccio liquidativo delle compagnie, nella consapevolezza che un suo miglioramento non possa che giovare alle aziende in primo luogo e alla società in generale.\n\nVediamo ora il rapporto tra tempi e riserva. Ogni sinistro attraversa quattro fasi. All'apertura, quando arriva la denuncia, riceve una prima riserva, cioè la stima di quanto costerà. Durante l'istruttoria, con documenti, perizie e consulenze, la stima viene aggiornata. Poi si arriva alla decisione: offerta, transazione, rigetto o causa. Infine la chiusura, con il pagamento o senza seguito, quando la riserva lascia il posto al costo effettivo. Delle riserve tecniche, del loro calcolo e delle regole di solvibilità si è parlato nel modulo sugli elementi tariffari.\n\nIl corso sottolinea che la velocità di liquidazione può ridurre in modo efficace il tempo tra l'apertura del sinistro, e quindi la prima riserva, e il momento della decisione. Il risultato è che minore è il periodo tra apertura e chiusura, maggiore è il livello di affidabilità e attendibilità della riserva, con benefici per la redditività del programma assicurativo e della compagnia. Una riserva che resta aperta per anni è esposta a rivalutazioni, nuove richieste, nuovi danni: è una fonte continua di sorprese.\n\nUn altro dato economico decisivo riguarda i sinistri senza seguito. Le compagnie hanno una percentuale variabile di sinistri che si chiudono senza alcuna istruttoria: denunce cautelative a cui non segue alcuna richiesta, richieste abbandonate, pratiche annullate. Questi sinistri sono un elemento decisivo per la redditività, perché il premio, calcolato in base alla concorrenza e alla domanda di mercato, è spesso tale che un solo claim può determinare la profittabilità della polizza o la perdita economica.\n\nNella verifica la risposta corretta è la seconda: la liquidazione rapida riduce il tempo tra prima riserva e decisione, e rende la riserva più affidabile.\n\nChe cosa può fare l'intermediario? Molto più di quanto si pensi. Può trasmettere denunce complete fin dall'inizio, perché ogni documento mancante allunga l'istruttoria. Può segnalare subito alla compagnia le richieste che rischiano di crescere. Può aiutare il cliente aziendale a raccogliere le prove della prevenzione adottata, che nei regimi fondati sulla colpa sono decisive. Può tenere traccia dei sinistri del cliente, perché l'andamento pesa sui rinnovi. E può spiegare al cliente perché una pratica è ferma e che cosa serve per chiuderla.\n\nIl caso dell'impresa di pulizie lo dimostra. Le dodici richieste per graffi sui pavimenti fanno rumore, ma il sinistro che pesa davvero è la caduta con lesioni: con premi competitivi, un solo claim può decidere il risultato. Siamo in un regime di colpa, quindi cartelli di pavimento bagnato, procedure e formazione documentate possono ridurre o escludere la responsabilità. Prima del rinnovo l'agenzia può aiutare il cliente a raccogliere queste prove, sollecitare la chiusura rapida dei sinistri minori e presentare alla compagnia un quadro aggiornato.\n\nRicapitolando: la liquidazione decide il risultato della polizza più dell'assunzione; con la colpa l'assicuratore RC guadagna, con la responsabilità oggettiva i margini si riducono; l'outsourcing della liquidazione è diffuso ma critico per i rischi industriali e professionali, e la responsabilità resta comunque all'impresa; la velocità rende affidabile la riserva; e un solo claim può decidere se un programma è in utile o in perdita. Dalla prossima lezione passiamo alla RC auto, dove la liquidazione è regolata in modo molto preciso dalla legge.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, art. 30-septies – Esternalizzazione (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art30septies"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Regola sull'esternalizzazione: l'impresa conserva la piena responsabilità, tutela del servizio agli aventi diritto, informativa preventiva all'IVASS.",
+          "source_ref": "Art. 30-septies D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi didattici di regimi di responsabilità (colpa, presunzioni, oggettiva) e richiamo al modulo sulla responsabilità del produttore.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fasi del sinistro e della riserva, checklist per l'intermediario, verifica e caso pratico.",
+          "source_ref": "Materiale originale del corso"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il titolo originale «Il ruolo della colpa nella liquidazione del danno di R.C.» comprende i concetti di velocità di liquidazione e sinistri senza seguito: mantenuti integralmente, riordinati sotto il tema della riserva.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Il sinistro RC auto: denuncia, CAI e procedura di risarcimento",
+      "source_files": [],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "Il sinistro RC auto: denuncia, CAI e procedura di risarcimento",
+          "goals": [
+            "Guidare il cliente nella denuncia con il modulo CAI, cartaceo o digitale",
+            "Conoscere contenuto della richiesta e termini dell'offerta (art. 148 CAP)",
+            "Gestire integrazioni, antifrode, testimoni e accesso agli atti"
+          ]
+        },
+        {
+          "layout": "sources",
+          "title": "Le regole di riferimento",
+          "items": [
+            {
+              "label": "Codice delle assicurazioni private",
+              "detail": "D.Lgs. 209/2005, Titolo X, Capo IV «Procedure liquidative»: artt. 143-150 (denuncia, azione diretta, proponibilità, accesso, procedura di risarcimento, risarcimento diretto)."
+            },
+            {
+              "label": "D.P.R. 254/2006",
+              "detail": "Regolamento sul risarcimento diretto dei danni da circolazione stradale."
+            },
+            {
+              "label": "Regolamento IVASS n. 56/2025",
+              "detail": "Certificato di assicurazione e modulo di denuncia di sinistro (CAI); ha abrogato il Reg. ISVAP 13/2008."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un sistema diverso dalla RC volontaria",
+          "key": "Nella RC auto il danneggiato ha azione diretta verso l'impresa del responsabile, entro il massimale. Per l'intero massimale l'impresa non può opporgli eccezioni derivanti dal contratto.",
+          "body": "L'impresa che paga ha però diritto di rivalsa verso il proprio assicurato nella misura in cui avrebbe potuto rifiutare o ridurre la prestazione. L'azione diretta si prescrive nel termine previsto per l'azione verso il responsabile.",
+          "ref": "Art. 144 D.Lgs. 209/2005"
+        },
+        {
+          "layout": "concept",
+          "title": "La denuncia e il modulo CAI",
+          "key": "In caso di sinistro tra veicoli a motore, i conducenti (o i proprietari, se diversi) devono denunciarlo alla propria impresa con il modulo approvato dall'IVASS: la constatazione amichevole di incidente, detta CAI o «modulo blu».",
+          "body": "Se la denuncia non viene presentata si applica l'art. 1915 c.c. sull'omesso avviso. Se il modulo è firmato da entrambi i conducenti, si presume, salvo prova contraria dell'impresa, che il sinistro sia avvenuto con le circostanze, le modalità e le conseguenze descritte.",
+          "ref": "Art. 143 D.Lgs. 209/2005"
+        },
+        {
+          "layout": "checklist",
+          "title": "CAI: le novità del Regolamento IVASS 56/2025",
+          "items": [
+            {
+              "text": "Il modulo si può compilare su carta o su documento informatico, a scelta del conducente o del proprietario.",
+              "ref": "art. 11"
+            },
+            {
+              "text": "L'impresa consegna il modulo alla stipula e al rinnovo e, su richiesta, a ogni denuncia; il contraente può sempre chiederlo su carta o altro supporto durevole.",
+              "ref": "art. 13"
+            },
+            {
+              "text": "Le imprese mettono a disposizione applicazioni web e per dispositivi mobili per compilare e trasmettere il CAI; firma con requisiti almeno di firma elettronica avanzata.",
+              "ref": "art. 14"
+            },
+            {
+              "text": "Il servizio digitale non autorizza l'invio di pubblicità o comunicazioni commerciali.",
+              "ref": "art. 14, c. 5"
+            },
+            {
+              "text": "Obblighi dell'art. 14 da attuare entro 12 mesi dall'entrata in vigore: l'IVASS indica l'8 aprile 2026.",
+              "ref": "art. 18; IVASS, Cosa fare in caso di sinistro"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Compilare il CAI: consigli pratici",
+          "left": {
+            "title": "Se si è d'accordo",
+            "items": [
+              "Un solo modulo per i due veicoli, firmato da entrambi",
+              "Tempi dell'offerta più brevi: 30 giorni",
+              "Il modulo può essere allegato alla richiesta di risarcimento"
+            ]
+          },
+          "right": {
+            "title": "Se non si è d'accordo",
+            "items": [
+              "Ognuno compila il modulo con la propria versione",
+              "Senza CAI va comunque inviata una denuncia scritta all'impresa",
+              "Testimoni: indicarli subito, nella denuncia o nel primo atto"
+            ]
+          },
+          "note": "Con tre veicoli si usano due moduli, e così via. Il foglio «Altre informazioni» alimenta la banca dati sinistri IVASS, ma il modulo vale anche senza.",
+          "noteRef": "Reg. IVASS 56/2025, art. 15 e Allegato 1; IVASS, Cosa fare in caso di sinistro"
+        },
+        {
+          "layout": "table",
+          "title": "La richiesta di risarcimento: che cosa deve contenere",
+          "head": [
+            "Tipo di danno",
+            "Contenuto",
+            "Termine per l'offerta"
+          ],
+          "rows": [
+            [
+              "C · Solo cose",
+              "Aventi diritto; luogo, giorni e ore in cui il veicolo è ispezionabile, per almeno 5 giorni non festivi",
+              "60 giorni; 30 se il CAI è firmato da entrambi"
+            ],
+            [
+              "P · Lesioni o decesso",
+              "Codice fiscale, circostanze, età, attività, reddito, lesioni, certificato di guarigione con o senza postumi, dichiarazione sugli enti previdenziali; in caso di decesso lo stato di famiglia",
+              "90 giorni dalla documentazione"
+            ],
+            [
+              "I · Richiesta incompleta",
+              "L'impresa chiede le integrazioni entro 30 giorni",
+              "I termini ripartono dalle integrazioni"
+            ]
+          ],
+          "ref": "Art. 148, c. 1, 2, 5, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "concept",
+          "title": "Perizia e riparazione",
+          "key": "Il danneggiato può far riparare il veicolo solo dopo il termine per l'offerta, entro cui l'impresa deve completare la perizia, o prima se la perizia è già conclusa. Non può rifiutare gli accertamenti strettamente necessari: se lo fa, i termini si sospendono.",
+          "body": "Se il veicolo non è messo a disposizione o è riparato prima dell'ispezione, l'impresa valuta il danno solo sulla fattura delle riparazioni. Resta il diritto al risarcimento anche senza riparare, e quello di farsi riparare da un'officina di fiducia abilitata, con garanzia di almeno 2 anni sulle parti non soggette a usura.",
+          "ref": "Art. 148, c. 1, 3, 11-bis, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "timeline",
+          "title": "Dopo l'offerta",
+          "items": [
+            {
+              "value": "15 giorni",
+              "text": "per pagare se il danneggiato accetta la somma offerta",
+              "ref": "Art. 148, c. 6"
+            },
+            {
+              "value": "15 giorni",
+              "text": "per pagare comunque la somma offerta se il danneggiato non accetta: vale come acconto sulla liquidazione definitiva",
+              "ref": "Art. 148, c. 7"
+            },
+            {
+              "value": "30 giorni",
+              "text": "di silenzio del danneggiato dopo l'offerta: l'impresa paga con le stesse modalità",
+              "ref": "Art. 148, c. 8"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando si può fare causa",
+          "key": "L'azione di risarcimento si può proporre solo dopo 60 giorni, o 90 in caso di danno alla persona, dalla richiesta all'impresa fatta con raccomandata con ricevuta di ritorno e con il contenuto previsto dall'art. 148.",
+          "body": "Se in giudizio la somma liquidata dal giudice è più del doppio di quella offerta, il giudice trasmette la sentenza all'IVASS per gli accertamenti sul rispetto delle regole di liquidazione.",
+          "ref": "Artt. 145, c. 1, e 148, c. 10, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "steps",
+          "title": "Il presidio antifrode",
+          "steps": [
+            {
+              "label": "Consultazione",
+              "text": "L'impresa consulta l'archivio integrato antifrode (AIA) sui codici fiscali e sui veicoli coinvolti."
+            },
+            {
+              "label": "Indici di anomalia",
+              "text": "Se emergono indici definiti dall'IVASS, segnali dalla scatola nera o incongruenze documentate in perizia, può non fare offerta per approfondire, informando danneggiato e IVASS."
+            },
+            {
+              "label": "Determinazioni",
+              "text": "Entro 30 giorni comunica al danneggiato le conclusioni."
+            },
+            {
+              "label": "Querela",
+              "text": "Se presenta querela entro quel termine, può non fare offerta e i termini restano sospesi."
+            }
+          ],
+          "ref": "Art. 148, c. 2-bis, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "facts",
+          "title": "Testimoni e accesso agli atti",
+          "lead": "Due regole che il cliente deve conoscere prima che sia troppo tardi.",
+          "facts": [
+            {
+              "label": "Testimoni",
+              "text": "Nei sinistri con soli danni a cose vanno indicati nella denuncia o nel primo atto formale; se l'impresa li chiede, si risponde entro 60 giorni. Testimoni indicati dopo possono non essere ammessi."
+            },
+            {
+              "label": "Testimoni ricorrenti",
+              "text": "Se gli stessi testimoni compaiono in più di 3 sinistri in 5 anni, il giudice informa la procura."
+            },
+            {
+              "label": "Accesso agli atti",
+              "text": "A fine procedimento contraenti e danneggiati possono vedere ed estrarre copia degli atti di valutazione e liquidazione che li riguardano."
+            },
+            {
+              "label": "Senza risposta",
+              "text": "Se entro 60 giorni dalla richiesta scritta l'accesso non è consentito, si può fare reclamo all'IVASS. Non è ammesso per atti che evidenziano indizi di frode."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente ha avuto un incidente con soli danni all'auto e ha compilato il CAI firmato da entrambi i conducenti. Ha inviato una richiesta completa con la disponibilità del veicolo per la perizia. Entro quanto l'impresa deve fare un'offerta o motivare il rifiuto?",
+          "options": [
+            "15 giorni",
+            "30 giorni",
+            "60 giorni",
+            "90 giorni"
+          ],
+          "answer": 1,
+          "explanation": "Per i soli danni a cose il termine è di 60 giorni, ridotto a 30 quando il modulo di denuncia è sottoscritto dai conducenti coinvolti (art. 148, c. 1, CAP)."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente entra in agenzia: ieri è stato tamponato, l'altro conducente non ha voluto firmare il CAI. L'auto è in carrozzeria e il carrozziere vuole iniziare subito i lavori. Un passante ha visto tutto e ha lasciato il numero di telefono.",
+          "questions": [
+            "Che cosa fa il cliente senza CAI firmato?",
+            "Può far riparare subito l'auto?",
+            "Come gestire il testimone?"
+          ],
+          "solution": "Il cliente compila comunque il CAI con la propria versione o invia una denuncia scritta: è obbligatoria. Nella richiesta indica luogo, giorni e orari in cui l'auto è visibile per almeno 5 giorni non festivi. Se ripara prima della perizia, l'impresa valuterà il danno solo sulla fattura: conviene attendere la perizia o il termine di 60 giorni (qui non c'è firma congiunta). Il testimone va indicato subito, con nome e recapiti, nella denuncia o nel primo atto: indicarlo dopo può renderlo inammissibile."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "CAI",
+              "text": "firmato da entrambi: presunzione sulla dinamica e offerta in 30 giorni"
+            },
+            {
+              "value": "60 · 90",
+              "text": "giorni per l'offerta: cose oppure lesioni"
+            },
+            {
+              "value": "15",
+              "text": "giorni per pagare dopo l'accettazione o il rifiuto"
+            },
+            {
+              "value": "30",
+              "text": "giorni per chiedere integrazioni; i termini ripartono"
+            },
+            {
+              "value": "AIA",
+              "text": "antifrode: offerta sospesa per approfondire, con comunicazione all'IVASS"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione entriamo nella RC auto, il ramo in cui la gestione dei sinistri è regolata dalla legge nel modo più dettagliato. Per l'intermediario è anche il terreno più frequente: è qui che il cliente chiede aiuto dopo un incidente. Questa parte dell'argomento non era trattata nel materiale originale ed è stata aggiunta sulla base delle fonti normative e delle indicazioni IVASS ai consumatori.\n\nLe regole di riferimento sono tre. Il Codice delle assicurazioni private, nel Titolo dieci, Capo quarto, intitolato procedure liquidative, con gli articoli da 143 a 150. Il decreto del Presidente della Repubblica 254 del 2006, che disciplina il risarcimento diretto. E il Regolamento IVASS numero 56 del 2025, che riguarda il certificato di assicurazione e il modulo di denuncia di sinistro e ha sostituito il vecchio Regolamento ISVAP 13 del 2008.\n\nIl primo elemento che distingue la RC auto dalla RC volontaria è l'azione diretta. Lo abbiamo visto: nella RC generale il danneggiato, di regola, non può rivolgersi direttamente all'assicuratore del responsabile. Nella RC auto sì. L'articolo 144 riconosce al danneggiato un'azione diretta verso l'impresa del responsabile civile, entro i limiti del massimale. E, per l'intero massimale, l'impresa non può opporgli eccezioni derivanti dal contratto, né clausole che prevedano un contributo dell'assicurato al risarcimento, come una franchigia. L'impresa che paga ha però diritto di rivalsa verso il proprio assicurato, nella misura in cui avrebbe avuto contrattualmente diritto di rifiutare o ridurre la prestazione. Nel giudizio contro l'impresa va chiamato anche il responsabile, e l'azione diretta si prescrive nel termine previsto per l'azione verso il responsabile.\n\nVeniamo alla denuncia. L'articolo 143 stabilisce che, in caso di sinistro tra veicoli a motore soggetti all'obbligo di assicurazione, i conducenti dei veicoli coinvolti, o i proprietari se sono persone diverse, devono denunciare il sinistro alla propria impresa, usando il modulo approvato dall'IVASS: la constatazione amichevole di incidente, il CAI, che tutti conoscono come modulo blu. Se la denuncia non viene presentata, si applica l'articolo 1915 del Codice civile sull'omesso avviso. E quando il modulo è firmato congiuntamente da entrambi i conducenti, si presume, salvo prova contraria da parte dell'impresa, che il sinistro sia avvenuto nelle circostanze, con le modalità e con le conseguenze indicate nel modulo. È una presunzione molto forte: per questo la firma va apposta solo se si è davvero d'accordo su quanto scritto.\n\nIl Regolamento IVASS 56 del 2025 ha aggiornato le regole sul modulo. Il CAI può essere compilato su carta o su documento informatico, a scelta del conducente o del proprietario. L'impresa lo consegna al contraente alla stipula e al rinnovo e, su richiesta, a ogni denuncia; il contraente ha sempre diritto di riceverlo su carta o su altro supporto durevole. Le imprese devono mettere a disposizione applicazioni informatiche, utilizzabili anche da smartphone e accessibili via web, per compilare il modulo e trasmetterlo per via telematica, con modalità di firma che abbiano requisiti di sicurezza non inferiori a quelli della firma elettronica avanzata, e devono permettere di conservarne una copia su supporto durevole. Un dettaglio a tutela del cliente: aderire al servizio digitale non autorizza l'impresa a inviare pubblicità o comunicazioni commerciali. Per questi servizi digitali le imprese avevano dodici mesi dall'entrata in vigore del regolamento; il sito IVASS indica come scadenza l'8 aprile 2026.\n\nQualche consiglio pratico, ripreso dalla pagina IVASS su cosa fare in caso di sinistro. Se i conducenti sono d'accordo sulla dinamica, compilano un solo modulo per i due veicoli e lo firmano entrambi: i tempi dell'offerta si accorciano. Se non sono d'accordo, ciascuno compila il modulo con la propria versione. Se il CAI non è stato compilato, bisogna comunque informare per iscritto la propria impresa, descrivendo il sinistro: è la cosiddetta denuncia cautelativa. Con tre veicoli si usano due moduli, e così via. Al modulo si aggiunge un foglio di altre informazioni che serve ad alimentare la banca dati sinistri dell'IVASS; il modulo, però, conserva i suoi effetti anche se quel foglio manca. Il CAI può essere allegato alla richiesta di risarcimento, sia nella procedura diretta sia in quella ordinaria.\n\nIl cuore della materia è l'articolo 148, la procedura di risarcimento. Per i sinistri con soli danni a cose, la richiesta deve indicare gli aventi diritto e il luogo, i giorni e le ore in cui le cose danneggiate sono disponibili, per non meno di cinque giorni non festivi, per l'ispezione. Entro sessanta giorni dalla ricezione l'impresa deve formulare una congrua e motivata offerta, oppure comunicare in modo specifico i motivi per cui non ritiene di fare offerta. Il termine scende a trenta giorni se il modulo di denuncia è firmato dai conducenti coinvolti.\n\nL'obbligo di offerta vale anche per le lesioni e per il decesso. In questo caso la richiesta deve contenere il codice fiscale degli aventi diritto, la descrizione delle circostanze del sinistro, i dati su età, attività e reddito del danneggiato, l'entità delle lesioni, l'attestazione medica di guarigione con o senza postumi permanenti, la dichiarazione sulle prestazioni di enti di assicurazione sociale obbligatoria e, in caso di decesso, lo stato di famiglia della vittima. Il termine per l'impresa è di novanta giorni dalla ricezione della documentazione. Se la richiesta è incompleta, l'impresa deve chiedere le integrazioni entro trenta giorni, e i termini ripartono dal ricevimento dei documenti integrativi.\n\nAttenzione alla perizia. Il danneggiato può far riparare il veicolo solo dopo la scadenza del termine per l'offerta, entro il quale l'impresa deve completare gli accertamenti, oppure prima, se gli accertamenti si sono già conclusi. Non può rifiutare gli accertamenti strettamente necessari: se lo fa, i termini dell'offerta si sospendono. Se il veicolo non viene messo a disposizione, o viene riparato prima dell'ispezione, l'impresa valuterà il danno solo sulla base della fattura delle riparazioni. Resta comunque il diritto al risarcimento anche se il danneggiato decide di non riparare. E resta la facoltà dell'assicurato di ottenere l'integrale risarcimento per la riparazione a regola d'arte presso un'officina di fiducia abilitata, che deve rilasciare documentazione fiscale e una garanzia di almeno due anni sulle parti non soggette a usura ordinaria.\n\nDopo l'offerta ci sono tre scenari. Se il danneggiato accetta, l'impresa paga entro quindici giorni dalla comunicazione. Se non accetta, l'impresa paga comunque la somma offerta entro lo stesso termine, e quella somma viene imputata alla liquidazione definitiva: è, in sostanza, un acconto. Se il danneggiato non risponde per trenta giorni, l'impresa paga con le stesse modalità.\n\nQuando si può andare dal giudice? L'articolo 145 stabilisce che l'azione si può proporre solo dopo sessanta giorni, o novanta in caso di danno alla persona, dalla richiesta di risarcimento inviata all'impresa con raccomandata con avviso di ricevimento e con il contenuto previsto dall'articolo 148. E c'è un controllo sulla qualità delle offerte: se, nella sentenza a favore del danneggiato, la somma offerta era inferiore alla metà di quella liquidata dal giudice, al netto di rivalutazione e interessi, il giudice trasmette la sentenza all'IVASS per gli accertamenti sul rispetto delle regole.\n\nUn tema sempre più importante è l'antifrode. Per l'articolo 148, comma 2-bis, l'impresa consulta l'archivio informatico integrato antifrode, l'AIA. Se, rispetto ai codici fiscali dei soggetti coinvolti o ai veicoli danneggiati, emergono gli indici di anomalia definiti dall'IVASS, oppure se altri indicatori di frode arrivano dai dispositivi elettronici come la scatola nera, o ancora se la perizia documenta un'incongruenza del danno, l'impresa può decidere, entro i termini, di non fare offerta per condurre ulteriori approfondimenti. Lo comunica al danneggiato e all'IVASS, a cui trasmette anche la documentazione delle analisi. Entro trenta giorni deve comunicare le sue determinazioni conclusive. Se entro quel termine presenta querela, nei casi in cui è prevista, può non formulare offerta, informandone l'assicurato, e i termini restano sospesi. In questi casi l'azione in giudizio è proponibile solo dopo le determinazioni conclusive o, in mancanza, dopo sessanta giorni di sospensione.\n\nDue regole ancora, che il cliente deve conoscere prima che sia troppo tardi. La prima riguarda i testimoni. Per l'articolo 135, nei sinistri con soli danni a cose, i testimoni devono risultare dalla denuncia o dal primo atto formale verso l'impresa. Se mancano, l'impresa li chiede con raccomandata entro sessanta giorni dalla denuncia, avvisando delle conseguenze, e la parte risponde entro sessanta giorni. Fatti salvi i verbali della polizia, i testimoni identificati più tardi rendono la prova inammissibile, salvo che si dimostri l'oggettiva impossibilità di identificarli in tempo. E se gli stessi nominativi di testimoni compaiono in più di tre sinistri negli ultimi cinque anni registrati nella banca dati IVASS, il giudice trasmette un'informativa alla procura. La seconda regola riguarda l'accesso agli atti. L'articolo 146 riconosce a contraenti e danneggiati il diritto di accedere agli atti dei procedimenti di valutazione, constatazione e liquidazione che li riguardano, a procedimento concluso. Non è ammesso per gli atti che evidenziano indizi o prove di frode ed è sospeso se c'è una causa in corso. Se entro sessanta giorni dalla richiesta scritta non si ottiene di vedere gli atti e di estrarne copia, si può fare reclamo all'IVASS.\n\nLa verifica: soli danni all'auto, CAI firmato da entrambi, richiesta completa. Il termine è di trenta giorni.\n\nNel caso pratico il cliente tamponato non ha il CAI firmato. Deve comunque presentare la denuncia, compilando il modulo con la propria versione o con una comunicazione scritta, e nella richiesta deve indicare quando l'auto è visibile per la perizia, per almeno cinque giorni non festivi. Se il carrozziere ripara subito, l'impresa valuterà il danno solo sulla fattura: conviene attendere la perizia o la scadenza del termine, qui di sessanta giorni perché non c'è firma congiunta. E il passante va indicato subito, con nome e recapiti, nella denuncia: aspettare potrebbe rendere la sua testimonianza inammissibile.\n\nRicapitolando: il CAI firmato da entrambi crea una presunzione sulla dinamica e riduce il termine a trenta giorni; i termini per l'offerta sono sessanta giorni per le cose e novanta per le lesioni; dopo l'offerta si paga entro quindici giorni; le integrazioni si chiedono entro trenta giorni e fanno ripartire i termini; e l'antifrode consente di sospendere l'offerta per approfondire, con comunicazione all'IVASS. Nella prossima lezione vedremo quando il danneggiato si rivolge alla propria compagnia, con il risarcimento diretto.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, art. 148 – Procedura di risarcimento (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art148"
+        },
+        {
+          "title": "D.Lgs. 209/2005, artt. 143, 144, 145, 146 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art143"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 135 – Banca dati sinistri (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art135"
+        },
+        {
+          "title": "Regolamento IVASS n. 56 del 25 marzo 2025",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2025/n56/Regolamento_56_25.03.2025.pdf"
+        },
+        {
+          "title": "IVASS, Cosa fare in caso di sinistro (RC auto)",
+          "url": "https://www.ivass.it/consumatori/rc-auto/sinistri/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Nuova lezione sulla procedura RC auto, non presente nel materiale originale: azione diretta e rivalsa, denuncia e CAI con presunzione da firma congiunta.",
+          "source_ref": "Artt. 143, 144 D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "CAI cartaceo o digitale, consegna del modulo, app delle imprese con firma elettronica avanzata, divieto di pubblicità, termine 8 aprile 2026, abrogazione del Reg. ISVAP 13/2008.",
+          "source_ref": "Reg. IVASS 56/2025, artt. 11-16, 18; IVASS, Cosa fare in caso di sinistro"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto della richiesta, termini 60/30/90 giorni, integrazioni entro 30 giorni, perizia e riparazione, pagamento entro 15 giorni, silenzio di 30 giorni, trasmissione della sentenza all'IVASS, officina di fiducia con garanzia di 2 anni.",
+          "source_ref": "Art. 148 D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Proponibilità dell'azione dopo 60/90 giorni.",
+          "source_ref": "Art. 145 D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Procedura antifrode con consultazione AIA, comunicazione all'IVASS, 30 giorni per le determinazioni e querela.",
+          "source_ref": "Art. 148, c. 2-bis, D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Regole sui testimoni (60 giorni, inammissibilità, informativa alla procura oltre 3 sinistri in 5 anni) e diritto di accesso agli atti con reclamo all'IVASS dopo 60 giorni.",
+          "source_ref": "Artt. 135, c. 3-bis – 3-quater, e 146 D.Lgs. 209/2005"
+        }
+      ]
+    },
+    {
+      "title": "Risarcimento diretto, terzo trasportato e Fondo vittime della strada",
+      "source_files": [],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area amministrativa e gestionale · Gestione dei sinistri",
+          "title": "Risarcimento diretto, terzo trasportato e Fondo vittime della strada",
+          "goals": [
+            "Capire quando il danneggiato si rivolge alla propria impresa",
+            "Indirizzare correttamente terzi trasportati e vittime di veicoli non assicurati",
+            "Conoscere i criteri di risarcimento del danno alla persona nella RC auto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il risarcimento diretto",
+          "key": "In caso di sinistro tra due veicoli a motore identificati e assicurati, con danni ai veicoli o ai conducenti, il danneggiato chiede il risarcimento alla propria impresa, che liquida per conto dell'impresa del responsabile.",
+          "body": "Le imprese regolano poi i rapporti tra loro. Il danneggiato che accetta l'offerta rilascia una quietanza valida anche verso il responsabile e la sua impresa.",
+          "ref": "Art. 149, c. 1, 3, 4, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "compare",
+          "title": "Diretto o ordinario?",
+          "cols": [
+            {
+              "title": "Risarcimento diretto (propria impresa)",
+              "items": [
+                "Due soli veicoli, entrambi immatricolati e assicurati in Italia",
+                "Collisione avvenuta in Italia",
+                "Danneggiato non responsabile o responsabile solo in parte",
+                "Danni al veicolo e alle cose trasportate dell'assicurato o del conducente",
+                "Lesioni del conducente fino a 9 punti di invalidità"
+              ]
+            },
+            {
+              "title": "Procedura ordinaria (impresa del responsabile)",
+              "items": [
+                "Più di due veicoli coinvolti",
+                "Veicoli immatricolati all'estero",
+                "Lesioni del conducente oltre 9 punti",
+                "Lesioni a pedoni e passanti",
+                "Richiesta all'impresa del veicolo responsabile"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "La richiesta di risarcimento diretto",
+          "items": [
+            {
+              "text": "Si presenta con raccomandata, consegna a mano, telegramma, telefax o in via telematica, salvo che il contratto escluda quest'ultima.",
+              "ref": "D.P.R. 254/2006, art. 5"
+            },
+            {
+              "text": "Contiene nomi degli assicurati, targhe, imprese, circostanze, testimoni, eventuale intervento della polizia e disponibilità del veicolo per la perizia.",
+              "ref": "art. 6, c. 1"
+            },
+            {
+              "text": "Per le lesioni: età, attività, reddito, entità delle lesioni, dichiarazione sugli enti previdenziali, certificato di guarigione, eventuale consulenza medico-legale di parte.",
+              "ref": "art. 6, c. 2"
+            },
+            {
+              "text": "Va inviata per conoscenza all'impresa dell'altro veicolo, per poter poi agire in giudizio.",
+              "ref": "Art. 145, c. 2, CAP"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi del risarcimento diretto",
+          "items": [
+            {
+              "value": "30 giorni",
+              "text": "per chiedere integrazioni, offrendo assistenza; oppure per informare che il sinistro è escluso e girare la richiesta all'impresa del responsabile",
+              "ref": "D.P.R. 254/2006, artt. 7 e 11"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per l'offerta sui danni a veicoli e cose con CAI firmato da entrambi",
+              "ref": "art. 8, c. 2, lett. c"
+            },
+            {
+              "value": "60 giorni",
+              "text": "per l'offerta sui soli danni a veicoli e cose",
+              "ref": "art. 8, c. 2, lett. b"
+            },
+            {
+              "value": "90 giorni",
+              "text": "per l'offerta in caso di lesioni",
+              "ref": "art. 8, c. 2, lett. a"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'assistenza al danneggiato",
+          "key": "La propria impresa, per correttezza e buona fede, deve dare al danneggiato ogni assistenza informativa e tecnica: aiuto nella compilazione e nel controllo della richiesta, nella quantificazione dei danni e nella spiegazione dei criteri di responsabilità.",
+          "body": "Se il danneggiato accetta l'offerta, sugli importi pagati non sono dovuti compensi per consulenze o assistenza professionale, salvo quella medico-legale per i danni alla persona.",
+          "ref": "D.P.R. 254/2006, art. 9"
+        },
+        {
+          "layout": "split",
+          "title": "Dietro le quinte: CARD e stanza di compensazione",
+          "left": {
+            "title": "Tra le imprese",
+            "items": [
+              "Le imprese stipulano una convenzione per gestire il risarcimento diretto (CARD)",
+              "Una stanza di compensazione regola i rapporti economici",
+              "Le compensazioni avvengono su costi medi, calcolati ogni anno"
+            ]
+          },
+          "right": {
+            "title": "Per l'assicurato",
+            "items": [
+              "Il sistema deve portare benefici effettivi agli assicurati",
+              "Possibili clausole di risarcimento in forma specifica, con sconto sul premio",
+              "In quel caso la percentuale di sconto deve essere indicata nel contratto"
+            ]
+          },
+          "note": "Sul sistema vigila l'IVASS. Le regole del risarcimento diretto si applicano anche alle imprese UE che operano in Italia.",
+          "noteRef": "D.P.R. 254/2006, artt. 13, 14; art. 150 CAP; IVASS, Cosa fare in caso di sinistro"
+        },
+        {
+          "layout": "concept",
+          "title": "Se l'impresa non risponde o non si trova l'accordo",
+          "key": "Se la propria impresa comunica che il risarcimento diretto non è possibile, non fa offerta o non motiva nei termini, o non si trova un accordo, il danneggiato può agire in giudizio solo contro la propria impresa.",
+          "body": "L'impresa del responsabile può intervenire nel giudizio e, riconoscendo la responsabilità del proprio assicurato, estromettere l'altra impresa.",
+          "ref": "Art. 149, c. 6, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "concept",
+          "title": "Il terzo trasportato",
+          "key": "Il passeggero ferito è risarcito dall'impresa del veicolo su cui viaggiava, entro il massimale minimo di legge, a prescindere dalla responsabilità dei conducenti. Fa eccezione il caso fortuito.",
+          "body": "Per il danno eccedente si rivolge all'impresa del responsabile, se questa ha un massimale più alto. L'impresa che paga si rivale poi sull'impresa del responsabile. Le lesioni dei trasportati restano fuori dal risarcimento diretto e seguono questa procedura.",
+          "ref": "Art. 141 D.Lgs. 209/2005; D.P.R. 254/2006, art. 3"
+        },
+        {
+          "layout": "table",
+          "title": "Il Fondo di garanzia per le vittime della strada (CONSAP)",
+          "head": [
+            "Caso",
+            "Che cosa risarcisce",
+            "Limiti"
+          ],
+          "rows": [
+            [
+              "A · Veicolo non identificato",
+              "Danni alla persona; danni a cose solo se ci sono danni gravi alla persona, per la parte oltre 500 euro",
+              "Minimi di garanzia di legge"
+            ],
+            [
+              "B · Veicolo non assicurato",
+              "Danni alla persona e alle cose",
+              "Massimali di legge"
+            ],
+            [
+              "C · Impresa in liquidazione o insolvente",
+              "Danni alla persona e alle cose",
+              "Massimali di legge"
+            ],
+            [
+              "D · Veicolo circolante contro la volontà del proprietario",
+              "Danni a persone e cose, per i terzi non trasportati e i trasportati contro la loro volontà o inconsapevoli",
+              "Massimali di legge"
+            ]
+          ],
+          "ref": "Art. 283 D.Lgs. 209/2005"
+        },
+        {
+          "layout": "split",
+          "title": "Il danno alla persona",
+          "left": {
+            "title": "Lesioni di lieve entità (1-9 punti)",
+            "items": [
+              "Valori per punto e per giorno fissati dall'art. 139 CAP e aggiornati periodicamente",
+              "Senza accertamento clinico strumentale obiettivo, o visivo, niente danno biologico permanente",
+              "Il giudice può aumentare fino al 20% per particolari sofferenze o conseguenze"
+            ]
+          },
+          "right": {
+            "title": "Lesioni di non lieve entità (10-100 punti)",
+            "items": [
+              "Tabella unica nazionale prevista dall'art. 138 CAP",
+              "Adottata con D.P.R. 13 gennaio 2025, n. 12",
+              "Si applica ai sinistri successivi alla sua entrata in vigore; importi aggiornati ogni anno"
+            ]
+          },
+          "note": "Il limite dei 9 punti è anche il confine del risarcimento diretto per le lesioni del conducente.",
+          "noteRef": "Artt. 138, 139, 149, c. 2, D.Lgs. 209/2005"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una passeggera si rompe un polso in un incidente tra l'auto su cui viaggia e un'altra vettura. A chi presenta la richiesta di risarcimento?",
+          "options": [
+            "Sempre all'impresa del veicolo responsabile, dopo aver accertato le colpe",
+            "All'impresa del veicolo su cui era a bordo, che paga entro il massimale minimo a prescindere dalla responsabilità",
+            "Al Fondo di garanzia per le vittime della strada",
+            "Alla propria impresa RC auto, se ha un'auto assicurata"
+          ],
+          "answer": 1,
+          "explanation": "Per l'art. 141 CAP il terzo trasportato è risarcito dall'impresa del veicolo su cui viaggiava, salvo caso fortuito, senza attendere l'accertamento delle responsabilità; per l'eventuale eccedenza si rivolge all'impresa del responsabile."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una cliente chiama l'agenzia: un'auto le ha tagliato la strada a un incrocio, è scappata senza fermarsi e non ha visto la targa. La cliente ha un forte dolore al collo e la sua auto è danneggiata. Chiede a chi deve rivolgersi e se può usare il risarcimento diretto.",
+          "questions": [
+            "Si può usare il risarcimento diretto?",
+            "A chi si rivolge per le lesioni e per i danni all'auto?",
+            "Che cosa conviene fare subito?"
+          ],
+          "solution": "Il risarcimento diretto non si applica: richiede due veicoli identificati e assicurati. Con veicolo non identificato la richiesta va al Fondo di garanzia per le vittime della strada, presso CONSAP, seguendo le istruzioni del sito CONSAP. Il Fondo risarcisce i danni alla persona; i danni all'auto solo se ci sono danni gravi alla persona e per la parte oltre 500 euro. Conviene farsi visitare subito, denunciare il fatto alle autorità e raccogliere testimonianze e immagini: in assenza della targa, sono gli elementi che provano il sinistro. Va valutata anche un'eventuale garanzia accessoria della cliente (ad esempio kasko)."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "2 veicoli",
+              "text": "identificati e assicurati in Italia: risarcimento diretto dalla propria impresa"
+            },
+            {
+              "value": "9 punti",
+              "text": "limite delle lesioni del conducente nel risarcimento diretto"
+            },
+            {
+              "value": "Trasportato",
+              "text": "si rivolge all'impresa del veicolo su cui viaggiava"
+            },
+            {
+              "value": "CONSAP",
+              "text": "Fondo vittime: veicolo non identificato, non assicurato, impresa in liquidazione"
+            },
+            {
+              "value": "D.P.R. 12/2025",
+              "text": "tabella unica per le lesioni da 10 a 100 punti"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto la procedura ordinaria, in cui il danneggiato chiede il risarcimento all'impresa del responsabile. Ora vediamo il sistema che, nella pratica, gestisce la maggior parte dei sinistri tra due auto: il risarcimento diretto. E poi due situazioni particolari, il terzo trasportato e il Fondo di garanzia per le vittime della strada. Anche questa parte è stata aggiunta sulla base delle fonti normative ufficiali.\n\nL'articolo 149 del Codice delle assicurazioni stabilisce che, in caso di sinistro tra due veicoli a motore identificati e assicurati per la responsabilità civile obbligatoria, da cui siano derivati danni ai veicoli coinvolti o ai loro conducenti, i danneggiati devono rivolgere la richiesta di risarcimento all'impresa che ha stipulato il contratto relativo al veicolo utilizzato. In altre parole: alla propria compagnia. L'impresa liquida il danno per conto dell'impresa del responsabile, e poi le due imprese regolano i rapporti tra loro. Se il danneggiato accetta l'offerta, l'impresa paga entro quindici giorni e il danneggiato rilascia una quietanza liberatoria valida anche verso il responsabile e la sua impresa. Se non accetta o non risponde, l'impresa paga comunque entro quindici giorni la somma offerta, che viene imputata alla liquidazione definitiva.\n\nQuando si applica? Mettiamo a confronto le due procedure. Il regolamento del 2006 definisce il sinistro come la collisione avvenuta in Italia tra due veicoli a motore identificati e assicurati, con danni ai veicoli o lesioni di lieve entità ai conducenti, senza coinvolgimento di altri veicoli responsabili. La pagina IVASS per i consumatori lo traduce così: si usa quando sono coinvolti solo due veicoli, entrambi immatricolati e assicurati in Italia, e non si è responsabili o lo si è solo in parte. Riguarda i danni al veicolo, le cose trasportate di proprietà dell'assicurato o del conducente e le lesioni del conducente fino a nove punti di invalidità. Si segue invece la procedura ordinaria, verso l'impresa del responsabile, quando i veicoli sono più di due, quando c'è un veicolo immatricolato all'estero, quando le lesioni del conducente superano i nove punti o quando ci sono lesioni a pedoni e passanti.\n\nCome si presenta la richiesta? Il decreto 254 del 2006 prevede la raccomandata con ricevuta di ritorno, la consegna a mano, il telegramma, il telefax o la via telematica, salvo che il contratto escluda espressamente quest'ultima. La richiesta contiene i nomi degli assicurati, le targhe, le imprese, la descrizione delle circostanze, le generalità dei testimoni, l'eventuale intervento della polizia e il luogo, i giorni e le ore in cui il veicolo è disponibile per la perizia. Per le lesioni si aggiungono età, attività e reddito, l'entità delle lesioni, la dichiarazione sulle prestazioni degli enti di assicurazione sociale, il certificato di guarigione e l'eventuale consulenza medico-legale di parte. Ricordate anche l'articolo 145: per poter poi agire in giudizio, la richiesta alla propria impresa va inviata per conoscenza all'impresa dell'altro veicolo. L'impresa che riceve la richiesta ne dà subito comunicazione all'impresa del presunto responsabile.\n\nI tempi ricalcano quelli della procedura ordinaria. Se la richiesta è incompleta, l'impresa entro trenta giorni invita il danneggiato a integrarla, offrendogli assistenza, e i termini restano sospesi fino all'arrivo delle integrazioni. Se il sinistro non rientra nel risarcimento diretto, entro trenta giorni l'impresa lo comunica al danneggiato con raccomandata e trasmette la richiesta all'impresa del responsabile, se nota; da quel momento decorrono i termini della procedura ordinaria. L'offerta, o la motivazione del rifiuto, arriva entro novanta giorni per le lesioni, sessanta giorni per i soli danni a veicoli e cose, trenta giorni se il modulo di denuncia è firmato da entrambi i conducenti.\n\nC'è un obbligo che per l'intermediario è importante conoscere: l'assistenza. L'articolo 9 del decreto impone all'impresa, in base agli obblighi di correttezza e buona fede, di fornire al danneggiato ogni assistenza informativa e tecnica: il supporto nella compilazione della richiesta, anche per quantificare i danni, il suo controllo e l'eventuale integrazione, e la spiegazione dei criteri di responsabilità previsti in allegato al decreto. E se il danneggiato accetta l'offerta, sugli importi pagati non sono dovuti compensi per la consulenza o l'assistenza professionale di cui si sia avvalso, diversa da quella medico-legale per i danni alla persona.\n\nDietro le quinte il sistema funziona così. Le imprese stipulano tra loro una convenzione per regolare i rapporti organizzativi ed economici: è la convenzione CARD, a cui, ricorda l'IVASS, devono aderire tutte le imprese autorizzate in Italia. La convenzione prevede una stanza di compensazione, che opera in piena autonomia rispetto alle imprese, e le compensazioni avvengono sulla base di costi medi calcolati ogni anno sui risarcimenti effettivamente pagati. Per gli assicurati il sistema deve portare benefici effettivi, grazie a una gestione più efficiente, al controllo dei costi e all'innovazione dei contratti, per esempio con clausole di risarcimento in forma specifica, ad esempio la riparazione del veicolo presso officine indicate dall'impresa, con contestuale riduzione del premio. In quel caso la percentuale di sconto deve essere indicata espressamente nel contratto. Sul sistema vigila l'IVASS, e l'articolo 150 estende le regole del risarcimento diretto anche alle imprese di altri Stati membri che operano in Italia.\n\nE se la propria impresa non paga? Se comunica i motivi che impediscono il risarcimento diretto, se non fa offerta né diniego nei termini, o se non si trova un accordo, il danneggiato può agire in giudizio solo contro la propria impresa. L'impresa del responsabile può intervenire e, riconoscendo la responsabilità del proprio assicurato, estromettere l'altra. Prima del giudice, per le controversie sulla dinamica o sull'importo fino a 15.000 euro, resta la conciliazione paritetica, che avete visto nel modulo sui sistemi alternativi di risoluzione delle controversie.\n\nPassiamo al terzo trasportato. L'articolo 141 stabilisce che, salvo il caso fortuito, il danno subito dal passeggero è risarcito dall'impresa del veicolo su cui era a bordo, entro il massimale minimo di legge, a prescindere dall'accertamento della responsabilità dei conducenti. Per l'eventuale maggior danno il trasportato può rivolgersi all'impresa del responsabile, se questa ha un massimale superiore al minimo. L'impresa che ha pagato si rivale poi sull'impresa del responsabile. Il trasportato segue la procedura dell'articolo 148 e, in caso di causa, agisce contro l'impresa del veicolo su cui viaggiava. Il decreto del 2006 precisa che le lesioni dei trasportati restano fuori dal risarcimento diretto e seguono questa procedura specifica, anche quando il sinistro tra i due veicoli rientra nel risarcimento diretto.\n\nChe cosa succede quando non c'è un'impresa a cui rivolgersi? Interviene il Fondo di garanzia per le vittime della strada, costituito presso la CONSAP. L'articolo 283 elenca i casi principali. Se il veicolo non è identificato, il Fondo risarcisce i danni alla persona; i danni alle cose solo in presenza di danni gravi alla persona, e per la parte che supera 500 euro, nei limiti dei minimi di garanzia. Se il veicolo non è assicurato, o se l'impresa che lo assicura è in liquidazione o insolvente, risarcisce danni alla persona e alle cose, entro i massimali di legge. Se il veicolo circolava contro la volontà del proprietario, ad esempio perché rubato, risarcisce i terzi non trasportati e i trasportati contro la loro volontà o inconsapevoli della circolazione illegale. La norma prevede anche altri casi, come i veicoli esteri con targa non corrispondente. La richiesta si invia alla CONSAP, seguendo i passaggi indicati sul suo sito.\n\nInfine il danno alla persona. Per le lesioni di lieve entità, fino a nove punti, l'articolo 139 fissa valori per punto di invalidità e per giorno di inabilità temporanea, aggiornati periodicamente. Le lesioni lievi che non sono suscettibili di accertamento clinico strumentale obiettivo, o visivo nel caso delle cicatrici, non danno diritto al risarcimento del danno biologico permanente. Il giudice può aumentare l'importo fino al venti per cento se la menomazione incide in modo rilevante su specifici aspetti della vita del danneggiato o causa una sofferenza particolarmente intensa. Per le lesioni di non lieve entità, da dieci a cento punti, l'articolo 138 prevede una tabella unica nazionale, che è stata finalmente adottata con il decreto del Presidente della Repubblica 13 gennaio 2025, numero 12, e si applica ai sinistri avvenuti dopo la sua entrata in vigore, con importi aggiornati ogni anno. Notate il collegamento: i nove punti sono anche il confine del risarcimento diretto per il conducente.\n\nNella verifica la passeggera si rivolge all'impresa del veicolo su cui viaggiava, che paga entro il massimale minimo senza attendere l'accertamento delle colpe.\n\nNel caso pratico, la cliente urtata da un'auto pirata non può usare il risarcimento diretto, perché manca un secondo veicolo identificato. Si rivolge al Fondo vittime della strada presso la CONSAP: per le lesioni sarà risarcita, mentre i danni all'auto lo saranno solo se ci sono danni gravi alla persona e per la parte oltre 500 euro. L'agenzia può aiutarla a muoversi subito: visita medica, denuncia alle autorità, raccolta di testimonianze e immagini, e verifica di eventuali garanzie accessorie della sua polizza, come una kasko.\n\nRicapitolando: due veicoli identificati e assicurati in Italia significano risarcimento diretto dalla propria impresa; nove punti è il limite per le lesioni del conducente; il trasportato si rivolge all'impresa del veicolo su cui viaggiava; il Fondo vittime presso la CONSAP interviene per veicoli non identificati, non assicurati o imprese in liquidazione; e dal 2025 esiste la tabella unica per le lesioni da dieci a cento punti. Con questa lezione si chiude l'argomento della gestione dei sinistri: dalla nascita del rischio alla liquidazione, nella RC generale e nella RC auto.",
+      "sources": [
+        {
+          "title": "D.Lgs. 209/2005, artt. 149 e 150 – Risarcimento diretto (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art149"
+        },
+        {
+          "title": "D.P.R. 18 luglio 2006, n. 254 (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2006-07-18;254"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 141 – Terzo trasportato (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art141"
+        },
+        {
+          "title": "D.Lgs. 209/2005, art. 283 – Fondo di garanzia per le vittime della strada (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art283"
+        },
+        {
+          "title": "D.Lgs. 209/2005, artt. 138 e 139 – Danno non patrimoniale (Normattiva)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209~art139"
+        },
+        {
+          "title": "D.P.R. 13 gennaio 2025, n. 12 – Tabella unica nazionale (Normattiva)",
+          "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2025-02-18&atto.codiceRedazionale=25G00019"
+        },
+        {
+          "title": "IVASS, Cosa fare in caso di sinistro (RC auto)",
+          "url": "https://www.ivass.it/consumatori/rc-auto/sinistri/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Nuova lezione, non presente nel materiale originale: risarcimento diretto (ambito, quietanza, pagamento in 15 giorni, azione solo verso la propria impresa).",
+          "source_ref": "Artt. 145, c. 2, 149, 150 D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di sinistro, modalità e contenuto della richiesta, integrazioni e sinistri esclusi entro 30 giorni, termini 30/60/90, assistenza tecnica e informativa, stanza di compensazione e costi medi, risarcimento in forma specifica con sconto indicato.",
+          "source_ref": "D.P.R. 254/2006, artt. 1, 3, 5-9, 11, 13, 14"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Confronto procedura diretta / ordinaria, convenzione CARD obbligatoria, conciliazione paritetica fino a 15.000 euro (richiamo al modulo ADR).",
+          "source_ref": "IVASS, Cosa fare in caso di sinistro"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Terzo trasportato e Fondo di garanzia per le vittime della strada (casi, danni risarcibili, franchigia di 500 euro per le cose con veicolo non identificato, limiti).",
+          "source_ref": "Artt. 141, 283 D.Lgs. 209/2005"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Danno alla persona: micropermanenti (accertamento strumentale, aumento fino al 20%) e tabella unica nazionale per 10-100 punti adottata con D.P.R. 12/2025.",
+          "source_ref": "Artt. 138, 139 D.Lgs. 209/2005; D.P.R. 13 gennaio 2025, n. 12"
+        }
+      ]
+    }
+  ]
+}

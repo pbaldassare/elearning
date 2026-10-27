@@ -1,0 +1,585 @@
+{
+  "module": "Area giuridica",
+  "topic": "Standard di etica professionale",
+  "topic_order": 10,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Etica, morale e deontologia nel lavoro dell'intermediario",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Conoscenza degli standard di etica professionale ok pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Standard di etica professionale",
+          "title": "Etica, morale e deontologia nel lavoro dell'intermediario",
+          "goals": [
+            "Distinguere etica, morale, diritto e deontologia",
+            "Capire che cos'è un codice deontologico e che cosa comporta violarlo",
+            "Riconoscere i doveri di condotta che la legge impone all'intermediario"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è l'etica",
+          "key": "L'etica è un insieme di norme e valori che regolano il comportamento dell'uomo verso gli altri, e insieme un criterio per giudicare i comportamenti propri e altrui secondo le categorie del bene e del male.",
+          "body": "Ha quindi due facce: ci dice come comportarci e ci dà un metro per valutare, a posteriori, come ci siamo comportati noi e come si sono comportati gli altri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Etica e diritto",
+          "cols": [
+            {
+              "title": "Diritto",
+              "items": [
+                "Si basa sulla legge di un territorio",
+                "Si occupa della convivenza tra individui",
+                "Cambia da Stato a Stato",
+                "La violazione ha sanzioni stabilite dall'ordinamento"
+              ]
+            },
+            {
+              "title": "Etica",
+              "items": [
+                "Si basa su una legge morale universale",
+                "Si occupa della condotta umana in generale",
+                "Riguarda anche ciò che la legge non vieta",
+                "Il primo giudice è la coscienza della persona"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la morale",
+          "key": "La morale descrive costumi, comportamenti, pensiero e stili di vita. Cambia da popolazione a popolazione e si modifica nel tempo anche all'interno della stessa civiltà.",
+          "body": "La morale corrisponde all'insieme dei valori di un individuo o di un gruppo. Due clienti, o due colleghi, possono avere idee morali diverse: per questo una professione non può basarsi solo sulla morale personale, ma ha bisogno di regole comuni.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la deontologia",
+          "key": "La deontologia è il complesso di regole di condotta da rispettare nell'attività professionale.",
+          "body": "Non va confusa con le regole di costume, di buona educazione o di stile: queste non hanno contenuto precettivo e restano nella sfera interiore di ciascuno. La regola deontologica, invece, obbliga: chi non la rispetta ne risponde.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Il codice deontologico",
+          "key": "Il codice deontologico è il documento che raccoglie le regole di condotta che un gruppo professionale deve necessariamente rispettare nell'esercizio della professione.",
+          "body": "La violazione dei doveri, delle regole di condotta, dei principi e delle norme di comportamento del codice deontologico costituisce illecito disciplinare.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Quattro piani, un esempio",
+          "lead": "Un cliente chiede all'intermediario un preventivo RC auto.",
+          "head": [
+            "Piano",
+            "Che cosa chiede",
+            "Nell'esempio"
+          ],
+          "rows": [
+            [
+              "M · Morale",
+              "Valori personali o del gruppo",
+              "Non approfittare di un cliente anziano o inesperto"
+            ],
+            [
+              "E · Etica",
+              "Giudizio di bene e male sulla condotta",
+              "Proporre ciò che serve davvero al cliente, non ciò che rende di più"
+            ],
+            [
+              "D · Deontologia",
+              "Regole di condotta della professione",
+              "Spiegare con chiarezza garanzie ed esclusioni"
+            ],
+            [
+              "L · Legge",
+              "Norme con sanzione dell'ordinamento",
+              "Indicare in modo evidente premio, provvigione e sconto"
+            ]
+          ],
+          "ref": "Esempio didattico; per la legge: CAP, art. 131, c. 2-ter"
+        },
+        {
+          "layout": "concept",
+          "title": "Per l'intermediario, molta etica è già legge",
+          "key": "I distributori operano con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti.",
+          "body": "Quello che per altre professioni è scritto in un codice deontologico, per gli intermediari assicurativi è in gran parte scritto nel Codice delle assicurazioni e nei regolamenti IVASS. Violarlo non è solo un comportamento scorretto: è un illecito che l'IVASS può sanzionare.",
+          "ref": "CAP, art. 119-bis, c. 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "I doveri generali di condotta",
+          "items": [
+            {
+              "text": "Comportarsi con equità, onestà, professionalità, correttezza e trasparenza, senza recare pregiudizio a contraenti e assicurati.",
+              "ref": "Reg. IVASS 40/2018, art. 54, c. 1, lett. a)"
+            },
+            {
+              "text": "Rispettare leggi e regolamenti e, per gli intermediari, le procedure e le istruzioni delle imprese per cui operano.",
+              "ref": "art. 54, c. 1, lett. b)"
+            },
+            {
+              "text": "Raccogliere le informazioni per valutare le esigenze assicurative e previdenziali del cliente, e tenerlo sempre informato.",
+              "ref": "art. 54, c. 1, lett. c)"
+            },
+            {
+              "text": "Dare informazioni e pubblicità corrette, chiare, non fuorvianti, imparziali e complete.",
+              "ref": "art. 54, c. 2"
+            },
+            {
+              "text": "Aggiornare periodicamente le proprie competenze.",
+              "ref": "art. 54, c. 3"
+            },
+            {
+              "text": "Mantenere riservate le informazioni dei clienti e non usarle per scopi estranei alla distribuzione senza consenso.",
+              "ref": "art. 54, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Un metodo per i casi dubbi",
+          "steps": [
+            {
+              "label": "È lecito?",
+              "text": "Controlla legge, regolamenti IVASS e istruzioni dell'impresa. Se non lo è, la decisione è già presa."
+            },
+            {
+              "label": "Serve al cliente?",
+              "text": "Chiediti se la scelta è nel suo miglior interesse o solo nel tuo."
+            },
+            {
+              "label": "Lo spiegheresti a voce alta?",
+              "text": "Se ti imbarazzerebbe raccontarlo al cliente, all'impresa o all'IVASS, fermati."
+            },
+            {
+              "label": "Chiedi e documenta",
+              "text": "Nel dubbio confrontati con il responsabile o la compliance e lascia traccia scritta della decisione."
+            }
+          ],
+          "ref": "Metodo didattico basato su CAP, art. 119-bis e Reg. IVASS 40/2018, art. 54"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa distingue una regola deontologica da una regola di buona educazione?",
+          "options": [
+            "Nulla: sono la stessa cosa",
+            "La regola deontologica ha contenuto precettivo e la sua violazione è un illecito disciplinare",
+            "La regola di buona educazione è scritta nella legge",
+            "La regola deontologica vale solo nella vita privata"
+          ],
+          "answer": 1,
+          "explanation": "Le regole di costume, di educazione e di stile non hanno contenuto precettivo e restano nella sfera interiore. Le regole deontologiche obbligano: violarle costituisce illecito disciplinare."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente vuole una polizza malattia e chiede all'intermediario di «non scrivere» nel questionario sanitario un intervento subito due anni fa, per pagare meno. Aggiunge che «tanto nessuno controlla».",
+          "questions": [
+            "È solo una questione di coscienza personale?",
+            "Che cosa dovrebbe fare l'intermediario?",
+            "Chi rischia di più, se l'intermediario asseconda il cliente?"
+          ],
+          "solution": "Non è solo una questione morale. L'intermediario deve agire con onestà e correttezza nel miglior interesse del cliente e rispettare le istruzioni dell'impresa. Deve spiegare al cliente che le dichiarazioni inesatte o reticenti possono compromettere il diritto all'indennizzo, e rifiutarsi di omettere informazioni. Assecondarlo danneggia proprio il cliente, che rischia di restare senza copertura quando ne avrà bisogno, ed espone l'intermediario a responsabilità e sanzioni."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo il Regolamento IVASS 40/2018, l'intermediario può usare i dati di un cliente per proporgli prodotti di un'altra attività che svolge?",
+          "options": [
+            "Sì, sempre: i dati sono suoi",
+            "Sì, ma solo per prodotti finanziari",
+            "No, salvo consenso espresso del cliente dopo apposita informativa",
+            "No, mai, nemmeno con il consenso"
+          ],
+          "answer": 2,
+          "explanation": "Le informazioni acquisite sono riservate. È vietato usarle per finalità diverse dalla distribuzione, salvo consenso espresso dell'interessato dopo un'apposita informativa privacy."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Etica",
+              "text": "norme e valori, e criterio per giudicare la condotta secondo bene e male"
+            },
+            {
+              "value": "Morale",
+              "text": "valori di un individuo o di un gruppo, che cambiano nel tempo e nello spazio"
+            },
+            {
+              "value": "Deontologia",
+              "text": "regole di condotta professionale: violarle è illecito disciplinare"
+            },
+            {
+              "value": "Art. 119-bis",
+              "text": "equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse del cliente"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di etica professionale. Può sembrare un tema astratto, lontano dalle polizze e dai preventivi. In realtà è il fondamento della fiducia su cui si regge il vostro lavoro: il cliente compra una promessa, e si fida di chi gliela spiega.\n\nPartiamo dalle parole, perché nel linguaggio comune etica, morale e deontologia si usano spesso come sinonimi, e non lo sono.\n\nL'etica è, insieme, due cose. Da una parte è un insieme di norme e di valori che regolano il comportamento dell'uomo in relazione agli altri. Dall'altra è un criterio che permette alla persona di giudicare i comportamenti propri e altrui rispetto alle categorie del bene e del male. In altre parole, l'etica ci dice come comportarci e ci dà un metro per valutare come ci siamo comportati.\n\nL'etica non coincide con il diritto. Il diritto si basa sulla legge di un territorio e si occupa della convivenza fra individui: cambia da Stato a Stato e la sua violazione comporta sanzioni stabilite dall'ordinamento. L'etica si basa su una legge morale universale e si occupa della condotta umana più in generale, anche dove la legge tace. Ci sono comportamenti leciti ma poco etici: per esempio, vendere a un cliente una garanzia che non gli serve, tecnicamente corretta e ben documentata, solo perché rende una provvigione più alta. E ci sono comportamenti che l'etica chiede anche se nessuna norma li impone, come dedicare tempo a spiegare una clausola a un cliente in difficoltà.\n\nLa morale, invece, è la descrizione dei costumi, dei comportamenti, del pensiero e degli stili di vita. Proprio per questo cambia da popolazione a popolazione e si modifica nel corso degli anni, anche all'interno della stessa civiltà. La morale corrisponde all'insieme dei valori di un individuo o di un gruppo. In un'agenzia lavorano persone con sensibilità morali diverse, e i clienti ne hanno altre ancora. Ecco perché una professione non può affidarsi soltanto alla morale personale di ciascuno: servono regole comuni, conosciute e uguali per tutti.\n\nQueste regole comuni sono la deontologia. La deontologia è il complesso di regole di condotta che devono essere rispettate nell'attività professionale. Attenzione a non confonderla con le regole di costume, di buona educazione e di stile. Quelle non hanno alcun contenuto precettivo: si esauriscono nella sfera interiore di ciascuno. Se non saluto un collega, posso essere scortese, ma non commetto un illecito. La regola deontologica, invece, obbliga, e chi la viola ne risponde.\n\nLe norme deontologiche sono raccolte nel codice deontologico, il documento che contiene le regole di condotta che un gruppo professionale deve necessariamente rispettare nell'esercizio della professione. La violazione dei doveri, delle regole di condotta, dei principi e delle norme di comportamento previsti dal codice deontologico costituisce illecito disciplinare. Pensate ai codici degli avvocati o dei medici: ogni ordine professionale ha il suo, e i propri organi disciplinari che lo fanno rispettare.\n\nProviamo a vedere i quattro piani all'opera in una situazione quotidiana: un cliente vi chiede un preventivo RC auto. Sul piano morale, i vostri valori vi dicono di non approfittare di un cliente anziano o poco esperto. Sul piano etico, il giudizio di bene e male vi porta a proporgli ciò che gli serve davvero, non ciò che vi rende di più. Sul piano deontologico, le regole della professione vi chiedono di spiegare con chiarezza garanzie, esclusioni e franchigie. E sul piano della legge, il Codice delle assicurazioni vi impone di indicare in modo evidente, nel preventivo e nella polizza, il premio di tariffa, la vostra provvigione e lo sconto riconosciuto. I quattro piani non sono in contrasto: si rafforzano a vicenda.\n\nE qui arriviamo al punto che riguarda direttamente voi. Per gli intermediari assicurativi gran parte di quello che altrove sta in un codice deontologico è scritto direttamente nella legge. L'articolo 119-bis del Codice delle assicurazioni stabilisce che i distributori di prodotti assicurativi operano con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti. Sono cinque parole che hanno un forte contenuto etico, ma sono norme di legge: chi le viola commette un illecito che l'IVASS può sanzionare.\n\nIl Regolamento IVASS 40 del 2018, all'articolo 54, traduce questi principi in doveri concreti. Nello svolgere l'attività, e in particolare nell'offerta dei contratti e nella gestione del rapporto, i distributori devono comportarsi con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse di contraenti e assicurati, e in modo da non recare loro pregiudizio. Devono osservare le leggi e i regolamenti e, se sono intermediari, anche le procedure e le istruzioni delle imprese per cui operano. Devono acquisire le informazioni necessarie per valutare le esigenze assicurative e previdenziali dei clienti, e fare in modo che siano sempre adeguatamente informati. Devono fornire informazioni, compresa la pubblicità, corrette, chiare, non fuorvianti, imparziali e complete; le comunicazioni pubblicitarie degli intermediari devono essere riconoscibili come tali e autorizzate prima dalle imprese preponenti. Devono aggiornare periodicamente le proprie competenze. E devono mantenere riservate le informazioni dei clienti: possono comunicarle solo all'impresa per cui operano o a cui sottopongono il rischio, e negli altri casi previsti dalla legge. Usarle per scopi diversi dalla distribuzione è vietato, salvo consenso espresso dopo un'apposita informativa privacy.\n\nPensate al caso del cliente che vi chiede di non scrivere nel questionario sanitario un intervento subito due anni prima, perché tanto nessuno controlla. Potrebbe sembrare un piccolo favore, una questione tra voi e la vostra coscienza. Non lo è. Il vostro dovere di agire nel miglior interesse del cliente vi impone di spiegargli che le dichiarazioni inesatte o reticenti possono mettere a rischio il suo diritto all'indennizzo, proprio quando ne avrà più bisogno. Il dovere di rispettare le istruzioni dell'impresa vi impedisce di alterare il questionario. E il dovere di correttezza vi chiede di rifiutare, con garbo ma con fermezza. Assecondarlo danneggerebbe prima di tutto lui, e poi esporrebbe voi a responsabilità e sanzioni. Qui etica e legge dicono la stessa cosa.\n\nNella pratica, però, non tutte le situazioni sono chiare come quella del questionario. Capita di trovarsi davanti a casi dubbi: un omaggio offerto da un fornitore, una pressione commerciale dell'impresa a fine trimestre, un cliente che vorrebbe una copertura che non gli serve, un collega che vi chiede un favore poco chiaro. Per questi casi vi proponiamo un metodo semplice, in quattro domande. Non è una norma: è un modo ordinato di applicare le norme che avete appena visto.\n\nLa prima domanda è: è lecito? Controllate la legge, i regolamenti IVASS e le istruzioni dell'impresa per cui lavorate. Se il comportamento non è lecito, la decisione è già presa, e non c'è obiettivo commerciale che tenga.\n\nLa seconda domanda è: serve al cliente? Il criterio che il Codice vi dà è il miglior interesse del contraente. Chiedetevi con sincerità se la scelta va in quella direzione o se serve soprattutto a voi.\n\nLa terza domanda è quella che chiamiamo la prova della voce alta: lo spieghereste apertamente? Se vi imbarazzerebbe raccontare quello che state facendo al cliente, all'impresa o a un ispettore dell'IVASS, probabilmente c'è qualcosa che non va. È un test semplice, ma molto efficace.\n\nLa quarta indicazione è: chiedete e documentate. Nel dubbio confrontatevi con il titolare, con il responsabile della distribuzione o con la funzione di compliance dell'impresa, e lasciate traccia scritta di ciò che avete deciso e del perché. Una decisione motivata e documentata vi protegge, e protegge il cliente, molto più di una scelta presa in fretta.\n\nNella prossima lezione vedremo quali responsabilità nascono quando le regole di condotta non vengono rispettate, a chi si applicano e quali sono i comandamenti dell'etica professionale nel lavoro di tutti i giorni.",
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 119-bis e 131, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato, art. 54",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra etica e norme di legge per gli intermediari: principio di equità, onestà, professionalità, correttezza e trasparenza.",
+          "source_ref": "CAP, art. 119-bis, c. 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Doveri generali di condotta del distributore, compresi riservatezza e autorizzazione della pubblicità.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54, c. 1-4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempio dei quattro piani (morale, etica, deontologia, legge) applicato a un preventivo RC auto, con l'obbligo di evidenziare premio, provvigione e sconto.",
+          "source_ref": "CAP, art. 131, c. 2-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sul questionario sanitario e quiz sulla riservatezza dei dati dei clienti.",
+          "source_ref": "Reg. IVASS 40/2018, art. 54"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Metodo in quattro passi per i casi dubbi, costruito sui doveri di condotta del CAP e del Reg. IVASS 40/2018.",
+          "source_ref": "CAP, art. 119-bis; Reg. IVASS 40/2018, art. 54"
+        }
+      ]
+    },
+    {
+      "title": "Responsabilità e comandamenti dell'etica professionale",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Conoscenza degli standard di etica professionale ok pdf.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Standard di etica professionale",
+          "title": "Responsabilità e comandamenti dell'etica professionale",
+          "goals": [
+            "Conoscere le responsabilità che nascono dalla violazione delle regole di condotta",
+            "Sapere a chi e a quali comportamenti si applicano le regole deontologiche",
+            "Tradurre i comandamenti dell'etica professionale in gesti quotidiani"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le conseguenze dell'inosservanza",
+          "key": "L'inadempimento del professionista ai propri obblighi professionali configura una responsabilità che può essere civile, penale e disciplinare, in relazione ai precetti violati.",
+          "body": "Quando un fatto è stato sanzionato disciplinarmente per accertata violazione dei doveri di comportamento, se ne può far discendere anche una responsabilità civile, secondo i principi generali.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Responsabilità contrattuale ed extracontrattuale",
+          "cols": [
+            {
+              "title": "Contrattuale",
+              "items": [
+                "Nasce verso chi ha un rapporto con il professionista",
+                "Il debitore che non esegue esattamente la prestazione risarcisce il danno",
+                "Si libera solo provando una causa a lui non imputabile",
+                "La responsabilità deontologica non coincide sempre con questa"
+              ]
+            },
+            {
+              "title": "Extracontrattuale",
+              "items": [
+                "Nasce verso un terzo, senza contratto",
+                "Qualunque fatto doloso o colposo che causa un danno ingiusto obbliga a risarcire",
+                "Si applica se la violazione deontologica danneggia un terzo",
+                "Il danneggiato deve provare fatto, colpa e danno"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Quando la violazione deontologica non è responsabilità civile",
+          "key": "La violazione di un precetto deontologico relativo all'attività professionale comporta responsabilità civile, ma non quella dei doveri previdenziali o fiscali o dei doveri verso il Consiglio dell'Ordine.",
+          "body": "Questi ultimi doveri riguardano il rapporto del professionista con lo Stato o con il suo ordine, non con il cliente: violarli ha conseguenze disciplinari o amministrative, ma non fa nascere un debito di risarcimento verso il cliente.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "La diligenza che la legge chiede",
+          "items": [
+            {
+              "text": "Debitore e creditore si comportano secondo correttezza.",
+              "ref": "c.c., art. 1175"
+            },
+            {
+              "text": "Nelle attività professionali la diligenza si valuta secondo la natura dell'attività: non basta quella del «buon padre di famiglia».",
+              "ref": "c.c., art. 1176, c. 2"
+            },
+            {
+              "text": "Il contratto si esegue secondo buona fede.",
+              "ref": "c.c., art. 1375"
+            },
+            {
+              "text": "L'agente tutela gli interessi del preponente e agisce con lealtà e buona fede.",
+              "ref": "c.c., art. 1746"
+            },
+            {
+              "text": "Il mediatore comunica alle parti le circostanze note che possono influire sull'affare.",
+              "ref": "c.c., art. 1759"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "A chi si applicano le regole deontologiche",
+          "items": [
+            {
+              "text": "Per applicare il codice deontologico il professionista deve essere iscritto all'albo professionale."
+            },
+            {
+              "text": "Ai professionisti nell'attività professionale, nei rapporti con i colleghi e con i terzi."
+            },
+            {
+              "text": "Ai comportamenti nella vita privata, quando possono compromettere la reputazione personale o l'immagine della categoria."
+            },
+            {
+              "text": "Ai praticanti."
+            },
+            {
+              "text": "Al professionista per gli atti di associati, collaboratori e sostituti."
+            },
+            {
+              "text": "Alla società tra professionisti."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "E per l'intermediario assicurativo?",
+          "left": {
+            "title": "Al posto dell'albo",
+            "items": [
+              "L'intermediario non è iscritto a un ordine, ma al Registro tenuto dall'IVASS",
+              "Le regole di condotta sono nel Codice e nei regolamenti IVASS",
+              "Le sanzioni sono richiamo, censura, sanzione pecuniaria, radiazione"
+            ],
+            "ref": "CAP, artt. 109 e 324"
+          },
+          "right": {
+            "title": "Per i collaboratori",
+            "items": [
+              "L'intermediario accerta i requisiti dei propri collaboratori",
+              "La sua polizza RC copre anche errori e infedeltà di dipendenti e collaboratori",
+              "Agenti e broker restano responsabili della rete che scelgono"
+            ],
+            "ref": "CAP, art. 111; Reg. IVASS 40/2018, art. 11"
+          },
+          "note": "Il sistema sanzionatorio è trattato nella lezione dedicata alle sanzioni.",
+          "noteRef": "CAP, art. 324"
+        },
+        {
+          "layout": "concept",
+          "title": "Responsabilità disciplinare e volontarietà",
+          "key": "La responsabilità disciplinare nasce dall'inosservanza dei doveri e delle regole di condotta di legge e deontologia, e dalla coscienza e volontà delle azioni o omissioni.",
+          "body": "«Coscienza e volontà» significa dominio, anche solo potenziale, dell'azione o dell'omissione: conta se si poteva impedirla con uno sforzo di volontà. Non serve l'intenzione di nuocere: basta che il comportamento fosse evitabile.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un intermediario dimentica per mesi di trasmettere all'impresa una disdetta del cliente. Si difende dicendo che non voleva danneggiarlo. Basta a escludere la responsabilità disciplinare?",
+          "options": [
+            "Sì: senza intenzione non c'è responsabilità",
+            "No: conta che l'omissione si potesse evitare con uno sforzo di volontà",
+            "Sì, se il cliente non ha reclamato",
+            "No, ma solo se l'intermediario è iscritto a un albo"
+          ],
+          "answer": 1,
+          "explanation": "La coscienza e volontà dell'omissione consiste nel dominio anche solo potenziale del comportamento: se l'omissione poteva essere impedita con uno sforzo di volontà, è attribuibile al soggetto."
+        },
+        {
+          "layout": "table",
+          "title": "I comandamenti dell'etica professionale (1/2)",
+          "head": [
+            "Comandamento",
+            "Nel lavoro dell'intermediario"
+          ],
+          "rows": [
+            [
+              "Presenza",
+              "Esserci quando il cliente ha bisogno: risposte puntuali, assistenza al sinistro, appuntamenti rispettati."
+            ],
+            [
+              "Onestà",
+              "Dire come stanno le cose, anche quando una garanzia non copre ciò che il cliente spera."
+            ],
+            [
+              "Teamwork",
+              "Lavorare con colleghi, collaboratori e impresa: il cliente vede un'unica organizzazione."
+            ],
+            [
+              "Apparenza",
+              "Presentarsi in modo curato e riconoscibile, nell'ufficio come sui canali online."
+            ],
+            [
+              "Atteggiamento positivo",
+              "Affrontare reclami e problemi cercando soluzioni, non colpevoli."
+            ]
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I comandamenti dell'etica professionale (2/2)",
+          "head": [
+            "Comandamento",
+            "Nel lavoro dell'intermediario"
+          ],
+          "rows": [
+            [
+              "Produttività",
+              "Raggiungere i risultati senza sacrificare l'adeguatezza di ciò che si vende."
+            ],
+            [
+              "Capacità organizzative",
+              "Scadenze, rinnovi, documenti e archivio in ordine: l'errore organizzativo diventa danno per il cliente."
+            ],
+            [
+              "Comunicazione efficace",
+              "Parole semplici, informazioni chiare e complete, verifica che il cliente abbia capito."
+            ],
+            [
+              "Cooperazione",
+              "Collaborare con imprese, periti, colleghi e autorità, anche quando chiedono documenti o chiarimenti."
+            ],
+            [
+              "Rispetto",
+              "Per il cliente, i suoi tempi e i suoi dati; per i colleghi e i concorrenti."
+            ]
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "A fine anno manca poco al raggiungimento di un obiettivo commerciale. Un collaboratore propone di convincere alcuni clienti a sostituire polizze vita in corso con un prodotto nuovo, che dà una provvigione più alta, senza parlare dei costi di uscita.",
+          "questions": [
+            "Quali comandamenti vengono messi in gioco?",
+            "La proposta è solo poco elegante o viola regole di condotta?",
+            "Che cosa dovrebbe fare il titolare dell'agenzia?"
+          ],
+          "solution": "Sono in gioco onestà, produttività responsabile, comunicazione efficace e rispetto del cliente. Non è solo una questione di stile: tacere i costi di uscita viola il dovere di dare informazioni complete e non fuorvianti e di agire nel miglior interesse del contraente. Il titolare deve fermare l'iniziativa: risponde anche dell'operato dei propri collaboratori, e le politiche di incentivo non devono spingere a vendere un prodotto quando un altro risponde meglio alle esigenze del cliente."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un broker si accorge, rivedendo l'archivio, di non aver inviato all'impresa la richiesta di estensione della garanzia furto chiesta da un cliente tre settimane fa. Nel frattempo al cliente non è successo nulla.",
+          "questions": [
+            "Può tacere, visto che non c'è stato danno?",
+            "Che cosa dovrebbe fare subito?",
+            "Quale comandamento lo aiuta a non ripetere l'errore?"
+          ],
+          "solution": "Tacere non è corretto: il cliente crede di essere coperto e non lo è. Il broker deve inviare subito la richiesta, avvisare il cliente con chiarezza della data da cui la garanzia sarà efficace e, se nel frattempo emergesse un danno, attivare la propria polizza RC professionale. Le capacità organizzative, con un controllo periodico delle pratiche aperte, servono a evitare che succeda di nuovo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un comportamento tenuto nella vita privata può avere rilievo deontologico?",
+          "options": [
+            "No, mai",
+            "Sì, quando può compromettere la reputazione personale o l'immagine della categoria",
+            "Sì, ma solo se costituisce reato",
+            "Solo per i praticanti"
+          ],
+          "answer": 1,
+          "explanation": "Le regole deontologiche si applicano anche ai comportamenti nella vita privata quando possono compromettere la reputazione personale o l'immagine della categoria professionale."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "3",
+              "text": "tipi di responsabilità: civile, penale, disciplinare"
+            },
+            {
+              "value": "2043",
+              "text": "l'articolo del codice civile sulla responsabilità verso i terzi"
+            },
+            {
+              "value": "Evitabile",
+              "text": "basta che l'omissione si potesse impedire con uno sforzo di volontà"
+            },
+            {
+              "value": "10",
+              "text": "comandamenti: da Presenza a Rispetto"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo distinto etica, morale e deontologia e visto che, per gli intermediari, molti doveri etici sono già norme di legge. Ora vediamo che cosa succede quando questi doveri non vengono rispettati, a chi si applicano le regole deontologiche e come i comandamenti dell'etica professionale si traducono nel lavoro di tutti i giorni.\n\nIniziamo dalle conseguenze. L'inadempimento del professionista ai propri obblighi professionali configura una responsabilità che può essere civile, penale e disciplinare, a seconda delle regole violate. Le tre responsabilità possono anche sommarsi. E c'è un legame tra loro: quando un fatto è stato sanzionato disciplinarmente, perché è stata accertata la violazione dei doveri di comportamento, se ne può far discendere anche una responsabilità civile secondo i principi generali. In pratica, una sanzione disciplinare può diventare la base di una richiesta di risarcimento.\n\nLa responsabilità civile si divide in due grandi famiglie. La responsabilità contrattuale nasce verso chi ha un rapporto con il professionista, tipicamente il cliente. L'articolo 1218 del codice civile dice che il debitore che non esegue esattamente la prestazione dovuta è tenuto al risarcimento del danno, se non prova che l'inadempimento è dipeso da una causa a lui non imputabile. La responsabilità extracontrattuale nasce invece verso un terzo, cioè verso chi non ha un contratto con il professionista. L'articolo 2043 del codice civile stabilisce che qualunque fatto doloso o colposo che cagiona ad altri un danno ingiusto obbliga chi l'ha commesso a risarcirlo. Il materiale del corso lo dice così: se il mancato rispetto delle regole deontologiche produce un danno a un terzo, causato dall'atto illecito, ci sono i presupposti per una responsabilità extracontrattuale. Pensate al beneficiario di una polizza vita che non è il contraente: se un errore dell'intermediario gli fa perdere la prestazione, il rapporto contrattuale non c'è, ma il danno sì.\n\nLa responsabilità deontologica, però, non coincide sempre con quella civile contrattuale. La violazione di un precetto deontologico che riguarda l'attività professionale comporta responsabilità civile. Non la comporta, invece, la violazione dei doveri previdenziali o fiscali, o dei doveri verso il Consiglio dell'Ordine. Il motivo è semplice: questi doveri riguardano il rapporto del professionista con lo Stato o con il proprio ordine, non con il cliente. Violarli ha conseguenze disciplinari o amministrative, ma non fa nascere un debito di risarcimento verso il cliente.\n\nChe livello di attenzione chiede la legge? Il codice civile offre alcuni riferimenti utili. L'articolo 1175 impone a debitore e creditore di comportarsi secondo correttezza. L'articolo 1176 chiede, nell'adempimento, la diligenza del buon padre di famiglia, ma aggiunge che nelle attività professionali la diligenza si valuta con riguardo alla natura dell'attività esercitata: a un professionista si chiede di più che a una persona qualunque. L'articolo 1375 vuole che il contratto sia eseguito secondo buona fede. Per l'agente, l'articolo 1746 stabilisce che nell'esecuzione dell'incarico deve tutelare gli interessi del preponente e agire con lealtà e buona fede. Per il mediatore, l'articolo 1759 prevede che comunichi alle parti le circostanze a lui note relative alla valutazione e alla sicurezza dell'affare, che possono influire sulla sua conclusione. Sono regole di diritto civile, ma hanno un contenuto profondamente etico: lealtà, buona fede, correttezza.\n\nA chi si applicano le regole deontologiche? Il materiale del corso descrive l'impostazione tipica delle professioni ordinistiche. Per applicare il codice deontologico il professionista deve essere iscritto all'albo. Le regole si applicano ai professionisti nell'attività professionale, nei rapporti reciproci con i colleghi e con i terzi. Si applicano anche ai comportamenti nella vita privata, quando possono compromettere la reputazione personale o l'immagine della categoria. Si applicano ai praticanti, al professionista per gli atti dei suoi associati, collaboratori e sostituti, e alla società tra professionisti.\n\nE per voi, intermediari assicurativi? Non siete iscritti a un ordine professionale, ma al Registro tenuto dall'IVASS. Le vostre regole di condotta non sono in un codice deontologico approvato da un consiglio dell'ordine, ma nel Codice delle assicurazioni e nei regolamenti IVASS, e la loro violazione è sanzionata dall'IVASS con il richiamo, la censura, la sanzione pecuniaria e, nei casi più gravi, la radiazione, come abbiamo visto nella lezione sulle sanzioni. Anche per voi vale il principio della responsabilità per l'operato dei collaboratori: l'intermediario accerta i requisiti di chi lavora per lui, e la sua polizza di responsabilità civile deve coprire anche negligenze, errori e infedeltà di dipendenti e collaboratori. Scegliere e controllare la propria rete è quindi, prima di tutto, un dovere.\n\nC'è poi la questione della volontarietà. La responsabilità disciplinare discende dall'inosservanza dei doveri e delle regole di condotta dettati dalla legge e dalla deontologia, e dalla coscienza e volontà delle azioni o delle omissioni. Che cosa significa coscienza e volontà? Significa dominio, anche solo potenziale, dell'azione o dell'omissione: conta se il comportamento poteva essere impedito con uno sforzo di volontà, perché in quel caso è attribuibile alla persona. Non serve l'intenzione di nuocere. L'intermediario che per mesi dimentica di trasmettere una disdetta non può difendersi dicendo che non voleva danneggiare il cliente: bastava organizzarsi.\n\nArriviamo ai comandamenti dell'etica professionale. Il materiale del corso ne elenca dieci. Vediamoli uno per uno, con un esempio dal vostro lavoro.\n\nPresenza: esserci quando il cliente ha bisogno. Rispondere alle richieste, rispettare gli appuntamenti, assistere il cliente nel momento del sinistro, che è il momento in cui la polizza mostra il suo valore.\n\nOnestà: dire come stanno le cose, anche quando una garanzia non copre ciò che il cliente spera. Un no detto subito vale più di una promessa smentita al primo sinistro.\n\nTeamwork: lavorare in squadra con colleghi, collaboratori e impresa. Il cliente non distingue tra il front office e il back office: vede un'unica organizzazione.\n\nApparenza: presentarsi in modo curato e riconoscibile, in ufficio come sui canali online. Anche un profilo social trascurato comunica qualcosa.\n\nAtteggiamento positivo: affrontare reclami e problemi cercando soluzioni e non colpevoli.\n\nProduttività: raggiungere i risultati, certo, ma senza sacrificare l'adeguatezza di quello che si vende.\n\nCapacità organizzative: scadenze, rinnovi, documenti e archivio in ordine. Nel nostro settore l'errore organizzativo diventa quasi sempre un danno per il cliente.\n\nComunicazione efficace: usare parole semplici, dare informazioni chiare e complete, e verificare che il cliente abbia capito.\n\nCooperazione: collaborare con imprese, periti, colleghi e autorità, anche quando chiedono documenti o chiarimenti.\n\nRispetto: per il cliente, per i suoi tempi e per i suoi dati, ma anche per i colleghi e per i concorrenti.\n\nVediamo i comandamenti alla prova con il caso dell'obiettivo di fine anno. Un collaboratore propone di convincere alcuni clienti a sostituire le loro polizze vita con un prodotto nuovo che rende una provvigione più alta, senza parlare dei costi di uscita. Sono in gioco l'onestà, una produttività che non rispetta il cliente, una comunicazione che nasconde invece di chiarire. E non è solo una questione di eleganza: tacere i costi viola il dovere di fornire informazioni complete e non fuorvianti e di agire nel miglior interesse del contraente. Il titolare dell'agenzia deve fermare l'iniziativa, perché risponde anche dell'operato dei collaboratori, e perché il Codice vieta politiche di compenso o obiettivi di vendita che spingano a raccomandare un prodotto quando un altro risponderebbe meglio alle esigenze del cliente.\n\nUn secondo caso riguarda un errore proprio, che è forse la prova più difficile per l'etica professionale. Un broker, rivedendo l'archivio, si accorge di non aver mai inviato all'impresa la richiesta di estensione della garanzia furto che un cliente gli aveva chiesto tre settimane prima. Per fortuna al cliente non è successo nulla. La tentazione è di inviare la richiesta in silenzio e non dire niente. Ma il cliente, in queste tre settimane, ha creduto di essere coperto e non lo era, e potrebbe aver preso decisioni sulla base di questa convinzione. L'onestà e la comunicazione efficace chiedono di inviare subito la richiesta e di avvisare il cliente con chiarezza, indicandogli da quando la garanzia sarà davvero efficace. Se nel frattempo emergesse un danno, il broker dovrebbe attivare la propria polizza di responsabilità civile professionale, che esiste proprio per questi casi. E le capacità organizzative, con un controllo periodico delle pratiche aperte, servono a evitare che l'errore si ripeta. Ammettere un errore costa un momento di imbarazzo; nasconderlo può costare la fiducia del cliente e una responsabilità molto più grave.\n\nIn sintesi: la violazione delle regole di condotta può generare responsabilità civile, penale e disciplinare; verso il cliente la responsabilità è contrattuale, verso i terzi extracontrattuale; conta che il comportamento fosse evitabile, non l'intenzione; e i dieci comandamenti, dalla presenza al rispetto, sono il modo concreto di trasformare le regole in fiducia.",
+      "sources": [
+        {
+          "title": "Codice civile (R.D. 16 marzo 1942, n. 262), artt. 1175, 1176, 1218, 1375, 1746, 1759, 2043, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 111, 119-bis, 324, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato, art. 11",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Fondamento normativo della responsabilità contrattuale ed extracontrattuale e dei doveri di correttezza, diligenza professionale e buona fede; doveri specifici di agente e mediatore.",
+          "source_ref": "c.c., artt. 1175, 1176, 1218, 1375, 1746, 1759, 2043"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte la disciplina dell'ambito di applicazione delle norme deontologiche, pensata per le professioni iscritte a un albo (riferimenti all'albo e al Consiglio dell'Ordine). Aggiunta la precisazione che l'intermediario è iscritto al RUI e che le sue regole di condotta e sanzioni sono nel CAP e nei regolamenti IVASS.",
+          "source_ref": "Materiale originale; CAP, artt. 109 e 324"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Responsabilità dell'intermediario per i collaboratori: accertamento dei requisiti e copertura RC per errori e infedeltà di dipendenti e collaboratori.",
+          "source_ref": "CAP, art. 111; Reg. IVASS 40/2018, art. 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Spiegazione di ciascuno dei dieci comandamenti con esempi dal lavoro dell'intermediario; caso pratico sugli obiettivi di vendita, collegato al divieto di incentivi contrari al miglior interesse del contraente.",
+          "source_ref": "CAP, art. 119-bis, c. 4-5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte l'affermazione sui doveri previdenziali, fiscali e verso il Consiglio dell'Ordine che non generano responsabilità civile. Riferimento giurisprudenziale o normativo da indicare.",
+          "source_ref": "Materiale originale"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sull'errore proprio dell'intermediario e sul ruolo della polizza RC professionale.",
+          "source_ref": "Reg. IVASS 40/2018, art. 11"
+        }
+      ]
+    }
+  ]
+}

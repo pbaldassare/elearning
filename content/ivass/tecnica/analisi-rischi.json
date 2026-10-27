@@ -1,0 +1,1335 @@
+{
+  "module": "Area tecnica assicurativa e riassicurativa",
+  "topic": "Tecniche di analisi dei rischi",
+  "topic_order": 10,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Mutualità e asimmetrie informative: risk pooling, selezione avversa e azzardo morale",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Elementi di tecniche di analisi dei rischi.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Controlli sull'impresa di assicurazione/elementi di tecniche di analisi dei rischi.mp4 (trascrizione non disponibile)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Tecniche di analisi dei rischi",
+          "title": "Mutualità e asimmetrie informative",
+          "goals": [
+            "Capire perché l'assicuratore gestisce i rischi in modo aggregato",
+            "Riconoscere selezione avversa e azzardo morale nel lavoro quotidiano",
+            "Collegare le regole del Codice civile ai problemi economici che risolvono"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il rischio si gestisce in gruppo",
+          "key": "Le imprese di assicurazione non gestiscono i rischi uno per uno, ma in modo aggregato (risk pooling): così possono applicare le leggi statistiche, in particolare la legge dei grandi numeri.",
+          "body": "Il singolo sinistro è imprevedibile. Il numero di sinistri di un grande portafoglio, invece, è molto più stabile e si può stimare.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Esempio numerico",
+          "title": "La legge dei grandi numeri in pratica",
+          "lead": "Ipotesi didattica: ogni casa ha l'1% di probabilità di un incendio in un anno.",
+          "facts": [
+            {
+              "label": "100 case",
+              "text": "Si attende 1 incendio. Ma averne 0 o 3 è del tutto normale: lo scarto è enorme rispetto all'attesa."
+            },
+            {
+              "label": "10.000 case",
+              "text": "Si attendono 100 incendi. Nella grande maggioranza degli anni saranno tra 80 e 120 circa."
+            },
+            {
+              "label": "1.000.000 di case",
+              "text": "Si attendono 10.000 incendi. Lo scarto relativo si riduce a pochi punti percentuali."
+            },
+            {
+              "label": "La regola",
+              "text": "Lo scarto relativo cala con la radice quadrata del numero di rischi: 100 volte più rischi, scarto relativo 10 volte più piccolo."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Quando la statistica funziona",
+          "left": {
+            "title": "Rischi omogenei",
+            "items": [
+              "Simili per natura e valore",
+              "Stessa probabilità di sinistro",
+              "Per questo le tariffe dividono i rischi in classi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Rischi indipendenti",
+            "items": [
+              "Il sinistro di uno non causa quello di un altro",
+              "Le catastrofi rompono questa condizione",
+              "Un terremoto colpisce migliaia di case insieme"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Per il premio delle polizze catastrofali l'IVASS indica come primo fattore il rischio del territorio: il sismico è il più rilevante, poi idrogeologico e frane.",
+          "noteRef": "IVASS, Relazione annuale 2025 – Sintesi"
+        },
+        {
+          "layout": "concept",
+          "title": "Il premio: prezzo e corrispettivo",
+          "key": "Il premio è il prezzo che l'assicurato paga per accedere alle garanzie e, insieme, il corrispettivo che spetta all'assicuratore per i suoi impegni futuri.",
+          "body": "Il premio di tariffa è la somma del premio puro e dei caricamenti, che coprono i costi dell'impresa. La mutualità rende il premio puro stimabile; le asimmetrie informative possono renderlo sbagliato.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "concept",
+          "title": "Le asimmetrie informative",
+          "key": "Assicurato e assicuratore non sanno le stesse cose. Il cliente conosce il proprio rischio meglio dell'impresa, e dopo la firma ne controlla il comportamento.",
+          "body": "Ne nascono due problemi distinti: la selezione avversa, prima della firma, e l'azzardo morale, dopo la firma.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "steps",
+          "title": "Come nasce la selezione avversa",
+          "steps": [
+            {
+              "label": "Informazione nascosta",
+              "text": "Il cliente tace qualcosa sul rischio per ottenere un contratto più vantaggioso (hidden information)."
+            },
+            {
+              "label": "Classe sbagliata",
+              "text": "L'impresa non riesce a classificarlo: verificare costa troppo o è impossibile."
+            },
+            {
+              "label": "Premio errato",
+              "text": "Il premio non riflette il rischio vero: chi è più rischioso paga troppo poco."
+            },
+            {
+              "label": "Spirale",
+              "text": "Se i rischi peggiori si concentrano, il premio medio sale e i rischi migliori escono dal portafoglio."
+            }
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Selezione avversa: la risposta della legge",
+          "cols": [
+            {
+              "title": "Con dolo o colpa grave",
+              "items": [
+                "Contratto annullabile",
+                "Perdita del diritto all'indennizzo se il sinistro arriva",
+                "Art. 1892 c.c."
+              ]
+            },
+            {
+              "title": "Senza dolo né colpa grave",
+              "items": [
+                "L'assicuratore può recedere",
+                "Indennizzo ridotto se il sinistro arriva prima",
+                "Art. 1893 c.c."
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli strumenti tecnici contro la selezione avversa",
+          "items": [
+            {
+              "text": "Questionario e dichiarazioni precontrattuali chiari e completi."
+            },
+            {
+              "text": "Accertamenti sanitari o sopralluoghi per i rischi più rilevanti."
+            },
+            {
+              "text": "Classi tariffarie che separano rischi diversi."
+            },
+            {
+              "text": "Coperture collettive, in cui aderisce tutto un gruppo e non solo chi si sente a rischio."
+            },
+            {
+              "text": "Il ruolo dell'intermediario: raccogliere informazioni vere e far capire al cliente il peso di ogni risposta."
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "L'azzardo morale",
+          "key": "L'azzardo morale (moral hazard) riguarda il comportamento dopo la stipula: trasferito il rischio, l'assicurato ha meno interesse a prendere precauzioni, perché il rischio è dell'assicuratore.",
+          "body": "Di solito il problema si contiene con gli accordi contrattuali. Quando il comportamento diventa ricerca di lucro, intervengono le regole di legge.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Azzardo morale: le regole che lo frenano",
+          "head": [
+            "Regola",
+            "Che cosa prevede",
+            "Perché frena l'azzardo"
+          ],
+          "rows": [
+            [
+              "1 · Interesse",
+              "Senza interesse al risarcimento il contratto è nullo (art. 1904 c.c.).",
+              "Non si può scommettere sui beni altrui."
+            ],
+            [
+              "2 · Valore reale",
+              "L'indennizzo non supera il valore reale della cosa.",
+              "Il sinistro non diventa un guadagno."
+            ],
+            [
+              "3 · Sottoassicurazione",
+              "È ammessa, con la regola proporzionale.",
+              "Una parte del rischio resta al cliente."
+            ],
+            [
+              "4 · Sovrassicurazione",
+              "Non vale se c'è dolo; altrimenti vale fino al valore reale (art. 1909 c.c.).",
+              "Assicurare di più non rende di più."
+            ],
+            [
+              "5 · Franchigie e scoperti",
+              "Una parte di ogni danno resta all'assicurato.",
+              "Conviene ancora fare prevenzione."
+            ]
+          ],
+          "ref": "Materiale originale del corso; c.c. artt. 1904, 1907, 1909"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un artigiano chiede all'agenzia una polizza furto per il laboratorio. Nel questionario dichiara un sistema di allarme, ma l'agente sa che è guasto da mesi. Il cliente aggiunge: «Tanto, se mi rubano, paga la compagnia».",
+          "questions": [
+            "Quali due problemi di asimmetria informativa vedi?",
+            "Che cosa rischia il cliente?",
+            "Che cosa deve fare l'agente?"
+          ],
+          "solution": "La dichiarazione falsa è selezione avversa: se c'è dolo o colpa grave il contratto è annullabile e l'indennizzo può essere perso. La frase finale è azzardo morale: chi si sente coperto smette di proteggersi. L'agente non deve raccogliere una dichiarazione che sa non vera; spiega le conseguenze, fa riparare l'allarme o dichiarare lo stato reale, e ricorda che franchigie e obblighi di protezione sono lì proprio per questo."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Perché la legge dei grandi numeri non basta per i rischi catastrofali?",
+          "options": [
+            "Perché i rischi catastrofali non sono assicurabili per legge",
+            "Perché i rischi non sono indipendenti: un solo evento colpisce molti assicurati insieme",
+            "Perché il premio dei rischi catastrofali è sempre fisso",
+            "Perché le catastrofi sono più frequenti dei furti"
+          ],
+          "answer": 1,
+          "explanation": "La legge dei grandi numeri richiede rischi omogenei e indipendenti. Un terremoto o un'alluvione colpiscono molte polizze nello stesso momento: i sinistri non si compensano e serve altro capitale o la riassicurazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente, dopo aver assicurato l'auto con la garanzia furto, smette di chiuderla a chiave. È un esempio di:",
+          "options": [
+            "Selezione avversa",
+            "Azzardo morale",
+            "Sottoassicurazione",
+            "Rischio di controparte"
+          ],
+          "answer": 1,
+          "explanation": "È un cambiamento di comportamento successivo alla stipula, dovuto al fatto che il rischio è stato trasferito: è azzardo morale. La selezione avversa riguarda invece le informazioni taciute prima della firma."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Pooling",
+              "text": "i rischi si gestiscono in gruppo per applicare la legge dei grandi numeri"
+            },
+            {
+              "value": "2",
+              "text": "condizioni: rischi omogenei e indipendenti"
+            },
+            {
+              "value": "Prima",
+              "text": "della firma: selezione avversa (artt. 1892-1893 c.c.)"
+            },
+            {
+              "value": "Dopo",
+              "text": "la firma: azzardo morale, frenato da interesse, valore reale e franchigie"
+            }
+          ]
+        }
+      ],
+      "narration": "In questo argomento entriamo nella tecnica con cui le imprese di assicurazione analizzano e governano i rischi. I principi generali del risk management, il processo ISO 31000, le linee di difesa e l'ERM li abbiamo già visti nell'area giuridica; qui guardiamo il problema dall'interno della compagnia. In questa prima lezione partiamo dalle fondamenta: perché un assicuratore può permettersi di prendere rischi che nessun singolo vorrebbe tenere, e quali comportamenti dei clienti possono mettere in crisi questo meccanismo.\n\nIl punto di partenza è semplice. Le imprese di assicurazione non gestiscono i rischi singolarmente, ma in modo aggregato. In inglese si parla di risk pooling, cioè di mettere in comune i rischi. Questo rende possibile l'applicazione delle leggi statistiche, e in particolare della legge dei grandi numeri. Per il singolo cliente l'incendio della casa è un evento imprevedibile: può non capitare mai, oppure capitare domani. Per un'impresa che assicura centinaia di migliaia di case, invece, il numero complessivo di incendi in un anno è sorprendentemente stabile e si può stimare con buona precisione.\n\nFacciamo un esempio con numeri puramente didattici. Supponiamo che ogni casa abbia l'uno per cento di probabilità di subire un incendio in un anno. Se l'impresa assicura solo cento case, si attende un incendio; ma averne zero, oppure tre, è del tutto normale, e tre incendi sono il triplo dell'atteso. Con diecimila case si attendono cento incendi e, nella grande maggioranza degli anni, saranno tra ottanta e centoventi circa. Con un milione di case si attendono diecimila incendi, e lo scarto rispetto all'attesa si riduce a pochi punti percentuali. La regola generale è che lo scarto relativo diminuisce con la radice quadrata del numero di rischi: con cento volte più rischi, lo scarto relativo diventa dieci volte più piccolo. È per questo che un portafoglio grande e ben diversificato è, di per sé, una forma di protezione.\n\nAttenzione però: il materiale del corso sottolinea che queste leggi statistiche funzionano solo se i rischi sono omogenei e indipendenti. Omogenei significa simili per natura, valore e probabilità di sinistro: non ha senso mettere nella stessa classe un monolocale in città e un capannone pieno di vernici. È per questo che le tariffe dividono i rischi in classi. Indipendenti significa che il sinistro di un assicurato non provoca, né rende più probabile, il sinistro di un altro. Qui c'è il grande limite: le catastrofi naturali rompono l'indipendenza. Un terremoto o un'alluvione colpiscono migliaia di polizze nello stesso momento, e i sinistri non si compensano tra loro. Non a caso, analizzando il mercato delle polizze catastrofali, l'IVASS indica come principale fattore del premio il rischio del territorio: il rischio sismico è il più rilevante, seguito da quello idrogeologico e dalle frane. Il terremoto è meno frequente, ma può essere molto distruttivo. Per questi rischi la mutualità tra assicurati non basta: servono capitale e riassicurazione, temi che riprenderemo nelle prossime lezioni.\n\nSe la mutualità funziona, l'impresa può calcolare un premio adeguato agli impegni futuri. Il materiale definisce il premio in due modi complementari: è il prezzo che l'assicurato paga per accedere alle garanzie indicate nel contratto, ed è allo stesso tempo il corrispettivo che spetta all'assicuratore per i suoi impegni futuri. Il premio definitivo è il premio di tariffa, che tiene conto dei costi sostenuti dall'impresa ed è la somma del premio puro e dei caricamenti. Come si costruiscono questi strati lo abbiamo visto nell'argomento sugli elementi tariffari. Qui ci interessa un altro aspetto: il premio puro è affidabile solo se l'impresa conosce davvero il rischio che sta assicurando. Ed è proprio qui che entrano in gioco le asimmetrie informative.\n\nAssicurato e assicuratore non hanno le stesse informazioni. Il cliente conosce il proprio stato di salute, le abitudini di guida, lo stato del suo impianto elettrico molto meglio dell'impresa. E dopo la firma è lui a decidere come comportarsi. Gli economisti chiamano questa situazione asimmetria informativa, e ne distinguono due conseguenze: la selezione avversa, che si manifesta prima della firma, e l'azzardo morale, che si manifesta dopo.\n\nLa selezione avversa, in inglese adverse selection, è strettamente collegata alle asimmetrie informative. Il cliente, per stipulare un contratto vantaggioso, potrebbe tacere alcune informazioni sul rischio: si parla di hidden information, informazione nascosta. La conseguenza è che l'assicuratore non riesce a classificare correttamente la controparte e calcola un premio errato, perché nella maggior parte dei casi verificare le informazioni è molto costoso o addirittura impossibile. Se il fenomeno è diffuso si innesca una spirale: i rischi peggiori pagano meno del dovuto, il premio medio deve salire, e a quel punto i clienti con rischi migliori trovano la polizza troppo cara e se ne vanno. Il portafoglio peggiora ancora. È un meccanismo che l'intermediario vede in piccolo ogni volta che un cliente chiede una copertura solo quando il problema è già all'orizzonte.\n\nLa normativa punisce la selezione avversa. Se le dichiarazioni inesatte o le reticenze sono fatte con dolo o colpa grave, è previsto l'annullamento del contratto e la perdita del diritto all'indennizzo se si verifica un sinistro: è l'articolo 1892 del Codice civile. Se invece non c'è dolo né colpa grave, l'assicuratore può recedere dal contratto, oppure, se il sinistro si verifica prima, l'indennizzo viene ridotto: è l'articolo 1893. Il materiale parla di riduzione dell'indennizzo se il sinistro si verifica prima che abbia luogo l'annullamento; più precisamente, nel caso senza dolo né colpa grave il contratto non si annulla, e la riduzione si applica se il sinistro avviene prima che l'impresa scopra l'inesattezza o receda. I dettagli di termini e procedure li abbiamo visti nell'argomento sul contratto di assicurazione. Qui conta il senso economico: queste regole esistono per rendere sconveniente tacere informazioni.\n\nAccanto alle regole di legge ci sono gli strumenti tecnici. Il primo è il questionario, che deve essere chiaro e completo. Poi ci sono gli accertamenti, come le visite mediche nelle polizze vita di importo elevato o i sopralluoghi per i rischi industriali. Le classi tariffarie servono a separare rischi diversi, così che ciascuno paghi il prezzo del proprio rischio. Le coperture collettive, in cui aderisce un intero gruppo, ad esempio tutti i dipendenti di un'azienda, attenuano il problema perché non entrano solo le persone che si sentono a rischio. E poi c'è l'intermediario: è lui che raccoglie le informazioni, ed è lui che può far capire al cliente che ogni risposta del questionario ha un peso.\n\nPassiamo all'azzardo morale, in inglese moral hazard. Riguarda il comportamento degli assicurati dopo la stipula del contratto. Una volta trasferito il rischio, l'assicurato ha un interesse minore a prendere precauzioni, perché il rischio è in capo all'assicuratore, e i costi delle precauzioni gli portano una scarsa utilità. Pensiamo a chi, coperto per il furto, lascia la porta finestra aperta, o a chi trascura la manutenzione dell'impianto perché tanto c'è la polizza. Il materiale osserva che in genere il problema si riesce a contenere con gli accordi contrattuali.\n\nMa quando il comportamento degli assicurati genera esternalità negative, perché diventa la ricerca di un mero scopo di lucro, il sistema prevede regole precise per la validità del contratto. Primo: deve esistere un interesse al risarcimento del danno, pena la nullità del contratto; è l'articolo 1904 del Codice civile, che impedisce di trasformare la polizza in una scommessa. Secondo: l'ammontare massimo del risarcimento non può superare il valore reale della cosa assicurata, così che il sinistro non diventi mai un guadagno. Terzo: è ammessa la sottoassicurazione, con la regola proporzionale, che lascia una parte del rischio all'assicurato. Quarto: il materiale dice che la sovrassicurazione è vietata. Il Codice civile, all'articolo 1909, è più preciso: l'assicurazione per una somma che eccede il valore reale non è valida se c'è stato dolo dell'assicurato; senza dolo il contratto vale fino al valore reale. Il risultato pratico è lo stesso: assicurare di più non fa ottenere di più. A queste regole il mercato aggiunge strumenti contrattuali come franchigie e scoperti, che lasciano all'assicurato una parte di ogni danno, e sistemi che premiano chi non ha sinistri: tutti modi per mantenere conveniente la prevenzione.\n\nVediamo un caso. Un artigiano chiede all'agenzia una polizza furto per il laboratorio. Nel questionario dichiara di avere un sistema di allarme, ma l'agente sa che l'allarme è guasto da mesi. E il cliente aggiunge, con leggerezza: tanto, se mi rubano, paga la compagnia. Ci sono entrambi i problemi. La dichiarazione falsa è selezione avversa: se c'è dolo o colpa grave, il contratto è annullabile e l'indennizzo può essere perso proprio quando servirebbe. La frase finale è azzardo morale allo stato puro. L'agente non deve raccogliere una dichiarazione che sa non vera: spiega al cliente le conseguenze, gli chiede di riparare l'allarme o di dichiarare la situazione reale, e gli ricorda che franchigie e obblighi di protezione non sono cavilli, ma il modo in cui il contratto resta equo per tutti gli assicurati.\n\nRicapitolando. Le imprese gestiscono i rischi in modo aggregato per sfruttare la legge dei grandi numeri, che però funziona solo con rischi omogenei e indipendenti: le catastrofi sono l'eccezione principale. Il premio è insieme prezzo e corrispettivo, e diventa errato se l'impresa non conosce il rischio. La selezione avversa nasce prima della firma ed è contrastata dagli articoli 1892 e 1893 del Codice civile e dagli strumenti di assunzione. L'azzardo morale nasce dopo la firma ed è frenato dall'interesse assicurabile, dal limite del valore reale, dalla sottoassicurazione ammessa e dai limiti alla sovrassicurazione. Nella prossima lezione costruiamo la mappa completa dei rischi che una compagnia deve analizzare.",
+      "sources": [
+        {
+          "title": "IVASS, Relazione annuale sul 2025 – Sintesi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        },
+        {
+          "title": "Codice civile, art. 1892",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1892"
+        },
+        {
+          "title": "Codice civile, art. 1893",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1893"
+        },
+        {
+          "title": "Codice civile, art. 1904",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1904"
+        },
+        {
+          "title": "Codice civile, art. 1909",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262:2~art1909"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Esempio numerico didattico sulla legge dei grandi numeri (scarto relativo che si riduce con la radice quadrata del numero di rischi). I numeri sono un'ipotesi esplicita, non dati di mercato.",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Catastrofi naturali come esempio di rischi non indipendenti, con i fattori di prezzo delle polizze cat-nat indicati dall'IVASS (rischio sismico, idrogeologico, frane).",
+          "source_ref": "IVASS, Relazione annuale 2025 – Sintesi, par. Catastrofi naturali"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra selezione avversa e artt. 1892-1893 c.c. (richiamo, i dettagli sono nell'argomento sul contratto).",
+          "source_ref": "c.c. artt. 1892, 1893"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'riduzione dell'indennizzo se si verifica il sinistro prima che abbia luogo l'annullamento'. Precisato che nel caso senza dolo né colpa grave non c'è annullamento: la riduzione opera se il sinistro avviene prima che l'impresa scopra l'inesattezza o receda (art. 1893 c.c.).",
+          "source_ref": "c.c. art. 1893"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: 'vietata la sovrassicurazione'. Precisato con l'art. 1909 c.c.: non valida se c'è dolo, altrimenti efficace fino al valore reale.",
+          "source_ref": "c.c. art. 1909"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Strumenti tecnici contro selezione avversa e azzardo morale (questionario, accertamenti, classi tariffarie, collettive, franchigie e scoperti) e caso pratico in agenzia.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "La mappa dei rischi di una compagnia: sottoscrizione, mercato, controparte e rischi operativi",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Elementi di tecniche di analisi dei rischi.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Controlli sull'impresa di assicurazione/elementi di tecniche di analisi dei rischi.mp4 (trascrizione non disponibile)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Tecniche di analisi dei rischi",
+          "title": "La mappa dei rischi di una compagnia",
+          "goals": [
+            "Distinguere le categorie di rischio di un'impresa di assicurazione",
+            "Riconoscere i sottorischi di mercato con esempi concreti",
+            "Leggere i dati IVASS sul peso dei rischi nel mercato italiano"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Due lati del bilancio, due famiglie di rischi",
+          "key": "Una compagnia è esposta sia sul passivo, perché i sinistri possono costare più del previsto, sia sull'attivo, perché gli investimenti che coprono gli impegni possono perdere valore.",
+          "body": "Il primo è il rischio di sottoscrizione. Il secondo comprende rischi di mercato, di controparte e di concentrazione. Poi ci sono i rischi operativi e quelli qualitativi.",
+          "ref": "Materiale originale del corso; CAP art. 45-ter"
+        },
+        {
+          "layout": "table",
+          "title": "Il rischio di sottoscrizione",
+          "head": [
+            "Comparto",
+            "Da dove nasce",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "Vita · Mortalità e longevità",
+              "Si muore prima o si vive più a lungo del previsto dalle tavole.",
+              "Rendite pagate per più anni del previsto."
+            ],
+            [
+              "Vita · Riscatto",
+              "I clienti escono dai contratti in numero diverso dal previsto.",
+              "Riscatti in massa quando i tassi salgono."
+            ],
+            [
+              "Danni · Tariffa e riserve",
+              "I premi non bastano o i sinistri aperti costano più del riservato.",
+              "Inflazione dei costi di riparazione."
+            ],
+            [
+              "Danni · Catastrofi",
+              "Un evento colpisce molti contratti insieme.",
+              "Terremoto, alluvione, grandine."
+            ]
+          ],
+          "ref": "CAP art. 45-ter, c. 5; IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "table",
+          "title": "I rischi di mercato",
+          "lead": "Nascono da movimenti avversi di prezzi, tassi e valute.",
+          "head": [
+            "Sottorischio",
+            "Che cosa misura",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "1 · Tasso d'interesse",
+              "Variazioni dei tassi che cambiano il valore di attivi e passivi.",
+              "Titoli in portafoglio che perdono valore quando i tassi salgono."
+            ],
+            [
+              "2 · Azionario",
+              "Calo dei prezzi delle azioni.",
+              "Crollo di borsa."
+            ],
+            [
+              "3 · Immobiliare",
+              "Calo dei valori degli immobili.",
+              "Immobili di proprietà svalutati."
+            ],
+            [
+              "4 · Spread",
+              "Aumento del differenziale di rendimento dei titoli di debito.",
+              "Obbligazioni di un emittente che si deprezzano."
+            ],
+            [
+              "5 · Cambio",
+              "Movimenti delle valute.",
+              "Titoli in dollari quando l'euro si rafforza."
+            ]
+          ],
+          "ref": "Materiale originale del corso; Reg. delegato (UE) 2015/35, art. 164"
+        },
+        {
+          "layout": "split",
+          "title": "Liquidità e concentrazione",
+          "left": {
+            "title": "Rischio di liquidità",
+            "items": [
+              "Non avere denaro quando serve pagare",
+              "Costretti a vendere attivi in perdita",
+              "Tipico con riscatti vita improvvisi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Rischio di concentrazione",
+            "items": [
+              "Troppi investimenti su un emittente o un gruppo",
+              "Nasce da una diversificazione mancata",
+              "Una sola insolvenza pesa troppo"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Nel 2025 il tasso di riscatto dei rami I e V è sceso all'8,7% (10,1% nel 2024): secondo l'IVASS questo ha contenuto il rischio di liquidità.",
+          "noteRef": "IVASS, Relazione annuale 2025, cap. I"
+        },
+        {
+          "layout": "concept",
+          "title": "Il rischio di controparte",
+          "key": "È il rischio di perdite dovute all'inadempimento imprevisto o al peggioramento del merito di credito di una controparte.",
+          "body": "Per una compagnia le controparti tipiche sono i riassicuratori, le banche dove tiene la liquidità, gli intermediari che incassano i premi. Un riassicuratore che non paga la sua quota di un grande sinistro è l'esempio classico.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "facts",
+          "title": "Operativi, strategici, reputazionali",
+          "lead": "Non nascono dai mercati né dai sinistri, ma dall'attività e dalle scelte dell'impresa.",
+          "facts": [
+            {
+              "label": "Operativo",
+              "text": "Deriva dalle attività operative, in ogni fase del processo: errori, frodi, guasti informatici, eventi esterni. Include i rischi legali."
+            },
+            {
+              "label": "Strategico",
+              "text": "Scelte di business sbagliate: un prodotto lanciato senza domanda, un mercato sbagliato."
+            },
+            {
+              "label": "Reputazionale",
+              "text": "Perdita di fiducia di clienti e mercato, spesso conseguenza degli altri rischi."
+            },
+            {
+              "label": "Nel calcolo del capitale",
+              "text": "Il rischio operativo entra nel requisito; strategico e reputazionale no, ma vanno gestiti."
+            }
+          ],
+          "ref": "Materiale originale del corso; CAP art. 45-ter, c. 5, lett. f"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il rischio operativo visto dall'agenzia",
+          "items": [
+            {
+              "text": "Premi incassati e non rimessi nei tempi: rischio per l'intermediario e per la compagnia."
+            },
+            {
+              "text": "Documenti precontrattuali non consegnati o non conservati: rischio legale e di non conformità."
+            },
+            {
+              "text": "Dati dei clienti persi o esposti: rischio operativo e reputazionale insieme."
+            },
+            {
+              "text": "Errori nell'emissione, come garanzie o somme assicurate sbagliate: il sinistro rivela l'errore quando è tardi."
+            },
+            {
+              "text": "Ogni procedura di controllo chiesta dalla compagnia nasce da uno di questi rischi."
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dati IVASS 2025",
+          "title": "Che cosa pesa nel mercato italiano",
+          "lead": "Composizione del requisito di capitale di base delle imprese vigilate, dicembre 2025.",
+          "facts": [
+            {
+              "label": "56,1%",
+              "text": "quota del rischio di mercato nel requisito di base (54,6% nel 2024)."
+            },
+            {
+              "label": "44,7% · 43,6%",
+              "text": "pesi di rischio azionario e rischio spread all'interno del rischio di mercato."
+            },
+            {
+              "label": "15,4%",
+              "text": "peso del rischio di tasso d'interesse nel rischio di mercato (6,9% nel 2024)."
+            },
+            {
+              "label": "95,1%",
+              "text": "quota del rischio di riscatto di massa nel rischio di sottoscrizione vita."
+            }
+          ],
+          "ref": "IVASS, Relazione annuale 2025, par. 4.2"
+        },
+        {
+          "layout": "concept",
+          "title": "I rischi sono collegati",
+          "key": "Quando i tassi salgono, i titoli in portafoglio perdono valore e, nello stesso momento, i clienti vita possono riscattare per investire altrove. Mercato, sottoscrizione e liquidità si muovono insieme.",
+          "body": "Dal 2022 il saldo tra plus e minusvalenze latenti delle gestioni separate è negativo: a fine 2025 era di circa -34 miliardi di euro. Per questo l'analisi deve guardare i rischi insieme, non uno per volta.",
+          "ref": "IVASS, Relazione annuale 2025"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente di 60 anni ha una polizza vita di ramo I collegata a una gestione separata. Legge che i tassi dei titoli di Stato sono saliti e vuole riscattare tutto per comprare BTP. Chiede all'agente perché la compagnia «non è contenta» dei riscatti.",
+          "questions": [
+            "Quali rischi della compagnia sono coinvolti?",
+            "Che cosa deve valutare l'agente prima di procedere?"
+          ],
+          "solution": "Sono coinvolti il rischio di riscatto (sottoscrizione vita), il rischio di tasso e il rischio di liquidità: se molti clienti riscattano insieme, la compagnia può dover vendere titoli che, con tassi più alti, valgono meno. L'agente non deve dissuadere il cliente per interesse della compagnia: verifica con lui le condizioni contrattuali, eventuali penali, la garanzia della polizza, gli aspetti fiscali e le sue reali esigenze, poi lo lascia decidere informato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Una compagnia ha investito gran parte del portafoglio in obbligazioni di un solo gruppo industriale. A quale rischio è esposta soprattutto?",
+          "options": [
+            "Rischio di concentrazione",
+            "Rischio di longevità",
+            "Rischio reputazionale",
+            "Rischio di cambio"
+          ],
+          "answer": 0,
+          "explanation": "Il rischio di concentrazione deriva dall'eccessiva esposizione verso un unico emittente o un gruppo di emittenti collegati, per mancata diversificazione."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di questi rischi NON entra nel calcolo del Requisito Patrimoniale di Solvibilità, pur dovendo essere gestito?",
+          "options": [
+            "Rischio di mercato",
+            "Rischio operativo",
+            "Rischio reputazionale",
+            "Rischio di sottoscrizione danni"
+          ],
+          "answer": 2,
+          "explanation": "Il Codice delle assicurazioni precisa che il rischio operativo comprende i rischi legali ma non quelli derivanti da decisioni strategiche né i rischi reputazionali. Questi restano nel sistema di gestione dei rischi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Passivo",
+              "text": "rischio di sottoscrizione: vita, danni, malattia, catastrofi"
+            },
+            {
+              "value": "Attivo",
+              "text": "mercato (tasso, azioni, immobili, spread, cambio), controparte, concentrazione"
+            },
+            {
+              "value": "Liquidità",
+              "text": "avere denaro quando serve, senza vendite forzate"
+            },
+            {
+              "value": "56,1%",
+              "text": "peso del rischio di mercato nel requisito di base del mercato italiano a fine 2025"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto il meccanismo di fondo dell'assicurazione, la mutualità, e le asimmetrie informative che lo minacciano. Ora allarghiamo lo sguardo e costruiamo la mappa completa dei rischi di un'impresa di assicurazione. È la base di ogni analisi: prima di misurare un rischio bisogna sapere che esiste e dove si trova.\n\nUn modo semplice per orientarsi è guardare i due lati del bilancio. Sul lato del passivo ci sono gli impegni verso gli assicurati: i sinistri da pagare, le rendite, i capitali a scadenza. Il rischio è che costino più del previsto. È il rischio di sottoscrizione. Sul lato dell'attivo ci sono gli investimenti con cui l'impresa copre quegli impegni: titoli di Stato, obbligazioni, azioni, immobili, liquidità. Il rischio è che perdano valore o non siano disponibili quando servono. Qui troviamo i rischi di mercato, di controparte, di concentrazione e di liquidità. Infine ci sono i rischi che nascono dal modo in cui l'impresa lavora e decide: i rischi operativi e quelli di natura qualitativa, cioè strategico e reputazionale. Il Codice delle assicurazioni private, all'articolo 45-ter, elenca i rischi che il requisito di capitale deve coprire almeno: sottoscrizione danni, sottoscrizione vita, sottoscrizione malattia, mercato, credito e operativo.\n\nCominciamo dalla sottoscrizione. Nei rami vita le prestazioni dipendono dalla durata della vita umana, stimata con le tavole demografiche. Se gli assicurati muoiono prima del previsto, le polizze caso morte costano di più: è il rischio di mortalità. Se vivono più a lungo, sono le rendite a costare di più, perché si pagano per più anni: è il rischio di longevità. Poi c'è il comportamento dei clienti. Il materiale del corso ricorda che, nel vita, la stima dei flussi futuri dipende dalla sopravvivenza dell'assicurato ma anche dalla sua volontà di mantenere in essere il contratto o di interromperlo. Se i clienti riscattano in numero molto diverso dal previsto, l'impresa ne risente: è il rischio di riscatto, che nella sua forma estrema diventa riscatto di massa. Nei rami danni il rischio di sottoscrizione ha due facce: i premi dell'anno potrebbero non bastare per i sinistri futuri, e le riserve per i sinistri già avvenuti potrebbero rivelarsi insufficienti, ad esempio perché l'inflazione fa crescere i costi delle riparazioni. A queste si aggiunge il rischio catastrofale, di cui abbiamo parlato nella lezione precedente: un unico evento che colpisce molti contratti insieme.\n\nPassiamo ai rischi di mercato. Il materiale li definisce come i rischi tipici del mercato finanziario, diretta conseguenza delle turbolenze che possono verificarsi a seguito di movimenti avversi di prezzi, tassi di interesse e valute. Ne elenca sei: rischio di tasso d'interesse, azionario, immobiliare, di cambio, spread e liquidità. Nella formula standard di Solvency II il rischio di mercato è diviso in sottomoduli: tasso d'interesse, azionario, immobiliare, spread, cambio e concentrazione. La liquidità, come vedremo tra poco, viene trattata a parte.\n\nVediamoli con esempi. Il rischio di tasso d'interesse nasce perché il valore dei titoli a reddito fisso e quello degli impegni a lungo termine cambiano quando cambiano i tassi. Se i tassi salgono, i titoli già in portafoglio, che rendono meno di quelli nuovi, perdono valore. Il rischio azionario è quello di un calo dei prezzi delle azioni possedute. Il rischio immobiliare riguarda il calo di valore degli immobili di proprietà. Il rischio spread riguarda l'aumento del differenziale di rendimento che il mercato chiede a un emittente rispetto ai tassi privi di rischio: se cresce, le sue obbligazioni valgono meno. Il rischio di cambio nasce dagli investimenti in valuta estera: un titolo in dollari perde valore, in euro, se l'euro si rafforza.\n\nIl rischio di liquidità merita un discorso a parte. Non riguarda tanto quanto valgono gli attivi, ma la possibilità di trasformarli in denaro quando serve, senza doverli svendere. Un'impresa può essere solida e, nello stesso tempo, trovarsi in difficoltà se deve pagare molto e subito. Per una compagnia vita il caso tipico sono i riscatti improvvisi. Un dato aiuta: secondo l'IVASS, nel 2025 il tasso di riscatto delle polizze dei rami I e V è sceso all'8,7 per cento delle riserve, dopo il 10,1 per cento del 2024, e questa riduzione ha contenuto il rischio di liquidità. Il Codice delle assicurazioni, all'articolo 30-bis, mette espressamente la gestione dei rischi di liquidità e di concentrazione tra le aree che il sistema di gestione dei rischi deve presidiare.\n\nIl rischio di concentrazione, secondo il materiale, deriva dall'eccessiva concentrazione verso un unico emittente di titoli o verso un gruppo di emittenti collegati, per una mancata diversificazione del portafoglio. È il vecchio consiglio di non mettere tutte le uova nello stesso paniere, tradotto in regola: se un solo emittente fallisce, la perdita non deve mettere in pericolo l'impresa.\n\nIl rischio di controparte è il rischio di subire perdite derivanti dall'inadempimento imprevisto o dal deterioramento del merito di credito di una controparte. Per una compagnia le controparti sono molte: i riassicuratori, che devono pagare la loro quota dei sinistri; le banche presso cui tiene la liquidità; gli intermediari che incassano i premi per suo conto. L'esempio più chiaro è il riassicuratore che, dopo un grande evento, non riesce a pagare: la compagnia resta obbligata verso i suoi assicurati per l'intero importo. Per questo la scelta dei riassicuratori è essa stessa un'analisi di rischio.\n\nPoi ci sono i rischi operativi. Il materiale li descrive come i rischi che derivano dalle attività operative, che riguardano ogni fase del processo di business e al cui interno sono compresi rischi molto diversi: errori di processo, frodi interne ed esterne, guasti dei sistemi informatici, eventi esterni come un incendio nella sede. Il Codice precisa che il rischio operativo comprende i rischi legali, ma non quelli derivanti da decisioni strategiche né i rischi reputazionali. Questi ultimi sono i rischi di natura qualitativa: il rischio strategico nasce da scelte di business sbagliate, il rischio reputazionale dalla perdita di fiducia del pubblico, e spesso è la conseguenza di un altro rischio gestito male. Non entrano nel calcolo del capitale, ma devono comunque essere gestiti. Per l'intermediario il rischio operativo è il più vicino.\n\nProviamo a guardarlo dall'agenzia. Un premio incassato e non rimesso nei tempi alla compagnia è un rischio per l'intermediario e per l'impresa. Un documento precontrattuale non consegnato o non conservato è un rischio legale e di non conformità, che emerge magari anni dopo, in un reclamo. Un archivio di dati dei clienti perso o esposto è insieme un rischio operativo e un rischio reputazionale. Un errore in emissione, come una somma assicurata o una garanzia sbagliata, resta invisibile finché un sinistro non lo rivela, quando ormai è tardi per correggerlo. Ecco perché le compagnie chiedono alle reti procedure, controlli e verifiche: ciascuna di queste richieste nasce da uno di questi rischi, ed è il modo in cui il rischio operativo della compagnia viene gestito anche fuori dalla sua sede.\n\nQuali di questi rischi pesano di più nel mercato italiano? L'IVASS pubblica ogni anno la composizione del requisito di capitale di base delle imprese vigilate. A dicembre 2025 il rischio di mercato rappresentava il 56,1 per cento del requisito di base, in aumento rispetto al 54,6 per cento del 2024. All'interno del rischio di mercato, le componenti più rilevanti erano il rischio azionario, al 44,7 per cento, e il rischio spread, al 43,6 per cento, mentre il rischio di tasso d'interesse era salito al 15,4 per cento, dal 6,9 dell'anno prima. È un dato coerente con un mercato in cui il comparto vita è la componente maggiore e i portafogli sono pieni di titoli. Ed è significativo un altro numero: la quasi totalità del rischio di sottoscrizione vita, il 95,1 per cento, è rappresentata dal rischio di riscatto di massa, cioè da scenari di rimborsi consistenti delle polizze vita in portafoglio.\n\nQuesto ci porta a un punto fondamentale: i rischi sono collegati. Quando i tassi salgono rapidamente, come è successo dal 2022, i titoli in portafoglio perdono valore e, nello stesso momento, i clienti possono essere tentati di riscattare le polizze per investire a tassi più alti. Rischio di tasso, rischio di riscatto e rischio di liquidità si muovono insieme. L'IVASS rileva che il saldo tra plus e minusvalenze latenti delle gestioni separate è negativo dal 2022 e a fine 2025 era di circa meno 34 miliardi di euro: perdite non realizzate, che diventerebbero reali se l'impresa fosse costretta a vendere. Per questo un'analisi seria non guarda i rischi uno per volta, ma le loro interazioni, che nel calcolo del capitale si esprimono con i coefficienti di correlazione.\n\nVediamo un caso pratico. Un cliente di sessant'anni ha una polizza vita di ramo I collegata a una gestione separata. Legge che i rendimenti dei titoli di Stato sono saliti e vuole riscattare tutto per comprare BTP. Chiede all'agente perché la compagnia non sia contenta dei riscatti. Sono coinvolti tre rischi: il rischio di riscatto, il rischio di tasso e il rischio di liquidità. Se molti clienti riscattano insieme, la compagnia può dover vendere titoli che, con tassi più alti, valgono meno del prezzo d'acquisto. Ma attenzione al ruolo dell'agente: non deve dissuadere il cliente nell'interesse della compagnia. Verifica con lui le condizioni contrattuali, le eventuali penali di riscatto, le garanzie che perderebbe, gli aspetti fiscali e le sue reali esigenze, e poi lo lascia decidere in modo informato.\n\nRicapitolando. Sul passivo c'è il rischio di sottoscrizione: mortalità, longevità e riscatto nel vita; tariffa, riserve e catastrofi nei danni. Sull'attivo ci sono i rischi di mercato, con i sottorischi di tasso, azionario, immobiliare, spread e cambio, il rischio di controparte e quello di concentrazione. La liquidità riguarda la capacità di pagare senza vendite forzate. I rischi operativi nascono dall'attività quotidiana; strategico e reputazionale non entrano nel capitale, ma vanno gestiti. Nella prossima lezione vediamo come l'impresa si protegge: con le riserve per le perdite attese, con il capitale per quelle inattese, dentro l'architettura di Solvency II.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato a cura dell'IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "IVASS, Relazione sull'attività svolta dall'Istituto nell'anno 2025",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025.pdf"
+        },
+        {
+          "title": "EIOPA, Solvency II Single Rulebook – Reg. delegato (UE) 2015/35, art. 164 (rischio di mercato)",
+          "url": "https://www.eiopa.europa.eu/rulebook/solvency-ii-single-rulebook/article-5784_en"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Articolazione del rischio di sottoscrizione (mortalità, longevità, riscatto; tariffa, riserve, catastrofi) con esempi.",
+          "source_ref": "CAP art. 45-ter, c. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sottomoduli del rischio di mercato nella formula standard (tasso, azionario, immobiliare, spread, cambio, concentrazione).",
+          "source_ref": "Reg. delegato (UE) 2015/35, art. 164"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il rischio di liquidità elencato tra i rischi di mercato. Precisato che nella formula standard la liquidità non è un sottomodulo del rischio di mercato ed è presidiata nel sistema di gestione dei rischi (CAP art. 30-bis, c. 3, lett. d).",
+          "source_ref": "CAP art. 30-bis; Reg. delegato (UE) 2015/35, art. 164"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Precisazione che il rischio operativo comprende i rischi legali ma non strategici e reputazionali.",
+          "source_ref": "CAP art. 45-ter, c. 5, lett. f"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dati IVASS 2025: tasso di riscatto 8,7% (10,1% nel 2024); composizione del BSCR (mercato 56,1%; azionario 44,7%, spread 43,6%, tasso 15,4%); riscatto di massa 95,1% del rischio di sottoscrizione vita; minusvalenze latenti delle gestioni separate circa -34 miliardi.",
+          "source_ref": "IVASS, Relazione annuale 2025, cap. I e par. 4.2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di rischio operativo visti dall'agenzia (rimesse, documentazione, dati, errori di emissione).",
+          "source_ref": null
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sul riscatto di una polizza di ramo I e sul ruolo dell'agente.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Riserve, capitale e architettura di Solvency II: pilastri, politiche, investimenti e valutazione",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Elementi di tecniche di analisi dei rischi.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Controlli sull'impresa di assicurazione/elementi di tecniche di analisi dei rischi.mp4 (trascrizione non disponibile)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Tecniche di analisi dei rischi",
+          "title": "Riserve, capitale e architettura di Solvency II",
+          "goals": [
+            "Distinguere perdite attese, coperte dalle riserve, e perdite inattese, coperte dal capitale",
+            "Conoscere i tre pilastri di Solvency II e le politiche scritte richieste",
+            "Capire come l'impresa deve investire e valutare attivi e passivi"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Prima i ricavi, poi i costi",
+          "key": "Nelle imprese di assicurazione il ciclo produttivo è invertito: prima arrivano i ricavi, poi, solo se si verifica l'evento, i costi. Per questo si accantonano le riserve tecniche.",
+          "body": "Le riserve sono il debito dell'assicuratore verso l'insieme degli assicurati. Sono strumentali e congiunte all'assunzione dei rischi, aleatorie e non negoziabili.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Che cosa si stima per le riserve",
+          "cols": [
+            {
+              "title": "Rami vita",
+              "items": [
+                "Sopravvivenza dell'assicurato",
+                "Volontà di mantenere o interrompere il contratto",
+                "Premio e riserve calcolati attualizzando le prestazioni future con un tasso"
+              ]
+            },
+            {
+              "title": "Rami danni",
+              "items": [
+                "Numero e costo dei sinistri futuri",
+                "Parte di premio per i rischi ancora in corso",
+                "Somme per peggioramento della sinistrosità ed eventi rari"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Riserve danni per i rischi particolari",
+          "lead": "Nel bilancio d'esercizio alcune riserve rispondono proprio agli eventi rari e all'età.",
+          "head": [
+            "Riserva",
+            "A che cosa serve"
+          ],
+          "rows": [
+            [
+              "Perequazione",
+              "Compensare nel tempo le fluttuazioni dei sinistri: ramo credito e calamità naturali."
+            ],
+            [
+              "Senescenza",
+              "Nel ramo malattia, compensare l'aggravarsi del rischio con l'età degli assicurati, se il premio è fissato sull'età alla stipula."
+            ],
+            [
+              "Sinistri non denunciati",
+              "Coprire i sinistri avvenuti ma non ancora denunciati a fine esercizio."
+            ]
+          ],
+          "ref": "Reg. ISVAP 22/2008, art. 23-ter"
+        },
+        {
+          "layout": "split",
+          "title": "Perdite attese e perdite inattese",
+          "left": {
+            "title": "Riserve tecniche",
+            "items": [
+              "Coprono la perdita attesa",
+              "Gli impegni futuri prevedibili verso gli assicurati",
+              "Rispettano anche le regole di bilancio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Patrimonio",
+            "items": [
+              "Copre le perdite inattese",
+              "Situazioni impreviste oltre la media",
+              "Misurato dal Requisito Patrimoniale di Solvibilità"
+            ],
+            "ref": "CAP art. 45-ter, c. 3"
+          },
+          "note": "Se ci fossero solo perdite attese basterebbero le riserve. Ma l'imprevisto esiste, e lo si affronta con il proprio patrimonio.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I tre pilastri di Solvency II",
+          "head": [
+            "Pilastro",
+            "Contenuto",
+            "Domanda a cui risponde"
+          ],
+          "rows": [
+            [
+              "1 · Requisiti quantitativi",
+              "Valutazione di attivi e passivi, riserve tecniche, fondi propri, SCR e MCR.",
+              "Quanto capitale serve?"
+            ],
+            [
+              "2 · Governance",
+              "Sistema di governo, gestione dei rischi, ORSA, controllo dell'IVASS.",
+              "I rischi sono governati bene?"
+            ],
+            [
+              "3 · Informativa",
+              "Relazioni all'IVASS e relazione pubblica sulla solvibilità.",
+              "Il mercato e il supervisore sanno come sta l'impresa?"
+            ]
+          ],
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le sei aree del sistema di gestione dei rischi",
+          "items": [
+            {
+              "text": "Sottoscrizione e costituzione delle riserve tecniche.",
+              "ref": "lett. a"
+            },
+            {
+              "text": "Gestione integrata di attività e passività (asset-liability management).",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Investimenti, in particolare derivati e impegni simili.",
+              "ref": "lett. c"
+            },
+            {
+              "text": "Gestione dei rischi di liquidità e di concentrazione.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Gestione dei rischi operativi.",
+              "ref": "lett. e"
+            },
+            {
+              "text": "Riassicurazione e altre tecniche di mitigazione del rischio. Per ogni area serve una politica scritta approvata dall'organo amministrativo.",
+              "ref": "lett. f; c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Investire con il principio della persona prudente",
+          "key": "Gli attivi a copertura vanno investiti con una strategia commisurata ai rischi e agli impegni, nell'interesse degli assicurati, con adeguata diversificazione e attenzione a liquidità, redditività e sicurezza.",
+          "body": "Il Codice chiede di investire solo in attività di cui si sanno identificare, misurare e gestire i rischi, e di garantire sicurezza, qualità, liquidità e redditività del portafoglio nel suo complesso.",
+          "ref": "Materiale originale del corso; CAP art. 37-ter"
+        },
+        {
+          "layout": "checklist",
+          "title": "Persona prudente: i limiti in ogni caso",
+          "items": [
+            {
+              "text": "I derivati servono a ridurre i rischi o a gestire meglio il portafoglio, non a speculare."
+            },
+            {
+              "text": "Gli investimenti non negoziati su un mercato regolamentato restano a livelli prudenziali."
+            },
+            {
+              "text": "Gli investimenti sono diversificati: niente dipendenza eccessiva da un'attività, un emittente, un gruppo o un'area geografica."
+            },
+            {
+              "text": "Gli investimenti su uno stesso emittente o gruppo non creano un'eccessiva concentrazione."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Valutare a valori di mercato",
+          "steps": [
+            {
+              "label": "Principio",
+              "text": "Attivi e passivi al valore a cui sarebbero scambiati tra parti consapevoli, a normali condizioni di mercato (market consistent)."
+            },
+            {
+              "label": "Prezzo quotato",
+              "text": "Prima scelta: prezzi quotati in mercati attivi per gli stessi attivi o passivi."
+            },
+            {
+              "label": "Attivi simili",
+              "text": "Se mancano, prezzi di attivi simili, con le opportune rettifiche."
+            },
+            {
+              "label": "Mark to model",
+              "text": "Altrimenti metodi alternativi basati il più possibile su dati di mercato osservabili."
+            }
+          ],
+          "ref": "CAP art. 35-quater; Reg. delegato (UE) 2015/35, art. 10"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Il titolare di una piccola impresa, cliente dell'agenzia, chiede: «Se la compagnia incassa i premi in anticipo, perché deve avere anche tanto capitale? Non basta mettere da parte i premi?»",
+          "questions": [
+            "Come spieghi la differenza tra riserve e capitale?",
+            "Che esempio puoi usare?"
+          ],
+          "solution": "Le riserve coprono quanto l'impresa si aspetta di pagare in media: la perdita attesa. Il capitale serve per gli anni in cui le cose vanno molto peggio della media: una grandine eccezionale, un crollo dei mercati. Un esempio: anche l'impresa del cliente accantona per le spese previste, ma tiene un patrimonio per gli imprevisti; per una compagnia la legge fissa quanto deve essere, con il Requisito Patrimoniale di Solvibilità."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In Solvency II, a quale pilastro appartengono il sistema di governo societario e la gestione dei rischi?",
+          "options": [
+            "Primo pilastro",
+            "Secondo pilastro",
+            "Terzo pilastro",
+            "A nessun pilastro"
+          ],
+          "answer": 1,
+          "explanation": "Il primo pilastro riguarda i requisiti quantitativi, il secondo governance e risk management, il terzo l'informativa al supervisore e al pubblico."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per valutare un titolo non quotato su un mercato attivo, l'impresa:",
+          "options": [
+            "Lo iscrive sempre al prezzo d'acquisto",
+            "Usa metodi alternativi basati il più possibile su dati di mercato osservabili",
+            "Non può detenerlo in alcun caso",
+            "Lo valuta a zero"
+          ],
+          "answer": 1,
+          "explanation": "Se non ci sono prezzi quotati in mercati attivi per lo stesso attivo o per attivi simili, si usano metodi alternativi (mark to model), che devono sfruttare il più possibile input di mercato osservabili e il meno possibile dati propri dell'impresa."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Attese",
+              "text": "le perdite attese sono coperte dalle riserve tecniche"
+            },
+            {
+              "value": "Inattese",
+              "text": "le perdite inattese sono coperte dal patrimonio"
+            },
+            {
+              "value": "3",
+              "text": "pilastri: requisiti quantitativi, governance, informativa"
+            },
+            {
+              "value": "6",
+              "text": "aree del sistema di gestione dei rischi, ciascuna con una politica scritta"
+            },
+            {
+              "value": "Mercato",
+              "text": "attivi e passivi a valori di mercato; mark to model solo in mancanza di prezzi"
+            }
+          ]
+        }
+      ],
+      "narration": "Abbiamo costruito la mappa dei rischi. Ora vediamo come l'impresa si difende. Le difese sono due, e non vanno confuse: le riserve tecniche e il capitale. E tutto questo si inserisce in un'architettura precisa, quella di Solvency II, che in questa lezione guardiamo dall'alto: i tre pilastri, le politiche scritte, le regole sugli investimenti e i criteri di valutazione.\n\nIl punto di partenza lo conosciamo già. Nelle imprese di assicurazione c'è l'inversione del ciclo produttivo: prima si ottengono i ricavi, i premi, e solo successivamente, e solo se si verifica l'evento assicurato, si sostengono i costi. Ne deriva la necessità di accantonare somme per far fronte agli impegni futuri: le riserve tecniche. Il materiale le descrive come il debito che l'assicuratore ha nei confronti dell'insieme degli assicurati, e ne sottolinea quattro caratteristiche: sono strumentali e congiunte all'assunzione dei rischi, perché nascono con il contratto; sono aleatorie, perché il loro importo finale dipende da eventi incerti; e non sono negoziabili. Le componenti di bilancio, come riserva premi e riserva sinistri, le abbiamo già viste nell'argomento sugli elementi tariffari. Qui ci concentriamo su che cosa l'impresa deve stimare.\n\nNei rami vita la stima dipende da due variabili: la sopravvivenza dell'assicurato e la sua volontà di mantenere in essere il contratto o di interromperlo. Il materiale aggiunge che nel vita le riserve sono strettamente collegate al calcolo del premio, perché il premio viene determinato attualizzando, con un dato tasso di interesse, il valore delle prestazioni future. Per questo un cambiamento dei tassi tocca insieme premi, riserve e investimenti.\n\nNei rami danni, invece, si stimano il numero dei sinistri che si verificheranno e il loro ammontare. Si accantona la parte di premio che si riferisce ai rischi ancora coperti dal contratto, e ulteriori somme che tengono conto di un possibile peggioramento della sinistrosità, degli eventi che si verificano raramente, del progressivo invecchiamento della popolazione e dei sinistri avvenuti durante l'anno. Questi elementi trovano corrispondenza in riserve specifiche del bilancio d'esercizio, previste dal Regolamento ISVAP numero 22 del 2008. Le riserve di perequazione servono a compensare nel tempo le fluttuazioni dei sinistri o a coprire rischi particolari: l'impresa che esercita il ramo credito ne costituisce una, e chi esercita i rami danni costituisce una riserva di perequazione per i rischi di calamità naturali. La riserva di senescenza riguarda il ramo malattia: nei contratti poliennali, o annuali con obbligo di rinnovo, compensa l'aggravarsi del rischio dovuto al crescere dell'età degli assicurati, quando il premio è fissato sull'età al momento della stipula. È qui che si colloca, più precisamente, l'invecchiamento di cui parla il materiale. C'è poi la riserva per i sinistri avvenuti ma non ancora denunciati alla chiusura dell'esercizio.\n\nOra il passaggio concettuale più importante della lezione. Le riserve, oltre a rispettare le leggi di bilancio e i principi contabili, sono accantonamenti che coprono la perdita attesa, cioè gli impegni futuri prevedibili verso gli assicurati. Se l'impresa dovesse fronteggiare solo perdite attese, le riserve sarebbero sufficienti. Ma possono verificarsi situazioni impreviste: un anno di grandinate eccezionali, un crollo dei mercati, un riassicuratore che non paga. A queste l'impresa risponde attingendo direttamente dal proprio patrimonio, non dalle riserve. È la distinzione tra perdite attese e perdite inattese, e il Codice delle assicurazioni la rende esplicita: il Requisito Patrimoniale di Solvibilità, per l'attività esistente, copre esclusivamente le perdite inattese. Le riserve rispondono alla domanda: quanto pagherò in media? Il capitale risponde a un'altra: quanto posso perdere in un anno molto cattivo senza fallire?\n\nQuesta logica è il cuore di Solvency II, il sistema europeo di vigilanza prudenziale recepito nel Codice delle assicurazioni. Il materiale ricorda che Solvency II ruota attorno a tre punti fondamentali, chiamati pilastri. Il primo pilastro riguarda i requisiti finanziari minimi a copertura dei rischi: la misurazione di attivi e passivi, il calcolo delle riserve tecniche, i fondi propri di base, l'SCR e l'MCR. Il secondo pilastro riguarda la governance e il risk management: il sistema di governo societario, le funzioni fondamentali, la valutazione interna del rischio e della solvibilità, cioè l'ORSA, e il processo di controllo da parte dell'IVASS. Il terzo pilastro riguarda i requisiti informativi: le informazioni periodiche al supervisore e la relazione pubblica sulla solvibilità. Il secondo pilastro, con funzioni fondamentali e ORSA, lo abbiamo già visto nell'area giuridica. In questa lezione ci concentriamo su ciò che collega i pilastri: le aree di rischio, gli investimenti e la valutazione.\n\nIl materiale cita l'articolo 44, paragrafo 2, della direttiva Solvency II, che richiede di considerare almeno alcune aree nel sistema di gestione dei rischi, per le quali il Codice, all'articolo 30-bis, comma 4, richiede una politica scritta approvata dal consiglio di amministrazione. Le aree sono sei, e nel Codice le troviamo elencate al comma 3 dello stesso articolo. La prima è la sottoscrizione e la costituzione delle riserve: quali rischi assumere e come riservarli. La seconda è la gestione integrata di attività e passività, l'asset-liability management: far sì che scadenze e caratteristiche degli investimenti siano coerenti con quelle degli impegni. La terza sono gli investimenti, con particolare attenzione ai derivati. La quarta è la gestione dei rischi di liquidità e di concentrazione. La quinta è la gestione dei rischi operativi. La sesta è la riassicurazione e le altre tecniche di mitigazione del rischio. Notate come queste aree ricalchino la mappa dei rischi della lezione precedente: ogni rischio ha la sua politica.\n\nVeniamo agli investimenti. Il materiale spiega che, nello svolgere la sua attività, l'assicuratore deve detenere i mezzi necessari per far fronte agli impegni futuri, accantonando alle riserve le somme riscosse con i premi. Per gli attivi a copertura serve una strategia di investimento formalizzata, commisurata alla natura dei rischi e delle obbligazioni assunte, che privilegi l'interesse degli assicurati, imponga un'adeguata diversificazione e tenga presenti le tre caratteristiche essenziali degli investimenti: liquidità, redditività e sicurezza. Il Codice esprime tutto questo con il principio della persona prudente, all'articolo 37-ter. L'impresa investe tutti gli attivi, compresi quelli che coprono i requisiti patrimoniali, solo in attività e strumenti di cui sa identificare, misurare, monitorare, gestire, controllare e segnalare i rischi, e in modo da garantire la sicurezza, la qualità, la liquidità e la redditività del portafoglio nel suo complesso.\n\nIl principio della persona prudente non è un elenco di investimenti ammessi, come avveniva in passato, ma comporta alcuni limiti che valgono in ogni caso. I derivati devono contribuire a ridurre i rischi o ad agevolare un'efficace gestione del portafoglio, non a scommettere. Gli investimenti in attività non negoziate su un mercato regolamentato vanno mantenuti a livelli prudenziali. Gli investimenti devono essere adeguatamente diversificati, per evitare una dipendenza eccessiva da una particolare attività, da un emittente, da un gruppo o da un'area geografica. E gli investimenti in uno stesso emittente o gruppo non devono creare un'eccessiva concentrazione di rischi. È la traduzione normativa del rischio di concentrazione che abbiamo visto prima.\n\nResta la questione della valutazione. Per sapere se un'impresa è solida bisogna dare un valore ai suoi attivi e ai suoi passivi. La normativa adotta un approccio market consistent, coerente con il mercato: secondo l'articolo 35-quater del Codice, gli attivi si valutano all'importo al quale potrebbero essere scambiati tra parti consapevoli e consenzienti in un'operazione alle normali condizioni di mercato; le passività all'importo al quale potrebbero essere trasferite o regolate alle stesse condizioni, senza alcun aggiustamento per il merito di credito dell'impresa stessa. Il regolamento delegato europeo 2015/35 fissa una gerarchia: prima i prezzi quotati in mercati attivi per gli stessi attivi o passivi; se mancano, i prezzi di attivi simili, con le opportune rettifiche; solo in ultima istanza metodi di valutazione alternativi. È quello che il materiale chiama mark to model, ammesso quando non si riesce a individuare un valore di mercato, con tecniche basate su riferimenti che si avvicinino agli input di mercato. Le regole europee chiedono infatti di usare il più possibile dati di mercato osservabili, come curve dei tassi e spread di credito, e il meno possibile dati propri dell'impresa.\n\nLo stesso criterio vale per le riserve tecniche: il loro valore corrisponde all'importo attuale che l'impresa dovrebbe pagare se trasferisse immediatamente le proprie obbligazioni a un'altra impresa di assicurazione o di riassicurazione. Le riserve si scompongono in migliore stima, la best estimate, cioè la media dei flussi di cassa futuri ponderata per la probabilità e attualizzata con la struttura per scadenza dei tassi privi di rischio, e margine di rischio, il risk margin, che rende il valore delle riserve equivalente a quanto un'altra impresa chiederebbe per assumersi e onorare quelle obbligazioni. Come si calcolano in pratica lo abbiamo visto nell'argomento sugli elementi tariffari; qui conta il collegamento: attivi e passivi valutati con la stessa logica di mercato, così che la differenza tra i due, il patrimonio, sia misurata in modo realistico.\n\nUn caso pratico. Il titolare di una piccola impresa, cliente dell'agenzia, chiede: se la compagnia incassa i premi in anticipo, perché deve avere anche tanto capitale? Non basta mettere da parte i premi? La risposta è proprio la distinzione di questa lezione. Le riserve coprono ciò che l'impresa si aspetta di pagare in media. Il capitale serve per gli anni in cui le cose vanno molto peggio della media. Anche l'impresa del cliente accantona per le spese previste, ma tiene un patrimonio per gli imprevisti; per una compagnia la legge stabilisce quanto deve essere questo patrimonio, con il Requisito Patrimoniale di Solvibilità.\n\nRicapitolando. Le riserve tecniche coprono le perdite attese; nel bilancio d'esercizio riserve come quella di perequazione e quella di senescenza rispondono a eventi rari e all'invecchiamento. Il patrimonio copre le perdite inattese. Solvency II poggia su tre pilastri: requisiti quantitativi, governance e informativa. Il sistema di gestione dei rischi presidia sei aree, ciascuna con una politica scritta. Gli investimenti seguono il principio della persona prudente. E attivi e passivi si valutano a valori di mercato, con il mark to model solo quando i prezzi mancano. Nell'ultima lezione misuriamo il capitale: SCR, MCR, fondi propri e che cosa succede quando non bastano.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato a cura dell'IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "Regolamento ISVAP n. 22/2008 (bilancio delle imprese di assicurazione), testo modificato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2008/n22/Regolamento-22-modificato.pdf"
+        },
+        {
+          "title": "EIOPA, Solvency II Single Rulebook – Reg. delegato (UE) 2015/35, art. 10 (metodi di valutazione)",
+          "url": "https://www.eiopa.europa.eu/rulebook/solvency-ii-single-rulebook/article-2423_en"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Collegamento tra le somme accantonate nei rami danni per eventi rari e invecchiamento e le riserve di perequazione (credito, calamità naturali), di senescenza (ramo malattia) e per sinistri non denunciati del bilancio d'esercizio.",
+          "source_ref": "Reg. ISVAP 22/2008, art. 23-ter, c. 5-10"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: nei rami danni si accantonano somme per il 'progressivo invecchiamento della popolazione'. Precisato che la riserva che risponde all'età degli assicurati è la riserva di senescenza del ramo malattia.",
+          "source_ref": "Reg. ISVAP 22/2008, art. 23-ter, c. 10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esplicitato che l'SCR, per l'attività esistente, copre esclusivamente le perdite inattese.",
+          "source_ref": "CAP art. 45-ter, c. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Verificata la corrispondenza tra art. 44, par. 2, della direttiva e CAP art. 30-bis, c. 3 (elenco delle sei aree) e c. 4 (politica scritta).",
+          "source_ref": "CAP art. 30-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Principio della persona prudente e limiti agli investimenti (derivati, attivi non negoziati, diversificazione, concentrazione).",
+          "source_ref": "CAP art. 37-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Valutazione market consistent di attivi e passivi, senza aggiustamento per il proprio merito di credito, e gerarchia dei metodi di valutazione fino ai metodi alternativi (mark to model).",
+          "source_ref": "CAP art. 35-quater; Reg. delegato (UE) 2015/35, art. 10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla differenza tra riserve e capitale spiegata a un cliente.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "SCR, MCR e fondi propri: misurare la solidità e intervenire quando non basta",
+      "source_files": [
+        "Corso Ivass 60 ore/nuovo materiale da utilizzare/Elementi di tecniche di analisi dei rischi.pdf",
+        "Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Controlli sull'impresa di assicurazione/elementi di tecniche di analisi dei rischi.mp4 (trascrizione non disponibile)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area tecnica assicurativa e riassicurativa · Tecniche di analisi dei rischi",
+          "title": "SCR, MCR e fondi propri",
+          "goals": [
+            "Distinguere SCR e MCR e il loro rapporto",
+            "Capire come si classificano i fondi propri in tre livelli",
+            "Sapere che cosa succede se un requisito non è rispettato e dove leggere la solidità di una compagnia"
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Due requisiti, due soglie",
+          "cols": [
+            {
+              "title": "SCR – Requisito Patrimoniale di Solvibilità",
+              "items": [
+                "Capitale per le perdite inattese",
+                "Valore a rischio al 99,5% su un anno",
+                "Calcolato almeno una volta l'anno",
+                "Soglia di allarme"
+              ]
+            },
+            {
+              "title": "MCR – Requisito Patrimoniale Minimo",
+              "items": [
+                "Livello sotto cui il rischio per gli assicurati è inaccettabile",
+                "Valore a rischio all'85% su un anno",
+                "Calcolato almeno ogni tre mesi",
+                "Ultima linea di difesa"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "La formula standard dell'SCR",
+          "lead": "SCR = BSCR + aggiustamento (ADJ) + rischio operativo.",
+          "facts": [
+            {
+              "label": "BSCR",
+              "text": "Requisito di base: moduli mercato, controparte, vita, danni, malattia, aggregati con correlazioni, più le attività immateriali."
+            },
+            {
+              "label": "ADJ",
+              "text": "Aggiustamento per la capacità di assorbimento delle perdite delle riserve tecniche e delle imposte differite."
+            },
+            {
+              "label": "SCRop",
+              "text": "Requisito per il rischio operativo, calcolato a parte."
+            },
+            {
+              "label": "Alternativa",
+              "text": "Un modello interno, completo o parziale, approvato dall'IVASS."
+            }
+          ],
+          "ref": "Materiale originale del corso; CAP artt. 45-bis, 45-sexies; Reg. delegato (UE) 2015/35, art. 87"
+        },
+        {
+          "layout": "timeline",
+          "title": "L'MCR in numeri",
+          "items": [
+            {
+              "value": "25 %",
+              "text": "dell'SCR: il minimo sotto cui l'MCR non può scendere",
+              "ref": "CAP art. 47-ter, c. 3"
+            },
+            {
+              "value": "45 %",
+              "text": "dell'SCR: il massimo che l'MCR non può superare",
+              "ref": "CAP art. 47-ter, c. 3"
+            },
+            {
+              "value": "85 %",
+              "text": "livello di confidenza su un anno su cui è calibrato",
+              "ref": "CAP art. 47-ter, c. 1"
+            },
+            {
+              "value": "3 mesi",
+              "text": "frequenza minima di calcolo e comunicazione all'IVASS",
+              "ref": "CAP art. 47-ter, c. 5"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "La soglia minima assoluta dell'MCR",
+          "head": [
+            "Impresa",
+            "Soglia minima"
+          ],
+          "rows": [
+            [
+              "Danni",
+              "2.500.000 euro; 3.700.000 euro se copre rischi dei rami da 10 a 15 (RC, credito, cauzione)."
+            ],
+            [
+              "Vita",
+              "3.700.000 euro."
+            ],
+            [
+              "Vita e danni insieme",
+              "6.200.000 euro, somma delle due soglie."
+            ]
+          ],
+          "ref": "CAP art. 47-ter, c. 1, lett. d"
+        },
+        {
+          "layout": "split",
+          "title": "I fondi propri",
+          "left": {
+            "title": "Fondi propri di base",
+            "items": [
+              "Eccedenza delle attività sulle passività, meno le azioni proprie",
+              "Passività subordinate",
+              "Possono stare in tutti e tre i livelli"
+            ],
+            "ref": "CAP art. 44-quater"
+          },
+          "right": {
+            "title": "Fondi propri accessori",
+            "items": [
+              "Capitale sottoscritto non versato e non richiamato",
+              "Lettere di credito e garanzie, altri impegni vincolanti",
+              "Solo livello 2 o 3; importo autorizzato dall'IVASS"
+            ],
+            "ref": "CAP art. 44-quinquies"
+          },
+          "note": "Quando un fondo accessorio viene versato o richiamato diventa un'attività e passa tra i fondi di base.",
+          "noteRef": "CAP art. 44-quinquies, c. 4"
+        },
+        {
+          "layout": "table",
+          "title": "Tre livelli di qualità",
+          "lead": "La classificazione dipende dalla capacità di assorbire le perdite.",
+          "head": [
+            "Livello",
+            "Caratteristiche",
+            "Limiti per l'SCR"
+          ],
+          "rows": [
+            [
+              "1 · Tier 1",
+              "Disponibilità permanente e subordinazione: assorbe le perdite sempre, e in liquidazione si rimborsa per ultimo.",
+              "Almeno la metà dell'SCR."
+            ],
+            [
+              "2 · Tier 2",
+              "Subordinazione, ma senza piena disponibilità permanente; anche fondi accessori di qualità.",
+              "Tier 2 + tier 3 non oltre il 50% dell'SCR."
+            ],
+            [
+              "3 · Tier 3",
+              "Tutto ciò che non ha le caratteristiche dei primi due livelli.",
+              "Meno del 15% dell'SCR."
+            ]
+          ],
+          "ref": "CAP artt. 44-septies, 44-octies; Reg. delegato (UE) 2015/35, art. 82"
+        },
+        {
+          "layout": "concept",
+          "title": "Per l'MCR conta solo il capitale migliore",
+          "key": "L'MCR si copre solo con fondi propri di base di livello 1 e 2. Il livello 1 deve essere almeno l'80% dell'MCR, il livello 2 non oltre il 20%.",
+          "body": "Più ci si avvicina al punto di non ritorno, più la legge chiede capitale di qualità: quello che assorbe davvero le perdite.",
+          "ref": "CAP art. 44-decies; Reg. delegato (UE) 2015/35, art. 82"
+        },
+        {
+          "layout": "steps",
+          "title": "La scala di intervento",
+          "steps": [
+            {
+              "label": "Allarme",
+              "text": "L'impresa informa subito l'IVASS se un requisito non è rispettato o rischia di non esserlo nei tre mesi successivi."
+            },
+            {
+              "label": "SCR violato",
+              "text": "Piano di risanamento entro 2 mesi; ripristino entro 6 mesi, prorogabili di 3."
+            },
+            {
+              "label": "MCR violato",
+              "text": "Piano di finanziamento a breve entro 1 mese; ripristino entro 3 mesi."
+            },
+            {
+              "label": "Misure",
+              "text": "Stop alle distribuzioni di utili; l'IVASS può vietare atti di disposizione sui beni e vincolare gli attivi."
+            }
+          ],
+          "ref": "CAP artt. 222, 222-bis, 222-ter"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Dove si legge la solidità",
+          "title": "La relazione sulla solvibilità (SFCR)",
+          "lead": "Ogni impresa la pubblica ogni anno e la trasmette all'IVASS.",
+          "facts": [
+            {
+              "label": "Attività e risultati",
+              "text": "Che cosa fa l'impresa e come è andata."
+            },
+            {
+              "label": "Governance",
+              "text": "Sistema di governo e sua adeguatezza al profilo di rischio."
+            },
+            {
+              "label": "Profilo di rischio",
+              "text": "Per ogni categoria: esposizione, concentrazione, mitigazione, sensitività."
+            },
+            {
+              "label": "Capitale",
+              "text": "Fondi propri e loro qualità, SCR, MCR ed eventuali violazioni nel periodo."
+            }
+          ],
+          "ref": "CAP art. 47-septies"
+        },
+        {
+          "layout": "timeline",
+          "title": "Il mercato italiano e le novità in arrivo",
+          "items": [
+            {
+              "value": "273,1 %",
+              "text": "indice medio di solvibilità delle imprese vigilate nel 2025 (259,4% nel 2024)",
+              "ref": "IVASS, Relazione annuale 2025"
+            },
+            {
+              "value": "29 gennaio 2027",
+              "text": "termine per recepire la Direttiva (UE) 2025/2, la revisione di Solvency II",
+              "ref": "IVASS, Relazione annuale 2025"
+            },
+            {
+              "value": "30 gennaio 2027",
+              "text": "prima applicazione delle nuove regole e della Direttiva (UE) 2025/1 su risanamento e risoluzione",
+              "ref": "IVASS, Relazione annuale 2025"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un cliente deve scegliere tra due polizze vita di compagnie diverse. Ha letto online che una ha un indice di solvibilità del 140% e l'altra del 260%, e chiede all'agente se la prima è a rischio.",
+          "questions": [
+            "Che cosa significa un indice del 140%?",
+            "Che cosa può dire, e che cosa non deve dire, l'agente?"
+          ],
+          "solution": "Significa che i fondi propri ammissibili sono 1,4 volte l'SCR: il requisito è rispettato con un margine. L'agente può spiegare che cosa misura l'indice e indicare dove leggerlo, la relazione sulla solvibilità della compagnia. Non deve promettere che una compagnia «non può fallire» né sconsigliarne un'altra con giudizi non fondati: la scelta si basa sulle esigenze del cliente e sulle caratteristiche del prodotto, e la solidità è un elemento da leggere nei documenti ufficiali."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "L'SCR di una compagnia è di 100 milioni di euro. Entro quali valori deve stare il suo MCR, al di là della soglia minima assoluta?",
+          "options": [
+            "Tra 10 e 30 milioni",
+            "Tra 25 e 45 milioni",
+            "Tra 50 e 85 milioni",
+            "Tra 85 e 99,5 milioni"
+          ],
+          "answer": 1,
+          "explanation": "L'MCR non può scendere sotto il 25% né superare il 45% dell'SCR: con un SCR di 100 milioni sta tra 25 e 45 milioni, fermo il livello minimo assoluto previsto dal Codice."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'impresa scopre di non rispettare più l'MCR. Che cosa deve fare?",
+          "options": [
+            "Nulla fino al bilancio successivo",
+            "Presentare entro un mese un piano di finanziamento a breve termine, per ripristinare il requisito entro tre mesi",
+            "Presentare entro sei mesi un piano di risanamento",
+            "Aumentare i premi di tutti i contratti in corso"
+          ],
+          "answer": 1,
+          "explanation": "In caso di violazione dell'MCR, l'impresa informa subito l'IVASS e presenta entro un mese un piano di finanziamento a breve termine per riportare i fondi propri di base ammissibili al livello dell'MCR entro tre mesi."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "99,5% · 85%",
+              "text": "livelli di confidenza su un anno di SCR e MCR"
+            },
+            {
+              "value": "25-45%",
+              "text": "il corridoio dell'MCR rispetto all'SCR"
+            },
+            {
+              "value": "3 tier",
+              "text": "fondi propri classificati per capacità di assorbire le perdite"
+            },
+            {
+              "value": "2 · 6 / 1 · 3",
+              "text": "mesi per piano e ripristino: SCR e MCR"
+            },
+            {
+              "value": "SFCR",
+              "text": "la relazione pubblica annuale dove leggere la solidità"
+            }
+          ]
+        }
+      ],
+      "narration": "In quest'ultima lezione misuriamo la solidità di una compagnia. Abbiamo visto che le perdite inattese si coprono con il patrimonio. Ma quanto patrimonio serve, di che qualità deve essere, e che cosa succede se non basta? Le risposte stanno in tre concetti: i due requisiti di capitale, SCR e MCR, e i fondi propri ammissibili a coprirli.\n\nIl materiale ricorda che l'impresa deve rispettare determinati requisiti patrimoniali durante tutto lo svolgimento della sua attività, e che i requisiti sono due. Il primo è il Requisito Patrimoniale di Solvibilità, in inglese Solvency Capital Requirement, SCR: la parte di capitale che l'impresa deve detenere per garantire la propria solvibilità, cioè il capitale destinato alla copertura delle perdite inattese. Lo abbiamo già incontrato nell'argomento sugli elementi tariffari: corrisponde al valore a rischio dei fondi propri di base con un livello di confidenza del 99,5 per cento su un anno, e si calcola almeno una volta l'anno. Il secondo è il Requisito Patrimoniale Minimo, Minimum Capital Requirement, MCR, che è il vero tema nuovo di questa lezione.\n\nPrima, però, completiamo il quadro della formula standard dell'SCR come la presenta il materiale. L'SCR è la somma di tre componenti: l'SCR di base, in sigla BSCR; l'aggiustamento per la capacità di assorbimento delle perdite, in sigla ADJ, che tiene conto del fatto che in uno scenario negativo una parte delle perdite può essere assorbita dalle riserve tecniche, ad esempio riducendo le partecipazioni agli utili future, e dalle imposte differite; e il requisito per il rischio operativo. La componente principale è il BSCR. Il Codice, all'articolo 45-sexies, stabilisce che è composto almeno dai moduli di sottoscrizione danni, vita e malattia, di mercato e di inadempimento della controparte, aggregati con coefficienti di correlazione; il regolamento delegato europeo aggiunge il requisito per il rischio delle attività immateriali. Il materiale elenca infatti tra i moduli anche l'SCR attività immateriali. Il materiale elenca poi, tra i rischi da considerare nel calcolo, anche la concentrazione del rischio di mercato e il rischio di liquidità. La concentrazione è in effetti un sottomodulo del rischio di mercato. Il rischio di liquidità, invece, non compare tra i rischi che il Codice chiede di coprire con l'SCR: va presidiato nel sistema di gestione dei rischi, come abbiamo visto nella lezione precedente. In alternativa alla formula standard l'impresa può usare un modello interno, completo o parziale, approvato dall'IVASS.\n\nVeniamo all'MCR. Il materiale lo definisce come il capitale minimo al di sotto del quale i contraenti, i beneficiari, gli assicurati e gli altri aventi diritto alle prestazioni sarebbero esposti a un livello di rischio inaccettabile, se all'impresa fosse consentito di continuare la propria attività. È quasi parola per parola la definizione dell'articolo 47-ter del Codice. Se l'SCR è una soglia di allarme, l'MCR è l'ultima linea di difesa. Il Codice aggiunge alcuni elementi. L'MCR è calcolato in modo chiaro e semplice, come funzione lineare di variabili quali riserve tecniche, premi, capitale a rischio, imposte differite e costi amministrativi, al netto della riassicurazione. È calibrato sul valore a rischio dei fondi propri di base con un livello di confidenza dell'85 per cento su un anno: è quindi una soglia molto più bassa dell'SCR. Si calcola almeno ogni tre mesi e il risultato si comunica all'IVASS.\n\nIl materiale ricorda che l'MCR deve essere compreso tra il 25 e il 45 per cento dell'SCR. È un corridoio: anche se la formula lineare desse un risultato diverso, l'MCR non può scendere sotto un quarto dell'SCR né superarne il 45 per cento. Con un SCR di 100 milioni, quindi, l'MCR sta tra 25 e 45 milioni. A questo si aggiunge un livello minimo assoluto, fissato dal Codice: 2,5 milioni di euro per le imprese danni, che salgono a 3,7 milioni se l'impresa copre rischi dei rami da 10 a 15, cioè responsabilità civile, credito e cauzione; 3,7 milioni per le imprese vita; 6,2 milioni per le imprese che esercitano insieme vita e danni.\n\nCon che cosa si coprono i requisiti? Con i fondi propri. Il materiale spiega che i fondi propri ammissibili sono i fondi propri di base e i fondi propri accessori. I fondi propri di base, secondo l'articolo 44-quater del Codice, sono l'eccedenza delle attività rispetto alle passività, valutate con i criteri di mercato visti nella lezione precedente e diminuita delle azioni proprie, più le passività subordinate, cioè i debiti che si rimborsano solo dopo tutti gli altri creditori. I fondi propri accessori sono elementi che non sono ancora nel patrimonio ma possono essere richiamati per assorbire le perdite: il capitale sottoscritto e non ancora versato né richiamato, le lettere di credito e le garanzie, altri impegni giuridicamente vincolanti. Il loro importo deve essere autorizzato dall'IVASS, che valuta la capacità e la disponibilità a pagare delle controparti e la recuperabilità dei fondi. Quando un elemento accessorio viene versato o richiamato, diventa un'attività e cessa di essere accessorio.\n\nI fondi propri non sono tutti uguali. Il materiale ricorda che si classificano in tre livelli, i tier, a seconda della loro capacità di assorbire le perdite. Il Codice indica le due caratteristiche decisive. La disponibilità permanente: l'elemento è disponibile, o richiamabile, per assorbire interamente le perdite sia nella normale continuità aziendale sia in caso di liquidazione. La subordinazione: in liquidazione si rimborsa al possessore solo dopo aver onorato tutte le altre obbligazioni, comprese quelle verso gli assicurati. I fondi di base con entrambe le caratteristiche sono di livello 1; quelli con la sola subordinazione sono di livello 2; i fondi accessori con entrambe le caratteristiche sono di livello 2; tutto il resto è livello 3. Ecco perché il materiale dice che i fondi propri accessori possono appartenere solo al tier 2 e al tier 3, mentre i fondi propri di base possono appartenere a uno qualsiasi dei tre livelli.\n\nLa classificazione serve a fissare limiti. Per coprire l'SCR, secondo il regolamento delegato europeo, gli elementi di livello 1 devono essere almeno la metà dell'SCR, quelli di livello 3 meno del 15 per cento, e livello 2 e livello 3 insieme non possono superare il 50 per cento. Per l'MCR la regola è più severa: si usano solo fondi propri di base di livello 1 e 2, il livello 1 deve essere almeno l'80 per cento dell'MCR e il livello 2 non può superare il 20 per cento. Il senso è chiaro: più ci si avvicina al punto di non ritorno, più la legge pretende capitale di qualità, quello che assorbe davvero le perdite.\n\nChe cosa succede se i requisiti non sono rispettati? Il Codice prevede una scala di intervento graduale. In entrambi i casi l'impresa deve informare immediatamente l'IVASS non appena rileva che il requisito non è più rispettato, oppure che rischia di non esserlo nei tre mesi successivi. Se è violato l'SCR, articolo 222, l'impresa presenta entro due mesi un piano di risanamento realistico, e deve ristabilire i fondi propri, o ridurre il profilo di rischio, entro sei mesi dalla rilevazione; l'IVASS può concedere una proroga di tre mesi, estendibile in situazioni eccezionalmente avverse riconosciute a livello europeo, come un crollo improvviso dei mercati o un evento catastrofico ad alto impatto. Se è violato l'MCR, articolo 222-bis, i tempi si stringono: piano di finanziamento a breve termine entro un mese, ripristino entro tre mesi. In questo caso l'IVASS può anche vietare all'impresa di compiere atti di disposizione sui suoi beni e vincolare gli attivi a copertura delle riserve. E in entrambi i casi, per l'articolo 222-ter, l'impresa non può distribuire utili o altri elementi dei fondi propri finché il requisito non è ripristinato. Ricordiamo infine che, se il profilo di rischio si discosta in modo significativo dalle ipotesi del calcolo, l'IVASS può in circostanze eccezionali imporre una maggiorazione del capitale, prevista dall'articolo 47-sexies.\n\nSiamo così al terzo pilastro, l'informativa. Dove si legge la solidità di una compagnia? Nella relazione sulla solvibilità e sulla condizione finanziaria, conosciuta con la sigla inglese SFCR, che ogni impresa pubblica annualmente e trasmette all'IVASS. Secondo l'articolo 47-septies del Codice contiene la descrizione dell'attività e dei risultati, del sistema di governo e della sua adeguatezza al profilo di rischio; per ogni categoria di rischio, l'esposizione, la concentrazione, la mitigazione e la sensitività; i criteri di valutazione di attività, riserve e passività; e la gestione del capitale, con struttura, importo e qualità dei fondi propri, gli importi di SCR e MCR e le eventuali violazioni rilevate nel periodo, anche se poi rimosse. È, in pratica, l'analisi dei rischi della compagnia resa pubblica.\n\nIl dato che riassume tutto è l'indice di solvibilità, il solvency ratio: il rapporto tra fondi propri ammissibili e SCR. Un indice del 100 per cento significa che il requisito è appena coperto. Secondo l'IVASS, nel 2025 l'indice medio di solvibilità delle imprese vigilate è stato del 273,1 per cento, in aumento rispetto al 259,4 per cento del 2024, un livello che l'Istituto definisce molto elevato, superiore ai requisiti normativi e alla media europea.\n\nUn'ultima informazione di aggiornamento. Il quadro di Solvency II sta per cambiare. La Direttiva europea 2025/2, la cosiddetta revisione di Solvency II, deve essere recepita entro il 29 gennaio 2027 e, secondo la Relazione annuale dell'IVASS, incide su tutti i principali aspetti del sistema: misure per le garanzie di lungo termine, riduzione del margine di rischio, trattamento degli investimenti di lungo periodo, proporzionalità per le imprese piccole e meno complesse, strumenti macroprudenziali, governance e reporting. Dal 30 gennaio 2027 si applicherà anche la Direttiva 2025/1, che crea un quadro armonizzato per il risanamento e la risoluzione delle imprese di assicurazione. Il recepimento passerà per modifiche al Codice delle assicurazioni e ai regolamenti IVASS: chi studia questi temi dovrà quindi verificare i testi aggiornati.\n\nChiudiamo con un caso pratico. Un cliente deve scegliere tra due polizze vita di compagnie diverse. Ha letto online che una ha un indice di solvibilità del 140 per cento e l'altra del 260, e chiede all'agente se la prima sia a rischio. Un indice del 140 per cento significa che i fondi propri ammissibili sono 1,4 volte l'SCR: il requisito è rispettato, con un margine. L'agente può spiegare che cosa misura l'indice e dove trovarlo, cioè nella relazione sulla solvibilità della compagnia. Non deve però promettere che una compagnia non possa fallire, né sconsigliarne un'altra con giudizi non fondati. La scelta resta basata sulle esigenze del cliente e sulle caratteristiche del prodotto; la solidità è un elemento in più, da leggere nei documenti ufficiali.\n\nRicapitolando l'intero argomento. L'assicurazione funziona grazie alla mutualità, minacciata da selezione avversa e azzardo morale. La compagnia è esposta a rischi di sottoscrizione, di mercato, di controparte, di concentrazione, di liquidità, operativi e qualitativi. Le riserve coprono le perdite attese, il capitale quelle inattese. L'SCR, al 99,5 per cento, è la soglia di allarme; l'MCR, all'85 per cento e tra il 25 e il 45 per cento dell'SCR, è l'ultima linea di difesa. I fondi propri si classificano in tre livelli di qualità. Se i requisiti non sono rispettati scatta una scala di intervento con tempi precisi. E tutto questo, ogni anno, si legge nella relazione sulla solvibilità.",
+      "sources": [
+        {
+          "title": "Codice delle assicurazioni private (D.Lgs. 209/2005), testo aggiornato a cura dell'IVASS",
+          "url": "https://www.ivass.it/normativa/nazionale/primaria/cap.pdf"
+        },
+        {
+          "title": "EIOPA, Solvency II Single Rulebook – Reg. delegato (UE) 2015/35, art. 87 (BSCR)",
+          "url": "https://www.eiopa.europa.eu/rulebook/solvency-ii-single-rulebook/article-2515_en"
+        },
+        {
+          "title": "EIOPA, Solvency II Single Rulebook – Reg. delegato (UE) 2015/35, art. 82 (limiti quantitativi fondi propri)",
+          "url": "https://www.eiopa.europa.eu/rulebook/solvency-ii-single-rulebook/article-2512_en"
+        },
+        {
+          "title": "IVASS, Relazione annuale sul 2025 – Sintesi",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025_Sintesi.pdf"
+        },
+        {
+          "title": "IVASS, Relazione sull'attività svolta dall'Istituto nell'anno 2025",
+          "url": "https://www.ivass.it/pubblicazioni-e-statistiche/pubblicazioni/relazione-annuale/2026/Relazione_annuale_2025.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Componente ADJ spiegata (assorbimento delle perdite di riserve tecniche e imposte differite) e moduli del BSCR secondo il CAP, con il requisito per le attività immateriali.",
+          "source_ref": "CAP art. 45-sexies; Reg. delegato (UE) 2015/35, art. 87"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il rischio di liquidità tra i rischi da considerare nel calcolo dell'SCR. Segnalato che il CAP (art. 45-ter, c. 5) non lo include tra i rischi coperti dall'SCR: è presidiato nel sistema di gestione dei rischi (art. 30-bis). Riferimento da verificare con la fonte del materiale.",
+          "source_ref": "CAP artt. 45-ter, 30-bis"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "MCR: calibrazione all'85% su un anno, funzione lineare di variabili al netto della riassicurazione, calcolo trimestrale, soglie minime assolute (2,5 / 3,7 / 6,2 milioni di euro).",
+          "source_ref": "CAP art. 47-ter"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fondi propri di base e accessori: composizione, autorizzazione IVASS degli accessori, criteri di classificazione nei tre livelli.",
+          "source_ref": "CAP artt. 44-quater, 44-quinquies, 44-septies, 44-octies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limiti quantitativi di ammissibilità dei fondi propri per SCR (tier 1 almeno 50%, tier 3 meno del 15%, tier 2+3 non oltre 50%) e per MCR (tier 1 almeno 80%, tier 2 non oltre 20%; solo fondi di base).",
+          "source_ref": "Reg. delegato (UE) 2015/35, art. 82; CAP art. 44-decies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Scala di intervento in caso di violazione di SCR e MCR, divieto di distribuzioni e maggiorazione del capitale.",
+          "source_ref": "CAP artt. 222, 222-bis, 222-ter, 47-sexies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto della relazione sulla solvibilità e condizione finanziaria (SFCR).",
+          "source_ref": "CAP art. 47-septies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Indice medio di solvibilità del mercato italiano 2025 (273,1%; 259,4% nel 2024).",
+          "source_ref": "IVASS, Relazione annuale 2025 – Sintesi"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Revisione di Solvency II (Direttiva (UE) 2025/2, recepimento entro il 29 gennaio 2027) e Direttiva (UE) 2025/1 su risanamento e risoluzione (applicazione dal 30 gennaio 2027), come riportate dall'IVASS.",
+          "source_ref": "IVASS, Relazione annuale 2025, par. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico sulla lettura dell'indice di solvibilità con il cliente.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

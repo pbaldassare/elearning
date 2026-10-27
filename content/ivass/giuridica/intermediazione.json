@@ -1,0 +1,1009 @@
+{
+  "module": "Area giuridica",
+  "topic": "Intermediazione assicurativa e riassicurativa",
+  "topic_order": 9,
+  "scope": "60",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "La distribuzione assicurativa e il Registro degli intermediari",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Intermediazione assicurativa e riassicurativa .pdf ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Intermediazione assicurativa e riassicurativa",
+          "title": "La distribuzione assicurativa e il Registro degli intermediari",
+          "goals": [
+            "Sapere che cosa la legge considera distribuzione assicurativa e riassicurativa",
+            "Riconoscere chi può distribuire e chi non può farlo",
+            "Orientarsi tra le sei sezioni del Registro (RUI) e l'Elenco annesso"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Da dove partiamo",
+          "key": "Il 9 febbraio 2021 è entrato in vigore il D.Lgs. 30 dicembre 2020, n. 187: disposizioni integrative e correttive del D.Lgs. 68/2018, che ha attuato la direttiva (UE) 2016/97 sulla distribuzione assicurativa (IDD).",
+          "body": "Il D.Lgs. 68/2018 ha riscritto il Titolo IX del Codice delle assicurazioni private (CAP). Il D.Lgs. 187/2020 lo ha corretto e completato. Le regole di dettaglio sono nel Regolamento IVASS n. 40/2018, aggiornato più volte, da ultimo con il Provvedimento IVASS n. 169/2026.",
+          "ref": "D.Lgs. 187/2020 (GU n. 19 del 25.1.2021); Reg. IVASS 40/2018, testo consolidato"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la distribuzione assicurativa",
+          "key": "Consulenza, proposta di contratti, atti preparatori alla conclusione, conclusione dei contratti e collaborazione alla loro gestione ed esecuzione, in particolare in caso di sinistro.",
+          "body": "Rientrano anche le informazioni su uno o più contratti fornite in base a criteri scelti dal cliente, le classifiche di prodotti, il confronto tra prezzi e prodotti e lo sconto sul premio, se il cliente può stipulare il contratto tramite un sito internet o altri mezzi.",
+          "ref": "CAP, art. 106, c. 1"
+        },
+        {
+          "layout": "compare",
+          "title": "Distribuzione assicurativa e riassicurativa",
+          "cols": [
+            {
+              "title": "Assicurativa",
+              "items": [
+                "Riguarda contratti di assicurazione",
+                "Comprende consulenza, proposta, conclusione e gestione",
+                "Comprende comparatori e classifiche online se il cliente può stipulare",
+                "Può essere svolta tramite siti internet o altri mezzi"
+              ]
+            },
+            {
+              "title": "Riassicurativa",
+              "items": [
+                "Riguarda contratti di riassicurazione",
+                "Comprende consulenza, proposta e conclusione",
+                "In caso di sinistri, collaborazione alla gestione ed esecuzione",
+                "È distribuzione anche quando la svolge un riassicuratore senza intermediario"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Chi può distribuire",
+          "items": [
+            {
+              "text": "Le imprese di assicurazione e i loro dipendenti.",
+              "ref": "CAP, art. 108, c. 1"
+            },
+            {
+              "text": "Gli intermediari assicurativi, anche a titolo accessorio, e riassicurativi iscritti nel Registro.",
+              "ref": "CAP, art. 108, c. 1"
+            },
+            {
+              "text": "Gli intermediari di altri Stati membri che operano in Italia in stabilimento o libera prestazione di servizi.",
+              "ref": "CAP, art. 108, c. 3"
+            },
+            {
+              "text": "Non possono farlo gli enti pubblici, le società da essi controllate e i pubblici dipendenti a tempo pieno o con part-time oltre metà orario.",
+              "ref": "CAP, art. 108, c. 4"
+            },
+            {
+              "text": "Chi distribuisce senza essere iscritto commette esercizio abusivo dell'attività.",
+              "ref": "CAP, art. 108, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il Registro unico degli intermediari (RUI)",
+          "key": "È un registro elettronico unico in cui sono iscritti gli intermediari assicurativi, anche a titolo accessorio, e riassicurativi con residenza o sede legale in Italia. È pubblico e consultabile sul sito dell'IVASS.",
+          "body": "Il Codice affida la registrazione a un Organismo apposito. Finché il regolamento che lo rende operativo non entra in vigore, le funzioni restano all'IVASS, che tiene il Registro e decide iscrizioni e cancellazioni.",
+          "ref": "CAP, art. 109, c. 1; Reg. IVASS 40/2018, artt. 4 e 98"
+        },
+        {
+          "layout": "table",
+          "title": "Le sei sezioni del Registro",
+          "lead": "Ogni sezione corrisponde a un modo diverso di distribuire.",
+          "head": [
+            "Sezione",
+            "Chi è iscritto",
+            "Per conto di chi"
+          ],
+          "rows": [
+            [
+              "A · Agenti",
+              "Agenti di assicurazione o di riassicurazione",
+              "Agiscono in nome o per conto di una o più imprese"
+            ],
+            [
+              "B · Broker",
+              "Mediatori di assicurazione o di riassicurazione",
+              "Su incarico del cliente, senza rappresentare le imprese"
+            ],
+            [
+              "C · Produttori diretti",
+              "Intermediano nei rami vita, infortuni e malattia, anche in via sussidiaria",
+              "Per conto e sotto la piena responsabilità di una sola impresa, senza obblighi di orario o di risultato"
+            ],
+            [
+              "D · Banche e altri",
+              "Banche, intermediari finanziari, istituti di pagamento, SIM, Poste Italiane - Divisione bancoposta",
+              "Distribuiscono per le imprese con cui hanno accordi"
+            ],
+            [
+              "E · Addetti fuori sede",
+              "Dipendenti, collaboratori, produttori e altri incaricati che operano fuori dai locali",
+              "Per un intermediario iscritto nelle sezioni A, B, D o F"
+            ],
+            [
+              "F · Accessori",
+              "Intermediari a titolo accessorio",
+              "Su incarico di una o più imprese di assicurazione"
+            ]
+          ],
+          "ref": "CAP, art. 109, c. 2; Reg. IVASS 40/2018, art. 4, c. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Sezione E e sezione F da vicino",
+          "left": {
+            "title": "Sezione E",
+            "items": [
+              "Addetti che operano fuori dai locali di un intermediario A, B, D o F",
+              "Accessori che lavorano su incarico di un agente, broker o intermediario D",
+              "Addetti di un iscritto in E che operano fuori dai suoi locali",
+              "Chi lavora solo nei locali di un iscritto in E non si iscrive"
+            ],
+            "ref": "Reg. IVASS 40/2018, art. 4, c. 2, lett. e)"
+          },
+          "right": {
+            "title": "Sezione F",
+            "items": [
+              "Chi distribuisce polizze come attività accessoria alla propria attività principale",
+              "Esempi tipici: agenzie di viaggio, concessionari, negozi di elettronica",
+              "Opera su incarico diretto di una o più imprese",
+              "Si dota di presidi di separazione patrimoniale"
+            ],
+            "ref": "CAP, art. 109-bis, c. 1 e 3"
+          },
+          "note": "Gli esempi della sezione F sono illustrativi: decide la definizione di intermediario accessorio del Codice, non il settore.",
+          "noteRef": "CAP, art. 1, c. 1, lett. cc-septies)"
+        },
+        {
+          "layout": "facts",
+          "title": "Le regole del Registro",
+          "lead": "Poche regole, da conoscere bene.",
+          "facts": [
+            {
+              "label": "Una sola sezione",
+              "text": "Lo stesso intermediario non può essere iscritto in più sezioni contemporaneamente."
+            },
+            {
+              "label": "90 giorni",
+              "text": "Termine massimo per l'esame delle domande di iscrizione."
+            },
+            {
+              "label": "Inoperativi",
+              "text": "In A, B, D e F il Registro evidenzia chi è iscritto ma non opera, ad esempio perché è senza incarichi o senza polizza RC."
+            },
+            {
+              "label": "Siti internet",
+              "text": "Se un sito permette di distribuire polizze, il titolare del dominio deve essere iscritto."
+            },
+            {
+              "label": "Attestazione",
+              "text": "Su richiesta, il Registro rilascia un'attestazione di iscrizione."
+            }
+          ],
+          "ref": "CAP, art. 109, c. 2, 2-bis, 4-quinquies, 5; Reg. IVASS 40/2018, art. 4, c. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "L'Elenco annesso: gli intermediari europei",
+          "key": "Gli intermediari con sede in un altro Stato membro che operano in Italia non si iscrivono nel RUI: la loro autorità d'origine li notifica all'IVASS, che li inserisce nell'Elenco annesso al Registro.",
+          "body": "L'Elenco riporta, tra l'altro, nazionalità, regime di attività (stabilimento o libera prestazione), autorità di vigilanza d'origine, data di inizio in Italia ed eventuali divieti dell'IVASS. È consultabile sul sito dell'Istituto.",
+          "ref": "Reg. IVASS 40/2018, art. 38"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un dipendente di un agente propone polizze ai clienti a domicilio. In quale sezione deve essere iscritto?",
+          "options": [
+            "Sezione A, come l'agente",
+            "Sezione E, perché opera fuori dai locali dell'agente",
+            "Nessuna: basta l'iscrizione dell'agente",
+            "Sezione C, come i produttori diretti"
+          ],
+          "answer": 1,
+          "explanation": "Gli addetti che operano fuori dai locali di un intermediario iscritto in A, B, D o F vanno iscritti nella sezione E. La domanda la presenta l'intermediario per cui lavorano."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un concessionario di auto vuole proporre ai clienti una polizza furto e incendio collegata al veicolo venduto, su incarico diretto di un'impresa. Ha anche un sito su cui i clienti possono confrontare preventivi e acquistare la polizza.",
+          "questions": [
+            "In quale sezione del Registro si iscrive il concessionario?",
+            "Che cosa cambia se l'incarico gli arriva da un broker invece che dall'impresa?",
+            "Il sito pone un problema di iscrizione?"
+          ],
+          "solution": "Se la polizza è accessoria all'attività principale e l'incarico viene da un'impresa, il concessionario è un intermediario a titolo accessorio e va in sezione F. Se invece opera su incarico di un agente, di un broker o di un intermediario della sezione D, va in sezione E e segue le regole degli addetti. Il sito che permette di stipulare è distribuzione: il titolare del dominio deve essere iscritto al Registro."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi tiene oggi il Registro degli intermediari?",
+          "options": [
+            "Le associazioni di categoria",
+            "Ciascuna impresa per la propria rete",
+            "L'IVASS, finché non diventa operativo l'Organismo previsto dal Codice",
+            "La Camera di commercio"
+          ],
+          "answer": 2,
+          "explanation": "Il Codice prevede un Organismo per la registrazione, ma fino all'entrata in vigore del relativo regolamento le funzioni restano attribuite all'IVASS."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 106",
+              "text": "definisce la distribuzione: consulenza, proposta, conclusione, gestione, comparazione online"
+            },
+            {
+              "value": "A-F",
+              "text": "sei sezioni del RUI, una sola per intermediario"
+            },
+            {
+              "value": "90",
+              "text": "giorni al massimo per esaminare la domanda di iscrizione"
+            },
+            {
+              "value": "Elenco annesso",
+              "text": "per gli intermediari europei che operano in Italia"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa prima lezione sull'intermediazione assicurativa e riassicurativa mettiamo in ordine le basi: che cosa la legge considera distribuzione, chi può svolgerla e come è organizzato il Registro in cui gli intermediari devono essere iscritti.\n\nPartiamo dal quadro normativo. Il 9 febbraio 2021 è entrato in vigore il decreto legislativo 30 dicembre 2020, numero 187. È un decreto correttivo: integra e corregge il decreto legislativo 68 del 2018, quello con cui l'Italia ha recepito la direttiva europea 2016/97 sulla distribuzione assicurativa, la cosiddetta IDD. Il decreto 68 ha riscritto il Titolo IX del Codice delle assicurazioni private, dedicato alla distribuzione; il decreto 187 lo ha messo a punto. Le regole operative, quelle che usate tutti i giorni, sono invece nel Regolamento IVASS numero 40 del 2018. Ricordate che questo regolamento è stato modificato molte volte: il testo consolidato pubblicato dall'IVASS recepisce gli interventi fino al Provvedimento numero 169 del 2026. Quando consultate una norma, controllate sempre di avere la versione aggiornata.\n\nChe cos'è, allora, la distribuzione assicurativa? L'articolo 106 del Codice la descrive in modo ampio. Comprende la consulenza sui contratti di assicurazione, la proposta dei contratti, gli altri atti preparatori alla loro conclusione, la conclusione vera e propria e la collaborazione alla gestione e all'esecuzione dei contratti, in particolare quando c'è un sinistro. La definizione va oltre: è distribuzione anche fornire informazioni su uno o più contratti in base a criteri scelti dal cliente, preparare una classifica di prodotti, confrontare prezzi e prodotti, o offrire uno sconto sul premio, se il cliente può poi stipulare il contratto tramite un sito internet o altri mezzi. In pratica, un comparatore online da cui si arriva all'acquisto fa distribuzione assicurativa, con tutto ciò che ne consegue.\n\nLa distribuzione riassicurativa è costruita allo stesso modo, ma riguarda i contratti di riassicurazione, cioè i contratti con cui un'impresa di assicurazione trasferisce a sua volta parte dei rischi a un riassicuratore. Comprende la consulenza, la proposta e la conclusione di questi contratti e, in caso di sinistri, la collaborazione alla loro gestione ed esecuzione. Il Codice precisa che è distribuzione riassicurativa anche quella svolta direttamente da un'impresa di riassicurazione, senza un intermediario.\n\nChi può distribuire? L'articolo 108 del Codice riserva l'attività a tre categorie: le imprese di assicurazione e i loro dipendenti; gli intermediari assicurativi, anche a titolo accessorio, e riassicurativi iscritti nel Registro; gli intermediari con residenza o sede in un altro Stato membro, che operano in Italia secondo le regole europee. A parte le imprese con i loro dipendenti, nessuno può distribuire senza essere iscritto: chi lo fa esercita abusivamente l'attività e incorre nelle sanzioni previste dal Codice, che abbiamo visto nella lezione dedicata alle sanzioni. L'attività di intermediario è inoltre vietata agli enti pubblici, alle società da essi controllate e ai pubblici dipendenti a tempo pieno, oppure a tempo parziale quando l'orario supera la metà del tempo pieno. Pensate a un impiegato comunale con contratto pieno che vorrebbe arrotondare collocando polizze la sera: non può farlo.\n\nVeniamo al Registro. Il Codice prevede un registro unico elettronico in cui sono iscritti gli intermediari assicurativi, anche a titolo accessorio, e riassicurativi che hanno residenza o sede legale in Italia. Lo chiamiamo RUI, Registro unico degli intermediari. Il Codice affida la registrazione a un Organismo apposito; però, finché non entra in vigore il regolamento che lo rende operativo, le funzioni di registrazione restano all'IVASS. Per questo oggi è l'IVASS a ricevere le domande, iscrivere, cancellare e pubblicare il Registro sul proprio sito, dove chiunque può verificare se un intermediario è iscritto e in quale sezione. È un controllo che vi consiglio di suggerire anche ai clienti, quando hanno dubbi su chi si propone loro.\n\nLe sezioni del Registro sono sei. Nella sezione A ci sono gli agenti, che agiscono in nome o per conto di una o più imprese di assicurazione o di riassicurazione. Nella sezione B i mediatori, chiamati anche broker, che agiscono su incarico del cliente e senza poteri di rappresentanza delle imprese. Nella sezione C i produttori diretti: intermediano nei rami vita, infortuni e malattia, anche come attività secondaria rispetto al loro lavoro principale, per conto e sotto la piena responsabilità di una sola impresa, senza obblighi di orario o di risultato. Nella sezione D le banche, gli intermediari finanziari, gli istituti di pagamento, le società di intermediazione mobiliare e Poste Italiane, Divisione servizi di bancoposta. Nella sezione E gli addetti all'intermediazione, cioè dipendenti, collaboratori, produttori e altri incaricati che operano fuori dai locali dell'intermediario per cui lavorano. Infine, nella sezione F, gli intermediari assicurativi a titolo accessorio.\n\nSoffermiamoci sulle ultime due, che generano più dubbi. Nella sezione E si iscrivono gli addetti che lavorano fuori dai locali di un intermediario iscritto nelle sezioni A, B, D o F. Ci sono anche gli intermediari accessori che operano su incarico di un agente, di un broker o di un intermediario della sezione D, e non direttamente di un'impresa. E ci sono gli addetti di un iscritto in E che, a loro volta, operano fuori dai suoi locali. Chi lavora soltanto all'interno dei locali di un iscritto nella sezione E non deve iscriversi, ma deve comunque avere i requisiti di onorabilità e di professionalità. È l'intermediario per cui lavorano a chiedere l'iscrizione in E dei propri addetti: l'agente, inoltre, ne dà contestuale notizia all'impresa preponente.\n\nNella sezione F, invece, troviamo chi distribuisce polizze come attività accessoria rispetto alla propria attività principale, su incarico diretto di una o più imprese di assicurazione. Pensate all'agenzia di viaggi che propone la polizza annullamento, o al negozio di elettronica che offre la garanzia contro furto e danni sul telefono appena venduto. Attenzione: sono solo esempi. Quello che conta è la definizione del Codice, non il tipo di negozio. L'intermediario accessorio deve anche dotarsi di presidi di separazione patrimoniale, come gli altri intermediari: i premi incassati non si mescolano con il denaro della sua attività.\n\nIl Registro ha alcune regole generali. La prima è che lo stesso intermediario non può essere iscritto contemporaneamente in più sezioni: si sceglie una veste e la si mantiene, salvo passare ad altra sezione con l'apposita procedura. La seconda: l'IVASS esamina le domande di iscrizione entro il termine fissato dal regolamento e comunque non oltre 90 giorni dalla presentazione. La terza: nelle sezioni A, B, D e F il Registro evidenzia gli iscritti temporaneamente non operanti, per esempio un agente che non ha incarichi in corso o che non ha stipulato la polizza di responsabilità civile professionale. La quarta riguarda internet: per i siti attraverso cui si può distribuire, deve essere iscritto il titolare del dominio, e il Registro riporta i domini usati dagli intermediari. Infine, su richiesta, si può ottenere un'attestazione di iscrizione.\n\nResta il caso degli intermediari europei. Un broker con sede in un altro Paese dell'Unione può lavorare in Italia senza iscriversi al RUI, perché la sua autorità di vigilanza d'origine notifica all'IVASS l'intenzione di operare in Italia, in regime di stabilimento, cioè con una sede secondaria, o di libera prestazione di servizi. L'IVASS lo inserisce in un Elenco annesso al Registro, che riporta nome, nazionalità, regime di attività, autorità di vigilanza d'origine, data di inizio dell'attività in Italia ed eventuali provvedimenti di sospensione o divieto. Anche l'Elenco annesso è consultabile sul sito dell'IVASS.\n\nFacciamo il punto con il caso del concessionario di auto. Se la polizza è accessoria alla vendita del veicolo e l'incarico arriva direttamente da un'impresa, il concessionario è un intermediario a titolo accessorio e si iscrive in sezione F. Se invece lavora per conto di un agente o di un broker, è soggetto alle regole degli addetti e finisce in sezione E. E se il suo sito permette ai clienti di confrontare preventivi e stipulare, quella è distribuzione: il titolare del dominio deve essere iscritto.\n\nNella prossima lezione vedremo i requisiti per entrare nel Registro e restarci, e che cosa succede quando si viene cancellati."
+,
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 106, 108, 109, 109-bis, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "D.Lgs. 30 dicembre 2020, n. 187",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2020-12-30;187"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "La definizione di distribuzione assicurativa e riassicurativa è riformulata sul testo dell'art. 106 CAP: comprende anche gli atti preparatori e la conclusione dei contratti; per la riassicurazione, la conclusione dei contratti e l'attività svolta direttamente dal riassicuratore.",
+          "source_ref": "CAP, art. 106"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Riserva dell'attività e divieto per enti pubblici e pubblici dipendenti; esercizio abusivo per chi non è iscritto.",
+          "source_ref": "CAP, art. 108"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Gestione del Registro da parte dell'IVASS fino all'operatività dell'Organismo; descrizione dettagliata delle sezioni E e F; intermediari inoperativi; iscrizione del titolare del dominio; attestazione di iscrizione.",
+          "source_ref": "CAP, art. 109, c. 2-bis, 3, 5; Reg. IVASS 40/2018, artt. 4 e 98"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elenco annesso al Registro per gli intermediari di altri Stati membri.",
+          "source_ref": "Reg. IVASS 40/2018, art. 38"
+        },
+        {
+          "kind": "modificato",
+          "description": "Sezione D: il testo vigente include anche gli istituti di pagamento, non citati dalla fonte.",
+          "source_ref": "Reg. IVASS 40/2018, art. 4, c. 2, lett. d)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Il termine di 90 giorni per l'esame delle domande è confermato come termine massimo: il CAP rinvia al termine fissato dal regolamento IVASS, comunque non oltre 90 giorni.",
+          "source_ref": "CAP, art. 109, c. 4-quinquies"
+        }
+      ]
+    },
+    {
+      "title": "Requisiti di iscrizione, cancellazione e reiscrizione",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Intermediazione assicurativa e riassicurativa .pdf ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Intermediazione assicurativa e riassicurativa",
+          "title": "Requisiti di iscrizione, cancellazione e reiscrizione",
+          "goals": [
+            "Conoscere i requisiti per iscriversi nelle diverse sezioni del RUI",
+            "Sapere quando si viene cancellati dal Registro",
+            "Capire a quali condizioni ci si può iscrivere di nuovo"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Agenti e broker persone fisiche: i requisiti",
+          "items": [
+            {
+              "text": "Requisiti di onorabilità previsti dal Codice.",
+              "ref": "Reg. 40/2018, art. 10, c. 1, lett. a); CAP, art. 110"
+            },
+            {
+              "text": "Non essere pubblico dipendente a tempo pieno o con part-time oltre metà orario.",
+              "ref": "art. 10, c. 1, lett. b)"
+            },
+            {
+              "text": "Aver superato la prova di idoneità indetta dall'IVASS.",
+              "ref": "art. 10, c. 1, lett. c)"
+            },
+            {
+              "text": "Polizza di responsabilità civile professionale propria o copertura della società per cui si opera.",
+              "ref": "art. 10, c. 1, lett. d)"
+            },
+            {
+              "text": "Solo per la sezione B: adesione al Fondo di garanzia.",
+              "ref": "art. 10, c. 1, lett. e)"
+            },
+            {
+              "text": "Nessuno stretto legame che impedisca la vigilanza dell'IVASS.",
+              "ref": "art. 10, c. 1, lett. f)"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "L'onorabilità: che cosa la esclude",
+          "head": [
+            "Requisito",
+            "In concreto"
+          ],
+          "rows": [
+            [
+              "Diritti civili",
+              "Bisogna godere dei diritti civili."
+            ],
+            [
+              "Condanne",
+              "Niente condanne irrevocabili, o patteggiamenti, per i delitti indicati dal Codice, salvo riabilitazione."
+            ],
+            [
+              "Fallimento",
+              "Non essere stato dichiarato fallito, né esponente di società fallite o in liquidazione coatta nei tre esercizi precedenti. L'impedimento dura fino a cinque anni."
+            ],
+            [
+              "Misure antimafia",
+              "Non trovarsi in situazioni di decadenza, divieto o sospensione previste dalla legge antimafia."
+            ],
+            [
+              "Periti",
+              "Non essere iscritto nel ruolo dei periti assicurativi."
+            ]
+          ],
+          "ref": "CAP, art. 110, c. 1"
+        },
+        {
+          "layout": "facts",
+          "title": "La prova di idoneità",
+          "lead": "È l'esame che apre le sezioni A e B.",
+          "facts": [
+            {
+              "label": "Quando",
+              "text": "Indetta dall'IVASS, di norma una volta l'anno, con bando in Gazzetta Ufficiale."
+            },
+            {
+              "label": "Chi",
+              "text": "Serve almeno il diploma di scuola secondaria superiore o un titolo estero equivalente."
+            },
+            {
+              "label": "Come",
+              "text": "Esame scritto a risposta multipla, in tre moduli: assicurativo, riassicurativo, assicurativo e riassicurativo."
+            },
+            {
+              "label": "Soglia",
+              "text": "Supera chi ottiene almeno sessanta centesimi."
+            }
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 84"
+        },
+        {
+          "layout": "checklist",
+          "title": "La polizza RC professionale di agenti e broker",
+          "items": [
+            {
+              "text": "Copre i danni a terzi da negligenze ed errori professionali dell'intermediario, dei dipendenti e dei collaboratori, anche per infedeltà di questi ultimi."
+            },
+            {
+              "text": "Copre i danni avvenuti durante l'attività anche se denunciati nei tre anni dopo la fine della copertura."
+            },
+            {
+              "text": "Franchigie e scoperti non sono opponibili al danneggiato: l'impresa paga e poi si rivale sull'intermediario."
+            },
+            {
+              "text": "Vale in tutti gli Stati membri, con massimali almeno pari ai minimi europei."
+            },
+            {
+              "text": "Decorre dall'iscrizione e scade il 31 dicembre: si rinnova ogni anno."
+            }
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 11"
+        },
+        {
+          "layout": "split",
+          "title": "Collaboratori della sezione E",
+          "left": {
+            "title": "Che cosa devono avere",
+            "items": [
+              "Onorabilità",
+              "Nessun impiego pubblico incompatibile",
+              "Formazione professionale secondo la Parte IV del Reg. 40/2018",
+              "Almeno il diploma di scuola secondaria superiore"
+            ],
+            "ref": "Reg. IVASS 40/2018, art. 22, c. 1"
+          },
+          "right": {
+            "title": "Chi controlla",
+            "items": [
+              "L'intermediario per cui operano accerta onorabilità e formazione",
+              "Nella domanda attesta di averlo fatto",
+              "Vale documentazione non anteriore a 90 giorni dalla domanda",
+              "Per i produttori diretti accerta l'impresa"
+            ],
+            "ref": "CAP, art. 111; Reg. 40/2018, art. 22, c. 4"
+          },
+          "note": "Per agenti e broker che si avvalgono di collaboratori, la responsabilità della verifica è loro: un controllo fatto male ricade sull'intermediario.",
+          "noteRef": "CAP, art. 109, c. 4-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "Gli intermediari a titolo accessorio",
+          "key": "Il nuovo assetto del Codice impone agli intermediari accessori obblighi di formazione professionale per l'iscrizione nella sezione F e obblighi di aggiornamento professionale.",
+          "body": "Se persona fisica, deve avere onorabilità e copertura RC; se società, i requisiti delle società iscritte. Deve possedere cognizioni e capacità professionali adeguate ai prodotti distribuiti e dotarsi di presidi di separazione patrimoniale.",
+          "ref": "CAP, art. 109-bis, c. 1-3"
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando si viene cancellati",
+          "items": [
+            {
+              "text": "Radiazione, a seguito di provvedimento sanzionatorio."
+            },
+            {
+              "text": "Rinuncia all'iscrizione, su domanda."
+            },
+            {
+              "text": "Mancato esercizio dell'attività, senza giustificato motivo, per oltre tre anni."
+            },
+            {
+              "text": "Perdita di almeno uno dei requisiti per l'iscrizione."
+            },
+            {
+              "text": "Mancato versamento del contributo di vigilanza, dopo diffida dell'IVASS."
+            },
+            {
+              "text": "Perdita di efficacia della copertura RC: per le sezioni A, B ed F nel Regolamento vigente; la fonte cita A, B, E e F."
+            },
+            {
+              "text": "Mancato versamento del contributo al Fondo di garanzia: solo sezione B, dopo diffida."
+            },
+            {
+              "text": "Per la sezione D, perdita dell'autorizzazione o dell'iscrizione all'albo di appartenenza."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Tornare nel Registro",
+          "head": [
+            "Causa della cancellazione",
+            "Quando ci si può reiscrivere"
+          ],
+          "rows": [
+            [
+              "Radiazione",
+              "Dopo almeno cinque anni, con tutti i requisiti. Per A e B serve una nuova prova di idoneità."
+            ],
+            [
+              "Condanna irrevocabile",
+              "Persone fisiche: dopo la riabilitazione."
+            ],
+            [
+              "Fallimento",
+              "Persone fisiche: quando sono venute meno le incapacità personali."
+            ],
+            [
+              "Contributo di vigilanza non pagato",
+              "Dopo aver pagato quanto dovuto fino alla cancellazione."
+            ],
+            [
+              "Altre cause",
+              "Con i requisiti della sezione di destinazione e l'aggiornamento richiesto: 30 ore, 15 per gli accessori in E; dopo cinque anni, 60 ore per A e B o nuova formazione per C, E, F."
+            ]
+          ],
+          "ref": "CAP, art. 114; Reg. IVASS 40/2018, art. 31"
+        },
+        {
+          "layout": "concept",
+          "title": "Sezione E: il titolo di studio",
+          "key": "Il collaboratore cancellato dopo il 31 marzo 2021 non deve conseguire il titolo di studio per iscriversi di nuovo.",
+          "body": "Allo stesso modo, i dipendenti di un'impresa e gli addetti che lavorano nei locali dell'intermediario restano esentati dal titolo di studio se interrompono la collaborazione in essere al 31 marzo 2021 e ne avviano una nuova con un altro distributore.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "Il contributo di vigilanza",
+          "lead": "Ogni iscritto al Registro e all'Elenco annesso paga ogni anno un contributo all'IVASS. Il Codice fissa la misura massima.",
+          "head": [
+            "Chi",
+            "Misura massima"
+          ],
+          "rows": [
+            [
+              "Persone fisiche in A, B, F",
+              "100 euro"
+            ],
+            [
+              "Persone giuridiche in A, B, F",
+              "500 euro"
+            ],
+            [
+              "Persone fisiche in C",
+              "50 euro"
+            ],
+            [
+              "Persone giuridiche in D",
+              "10.000 euro"
+            ],
+            [
+              "Elenco annesso",
+              "5.000 euro enti creditizi e imprese di investimento; 250 altre persone giuridiche; 50 persone fisiche"
+            ]
+          ],
+          "ref": "CAP, art. 336, c. 1"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un broker è stato radiato. Quando può chiedere di essere iscritto di nuovo nella sezione B?",
+          "options": [
+            "Subito, se paga una sanzione",
+            "Dopo un anno, con 30 ore di aggiornamento",
+            "Dopo almeno cinque anni, con tutti i requisiti e una nuova prova di idoneità",
+            "Mai più"
+          ],
+          "answer": 2,
+          "explanation": "Dopo la radiazione servono almeno cinque anni dalla cancellazione e tutti i requisiti; per le sezioni A e B occorre anche superare di nuovo la prova di idoneità dopo il provvedimento."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un agente vuole iscrivere in sezione E una nuova collaboratrice che lavorerà fuori agenzia. Ha un diploma, ha appena finito un corso di 60 ore e consegna un certificato del casellario di quattro mesi fa.",
+          "questions": [
+            "Chi presenta la domanda di iscrizione?",
+            "Il certificato va bene?",
+            "Che cosa deve attestare l'agente?"
+          ],
+          "solution": "La domanda la presenta l'agente, dandone notizia all'impresa preponente. Il certificato no: per l'accertamento dei requisiti vale documentazione non anteriore a 90 giorni dalla trasmissione della domanda, quindi va richiesto un documento più recente. L'agente attesta di aver accertato onorabilità, assenza di incompatibilità, assenza di stretti legami ostativi e formazione conforme al Regolamento."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "60/100",
+              "text": "punteggio minimo per superare la prova di idoneità"
+            },
+            {
+              "value": "3 anni",
+              "text": "di copertura postuma nella polizza RC professionale"
+            },
+            {
+              "value": "90 giorni",
+              "text": "anzianità massima dei documenti per iscrivere un collaboratore"
+            },
+            {
+              "value": "5 anni",
+              "text": "minimo dopo la radiazione per chiedere la reiscrizione"
+            },
+            {
+              "value": "30 maggio",
+              "text": "termine annuale per determinare il contributo di vigilanza"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo che cosa serve per entrare nel Registro degli intermediari, che cosa fa perdere l'iscrizione e come si torna nel Registro dopo una cancellazione.\n\nCominciamo dagli agenti e dai broker persone fisiche, cioè le sezioni A e B. Il Regolamento IVASS 40 del 2018, all'articolo 10, elenca sei requisiti. Il primo è l'onorabilità prevista dal Codice. Il secondo è non essere pubblici dipendenti a tempo pieno, o a tempo parziale oltre la metà dell'orario. Il terzo è aver superato la prova di idoneità. Il quarto è la copertura di responsabilità civile professionale: propria, oppure quella stipulata dalla società per cui si lavora. Il quinto vale solo per i broker: l'adesione al Fondo di garanzia. Il sesto è non avere stretti legami con altre persone o società che impediscano all'IVASS di esercitare la vigilanza. Chi ha tutti i requisiti tranne la polizza RC viene iscritto lo stesso, ma come inoperativo, finché non si assicura.\n\nChe cosa significa onorabilità? L'articolo 110 del Codice la descrive in negativo. Bisogna godere dei diritti civili. Non bisogna aver riportato condanne irrevocabili, o sentenze di patteggiamento, per i delitti indicati dal Codice: per esempio delitti contro la pubblica amministrazione, la fede pubblica o il patrimonio, entro determinate soglie di pena, salvo che sia intervenuta la riabilitazione. Non bisogna essere stati dichiarati falliti, né essere stati amministratori con delega, direttori generali o sindaci di società fallite o in liquidazione coatta nei tre esercizi precedenti; questo impedimento dura fino a cinque anni dai provvedimenti. Non bisogna trovarsi nelle situazioni di decadenza, divieto o sospensione previste dalla legge antimafia. Infine, chi è iscritto nel ruolo dei periti assicurativi non può fare l'intermediario: il perito valuta i danni, e deve restare indipendente da chi vende le polizze.\n\nLa prova di idoneità è l'esame che apre le porte delle sezioni A e B. La indice l'IVASS, di norma una volta l'anno, con un provvedimento pubblicato in Gazzetta Ufficiale e sul sito dell'Istituto. Per partecipare serve almeno il diploma di scuola secondaria superiore, o un titolo estero corrispondente. È un esame scritto, con quesiti a risposta multipla, diviso in tre moduli: assicurativo, riassicurativo, oppure assicurativo e riassicurativo insieme. Per accedere al solo modulo riassicurativo bisogna avere già i requisiti professionali dell'intermediario assicurativo. Supera la prova chi ottiene almeno sessanta centesimi.\n\nLa polizza di responsabilità civile professionale merita attenzione, perché protegge i vostri clienti prima ancora che voi. Deve coprire i danni causati a terzi da negligenze ed errori professionali dell'intermediario, ma anche da negligenze, errori e infedeltà di dipendenti e collaboratori, compresi gli iscritti in sezione E. Non sono ammesse clausole che limitino o escludano questa copertura. Deve coprire i danni avvenuti durante l'attività anche se denunciati nei tre anni successivi alla fine della copertura. Le franchigie e gli scoperti non possono essere opposti al danneggiato: l'impresa risarcisce per intero, nei limiti del massimale, e poi si rivale sull'intermediario. La copertura vale in tutti gli Stati membri e i massimali devono essere almeno pari ai minimi fissati dalla normativa europea. Il contratto decorre dalla data di iscrizione e scade il 31 dicembre, con rinnovo annuale.\n\nLe società che vogliono iscriversi in A o in B hanno requisiti propri. Tra questi, devono affidare la responsabilità dell'attività di distribuzione ad almeno una persona fisica iscritta nella stessa sezione, e a un numero di responsabili adeguato alle dimensioni e alla complessità dell'attività.\n\nPassiamo ai collaboratori della sezione E. Per essere iscritti devono avere l'onorabilità, non essere pubblici dipendenti in posizione incompatibile, aver frequentato i corsi di formazione previsti dal Regolamento e avere almeno il diploma di scuola secondaria superiore. Qui il punto chiave è chi controlla. Il Codice affida la verifica all'intermediario per conto del quale il collaboratore opera: nella domanda di iscrizione l'agente o il broker attesta di aver accertato i requisiti e la formazione. Per i requisiti personali è considerato idoneo un accertamento basato su documenti con data non anteriore ai novanta giorni precedenti la domanda. Per i produttori diretti della sezione C la verifica tocca invece all'impresa. In pratica, se iscrivete un collaboratore senza controllare davvero, l'errore è vostro.\n\nGli intermediari a titolo accessorio hanno una disciplina propria. Il materiale originale del corso sottolinea che il nuovo assetto del Codice impone loro obblighi di formazione professionale per l'iscrizione nella sezione F e obblighi di aggiornamento professionale; oggi questa regola si trova nell'articolo 109-bis, che rinvia al regolamento IVASS. L'accessorio persona fisica deve avere l'onorabilità e la copertura RC; se è una società, deve rispettare i requisiti delle società iscritte. Deve inoltre dotarsi di presidi di separazione patrimoniale, come abbiamo già visto.\n\nVediamo ora la cancellazione. Il Registro cancella l'intermediario in diverse situazioni: la radiazione, che è la sanzione disciplinare più grave; la rinuncia all'iscrizione; il mancato esercizio dell'attività, senza giustificato motivo, per oltre tre anni; la perdita di almeno uno dei requisiti; il mancato versamento del contributo di vigilanza, dopo una diffida dell'IVASS rimasta senza esito. Ci sono poi cause specifiche. La perdita di efficacia della copertura RC porta alla cancellazione degli iscritti nelle sezioni A, B ed F: la fonte originale includeva anche la sezione E, ma il Regolamento vigente indica solo A, B ed F. Il mancato versamento del contributo al Fondo di garanzia, dopo diffida, riguarda solo i broker. Per la sezione D, conta la perdita dell'autorizzazione bancaria o finanziaria. Per gli iscritti in E, infine, quando l'intermediario comunica la fine del rapporto, l'IVASS cancella d'ufficio il collaboratore, a meno che lavori anche per altri intermediari.\n\nE se si vuole tornare? Il Codice e il Regolamento distinguono secondo la causa. Chi è stato radiato può chiedere di essere iscritto di nuovo solo dopo almeno cinque anni dalla cancellazione e se ha tutti i requisiti; per le sezioni A e B deve anche superare di nuovo la prova di idoneità. La persona cancellata per una condanna irrevocabile può essere reiscritta dopo la riabilitazione. Chi è stato cancellato per fallimento, quando sono venute meno le incapacità personali che ne derivano. Chi non aveva pagato il contributo di vigilanza, dopo aver pagato quanto non versato fino alla cancellazione. Negli altri casi servono i requisiti della sezione di destinazione e un aggiornamento professionale: 30 ore, ridotte a 15 per gli intermediari accessori iscritti in sezione E. Se sono passati più di cinque anni, servono 60 ore di aggiornamento per le sezioni A e B, oppure una nuova formazione completa per le sezioni C, E ed F.\n\nIl materiale originale aggiunge due regole sul titolo di studio per la sezione E. Il collaboratore cancellato dopo il 31 marzo 2021 non è tenuto a conseguire il titolo di studio per una nuova iscrizione. Allo stesso modo, i dipendenti di un'impresa e gli addetti che operano nei locali dell'intermediario restano esentati dall'obbligo del titolo di studio se interrompono la collaborazione in essere al 31 marzo 2021 e ne avviano una nuova con un altro distributore. Il 31 marzo 2021 è la data da cui si applica il Provvedimento IVASS 97 del 2020, che ha introdotto il requisito del diploma; la disposizione transitoria precisa va comunque verificata prima di applicare queste regole a un caso concreto.\n\nChiudiamo con il contributo di vigilanza. Ogni iscritto al Registro e all'Elenco annesso paga all'IVASS un contributo annuale. Il Codice ne fissa la misura massima: 100 euro per le persone fisiche e 500 euro per le persone giuridiche iscritte nelle sezioni A, B ed F; 50 euro per le persone fisiche della sezione C; 10.000 euro per le persone giuridiche della sezione D. Per l'Elenco annesso, 5.000 euro per enti creditizi e imprese di investimento, 250 euro per le altre persone giuridiche e 50 euro per le persone fisiche. L'importo effettivo è determinato entro il 30 maggio di ogni anno con decreto del Ministro dell'economia, sentito l'IVASS, e il contributo non è deducibile dal reddito dell'intermediario. Ricordate il collegamento con la cancellazione: chi non paga, dopo la diffida, perde l'iscrizione.\n\nNella prossima lezione vedremo gli obblighi di formazione e aggiornamento professionale e le regole di comportamento che accompagnano l'intermediario per tutta la sua attività."
+,
+      "sources": [
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 109, 109-bis, 110, 111, 114, 336, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "IVASS, FAQ sul Regolamento 40/2018: attività di distribuzione",
+          "url": "https://www.ivass.it/operatori/intermediari/faq/regolamento-5/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti di iscrizione di agenti e broker persone fisiche e dettaglio dei requisiti di onorabilità.",
+          "source_ref": "Reg. IVASS 40/2018, art. 10; CAP, art. 110"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Prova di idoneità: cadenza, titolo di studio, moduli, soglia di 60/100.",
+          "source_ref": "Reg. IVASS 40/2018, art. 84"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caratteristiche minime della polizza RC professionale.",
+          "source_ref": "Reg. IVASS 40/2018, art. 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti dei collaboratori di sezione E, accertamento a cura dell'intermediario, documenti non anteriori a 90 giorni; requisito del responsabile della distribuzione nelle società.",
+          "source_ref": "CAP, artt. 109 c. 4-bis e 111; Reg. IVASS 40/2018, artt. 13 e 22"
+        },
+        {
+          "kind": "modificato",
+          "description": "La fonte attribuisce al «nuovo articolo 109 del CAP» gli obblighi di formazione e aggiornamento degli intermediari accessori: nel testo vigente la regola è nell'art. 109-bis, c. 2. Mantenuta l'affermazione, con il riferimento corretto.",
+          "source_ref": "CAP, art. 109-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Cancellazione: la fonte indica l'«Organismo» come soggetto che cancella; oggi provvede l'IVASS, finché l'Organismo non è operativo. Per la perdita della copertura RC la fonte cita le sezioni A, B, E e F: il Reg. 40/2018 vigente cita A, B e F. Mantenute entrambe le indicazioni con la precisazione. Aggiunte la diffida per contributi non versati, la causa specifica della sezione D e la cancellazione d'ufficio degli iscritti in E.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 30 e 98"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Reiscrizione: prova di idoneità dopo la radiazione per A e B; ore di aggiornamento richieste (30, 15, 60) secondo il tempo trascorso.",
+          "source_ref": "Reg. IVASS 40/2018, art. 31"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte le due regole sul titolo di studio legate al 31 marzo 2021 per la sezione E. Il 31 marzo 2021 è la data di applicazione del Provv. IVASS 97/2020 (FAQ IVASS), ma la disposizione transitoria specifica non è stata trovata nel testo consolidato del Reg. 40/2018: riferimento da indicare.",
+          "source_ref": "Materiale originale; FAQ IVASS Reg. 40/2018"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contributo di vigilanza: importi massimi per le persone fisiche e giuridiche della sezione F, determinazione con decreto MEF entro il 30 maggio, non deducibilità.",
+          "source_ref": "CAP, art. 336"
+        }
+      ]
+    },
+    {
+      "title": "Formazione, aggiornamento e regole di condotta dell'intermediario",
+      "source_files": [
+        "Corso Ivass 60 ore/Materiale /Intermediazione assicurativa e riassicurativa .pdf ok.pdf"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Area giuridica · Intermediazione assicurativa e riassicurativa",
+          "title": "Formazione, aggiornamento e regole di condotta",
+          "goals": [
+            "Sapere chi deve formarsi e aggiornarsi, e per quante ore",
+            "Conoscere le regole su test, attestati ed e-learning",
+            "Ricordare i principi di condotta che accompagnano ogni vendita"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi deve formarsi",
+          "lead": "La formazione si fa prima di iniziare. L'aggiornamento, poi, ogni anno.",
+          "head": [
+            "Obbligo",
+            "Chi"
+          ],
+          "rows": [
+            [
+              "Formazione iniziale",
+              "Addetti fuori sede (sezione E), produttori diretti (C), intermediari accessori (E o F), addetti nei locali e nei call center dell'intermediario, dipendenti delle imprese coinvolti nella distribuzione e addetti ai loro call center."
+            ],
+            [
+              "Aggiornamento annuale",
+              "Tutti i soggetti tenuti alla formazione, più le persone fisiche iscritte nelle sezioni A e B."
+            ]
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 86"
+        },
+        {
+          "layout": "timeline",
+          "title": "La formazione iniziale in numeri",
+          "items": [
+            {
+              "value": "60 ore",
+              "text": "durata minima dei corsi",
+              "ref": "art. 88, c. 2"
+            },
+            {
+              "value": "12 mesi",
+              "text": "prima della domanda di iscrizione o dell'inizio dell'attività",
+              "ref": "art. 88, c. 2"
+            },
+            {
+              "value": "8 ore",
+              "text": "massimo al giorno per i corsi in aula",
+              "ref": "art. 88, c. 3"
+            },
+            {
+              "value": "5 anni",
+              "text": "di inattività al massimo perché la formazione resti valida per C, E, F",
+              "ref": "art. 88, c. 4"
+            }
+          ]
+        },
+        {
+          "layout": "timeline",
+          "title": "L'aggiornamento in numeri",
+          "items": [
+            {
+              "value": "30 ore",
+              "text": "all'anno, come minimo",
+              "ref": "art. 89, c. 4"
+            },
+            {
+              "value": "15 ore",
+              "text": "all'anno per gli accessori in sezione E e i loro addetti nei locali",
+              "ref": "art. 89, c. 5"
+            },
+            {
+              "value": "1 gennaio",
+              "text": "dell'anno dopo l'iscrizione o l'inizio dell'attività: da lì parte l'obbligo",
+              "ref": "art. 89, c. 2"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Quando l'aggiornamento si sospende",
+          "left": {
+            "title": "Cause di sospensione",
+            "items": [
+              "Iscritti in A, B o F temporaneamente non operanti che l'hanno comunicato",
+              "Gravidanza, dal terzo mese prima del parto a un anno dopo",
+              "Doveri di maternità o paternità con figli minori",
+              "Grave malattia o infortunio, per la durata dell'impedimento",
+              "Addetti assenti per oltre 6 mesi o destinati ad altro incarico"
+            ],
+            "ref": "Reg. IVASS 40/2018, art. 89, c. 6"
+          },
+          "right": {
+            "title": "Alla ripresa",
+            "items": [
+              "Almeno 30 ore di aggiornamento prima di ricominciare",
+              "15 ore per gli accessori in E e i loro addetti nei locali",
+              "Valgono le ore già fatte se si riprende entro l'anno dopo la sospensione",
+              "Il nuovo obbligo annuale parte dal 1° gennaio successivo"
+            ],
+            "ref": "Reg. IVASS 40/2018, art. 89, c. 7"
+          },
+          "note": "La sospensione non è automatica: chi è inoperativo deve averlo comunicato al Registro.",
+          "noteRef": "art. 89, c. 6, lett. a); art. 43"
+        },
+        {
+          "layout": "steps",
+          "title": "Dal corso all'attestato",
+          "steps": [
+            {
+              "label": "Frequenza completa",
+              "text": "Al test è ammesso solo chi ha frequentato tutte le ore del corso."
+            },
+            {
+              "label": "Identificazione",
+              "text": "Chi ha tenuto il corso verifica l'identità esatta dei partecipanti."
+            },
+            {
+              "label": "Test",
+              "text": "Domande a scelta multipla, risposta singola. Per la formazione iniziale si svolge solo in aula, senza supporti né cellulari."
+            },
+            {
+              "label": "60%",
+              "text": "Il test è superato con il 60% di risposte corrette."
+            },
+            {
+              "label": "Attestato",
+              "text": "Indica chi ha organizzato il corso, docenti, ore, argomenti ed esito. Può essere digitale."
+            }
+          ],
+          "ref": "Reg. IVASS 40/2018, art. 90"
+        },
+        {
+          "layout": "checklist",
+          "title": "Aula ed equivalenti: le regole dell'e-learning",
+          "items": [
+            {
+              "text": "Videoconferenza, webinar ed e-learning sono equivalenti all'aula.",
+              "ref": "art. 91, c. 1"
+            },
+            {
+              "text": "Serve identificare i partecipanti e tracciare tempi di erogazione e fruizione.",
+              "ref": "art. 91, c. 2"
+            },
+            {
+              "text": "La piattaforma traccia secondo lo standard SCORM o equivalente e impedisce accessi simultanei.",
+              "ref": "art. 93"
+            },
+            {
+              "text": "Il corso ha un tempo minimo di fruizione e non si può accelerare.",
+              "ref": "art. 94, lett. b)"
+            },
+            {
+              "text": "Verifiche casuali durante il corso e test per ogni modulo condizionano l'accesso al modulo successivo.",
+              "ref": "art. 94, lett. d) e f)"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa si studia e con chi",
+          "key": "Formazione e aggiornamento servono a dare consulenza professionale, valutare la coerenza dei prodotti con le esigenze del cliente e assisterlo prima e durante il contratto.",
+          "body": "I contenuti seguono le aree tematiche dell'allegato 6 del Regolamento. I corsi li tengono o li organizzano imprese e intermediari A, B, D, anche con formatori qualificati. Le ore svolte per OAM, OCF o secondo il Regolamento Intermediari CONSOB possono valere anche qui, se conformi.",
+          "ref": "Reg. IVASS 40/2018, artt. 87, 89-bis, 95, 96"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un agente persona fisica, iscritto in sezione A a marzo 2025. Da quando deve fare l'aggiornamento annuale?",
+          "options": [
+            "Da marzo 2025",
+            "Dal 1° gennaio 2026",
+            "Dopo cinque anni dall'iscrizione",
+            "Non deve farlo, perché ha superato la prova di idoneità"
+          ],
+          "answer": 1,
+          "explanation": "L'aggiornamento si svolge ogni anno a partire dal 1° gennaio dell'anno successivo all'iscrizione. Gli iscritti in A e B sono sempre tenuti all'aggiornamento, anche se hanno superato la prova di idoneità."
+        },
+        {
+          "layout": "concept",
+          "title": "Le regole di comportamento",
+          "key": "I distributori operano con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti. Le informazioni sono chiare, non fuorvianti, imparziali e complete.",
+          "body": "Non ricevono né offrono ai dipendenti compensi basati su criteri contrari a questo dovere. Mantengono presidi organizzativi efficaci per evitare che i conflitti di interesse danneggino i contraenti. Il dettaglio di queste regole è nella lezione sul Regolamento IVASS 40/2018.",
+          "ref": "CAP, art. 119-bis"
+        },
+        {
+          "layout": "concept",
+          "title": "La vendita abbinata",
+          "key": "Quando la polizza è venduta insieme a un prodotto non assicurativo, l'intermediario deve descrivere in modo adeguato le diverse componenti in ogni caso, anche se il cliente sceglie di acquistarle separatamente.",
+          "body": "Le misure cautelari e interdittive dell'IVASS si applicano indipendentemente dal fatto che l'accessorietà riguardi la polizza o il prodotto o servizio diverso dall'assicurazione.",
+          "ref": "CAP, art. 120-quinquies; materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Trasparenza RC auto e controversie",
+          "left": {
+            "title": "RC auto e natanti",
+            "items": [
+              "Le imprese mettono a disposizione, in ogni punto vendita e sul sito, il documento informativo e le condizioni di contratto",
+              "L'intermediario informa prima il cliente sulle provvigioni ricevute",
+              "Le regole di comportamento valgono nell'offerta dei contratti, non solo nell'esecuzione"
+            ],
+            "ref": "CAP, art. 131"
+          },
+          "right": {
+            "title": "Controversie",
+            "items": [
+              "Il ricorso all'Arbitro per le controversie assicurative è alternativo a mediazione e negoziazione assistita",
+              "Il funzionamento dell'Arbitro è trattato nella lezione sui sistemi alternativi"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Per l'RC auto preventivi e polizze indicano in modo evidente premio di tariffa, provvigione e sconto.",
+          "noteRef": "CAP, art. 131, c. 2-ter"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una collaboratrice in sezione E rientra a settembre dopo il congedo di maternità. Nel periodo di sospensione aveva già fatto 10 ore di aggiornamento. L'agenzia vuole che riprenda subito a incontrare clienti.",
+          "questions": [
+            "Può riprendere senza altri corsi?",
+            "Le 10 ore già fatte contano?",
+            "Da quando riparte l'obbligo annuale?"
+          ],
+          "solution": "Prima di riprendere deve completare un aggiornamento di almeno 30 ore. Se riprende nello stesso anno della sospensione o in quello successivo, le ore già svolte restano valide: le servono quindi altre 20 ore. Il nuovo obbligo annuale di 30 ore decorre dal 1° gennaio dell'anno successivo alla ripresa."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di queste affermazioni sul test finale dei corsi è corretta?",
+          "options": [
+            "Il test della formazione iniziale si può fare da casa",
+            "Si supera con il 50% di risposte corrette",
+            "Possono farlo solo coloro che hanno frequentato tutte le ore del corso",
+            "Le domande devono essere uguali per tutti i partecipanti"
+          ],
+          "answer": 2,
+          "explanation": "Al test è ammesso solo chi ha frequentato interamente il corso. La soglia è il 60%, il test della formazione iniziale si svolge solo in aula e le domande possono essere estratte a caso per ciascun partecipante."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "60 ore",
+              "text": "di formazione nei 12 mesi prima di iniziare"
+            },
+            {
+              "value": "30 ore",
+              "text": "di aggiornamento ogni anno, 15 per gli accessori in E"
+            },
+            {
+              "value": "60%",
+              "text": "di risposte corrette per superare il test"
+            },
+            {
+              "value": "Miglior interesse",
+              "text": "del contraente: il criterio di ogni regola di condotta"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa ultima lezione sull'intermediazione parliamo di due cose che vi accompagnano per tutta la vita professionale: la formazione, con il suo aggiornamento annuale, e le regole di comportamento verso i clienti.\n\nIniziamo da chi deve formarsi. Il Regolamento IVASS 40 del 2018, all'articolo 86, distingue due obblighi. La formazione iniziale riguarda gli addetti che operano fuori dai locali dell'intermediario, per iscriversi in sezione E; i produttori diretti, per la sezione C; gli intermediari a titolo accessorio, per le sezioni E o F; gli addetti che lavorano nei locali dell'intermediario e nei suoi call center, prima di iniziare; i dipendenti delle imprese direttamente coinvolti nella distribuzione e gli addetti dei call center delle imprese. L'aggiornamento professionale riguarda tutte queste persone e, in più, le persone fisiche iscritte nelle sezioni A e B, cioè agenti e broker. Notate la logica: agenti e broker dimostrano la propria preparazione con la prova di idoneità, gli altri con la formazione iniziale; poi tutti devono mantenere aggiornate le competenze.\n\nChi organizza i corsi? Dipende dalla posizione. Imprese e intermediari delle sezioni A, B e D tengono direttamente o organizzano i corsi per i propri collaboratori di sezione E e per gli addetti che lavorano nei loro locali. Le imprese preponenti organizzano i corsi per i produttori diretti, per gli intermediari accessori della sezione F e per i propri dipendenti. Per agenti e broker, l'aggiornamento è tenuto dalle imprese oppure organizzato dalle imprese o dagli stessi intermediari, servendosi di soggetti formatori con i requisiti previsti.\n\nVediamo i numeri della formazione iniziale. Consiste nella partecipazione a corsi di almeno 60 ore, svolti nei dodici mesi che precedono la domanda di iscrizione o l'inizio dell'attività, in aula o con modalità equivalenti. I corsi in aula non possono superare le otto ore al giorno, e il numero dei partecipanti deve permettere un apprendimento effettivo. La formazione deve essere pertinente all'attività da svolgere e ai contratti da distribuire, e deve dare conoscenze teoriche aggiornate, competenze tecnico-operative e capacità di comunicare correttamente con la clientela. Una volta acquisita, resta valida per la reiscrizione nelle sezioni C, E o F o per riprendere l'attività, purché l'inattività non duri più di cinque anni.\n\nL'aggiornamento serve ad approfondire e accrescere le competenze, tenendo conto dell'attività svolta, dei prodotti intermediati, dell'evoluzione delle norme e delle prospettive di sviluppo. Consiste in corsi di almeno 30 ore all'anno. Per gli intermediari accessori iscritti in sezione E e per i loro addetti che operano nei locali bastano 15 ore annue. L'obbligo parte dal 1° gennaio dell'anno successivo all'iscrizione o all'inizio dell'attività. Inoltre l'aggiornamento va fatto in ogni caso quando cambia la normativa di riferimento e, per la rete diretta, quando l'impresa mette in commercio nuovi prodotti. Se un intermediario passa dall'attività accessoria a quella principale, o viceversa, conta l'attività svolta in modo prevalente nell'anno.\n\nCi sono situazioni in cui l'aggiornamento si sospende. Vale per gli iscritti nelle sezioni A, B o F temporaneamente non operanti, che abbiano comunicato l'inizio del periodo di inattività. Vale in caso di gravidanza, dall'inizio del terzo mese prima della data prevista del parto fino a un anno dopo, salvo ulteriori esoneri per ragioni di salute, e per i doveri legati a maternità o paternità con figli minori. Vale per grave malattia o infortunio, per la durata dell'impedimento. E vale per gli addetti nei locali, nei call center e per i dipendenti delle imprese assenti per oltre sei mesi per altre cause o destinati ad altro incarico. Prima di riprendere servono almeno 30 ore di aggiornamento, oppure 15 per gli accessori in E e i loro addetti. Se l'attività riprende nello stesso anno della sospensione o in quello successivo, le ore fatte prima restano valide. Il nuovo obbligo annuale riparte dal 1° gennaio dell'anno dopo la ripresa. È proprio il caso della collaboratrice che rientra dalla maternità: con 10 ore già svolte, prima di tornare dai clienti gliene servono altre 20.\n\nCome si chiude un corso? Ogni corso di formazione o di aggiornamento termina con un test di verifica. Al test è ammesso solo chi dimostra di aver frequentato tutte le ore previste. Il test lo svolge lo stesso soggetto che ha tenuto il corso, dopo aver accertato l'identità esatta dei partecipanti. È un questionario a scelta multipla con una sola risposta corretta per domanda; le domande devono essere adeguate per numero e difficoltà, non devono ripetersi sempre uguali e possono essere estratte a caso da un archivio ampio, con sequenze diverse per ogni partecipante. Per la formazione iniziale il test si svolge solo in aula, senza appunti, supporti elettronici o cellulari. Si supera con il 60 per cento di risposte corrette. Chi lo supera riceve sempre un attestato, anche digitale, che indica chi ha organizzato il corso, l'eventuale ente formatore, i docenti con i loro requisiti, le ore, gli argomenti e l'esito positivo. Chi organizza conserva programma, nomi dei docenti, verbale del test e questionario.\n\nC'è un dettaglio che vi riguarda direttamente, perché state seguendo un corso a distanza. Il Regolamento considera equivalenti all'aula solo videoconferenza, webinar ed e-learning, e pone condizioni precise. Chi eroga il corso deve identificare i partecipanti, garantire l'interattività e tracciare i tempi di erogazione e di fruizione, con report su accessi, durata, avanzamento e materiali visti. Le piattaforme di e-learning tracciano la fruizione secondo lo standard SCORM o equivalente, impediscono collegamenti simultanei dello stesso utente, fissano un tempo minimo di fruizione senza possibilità di accelerare, prevedono verifiche casuali durante il corso e test per ogni modulo, dal cui esito dipende l'accesso al modulo successivo. Ecco perché in questo corso trovate verifiche lungo il percorso e un tempo di studio che corrisponde al contenuto reale.\n\nChe cosa si studia? Formazione e aggiornamento devono dare le competenze per fornire consulenza professionale, valutare se un prodotto è coerente con le esigenze assicurative e previdenziali del cliente, nell'ottica della sua protezione, e assisterlo sia prima sia durante il contratto. I contenuti sono nozioni giuridiche, tecniche, fiscali ed economiche, organizzate secondo le aree tematiche dell'allegato 6 del Regolamento. La formazione iniziale copre tutte le aree in generale; l'aggiornamento sceglie ogni anno moduli di approfondimento in base al ruolo, alla sezione del Registro e ai prodotti distribuiti. Chi vende prodotti di investimento assicurativi deve avere competenze adeguate alla loro complessità; chi vende a distanza deve conoscere le tecnologie usate. E una buona notizia per chi ha più iscrizioni: le ore svolte per gli elenchi dell'OAM, per l'albo dei consulenti finanziari o secondo il Regolamento Intermediari CONSOB possono valere anche ai fini assicurativi, se conformi alla disciplina IVASS e alle materie dell'allegato 6.\n\nPassiamo alle regole di condotta, che il materiale originale richiama in sintesi. I distributori devono operare con equità, onestà, professionalità, correttezza e trasparenza nel miglior interesse dei contraenti. Le informazioni devono essere chiare, non fuorvianti, imparziali e complete. I distributori non ricevono un compenso, e non offrono un compenso ai loro dipendenti, sulla base di criteri contrari al dovere di agire nel migliore interesse dei contraenti: ad esempio, un obiettivo di vendita che spinga a proporre un prodotto quando un altro risponderebbe meglio alle esigenze del cliente. E devono mantenere presidi organizzativi e amministrativi efficaci per adottare tutte le misure ragionevoli volte a evitare che i conflitti di interesse danneggino i contraenti. Queste regole sono sviluppate nel dettaglio nella lezione dedicata al Regolamento IVASS 40 del 2018: qui ci basta ricordare che valgono per tutti i distributori, in ogni sezione.\n\nSulla vendita abbinata, il materiale originale sottolinea un punto: quando la polizza è venduta insieme a un prodotto non assicurativo, l'intermediario deve fornire una descrizione adeguata delle diverse componenti in tutte le circostanze, quindi anche se il cliente sceglie di acquistarle separatamente. Inoltre le misure cautelari e interdittive dell'IVASS si possono applicare indipendentemente dal fatto che l'accessorietà riguardi l'assicurazione oppure il servizio o prodotto diverso. Il Codice, all'articolo 120-quinquies, chiede anche di informare il cliente dell'eventuale possibilità di acquistare separatamente le componenti, con i giustificativi separati dei costi.\n\nC'è poi la trasparenza nell'RC auto. Per garantire concorrenza e un'informazione adeguata a chi deve assicurare veicoli e natanti, le imprese mettono a disposizione del pubblico, in ogni punto vendita e sui siti internet, il documento informativo e le condizioni di contratto praticate in Italia. L'intermediario, a sua volta, informa prima il consumatore sulle provvigioni che riceve, e preventivi e polizze indicano in modo evidente premio di tariffa, provvigione e sconto. Il materiale originale ricorda che le regole di comportamento si applicano non solo nell'esecuzione dei contratti ma anche nella loro offerta: il rapporto corretto con il cliente comincia dal primo preventivo.\n\nUltimo punto, le controversie. Secondo il materiale originale, il ricorso all'Arbitro per le controversie assicurative è alternativo all'esperimento delle procedure di mediazione e di negoziazione assistita. Il funzionamento dell'Arbitro, operativo dal 15 gennaio 2026, è spiegato nella lezione sui sistemi alternativi di risoluzione delle controversie.\n\nIn sintesi: 60 ore di formazione prima di cominciare, 30 ore di aggiornamento ogni anno, 15 per gli accessori in sezione E, test superato con il 60 per cento, e sempre il miglior interesse del cliente come bussola."
+,
+      "sources": [
+        {
+          "title": "Regolamento IVASS n. 40 del 2 agosto 2018, testo consolidato (Parte IV, artt. 84-96)",
+          "url": "https://www.ivass.it/normativa/nazionale/secondaria-ivass/regolamenti/2018/n40/Regolamento_IVASS_40_del_2_agosto_2018_consolidato.pdf"
+        },
+        {
+          "title": "D.Lgs. 7 settembre 2005, n. 209 (Codice delle assicurazioni private), artt. 119-bis, 120-quinquies, 131, testo vigente",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-09-07;209"
+        },
+        {
+          "title": "IVASS, FAQ Formazione e aggiornamento",
+          "url": "https://www.ivass.it/operatori/intermediari/faq/regolamento-6/index.html"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Soggetti tenuti alla formazione e all'aggiornamento e soggetti che organizzano i corsi.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 86-87"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Formazione iniziale: 60 ore nei 12 mesi precedenti, massimo 8 ore al giorno in aula, validità fino a 5 anni di inattività.",
+          "source_ref": "Reg. IVASS 40/2018, art. 88"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiornamento: 30 ore annue (15 per accessori in sezione E), decorrenza, sospensioni e ripresa.",
+          "source_ref": "Reg. IVASS 40/2018, art. 89"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Test di verifica, soglia del 60%, attestato e documentazione; modalità equivalenti all'aula e requisiti delle piattaforme e-learning; contenuti minimi, soggetti formatori, riconoscimento delle ore OAM, OCF e CONSOB.",
+          "source_ref": "Reg. IVASS 40/2018, artt. 89-bis, 90-96"
+        },
+        {
+          "kind": "modificato",
+          "description": "Regole di comportamento e conflitti di interesse: mantenute dalla fonte con il riferimento all'art. 119-bis CAP; il dettaglio è rinviato alla lezione sul Reg. IVASS 40/2018 (prodotti di investimento) per evitare doppioni.",
+          "source_ref": "CAP, art. 119-bis"
+        },
+        {
+          "kind": "modificato",
+          "description": "Vendita abbinata: mantenute dalla fonte l'affermazione sulla descrizione delle componenti e quella sulle misure cautelari e interdittive dell'IVASS (riferimento normativo di quest'ultima da indicare); aggiunto l'obbligo di informare sulla possibilità di acquisto separato.",
+          "source_ref": "CAP, art. 120-quinquies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Trasparenza RC auto: informativa sulle provvigioni ed evidenza di premio, provvigione e sconto in preventivi e polizze.",
+          "source_ref": "CAP, art. 131, c. 2-bis e 2-ter"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il ricorso all'Arbitro per le controversie assicurative è alternativo a mediazione e negoziazione assistita. Riferimento normativo da indicare; il funzionamento dell'Arbitro è nella lezione sugli ADR.",
+          "source_ref": "Materiale originale"
+        }
+      ]
+    }
+  ]
+}
