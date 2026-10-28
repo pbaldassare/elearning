@@ -1,7 +1,7 @@
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useAuth, type Role } from './auth';
-import { Card, Logo } from './ui';
+import { btn, Card, Logo } from './ui';
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
@@ -14,10 +14,11 @@ import Audit from './pages/admin/Audit';
 import Player from './player/Player';
 import Quiz from './player/Quiz';
 import Questions from './pages/admin/Questions';
+import Reports from './pages/Reports';
 
 const nav: Record<Role, [string, string][]> = {
-  admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/domande', 'Domande'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/registro', 'Registro']],
-  azienda: [['/', 'Corsi'], ['/corsisti', 'Corsisti']],
+  admin: [['/', 'Corsi'], ['/contenuti', 'Contenuti'], ['/domande', 'Domande'], ['/aziende', 'Aziende'], ['/corsisti', 'Corsisti'], ['/report', 'Report'], ['/registro', 'Registro']],
+  azienda: [['/', 'Corsi'], ['/corsisti', 'Corsisti'], ['/report', 'Report']],
   corsista: [['/', 'I miei corsi']],
 };
 
@@ -28,11 +29,13 @@ function Only({ roles, children }: { roles: Role[]; children: ReactNode }) {
 }
 
 const linkCls = ({ isActive }: { isActive: boolean }) =>
-  `rounded-lg px-3 py-1.5 font-medium ${isActive ? 'bg-brand-soft text-brand-strong' : 'text-ink-muted hover:text-ink'}`;
+  `block rounded-lg px-3 py-2 font-medium ${isActive ? 'bg-brand-soft text-brand-strong' : 'text-ink-muted hover:text-ink'}`;
 
 function Layout() {
   const { session, who, loading, signOut, stopImpersonation } = useAuth();
   const { pathname } = useLocation();
+  const [menu, setMenu] = useState(false);
+  useEffect(() => setMenu(false), [pathname]);
 
   if (loading) return null;
   if (!session) return <Navigate to="/accedi" replace />;
@@ -47,31 +50,39 @@ function Layout() {
   if (who.force_password_change && pathname !== '/profilo') return <Navigate to="/profilo" replace />;
 
   return (
-    <>
-      {who.impersonating && (
-        <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white">
-          <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
-          <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>
-            Esci da impersonificazione
-          </button>
-        </div>
-      )}
-      <header className="border-b border-line bg-white">
-        <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3">
-          <Link to="/" aria-label="D-Academy, home"><Logo /></Link>
-          <div className="order-last flex w-full flex-wrap gap-1 text-sm sm:order-none sm:w-auto">
-            {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
-          </div>
-          <div className="ml-auto flex gap-1 text-sm">
-            <NavLink to="/profilo" className={linkCls}>Profilo</NavLink>
-            <button className="rounded-lg px-3 py-1.5 font-medium text-ink-muted hover:text-ink" onClick={signOut}>Esci</button>
-          </div>
+    <div className="lg:flex">
+      {/* Barra laterale: fissa da desktop, a scomparsa (pulsante Menu) sul telefono. */}
+      <div className="flex items-center justify-between border-b border-line bg-white px-4 py-3 lg:hidden print:hidden">
+        <Link to="/" aria-label="D-Academy, home"><Logo /></Link>
+        <button className={btn.ghost} aria-expanded={menu} aria-controls="sidebar" onClick={() => setMenu(!menu)}>Menu</button>
+      </div>
+      {menu && <div className="fixed inset-0 z-20 bg-ink/40 lg:hidden" onClick={() => setMenu(false)} aria-hidden />}
+      <aside id="sidebar"
+             className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-white p-4 transition-transform lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'translate-x-0' : '-translate-x-full'}`}>
+        <Link to="/" aria-label="D-Academy, home" className="mb-6 px-3"><Logo /></Link>
+        <nav className="flex-1 space-y-1 overflow-y-auto text-sm" aria-label="Principale">
+          {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
         </nav>
-      </header>
-      <main className="mx-auto max-w-6xl px-4 py-8">
-        <Outlet />
-      </main>
-    </>
+        <div className="space-y-1 border-t border-line pt-3 text-sm">
+          <p className="truncate px-3 pb-1 text-ink-muted">{who.profile.first_name} {who.profile.last_name}</p>
+          <NavLink to="/profilo" className={linkCls}>Profilo</NavLink>
+          <button className="block w-full rounded-lg px-3 py-2 text-left font-medium text-ink-muted hover:text-ink" onClick={signOut}>Esci</button>
+        </div>
+      </aside>
+      <div className="min-w-0 flex-1">
+        {who.impersonating && (
+          <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white print:hidden">
+            <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
+            <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>
+              Esci da impersonificazione
+            </button>
+          </div>
+        )}
+        <main className="mx-auto max-w-6xl px-4 py-8 lg:px-8">
+          <Outlet />
+        </main>
+      </div>
+    </div>
   );
 }
 
@@ -90,6 +101,7 @@ export default function App() {
         <Route path="/corsisti" element={<Only roles={['admin', 'azienda']}><People /></Only>} />
         <Route path="/contenuti" element={<Only roles={['admin']}><Content /></Only>} />
         <Route path="/aziende" element={<Only roles={['admin']}><Companies /></Only>} />
+        <Route path="/report" element={<Only roles={['admin', 'azienda']}><Reports /></Only>} />
         <Route path="/registro" element={<Only roles={['admin']}><Audit /></Only>} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
