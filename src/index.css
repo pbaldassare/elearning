@@ -62,15 +62,18 @@
   --shadow-lift: var(--lift);
 }
 
-/* Un colore per area del corso (posizione del modulo), sempre con nome accanto. */
-:root, .area-1 { --area: #0369a1; --area-soft: #e0f2fe; --area-a: #38bdf8; --area-b: #0284c7 }
-.area-2 { --area: #6d28d9; --area-soft: #ede9fe; --area-a: #a78bfa; --area-b: #7c3aed }
-.area-3 { --area: #c2410c; --area-soft: #ffedd5; --area-a: #ff8a3d; --area-b: #ea580c }
-.area-4 { --area: #047857; --area-soft: #d1fae5; --area-a: #34d399; --area-b: #059669 }
-[data-theme='dark'], [data-theme='dark'] .area-1 { --area: #38bdf8; --area-soft: #354f5e }
-[data-theme='dark'] .area-2 { --area: #a78bfa; --area-soft: #48405f }
-[data-theme='dark'] .area-3 { --area: #ff8a3d; --area-soft: #584033 }
-[data-theme='dark'] .area-4 { --area: #34d399; --area-soft: #2c4c44 }
+/* Un colore per area del corso (posizione del modulo), sempre con nome accanto.
+   IVASS: 1 contrattuale rosa, 2 giuridica blu, 3 tecnica viola, 4 amministrativa arancio, 5 informatica verde. */
+:root, .area-1 { --area: #be185d; --area-soft: #fce7f3; --area-a: #f472b6; --area-b: #db2777 }
+.area-2 { --area: #0369a1; --area-soft: #e0f2fe; --area-a: #38bdf8; --area-b: #0284c7 }
+.area-3 { --area: #6d28d9; --area-soft: #ede9fe; --area-a: #a78bfa; --area-b: #7c3aed }
+.area-4 { --area: #c2410c; --area-soft: #ffedd5; --area-a: #ff8a3d; --area-b: #ea580c }
+.area-5 { --area: #047857; --area-soft: #d1fae5; --area-a: #34d399; --area-b: #059669 }
+[data-theme='dark'], [data-theme='dark'] .area-1 { --area: #f472b6; --area-soft: #5a3446 }
+[data-theme='dark'] .area-2 { --area: #38bdf8; --area-soft: #354f5e }
+[data-theme='dark'] .area-3 { --area: #a78bfa; --area-soft: #48405f }
+[data-theme='dark'] .area-4 { --area: #ff8a3d; --area-soft: #584033 }
+[data-theme='dark'] .area-5 { --area: #34d399; --area-soft: #2c4c44 }
 .area-block { background-image: linear-gradient(135deg, var(--area-a), var(--area-b)); color: #fff }
 
 body {

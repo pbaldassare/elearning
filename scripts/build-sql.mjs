@@ -13,8 +13,8 @@ const DEMO = ' – dimostrazione';
 const LIBS = {
   ivass: {
     name: 'IVASS', prefix: '', excel: 'test finale ivass 2023.xlsx',
-    areas: ['giuridica', 'tecnica', 'amministrativa', 'informatica'],
-    modules: ['Area giuridica', 'Area tecnica assicurativa e riassicurativa', 'Area amministrativa e gestionale', 'Area informatica'],
+    areas: ['contrattuale', 'giuridica', 'tecnica', 'amministrativa', 'informatica'],
+    modules: ['Area contrattuale e prodotti', 'Area giuridica', 'Area tecnica assicurativa e riassicurativa', 'Area amministrativa e gestionale', 'Area informatica'],
     courses: { core: ['IVASS 30 ore', 'IVASS 60 ore', 'IVASS 30 ore' + DEMO, 'IVASS 60 ore' + DEMO], 60: ['IVASS 60 ore', 'IVASS 60 ore' + DEMO] },
   },
   privacy: {

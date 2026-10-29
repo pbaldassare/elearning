@@ -1,7 +1,7 @@
 {
-  "module": "Area tecnica assicurativa e riassicurativa",
+  "module": "Area contrattuale e prodotti",
   "topic": "Condizioni contrattuali delle polizze vita",
-  "topic_order": 6,
+  "topic_order": 3,
   "scope": "60",
   "source_minutes": 0,
   "lessons": [
@@ -15,7 +15,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Funzione, soggetti e forme dell'assicurazione vita",
           "goals": [
             "Riconoscere le tre funzioni di una polizza vita: previdenza, risparmio, investimento",
@@ -390,7 +390,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Le basi tecniche: tre ipotesi, premio e riserva matematica",
           "goals": [
             "Capire perché l'assicuratore vita deve stimare i costi prima di conoscerli",
@@ -693,7 +693,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Le forme caso morte: temporanea e vita intera",
           "goals": [
             "Scegliere tra le varianti della temporanea caso morte",
@@ -1050,7 +1050,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Miste, forme caso vita e opzioni di rendita",
           "goals": [
             "Distinguere mista ordinaria e mista a termine fisso",
@@ -1368,7 +1368,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Le assicurazioni rivalutabili: gestione separata e retrocessione",
           "goals": [
             "Capire perché sono nate le polizze rivalutabili",
@@ -1699,7 +1699,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Tasso tecnico, rendimento minimo, consolidamento e rendicontazione",
           "goals": [
             "Spiegare il tasso tecnico e il suo legame con il rendimento minimo garantito",
@@ -1990,7 +1990,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Le opzioni contrattuali: riduzione, riscatto, sospensione, riattivazione e trasformazione",
           "goals": [
             "Sapere che cosa succede quando il cliente smette di pagare i premi",
@@ -2357,7 +2357,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze vita",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze vita",
           "title": "Prestito, cessione, pegno e vincolo; beneficiari e polizze dormienti",
           "goals": [
             "Usare prestito su polizza, cessione, pegno e vincolo",

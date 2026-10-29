@@ -1,7 +1,7 @@
 {
-  "module": "Area tecnica assicurativa e riassicurativa",
+  "module": "Area contrattuale e prodotti",
   "topic": "Condizioni contrattuali delle polizze danni",
-  "topic_order": 5,
+  "topic_order": 1,
   "scope": "60",
   "source_minutes": 0,
   "lessons": [
@@ -15,7 +15,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "Leggere una polizza danni",
           "goals": [
             "Capire perché, nei danni, sono le condizioni a definire la copertura",
@@ -415,7 +415,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "I valori nelle assicurazioni di beni",
           "goals": [
             "Distinguere valore assicurabile, valore assicurato, massimo danno possibile e MPL",
@@ -746,7 +746,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "Le forme di garanzia per le cose",
           "goals": [
             "Calcolare l'indennizzo a valore intero, a primo rischio assoluto e a primo rischio relativo",
@@ -1060,7 +1060,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "Franchigie, scoperti e massimali",
           "goals": [
             "Calcolare l'effetto di franchigia assoluta, relativa e temporale",
@@ -1377,7 +1377,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "La polizza infortuni",
           "goals": [
             "Applicare la definizione contrattuale di infortunio a casi concreti",
@@ -1699,7 +1699,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "La polizza malattia",
           "goals": [
             "Distinguere le tre prestazioni tipiche della polizza malattia",
@@ -2037,7 +2037,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "La RC generale nel contratto",
           "goals": [
             "Individuare gli elementi che fissano i confini economici di una polizza RC",
@@ -2375,7 +2375,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "RC professionale medica e RC prodotti",
           "goals": [
             "Leggere l'oggetto e le esclusioni di una polizza RC professionale",
@@ -2693,7 +2693,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Condizioni contrattuali delle polizze danni",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali delle polizze danni",
           "title": "La RC auto nel contratto",
           "goals": [
             "Spiegare il doppio obbligo: assicurarsi e contrarre",

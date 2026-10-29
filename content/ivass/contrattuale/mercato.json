@@ -1,7 +1,7 @@
 {
-  "module": "Area amministrativa e gestionale",
+  "module": "Area contrattuale e prodotti",
   "topic": "Il mercato delle assicurazioni",
-  "topic_order": 8,
+  "topic_order": 4,
   "scope": "60",
   "source_minutes": 0,
   "lessons": [
@@ -15,7 +15,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle assicurazioni",
           "title": "Il mercato assicurativo italiano: numeri e struttura",
           "goals": [
             "Conoscere le dimensioni del mercato con i dati IVASS del 2025",
@@ -402,7 +402,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle assicurazioni",
           "title": "L'impresa di assicurazione come organizzazione di servizio",
           "goals": [
             "Riconoscere le caratteristiche di un'impresa di servizio",
@@ -735,7 +735,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area amministrativa e gestionale · Il mercato delle assicurazioni",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle assicurazioni",
           "title": "Le forze che muovono il mercato",
           "goals": [
             "Collegare tassi, inflazione e scelte dei clienti all'andamento delle polizze",

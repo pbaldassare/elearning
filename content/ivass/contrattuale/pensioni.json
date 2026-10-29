@@ -1,7 +1,7 @@
 {
-  "module": "Area tecnica assicurativa e riassicurativa",
+  "module": "Area contrattuale e prodotti",
   "topic": "Il sistema pensionistico italiano",
-  "topic_order": 8,
+  "topic_order": 6,
   "scope": "60",
   "source_minutes": 0,
   "lessons": [
@@ -14,7 +14,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "eyebrow": "Area contrattuale e prodotti · Il sistema pensionistico italiano",
           "title": "Fondamenti ed evoluzione del sistema pensionistico",
           "goals": [
             "Spiegare il fondamento costituzionale e il criterio della ripartizione",
@@ -349,7 +349,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "eyebrow": "Area contrattuale e prodotti · Il sistema pensionistico italiano",
           "title": "La riforma Monti-Fornero e la pensione di vecchiaia",
           "goals": [
             "Conoscere gli obiettivi e le novità della riforma del 2011",
@@ -683,7 +683,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "eyebrow": "Area contrattuale e prodotti · Il sistema pensionistico italiano",
           "title": "La pensione anticipata",
           "goals": [
             "Distinguere la vecchia pensione di anzianità dalla pensione anticipata",
@@ -1029,7 +1029,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "eyebrow": "Area contrattuale e prodotti · Il sistema pensionistico italiano",
           "title": "Le uscite anticipate temporanee: quote, Opzione donna e APE",
           "goals": [
             "Conoscere Quota 100 e la pensione anticipata flessibile",
@@ -1371,7 +1371,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area tecnica assicurativa e riassicurativa · Il sistema pensionistico italiano",
+          "eyebrow": "Area contrattuale e prodotti · Il sistema pensionistico italiano",
           "title": "RITA e PIR: anticipare e integrare il reddito",
           "goals": [
             "Conoscere requisiti e funzionamento della RITA",

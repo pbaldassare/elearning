@@ -1,9 +1,8 @@
 {
-  "module": "Area giuridica",
-  "topic": "Prodotti di investimento assicurativi",
-  "topic_order": 8,
+  "module": "Area contrattuale e prodotti",
+  "topic": "Condizioni contrattuali dei prodotti di investimento assicurativi",
+  "topic_order": 2,
   "scope": "core",
-  "lesson_offset": 50,
   "source_minutes": 58,
   "lessons": [
     {
@@ -18,7 +17,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali dei prodotti di investimento assicurativi",
           "title": "Dalla polizza vita tradizionale al prodotto di investimento",
           "goals": [
             "Capire quanto c'è di finanziario nelle polizze vita tradizionali",
@@ -384,7 +383,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali dei prodotti di investimento assicurativi",
           "title": "Classificazione dei prodotti vita, premi unici ricorrenti e capitalizzazione",
           "goals": [
             "Classificare i prodotti vita per evento, per gestione finanziaria e per obiettivo del cliente",
@@ -730,7 +729,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali dei prodotti di investimento assicurativi",
           "title": "Unit linked, index linked e polizze multiramo",
           "goals": [
             "Distinguere le polizze linked dalle rivalutabili",
@@ -1041,7 +1040,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area giuridica · Prodotti di investimento assicurativi",
+          "eyebrow": "Area contrattuale e prodotti · Condizioni contrattuali dei prodotti di investimento assicurativi",
           "title": "I PIP e l'informativa sui prodotti di investimento",
           "goals": [
             "Spiegare come funzionano prestazioni, gestione e costi dei PIP",

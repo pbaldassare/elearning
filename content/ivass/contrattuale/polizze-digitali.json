@@ -1,7 +1,7 @@
 {
-  "module": "Area informatica",
+  "module": "Area contrattuale e prodotti",
   "topic": "Il mercato delle polizze digitali",
-  "topic_order": 4,
+  "topic_order": 5,
   "scope": "core",
   "source_minutes": 46,
   "lessons": [
@@ -16,7 +16,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle polizze digitali",
           "title": "Il trend di mercato delle polizze digitali",
           "goals": [
             "Conoscere le nuove offerte digitali: piattaforme, instant insurance, prodotti modulari",
@@ -414,7 +414,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle polizze digitali",
           "title": "Nuovi rischi e nuove frontiere",
           "goals": [
             "Riconoscere i rischi della vita digitale e come vengono assicurati",
@@ -712,7 +712,7 @@
       "slides": [
         {
           "layout": "cover",
-          "eyebrow": "Area informatica · Il mercato delle polizze digitali",
+          "eyebrow": "Area contrattuale e prodotti · Il mercato delle polizze digitali",
           "title": "L'impatto della blockchain nel settore assicurativo",
           "goals": [
             "Spiegare come funziona una blockchain e perché è considerata sicura",
