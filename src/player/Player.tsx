@@ -173,7 +173,7 @@ export default function Player() {
   return (
     <div>
       {/* Intestazione sottile: corso, avanzamento, indice e test. Il resto dello schermo è della lezione. */}
-      <header className="sticky top-0 z-20 -mx-4 mb-6 border-b border-line bg-white/95 px-4 backdrop-blur lg:-mx-8 lg:px-8">
+      <header className="sticky top-0 z-20 -mx-4 mb-4 border-b border-line bg-white/95 px-4 backdrop-blur lg:-mx-8 lg:px-8">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-3">
           <Link to="/" className="mr-auto text-sm font-medium text-ink-muted hover:text-ink sm:mr-0">← I miei corsi</Link>
           <div className="order-last w-full min-w-0 sm:order-none sm:w-auto sm:flex-1">
@@ -237,17 +237,18 @@ export default function Player() {
 
         {current && html && (
           <>
-            <div className="mb-4">
+            <div className="mb-3">
               <p className="text-xs font-bold uppercase tracking-wider text-brand-strong">{current.module}</p>
-              <h1 className="mt-1 text-2xl font-bold tracking-tight">{current.title}</h1>
+              <h1 className="mt-0.5 truncate text-xl font-bold tracking-tight">{current.title}</h1>
             </div>
             {(current.video_path || current.audio_path) && <Media lesson={current} />}
             <div
-              className={`slides overflow-hidden rounded-2xl border border-line bg-white shadow-sm ${wide ? 'wide' : ''}`}
+              // Da desktop la slide occupa lo spazio dello schermo (scorre dentro se è lunga): comandi sempre visibili.
+              className={`slides overflow-y-auto rounded-2xl border border-line bg-white shadow-sm lg:h-[calc(100dvh-250px)] lg:min-h-[360px] ${wide ? 'wide' : ''}`}
               onClick={(e) => handleQuizClick(e.target)}
               dangerouslySetInnerHTML={{ __html: html }}
             />
-            <div className="mt-3 flex flex-wrap items-center gap-3">
+            <div className="sticky bottom-0 z-10 -mx-4 mt-3 flex flex-wrap items-center gap-3 border-t border-line bg-white/95 px-4 py-3 backdrop-blur lg:static lg:mx-0 lg:border-0 lg:bg-transparent lg:p-0">
               <button className={btn.ghost} disabled={slide === 0} onClick={() => setSlide(slide - 1)}>← Indietro</button>
               <span className="text-sm tabular-nums text-ink-muted">{slide + 1} / {current.slides.length}</span>
               <button className={btn.ghost} disabled={lastSlide} onClick={() => setSlide(slide + 1)}>Avanti →</button>
