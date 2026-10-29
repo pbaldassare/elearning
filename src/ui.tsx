@@ -1,23 +1,34 @@
 import type { ButtonHTMLAttributes, InputHTMLAttributes, ReactNode, SelectHTMLAttributes } from 'react';
+import { useTheme } from './lib/theme';
 
 export const inputCls =
-  'w-full rounded-lg border border-line bg-white px-3 py-2 focus:border-brand-strong focus:outline-none focus:ring-2 focus:ring-brand/30';
+  'w-full rounded-lg border border-line bg-card px-3 py-2 focus:border-brand-strong focus:outline-none focus:ring-2 focus:ring-brand/30';
 
 // Pulsanti piccoli dentro tabelle e pannelli.
 export const btn = {
-  primary: 'rounded-lg bg-brand-strong px-3 py-1.5 text-sm font-medium text-white hover:bg-ink disabled:opacity-60',
-  ghost: 'rounded-lg border border-line bg-white px-3 py-1.5 text-sm font-medium hover:border-ink disabled:opacity-60',
+  primary: 'rounded-lg bg-brand-strong px-3 py-1.5 text-sm font-medium text-on-brand hover:brightness-110 disabled:opacity-60',
+  ghost: 'rounded-lg border border-line bg-card px-3 py-1.5 text-sm font-medium hover:border-ink disabled:opacity-60',
 };
 
 export function Logo({ className = 'h-9' }: { className?: string }) {
-  return <img src="/logo.png" alt="D-Academy" className={className} />;
+  // Il logo ha la scritta scura: sul tema scuro sta su una piastrina chiara.
+  return <img src="/logo.png" alt="D-Academy" className={`${className} dark:rounded-lg dark:bg-white dark:p-1`} />;
+}
+
+export function ThemeToggle({ className = '' }: { className?: string }) {
+  const { theme, toggle } = useTheme();
+  return (
+    <button type="button" onClick={toggle} aria-pressed={theme === 'dark'} className={className}>
+      {theme === 'dark' ? '☀︎ Tema chiaro' : '☾ Tema scuro'}
+    </button>
+  );
 }
 
 export function Card({ title, children }: { title: string; children: ReactNode }) {
   return (
     <main className="mx-auto w-full max-w-md px-4 py-10">
       <Logo className="mx-auto mb-6 h-14" />
-      <div className="rounded-2xl border border-line bg-white p-6 shadow-sm">
+      <div className="rounded-2xl border border-line bg-card p-6 shadow-lift">
         <h1 className="mb-6 text-2xl font-semibold">{title}</h1>
         {children}
       </div>
@@ -36,7 +47,7 @@ export function PageTitle({ title, sub }: { title: string; sub?: ReactNode }) {
 
 export function Panel({ title, actions, children }: { title?: string; actions?: ReactNode; children: ReactNode }) {
   return (
-    <section className="mb-6 rounded-2xl border border-line bg-white p-4 shadow-sm sm:p-6">
+    <section className="mb-6 rounded-2xl border border-line bg-card p-4 shadow-lift sm:p-6">
       {(title || actions) && (
         <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
           {title && <h2 className="text-lg font-semibold">{title}</h2>}
@@ -69,7 +80,7 @@ export function Select({ label, children, ...props }: { label: string } & Select
 export function Button(props: ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
     <button
-      className="w-full rounded-lg bg-brand-strong px-4 py-2 font-medium text-white hover:bg-ink disabled:opacity-60"
+      className="w-full rounded-lg bg-brand-strong px-4 py-2 font-medium text-on-brand hover:brightness-110 disabled:opacity-60"
       {...props}
     />
   );

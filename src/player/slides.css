@@ -1,8 +1,12 @@
 /* Slide D-Academy: stesso stile dell'anteprima approvata. Token dalla palette in index.css. */
 .slides {
-  --card: #fff; --ok-soft: #e6f4ec; --warn-soft: #fef3e2; --bad-soft: #fdecea; --slate: var(--color-ink);
-  --brand: var(--color-brand); --brand-strong: var(--color-brand-strong); --brand-soft: var(--color-brand-soft);
-  --ink: var(--color-ink); --ink-muted: var(--color-ink-muted); --surface: var(--color-surface); --line: var(--color-line);
+  /* Gli accenti della slide prendono il colore dell'area (classe area-N sul contenitore). */
+  --card: var(--color-card); --slate: #1f2227;
+  --ok-soft: color-mix(in srgb, var(--color-success) 14%, var(--color-card));
+  --warn-soft: color-mix(in srgb, var(--color-warn) 14%, var(--color-card));
+  --bad-soft: color-mix(in srgb, var(--color-danger) 12%, var(--color-card));
+  --brand: var(--area-b); --brand-strong: var(--area); --brand-soft: var(--area-soft);
+  --ink: var(--color-ink); --ink-muted: var(--color-ink-muted); --surface: var(--color-surface-2); --line: var(--color-line);
   --ok: var(--color-success); --warn: var(--color-warn); --bad: var(--color-danger);
   --display: var(--font-sans); --body: var(--font-sans);
   font: 16px/1.55 var(--body);
@@ -31,7 +35,7 @@ details.sol p { margin: 10px 0 0 }
 .sl { --pad: 22px; display: flex; flex-direction: column; min-height: 100%; background: var(--card); color: var(--ink) }
 .wide .sl { --pad: 44px }
 .sl-head { display: flex; align-items: center; gap: 10px; padding: 14px var(--pad); border-bottom: 1px solid var(--line); font: 600 12px var(--body); color: var(--ink-muted) }
-.sl-head .mk { width: 22px; height: 22px; border-radius: 6px; background: var(--brand); color: #fff; display: grid; place-items: center; font: 800 13px var(--display) }
+.sl-head .mk { width: 22px; height: 22px; border-radius: 6px; background: var(--color-brand); color: #fff; display: grid; place-items: center; font: 800 13px var(--display) }
 .sl-head .ls { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis }
 .sl-head .no { font-variant-numeric: tabular-nums; letter-spacing: .04em }
 .sl-body { flex: 1; padding: 26px var(--pad) 28px; display: grid; gap: 20px; align-content: start }

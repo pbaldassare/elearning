@@ -1,7 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useAuth, type Role } from './auth';
-import { btn, Card, Logo } from './ui';
+import { btn, Card, Logo, ThemeToggle } from './ui';
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
@@ -55,7 +55,7 @@ function Layout() {
     return (
       <>
         {who.impersonating && (
-          <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white">
+          <div className="flex flex-wrap items-center justify-between gap-2 bg-[#1f2227] px-4 py-2 text-sm text-white">
             <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
             <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>Esci da impersonificazione</button>
           </div>
@@ -68,13 +68,13 @@ function Layout() {
   return (
     <div className="lg:flex">
       {/* Barra laterale: fissa da desktop, a scomparsa (pulsante Menu) sul telefono. */}
-      <div className="flex items-center justify-between border-b border-line bg-white px-4 py-3 lg:hidden print:hidden">
+      <div className="flex items-center justify-between border-b border-line bg-card px-4 py-3 lg:hidden print:hidden">
         <Link to="/" aria-label="D-Academy, home"><Logo /></Link>
         <button className={btn.ghost} aria-expanded={menu} aria-controls="sidebar" onClick={() => setMenu(!menu)}>Menu</button>
       </div>
-      {menu && <div className="fixed inset-0 z-20 bg-ink/40 lg:hidden" onClick={() => setMenu(false)} aria-hidden />}
+      {menu && <div className="fixed inset-0 z-20 bg-black/40 lg:hidden" onClick={() => setMenu(false)} aria-hidden />}
       <aside id="sidebar"
-             className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-white p-4 transition-transform lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'translate-x-0' : '-translate-x-full'}`}>
+             className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-card p-4 transition-transform lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'translate-x-0' : '-translate-x-full'}`}>
         <Link to="/" aria-label="D-Academy, home" className="mb-6 px-3"><Logo /></Link>
         <nav className="flex-1 space-y-1 overflow-y-auto text-sm" aria-label="Principale">
           {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
@@ -82,12 +82,13 @@ function Layout() {
         <div className="space-y-1 border-t border-line pt-3 text-sm">
           <p className="truncate px-3 pb-1 text-ink-muted">{who.profile.first_name} {who.profile.last_name}</p>
           <NavLink to="/profilo" className={linkCls}>Profilo</NavLink>
+          <ThemeToggle className="block w-full rounded-lg px-3 py-2 text-left font-medium text-ink-muted hover:text-ink" />
           <button className="block w-full rounded-lg px-3 py-2 text-left font-medium text-ink-muted hover:text-ink" onClick={signOut}>Esci</button>
         </div>
       </aside>
       <div className="min-w-0 flex-1">
         {who.impersonating && (
-          <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white print:hidden">
+          <div className="flex flex-wrap items-center justify-between gap-2 bg-[#1f2227] px-4 py-2 text-sm text-white print:hidden">
             <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
             <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>
               Esci da impersonificazione

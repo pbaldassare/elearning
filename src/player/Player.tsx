@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useAuth } from '../auth';
 import { supabase } from '../lib/supabase';
-import { Badge, btn, fmtDate, fmtHours, Message, type Enrollment } from '../ui';
+import { Badge, btn, fmtDate, fmtHours, Message, ThemeToggle, type Enrollment } from '../ui';
 import { handleQuizClick, slideHTML, type Slide } from './slides';
 import Media from './Media';
 import './slides.css';
@@ -173,7 +173,7 @@ export default function Player() {
   return (
     <div>
       {/* Intestazione sottile: corso, avanzamento, indice e test. Il resto dello schermo è della lezione. */}
-      <header className="sticky top-0 z-20 -mx-4 mb-4 border-b border-line bg-white/95 px-4 backdrop-blur lg:-mx-8 lg:px-8">
+      <header className="sticky top-0 z-20 -mx-4 mb-4 border-b border-line bg-card/95 px-4 backdrop-blur lg:-mx-8 lg:px-8">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-3">
           <Link to="/" className="mr-auto text-sm font-medium text-ink-muted hover:text-ink sm:mr-0">← I miei corsi</Link>
           <div className="order-last w-full min-w-0 sm:order-none sm:w-auto sm:flex-1">
@@ -185,14 +185,15 @@ export default function Player() {
           {allDone && (course.status === 'completato'
             ? <Badge tone="ok">Test superato</Badge>
             : (hoursOk || demo) && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>)}
+          <ThemeToggle className={`${btn.ghost} hidden sm:inline-block`} />
           <button className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
         </div>
         <div className="h-1 bg-surface" aria-hidden="true"><div className="h-full bg-brand" style={{ width: `${pct}%` }} /></div>
       </header>
 
-      {index && <div className="fixed inset-0 z-30 bg-ink/40" onClick={() => setIndex(false)} aria-hidden="true" />}
+      {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={() => setIndex(false)} aria-hidden="true" />}
       <aside id="indice" aria-label="Indice delle lezioni"
-             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-white shadow-xl transition-transform ${index ? 'translate-x-0' : 'translate-x-full'}`}>
+             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex items-center justify-between border-b border-line p-4">
           <h2 className="font-semibold">Indice delle lezioni</h2>
           <button className={btn.ghost} onClick={() => setIndex(false)}>Chiudi</button>
@@ -200,7 +201,9 @@ export default function Player() {
         <div className="flex-1 overflow-y-auto p-3">
           {modules.map((m) => (
             <div key={m} className="mb-4">
-              <h3 className="mb-1 px-2 text-xs font-bold uppercase tracking-wider text-ink-muted">{m}</h3>
+              <h3 className={`area-${outline.find((l) => l.module === m)?.mpos} mb-1 flex items-center gap-2 px-2 text-xs font-bold uppercase tracking-wider text-area`}>
+                <span className="area-block h-3 w-3 rounded" aria-hidden="true" />{m}
+              </h3>
               <ol className="space-y-0.5">
                 {outline.map((l, i) => l.module !== m ? null : (
                   <li key={l.id}>
@@ -237,18 +240,21 @@ export default function Player() {
 
         {current && html && (
           <>
-            <div className="mb-3">
-              <p className="text-xs font-bold uppercase tracking-wider text-brand-strong">{current.module}</p>
-              <h1 className="mt-0.5 truncate text-xl font-bold tracking-tight">{current.title}</h1>
+            <div className={`area-${current.mpos} mb-3 flex items-center gap-3`}>
+              <span className="area-block grid h-10 w-10 flex-none place-items-center rounded-xl text-lg font-extrabold shadow-lift" aria-hidden="true">{current.mpos}</span>
+              <div className="min-w-0">
+                <p className="text-xs font-bold uppercase tracking-wider text-area">{current.module}</p>
+                <h1 className="mt-0.5 truncate text-xl font-bold tracking-tight">{current.title}</h1>
+              </div>
             </div>
             {(current.video_path || current.audio_path) && <Media lesson={current} />}
             <div
               // Da desktop la slide occupa lo spazio dello schermo (scorre dentro se è lunga): comandi sempre visibili.
-              className={`slides overflow-y-auto rounded-2xl border border-line bg-white shadow-sm lg:h-[calc(100dvh-250px)] lg:min-h-[360px] ${wide ? 'wide' : ''}`}
+              className={`slides area-${current.mpos} overflow-y-auto rounded-2xl border border-line bg-card shadow-lift lg:h-[calc(100dvh-250px)] lg:min-h-[360px] ${wide ? 'wide' : ''}`}
               onClick={(e) => handleQuizClick(e.target)}
               dangerouslySetInnerHTML={{ __html: html }}
             />
-            <div className="sticky bottom-0 z-10 -mx-4 mt-3 flex flex-wrap items-center gap-3 border-t border-line bg-white/95 px-4 py-3 backdrop-blur lg:static lg:mx-0 lg:border-0 lg:bg-transparent lg:p-0">
+            <div className="sticky bottom-0 z-10 -mx-4 mt-3 flex flex-wrap items-center gap-3 border-t border-line bg-card/95 px-4 py-3 backdrop-blur lg:static lg:mx-0 lg:border-0 lg:bg-transparent lg:p-0">
               <button className={btn.ghost} disabled={slide === 0} onClick={() => setSlide(slide - 1)}>← Indietro</button>
               <span className="text-sm tabular-nums text-ink-muted">{slide + 1} / {current.slides.length}</span>
               <button className={btn.ghost} disabled={lastSlide} onClick={() => setSlide(slide + 1)}>Avanti →</button>
@@ -271,7 +277,7 @@ export default function Player() {
 
             <div className="mt-6 grid gap-6 xl:grid-cols-[1.4fr_1fr]">
               {current.narration && (
-                <details className="rounded-2xl border border-line bg-white p-4">
+                <details className="rounded-2xl border border-line bg-card p-4">
                   <summary className="cursor-pointer font-semibold">Leggi il testo della lezione</summary>
                   <div className="mt-3 max-h-96 space-y-3 overflow-y-auto pr-2">
                     {current.narration.split(/\n\s*\n/).map((t, i) => <p key={i}>{t}</p>)}
@@ -279,7 +285,7 @@ export default function Player() {
                 </details>
               )}
               {current.sources.length > 0 && (
-                <div className="rounded-2xl border border-line bg-white p-4">
+                <div className="rounded-2xl border border-line bg-card p-4">
                   <h3 className="font-semibold">Fonti</h3>
                   <ul className="mt-2 list-disc space-y-1 pl-5 text-sm [overflow-wrap:anywhere]">
                     {current.sources.map((s) => <li key={s.url}><a className="text-brand-strong underline" href={s.url} target="_blank" rel="noreferrer">{s.title}</a></li>)}

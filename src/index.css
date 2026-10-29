@@ -1,21 +1,77 @@
 @import 'tailwindcss';
 
-/* Palette D-Academy campionata dal logo: unico punto da cambiare.
-   brand (#F04C24) solo su elementi grandi o decorativi; testo e pulsanti usano brand-strong (AA). */
-@theme {
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* Palette: forme e toni della versione chiara di Lab Piattaforma (bianco caldo, schede in rilievo),
+   con l'arancio del logo D-Academy come colore d'azione. Tema scuro gemello (antracite) a scelta.
+   brand: superfici grandi/decorative; brand-strong: pulsanti e testo (AA), con on-brand sopra. */
+:root {
+  --brand: #f04c24;
+  --brand-strong: #c2370f;
+  --brand-soft: #fdede8;
+  --on-brand: #ffffff;
+  --ink: #14161a;
+  --ink-muted: #55606f;
+  --line: #e4e4df;
+  --surface: #f7f7f4;
+  --surface-2: #f1f1ed;
+  --card: #ffffff;
+  --success: #047857;
+  --warn: #b45309;
+  --danger: #dc2626;
+  /* Rilievo delle schede: luce in cima e ombra calda sotto, come Lab. */
+  --lift: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 1px 2px rgba(27, 29, 34, 0.06), 0 10px 28px -14px rgba(27, 29, 34, 0.22);
+}
+
+[data-theme='dark'] {
+  --brand: #ff6a3d;
+  --brand-strong: #ff7a50;
+  --brand-soft: #5a3a30;
+  --on-brand: #14161a;
+  --ink: #f7f8f9;
+  --ink-muted: #c8cdd4;
+  --line: #5a5f68;
+  --surface: #383b41;
+  --surface-2: #4e525a;
+  --card: #43464d;
+  --success: #34d399;
+  --warn: #ffb020;
+  --danger: #ff7a7a;
+  --lift: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
   --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
-  --color-brand: #f04c24;
-  --color-brand-strong: #c2370f;
-  --color-brand-soft: #fdede8;
-  --color-ink: #172323;
-  --color-ink-muted: #4a5656;
-  --color-line: #e3e1dd;
-  --color-surface: #f6f5f3;
-  --color-success: #127a4b;
-  --color-warn: #9a5b00;
-  --color-danger: #b42318;
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-soft: var(--brand-soft);
+  --color-on-brand: var(--on-brand);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-card: var(--card);
+  --color-success: var(--success);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+  --color-area: var(--area);
+  --color-area-soft: var(--area-soft);
+  --shadow-lift: var(--lift);
 }
+
+/* Un colore per area del corso (posizione del modulo), sempre con nome accanto. */
+:root, .area-1 { --area: #0369a1; --area-soft: #e0f2fe; --area-a: #38bdf8; --area-b: #0284c7 }
+.area-2 { --area: #6d28d9; --area-soft: #ede9fe; --area-a: #a78bfa; --area-b: #7c3aed }
+.area-3 { --area: #c2410c; --area-soft: #ffedd5; --area-a: #ff8a3d; --area-b: #ea580c }
+.area-4 { --area: #047857; --area-soft: #d1fae5; --area-a: #34d399; --area-b: #059669 }
+[data-theme='dark'], [data-theme='dark'] .area-1 { --area: #38bdf8; --area-soft: #354f5e }
+[data-theme='dark'] .area-2 { --area: #a78bfa; --area-soft: #48405f }
+[data-theme='dark'] .area-3 { --area: #ff8a3d; --area-soft: #584033 }
+[data-theme='dark'] .area-4 { --area: #34d399; --area-soft: #2c4c44 }
+.area-block { background-image: linear-gradient(135deg, var(--area-a), var(--area-b)); color: #fff }
 
 body {
   @apply bg-surface font-sans text-ink antialiased;

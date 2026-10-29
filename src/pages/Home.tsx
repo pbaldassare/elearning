@@ -30,7 +30,7 @@ function MyCourses() {
                 Da completare entro il <strong>{fmtDate(e.expires_at)}</strong>
                 {e.status !== 'completato' && left >= 0 && left <= 5 && <> · <Badge tone="warn">{left === 0 ? 'scade oggi' : `mancano ${left} giorni`}</Badge></>}
               </p>
-              <Link to={`/corso/${e.id}`} className="mt-4 block rounded-lg bg-brand-strong px-4 py-2 text-center font-medium text-white hover:bg-ink">
+              <Link to={`/corso/${e.id}`} className="mt-4 block rounded-lg bg-brand-strong px-4 py-2 text-center font-medium text-on-brand hover:brightness-110">
                 {e.status === 'assegnato' ? 'Inizia il corso' : 'Apri il corso'}
               </Link>
               {e.status === 'completato' && (

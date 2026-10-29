@@ -24,7 +24,7 @@ export default function Media({ lesson }: { lesson: { audio_path: string | null;
       src={src.media}
       controls
       controlsList="nodownload noplaybackrate"
-      className="mb-4 w-full rounded-2xl bg-ink"
+      className="mb-4 w-full rounded-2xl bg-black"
       onTimeUpdate={(e) => { maxSeen.current = Math.max(maxSeen.current, e.currentTarget.currentTime); }}
       onSeeking={(e) => { if (e.currentTarget.currentTime > maxSeen.current + 1) e.currentTarget.currentTime = maxSeen.current; }}
     >
