@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useAuth } from '../auth';
 import { supabase } from '../lib/supabase';
-import { Badge, btn, fmtDate, fmtHours, Message, Progress, type Enrollment } from '../ui';
+import { Badge, btn, fmtDate, fmtHours, Message, type Enrollment } from '../ui';
 import { handleQuizClick, slideHTML, type Slide } from './slides';
 import Media from './Media';
 import './slides.css';
@@ -19,7 +19,7 @@ const HEARTBEAT_MS = 30_000;
 const mmss = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
 
 function useWide() {
-  const q = '(min-width: 1180px)';
+  const q = '(min-width: 1024px)';
   const [wide, setWide] = useState(() => matchMedia(q).matches);
   useEffect(() => {
     const m = matchMedia(q);
@@ -78,6 +78,7 @@ export default function Player() {
   const [progress, setProgress] = useState<Record<string, LessonProgress>>({});
   const [current, setCurrent] = useState<Lesson | null>(null);
   const [slide, setSlide] = useState(0);
+  const [index, setIndex] = useState(false);
   const [error, setError] = useState('');
 
   const demo = !!course?.courses.is_demo;
@@ -151,6 +152,7 @@ export default function Player() {
       if (!current || (e.target as HTMLElement).closest('input, textarea, select')) return;
       if (e.key === 'ArrowRight') setSlide((s) => Math.min(s + 1, current.slides.length - 1));
       if (e.key === 'ArrowLeft') setSlide((s) => Math.max(s - 1, 0));
+      if (e.key === 'Escape') setIndex(false);
     };
     addEventListener('keydown', key);
     return () => removeEventListener('keydown', key);
@@ -165,27 +167,46 @@ export default function Player() {
   const hoursOk = course.active_seconds >= course.courses.required_hours * 3600;
   const modules = [...new Set(outline.map((l) => l.module))];
 
+  const done = outline.filter((l) => progress[l.id]?.completed_at).length;
+  const pct = Math.min(100, (course.active_seconds / (course.courses.required_hours * 3600)) * 100);
+
   return (
-    <div className="grid gap-6 lg:grid-cols-[300px_minmax(0,1fr)]">
-      <aside className="lg:sticky lg:top-4 lg:max-h-[calc(100vh-2rem)] lg:overflow-y-auto">
-        <Link to="/" className="text-sm font-medium text-brand-strong">← I miei corsi</Link>
-        <h1 className="mt-2 text-xl font-bold">{course.courses.title}</h1>
-        <div className="mt-3"><Progress e={course} /></div>
-        <p className="mt-2 text-sm text-ink-muted">
-          {outline.filter((l) => progress[l.id]?.completed_at).length} di {outline.length} lezioni · scadenza {fmtDate(course.expires_at)}
-        </p>
-        {demo && <p className="mt-2"><Badge tone="brand">Dimostrativo: nessuna attesa, attestato di prova</Badge></p>}
-        <details className="mt-4 rounded-2xl border border-line bg-white p-3" open={wide}>
-          <summary className="cursor-pointer font-semibold">Indice delle lezioni</summary>
+    <div>
+      {/* Intestazione sottile: corso, avanzamento, indice e test. Il resto dello schermo è della lezione. */}
+      <header className="sticky top-0 z-20 -mx-4 mb-6 border-b border-line bg-white/95 px-4 backdrop-blur lg:-mx-8 lg:px-8">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 py-3">
+          <Link to="/" className="mr-auto text-sm font-medium text-ink-muted hover:text-ink sm:mr-0">← I miei corsi</Link>
+          <div className="order-last w-full min-w-0 sm:order-none sm:w-auto sm:flex-1">
+            <p className="truncate font-semibold">{course.courses.title}{demo && <span className="ml-2 align-middle"><Badge tone="brand">Dimostrativo</Badge></span>}</p>
+            <p className="text-xs text-ink-muted tabular-nums">
+              {done} di {outline.length} lezioni · {fmtHours(course.active_seconds)} di {course.courses.required_hours} h · scadenza {fmtDate(course.expires_at)}
+            </p>
+          </div>
+          {allDone && (course.status === 'completato'
+            ? <Badge tone="ok">Test superato</Badge>
+            : (hoursOk || demo) && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>)}
+          <button className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
+        </div>
+        <div className="h-1 bg-surface" aria-hidden="true"><div className="h-full bg-brand" style={{ width: `${pct}%` }} /></div>
+      </header>
+
+      {index && <div className="fixed inset-0 z-30 bg-ink/40" onClick={() => setIndex(false)} aria-hidden="true" />}
+      <aside id="indice" aria-label="Indice delle lezioni"
+             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-white shadow-xl transition-transform ${index ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className="flex items-center justify-between border-b border-line p-4">
+          <h2 className="font-semibold">Indice delle lezioni</h2>
+          <button className={btn.ghost} onClick={() => setIndex(false)}>Chiudi</button>
+        </div>
+        <div className="flex-1 overflow-y-auto p-3">
           {modules.map((m) => (
-            <div key={m} className="mt-3">
-              <h2 className="mb-1 text-xs font-bold uppercase tracking-wider text-ink-muted">{m}</h2>
+            <div key={m} className="mb-4">
+              <h3 className="mb-1 px-2 text-xs font-bold uppercase tracking-wider text-ink-muted">{m}</h3>
               <ol className="space-y-0.5">
                 {outline.map((l, i) => l.module !== m ? null : (
                   <li key={l.id}>
                     <button
                       disabled={i > unlockedUpTo}
-                      onClick={() => open(l)}
+                      onClick={() => { open(l); setIndex(false); }}
                       aria-current={current?.id === l.id}
                       className={`flex w-full items-start gap-2 rounded-lg px-2 py-1.5 text-left text-sm disabled:cursor-not-allowed disabled:opacity-50 ${current?.id === l.id ? 'bg-brand-soft font-semibold text-brand-strong' : 'hover:bg-surface'}`}
                     >
@@ -197,10 +218,10 @@ export default function Player() {
               </ol>
             </div>
           ))}
-        </details>
+        </div>
       </aside>
 
-      <section className="min-w-0">
+      <section className="mx-auto max-w-5xl">
         {error && <Message kind="error">{error}</Message>}
         {expired && <Message kind="error">Il corso è scaduto il {fmtDate(course.expires_at)}: contatta l’amministratore per una proroga.</Message>}
         {viewOnly && (
@@ -208,25 +229,17 @@ export default function Player() {
             Stai guardando il corso di un altro utente: ore e completamenti non vengono registrati.
           </p>
         )}
-        {allDone && (
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-white p-4">
-            <div>
-              <h2 className="font-semibold">Test finale</h2>
-              <p className="text-sm text-ink-muted">
-                {course.status === 'completato' ? 'Test superato.'
-                  : hoursOk || demo ? 'Hai completato tutte le lezioni e raggiunto le ore richieste.'
-                  : `Lezioni completate. Il test si sblocca a ${course.courses.required_hours} ore di studio (ora ${fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.`}
-              </p>
-            </div>
-            {(hoursOk || demo) && course.status !== 'completato' && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>}
-          </div>
+        {allDone && course.status !== 'completato' && !hoursOk && !demo && (
+          <p className="mb-4 rounded-xl bg-surface p-3 text-sm text-ink-muted">
+            Lezioni completate. Il test si sblocca a {course.courses.required_hours} ore di studio (ora {fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.
+          </p>
         )}
 
         {current && html && (
           <>
-            <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-              <h2 className="text-lg font-semibold">{current.title}</h2>
-              <span className="text-sm text-ink-muted">{current.module}</span>
+            <div className="mb-4">
+              <p className="text-xs font-bold uppercase tracking-wider text-brand-strong">{current.module}</p>
+              <h1 className="mt-1 text-2xl font-bold tracking-tight">{current.title}</h1>
             </div>
             {(current.video_path || current.audio_path) && <Media lesson={current} />}
             <div
@@ -257,8 +270,8 @@ export default function Player() {
 
             <div className="mt-6 grid gap-6 xl:grid-cols-[1.4fr_1fr]">
               {current.narration && (
-                <details className="rounded-2xl border border-line bg-white p-4" open>
-                  <summary className="cursor-pointer font-semibold">Testo della lezione</summary>
+                <details className="rounded-2xl border border-line bg-white p-4">
+                  <summary className="cursor-pointer font-semibold">Leggi il testo della lezione</summary>
                   <div className="mt-3 max-h-96 space-y-3 overflow-y-auto pr-2">
                     {current.narration.split(/\n\s*\n/).map((t, i) => <p key={i}>{t}</p>)}
                   </div>

@@ -35,6 +35,8 @@ function Layout() {
   const { session, who, loading, signOut, stopImpersonation } = useAuth();
   const { pathname } = useLocation();
   const [menu, setMenu] = useState(false);
+  // Lezioni e test a schermo pieno: niente barra laterale, il player ha la sua intestazione.
+  const focus = pathname.startsWith('/corso/');
   useEffect(() => setMenu(false), [pathname]);
 
   if (loading) return null;
@@ -48,6 +50,20 @@ function Layout() {
     );
   }
   if (who.force_password_change && pathname !== '/profilo') return <Navigate to="/profilo" replace />;
+
+  if (focus) {
+    return (
+      <>
+        {who.impersonating && (
+          <div className="flex flex-wrap items-center justify-between gap-2 bg-ink px-4 py-2 text-sm text-white">
+            <span>Stai vedendo la piattaforma come {who.profile.first_name} {who.profile.last_name}.</span>
+            <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>Esci da impersonificazione</button>
+          </div>
+        )}
+        <main className="px-4 pb-10 lg:px-8"><Outlet /></main>
+      </>
+    );
+  }
 
   return (
     <div className="lg:flex">
