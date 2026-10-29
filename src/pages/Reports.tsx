@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { supabase } from '../lib/supabase';
+import { downloadCertificate, supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
 import { useAuth } from '../auth';
 import { btn, Empty, fmtDate, fmtHours, inputCls, Message, PageTitle, Panel } from '../ui';
@@ -96,10 +96,20 @@ export default function Reports() {
         {!!shown.length && (
           <div className="overflow-x-auto print:overflow-visible">
             <table className="w-full text-left text-sm print:text-[9px]">
-              <thead className="text-ink-muted"><tr>{cols.map(([h]) => <th key={h} className="py-2 pr-3 whitespace-nowrap">{h}</th>)}</tr></thead>
+              <thead className="text-ink-muted"><tr>{cols.map(([h]) => <th key={h} className="py-2 pr-3 whitespace-nowrap">{h}</th>)}<th className="print:hidden" /></tr></thead>
               <tbody className="divide-y divide-line">
                 {shown.map((r) => (
-                  <tr key={r.id}>{cols.map(([h, f]) => <td key={h} className="py-2 pr-3 whitespace-nowrap">{f(r)}</td>)}</tr>
+                  <tr key={r.id}>
+                    {cols.map(([h, f]) => <td key={h} className="py-2 pr-3 whitespace-nowrap">{f(r)}</td>)}
+                    <td className="print:hidden">
+                      {r.certificate_serial != null && (
+                        <button className={`${btn.ghost} whitespace-nowrap`}
+                                onClick={() => downloadCertificate(r.id, `attestato-${r.last_name}-${r.first_name}`).catch((err) => alert(err.message))}>
+                          Attestato
+                        </button>
+                      )}
+                    </td>
+                  </tr>
                 ))}
               </tbody>
             </table>

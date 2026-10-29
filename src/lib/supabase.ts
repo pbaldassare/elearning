@@ -37,3 +37,17 @@ export async function callFn<T = unknown>(name: string, body: Record<string, unk
   }
   return data as T;
 }
+
+// Scarica l'attestato PDF generato dalla Edge Function (stessi permessi della RLS).
+export async function downloadCertificate(enrollmentId: string, fileName: string) {
+  const { data, error } = await supabase.functions.invoke('learning-certificate', { body: { enrollment_id: enrollmentId } });
+  if (error) {
+    const detail = await (error as { context?: Response }).context?.json?.().catch(() => null);
+    throw new Error(detail?.error ?? error.message);
+  }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(data as Blob);
+  a.download = `${fileName}.pdf`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}

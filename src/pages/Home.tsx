@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useAuth } from '../auth';
-import { supabase } from '../lib/supabase';
+import { downloadCertificate, supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
-import { Badge, Empty, EnrollmentBadge, fmtDate, PageTitle, Panel, Progress, type Enrollment } from '../ui';
+import { Badge, btn, Empty, EnrollmentBadge, fmtDate, PageTitle, Panel, Progress, type Enrollment } from '../ui';
 import Courses from './admin/Courses';
 
 const daysLeft = (d: string) => Math.ceil((new Date(d).getTime() - Date.now()) / 86400000);
@@ -33,6 +33,12 @@ function MyCourses() {
               <Link to={`/corso/${e.id}`} className="mt-4 block rounded-lg bg-brand-strong px-4 py-2 text-center font-medium text-white hover:bg-ink">
                 {e.status === 'assegnato' ? 'Inizia il corso' : 'Apri il corso'}
               </Link>
+              {e.status === 'completato' && (
+                <button className={`${btn.ghost} mt-2 w-full py-2`}
+                        onClick={() => downloadCertificate(e.id, `attestato-${e.courses?.title ?? 'corso'}`).catch((err) => alert(err.message))}>
+                  Scarica l’attestato
+                </button>
+              )}
             </Panel>
           );
         })}

@@ -13,3 +13,6 @@ enable_signup = false
 
 [functions.learning-impersonate]
 verify_jwt = true
+
+[functions.learning-certificate]
+verify_jwt = true
