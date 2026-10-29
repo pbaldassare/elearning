@@ -1,12 +1,13 @@
 import { useState, type FormEvent } from 'react';
 import { supabase } from '../../lib/supabase';
 import { useRows } from '../../lib/useRows';
-import { Badge, btn, Field, Message, PageTitle, Panel, Select } from '../../ui';
+import { Badge, btn, Field, inputCls, Message, PageTitle, Panel, Select } from '../../ui';
 
 type Course = {
   id: string; title: string; required_hours: number; status: 'attivo' | 'non_attivo' | 'archiviato';
   certificate_type: 'modello_ivass' | 'generato_sistema'; pass_threshold: number; expiry_days: number;
   quiz_questions_drawn: number | null; quiz_max_attempts: number | null; quiz_minutes_per_question: number | null; is_demo: boolean;
+  description: string | null;
   course_lessons: { count: number }[];
 };
 type Category = { id: string; name: string; slug: string; archived_at: string | null; courses: Course[] };
@@ -61,6 +62,7 @@ export default function Courses() {
     const f = new FormData(e.currentTarget);
     const { error } = await supabase.from('courses').update({
       title: f.get('title'), status: f.get('status'), certificate_type: f.get('certificate_type'),
+      description: String(f.get('description') ?? '').trim() || null,
       required_hours: Number(f.get('required_hours')), pass_threshold: Number(f.get('pass_threshold')),
       expiry_days: Number(f.get('expiry_days')),
       quiz_questions_drawn: numOrNull(f.get('quiz_questions_drawn')),
@@ -101,6 +103,10 @@ export default function Courses() {
                 </summary>
                 <form onSubmit={(e) => saveCourse(c.id, e)} className="mt-4 grid gap-x-4 sm:grid-cols-3">
                   <div className="sm:col-span-3"><Field label="Titolo" name="title" defaultValue={c.title} required /></div>
+                  <label className="mb-4 block sm:col-span-3">
+                    <span className="mb-1 block text-sm font-medium">Introduzione (la vede il corsista prima di iniziare; riga vuota = nuovo paragrafo)</span>
+                    <textarea name="description" rows={5} className={inputCls} defaultValue={c.description ?? ''} />
+                  </label>
                   <Select label="Stato" name="status" defaultValue={c.status}>
                     {Object.entries(statusLabel).map(([v, l]) => <option key={v} value={v}>{l}</option>)}
                   </Select>

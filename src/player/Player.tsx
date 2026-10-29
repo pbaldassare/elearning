@@ -5,6 +5,7 @@ import { supabase } from '../lib/supabase';
 import { Badge, btn, fmtDate, fmtHours, Message, ThemeToggle, type Enrollment } from '../ui';
 import { handleQuizClick, slideHTML, type Slide } from './slides';
 import Media from './Media';
+import Intro, { type IntroCourse } from './Intro';
 import './slides.css';
 
 type Outline = { id: string; title: string; topic: string | null; min_seconds: number; module: string; mpos: number; pos: number };
@@ -13,7 +14,7 @@ type Lesson = Outline & {
   audio_path: string | null; video_path: string | null; captions_path: string | null;
 };
 type LessonProgress = { lesson_id: string; active_seconds: number; completed_at: string | null };
-type Course = Enrollment & { courses: { title: string; required_hours: number; is_demo: boolean } };
+type Course = Enrollment & { courses: IntroCourse };
 
 const HEARTBEAT_MS = 30_000;
 const mmss = (s: number) => `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
@@ -79,6 +80,7 @@ export default function Player() {
   const [current, setCurrent] = useState<Lesson | null>(null);
   const [slide, setSlide] = useState(0);
   const [index, setIndex] = useState(false);
+  const [intro, setIntro] = useState(false);
   const [error, setError] = useState('');
 
   const demo = !!course?.courses.is_demo;
@@ -88,7 +90,7 @@ export default function Player() {
   useEffect(() => {
     (async () => {
       const { data: e, error } = await supabase.from('enrollments')
-        .select('*, courses(title, required_hours, is_demo)').eq('id', id).single();
+        .select('*, courses(title, description, required_hours, is_demo, pass_threshold, quiz_questions_drawn, quiz_max_attempts, quiz_minutes_per_question)').eq('id', id).single();
       if (error) { setError('Corso non trovato.'); return; }
       setCourse(e as Course);
       const [{ data: cl }, { data: pr }] = await Promise.all([
@@ -102,6 +104,8 @@ export default function Player() {
       }] : []).sort((a, b) => a.mpos - b.mpos || a.pos - b.pos);
       setOutline(list);
       setProgress(Object.fromEntries(((pr ?? []) as LessonProgress[]).map((p) => [p.lesson_id, p])));
+      // Prima volta nel corso: si parte dall'introduzione.
+      setIntro(!pr?.length);
     })();
   }, [id]);
 
@@ -125,7 +129,7 @@ export default function Player() {
     if (!current && outline.length) open(outline[unlockedUpTo]);
   }, [outline.length]);
 
-  const active = useHeartbeat(id, current?.id ?? null, !!current && !viewOnly && !demo && !expired,
+  const active = useHeartbeat(id, current?.id ?? null, !!current && !intro && !viewOnly && !demo && !expired,
     (d) => {
       setProgress((p) => ({ ...p, [current!.id]: { ...(p[current!.id] ?? { lesson_id: current!.id, completed_at: null }), active_seconds: d.lesson_seconds } }));
       setCourse((c) => c && { ...c, active_seconds: d.total_seconds, status: c.status === 'assegnato' ? 'in_corso' : c.status });
@@ -185,6 +189,7 @@ export default function Player() {
           {allDone && (course.status === 'completato'
             ? <Badge tone="ok">Test superato</Badge>
             : (hoursOk || demo) && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>)}
+          <button className={btn.ghost} onClick={() => { setIntro(true); scrollTo({ top: 0 }); }}>Introduzione</button>
           <ThemeToggle className={`${btn.ghost} hidden sm:inline-block`} />
           <button className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
         </div>
@@ -238,7 +243,8 @@ export default function Player() {
           </p>
         )}
 
-        {current && html && (
+        {intro && <Intro course={course.courses} expires={course.expires_at} lessons={outline} started={!!done} onStart={() => setIntro(false)} />}
+        {!intro && current && html && (
           <>
             <div className={`area-${current.mpos} mb-3 flex items-center gap-3`}>
               <span className="area-block grid h-10 w-10 flex-none place-items-center rounded-xl text-lg font-extrabold shadow-lift" aria-hidden="true">{current.mpos}</span>
