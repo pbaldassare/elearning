@@ -1,0 +1,641 @@
+{
+  "module": "Il GDPR: quadro, definizioni e principi",
+  "topic": "Diritti degli interessati",
+  "topic_order": 4,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Accesso, rettifica, cancellazione e limitazione",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 42-43 (garantire l'esercizio dei diritti e dare riscontro, richiamo)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Diritti degli interessati",
+          "title": "Accesso, rettifica, cancellazione e limitazione",
+          "goals": [
+            "Conoscere le regole comuni a tutti i diritti: tempi, gratuità, identificazione",
+            "Sapere che cosa comprende il diritto di accesso",
+            "Distinguere rettifica, cancellazione (oblio) e limitazione del trattamento"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il titolare agevola l'esercizio dei diritti",
+          "key": "Il titolare deve facilitare l'esercizio dei diritti e rispondere in forma concisa, trasparente, intelligibile e facilmente accessibile, con un linguaggio semplice e chiaro.",
+          "body": "La risposta si dà per iscritto, anche con mezzi elettronici; oralmente solo se l'interessato lo chiede e se ne è verificata l'identità. Se la richiesta arriva per email, si risponde di norma per email. Il responsabile del trattamento collabora, ma risponde il titolare.",
+          "ref": "Reg. UE 2016/679, art. 12, par. 1-3; art. 28, par. 3, lett. e)"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi di risposta",
+          "items": [
+            {
+              "value": "1 mese",
+              "text": "dal ricevimento, senza ingiustificato ritardo, per comunicare che cosa si è fatto",
+              "ref": "art. 12, par. 3"
+            },
+            {
+              "value": "+2 mesi",
+              "text": "di proroga se la richiesta è complessa o le richieste sono numerose, avvisando entro il primo mese con i motivi",
+              "ref": "art. 12, par. 3"
+            },
+            {
+              "value": "1 mese",
+              "text": "anche per dire di no: con i motivi e l'indicazione di reclamo al Garante e ricorso al giudice",
+              "ref": "art. 12, par. 4"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Gratuità e identità",
+          "left": {
+            "title": "Di regola è gratis",
+            "items": [
+              "Informazioni, comunicazioni e azioni sui diritti sono gratuite",
+              "Per richieste manifestamente infondate o eccessive, ad esempio ripetitive, si può chiedere un contributo ragionevole o rifiutare",
+              "Spetta al titolare dimostrare che la richiesta è infondata o eccessiva"
+            ],
+            "ref": "art. 12, par. 5"
+          },
+          "right": {
+            "title": "Chi lo chiede?",
+            "items": [
+              "Con ragionevoli dubbi sull'identità, il titolare chiede le informazioni necessarie a confermarla",
+              "La verifica deve essere proporzionata: niente raccolta eccessiva di documenti",
+              "Non si conservano dati al solo scopo di rispondere a future richieste"
+            ],
+            "ref": "art. 12, par. 6; considerando 64; EDPB, Linee guida 01/2022"
+          },
+          "note": "Le limitazioni ai diritti sono possibili solo se previste dalla legge (art. 23 GDPR; artt. 2-undecies e 2-duodecies Codice Privacy).",
+          "noteRef": "Guida Garante all'applicazione del GDPR"
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto di essere informati",
+          "key": "Prima ancora di chiedere, l'interessato ha diritto di sapere: chi è il titolare, per quali finalità e su quale base tratta i dati, a chi li comunica, per quanto li conserva e quali diritti può esercitare.",
+          "body": "Sono le informazioni dell'informativa (artt. 13 e 14). Il contenuto e il modo di fornirla sono adempimenti del titolare: li vediamo nel modulo 2. Qui conta ricordare che l'informativa deve indicare anche i diritti che vediamo in questa lezione.",
+          "ref": "Reg. UE 2016/679, artt. 12-14"
+        },
+        {
+          "layout": "table",
+          "title": "Il diritto di accesso",
+          "lead": "L'interessato può ottenere tre cose.",
+          "head": [
+            "Che cosa",
+            "Contenuto"
+          ],
+          "rows": [
+            [
+              "1 · Conferma",
+              "Sapere se sono trattati o no dati che lo riguardano."
+            ],
+            [
+              "2 · Copia dei dati",
+              "Ricevere una copia dei dati trattati. Le copie ulteriori possono avere un contributo spese ragionevole."
+            ],
+            [
+              "3 · Informazioni",
+              "Finalità, categorie di dati, destinatari, periodo di conservazione, diritti, reclamo al Garante, origine dei dati, eventuali decisioni automatizzate, garanzie per i trasferimenti fuori UE."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 15; EDPB, Linee guida 01/2022"
+        },
+        {
+          "layout": "checklist",
+          "title": "L'accesso in pratica",
+          "items": [
+            {
+              "text": "Non serve un modulo particolare e la persona non deve spiegare perché chiede i dati.",
+              "ref": "EDPB, Linee guida 01/2022"
+            },
+            {
+              "text": "Salvo diversa indicazione, la richiesta riguarda tutti i dati: si cercano in tutti i sistemi e archivi, anche cartacei."
+            },
+            {
+              "text": "Si forniscono i dati com'erano al momento della richiesta, anche se inesatti. Non si cancellano mentre la richiesta è in corso."
+            },
+            {
+              "text": "Se la richiesta arriva per via elettronica, la copia si fornisce in un formato elettronico di uso comune.",
+              "ref": "art. 15, par. 3"
+            },
+            {
+              "text": "La copia non deve ledere i diritti di altre persone: se serve, si oscurano i dati altrui, senza negare tutto.",
+              "ref": "art. 15, par. 4; considerando 63"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente chiede per email una copia dei suoi dati personali. Entro quando, di regola, l'azienda deve rispondere?",
+          "options": [
+            "Entro 15 giorni",
+            "Entro un mese dal ricevimento, prorogabile di altri due mesi nei casi complessi avvisando il cliente",
+            "Entro sei mesi",
+            "Non c'è un termine"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 12, par. 3, fissa un mese dal ricevimento, senza ingiustificato ritardo. Se la richiesta è complessa o le richieste sono numerose, il termine si può prorogare di due mesi, informando l'interessato della proroga e dei motivi entro il primo mese."
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto di rettifica",
+          "key": "L'interessato ha diritto di ottenere senza ingiustificato ritardo la correzione dei dati inesatti e l'integrazione di quelli incompleti, anche con una dichiarazione integrativa.",
+          "body": "È l'altra faccia del principio di esattezza. Esempio: il cliente comunica il nuovo indirizzo o segnala un errore nella data di nascita. La correzione va fatta in tutti i sistemi e comunicata a chi ha ricevuto i dati.",
+          "ref": "Reg. UE 2016/679, art. 16; art. 19"
+        },
+        {
+          "layout": "table",
+          "title": "Il diritto alla cancellazione (“oblio”)",
+          "lead": "Il titolare cancella senza ingiustificato ritardo se ricorre almeno uno di questi motivi.",
+          "head": [
+            "Motivo",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "a · Dati non più necessari",
+              "Il preventivo è scaduto da tempo e non è nato alcun rapporto."
+            ],
+            [
+              "b · Revoca del consenso",
+              "Il cliente si cancella dalla newsletter e non c'è altra base."
+            ],
+            [
+              "c · Opposizione",
+              "Opposizione accolta, o opposizione al marketing diretto."
+            ],
+            [
+              "d · Trattamento illecito",
+              "Dati raccolti senza base giuridica."
+            ],
+            [
+              "e · Obbligo di legge",
+              "Una norma impone la cancellazione."
+            ],
+            [
+              "f · Servizi online a minori",
+              "Dati raccolti offrendo servizi della società dell'informazione a un minore."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 17, par. 1"
+        },
+        {
+          "layout": "split",
+          "title": "Oblio: rafforzato, ma con limiti",
+          "left": {
+            "title": "Se i dati sono stati resi pubblici",
+            "items": [
+              "Chi li ha pubblicati, ad esempio su un sito, deve prendere misure ragionevoli per informare gli altri titolari che li trattano",
+              "La richiesta riguarda anche link, copie o riproduzioni"
+            ],
+            "ref": "art. 17, par. 2"
+          },
+          "right": {
+            "title": "Quando non si cancella",
+            "items": [
+              "Libertà di espressione e di informazione",
+              "Obbligo di legge o compito di interesse pubblico",
+              "Sanità pubblica",
+              "Archiviazione, ricerca e statistica, se la cancellazione le pregiudica",
+              "Accertamento, esercizio o difesa di un diritto in giudizio"
+            ],
+            "ref": "art. 17, par. 3"
+          },
+          "note": "Spesso la risposta è parziale: si cancella ciò che non serve più e si conserva solo ciò che la legge impone, spiegandolo alla persona.",
+          "noteRef": "art. 12, par. 4"
+        },
+        {
+          "layout": "table",
+          "title": "Il diritto di limitazione",
+          "lead": "Limitare significa contrassegnare i dati e congelarli: si conservano, ma non si usano.",
+          "head": [
+            "Quando",
+            "Per quanto"
+          ],
+          "rows": [
+            [
+              "L'interessato contesta l'esattezza dei dati",
+              "Il tempo necessario per verificarla."
+            ],
+            [
+              "Il trattamento è illecito, ma l'interessato non vuole la cancellazione",
+              "Finché la persona lo chiede."
+            ],
+            [
+              "Il titolare non ne ha più bisogno, ma servono all'interessato in giudizio",
+              "Il tempo necessario alla tutela del diritto."
+            ],
+            [
+              "L'interessato si è opposto (art. 21, par. 1)",
+              "Finché si verifica se prevalgono i motivi del titolare."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 18, par. 1; art. 4, n. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Dopo rettifica, cancellazione o limitazione",
+          "key": "Il titolare comunica le rettifiche, le cancellazioni e le limitazioni a ciascun destinatario a cui ha trasmesso i dati, salvo che sia impossibile o richieda uno sforzo sproporzionato.",
+          "body": "Se l'interessato lo chiede, il titolare gli indica chi sono questi destinatari. Durante la limitazione i dati si usano solo con il consenso della persona, per un diritto in giudizio, per tutelare un altro o per un interesse pubblico rilevante; prima di revocarla, la persona va avvisata.",
+          "ref": "Reg. UE 2016/679, artt. 18, par. 2-3, e 19"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un ex cliente scrive all'agenzia: «Cancellate subito tutti i miei dati, non voglio più avere a che fare con voi». Il suo contratto si è chiuso due anni fa. L'agenzia gli invia ancora la newsletter e conserva i documenti contrattuali e contabili, che una legge impone di tenere per un certo periodo.",
+          "questions": [
+            "Che cosa va cancellato?",
+            "Che cosa si può conservare, e come va spiegato?"
+          ],
+          "solution": "Va cancellato tutto ciò che non ha più una base: in primo luogo i dati usati per la newsletter, perché la richiesta vale anche come revoca del consenso e opposizione al marketing, e ogni dato non più necessario. I documenti che la legge impone di conservare possono restare (art. 17, par. 3, lett. b), solo per quell'obbligo e per il tempo previsto, con accessi limitati. Entro un mese l'agenzia risponde per iscritto: indica che cosa ha cancellato, che cosa conserva e perché, fino a quando, e ricorda la possibilità di reclamo al Garante e di ricorso al giudice (art. 12, par. 4)."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente contesta l'esattezza dei suoi dati e chiede che nel frattempo non vengano usati. Quale diritto sta esercitando?",
+          "options": [
+            "Portabilità",
+            "Limitazione del trattamento",
+            "Opposizione al marketing",
+            "Accesso"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 18, par. 1, lett. a), consente di ottenere la limitazione per il tempo necessario al titolare per verificare l'esattezza dei dati. I dati vengono contrassegnati e, salvo la conservazione, non vengono trattati."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "1 mese",
+              "text": "per rispondere, prorogabile di 2 mesi; anche il rifiuto va motivato entro 1 mese"
+            },
+            {
+              "value": "Gratis",
+              "text": "di regola; contributo o rifiuto solo per richieste manifestamente infondate o eccessive"
+            },
+            {
+              "value": "Accesso",
+              "text": "conferma, copia dei dati, informazioni sul trattamento"
+            },
+            {
+              "value": "Oblio",
+              "text": "cancellazione per i motivi dell'art. 17, salvo obblighi di legge e diritti in giudizio"
+            },
+            {
+              "value": "Limitazione",
+              "text": "dati congelati: si conservano ma non si usano"
+            }
+          ]
+        }
+      ],
+      "narration": "Con questa lezione passiamo dal lato della persona. Il GDPR riconosce all'interessato una serie di diritti, negli articoli da 12 a 22, che gli permettono di controllare davvero i propri dati. Chi lavora in azienda deve conoscerli per un motivo pratico: le richieste possono arrivare a chiunque, allo sportello, al telefono, per email, e i tempi per rispondere sono stretti. Oggi vediamo le regole comuni, il diritto di accesso, la rettifica, la cancellazione e la limitazione. Nella prossima lezione portabilità, opposizione, decisioni automatizzate e la gestione pratica delle richieste.\n\nPartiamo dalle regole comuni, scritte nell'articolo 12. Il titolare deve agevolare l'esercizio dei diritti e rispondere in forma concisa, trasparente, intelligibile e facilmente accessibile, con un linguaggio semplice e chiaro. La risposta si dà per iscritto, anche con mezzi elettronici; oralmente solo se lo chiede l'interessato e dopo averne verificato l'identità. Se la richiesta arriva per email, la risposta si dà di norma per email. A rispondere è sempre il titolare; il responsabile del trattamento, ad esempio il fornitore del gestionale, deve collaborare, come prevede l'articolo 28.\n\nI tempi. Il titolare comunica che cosa ha fatto senza ingiustificato ritardo e comunque entro un mese dal ricevimento della richiesta. Se la richiesta è complessa, o le richieste sono numerose, il termine si può prorogare di altri due mesi, ma la persona va informata della proroga e dei motivi entro il primo mese. E se il titolare decide di non dare seguito alla richiesta? Deve comunque rispondere entro un mese, spiegando i motivi e indicando la possibilità di proporre reclamo al Garante e ricorso al giudice. Il silenzio non è mai una risposta ammessa. Notate che il mese decorre dal ricevimento: per questo la richiesta va inoltrata subito a chi la gestisce, non lasciata in una casella di posta.\n\nL'esercizio dei diritti è di regola gratuito. Solo se le richieste sono manifestamente infondate o eccessive, in particolare perché ripetitive, il titolare può chiedere un contributo spese ragionevole oppure rifiutare; ma tocca a lui dimostrare che la richiesta era infondata o eccessiva. Un'altra regola riguarda l'identità: se il titolare ha ragionevoli dubbi su chi sta facendo la richiesta, può chiedere le informazioni necessarie per confermarla. Le linee guida del Comitato europeo sul diritto di accesso precisano che questa verifica deve essere proporzionata: non si chiede la copia di tre documenti a chi scrive dall'indirizzo email già registrato nel contratto. E il considerando 64 aggiunge che non si devono conservare dati al solo scopo di poter rispondere a eventuali richieste. Infine, i diritti si possono limitare solo nei casi previsti dalla legge: l'articolo 23 del Regolamento lo consente agli Stati, e in Italia lo fanno gli articoli 2-undecies e 2-duodecies del Codice Privacy, che vedremo nella prossima lezione.\n\nIl primo diritto, in ordine logico, è quello di essere informati. Prima ancora di fare una richiesta, la persona ha diritto di sapere chi è il titolare, per quali finalità e su quale base tratta i suoi dati, a chi li comunica, per quanto tempo li conserva e quali diritti può esercitare, incluso il reclamo al Garante. Sono le informazioni dell'informativa, previste dagli articoli 13 e 14. Come si scrive e quando si consegna l'informativa è un adempimento del titolare, che approfondiamo nel modulo 2.\n\nIl diritto di accesso, previsto dall'articolo 15, è il più esercitato. Le linee guida europee lo descrivono come composto da tre elementi. Il primo è la conferma: la persona ha diritto di sapere se sono trattati o no dati che la riguardano. Il secondo è la copia dei dati: la prima copia è gratuita, per quelle successive si può chiedere un contributo ragionevole basato sui costi amministrativi. Il terzo sono le informazioni sul trattamento: finalità, categorie di dati, destinatari, in particolare se situati fuori dall'Unione, periodo di conservazione o criteri per stabilirlo, diritti di rettifica, cancellazione, limitazione e opposizione, diritto di reclamo, origine dei dati se non sono stati raccolti presso l'interessato, esistenza di decisioni automatizzate con informazioni sulla logica utilizzata, garanzie per i trasferimenti all'estero.\n\nQualche indicazione pratica dalle linee guida del Comitato europeo. Non serve un modulo particolare: il Garante mette a disposizione sul suo sito un modello per l'esercizio dei diritti, ma usarlo non è obbligatorio. La persona non deve spiegare perché vuole i suoi dati, e non tocca al titolare valutare se la richiesta gli sarà davvero utile. Salvo diversa indicazione, la richiesta riguarda tutti i dati, e quindi vanno cercati in tutti i sistemi e archivi, anche cartacei, con criteri come il nome o il codice cliente. Si forniscono i dati com'erano al momento della richiesta, anche quelli inesatti, e non bisogna cancellarli mentre la richiesta è in corso. Se la richiesta arriva per via elettronica, la copia si dà in un formato elettronico di uso comune. Infine, la copia non deve ledere i diritti di altre persone: se in un documento ci sono dati di terzi, si oscurano quei dati, ma non si nega tutto. Lo dice anche il considerando 63: queste considerazioni non possono portare a un diniego totale.\n\nIl diritto di rettifica, all'articolo 16, è l'altra faccia del principio di esattezza. L'interessato può ottenere senza ingiustificato ritardo la correzione dei dati inesatti e l'integrazione di quelli incompleti, anche con una dichiarazione integrativa. Il cliente comunica il nuovo indirizzo o segnala un errore nella data di nascita: la correzione va fatta in tutti i sistemi.\n\nIl diritto alla cancellazione, all'articolo 17, è chiamato anche diritto all'oblio. Il titolare deve cancellare senza ingiustificato ritardo se ricorre almeno uno dei motivi previsti: i dati non sono più necessari per le finalità per cui erano stati raccolti; l'interessato revoca il consenso e non c'è un'altra base giuridica; l'interessato si oppone e non ci sono motivi prevalenti del titolare, oppure si oppone al marketing diretto; i dati sono stati trattati illecitamente; una legge impone la cancellazione; i dati sono stati raccolti offrendo servizi online a un minore. La Guida del Garante lo definisce un diritto alla cancellazione in forma rafforzata, perché se il titolare ha reso pubblici i dati, ad esempio pubblicandoli su un sito, deve adottare misure ragionevoli per informare gli altri titolari che li trattano della richiesta di cancellare link, copie o riproduzioni.\n\nIl diritto non è però assoluto. L'articolo 17, paragrafo 3, esclude la cancellazione quando il trattamento è necessario per l'esercizio della libertà di espressione e di informazione, per adempiere un obbligo di legge o un compito di interesse pubblico, per motivi di sanità pubblica, per archiviazione, ricerca o statistica quando la cancellazione le pregiudicherebbe, e per accertare, esercitare o difendere un diritto in giudizio. Nella pratica aziendale la risposta è spesso parziale, come nel caso di questa lezione: si cancella ciò che non ha più una base, come i dati usati per la newsletter, e si conserva solo ciò che la legge impone, spiegando alla persona che cosa resta, perché e fino a quando.\n\nIl diritto di limitazione, all'articolo 18, è meno conosciuto. Limitare significa contrassegnare i dati con l'obiettivo di limitarne il trattamento futuro: in pratica i dati si congelano, si conservano ma non si usano. Si può chiedere in quattro casi: quando l'interessato contesta l'esattezza dei dati, per il tempo necessario a verificarla; quando il trattamento è illecito ma la persona preferisce la limitazione alla cancellazione; quando il titolare non ha più bisogno dei dati ma servono all'interessato per un diritto in giudizio; quando la persona si è opposta al trattamento, in attesa di verificare se prevalgono i motivi del titolare. Durante la limitazione i dati si possono usare solo con il consenso dell'interessato, per un diritto in giudizio, per tutelare i diritti di un'altra persona o per un interesse pubblico rilevante, e prima di revocare la limitazione la persona va avvisata. La Guida del Garante raccomanda di prevedere nei sistemi informativi un modo per contrassegnare i dati limitati.\n\nUn'ultima regola collega questi diritti: per l'articolo 19, il titolare comunica le rettifiche, le cancellazioni e le limitazioni a ciascun destinatario a cui ha trasmesso i dati, salvo che sia impossibile o richieda uno sforzo sproporzionato, e se l'interessato lo chiede gli indica chi sono questi destinatari.\n\nRicapitolando: un mese per rispondere, prorogabile di due nei casi complessi, e un mese anche per motivare un rifiuto; esercizio di regola gratuito; verifica dell'identità solo se ci sono dubbi e in modo proporzionato; l'accesso comprende conferma, copia e informazioni; rettifica per correggere, cancellazione per i motivi dell'articolo 17 e nei suoi limiti, limitazione per congelare i dati. Nella prossima lezione completiamo il quadro dei diritti.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Guida all'applicazione del Regolamento europeo (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6807118"
+        },
+        {
+          "title": "EDPB, Guidelines 01/2022 on data subject rights – Right of access (versione 2.1)",
+          "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012022-data-subject-rights-right-access_en"
+        },
+        {
+          "title": "Garante privacy, I miei diritti (modello per l'esercizio dei diritti)",
+          "url": "https://www.garanteprivacy.it/i-miei-diritti"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali (d.lgs. 196/2003 come modificato dal d.lgs. 101/2018), testo coordinato – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=9042678"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Regole comuni ai diritti: forma della risposta, tempi (1 mese + 2), risposta anche in caso di rifiuto, gratuità ed eccezioni, verifica dell'identità.",
+          "source_ref": "Reg. UE 2016/679, art. 12; considerando 59, 64; Guida Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritto di accesso: tre componenti, informazioni dovute, indicazioni operative (nessun formato obbligatorio, nessuna motivazione, ricerca in tutti i sistemi, dati alla data della richiesta, diritti dei terzi).",
+          "source_ref": "Reg. UE 2016/679, art. 15; considerando 63; EDPB, Linee guida 01/2022"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Modello del Garante per l'esercizio dei diritti (uso facoltativo).",
+          "source_ref": "garanteprivacy.it, I miei diritti"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritti di rettifica, cancellazione/oblio con eccezioni, limitazione e obbligo di notifica ai destinatari, con caso pratico di cancellazione parziale.",
+          "source_ref": "Reg. UE 2016/679, artt. 16-19; Guida Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Richiamo alle limitazioni previste dalla legge nazionale.",
+          "source_ref": "Reg. UE 2016/679, art. 23; Codice Privacy, artt. 2-undecies e 2-duodecies"
+        }
+      ]
+    },
+    {
+      "title": "Portabilità, opposizione e richieste in azienda",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 7 (diritto alla portabilità)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Diritti degli interessati",
+          "title": "Portabilità, opposizione e richieste in azienda",
+          "goals": [
+            "Sapere quando si applica il diritto alla portabilità",
+            "Gestire l'opposizione, in particolare al marketing",
+            "Riconoscere una decisione automatizzata e seguire i passi per rispondere a una richiesta"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto alla portabilità",
+          "key": "L'interessato può ricevere i dati che ha fornito in un formato strutturato, di uso comune e leggibile da dispositivo automatico, e trasmetterli a un altro titolare senza impedimenti.",
+          "body": "È una delle novità del GDPR. Se tecnicamente fattibile, la persona può chiedere che i dati passino direttamente da un titolare all'altro. Un esempio vicino a tutti è la portabilità del numero di telefono.",
+          "ref": "Reg. UE 2016/679, art. 20, par. 1-2; materiale originale del corso"
+        },
+        {
+          "layout": "split",
+          "title": "Portabilità: quando sì e quando no",
+          "left": {
+            "title": "Si applica se",
+            "items": [
+              "Il trattamento si basa sul consenso o su un contratto",
+              "Il trattamento è svolto con mezzi automatizzati",
+              "I dati sono stati forniti dall'interessato"
+            ],
+            "ref": "art. 20, par. 1; considerando 68"
+          },
+          "right": {
+            "title": "Non si applica",
+            "items": [
+              "Agli archivi cartacei",
+              "Ai trattamenti basati su obbligo legale, interesse pubblico o legittimo interesse",
+              "Se lede i diritti e le libertà di altre persone"
+            ],
+            "ref": "art. 20, par. 3-4; Guida Garante"
+          },
+          "note": "La portabilità non cancella i dati: per la cancellazione resta l'art. 17.",
+          "noteRef": "art. 20, par. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto di opposizione",
+          "key": "Per motivi legati alla sua situazione particolare, l'interessato può opporsi in qualsiasi momento ai trattamenti basati sull'interesse pubblico o sul legittimo interesse, compresa la profilazione.",
+          "body": "Il titolare deve smettere, salvo che dimostri motivi legittimi cogenti che prevalgono sugli interessi della persona, o che i dati servono per un diritto in giudizio. Nell'attesa della verifica, la persona può chiedere la limitazione.",
+          "ref": "Reg. UE 2016/679, art. 21, par. 1; art. 18, par. 1, lett. d)"
+        },
+        {
+          "layout": "split",
+          "title": "Opposizione al marketing",
+          "left": {
+            "title": "Nel GDPR",
+            "items": [
+              "Al marketing diretto ci si può opporre sempre, senza motivare",
+              "Dopo l'opposizione i dati non si usano più per quel fine",
+              "Vale anche per la profilazione legata al marketing",
+              "Il diritto va presentato in modo chiaro e separato, al più tardi nella prima comunicazione"
+            ],
+            "ref": "art. 21, par. 2-4"
+          },
+          "right": {
+            "title": "Nel Codice Privacy",
+            "items": [
+              "Email, SMS, MMS, fax e chiamate automatiche promozionali: serve il consenso",
+              "Eccezione: email a un cliente per prodotti o servizi analoghi, se informato e se non si oppone",
+              "In ogni messaggio si ricorda che può opporsi gratis e facilmente",
+              "Telefono con operatore e posta cartacea: lecito verso chi non è iscritto al Registro pubblico delle opposizioni"
+            ],
+            "ref": "art. 130, c. 1-4"
+          },
+          "note": "Chi dice “non chiamatemi più” esercita un diritto: la richiesta va registrata e rispettata subito.",
+          "noteRef": "art. 21, par. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Le decisioni automatizzate",
+          "key": "L'interessato ha diritto di non essere sottoposto a una decisione basata unicamente su un trattamento automatizzato, compresa la profilazione, che produca effetti giuridici o incida in modo analogo significativamente sulla sua persona.",
+          "body": "Il Regolamento fa due esempi: il rifiuto automatico di una domanda di credito online e le assunzioni elettroniche senza intervento umano. Se una persona esamina davvero il caso e può cambiare l'esito, la decisione non è “unicamente” automatizzata.",
+          "ref": "Reg. UE 2016/679, art. 22, par. 1; considerando 71"
+        },
+        {
+          "layout": "compare",
+          "title": "Decisioni automatizzate: eccezioni e garanzie",
+          "cols": [
+            {
+              "title": "Sono ammesse se",
+              "items": [
+                "Necessarie per concludere o eseguire un contratto",
+                "Autorizzate da una legge con misure di tutela",
+                "Basate sul consenso esplicito dell'interessato",
+                "Con le categorie particolari, solo con consenso esplicito o interesse pubblico rilevante e misure adeguate"
+              ]
+            },
+            {
+              "title": "Garanzie minime per la persona",
+              "items": [
+                "Ottenere l'intervento umano del titolare",
+                "Esprimere la propria opinione",
+                "Contestare la decisione",
+                "Ricevere informazioni significative sulla logica usata e sulle conseguenze"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente risponde a una email promozionale scrivendo “Non voglio più ricevere offerte”. Che cosa deve fare l'azienda?",
+          "options": [
+            "Chiedergli di motivare la richiesta",
+            "Smettere di usare i suoi dati per il marketing diretto",
+            "Continuare finché il contratto è in corso",
+            "Cancellare tutti i suoi dati, compresi quelli del contratto"
+          ],
+          "answer": 1,
+          "explanation": "All'opposizione al marketing diretto non si possono opporre motivi del titolare: i dati non si usano più per quel fine (art. 21, par. 2-3). Non serve motivazione. I dati necessari al contratto restano, perché hanno un'altra base giuridica."
+        },
+        {
+          "layout": "concept",
+          "title": "Quando i diritti si possono limitare",
+          "key": "Solo una legge può limitare i diritti, rispettandone l'essenza e se è una misura necessaria e proporzionata, ad esempio per sicurezza pubblica, prevenzione dei reati o tutela dei diritti altrui.",
+          "body": "In Italia l'art. 2-undecies del Codice Privacy esclude l'esercizio dei diritti quando ne deriverebbe un pregiudizio effettivo e concreto, tra l'altro, alle attività antiriciclaggio, alle investigazioni difensive o all'esercizio di un diritto in giudizio, alla riservatezza di chi segnala illeciti (whistleblowing).",
+          "ref": "Reg. UE 2016/679, art. 23; Codice Privacy, art. 2-undecies"
+        },
+        {
+          "layout": "concept",
+          "title": "I dati delle persone decedute",
+          "key": "I diritti degli articoli da 15 a 22 sui dati di una persona deceduta possono essere esercitati da chi ha un interesse proprio, da chi agisce a tutela dell'interessato come suo mandatario o per ragioni familiari meritevoli di protezione.",
+          "body": "Per i servizi online l'interessato può averlo vietato con una dichiarazione scritta, specifica, libera e informata, sempre revocabile. Il divieto non può impedire ai terzi di far valere i diritti patrimoniali legati alla morte o di difendersi in giudizio.",
+          "ref": "Codice Privacy, art. 2-terdecies"
+        },
+        {
+          "layout": "steps",
+          "title": "Come gestire una richiesta in azienda",
+          "steps": [
+            {
+              "label": "Riconosci e registra",
+              "text": "Una richiesta può arrivare da qualsiasi canale ufficiale e senza citare il GDPR. Annota data di ricezione e contenuto."
+            },
+            {
+              "label": "Inoltra subito",
+              "text": "Passala al referente privacy o al DPO, se nominato, secondo la procedura interna. Il mese decorre dal ricevimento."
+            },
+            {
+              "label": "Verifica l'identità",
+              "text": "Solo se ci sono dubbi ragionevoli, con richieste proporzionate."
+            },
+            {
+              "label": "Cerca e valuta",
+              "text": "Cerca i dati in tutti i sistemi e archivi; valuta eccezioni e diritti di terzi; coinvolgi i responsabili."
+            },
+            {
+              "label": "Rispondi per iscritto",
+              "text": "Entro un mese, in modo chiaro. Se dici di no, spiega perché e indica reclamo al Garante e ricorso al giudice."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, art. 12; EDPB, Linee guida 01/2022"
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli errori da evitare",
+          "items": [
+            {
+              "text": "Ignorare la richiesta perché non usa il modulo “giusto” o non cita gli articoli."
+            },
+            {
+              "text": "Chiedere alla persona perché vuole i dati."
+            },
+            {
+              "text": "Chiedere documenti eccessivi a chi è già identificato."
+            },
+            {
+              "text": "Lasciare la richiesta ferma in una casella di posta: il termine corre."
+            },
+            {
+              "text": "Cancellare dati mentre è in corso una richiesta di accesso."
+            },
+            {
+              "text": "Far pagare una richiesta normale: la regola è la gratuità."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "La signora Bianchi telefona a Paolo, collaboratore dell'agenzia: «Vorrei sapere tutti i dati che avete su di me e non voglio più essere chiamata per offerte». Paolo riconosce la voce, ma non è sicuro che sia lei. Il collega gli dice: «Dille di scrivere una raccomandata, altrimenti non vale».",
+          "questions": [
+            "Quali richieste ha fatto la signora?",
+            "Ha ragione il collega? Che cosa deve fare Paolo?"
+          ],
+          "solution": "Le richieste sono due: accesso ai dati (art. 15) e opposizione al marketing diretto (art. 21, par. 2). Il collega ha torto: il GDPR non impone una forma, e la richiesta è valida anche se fatta a voce. Paolo registra data e contenuto e la inoltra subito al referente privacy. L'opposizione al marketing va annotata e rispettata subito. Per l'accesso, se ci sono dubbi sull'identità, l'agenzia può chiedere conferme proporzionate, ad esempio rispondere all'email o al recapito già registrati. La risposta, con la copia dei dati, arriva entro un mese, per iscritto o nel formato indicato dalla signora."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Il diritto alla portabilità si applica:",
+          "options": [
+            "A tutti i dati, anche negli archivi cartacei",
+            "Ai dati forniti dall'interessato, trattati con mezzi automatizzati sulla base del consenso o di un contratto",
+            "Solo ai dati trattati per obbligo di legge",
+            "Solo alle pubbliche amministrazioni"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 20 lo limita ai dati forniti dall'interessato, trattati con mezzi automatizzati e sulla base del consenso o di un contratto. Non vale per gli archivi cartacei né per i trattamenti basati su obbligo legale, interesse pubblico o legittimo interesse."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Portabilità",
+              "text": "dati forniti, automatizzati, su consenso o contratto"
+            },
+            {
+              "value": "Opposizione",
+              "text": "per motivi particolari; al marketing sempre e senza motivare"
+            },
+            {
+              "value": "Art. 22",
+              "text": "diritto all'intervento umano nelle decisioni solo automatizzate"
+            },
+            {
+              "value": "Nessuna forma",
+              "text": "una richiesta è valida anche a voce o per email"
+            },
+            {
+              "value": "Subito",
+              "text": "inoltrare la richiesta: il mese decorre dal ricevimento"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione completiamo il quadro dei diritti: la portabilità, l'opposizione, le decisioni automatizzate, i limiti che la legge può porre, e infine come si gestisce in concreto una richiesta in azienda.\n\nIl diritto alla portabilità dei dati, previsto dall'articolo 20, è una delle novità rilevanti del Regolamento indicate anche nel materiale del corso. L'interessato ha diritto di ricevere i dati personali che ha fornito a un titolare in un formato strutturato, di uso comune e leggibile da dispositivo automatico, e di trasmetterli a un altro titolare senza impedimenti. Se è tecnicamente fattibile, può chiedere che siano trasmessi direttamente da un titolare all'altro. La Guida del Garante osserva che il concetto non è del tutto nuovo per i consumatori: si pensi alla portabilità del numero di telefono. L'idea è rafforzare il controllo della persona sui propri dati e favorire il passaggio da un fornitore all'altro.\n\nLa portabilità però ha confini precisi. Si applica solo se il trattamento si basa sul consenso o su un contratto, se è svolto con mezzi automatizzati e se riguarda dati forniti dall'interessato. Non si applica quindi agli archivi cartacei, né ai trattamenti basati su un obbligo di legge, sull'interesse pubblico o sul legittimo interesse. Non deve ledere i diritti e le libertà di altre persone. E non comporta la cancellazione: chi vuole anche cancellare i dati deve chiederlo, e per questo resta applicabile l'articolo 17. Per le aziende che rientrano nell'ambito di questo diritto, il considerando 68 incoraggia l'uso di formati interoperabili.\n\nPassiamo al diritto di opposizione, all'articolo 21. Ha due forme. La prima è generale: per motivi connessi alla sua situazione particolare, l'interessato può opporsi in qualsiasi momento ai trattamenti basati sull'interesse pubblico o sul legittimo interesse, compresa la profilazione fondata su queste basi. Il titolare deve smettere, a meno che dimostri l'esistenza di motivi legittimi cogenti che prevalgono sugli interessi, i diritti e le libertà della persona, oppure che i dati servono per accertare, esercitare o difendere un diritto in giudizio. Mentre il titolare valuta, la persona può chiedere la limitazione del trattamento.\n\nLa seconda forma riguarda il marketing diretto, ed è assoluta. Al trattamento per finalità di marketing diretto, compresa la profilazione collegata, l'interessato può opporsi in qualsiasi momento, senza dare spiegazioni, e da quel momento i dati non possono più essere usati per quel fine. Il diritto di opposizione va presentato all'interessato in modo esplicito, chiaro e separato da altre informazioni, al più tardi al momento della prima comunicazione con lui. Attenzione a un punto: opporsi al marketing non significa chiedere la cancellazione di tutto. I dati necessari al contratto restano, perché hanno un'altra base giuridica.\n\nIn Italia le regole sul marketing sono completate dall'articolo 130 del Codice Privacy. Per le comunicazioni promozionali con sistemi automatizzati di chiamata senza operatore, e con email, fax, SMS e MMS, serve il consenso. C'è un'eccezione, spesso chiamata soft spam: se l'azienda usa, per vendere direttamente propri prodotti o servizi, l'indirizzo email che il cliente le ha fornito nel contesto di una vendita, può non chiedere il consenso, purché si tratti di prodotti o servizi analoghi e il cliente, adeguatamente informato, non rifiuti; e in ogni messaggio va ricordato che può opporsi in ogni momento, gratuitamente e in modo semplice. Per le telefonate con operatore e per la posta cartacea, invece, il trattamento è consentito verso chi non ha esercitato l'opposizione iscrivendosi al Registro pubblico delle opposizioni. Il messaggio pratico per chi lavora al telefono o con i clienti è semplice: quando qualcuno dice non chiamatemi più, sta esercitando un diritto, e la richiesta va registrata e rispettata subito.\n\nLe decisioni automatizzate sono regolate dall'articolo 22. L'interessato ha diritto di non essere sottoposto a una decisione basata unicamente su un trattamento automatizzato, compresa la profilazione, che produca effetti giuridici che lo riguardano o che incida in modo analogo significativamente sulla sua persona. Il considerando 71 fa due esempi: il rifiuto automatico di una domanda di credito online e le pratiche di assunzione elettronica senza interventi umani. La parola chiave è unicamente: se una persona esamina davvero il caso e ha il potere di cambiare l'esito, la decisione non è unicamente automatizzata.\n\nQueste decisioni sono comunque ammesse in tre casi: quando sono necessarie per concludere o eseguire un contratto, quando sono autorizzate da una legge che prevede misure di tutela, e quando si basano sul consenso esplicito dell'interessato. Nei casi del contratto e del consenso, il titolare deve garantire almeno il diritto di ottenere l'intervento umano, di esprimere la propria opinione e di contestare la decisione. Le decisioni non possono basarsi su categorie particolari di dati, salvo consenso esplicito o motivi di interesse pubblico rilevante, con misure adeguate. Inoltre, come abbiamo visto per l'accesso e per l'informativa, la persona ha diritto a informazioni significative sulla logica utilizzata e sulle conseguenze previste.\n\nI diritti non sono illimitati. L'articolo 23 permette al diritto dell'Unione o degli Stati di limitarli con misure legislative, che ne rispettino l'essenza e siano necessarie e proporzionate in una società democratica, ad esempio per la sicurezza pubblica, la prevenzione e il perseguimento dei reati, importanti interessi economici e finanziari, la tutela dei diritti altrui. In Italia l'articolo 2-undecies del Codice Privacy esclude l'esercizio dei diritti quando ne potrebbe derivare un pregiudizio effettivo e concreto, tra l'altro, agli interessi tutelati dalla normativa antiriciclaggio, alle investigazioni difensive o all'esercizio di un diritto in giudizio, e alla riservatezza dell'identità di chi segnala violazioni di cui è venuto a conoscenza sul lavoro, il cosiddetto whistleblowing. Sono valutazioni delicate, che spettano al titolare e a chi in azienda si occupa di privacy, non al singolo collega.\n\nUn caso particolare riguarda le persone decedute. L'articolo 2-terdecies del Codice Privacy prevede che i diritti degli articoli da 15 a 22 sui dati di una persona deceduta possano essere esercitati da chi ha un interesse proprio, da chi agisce a tutela dell'interessato come suo mandatario o per ragioni familiari meritevoli di protezione. Per i servizi online, la persona in vita può vietarlo con una dichiarazione scritta, specifica, libera e informata, che può sempre revocare; ma il divieto non può impedire ai terzi di far valere i diritti patrimoniali legati alla morte o di difendersi in giudizio.\n\nArriviamo alla parte più pratica: come si gestisce una richiesta in azienda. Primo passo, riconoscerla e registrarla. Una richiesta può arrivare da qualsiasi canale ufficiale, per email, per telefono, allo sportello, e non deve per forza citare il GDPR o usare un modulo. Il Garante offre un modello, ma il suo uso non è obbligatorio. Annotiamo la data di ricezione e il contenuto. Secondo passo, inoltrarla subito al referente privacy o al DPO, se l'azienda lo ha nominato, secondo la procedura interna: il mese decorre dal ricevimento, non dal momento in cui la pratica arriva alla persona giusta. Terzo passo, verificare l'identità, ma solo se ci sono dubbi ragionevoli e con richieste proporzionate. Quarto passo, cercare i dati in tutti i sistemi e archivi, valutare eventuali eccezioni e i diritti di terzi, e coinvolgere i responsabili del trattamento che detengono parte dei dati. Quinto passo, rispondere per iscritto entro un mese, in modo chiaro; se la risposta è negativa, anche solo in parte, spiegando i motivi e indicando la possibilità di reclamo al Garante e di ricorso al giudice.\n\nGli errori più comuni sono altrettanto chiari: ignorare una richiesta perché non usa il modulo giusto; chiedere alla persona perché vuole i suoi dati; pretendere documenti eccessivi da chi è già identificato; lasciare la richiesta ferma in una casella di posta mentre il termine corre; cancellare dati mentre è in corso una richiesta di accesso; far pagare una richiesta ordinaria. Il caso pratico della lezione li mette in scena: una cliente al telefono chiede i suoi dati e di non essere più chiamata per offerte. Sono due richieste, accesso e opposizione al marketing, entrambe valide anche se fatte a voce. L'opposizione si rispetta subito; per l'accesso si verifica l'identità in modo proporzionato e si risponde entro un mese.\n\nRicapitolando: la portabilità riguarda i dati forniti dall'interessato, trattati con mezzi automatizzati sulla base del consenso o di un contratto; l'opposizione vale per i trattamenti basati su interesse pubblico o legittimo interesse, e per il marketing diretto è sempre efficace e senza motivazione; nelle decisioni basate solo su trattamenti automatizzati la persona ha diritto all'intervento umano; i diritti si limitano solo per legge; e in azienda ogni richiesta va riconosciuta, registrata e inoltrata subito, perché il termine di un mese parte dal ricevimento. Con questa lezione chiudiamo il primo modulo: nel prossimo vedremo chi sono titolare, responsabile e DPO e quali adempimenti devono rispettare.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Guida all'applicazione del Regolamento europeo (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6807118"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali (d.lgs. 196/2003 come modificato dal d.lgs. 101/2018), testo coordinato – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=9042678"
+        },
+        {
+          "title": "EDPB, Guidelines 01/2022 on data subject rights – Right of access (versione 2.1)",
+          "url": "https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-012022-data-subject-rights-right-access_en"
+        },
+        {
+          "title": "Garante privacy, I miei diritti (modello per l'esercizio dei diritti)",
+          "url": "https://www.garanteprivacy.it/i-miei-diritti"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Diritto alla portabilità (indicato come novità nella slide 7): contenuto, condizioni, esclusioni, rapporto con la cancellazione.",
+          "source_ref": "Reg. UE 2016/679, art. 20; considerando 68; Guida Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritto di opposizione generale e al marketing diretto; regole italiane su comunicazioni promozionali, soft spam e Registro pubblico delle opposizioni.",
+          "source_ref": "Reg. UE 2016/679, art. 21; Codice Privacy, art. 130"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Decisioni basate unicamente su trattamenti automatizzati: diritto, eccezioni, garanzie, esempi.",
+          "source_ref": "Reg. UE 2016/679, art. 22; considerando 71"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Limitazioni ai diritti per legge (antiriciclaggio, investigazioni difensive, whistleblowing) e diritti relativi a persone decedute.",
+          "source_ref": "Reg. UE 2016/679, art. 23; Codice Privacy, artt. 2-undecies, 2-terdecies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Procedura in cinque passi per gestire una richiesta, errori da evitare e caso pratico con richiesta orale.",
+          "source_ref": "Reg. UE 2016/679, art. 12; EDPB, Linee guida 01/2022; garanteprivacy.it, I miei diritti"
+        }
+      ]
+    }
+  ]
+}

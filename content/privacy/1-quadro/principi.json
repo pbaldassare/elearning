@@ -1,0 +1,646 @@
+{
+  "module": "Il GDPR: quadro, definizioni e principi",
+  "topic": "Principi generali",
+  "topic_order": 3,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "I principi del trattamento",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 4 (trattamento al servizio dell'uomo, richiamo)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Principi generali",
+          "title": "I principi del trattamento",
+          "goals": [
+            "Conoscere i sette principi dell'articolo 5 del GDPR",
+            "Applicarli alle attività quotidiane: moduli, archivi, email, CRM",
+            "Capire che cosa significa responsabilizzazione (accountability)"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Le regole del gioco",
+          "key": "L'articolo 5 fissa i principi che valgono per ogni trattamento, grande o piccolo. Tutti gli altri obblighi del GDPR ne sono un'applicazione.",
+          "body": "Sono sei principi su come trattare i dati, più un settimo che li tiene insieme: il titolare deve rispettarli e saperlo dimostrare.",
+          "ref": "Reg. UE 2016/679, art. 5"
+        },
+        {
+          "layout": "table",
+          "title": "I principi dell'articolo 5",
+          "head": [
+            "Principio",
+            "Che cosa chiede",
+            "In azienda"
+          ],
+          "rows": [
+            [
+              "a · Liceità, correttezza, trasparenza",
+              "Trattare i dati in modo lecito, leale e chiaro verso la persona.",
+              "Base giuridica e informativa per ogni trattamento."
+            ],
+            [
+              "b · Limitazione della finalità",
+              "Raccogliere i dati per scopi determinati, espliciti e legittimi.",
+              "I dati del preventivo non diventano liberamente dati per altro."
+            ],
+            [
+              "c · Minimizzazione",
+              "Solo dati adeguati, pertinenti e limitati al necessario.",
+              "Nessun campo inutile nei moduli."
+            ],
+            [
+              "d · Esattezza",
+              "Dati esatti e, se serve, aggiornati.",
+              "Correggere subito un indirizzo sbagliato."
+            ],
+            [
+              "e · Limitazione della conservazione",
+              "Conservare i dati identificativi solo per il tempo necessario.",
+              "Tempi di conservazione definiti e rispettati."
+            ],
+            [
+              "f · Integrità e riservatezza",
+              "Proteggere i dati da accessi illeciti, perdita, distruzione o danni.",
+              "Password, accessi limitati, armadi chiusi."
+            ],
+            [
+              "Responsabilizzazione",
+              "Il titolare rispetta i principi ed è in grado di dimostrarlo.",
+              "Procedure e documentazione."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 5, par. 1-2"
+        },
+        {
+          "layout": "split",
+          "title": "Liceità, correttezza e trasparenza",
+          "left": {
+            "title": "Che cosa significano",
+            "items": [
+              "Liceità: c'è una base giuridica dell'art. 6 e si rispettano le altre leggi",
+              "Correttezza: nessun uso dei dati che la persona non potrebbe ragionevolmente aspettarsi",
+              "Trasparenza: la persona sa chi tratta i suoi dati, perché e come"
+            ],
+            "ref": "art. 5, par. 1, lett. a); art. 12"
+          },
+          "right": {
+            "title": "In pratica",
+            "items": [
+              "Prima di raccogliere un dato, chiedersi su quale base lo si fa",
+              "Informazioni concise e in linguaggio semplice",
+              "Nessuna raccolta “nascosta” o con finalità taciute"
+            ]
+          },
+          "note": "Come si scrive e si consegna l'informativa lo vediamo nel modulo 2.",
+          "noteRef": "artt. 13-14"
+        },
+        {
+          "layout": "checklist",
+          "title": "Nuova finalità: è compatibile?",
+          "items": [
+            {
+              "text": "C'è un nesso tra la finalità originaria e quella nuova?",
+              "ref": "art. 6, par. 4, lett. a)"
+            },
+            {
+              "text": "In che contesto sono stati raccolti i dati e che rapporto c'è con la persona?",
+              "ref": "lett. b)"
+            },
+            {
+              "text": "Si tratta di categorie particolari o di dati giudiziari?",
+              "ref": "lett. c)"
+            },
+            {
+              "text": "Quali conseguenze può avere il nuovo trattamento per la persona?",
+              "ref": "lett. d)"
+            },
+            {
+              "text": "Ci sono garanzie adeguate, come cifratura o pseudonimizzazione?",
+              "ref": "lett. e)"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Minimizzazione: serve davvero?",
+          "cols": [
+            {
+              "title": "Modulo per un preventivo auto: serve",
+              "items": [
+                "Nome, cognome e recapito",
+                "Dati del veicolo",
+                "Informazioni richieste per calcolare il premio"
+              ]
+            },
+            {
+              "title": "Non serve",
+              "items": [
+                "Stato civile e titolo di studio, se non incidono sull'offerta",
+                "Religione o opinioni politiche",
+                "Copia di documenti non richiesti in questa fase",
+                "Campi “note” con commenti personali sul cliente"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Esattezza",
+          "key": "I dati devono essere esatti e, se necessario, aggiornati. Vanno prese tutte le misure ragionevoli per cancellare o correggere subito i dati inesatti.",
+          "body": "Un indirizzo vecchio può far arrivare documenti riservati alla persona sbagliata. Un dato errato in anagrafica può portare a decisioni sbagliate sul cliente. Chi riceve una correzione la registra in tutti i sistemi.",
+          "ref": "Reg. UE 2016/679, art. 5, par. 1, lett. d)"
+        },
+        {
+          "layout": "concept",
+          "title": "Limitazione della conservazione",
+          "key": "I dati che permettono di identificare le persone si conservano solo per il tempo necessario allo scopo per cui sono trattati.",
+          "body": "Il titolare stabilisce tempi o criteri di conservazione per ogni tipo di dato, tenendo conto anche degli obblighi di legge, e li indica nell'informativa. Conservare “per sicurezza” o “non si sa mai” non è uno scopo. Tempi più lunghi sono ammessi solo per archiviazione nel pubblico interesse, ricerca o statistica, con garanzie.",
+          "ref": "Reg. UE 2016/679, art. 5, par. 1, lett. e); art. 13, par. 2, lett. a)"
+        },
+        {
+          "layout": "concept",
+          "title": "Integrità e riservatezza",
+          "key": "I dati vanno protetti con misure tecniche e organizzative adeguate contro trattamenti non autorizzati o illeciti e contro perdita, distruzione o danni accidentali.",
+          "body": "Riguarda tutti: chiudere il PC quando ci si allontana, non condividere le password, non lasciare fascicoli sulla scrivania, verificare il destinatario prima di inviare un'email. Le misure di sicurezza sono approfondite nel modulo 3.",
+          "ref": "Reg. UE 2016/679, art. 5, par. 1, lett. f)"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'agenzia chiede, nel modulo online per un preventivo, anche il titolo di studio e la religione del cliente, “per conoscerlo meglio”. Quale principio viene violato soprattutto?",
+          "options": [
+            "Esattezza",
+            "Minimizzazione dei dati",
+            "Limitazione della conservazione",
+            "Integrità e riservatezza"
+          ],
+          "answer": 1,
+          "explanation": "La minimizzazione (art. 5, par. 1, lett. c) chiede dati adeguati, pertinenti e limitati a quanto necessario. Titolo di studio e religione non servono a fare un preventivo. La religione, inoltre, è una categoria particolare: raccoglierla senza necessità è ancora più grave."
+        },
+        {
+          "layout": "concept",
+          "title": "Responsabilizzazione (accountability)",
+          "key": "Il titolare è competente per il rispetto dei principi ed è in grado di comprovarlo. Non basta fare le cose giuste: bisogna poterlo dimostrare.",
+          "body": "Il titolare sceglie come rispettare le regole in base ai rischi e documenta le scelte: procedure, istruzioni al personale, registri, valutazioni. Se c'è un controllo o una contestazione, è lui a dover provare di aver rispettato il Regolamento.",
+          "ref": "Reg. UE 2016/679, art. 5, par. 2; Guida Garante all'applicazione del GDPR"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "In un'agenzia, un collaboratore conserva sul proprio PC una copia dei fascicoli di tutti i clienti, “perché il gestionale è lento”. Ha anche una cartella di documenti di ex clienti di dieci anni fa, mai riguardati. Spesso inoltra le pratiche dalla sua email personale per lavorare da casa.",
+          "questions": [
+            "Quali principi dell'art. 5 sono in gioco?",
+            "Che cosa dovrebbe fare?"
+          ],
+          "solution": "Sono in gioco più principi. Minimizzazione: le copie non servono, i dati sono già nel gestionale. Limitazione della conservazione: i documenti degli ex clienti vanno tenuti solo se e finché un obbligo o uno scopo lo giustifica, secondo i tempi fissati dall'azienda. Integrità e riservatezza: copie locali ed email personale sfuggono ai controlli di sicurezza e aumentano il rischio di perdita o accesso illecito. Il collaboratore dovrebbe lavorare solo sugli strumenti aziendali, cancellare le copie secondo le istruzioni del titolare e segnalare i problemi del gestionale invece di aggirarli."
+        },
+        {
+          "layout": "checklist",
+          "title": "I principi nella giornata di lavoro",
+          "items": [
+            {
+              "text": "Uso i dati solo per lo scopo per cui li ho ricevuti."
+            },
+            {
+              "text": "Chiedo solo i dati che servono davvero."
+            },
+            {
+              "text": "Correggo subito i dati sbagliati e aggiorno tutti i sistemi."
+            },
+            {
+              "text": "Non tengo copie personali o “di riserva” dei dati."
+            },
+            {
+              "text": "Proteggo PC, documenti ed email da accessi non autorizzati."
+            },
+            {
+              "text": "Seguo le procedure aziendali: servono anche a dimostrare che si rispettano le regole."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa significa il principio di responsabilizzazione (accountability)?",
+          "options": [
+            "Che ogni dipendente risponde personalmente delle sanzioni",
+            "Che il titolare deve rispettare i principi ed essere in grado di dimostrarlo",
+            "Che serve sempre un'autorizzazione preventiva del Garante",
+            "Che i dati devono essere conservati il più a lungo possibile"
+          ],
+          "answer": 1,
+          "explanation": "Per l'art. 5, par. 2, il titolare è competente per il rispetto dei principi e deve essere in grado di comprovarlo. Il GDPR non chiede autorizzazioni preventive generali: chiede al titolare di organizzarsi e documentare le proprie scelte."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "6 + 1",
+              "text": "sei principi più la responsabilizzazione"
+            },
+            {
+              "value": "Finalità",
+              "text": "dati raccolti per scopi determinati, espliciti e legittimi"
+            },
+            {
+              "value": "Minimo",
+              "text": "solo i dati necessari, solo per il tempo necessario"
+            },
+            {
+              "value": "Sicurezza",
+              "text": "integrità e riservatezza riguardano ogni collega"
+            },
+            {
+              "value": "Dimostrare",
+              "text": "il titolare deve poter provare di rispettare le regole"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione vediamo i principi del trattamento, cioè le regole di fondo che valgono per qualsiasi uso dei dati personali: una mailing list, un archivio di fascicoli, un CRM, le telecamere all'ingresso. Sono scritti nell'articolo 5 del Regolamento e sono il punto di partenza di tutto il resto: ogni obbligo che incontreremo nel corso, dall'informativa alle misure di sicurezza, è un modo per metterli in pratica.\n\nL'articolo 5 elenca sei principi su come devono essere trattati i dati, e poi un settimo principio che li tiene insieme: la responsabilizzazione, o accountability. Vediamoli uno per uno con esempi tratti dal lavoro quotidiano.\n\nIl primo è un principio triplo: liceità, correttezza e trasparenza. Liceità significa che il trattamento deve avere una base giuridica tra quelle previste dall'articolo 6, come il contratto, un obbligo di legge, il consenso o il legittimo interesse, e deve rispettare le altre leggi applicabili. Le basi giuridiche le vediamo nella prossima lezione. Correttezza significa lealtà: non usare i dati in modi che la persona non potrebbe ragionevolmente aspettarsi o che le si ritorcono contro. Trasparenza significa che la persona deve sapere chi tratta i suoi dati, per quali scopi e con quali diritti. L'articolo 12 aggiunge che le informazioni devono essere concise, intelligibili, facilmente accessibili e scritte con un linguaggio semplice e chiaro. In pratica, ogni volta che raccogliamo un dato dovremmo poter rispondere a due domande: su quale base lo facciamo, e la persona lo sa?\n\nIl secondo principio è la limitazione della finalità. I dati vanno raccolti per finalità determinate, esplicite e legittime, e non possono poi essere trattati in modo incompatibile con quelle finalità. Se un cliente ci lascia i suoi dati per ricevere un preventivo, non possiamo liberamente usarli per tutt'altro. Come si capisce se un nuovo uso è compatibile? L'articolo 6, paragrafo 4, dà al titolare una serie di criteri: il nesso tra la finalità originaria e quella nuova; il contesto della raccolta e il rapporto con la persona; la natura dei dati, con particolare attenzione alle categorie particolari e ai dati giudiziari; le possibili conseguenze per l'interessato; l'esistenza di garanzie come la cifratura o la pseudonimizzazione. Se la nuova finalità non è compatibile, serve una nuova base giuridica, ad esempio il consenso. Il Regolamento considera comunque compatibili, con le garanzie dell'articolo 89, gli usi a fini di archiviazione nel pubblico interesse, di ricerca scientifica o storica e statistici.\n\nIl terzo principio è la minimizzazione: i dati devono essere adeguati, pertinenti e limitati a quanto necessario rispetto alle finalità. È forse il principio più facile da applicare e il più spesso dimenticato. Prendiamo un modulo per un preventivo auto. Servono nome e recapito, i dati del veicolo e le informazioni che incidono sul calcolo del premio. Non servono, salvo motivi specifici, lo stato civile o il titolo di studio, e non servono mai la religione o le opinioni politiche. Lo stesso vale per i campi note del CRM: commenti personali sul cliente, battute o giudizi non pertinenti non dovrebbero esserci. Meno dati raccogliamo, meno dati dobbiamo proteggere.\n\nIl quarto principio è l'esattezza: i dati devono essere esatti e, se necessario, aggiornati, e bisogna prendere tutte le misure ragionevoli per cancellare o correggere tempestivamente quelli inesatti. Non è un dettaglio. Un indirizzo vecchio può far arrivare un documento riservato alla persona sbagliata. Un errore in anagrafica può far prendere decisioni sbagliate su un cliente. Quando un cliente ci comunica una correzione, dobbiamo registrarla subito e in tutti i sistemi in cui quel dato compare.\n\nIl quinto principio è la limitazione della conservazione: i dati che permettono di identificare le persone vanno conservati per un tempo non superiore a quello necessario per le finalità. Il titolare deve quindi stabilire, per ogni tipo di dato, un periodo di conservazione o almeno i criteri per determinarlo, tenendo conto anche degli obblighi di legge che impongono di conservare certi documenti, e deve indicarlo nell'informativa. Conservare per sicurezza o perché non si sa mai non è una finalità. Il Regolamento ammette tempi più lunghi solo per archiviazione nel pubblico interesse, ricerca o statistica, con misure adeguate. Per noi questo significa rispettare i tempi fissati dall'azienda e non tenere archivi paralleli che nessuno controlla.\n\nIl sesto principio è integrità e riservatezza: i dati vanno trattati in modo da garantirne un'adeguata sicurezza, con misure tecniche e organizzative che li proteggano da trattamenti non autorizzati o illeciti e da perdita, distruzione o danni accidentali. Le misure vere e proprie le vedremo nel modulo dedicato alla sicurezza, ma qui conta capire che questo principio riguarda ciascuno di noi: bloccare il PC quando ci alziamo, non condividere le password, non lasciare fascicoli aperti sulla scrivania, controllare l'indirizzo prima di inviare un'email con allegati.\n\nInfine il settimo principio, la responsabilizzazione. L'articolo 5, paragrafo 2, dice che il titolare è competente per il rispetto dei principi e in grado di comprovarlo. È il cambio di approccio del GDPR: non ci sono più autorizzazioni preventive generalizzate, ma il titolare decide in autonomia come rispettare le regole, in base ai rischi del suo trattamento, e documenta quello che fa. La Guida del Garante all'applicazione del Regolamento la descrive come una delle principali novità. Procedure, istruzioni al personale, registri, valutazioni dei rischi: servono a lavorare bene e anche a dimostrarlo in caso di controllo o contestazione. Ecco perché le procedure aziendali non sono burocrazia fine a sé stessa.\n\nIl caso pratico di questa lezione mette insieme diversi principi. Un collaboratore tiene sul proprio PC copie di tutti i fascicoli perché il gestionale è lento, conserva documenti di ex clienti di dieci anni prima e inoltra le pratiche alla propria email personale. Viola la minimizzazione, perché le copie non servono; la limitazione della conservazione, perché i documenti vecchi vanno tenuti solo se uno scopo o un obbligo lo giustifica; e l'integrità e riservatezza, perché copie locali ed email personali sfuggono ai controlli di sicurezza. La soluzione è lavorare solo con gli strumenti aziendali e segnalare i problemi del gestionale invece di aggirarli.\n\nRicapitolando: sei principi su come trattare i dati, cioè liceità, correttezza e trasparenza, limitazione della finalità, minimizzazione, esattezza, limitazione della conservazione, integrità e riservatezza; più la responsabilizzazione, che chiede al titolare di rispettarli e di saperlo dimostrare. Nella prossima lezione vediamo il primo di questi principi più da vicino: le basi giuridiche che rendono lecito un trattamento, il consenso e le regole per le categorie particolari di dati.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Guida all'applicazione del Regolamento europeo (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6807118"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Lezione costruita sull'art. 5 GDPR (assente nel materiale originale): i sei principi e la responsabilizzazione, con esempi aziendali.",
+          "source_ref": "Reg. UE 2016/679, art. 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Criteri di compatibilità per un trattamento con finalità diversa.",
+          "source_ref": "Reg. UE 2016/679, art. 6, par. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Requisiti di trasparenza delle informazioni e indicazione del periodo di conservazione nell'informativa (richiamo al modulo 2).",
+          "source_ref": "Reg. UE 2016/679, artt. 12, 13, par. 2, lett. a)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Accountability come principale novità secondo la Guida del Garante.",
+          "source_ref": "Guida Garante all'applicazione del GDPR, ed. 2023"
+        }
+      ]
+    },
+    {
+      "title": "Basi giuridiche, consenso e dati particolari",
+      "source_files": [],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Principi generali",
+          "title": "Basi giuridiche, consenso e dati particolari",
+          "goals": [
+            "Scegliere la base giuridica giusta tra le sei dell'articolo 6",
+            "Sapere quando il consenso è valido e come si revoca",
+            "Conoscere il divieto e le eccezioni per le categorie particolari di dati"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Nessun trattamento senza base giuridica",
+          "key": "Un trattamento è lecito solo se e nella misura in cui ricorre almeno una delle sei condizioni dell'articolo 6. Il consenso è una di queste, non l'unica.",
+          "body": "La base giuridica si individua prima di iniziare il trattamento e va indicata nell'informativa. Per ogni finalità può esserci una base diversa.",
+          "ref": "Reg. UE 2016/679, art. 6, par. 1; art. 13, par. 1, lett. c)"
+        },
+        {
+          "layout": "table",
+          "title": "Le sei basi giuridiche",
+          "head": [
+            "Base",
+            "Quando si usa",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "a · Consenso",
+              "La persona accetta il trattamento per finalità specifiche.",
+              "Iscrizione alla newsletter."
+            ],
+            [
+              "b · Contratto",
+              "Serve per eseguire un contratto con l'interessato o misure precontrattuali da lui richieste.",
+              "Preparare il preventivo richiesto, gestire la polizza."
+            ],
+            [
+              "c · Obbligo legale",
+              "Serve per adempiere un obbligo di legge del titolare.",
+              "Fatturazione, adempimenti fiscali e antiriciclaggio."
+            ],
+            [
+              "d · Interessi vitali",
+              "Serve per salvaguardare la vita dell'interessato o di un'altra persona.",
+              "Emergenza medica in ufficio."
+            ],
+            [
+              "e · Interesse pubblico",
+              "Serve per un compito di interesse pubblico o l'esercizio di pubblici poteri.",
+              "Tipico degli enti pubblici."
+            ],
+            [
+              "f · Legittimo interesse",
+              "Serve per un interesse legittimo del titolare o di terzi che non sia superato dai diritti della persona.",
+              "Prevenzione delle frodi, sicurezza della rete."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 6, par. 1; considerando 46-49"
+        },
+        {
+          "layout": "concept",
+          "title": "Il consenso non è la base universale",
+          "key": "Chiedere il consenso per tutto è un errore: se il trattamento serve per il contratto o per un obbligo di legge, la base è quella, e il consenso non serve.",
+          "body": "Il consenso funziona quando la persona può davvero scegliere. Se c'è un evidente squilibrio, ad esempio tra datore di lavoro e dipendente o con un'autorità pubblica, è difficile che sia libero. I soggetti pubblici, di regola, non devono chiedere il consenso.",
+          "ref": "considerando 43; Guida Garante all'applicazione del GDPR"
+        },
+        {
+          "layout": "split",
+          "title": "Il legittimo interesse",
+          "left": {
+            "title": "Come funziona",
+            "items": [
+              "Il titolare bilancia il proprio interesse con i diritti e le libertà della persona",
+              "Contano le ragionevoli aspettative dell'interessato, in base al rapporto con il titolare",
+              "Il titolare deve poter dimostrare che il trattamento è necessario",
+              "Non vale per le autorità pubbliche nei loro compiti"
+            ],
+            "ref": "art. 6, par. 1, lett. f); considerando 47"
+          },
+          "right": {
+            "title": "Esempi del Regolamento",
+            "items": [
+              "Prevenzione delle frodi, nei limiti dello stretto necessario",
+              "Marketing diretto, che può essere considerato legittimo interesse",
+              "Trasmissione di dati nel gruppo per fini amministrativi interni",
+              "Sicurezza delle reti e dell'informazione"
+            ],
+            "ref": "considerando 47-49"
+          },
+          "note": "Contro il legittimo interesse la persona può sempre opporsi. Per email, SMS e chiamate automatiche promozionali il Codice Privacy richiede in genere il consenso.",
+          "noteRef": "art. 21 GDPR; art. 130 Codice Privacy"
+        },
+        {
+          "layout": "checklist",
+          "title": "Le condizioni del consenso",
+          "items": [
+            {
+              "text": "Il titolare deve poter dimostrare che la persona ha dato il consenso.",
+              "ref": "art. 7, par. 1"
+            },
+            {
+              "text": "Se la richiesta è in un documento che parla d'altro, deve essere chiaramente distinguibile, comprensibile e in linguaggio semplice.",
+              "ref": "art. 7, par. 2"
+            },
+            {
+              "text": "Il consenso si può revocare in qualsiasi momento, con la stessa facilità con cui è stato dato.",
+              "ref": "art. 7, par. 3"
+            },
+            {
+              "text": "La persona va informata della possibilità di revoca prima di dare il consenso. La revoca non rende illecito il trattamento svolto prima.",
+              "ref": "art. 7, par. 3"
+            },
+            {
+              "text": "Non si può subordinare un contratto o un servizio al consenso per trattamenti non necessari a quel contratto.",
+              "ref": "art. 7, par. 4"
+            }
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Consenso valido o no?",
+          "cols": [
+            {
+              "title": "Valido",
+              "items": [
+                "Casella da spuntare, lasciata vuota per default",
+                "Consensi separati per finalità diverse: newsletter, profilazione, cessione a partner",
+                "Dichiarazione scritta, anche elettronica, o orale, se si può dimostrare",
+                "Link o comando semplice per revocarlo"
+              ]
+            },
+            {
+              "title": "Non valido",
+              "items": [
+                "Casella già spuntata",
+                "Silenzio o inattività",
+                "Un unico “accetto tutto” per finalità diverse",
+                "“Se non acconsenti al marketing non possiamo farti il contratto”"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Minori e servizi online",
+          "title": "Il consenso dei minori",
+          "lead": "Vale per i servizi della società dell'informazione offerti direttamente ai minori, come app, social e servizi online, quando la base è il consenso.",
+          "facts": [
+            {
+              "label": "GDPR",
+              "text": "Il minore può acconsentire da 16 anni; gli Stati possono fissare un'età inferiore, non sotto i 13."
+            },
+            {
+              "label": "Italia",
+              "text": "Il minore può acconsentire da 14 anni."
+            },
+            {
+              "label": "Sotto i 14",
+              "text": "Il consenso è prestato da chi esercita la responsabilità genitoriale."
+            },
+            {
+              "label": "Verifica",
+              "text": "Il titolare si adopera in modo ragionevole per verificarlo, con le tecnologie disponibili."
+            },
+            {
+              "label": "Linguaggio",
+              "text": "Le informazioni rivolte ai minori sono particolarmente chiare e semplici."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, art. 8; Codice Privacy, art. 2-quinquies"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un cliente firma un contratto di assistenza. L'azienda tratta i suoi dati per eseguire il contratto e per emettere fattura. Quale affermazione è corretta?",
+          "options": [
+            "Serve sempre il consenso del cliente per qualsiasi trattamento",
+            "Le basi giuridiche sono il contratto e l'obbligo di legge: il consenso non serve per queste finalità",
+            "L'azienda può usare gli stessi dati anche per marketing senza alcuna verifica",
+            "Il legittimo interesse è l'unica base possibile"
+          ],
+          "answer": 1,
+          "explanation": "Il trattamento necessario a eseguire il contratto si basa sull'art. 6, par. 1, lett. b); la fatturazione su un obbligo legale, lett. c). Chiedere il consenso per queste finalità è inutile e fuorviante. Il marketing è una finalità diversa, che richiede una propria base giuridica e il rispetto delle regole del Codice Privacy."
+        },
+        {
+          "layout": "concept",
+          "title": "Le categorie particolari: divieto con eccezioni",
+          "key": "Trattare dati sulla salute, l'origine etnica, le opinioni politiche, le convinzioni religiose, l'appartenenza sindacale, dati genetici, biometrici o sulla vita e l'orientamento sessuale è vietato, salvo i casi dell'articolo 9, paragrafo 2.",
+          "body": "Serve quindi una base dell'art. 6 e, in più, una delle eccezioni dell'art. 9. In Italia dati genetici, biometrici e sulla salute si trattano anche nel rispetto delle misure di garanzia del Garante.",
+          "ref": "Reg. UE 2016/679, art. 9; Codice Privacy, art. 2-septies"
+        },
+        {
+          "layout": "table",
+          "title": "Le eccezioni al divieto",
+          "head": [
+            "Eccezione",
+            "In sintesi"
+          ],
+          "rows": [
+            [
+              "a · Consenso esplicito",
+              "Per una o più finalità specifiche, salvo che la legge lo escluda."
+            ],
+            [
+              "b · Lavoro e sicurezza sociale",
+              "Obblighi e diritti del datore o del lavoratore previsti da legge o contratto collettivo."
+            ],
+            [
+              "c · Interessi vitali",
+              "Se la persona non è in grado di dare il consenso."
+            ],
+            [
+              "d · Organizzazioni senza scopo di lucro",
+              "Fini politici, filosofici, religiosi o sindacali, solo per membri e contatti regolari."
+            ],
+            [
+              "e · Dati resi manifestamente pubblici",
+              "Dati che la persona stessa ha reso pubblici."
+            ],
+            [
+              "f · Diritti in giudizio",
+              "Accertare, esercitare o difendere un diritto in sede giudiziaria."
+            ],
+            [
+              "g · Interesse pubblico rilevante",
+              "Sulla base di una legge, con misure appropriate."
+            ],
+            [
+              "h · Medicina e sanità",
+              "Medicina preventiva o del lavoro, diagnosi, cure, con obbligo di segreto professionale."
+            ],
+            [
+              "i · Sanità pubblica",
+              "Ad esempio gravi minacce per la salute a carattere transfrontaliero."
+            ],
+            [
+              "j · Ricerca e statistica",
+              "Con le garanzie dell'art. 89."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 9, par. 2-3"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Per una campagna, il responsabile commerciale propone di aggiungere al modulo di iscrizione alla newsletter un campo facoltativo: “Hai patologie croniche? Ti proporremo offerte su misura”. Dice: «Tanto è facoltativo, e chi lo compila ci dà il consenso».",
+          "questions": [
+            "Che tipo di dato si raccoglierebbe?",
+            "Basta il fatto che il campo sia facoltativo?"
+          ],
+          "solution": "Sono dati relativi alla salute, quindi una categoria particolare (art. 9): il trattamento è vietato salvo eccezioni. L'unica ipotizzabile qui è il consenso esplicito, che deve essere specifico per questa finalità e distinto dall'iscrizione alla newsletter: compilare un campo facoltativo non basta. Poi bisogna chiedersi se il dato serva davvero (minimizzazione) e considerare che usarlo per offerte mirate è profilazione. In concreto, la proposta va valutata dal titolare con il referente privacy o il DPO prima di qualsiasi raccolta; la soluzione più semplice è non chiedere quel dato."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Per trattare i dati sulla salute di un cliente sulla base del consenso, che tipo di consenso serve?",
+          "options": [
+            "Un consenso tacito, se il cliente non si oppone",
+            "Un consenso esplicito",
+            "Nessun consenso, se i dati sono utili all'azienda",
+            "Il consenso di un familiare"
+          ],
+          "answer": 1,
+          "explanation": "Per le categorie particolari l'art. 9, par. 2, lett. a) richiede un consenso esplicito per finalità specifiche. Il consenso tacito non è mai valido (considerando 32). La Guida del Garante ricorda che anche le decisioni automatizzate basate sul consenso richiedono un consenso esplicito."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 6",
+              "text": "sei basi giuridiche: almeno una per ogni trattamento"
+            },
+            {
+              "value": "Consenso",
+              "text": "libero, specifico, informato, inequivocabile e revocabile in ogni momento"
+            },
+            {
+              "value": "14 anni",
+              "text": "età del consenso digitale dei minori in Italia"
+            },
+            {
+              "value": "Art. 9",
+              "text": "dati particolari vietati salvo eccezioni"
+            },
+            {
+              "value": "Esplicito",
+              "text": "il consenso richiesto per i dati particolari"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto che ogni trattamento deve essere lecito. In questa lezione vediamo che cosa significa in concreto: quali sono le basi giuridiche previste dal GDPR, quando il consenso è valido e quali regole valgono per i dati più delicati, le categorie particolari.\n\nIl punto di partenza è l'articolo 6: il trattamento è lecito solo se e nella misura in cui ricorre almeno una delle sei condizioni che elenca. Queste condizioni si chiamano basi giuridiche, o fondamenti di liceità. La base giuridica va individuata prima di iniziare il trattamento e va indicata nell'informativa. E può essere diversa per ogni finalità: per la stessa persona, ad esempio un cliente, la gestione del contratto ha una base, la fatturazione un'altra, la newsletter un'altra ancora.\n\nVediamole. La prima è il consenso dell'interessato per una o più finalità specifiche, ad esempio l'iscrizione a una newsletter. La seconda è il contratto: il trattamento è necessario per eseguire un contratto di cui l'interessato è parte, o per misure precontrattuali adottate su sua richiesta. Preparare il preventivo che il cliente ha chiesto, gestire la sua polizza, consegnare un prodotto ordinato rientrano qui. La terza è l'obbligo legale: il trattamento serve per adempiere un obbligo di legge del titolare, come la fatturazione, gli adempimenti fiscali o quelli antiriciclaggio. La quarta è la salvaguardia degli interessi vitali dell'interessato o di un'altra persona, pensiamo a un malore in ufficio; secondo il considerando 46 vi si dovrebbe ricorrere, quando si tratta di interessi vitali di un'altra persona, solo se nessun'altra base è applicabile. La quinta è l'esecuzione di un compito di interesse pubblico o l'esercizio di pubblici poteri, tipica degli enti pubblici. La sesta è il legittimo interesse del titolare o di terzi, a condizione che non prevalgano gli interessi o i diritti e le libertà fondamentali dell'interessato, specialmente se è un minore.\n\nUn errore molto diffuso è pensare che il consenso sia la base universale, da chiedere sempre e comunque. Non è così. Se un trattamento serve per eseguire un contratto o per rispettare un obbligo di legge, la base è quella, e chiedere il consenso è inutile e fuorviante: che cosa succederebbe se il cliente lo negasse, o lo revocasse? Il consenso funziona quando la persona può davvero scegliere. Il considerando 43 avverte che non è un valido fondamento quando c'è un evidente squilibrio tra le parti, specie se il titolare è un'autorità pubblica. Lo stesso problema si pone spesso nel rapporto tra datore di lavoro e dipendente. La Guida del Garante ricorda che i soggetti pubblici, di regola, non devono chiedere il consenso.\n\nIl legittimo interesse merita un approfondimento. Qui è il titolare a dover fare un bilanciamento tra il proprio interesse e i diritti della persona, e deve essere in grado di dimostrare che il trattamento è necessario: la Guida del Garante lo indica come una delle principali espressioni della responsabilizzazione. Il considerando 47 dice che contano le ragionevoli aspettative dell'interessato in base al suo rapporto con il titolare, ad esempio quando è un cliente o un dipendente. Lo stesso considerando cita come legittimo interesse la prevenzione delle frodi, nei limiti dello stretto necessario, e afferma che può essere considerato legittimo interesse anche il marketing diretto. Il considerando 48 cita la trasmissione di dati all'interno di un gruppo per fini amministrativi interni, il 49 la sicurezza delle reti. Due avvertenze. Primo: contro un trattamento basato sul legittimo interesse la persona può sempre opporsi, come vedremo tra i diritti. Secondo: per il marketing con email, SMS o chiamate automatiche il Codice Privacy italiano, all'articolo 130, richiede in genere il consenso, con un'eccezione limitata per l'email a chi è già cliente, che vedremo nella lezione sull'opposizione.\n\nPassiamo alle condizioni del consenso, fissate dall'articolo 7. Primo: il titolare deve essere in grado di dimostrare che la persona ha acconsentito. La Guida del Garante precisa che la forma scritta non è obbligatoria, ma è il modo più semplice per dimostrarlo. Secondo: se la richiesta di consenso si trova in un documento che riguarda anche altre questioni, ad esempio un modulo di adesione, deve essere chiaramente distinguibile, comprensibile e scritta in linguaggio semplice. Terzo: il consenso si può revocare in qualsiasi momento, e deve essere revocabile con la stessa facilità con cui è stato dato. Se basta un clic per iscriversi, non si può pretendere una raccomandata per cancellarsi. La revoca non rende illecito quello che è stato fatto prima, e la persona va informata di questo diritto prima di dare il consenso. Quarto: non si può subordinare un contratto o un servizio al consenso per trattamenti che non servono a quel contratto. La frase se non acconsenti al marketing non possiamo farti il contratto è proprio quello che il Regolamento vuole evitare.\n\nConcretamente, un consenso valido è una casella da spuntare lasciata vuota per default, con consensi separati per finalità diverse, come newsletter, profilazione o comunicazione a partner, e un modo semplice per revocarlo. Non sono validi, come dice il considerando 32, la casella già spuntata, il silenzio o l'inattività; e secondo il considerando 43 si presume non libero un consenso unico per finalità diverse, quando sarebbe appropriato chiederlo separatamente.\n\nPer i minori l'articolo 8 prevede una regola specifica, che vale per i servizi della società dell'informazione offerti direttamente a loro, come app e servizi online, quando la base è il consenso. Il Regolamento fissa l'età a 16 anni, ma permette agli Stati di scendere fino a 13. L'Italia, con l'articolo 2-quinquies del Codice Privacy, ha scelto 14 anni: sotto quell'età il consenso deve essere prestato da chi esercita la responsabilità genitoriale. Il titolare deve fare quanto ragionevolmente possibile per verificarlo, e le informazioni rivolte ai minori devono essere particolarmente chiare e semplici.\n\nArriviamo alle categorie particolari di dati: salute, origine razziale o etnica, opinioni politiche, convinzioni religiose o filosofiche, appartenenza sindacale, dati genetici, dati biometrici per identificare una persona, vita sessuale e orientamento sessuale. Per questi dati l'articolo 9 parte da un divieto, che si supera solo in presenza di una delle eccezioni del paragrafo 2. In pratica serve una base giuridica dell'articolo 6 e, in più, una delle eccezioni dell'articolo 9. In Italia l'articolo 2-septies del Codice Privacy aggiunge che dati genetici, biometrici e sulla salute si trattano anche nel rispetto delle misure di garanzia adottate dal Garante.\n\nLe eccezioni sono dieci. Il consenso esplicito per finalità specifiche, salvo che la legge lo escluda. Gli obblighi e i diritti in materia di lavoro, sicurezza e protezione sociale, previsti dalla legge o dai contratti collettivi: è il caso dei certificati di malattia dei dipendenti o delle trattenute sindacali. La tutela di un interesse vitale quando la persona non può dare il consenso. Le attività di fondazioni, associazioni e organismi senza scopo di lucro con finalità politiche, filosofiche, religiose o sindacali, limitatamente ai membri e ai contatti regolari. I dati resi manifestamente pubblici dall'interessato. L'accertamento, l'esercizio o la difesa di un diritto in giudizio. I motivi di interesse pubblico rilevante previsti dalla legge. Le finalità di medicina preventiva o del lavoro, diagnosi e cura, con obbligo di segreto professionale. La sanità pubblica. E infine la ricerca scientifica, storica e la statistica, con le garanzie dell'articolo 89.\n\nNotiamo la differenza: per i dati comuni basta un consenso inequivocabile; per i dati particolari serve un consenso esplicito, cioè una dichiarazione espressa che riguarda proprio quei dati. Il caso pratico della lezione lo mostra bene. Un campo facoltativo sulle patologie croniche in un modulo per la newsletter raccoglierebbe dati sulla salute; compilarlo non equivale a un consenso esplicito e specifico; il dato probabilmente non serve; e usarlo per offerte su misura sarebbe profilazione. Davanti a proposte del genere, la cosa giusta è fermarsi e coinvolgere chi in azienda si occupa di privacy.\n\nRicapitolando: ogni trattamento ha bisogno di almeno una delle sei basi giuridiche dell'articolo 6, e il consenso è solo una di esse; il consenso deve essere libero, specifico, informato, inequivocabile, dimostrabile e revocabile in ogni momento con facilità; in Italia i minori possono acconsentire ai servizi online da 14 anni; le categorie particolari di dati sono vietate salvo le eccezioni dell'articolo 9, e quando la base è il consenso questo deve essere esplicito. Nella prossima lezione passiamo dal lato dell'interessato: i suoi diritti e come rispondere quando li esercita.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Guida all'applicazione del Regolamento europeo (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6807118"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali (d.lgs. 196/2003 come modificato dal d.lgs. 101/2018), testo coordinato – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=9042678"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Lezione costruita su artt. 6-9 GDPR (assenti nel materiale originale, che cita solo \"dare informativa e acquisire consenso\" tra gli obblighi del titolare, trattati nel modulo 2).",
+          "source_ref": "Reg. UE 2016/679, artt. 6-9"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Le sei basi giuridiche con esempi; legittimo interesse e relativi esempi dei considerando.",
+          "source_ref": "Reg. UE 2016/679, art. 6, par. 1; considerando 43, 46-49; Guida Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Condizioni del consenso, revoca, divieto di subordinare il contratto; esempi di consenso non valido.",
+          "source_ref": "Reg. UE 2016/679, art. 7; considerando 32, 42, 43"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Consenso dei minori: 16 anni nel GDPR, 14 anni in Italia.",
+          "source_ref": "Reg. UE 2016/679, art. 8; Codice Privacy, art. 2-quinquies; Guida Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Divieto ed eccezioni per le categorie particolari; misure di garanzia del Garante per dati genetici, biometrici e sanitari.",
+          "source_ref": "Reg. UE 2016/679, art. 9; Codice Privacy, art. 2-septies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Richiamo alla regola italiana sul marketing con strumenti automatizzati ed email (consenso).",
+          "source_ref": "Codice Privacy, art. 130"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "module": "Soggetti e adempimenti",
+  "topic": "Il Responsabile della Protezione dei Dati (DPO)",
+  "topic_order": 3,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il Responsabile della Protezione dei Dati (DPO)",
+      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 66-71"],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Soggetti e adempimenti · Il Responsabile della Protezione dei Dati (DPO)",
+          "title": "Il Responsabile della Protezione dei Dati (DPO)",
+          "goals": [
+            "Sapere quando la nomina del DPO è obbligatoria",
+            "Conoscere le caratteristiche e la posizione del DPO in azienda",
+            "Capire i compiti del DPO e quando rivolgersi a lui"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Chi è il DPO",
+          "key": "Il DPO, Data Protection Officer, è il Responsabile della protezione dei dati personali (RPD): una figura professionale introdotta dal GDPR che consiglia e sorveglia il titolare e il responsabile.",
+          "body": "Risponde ai principi di organizzazione interna e responsabilizzazione di titolare e responsabile. Il materiale indica che sostituisce il responsabile della sicurezza dei dati. Attenzione: non va confuso con il «responsabile del trattamento» (data processor).",
+          "ref": "Materiale originale del corso; Reg. UE 2016/679, artt. 37-39"
+        },
+        {
+          "layout": "table",
+          "title": "Come può essere nominato",
+          "head": ["Forma", "Caratteristiche"],
+          "rows": [
+            ["DPO interno", "Un dipendente del titolare o del responsabile, non in conflitto di interessi, designato con atto scritto."],
+            ["DPO esterno", "Una persona fisica o una società di consulenza, con un apposito contratto di servizi. Se è una società, indica una persona fisica di riferimento."],
+            ["Team DPO", "Un gruppo di lavoro a supporto del DPO, utile nelle organizzazioni più complesse."],
+            ["DPO di gruppo", "Un gruppo imprenditoriale può nominare un unico DPO, se è facilmente raggiungibile da ogni sede."]
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Quando la nomina è obbligatoria",
+          "items": [
+            {"text": "1. Trattamento svolto da un'autorità pubblica o un organismo pubblico, eccetto le autorità giurisdizionali nell'esercizio delle loro funzioni", "ref": "Reg. UE 2016/679, art. 37, par. 1, lett. a"},
+            {"text": "2. Società con più di 250 dipendenti (indicato dal materiale: non previsto dal GDPR)", "ref": "Materiale originale del corso"},
+            {"text": "3. Attività principale (core business) che richiede il monitoraggio regolare e sistematico degli interessati su larga scala", "ref": "Reg. UE 2016/679, art. 37, par. 1, lett. b"},
+            {"text": "4. Attività principale che consiste nel trattamento su larga scala di dati particolari o relativi a condanne penali e reati", "ref": "Reg. UE 2016/679, art. 37, par. 1, lett. c"}
+          ]
+        },
+        {
+          "layout": "compare",
+          "title": "Obbligati e non obbligati: esempi del Garante",
+          "cols": [
+            {
+              "title": "In genere obbligati",
+              "items": [
+                "Banche, imprese di assicurazione, società finanziarie",
+                "Società di recupero crediti, call center",
+                "Fornitori di servizi informatici e di telecomunicazioni",
+                "Ospedali privati, agenzie per il lavoro"
+              ]
+            },
+            {
+              "title": "In genere non obbligati",
+              "items": [
+                "Liberi professionisti che operano in forma individuale",
+                "Agenti e mediatori non operanti su larga scala",
+                "Imprese individuali o familiari",
+                "PMI, per la gestione corrente di fornitori e dipendenti"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "I dati sensibili, oggi «categorie particolari»",
+          "key": "I dati sensibili sono quelli che, se rivelati, possono provocare un grave danno alla persona: origine razziale o etnica, convinzioni religiose, opinioni politiche, appartenenza sindacale.",
+          "body": "Il materiale li indica oggi come dati di particolare natura. Il GDPR li chiama categorie particolari di dati: comprendono anche dati genetici, biometrici, relativi alla salute, alla vita sessuale o all'orientamento sessuale. Al di fuori dei casi obbligatori la nomina del DPO non è obbligatoria, ma il Garante la raccomanda.",
+          "ref": "Reg. UE 2016/679, art. 9, par. 1; Garante, FAQ sul RPD in ambito privato"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "In quale caso un'impresa privata è obbligata dal GDPR a designare un DPO?",
+          "options": [
+            "Sempre, se tratta dati personali di clienti",
+            "Quando la sua attività principale consiste in trattamenti su larga scala di categorie particolari di dati",
+            "Solo se ha un sito internet",
+            "Quando ha più di 10 dipendenti"
+          ],
+          "answer": 1,
+          "explanation": "Per i privati, l'art. 37, par. 1 GDPR impone il DPO quando l'attività principale consiste nel monitoraggio regolare e sistematico su larga scala o nel trattamento su larga scala di dati particolari o giudiziari. Il numero di dipendenti non è un criterio del GDPR."
+        },
+        {
+          "layout": "checklist",
+          "title": "Le caratteristiche del DPO",
+          "items": [
+            {"text": "1. Soggetto indipendente e autonomo"},
+            {"text": "2. Non in conflitto di interessi con gli altri compiti che svolge"},
+            {"text": "3. Non riceve istruzioni sull'esecuzione dei propri compiti"},
+            {"text": "4. Non può essere rimosso né penalizzato per l'adempimento dei propri compiti"},
+            {"text": "5. Deve avere le risorse necessarie: finanziarie, staff, accesso ai dati"},
+            {"text": "6. Non è soggetto al potere disciplinare per come svolge il ruolo"},
+            {"text": "7. Deve avere conoscenza giuridica e di sicurezza informatica"},
+            {"text": "8. Riferisce al vertice gerarchico (CEO) di titolare o responsabile", "ref": "Materiale originale del corso; Reg. UE 2016/679, artt. 37, par. 5 e 38"}
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Il conflitto di interessi",
+          "lead": "Il DPO può svolgere altri compiti, purché non ci sia conflitto di interessi.",
+          "head": ["Situazione", "Compatibile?"],
+          "rows": [
+            ["Amministratore delegato, membro del CdA, direttore generale", "No: decidono finalità e mezzi."],
+            ["Responsabile IT, audit o rischio, sicurezza sul lavoro", "No, secondo il Garante."],
+            ["Responsabile risorse umane, marketing, finanza", "No: decidono i trattamenti del proprio settore."],
+            ["Fornitore IT o software house dello stesso titolare", "No, come DPO esterno."],
+            ["Il responsabile del trattamento ex art. 28", "No: il DPO non può esserlo."]
+          ]
+        },
+        {
+          "layout": "facts",
+          "title": "Riservatezza, contatti e requisiti",
+          "lead": "Il DPO è un punto di riferimento dentro e fuori l'azienda.",
+          "facts": [
+            {"label": "Segretezza", "text": "È tenuto al segreto e alla riservatezza sui propri compiti."},
+            {"label": "Relazione annuale", "text": "Secondo il materiale redige una relazione annuale per il CdA."},
+            {"label": "Contatti", "text": "Può essere contattato dagli interessati e dal Garante."},
+            {"label": "Presenza", "text": "Il materiale lo descrive come soggetto quasi permanentemente presente in azienda."},
+            {"label": "Requisiti", "text": "Non servono qualifiche o attestazioni specifiche, ma un'ottima conoscenza giuridica e di sicurezza informatica."},
+            {"label": "Pubblicità", "text": "I suoi dati di contatto vanno pubblicati e comunicati al Garante."}
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "I compiti del DPO",
+          "items": [
+            {"text": "1. Informare e dare consulenza sul GDPR a titolare, responsabile e dipendenti"},
+            {"text": "2. Verificare e vigilare sul rispetto del Regolamento e delle politiche interne"},
+            {"text": "3. Sensibilizzare e formare il personale"},
+            {"text": "4. Dare pareri, se richiesto, sulla valutazione d'impatto e sorvegliarne lo svolgimento"},
+            {"text": "5. Essere punto di contatto con interessati e autorità di controllo, e cooperare con il Garante"},
+            {"text": "6. Monitorare il data breach (indicato dal materiale)", "ref": "Materiale originale del corso; Reg. UE 2016/679, art. 39"}
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La responsabilità resta del titolare",
+          "key": "Il DPO supporta, consiglia e sorveglia, ma non diventa responsabile della conformità: titolare e responsabile mantengono la piena responsabilità del rispetto della normativa.",
+          "body": "Per questo va coinvolto tempestivamente e adeguatamente in tutte le questioni sulla protezione dei dati: un nuovo software, una nuova campagna, un incidente. Nel valutare i trattamenti considera debitamente i rischi.",
+          "ref": "Reg. UE 2016/679, artt. 38, par. 1 e 39, par. 2; Garante, FAQ sul RPD"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una compagnia assicurativa designa come DPO il proprio responsabile dei sistemi informatici, «perché conosce bene i dati». Pochi mesi dopo, il DPO critica un nuovo progetto di profilazione dei clienti voluto dalla direzione marketing, che chiede di sostituirlo.",
+          "questions": [
+            "La scelta del DPO è corretta?",
+            "La compagnia può rimuovere il DPO per il parere critico?",
+            "La compagnia era obbligata a nominare un DPO?"
+          ],
+          "solution": "La scelta non è corretta: per il Garante il responsabile IT è in conflitto di interessi, perché decide mezzi del trattamento che dovrebbe sorvegliare. Il DPO non può essere rimosso o penalizzato per aver svolto i propri compiti: un parere critico è proprio il suo ruolo. Quanto all'obbligo, il Garante cita le imprese assicurative tra i soggetti in genere obbligati, per i trattamenti su larga scala che costituiscono la loro attività principale."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale affermazione sul DPO è corretta?",
+          "options": [
+            "Riceve istruzioni dal titolare su come svolgere i propri compiti",
+            "Può essere rimosso se esprime un parere sgradito alla direzione",
+            "Non riceve istruzioni sui propri compiti e riferisce direttamente al vertice dell'organizzazione",
+            "Diventa responsabile al posto del titolare per la conformità al GDPR"
+          ],
+          "answer": 2,
+          "explanation": "L'art. 38, par. 3 GDPR prevede che il DPO non riceva istruzioni sull'esecuzione dei compiti, non sia rimosso o penalizzato per averli svolti e riferisca direttamente al vertice gerarchico. La responsabilità della conformità resta al titolare."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {"value": "3 casi", "text": "Il GDPR impone il DPO a enti pubblici, monitoraggio su larga scala, dati particolari o giudiziari su larga scala."},
+            {"value": "Interno o esterno", "text": "Dipendente senza conflitto di interessi, oppure professionista o società con contratto di servizi."},
+            {"value": "Indipendente", "text": "Non riceve istruzioni, non è penalizzato per i suoi compiti, riferisce al vertice."},
+            {"value": "Compiti", "text": "Consulenza, sorveglianza, formazione, pareri sulla DPIA, contatto con interessati e Garante."},
+            {"value": "Titolare", "text": "La responsabilità della conformità resta al titolare e al responsabile."}
+          ]
+        }
+      ],
+      "narration": "Chiudiamo questo modulo con l'ultima delle figure soggettive: il DPO, Data Protection Officer, che il GDPR in italiano chiama Responsabile della protezione dei dati, spesso abbreviato in RPD. Fate attenzione ai nomi: il DPO non ha nulla a che vedere con il responsabile del trattamento che abbiamo appena studiato. Il responsabile del trattamento tratta i dati per conto del titolare; il DPO consiglia e controlla che il titolare e il responsabile rispettino le regole.\n\nIl DPO è una nuova figura professionale introdotta con il GDPR. Il materiale del corso indica che sostituisce il responsabile della sicurezza dei dati; in realtà ha un ruolo più ampio, che riguarda tutta la protezione dei dati e non solo la sicurezza informatica. Risponde ai principi di organizzazione interna e di responsabilizzazione del titolare e del responsabile del trattamento: è uno degli strumenti con cui un'organizzazione dimostra di prendere sul serio la protezione dei dati.\n\nIl DPO può essere nominato in diverse forme. Può essere un DPO interno, cioè un dipendente del titolare o del responsabile: il Garante precisa che non deve trovarsi in conflitto di interessi e che va designato con un atto scritto. Può essere un DPO esterno, cioè una persona fisica o una società di consulenza, con un apposito contratto di servizi; se si sceglie una società, questa deve indicare una persona fisica come punto di riferimento. Il Garante consiglia anche, in caso di DPO esterno, di individuare un referente interno che faccia da collegamento con l'azienda. Nelle organizzazioni più grandi si parla poi di team DPO, un gruppo di lavoro che supporta il DPO. Infine, un gruppo imprenditoriale può nominare un unico DPO per tutte le società, a condizione che sia facilmente raggiungibile da ciascuna sede.\n\nQuando la nomina è obbligatoria? Il materiale del corso elenca quattro casi. Il primo: il trattamento è effettuato da un'autorità pubblica o da un organismo pubblico, ad eccezione degli organismi giurisdizionali; il Regolamento precisa che l'eccezione riguarda le autorità giurisdizionali quando esercitano le loro funzioni giurisdizionali. Il secondo caso indicato dal materiale è quello delle società con più di 250 dipendenti. Su questo punto attenzione: il GDPR non prevede alcuna soglia di dipendenti per il DPO. La soglia dei 250 dipendenti riguarda un altro adempimento, il registro dei trattamenti, che abbiamo visto in precedenza. Una grande azienda dovrà quindi chiedersi se rientra negli altri casi, non contare i dipendenti. Il terzo caso: l'attività principale del titolare o del responsabile consiste in trattamenti che richiedono un monitoraggio regolare e sistematico degli interessati su larga scala, cioè quando il trattamento dei dati è il core business. Il quarto: l'attività principale consiste nel trattamento su larga scala di dati sensibili o di dati relativi a condanne penali o reati.\n\nIl Garante, nelle FAQ sul DPO in ambito privato, fa esempi molto utili. Sono in genere obbligati gli istituti di credito, le imprese assicurative, le società finanziarie, le società di recupero crediti, i call center, i fornitori di servizi informatici e di telecomunicazioni, gli ospedali privati, le agenzie per il lavoro. Non sono invece in genere obbligati, tra gli altri, i liberi professionisti che operano in forma individuale, gli agenti e i mediatori che non operano su larga scala, le imprese individuali o familiari, e le piccole e medie imprese per i trattamenti legati alla gestione corrente dei rapporti con fornitori e dipendenti. Anche in questi casi, però, il Garante raccomanda la nomina come buona pratica di accountability.\n\nTorniamo ai dati sensibili, già incontrati nel primo modulo. Il materiale li descrive come quei dati che, se rivelati, provocano un grave danno alla persona: dati che indicano l'origine razziale o etnica, le convinzioni religiose, l'appartenenza a partiti politici o ad associazioni sindacali. Oggi sono definiti dati di particolare natura; il GDPR, all'articolo 9, li chiama categorie particolari di dati personali e vi comprende anche i dati genetici, i dati biometrici usati per identificare una persona, i dati relativi alla salute e quelli relativi alla vita sessuale o all'orientamento sessuale. Al di fuori di queste ipotesi la nomina del DPO non è obbligatoria, ma resta possibile e consigliata.\n\nDopo la verifica, vediamo le caratteristiche del DPO. Il materiale ne elenca otto, che trovano riscontro negli articoli 37 e 38 del Regolamento. Primo: è un soggetto indipendente e autonomo. Secondo: non deve essere in conflitto di interessi; il Regolamento consente al DPO di svolgere altri compiti, purché non creino conflitti. Terzo: non riceve istruzioni su come svolgere i propri compiti. Quarto: non può essere rimosso; il Regolamento precisa che non può essere rimosso o penalizzato per l'adempimento dei propri compiti. Quinto: deve avere risorse, finanziarie e di personale, e l'accesso ai dati e ai trattamenti, oltre ai mezzi per mantenere aggiornata la propria conoscenza. Sesto: non è soggetto al potere disciplinare per il modo in cui svolge il proprio ruolo. Settimo: deve avere conoscenza giuridica e di sicurezza informatica; il Regolamento parla di qualità professionali e, in particolare, di conoscenza specialistica della normativa e delle prassi in materia di protezione dei dati. Ottavo: riferisce al vertice gerarchico del titolare e del responsabile, cioè all'amministratore delegato o al consiglio di amministrazione.\n\nIl conflitto di interessi è il punto su cui si sbaglia più spesso. Il Garante indica come incompatibili, per un DPO interno, l'amministratore delegato, i membri del consiglio di amministrazione, il direttore generale, il responsabile dei sistemi informatici, i responsabili dell'audit, del rischio, della sicurezza sul lavoro, e i responsabili delle direzioni che decidono finalità e modalità dei trattamenti, come risorse umane, marketing, finanza. Il motivo è semplice: nessuno può controllare in modo indipendente le proprie decisioni. Per un DPO esterno, non è compatibile chi fornisce al titolare servizi in posizione di conflitto, come il fornitore informatico o la software house. E il DPO non può essere nominato anche responsabile del trattamento.\n\nIl DPO è tenuto al segreto e alla riservatezza in merito all'adempimento dei propri compiti. Il materiale aggiunge che deve redigere una relazione annuale da sottoporre al consiglio di amministrazione: è una buona pratica diffusa, anche se il Regolamento non la prevede espressamente. Il DPO può essere contattato dagli interessati, per tutte le questioni relative al trattamento dei loro dati e all'esercizio dei loro diritti, e può essere contattato dal Garante. Per questo il titolare deve pubblicare i dati di contatto del DPO, ad esempio nell'informativa e sul sito, e comunicarli al Garante con l'apposita procedura telematica; il Garante precisa che va pubblicato il contatto, non necessariamente il nome. Il materiale lo descrive come un soggetto quasi permanentemente presente in azienda, ad indicare che deve essere facilmente raggiungibile e coinvolto nella vita dell'organizzazione. Non sono richieste qualifiche specifiche, se non un'ottima conoscenza in materia giuridica e di sicurezza informatica, e non sono rilasciate attestazioni professionali che abilitino al ruolo: il Garante conferma che non servono attestazioni formali né iscrizione ad albi.\n\nQuali sono i compiti del DPO? Primo: dare consulenza sulla normativa del GDPR al titolare e al responsabile, e informare i dipendenti che eseguono i trattamenti. Secondo: verificare e vigilare sul rispetto delle norme del Regolamento e delle politiche interne in materia di protezione dei dati. Terzo: sensibilizzare e formare il personale. Quarto: dare pareri, se richiesto, sulla valutazione d'impatto e sorvegliarne lo svolgimento. Quinto: essere il punto di contatto con gli interessati e con l'autorità di controllo, con cui coopera, ad esempio nella consultazione preventiva. Il materiale aggiunge un sesto compito: monitorare il data breach. Il Regolamento non lo indica espressamente tra i compiti, ma nella pratica il DPO è spesso coinvolto nella gestione delle violazioni, e i suoi contatti vanno indicati nella notifica al Garante.\n\nUn ultimo punto, molto importante: il DPO non prende il posto del titolare. Il Garante lo dice chiaramente: titolare e responsabile mantengono la piena responsabilità dell'osservanza della normativa. Il DPO consiglia, sorveglia, segnala; ma le decisioni, e le loro conseguenze, restano del titolare. Per questo il titolare deve coinvolgerlo tempestivamente e adeguatamente in tutte le questioni che riguardano la protezione dei dati. Per voi, in pratica: se avete un dubbio su un nuovo trattamento, su una richiesta di un cliente o su un possibile incidente, il DPO, se c'è, è la persona a cui rivolgervi.\n\nNel caso pratico, una compagnia assicurativa sceglie come DPO il responsabile informatico: per il Garante c'è conflitto di interessi. E quando il DPO esprime un parere critico su un progetto, sta facendo esattamente il suo lavoro: non può essere rimosso o penalizzato per questo.\n\nRicapitoliamo. Il GDPR impone il DPO alle autorità e agli organismi pubblici e ai soggetti la cui attività principale consiste nel monitoraggio su larga scala o nel trattamento su larga scala di dati particolari o giudiziari. Può essere interno o esterno, ma senza conflitti di interessi. È indipendente, non riceve istruzioni e riferisce al vertice. Consiglia, sorveglia, forma, dà pareri sulla DPIA ed è il punto di contatto per interessati e Garante. E la responsabilità della conformità resta sempre del titolare e del responsabile. Nel prossimo modulo vedremo la sicurezza dei dati, le violazioni, la valutazione d'impatto e le sanzioni.",
+      "sources": [
+        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
+        {"title": "Garante privacy, FAQ sul Responsabile della Protezione dei Dati (RPD) in ambito privato", "url": "https://www.garanteprivacy.it/faq-sul-responsabile-della-protezione-dei-dati-rpd-in-ambito-privato"}
+      ],
+      "changes": [
+        {"kind": "aggiunto", "description": "Designazione per iscritto del DPO interno; persona fisica di riferimento per il DPO esterno società; referente interno; DPO unico di gruppo.", "source_ref": "Reg. UE 2016/679, art. 37, par. 2 e 6; Garante, FAQ sul RPD"},
+        {"kind": "aggiunto", "description": "Esempi di soggetti in genere obbligati e non obbligati; nomina raccomandata anche quando non obbligatoria.", "source_ref": "Garante, FAQ sul RPD in ambito privato"},
+        {"kind": "aggiunto", "description": "Incompatibilità per conflitto di interessi indicate dal Garante; il DPO non può essere responsabile del trattamento.", "source_ref": "Garante, FAQ sul RPD in ambito privato"},
+        {"kind": "aggiunto", "description": "Pubblicazione dei dati di contatto e comunicazione al Garante; contatti del DPO nell'informativa e nella notifica di violazione.", "source_ref": "Reg. UE 2016/679, artt. 13, 33, 37, par. 7; Garante, FAQ"},
+        {"kind": "aggiunto", "description": "Coinvolgimento tempestivo del DPO; considerazione dei rischi; responsabilità della conformità che resta al titolare.", "source_ref": "Reg. UE 2016/679, artt. 38, par. 1 e 39, par. 2; Garante, FAQ"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: obbligo di nomina per «società con più di 250 dipendenti». Non previsto dall'art. 37 GDPR, che non fissa soglie di dipendenti (la soglia di 250 riguarda l'esenzione dal registro, art. 30, par. 5). Da correggere.", "source_ref": "Reg. UE 2016/679, art. 37, par. 1"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il DPO «sostituisce il responsabile della sicurezza dei dati». Riferimento da indicare: il ruolo del DPO riguarda tutta la protezione dei dati.", "source_ref": "Materiale originale"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il DPO «non può essere rimosso». Precisato: non può essere rimosso o penalizzato per l'adempimento dei propri compiti.", "source_ref": "Reg. UE 2016/679, art. 38, par. 3"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: dati sensibili «relativi alla salute e al sesso». Precisato: dati relativi alla vita sessuale o all'orientamento sessuale; denominazione GDPR «categorie particolari di dati».", "source_ref": "Reg. UE 2016/679, art. 9, par. 1"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il DPO «deve redigere una relazione annuale da sottoporre al CdA». Non prevista espressamente dal GDPR: riferimento da indicare.", "source_ref": "Materiale originale"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il DPO è un «soggetto quasi permanentemente presente in azienda». Non è un requisito del GDPR (è ammesso il DPO esterno); letto come esigenza di reperibilità e coinvolgimento.", "source_ref": "Reg. UE 2016/679, art. 37, par. 6"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: tra i compiti «monitorare il data breach». Non elencato nell'art. 39 GDPR; il DPO è comunque indicato come punto di contatto nella notifica (art. 33, par. 3, lett. b).", "source_ref": "Reg. UE 2016/679, artt. 33 e 39"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il DPO «riferisce al CEO». Il GDPR parla di vertice gerarchico del titolare o del responsabile.", "source_ref": "Reg. UE 2016/679, art. 38, par. 3"}
+      ]
+    }
+  ]
+}

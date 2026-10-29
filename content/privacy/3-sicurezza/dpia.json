@@ -1,0 +1,358 @@
+{
+  "module": "Sicurezza, violazioni e sanzioni",
+  "topic": "Valutazione d'impatto (DPIA)",
+  "topic_order": 3,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "La valutazione d'impatto e la consultazione preventiva",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 13-14"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Valutazione d'impatto (DPIA)",
+          "title": "La valutazione d'impatto",
+          "goals": [
+            "Capire che cos'è una DPIA e quando è obbligatoria",
+            "Conoscere l'elenco del Garante e i nove criteri del rischio elevato",
+            "Sapere che cosa contiene una DPIA e quando si consulta il Garante"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è la DPIA",
+          "key": "Quando un trattamento, in particolare con nuove tecnologie, può presentare un rischio elevato per i diritti e le libertà delle persone, il titolare effettua, prima di iniziare, una valutazione d'impatto sulla protezione dei dati.",
+          "body": "In inglese Data Protection Impact Assessment, DPIA. Una sola valutazione può riguardare un insieme di trattamenti simili con rischi elevati analoghi.",
+          "ref": "Reg. UE 2016/679, art. 35, par. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "Uno strumento di accountability",
+          "key": "Il titolare deve rispettare il Regolamento e anche dimostrare come lo rispetta. La DPIA ne è un esempio: è un processo da rivedere nel tempo, non un adempimento una tantum.",
+          "body": "Per il Garante è una buona prassi anche oltre gli obblighi di legge: aiuta a prevenire incidenti e realizza la protezione dei dati fin dalla progettazione.",
+          "ref": "Garante privacy, scheda DPIA"
+        },
+        {
+          "layout": "checklist",
+          "title": "I casi previsti dal Regolamento",
+          "items": [
+            {
+              "text": "Valutazione sistematica e globale di aspetti personali, basata su trattamenti automatizzati, compresa la profilazione, su cui si fondano decisioni con effetti giuridici o analoghi.",
+              "ref": "art. 35, par. 3, lett. a"
+            },
+            {
+              "text": "Trattamento su larga scala di categorie particolari di dati (ad esempio salute) o di dati su condanne penali e reati.",
+              "ref": "art. 35, par. 3, lett. b"
+            },
+            {
+              "text": "Sorveglianza sistematica su larga scala di una zona accessibile al pubblico.",
+              "ref": "art. 35, par. 3, lett. c"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Gli elenchi dell'Autorità di controllo",
+          "key": "L'Autorità di controllo redige e pubblica un elenco dei trattamenti soggetti a valutazione d'impatto. Può pubblicare anche un elenco di quelli per cui non è richiesta.",
+          "body": "Meccanismo di coerenza: se gli elenchi riguardano trattamenti in più Stati membri, prima di adottarli l'Autorità passa per il Comitato europeo, perché il Regolamento sia applicato in modo uniforme.",
+          "ref": "Reg. UE 2016/679, art. 35, par. 4-6"
+        },
+        {
+          "layout": "table",
+          "title": "L'elenco del Garante italiano",
+          "lead": "Provvedimento n. 467 dell'11 ottobre 2018: 12 tipologie, tra cui queste. L'elenco non è esaustivo.",
+          "head": [
+            "Tipologia",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "Scoring e profilazione su larga scala",
+              "Valutare l'affidabilità economica dei clienti con un punteggio."
+            ],
+            [
+              "Decisioni automatizzate con effetti significativi",
+              "Rifiutare un servizio sulla base di una centrale rischi, senza intervento umano."
+            ],
+            [
+              "Monitoraggio sistematico",
+              "Raccolta di dati di navigazione per lunghi periodi."
+            ],
+            [
+              "Controllo a distanza dei dipendenti con sistemi tecnologici",
+              "Videosorveglianza o geolocalizzazione delle auto aziendali."
+            ],
+            [
+              "Soggetti vulnerabili, trattati in modo non occasionale",
+              "Minori, anziani, pazienti, persone con disabilità."
+            ],
+            [
+              "Tecnologie innovative, se ricorre almeno un altro criterio",
+              "Sistemi di intelligenza artificiale, IoT, dispositivi indossabili."
+            ],
+            [
+              "Dati biometrici o genetici trattati in modo sistematico",
+              "Rilevazione delle presenze con impronta digitale."
+            ]
+          ],
+          "ref": "Garante privacy, provv. n. 467/2018, allegato 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "I nove criteri del rischio elevato",
+          "items": [
+            {
+              "text": "Valutazione o punteggio, anche con profilazione e previsione.",
+              "ref": "WP 248 rev. 01"
+            },
+            {
+              "text": "Decisioni automatizzate con effetti giuridici o analoghi."
+            },
+            {
+              "text": "Monitoraggio sistematico. Dati sensibili o altamente personali. Trattamento su larga scala."
+            },
+            {
+              "text": "Incrocio o combinazione di insiemi di dati. Interessati vulnerabili."
+            },
+            {
+              "text": "Uso innovativo di nuove tecnologie. Trattamento che impedisce di esercitare un diritto o di accedere a un servizio o contratto."
+            },
+            {
+              "text": "Se ricorrono due o più criteri, di regola serve la DPIA. A volte ne basta uno."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'azienda vuole installare un sistema di geolocalizzazione sulle auto dei dipendenti che permette di seguirne gli spostamenti. Che cosa deve fare, prima di iniziare?",
+          "options": [
+            "Niente di particolare: le auto sono di proprietà dell'azienda",
+            "Effettuare una valutazione d'impatto, perché è un trattamento compreso nell'elenco del Garante",
+            "Chiedere sempre un'autorizzazione al giudice del lavoro",
+            "Effettuare una DPIA solo dopo un anno di utilizzo"
+          ],
+          "answer": 1,
+          "explanation": "L'elenco del Garante (provv. 467/2018, punto 5) comprende i trattamenti nel rapporto di lavoro con sistemi tecnologici, anche di geolocalizzazione, che consentono un controllo a distanza dei dipendenti. La DPIA si fa prima di iniziare il trattamento."
+        },
+        {
+          "layout": "checklist",
+          "title": "Il contenuto minimo della DPIA",
+          "items": [
+            {
+              "text": "Descrizione sistematica dei trattamenti e delle finalità, compreso l'eventuale interesse legittimo perseguito dal titolare.",
+              "ref": "art. 35, par. 7, lett. a"
+            },
+            {
+              "text": "Valutazione della necessità e proporzionalità dei trattamenti rispetto alle finalità.",
+              "ref": "art. 35, par. 7, lett. b"
+            },
+            {
+              "text": "Valutazione dei rischi per i diritti e le libertà degli interessati.",
+              "ref": "art. 35, par. 7, lett. c"
+            },
+            {
+              "text": "Misure previste per affrontare i rischi: garanzie, misure di sicurezza, meccanismi per dimostrare la conformità.",
+              "ref": "art. 35, par. 7, lett. d"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Chi fa che cosa",
+          "steps": [
+            {
+              "label": "Il titolare effettua",
+              "text": "La DPIA è un compito del titolare, prima di iniziare il trattamento."
+            },
+            {
+              "label": "Consulta il DPO",
+              "text": "Se è stato designato un responsabile della protezione dei dati, il titolare si consulta con lui."
+            },
+            {
+              "label": "Ascolta gli interessati",
+              "text": "Se del caso, raccoglie le opinioni degli interessati o dei loro rappresentanti."
+            },
+            {
+              "label": "Riesamina",
+              "text": "Quando il rischio cambia, verifica che il trattamento sia ancora conforme alla valutazione."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, art. 35, par. 2, 9 e 11"
+        },
+        {
+          "layout": "concept",
+          "title": "La consultazione preventiva",
+          "key": "Se la DPIA indica che il trattamento presenterebbe un rischio elevato in assenza di misure per attenuarlo, il titolare consulta il Garante prima di iniziare.",
+          "body": "In pratica: si consulta il Garante quando le misure individuate non bastano e il rischio residuo resta elevato.",
+          "ref": "Reg. UE 2016/679, art. 36, par. 1; Garante, scheda DPIA"
+        },
+        {
+          "layout": "timeline",
+          "title": "I tempi della consultazione",
+          "items": [
+            {
+              "value": "8 settimane",
+              "text": "per il parere scritto del Garante, se ritiene che il trattamento violi il Regolamento",
+              "ref": "art. 36, par. 2"
+            },
+            {
+              "value": "6 settimane",
+              "text": "di possibile proroga, per i trattamenti complessi",
+              "ref": "art. 36, par. 2"
+            },
+            {
+              "value": "1 mese",
+              "text": "entro cui il Garante comunica la proroga e i motivi",
+              "ref": "art. 36, par. 2"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa si invia al Garante",
+          "items": [
+            {
+              "text": "Le responsabilità di titolare, contitolari e responsabili, se presenti.",
+              "ref": "art. 36, par. 3"
+            },
+            {
+              "text": "Finalità e mezzi del trattamento previsto."
+            },
+            {
+              "text": "Misure e garanzie per proteggere i diritti degli interessati."
+            },
+            {
+              "text": "I contatti del DPO, se designato, e la DPIA."
+            },
+            {
+              "text": "Ogni altra informazione che il Garante richiede. Finché non arrivano, i termini possono essere sospesi."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una società di servizi con molti clienti vuole introdurre un sistema di intelligenza artificiale che analizza le conversazioni con i clienti e assegna a ciascuno un punteggio di «propensione all'abbandono», per decidere a chi offrire sconti.",
+          "questions": [
+            "Quali criteri del rischio elevato ricorrono?",
+            "Serve una DPIA? Quando?",
+            "In quale caso bisognerebbe consultare il Garante?"
+          ],
+          "solution": "Ricorrono almeno l'uso innovativo di nuove tecnologie, la valutazione con punteggio e profilazione e il trattamento su larga scala. Il caso rientra anche nell'elenco del Garante (scoring e profilazione su larga scala; tecnologie innovative con almeno un altro criterio). La DPIA va fatta prima di avviare il sistema, sentendo il DPO se c'è. Se, dopo aver individuato le misure, il rischio residuo restasse elevato, la società dovrebbe consultare il Garante prima di iniziare."
+        },
+        {
+          "layout": "concept",
+          "title": "Uno strumento per le PMI",
+          "key": "L'autorità francese CNIL ha messo a disposizione un software gratuito, disponibile anche in italiano con la collaborazione del Garante, che guida passo passo nella DPIA.",
+          "body": "Il Garante avverte che è un aiuto metodologico, non un modello valido per ogni situazione: la valutazione va adattata al trattamento concreto e il rischio non si limita alle minacce informatiche.",
+          "ref": "Garante privacy, scheda DPIA"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Dopo la valutazione d'impatto, il titolare ha adottato misure che riducono il rischio a un livello accettabile. Deve consultare il Garante prima di iniziare?",
+          "options": [
+            "Sì, la consultazione è sempre obbligatoria dopo una DPIA",
+            "No: la consultazione preventiva serve quando il rischio resta elevato senza misure di attenuazione adeguate",
+            "Sì, ma solo se il titolare non ha un DPO",
+            "No, e non deve nemmeno conservare la DPIA"
+          ],
+          "answer": 1,
+          "explanation": "L'articolo 36 prevede la consultazione quando la DPIA indica un rischio elevato che il titolare non riesce ad attenuare. Se le misure bastano, si procede, conservando la DPIA come prova e riesaminandola quando il rischio cambia."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Prima",
+              "text": "la DPIA si fa prima di iniziare un trattamento a rischio elevato"
+            },
+            {
+              "value": "12",
+              "text": "tipologie nell'elenco del Garante, provvedimento 467 del 2018"
+            },
+            {
+              "value": "2 criteri",
+              "text": "su nove: di regola indicano che serve la DPIA"
+            },
+            {
+              "value": "4 contenuti",
+              "text": "descrizione, necessità e proporzionalità, rischi, misure"
+            },
+            {
+              "value": "8 + 6",
+              "text": "settimane per il parere del Garante nella consultazione preventiva"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo della valutazione d'impatto sulla protezione dei dati, spesso chiamata con la sigla inglese DPIA, Data Protection Impact Assessment. Non tutti in azienda dovranno redigerne una, ma è utile sapere che cos'è: quando si introduce un nuovo software, un sistema di videosorveglianza o uno strumento di intelligenza artificiale, la domanda «serve una DPIA?» deve venire in mente a tutti.\n\nLa regola è nell'articolo 35 del Regolamento. Quando un tipo di trattamento, in particolare se prevede l'uso di nuove tecnologie, considerati la natura, l'oggetto, il contesto e le finalità, può presentare un rischio elevato per i diritti e le libertà delle persone fisiche, il titolare effettua, prima di procedere al trattamento, una valutazione dell'impatto. La parola chiave è «prima»: la DPIA non si fa a cose fatte, ma quando si progetta il trattamento, così da poterlo correggere in tempo. Una singola valutazione può riguardare anche un insieme di trattamenti simili che presentano rischi elevati analoghi.\n\nIl Garante sottolinea che la DPIA è uno degli elementi più rilevanti del Regolamento, perché esprime la responsabilizzazione del titolare, l'accountability: il titolare non deve solo rispettare le regole, ma anche dimostrare come le rispetta. La DPIA va intesa come un processo soggetto a revisione continua, non come un adempimento da fare una volta e archiviare. E il Garante la considera una buona prassi anche oltre gli obblighi di legge, perché permette di prevenire incidenti futuri e di realizzare in concreto la protezione dei dati fin dalla progettazione.\n\nQuando è obbligatoria? Il Regolamento indica tre casi. Primo: una valutazione sistematica e globale di aspetti personali, basata su un trattamento automatizzato, compresa la profilazione, su cui si fondano decisioni che hanno effetti giuridici o incidono in modo analogo significativamente sulle persone. Pensate a un sistema che decide in automatico se concedere o no un finanziamento. Secondo: il trattamento su larga scala di categorie particolari di dati, come quelli sulla salute, oppure di dati su condanne penali e reati. Terzo: la sorveglianza sistematica su larga scala di una zona accessibile al pubblico, come la videosorveglianza di una grande area commerciale.\n\nMa questi tre casi non sono gli unici. Il materiale del corso ricorda che l'Autorità di controllo redige e pubblica un elenco delle tipologie di trattamenti soggetti al requisito della valutazione d'impatto, e può anche pubblicare un elenco di quelli per cui non è richiesta. Prima di adottare questi elenchi, l'Autorità applica il meccanismo di coerenza: in pratica, quando gli elenchi riguardano trattamenti che offrono beni o servizi o monitorano persone in più Stati membri, o che possono incidere sulla libera circolazione dei dati nell'Unione, il progetto passa per il Comitato europeo per la protezione dei dati, perché il Regolamento sia applicato in modo uniforme in tutta Europa.\n\nIl Garante italiano ha adottato il suo elenco con il provvedimento numero 467 dell'11 ottobre 2018, dopo il parere del Comitato europeo. Contiene dodici tipologie. Vediamo quelle più vicine alla vita di un'azienda. I trattamenti valutativi o di scoring su larga scala e la profilazione, per esempio un punteggio sull'affidabilità economica dei clienti. Le decisioni automatizzate che producono effetti giuridici o analoghi, comprese quelle che impediscono di accedere a un servizio o a un contratto, come lo screening dei clienti di una banca con i dati di una centrale rischi. Il monitoraggio sistematico, anche online. I trattamenti nel rapporto di lavoro con sistemi tecnologici, comprese videosorveglianza e geolocalizzazione, da cui derivi la possibilità di un controllo a distanza dei dipendenti. I trattamenti non occasionali di dati di soggetti vulnerabili, come minori, anziani, pazienti, persone con disabilità. L'uso di tecnologie innovative, come intelligenza artificiale, internet delle cose o dispositivi indossabili, quando ricorre anche almeno un altro criterio di rischio. E i trattamenti sistematici di dati biometrici o genetici: per esempio la rilevazione delle presenze con l'impronta digitale. Nell'elenco ci sono anche lo scambio di dati su larga scala tra titolari, l'incrocio di informazioni e i dati di carattere estremamente personale su larga scala. Il Garante precisa che l'elenco non è esaustivo.\n\nCome si decide, allora, nei casi non elencati? Il Garante richiama le linee guida del Gruppo Articolo 29, il documento chiamato WP 248, fatte proprie dal Comitato europeo. Queste individuano nove criteri. Valutazione o assegnazione di un punteggio, compresa la profilazione. Decisioni automatizzate con effetti giuridici o analoghi. Monitoraggio sistematico. Dati sensibili o di carattere altamente personale. Trattamento su larga scala. Creazione di corrispondenze o combinazione di insiemi di dati. Dati di interessati vulnerabili. Uso innovativo di nuove soluzioni tecnologiche od organizzative. E trattamenti che impediscono di esercitare un diritto o di avvalersi di un servizio o di un contratto. La regola pratica è questa: se ricorrono due o più criteri, il trattamento presenta di regola un rischio elevato e serve la DPIA. In alcuni casi il titolare può ritenerla necessaria anche se ne ricorre uno solo.\n\nChe cosa deve contenere una DPIA? Il materiale del corso elenca quattro elementi, che corrispondono all'articolo 35, paragrafo 7. Primo: una descrizione sistematica dei trattamenti previsti e delle finalità, compreso, se applicabile, l'interesse legittimo perseguito dal titolare. Secondo: una valutazione della necessità e della proporzionalità dei trattamenti rispetto alle finalità: mi servono davvero tutti questi dati? Esiste un modo meno invasivo per raggiungere lo stesso scopo? Terzo: una valutazione dei rischi per i diritti e le libertà degli interessati. Quarto: le misure previste per affrontare i rischi, comprese garanzie, misure di sicurezza e meccanismi per proteggere i dati e dimostrare la conformità.\n\nChi se ne occupa? La DPIA è un compito del titolare. Se è stato designato un responsabile della protezione dei dati, il DPO, il titolare si consulta con lui. Se del caso, raccoglie le opinioni degli interessati o dei loro rappresentanti, per esempio sentendo i rappresentanti dei lavoratori prima di introdurre un nuovo sistema che li riguarda, fatta salva la tutela degli interessi commerciali o della sicurezza. E quando il rischio cambia, il titolare riesamina il trattamento per verificare che sia ancora conforme alla valutazione.\n\nArriviamo alla consultazione preventiva, prevista dall'articolo 36. Se la DPIA indica che il trattamento presenterebbe un rischio elevato in assenza di misure adottate dal titolare per attenuarlo, il titolare consulta il Garante prima di iniziare. Il Garante lo spiega in modo più diretto: si consulta l'Autorità quando le misure individuate non sono ritenute sufficienti, cioè quando il rischio residuo per i diritti e le libertà degli interessati resta elevato. Se il Garante ritiene che il trattamento previsto violi il Regolamento, in particolare perché il rischio non è stato identificato o attenuato abbastanza, fornisce un parere scritto entro otto settimane dalla richiesta, e può usare i suoi poteri. Il termine può essere prorogato di sei settimane per i trattamenti complessi; in questo caso il Garante comunica la proroga e i motivi entro un mese dalla richiesta. I termini possono essere sospesi finché il Garante non riceve le informazioni che ha chiesto.\n\nCon la richiesta di consultazione, il titolare comunica al Garante le responsabilità di titolare, contitolari e responsabili, se ci sono, per esempio all'interno di un gruppo di società; le finalità e i mezzi del trattamento previsto; le misure e le garanzie per proteggere i diritti degli interessati; i dati di contatto del DPO, se designato; la valutazione d'impatto stessa; e ogni altra informazione che il Garante richieda.\n\nPensiamo al caso della società che vuole usare l'intelligenza artificiale per analizzare le conversazioni con i clienti e assegnare a ciascuno un punteggio di propensione all'abbandono. Ricorrono almeno tre criteri: l'uso innovativo di nuove tecnologie, la valutazione con punteggio e profilazione e il trattamento su larga scala. Il caso rientra anche nell'elenco del Garante. Quindi la DPIA serve, e va fatta prima di avviare il sistema, sentendo il DPO. Se, dopo aver individuato tutte le misure possibili, il rischio residuo restasse elevato, la società dovrebbe consultare il Garante prima di partire.\n\nUn consiglio pratico per le piccole e medie imprese. L'autorità francese per la protezione dei dati, la CNIL, ha messo a disposizione un software gratuito che guida passo passo nella valutazione d'impatto; la versione italiana è stata realizzata anche con la collaborazione del Garante. Il Garante avverte però che è un aiuto metodologico, non un modello valido per ogni situazione: la valutazione va adattata al trattamento concreto, e il concetto di rischio non si esaurisce nelle minacce alla sicurezza informatica, ma riguarda tutti i diritti e le libertà delle persone.\n\nRiassumendo: la DPIA si fa prima di iniziare un trattamento che può presentare un rischio elevato. È obbligatoria nei tre casi del Regolamento, nelle dodici tipologie dell'elenco del Garante e, di regola, quando ricorrono almeno due dei nove criteri. Contiene descrizione, valutazione di necessità e proporzionalità, valutazione dei rischi e misure. E se il rischio resta elevato nonostante le misure, si consulta il Garante, che risponde entro otto settimane, prorogabili di sei.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 35, 36)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Garante privacy, Valutazione d'impatto della protezione dei dati (DPIA)",
+          "url": "https://www.garanteprivacy.it/regolamentoue/dpia"
+        },
+        {
+          "title": "Garante privacy, Provvedimento n. 467 dell'11 ottobre 2018, elenco dei trattamenti soggetti a DPIA",
+          "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9058979"
+        },
+        {
+          "title": "Garante privacy, Allegato 1 al provv. n. 467/2018",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/ALLEGATO+1+Elenco+delle+tipologie+di+trattamenti+soggetti+al+meccanismo+di+coerenza+da+sottoporre+a+valutazione+di+impatto.pdf/b9ceefa9-dd65-df86-fed4-df3c3570f59d?version=1.11"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 14): «Descrizione sintetica dei trattamenti e delle finalità e l'interesse legittimo perseguito dal responsabile del trattamento». Il testo ufficiale parla di descrizione «sistematica» e di interesse legittimo perseguito dal «titolare», «ove applicabile»: riformulato di conseguenza.",
+          "source_ref": "Reg. UE 2016/679, art. 35, par. 7, lett. a"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 13): il meccanismo di coerenza si applica prima di adottare gli elenchi. Precisato che, secondo il testo ufficiale, vale quando gli elenchi riguardano trattamenti in più Stati membri o che incidono sulla libera circolazione dei dati nell'Unione.",
+          "source_ref": "Reg. UE 2016/679, art. 35, par. 6"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 14, lett. d): «le misure previste contro questi rischi». Integrata con garanzie, misure di sicurezza e meccanismi per dimostrare la conformità, come nel testo ufficiale.",
+          "source_ref": "Reg. UE 2016/679, art. 35, par. 7, lett. d"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione e tre casi obbligatori di DPIA; ruolo del DPO, opinioni degli interessati, riesame.",
+          "source_ref": "Reg. UE 2016/679, art. 35, par. 1-3, 9, 11"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elenco del Garante (12 tipologie) e nove criteri del WP 248 rev. 01, con la regola dei due criteri.",
+          "source_ref": "Garante privacy, provv. n. 467 dell'11 ottobre 2018 e allegato 1"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Consultazione preventiva: presupposti, termini (8 settimane, proroga di 6, comunicazione entro un mese, sospensione) e informazioni da trasmettere.",
+          "source_ref": "Reg. UE 2016/679, art. 36"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "DPIA come strumento di accountability e buona prassi; software PIA della CNIL con le avvertenze del Garante.",
+          "source_ref": "Garante privacy, scheda DPIA"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi aziendali, caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

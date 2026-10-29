@@ -4,20 +4,27 @@
 //
 // Ogni lezione nasce o resta in "bozza": l'approvazione si fa dal pannello Admin.
 // Tempo minimo = parole (slide + testo narrato) / 120 parole al minuto.
-// scope "core" = IVASS 30 e 60 ore; scope "60" = solo IVASS 60 ore.
+// scope "core" = IVASS 30 e 60 ore; scope "60" = solo IVASS 60 ore; scope "privacy" = corso Privacy.
 import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { basename, dirname, join, resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { createClient } from '@supabase/supabase-js';
 
 const WPM = 120;
-const LIBRARY = 'IVASS';
 const DEMO = ' – dimostrazione';
-const COURSES = {
-  core: ['IVASS 30 ore', 'IVASS 60 ore', 'IVASS 30 ore' + DEMO, 'IVASS 60 ore' + DEMO],
-  60: ['IVASS 60 ore', 'IVASS 60 ore' + DEMO],
+// Libreria dedotta dalla cartella content/<libreria>/<area>.
+const LIBS = {
+  ivass: {
+    name: 'IVASS',
+    modules: ['Area giuridica', 'Area tecnica assicurativa e riassicurativa', 'Area amministrativa e gestionale', 'Area informatica'],
+    courses: { core: ['IVASS 30 ore', 'IVASS 60 ore', 'IVASS 30 ore' + DEMO, 'IVASS 60 ore' + DEMO], 60: ['IVASS 60 ore', 'IVASS 60 ore' + DEMO] },
+  },
+  privacy: {
+    name: 'Privacy',
+    modules: ['Il GDPR: quadro, definizioni e principi', 'Soggetti e adempimenti', 'Sicurezza, violazioni e sanzioni'],
+    courses: { privacy: ['Privacy'] },
+  },
 };
-const MODULES = ['Area giuridica', 'Area tecnica assicurativa e riassicurativa', 'Area amministrativa e gestionale', 'Area informatica'];
 
 const words = (o) =>
   typeof o === 'string' ? o.split(/\s+/).filter(Boolean).length
@@ -27,6 +34,7 @@ const words = (o) =>
 export const minSeconds = (lesson) => Math.round(((words(lesson.slides) + words(lesson.narration)) / WPM) * 60);
 
 async function main(dir) {
+  const { name: LIBRARY, modules: MODULES, courses: COURSES } = LIBS[basename(dirname(resolve(dir)))];
   const env = Object.fromEntries(
     readFileSync('.env', 'utf8').split('\n').filter((l) => l.includes('=')).map((l) => l.split(/=(.*)/s).slice(0, 2)),
   );

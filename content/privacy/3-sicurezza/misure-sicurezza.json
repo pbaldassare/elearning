@@ -1,0 +1,391 @@
+{
+  "module": "Sicurezza, violazioni e sanzioni",
+  "topic": "Misure di sicurezza",
+  "topic_order": 1,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "La sicurezza del trattamento: l'articolo 32 nella vita d'ufficio",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 20-23"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Misure di sicurezza",
+          "title": "La sicurezza del trattamento",
+          "goals": [
+            "Capire che cosa chiede l'articolo 32 del GDPR e perché non esiste una lista fissa di misure",
+            "Valutare il rischio: distruzione, perdita, modifica, divulgazione, accesso non autorizzato",
+            "Applicare ogni giorno le misure base: password, MFA, backup, cifratura, accessi, attenzione al phishing"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un obbligo di titolare e responsabile",
+          "key": "Titolare e responsabile del trattamento mettono in atto misure tecniche e organizzative adeguate per garantire un livello di sicurezza adeguato al rischio.",
+          "body": "Il materiale del corso aggiunge che le misure servono a garantire, e a riuscire a dimostrare, che il trattamento è conforme al Regolamento. È il principio di responsabilizzazione (accountability): non basta essere sicuri, bisogna poterlo provare.",
+          "ref": "Reg. UE 2016/679, artt. 24 e 32"
+        },
+        {
+          "layout": "facts",
+          "title": "Di che cosa si tiene conto",
+          "lead": "Le misure non sono uguali per tutti: si scelgono caso per caso, guardando a questi elementi.",
+          "facts": [
+            {
+              "label": "Stato dell'arte",
+              "text": "Le soluzioni tecniche oggi disponibili e diffuse."
+            },
+            {
+              "label": "Costi di attuazione",
+              "text": "Lo sforzo deve essere proporzionato, ma il costo non giustifica l'assenza di protezione."
+            },
+            {
+              "label": "Natura e oggetto",
+              "text": "Quali dati tratto: un elenco di contatti non è come una cartella sanitaria."
+            },
+            {
+              "label": "Contesto e finalità",
+              "text": "Dove, come e perché tratto i dati: ufficio, cloud, smart working."
+            },
+            {
+              "label": "Rischio",
+              "text": "Probabilità e gravità delle conseguenze per i diritti e le libertà delle persone."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Le misure indicate dall'articolo 32",
+          "items": [
+            {
+              "text": "Pseudonimizzazione e cifratura dei dati personali.",
+              "ref": "art. 32, par. 1, lett. a"
+            },
+            {
+              "text": "Capacità di assicurare in modo permanente riservatezza, integrità, disponibilità e resilienza dei sistemi.",
+              "ref": "art. 32, par. 1, lett. b"
+            },
+            {
+              "text": "Capacità di ripristinare in tempo i dati dopo un incidente fisico o tecnico.",
+              "ref": "art. 32, par. 1, lett. c"
+            },
+            {
+              "text": "Una procedura per testare, verificare e valutare regolarmente l'efficacia delle misure.",
+              "ref": "art. 32, par. 1, lett. d"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Le parole chiave",
+          "title": "Quattro qualità da proteggere",
+          "lead": "Ogni misura di sicurezza difende almeno una di queste qualità dei dati e dei sistemi.",
+          "facts": [
+            {
+              "label": "Riservatezza",
+              "text": "Solo chi è autorizzato vede i dati."
+            },
+            {
+              "label": "Integrità",
+              "text": "I dati sono corretti e nessuno li modifica senza autorizzazione."
+            },
+            {
+              "label": "Disponibilità",
+              "text": "I dati sono accessibili quando servono a chi ne ha diritto."
+            },
+            {
+              "label": "Resilienza",
+              "text": "I sistemi reggono a guasti e attacchi e tornano a funzionare in fretta."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Valutare il rischio",
+          "lead": "Per stabilire il livello di sicurezza adeguato si guarda soprattutto a cinque rischi.",
+          "head": [
+            "Rischio",
+            "Che cosa significa",
+            "Esempio in ufficio"
+          ],
+          "rows": [
+            [
+              "1 · Distruzione",
+              "I dati non esistono più.",
+              "Un incendio distrugge l'archivio cartaceo senza copie."
+            ],
+            [
+              "2 · Perdita",
+              "I dati sfuggono al nostro controllo.",
+              "Un portatile con le pratiche dei clienti viene dimenticato in treno."
+            ],
+            [
+              "3 · Modifica",
+              "I dati vengono alterati.",
+              "Un IBAN in anagrafica cambiato da un truffatore."
+            ],
+            [
+              "4 · Divulgazione",
+              "I dati arrivano a chi non doveva averli.",
+              "Un'email con l'elenco clienti inviata al destinatario sbagliato."
+            ],
+            [
+              "5 · Accesso illegale",
+              "Qualcuno entra nei sistemi senza diritto.",
+              "Credenziali rubate con il phishing e usate per entrare nel CRM."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 32, par. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Misure tecniche e misure organizzative",
+          "left": {
+            "title": "Tecniche",
+            "items": [
+              "Password robuste e autenticazione a più fattori",
+              "Cifratura di portatili, chiavette e backup",
+              "Backup automatici e prove di ripristino",
+              "Antivirus e aggiornamenti di sistemi e programmi",
+              "Profili di accesso: ognuno vede solo ciò che gli serve"
+            ]
+          },
+          "right": {
+            "title": "Organizzative",
+            "items": [
+              "Istruzioni scritte a chi tratta i dati",
+              "Formazione periodica, come questo corso",
+              "Procedure per segnalare incidenti",
+              "Scrivania pulita e armadi chiusi a chiave",
+              "Revoca degli accessi quando un collega cambia ruolo o lascia l'azienda"
+            ]
+          },
+          "note": "Le une senza le altre non bastano: la password più robusta è inutile se è scritta su un post-it attaccato al monitor.",
+          "noteRef": "Reg. UE 2016/679, art. 32, par. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "Niente più «misure minime» uguali per tutti",
+          "key": "La lista dell'articolo 32 è aperta e non esaustiva. Dal 25 maggio 2018 non esistono obblighi generalizzati di misure «minime»: la valutazione spetta, caso per caso, a titolare e responsabile.",
+          "body": "Prima del GDPR il vecchio Codice privacy elencava misure minime obbligatorie. Oggi è il titolare che individua i rischi e sceglie le misure, e deve poter spiegare perché sono adeguate.",
+          "ref": "Garante privacy, scheda «Misure di sicurezza»"
+        },
+        {
+          "layout": "checklist",
+          "title": "Password e accessi: i consigli del Garante",
+          "items": [
+            {
+              "text": "Password lunghe, intorno ai 15 caratteri, con maiuscole, minuscole, numeri e caratteri speciali.",
+              "ref": "Garante, vademecum password 2023"
+            },
+            {
+              "text": "Niente nomi, date di nascita, username o parole comuni del dizionario."
+            },
+            {
+              "text": "Una password diversa per ogni account e mai una già usata in passato."
+            },
+            {
+              "text": "Cambia subito le password temporanee ricevute da un sistema."
+            },
+            {
+              "text": "Attiva l'autenticazione a più fattori, ad esempio i codici OTP."
+            },
+            {
+              "text": "Non scrivere le password su biglietti o file non protetti e non inviarle via email o chat. Valuta un gestore di password."
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Phishing: come riconoscerlo",
+          "items": [
+            {
+              "text": "Il messaggio sembra arrivare da banca, ente pubblico, corriere o collega e chiede dati, codici o di cliccare un link.",
+              "ref": "Garante, scheda phishing"
+            },
+            {
+              "text": "Toni urgenti o minacciosi: «il conto sarà chiuso», «sanzione se non rispondi subito»."
+            },
+            {
+              "text": "Mittente strano o indirizzo che imita quello vero, errori di grammatica o di traduzione."
+            },
+            {
+              "text": "Prima di cliccare, passa il mouse sul link e controlla il vero indirizzo del sito."
+            },
+            {
+              "text": "Nel dubbio non aprire allegati: verifica con il mittente usando un canale che conosci."
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Backup e cifratura: le reti di sicurezza",
+          "left": {
+            "title": "Backup",
+            "items": [
+              "Copie automatiche e regolari dei dati",
+              "Conservate separate dai sistemi principali",
+              "Provate: un backup mai ripristinato non dà garanzie",
+              "Contro il ransomware è la difesa decisiva"
+            ],
+            "ref": "Garante, scheda ransomware"
+          },
+          "right": {
+            "title": "Cifratura",
+            "items": [
+              "Rende i dati incomprensibili a chi non ha la chiave",
+              "Va attivata su portatili, smartphone, chiavette e backup",
+              "La chiave non va conservata insieme ai dati",
+              "Può evitare di dover avvisare gli interessati dopo una violazione"
+            ],
+            "ref": "Reg. UE 2016/679, art. 34, par. 3, lett. a"
+          },
+          "note": "Il Garante sconsiglia di pagare il riscatto: oltre al danno economico, si rischia di non ricevere i codici di sblocco.",
+          "noteRef": "Garante, scheda ransomware"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Secondo l'articolo 32 del GDPR, come si stabiliscono le misure di sicurezza di un'azienda?",
+          "options": [
+            "Applicando una lista di misure minime uguale per tutte le aziende",
+            "Valutando caso per caso il rischio, tenendo conto anche di stato dell'arte, costi, natura, contesto e finalità del trattamento",
+            "Adottando soltanto le misure che non hanno costi",
+            "Seguendo le istruzioni che ogni dipendente sceglie per sé"
+          ],
+          "answer": 1,
+          "explanation": "Le misure devono garantire un livello di sicurezza adeguato al rischio. La lista dell'articolo 32 è aperta e dal 2018 non esistono più misure minime uguali per tutti: titolare e responsabile valutano caso per caso."
+        },
+        {
+          "layout": "concept",
+          "title": "Persone istruite, codici e certificazioni",
+          "key": "Chi tratta i dati deve essere istruito sulle misure di sicurezza. Aderire a un codice di condotta o a una certificazione approvati aiuta a dimostrare che le misure sono adeguate.",
+          "body": "Chiunque agisca sotto l'autorità di titolare o responsabile e abbia accesso ai dati li tratta solo se è istruito in tal senso dal titolare. Codici di condotta e certificazioni sono un elemento di prova, non un'esenzione dagli obblighi.",
+          "ref": "Reg. UE 2016/679, art. 32, par. 3-4; art. 29"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "In un'agenzia, Marco deve lavorare da casa nel fine settimana. Copia su una chiavetta personale non cifrata il file Excel con nomi, recapiti e IBAN dei clienti e se lo invia anche sulla sua email privata, «per sicurezza». Il lunedì lascia il PC dell'ufficio acceso e sbloccato durante la pausa pranzo.",
+          "questions": [
+            "Quali rischi dell'articolo 32 ha creato Marco?",
+            "Quali misure, tecniche e organizzative, avrebbero evitato il problema?"
+          ],
+          "solution": "Marco ha esposto i dati a perdita (chiavetta smarrita), divulgazione e accesso non autorizzato (email privata fuori dal controllo dell'azienda, PC sbloccato). Servivano un accesso remoto sicuro fornito dall'azienda, la cifratura dei supporti o il divieto di chiavette personali, istruzioni chiare sull'uso della posta personale e il blocco dello schermo ogni volta che ci si allontana."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Ricevi un'email che sembra della banca: chiede di confermare entro un'ora le credenziali con un link, altrimenti il conto sarà bloccato. Che cosa fai?",
+          "options": [
+            "Clicchi subito, perché la scadenza è molto vicina",
+            "Rispondi all'email chiedendo se è autentica",
+            "Non clicchi e verifichi contattando la banca con un canale che conosci, poi segnali il messaggio secondo le procedure aziendali",
+            "Inoltri il messaggio ai colleghi perché controllino loro"
+          ],
+          "answer": 2,
+          "explanation": "Toni urgenti e richiesta di credenziali sono segnali tipici di phishing. Banche ed enti in genere non chiedono dati personali via email. Non si clicca, si verifica con un canale affidabile e si segnala; inoltrare il messaggio diffonde il rischio."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 32",
+              "text": "misure tecniche e organizzative adeguate al rischio, per titolare e responsabile"
+            },
+            {
+              "value": "5 rischi",
+              "text": "distruzione, perdita, modifica, divulgazione, accesso non autorizzato"
+            },
+            {
+              "value": "4 qualità",
+              "text": "riservatezza, integrità, disponibilità e resilienza dei sistemi"
+            },
+            {
+              "value": "MFA",
+              "text": "password lunghe e diverse, più un secondo fattore di autenticazione"
+            },
+            {
+              "value": "Backup",
+              "text": "copie regolari e provate, insieme alla cifratura dei supporti"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di sicurezza dei dati personali. È il tema in cui il GDPR entra di più nella vita quotidiana di un ufficio: le password che scegliamo, le email che apriamo, le chiavette che usiamo, il computer che lasciamo acceso. Vedremo che cosa chiede la legge e, soprattutto, che cosa possiamo fare noi ogni giorno.\n\nIl punto di partenza è l'articolo 32 del Regolamento europeo 2016/679, intitolato «Sicurezza del trattamento». Dice che il titolare e il responsabile del trattamento mettono in atto misure tecniche e organizzative adeguate per garantire un livello di sicurezza adeguato al rischio. Il materiale del corso sottolinea un aspetto importante: queste misure servono a garantire, e a riuscire a dimostrare, che il trattamento è conforme al Regolamento. Questa formula, in realtà, è dell'articolo 24, che riguarda la responsabilità generale del titolare; ma il senso è lo stesso. È il principio di responsabilizzazione, in inglese accountability: non basta essere sicuri, bisogna essere in grado di provarlo, per esempio a un'ispezione del Garante.\n\nCome si scelgono le misure? Il Regolamento non dà un elenco chiuso. Chiede di tenere conto di più elementi. Lo stato dell'arte, cioè le soluzioni tecniche disponibili oggi: ciò che era all'avanguardia dieci anni fa può non esserlo più. I costi di attuazione: lo sforzo deve essere proporzionato, ma il costo non può diventare una scusa per non proteggere nulla. La natura e l'oggetto del trattamento, cioè quali dati trattiamo: una rubrica di fornitori non ha lo stesso peso di un archivio con dati sanitari o bancari. Il contesto e le finalità: si lavora in ufficio, in cloud, in smart working? E infine il rischio, di varia probabilità e gravità, per i diritti e le libertà delle persone. Attenzione: il rischio da valutare è quello per le persone a cui i dati si riferiscono, non solo quello per l'azienda.\n\nL'articolo 32 indica poi alcune misure che vanno adottate «se del caso». La prima è la pseudonimizzazione e la cifratura dei dati. Pseudonimizzare significa sostituire i dati identificativi con codici, in modo che senza informazioni aggiuntive, conservate a parte, non si risalga alla persona. Cifrare significa rendere i dati illeggibili a chi non possiede la chiave. La seconda è la capacità di assicurare in modo permanente la riservatezza, l'integrità, la disponibilità e la resilienza dei sistemi. La terza è la capacità di ripristinare rapidamente i dati dopo un incidente fisico o tecnico: un guasto, un allagamento, un attacco informatico. La quarta è una procedura per testare, verificare e valutare regolarmente se le misure funzionano davvero. La sicurezza non si fa una volta per tutte: si controlla e si aggiorna.\n\nFermiamoci sulle quattro parole chiave. Riservatezza vuol dire che solo chi è autorizzato vede i dati. Integrità vuol dire che i dati sono corretti e nessuno li modifica senza averne diritto. Disponibilità vuol dire che i dati sono accessibili quando servono: se un virus blocca il gestionale e non possiamo più consultare le pratiche, la disponibilità è compromessa. Resilienza è la capacità dei sistemi di reggere a guasti e attacchi e di tornare a funzionare in fretta.\n\nPer valutare il livello di sicurezza adeguato, l'articolo 32 chiede di considerare in particolare cinque rischi, che possono derivare da un evento accidentale o da un'azione illecita. La distruzione: i dati non esistono più, come quando un incendio distrugge un archivio cartaceo di cui non c'erano copie. La perdita: i dati sfuggono al nostro controllo, come un portatile dimenticato in treno. La modifica: i dati vengono alterati, per esempio un truffatore cambia l'IBAN di un cliente in anagrafica per dirottare un rimborso. La divulgazione non autorizzata: i dati arrivano a chi non doveva riceverli, come un'email con l'elenco clienti spedita al destinatario sbagliato. L'accesso illegale: qualcuno entra nei sistemi senza diritto, magari con credenziali rubate.\n\nLe misure si dividono in due famiglie. Le misure tecniche riguardano gli strumenti: password robuste e autenticazione a più fattori, cifratura di portatili, chiavette e copie di backup, backup automatici con prove periodiche di ripristino, antivirus e aggiornamenti costanti, profili di accesso pensati in modo che ciascuno veda solo i dati che gli servono per il proprio lavoro. Le misure organizzative riguardano le persone e i processi: istruzioni scritte a chi tratta i dati, formazione periodica, procedure chiare per segnalare gli incidenti, la regola della scrivania pulita, armadi chiusi a chiave, la revoca tempestiva degli accessi quando un collega cambia mansione o lascia l'azienda. Le une senza le altre non bastano. La password più robusta del mondo è inutile se è scritta su un post-it attaccato al monitor.\n\nUn chiarimento importante. Chi lavora da molti anni ricorderà le «misure minime di sicurezza» del vecchio Codice privacy, un elenco obbligatorio uguale per tutti. Il Garante ha chiarito che la lista dell'articolo 32 è aperta e non esaustiva e che, dopo il 25 maggio 2018, non possono esistere obblighi generalizzati di misure minime: la valutazione è rimessa, caso per caso, al titolare e al responsabile, in base ai rischi che hanno individuato. È un approccio più flessibile, ma anche più impegnativo, perché il titolare deve saper spiegare perché le misure scelte sono adeguate.\n\nPassiamo alla pratica, partendo dalle password. Il Garante ha pubblicato un vademecum, aggiornato nel 2023. Una buona password è lunga, indicativamente intorno ai 15 caratteri, e contiene almeno quattro tipi di caratteri: maiuscole, minuscole, numeri e caratteri speciali. Non deve contenere riferimenti personali facili da indovinare, come nome, cognome o data di nascita, né il nome utente, ed è meglio evitare parole comuni del dizionario, perché esistono programmi che le provano tutte in modo automatico. Serve una password diversa per ogni account, così il furto di una non apre anche le altre porte, e non bisogna riutilizzare password già usate in passato. Le password temporanee fornite da un sistema vanno cambiate subito. L'autenticazione a più fattori, per esempio un codice OTP che arriva sul telefono, rafforza molto la protezione: anche chi ruba la password non riesce a entrare senza il secondo fattore. Infine, le password non si scrivono su biglietti né in file non protetti, e non si inviano via email, SMS o chat, nemmeno a un collega. Se l'azienda lo prevede, un gestore di password le conserva in un archivio cifrato.\n\nSecondo fronte: il phishing. È una tecnica illecita per farsi consegnare informazioni riservate, come username, password, codici di accesso o dati della carta, fingendosi un soggetto affidabile: una banca, un ente pubblico, un corriere, persino un collega. Il messaggio può arrivare per email, ma anche per SMS, chat o social. I segnali tipici sono la richiesta di dati o di cliccare un link per risolvere un presunto problema, toni urgenti o minacciosi, un mittente strano o un indirizzo che imita quello vero, errori di grammatica o di traduzione. Un trucco semplice suggerito dal Garante: prima di cliccare, passate il mouse sopra il link e leggete il vero indirizzo del sito, che compare in basso nel browser. Nel dubbio non aprite allegati e verificate con il mittente usando un canale che conoscete, come il numero di telefono che avete già in rubrica. In azienda, poi, un messaggio sospetto si segnala subito a chi si occupa di sicurezza: un click sbagliato può aprire la strada a un attacco contro tutta l'organizzazione.\n\nTerzo fronte: backup e cifratura, le nostre reti di sicurezza. Il backup è la copia regolare dei dati, possibilmente automatica e conservata separata dai sistemi principali. Va provato: un backup che nessuno ha mai ripristinato non dà alcuna garanzia. Contro il ransomware, il programma che cifra i file e chiede un riscatto, è la difesa decisiva. Il Garante sconsiglia di pagare: oltre al danno economico, si rischia di non ricevere i codici di sblocco e di finire nelle liste di chi paga. La cifratura, invece, rende i dati incomprensibili a chi non ha la chiave. Va attivata su portatili, smartphone, chiavette e sulle stesse copie di backup, e la chiave non va conservata insieme ai dati. Vedremo nella lezione sul data breach che, se i dati persi erano cifrati bene, spesso non è necessario avvisare le persone coinvolte: è un vantaggio concreto.\n\nUltimo tassello: le persone. Il materiale del corso ricorda che chi tratta i dati deve essere istruito sulle misure di sicurezza. Il Regolamento lo precisa: chiunque agisca sotto l'autorità del titolare o del responsabile e abbia accesso ai dati non li tratta se non è istruito in tal senso dal titolare. In pratica: ognuno di noi deve ricevere istruzioni e seguirle. Il materiale ricorda anche che l'adesione a un codice di condotta o a una certificazione approvati può essere usata come elemento per dimostrare che le misure sono adeguate. È un elemento di prova, non un'esenzione: resta l'obbligo di valutare il rischio.\n\nPensiamo al caso di Marco, che copia il file dei clienti su una chiavetta personale non cifrata, se lo invia sulla sua email privata e poi lascia il PC sbloccato in pausa pranzo. In poche ore ha creato quasi tutti i rischi che abbiamo visto: perdita, se la chiavetta si smarrisce; divulgazione e accesso non autorizzato, perché l'email privata è fuori dal controllo dell'azienda e il PC acceso è a disposizione di chiunque passi. La soluzione non è vietare il lavoro da casa, ma organizzarlo: un accesso remoto sicuro fornito dall'azienda, supporti cifrati o il divieto di usare chiavette personali, istruzioni chiare sulla posta privata e l'abitudine di bloccare lo schermo ogni volta che ci si alza dalla scrivania.\n\nRiassumendo: misure adeguate al rischio, scelte caso per caso, e poche abitudini quotidiane che fanno la differenza: password lunghe con un secondo fattore, attenzione al phishing, backup provati, supporti cifrati e schermo bloccato.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 24, 29, 32, 34)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Garante privacy, scheda «Misure di sicurezza»",
+          "url": "https://www.garanteprivacy.it/temi/cybersecurity/misure-di-sicurezza"
+        },
+        {
+          "title": "Garante privacy, Suggerimenti per creare e gestire password a prova di privacy (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Suggerimenti+per+creare+e+gestire+password+a+prova+di+privacy.pdf/3af66017-7a4a-4a18-895e-ce94e2522cee?version=10.0"
+        },
+        {
+          "title": "Garante privacy, Phishing: attenzione ai «pescatori» di dati personali",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Phishing+attenzione+ai+pescatori+di+dati+personali.+Infografica.pdf/4786aabd-facb-4fe7-aecf-c529a4887253?version=5.0"
+        },
+        {
+          "title": "Garante privacy, scheda «Ransomware»",
+          "url": "https://www.garanteprivacy.it/temi/cybersecurity/ransomware"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 20): le misure servono a «garantire (e riuscire a dimostrare) che il trattamento è conforme al Regolamento». La formula è dell'art. 24 (responsabilità del titolare); l'art. 32 parla di «livello di sicurezza adeguato al rischio». Indicati entrambi gli articoli.",
+          "source_ref": "Reg. UE 2016/679, artt. 24, par. 1, e 32, par. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 22): «una procedura per provare/verificare/valutare». Il testo ufficiale dice «testare, verificare e valutare regolarmente l'efficacia delle misure»: riformulato di conseguenza.",
+          "source_ref": "Reg. UE 2016/679, art. 32, par. 1, lett. d"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 23): «Chi tratta i dati deve essere ISTRUITO dal responsabile sulle misure di sicurezza». Il Regolamento prevede che chi agisce sotto l'autorità di titolare o responsabile sia istruito dal titolare: precisato nella slide e nel narrato.",
+          "source_ref": "Reg. UE 2016/679, art. 32, par. 4; art. 29"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Aggiunte la resilienza tra le qualità da proteggere e l'origine accidentale o illecita dei rischi, presenti nel testo ufficiale ma non nelle slide.",
+          "source_ref": "Reg. UE 2016/679, art. 32, par. 1, lett. b, e par. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Chiarimento del Garante: lista aperta, nessun obbligo generalizzato di misure «minime» dopo il 25 maggio 2018.",
+          "source_ref": "Garante privacy, scheda «Misure di sicurezza»"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Consigli pratici su password, MFA e gestori di password dal vademecum del Garante (2023).",
+          "source_ref": "Garante privacy, vademecum password"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Segnali di riconoscimento del phishing e comportamenti consigliati.",
+          "source_ref": "Garante privacy, infografica phishing"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Backup e ransomware: importanza delle copie, sconsigliato il pagamento del riscatto; collegamento tra cifratura e art. 34, par. 3, lett. a.",
+          "source_ref": "Garante privacy, scheda ransomware; Reg. UE 2016/679, art. 34"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi d'ufficio, distinzione tra misure tecniche e organizzative, caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "module": "Soggetti e adempimenti",
+  "topic": "Il titolare del trattamento",
+  "topic_order": 1,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Le figure soggettive e il titolare del trattamento",
+      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 33-35, 52-54"],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Soggetti e adempimenti · Il titolare del trattamento",
+          "title": "Le figure soggettive e il titolare del trattamento",
+          "goals": [
+            "Riconoscere le sei figure che intervengono in un trattamento di dati",
+            "Capire chi è il titolare e perché è il vero responsabile del trattamento",
+            "Comprendere il principio di accountability e la responsabilità per i danni"
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Chi interviene in un trattamento",
+          "lead": "Il GDPR distribuisce compiti e responsabilità tra figure diverse.",
+          "head": ["Figura", "In breve"],
+          "rows": [
+            ["Interessato", "La persona fisica a cui si riferiscono i dati: cliente, dipendente, fornitore persona fisica."],
+            ["Titolare del trattamento", "Decide perché e come i dati vengono trattati. Ne risponde."],
+            ["Contitolare del trattamento", "Decide finalità e mezzi insieme a un altro titolare."],
+            ["Responsabile del trattamento", "Tratta i dati per conto del titolare, secondo le sue istruzioni."],
+            ["Persona autorizzata al trattamento", "Chi tratta i dati sotto l'autorità diretta del titolare o del responsabile, ad esempio un dipendente."],
+            ["DPO · Data Protection Officer", "Il Responsabile della protezione dei dati: consiglia e sorveglia."]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il titolare: il vero responsabile",
+          "key": "Il titolare è il soggetto che, da solo o insieme ad altri, determina le finalità e i mezzi del trattamento. È responsabile del rispetto degli obblighi di protezione dei dati.",
+          "body": "Finalità: perché si trattano i dati. Mezzi (modalità): come, quali dati, per quanto tempo, chi vi accede. Nel linguaggio del GDPR è il «data controller»: il vero soggetto «responsabile» del trattamento, da non confondere con il «responsabile del trattamento» (data processor).",
+          "ref": "Reg. UE 2016/679, art. 4, n. 7"
+        },
+        {
+          "layout": "split",
+          "title": "Chi può essere titolare",
+          "left": {
+            "title": "Settore privato e pubblico",
+            "items": [
+              "Settore privato: una persona fisica o giuridica (un professionista, una società)",
+              "Settore pubblico: la persona giuridica, cioè l'ente o la società",
+              "Il GDPR cita anche autorità pubbliche, servizi e altri organismi"
+            ],
+            "ref": "Materiale originale del corso; Reg. UE 2016/679, art. 4, n. 7"
+          },
+          "right": {
+            "title": "Gruppi di società",
+            "items": [
+              "Capogruppo e controllata hanno personalità giuridica distinta",
+              "Quindi ci sono più titolari del trattamento",
+              "Ogni società risponde dei propri trattamenti"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Usare la stessa banca dati di gruppo non rende di per sé le società contitolari, se ognuna la usa per i propri scopi.",
+          "noteRef": "EDPB, Linee guida 07/2020"
+        },
+        {
+          "layout": "concept",
+          "title": "Il titolare è l'organizzazione, non il singolo",
+          "key": "Se un'azienda incarica un dipendente o un ufficio di seguire la privacy, il titolare resta l'azienda: è lei che risponde in caso di violazioni.",
+          "body": "Esempio delle Linee guida EDPB: l'ufficio marketing decide da solo una campagna via e-mail e social. Titolare resta la società, perché la campagna rientra nelle sue attività e nei suoi scopi. Se un dipendente usa i dati per fini propri esce dall'autorità ricevuta: per questo l'azienda deve formare e informare il personale.",
+          "ref": "EDPB, Linee guida 07/2020, par. 18-19"
+        },
+        {
+          "layout": "table",
+          "title": "Chi è titolare? Esempi pratici",
+          "head": ["Situazione", "Ruolo"],
+          "rows": [
+            ["L'azienda tratta i dati dei propri dipendenti e clienti", "Titolare: di norma decide finalità e mezzi."],
+            ["Lo studio legale che difende l'azienda in una causa", "Titolare autonomo: decide con ampia indipendenza quali dati usare."],
+            ["La banca che riceve i dati per pagare gli stipendi", "Titolare autonomo per la propria attività bancaria."],
+            ["Il gestore della posta elettronica", "Titolare dei dati di traffico e fatturazione; non del contenuto dei messaggi."]
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Chi è il titolare del trattamento?",
+          "options": [
+            "Il dipendente che inserisce materialmente i dati nel gestionale",
+            "Il soggetto che, da solo o insieme ad altri, determina le finalità e i mezzi del trattamento",
+            "La società informatica che ospita i dati sui propri server",
+            "Il Garante per la protezione dei dati personali"
+          ],
+          "answer": 1,
+          "explanation": "Il titolare è chi decide perché e come trattare i dati (art. 4, n. 7 GDPR). Il dipendente è una persona autorizzata, il fornitore che ospita i dati è di norma un responsabile del trattamento, il Garante è l'autorità di controllo."
+        },
+        {
+          "layout": "concept",
+          "title": "Il principio di responsabilizzazione",
+          "key": "Accountability: il titolare mette in atto misure tecniche e organizzative adeguate per garantire, ed essere in grado di dimostrare, che il trattamento è conforme al Regolamento.",
+          "body": "Due verbi: garantire e documentare. Non basta essere in regola, bisogna poterlo provare. Titolare e responsabile devono dimostrare di aver trattato i dati adempiendo a tutti gli obblighi: l'onere della prova è loro. Le misure vanno riesaminate e aggiornate quando serve.",
+          "ref": "Reg. UE 2016/679, art. 5, par. 2 e art. 24"
+        },
+        {
+          "layout": "compare",
+          "title": "Che cosa è cambiato con il GDPR",
+          "cols": [
+            {
+              "title": "Prima",
+              "items": [
+                "Prior checking: verifica preliminare del Garante per alcuni trattamenti",
+                "Istanza al Garante per il riconoscimento del legittimo interesse",
+                "Molti adempimenti autorizzativi a monte"
+              ]
+            },
+            {
+              "title": "Con il GDPR",
+              "items": [
+                "Prior checking e istanza di riconoscimento abrogati",
+                "Il titolare valuta da sé e si assume la responsabilità delle scelte",
+                "Deve documentare tutto: l'onere della prova è suo"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Decidere in autonomia, ma secondo criteri",
+          "key": "Titolare e responsabile decidono autonomamente modalità, garanzie e limiti del trattamento, rispettando le norme e criteri specifici.",
+          "body": "I criteri principali: la protezione dei dati fin dalla progettazione e per impostazione predefinita (by design e by default) e la valutazione del rischio, che nei casi più delicati diventa una valutazione d'impatto (DPIA). Li vedremo nelle prossime lezioni.",
+          "ref": "Materiale originale del corso; Reg. UE 2016/679, artt. 24, 25, 35"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Art. 82 GDPR",
+          "title": "Responsabilità diretta e risarcimento dei danni",
+          "lead": "Il titolare ha una responsabilità diretta verso chi subisce un danno.",
+          "facts": [
+            {"label": "Chi può chiedere", "text": "Chiunque subisca un danno materiale o immateriale per una violazione del GDPR."},
+            {"label": "Titolare", "text": "Risponde del danno causato dal suo trattamento non conforme."},
+            {"label": "Responsabile", "text": "Risponde solo se viola obblighi suoi o le istruzioni legittime del titolare."},
+            {"label": "Esonero", "text": "Solo se dimostra che il danno non gli è in alcun modo imputabile."},
+            {"label": "Più soggetti coinvolti", "text": "Ciascuno risponde in solido per l'intero danno; chi paga può rivalersi sugli altri."}
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una società di consulenza affida a Marta, impiegata dell'ufficio commerciale, la gestione della lista clienti per le newsletter. Marta, che sta per lasciare l'azienda, esporta la lista sul suo computer personale per contattare quei clienti con una sua nuova attività.",
+          "questions": [
+            "Chi è il titolare del trattamento della lista clienti?",
+            "Che cosa diventa Marta quando usa i dati per i propri scopi?",
+            "Che cosa avrebbe dovuto fare la società per prevenire il problema?"
+          ],
+          "solution": "Titolare è la società, non Marta né l'ufficio commerciale. Usando i dati per una finalità propria Marta va oltre l'autorità ricevuta e ne risponde per quel trattamento illecito. La società, in base all'accountability, doveva adottare misure adeguate: istruzioni scritte, formazione, limiti all'esportazione dei dati, controllo degli accessi. Dovrà anche dimostrare di averle adottate."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa richiede il principio di accountability al titolare?",
+          "options": [
+            "Di chiedere un'autorizzazione preventiva al Garante per ogni trattamento",
+            "Di adottare misure adeguate e di essere in grado di dimostrare che il trattamento è conforme",
+            "Di nominare sempre un DPO",
+            "Di trasferire la responsabilità al fornitore informatico"
+          ],
+          "answer": 1,
+          "explanation": "Accountability significa garantire e dimostrare la conformità (art. 24 GDPR): l'onere della prova è del titolare. Il prior checking è stato abrogato e la responsabilità non si trasferisce a un fornitore."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {"value": "6", "text": "Le figure: interessato, titolare, contitolare, responsabile, persona autorizzata, DPO."},
+            {"value": "Finalità e mezzi", "text": "Chi li decide è il titolare: il vero responsabile del trattamento."},
+            {"value": "Azienda", "text": "Titolare è l'organizzazione, non il dipendente né l'ufficio."},
+            {"value": "Accountability", "text": "Garantire e dimostrare la conformità: l'onere della prova è del titolare."},
+            {"value": "Art. 82", "text": "Il titolare risponde direttamente dei danni causati da trattamenti non conformi."}
+          ]
+        }
+      ],
+      "narration": "Benvenuti al modulo dedicato ai soggetti e agli adempimenti. Nel primo modulo abbiamo visto che cosa sono i dati personali, quali principi guidano il trattamento e quali diritti ha l'interessato. Ora passiamo a una domanda molto concreta: chi fa che cosa? Chi decide, chi esegue, chi controlla e chi risponde se qualcosa va storto.\n\nIl Regolamento europeo 2016/679, il GDPR, individua sei figure soggettive. La prima è l'interessato: la persona fisica a cui si riferiscono i dati. Nella vita di un'azienda gli interessati sono i clienti, i potenziali clienti, i dipendenti, i collaboratori, le persone di riferimento dei fornitori. Poi ci sono il titolare del trattamento, il contitolare, il responsabile del trattamento, le persone autorizzate al trattamento e infine il DPO, il Data Protection Officer, che in italiano si chiama Responsabile della protezione dei dati. In questa lezione ci concentriamo sul titolare; le altre figure le vedremo nelle lezioni successive.\n\nIl titolare del trattamento, in inglese data controller, è il vero soggetto responsabile del trattamento dei dati personali. Attenzione alla parola: in italiano rischiamo di confonderci, perché esiste anche una figura chiamata «responsabile del trattamento», che però è un'altra cosa, il data processor, cioè chi lavora per conto del titolare. Il titolare è il soggetto che, da solo o insieme ad altri, determina le finalità e le modalità del trattamento. Le finalità rispondono alla domanda «perché trattiamo questi dati?»: per gestire un contratto, per pagare gli stipendi, per inviare una newsletter. Le modalità, che il Regolamento chiama mezzi, rispondono alla domanda «come li trattiamo?»: quali dati raccogliamo, con quali strumenti, per quanto tempo li conserviamo, chi può vederli. Chi prende queste decisioni è il titolare, ed è lui il responsabile dell'osservanza degli obblighi previsti dalla normativa sulla protezione dei dati.\n\nChi può essere titolare? Nel settore privato può essere una persona fisica, ad esempio un professionista che lavora da solo, oppure una persona giuridica, come una società. Nel settore pubblico il titolare è la persona giuridica, cioè l'ente o la società pubblica, non il singolo funzionario. La definizione del Regolamento è ampia e comprende anche autorità pubbliche, servizi e altri organismi. Un caso frequente è quello dei gruppi di società: la società madre e la controllata hanno personalità giuridica diversa, quindi abbiamo più titolari del trattamento, ciascuno per i propri trattamenti. Le Linee guida del Comitato europeo per la protezione dei dati, l'EDPB, precisano che il semplice fatto di usare una banca dati di gruppo non trasforma le società in contitolari, se ciascuna inserisce e usa i dati dei propri clienti solo per i propri scopi.\n\nUn punto che crea spesso confusione in azienda: il titolare è l'organizzazione, non la persona che se ne occupa. Molte imprese individuano un dipendente o un ufficio che segue la privacy. È una buona scelta organizzativa, ma quella persona non diventa titolare: agisce per conto della società, che resta titolare e risponde in ultima istanza in caso di violazioni. L'EDPB fa l'esempio dell'ufficio marketing che lancia in autonomia una campagna pubblicitaria, scegliendo canali, destinatari e dati da usare. Anche se l'ufficio ha agito con molta indipendenza, titolare è la società, perché la campagna rientra nelle sue attività e persegue i suoi scopi. Diverso è il caso, eccezionale, del dipendente che usa i dati per fini propri, ad esempio per avviare un'attività concorrente: in quel momento va oltre l'autorità ricevuta. Proprio per prevenire questi casi l'azienda, in quanto titolare, deve adottare misure adeguate, tra cui la formazione e l'informazione del personale. Anche questo corso, in fondo, è una di quelle misure.\n\nVediamo qualche esempio pratico tratto dalle Linee guida EDPB. Un datore di lavoro che tratta i dati dei propri dipendenti, o un'impresa che tratta i dati dei propri clienti, è di norma titolare, perché decide finalità e mezzi. Lo studio legale a cui l'azienda affida una causa tratta i dati necessari alla difesa con un grado significativo di indipendenza: decide quali informazioni usare e come, quindi è titolare autonomo, non un semplice esecutore. La banca che riceve dall'ufficio paghe i dati per accreditare gli stipendi li tratta per la propria attività bancaria e decide da sola quali dati le servono e per quanto conservarli: anche lei è titolare autonomo, e il passaggio di dati è una comunicazione tra due titolari. Il gestore della posta elettronica, infine, è titolare dei dati che servono a far funzionare il servizio, come i dati di traffico e di fatturazione, ma non del contenuto dei messaggi: il titolare di quei dati è di norma chi invia il messaggio. Il ragionamento è sempre lo stesso: guardare chi decide davvero, al di là delle etichette scritte nei contratti.\n\nFacciamo ora una prima verifica.\n\nPassiamo al cuore di questa lezione: il principio di responsabilizzazione, in inglese accountability. In applicazione di questo principio il titolare deve mettere in atto misure tecniche e organizzative adeguate per garantire e documentare la conformità del trattamento al Regolamento. L'articolo 24 del GDPR usa una formula precisa: garantire, ed essere in grado di dimostrare, che il trattamento è conforme. Non basta quindi comportarsi bene: occorre poterlo provare. Titolare e responsabile del trattamento devono dimostrare di aver effettuato il trattamento adempiendo a tutti gli obblighi; hanno loro l'onere della prova. Il Regolamento aggiunge che le misure vanno riesaminate e aggiornate quando necessario: la conformità non è una pratica che si chiude una volta per tutte.\n\nQuesto approccio ha cambiato il rapporto con l'autorità di controllo. Prima del GDPR alcuni trattamenti richiedevano una verifica preliminare del Garante, il cosiddetto prior checking, e il titolare poteva presentare un'istanza per il riconoscimento del proprio interesse legittimo. Questi istituti sono stati abrogati. Oggi il titolare non chiede un via libera preventivo: valuta da sé i rischi, sceglie le misure, documenta le proprie scelte e ne risponde se vengono controllate. È un sistema che dà più libertà, ma anche più responsabilità.\n\nTitolare e responsabile decidono quindi autonomamente modalità, garanzie e limiti del trattamento. Non lo fanno però a piacimento: devono rispettare le norme e alcuni criteri specifici. Il primo è la protezione dei dati fin dalla progettazione e per impostazione predefinita, la data protection by design e by default. Il secondo è la valutazione del rischio, che nei casi di rischio elevato prende la forma della valutazione d'impatto, la DPIA. Approfondiremo questi criteri nelle prossime lezioni.\n\nL'ultimo tema è la responsabilità per i danni. Il titolare ha una responsabilità diretta e può essere chiamato al risarcimento. L'articolo 82 del GDPR stabilisce che chiunque subisca un danno, materiale o immateriale, causato da una violazione del Regolamento ha diritto al risarcimento dal titolare o dal responsabile. Danno immateriale vuol dire, ad esempio, l'ansia o il danno alla reputazione di chi si vede pubblicati dati riservati. Il titolare risponde del danno causato dal suo trattamento non conforme. Il responsabile risponde solo se ha violato gli obblighi che il GDPR pone specificamente a lui o se ha agito in modo difforme dalle istruzioni legittime del titolare. Ci si libera solo dimostrando che l'evento dannoso non è in alcun modo imputabile. E se più soggetti sono coinvolti nello stesso trattamento, ciascuno risponde in solido per l'intero danno, così che l'interessato sia risarcito davvero; chi ha pagato tutto potrà poi chiedere agli altri la loro parte. Ricordate questa regola: tornerà utile quando parleremo dei contitolari.\n\nGuardiamo ora un caso pratico. Una società affida a un'impiegata la gestione della lista clienti per le newsletter; l'impiegata, in uscita, esporta la lista per usarla nella propria nuova attività. Provate a rispondere alle domande prima di leggere la soluzione. Il titolare resta la società; l'impiegata, usando i dati per uno scopo suo, esce dall'autorità ricevuta e risponde di quel trattamento illecito. Ma la società dovrà dimostrare di avere adottato misure adeguate per prevenirlo: istruzioni, formazione, limiti alle esportazioni, controllo degli accessi. È l'accountability in azione.\n\nDopo l'ultima verifica, ricapitoliamo. Le figure del trattamento sono sei. Il titolare è chi decide finalità e mezzi, ed è il vero responsabile del trattamento. Titolare è l'organizzazione, non il singolo dipendente. In base all'accountability il titolare deve garantire e dimostrare la conformità, perché l'onere della prova è suo. E risponde direttamente dei danni causati da trattamenti non conformi. Nella prossima lezione entriamo nel dettaglio dei suoi obblighi.",
+      "sources": [
+        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
+        {"title": "EDPB, Linee guida 07/2020 sui concetti di titolare del trattamento e di responsabile del trattamento ai sensi del GDPR, versione 2.0", "url": "https://www.edpb.europa.eu/system/files/2023-10/edpb_guidelines_202007_controllerprocessor_final_it.pdf"}
+      ],
+      "changes": [
+        {"kind": "aggiunto", "description": "Definizione di titolare secondo l'art. 4, n. 7 GDPR, con la distinzione tra finalità e mezzi.", "source_ref": "Reg. UE 2016/679, art. 4, n. 7"},
+        {"kind": "aggiunto", "description": "Il titolare è l'organizzazione e non il dipendente o l'ufficio incaricato; esempio dell'ufficio marketing e del dipendente che usa i dati per fini propri.", "source_ref": "EDPB, Linee guida 07/2020, par. 18-19"},
+        {"kind": "aggiunto", "description": "Esempi di titolarità: datore di lavoro, studio legale, banca, gestore di posta elettronica; banca dati di gruppo che non crea contitolarità.", "source_ref": "EDPB, Linee guida 07/2020"},
+        {"kind": "aggiunto", "description": "Accountability secondo l'art. 24 GDPR: garantire ed essere in grado di dimostrare la conformità; riesame e aggiornamento delle misure.", "source_ref": "Reg. UE 2016/679, artt. 5, par. 2 e 24"},
+        {"kind": "aggiunto", "description": "Regole sul risarcimento del danno: danno materiale e immateriale, posizione del responsabile, esonero, responsabilità in solido e rivalsa.", "source_ref": "Reg. UE 2016/679, art. 82"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: nel settore pubblico il titolare è la persona giuridica (ente o società). La definizione dell'art. 4, n. 7 comprende anche autorità pubbliche, servizi e altri organismi: aggiunto nella slide.", "source_ref": "Reg. UE 2016/679, art. 4, n. 7"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: abrogazione del prior checking e dell'istanza di riconoscimento dell'interesse legittimo. Riferimento alle norme abrogate del Codice (d.lgs. 196/2003, testo previgente al d.lgs. 101/2018) da indicare.", "source_ref": "Materiale originale"}
+      ]
+    },
+    {
+      "title": "Gli obblighi del titolare: misure, politiche e privacy by design",
+      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 36-43, 55-56"],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Soggetti e adempimenti · Il titolare del trattamento",
+          "title": "Gli obblighi del titolare: misure, politiche e privacy by design",
+          "goals": [
+            "Conoscere l'elenco degli obblighi del titolare",
+            "Capire il ruolo di codici di condotta e certificazioni",
+            "Applicare la protezione dei dati fin dalla progettazione e per impostazione predefinita"
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Gli obblighi del titolare in sintesi",
+          "items": [
+            {"text": "1. Mettere in atto misure tecniche e organizzative adeguate"},
+            {"text": "2. Nominare con contratti responsabili, contitolari e DPO"},
+            {"text": "3. Attuare politiche adeguate in materia di privacy"},
+            {"text": "4-5. Garantire l'esercizio dei diritti e dare riscontro agli interessati"},
+            {"text": "6. Dare l'informativa e acquisire il consenso"},
+            {"text": "7. Rispettare la privacy by design e by default"},
+            {"text": "8-12. Valutazione d'impatto, consultazione preventiva, misure di sicurezza, registro dei trattamenti, notifica delle violazioni", "ref": "Materiale originale del corso"}
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Misure adeguate: garantire e comprovare",
+          "key": "Il titolare mette in atto misure tecniche e organizzative adeguate per garantire e comprovare (documentare) che il trattamento è conforme al Regolamento.",
+          "body": "Le misure di sicurezza devono garantire un livello di sicurezza adeguato al rischio. Il GDPR non parla di misure minime, uguali per tutti, ma di misure adeguate: ognuno le sceglie in base ai propri trattamenti. Il dettaglio delle misure di sicurezza è trattato nel modulo 3.",
+          "ref": "Reg. UE 2016/679, artt. 24 e 32"
+        },
+        {
+          "layout": "split",
+          "title": "Come si valuta l'adeguatezza",
+          "left": {
+            "title": "Criteri",
+            "items": [
+              "Lo stato dell'arte e i costi di attuazione",
+              "Natura, ambito di applicazione, contesto e finalità del trattamento",
+              "Il rischio: probabilità e gravità di una violazione"
+            ],
+            "ref": "Reg. UE 2016/679, art. 32, par. 1"
+          },
+          "right": {
+            "title": "Esempi (elenco non chiuso)",
+            "items": [
+              "Tecniche: pseudonimizzazione (dati non riconducibili alla persona senza informazioni aggiuntive, ad esempio tag o mascheramento) e cifratura (dati incomprensibili a chi non è autorizzato)",
+              "Organizzative: garanzie di riservatezza, integrità, disponibilità e recupero dei dati; accesso tempestivo ai dati in caso di incidente; verifica periodica dell'efficacia"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "note": "Le misure sono indicate a titolo esemplificativo: la scelta spetta al titolare.",
+          "noteRef": "Reg. UE 2016/679, art. 32"
+        },
+        {
+          "layout": "steps",
+          "title": "I codici di condotta",
+          "steps": [
+            {"label": "Chi li scrive", "text": "Le associazioni di categoria di titolari o responsabili di un settore."},
+            {"label": "Che cosa contengono", "text": "Gli obblighi di titolare e responsabile in relazione al rischio tipico del settore."},
+            {"label": "Controllo del Garante", "text": "Se il codice vale in un solo Stato, con parere positivo è approvato, registrato e pubblicato."},
+            {"label": "Più Stati", "text": "Serve anche il parere del Comitato europeo per la protezione dei dati."},
+            {"label": "Vigilanza", "text": "Il rispetto del codice è controllato dall'autorità di controllo o da organismi accreditati."}
+          ],
+          "ref": "Reg. UE 2016/679, artt. 40-41"
+        },
+        {
+          "layout": "concept",
+          "title": "Le certificazioni",
+          "key": "Le certificazioni servono a valutare il livello di protezione dei dati, attraverso sigilli o marchi rilasciati da organismi accreditati.",
+          "body": "Il materiale originale indica che «oggi non sono esistenti». Il quadro si è evoluto: nell'ottobre 2022 il Comitato europeo ha approvato Europrivacy come primo Sigillo europeo per la protezione dei dati. La certificazione è volontaria, dura al massimo tre anni ed è rinnovabile; non riduce la responsabilità del titolare.",
+          "ref": "Reg. UE 2016/679, art. 42; CNPD Lussemburgo, 12 ottobre 2022"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che tipo di misure di sicurezza richiede il GDPR?",
+          "options": [
+            "Misure minime uguali per tutte le aziende, fissate da un allegato tecnico",
+            "Misure adeguate al rischio, scelte tenendo conto di stato dell'arte, costi, natura del trattamento e rischi",
+            "Solo misure tecniche, come la cifratura",
+            "Nessuna misura, se l'azienda ha meno di 250 dipendenti"
+          ],
+          "answer": 1,
+          "explanation": "Il GDPR non fa riferimento a misure minime ma a misure adeguate al rischio (artt. 24 e 32), tecniche e organizzative, valutate caso per caso. L'obbligo vale per tutti i titolari, a prescindere dalle dimensioni."
+        },
+        {
+          "layout": "concept",
+          "title": "Nominare responsabili, contitolari e DPO",
+          "key": "Il titolare regola con contratti o atti scritti i rapporti con i soggetti che trattano dati con lui o per lui.",
+          "body": "Se affida un trattamento a un fornitore esterno, deve nominarlo responsabile con contratto (art. 28). Con un eventuale contitolare stipula un accordo interno (art. 26). Il DPO va designato quando è obbligatorio o se lo si sceglie (art. 37). Ne parleremo nei prossimi argomenti.",
+          "ref": "Materiale originale del corso; Reg. UE 2016/679, artt. 26, 28, 37"
+        },
+        {
+          "layout": "concept",
+          "title": "Politiche adeguate in materia di privacy",
+          "key": "La logica del Regolamento è organizzativa: la tutela dei dati si imposta a monte, con vari strumenti come il registro, la DPIA e la nomina dei responsabili.",
+          "body": "Se proporzionato rispetto ai trattamenti, il titolare adotta politiche interne di protezione dei dati: ad esempio regole sull'uso di e-mail e dispositivi, sui tempi di conservazione, su come gestire una richiesta di un interessato o un incidente.",
+          "ref": "Reg. UE 2016/679, art. 24, par. 2"
+        },
+        {
+          "layout": "split",
+          "title": "Diritti, riscontro, informativa",
+          "left": {
+            "title": "Diritti e riscontro",
+            "items": [
+              "Garantire l'esercizio dei diritti: accesso, oblio, portabilità e gli altri",
+              "Dare riscontro entro un mese dalla richiesta",
+              "Proroga di due mesi se necessario, informando l'interessato entro il primo mese"
+            ],
+            "ref": "Reg. UE 2016/679, art. 12, par. 3"
+          },
+          "right": {
+            "title": "Informativa e consenso",
+            "items": [
+              "Dare l'informativa al momento della raccolta dei dati",
+              "Indicare tra l'altro titolare, contatti del DPO, finalità e base giuridica",
+              "Acquisire il consenso quando è la base giuridica del trattamento"
+            ],
+            "ref": "Reg. UE 2016/679, artt. 6 e 13"
+          },
+          "note": "Diritti, informativa e basi giuridiche sono spiegati nel modulo 1.",
+          "noteRef": "Materiale originale del corso"
+        },
+        {
+          "layout": "compare",
+          "title": "Privacy by design e by default",
+          "cols": [
+            {
+              "title": "By design: fin dalla progettazione",
+              "items": [
+                "Le garanzie si prevedono fin dall'inizio, non dopo",
+                "Vale per sistemi informatici, app, software, database",
+                "Scopo: soddisfare i requisiti del GDPR e tutelare i diritti degli interessati",
+                "Si considerano il contesto e i rischi per le persone"
+              ]
+            },
+            {
+              "title": "By default: per impostazione predefinita",
+              "items": [
+                "Di default si trattano solo i dati necessari alla finalità",
+                "Riguarda quantità dei dati, portata del trattamento, conservazione, accessibilità",
+                "Dati non accessibili a un numero indefinito di persone senza un intervento umano",
+                "Attua minimizzazione e limitazione"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia sceglie un nuovo CRM per gestire i clienti. Il fornitore propone una configurazione standard: tutti i dipendenti vedono tutte le schede, il campo «note libere» è senza limiti e i dati restano archiviati senza scadenza. In più il modulo web di contatto chiede data di nascita e professione anche a chi vuole solo un preventivo.",
+          "questions": [
+            "Quali principi di privacy by design e by default non sono rispettati?",
+            "Che cosa dovrebbe chiedere l'agenzia prima di attivare il sistema?"
+          ],
+          "solution": "Per impostazione predefinita devono essere trattati solo i dati necessari: il modulo deve chiedere solo i dati utili al preventivo; gli accessi vanno limitati per ruolo; servono tempi di conservazione con cancellazione o revisione periodica; le note libere vanno regolate con istruzioni. Queste scelte vanno fatte in fase di progettazione e configurazione, non dopo l'avvio, e documentate."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Che cosa significa privacy by default?",
+          "options": [
+            "Che i dati personali sono protetti solo se l'interessato lo chiede",
+            "Che per impostazione predefinita sono trattati solo i dati personali necessari per la specifica finalità",
+            "Che il titolare può raccogliere tutti i dati, purché li cifri",
+            "Che il fornitore del software è responsabile della privacy"
+          ],
+          "answer": 1,
+          "explanation": "La protezione per impostazione predefinita (art. 25, par. 2 GDPR) impone che di default siano trattati solo i dati necessari, per quantità, portata, durata di conservazione e accessibilità. È l'applicazione pratica della minimizzazione."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {"value": "Adeguate", "text": "Le misure non sono minime ma adeguate al rischio: garantire e documentare."},
+            {"value": "Codici", "text": "Scritti dalle associazioni di categoria, approvati dal Garante, controllati da autorità o organismi accreditati."},
+            {"value": "Certificazioni", "text": "Volontarie, massimo 3 anni; dal 2022 esiste il Sigillo europeo Europrivacy."},
+            {"value": "1 mese", "text": "Tempo per dare riscontro alle richieste degli interessati, prorogabile di 2 mesi."},
+            {"value": "By design / by default", "text": "Garanzie fin dalla progettazione; di default solo i dati necessari."}
+          ]
+        }
+      ],
+      "narration": "In questa lezione entriamo nel dettaglio degli obblighi del titolare del trattamento. Il materiale del corso li presenta come un elenco numerato di dodici punti, che è un buon promemoria: mettere in atto misure adeguate; nominare con contratti responsabili, contitolari e DPO; attuare politiche adeguate; garantire l'esercizio dei diritti e dare riscontro agli interessati; dare l'informativa e acquisire il consenso; rispettare la privacy by design e by default; effettuare la valutazione d'impatto quando c'è un rischio elevato; chiedere, nei casi previsti, la consultazione preventiva del Garante; adottare misure di sicurezza; tenere il registro dei trattamenti; notificare le violazioni dei dati. In questa lezione vediamo i primi sette, nella prossima il registro e gli adempimenti legati al rischio.\n\nIl primo obbligo è mettere in atto misure di sicurezza tecniche e organizzative adeguate. A che cosa servono? A garantire, e a comprovare, cioè documentare, che il trattamento è stato effettuato conformemente al Regolamento. Le misure di sicurezza sono tutte quelle misure, tecniche e organizzative, che devono garantire un livello di sicurezza adeguato al rischio. Qui c'è una differenza importante rispetto al passato: il GDPR non fa riferimento alle misure minime di sicurezza, cioè a una lista uguale per tutti da spuntare, ma a misure adeguate. Un piccolo studio con tre computer e una compagnia che gestisce milioni di clienti non avranno le stesse misure, ma entrambi devono poter spiegare perché le loro sono adeguate.\n\nCome si valuta l'adeguatezza? Il titolare considera lo stato dell'arte, cioè le soluzioni tecniche disponibili oggi, e i costi di attuazione; la natura, l'ambito di applicazione, il contesto e le finalità del trattamento; e il rischio, valutando la probabilità e la gravità di una possibile violazione. Le misure sono indicate dal Regolamento solo a titolo esemplificativo. Tra le misure tecniche troviamo la pseudonimizzazione, in cui i dati sono conservati in una forma che impedisce di identificare la persona senza informazioni aggiuntive, ad esempio sostituendo il nome con un codice o un tag, o mascherando una parte dei dati; e la cifratura, che rende i dati incomprensibili a chi non è autorizzato ad accedervi. Tra le misure organizzative troviamo le garanzie di riservatezza, integrità, disponibilità e recupero dei dati, la capacità di accedere tempestivamente ai dati in caso di incidente, ad esempio grazie a un backup, e un processo di verifica periodica per valutare se le misure funzionano davvero. Le misure di sicurezza saranno approfondite nel modulo 3; qui ci basta capire che sono un obbligo del titolare e che la loro scelta è una sua responsabilità.\n\nPer dimostrare l'adeguatezza delle misure e la conformità al Regolamento, titolare e responsabile possono aderire a codici di condotta o a meccanismi di certificazione. L'adesione non è una garanzia assoluta, ma il GDPR la considera un elemento utile per dimostrare il rispetto degli obblighi.\n\nI codici di condotta, detti anche deontologici, sono predisposti dalle associazioni di categoria che rappresentano titolari o responsabili di un determinato settore. Indicano gli obblighi di titolare e responsabile in relazione al rischio tipico di quel settore: ad esempio come trattare i dati nel recupero crediti o nelle informazioni commerciali. Sono sottoposti al controllo del Garante. Se il codice si applica in un solo Stato, il Garante esprime un parere e, se è positivo, lo approva, lo registra e lo pubblica. Se il codice si applica in più Stati, è necessario anche il parere del Comitato europeo per la protezione dei dati. Il controllo sul rispetto del codice da parte di chi vi aderisce spetta all'autorità di controllo oppure a organismi accreditati, che possono anche sospendere o escludere dal codice chi lo viola.\n\nLe certificazioni servono invece a valutare il livello di protezione dei dati attraverso sigilli o marchi, rilasciati da organismi accreditati. Il materiale originale afferma che oggi non esistono. Questa affermazione va aggiornata: nell'ottobre 2022 il Comitato europeo per la protezione dei dati ha approvato i criteri di Europrivacy come primo Sigillo europeo per la protezione dei dati, valido in tutti gli Stati membri, come ha comunicato l'autorità lussemburghese che li aveva presentati. Il Regolamento precisa che la certificazione è volontaria, viene rilasciata per un periodo massimo di tre anni, è rinnovabile se i requisiti restano soddisfatti e non riduce la responsabilità del titolare. Una certificazione, quindi, aiuta a dimostrare, ma non sostituisce l'accountability.\n\nDopo la verifica, proseguiamo con il secondo obbligo: nominare con contratti i responsabili, i contitolari e il DPO. Il materiale afferma che il titolare è obbligato a nominare il responsabile. Va letto così: se il titolare affida un trattamento a un soggetto esterno, ad esempio al consulente che elabora le buste paga o alla società che gestisce il server, deve regolare il rapporto con un contratto o un altro atto scritto, nominandolo responsabile. Se invece fa tutto con il proprio personale, non c'è alcun responsabile da nominare. Con un contitolare non si fa una vera nomina, ma si stipula un accordo interno che divide i compiti. Il DPO va designato quando la legge lo impone, oppure per scelta. Approfondiremo ciascuna figura nei prossimi argomenti.\n\nTerzo obbligo: attuare politiche adeguate in materia di privacy. La logica del Regolamento è di tipo organizzativo: la tutela dei dati va impostata a monte, con vari strumenti come il registro dei trattamenti, la DPIA e la nomina dei responsabili. L'articolo 24 precisa che, se è proporzionato rispetto alle attività, il titolare adotta politiche interne. In pratica: un regolamento sull'uso della posta elettronica e dei dispositivi aziendali, una procedura per rispondere a chi chiede di accedere ai propri dati, una procedura per gestire gli incidenti, regole sui tempi di conservazione. Un'impresa piccola potrà avere poche regole chiare; una grande avrà un sistema più articolato.\n\nQuarto e quinto obbligo: garantire agli interessati l'esercizio dei diritti, come l'accesso ai dati, l'oblio, la portabilità, e dare riscontro alle loro richieste. Il Regolamento fissa anche un tempo: il titolare risponde senza ingiustificato ritardo e comunque entro un mese dal ricevimento della richiesta. Il termine può essere prorogato di due mesi se necessario, per la complessità o il numero delle richieste, ma l'interessato va informato della proroga e dei motivi entro il primo mese. Per un'azienda questo significa sapere chi riceve queste richieste e a chi passarle subito: una mail che resta settimane in una casella generica può già far superare il termine.\n\nSesto obbligo: dare l'informativa e acquisire il consenso. L'informativa va fornita al momento della raccolta dei dati e contiene, tra l'altro, l'identità e i contatti del titolare, i contatti del DPO se c'è, le finalità e la base giuridica del trattamento, i destinatari, i tempi di conservazione e i diritti dell'interessato. Quanto al consenso, ricordate quanto visto nel modulo 1: è una delle basi giuridiche possibili, non l'unica. Va acquisito quando il trattamento si fonda sul consenso, ad esempio per l'invio di comunicazioni promozionali; non serve, invece, per trattare i dati necessari a eseguire un contratto o ad adempiere un obbligo di legge.\n\nSettimo obbligo: rispettare i principi di privacy by design e by default. Il trattamento dei dati personali deve essere effettuato prevedendo fin dall'inizio le garanzie indispensabili per soddisfare i requisiti del Regolamento e tutelare i diritti degli interessati, considerando il contesto complessivo in cui si colloca il trattamento e i rischi per le persone. Privacy by design significa protezione del dato fin dalla progettazione dei sistemi informatici che ne prevedono l'utilizzo: la tutela della privacy si pensa quando si progetta un'app, un software, un database, non quando è già in funzione. Privacy by default significa adottare misure perché, per impostazione predefinita, siano trattati solo i dati personali necessari per la finalità: è l'applicazione pratica dei principi di minimizzazione e limitazione. L'articolo 25 precisa che questo vale per la quantità dei dati raccolti, la portata del trattamento, il periodo di conservazione e l'accessibilità, e che i dati non devono essere resi accessibili, di default, a un numero indefinito di persone senza un intervento umano. Pensate al profilo di un'app che nasce pubblico: è proprio ciò che il by default vuole evitare.\n\nIl caso pratico riguarda la scelta di un nuovo CRM. La configurazione standard del fornitore dà accesso a tutti, conserva i dati senza scadenza e il modulo web raccoglie dati inutili. Prima di attivare il sistema l'agenzia deve configurarlo in modo che si raccolgano solo i dati necessari, che ciascuno veda solo le schede che gli servono per il proprio lavoro, che i dati abbiano tempi di conservazione definiti. E deve documentare queste scelte: è così che by design, by default e accountability lavorano insieme.\n\nDopo l'ultima verifica, ricapitoliamo. Le misure devono essere adeguate al rischio, non minime, e servono a garantire e documentare la conformità. Codici di condotta e certificazioni aiutano a dimostrarla; oggi esiste anche un Sigillo europeo. Il titolare regola con contratti i rapporti con responsabili e contitolari, adotta politiche interne, garantisce i diritti rispondendo entro un mese, dà l'informativa e raccoglie il consenso quando è la base giuridica. E progetta i trattamenti tutelando i dati fin dall'inizio e trattando, di default, solo i dati necessari.",
+      "sources": [
+        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
+        {"title": "CNPD Lussemburgo, European Data Protection Seal (Europrivacy approvato dall'EDPB, parere del 10 ottobre 2022)", "url": "https://cnpd.public.lu/en/actualites/international/2022/10/europea-dat-protection-seal.html"}
+      ],
+      "changes": [
+        {"kind": "aggiunto", "description": "Criteri dell'art. 32 GDPR per valutare l'adeguatezza delle misure; riesame delle misure (art. 24).", "source_ref": "Reg. UE 2016/679, artt. 24 e 32"},
+        {"kind": "aggiunto", "description": "Procedura dei codici di condotta: approvazione, registrazione e pubblicazione; controllo da organismi accreditati, con sospensione o esclusione.", "source_ref": "Reg. UE 2016/679, artt. 40-41"},
+        {"kind": "aggiunto", "description": "Certificazione volontaria, durata massima tre anni, rinnovabile, non riduce la responsabilità del titolare.", "source_ref": "Reg. UE 2016/679, art. 42, par. 3, 4, 7"},
+        {"kind": "aggiunto", "description": "Termine di un mese per il riscontro all'interessato, prorogabile di due mesi.", "source_ref": "Reg. UE 2016/679, art. 12, par. 3"},
+        {"kind": "aggiunto", "description": "Contenuti principali dell'informativa al momento della raccolta.", "source_ref": "Reg. UE 2016/679, art. 13"},
+        {"kind": "aggiunto", "description": "Dettagli della protezione per impostazione predefinita: quantità, portata, conservazione, accessibilità, nessun accesso a un numero indefinito di persone.", "source_ref": "Reg. UE 2016/679, art. 25"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: le certificazioni «oggi non sono esistenti». Superata: dal 10 ottobre 2022 l'EDPB ha approvato Europrivacy come Sigillo europeo per la protezione dei dati (art. 42, par. 5).", "source_ref": "CNPD Lussemburgo, 12 ottobre 2022"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: «il Titolare è obbligato a nominare il Responsabile». Precisato che l'obbligo di contratto o atto scritto sorge quando il titolare affida un trattamento a un soggetto esterno; con i contitolari si stipula un accordo, il DPO si designa nei casi previsti.", "source_ref": "Reg. UE 2016/679, artt. 26, 28, 37"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: obbligo di «dare informativa e acquisire consenso». Precisato che il consenso va acquisito quando è la base giuridica del trattamento.", "source_ref": "Reg. UE 2016/679, art. 6"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: il codice di condotta applicabile in un solo Stato «con parere positivo è pubblicato». Precisato che il Garante lo approva, lo registra e lo pubblica.", "source_ref": "Reg. UE 2016/679, art. 40, par. 5-6"}
+      ]
+    },
+    {
+      "title": "Il registro dei trattamenti e gli adempimenti legati al rischio",
+      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 44-51"],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Soggetti e adempimenti · Il titolare del trattamento",
+          "title": "Il registro dei trattamenti e gli adempimenti legati al rischio",
+          "goals": [
+            "Sapere chi deve tenere il registro dei trattamenti e che cosa contiene",
+            "Tenere il registro aggiornato come strumento di prova",
+            "Riconoscere quando servono DPIA, consultazione preventiva e notifica di una violazione"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro dei trattamenti",
+          "key": "Il registro delle attività di trattamento non è un adempimento formale, ma uno strumento di comprova: descrive quali trattamenti si fanno, perché, su quali dati e con quali misure.",
+          "body": "Lo tengono il titolare e il responsabile. Per il Garante è uno dei principali strumenti di accountability e la base di partenza per ogni analisi del rischio. Va esibito al Garante su richiesta.",
+          "ref": "Reg. UE 2016/679, art. 30; Garante, FAQ sul registro"
+        },
+        {
+          "layout": "split",
+          "title": "Chi è obbligato",
+          "left": {
+            "title": "Regola",
+            "items": [
+              "Obbligatorio per imprese e organizzazioni con almeno 250 dipendenti",
+              "Sotto i 250 dipendenti il materiale lo indica come escluso, salvo trattamenti a rischio"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Sotto 250 dipendenti è comunque obbligatorio se il trattamento",
+            "items": [
+              "Può presentare un rischio, anche non elevato, per gli interessati",
+              "Non è occasionale",
+              "Riguarda dati particolari (es. salute) o dati su condanne e reati"
+            ],
+            "ref": "Reg. UE 2016/679, art. 30, par. 5"
+          },
+          "note": "Per il Garante quasi ogni attività con dipendenti o con dati sanitari dei clienti è tenuta al registro. Il Garante lo raccomanda comunque a tutti.",
+          "noteRef": "Garante, FAQ sul registro"
+        },
+        {
+          "layout": "table",
+          "title": "Esempi del Garante: chi deve tenerlo",
+          "head": ["Chi", "Perché"],
+          "rows": [
+            ["Negozi, bar, officine con almeno un dipendente", "Trattano in modo non occasionale i dati del personale."],
+            ["Parrucchieri, estetisti, ottici", "Possono trattare dati sanitari dei clienti."],
+            ["Professionisti con almeno un dipendente (commercialisti, avvocati, notai)", "Personale o dati sanitari o giudiziari."],
+            ["Associazioni, sindacati, condomìni", "Quando trattano categorie particolari di dati."]
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa contiene il registro del titolare",
+          "head": ["Voce", "In pratica"],
+          "rows": [
+            ["Nomi e contatti", "Titolare, eventuale contitolare, rappresentante, DPO."],
+            ["Finalità", "Perché si trattano i dati; il Garante suggerisce di indicare anche la base giuridica."],
+            ["Interessati, dati, destinatari", "Ad esempio: dipendenti, dati anagrafici e bancari, consulente del lavoro, enti previdenziali."],
+            ["Paesi terzi", "Eventuali trasferimenti fuori UE o a organizzazioni internazionali, con le garanzie."],
+            ["Termini di cancellazione", "Ove possibile; se non si conoscono, i criteri."],
+            ["Misure di sicurezza", "Ove possibile, una descrizione generale, anche rinviando ad altri documenti."]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il registro del responsabile",
+          "key": "Anche il responsabile tiene un registro, in cui indica le categorie di trattamenti effettuati per conto di ciascun titolare.",
+          "body": "Se lavora per più clienti, crea una sezione per ciascun titolare, o rinvia a schede anagrafiche dei clienti con le informazioni richieste. Ogni registro ha forma scritta, anche elettronica.",
+          "ref": "Reg. UE 2016/679, art. 30, par. 2-3; Garante, FAQ sul registro"
+        },
+        {
+          "layout": "checklist",
+          "title": "Tenere il registro vivo",
+          "items": [
+            {"text": "Aggiornarlo subito quando cambiano finalità, dati, interessati o modalità"},
+            {"text": "Indicare in modo verificabile la data di creazione e dell'ultimo aggiornamento di ogni scheda"},
+            {"text": "Per le PMI: si può limitare ai trattamenti che fanno scattare l'obbligo"},
+            {"text": "Usare, se utile, i modelli di registro semplificato del Garante"},
+            {"text": "Aggiungere informazioni utili: DPIA svolte, referenti interni, modalità del consenso", "ref": "Garante, FAQ sul registro"}
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'agenzia con 8 dipendenti tratta ogni mese i dati per le buste paga. Deve tenere il registro dei trattamenti?",
+          "options": [
+            "No, l'obbligo vale solo sopra i 250 dipendenti",
+            "Sì, perché il trattamento dei dati del personale non è occasionale",
+            "Solo se lo chiede il Garante",
+            "Solo se ha nominato un DPO"
+          ],
+          "answer": 1,
+          "explanation": "L'esenzione per chi ha meno di 250 dipendenti non vale se il trattamento non è occasionale, può presentare un rischio o riguarda dati particolari o giudiziari (art. 30, par. 5). La gestione mensile del personale non è occasionale."
+        },
+        {
+          "layout": "concept",
+          "title": "La valutazione d'impatto (DPIA)",
+          "key": "Prima di iniziare un trattamento che, soprattutto per l'uso di nuove tecnologie, presenta un rischio elevato per i diritti e le libertà delle persone, il titolare effettua una valutazione d'impatto.",
+          "body": "Si considerano natura, contesto e finalità del trattamento. Se c'è un DPO, il titolare lo consulta. Come si svolge una DPIA è spiegato nel modulo 3.",
+          "ref": "Reg. UE 2016/679, art. 35"
+        },
+        {
+          "layout": "concept",
+          "title": "La consultazione preventiva del Garante",
+          "key": "Il materiale indica che, per trattamenti di dati sensibili o relativi a condanne penali o reati, il titolare può chiedere una consultazione preventiva al Garante: una sorta di consiglio sulle misure di sicurezza scelte.",
+          "body": "Il GDPR la rende obbligatoria in un caso preciso: quando la DPIA indica che il trattamento presenterebbe un rischio elevato senza misure per attenuarlo. Il Garante risponde con un parere scritto entro 8 settimane, prorogabili di 6.",
+          "ref": "Materiale originale del corso; Reg. UE 2016/679, art. 36"
+        },
+        {
+          "layout": "concept",
+          "title": "La violazione dei dati personali (data breach)",
+          "key": "È una violazione di sicurezza che comporta, accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso ai dati.",
+          "body": "Danneggia l'interessato e il titolare, che è soggetto al controllo del Garante: va prevenuta con misure di sicurezza corrette. Il titolare notifica la violazione al Garante senza ingiustificato ritardo e, ove possibile, entro 72 ore da quando ne viene a conoscenza, salvo che sia improbabile un rischio per le persone.",
+          "ref": "Reg. UE 2016/679, art. 4, n. 12 e art. 33"
+        },
+        {
+          "layout": "split",
+          "title": "Dopo una violazione",
+          "left": {
+            "title": "Chi deve fare che cosa",
+            "items": [
+              "Il responsabile informa il titolare appena ne è a conoscenza",
+              "Se c'è un rischio elevato, il titolare comunica la violazione agli interessati, così possono difendersi",
+              "La comunicazione, meno tecnica, indica conseguenze e misure adottate"
+            ],
+            "ref": "Reg. UE 2016/679, artt. 33, par. 2 e 34"
+          },
+          "right": {
+            "title": "La comunicazione agli interessati non serve se",
+            "items": [
+              "I dati erano cifrati o comunque incomprensibili",
+              "Il titolare ha poi adottato misure che scongiurano il rischio elevato",
+              "Se richiederebbe sforzi sproporzionati, si usa una comunicazione pubblica"
+            ],
+            "ref": "Reg. UE 2016/679, art. 34, par. 3"
+          },
+          "note": "Ogni violazione, anche non notificata, va documentata internamente con circostanze, conseguenze e rimedi: è il registro delle violazioni.",
+          "noteRef": "Reg. UE 2016/679, art. 33, par. 5"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Una piccola agenzia con 5 dipendenti non ha mai tenuto il registro: «siamo sotto i 250». Gestisce clienti, personale e un servizio di videosorveglianza nei locali. Un collaboratore perde una chiavetta USB non cifrata con l'elenco dei clienti.",
+          "questions": [
+            "L'agenzia doveva tenere il registro?",
+            "Che cosa deve fare ora per la chiavetta persa?"
+          ],
+          "solution": "Sì: i trattamenti su clienti e personale non sono occasionali, quindi l'esenzione non si applica. Il registro va creato subito, con una scheda per ciascun trattamento. Per la chiavetta: è una violazione dei dati. Va valutato il rischio e, salvo sia improbabile, notificata al Garante entro 72 ore; se il rischio è elevato vanno avvisati i clienti. In ogni caso va annotata nel registro delle violazioni. Il dettaglio è nel modulo 3."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Entro quale termine il titolare deve, ove possibile, notificare al Garante una violazione dei dati personali?",
+          "options": [
+            "Entro 24 ore dalla violazione",
+            "Entro 72 ore da quando ne è venuto a conoscenza",
+            "Entro 30 giorni",
+            "Non deve mai notificarla se i dati sono pochi"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 33 GDPR prevede la notifica senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui il titolare ne è venuto a conoscenza, salvo che sia improbabile un rischio per le persone. Oltre le 72 ore vanno indicati i motivi del ritardo."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {"value": "Registro", "text": "Strumento di prova, non formalità. Lo tengono titolare e responsabile, in forma scritta anche elettronica."},
+            {"value": "250", "text": "Sotto i 250 dipendenti l'esenzione non vale per trattamenti non occasionali, a rischio o su dati particolari."},
+            {"value": "DPIA", "text": "Prima di trattamenti a rischio elevato, soprattutto con nuove tecnologie."},
+            {"value": "72 ore", "text": "Termine, ove possibile, per notificare una violazione al Garante."},
+            {"value": "Documentare", "text": "Ogni violazione va annotata, anche se non notificata."}
+          ]
+        }
+      ],
+      "narration": "In questa lezione completiamo gli obblighi del titolare. Partiamo da uno strumento molto pratico, il registro dei trattamenti, e poi vediamo, in modo sintetico, gli adempimenti legati al rischio: valutazione d'impatto, consultazione preventiva del Garante e gestione delle violazioni dei dati. Questi ultimi temi saranno approfonditi nel modulo 3; qui ci interessa capire che sono obblighi del titolare e come si collegano tra loro.\n\nIl registro delle attività di trattamento, previsto dall'articolo 30 del GDPR, deve essere tenuto dai titolari e dai responsabili del trattamento. Il materiale del corso lo dice con chiarezza: non è un adempimento formale, ma uno strumento di comprova. Il registro descrive, trattamento per trattamento, che cosa si fa con i dati: perché, di chi, quali dati, a chi vengono comunicati, per quanto tempo si conservano, con quali misure sono protetti. Il Garante lo considera uno dei principali strumenti di accountability e una base preliminare per qualunque analisi del rischio: non si possono proteggere bene dati di cui non si conosce l'esistenza. Il registro deve essere esibito al Garante su richiesta, ed è spesso il primo documento chiesto in un'ispezione.\n\nChi deve tenerlo? Il materiale indica che è obbligatorio per le aziende con più di 250 dipendenti e che, altrimenti, sono escluse, a meno che siano effettuati trattamenti a rischio. Il testo del Regolamento è più preciso, e conviene conoscerlo bene perché è qui che molte piccole imprese sbagliano. L'articolo 30, paragrafo 5, dice che l'obbligo non si applica alle imprese o organizzazioni con meno di 250 dipendenti, a meno che il trattamento possa presentare un rischio per i diritti e le libertà dell'interessato, il trattamento non sia occasionale, oppure includa categorie particolari di dati, come quelli sulla salute, o dati relativi a condanne penali e reati. Basta una di queste condizioni perché l'obbligo torni. E il Garante, nelle sue FAQ, chiarisce che il rischio rilevante non deve essere necessariamente elevato.\n\nIn pratica, l'esenzione è molto stretta. Il Garante fa diversi esempi di soggetti tenuti al registro: esercizi commerciali o artigiani con almeno un dipendente, come bar, ristoranti, officine e negozi, perché trattano in modo non occasionale i dati del personale; chi tratta dati sanitari dei clienti, come parrucchieri, estetisti, ottici, tatuatori; liberi professionisti con almeno un dipendente o che trattano dati sanitari o giudiziari, come commercialisti, avvocati, notai, medici; associazioni, sindacati e condomìni quando trattano categorie particolari di dati. Per le imprese sotto i 250 dipendenti c'è però una semplificazione: il registro può limitarsi alle sole attività di trattamento che fanno scattare l'obbligo. Il Garante, poi, raccomanda il registro a tutti, anche quando non è obbligatorio, proprio perché è utile a dimostrare di essere in regola.\n\nChe cosa contiene il registro del titolare? Il nome e i dati di contatto del titolare e, se ci sono, del contitolare, del rappresentante e del DPO. Le finalità del trattamento: il Garante suggerisce di indicare anche la base giuridica. La descrizione delle categorie di interessati, delle categorie di dati personali e dei destinatari: ad esempio, per la gestione del personale, dipendenti; dati anagrafici, bancari, a volte sanitari; consulente del lavoro, enti previdenziali, banca. L'indicazione dei Paesi terzi o delle organizzazioni internazionali a cui sono trasmessi i dati, con le garanzie adottate: pensate a un servizio cloud con server fuori dall'Unione europea. I termini di cancellazione dei dati, ove possibile; se non si possono fissare a priori, si indicano i criteri, ad esempio «fino al termine dell'eventuale contenzioso». E, ove possibile, una descrizione generale delle misure di sicurezza, che può anche rinviare ad altri documenti, come una policy di sicurezza.\n\nAnche il responsabile del trattamento tiene un proprio registro, in cui indica i trattamenti effettuati per conto del titolare. Se lavora per molti clienti, come un consulente del lavoro o una software house, crea una sezione per ciascun titolare, oppure rinvia a schede anagrafiche dei clienti che contengano le informazioni richieste. Il registro deve avere forma scritta, anche elettronica: un foglio di calcolo ben tenuto può andare benissimo.\n\nIl registro, però, funziona solo se è vivo. Il Garante chiede che sia mantenuto costantemente aggiornato, perché deve corrispondere sempre ai trattamenti effettivamente svolti: se cambia il fornitore delle paghe, se si apre un nuovo canale di vendita online, se si installa una telecamera, il registro va aggiornato subito. Ogni scheda deve riportare in modo verificabile la data di creazione e quella dell'ultimo aggiornamento. Si possono aggiungere altre informazioni utili, come le valutazioni d'impatto svolte o i referenti interni per un certo trattamento. Il Garante mette a disposizione anche modelli di registro semplificato per le piccole e medie imprese, sia per il titolare sia per il responsabile.\n\nDopo la verifica, passiamo agli adempimenti legati al rischio. L'ottavo obbligo dell'elenco è la valutazione d'impatto preventiva in presenza di rischio elevato, la DPIA. Deve essere effettuata dal titolare prima di iniziare il trattamento, quando quel trattamento, soprattutto per l'uso di nuove tecnologie e considerando la natura, il contesto e le finalità, presenta un rischio elevato per i diritti e le libertà delle persone. Se è stato designato un DPO, il titolare lo consulta. Vedremo nel modulo 3 come si svolge.\n\nNono obbligo: la consultazione preventiva del Garante. Il materiale la descrive così: in caso di trattamento di dati sensibili o di dati relativi a condanne penali o reati, il titolare può chiedere una consultazione preventiva al Garante, che consiste in una sorta di consiglio sulla scelta delle misure di sicurezza implementate. Il Regolamento la collega però alla DPIA e la rende obbligatoria in un caso preciso: quando la valutazione d'impatto indica che il trattamento presenterebbe un rischio elevato in assenza di misure per attenuarlo. In quel caso il titolare consulta il Garante prima di iniziare, e il Garante, se ritiene che il trattamento violi il Regolamento, fornisce un parere scritto entro otto settimane, prorogabili di sei per i casi complessi. Il decimo punto dell'elenco, adottare misure di sicurezza, lo abbiamo già visto: è il risultato concreto di tutta questa valutazione.\n\nIl dodicesimo obbligo è la notificazione delle violazioni dei dati personali all'autorità di controllo. La violazione dei dati personali, il data breach, è una violazione di sicurezza che comporta, accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la divulgazione o l'accesso non consentito ai dati. Pensate a un computer portatile rubato, a una mail con l'elenco dei clienti inviata al destinatario sbagliato, a un attacco informatico che blocca i server. La violazione comporta un danno alle persone e danneggia sia l'interessato sia il titolare, che è soggetto al controllo del Garante: per questo va impedita implementando corrette misure di sicurezza. Quando ne viene a conoscenza, il titolare deve notificare la violazione all'autorità di controllo tempestivamente, entro 72 ore. Il Regolamento precisa: senza ingiustificato ritardo e, ove possibile, entro 72 ore, a meno che sia improbabile che la violazione presenti un rischio per le persone; se si notifica dopo le 72 ore, bisogna spiegare i motivi del ritardo.\n\nIl responsabile del trattamento, quando viene a conoscenza di un data breach, deve informare il titolare senza ingiustificato ritardo: è il titolare che decide e notifica. Quando la violazione presenta un rischio elevato per i diritti e le libertà fondamentali delle persone, il titolare deve anche comunicarla agli interessati, per consentire loro di provvedere, ad esempio cambiando una password o bloccando una carta. Questa comunicazione è meno tecnica della notifica al Garante e deve indicare le conseguenze della violazione e le misure adottate. Non è necessaria se il titolare aveva cifrato i dati, o comunque li aveva resi incomprensibili, oppure se ha adottato misure per ridurre i rischi, in modo che il rischio elevato non si concretizzi; se avvisare ciascuno richiedesse sforzi sproporzionati, si procede con una comunicazione pubblica.\n\nC'è poi la documentazione interna delle violazioni. Anche se non è notificata o comunicata, ogni violazione deve essere documentata, indicando le circostanze e i rimedi adottati. È il registro delle violazioni: una specie di inventario con le circostanze di ciascun episodio e i provvedimenti adottati per porvi rimedio. Il materiale ricorda inoltre che nel Codice della privacy era previsto il data breach per i fornitori di servizi di comunicazione elettronica: quella disposizione, l'articolo 32-bis del Codice, risulta oggi abrogata dal decreto legislativo 101 del 2018, e la regola generale è quella del GDPR.\n\nNel caso pratico, una piccola agenzia pensava di essere esentata dal registro perché ha pochi dipendenti. Non lo è, perché gestisce in modo continuativo clienti e personale. E la chiavetta persa, non cifrata, è una violazione di dati: va valutata subito, notificata entro 72 ore se c'è rischio, comunicata ai clienti se il rischio è elevato, e comunque documentata. Se la chiavetta fosse stata cifrata, la comunicazione ai clienti probabilmente non sarebbe servita: un esempio di come una misura semplice cambi le conseguenze.\n\nRicapitoliamo. Il registro è uno strumento di prova e lo tengono titolare e responsabile, in forma scritta anche elettronica. La soglia dei 250 dipendenti esenta poco: basta un trattamento non occasionale, a rischio o su dati particolari per far scattare l'obbligo. Prima di trattamenti a rischio elevato serve la DPIA, e se il rischio resta elevato si consulta il Garante. Le violazioni si notificano, ove possibile, entro 72 ore e si documentano sempre.",
+      "sources": [
+        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
+        {"title": "Garante privacy, FAQ sul registro delle attività di trattamento", "url": "https://www.garanteprivacy.it/home/faq/registro-delle-attivita-di-trattamento"},
+        {"title": "Normattiva, d.lgs. 196/2003, art. 32-bis (abrogato dal d.lgs. 101/2018)", "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art32bis"}
+      ],
+      "changes": [
+        {"kind": "aggiunto", "description": "Registro come strumento di accountability, da esibire al Garante su richiesta; esempi di soggetti obbligati; semplificazione per le PMI; aggiornamento con date verificabili; modelli semplificati; registro del responsabile con sezioni per ciascun titolare.", "source_ref": "Garante, FAQ sul registro delle attività di trattamento"},
+        {"kind": "aggiunto", "description": "Contenuto del registro secondo l'art. 30, par. 1-3, con indicazione della base giuridica suggerita dal Garante.", "source_ref": "Reg. UE 2016/679, art. 30"},
+        {"kind": "aggiunto", "description": "Consultazione del DPO nella DPIA; termini del parere del Garante nella consultazione preventiva (8 settimane + 6).", "source_ref": "Reg. UE 2016/679, artt. 35, par. 2 e 36, par. 2"},
+        {"kind": "aggiunto", "description": "Notifica oltre le 72 ore con i motivi del ritardo; esclusione se improbabile il rischio; comunicazione pubblica in caso di sforzi sproporzionati.", "source_ref": "Reg. UE 2016/679, artt. 33-34"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: registro obbligatorio sopra i 250 dipendenti, «altrimenti escluso a meno che siano effettuati trattamenti a rischio». Precisato che l'esenzione non vale anche per trattamenti non occasionali o su dati particolari o giudiziari, e che il rischio può essere anche non elevato.", "source_ref": "Reg. UE 2016/679, art. 30, par. 5; Garante, FAQ"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: per dati sensibili o giudiziari il titolare «può chiedere» una consultazione preventiva, «una sorta di consiglio». Precisato che il GDPR la rende obbligatoria quando la DPIA indica un rischio elevato in assenza di misure di attenuazione.", "source_ref": "Reg. UE 2016/679, art. 36"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: notifica «tempestivamente entro 72 ore». Precisato: senza ingiustificato ritardo e, ove possibile, entro 72 ore, salvo che sia improbabile un rischio.", "source_ref": "Reg. UE 2016/679, art. 33, par. 1"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: «nel codice della privacy è previsto il data breach per i fornitori di servizi di comunicazione elettronica». L'art. 32-bis del Codice risulta abrogato dal d.lgs. 101/2018; eventuali obblighi specifici di settore da verificare.", "source_ref": "Normattiva, d.lgs. 196/2003, art. 32-bis"},
+        {"kind": "modificato", "description": "Mantenuta dalla fonte: «registro informatico delle violazioni». Il GDPR richiede di documentare ogni violazione (art. 33, par. 5) senza imporre una forma informatica.", "source_ref": "Reg. UE 2016/679, art. 33, par. 5"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "module": "Sicurezza, violazioni e sanzioni",
+  "topic": "Autorità di controllo, risarcimento e sanzioni",
+  "topic_order": 4,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "I poteri del Garante e il risarcimento del danno",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 15-18 e 24"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Autorità di controllo, risarcimento e sanzioni",
+          "title": "I poteri del Garante e il risarcimento",
+          "goals": [
+            "Conoscere i poteri di indagine, correttivi, autorizzativi e consultivi del Garante",
+            "Capire come nasce un procedimento del Garante",
+            "Sapere chi risponde del danno causato da una violazione del GDPR"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il Garante, autorità di controllo italiana",
+          "key": "In Italia l'autorità di controllo è il Garante per la protezione dei dati personali. È l'organo competente ad adottare i provvedimenti correttivi e a irrogare le sanzioni previste dal GDPR e dal Codice privacy.",
+          "body": "L'articolo 58 del GDPR elenca i suoi poteri in tre gruppi: di indagine, correttivi, autorizzativi e consultivi. Ogni Stato può aggiungerne altri per legge.",
+          "ref": "D.lgs. 196/2003, art. 166, c. 3; Reg. UE 2016/679, art. 58"
+        },
+        {
+          "layout": "checklist",
+          "title": "I poteri di indagine",
+          "items": [
+            {
+              "text": "Ordinare a titolare e responsabile di fornire ogni informazione necessaria.",
+              "ref": "art. 58, par. 1, lett. a"
+            },
+            {
+              "text": "Condurre indagini sotto forma di attività di revisione sulla protezione dei dati.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Riesaminare le certificazioni rilasciate.",
+              "ref": "lett. c"
+            },
+            {
+              "text": "Notificare a titolare o responsabile le presunte violazioni.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Accedere a tutti i dati e le informazioni necessari e a tutti i locali, compresi strumenti e mezzi di trattamento.",
+              "ref": "lett. e-f"
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "I poteri correttivi",
+          "lead": "Dal più lieve al più incisivo. Si possono combinare tra loro.",
+          "head": [
+            "Potere",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Avvertimento",
+              "Un trattamento previsto può verosimilmente violare il Regolamento."
+            ],
+            [
+              "Ammonimento",
+              "Il trattamento ha già violato il Regolamento."
+            ],
+            [
+              "Ingiunzioni",
+              "Soddisfare le richieste dell'interessato; conformare i trattamenti, anche in un certo modo ed entro un termine; comunicare una violazione agli interessati."
+            ],
+            [
+              "Limitazione o divieto",
+              "Limitazione provvisoria o definitiva del trattamento, fino al divieto."
+            ],
+            [
+              "Rettifica, cancellazione, limitazione",
+              "Ordinarle e farle notificare ai destinatari dei dati."
+            ],
+            [
+              "Certificazione",
+              "Revocarla o ordinare all'organismo di ritirarla o di non rilasciarla."
+            ],
+            [
+              "Sanzione pecuniaria",
+              "In aggiunta alle altre misure o al loro posto."
+            ],
+            [
+              "Sospensione dei flussi",
+              "Verso un destinatario in un Paese terzo o un'organizzazione internazionale."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 58, par. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "I poteri autorizzativi e consultivi",
+          "items": [
+            {
+              "text": "Consulenza al titolare nella procedura di consultazione preventiva.",
+              "ref": "art. 58, par. 3, lett. a"
+            },
+            {
+              "text": "Pareri a Parlamento, Governo, altri organismi e al pubblico.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Pareri e approvazione dei codici di condotta; accreditamento degli organismi di certificazione; rilascio di certificazioni.",
+              "ref": "lett. d-f"
+            },
+            {
+              "text": "Per i trasferimenti verso Paesi terzi: adottare clausole tipo, autorizzare clausole contrattuali e accordi amministrativi, approvare le norme vincolanti d'impresa.",
+              "ref": "lett. g-j"
+            },
+            {
+              "text": "Altri poteri possono essere fissati dalla legge nazionale.",
+              "ref": "art. 58, par. 6"
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Come nasce un procedimento",
+          "steps": [
+            {
+              "label": "Avvio",
+              "text": "Dopo un reclamo dell'interessato, un'iniziativa del Garante o accessi, ispezioni e verifiche."
+            },
+            {
+              "label": "Contestazione",
+              "text": "L'Ufficio notifica al titolare o al responsabile le presunte violazioni."
+            },
+            {
+              "label": "Difesa",
+              "text": "Entro 30 giorni si possono inviare scritti difensivi e documenti e chiedere di essere sentiti."
+            },
+            {
+              "label": "Decisione",
+              "text": "Il Garante adotta misure correttive e, se del caso, sanzioni."
+            }
+          ],
+          "ref": "D.lgs. 196/2003, art. 166, c. 4-6"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Il Garante constata che un'azienda non ha risposto a un cliente che chiedeva l'accesso ai propri dati. Quale di questi è un potere correttivo che può usare?",
+          "options": [
+            "Ingiungere all'azienda di soddisfare la richiesta dell'interessato",
+            "Condannare l'azienda al carcere",
+            "Disporre il risarcimento del danno al cliente in sostituzione del giudice",
+            "Nessuno: può solo dare pareri"
+          ],
+          "answer": 0,
+          "explanation": "Tra i poteri correttivi dell'articolo 58, paragrafo 2, c'è l'ingiunzione a soddisfare le richieste dell'interessato. Il risarcimento si chiede al giudice; le pene detentive le decide il giudice penale."
+        },
+        {
+          "layout": "concept",
+          "title": "Il diritto al risarcimento",
+          "key": "Chiunque subisca un danno materiale o immateriale causato da una violazione del Regolamento ha il diritto di ottenere il risarcimento dal titolare o dal responsabile del trattamento.",
+          "body": "Danno materiale: ad esempio soldi sottratti dopo un furto d'identità. Danno immateriale: ad esempio ansia, discredito, perdita di controllo sui propri dati. Il materiale del corso ricorda che il principio era già nella vecchia direttiva europea.",
+          "ref": "Reg. UE 2016/679, art. 82, par. 1"
+        },
+        {
+          "layout": "split",
+          "title": "Chi risponde del danno",
+          "left": {
+            "title": "Titolare",
+            "items": [
+              "Risponde del danno causato da un suo trattamento che viola il Regolamento"
+            ],
+            "ref": "art. 82, par. 2"
+          },
+          "right": {
+            "title": "Responsabile",
+            "items": [
+              "Risponde solo se non ha rispettato gli obblighi del GDPR rivolti ai responsabili",
+              "Oppure se ha agito contro le legittime istruzioni del titolare"
+            ],
+            "ref": "art. 82, par. 2"
+          },
+          "note": "Chi dimostra che l'evento dannoso non gli è in alcun modo imputabile è esonerato. Se più soggetti sono responsabili, ciascuno risponde in solido per l'intero danno e poi può rivalersi sugli altri per la loro parte.",
+          "noteRef": "Reg. UE 2016/679, art. 82, par. 3-5"
+        },
+        {
+          "layout": "facts",
+          "title": "Le strade dell'interessato",
+          "lead": "Reclamo al Garante e azione davanti al giudice sono strumenti distinti.",
+          "facts": [
+            {
+              "label": "Reclamo",
+              "text": "Al Garante, se si ritiene che il trattamento violi il Regolamento. Può avviare un procedimento."
+            },
+            {
+              "label": "Ricorso al giudice",
+              "text": "Contro titolare o responsabile, nello Stato in cui hanno uno stabilimento o in quello in cui l'interessato risiede."
+            },
+            {
+              "label": "Risarcimento",
+              "text": "Si chiede al giudice competente, non al Garante."
+            },
+            {
+              "label": "Associazioni",
+              "text": "L'interessato può dare mandato a un'associazione senza scopo di lucro attiva nella protezione dei dati."
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'azienda affida le buste paga a uno studio esterno, nominato responsabile del trattamento. Contro le istruzioni ricevute, un addetto dello studio invia per errore i cedolini di tutti i dipendenti a un'altra azienda cliente. Un dipendente, molto turbato per la diffusione del suo stipendio e delle sue assenze per malattia, vuole essere risarcito.",
+          "questions": [
+            "Il dipendente può chiedere il risarcimento anche se non ha perso soldi?",
+            "A chi può chiederlo?",
+            "Che cosa può fare lo studio o l'azienda che ha pagato tutto?"
+          ],
+          "solution": "Sì: l'articolo 82 copre anche il danno immateriale, che va comunque provato davanti al giudice. Lo studio risponde perché ha agito contro le istruzioni del titolare; anche l'azienda titolare può essere chiamata a rispondere, salvo provi che l'evento non le è in alcun modo imputabile. Se entrambi sono responsabili, rispondono in solido per l'intero; chi ha pagato tutto può poi recuperare dall'altro la sua quota."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quando un responsabile del trattamento risponde del danno causato da un trattamento?",
+          "options": [
+            "Sempre, al posto del titolare",
+            "Mai: risponde solo il titolare",
+            "Solo se non ha rispettato gli obblighi del GDPR rivolti ai responsabili o ha agito contro le legittime istruzioni del titolare",
+            "Solo se il danno supera 10.000 euro"
+          ],
+          "answer": 2,
+          "explanation": "L'articolo 82, paragrafo 2, limita la responsabilità del responsabile a questi due casi. Il titolare risponde invece del danno causato da qualsiasi suo trattamento che violi il Regolamento."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 58",
+              "text": "poteri di indagine, correttivi, autorizzativi e consultivi"
+            },
+            {
+              "value": "30 giorni",
+              "text": "per difendersi dopo la contestazione del Garante"
+            },
+            {
+              "value": "Art. 82",
+              "text": "risarcimento del danno materiale o immateriale"
+            },
+            {
+              "value": "In solido",
+              "text": "più responsabili rispondono ciascuno per l'intero danno"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione conosciamo l'autorità che vigila sul rispetto del GDPR e vediamo che cosa succede quando una violazione causa un danno a una persona. Sono temi che possono sembrare lontani dal lavoro quotidiano, ma servono a capire perché le regole viste finora vanno prese sul serio.\n\nOgni Stato membro ha almeno un'autorità di controllo indipendente. In Italia è il Garante per la protezione dei dati personali. Il Codice privacy, all'articolo 166, stabilisce che il Garante è l'organo competente ad adottare i provvedimenti correttivi previsti dal Regolamento e a irrogare le sanzioni amministrative. I suoi poteri sono elencati nell'articolo 58 del GDPR e si dividono in tre gruppi: poteri di indagine, poteri correttivi e poteri autorizzativi e consultivi. Il materiale del corso si concentra sugli ultimi due; partiamo però dai poteri di indagine, che sono quelli con cui un'azienda entra in contatto per primi.\n\nCon i poteri di indagine il Garante può ordinare al titolare e al responsabile di fornire ogni informazione di cui ha bisogno; può condurre indagini sotto forma di attività di revisione, cioè veri e propri audit sulla protezione dei dati; può riesaminare le certificazioni rilasciate; può notificare al titolare o al responsabile le presunte violazioni; può ottenere l'accesso a tutti i dati personali e alle informazioni necessarie e a tutti i locali, compresi gli strumenti e i mezzi di trattamento. In pratica, un'ispezione del Garante può significare che qualcuno entra in ufficio e chiede di vedere come sono protetti i computer, chi ha accesso al gestionale, dove sono archiviate le pratiche. Ed è in quel momento che servono la documentazione e le procedure di cui abbiamo parlato: il registro delle violazioni, le istruzioni al personale, le valutazioni d'impatto.\n\nPassiamo ai poteri correttivi, che il materiale del corso elenca con cura. Si va dal più lieve al più incisivo. L'avvertimento: il Garante segnala che un trattamento previsto può verosimilmente violare il Regolamento, prima che il danno avvenga. L'ammonimento, che il materiale chiama monito: il trattamento ha già violato le regole. Poi le ingiunzioni: il Garante può ordinare di soddisfare le richieste dell'interessato che vuole esercitare i suoi diritti; di conformare i trattamenti al Regolamento, se del caso in un certo modo ed entro un certo termine; di comunicare agli interessati una violazione dei dati. Può imporre una limitazione provvisoria o anche definitiva del trattamento, fino al divieto. Può ordinare la rettifica, la cancellazione dei dati o la limitazione del trattamento e la notifica di queste misure a chi aveva ricevuto i dati. Può revocare una certificazione o ordinare all'organismo di certificazione di ritirarla o di non rilasciarla. Può infliggere una sanzione amministrativa pecuniaria, in aggiunta alle altre misure o al loro posto, secondo le circostanze del caso. E può ordinare la sospensione dei flussi di dati verso un destinatario in un Paese terzo o un'organizzazione internazionale. Notate che la sanzione in denaro è solo uno degli strumenti, e spesso non il più pesante: un divieto di trattamento può bloccare un'intera attività.\n\nCi sono poi i poteri autorizzativi e consultivi. Il Garante fornisce consulenza al titolare nella procedura di consultazione preventiva, quella che abbiamo visto parlando di valutazione d'impatto. Rilascia pareri al Parlamento, al Governo, ad altri organismi e anche al pubblico. Dà pareri sui codici di condotta e li approva, accredita gli organismi di certificazione, rilascia certificazioni e ne approva i criteri. Per i trasferimenti di dati verso Paesi fuori dall'Unione può adottare clausole tipo di protezione, autorizzare clausole contrattuali e accordi amministrativi e approvare le norme vincolanti d'impresa dei gruppi multinazionali. Il materiale del corso ricorda infine che altri poteri possono essere fissati dalla legge nazionale: è l'articolo 58, paragrafo 6, che consente agli Stati di attribuire all'autorità poteri ulteriori.\n\nCome nasce, in concreto, un procedimento del Garante? Il Codice privacy lo descrive all'articolo 166. Il procedimento può essere avviato a seguito di un reclamo dell'interessato, di un'attività istruttoria d'iniziativa del Garante, oppure di accessi, ispezioni e verifiche. Se gli elementi raccolti fanno ritenere che ci siano violazioni, l'Ufficio del Garante le notifica al titolare o al responsabile. Da quel momento ci sono trenta giorni per inviare scritti difensivi o documenti e chiedere di essere sentiti. Poi il Garante decide, adottando le misure correttive e, se è il caso, le sanzioni.\n\nCambiamo prospettiva e mettiamoci dalla parte della persona danneggiata. Il materiale del corso ricorda che, sul risarcimento, il Regolamento segue gli stessi principi della vecchia direttiva europea sulla protezione dei dati, la 95/46, oggi abrogata. La regola è nell'articolo 82: chiunque subisca un danno materiale o immateriale causato da una violazione del Regolamento ha il diritto di ottenere il risarcimento del danno dal titolare o dal responsabile del trattamento. Danno materiale è, per esempio, la somma sottratta dal conto dopo un furto d'identità reso possibile da una fuga di dati. Danno immateriale è, per esempio, l'ansia, il discredito o la perdita di controllo sui propri dati. Il danno, però, va dimostrato davanti al giudice.\n\nChi risponde? Il titolare coinvolto nel trattamento risponde del danno causato da un suo trattamento che viola il Regolamento. Il responsabile risponde solo in due casi: se non ha adempiuto gli obblighi del Regolamento rivolti specificamente ai responsabili, oppure se ha agito in modo difforme o contrario rispetto alle legittime istruzioni del titolare. Entrambi sono esonerati se dimostrano che l'evento dannoso non è in alcun modo a loro imputabile: una prova difficile, che passa proprio dalla documentazione delle misure adottate. E quando più soggetti sono coinvolti nello stesso trattamento e sono responsabili del danno, ciascuno risponde in solido per l'intero ammontare, così che la persona danneggiata sia risarcita davvero. Chi ha pagato tutto può poi chiedere agli altri la parte corrispondente alla loro responsabilità.\n\nE dove si va? Qui conviene distinguere le strade dell'interessato. Il reclamo al Garante serve a segnalare che un trattamento viola il Regolamento e può avviare un procedimento. Il ricorso giurisdizionale si propone davanti al giudice dello Stato in cui il titolare o il responsabile ha uno stabilimento, oppure, in alternativa, di quello in cui l'interessato risiede abitualmente. Il risarcimento del danno si chiede al giudice, non al Garante. E l'interessato può dare mandato a un'associazione senza scopo di lucro attiva nella protezione dei dati perché proponga il reclamo o agisca per suo conto.\n\nNel caso pratico, lo studio che elabora le buste paga invia per errore i cedolini di tutti i dipendenti a un'altra azienda. Il dipendente turbato per la diffusione del suo stipendio e delle sue assenze per malattia può chiedere il risarcimento anche se non ha perso denaro, perché l'articolo 82 copre il danno immateriale, che dovrà però provare. Lo studio risponde perché ha agito contro le istruzioni del titolare. Anche l'azienda può essere chiamata a rispondere, salvo dimostri che l'evento non le è in alcun modo imputabile. Se entrambi sono responsabili, rispondono in solido; chi paga l'intero si rivale poi sull'altro.\n\nRiassumendo: il Garante ha poteri di indagine, correttivi, autorizzativi e consultivi; i procedimenti partono da reclami, iniziative o ispezioni, e chi viene contestato ha trenta giorni per difendersi. Chi subisce un danno, materiale o immateriale, per una violazione del Regolamento può chiedere il risarcimento al titolare o al responsabile davanti al giudice. Nella prossima lezione vedremo le sanzioni amministrative e penali.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 58, 77, 79, 80, 82, 94)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 166",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art166"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 15): ingiunzioni rivolte a «titolare-responsabile del trattamento o all'incaricato». L'art. 58 si rivolge a titolare e responsabile; la figura dell'«incaricato» era del Codice privacy prima del d.lgs. 101/2018. Nella lezione si parla di titolare e responsabile.",
+          "source_ref": "Reg. UE 2016/679, art. 58, par. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenute dalla fonte (slide 15 e 17): «imporre limitazioni provvisorie al trattamento» e «ordinare la sospensione di flussi dati vs. Paesi». Il testo ufficiale prevede limitazione provvisoria o definitiva, incluso il divieto, e sospensione dei flussi verso un Paese terzo o un'organizzazione internazionale: integrato.",
+          "source_ref": "Reg. UE 2016/679, art. 58, par. 2, lett. f e j"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 18): «autorizzare il trattamento per Paesi terzi». Il testo ufficiale prevede l'adozione di clausole tipo, l'autorizzazione di clausole contrattuali e accordi amministrativi e l'approvazione delle norme vincolanti d'impresa: riformulato.",
+          "source_ref": "Reg. UE 2016/679, art. 58, par. 3, lett. g-j"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 16): i poteri sono presentati in due gruppi (correttivi; autorizzativi e consultivi). L'art. 58 prevede anche i poteri di indagine (citati nella slide 15): aggiunti come terzo gruppo.",
+          "source_ref": "Reg. UE 2016/679, art. 58, par. 1"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 24): «stessi principi Direttiva 46/95». Il numero corretto è 95/46/CE, abrogata dal 25 maggio 2018.",
+          "source_ref": "Reg. UE 2016/679, art. 94"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Competenza del Garante e fasi del procedimento (avvio, contestazione, 30 giorni per le difese).",
+          "source_ref": "D.lgs. 196/2003, art. 166, c. 3-6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Responsabilità di titolare e responsabile, esonero, responsabilità solidale e rivalsa.",
+          "source_ref": "Reg. UE 2016/679, art. 82, par. 2-5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Strade dell'interessato: reclamo, ricorso giurisdizionale e foro competente, mandato ad associazioni.",
+          "source_ref": "Reg. UE 2016/679, artt. 77, 79, 80, 82, par. 6"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Le sanzioni: GDPR e Codice privacy",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 25-32"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Autorità di controllo, risarcimento e sanzioni",
+          "title": "Le sanzioni",
+          "goals": [
+            "Conoscere i criteri con cui il Garante decide e misura una sanzione",
+            "Distinguere le due fasce: 10 milioni o 2% e 20 milioni o 4%",
+            "Sapere che cosa prevede il Codice privacy italiano, compresi i reati"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Sanzioni più pesanti",
+          "key": "Le sanzioni sono diventate pesanti rispetto alla normativa precedente. Le irrogano le autorità di controllo, che devono garantire in ogni caso sanzioni effettive, proporzionate e dissuasive.",
+          "body": "La sanzione pecuniaria si può infliggere in aggiunta alle altre misure correttive del Garante o al loro posto, secondo le circostanze del singolo caso.",
+          "ref": "Reg. UE 2016/679, art. 83, par. 1-2"
+        },
+        {
+          "layout": "checklist",
+          "title": "I criteri per decidere e misurare la sanzione",
+          "items": [
+            {
+              "text": "Natura, gravità e durata della violazione, considerando natura, oggetto e finalità del trattamento, numero di interessati lesi e livello del danno.",
+              "ref": "art. 83, par. 2, lett. a"
+            },
+            {
+              "text": "Carattere doloso o colposo della violazione.",
+              "ref": "lett. b"
+            },
+            {
+              "text": "Misure prese per attenuare il danno subito dagli interessati.",
+              "ref": "lett. c"
+            },
+            {
+              "text": "Grado di responsabilità, considerate le misure tecniche e organizzative adottate.",
+              "ref": "lett. d"
+            },
+            {
+              "text": "Precedenti violazioni pertinenti.",
+              "ref": "lett. e"
+            },
+            {
+              "text": "Grado di cooperazione con l'autorità per rimediare e attenuare gli effetti.",
+              "ref": "lett. f"
+            }
+          ]
+        },
+        {
+          "layout": "checklist",
+          "title": "Altri criteri",
+          "items": [
+            {
+              "text": "Categorie di dati personali interessate dalla violazione.",
+              "ref": "art. 83, par. 2, lett. g"
+            },
+            {
+              "text": "Come l'autorità ha saputo della violazione, in particolare se è stata notificata.",
+              "ref": "lett. h"
+            },
+            {
+              "text": "Rispetto di precedenti provvedimenti del Garante sullo stesso oggetto.",
+              "ref": "lett. i"
+            },
+            {
+              "text": "Adesione a codici di condotta o a meccanismi di certificazione.",
+              "ref": "lett. j"
+            },
+            {
+              "text": "Altri fattori aggravanti o attenuanti, ad esempio benefici finanziari ottenuti o perdite evitate grazie alla violazione.",
+              "ref": "lett. k"
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Il limite in caso di più violazioni",
+          "key": "Se, per lo stesso trattamento o per trattamenti collegati, il titolare o il responsabile viola con dolo o colpa più disposizioni, l'importo totale non supera quello previsto per la violazione più grave.",
+          "body": "Le sanzioni non si sommano all'infinito: il tetto è quello della violazione più grave.",
+          "ref": "Reg. UE 2016/679, art. 83, par. 3"
+        },
+        {
+          "layout": "table",
+          "title": "Le due fasce di sanzioni",
+          "lead": "Per le imprese vale l'importo più alto tra la cifra fissa e la percentuale del fatturato mondiale totale annuo dell'esercizio precedente.",
+          "head": [
+            "Fascia",
+            "Fino a",
+            "Per quali violazioni"
+          ],
+          "rows": [
+            [
+              "1 · Obblighi organizzativi",
+              "10 milioni di euro o 2% del fatturato",
+              "Obblighi di titolare e responsabile: sicurezza, data breach, DPIA, registro, DPO, privacy by design. Obblighi di organismi di certificazione e di controllo."
+            ],
+            [
+              "2 · Principi e diritti",
+              "20 milioni di euro o 4% del fatturato",
+              "Principi di base e consenso, diritti degli interessati, trasferimenti verso Paesi terzi, obblighi nazionali specifici."
+            ],
+            [
+              "2 · Ordini del Garante",
+              "20 milioni di euro o 4% del fatturato",
+              "Inosservanza di un ordine, di una limitazione o di una sospensione dei flussi; negato accesso al Garante."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 83, par. 4-6"
+        },
+        {
+          "layout": "table",
+          "title": "Che cosa c'è nelle due fasce",
+          "head": [
+            "Fascia",
+            "Articoli del GDPR"
+          ],
+          "rows": [
+            [
+              "10 milioni o 2%",
+              "Artt. 8 (consenso dei minori online), 11, da 25 a 39 (tra cui sicurezza art. 32, breach artt. 33-34, DPIA artt. 35-36, DPO artt. 37-39), 42 e 43 (certificazione), 41, par. 4 (organismo di controllo dei codici di condotta)."
+            ],
+            [
+              "20 milioni o 4%",
+              "Artt. 5, 6, 7 e 9 (principi, liceità, consenso, dati particolari), da 12 a 22 (diritti), da 44 a 49 (trasferimenti), capo IX (norme nazionali), art. 58 (ordini e accesso del Garante)."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 83, par. 4-6"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'impresa con un fatturato mondiale annuo di 2 miliardi di euro viola i diritti degli interessati. Qual è il massimo della sanzione amministrativa?",
+          "options": [
+            "10 milioni di euro",
+            "20 milioni di euro",
+            "80 milioni di euro, cioè il 4% del fatturato, perché è superiore a 20 milioni",
+            "40 milioni di euro, cioè il 2% del fatturato"
+          ],
+          "answer": 2,
+          "explanation": "La violazione dei diritti degli interessati rientra nella fascia più alta: fino a 20 milioni o, per le imprese, fino al 4% del fatturato mondiale totale annuo dell'esercizio precedente, se superiore. Il 4% di 2 miliardi è 80 milioni."
+        },
+        {
+          "layout": "concept",
+          "title": "La discrezionalità degli Stati membri",
+          "key": "Gli Stati membri stabiliscono le norme sulle altre sanzioni per le violazioni del Regolamento, in particolare quelle non soggette a sanzioni amministrative pecuniarie. Anche queste devono essere effettive, proporzionate e dissuasive.",
+          "body": "Ogni Stato decide anche se e in quale misura sanzionare autorità e organismi pubblici. In Italia queste norme sono nel Codice privacy, d.lgs. 196/2003, modificato dal d.lgs. 101/2018.",
+          "ref": "Reg. UE 2016/679, art. 83, par. 7, e art. 84"
+        },
+        {
+          "layout": "table",
+          "title": "Il Codice privacy: sanzioni amministrative",
+          "head": [
+            "Regola",
+            "Che cosa prevede"
+          ],
+          "rows": [
+            [
+              "Art. 166, c. 1-2",
+              "Collega alle due fasce del GDPR le violazioni di specifiche norme del Codice, ad esempio su telemarketing, cookie e dati sanitari."
+            ],
+            [
+              "Art. 166, c. 7",
+              "Possibile sanzione accessoria: pubblicazione dell'ordinanza-ingiunzione sul sito del Garante, o campagne di comunicazione istituzionale."
+            ],
+            [
+              "Art. 166, c. 8",
+              "Entro il termine per il ricorso si può chiudere la controversia adeguandosi alle prescrizioni e pagando metà della sanzione."
+            ]
+          ],
+          "ref": "D.lgs. 196/2003, art. 166"
+        },
+        {
+          "layout": "table",
+          "title": "Il Codice privacy: i reati",
+          "lead": "Salvo che il fatto costituisca più grave reato. Li giudica il giudice penale, non il Garante.",
+          "head": [
+            "Articolo",
+            "Condotta",
+            "Pena"
+          ],
+          "rows": [
+            [
+              "167 · Trattamento illecito",
+              "Violare certe regole (ad esempio su marketing o dati particolari) per profitto o per danneggiare, causando nocumento all'interessato.",
+              "Reclusione da 6 mesi a 1 anno e 6 mesi, o da 1 a 3 anni secondo i casi."
+            ],
+            [
+              "167-bis · Archivi su larga scala",
+              "Comunicare o diffondere illecitamente un archivio automatizzato di dati trattati su larga scala, per profitto o per danneggiare.",
+              "Reclusione da 1 a 6 anni."
+            ],
+            [
+              "168 · Falsità al Garante",
+              "Dichiarare il falso o produrre documenti falsi al Garante; turbare i suoi accertamenti.",
+              "Reclusione da 6 mesi a 3 anni; fino a 1 anno per l'interruzione."
+            ],
+            [
+              "170 · Provvedimenti del Garante",
+              "Non osservare alcuni provvedimenti del Garante causando un concreto nocumento.",
+              "Reclusione da 3 mesi a 2 anni, a querela."
+            ]
+          ],
+          "ref": "D.lgs. 196/2003, artt. 167-170"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Un'agenzia subisce un attacco ransomware: i dati di 5.000 clienti vengono copiati. Non c'era un backup aggiornato e le password erano deboli. Il titolare non notifica nulla; il Garante lo scopre mesi dopo dal reclamo di un cliente. Nel frattempo l'agenzia non risponde alle richieste di informazioni del Garante.",
+          "questions": [
+            "Quali criteri dell'articolo 83 pesano contro l'agenzia?",
+            "In quale fascia rientrano le violazioni su sicurezza e notifica?",
+            "Che cosa cambia se l'agenzia ignora un ordine del Garante?"
+          ],
+          "solution": "Pesano il numero di interessati e il livello del danno, la carenza di misure tecniche e organizzative (backup, password), la mancata notifica (il Garante l'ha saputo da un reclamo) e la scarsa cooperazione. Le violazioni di sicurezza e notifica (artt. 32-34) rientrano nella fascia fino a 10 milioni o 2% del fatturato. Non osservare un ordine del Garante, o negargli l'accesso, porta invece alla fascia fino a 20 milioni o 4%."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di questi elementi il Garante considera per decidere l'importo di una sanzione?",
+          "options": [
+            "Il numero di dipendenti che hanno seguito il corso privacy, e nient'altro",
+            "Il grado di cooperazione con l'autorità e se la violazione è stata notificata",
+            "Solo il fatturato dell'impresa",
+            "La data di costituzione della società"
+          ],
+          "answer": 1,
+          "explanation": "L'articolo 83, paragrafo 2, elenca tra i criteri il grado di cooperazione con l'autorità (lett. f) e la maniera in cui l'autorità ha saputo della violazione, in particolare se è stata notificata (lett. h). Il fatturato serve a calcolare il massimo, non è l'unico criterio."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "E · P · D",
+              "text": "sanzioni effettive, proporzionate e dissuasive"
+            },
+            {
+              "value": "11 criteri",
+              "text": "dalla gravità della violazione alla cooperazione e alla notifica"
+            },
+            {
+              "value": "10 mln · 2%",
+              "text": "per gli obblighi organizzativi, tra cui sicurezza, breach e DPIA"
+            },
+            {
+              "value": "20 mln · 4%",
+              "text": "per principi, diritti, trasferimenti e ordini del Garante"
+            },
+            {
+              "value": "Codice",
+              "text": "sanzioni nazionali, pagamento in misura ridotta e reati degli artt. 167-170"
+            }
+          ]
+        }
+      ],
+      "narration": "Siamo all'ultima lezione del modulo: le sanzioni. Il materiale del corso apre con una constatazione: con il GDPR le sanzioni sono diventate pesanti rispetto alla normativa precedente. Vediamo come vengono decise, quanto possono valere e che cosa aggiunge la legge italiana.\n\nLe sanzioni amministrative pecuniarie sono irrogate dalle autorità di controllo, in Italia dal Garante. L'articolo 83 chiede che siano, in ogni singolo caso, effettive, proporzionate e dissuasive. Effettive vuol dire che devono funzionare davvero; proporzionate, che devono essere adeguate alla gravità del fatto; dissuasive, che devono scoraggiare chi le subisce e anche gli altri dal ripetere la violazione. La sanzione in denaro, come abbiamo visto, si può infliggere in aggiunta alle altre misure correttive del Garante, come un'ingiunzione o una limitazione del trattamento, oppure al loro posto, secondo le circostanze.\n\nCome si decide se sanzionare e quanto? Il Regolamento elenca gli elementi di cui tenere conto, caso per caso, e il materiale del corso li riporta quasi tutti. Il primo è la natura, la gravità e la durata della violazione, considerando la natura, l'oggetto o la finalità del trattamento, il numero di interessati lesi e il livello del danno subito. Poi il carattere doloso o colposo: c'è differenza tra chi viola le regole consapevolmente e chi sbaglia per negligenza. Contano le misure prese dal titolare o dal responsabile per attenuare il danno subito dagli interessati. Conta il grado di responsabilità, tenendo conto delle misure tecniche e organizzative adottate per la protezione dei dati fin dalla progettazione e per la sicurezza: qui torna l'articolo 32. Contano le eventuali precedenti violazioni pertinenti e il grado di cooperazione con l'autorità per porre rimedio alla violazione e attenuarne gli effetti negativi.\n\nGli altri criteri sono: le categorie di dati personali interessate, perché violare dati sanitari è più grave che violare un indirizzo email; la maniera in cui l'autorità ha preso conoscenza della violazione, in particolare se e in che misura il titolare l'ha notificata; il rispetto di eventuali provvedimenti già adottati dal Garante sullo stesso oggetto; l'adesione a codici di condotta o meccanismi di certificazione approvati; e infine qualsiasi altro fattore aggravante o attenuante, come i benefici finanziari conseguiti o le perdite evitate grazie alla violazione. Il messaggio è chiaro: chi investe in sicurezza, notifica le violazioni, collabora e rimedia subito si trova in una posizione molto migliore di chi nasconde e non risponde.\n\nC'è poi un limite, ricordato dal materiale del corso. Se, in relazione allo stesso trattamento o a trattamenti collegati, il titolare o il responsabile viola, con dolo o colpa, varie disposizioni del Regolamento, l'importo totale della sanzione non supera quello previsto per la violazione più grave. Le sanzioni, quindi, non si sommano all'infinito.\n\nVeniamo agli importi. Il Regolamento prevede due fasce. Nella prima, la sanzione può arrivare fino a 10 milioni di euro o, per le imprese, fino al 2% del fatturato mondiale totale annuo dell'esercizio precedente, se superiore. Riguarda gli obblighi del titolare e del responsabile: per esempio la protezione dei dati fin dalla progettazione, il registro dei trattamenti, la sicurezza, la notifica e la comunicazione dei data breach, la valutazione d'impatto, il DPO; e poi gli obblighi degli organismi di certificazione e dell'organismo di controllo. Attenzione: qui «organismo di controllo» non è il Garante, ma l'organismo che vigila sul rispetto di un codice di condotta. Nella seconda fascia, la sanzione può arrivare fino a 20 milioni di euro o, per le imprese, fino al 4% del fatturato mondiale totale annuo dell'esercizio precedente, se superiore. Riguarda i principi di base del trattamento, comprese le condizioni del consenso, i diritti degli interessati, i trasferimenti di dati verso Paesi terzi, gli obblighi previsti dalle leggi nazionali per situazioni specifiche, e l'inosservanza degli ordini del Garante, delle limitazioni o delle sospensioni dei flussi, oppure il negato accesso all'autorità. Il materiale del corso sottolinea proprio quest'ultimo punto: la mancata osservanza di un ordine del Garante è punita come le violazioni più gravi.\n\nFacciamo un esempio di calcolo. Un'impresa con un fatturato mondiale annuo di 2 miliardi di euro viola i diritti degli interessati. La violazione rientra nella fascia più alta. Il 4% di 2 miliardi è 80 milioni, che è superiore a 20 milioni: quindi il massimo applicabile è 80 milioni. Per una piccola impresa con un fatturato di 5 milioni, invece, il 4% sarebbe 200.000 euro, inferiore a 20 milioni: il massimo resta 20 milioni. Sono, naturalmente, tetti massimi: l'importo concreto dipende dai criteri che abbiamo visto.\n\nIl materiale del corso chiude con la discrezionalità degli Stati membri. Il Regolamento lascia agli Stati il compito di stabilire le norme sulle altre sanzioni per le violazioni del Regolamento, in particolare per quelle non soggette a sanzioni amministrative pecuniarie, adottando tutti i provvedimenti necessari per applicarle. Anche queste devono essere effettive, proporzionate e dissuasive. Ogni Stato decide inoltre se e in quale misura si possano sanzionare le autorità e gli organismi pubblici. In Italia queste scelte sono contenute nel Codice privacy, il decreto legislativo 196 del 2003, modificato dal decreto legislativo 101 del 2018 per adeguarlo al GDPR.\n\nChe cosa prevede il Codice? Sul piano amministrativo, l'articolo 166 collega alle due fasce del GDPR le violazioni di specifiche norme del Codice stesso, per esempio quelle sul telemarketing, sui cookie e sulle comunicazioni elettroniche, sui dati sanitari. Prevede che il Garante possa applicare una sanzione accessoria: la pubblicazione dell'ordinanza-ingiunzione, per intero o per estratto, sul proprio sito, oppure l'ingiunzione a realizzare campagne di comunicazione istituzionale sulla protezione dei dati. E prevede una possibilità concreta per chi viene sanzionato: entro il termine per proporre ricorso, si può chiudere la controversia adeguandosi alle prescrizioni del Garante e pagando metà della sanzione irrogata.\n\nIl Codice prevede anche alcuni reati, che sono giudicati dal giudice penale e non dal Garante, e si applicano salvo che il fatto costituisca un reato più grave. L'articolo 167 punisce il trattamento illecito di dati: chi, per trarre profitto o per danneggiare l'interessato, viola determinate regole, per esempio su comunicazioni commerciali indesiderate o su dati particolari e giudiziari, o trasferisce dati all'estero fuori dai casi consentiti, e causa un nocumento all'interessato. La pena è la reclusione da sei mesi a un anno e sei mesi, o da uno a tre anni secondo i casi. L'articolo 167-bis punisce con la reclusione da uno a sei anni chi comunica o diffonde illecitamente, per profitto o per danneggiare, un archivio automatizzato, o una sua parte sostanziale, con dati trattati su larga scala. L'articolo 168 punisce con la reclusione da sei mesi a tre anni chi dichiara il falso o produce documenti falsi davanti al Garante, e fino a un anno chi intenzionalmente interrompe o turba un procedimento o gli accertamenti dell'autorità. L'articolo 170 punisce, a querela della persona offesa, con la reclusione da tre mesi a due anni chi non osserva alcuni provvedimenti del Garante, come la limitazione o il divieto di trattamento, e così arreca un concreto nocumento agli interessati. Ricordiamo infine che l'articolo 171 rinvia alle sanzioni dello Statuto dei lavoratori per le violazioni sui controlli a distanza e sulle indagini sulle opinioni dei lavoratori.\n\nTorniamo al caso dell'agenzia colpita dal ransomware, che non aveva backup, usava password deboli, non ha notificato nulla e non risponde al Garante. Pesano contro di lei molti criteri dell'articolo 83: il numero di clienti coinvolti e il possibile danno, la carenza di misure tecniche e organizzative, il fatto che il Garante abbia saputo della violazione da un reclamo anziché da una notifica, la mancata cooperazione. Le violazioni su sicurezza e notifica rientrano nella fascia fino a 10 milioni o 2% del fatturato. Ma se l'agenzia ignorasse un ordine del Garante, o gli negasse l'accesso, si passerebbe alla fascia fino a 20 milioni o 4%. E dichiarare il falso durante gli accertamenti sarebbe un reato.\n\nRiassumendo: le sanzioni devono essere effettive, proporzionate e dissuasive e si misurano caso per caso, con undici criteri che premiano chi previene, notifica e collabora. Ci sono due fasce: 10 milioni o 2% per gli obblighi organizzativi, 20 milioni o 4% per principi, diritti, trasferimenti e ordini del Garante. E il Codice privacy italiano aggiunge le proprie regole, la possibilità di pagare metà della sanzione adeguandosi alle prescrizioni, e alcuni reati. Con questo si chiude il modulo: le misure di sicurezza che adottiamo ogni giorno sono il modo migliore per non arrivare mai a questa lezione nella vita reale.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 83, 84)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 166",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art166"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 167",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art167"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 167-bis",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art167bis"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 168",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art168"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 170",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art170"
+        },
+        {
+          "title": "Normattiva, D.lgs. 30 giugno 2003, n. 196, art. 171",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art171"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuti dalla fonte (slide 26-27) i criteri per la sanzione, numerati a)-m). Il testo ufficiale li numera a)-k): rinumerati. Alla lettera i) la slide cita solo il «responsabile»; il testo ufficiale si riferisce a titolare o responsabile. Alla lettera h) la slide dice «se c'è stata notificazione o meno»; il testo ufficiale parla della maniera in cui l'autorità ha preso conoscenza della violazione, in particolare se è stata notificata.",
+          "source_ref": "Reg. UE 2016/679, art. 83, par. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 29): l'elenco della fascia più alta (principi e consenso, diritti, trasferimenti) è incompleto. Il testo ufficiale comprende anche gli obblighi delle leggi nazionali del capo IX e l'inosservanza di ordini, limitazioni o sospensioni del Garante e il negato accesso: integrato.",
+          "source_ref": "Reg. UE 2016/679, art. 83, par. 5"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 30, lett. c): «obblighi dell'organismo di controllo». Precisato che si tratta dell'organismo che controlla il rispetto dei codici di condotta (art. 41, par. 4), non dell'autorità di controllo.",
+          "source_ref": "Reg. UE 2016/679, art. 83, par. 4, lett. c"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sanzione in aggiunta o in luogo delle misure correttive; elenco degli articoli in ciascuna fascia; esempio di calcolo del 4%.",
+          "source_ref": "Reg. UE 2016/679, art. 83, par. 2, 4, 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Facoltà degli Stati sulle sanzioni a autorità e organismi pubblici.",
+          "source_ref": "Reg. UE 2016/679, art. 83, par. 7"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Codice privacy: rinvio alle fasce del GDPR, sanzione accessoria della pubblicazione o campagne di comunicazione, definizione con pagamento di metà della sanzione.",
+          "source_ref": "D.lgs. 196/2003, art. 166, c. 1, 2, 7, 8"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Reati del Codice privacy: artt. 167, 167-bis, 168, 170, e rinvio dell'art. 171 alle sanzioni dello Statuto dei lavoratori.",
+          "source_ref": "D.lgs. 196/2003, artt. 167-171"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

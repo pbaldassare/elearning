@@ -1,0 +1,608 @@
+{
+  "module": "Sicurezza, violazioni e sanzioni",
+  "topic": "Data breach",
+  "topic_order": 2,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Che cos'è un data breach e la notifica al Garante",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 8-10"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Data breach",
+          "title": "Il data breach e la notifica al Garante",
+          "goals": [
+            "Riconoscere una violazione dei dati personali e i suoi tre tipi",
+            "Sapere quando e come il titolare notifica al Garante, entro 72 ore",
+            "Capire perché ogni violazione va documentata, anche quella non notificata"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è una violazione dei dati personali",
+          "key": "È una violazione di sicurezza che comporta, accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso ai dati personali trasmessi, conservati o comunque trattati.",
+          "body": "Non serve un hacker: anche un errore umano o un guasto possono causare un data breach. Conta l'effetto sui dati, non la causa.",
+          "ref": "Reg. UE 2016/679, art. 4, n. 12"
+        },
+        {
+          "layout": "table",
+          "title": "I tre tipi di violazione",
+          "lead": "Una violazione può toccare una o più qualità dei dati, anche insieme.",
+          "head": [
+            "Tipo",
+            "Che cosa succede",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "R · Riservatezza",
+              "Dati divulgati o consultati da chi non doveva.",
+              "Email con dati di un cliente inviata a un altro cliente."
+            ],
+            [
+              "I · Integrità",
+              "Dati modificati senza autorizzazione o per errore.",
+              "Un attaccante cambia gli IBAN in anagrafica."
+            ],
+            [
+              "D · Disponibilità",
+              "Dati persi, distrutti o non accessibili.",
+              "Il ransomware cifra il gestionale e non c'è backup."
+            ]
+          ],
+          "ref": "Linee guida EDPB 9/2022"
+        },
+        {
+          "layout": "table",
+          "title": "Esempi indicati dal Garante",
+          "head": [
+            "Caso",
+            "Esempio in azienda"
+          ],
+          "rows": [
+            [
+              "Accesso o acquisizione dei dati da parte di terzi non autorizzati",
+              "Qualcuno entra nella casella email aziendale con una password rubata."
+            ],
+            [
+              "Furto o perdita di dispositivi con dati personali",
+              "Portatile o smartphone aziendale rubato in auto."
+            ],
+            [
+              "Alterazione deliberata dei dati",
+              "Un ex collaboratore modifica le schede clienti."
+            ],
+            [
+              "Impossibilità di accedere ai dati per incidenti, virus, malware",
+              "Il server non si avvia dopo un attacco."
+            ],
+            [
+              "Perdita o distruzione per incendi, calamità, eventi avversi",
+              "Un allagamento distrugge l'archivio cartaceo."
+            ],
+            [
+              "Divulgazione non autorizzata",
+              "Documenti dei clienti lasciati in vista a uno sportello aperto al pubblico."
+            ]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Novità rilevante: la notifica entro 72 ore",
+          "key": "In caso di violazione, il titolare notifica all'autorità di controllo competente senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza.",
+          "body": "La notifica non serve se è improbabile che la violazione presenti un rischio per i diritti e le libertà delle persone. Se arriva dopo 72 ore, deve essere accompagnata dai motivi del ritardo.",
+          "ref": "Reg. UE 2016/679, art. 33, par. 1"
+        },
+        {
+          "layout": "concept",
+          "title": "Quando si è «venuti a conoscenza»",
+          "key": "Il titolare è a conoscenza della violazione quando ha una ragionevole certezza che si è verificato un incidente di sicurezza che ha compromesso dati personali.",
+          "body": "Può fare una breve indagine per capire che cosa è successo, ma deve iniziarla subito. Se si perde una chiavetta con dati non cifrati, le 72 ore partono quando ci si accorge della perdita.",
+          "ref": "Linee guida EDPB 9/2022, par. 31-34"
+        },
+        {
+          "layout": "steps",
+          "title": "Il percorso della notifica",
+          "steps": [
+            {
+              "label": "Il responsabile avvisa",
+              "text": "Se la violazione avviene presso un fornitore, questo informa il titolare senza ingiustificato ritardo."
+            },
+            {
+              "label": "Il titolare valuta",
+              "text": "Accerta i fatti e stima il rischio per le persone: nessun rischio, rischio o rischio elevato."
+            },
+            {
+              "label": "Notifica entro 72 ore",
+              "text": "Se il rischio non è improbabile, notifica al Garante. Le informazioni mancanti si possono inviare in fasi successive."
+            },
+            {
+              "label": "Documenta sempre",
+              "text": "Registra fatti, conseguenze e rimedi, anche se decide di non notificare."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, art. 33, par. 1, 2, 4 e 5"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il contenuto minimo della notifica",
+          "items": [
+            {
+              "text": "La natura della violazione e, se possibile, le categorie e il numero approssimativo di interessati e di registrazioni coinvolti.",
+              "ref": "art. 33, par. 3, lett. a"
+            },
+            {
+              "text": "Nome e dati di contatto del responsabile della protezione dei dati (DPO) o di un altro punto di contatto.",
+              "ref": "art. 33, par. 3, lett. b"
+            },
+            {
+              "text": "Le probabili conseguenze della violazione.",
+              "ref": "art. 33, par. 3, lett. c"
+            },
+            {
+              "text": "Le misure adottate o proposte per porre rimedio e, se del caso, attenuarne gli effetti negativi.",
+              "ref": "art. 33, par. 3, lett. d"
+            }
+          ]
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "In pratica",
+          "title": "Come si notifica al Garante",
+          "lead": "Dal 1° luglio 2021 la notifica si invia solo con la procedura telematica del Garante.",
+          "facts": [
+            {
+              "label": "Dove",
+              "text": "Portale dei servizi online del Garante: servizi.gpdp.it/databreach."
+            },
+            {
+              "label": "Facsimile",
+              "text": "Un modello da NON usare per notificare, utile per preparare in anticipo le informazioni."
+            },
+            {
+              "label": "Autovalutazione",
+              "text": "Uno strumento di self assessment aiuta a capire quali azioni intraprendere."
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un'agenzia scopre lunedì alle 9 che il portatile di un collaboratore, con i dati non cifrati di 300 clienti, è stato rubato. Entro quando, di regola, va notificata la violazione al Garante?",
+          "options": [
+            "Entro 72 ore lavorative dalla fine delle indagini",
+            "Senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui il titolare ne è venuto a conoscenza",
+            "Entro 30 giorni, insieme alla relazione annuale",
+            "Solo se un cliente presenta un reclamo"
+          ],
+          "answer": 1,
+          "explanation": "Il termine decorre da quando il titolare ha una ragionevole certezza della violazione, qui lunedì alle 9. Le 72 ore sono di calendario. Se la notifica arriva più tardi, va motivato il ritardo."
+        },
+        {
+          "layout": "concept",
+          "title": "Documentare ogni violazione",
+          "key": "Il titolare documenta qualsiasi violazione dei dati personali, comprese le circostanze, le conseguenze e i provvedimenti adottati per porvi rimedio.",
+          "body": "Vale anche per le violazioni non notificate. Il Garante suggerisce un apposito registro, che permette all'autorità di verificare il rispetto delle regole. È un'espressione dell'accountability.",
+          "ref": "Reg. UE 2016/679, art. 33, par. 5"
+        },
+        {
+          "layout": "split",
+          "title": "Notificare o no?",
+          "left": {
+            "title": "Di regola si notifica",
+            "items": [
+              "Dati sottratti da un attacco a un servizio online",
+              "Portatile o chiavetta non cifrati smarriti",
+              "Ransomware senza backup: dati non recuperabili",
+              "Dati di molte persone inviati alla mailing list sbagliata"
+            ]
+          },
+          "right": {
+            "title": "Spesso non serve notificare",
+            "items": [
+              "Chiavetta rubata con dati cifrati in modo robusto, chiave al sicuro e backup disponibile",
+              "Breve blackout del call center: i clienti non riescono a chiamare per pochi minuti"
+            ]
+          },
+          "note": "Anche quando non si notifica, l'evento va registrato. E se la situazione cambia, ad esempio la chiave di cifratura risulta compromessa, il rischio va rivalutato.",
+          "noteRef": "Linee guida EDPB 9/2022, allegato B"
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Giovedì sera un fornitore che gestisce il CRM dell'azienda scopre un accesso non autorizzato ai suoi server. Venerdì mattina, dopo una prima verifica, scrive al cliente titolare: risultano copiati nomi, email e numeri di telefono di circa 2.000 clienti.",
+          "questions": [
+            "Che cosa doveva fare il fornitore?",
+            "Da quando corrono le 72 ore per il titolare?",
+            "Che cosa deve contenere la notifica?"
+          ],
+          "solution": "Il fornitore, come responsabile del trattamento, informa il titolare senza ingiustificato ritardo: lo ha fatto. Il titolare è a conoscenza della violazione da venerdì mattina, quando riceve la comunicazione con i primi riscontri: da lì corrono le 72 ore. Notifica sul portale del Garante natura della violazione, numero approssimativo di interessati e registrazioni, contatti del DPO o di un referente, probabili conseguenze (ad esempio rischio di phishing mirato) e misure adottate. Ciò che non sa ancora lo integra in un secondo momento."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Un incidente di sicurezza non presenta rischi probabili per le persone e quindi non viene notificato al Garante. Che cosa deve fare comunque il titolare?",
+          "options": [
+            "Niente: se non si notifica, non resta traccia",
+            "Comunicarlo a tutti i clienti",
+            "Documentarlo, indicando circostanze, conseguenze e provvedimenti adottati",
+            "Chiedere un parere al giudice"
+          ],
+          "answer": 2,
+          "explanation": "L'articolo 33, paragrafo 5, impone di documentare qualsiasi violazione, notificata o no. Questa documentazione permette al Garante di verificare le scelte del titolare."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Art. 4.12",
+              "text": "violazione di sicurezza, accidentale o illecita, che colpisce dati personali"
+            },
+            {
+              "value": "R · I · D",
+              "text": "riservatezza, integrità, disponibilità: i tre tipi di violazione"
+            },
+            {
+              "value": "72 ore",
+              "text": "da quando il titolare ne è a conoscenza, salvo rischio improbabile"
+            },
+            {
+              "value": "4 contenuti",
+              "text": "natura, contatti del DPO, conseguenze, misure adottate"
+            },
+            {
+              "value": "Registro",
+              "text": "ogni violazione va documentata, anche se non notificata"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione parliamo di data breach, cioè di violazione dei dati personali. È un argomento che riguarda tutti, non solo l'ufficio informatico: spesso è proprio un collega a vedere per primo che qualcosa è andato storto. Vedremo che cos'è una violazione, quando va notificata al Garante, entro quali tempi e con quali contenuti.\n\nPartiamo dalla definizione dell'articolo 4 del Regolamento. La violazione dei dati personali è una violazione di sicurezza che comporta, accidentalmente o in modo illecito, la distruzione, la perdita, la modifica, la divulgazione non autorizzata o l'accesso ai dati personali trasmessi, conservati o comunque trattati. Notate due cose. La prima: si parla di «accidentalmente». Non serve un attacco informatico: un'email spedita all'indirizzo sbagliato, una pratica lasciata sul treno, un guasto senza backup sono violazioni a tutti gli effetti. La seconda: l'elenco ricalca i rischi che abbiamo visto con l'articolo 32. La violazione è, in sostanza, il rischio che si avvera.\n\nLe linee guida del Comitato europeo per la protezione dei dati, l'EDPB, classificano le violazioni in tre tipi, che corrispondono alle qualità della sicurezza. Violazione della riservatezza: i dati vengono divulgati o consultati da chi non doveva, come quando la polizza di un cliente viene allegata per errore all'email destinata a un altro. Violazione dell'integrità: i dati vengono modificati senza autorizzazione o per errore, come quando un attaccante cambia gli IBAN in anagrafica. Violazione della disponibilità: i dati vengono persi, distrutti o diventano inaccessibili, come quando un ransomware cifra il gestionale e non esiste una copia di backup. Una stessa violazione può toccare più qualità insieme: il ransomware, per esempio, blocca i dati ma spesso li copia anche.\n\nIl Garante, nella sua scheda informativa, porta alcuni esempi che è utile tradurre nella vita di un'azienda. L'accesso o l'acquisizione dei dati da parte di terzi non autorizzati: qualcuno entra nella casella email aziendale con una password rubata. Il furto o la perdita di dispositivi con dati personali: lo smartphone aziendale rubato dall'auto. L'alterazione deliberata dei dati: un ex collaboratore, a cui non è stato tolto l'accesso, modifica le schede dei clienti. L'impossibilità di accedere ai dati per cause accidentali o per attacchi, virus, malware. La perdita o la distruzione dei dati per incidenti, incendi o calamità. E la divulgazione non autorizzata, che può essere anche banale: documenti dei clienti lasciati in vista sul bancone di uno sportello aperto al pubblico.\n\nVeniamo all'obbligo principale, che il materiale del corso giustamente definisce una novità rilevante del GDPR. In caso di violazione, il titolare notifica la violazione all'autorità di controllo competente, in Italia il Garante per la protezione dei dati personali, senza ingiustificato ritardo e, ove possibile, entro 72 ore dal momento in cui ne è venuto a conoscenza. C'è un'eccezione: la notifica non è dovuta se è improbabile che la violazione presenti un rischio per i diritti e le libertà delle persone fisiche. E se la notifica non avviene entro 72 ore, deve essere accompagnata dai motivi del ritardo: il materiale del corso parla di giustificazione motivata. Attenzione a due dettagli. «Senza ingiustificato ritardo» viene prima delle 72 ore: se si può notificare in un giorno, non si aspetta il terzo. E le 72 ore non sono lavorative: un incidente scoperto il venerdì pomeriggio va gestito anche nel fine settimana.\n\nMa da quando partono esattamente le 72 ore? Dal momento in cui il titolare ne è «venuto a conoscenza». Le linee guida EDPB spiegano che il titolare è a conoscenza quando ha una ragionevole certezza che si è verificato un incidente di sicurezza che ha compromesso dati personali. Quando riceve una segnalazione, può svolgere una breve indagine per capire se la violazione c'è davvero, ma deve cominciarla subito: l'indagine non è un modo per allungare i tempi. L'EDPB porta un esempio molto chiaro. Se si perde una chiavetta USB con dati non cifrati, spesso non si sa se qualcuno li abbia letti; ma c'è la ragionevole certezza di una violazione della disponibilità, e quindi il titolare è a conoscenza nel momento stesso in cui si accorge della perdita. Per questo è così importante che chi si accorge di un problema lo segnali subito: ogni ora persa in un cassetto è un'ora tolta alle 72.\n\nIl percorso, in sintesi, è questo. Se la violazione avviene presso un fornitore che tratta i dati per conto dell'azienda, cioè un responsabile del trattamento, il fornitore deve informare il titolare senza ingiustificato ritardo. Il titolare accerta i fatti e valuta il rischio per le persone: nessun rischio, un rischio, oppure un rischio elevato. Se il rischio non è improbabile, notifica al Garante. Se non ha ancora tutte le informazioni, non deve aspettare: il Regolamento consente di fornirle in fasi successive, sempre senza ulteriore ingiustificato ritardo. E in ogni caso documenta tutto.\n\nChe cosa deve contenere la notifica? Il materiale del corso elenca quattro voci, che corrispondono all'articolo 33, paragrafo 3. Primo: la descrizione della natura della violazione, comprese, ove possibile, le categorie e il numero approssimativo di interessati e anche il numero approssimativo di registrazioni coinvolte. Secondo: il nome e i dati di contatto del responsabile della protezione dei dati, il DPO, oppure, se non c'è, di un altro punto di contatto presso cui ottenere informazioni. Terzo: le probabili conseguenze della violazione. Quarto: le misure adottate o che il titolare propone di adottare per porre rimedio alla violazione e, se del caso, per attenuarne gli effetti negativi.\n\nCome si notifica in pratica? Dal 1° luglio 2021 la notifica al Garante si invia esclusivamente con un'apposita procedura telematica, disponibile nel portale dei servizi online dell'Autorità, all'indirizzo servizi.gpdp.it/databreach. Sul sito c'è anche un modello facsimile, che non va usato per notificare, ma è molto utile per vedere in anticipo quali informazioni serviranno e prepararle. Il Garante mette inoltre a disposizione uno strumento di autovalutazione, che aiuta il titolare a capire quali azioni intraprendere dopo un incidente.\n\nC'è poi un obbligo che vale sempre, anche quando la notifica non serve. Il materiale del corso lo collega all'accountability: il titolare documenta qualsiasi violazione dei dati personali, comprese le circostanze in cui si è verificata, le sue conseguenze e i provvedimenti adottati per porvi rimedio. Il Garante suggerisce di predisporre un apposito registro delle violazioni. Questa documentazione consente all'autorità di verificare il rispetto delle regole: se un giorno il Garante chiederà perché un incidente non è stato notificato, la risposta dovrà essere scritta lì, con il ragionamento che è stato fatto.\n\nQuando si notifica e quando no? Le linee guida EDPB offrono molti esempi. Si notifica, di regola, quando i dati di persone vengono sottratti con un attacco a un servizio online, quando si smarrisce un portatile o una chiavetta non cifrati, quando un ransomware cifra i dati e non ci sono backup per recuperarli, quando i dati di molte persone finiscono per errore su una mailing list sbagliata. Spesso non serve notificare, invece, se viene rubata una chiavetta con dati cifrati con un algoritmo robusto, la chiave non è compromessa ed esiste un backup: i dati sono incomprensibili per chi li ha presi e non sono andati persi. Allo stesso modo, un breve blackout di pochi minuti nel call center, che impedisce ai clienti di telefonare, non è una violazione da notificare, ma resta un incidente da registrare. E il rischio va rivalutato se la situazione cambia: se si scopre che la chiave di cifratura era stata compromessa, la notifica diventa necessaria.\n\nNel caso pratico, il fornitore del CRM scopre un accesso ai suoi server e, dopo una prima verifica, avvisa l'azienda: ha fatto ciò che deve fare un responsabile del trattamento. Per l'azienda titolare le 72 ore partono da quando riceve la comunicazione con riscontri concreti, quindi dal venerdì mattina. La notifica descriverà la natura della violazione, i circa 2.000 clienti coinvolti e le registrazioni interessate, i contatti del DPO, le probabili conseguenze, per esempio il rischio che i clienti ricevano messaggi di phishing mirati, e le misure adottate. Le informazioni che ancora mancano si integrano in seguito.\n\nRiassumendo: una violazione è qualsiasi incidente, accidentale o illecito, che colpisce riservatezza, integrità o disponibilità dei dati. Il titolare la notifica al Garante entro 72 ore da quando ne ha ragionevole certezza, salvo che il rischio sia improbabile, usando il portale online. E documenta sempre ogni violazione. Nella prossima lezione vedremo quando bisogna avvisare anche le persone coinvolte e come comportarsi in azienda.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 4, 33)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Garante privacy, Data Breach - Violazioni di dati personali",
+          "url": "https://www.garanteprivacy.it/regolamentoue/databreach"
+        },
+        {
+          "title": "EDPB, Linee guida 9/2022 sulla notifica delle violazioni dei dati personali ai sensi del GDPR, versione 2.0 (IT)",
+          "url": "https://edpb.europa.eu/system/files/documents/2024-10/edpb_guidelines_202209_personal_data_breach_notification_v2.0_it.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 9): contenuto minimo con «il nome e le coordinate di contatto del DPO». Il testo ufficiale aggiunge «o di altro punto di contatto» e, alla lettera a), il numero approssimativo di registrazioni e l'attenuazione degli effetti negativi alla lettera d): integrati.",
+          "source_ref": "Reg. UE 2016/679, art. 33, par. 3"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 10): il titolo «Obbligo Responsabile Trattamento» riguarda in realtà un obbligo del titolare (documentare ogni violazione). Nella lezione l'obbligo è attribuito al titolare; il responsabile ha invece l'obbligo di informare il titolare (art. 33, par. 2).",
+          "source_ref": "Reg. UE 2016/679, art. 33, par. 2 e 5"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di violazione dei dati personali e tre tipi di violazione (riservatezza, integrità, disponibilità).",
+          "source_ref": "Reg. UE 2016/679, art. 4, n. 12; Linee guida EDPB 9/2022"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di violazione indicati dal Garante, tradotti in situazioni aziendali.",
+          "source_ref": "Garante privacy, scheda Data Breach"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Momento in cui il titolare è «a conoscenza» (ragionevole certezza, breve indagine, esempio della chiavetta USB); obbligo del responsabile; informazioni in fasi successive.",
+          "source_ref": "Linee guida EDPB 9/2022, par. 31-36; Reg. UE 2016/679, art. 33, par. 2 e 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Notifica solo telematica dal 1° luglio 2021 (servizi.gpdp.it/databreach), facsimile, strumento di autovalutazione, registro delle violazioni suggerito dal Garante.",
+          "source_ref": "Garante privacy, scheda Data Breach (provv. 27 maggio 2021)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di casi da notificare e non da notificare.",
+          "source_ref": "Linee guida EDPB 9/2022, allegato B"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    },
+    {
+      "title": "Avvisare gli interessati e gestire un breach in azienda",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 11-12"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Sicurezza, violazioni e sanzioni · Data breach",
+          "title": "Avvisare gli interessati e gestire il breach",
+          "goals": [
+            "Sapere quando il titolare deve avvisare le persone coinvolte e con quali parole",
+            "Conoscere i tre casi in cui la comunicazione non è richiesta",
+            "Riconoscere un possibile breach e segnalarlo subito in azienda"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La comunicazione all'interessato",
+          "key": "Quando la violazione è suscettibile di presentare un rischio elevato per i diritti e le libertà delle persone, il titolare la comunica agli interessati senza ingiustificato ritardo.",
+          "body": "Rischio, anche non elevato: si notifica al Garante. Rischio elevato: si avvisano anche le persone, perché possano difendersi, ad esempio cambiando password o controllando il conto.",
+          "ref": "Reg. UE 2016/679, art. 34, par. 1"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa dice la comunicazione",
+          "items": [
+            {
+              "text": "Spiega con linguaggio semplice e chiaro la natura della violazione.",
+              "ref": "art. 34, par. 2"
+            },
+            {
+              "text": "Indica nome e contatti del DPO o di un altro punto di contatto."
+            },
+            {
+              "text": "Descrive le probabili conseguenze."
+            },
+            {
+              "text": "Descrive le misure adottate o proposte per rimediare e attenuare gli effetti."
+            },
+            {
+              "text": "In pratica, è utile suggerire che cosa può fare la persona: cambiare password, diffidare di email sospette, controllare i movimenti."
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Quando la comunicazione non è richiesta",
+          "lead": "Basta una delle tre condizioni.",
+          "head": [
+            "Condizione",
+            "Che cosa significa",
+            "Esempio"
+          ],
+          "rows": [
+            [
+              "1 · Misure già applicate",
+              "I dati erano protetti da misure adeguate che li rendono incomprensibili, come la cifratura.",
+              "Portatile rubato con disco cifrato e chiave al sicuro."
+            ],
+            [
+              "2 · Misure successive",
+              "Il titolare ha poi adottato misure che scongiurano il rischio elevato.",
+              "Credenziali sottratte, ma subito bloccate e sostituite prima di qualsiasi uso."
+            ],
+            [
+              "3 · Sforzo sproporzionato",
+              "Contattare tutti uno per uno sarebbe sproporzionato: si fa una comunicazione pubblica o una misura analoga.",
+              "Avviso sul sito e sui canali ufficiali."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 34, par. 3"
+        },
+        {
+          "layout": "concept",
+          "title": "Il Garante può imporre la comunicazione",
+          "key": "Se il titolare non ha ancora avvisato gli interessati, il Garante, valutato il rischio, può chiedergli di farlo, oppure decidere che una delle tre condizioni di esonero è soddisfatta.",
+          "body": "Ingiungere al titolare di comunicare una violazione agli interessati è anche uno dei poteri correttivi del Garante.",
+          "ref": "Reg. UE 2016/679, art. 34, par. 4; art. 58, par. 2, lett. e"
+        },
+        {
+          "layout": "table",
+          "title": "Notifica e comunicazione: esempi",
+          "head": [
+            "Caso",
+            "Garante",
+            "Interessati"
+          ],
+          "rows": [
+            [
+              "1 · Ransomware, backup disponibile, nessun dato copiato",
+              "Di regola no, ma va registrato.",
+              "No."
+            ],
+            [
+              "2 · Ransomware senza backup, dati non recuperabili",
+              "Sì, se ci sono probabili conseguenze.",
+              "Sì, secondo natura dei dati ed effetti della perdita."
+            ],
+            [
+              "3 · Email di marketing con tutti gli indirizzi in «A» o «Cc»",
+              "Può essere obbligatoria: molte persone, dati sensibili, password.",
+              "Secondo portata, tipo di dati e gravità."
+            ],
+            [
+              "4 · Nomi, password e acquisti pubblicati online dopo un attacco",
+              "Sì.",
+              "Sì: rischio elevato. Forzare il cambio delle password."
+            ]
+          ],
+          "ref": "Linee guida EDPB 9/2022, allegato B"
+        },
+        {
+          "layout": "concept",
+          "title": "Quando il breach avviene da un fornitore",
+          "key": "Il responsabile del trattamento informa il titolare senza ingiustificato ritardo dopo essere venuto a conoscenza della violazione.",
+          "body": "Notifica al Garante e comunicazione agli interessati restano compiti del titolare. Per questo il contratto con il fornitore deve prevedere tempi e modi della segnalazione.",
+          "ref": "Reg. UE 2016/679, art. 33, par. 2"
+        },
+        {
+          "layout": "checklist",
+          "title": "Segnali da non ignorare",
+          "items": [
+            {
+              "text": "Hai inviato un'email o un allegato con dati personali al destinatario sbagliato."
+            },
+            {
+              "text": "Hai perso, o ti hanno rubato, un PC, uno smartphone, una chiavetta o una cartellina con pratiche."
+            },
+            {
+              "text": "Hai inserito le tue credenziali su un sito che poi ti è sembrato falso."
+            },
+            {
+              "text": "I file non si aprono più, hanno estensioni strane o compare una richiesta di riscatto."
+            },
+            {
+              "text": "Un cliente ti dice di aver ricevuto dati di un'altra persona, o messaggi strani a nome dell'azienda."
+            }
+          ]
+        },
+        {
+          "layout": "steps",
+          "title": "Che cosa fai tu, in azienda",
+          "steps": [
+            {
+              "label": "Segnala subito",
+              "text": "Avvisa il referente indicato dalla procedura interna (responsabile, IT, DPO). Anche di sera o nel weekend."
+            },
+            {
+              "label": "Non peggiorare",
+              "text": "Scollega il PC dalla rete se te lo chiedono. Non cancellare email o file: servono per capire che cosa è successo."
+            },
+            {
+              "label": "Racconta i fatti",
+              "text": "Che cosa è successo, quando, quali dati e quante persone possono essere coinvolte."
+            },
+            {
+              "label": "Lascia decidere al titolare",
+              "text": "Valutazione del rischio, notifica e comunicazione spettano all'azienda. Non contattare tu clienti o stampa."
+            }
+          ],
+          "ref": "Linee guida EDPB 9/2022, par. 37-39"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Viene rubato il portatile di un consulente con i dati di 50 clienti. Il disco era cifrato con un sistema robusto, la chiave non è stata compromessa ed esiste un backup. Che cosa prevede il GDPR per la comunicazione ai clienti?",
+          "options": [
+            "Va sempre fatta entro 72 ore",
+            "Non è richiesta, perché misure come la cifratura rendevano i dati incomprensibili a chi non è autorizzato",
+            "Va fatta solo con una pubblicazione sul sito",
+            "È rimessa alla scelta del consulente"
+          ],
+          "answer": 1,
+          "explanation": "L'articolo 34, paragrafo 3, lettera a), esonera dalla comunicazione quando i dati erano protetti da misure come la cifratura. Il furto va comunque documentato e il rischio rivalutato se la chiave risultasse compromessa."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Sara, in agenzia, invia la newsletter a 800 clienti mettendo tutti gli indirizzi nel campo «A» invece che in «Ccn». Se ne accorge dopo cinque minuti. Non vuole fare brutta figura e pensa di non dire nulla, tanto «sono solo email».",
+          "questions": [
+            "È una violazione dei dati personali?",
+            "Che cosa deve fare Sara?",
+            "Da che cosa dipende la notifica al Garante e la comunicazione ai clienti?"
+          ],
+          "solution": "Sì: è una divulgazione non autorizzata, una violazione della riservatezza. Sara deve segnalarla subito al referente interno: tacere fa perdere tempo prezioso sulle 72 ore e può aggravare la posizione dell'azienda. Sarà il titolare a valutare il rischio: secondo l'EDPB la notifica può essere obbligatoria se le persone sono molte, se l'elenco rivela dati sensibili (ad esempio i clienti di uno studio medico) o se l'email contiene altri dati delicati. In ogni caso l'evento va documentato."
+        },
+        {
+          "layout": "concept",
+          "title": "Che cosa rischia chi non gestisce il breach",
+          "key": "Il Garante può prescrivere misure correttive, anche sull'adeguatezza delle misure di sicurezza. Per le violazioni degli obblighi su sicurezza e data breach la sanzione può arrivare a 10 milioni di euro o al 2% del fatturato mondiale annuo.",
+          "body": "Tra i criteri per decidere la sanzione c'è anche il modo in cui il Garante ha saputo della violazione, in particolare se il titolare l'ha notificata. Nascondere un breach peggiora sempre le cose.",
+          "ref": "Garante, scheda Data Breach; Reg. UE 2016/679, art. 83, par. 2, lett. h, e par. 4"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Ti accorgi di aver lasciato in treno una cartellina con le copie dei documenti d'identità di alcuni clienti. È venerdì sera. Che cosa fai?",
+          "options": [
+            "Aspetti lunedì per vedere se qualcuno la restituisce",
+            "Avvisi subito il referente indicato dalla procedura aziendale e racconti che cosa è successo, quali documenti e di quanti clienti",
+            "Chiami direttamente i clienti per scusarti",
+            "Non dici nulla, perché si tratta di carta e non di dati informatici"
+          ],
+          "answer": 1,
+          "explanation": "Anche i documenti cartacei contengono dati personali e la loro perdita è una violazione. Le 72 ore corrono da quando il titolare ne è a conoscenza: va avvisato subito. Valutazione, notifica e comunicazione ai clienti spettano al titolare."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Rischio elevato",
+              "text": "si avvisano anche gli interessati, senza ingiustificato ritardo e in modo chiaro"
+            },
+            {
+              "value": "3 esoneri",
+              "text": "cifratura o misure già applicate, misure successive, sforzo sproporzionato con avviso pubblico"
+            },
+            {
+              "value": "Fornitore",
+              "text": "il responsabile informa subito il titolare, che notifica e comunica"
+            },
+            {
+              "value": "Subito",
+              "text": "chi si accorge di un possibile breach lo segnala al referente interno"
+            },
+            {
+              "value": "10 mln · 2%",
+              "text": "sanzione massima per violare gli obblighi di sicurezza e notifica"
+            }
+          ]
+        }
+      ],
+      "narration": "Nella lezione precedente abbiamo visto quando il titolare deve notificare una violazione al Garante. Ora facciamo un passo in più: quando bisogna avvisare anche le persone a cui i dati si riferiscono? E, soprattutto, che cosa deve fare ciascuno di noi quando si accorge che qualcosa è andato storto?\n\nLa regola è nell'articolo 34 del Regolamento, e il materiale del corso la riassume bene. Quando la violazione dei dati è suscettibile di presentare un rischio elevato per i diritti e le libertà delle persone, il titolare del trattamento comunica la violazione all'interessato senza ingiustificato ritardo. Mettiamo in fila le soglie. Se è improbabile che ci sia un rischio, basta documentare la violazione. Se c'è un rischio, si notifica al Garante. Se il rischio è elevato, si avvisano anche le persone coinvolte. La logica è semplice: chi rischia di subire un danno serio deve saperlo, per potersi difendere. Se sono state rubate le password, potrà cambiarle; se sono stati sottratti dati bancari, potrà controllare il conto e bloccare la carta.\n\nCome deve essere fatta la comunicazione? Il materiale del corso insiste su un punto: va usato un linguaggio semplice e chiaro per spiegare la violazione. Niente gergo tecnico né frasi vaghe come «si è verificato un evento anomalo». Il Regolamento chiede poi che la comunicazione contenga almeno tre informazioni, le stesse della notifica al Garante: il nome e i contatti del DPO o di un altro punto di contatto, le probabili conseguenze della violazione, le misure adottate o proposte per porvi rimedio e attenuarne gli effetti. Nella pratica, è molto utile aggiungere che cosa può fare concretamente la persona: cambiare la password, diffidare di email o telefonate che citano i suoi dati, controllare i movimenti bancari.\n\nIl materiale del corso elenca poi i tre casi in cui la comunicazione non è richiesta. Basta che ne ricorra uno. Primo: il titolare aveva adottato misure tecniche e organizzative adeguate e queste erano applicate ai dati violati, in particolare misure che rendono i dati incomprensibili a chi non è autorizzato, come la cifratura. È il caso del portatile rubato con disco cifrato e chiave al sicuro: chi lo ha preso non può leggere nulla. Secondo: il titolare ha adottato, dopo la violazione, misure che scongiurano il sopraggiungere di un rischio elevato. Per esempio, credenziali sottratte che vengono bloccate e sostituite prima che qualcuno possa usarle. Terzo: la comunicazione richiederebbe sforzi sproporzionati, per esempio perché non si hanno i recapiti di migliaia di persone. In questo caso, però, non si resta in silenzio: si fa una comunicazione pubblica, come un avviso sul sito e sui canali ufficiali, o una misura simile che informi le persone con analoga efficacia.\n\nE se il titolare decide di non avvisare nessuno? Il Regolamento prevede un contrappeso. Se il titolare non ha ancora comunicato la violazione agli interessati, il Garante, dopo aver valutato la probabilità di un rischio elevato, può chiedergli di farlo, oppure può decidere che una delle condizioni di esonero è effettivamente soddisfatta. Ingiungere al titolare di comunicare una violazione agli interessati è, del resto, uno dei poteri correttivi del Garante previsti dall'articolo 58.\n\nVediamo qualche esempio tratto dalle linee guida dell'EDPB. Un ransomware cifra i dati, ma c'è un backup e i dati vengono ripristinati in poco tempo, senza che risultino copiati: di regola non serve notificare né avvisare le persone, ma l'incidente va registrato e il Garante, se ne venisse a conoscenza, potrebbe comunque verificare l'adeguatezza della sicurezza. Lo stesso ransomware senza backup, con dati non recuperabili: si notifica al Garante se ci sono probabili conseguenze per le persone, e le si avvisa secondo la natura dei dati e gli effetti della perdita. Un'email di marketing inviata mettendo tutti gli indirizzi in chiaro, nei campi «A» o «Cc»: la notifica può essere obbligatoria se le persone sono molte, se i dati rivelano informazioni sensibili, come la mailing list di uno psicoterapeuta, o se ci sono altri fattori di rischio elevato, come password iniziali nel messaggio. Infine, un attacco a un negozio online con nomi utente, password e cronologia degli acquisti pubblicati in rete: si notifica e si avvisano le persone, perché il rischio è elevato, e si forza il cambio delle password.\n\nUn caso frequente riguarda i fornitori. Molte aziende affidano dati a terzi: il gestore del CRM, il provider della posta, lo studio che elabora le buste paga. Sono responsabili del trattamento, come avete visto nel modulo dedicato ai ruoli. Il responsabile che si accorge di una violazione deve informare il titolare senza ingiustificato ritardo. Ma la notifica al Garante e la comunicazione agli interessati restano compiti del titolare. Per questo il contratto con il fornitore deve dire chiaramente con quali tempi e quali modalità vanno segnalati gli incidenti.\n\nArriviamo alla parte che riguarda direttamente ciascuno di noi. Come si riconosce un possibile data breach? Ecco alcuni segnali da non ignorare. Avete inviato un'email o un allegato con dati personali al destinatario sbagliato. Avete perso, o vi hanno rubato, un PC, uno smartphone, una chiavetta, o anche una semplice cartellina con delle pratiche. Avete inserito le vostre credenziali su un sito che poi vi è sembrato falso. I file non si aprono più, hanno estensioni strane o compare sullo schermo una richiesta di riscatto. Un cliente vi dice di aver ricevuto dati di un'altra persona, oppure messaggi strani inviati a nome dell'azienda.\n\nChe cosa fare? Le linee guida EDPB chiedono alle organizzazioni di avere procedure interne per rilevare le violazioni e farle arrivare subito alla persona incaricata di gestirle. Per il singolo dipendente questo si traduce in pochi passi. Primo: segnalate subito al referente indicato dalla procedura aziendale, che può essere il vostro responsabile, l'ufficio IT o il DPO. Anche di sera o nel fine settimana, perché le 72 ore non si fermano. Secondo: non peggiorate la situazione. Se ve lo chiedono, scollegate il PC dalla rete; non cancellate email o file, perché servono per ricostruire l'accaduto. Terzo: raccontate i fatti con precisione: che cosa è successo, quando, quali dati sono coinvolti e quante persone possono essere interessate. Quarto: lasciate decidere al titolare. La valutazione del rischio, la notifica e la comunicazione spettano all'azienda: non contattate voi i clienti o, peggio, la stampa, perché un messaggio improvvisato può creare confusione e ulteriori danni.\n\nPensiamo a Sara, che invia la newsletter a 800 clienti con tutti gli indirizzi in chiaro e pensa di non dire nulla. È una violazione della riservatezza: ogni cliente ora conosce l'indirizzo email degli altri. Tacere è la scelta peggiore, perché fa perdere tempo prezioso e impedisce all'azienda di valutare e, se necessario, notificare. Sara deve segnalare subito. Sarà il titolare a valutare: se l'elenco rivela informazioni delicate, per esempio che quelle persone sono clienti di uno studio medico, il rischio cresce. In ogni caso l'evento va documentato.\n\nChe cosa rischia un'azienda che gestisce male un breach? Il Garante può prescrivere misure correttive, anche sull'adeguatezza delle misure di sicurezza applicate ai dati violati. E per la violazione degli obblighi su sicurezza e data breach sono previste sanzioni fino a 10 milioni di euro o, per le imprese, fino al 2% del fatturato mondiale annuo, se superiore. Tra i criteri che il Garante usa per decidere la sanzione c'è anche la maniera in cui ha saputo della violazione, in particolare se e in che misura il titolare l'ha notificata. In altre parole, nascondere un breach peggiora sempre la situazione. Torneremo sulle sanzioni nell'ultimo argomento di questo modulo.\n\nRicordiamo i punti chiave. Con un rischio elevato il titolare avvisa anche gli interessati, senza ingiustificato ritardo e con parole semplici. Non serve se i dati erano cifrati o protetti in modo equivalente, se misure successive hanno eliminato il rischio elevato, oppure se contattare tutti sarebbe sproporzionato, e allora si fa un avviso pubblico. Il fornitore avvisa subito il titolare. E ognuno di noi, quando si accorge di un possibile breach, lo segnala immediatamente al referente interno.",
+      "sources": [
+        {
+          "title": "Garante privacy, Regolamento (UE) 2016/679 arricchito con riferimenti ai Considerando (artt. 33, 34, 58, 83)",
+          "url": "https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9"
+        },
+        {
+          "title": "Garante privacy, Data Breach - Violazioni di dati personali",
+          "url": "https://www.garanteprivacy.it/regolamentoue/databreach"
+        },
+        {
+          "title": "EDPB, Linee guida 9/2022 sulla notifica delle violazioni dei dati personali ai sensi del GDPR, versione 2.0 (IT)",
+          "url": "https://edpb.europa.eu/system/files/documents/2024-10/edpb_guidelines_202209_personal_data_breach_notification_v2.0_it.pdf"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte (slide 12), terza esenzione: «Detta comunicazione comporterebbe sforzi sproporzionati: si fa comunicazione pubblica». Precisato, come nel testo ufficiale, che vale anche «una misura simile» purché informi gli interessati con analoga efficacia.",
+          "source_ref": "Reg. UE 2016/679, art. 34, par. 3, lett. c"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto minimo della comunicazione agli interessati (rinvio all'art. 33, par. 3, lett. b, c, d) e potere del Garante di imporla.",
+          "source_ref": "Reg. UE 2016/679, art. 34, par. 2 e 4; art. 58, par. 2, lett. e"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di notifica e comunicazione (ransomware con e senza backup, email in chiaro, dati pubblicati dopo un attacco).",
+          "source_ref": "Linee guida EDPB 9/2022, allegato B"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Obbligo del responsabile di informare il titolare; procedure interne di rilevazione e segnalazione tradotte in passi per il dipendente.",
+          "source_ref": "Reg. UE 2016/679, art. 33, par. 2; Linee guida EDPB 9/2022, par. 37-39"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Conseguenze di un breach non gestito: misure correttive e sanzione fino a 10 milioni o 2% del fatturato; rilevanza della notifica tra i criteri.",
+          "source_ref": "Garante privacy, scheda Data Breach; Reg. UE 2016/679, art. 83, par. 2, lett. h, e par. 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Segnali di un possibile breach, caso pratico e due verifiche.",
+          "source_ref": null
+        }
+      ]
+    }
+  ]
+}

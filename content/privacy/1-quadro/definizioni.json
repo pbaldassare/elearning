@@ -1,0 +1,407 @@
+{
+  "module": "Il GDPR: quadro, definizioni e principi",
+  "topic": "Definizioni",
+  "topic_order": 2,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Le parole chiave del GDPR",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 2 e 68 (definizione di dati sensibili)"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Definizioni",
+          "title": "Le parole chiave del GDPR",
+          "goals": [
+            "Riconoscere un dato personale, anche quando non c'è il nome",
+            "Distinguere categorie particolari di dati e dati giudiziari",
+            "Conoscere le definizioni di trattamento, soggetti, pseudonimizzazione, profilazione e consenso"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un dato personale",
+          "key": "Qualsiasi informazione riguardante una persona fisica identificata o identificabile, cioè riconoscibile direttamente o indirettamente.",
+          "body": "Bastano un nome, un numero di identificazione, dati sull'ubicazione, un identificativo online o elementi della sua identità fisica, fisiologica, genetica, psichica, economica, culturale o sociale. La persona a cui si riferiscono i dati è l'interessato.",
+          "ref": "Reg. UE 2016/679, art. 4, n. 1"
+        },
+        {
+          "layout": "compare",
+          "title": "È un dato personale?",
+          "cols": [
+            {
+              "title": "Sì",
+              "items": [
+                "Nome, codice fiscale, indirizzo, telefono, email nominativa",
+                "Targa dell'auto, numero di polizza o di cliente",
+                "Indirizzo IP, cookie e altri identificativi online",
+                "Foto, voce registrata, immagini di videosorveglianza",
+                "Storico acquisti, reddito, valutazioni su una persona"
+              ]
+            },
+            {
+              "title": "No",
+              "items": [
+                "Dati di una società: ragione sociale, forma giuridica, recapiti generali",
+                "Informazioni anonime, che non permettono più di risalire alla persona",
+                "Statistiche aggregate da cui non si individua nessuno",
+                "Dati di persone decedute: il GDPR non li tutela, ma il Codice Privacy prevede regole proprie"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Identificabile: quando basta?",
+          "left": {
+            "title": "Che cosa conta",
+            "items": [
+              "Tutti i mezzi che il titolare o un terzo può ragionevolmente usare per identificare la persona",
+              "Costi e tempo necessari, tecnologie disponibili e future",
+              "Gli identificativi online, combinati con altre informazioni, permettono di creare profili"
+            ],
+            "ref": "considerando 26 e 30"
+          },
+          "right": {
+            "title": "In pratica",
+            "items": [
+              "“Il cliente della polizza 12345” è identificabile per chi ha accesso al gestionale",
+              "“La signora del terzo piano che lavora in banca” può bastare a riconoscerla",
+              "Un dato anonimo è tale solo se l'identificazione non è più ragionevolmente possibile"
+            ]
+          },
+          "note": "Nel dubbio, tratta l'informazione come dato personale.",
+          "noteRef": "considerando 26"
+        },
+        {
+          "layout": "table",
+          "title": "Le categorie particolari di dati",
+          "lead": "Il GDPR vieta di trattarli, salvo eccezioni precise. Prima del GDPR si chiamavano dati sensibili.",
+          "head": [
+            "Categoria",
+            "Esempi in azienda"
+          ],
+          "rows": [
+            [
+              "Origine razziale o etnica",
+              "Informazioni che la rivelano, anche indirettamente."
+            ],
+            [
+              "Opinioni politiche",
+              "Iscrizione a un partito, partecipazione a iniziative politiche."
+            ],
+            [
+              "Convinzioni religiose o filosofiche",
+              "Richiesta di permessi per festività religiose, scelte alimentari motivate dalla fede."
+            ],
+            [
+              "Appartenenza sindacale",
+              "Trattenuta in busta paga della quota sindacale."
+            ],
+            [
+              "Dati genetici",
+              "Risultati di test genetici."
+            ],
+            [
+              "Dati biometrici per identificare",
+              "Impronta digitale o riconoscimento del volto per accedere agli uffici."
+            ],
+            [
+              "Salute",
+              "Certificati medici, invalidità, infortuni, dati per un sinistro con lesioni."
+            ],
+            [
+              "Vita sessuale o orientamento sessuale",
+              "Qualsiasi informazione che li riveli."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 9, par. 1; art. 4, nn. 13-15"
+        },
+        {
+          "layout": "split",
+          "title": "Dai “dati sensibili” alle categorie particolari",
+          "left": {
+            "title": "Come li descrive il corso",
+            "items": [
+              "Dati che, se rivelati, provocano un grave danno alla persona",
+              "Origine razziale, etnica, religiosa; appartenenza a partiti politici e associazioni sindacali",
+              "Oggi definiti “dati di particolare natura”",
+              "Comprendono anche dati genetici, biometrici, relativi alla salute e al sesso"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Che cosa dice il GDPR",
+            "items": [
+              "Il nome tecnico è “categorie particolari di dati personali”",
+              "Sono dati il cui trattamento può creare rischi significativi per i diritti e le libertà",
+              "Si parla di vita sessuale e di orientamento sessuale",
+              "Le foto non sono di per sé dati biometrici: lo diventano se trattate con strumenti tecnici di identificazione"
+            ],
+            "ref": "art. 9; considerando 51"
+          },
+          "note": "L'espressione “dati sensibili” resta molto usata, anche dal Garante, come sinonimo.",
+          "noteRef": "Guida Garante all'applicazione del GDPR"
+        },
+        {
+          "layout": "concept",
+          "title": "I dati giudiziari",
+          "key": "Sono i dati relativi a condanne penali, reati o connesse misure di sicurezza. Fuori dal controllo dell'autorità pubblica si possono trattare solo se una legge, o un regolamento nei casi previsti dalla legge, lo autorizza con garanzie appropriate.",
+          "body": "Il Codice Privacy indica alcuni casi: rapporti di lavoro nei limiti di legge e contratti collettivi, verifica dei requisiti di onorabilità, accertamento di responsabilità nei sinistri e contrasto alle frodi assicurative, nei limiti di leggi e regolamenti.",
+          "ref": "Reg. UE 2016/679, art. 10; Codice Privacy, art. 2-octies"
+        },
+        {
+          "layout": "concept",
+          "title": "Che cos'è un trattamento",
+          "key": "Qualsiasi operazione compiuta sui dati personali, con o senza strumenti automatizzati: dalla raccolta alla distruzione.",
+          "body": "Raccolta, registrazione, organizzazione, strutturazione, conservazione, adattamento o modifica, estrazione, consultazione, uso, comunicazione, diffusione, raffronto, interconnessione, limitazione, cancellazione, distruzione. Anche solo guardare una scheda cliente o tenerla in archivio è un trattamento.",
+          "ref": "Reg. UE 2016/679, art. 4, n. 2"
+        },
+        {
+          "layout": "steps",
+          "title": "La vita di un dato in azienda",
+          "steps": [
+            {
+              "label": "Raccolta",
+              "text": "Il cliente compila il modulo di richiesta preventivo."
+            },
+            {
+              "label": "Registrazione",
+              "text": "I dati entrano nel CRM e nel fascicolo."
+            },
+            {
+              "label": "Uso e consultazione",
+              "text": "Il collega prepara l'offerta e chiama il cliente."
+            },
+            {
+              "label": "Comunicazione",
+              "text": "I dati vengono inviati alla compagnia o al fornitore."
+            },
+            {
+              "label": "Cancellazione",
+              "text": "Finito il periodo di conservazione, i dati vengono eliminati."
+            }
+          ],
+          "ref": "Ogni passaggio è un trattamento (art. 4, n. 2)"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Quale di queste informazioni rientra tra le categorie particolari di dati personali?",
+          "options": [
+            "L'IBAN di un cliente",
+            "Il certificato medico consegnato da un dipendente",
+            "Il reddito annuo di un cliente",
+            "Il numero di cellulare di un fornitore"
+          ],
+          "answer": 1,
+          "explanation": "I dati relativi alla salute sono categorie particolari (art. 9). IBAN, reddito e numero di cellulare sono dati personali, anche delicati, ma non rientrano nell'elenco dell'art. 9."
+        },
+        {
+          "layout": "table",
+          "title": "Chi fa che cosa: i soggetti in sintesi",
+          "head": [
+            "Soggetto",
+            "Definizione"
+          ],
+          "rows": [
+            [
+              "Interessato",
+              "La persona fisica a cui si riferiscono i dati."
+            ],
+            [
+              "Titolare del trattamento",
+              "Chi, da solo o insieme ad altri, decide finalità e mezzi del trattamento. Di solito è l'azienda."
+            ],
+            [
+              "Responsabile del trattamento",
+              "Chi tratta i dati per conto del titolare, ad esempio il fornitore del gestionale o il consulente paghe."
+            ],
+            [
+              "Persone autorizzate",
+              "Chi tratta i dati sotto l'autorità diretta del titolare o del responsabile, come i dipendenti."
+            ],
+            [
+              "Destinatario",
+              "Chi riceve comunicazione dei dati, che sia o no un terzo."
+            ],
+            [
+              "Terzo",
+              "Chiunque non sia interessato, titolare, responsabile o persona autorizzata."
+            ]
+          ],
+          "ref": "Reg. UE 2016/679, art. 4, nn. 1, 7-10. Ruoli e obblighi: modulo 2"
+        },
+        {
+          "layout": "compare",
+          "title": "Pseudonimizzazione e anonimizzazione",
+          "cols": [
+            {
+              "title": "Dato pseudonimizzato",
+              "items": [
+                "Non è più attribuibile alla persona senza informazioni aggiuntive",
+                "Le informazioni aggiuntive, come la tabella che collega codice e nome, sono conservate a parte e protette",
+                "Resta un dato personale: il GDPR si applica",
+                "Esempio: l'elenco sinistri con “Cliente A1027” al posto del nome"
+              ]
+            },
+            {
+              "title": "Dato anonimo",
+              "items": [
+                "Non si riferisce più a una persona identificata o identificabile",
+                "Nessuno può ragionevolmente risalire alla persona",
+                "Il GDPR non si applica",
+                "Esempio: “nel 2025 abbiamo gestito 340 sinistri auto”"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "La profilazione",
+          "key": "Un trattamento automatizzato che usa i dati personali per valutare aspetti di una persona: rendimento professionale, situazione economica, salute, preferenze, interessi, affidabilità, comportamento, spostamenti.",
+          "body": "Esempi: un punteggio di affidabilità calcolato in automatico, la segmentazione dei clienti nel CRM per proporre offerte su misura, l'analisi della navigazione sul sito. Sulle decisioni basate solo su trattamenti automatizzati ci sono regole specifiche (art. 22).",
+          "ref": "Reg. UE 2016/679, art. 4, n. 4"
+        },
+        {
+          "layout": "checklist",
+          "title": "Il consenso: la definizione",
+          "items": [
+            {
+              "text": "Libero: l'interessato può scegliere davvero, senza subire conseguenze se rifiuta.",
+              "ref": "art. 4, n. 11"
+            },
+            {
+              "text": "Specifico: riguarda una o più finalità precise."
+            },
+            {
+              "text": "Informato: la persona sa chi tratta i dati e perché."
+            },
+            {
+              "text": "Inequivocabile: c'è una dichiarazione o un'azione positiva chiara."
+            },
+            {
+              "text": "Il silenzio, l'inattività o una casella già spuntata non sono consenso.",
+              "ref": "considerando 32"
+            }
+          ]
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "L'agenzia sostituisce i nomi dei clienti con un codice e tiene in un file separato e protetto la tabella che collega codici e nomi. I dati così trattati sono:",
+          "options": [
+            "Dati anonimi, a cui il GDPR non si applica",
+            "Dati pseudonimizzati, che restano dati personali",
+            "Dati giudiziari",
+            "Dati non più soggetti ad alcuna regola"
+          ],
+          "answer": 1,
+          "explanation": "È pseudonimizzazione (art. 4, n. 5): con le informazioni aggiuntive conservate a parte si può risalire alla persona. Per il considerando 26 i dati pseudonimizzati restano dati personali. La pseudonimizzazione riduce i rischi, ma non fa uscire i dati dal GDPR."
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Marco, addetto al marketing, deve mandare a un consulente esterno l'estrazione del CRM per un'analisi sulle vendite. Toglie nome e cognome, ma lascia data di nascita, CAP, professione, numero di polizza e storico dei pagamenti. Dice: «Senza nomi i dati sono anonimi».",
+          "questions": [
+            "Ha ragione Marco?",
+            "Che cosa sarebbe meglio fare?"
+          ],
+          "solution": "No. Con numero di polizza, data di nascita, CAP e professione le persone restano identificabili: il numero di polizza basta a chi ha accesso al gestionale, e la combinazione degli altri dati può bastare anche a chi non ce l'ha (considerando 26). Sono quindi dati personali e il loro invio è un trattamento. Meglio chiedersi quali dati servano davvero all'analisi, togliere quelli inutili come il numero di polizza, usare codici o dati aggregati e regolare il rapporto con il consulente secondo le regole sui responsabili del trattamento, che vediamo nel modulo 2."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Identificabile",
+              "text": "è dato personale anche senza nome, se si può risalire alla persona"
+            },
+            {
+              "value": "Art. 9",
+              "text": "salute, religione, sindacato, biometria e le altre categorie particolari"
+            },
+            {
+              "value": "Art. 10",
+              "text": "dati giudiziari: solo se una norma lo autorizza con garanzie"
+            },
+            {
+              "value": "Pseudonimo",
+              "text": "il dato pseudonimizzato resta personale; quello anonimo no"
+            },
+            {
+              "value": "Consenso",
+              "text": "libero, specifico, informato, inequivocabile"
+            }
+          ]
+        }
+      ],
+      "narration": "In questa lezione impariamo il vocabolario del GDPR. Sembra un esercizio teorico, ma è il passaggio più pratico di tutti: se non riconosciamo un dato personale, non sapremo nemmeno quando dobbiamo proteggerlo. Le definizioni che vediamo sono quasi tutte nell'articolo 4 del Regolamento.\n\nPartiamo dalla più importante. Per dato personale si intende qualsiasi informazione riguardante una persona fisica identificata o identificabile. La persona a cui si riferiscono i dati si chiama interessato. Identificata vuol dire che sappiamo chi è, ad esempio perché c'è il nome. Identificabile vuol dire che possiamo risalire a lei, direttamente o indirettamente, attraverso un numero di identificazione, dati sull'ubicazione, un identificativo online o elementi della sua identità fisica, fisiologica, genetica, psichica, economica, culturale o sociale. La definizione è volutamente ampia: un dato personale non è solo il nome e cognome.\n\nFacciamo qualche esempio. Sono dati personali il codice fiscale, l'indirizzo, il numero di telefono, l'email nominativa come mario.rossi seguito dal dominio aziendale, la targa dell'auto, il numero di polizza o il codice cliente. Lo sono anche l'indirizzo IP e i cookie, che il considerando 30 cita espressamente tra gli identificativi online. Lo sono una fotografia, una voce registrata in una telefonata, le immagini di una telecamera. E lo sono le informazioni che valutano una persona: lo storico degli acquisti, il reddito, una nota nel CRM su un cliente che paga sempre in ritardo.\n\nChe cosa invece non è dato personale? I dati di una società in quanto tale, come la ragione sociale, la forma giuridica e i recapiti generali: il considerando 14 chiarisce che il Regolamento non disciplina i dati delle persone giuridiche. Attenzione però: il nome e l'email del referente della società sono dati personali di quella persona. Non sono dati personali le informazioni davvero anonime e le statistiche aggregate da cui non si riesce a individuare nessuno. E il GDPR tutela le persone in vita: per i dati delle persone decedute il Codice Privacy italiano prevede comunque che alcuni diritti possano essere esercitati da chi ha un interesse proprio o agisce per ragioni familiari, come vedremo parlando dei diritti.\n\nQuando una persona è identificabile? Il considerando 26 dà il criterio: bisogna considerare tutti i mezzi che il titolare o un terzo può ragionevolmente utilizzare per identificarla, tenendo conto dei costi, del tempo necessario e delle tecnologie disponibili, anche future. Quindi l'espressione il cliente della polizza 12345 è un dato personale per chiunque abbia accesso al gestionale. E anche una descrizione come la signora del terzo piano che lavora in banca può bastare, in un piccolo condominio, a riconoscere qualcuno. Il consiglio pratico è semplice: nel dubbio, trattate l'informazione come un dato personale.\n\nPassiamo alle categorie particolari di dati, quelle che prima del GDPR si chiamavano dati sensibili. L'articolo 9 le elenca: dati che rivelano l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose o filosofiche, l'appartenenza sindacale; dati genetici; dati biometrici usati per identificare in modo univoco una persona; dati relativi alla salute; dati relativi alla vita sessuale o all'orientamento sessuale. Per queste informazioni la regola di partenza è un divieto: si possono trattare solo nei casi previsti dallo stesso articolo 9, che vedremo nella lezione sui principi.\n\nIn azienda le incontriamo più spesso di quanto pensiamo. Il certificato medico di un dipendente, la pratica di un infortunio, la documentazione di un sinistro con lesioni sono dati sulla salute. La trattenuta in busta paga della quota sindacale rivela l'appartenenza sindacale. Un sistema di accesso agli uffici con l'impronta digitale tratta dati biometrici. Anche una richiesta di permesso per una festività religiosa può rivelare le convinzioni di una persona.\n\nIl materiale del corso descrive i dati sensibili come quei dati che, se rivelati, provocano un grave danno alla persona: dati che indicano l'origine razziale, etnica, religiosa, l'appartenenza a partiti politici e associazioni sindacali. Aggiunge che oggi sono definiti dati di particolare natura e comprendono anche dati genetici, biometrici, relativi alla salute e al sesso. Il senso è corretto; qualche precisazione di linguaggio. Il nome tecnico nel Regolamento è categorie particolari di dati personali. Il considerando 51 spiega che meritano protezione perché il contesto del loro trattamento può creare rischi significativi per i diritti e le libertà fondamentali. E il Regolamento parla di vita sessuale e di orientamento sessuale. Lo stesso considerando chiarisce un punto utile: una fotografia non è di per sé un dato biometrico; lo diventa quando è trattata con uno strumento tecnico che consente l'identificazione univoca, come un sistema di riconoscimento facciale. L'espressione dati sensibili, comunque, resta molto usata, anche dal Garante, come sinonimo.\n\nUn gruppo a parte sono i dati giudiziari, cioè i dati relativi a condanne penali, reati o connesse misure di sicurezza. Non rientrano nell'articolo 9, ma nell'articolo 10, che è altrettanto rigoroso: fuori dal controllo dell'autorità pubblica si possono trattare solo se lo autorizza il diritto dell'Unione o dello Stato, con garanzie appropriate. In Italia l'articolo 2-octies del Codice Privacy richiede una norma di legge, o di regolamento nei casi previsti dalla legge. Tra i casi indicati ci sono i rapporti di lavoro, nei limiti di leggi e contratti collettivi, la verifica dei requisiti di onorabilità, e, per il settore assicurativo, l'accertamento di responsabilità nei sinistri e il contrasto alle frodi, sempre nei limiti di leggi e regolamenti. Quindi chiedere a un candidato il certificato del casellario giudiziario non è libero: serve una norma che lo preveda.\n\nVediamo ora che cosa significa trattamento. L'articolo 4 lo definisce come qualsiasi operazione o insieme di operazioni compiute sui dati personali, con o senza processi automatizzati. L'elenco è lunghissimo: raccolta, registrazione, organizzazione, strutturazione, conservazione, adattamento o modifica, estrazione, consultazione, uso, comunicazione, diffusione, raffronto o interconnessione, limitazione, cancellazione e distruzione. La conseguenza pratica è che praticamente tutto ciò che facciamo con un dato è un trattamento, anche solo consultare una scheda cliente o tenere un fascicolo in archivio.\n\nSeguiamo la vita di un dato. Il cliente compila un modulo per un preventivo: è una raccolta. I dati entrano nel CRM e nel fascicolo: è registrazione e organizzazione. Un collega li consulta per preparare l'offerta e telefona al cliente: è uso e consultazione. I dati vengono inviati alla compagnia o a un fornitore: è comunicazione. Alla fine del periodo di conservazione vengono eliminati: è cancellazione. Ogni passaggio deve rispettare le regole del GDPR.\n\nUna parola sui soggetti, che approfondiremo nel modulo 2. Il titolare del trattamento è chi, da solo o insieme ad altri, decide le finalità e i mezzi del trattamento: di regola è l'azienda, non il singolo dipendente. Il responsabile del trattamento è chi tratta i dati per conto del titolare, come il fornitore del software gestionale o lo studio che elabora le buste paga. Le persone autorizzate sono quelle che trattano i dati sotto l'autorità diretta del titolare o del responsabile: siamo noi, dipendenti e collaboratori. Il destinatario è chiunque riceva comunicazione dei dati; il terzo è chi non è né interessato, né titolare, né responsabile, né persona autorizzata.\n\nDue definizioni tecniche ma molto utili. La pseudonimizzazione è un trattamento che rende i dati non più attribuibili a una persona specifica senza informazioni aggiuntive, a condizione che queste informazioni siano conservate separatamente e protette. Esempio: un elenco di sinistri in cui al posto del nome c'è il codice A1027, mentre la tabella che collega codici e nomi sta in un archivio separato con accesso limitato. Attenzione: i dati pseudonimizzati restano dati personali, perché chi ha la tabella può risalire alla persona. Il dato anonimo, invece, non permette più a nessuno di identificare ragionevolmente l'interessato, e a quel punto il GDPR non si applica. La frase nel 2025 abbiamo gestito 340 sinistri auto, senza altri dettagli, è un'informazione anonima.\n\nLa profilazione è qualsiasi trattamento automatizzato che usa i dati personali per valutare aspetti personali di qualcuno, in particolare per analizzare o prevedere rendimento professionale, situazione economica, salute, preferenze, interessi, affidabilità, comportamento, ubicazione o spostamenti. Un punteggio di affidabilità calcolato in automatico, la segmentazione dei clienti per proporre offerte mirate, l'analisi della navigazione sul sito sono forme di profilazione. Il Regolamento prevede regole specifiche per le decisioni basate unicamente su trattamenti automatizzati, che vedremo tra i diritti.\n\nInfine il consenso. Per l'articolo 4 è qualsiasi manifestazione di volontà libera, specifica, informata e inequivocabile, con cui l'interessato accetta, mediante dichiarazione o azione positiva inequivocabile, che i suoi dati siano trattati. Libera significa che la persona può davvero scegliere. Specifica significa che riguarda finalità precise. Informata significa che la persona sa chi tratta i dati e perché. Inequivocabile significa che c'è un gesto chiaro, come spuntare una casella o firmare una dichiarazione. Il considerando 32 lo dice senza giri di parole: il silenzio, l'inattività o le caselle già spuntate non costituiscono consenso. Le condizioni per un consenso valido le approfondiremo nella lezione sulle basi giuridiche.\n\nIl caso pratico di questa lezione mostra un errore frequente: pensare che basti togliere il nome per rendere anonimi i dati. Numero di polizza, data di nascita, CAP e professione permettono ancora di identificare le persone. Prima di inviare dati all'esterno chiediamoci sempre quali servono davvero e se possiamo usare dati aggregati.\n\nRicapitolando: è dato personale qualsiasi informazione su una persona identificata o identificabile, anche senza nome; salute, religione, sindacato, biometria e le altre categorie dell'articolo 9 sono protette da un divieto con eccezioni; i dati giudiziari si trattano solo se una norma lo consente; trattamento è qualunque operazione sui dati; il dato pseudonimizzato resta personale, quello anonimo no; e il consenso deve essere libero, specifico, informato e inequivocabile.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Guida all'applicazione del Regolamento europeo (edizione 2023)",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6807118"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali (d.lgs. 196/2003 come modificato dal d.lgs. 101/2018), testo coordinato – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=9042678"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di dato personale e interessato, criteri di identificabilità ed esempi (identificativi online, persone giuridiche, dati anonimi).",
+          "source_ref": "Reg. UE 2016/679, art. 4, n. 1; considerando 14, 26, 30"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Elenco delle categorie particolari di dati con esempi aziendali; definizioni di dati genetici, biometrici e relativi alla salute.",
+          "source_ref": "Reg. UE 2016/679, art. 9, par. 1; art. 4, nn. 13-15"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: i dati sensibili sono quelli che \"se rivelati provocano un grave danno alla persona\", \"oggi definiti dati di particolare natura\", comprendenti dati \"relativi alla salute e al sesso\". Precisato che il termine del GDPR è \"categorie particolari di dati personali\" (motivazione: rischi significativi per diritti e libertà) e che il Regolamento parla di vita sessuale e orientamento sessuale.",
+          "source_ref": "Reg. UE 2016/679, art. 9, par. 1; considerando 51"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Le fotografie sono dati biometrici solo se trattate con strumenti tecnici di identificazione univoca.",
+          "source_ref": "Reg. UE 2016/679, considerando 51"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Dati giudiziari e casi di trattamento autorizzati dal Codice Privacy (lavoro, onorabilità, sinistri e frodi assicurative).",
+          "source_ref": "Reg. UE 2016/679, art. 10; Codice Privacy, art. 2-octies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Definizione di trattamento con esempio del ciclo di vita del dato in azienda.",
+          "source_ref": "Reg. UE 2016/679, art. 4, n. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Sintesi delle definizioni di titolare, responsabile, persone autorizzate, destinatario e terzo (dettaglio nel modulo 2).",
+          "source_ref": "Reg. UE 2016/679, art. 4, nn. 7-10"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Pseudonimizzazione e differenza con l'anonimizzazione; profilazione; consenso e caselle pre-spuntate.",
+          "source_ref": "Reg. UE 2016/679, art. 4, nn. 4, 5, 11; considerando 26, 32"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Diritti riferiti a persone decedute nel Codice Privacy (richiamo).",
+          "source_ref": "Reg. UE 2016/679, considerando 27; Codice Privacy, art. 2-terdecies"
+        }
+      ]
+    }
+  ]
+}

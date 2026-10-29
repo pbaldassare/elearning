@@ -1,0 +1,451 @@
+{
+  "module": "Il GDPR: quadro, definizioni e principi",
+  "topic": "Cosa cambia con il GDPR",
+  "topic_order": 1,
+  "scope": "privacy",
+  "source_minutes": 0,
+  "lessons": [
+    {
+      "title": "Il nuovo Regolamento europeo sulla privacy",
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 1-7 e 19"
+      ],
+      "source_minutes": 0,
+      "slides": [
+        {
+          "layout": "cover",
+          "eyebrow": "Il GDPR: quadro, definizioni e principi · Cosa cambia con il GDPR",
+          "title": "Il nuovo Regolamento europeo sulla privacy",
+          "goals": [
+            "Capire perché la protezione dei dati è un diritto fondamentale",
+            "Conoscere le fonti, le date e gli obiettivi del Regolamento UE 2016/679",
+            "Sapere a chi si applica il GDPR e quali novità ha introdotto"
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Dalla riservatezza alla protezione dei dati",
+          "key": "La riservatezza è un diritto pluri-funzionale: non solo essere lasciati in pace, ma decidere che cosa succede alle informazioni che ci riguardano. Oggi si parla di diritto alla protezione dei dati personali.",
+          "body": "Il diritto nasce come difesa della vita privata. Con la diffusione dei computer e di internet diventa un potere di controllo sulle proprie informazioni, anche dopo che le abbiamo comunicate ad altri.",
+          "ref": "Materiale originale del corso"
+        },
+        {
+          "layout": "table",
+          "title": "I quattro poteri della riservatezza",
+          "head": [
+            "Potere",
+            "Che cosa significa"
+          ],
+          "rows": [
+            [
+              "Interrompere il flusso",
+              "Poter fermare la circolazione delle informazioni che ci riguardano."
+            ],
+            [
+              "Potere di “seguito”",
+              "Poter seguire i propri dati anche dopo averli forniti: sapere dove vanno e chi li usa."
+            ],
+            [
+              "Controllo sull'uso",
+              "Poter controllare il modo in cui le informazioni vengono utilizzate."
+            ],
+            [
+              "Dignità e uguaglianza",
+              "Tutela rafforzata per i dati sensibili, che possono esporre a discriminazioni."
+            ]
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Le fonti normative",
+          "head": [
+            "Fonte",
+            "Che cosa è oggi"
+          ],
+          "rows": [
+            [
+              "Regolamento UE 2016/679 (GDPR)",
+              "La regola principale, uguale in tutta l'Unione e direttamente applicabile."
+            ],
+            [
+              "Direttiva 95/46/CE",
+              "Abrogata dal 25 maggio 2018. I riferimenti alla direttiva si intendono fatti al Regolamento."
+            ],
+            [
+              "Codice Privacy",
+              "D.lgs. 196/2003, adeguato al GDPR dal d.lgs. 101/2018: contiene le regole italiane di dettaglio."
+            ],
+            [
+              "Linee guida del Garante",
+              "Indicazioni pratiche dell'autorità italiana per settori e temi."
+            ],
+            [
+              "Provvedimenti del Garante",
+              "Decisioni su casi concreti, autorizzazioni, misure di garanzia."
+            ],
+            [
+              "Codice civile",
+              "Regole generali su contratti e responsabilità che restano applicabili."
+            ]
+          ]
+        },
+        {
+          "layout": "concept",
+          "title": "Un diritto fondamentale, ma non assoluto",
+          "key": "Il trattamento dei dati personali deve essere al servizio dell'uomo. Il diritto alla protezione dei dati non è una prerogativa assoluta: va contemperato con gli altri diritti fondamentali.",
+          "body": "Il Regolamento conferma, come la Direttiva 95/46, che la protezione dei dati delle persone fisiche è un diritto fondamentale (art. 8 della Carta dei diritti UE). Va bilanciato, ad esempio, con la libertà d'impresa e la libertà di informazione. Il corso parla di principio del pari grado; il Regolamento richiama il principio di proporzionalità.",
+          "ref": "Reg. UE 2016/679, considerando 1 e 4"
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Perché un Regolamento",
+          "title": "Gli obiettivi del GDPR",
+          "lead": "Un'unica regola per tutta l'Unione, al posto delle leggi nazionali che attuavano la Direttiva in modo diverso.",
+          "facts": [
+            {
+              "label": "Certezza",
+              "text": "Garantire la certezza del diritto."
+            },
+            {
+              "label": "Trasparenza",
+              "text": "Dare trasparenza agli operatori economici, comprese le piccole e medie imprese."
+            },
+            {
+              "label": "Stessi diritti",
+              "text": "Garantire a tutti i cittadini UE gli stessi diritti."
+            },
+            {
+              "label": "Stessi obblighi",
+              "text": "Definire gli stessi obblighi e responsabilità per titolari e responsabili del trattamento."
+            },
+            {
+              "label": "Controllo",
+              "text": "Dare alle persone il controllo dei dati che le riguardano."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, considerando 7 e 13; materiale originale del corso"
+        },
+        {
+          "layout": "timeline",
+          "title": "Le date da conoscere",
+          "items": [
+            {
+              "value": "27 aprile 2016",
+              "text": "adozione del Regolamento UE 2016/679",
+              "ref": "GU UE L 119 del 4.5.2016"
+            },
+            {
+              "value": "24 maggio 2016",
+              "text": "entrata in vigore: ventesimo giorno dopo la pubblicazione",
+              "ref": "art. 99, par. 1"
+            },
+            {
+              "value": "25 maggio 2018",
+              "text": "il Regolamento si applica; la Direttiva 95/46/CE è abrogata",
+              "ref": "artt. 94 e 99, par. 2"
+            },
+            {
+              "value": "10 agosto 2018",
+              "text": "d.lgs. 101/2018 adegua il Codice Privacy al GDPR",
+              "ref": "G.U. n. 205 del 4.9.2018"
+            }
+          ]
+        },
+        {
+          "layout": "split",
+          "title": "Perché un nuovo Regolamento?",
+          "left": {
+            "title": "Le ragioni del corso",
+            "items": [
+              "Continua evoluzione dei concetti di privacy e protezione dei dati",
+              "Diffusione del progresso tecnologico",
+              "Massima diffusione dei dati: condivisione ai massimi livelli"
+            ],
+            "ref": "Materiale originale del corso"
+          },
+          "right": {
+            "title": "Che cosa dice il Regolamento",
+            "items": [
+              "La tecnologia permette di usare i dati come mai prima",
+              "Le persone pubblicano informazioni su scala mondiale",
+              "La Direttiva non ha evitato la frammentazione tra Stati",
+              "Serve fiducia per sviluppare l'economia digitale"
+            ],
+            "ref": "considerando 6, 7 e 9"
+          },
+          "note": "Un Regolamento, a differenza di una Direttiva, è obbligatorio in tutti i suoi elementi e direttamente applicabile in ogni Stato membro.",
+          "noteRef": "art. 99"
+        },
+        {
+          "layout": "compare",
+          "title": "A chi si applica il GDPR",
+          "cols": [
+            {
+              "title": "Si applica",
+              "items": [
+                "Ai trattamenti automatizzati, anche solo in parte (computer, gestionali, app)",
+                "Agli archivi cartacei strutturati, come i fascicoli clienti",
+                "A chi è stabilito nell'Unione, ovunque tratti i dati",
+                "A chi, da fuori UE, offre beni o servizi a persone nell'Unione o ne monitora il comportamento"
+              ]
+            },
+            {
+              "title": "Non si applica",
+              "items": [
+                "Alle attività esclusivamente personali o domestiche, come la rubrica di famiglia",
+                "Alle informazioni davvero anonime",
+                "Ai dati delle persone giuridiche, come la ragione sociale di una società",
+                "Ai trattamenti delle autorità per prevenire e perseguire reati (regole proprie)"
+              ]
+            }
+          ]
+        },
+        {
+          "layout": "table",
+          "title": "Alcune novità rilevanti",
+          "head": [
+            "Novità",
+            "In breve",
+            "Dove la approfondiamo"
+          ],
+          "rows": [
+            [
+              "1 · Diritto alla portabilità",
+              "L'interessato può ricevere i propri dati e trasferirli a un altro titolare.",
+              "Diritti degli interessati (art. 20)"
+            ],
+            [
+              "2 · Data breach",
+              "Le violazioni dei dati vanno notificate all'autorità e, se il rischio è elevato, comunicate agli interessati.",
+              "Modulo su sicurezza e violazioni (artt. 33-34)"
+            ],
+            [
+              "3 · Valutazione d'impatto",
+              "Prima di trattamenti ad alto rischio si valuta l'impatto sulla protezione dei dati.",
+              "Modulo su sicurezza e rischio (art. 35)"
+            ],
+            [
+              "4 · Registri dei trattamenti",
+              "Titolare e responsabile documentano le attività di trattamento.",
+              "Modulo sugli adempimenti (art. 30)"
+            ],
+            [
+              "5 · Consultazione preventiva",
+              "Se il rischio resta elevato, il titolare consulta l'autorità prima di iniziare.",
+              "Modulo su sicurezza e rischio (art. 36)"
+            ],
+            [
+              "6 · Certificazione",
+              "Sigilli e marchi per dimostrare la conformità.",
+              "Modulo sugli adempimenti (artt. 42-43)"
+            ]
+          ],
+          "ref": "Materiale originale del corso; Reg. UE 2016/679"
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Da quale data il GDPR si applica in tutti gli Stati membri?",
+          "options": [
+            "24 maggio 2016",
+            "25 maggio 2018",
+            "4 settembre 2018",
+            "1° gennaio 2019"
+          ],
+          "answer": 1,
+          "explanation": "Il Regolamento è entrato in vigore il 24 maggio 2016, ma si applica dal 25 maggio 2018 (art. 99). Dalla stessa data è abrogata la Direttiva 95/46/CE. Il 4 settembre 2018 è la data di pubblicazione del d.lgs. 101/2018, che ha adeguato il Codice Privacy."
+        },
+        {
+          "layout": "facts",
+          "eyebrow": "Organismo dell'Unione",
+          "title": "Il Comitato europeo per la protezione dei dati",
+          "lead": "In inglese EDPB. Ha sostituito il Gruppo “Articolo 29” previsto dalla vecchia Direttiva e garantisce un'applicazione coerente del Regolamento.",
+          "facts": [
+            {
+              "label": "Chi lo compone",
+              "text": "Il vertice di un'autorità di controllo per ogni Stato membro e il Garante europeo della protezione dei dati."
+            },
+            {
+              "label": "Natura",
+              "text": "Organismo dell'Unione con personalità giuridica, indipendente. La Commissione partecipa senza diritto di voto."
+            },
+            {
+              "label": "Compiti",
+              "text": "Innumerevoli: il corso ne indica 24; l'art. 70 ne elenca 25, dalla lettera a) alla y)."
+            },
+            {
+              "label": "Atti",
+              "text": "Linee guida, raccomandazioni, migliori prassi, pareri e, nei casi transfrontalieri, decisioni vincolanti."
+            }
+          ],
+          "ref": "Reg. UE 2016/679, artt. 68, 69, 70, 94"
+        },
+        {
+          "layout": "checklist",
+          "title": "Che cosa fa il Comitato europeo",
+          "items": [
+            {
+              "text": "Monitora il Regolamento e ne assicura la corretta applicazione.",
+              "ref": "art. 70, par. 1, lett. a)"
+            },
+            {
+              "text": "Consiglia la Commissione su ogni questione di protezione dei dati, comprese le proposte di modifica del Regolamento.",
+              "ref": "lett. b)"
+            },
+            {
+              "text": "Pubblica linee guida, raccomandazioni e migliori prassi.",
+              "ref": "lett. d)-j), m)"
+            },
+            {
+              "text": "Incoraggia i codici di condotta e i meccanismi di certificazione.",
+              "ref": "lett. n)"
+            },
+            {
+              "text": "Approva i criteri di certificazione e i requisiti per accreditare gli organismi di certificazione.",
+              "ref": "lett. o)-p)"
+            },
+            {
+              "text": "Adotta decisioni vincolanti quando le autorità nazionali non trovano un accordo.",
+              "ref": "lett. t); art. 65"
+            }
+          ]
+        },
+        {
+          "layout": "case",
+          "title": "Caso pratico",
+          "scenario": "Lucia lavora in una piccola agenzia con quattro dipendenti. I fascicoli dei clienti sono in un armadio, ordinati per cognome; preventivi e contatti stanno in un foglio Excel. Un collega dice: «Il GDPR vale per le grandi aziende e per chi lavora online, noi siamo piccoli e usiamo la carta». Lucia tiene anche, sul suo telefono personale, la rubrica di parenti e amici.",
+          "questions": [
+            "Il GDPR si applica all'agenzia?",
+            "Si applica alla rubrica personale di Lucia?"
+          ],
+          "solution": "Sì, all'agenzia si applica. Il Regolamento riguarda sia i trattamenti automatizzati (il foglio Excel) sia gli archivi cartacei strutturati (i fascicoli ordinati per cognome). Non esiste un'esenzione generale per le piccole imprese: alcune semplificazioni riguardano singoli adempimenti. La rubrica di parenti e amici, usata solo per fini personali, rientra invece nell'esenzione per le attività esclusivamente personali o domestiche (art. 2, par. 2, lett. c). Se però Lucia salvasse lì anche i numeri dei clienti per lavoro, quei dati tornerebbero nel perimetro del GDPR."
+        },
+        {
+          "layout": "quiz",
+          "title": "Verifica",
+          "question": "Da chi è composto il Comitato europeo per la protezione dei dati?",
+          "options": [
+            "Dai ministri della giustizia degli Stati membri",
+            "Dal vertice di un'autorità di controllo per ogni Stato membro e dal Garante europeo della protezione dei dati",
+            "Da giudici della Corte di giustizia dell'Unione europea",
+            "Da rappresentanti della Commissione europea con diritto di voto"
+          ],
+          "answer": 1,
+          "explanation": "L'art. 68 prevede che il Comitato sia composto dalla figura di vertice di un'autorità di controllo per ciascuno Stato membro e dal Garante europeo della protezione dei dati. La Commissione partecipa alle riunioni, ma senza diritto di voto."
+        },
+        {
+          "layout": "recap",
+          "title": "Da ricordare",
+          "items": [
+            {
+              "value": "Diritto",
+              "text": "fondamentale ma non assoluto: va bilanciato con gli altri diritti"
+            },
+            {
+              "value": "2016 · 2018",
+              "text": "in vigore dal 24 maggio 2016, applicabile dal 25 maggio 2018"
+            },
+            {
+              "value": "Codice",
+              "text": "Privacy italiano adeguato al GDPR dal d.lgs. 101/2018"
+            },
+            {
+              "value": "Carta e PC",
+              "text": "il GDPR vale per archivi cartacei strutturati e trattamenti informatici"
+            },
+            {
+              "value": "EDPB",
+              "text": "il Comitato europeo che garantisce un'applicazione coerente"
+            }
+          ]
+        }
+      ],
+      "narration": "Benvenuti al primo modulo del corso sulla protezione dei dati personali. In questa lezione inquadriamo il Regolamento europeo 2016/679, che tutti chiamano GDPR: da dove nasce, quali sono le sue fonti, quando è diventato applicabile, a chi si applica e quali novità ha portato. Sono le basi che ci servono per capire tutto il resto del corso.\n\nPartiamo da un'idea. Per molto tempo la privacy è stata intesa come diritto alla riservatezza, cioè il diritto di essere lasciati in pace e di tenere per sé la propria vita privata. Il materiale del corso descrive la riservatezza come un diritto pluri-funzionale, che comprende più poteri. C'è il potere di interrompere il flusso di informazioni che ci riguardano. C'è il potere di seguito, cioè di seguire i propri dati anche dopo averli forniti a qualcuno, sapendo dove vanno e chi li usa. C'è il potere di controllare il modo in cui le informazioni vengono utilizzate. E c'è la tutela della dignità e dell'uguaglianza quando si tratta di dati sensibili, quelli che possono esporre una persona a discriminazioni, come le informazioni sulla salute o sulle convinzioni religiose. Messi insieme, questi poteri formano quello che oggi chiamiamo diritto alla protezione dei dati personali.\n\nVediamo le fonti normative. La fonte principale è il Regolamento UE 2016/679. La precedente Direttiva 95/46/CE è stata abrogata: per l'esattezza, l'articolo 94 del Regolamento la abroga a decorrere dal 25 maggio 2018, e stabilisce che i riferimenti alla vecchia direttiva si intendono fatti al Regolamento. Accanto al GDPR c'è il Codice Privacy, cioè il decreto legislativo 196 del 2003. Attenzione: il Codice non è stato cancellato, ma profondamente modificato dal decreto legislativo 101 del 2018, che lo ha adeguato al Regolamento. Oggi il Codice contiene le regole italiane di dettaglio negli spazi che il GDPR lascia agli Stati, ad esempio l'età del consenso dei minori online o le regole sul telemarketing, che vedremo più avanti. Poi ci sono le linee guida e i provvedimenti del Garante per la protezione dei dati personali, l'autorità italiana di controllo, che danno indicazioni pratiche e decidono sui casi concreti. Infine resta applicabile il Codice civile, con le sue regole generali su contratti e responsabilità.\n\nIl Regolamento, come già la Direttiva 95/46, considera la protezione dei dati delle persone fisiche un diritto fondamentale. Lo dice il primo considerando, che richiama l'articolo 8 della Carta dei diritti fondamentali dell'Unione europea. Il quarto considerando aggiunge due concetti importanti. Il primo: il trattamento dei dati personali deve essere al servizio dell'uomo. Il secondo: il diritto alla protezione dei dati non è una prerogativa assoluta, ma va considerato alla luce della sua funzione sociale e contemperato con gli altri diritti fondamentali. Il materiale del corso parla a questo proposito di principio del pari grado, perché nessun diritto prevale in automatico sugli altri; il testo del Regolamento usa l'espressione principio di proporzionalità. In pratica, la protezione dei dati va bilanciata con la libertà d'impresa, la libertà di espressione e di informazione, il diritto di difesa e così via. Per questo il GDPR non vieta di usare i dati: stabilisce a quali condizioni si possono usare.\n\nQuali sono gli obiettivi del Regolamento? Il materiale del corso ne indica quattro: garantire la certezza del diritto, dare trasparenza agli operatori economici, garantire a tutti i cittadini dell'Unione gli stessi diritti, definire gli stessi obblighi e responsabilità per titolari e responsabili del trattamento. Sono esattamente gli obiettivi descritti nel considerando 13, che cita espressamente anche le micro, piccole e medie imprese. Il considerando 7 aggiunge che le persone fisiche devono avere il controllo dei dati che le riguardano. Il motivo è semplice: con la Direttiva ogni Stato aveva la propria legge di attuazione, con differenze che creavano incertezza e ostacolavano la circolazione dei dati. Con un Regolamento la regola è la stessa da Lisbona a Helsinki.\n\nOra le date, su cui spesso si fa confusione. Il Regolamento è stato adottato il 27 aprile 2016 e pubblicato nella Gazzetta ufficiale dell'Unione europea, serie L, numero 119, del 4 maggio 2016. In base all'articolo 99 è entrato in vigore il ventesimo giorno successivo alla pubblicazione, quindi il 24 maggio 2016. Però si applica dal 25 maggio 2018. Il materiale del corso, scritto prima di quella data, dice che il Regolamento entrerà in vigore il 25 maggio 2018: è un modo comune di esprimersi, ma la data corretta è quella di applicazione. I due anni di differenza servivano a imprese e pubbliche amministrazioni per adeguarsi. In Italia l'adeguamento del Codice Privacy è arrivato con il decreto legislativo 10 agosto 2018, numero 101, pubblicato in Gazzetta Ufficiale il 4 settembre 2018.\n\nPerché serviva un nuovo Regolamento? Il materiale del corso indica tre ragioni: la continua evoluzione dei concetti di privacy e protezione dei dati, la diffusione del progresso tecnologico e la massima diffusione dei dati, con una condivisione ai massimi livelli. Il Regolamento dice cose molto simili nei considerando 6, 7 e 9: la tecnologia consente alle imprese e alle autorità di usare i dati come mai prima, le persone pubblicano informazioni su scala mondiale, e la Direttiva non aveva impedito la frammentazione tra gli Stati né l'incertezza giuridica. Serviva un quadro più solido e coerente, anche per creare quel clima di fiducia senza il quale l'economia digitale non cresce. C'è poi una differenza tecnica: una Direttiva va recepita da ciascuno Stato con una propria legge, mentre il Regolamento è obbligatorio in tutti i suoi elementi e direttamente applicabile.\n\nA chi si applica il GDPR? L'articolo 2 dice che si applica ai trattamenti interamente o parzialmente automatizzati, quindi a tutto ciò che passa da computer, gestionali, posta elettronica e app, e anche ai trattamenti non automatizzati di dati contenuti in un archivio o destinati a figurarvi: i fascicoli cartacei ordinati per cliente sono un esempio tipico. Non si applica alle attività esclusivamente personali o domestiche, come la rubrica dei propri amici o le foto di famiglia. Non riguarda le informazioni davvero anonime, né i dati delle persone giuridiche, come la ragione sociale e i recapiti generali di una società, come chiarisce il considerando 14. Infine, i trattamenti delle autorità competenti per prevenire e perseguire reati hanno regole proprie.\n\nL'articolo 3 definisce invece l'ambito territoriale. Il Regolamento si applica a chi è stabilito nell'Unione, anche se il trattamento avviene altrove, ad esempio su server fuori dall'Europa. E si applica anche a chi non è stabilito nell'Unione, quando offre beni o servizi a persone che si trovano nell'Unione, anche gratuitamente, oppure ne monitora il comportamento. Per questo anche le grandi piattaforme extraeuropee devono rispettare il GDPR quando si rivolgono a utenti europei.\n\nIl materiale del corso elenca alcune novità rilevanti del Regolamento: il diritto alla portabilità dei dati, la disciplina del data breach, cioè delle violazioni dei dati, la valutazione d'impatto sulla protezione dei dati, i registri delle attività di trattamento, la consultazione preventiva dell'autorità e la certificazione. Qui le citiamo solo, perché ognuna ha il suo spazio nel corso. La portabilità la vedremo in questo stesso modulo, tra i diritti degli interessati. Registri e certificazione rientrano negli adempimenti di titolare e responsabile. Data breach, valutazione d'impatto e consultazione preventiva fanno parte del modulo sulla sicurezza e sulla gestione del rischio. Il filo comune è un cambio di approccio: meno autorizzazioni preventive e più responsabilità di chi tratta i dati, che deve organizzarsi e saper dimostrare di rispettare le regole.\n\nChiudiamo con un organismo europeo spesso poco conosciuto: il Comitato europeo per la protezione dei dati, in inglese European Data Protection Board, o EDPB. È un organismo dell'Unione con personalità giuridica e opera in modo indipendente. Al suo interno c'è un rappresentante per ogni Stato, cioè la figura di vertice di un'autorità di controllo nazionale, per l'Italia il Garante, più il Garante europeo della protezione dei dati, che vigila sulle istituzioni dell'Unione. La Commissione europea partecipa alle riunioni, ma senza diritto di voto. Il Comitato ha preso il posto del cosiddetto Gruppo Articolo 29, che riuniva le autorità sotto la vecchia Direttiva.\n\nI suoi compiti sono innumerevoli. Il materiale del corso ne conta 24; l'elenco dell'articolo 70 va in realtà dalla lettera a) alla lettera y), quindi sono 25, e l'articolo li introduce con le parole in particolare, quindi l'elenco non è chiuso. Tra i più importanti: monitora il Regolamento e ne assicura la piena e corretta applicazione; consiglia la Commissione su ogni questione di protezione dei dati, comprese eventuali proposte di modifica del Regolamento, mentre la proposta formale spetta alla Commissione; pubblica linee guida, raccomandazioni e migliori prassi, che sono strumenti preziosi anche per le aziende; incoraggia i codici di condotta e i meccanismi di certificazione. Sulla certificazione il corso dice che il Comitato effettua l'accreditamento degli organismi di certificazione: per l'esattezza il Comitato approva i criteri di certificazione e i requisiti per l'accreditamento, mentre l'accreditamento vero e proprio è fatto dall'autorità di controllo nazionale o dall'organismo nazionale di accreditamento, che in Italia è Accredia. Infine, quando le autorità di più Stati non si accordano su un caso transfrontaliero, il Comitato adotta decisioni vincolanti.\n\nRicapitolando: diritto fondamentale ma non assoluto; in vigore dal 2016 e applicabile dal 25 maggio 2018; Codice Privacy adeguato dal decreto 101 del 2018; regole valide per carta e computer, a prescindere dalla dimensione dell'azienda; un Comitato europeo che garantisce coerenza. Nella prossima lezione vedremo le parole chiave del Regolamento, a partire da che cosa significa davvero dato personale.",
+      "sources": [
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo arricchito con i considerando – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=6264597"
+        },
+        {
+          "title": "Garante privacy, Il testo del Regolamento (UE) 2016/679 (GU L 119 del 4.5.2016)",
+          "url": "https://www.garanteprivacy.it/regolamentoue/il-testo-del-regolamento"
+        },
+        {
+          "title": "Codice in materia di protezione dei dati personali (d.lgs. 196/2003 come modificato dal d.lgs. 101/2018), testo coordinato – Garante privacy",
+          "url": "https://www.garanteprivacy.it/garante/document?ID=9042678"
+        },
+        {
+          "title": "EDPB, The European Data Protection Board (chi siamo)",
+          "url": "https://www.edpb.europa.eu/about-edpb/who-we-are/european-data-protection-board_en"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: tra le fonti normative è indicato il \"Codice Privacy\". Precisato che si tratta del d.lgs. 196/2003 come modificato dal d.lgs. 101/2018, che lo ha adeguato al GDPR.",
+          "source_ref": "d.lgs. 196/2003, testo coordinato Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Data di abrogazione della Direttiva 95/46/CE (25 maggio 2018) e rinvio dei riferimenti al Regolamento.",
+          "source_ref": "Reg. UE 2016/679, art. 94"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"principio del pari grado\" per il bilanciamento con gli altri diritti fondamentali. Il considerando 4 parla di principio di proporzionalità: indicato accanto. Mantenuta anche la formula \"Direttiva 95/46/EU\", con la denominazione corretta \"95/46/CE\".",
+          "source_ref": "Reg. UE 2016/679, considerando 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Fondamento del diritto nella Carta dei diritti fondamentali UE (art. 8) e obiettivi del Regolamento collegati ai considerando 7 e 13.",
+          "source_ref": "Reg. UE 2016/679, considerando 1, 7, 13"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: \"Entrerà in vigore il 25 maggio 2018\". Precisato che il Regolamento è entrato in vigore il 24 maggio 2016 (ventesimo giorno dalla pubblicazione in GU L 119 del 4.5.2016) e si applica dal 25 maggio 2018.",
+          "source_ref": "Reg. UE 2016/679, art. 99"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Data del d.lgs. 101/2018 (10 agosto 2018, G.U. n. 205 del 4 settembre 2018).",
+          "source_ref": "Codice Privacy, testo coordinato Garante"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ragioni del Regolamento dai considerando 6, 7, 9 e diretta applicabilità del Regolamento.",
+          "source_ref": "Reg. UE 2016/679, considerando 6, 7, 9; art. 99"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Ambito di applicazione materiale e territoriale, con esclusioni (attività domestiche, dati anonimi, persone giuridiche) e caso pratico sull'archivio cartaceo.",
+          "source_ref": "Reg. UE 2016/679, artt. 2-3; considerando 14, 26"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Per ogni novità della slide 7, articolo di riferimento e rinvio al modulo che la tratta.",
+          "source_ref": "Reg. UE 2016/679, artt. 20, 30, 33-36, 42-43"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Comitato europeo ha \"24 compiti\". L'art. 70, par. 1, ne elenca 25 (lettere a-y), introdotti da \"in particolare\".",
+          "source_ref": "Reg. UE 2016/679, art. 70"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Comitato \"fa proposte di modifica del Regolamento\". Precisato che fornisce consulenza alla Commissione anche sulle proposte di modifica (art. 70, par. 1, lett. b).",
+          "source_ref": "Reg. UE 2016/679, art. 70, par. 1, lett. b)"
+        },
+        {
+          "kind": "modificato",
+          "description": "Mantenuta dalla fonte: il Comitato \"effettua accreditamento degli organismi di certificazione\". Precisato che approva criteri di certificazione e requisiti di accreditamento; l'accreditamento è svolto dall'autorità di controllo e/o dall'organismo nazionale di accreditamento (in Italia Accredia, Ente unico nazionale di accreditamento).",
+          "source_ref": "Reg. UE 2016/679, artt. 43 e 70, lett. o)-p); Codice Privacy, art. 2-septiesdecies"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Composizione, indipendenza e personalità giuridica del Comitato, ruolo della Commissione senza diritto di voto, sostituzione del Gruppo Articolo 29, decisioni vincolanti.",
+          "source_ref": "Reg. UE 2016/679, artt. 65, 68, 69, 94; sito EDPB"
+        }
+      ]
+    }
+  ]
+}
