@@ -660,7 +660,8 @@
           "description": "Mantenuta dalla fonte la distinzione tra intercettazione informatica (sistemi collegati da cavi) e telematica (reti non collegate in modo permanente da cavi). Il criterio dei cavi è semplificato e non corrisponde a una definizione normativa: precisato che oggi le due forme si sovrappongono. Riferimento da indicare / possibile aggiornamento con le norme del codice penale sulle intercettazioni informatiche e telematiche.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Denial of Service e DDoS",
@@ -988,7 +989,8 @@
           "description": "Mantenuta dalla fonte la definizione di sinkholing come deviazione di \"tutto il traffico\" verso un vicolo cieco: nella pratica si cerca di deviare solo il traffico malevolo (deviare tutto equivale a rendere comunque irraggiungibile il servizio). Riferimento da indicare / possibile precisazione.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Gli strumenti di difesa: antivirus, firewall, patch, antispam e honeypot",

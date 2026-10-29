@@ -1067,7 +1067,8 @@
           "description": "Caso pratico sul calcolo dei 120 giorni e due verifiche.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Difesa, violazioni ripetute e decisione",
@@ -1440,7 +1441,8 @@
           "description": "Caso pratico sulla strategia difensiva e due verifiche.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Pagamento, responsabilità e procedimento davanti al Collegio di garanzia",
@@ -1856,7 +1858,8 @@
           "description": "Caso pratico sul procedimento davanti al Collegio e sul pagamento; due verifiche.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     }
   ]
 }

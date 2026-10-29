@@ -699,7 +699,8 @@
           "description": "Mantenuta dalla fonte: «immutabilità, perché i dati non possono essere modificati senza il consenso della rete». Precisato nella lezione successiva il rapporto con il GDPR.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "L'impatto della blockchain nel settore assicurativo",

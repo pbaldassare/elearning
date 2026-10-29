@@ -64,10 +64,11 @@ async function main(dir) {
       const saved = await one(db.from('lessons').upsert(row, { onConflict: 'module_id,position' }).select('id').single());
       await one(db.from('content_changes').delete().eq('lesson_id', saved.id));
       if (l.changes?.length) await one(db.from('content_changes').insert(l.changes.map((c) => ({ ...c, lesson_id: saved.id }))));
-      const wanted = courses.filter((c) => COURSES[t.scope].includes(c.title));
+      // Una lezione può allargare lo scope del suo argomento (es. lezione base di un argomento solo 60 ore).
+      const wanted = courses.filter((c) => COURSES[l.scope ?? t.scope].includes(c.title));
       await one(db.from('course_lessons').delete().eq('lesson_id', saved.id));
       await one(db.from('course_lessons').insert(wanted.map((c) => ({ course_id: c.id, lesson_id: saved.id }))));
-      console.log(`${t.topic} › ${l.title}: ${Math.round(row.min_seconds / 60)} min (${t.scope})`);
+      console.log(`${t.topic} › ${l.title}: ${Math.round(row.min_seconds / 60)} min (${l.scope ?? t.scope})`);
     }
   }
 }

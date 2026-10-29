@@ -60,7 +60,7 @@ on conflict (module_id, position) do update set topic = excluded.topic, title = 
         ref: `${L.prefix}lezione:${mp}.${pos}:${si + 1}`, mp, pos, text: sl.question, explanation: sl.explanation,
         source: `Verifica della lezione «${l.title}»`, options: sl.options.map((o, i) => ({ text: o, correct: i === sl.answer })),
       }));
-      sql.push(`insert into learning.course_lessons (course_id, lesson_id) select c.id, ${lid(pos)} from learning.courses c where c.title in (${L.courses[t.scope].map(q).join(', ')}) on conflict do nothing;`);
+      sql.push(`insert into learning.course_lessons (course_id, lesson_id) select c.id, ${lid(pos)} from learning.courses c where c.title in (${L.courses[l.scope ?? t.scope].map(q).join(', ')}) on conflict do nothing;`);
     });
   }
   sql.push('commit;');

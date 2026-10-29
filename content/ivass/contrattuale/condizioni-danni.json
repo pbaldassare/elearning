@@ -403,7 +403,8 @@
           "description": "Omessi intestazione con il nome del coordinatore scientifico, contatti e chiusura del vecchio fornitore: non sono affermazioni di contenuto.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "I valori nelle assicurazioni di beni: dal valore assicurabile al massimo danno probabile",
@@ -1365,7 +1366,8 @@
           "description": "Franchigia RC auto: inopponibilità al danneggiato, rivalsa, formule tariffarie a franchigia.",
           "source_ref": "CAP, artt. 133 e 144; Glossario IVASS"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "La polizza infortuni: definizione, limiti e prestazioni",

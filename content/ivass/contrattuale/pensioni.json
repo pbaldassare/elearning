@@ -338,7 +338,8 @@
           "description": "Mantenuto dalla fonte che il D.Lgs. 252/2005 attua «la predetta legge delega»: si tratta della delega della L. 243/2004. Precisato nel testo.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "La riforma Monti-Fornero e la pensione di vecchiaia",
@@ -672,7 +673,8 @@
           "description": "Mantenuta dalla fonte l'abolizione delle finestre mobili dal 2012: precisato che per la pensione anticipata dal 2019 si applica una finestra di tre mesi (D.L. 4/2019).",
           "source_ref": "INPS, Pensione anticipata"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "La pensione anticipata",

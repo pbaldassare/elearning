@@ -2168,7 +2168,8 @@
           "description": "Il placement slip, citato nel titolo della slide della fonte senza definizione, è descritto come documento di proposta e collocamento del rischio.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Eccedente, trattati non proporzionali, rami vita e fac-ob",
@@ -2509,7 +2510,8 @@
           "description": "Mantenuta dalla fonte l'attribuzione dell'aggregate excess of loss alle assicurazioni grandine e dell'eccesso per rischio alla RC: indicazioni tecniche della fonte, senza riferimento normativo.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "60"
     }
   ]
 }

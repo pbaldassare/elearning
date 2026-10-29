@@ -268,7 +268,8 @@
           "description": "Mantenuto dalla fonte l'elenco dei tratti psicologici (sette voci) e delle 4 fasi, riordinati in tabella e in passi.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Footprinting e social network: come l'attaccante raccoglie le informazioni",
@@ -514,7 +515,8 @@
           "description": "Esempi pratici riferiti all'agenzia (documenti nel cestino, cliente al bancone, foto in ufficio), caso pratico sul profilo social del collaboratore, consiglio di usare l'autenticazione a due fattori al posto delle sole domande di sicurezza.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Phishing, smishing, vishing e altre truffe",
@@ -839,7 +841,8 @@
           "description": "Precisazione didattica che il lucchetto/https indica una connessione cifrata e non l'autenticità del sito; spiegazione della differenza pratica tra pharming e phishing; esempi e caso pratico sul pagamento del premio.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Difendersi: policy, controlli e cosa fare in caso di incidente",
@@ -1188,7 +1191,8 @@
           "description": "Mantenute dalla fonte le tre modalità dell'IT audit (\"revisione del processo di innovazione tecnologica; verifica e confronto innovativo; verifica della posizione tecnologica\"), riportate testualmente perché la fonte non le spiega. Riferimento da indicare.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "60"
     }
   ]
 }

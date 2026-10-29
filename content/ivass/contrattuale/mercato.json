@@ -390,7 +390,8 @@
           "description": "Esempi per la rete delle tre forme di integrazione: esemplificazione didattica, non presente nella fonte.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "L'impresa di assicurazione come organizzazione di servizio e il processo assicurativo",

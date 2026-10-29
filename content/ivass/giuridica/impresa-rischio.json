@@ -350,7 +350,8 @@
           "description": "Le parti su IoT, Shadow IT e supply chain sono state riunite in un'unica tabella; il testo è riformulato senza togliere affermazioni.",
           "source_ref": null
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Ruoli, livelli di controllo e governo dei rischi nell'impresa",
@@ -765,7 +766,8 @@
           "description": "Riformulata la frase della fonte 'tutte le attività ... sono dirette al Senior Management e dal Consiglio di Amministrazione' (sintassi non chiara) come: le attività dei tre livelli fanno capo all'alta direzione e al CdA. Il modello delle 'tre linee di difesa' non compare con questo nome nel Reg. IVASS 38/2018: è mantenuto come schema della fonte.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Gestire i rischi puri: identificare, stimare, trasferire",
@@ -1123,7 +1125,8 @@
           "description": "Mantenuta dalla fonte: il risk management 'contribuisce alla creazione di valore ... trasformando costi incerti in altri prevedibili e un aumento di essi nel medio-lungo termine'. La frase originale è ambigua sull'oggetto dell'aumento (i flussi attesi): riformulata in questo senso.",
           "source_ref": "Materiale originale del corso"
         }
-      ]
+      ],
+      "scope": "60"
     },
     {
       "title": "Enterprise Risk Management e valutazione interna del rischio",
@@ -1558,7 +1561,8 @@
           "description": "Dal video originale: dopo aver preso visione dei rischi residui, la direzione aziendale li allinea al risk appetite desiderato con un piano di trattamento dei rischi.",
           "source_ref": "Video: Corso ivass 30 ore/CORSO 30 ORE CON DIVISIONE SLIDES/Area giuridica/Impresa di assicurazione /enterprise risk management.mp4.txt"
         }
-      ]
+      ],
+      "scope": "60"
     }
   ]
 }

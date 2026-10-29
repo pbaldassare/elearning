@@ -378,7 +378,8 @@
           "description": "Divieto per i distributori di ricevere contante per i premi vita.",
           "source_ref": "Reg. IVASS 40/2018, art. 54, c. 7"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "Le basi tecniche: tre ipotesi, premio e riserva matematica",
@@ -2345,7 +2346,8 @@
           "description": "Mantenuti dalla fonte i tempi della riattivazione (dopo 20 o 30 giorni dalla scadenza, senza condizioni entro 6 mesi, poi con accettazione della compagnia). Riferimento normativo non individuato: sono condizioni contrattuali tipiche da verificare in polizza.",
           "source_ref": "Materiale originale"
         }
-      ]
+      ],
+      "scope": "core"
     },
     {
       "title": "Prestito, cessione, pegno e vincolo; beneficiari e polizze dormienti",
