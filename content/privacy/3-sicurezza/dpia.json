@@ -314,17 +314,17 @@
       "changes": [
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 14): «Descrizione sintetica dei trattamenti e delle finalità e l'interesse legittimo perseguito dal responsabile del trattamento». Il testo ufficiale parla di descrizione «sistematica» e di interesse legittimo perseguito dal «titolare», «ove applicabile»: riformulato di conseguenza.",
+          "description": "Corretto su richiesta dell'utente: «descrizione sintetica… interesse legittimo perseguito dal responsabile» → «descrizione sistematica… compreso, ove applicabile, l'interesse legittimo perseguito dal titolare».",
           "source_ref": "Reg. UE 2016/679, art. 35, par. 7, lett. a"
         },
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 13): il meccanismo di coerenza si applica prima di adottare gli elenchi. Precisato che, secondo il testo ufficiale, vale quando gli elenchi riguardano trattamenti in più Stati membri o che incidono sulla libera circolazione dei dati nell'Unione.",
+          "description": "Corretto su richiesta dell'utente: meccanismo di coerenza sempre prima degli elenchi → si applica quando gli elenchi riguardano trattamenti in più Stati membri o che incidono sulla libera circolazione dei dati nell'Unione.",
           "source_ref": "Reg. UE 2016/679, art. 35, par. 6"
         },
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 14, lett. d): «le misure previste contro questi rischi». Integrata con garanzie, misure di sicurezza e meccanismi per dimostrare la conformità, come nel testo ufficiale.",
+          "description": "Corretto su richiesta dell'utente: «le misure previste contro questi rischi» → misure, garanzie, misure di sicurezza e meccanismi per proteggere i dati e dimostrare la conformità.",
           "source_ref": "Reg. UE 2016/679, art. 35, par. 7, lett. d"
         },
         {

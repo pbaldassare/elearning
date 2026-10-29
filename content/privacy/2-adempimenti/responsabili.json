@@ -7,7 +7,9 @@
   "lessons": [
     {
       "title": "Contitolari e responsabile del trattamento",
-      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 57-60"],
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 57-60"
+      ],
       "source_minutes": 0,
       "slides": [
         {
@@ -31,11 +33,22 @@
           "layout": "checklist",
           "title": "L'accordo tra contitolari",
           "items": [
-            {"text": "È obbligatorio: il materiale lo chiama accordo di riparto, il GDPR accordo interno"},
-            {"text": "Stabilisce i rispettivi compiti e responsabilità"},
-            {"text": "Indica in particolare chi gestisce l'esercizio dei diritti e chi dà l'informativa"},
-            {"text": "Può indicare un punto di contatto per gli interessati"},
-            {"text": "Il suo contenuto essenziale è messo a disposizione dell'interessato", "ref": "Reg. UE 2016/679, art. 26, par. 1-2"}
+            {
+              "text": "È obbligatorio: il materiale lo chiama accordo di riparto, il GDPR accordo interno"
+            },
+            {
+              "text": "Stabilisce i rispettivi compiti e responsabilità"
+            },
+            {
+              "text": "Indica in particolare chi gestisce l'esercizio dei diritti e chi dà l'informativa"
+            },
+            {
+              "text": "Può indicare un punto di contatto per gli interessati"
+            },
+            {
+              "text": "Il suo contenuto essenziale è messo a disposizione dell'interessato",
+              "ref": "Reg. UE 2016/679, art. 26, par. 1-2"
+            }
           ]
         },
         {
@@ -66,7 +79,7 @@
           "left": {
             "title": "Nei rapporti interni",
             "items": [
-              "Ogni contitolare risponde di quanto previsto nell'accordo di riparto",
+              "L'accordo di riparto stabilisce compiti e responsabilità di ciascun contitolare",
               "Non c'è fusione delle organizzazioni: ognuno resta un soggetto distinto"
             ],
             "ref": "Materiale originale del corso"
@@ -105,19 +118,30 @@
         {
           "layout": "concept",
           "title": "La nomina del responsabile",
-          "key": "Con il GDPR la nomina è diventata obbligatoria e avviene con un contratto o un altro atto giuridico scritto, anche in formato elettronico, che vincola il responsabile al titolare.",
-          "body": "Il materiale aggiunge che il responsabile non può rifiutare la nomina e che la nomina di uno o più responsabili risponde a un'ottica di efficienza organizzativa. Con il contratto il titolare delega al responsabile la concreta gestione del trattamento.",
+          "key": "Se affida un trattamento a un soggetto esterno, il titolare deve regolarlo con un contratto o un altro atto giuridico scritto, anche in formato elettronico, che vincola il responsabile al titolare.",
+          "body": "Il contratto è un accordo: il fornitore lo sottoscrive e si impegna a rispettarlo. La nomina di uno o più responsabili risponde a un'ottica di efficienza organizzativa. Con il contratto il titolare delega al responsabile la concreta gestione del trattamento.",
           "ref": "Materiale originale del corso; Reg. UE 2016/679, art. 28, par. 3 e 9"
         },
         {
           "layout": "checklist",
           "title": "Che cosa deve indicare il contratto",
           "items": [
-            {"text": "La materia disciplinata"},
-            {"text": "La durata, la natura e le finalità del trattamento"},
-            {"text": "Il tipo di dati trattati e le categorie di interessati"},
-            {"text": "Gli obblighi e i diritti del titolare"},
-            {"text": "Gli obblighi del responsabile: istruzioni documentate, riservatezza, sicurezza, sub-responsabili, assistenza, cancellazione o restituzione, audit", "ref": "Reg. UE 2016/679, art. 28, par. 3"}
+            {
+              "text": "La materia disciplinata"
+            },
+            {
+              "text": "La durata, la natura e le finalità del trattamento"
+            },
+            {
+              "text": "Il tipo di dati trattati e le categorie di interessati"
+            },
+            {
+              "text": "Gli obblighi e i diritti del titolare"
+            },
+            {
+              "text": "Gli obblighi del responsabile: istruzioni documentate, riservatezza, sicurezza, sub-responsabili, assistenza, cancellazione o restituzione, audit",
+              "ref": "Reg. UE 2016/679, art. 28, par. 3"
+            }
           ]
         },
         {
@@ -139,27 +163,48 @@
             ],
             "ref": "EDPB, Linee guida 07/2020"
           },
-          "note": "Il materiale lo dice in breve: il responsabile non può mai determinare le finalità del trattamento, ma solo i mezzi.",
+          "note": "In breve: il responsabile non determina mai le finalità né i mezzi essenziali; può decidere solo aspetti pratici.",
           "noteRef": "Materiale originale del corso"
         },
         {
           "layout": "concept",
           "title": "Scegliere un responsabile affidabile",
           "key": "Il titolare deve scegliere un responsabile che presenti garanzie sufficienti per mettere in atto misure tecniche e organizzative adeguate e rispettare le istruzioni ricevute.",
-          "body": "Le garanzie consistono in conoscenza specialistica e affidabilità. L'adesione del fornitore a un codice di condotta o a una certificazione può aiutare a dimostrarle. Se il titolare sceglie un responsabile senza queste garanzie può essere sanzionato.",
+          "body": "Le garanzie consistono in conoscenza specialistica e affidabilità. L'adesione del fornitore a un codice di condotta o a una certificazione può aiutare a dimostrarle. Se il titolare sceglie un responsabile senza queste garanzie viola l'art. 28: sanzione fino a 10 milioni di euro o al 2% del fatturato mondiale annuo, se superiore.",
           "ref": "Reg. UE 2016/679, art. 28, par. 1 e 5"
         },
         {
           "layout": "table",
           "title": "Responsabile o titolare autonomo? Esempi",
-          "head": ["Fornitore", "Ruolo"],
+          "head": [
+            "Fornitore",
+            "Ruolo"
+          ],
           "rows": [
-            ["Società che elabora le buste paga secondo istruzioni precise", "Responsabile"],
-            ["Call center che risponde ai clienti dell'azienda", "Responsabile"],
-            ["Fornitore IT per la manutenzione dei sistemi, con accesso sistematico ai dati", "Responsabile"],
-            ["Servizio di hosting che conserva i dati sui suoi server", "Responsabile"],
-            ["Società di revisione contabile che decide da sé quali dati le servono", "Titolare autonomo, salvo istruzioni molto dettagliate"],
-            ["Tecnico chiamato una volta per un bug, con accesso solo occasionale", "Né l'uno né l'altro: servono misure per limitare l'accesso"]
+            [
+              "Società che elabora le buste paga secondo istruzioni precise",
+              "Responsabile"
+            ],
+            [
+              "Call center che risponde ai clienti dell'azienda",
+              "Responsabile"
+            ],
+            [
+              "Fornitore IT per la manutenzione dei sistemi, con accesso sistematico ai dati",
+              "Responsabile"
+            ],
+            [
+              "Servizio di hosting che conserva i dati sui suoi server",
+              "Responsabile"
+            ],
+            [
+              "Società di revisione contabile che decide da sé quali dati le servono",
+              "Titolare autonomo, salvo istruzioni molto dettagliate"
+            ],
+            [
+              "Tecnico chiamato una volta per un bug, con accesso solo occasionale",
+              "Né l'uno né l'altro: servono misure per limitare l'accesso"
+            ]
           ]
         },
         {
@@ -190,34 +235,93 @@
           "layout": "recap",
           "title": "Da ricordare",
           "items": [
-            {"value": "Congiuntamente", "text": "I contitolari decidono insieme finalità e mezzi e stipulano un accordo."},
-            {"value": "Ciascuno", "text": "L'interessato può rivolgersi a ciascun contitolare."},
-            {"value": "Per conto", "text": "Il responsabile tratta i dati per conto del titolare, secondo istruzioni."},
-            {"value": "Contratto scritto", "text": "Indica materia, durata, natura, finalità, dati, interessati, obblighi e diritti."},
-            {"value": "Garanzie", "text": "Il titolare sceglie responsabili competenti e affidabili."}
+            {
+              "value": "Congiuntamente",
+              "text": "I contitolari decidono insieme finalità e mezzi e stipulano un accordo."
+            },
+            {
+              "value": "Ciascuno",
+              "text": "L'interessato può rivolgersi a ciascun contitolare."
+            },
+            {
+              "value": "Per conto",
+              "text": "Il responsabile tratta i dati per conto del titolare, secondo istruzioni."
+            },
+            {
+              "value": "Contratto scritto",
+              "text": "Indica materia, durata, natura, finalità, dati, interessati, obblighi e diritti."
+            },
+            {
+              "value": "Garanzie",
+              "text": "Il titolare sceglie responsabili competenti e affidabili."
+            }
           ]
         }
       ],
-      "narration": "Nel primo argomento di questo modulo abbiamo conosciuto il titolare del trattamento. Raramente però un'azienda tratta i dati da sola: collabora con partner, si affida a consulenti, usa servizi informatici esterni. In questa lezione vediamo due figure che nascono proprio da queste collaborazioni: i contitolari e il responsabile del trattamento.\n\nPartiamo dai contitolari, una figura espressamente regolata dal GDPR all'articolo 26. Sono contitolari del trattamento i soggetti che, congiuntamente, determinano le finalità e i mezzi del trattamento. Non basta che due soggetti trattino gli stessi dati: devono decidere insieme perché e come trattarli. Le Linee guida del Comitato europeo per la protezione dei dati fanno l'esempio di due società che lanciano un prodotto con un marchio comune e decidono insieme di organizzare un evento, mettendo in comune i rispettivi elenchi di clienti e scegliendo insieme gli invitati e le modalità di invito. In questo caso decidono insieme la finalità e i mezzi: sono contitolari. Le stesse Linee guida precisano che la contitolarità non implica necessariamente pari responsabilità: i soggetti possono intervenire in fasi diverse e in misura diversa, e il livello di responsabilità di ciascuno va valutato alla luce delle circostanze.\n\nI contitolari sono obbligati a sottoscrivere un accordo, che il materiale chiama accordo di riparto e il Regolamento accordo interno. È un contratto che determina i rispettivi compiti e le rispettive responsabilità, con particolare riguardo all'esercizio dei diritti degli interessati e a chi deve fornire l'informativa. L'accordo può designare un punto di contatto per gli interessati e deve riflettere i ruoli effettivi di ciascuno. Il suo contenuto essenziale deve essere conosciuto dall'interessato, cioè messo a sua disposizione, ad esempio richiamandolo nell'informativa.\n\nCome capire se c'è contitolarità oppure ci sono semplicemente più titolari distinti? Le Linee guida EDPB offrono esempi molto chiari. Un'agenzia di viaggi invia alla compagnia aerea e all'albergo i dati dei clienti per prenotare un pacchetto: ciascuno tratta i dati per la propria attività e con i propri mezzi, quindi sono tre titolari distinti. Se però le stesse imprese creano insieme una piattaforma internet comune per vendere pacchetti, decidendo insieme quali dati conservare, come confermare le prenotazioni e chi può accedere, e magari decidono di fare marketing congiunto, per quei trattamenti diventano contitolari; per tutto il resto ciascuno resta titolare autonomo. Allo stesso modo, un'azienda che invia al fisco i dati sulle retribuzioni perché la legge lo impone non è contitolare con l'amministrazione finanziaria: manca una decisione congiunta. E un gruppo di società che usa la stessa banca dati, ciascuna per i propri clienti e senza accedere ai dati delle altre, non crea di per sé contitolarità.\n\nVeniamo alle responsabilità. Il materiale afferma che ogni contitolare risponde esclusivamente di quanto previsto nell'accordo di riparto, e che non si ha una fusione delle organizzazioni di trattamento: ciascuno resta un soggetto distinto con la propria struttura. Questa affermazione va letta con attenzione, perché vale nei rapporti interni tra contitolari. Verso l'interessato le regole sono più protettive. Gli interessati possono rivolgersi indifferentemente all'uno o all'altro dei contitolari: il Regolamento dice che, indipendentemente da quanto previsto dall'accordo, l'interessato può esercitare i propri diritti nei confronti di ciascun titolare. E per il risarcimento dei danni vale la regola che abbiamo visto con l'articolo 82: se più titolari sono coinvolti nello stesso trattamento e sono responsabili del danno, ciascuno risponde in solido per l'intero, per garantire un risarcimento effettivo; chi ha pagato può poi chiedere agli altri la loro parte, ed è qui che l'accordo di riparto conta davvero.\n\nFacciamo una verifica, poi passiamo al responsabile del trattamento.\n\nIl responsabile del trattamento, in inglese data processor, è la persona fisica, la persona giuridica, l'amministrazione, l'ente, l'organismo o il servizio che tratta ed elabora i dati personali per conto del titolare del trattamento, secondo le sue istruzioni. Le parole chiave sono «per conto»: il responsabile non tratta i dati per sé, ma per svolgere un servizio al titolare. È sempre un soggetto distinto dal titolare. L'EDPB lo chiarisce: se il titolare tratta i dati con il proprio personale, non ci sono responsabili. I dipendenti, anche quelli assunti temporaneamente, fanno parte della struttura del titolare e sono persone autorizzate, una figura che vedremo nella prossima lezione. E un ufficio dell'azienda non può essere responsabile per conto di un altro ufficio della stessa azienda.\n\nCon il GDPR la nomina del responsabile è divenuta obbligatoria. Il materiale aggiunge che il responsabile non può rifiutare e che la nomina di uno o più responsabili è prevista nell'ottica dell'efficienza organizzativa: il titolare affida a specialisti attività che non svolge direttamente. Su un punto conviene essere precisi: il Regolamento richiede che il rapporto sia disciplinato da un contratto o da un altro atto giuridico scritto, anche in formato elettronico, che vincoli il responsabile al titolare. In pratica, quindi, la nomina si inserisce nel contratto di servizio, spesso come allegato o accordo sul trattamento dei dati, che il fornitore sottoscrive. Con questo contratto il titolare delega al responsabile la concreta gestione del trattamento, ma non la responsabilità delle scelte di fondo.\n\nChe cosa deve indicare la nomina? La materia disciplinata; la durata, la natura e le finalità del trattamento; il tipo di dati trattati e le categorie di interessati; gli obblighi e i diritti del titolare. L'articolo 28 elenca poi gli impegni che il contratto deve imporre al responsabile: trattare i dati solo su istruzione documentata del titolare; garantire che le persone che trattano i dati siano vincolate alla riservatezza; adottare le misure di sicurezza; rispettare le regole sui sub-responsabili; assistere il titolare; cancellare o restituire i dati al termine del servizio; mettere a disposizione le informazioni necessarie e consentire le verifiche. Questi obblighi li approfondiamo nella prossima lezione.\n\nIl responsabile del trattamento non può mai determinare le finalità del trattamento, ma solo i mezzi. Le Linee guida EDPB precisano questa idea distinguendo tra mezzi essenziali e mezzi non essenziali. I mezzi essenziali sono strettamente legati alla finalità: quali dati trattare, per quanto tempo, chi vi ha accesso, di quali persone. Questi li decide sempre il titolare. I mezzi non essenziali sono gli aspetti pratici, come la scelta di un particolare hardware o software o di specifiche misure di sicurezza: su questi il responsabile può avere un margine di scelta. Ad esempio, la società che elabora le buste paga riceve istruzioni precise su chi pagare, quanto, quando e quali dati comunicare al fisco, ma può scegliere il proprio software: resta responsabile del trattamento.\n\nIl titolare deve scegliere con cura. Deve affidarsi a un responsabile che presenti garanzie sufficienti per mettere in atto misure tecniche e organizzative adeguate, in modo da rispettare le istruzioni ricevute e i requisiti del Regolamento. Le garanzie consistono in conoscenza specialistica e affidabilità: competenze tecniche, risorse, reputazione, misure di sicurezza documentate. L'adesione del fornitore a un codice di condotta o a una certificazione può essere un elemento per dimostrarle. Se il titolare non sceglie un responsabile che presenti tali garanzie, può essere sanzionato: è una sua violazione, non solo del fornitore.\n\nVediamo qualche esempio dalle Linee guida EDPB. È responsabile la società che elabora le buste paga secondo le istruzioni del datore di lavoro; il call center a cui l'azienda affida l'assistenza clienti e che può usare i dati solo per quel servizio; il fornitore informatico incaricato della manutenzione dei sistemi, che inevitabilmente accede in modo sistematico ai dati anche se non è lo scopo principale del servizio; il servizio di hosting che conserva i dati sui propri server. È invece di norma titolare autonomo la società di revisione contabile che decide da sé, in base alle regole della propria professione, quali dati le servono e come trattarli; diventerebbe responsabile se il cliente le desse istruzioni molto dettagliate. Infine, il tecnico chiamato una volta per risolvere un bug, con un accesso solo accessorio e molto limitato, non è né responsabile né titolare: l'azienda deve però adottare misure per impedirgli trattamenti non autorizzati.\n\nNel caso pratico, una web agency gestisce il sito e-commerce e il database dei clienti senza alcuna clausola sulla protezione dei dati. È un responsabile del trattamento, e manca il contratto previsto dall'articolo 28: l'azienda deve rimediare subito, indicando istruzioni, durata, tipi di dati e obblighi. E la proposta della web agency di usare gli indirizzi per promuovere sé stessa va respinta: sarebbe una finalità propria. Come vedremo, chi viola le istruzioni decidendo finalità e mezzi viene considerato titolare di quel trattamento, con tutte le conseguenze.\n\nRicapitoliamo. I contitolari decidono insieme finalità e mezzi e devono stipulare un accordo che divide compiti e responsabilità, il cui contenuto essenziale è messo a disposizione degli interessati; l'interessato può comunque rivolgersi a ciascuno di loro. Il responsabile tratta i dati per conto del titolare, secondo le sue istruzioni, sulla base di un contratto scritto con contenuti precisi. Decide al massimo aspetti pratici, mai le finalità. E il titolare deve sceglierlo tra chi offre garanzie sufficienti di competenza e affidabilità.",
+      "narration": "Nel primo argomento di questo modulo abbiamo conosciuto il titolare del trattamento. Raramente però un'azienda tratta i dati da sola: collabora con partner, si affida a consulenti, usa servizi informatici esterni. In questa lezione vediamo due figure che nascono proprio da queste collaborazioni: i contitolari e il responsabile del trattamento.\n\nPartiamo dai contitolari, una figura espressamente regolata dal GDPR all'articolo 26. Sono contitolari del trattamento i soggetti che, congiuntamente, determinano le finalità e i mezzi del trattamento. Non basta che due soggetti trattino gli stessi dati: devono decidere insieme perché e come trattarli. Le Linee guida del Comitato europeo per la protezione dei dati fanno l'esempio di due società che lanciano un prodotto con un marchio comune e decidono insieme di organizzare un evento, mettendo in comune i rispettivi elenchi di clienti e scegliendo insieme gli invitati e le modalità di invito. In questo caso decidono insieme la finalità e i mezzi: sono contitolari. Le stesse Linee guida precisano che la contitolarità non implica necessariamente pari responsabilità: i soggetti possono intervenire in fasi diverse e in misura diversa, e il livello di responsabilità di ciascuno va valutato alla luce delle circostanze.\n\nI contitolari sono obbligati a sottoscrivere un accordo, che il materiale chiama accordo di riparto e il Regolamento accordo interno. È un contratto che determina i rispettivi compiti e le rispettive responsabilità, con particolare riguardo all'esercizio dei diritti degli interessati e a chi deve fornire l'informativa. L'accordo può designare un punto di contatto per gli interessati e deve riflettere i ruoli effettivi di ciascuno. Il suo contenuto essenziale deve essere conosciuto dall'interessato, cioè messo a sua disposizione, ad esempio richiamandolo nell'informativa.\n\nCome capire se c'è contitolarità oppure ci sono semplicemente più titolari distinti? Le Linee guida EDPB offrono esempi molto chiari. Un'agenzia di viaggi invia alla compagnia aerea e all'albergo i dati dei clienti per prenotare un pacchetto: ciascuno tratta i dati per la propria attività e con i propri mezzi, quindi sono tre titolari distinti. Se però le stesse imprese creano insieme una piattaforma internet comune per vendere pacchetti, decidendo insieme quali dati conservare, come confermare le prenotazioni e chi può accedere, e magari decidono di fare marketing congiunto, per quei trattamenti diventano contitolari; per tutto il resto ciascuno resta titolare autonomo. Allo stesso modo, un'azienda che invia al fisco i dati sulle retribuzioni perché la legge lo impone non è contitolare con l'amministrazione finanziaria: manca una decisione congiunta. E un gruppo di società che usa la stessa banca dati, ciascuna per i propri clienti e senza accedere ai dati delle altre, non crea di per sé contitolarità.\n\nVeniamo alle responsabilità. Nei rapporti interni, l'accordo di riparto stabilisce di che cosa risponde ciascun contitolare, e non si ha una fusione delle organizzazioni di trattamento: ciascuno resta un soggetto distinto con la propria struttura. Verso l'interessato, però, l'accordo non limita nulla e le regole sono più protettive. Gli interessati possono rivolgersi indifferentemente all'uno o all'altro dei contitolari: il Regolamento dice che, indipendentemente da quanto previsto dall'accordo, l'interessato può esercitare i propri diritti nei confronti di ciascun titolare. E per il risarcimento dei danni vale la regola che abbiamo visto con l'articolo 82: se più titolari sono coinvolti nello stesso trattamento e sono responsabili del danno, ciascuno risponde in solido per l'intero, per garantire un risarcimento effettivo; chi ha pagato può poi chiedere agli altri la loro parte, ed è qui che l'accordo di riparto conta davvero.\n\nFacciamo una verifica, poi passiamo al responsabile del trattamento.\n\nIl responsabile del trattamento, in inglese data processor, è la persona fisica, la persona giuridica, l'amministrazione, l'ente, l'organismo o il servizio che tratta ed elabora i dati personali per conto del titolare del trattamento, secondo le sue istruzioni. Le parole chiave sono «per conto»: il responsabile non tratta i dati per sé, ma per svolgere un servizio al titolare. È sempre un soggetto distinto dal titolare. L'EDPB lo chiarisce: se il titolare tratta i dati con il proprio personale, non ci sono responsabili. I dipendenti, anche quelli assunti temporaneamente, fanno parte della struttura del titolare e sono persone autorizzate, una figura che vedremo nella prossima lezione. E un ufficio dell'azienda non può essere responsabile per conto di un altro ufficio della stessa azienda.\n\nQuando il titolare affida un trattamento a un soggetto esterno, la nomina del responsabile è obbligatoria. Risponde a un'ottica di efficienza organizzativa: il titolare affida a specialisti attività che non svolge direttamente. Il Regolamento richiede che il rapporto sia disciplinato da un contratto o da un altro atto giuridico scritto, anche in formato elettronico, che vincoli il responsabile al titolare. È quindi un accordo, che il fornitore accetta e sottoscrive: la nomina si inserisce nel contratto di servizio, spesso come allegato o accordo sul trattamento dei dati, che il fornitore sottoscrive. Con questo contratto il titolare delega al responsabile la concreta gestione del trattamento, ma non la responsabilità delle scelte di fondo.\n\nChe cosa deve indicare la nomina? La materia disciplinata; la durata, la natura e le finalità del trattamento; il tipo di dati trattati e le categorie di interessati; gli obblighi e i diritti del titolare. L'articolo 28 elenca poi gli impegni che il contratto deve imporre al responsabile: trattare i dati solo su istruzione documentata del titolare; garantire che le persone che trattano i dati siano vincolate alla riservatezza; adottare le misure di sicurezza; rispettare le regole sui sub-responsabili; assistere il titolare; cancellare o restituire i dati al termine del servizio; mettere a disposizione le informazioni necessarie e consentire le verifiche. Questi obblighi li approfondiamo nella prossima lezione.\n\nIl responsabile del trattamento non può mai determinare le finalità del trattamento, e nemmeno i mezzi essenziali. Le Linee guida EDPB distinguono infatti tra mezzi essenziali e mezzi non essenziali. I mezzi essenziali sono strettamente legati alla finalità: quali dati trattare, per quanto tempo, chi vi ha accesso, di quali persone. Questi li decide sempre il titolare. I mezzi non essenziali sono gli aspetti pratici, come la scelta di un particolare hardware o software o di specifiche misure di sicurezza: su questi il responsabile può avere un margine di scelta. Ad esempio, la società che elabora le buste paga riceve istruzioni precise su chi pagare, quanto, quando e quali dati comunicare al fisco, ma può scegliere il proprio software: resta responsabile del trattamento.\n\nIl titolare deve scegliere con cura. Deve affidarsi a un responsabile che presenti garanzie sufficienti per mettere in atto misure tecniche e organizzative adeguate, in modo da rispettare le istruzioni ricevute e i requisiti del Regolamento. Le garanzie consistono in conoscenza specialistica e affidabilità: competenze tecniche, risorse, reputazione, misure di sicurezza documentate. L'adesione del fornitore a un codice di condotta o a una certificazione può essere un elemento per dimostrarle. Se il titolare non sceglie un responsabile che presenti tali garanzie, viola l'articolo 28 e può essere sanzionato: per gli obblighi degli articoli da 25 a 39 il Regolamento prevede sanzioni amministrative fino a 10 milioni di euro o, per le imprese, fino al 2 per cento del fatturato mondiale annuo, se superiore. È una sua violazione, non solo del fornitore.\n\nVediamo qualche esempio dalle Linee guida EDPB. È responsabile la società che elabora le buste paga secondo le istruzioni del datore di lavoro; il call center a cui l'azienda affida l'assistenza clienti e che può usare i dati solo per quel servizio; il fornitore informatico incaricato della manutenzione dei sistemi, che inevitabilmente accede in modo sistematico ai dati anche se non è lo scopo principale del servizio; il servizio di hosting che conserva i dati sui propri server. È invece di norma titolare autonomo la società di revisione contabile che decide da sé, in base alle regole della propria professione, quali dati le servono e come trattarli; diventerebbe responsabile se il cliente le desse istruzioni molto dettagliate. Infine, il tecnico chiamato una volta per risolvere un bug, con un accesso solo accessorio e molto limitato, non è né responsabile né titolare: l'azienda deve però adottare misure per impedirgli trattamenti non autorizzati.\n\nNel caso pratico, una web agency gestisce il sito e-commerce e il database dei clienti senza alcuna clausola sulla protezione dei dati. È un responsabile del trattamento, e manca il contratto previsto dall'articolo 28: l'azienda deve rimediare subito, indicando istruzioni, durata, tipi di dati e obblighi. E la proposta della web agency di usare gli indirizzi per promuovere sé stessa va respinta: sarebbe una finalità propria. Come vedremo, chi viola le istruzioni decidendo finalità e mezzi viene considerato titolare di quel trattamento, con tutte le conseguenze.\n\nRicapitoliamo. I contitolari decidono insieme finalità e mezzi e devono stipulare un accordo che divide compiti e responsabilità, il cui contenuto essenziale è messo a disposizione degli interessati; l'interessato può comunque rivolgersi a ciascuno di loro. Il responsabile tratta i dati per conto del titolare, secondo le sue istruzioni, sulla base di un contratto scritto con contenuti precisi. Decide al massimo aspetti pratici, mai le finalità. E il titolare deve sceglierlo tra chi offre garanzie sufficienti di competenza e affidabilità.",
       "sources": [
-        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
-        {"title": "EDPB, Linee guida 07/2020 sui concetti di titolare del trattamento e di responsabile del trattamento ai sensi del GDPR, versione 2.0", "url": "https://www.edpb.europa.eu/system/files/2023-10/edpb_guidelines_202007_controllerprocessor_final_it.pdf"}
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"
+        },
+        {
+          "title": "EDPB, Linee guida 07/2020 sui concetti di titolare del trattamento e di responsabile del trattamento ai sensi del GDPR, versione 2.0",
+          "url": "https://www.edpb.europa.eu/system/files/2023-10/edpb_guidelines_202007_controllerprocessor_final_it.pdf"
+        }
       ],
       "changes": [
-        {"kind": "aggiunto", "description": "Contenuto dell'accordo tra contitolari: esercizio dei diritti, informativa, punto di contatto, ruoli effettivi.", "source_ref": "Reg. UE 2016/679, art. 26, par. 1-2"},
-        {"kind": "aggiunto", "description": "Esempi di contitolarità e di titolari distinti (agenzia di viaggi, marketing con marchio comune, piattaforma di ricerca, invio dati al fisco, banca dati di gruppo); la contitolarità non implica pari responsabilità.", "source_ref": "EDPB, Linee guida 07/2020"},
-        {"kind": "aggiunto", "description": "I dipendenti non sono responsabili del trattamento; un ufficio non può essere responsabile per un altro ufficio della stessa società.", "source_ref": "EDPB, Linee guida 07/2020, par. 78"},
-        {"kind": "aggiunto", "description": "Distinzione tra mezzi essenziali e non essenziali; esempi di responsabili e titolari autonomi (buste paga, call center, servizi IT, hosting, revisione contabile, consulente per un bug).", "source_ref": "EDPB, Linee guida 07/2020"},
-        {"kind": "aggiunto", "description": "Forma scritta anche elettronica del contratto; elenco degli impegni del responsabile; codici e certificazioni per dimostrare le garanzie sufficienti.", "source_ref": "Reg. UE 2016/679, art. 28, par. 3, 5, 9"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: «ogni contitolare risponde esclusivamente di quanto previsto nell'accordo di riparto». Precisato che vale nei rapporti interni: verso l'interessato ciascun contitolare può essere chiamato a rispondere (diritti e risarcimento in solido).", "source_ref": "Reg. UE 2016/679, artt. 26, par. 3 e 82, par. 4"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: la nomina del responsabile «è divenuta obbligatoria e quest'ultimo non può rifiutare». Il GDPR richiede un contratto o altro atto giuridico vincolante: il fornitore lo sottoscrive. Riferimento normativo per il divieto di rifiuto da indicare.", "source_ref": "Reg. UE 2016/679, art. 28, par. 3"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il responsabile «non può mai determinare le finalità ma solo i mezzi». Precisato con le Linee guida EDPB: i mezzi essenziali restano al titolare, il responsabile può decidere quelli non essenziali.", "source_ref": "EDPB, Linee guida 07/2020"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il titolare che non sceglie un responsabile con garanzie sufficienti «può essere sanzionato». Articolo sanzionatorio (art. 83, par. 4 GDPR, per gli obblighi degli artt. 25-39) da confermare nel modulo 3.", "source_ref": "Materiale originale"}
+        {
+          "kind": "aggiunto",
+          "description": "Contenuto dell'accordo tra contitolari: esercizio dei diritti, informativa, punto di contatto, ruoli effettivi.",
+          "source_ref": "Reg. UE 2016/679, art. 26, par. 1-2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Esempi di contitolarità e di titolari distinti (agenzia di viaggi, marketing con marchio comune, piattaforma di ricerca, invio dati al fisco, banca dati di gruppo); la contitolarità non implica pari responsabilità.",
+          "source_ref": "EDPB, Linee guida 07/2020"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "I dipendenti non sono responsabili del trattamento; un ufficio non può essere responsabile per un altro ufficio della stessa società.",
+          "source_ref": "EDPB, Linee guida 07/2020, par. 78"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Distinzione tra mezzi essenziali e non essenziali; esempi di responsabili e titolari autonomi (buste paga, call center, servizi IT, hosting, revisione contabile, consulente per un bug).",
+          "source_ref": "EDPB, Linee guida 07/2020"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Forma scritta anche elettronica del contratto; elenco degli impegni del responsabile; codici e certificazioni per dimostrare le garanzie sufficienti.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 3, 5, 9"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «ogni contitolare risponde esclusivamente di quanto previsto nell'accordo di riparto» → l'accordo ripartisce compiti e responsabilità nei rapporti interni; verso l'interessato ciascun contitolare risponde (diritti esercitabili verso ciascuno, risarcimento in solido).",
+          "source_ref": "Reg. UE 2016/679, artt. 26, par. 3 e 82, par. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «la nomina è divenuta obbligatoria e il responsabile non può rifiutare» (senza riferimento) → la nomina è obbligatoria quando il trattamento è affidato a un esterno e avviene con contratto o atto giuridico vincolante, che il fornitore sottoscrive.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 3 e 9"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il responsabile non può mai determinare le finalità ma solo i mezzi» → non determina le finalità né i mezzi essenziali; può decidere solo i mezzi non essenziali (hardware, software, alcune misure di sicurezza).",
+          "source_ref": "EDPB, Linee guida 07/2020"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il titolare può essere sanzionato» (senza riferimento) → viola l'art. 28: sanzione amministrativa fino a 10 milioni di euro o al 2% del fatturato mondiale annuo, se superiore.",
+          "source_ref": "Reg. UE 2016/679, artt. 28, par. 1 e 83, par. 4, lett. a"
+        }
       ]
     },
     {
       "title": "Obblighi del responsabile, sub-responsabili e persone autorizzate",
-      "source_files": ["privacy/CORSO_PRIVACY_1.pdf, slide 61-65"],
+      "source_files": [
+        "privacy/CORSO_PRIVACY_1.pdf, slide 61-65"
+      ],
       "source_minutes": 0,
       "slides": [
         {
@@ -234,37 +338,64 @@
           "layout": "checklist",
           "title": "Gli obblighi del responsabile",
           "items": [
-            {"text": "Trattare i dati secondo le istruzioni documentate del titolare"},
-            {"text": "Garantire che le persone autorizzate si impegnino alla riservatezza"},
-            {"text": "Adottare le misure tecniche e organizzative di sicurezza"},
-            {"text": "Essere disponibile ad audit e ispezioni del titolare"},
-            {"text": "Assistere il titolare: richieste degli interessati, sicurezza, violazioni, DPIA"},
-            {"text": "Cancellare o restituire i dati al termine, su scelta del titolare"},
-            {"text": "Dimostrare al titolare di aver rispettato obblighi e istruzioni", "ref": "Reg. UE 2016/679, art. 28, par. 3"}
+            {
+              "text": "Trattare i dati secondo le istruzioni documentate del titolare"
+            },
+            {
+              "text": "Garantire che le persone autorizzate si impegnino alla riservatezza"
+            },
+            {
+              "text": "Adottare le misure tecniche e organizzative di sicurezza"
+            },
+            {
+              "text": "Essere disponibile ad audit e ispezioni del titolare"
+            },
+            {
+              "text": "Assistere il titolare: richieste degli interessati, sicurezza, violazioni, DPIA"
+            },
+            {
+              "text": "Cancellare o restituire i dati al termine, su scelta del titolare"
+            },
+            {
+              "text": "Dimostrare al titolare di aver rispettato obblighi e istruzioni",
+              "ref": "Reg. UE 2016/679, art. 28, par. 3"
+            }
           ]
         },
         {
           "layout": "concept",
           "title": "Se il responsabile non rispetta le istruzioni",
-          "key": "Il materiale afferma che, se non rispetta le istruzioni, il responsabile diviene egli stesso titolare del trattamento.",
-          "body": "Il GDPR lo precisa: se il responsabile viola il Regolamento determinando finalità e mezzi del trattamento, è considerato titolare di quel trattamento. Resta esposto a sanzioni e risarcimenti, e risponde dei danni quando agisce in modo difforme dalle istruzioni legittime.",
+          "key": "Se viola il GDPR decidendo da sé finalità e mezzi del trattamento, il responsabile è considerato titolare di quel trattamento.",
+          "body": "In ogni caso, se non rispetta le istruzioni risponde delle proprie violazioni: è esposto a sanzioni e risarcimenti, e risponde dei danni quando agisce in modo difforme dalle istruzioni legittime.",
           "ref": "Reg. UE 2016/679, artt. 28, par. 10 e 82, par. 2"
         },
         {
           "layout": "concept",
           "title": "E se un'istruzione è sbagliata?",
           "key": "Il responsabile informa immediatamente il titolare se, a suo parere, un'istruzione viola il GDPR o altre norme sulla protezione dei dati.",
-          "body": "Esempio: il titolare chiede al fornitore di pubblicare online l'elenco completo dei clienti con indirizzi e telefoni. Il fornitore deve segnalarlo subito, non eseguire in silenzio. Le misure di sicurezza da adottare sono quelle dell'art. 32, che il materiale collega alla valutazione d'impatto del titolare.",
+          "body": "Esempio: il titolare chiede al fornitore di pubblicare online l'elenco completo dei clienti con indirizzi e telefoni. Il fornitore deve segnalarlo subito, non eseguire in silenzio. Le misure di sicurezza da adottare sono quelle dell'art. 32, sempre, anche senza una valutazione d'impatto; se il titolare ha svolto una DPIA, può indicarle nelle istruzioni.",
           "ref": "Reg. UE 2016/679, art. 28, par. 3"
         },
         {
           "layout": "steps",
           "title": "Alla fine del servizio",
           "steps": [
-            {"label": "Fine del contratto", "text": "Termina la prestazione dei servizi di trattamento."},
-            {"label": "Scelta del titolare", "text": "Il titolare decide se i dati vanno cancellati o restituiti."},
-            {"label": "Copie", "text": "Il responsabile cancella anche le copie esistenti, salvo obblighi di legge di conservazione."},
-            {"label": "Prova", "text": "Il responsabile dimostra di averlo fatto, ad esempio con un'attestazione scritta."}
+            {
+              "label": "Fine del contratto",
+              "text": "Termina la prestazione dei servizi di trattamento."
+            },
+            {
+              "label": "Scelta del titolare",
+              "text": "Il titolare decide se i dati vanno cancellati o restituiti."
+            },
+            {
+              "label": "Copie",
+              "text": "Il responsabile cancella anche le copie esistenti, salvo obblighi di legge di conservazione."
+            },
+            {
+              "label": "Prova",
+              "text": "Il responsabile dimostra di averlo fatto, ad esempio con un'attestazione scritta."
+            }
           ],
           "ref": "Reg. UE 2016/679, art. 28, par. 3, lett. g-h"
         },
@@ -285,10 +416,22 @@
           "layout": "steps",
           "title": "I sub-responsabili",
           "steps": [
-            {"label": "Facoltativa", "text": "Il responsabile può nominare sub-responsabili, ma non è obbligato."},
-            {"label": "Autorizzazione scritta", "text": "Serve la previa autorizzazione scritta del titolare, specifica o generale."},
-            {"label": "Se è generale", "text": "Il responsabile informa il titolare di aggiunte o sostituzioni, che può opporsi."},
-            {"label": "Stessi obblighi", "text": "Il contratto con il sub-responsabile impone gli stessi obblighi di protezione dei dati del contratto con il titolare."}
+            {
+              "label": "Facoltativa",
+              "text": "Il responsabile può nominare sub-responsabili, ma non è obbligato."
+            },
+            {
+              "label": "Autorizzazione scritta",
+              "text": "Serve la previa autorizzazione scritta del titolare, specifica o generale."
+            },
+            {
+              "label": "Se è generale",
+              "text": "Il responsabile informa il titolare di aggiunte o sostituzioni, che può opporsi."
+            },
+            {
+              "label": "Stessi obblighi",
+              "text": "Il contratto con il sub-responsabile impone gli stessi obblighi di protezione dei dati del contratto con il titolare."
+            }
           ],
           "ref": "Reg. UE 2016/679, art. 28, par. 2 e 4"
         },
@@ -304,10 +447,22 @@
           "title": "Altri obblighi del responsabile",
           "lead": "Il responsabile ha anche obblighi propri, che derivano direttamente dal GDPR.",
           "facts": [
-            {"label": "Registro", "text": "Tiene un proprio registro dei trattamenti svolti per conto del titolare."},
-            {"label": "Violazioni", "text": "Avverte il titolare di un data breach senza ingiustificato ritardo."},
-            {"label": "Autorità", "text": "Coopera, su richiesta, con l'autorità di controllo."},
-            {"label": "DPO", "text": "Designa un DPO quando ricorrono i casi previsti dall'art. 37."}
+            {
+              "label": "Registro",
+              "text": "Tiene un proprio registro dei trattamenti svolti per conto del titolare."
+            },
+            {
+              "label": "Violazioni",
+              "text": "Avverte il titolare di un data breach senza ingiustificato ritardo."
+            },
+            {
+              "label": "Autorità",
+              "text": "Coopera, su richiesta, con l'autorità di controllo."
+            },
+            {
+              "label": "DPO",
+              "text": "Designa un DPO quando ricorrono i casi previsti dall'art. 37."
+            }
           ]
         },
         {
@@ -325,7 +480,7 @@
               "title": "Codice Privacy (testo previgente)",
               "items": [
                 "Il titolare doveva nominare per iscritto gli incaricati",
-                "Il materiale indica che la mancata nomina era punita con sanzione penale",
+                "Oggi non istruire il personale viola gli artt. 29 e 32 GDPR: sono previste sanzioni amministrative",
                 "L'art. 30 del Codice sugli incaricati è stato abrogato dal d.lgs. 101/2018"
               ]
             },
@@ -343,11 +498,22 @@
           "layout": "checklist",
           "title": "Se sei una persona autorizzata",
           "items": [
-            {"text": "Tratta solo i dati che ti servono per il tuo lavoro, seguendo le istruzioni ricevute"},
-            {"text": "Mantieni la riservatezza, anche dopo la fine del rapporto"},
-            {"text": "Non copiare dati su dispositivi o account personali"},
-            {"text": "Proteggi credenziali, schermo e documenti cartacei"},
-            {"text": "Segnala subito incidenti, errori di invio o richieste degli interessati al referente privacy", "ref": "Reg. UE 2016/679, artt. 29 e 32, par. 4"}
+            {
+              "text": "Tratta solo i dati che ti servono per il tuo lavoro, seguendo le istruzioni ricevute"
+            },
+            {
+              "text": "Mantieni la riservatezza, anche dopo la fine del rapporto"
+            },
+            {
+              "text": "Non copiare dati su dispositivi o account personali"
+            },
+            {
+              "text": "Proteggi credenziali, schermo e documenti cartacei"
+            },
+            {
+              "text": "Segnala subito incidenti, errori di invio o richieste degli interessati al referente privacy",
+              "ref": "Reg. UE 2016/679, artt. 29 e 32, par. 4"
+            }
           ]
         },
         {
@@ -378,33 +544,104 @@
           "layout": "recap",
           "title": "Da ricordare",
           "items": [
-            {"value": "Istruzioni", "text": "Il responsabile tratta i dati solo su istruzione documentata e segnala quelle illecite."},
-            {"value": "Titolare", "text": "Se decide finalità e mezzi, il responsabile diventa titolare di quel trattamento."},
-            {"value": "Sub", "text": "Sub-responsabili solo con autorizzazione scritta del titolare; il responsabile ne risponde."},
-            {"value": "Registro", "text": "Anche il responsabile tiene un registro e avvisa il titolare dei data breach."},
-            {"value": "Autorizzati", "text": "Chi lavora sotto l'autorità di titolare o responsabile tratta i dati solo se istruito."}
+            {
+              "value": "Istruzioni",
+              "text": "Il responsabile tratta i dati solo su istruzione documentata e segnala quelle illecite."
+            },
+            {
+              "value": "Titolare",
+              "text": "Se decide finalità e mezzi, il responsabile diventa titolare di quel trattamento."
+            },
+            {
+              "value": "Sub",
+              "text": "Sub-responsabili solo con autorizzazione scritta del titolare; il responsabile ne risponde."
+            },
+            {
+              "value": "Registro",
+              "text": "Anche il responsabile tiene un registro e avvisa il titolare dei data breach."
+            },
+            {
+              "value": "Autorizzati",
+              "text": "Chi lavora sotto l'autorità di titolare o responsabile tratta i dati solo se istruito."
+            }
           ]
         }
       ],
-      "narration": "Nella lezione precedente abbiamo visto chi è il responsabile del trattamento e come si nomina. Ora vediamo che cosa deve fare in concreto, come può a sua volta affidare parte del lavoro a un sub-responsabile, e chiudiamo con le persone autorizzate al trattamento: cioè, molto spesso, proprio voi, che ogni giorno trattate dati per conto della vostra azienda.\n\nIl primo obbligo del responsabile è trattare i dati personali secondo le istruzioni impartite dal titolare del trattamento. Il Regolamento parla di istruzioni documentate: devono poter essere dimostrate, ad esempio perché scritte nel contratto o in un suo allegato. Le istruzioni valgono anche per gli eventuali trasferimenti di dati fuori dall'Unione europea. Il responsabile deve poi garantire che le persone autorizzate al trattamento, cioè i suoi dipendenti e collaboratori, si siano impegnate alla riservatezza o abbiano un adeguato obbligo legale di riservatezza. Deve adottare le misure tecniche e organizzative di sicurezza richieste dall'articolo 32. Deve essere disponibile ad audit di verifica da parte del titolare, comprese le ispezioni, svolte dal titolare stesso o da un soggetto da lui incaricato. Deve assistere il titolare in tutte le attività in cui il suo aiuto è necessario: nel rispondere alle richieste degli interessati, nella sicurezza, nella gestione delle violazioni, nella valutazione d'impatto. Al termine del trattamento, su richiesta del titolare, deve cancellare o restituire i dati personali. E deve dimostrare al titolare di aver rispettato gli obblighi e le istruzioni ricevute.\n\nCosa succede se il responsabile non rispetta le istruzioni? Il materiale del corso è netto: diviene egli stesso titolare del trattamento. Il Regolamento lo precisa all'articolo 28, paragrafo 10: se un responsabile viola il Regolamento determinando le finalità e i mezzi del trattamento, è considerato titolare di quel trattamento. Pensate al fornitore che usa i dati dei clienti del titolare per promuovere i propri servizi: per quella campagna è come se fosse titolare, con tutte le responsabilità che ne derivano, comprese sanzioni e risarcimenti. Ricordate anche la regola dell'articolo 82: il responsabile risponde dei danni quando non adempie agli obblighi propri o agisce in modo difforme o contrario rispetto alle istruzioni legittime del titolare.\n\nLe istruzioni, però, devono essere legittime. Il Regolamento prevede che il responsabile informi immediatamente il titolare se, a suo parere, un'istruzione viola il GDPR o altre norme sulla protezione dei dati. Il responsabile non è un esecutore cieco: è scelto proprio perché ha competenza specialistica. Il materiale collega poi le misure di sicurezza che il responsabile deve adottare a quelle individuate dal titolare a seguito della valutazione d'impatto; in generale, il riferimento è alle misure di sicurezza dell'articolo 32, che il responsabile deve adottare in ogni caso, anche quando non è stata svolta una valutazione d'impatto.\n\nAlla fine del servizio, il titolare sceglie se i dati devono essere cancellati o restituiti. Il responsabile deve cancellare anche le copie esistenti, salvo che una norma imponga di conservarle, e deve poter dimostrare di averlo fatto. Chi cambia fornitore del gestionale, ad esempio, dovrebbe ottenere la restituzione dei dati in un formato utilizzabile e la conferma scritta della loro cancellazione dai sistemi del vecchio fornitore.\n\nDopo la verifica, parliamo dei sub-responsabili. Il responsabile può nominare dei sub-responsabili del trattamento: questa nomina è facoltativa ed è subordinata all'autorizzazione scritta del titolare. Il Regolamento precisa che l'autorizzazione può essere specifica, per un fornitore determinato, oppure generale. Nel caso di autorizzazione generale, il responsabile deve informare il titolare di ogni aggiunta o sostituzione di sub-responsabili, dandogli la possibilità di opporsi. Il contratto tra responsabile e sub-responsabile deve essere identico, dice il materiale, a quello tra titolare e responsabile; il Regolamento chiede, più precisamente, che imponga al sub-responsabile gli stessi obblighi in materia di protezione dei dati, con garanzie sufficienti sulle misure di sicurezza. Il materiale aggiunge che il responsabile può nominare il sub-responsabile come responsabile esterno.\n\nChi risponde del sub-responsabile? Il responsabile nominato dal titolare risponde dell'operato del sub-responsabile, salvo il diritto di rivalsa. Il Regolamento dice che, se il sub-responsabile non adempie ai propri obblighi, il responsabile iniziale conserva nei confronti del titolare l'intera responsabilità. Facciamo un esempio. La software house che gestisce il gestionale di un'agenzia decide di conservare i backup presso un fornitore cloud: serve l'autorizzazione dell'agenzia, serve un contratto con il cloud che riproduca gli stessi obblighi, e se il cloud perde i dati, verso l'agenzia risponde la software house, che potrà poi rivalersi sul cloud.\n\nIl responsabile ha anche obblighi propri, che derivano direttamente dal Regolamento. Deve tenere un proprio registro del trattamento, nel quale illustra i trattamenti effettuati per conto del titolare, come abbiamo visto nell'argomento precedente. Deve avvertire il titolare di un data breach, senza ingiustificato ritardo, appena ne viene a conoscenza. Deve cooperare con l'autorità di vigilanza, cioè con il Garante, quando gli viene richiesto. E deve designare un DPO quando ricorrono i casi in cui la designazione è obbligatoria, che vedremo nel prossimo argomento.\n\nVeniamo infine alle persone autorizzate al trattamento, che prima del GDPR si chiamavano incaricati. Il materiale ricorda che il Codice della privacy obbligava il titolare del trattamento a nominare per iscritto gli incaricati, pena una sanzione penale. Con il GDPR gli incaricati sono definiti persone autorizzate al trattamento: coloro che svolgono il trattamento sotto l'autorità diretta del titolare o del responsabile. Sono i dipendenti, i collaboratori, gli stagisti: chi tratta i dati come parte dell'organizzazione. Il Regolamento non prevede espressamente l'obbligo di nomina scritta. Anche se queste figure non sono espressamente disciplinate come nel vecchio Codice, non sono incompatibili con il principio di organizzazione interna e di responsabilizzazione: anzi, lo attuano. E il responsabile deve garantire che queste persone rispettino il vincolo di riservatezza.\n\nCome si inquadra oggi questa figura? Da un lato l'articolo 29 del GDPR stabilisce che chiunque agisca sotto l'autorità del titolare o del responsabile e abbia accesso a dati personali non può trattarli se non è istruito in tal senso. Dall'altro, in Italia, il decreto legislativo 101 del 2018 ha abrogato l'articolo 30 del Codice sugli incaricati e ha introdotto l'articolo 2-quaterdecies. Questa norma prevede che titolare e responsabile possano attribuire compiti e funzioni specifici connessi al trattamento a persone fisiche espressamente designate, che operano sotto la loro autorità, e che individuino le modalità più opportune per autorizzare al trattamento le persone che operano sotto la loro autorità diretta. In pratica, molte aziende continuano a consegnare a ciascun dipendente una lettera di autorizzazione con le istruzioni: non è più imposta in quella forma, ma è il modo più semplice per dimostrare di aver dato le istruzioni.\n\nSe siete persone autorizzate, che cosa significa per voi in concreto? Trattate solo i dati che vi servono per il vostro lavoro, seguendo le istruzioni ricevute. Mantenete la riservatezza, anche dopo la fine del rapporto. Non copiate dati su dispositivi o account personali, come la vostra e-mail privata o una chiavetta di casa. Proteggete le credenziali, bloccate lo schermo quando vi allontanate, non lasciate documenti sulla scrivania. E segnalate subito al referente privacy o al DPO un incidente, una mail inviata al destinatario sbagliato, o la richiesta di un cliente che vuole sapere quali dati avete su di lui: ricordate che il titolare ha tempi precisi per rispondere e per notificare le violazioni.\n\nNel caso pratico, la società informatica ha fatto ricorso a un sub-responsabile senza autorizzazione: non è regolare, e verso l'agenzia ne risponde per intero. Il tecnico che scarica l'archivio sul proprio portatile tratta i dati senza istruzioni e senza garanzie di sicurezza: proprio ciò che l'articolo 29 vuole evitare.\n\nRicapitoliamo. Il responsabile tratta i dati solo su istruzione documentata del titolare e segnala le istruzioni illecite; se decide finalità e mezzi diventa titolare di quel trattamento. Può nominare sub-responsabili solo con autorizzazione scritta del titolare, imponendo gli stessi obblighi, e ne risponde. Tiene un proprio registro, avvisa il titolare dei data breach, coopera con il Garante. Le persone autorizzate trattano i dati sotto l'autorità diretta di titolare o responsabile, solo se istruite e con l'obbligo di riservatezza.",
+      "narration": "Nella lezione precedente abbiamo visto chi è il responsabile del trattamento e come si nomina. Ora vediamo che cosa deve fare in concreto, come può a sua volta affidare parte del lavoro a un sub-responsabile, e chiudiamo con le persone autorizzate al trattamento: cioè, molto spesso, proprio voi, che ogni giorno trattate dati per conto della vostra azienda.\n\nIl primo obbligo del responsabile è trattare i dati personali secondo le istruzioni impartite dal titolare del trattamento. Il Regolamento parla di istruzioni documentate: devono poter essere dimostrate, ad esempio perché scritte nel contratto o in un suo allegato. Le istruzioni valgono anche per gli eventuali trasferimenti di dati fuori dall'Unione europea. Il responsabile deve poi garantire che le persone autorizzate al trattamento, cioè i suoi dipendenti e collaboratori, si siano impegnate alla riservatezza o abbiano un adeguato obbligo legale di riservatezza. Deve adottare le misure tecniche e organizzative di sicurezza richieste dall'articolo 32. Deve essere disponibile ad audit di verifica da parte del titolare, comprese le ispezioni, svolte dal titolare stesso o da un soggetto da lui incaricato. Deve assistere il titolare in tutte le attività in cui il suo aiuto è necessario: nel rispondere alle richieste degli interessati, nella sicurezza, nella gestione delle violazioni, nella valutazione d'impatto. Al termine del trattamento, su richiesta del titolare, deve cancellare o restituire i dati personali. E deve dimostrare al titolare di aver rispettato gli obblighi e le istruzioni ricevute.\n\nCosa succede se il responsabile non rispetta le istruzioni? L'articolo 28, paragrafo 10, del Regolamento stabilisce che, se un responsabile viola il Regolamento determinando le finalità e i mezzi del trattamento, è considerato titolare di quel trattamento. Pensate al fornitore che usa i dati dei clienti del titolare per promuovere i propri servizi: per quella campagna è come se fosse titolare, con tutte le responsabilità che ne derivano, comprese sanzioni e risarcimenti. Ricordate anche la regola dell'articolo 82: il responsabile risponde dei danni quando non adempie agli obblighi propri o agisce in modo difforme o contrario rispetto alle istruzioni legittime del titolare.\n\nLe istruzioni, però, devono essere legittime. Il Regolamento prevede che il responsabile informi immediatamente il titolare se, a suo parere, un'istruzione viola il GDPR o altre norme sulla protezione dei dati. Il responsabile non è un esecutore cieco: è scelto proprio perché ha competenza specialistica. Quanto alle misure di sicurezza, il responsabile deve adottare quelle previste dall'articolo 32 in ogni caso, anche quando non è stata svolta una valutazione d'impatto; se il titolare ne ha svolta una, può indicare nelle istruzioni le misure individuate.\n\nAlla fine del servizio, il titolare sceglie se i dati devono essere cancellati o restituiti. Il responsabile deve cancellare anche le copie esistenti, salvo che una norma imponga di conservarle, e deve poter dimostrare di averlo fatto. Chi cambia fornitore del gestionale, ad esempio, dovrebbe ottenere la restituzione dei dati in un formato utilizzabile e la conferma scritta della loro cancellazione dai sistemi del vecchio fornitore.\n\nDopo la verifica, parliamo dei sub-responsabili. Il responsabile può nominare dei sub-responsabili del trattamento: questa nomina è facoltativa ed è subordinata all'autorizzazione scritta del titolare. Il Regolamento precisa che l'autorizzazione può essere specifica, per un fornitore determinato, oppure generale. Nel caso di autorizzazione generale, il responsabile deve informare il titolare di ogni aggiunta o sostituzione di sub-responsabili, dandogli la possibilità di opporsi. Il contratto tra responsabile e sub-responsabile non deve essere identico, ma deve imporre al sub-responsabile gli stessi obblighi in materia di protezione dei dati previsti dal contratto tra titolare e responsabile, con garanzie sufficienti sulle misure di sicurezza. Il sub-responsabile è a sua volta un soggetto esterno, che tratta i dati per conto del responsabile e, attraverso di lui, del titolare.\n\nChi risponde del sub-responsabile? Il responsabile nominato dal titolare risponde dell'operato del sub-responsabile, salvo il diritto di rivalsa. Il Regolamento dice che, se il sub-responsabile non adempie ai propri obblighi, il responsabile iniziale conserva nei confronti del titolare l'intera responsabilità. Facciamo un esempio. La software house che gestisce il gestionale di un'agenzia decide di conservare i backup presso un fornitore cloud: serve l'autorizzazione dell'agenzia, serve un contratto con il cloud che riproduca gli stessi obblighi, e se il cloud perde i dati, verso l'agenzia risponde la software house, che potrà poi rivalersi sul cloud.\n\nIl responsabile ha anche obblighi propri, che derivano direttamente dal Regolamento. Deve tenere un proprio registro del trattamento, nel quale illustra i trattamenti effettuati per conto del titolare, come abbiamo visto nell'argomento precedente. Deve avvertire il titolare di un data breach, senza ingiustificato ritardo, appena ne viene a conoscenza. Deve cooperare con l'autorità di vigilanza, cioè con il Garante, quando gli viene richiesto. E deve designare un DPO quando ricorrono i casi in cui la designazione è obbligatoria, che vedremo nel prossimo argomento.\n\nVeniamo infine alle persone autorizzate al trattamento, che prima del GDPR si chiamavano incaricati. Il vecchio Codice della privacy, all'articolo 30, prevedeva che il titolare designasse per iscritto gli incaricati; quell'articolo è stato abrogato dal decreto legislativo 101 del 2018. Oggi, se il personale tratta dati senza istruzioni, si viola il GDPR, con sanzioni amministrative. Con il GDPR gli incaricati sono definiti persone autorizzate al trattamento: coloro che svolgono il trattamento sotto l'autorità diretta del titolare o del responsabile. Sono i dipendenti, i collaboratori, gli stagisti: chi tratta i dati come parte dell'organizzazione. Il Regolamento non prevede espressamente l'obbligo di nomina scritta. Anche se queste figure non sono espressamente disciplinate come nel vecchio Codice, non sono incompatibili con il principio di organizzazione interna e di responsabilizzazione: anzi, lo attuano. E il responsabile deve garantire che queste persone rispettino il vincolo di riservatezza.\n\nCome si inquadra oggi questa figura? Da un lato l'articolo 29 del GDPR stabilisce che chiunque agisca sotto l'autorità del titolare o del responsabile e abbia accesso a dati personali non può trattarli se non è istruito in tal senso. Dall'altro, in Italia, il decreto legislativo 101 del 2018 ha abrogato l'articolo 30 del Codice sugli incaricati e ha introdotto l'articolo 2-quaterdecies. Questa norma prevede che titolare e responsabile possano attribuire compiti e funzioni specifici connessi al trattamento a persone fisiche espressamente designate, che operano sotto la loro autorità, e che individuino le modalità più opportune per autorizzare al trattamento le persone che operano sotto la loro autorità diretta. In pratica, molte aziende continuano a consegnare a ciascun dipendente una lettera di autorizzazione con le istruzioni: non è più imposta in quella forma, ma è il modo più semplice per dimostrare di aver dato le istruzioni.\n\nSe siete persone autorizzate, che cosa significa per voi in concreto? Trattate solo i dati che vi servono per il vostro lavoro, seguendo le istruzioni ricevute. Mantenete la riservatezza, anche dopo la fine del rapporto. Non copiate dati su dispositivi o account personali, come la vostra e-mail privata o una chiavetta di casa. Proteggete le credenziali, bloccate lo schermo quando vi allontanate, non lasciate documenti sulla scrivania. E segnalate subito al referente privacy o al DPO un incidente, una mail inviata al destinatario sbagliato, o la richiesta di un cliente che vuole sapere quali dati avete su di lui: ricordate che il titolare ha tempi precisi per rispondere e per notificare le violazioni.\n\nNel caso pratico, la società informatica ha fatto ricorso a un sub-responsabile senza autorizzazione: non è regolare, e verso l'agenzia ne risponde per intero. Il tecnico che scarica l'archivio sul proprio portatile tratta i dati senza istruzioni e senza garanzie di sicurezza: proprio ciò che l'articolo 29 vuole evitare.\n\nRicapitoliamo. Il responsabile tratta i dati solo su istruzione documentata del titolare e segnala le istruzioni illecite; se decide finalità e mezzi diventa titolare di quel trattamento. Può nominare sub-responsabili solo con autorizzazione scritta del titolare, imponendo gli stessi obblighi, e ne risponde. Tiene un proprio registro, avvisa il titolare dei data breach, coopera con il Garante. Le persone autorizzate trattano i dati sotto l'autorità diretta di titolare o responsabile, solo se istruite e con l'obbligo di riservatezza.",
       "sources": [
-        {"title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano", "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"},
-        {"title": "Normattiva, d.lgs. 196/2003, art. 2-quaterdecies", "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art2quaterdecies"},
-        {"title": "Normattiva, d.lgs. 196/2003, art. 30 (abrogato dal d.lgs. 101/2018)", "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art30"},
-        {"title": "EDPB, Linee guida 07/2020 sui concetti di titolare del trattamento e di responsabile del trattamento ai sensi del GDPR, versione 2.0", "url": "https://www.edpb.europa.eu/system/files/2023-10/edpb_guidelines_202007_controllerprocessor_final_it.pdf"}
+        {
+          "title": "Regolamento (UE) 2016/679 (GDPR), testo in italiano",
+          "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32016R0679"
+        },
+        {
+          "title": "Normattiva, d.lgs. 196/2003, art. 2-quaterdecies",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art2quaterdecies"
+        },
+        {
+          "title": "Normattiva, d.lgs. 196/2003, art. 30 (abrogato dal d.lgs. 101/2018)",
+          "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196~art30"
+        },
+        {
+          "title": "EDPB, Linee guida 07/2020 sui concetti di titolare del trattamento e di responsabile del trattamento ai sensi del GDPR, versione 2.0",
+          "url": "https://www.edpb.europa.eu/system/files/2023-10/edpb_guidelines_202007_controllerprocessor_final_it.pdf"
+        }
       ],
       "changes": [
-        {"kind": "aggiunto", "description": "Istruzioni documentate anche per i trasferimenti extra UE; obbligo di informare il titolare di istruzioni illecite; cancellazione delle copie salvo obblighi di conservazione.", "source_ref": "Reg. UE 2016/679, art. 28, par. 3"},
-        {"kind": "aggiunto", "description": "Autorizzazione specifica o generale ai sub-responsabili, con diritto di opposizione del titolare; responsabilità piena del responsabile iniziale.", "source_ref": "Reg. UE 2016/679, art. 28, par. 2 e 4"},
-        {"kind": "aggiunto", "description": "Responsabilità del responsabile per i danni quando agisce in modo difforme dalle istruzioni.", "source_ref": "Reg. UE 2016/679, art. 82, par. 2"},
-        {"kind": "aggiunto", "description": "Art. 29 GDPR (nessun trattamento senza istruzioni) e art. 2-quaterdecies del Codice (designazione di persone con compiti specifici e modalità di autorizzazione); abrogazione dell'art. 30 del Codice sugli incaricati.", "source_ref": "Reg. UE 2016/679, art. 29; d.lgs. 196/2003, art. 2-quaterdecies (Normattiva)"},
-        {"kind": "aggiunto", "description": "Buone pratiche per le persone autorizzate.", "source_ref": "Reg. UE 2016/679, artt. 29 e 32, par. 4"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: «se non rispetta le istruzioni diviene egli stesso titolare». Precisato: è considerato titolare se viola il GDPR determinando finalità e mezzi del trattamento.", "source_ref": "Reg. UE 2016/679, art. 28, par. 10"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il responsabile adotta le misure «individuate dal Titolare a seguito della Impact Analysis». Precisato che l'obbligo riguarda le misure dell'art. 32, a prescindere da una DPIA.", "source_ref": "Reg. UE 2016/679, art. 28, par. 3, lett. c"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il contratto con il sub-responsabile «deve essere identico» a quello tra titolare e responsabile. Il GDPR richiede gli stessi obblighi in materia di protezione dei dati.", "source_ref": "Reg. UE 2016/679, art. 28, par. 4"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: «il Responsabile del trattamento può nominare il sub-responsabile responsabile esterno». Significato e riferimento da chiarire.", "source_ref": "Materiale originale"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il responsabile deve «designare DPO». Precisato: quando ricorrono i casi dell'art. 37.", "source_ref": "Reg. UE 2016/679, art. 37"},
-        {"kind": "modificato", "description": "Mantenuta dalla fonte: il Codice obbligava a nominare per iscritto gli incaricati «pena sanzione penale». L'art. 30 del Codice è abrogato dal d.lgs. 101/2018; la natura penale della sanzione previgente non è stata verificata.", "source_ref": "Normattiva, d.lgs. 196/2003, art. 30"}
+        {
+          "kind": "aggiunto",
+          "description": "Istruzioni documentate anche per i trasferimenti extra UE; obbligo di informare il titolare di istruzioni illecite; cancellazione delle copie salvo obblighi di conservazione.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 3"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Autorizzazione specifica o generale ai sub-responsabili, con diritto di opposizione del titolare; responsabilità piena del responsabile iniziale.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 2 e 4"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Responsabilità del responsabile per i danni quando agisce in modo difforme dalle istruzioni.",
+          "source_ref": "Reg. UE 2016/679, art. 82, par. 2"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Art. 29 GDPR (nessun trattamento senza istruzioni) e art. 2-quaterdecies del Codice (designazione di persone con compiti specifici e modalità di autorizzazione); abrogazione dell'art. 30 del Codice sugli incaricati.",
+          "source_ref": "Reg. UE 2016/679, art. 29; d.lgs. 196/2003, art. 2-quaterdecies (Normattiva)"
+        },
+        {
+          "kind": "aggiunto",
+          "description": "Buone pratiche per le persone autorizzate.",
+          "source_ref": "Reg. UE 2016/679, artt. 29 e 32, par. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «se non rispetta le istruzioni diviene egli stesso titolare» → è considerato titolare se viola il GDPR determinando finalità e mezzi; negli altri casi risponde delle proprie violazioni.",
+          "source_ref": "Reg. UE 2016/679, artt. 28, par. 10 e 82, par. 2"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «adotta le misure individuate dal Titolare a seguito della Impact Analysis» → adotta sempre le misure dell'art. 32; quelle di un'eventuale DPIA possono essere indicate nelle istruzioni.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 3, lett. c"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il contratto con il sub-responsabile deve essere identico» → deve imporre gli stessi obblighi in materia di protezione dei dati.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il responsabile può nominare il sub-responsabile responsabile esterno» (significato non chiaro) → il sub-responsabile è un altro responsabile, esterno, che tratta per conto del responsabile e quindi del titolare.",
+          "source_ref": "Reg. UE 2016/679, art. 28, par. 2 e 4"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il responsabile deve designare il DPO» → lo designa quando ricorrono i casi dell'art. 37.",
+          "source_ref": "Reg. UE 2016/679, art. 37"
+        },
+        {
+          "kind": "modificato",
+          "description": "Corretto su richiesta dell'utente: «il Codice obbliga a nominare per iscritto gli incaricati, pena sanzione penale» (sanzione non verificata) → l'art. 30 del Codice è abrogato dal d.lgs. 101/2018; oggi trattare dati senza istruzioni viola gli artt. 29 e 32 GDPR, con sanzioni amministrative.",
+          "source_ref": "Normattiva, d.lgs. 196/2003, art. 30; Reg. UE 2016/679, art. 83, par. 4"
+        }
       ]
     }
   ]

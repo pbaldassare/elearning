@@ -281,12 +281,12 @@
       "changes": [
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 9): contenuto minimo con «il nome e le coordinate di contatto del DPO». Il testo ufficiale aggiunge «o di altro punto di contatto» e, alla lettera a), il numero approssimativo di registrazioni e l'attenuazione degli effetti negativi alla lettera d): integrati.",
+          "description": "Corretto su richiesta dell'utente: contenuto minimo con «nome e coordinate di contatto del DPO» → «DPO o altro punto di contatto», con numero approssimativo di registrazioni (lett. a) e misure anche per attenuare gli effetti negativi (lett. d).",
           "source_ref": "Reg. UE 2016/679, art. 33, par. 3"
         },
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 10): il titolo «Obbligo Responsabile Trattamento» riguarda in realtà un obbligo del titolare (documentare ogni violazione). Nella lezione l'obbligo è attribuito al titolare; il responsabile ha invece l'obbligo di informare il titolare (art. 33, par. 2).",
+          "description": "Corretto su richiesta dell'utente: «Obbligo Responsabile Trattamento» di documentare le violazioni → l'obbligo di documentare è del titolare; il responsabile deve informare il titolare senza ingiustificato ritardo.",
           "source_ref": "Reg. UE 2016/679, art. 33, par. 2 e 5"
         },
         {
@@ -574,7 +574,7 @@
       "changes": [
         {
           "kind": "modificato",
-          "description": "Mantenuta dalla fonte (slide 12), terza esenzione: «Detta comunicazione comporterebbe sforzi sproporzionati: si fa comunicazione pubblica». Precisato, come nel testo ufficiale, che vale anche «una misura simile» purché informi gli interessati con analoga efficacia.",
+          "description": "Corretto su richiesta dell'utente: «sforzi sproporzionati: si fa comunicazione pubblica» → comunicazione pubblica o misura simile che informi gli interessati con analoga efficacia.",
           "source_ref": "Reg. UE 2016/679, art. 34, par. 3, lett. c"
         },
         {

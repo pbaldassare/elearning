@@ -21,7 +21,7 @@ const LIBS = {
     name: 'Privacy', prefix: 'privacy:', excel: 'test_corso_privacy_2024.xlsx',
     areas: ['1-quadro', '2-adempimenti', '3-sicurezza'],
     modules: ['Il GDPR: quadro, definizioni e principi', 'Soggetti e adempimenti', 'Sicurezza, violazioni e sanzioni'],
-    courses: { privacy: ['Privacy'] },
+    courses: { privacy: ['Privacy', 'Privacy' + DEMO] },
   },
 };
 const L = LIBS[which];

@@ -22,7 +22,7 @@ const LIBS = {
   privacy: {
     name: 'Privacy',
     modules: ['Il GDPR: quadro, definizioni e principi', 'Soggetti e adempimenti', 'Sicurezza, violazioni e sanzioni'],
-    courses: { privacy: ['Privacy'] },
+    courses: { privacy: ['Privacy', 'Privacy' + DEMO] },
   },
 };
 
