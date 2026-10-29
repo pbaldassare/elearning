@@ -1,0 +1,365 @@
+[
+  {
+    "row": 2,
+    "text": "Come si traduce il principio di \"accountability\"",
+    "options": [
+      {
+        "text": "responsabilità",
+        "correct": true
+      },
+      {
+        "text": "maggiore trasparenza",
+        "correct": false
+      },
+      {
+        "text": "principio dil leicità",
+        "correct": false
+      },
+      {
+        "text": "segretezza",
+        "correct": false
+      },
+      {
+        "text": "tutela dei dati",
+        "correct": false
+      },
+      {
+        "text": "nessuna delle precedenti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 3,
+    "text": "Il titolare del trattamento deve adeguare i sistemi di sicurezza per la privacy considerando",
+    "options": [
+      {
+        "text": "lo stato dell'arte e i costi di attivazione",
+        "correct": true
+      },
+      {
+        "text": "solo i parametri dettati dall'UE",
+        "correct": false
+      },
+      {
+        "text": "spendendo il 3% del proprio fatturato annuo a fini di sicurezza",
+        "correct": false
+      },
+      {
+        "text": "il numero dei dipendenti",
+        "correct": false
+      },
+      {
+        "text": "il numero dei pc collegati ad internet",
+        "correct": false
+      },
+      {
+        "text": "l'ubicazione della sede operativa",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 4,
+    "text": "Esistono organismi di certificazione privacy accreditati?",
+    "options": [
+      {
+        "text": "si",
+        "correct": true
+      },
+      {
+        "text": "no",
+        "correct": false
+      },
+      {
+        "text": "sono solo due in italia",
+        "correct": false
+      },
+      {
+        "text": "sono solo tre in italia",
+        "correct": false
+      },
+      {
+        "text": "Chiunque puo' diventarlo seguendo un corso",
+        "correct": false
+      },
+      {
+        "text": "Il garante ha nominato un numero limitato di enti certificatori per ogni regione italiana",
+        "correct": false
+      }
+    ],
+    "explanation": "Sì. Gli artt. 42-43 del GDPR prevedono certificazioni rilasciate da organismi accreditati; in Italia l'accreditamento spetta ad Accredia (art. 2-septiesdecies d.lgs. 196/2003), sulla base dei requisiti aggiuntivi del Garante. Corretto rispetto all'Excel originale, che indicava \"no\"."
+  },
+  {
+    "row": 5,
+    "text": "Cos'e' la DPIA",
+    "options": [
+      {
+        "text": "valutazione impatto post privacy",
+        "correct": false
+      },
+      {
+        "text": "Direzione provinciale Antiprivacy",
+        "correct": false
+      },
+      {
+        "text": "Un documento in cui vengono registrati i dati dei dipendenti",
+        "correct": false
+      },
+      {
+        "text": "Un documento in cui vengono registrati i dati dei clienti",
+        "correct": false
+      },
+      {
+        "text": "una violazione informatica",
+        "correct": false
+      },
+      {
+        "text": "valutazione impatto preventiva",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "row": 6,
+    "text": "Il registro dei trattamenti",
+    "options": [
+      {
+        "text": "è obbligatorio sopra i 10 dipendenti",
+        "correct": false
+      },
+      {
+        "text": "è obbligatorio quando si ha almeno un dipendente",
+        "correct": false
+      },
+      {
+        "text": "e' obbligatorio sempre",
+        "correct": false
+      },
+      {
+        "text": "è obbligatorio sopra i 250 dipendenti e, anche sotto, se i trattamenti non sono occasionali, possono presentare rischi o riguardano dati particolari o giudiziari",
+        "correct": true
+      },
+      {
+        "text": "non è mai obbligatorio ma solo a disrezione dell'azienda",
+        "correct": false
+      },
+      {
+        "text": "e' obbligatorio sopra i 25 dipendenti",
+        "correct": false
+      }
+    ],
+    "explanation": "Art. 30, par. 5 GDPR: l'esenzione per chi ha meno di 250 dipendenti non vale se il trattamento non è occasionale, può presentare un rischio o include dati particolari o relativi a reati. Corretto rispetto all'Excel originale (\"obbligatorio sopra i 250\")."
+  },
+  {
+    "row": 7,
+    "text": "Cosa significa l'acronimo \"DPO\" nel gergo utilizzato dell'ambito della protezione dei dati personali?",
+    "options": [
+      {
+        "text": "Significa \"Documento Privacy Obbligatorio\"",
+        "correct": false
+      },
+      {
+        "text": "valutazione impatto post privacy",
+        "correct": false
+      },
+      {
+        "text": "Significa \"Data Protection Officer\"",
+        "correct": true
+      },
+      {
+        "text": "Significa \"Days Payable Outstanding\"",
+        "correct": false
+      },
+      {
+        "text": "Significa responsabile del trattamento",
+        "correct": false
+      },
+      {
+        "text": "Significa titolaredel trattamento",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 8,
+    "text": "quali sono le novità del GDPR rispetto alla 196/2003",
+    "options": [
+      {
+        "text": "Nessuna",
+        "correct": false
+      },
+      {
+        "text": "obbligo di archiviare digitalmente i dati privacy",
+        "correct": false
+      },
+      {
+        "text": "obbligo di firma elettronica per i documenti privacy",
+        "correct": false
+      },
+      {
+        "text": "obbligo di password di sicurezza dati informatici",
+        "correct": false
+      },
+      {
+        "text": "diritto alla portabilità del dato",
+        "correct": true
+      },
+      {
+        "text": "obbligo di consenso di alcune finalità",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 9,
+    "text": "In una società, chi è il Titolare del Trattamento?",
+    "options": [
+      {
+        "text": "E' la stessa società, in qualità di persona giuridica, a cui competono le decisioni in ordine alle finalità, alle modalità del trattamento di dati personali ed agli strumenti utilizzati per la tutela e la protezione dei dati personali",
+        "correct": true
+      },
+      {
+        "text": "Il legale rappresentante dell’azienda a cui compete sempre il controllo del lavoro svolto dal Responsabile del trattamento e nominare gli Incaricati del trattamento",
+        "correct": false
+      },
+      {
+        "text": "E' il Privacy Officer dell'azienda",
+        "correct": false
+      },
+      {
+        "text": "E' la persona che si occupa di gestire la privacy in azienda",
+        "correct": false
+      },
+      {
+        "text": "Una figura esterna che ollabora con l'azienda per gestire la privacy",
+        "correct": false
+      },
+      {
+        "text": "nessuna delle precedenti",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 10,
+    "text": "Se un'azienda subisce un \"data breach\", ai fini della normativa",
+    "options": [
+      {
+        "text": "deve notificare la violazione entro 72 ore da quando avviene",
+        "correct": false
+      },
+      {
+        "text": "deve notificare la violazione entro 72 ore da quando ne e' a conoscenza",
+        "correct": true
+      },
+      {
+        "text": "deve chiamare un tecnico informatico per formattare il computer",
+        "correct": false
+      },
+      {
+        "text": "deve immediatamente segnalare la cosa al garante privacy",
+        "correct": false
+      },
+      {
+        "text": "deve resettare tutte le password",
+        "correct": false
+      },
+      {
+        "text": "deve notificare la violazione entro 24 ore da quando ne e' a conoscenza",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 11,
+    "text": "IL Dpo",
+    "options": [
+      {
+        "text": "e' sempre obbligatorio per tutte le aziende",
+        "correct": false
+      },
+      {
+        "text": "puo' essere solo una figura esterna all'azienda",
+        "correct": false
+      },
+      {
+        "text": "si interfaccia con il garante facendo da tramite dell'azienda",
+        "correct": true
+      },
+      {
+        "text": "è un dipendente dell'azienda che ha seguito dei corsi privacy avanzati",
+        "correct": false
+      },
+      {
+        "text": "puo' essere solo una figura interna all'azienda",
+        "correct": false
+      },
+      {
+        "text": "deve essere il legale rappresentante dell'azienda",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 12,
+    "text": "Privacy by design",
+    "options": [
+      {
+        "text": "è un potente sistema antivirus specifico per proteggere la privacy",
+        "correct": false
+      },
+      {
+        "text": "è il nome con cui viene chiamata la nuova normativa privact",
+        "correct": false
+      },
+      {
+        "text": "significa gestire la privacy  solo in modo digitale",
+        "correct": false
+      },
+      {
+        "text": "significa proteggere il dato fin dalla progettazione dei sistemi informatici che si useranno per lo svolgimento delle attività",
+        "correct": true
+      },
+      {
+        "text": "significa proteggere il dato aggiungendo dei parametri privacy su sistemi già esistenti",
+        "correct": false
+      },
+      {
+        "text": "e' un tipo di privacy valido solo in inghilterra e nei paesi anglosassoni",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "row": 13,
+    "text": "Il GDPR si applica (è pienamente operativo) dal",
+    "options": [
+      {
+        "text": "il 25 maggio 2016",
+        "correct": false
+      },
+      {
+        "text": "il 25 luglio 2018",
+        "correct": false
+      },
+      {
+        "text": "il 24 maggio 2018",
+        "correct": false
+      },
+      {
+        "text": "il 25 giugno 2016",
+        "correct": false
+      },
+      {
+        "text": "il 23 maggio 2018",
+        "correct": false
+      },
+      {
+        "text": "il 25 maggio 2018",
+        "correct": true
+      }
+    ],
+    "explanation": "Il GDPR è entrato in vigore il 24 maggio 2016 e si applica dal 25 maggio 2018 (art. 99). Corretto rispetto all'Excel originale, che parlava di entrata in vigore."
+  }
+]

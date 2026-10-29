@@ -12,9 +12,9 @@ const verbaleIvass = (d: CertData) => [
   `Il giorno ${d.date} il candidato ${d.name} - CF ${d.cf}, ha terminato di frequentare le ${d.hours} ore di aggiornamento con modalità di e-learning sulla piattaforma didattica, ha svolto e superato il test di verifica finale relativo al corso di aggiornamento ai fini IVASS. Il corso fornito da LEG Srl, con sede legale in viale Michelangelo 71 - 25015 Desenzano del Garda (BS), PI 04231050982, è rispondente ai dettati normativi contenuti nel Regolamento IVASS n. 40/2018. Il test di verifica, somministrato in modalità e-learning, è articolato in un questionario a scelta multipla e risposta singola.`,
   'Il candidato ha superato il test ed ha ricevuto l’attestato in formato digitale ai sensi dell’art. 90 del Regolamento IVASS n. 40/2018.',
 ];
-// Testo del modello Word dell'utente, invariato.
+// Testo del modello Word dell'utente, con i riferimenti normativi corretti su sua richiesta.
 const verbalePrivacy = (d: CertData) => [
-  `Il giorno ${d.date} il candidato ${d.name} - CF ${d.cf}, ha terminato di frequentare le ${d.hours} ore di corso di formazione GDPR con modalità di e-learning sulla piattaforma didattica, ha svolto e superato il test di verifica finale relativo al corso. Il corso fornito da LEG Srl, con sede legale in viale Michelangelo 71 - 25015 Desenzano del Garda (BS), PI 04231050982 , è rispondente ai dettati normativi contenuti nel Regolamento GDPR d.lgs 196/03 Il test di verifica, somministrato in modalità e-learning, è articolato in un questionario a scelta multipla e risposta singola.`,
+  `Il giorno ${d.date} il candidato ${d.name} - CF ${d.cf}, ha terminato di frequentare le ${d.hours} ore di corso di formazione GDPR con modalità di e-learning sulla piattaforma didattica, ha svolto e superato il test di verifica finale relativo al corso. Il corso fornito da LEG Srl, con sede legale in viale Michelangelo 71 - 25015 Desenzano del Garda (BS), PI 04231050982 , è rispondente ai dettati normativi contenuti nel Regolamento UE 2016/679 (GDPR) e nel d.lgs. 196/2003 come modificato dal d.lgs. 101/2018. Il test di verifica, somministrato in modalità e-learning, è articolato in un questionario a scelta multipla e risposta singola.`,
   'Il candidato ha superato il test ed ha ricevuto l’attestato in formato digitale.',
 ];
 
