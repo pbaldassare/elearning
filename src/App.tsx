@@ -1,7 +1,9 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useAuth, type Role } from './auth';
-import { btn, Card, Logo, ThemeToggle } from './ui';
+import { btn, Card, fmtDate, Logo, ThemeToggle, type Enrollment } from './ui';
+import { supabase } from './lib/supabase';
+import { useRows } from './lib/useRows';
 import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
@@ -30,6 +32,51 @@ function Only({ roles, children }: { roles: Role[]; children: ReactNode }) {
 
 const linkCls = ({ isActive }: { isActive: boolean }) =>
   `block rounded-lg px-3 py-2 font-medium ${isActive ? 'bg-brand-soft text-brand-strong' : 'text-ink-muted hover:text-ink'}`;
+
+// Barra laterale del corsista: i suoi corsi con avanzamento e la prossima scadenza.
+function MySide({ userId }: { userId: string }) {
+  const { pathname } = useLocation();
+  const list = useRows<Enrollment>(() =>
+    supabase.from('enrollments').select('*, courses(title, required_hours)').eq('user_id', userId).order('expires_at'), [pathname]);
+  const rows = list.rows ?? [];
+  const open = rows.filter((e) => e.status !== 'completato');
+  const next = open.find((e) => new Date(e.expires_at) >= new Date());
+  const done = rows.length - open.length;
+  return (
+    <>
+      <div className="mt-6 grid grid-cols-2 gap-2">
+        {[[open.length, 'in corso'], [done, done === 1 ? 'completato' : 'completati']].map(([v, l]) => (
+          <div key={l} className="rounded-xl bg-surface-2 p-3">
+            <p className="text-xl font-extrabold tabular-nums">{v}</p><p className="text-xs text-ink-muted">{l}</p>
+          </div>
+        ))}
+      </div>
+      {next && (
+        <p className="mt-2 rounded-xl bg-brand-soft p-3 text-xs text-ink">
+          <b className="block text-brand-strong">Prossima scadenza</b>
+          {next.courses?.title} entro il {fmtDate(next.expires_at)}
+        </p>
+      )}
+      {rows.length > 0 && <p className="mt-6 px-3 text-xs font-bold uppercase tracking-wider text-ink-muted">I tuoi corsi</p>}
+      <div className="mt-1 space-y-1">
+        {rows.map((e) => {
+          const pct = Math.min(100, e.active_seconds / (Number(e.courses?.required_hours ?? 0) * 36 || 1));
+          return (
+            <Link key={e.id} to={`/corso/${e.id}`} className="block rounded-lg px-3 py-2 hover:bg-surface-2">
+              <span className="block truncate font-medium">{e.courses?.title}</span>
+              <span className="mt-1 flex items-center gap-2 text-xs text-ink-muted">
+                <span className="h-1.5 flex-1 rounded-full bg-surface-2">
+                  <span className={`block h-1.5 rounded-full ${e.status === 'completato' ? 'bg-success' : 'bg-brand'}`} style={{ width: `${e.status === 'completato' ? 100 : pct}%` }} />
+                </span>
+                {e.status === 'completato' ? 'fatto' : `${Math.round(pct)}%`}
+              </span>
+            </Link>
+          );
+        })}
+      </div>
+    </>
+  );
+}
 
 function Layout() {
   const { session, who, loading, signOut, stopImpersonation } = useAuth();
@@ -78,6 +125,7 @@ function Layout() {
         <Link to="/" aria-label="D-Academy, home" className="mb-6 px-3"><Logo /></Link>
         <nav className="flex-1 space-y-1 overflow-y-auto text-sm" aria-label="Principale">
           {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
+          {who.profile.role === 'corsista' && <MySide userId={who.profile.id} />}
         </nav>
         <div className="space-y-1 border-t border-line pt-3 text-sm">
           <p className="truncate px-3 pb-1 text-ink-muted">{who.profile.first_name} {who.profile.last_name}</p>
