@@ -42,9 +42,18 @@ function MySide({ userId }: { userId: string }) {
   const open = rows.filter((e) => e.status !== 'completato');
   const next = open.find((e) => new Date(e.expires_at) >= new Date());
   const done = rows.length - open.length;
+  // Riprendi: il corso già iniziato (o, se nessuno, il primo da iniziare) non scaduto; il player riparte dalla prima lezione non completata.
+  const live = open.filter((e) => new Date(e.expires_at) >= new Date());
+  const resume = live.find((e) => e.status === 'in_corso') ?? live[0];
   return (
     <>
-      <div className="mt-6 grid grid-cols-2 gap-2">
+      {resume && (
+        <Link to={`/corso/${resume.id}`} className="mt-4 block rounded-xl bg-brand-strong p-3 text-on-brand shadow-lift hover:brightness-110">
+          <span className="block text-xs font-bold uppercase tracking-wider opacity-80">{resume.status === 'in_corso' ? 'Riprendi da dove eri rimasto' : 'Inizia il corso'}</span>
+          <span className="mt-0.5 block truncate font-semibold">▶ {resume.courses?.title}</span>
+        </Link>
+      )}
+      <div className="mt-4 grid grid-cols-2 gap-2">
         {[[open.length, 'in corso'], [done, done === 1 ? 'completato' : 'completati']].map(([v, l]) => (
           <div key={l} className="rounded-xl bg-surface-2 p-3">
             <p className="text-xl font-extrabold tabular-nums">{v}</p><p className="text-xs text-ink-muted">{l}</p>
