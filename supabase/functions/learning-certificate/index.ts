@@ -22,7 +22,7 @@ Deno.serve(async (req) => {
   });
   const { enrollment_id } = await req.json().catch(() => ({}));
   const { data: c } = await asCaller.from('certificates')
-    .select('serial, verify_code, is_demo, issued_at, enrollments(profiles(first_name, last_name, codice_fiscale), courses(required_hours, certificate_template_path))')
+    .select('serial, verify_code, is_demo, issued_at, confirmed_hours, enrollments(profiles(first_name, last_name, codice_fiscale), courses(required_hours, certificate_template_path))')
     .eq('enrollment_id', enrollment_id ?? '').order('issued_at', { ascending: false }).limit(1).maybeSingle();
   if (!c) return json({ error: 'Attestato non disponibile' }, 404);
 
@@ -33,11 +33,17 @@ Deno.serve(async (req) => {
   const { data: file, error } = await db.storage.from('learning-attestati').download(template);
   if (error || !file) return json({ error: 'Modello di attestato mancante' }, 500);
 
-  const pdf = await fillCertificate(new Uint8Array(await file.arrayBuffer()), {
-    name: `${e.profiles.first_name} ${e.profiles.last_name}`.toUpperCase(),
-    cf: e.profiles.codice_fiscale ?? '',
-    date: new Date(c.issued_at).toLocaleDateString('it-IT', { timeZone: 'Europe/Rome', day: '2-digit', month: '2-digit', year: 'numeric' }),
-    hours: Number(e.courses.required_hours), serial: c.serial, code: c.verify_code, demo: c.is_demo, template,
-  });
-  return new Response(pdf, { headers: { ...cors, 'Content-Type': 'application/pdf' } });
+  try {
+    const pdf = await fillCertificate(new Uint8Array(await file.arrayBuffer()), {
+      name: `${e.profiles.first_name} ${e.profiles.last_name}`.toUpperCase(),
+      cf: e.profiles.codice_fiscale ?? '',
+      date: new Date(c.issued_at).toLocaleDateString('it-IT', { timeZone: 'Europe/Rome', day: '2-digit', month: '2-digit', year: 'numeric' }),
+      hours: Number(c.confirmed_hours ?? e.courses.required_hours), serial: c.serial, code: c.verify_code,
+      demo: c.is_demo, template, confirmed: c.confirmed_hours != null,
+    });
+    return new Response(new Uint8Array(pdf), { headers: { ...cors, 'Content-Type': 'application/pdf' } });
+  } catch (error) {
+    console.error('Generazione attestato fallita', { serial: c.serial, template, error });
+    return json({ error: 'Impossibile generare il PDF. Contatta l’amministratore.' }, 500);
+  }
 });

@@ -1,16 +1,20 @@
-import { useState, type FormEvent } from 'react';
+import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth';
-import { callFn, supabase } from '../lib/supabase';
+import { callFn, downloadCertificate, supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
 import {
   Badge, btn, Empty, EnrollmentBadge, Field, fmtDate, inputCls, Message, PageTitle, Panel, Progress, Select,
   type Enrollment,
 } from '../ui';
 
+type AssignedCourse = Enrollment & {
+  courses: (NonNullable<Enrollment['courses']> & { certificate_template_path: string | null }) | null;
+};
+
 type Person = {
   id: string; first_name: string; last_name: string; email: string; codice_fiscale: string;
-  company_id: string; is_demo: boolean; companies: { name: string } | null; enrollments: Enrollment[];
+  company_id: string; is_demo: boolean; companies: { name: string } | null; enrollments: AssignedCourse[];
 };
 
 // Corsisti e assegnazioni. Admin: tutte le aziende. Azienda: solo i propri (lo garantisce la RLS).
@@ -22,7 +26,7 @@ export default function People() {
   const [q, setQ] = useState('');
   const people = useRows<Person>(() => {
     let query = supabase.from('profiles')
-      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name), enrollments(*, courses(title, required_hours))')
+      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name), enrollments(*, confirmed_hours, courses(title, required_hours, certificate_template_path))')
       .eq('role', 'corsista').order('last_name');
     if (company) query = query.eq('company_id', company);
     return query;
@@ -32,6 +36,15 @@ export default function People() {
   const courses = useRows<{ id: string; title: string }>(() =>
     supabase.from('courses').select('id, title').eq('status', 'attivo').order('title'));
   const [msg, setMsg] = useState<{ kind: 'error' | 'success'; text: string } | null>(null);
+  const [pendingCertificate, setPendingCertificate] = useState<string | null>(null);
+  const [confirmation, setConfirmation] = useState<{ person: Person; enrollment: AssignedCourse } | null>(null);
+  const [confirmationError, setConfirmationError] = useState('');
+  const dialog = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    if (confirmation && !dialog.current?.open) dialog.current?.showModal();
+  }, [confirmation]);
+  const template = confirmation?.enrollment.courses?.certificate_template_path;
+  const supportedTemplate = template != null && ['ivass-30.pdf', 'ivass-60.pdf', 'privacy.pdf'].includes(template);
 
   const report = (error: { message: string } | null, ok: string) => {
     setMsg(error ? { kind: 'error', text: error.message } : { kind: 'success', text: ok });
@@ -44,9 +57,9 @@ export default function People() {
     const form = e.currentTarget;
     const f = Object.fromEntries(new FormData(form));
     try {
-      await callFn('learning-create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
+      const { email_sent } = await callFn<{ email_sent: boolean }>('learning-create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
       form.reset();
-      report(null, 'Corsista creato con la password standard.');
+      report(null, email_sent ? 'Corsista creato. Invio del link richiesto.' : 'Corsista creato. Per impostare la password, usa “Password dimenticata?”.');
     } catch (err) {
       report({ message: (err as Error).message }, '');
     }
@@ -62,6 +75,32 @@ export default function People() {
     const { error } = await supabase.from('enrollments')
       .update({ expires_at: new Date(from + days * 86400000).toISOString() }).eq('id', e.id);
     report(error, `Scadenza prorogata di ${days} giorni.`);
+  };
+
+  const certificate = async (person: Person, enrollment: Enrollment) => {
+    const title = enrollment.courses?.title ?? 'Corso';
+    const name = `${person.first_name} ${person.last_name}`;
+    const needsConfirmation = enrollment.status !== 'completato';
+    setPendingCertificate(enrollment.id);
+    setConfirmationError('');
+    setMsg(null);
+    try {
+      if (needsConfirmation) {
+        const { error } = await supabase.rpc('confirm_course_completion', { p_enrollment: enrollment.id });
+        if (error) {
+          setConfirmationError(error.message);
+          return;
+        }
+        dialog.current?.close();
+        report(null, 'Corso convalidato e attestato emesso.');
+      }
+      await downloadCertificate(enrollment.id, `Attestato - ${title} - ${name}`);
+    } catch (error) {
+      const message = (error as Error).message;
+      report({ message: needsConfirmation ? `Attestato emesso. Download non riuscito: ${message}` : message }, '');
+    } finally {
+      setPendingCertificate(null);
+    }
   };
 
   const unassign = async (e: Enrollment) => {
@@ -88,6 +127,32 @@ export default function People() {
       <PageTitle title="Corsisti" sub="Crea corsisti, assegna i corsi e segui ore, stato e scadenze." />
       {msg && <Message kind={msg.kind}>{msg.text}</Message>}
       {people.error && <Message kind="error">{people.error}</Message>}
+      <dialog ref={dialog} aria-labelledby="completion-title"
+              onClose={() => setConfirmation(null)}
+              onCancel={(event) => { if (pendingCertificate) event.preventDefault(); }}
+              className="m-auto w-[calc(100%-2rem)] max-w-md rounded-2xl border border-line bg-card p-5 text-ink shadow-lift backdrop:bg-black/50">
+        {confirmation && (
+          <>
+            <h2 id="completion-title" className="text-lg font-semibold">Convalida corso e genera attestato</h2>
+            <dl className="my-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
+              <dt className="text-ink-muted">Corsista</dt><dd>{confirmation.person.first_name} {confirmation.person.last_name}</dd>
+              <dt className="text-ink-muted">Corso</dt><dd>{confirmation.enrollment.courses?.title}</dd>
+              <dt className="text-ink-muted">Ore da convalidare</dt><dd>{confirmation.enrollment.courses?.required_hours} h</dd>
+              <dt className="text-ink-muted">Modello PDF</dt><dd>{supportedTemplate ? template : 'Da configurare'}</dd>
+            </dl>
+            <p className="mb-4 text-sm">Conferma che il corsista ha completato la formazione e superato la verifica finale.</p>
+            {confirmationError && <Message kind="error">{confirmationError}</Message>}
+            <div className="flex flex-wrap justify-end gap-2">
+              <button className={btn.ghost} autoFocus disabled={pendingCertificate !== null}
+                      onClick={() => dialog.current?.close()}>Annulla</button>
+              <button className={btn.primary} disabled={!supportedTemplate || pendingCertificate !== null}
+                      onClick={() => certificate(confirmation.person, confirmation.enrollment)}>
+                {pendingCertificate ? 'Convalida in corso…' : 'Conferma ed emetti'}
+              </button>
+            </div>
+          </>
+        )}
+      </dialog>
 
       <div className="mb-4 grid gap-3 sm:grid-cols-2">
         <input className={inputCls} placeholder="Cerca per nome, email o codice fiscale" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Cerca" />
@@ -126,6 +191,17 @@ export default function People() {
                         <EnrollmentBadge e={e} />
                         <Progress e={e} />
                         <span className="text-sm">Scadenza <strong>{fmtDate(e.expires_at)}</strong></span>
+                        {isAdmin && (
+                          <button className={btn.ghost} disabled={pendingCertificate !== null} onClick={() => {
+                            if (e.status === 'completato') void certificate(p, e);
+                            else {
+                              setConfirmationError('');
+                              setConfirmation({ person: p, enrollment: e });
+                            }
+                          }}>
+                            {e.status === 'completato' ? 'Scarica attestato' : 'Convalida e genera attestato'}
+                          </button>
+                        )}
                         {isAdmin && e.status !== 'completato' && (
                           <span className="flex gap-2">
                             <button className={btn.ghost} onClick={() => extend(e, 30)}>Proroga 30 gg</button>
@@ -181,7 +257,7 @@ export default function People() {
             </>
           )}
           <div className="sm:col-span-2">
-            <p className="mb-3 text-sm text-ink-muted">L’account viene creato con la password standard; il corsista potrà cambiarla dal profilo.</p>
+            <p className="mb-3 text-sm text-ink-muted">Il corsista imposta la propria password tramite un link individuale.</p>
             <button className={btn.primary}>Crea corsista</button>
           </div>
         </form>

@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { actAs, supabase } from './lib/supabase';
 
@@ -19,6 +19,8 @@ type Auth = {
   session: Session | null;
   who: Who | null;
   loading: boolean;
+  actionError: string;
+  profileError: boolean;
   refresh: () => Promise<void>;
   startImpersonation: (targetId: string) => Promise<void>;
   stopImpersonation: () => Promise<void>;
@@ -31,14 +33,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<Session | null>(null);
   const [who, setWho] = useState<Who | null>(null);
   const [loading, setLoading] = useState(true);
+  const [actionError, setActionError] = useState('');
+  const [profileError, setProfileError] = useState(false);
+  const profileRequest = useRef(0);
 
   const loadWho = useCallback(async (s: Session | null) => {
+    const request = ++profileRequest.current;
     if (!s) {
+      setProfileError(false);
       setWho(null);
       setLoading(false);
       return;
     }
-    const { data } = await supabase.rpc('whoami');
+    const { data, error } = await supabase.rpc('whoami');
+    if (request !== profileRequest.current) return;
+    setProfileError(!!error);
     setWho((data as Who | null) ?? null);
     setLoading(false);
   }, []);
@@ -64,19 +73,28 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const stopImpersonation = async () => {
+    setActionError('');
+    const { error } = await supabase.functions.invoke('learning-impersonate', { body: { action: 'stop' } });
+    if (error) {
+      setActionError('Impossibile chiudere la sessione «Entra come». Riprova.');
+      return;
+    }
     actAs.set(null);
-    await supabase.functions.invoke('learning-impersonate', { body: { action: 'stop' } });
     await refresh();
   };
 
   const signOut = async () => {
-    if (actAs.get()) await stopImpersonation();
-    await supabase.auth.signOut();
+    if (actAs.get()) {
+      await stopImpersonation();
+      if (actAs.get()) return;
+    }
+    const { error } = await supabase.auth.signOut();
+    if (error) setActionError('Impossibile uscire. Riprova.');
   };
 
   return (
     <AuthContext.Provider
-      value={{ session, who, loading, refresh, startImpersonation, stopImpersonation, signOut }}
+      value={{ session, who, loading, actionError, profileError, refresh, startImpersonation, stopImpersonation, signOut }}
     >
       {children}
     </AuthContext.Provider>

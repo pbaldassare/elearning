@@ -34,6 +34,7 @@ export default function Quiz() {
   const [now, setNow] = useState(Date.now());
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
+  const [retryAt, setRetryAt] = useState<number | null>(null);
   const submitted = useRef(false);
 
   const loadStatus = () => supabase.rpc('quiz_status', { p_enrollment: id })
@@ -45,7 +46,14 @@ export default function Quiz() {
     const { data, error } = await supabase.rpc('start_quiz', { p_enrollment: id });
     setBusy(false);
     if (error) { setError(error.message); return; }
+    if (data.expired_result) {
+      setResult(data.expired_result);
+      loadStatus();
+      return;
+    }
     submitted.current = false;
+    setRetryAt(null);
+    setNow(Date.now());
     setAttempt(data);
     setAnswers(saved(data.attempt_id));
     setResult(null);
@@ -54,11 +62,20 @@ export default function Quiz() {
   const submit = async () => {
     if (!attempt || submitted.current) return;
     submitted.current = true;
+    setError('');
     setBusy(true);
     const { data, error } = await supabase.rpc('submit_quiz', { p_attempt: attempt.attempt_id, p_answers: answers });
     setBusy(false);
-    if (error) { setError(error.message); submitted.current = false; return; }
-    sessionStorage.removeItem(`quiz:${attempt.attempt_id}`);
+    if (error) {
+      setError(error.message);
+      submitted.current = false;
+      const retry = Date.now() + 5000;
+      if (!error.code && retry < new Date(attempt.deadline_at).getTime() + 110_000) setRetryAt(retry);
+      else setRetryAt(null);
+      return;
+    }
+    setRetryAt(null);
+    try { sessionStorage.removeItem(`quiz:${attempt.attempt_id}`); } catch { /* archivio locale facoltativo */ }
     setResult(data);
     setAttempt(null);
     loadStatus();
@@ -72,6 +89,11 @@ export default function Quiz() {
     return () => clearInterval(t);
   }, [attempt]);
   useEffect(() => { if (attempt && left <= 0) submit(); }, [attempt, left <= 0]);
+  useEffect(() => {
+    if (retryAt === null || !attempt) return;
+    const retry = setTimeout(submit, Math.max(0, retryAt - Date.now()));
+    return () => clearTimeout(retry);
+  }, [retryAt, attempt]);
 
   const choose = (q: string, o: string) => {
     const next = { ...answers, [q]: o };
@@ -82,19 +104,31 @@ export default function Quiz() {
   const back = <Link to={`/corso/${id}`} className="text-sm font-medium text-brand-strong">← Torna al corso</Link>;
 
   if (attempt) {
-    const done = Object.keys(answers).length;
+    const remaining = attempt.questions.filter((question) => !answers[question.id]).length;
     return (
       <div className="mx-auto max-w-3xl">
         <div className="sticky top-0 z-10 -mx-4 mb-6 flex flex-wrap items-center justify-between gap-2 border-b border-line bg-surface/95 px-4 py-3 backdrop-blur">
-          <span className="font-semibold">Test finale · {done} di {attempt.questions.length} risposte</span>
+          <div>
+            <h1 className="font-semibold">Test finale</h1>
+            <p className="text-sm text-ink-muted">{remaining === 0 ? 'Tutte le domande hanno una risposta'
+              : remaining === 1 ? '1 domanda senza risposta' : `${remaining} domande senza risposta`}</p>
+          </div>
           <span className={`font-mono text-lg tabular-nums ${left < 120_000 ? 'text-danger' : ''}`} role="timer" aria-label="Tempo rimasto">{mmss(left)}</span>
+          <div className="w-full text-sm" role="status">
+            {busy ? 'Invio in corso…' : retryAt !== null ? 'Connessione interrotta. Nuovo tentativo tra pochi secondi.' : ''}
+          </div>
         </div>
-        {error && <Message kind="error">{error}</Message>}
+        {error && (
+          <Message kind="error">
+            Impossibile consegnare il test. {error}
+            <button className={`${btn.ghost} ml-2`} disabled={busy} onClick={submit}>Riprova</button>
+          </Message>
+        )}
         <ol className="space-y-4">
           {attempt.questions.map((q, i) => (
             <li key={q.id}>
               <Panel>
-                <fieldset>
+                <fieldset disabled={busy || left <= 0}>
                   <legend className="mb-3 font-semibold"><span className="text-brand-strong">{i + 1}.</span> {q.text}</legend>
                   <div className="space-y-2">
                     {q.options.map((o) => (
@@ -111,8 +145,8 @@ export default function Quiz() {
         </ol>
         <div className="mb-10 flex flex-wrap items-center gap-3">
           <button className={btn.primary} disabled={busy}
-                  onClick={() => (done === attempt.questions.length || confirm(`Hai risposto a ${done} domande su ${attempt.questions.length}. Consegnare comunque?`)) && submit()}>
-            Consegna il test
+                  onClick={() => (remaining === 0 || error || confirm(`Hai ancora ${remaining} risposte da dare. Consegnare comunque?`)) && submit()}>
+            {busy ? 'Invio in corso…' : 'Consegna il test'}
           </button>
           <span className="text-sm text-ink-muted">Allo scadere del tempo il test viene consegnato automaticamente.</span>
         </div>
@@ -127,6 +161,7 @@ export default function Quiz() {
       {error && <Message kind="error">{error}</Message>}
       {result && (
         <Panel>
+          <p role="status" className="mb-2 text-sm font-medium text-ink-muted">Test consegnato</p>
           <div className="mb-2 flex items-center gap-3">
             <span className="text-3xl font-bold tabular-nums">{result.score.toLocaleString('it-IT')}%</span>
             {result.passed ? <Badge tone="ok">Superato</Badge> : <Badge tone="bad">Non superato</Badge>}
@@ -134,7 +169,7 @@ export default function Quiz() {
           <p className="text-ink-muted">{result.correct} risposte corrette su {result.total} · soglia {result.threshold}%</p>
           {result.passed && <p className="mt-3">Complimenti! L’attestato sarà disponibile nella pagina dei tuoi corsi.</p>}
           {!result.passed && !result.course_reset && <p className="mt-3">Tentativo {result.attempts_used} di {result.max_attempts}: puoi ripetere il test con nuove domande.</p>}
-          {result.course_reset && <p className="mt-3 font-medium text-danger">Hai esaurito i {result.max_attempts} tentativi: per legge il corso va ripetuto. Ore e lezioni ripartono da zero.</p>}
+          {result.course_reset && <p className="mt-3 font-medium text-danger">Hai esaurito i {result.max_attempts} tentativi. Torna al corso per ricominciare dalle lezioni.</p>}
           <ol className="mt-4 flex flex-wrap gap-1.5" aria-label="Esito per domanda">
             {result.results.map((r, i) => (
               <li key={r.question_id} className={`grid h-8 w-8 place-items-center rounded-lg text-sm font-semibold ${r.correct ? 'bg-success/10 text-success' : 'bg-danger/10 text-danger'}`}

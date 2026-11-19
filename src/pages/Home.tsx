@@ -4,17 +4,20 @@ import { downloadCertificate, supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
 import { Badge, btn, Empty, EnrollmentBadge, fmtDate, PageTitle, Panel, Progress, type Enrollment } from '../ui';
 import Courses from './admin/Courses';
+import { CourseResume } from '../player/CourseResume';
 
 const daysLeft = (d: string) => Math.ceil((new Date(d).getTime() - Date.now()) / 86400000);
 
 function MyCourses() {
   const { who } = useAuth();
+  const userId = who!.profile.id;
   const list = useRows<Enrollment>(() =>
-    supabase.from('enrollments').select('*, courses(title, required_hours)')
-      .eq('user_id', who!.profile.id).order('assigned_at', { ascending: false }));
+    supabase.from('enrollments').select('*, confirmed_hours, courses(title, required_hours)')
+      .eq('user_id', userId).order('assigned_at', { ascending: false }), [userId]);
   return (
     <>
       <PageTitle title="I miei corsi" sub={`Ciao ${who!.profile.first_name}, qui trovi i corsi assegnati e le scadenze.`} />
+      <CourseResume rows={list.rows ?? []} userId={userId} className="mb-5 block lg:hidden" />
       {list.rows?.length === 0 && <Panel><Empty>Non hai ancora corsi assegnati.</Empty></Panel>}
       <div className="grid gap-4 md:grid-cols-2">
         {list.rows?.map((e) => {

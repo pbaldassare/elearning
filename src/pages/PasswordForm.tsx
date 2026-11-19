@@ -21,7 +21,6 @@ export default function PasswordForm({ onDone }: { onDone: () => void }) {
       setBusy(false);
       return;
     }
-    await supabase.rpc('mark_password_changed');
     setBusy(false);
     onDone();
   };

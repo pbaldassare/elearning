@@ -1,13 +1,18 @@
 // Compila il modello PDF dell'attestato (pagina 1: nome e CF; pagina 2: verbale del test).
 // I modelli sono gli attestati originali senza dati personali, nel bucket privato "learning-attestati".
-import { degrees, PDFDocument, rgb, StandardFonts } from 'npm:pdf-lib@1.17.1';
+import fontkit from 'npm:@pdf-lib/fontkit@1.1.1';
+import { degrees, PDFDocument, rgb } from 'npm:pdf-lib@1.17.1';
 
 export type CertData = {
   name: string; cf: string; date: string; hours: number;
-  serial: number; code: string; demo: boolean; template: string;
+  serial: number; code: string; demo: boolean; template: string; confirmed?: boolean;
 };
 
 type Pos = { x: number; y: number; size: number };
+const verbaleConvalida = (d: CertData) => [
+  `Il giorno ${d.date} l’amministrazione ha registrato, per ${d.name} - CF ${d.cf}, la convalida di ${d.hours} ore di formazione e il superamento della verifica finale.`,
+  'Il presente attestato riporta l’esito della convalida amministrativa.',
+];
 const verbaleIvass = (d: CertData) => [
   `Il giorno ${d.date} il candidato ${d.name} - CF ${d.cf}, ha terminato di frequentare le ${d.hours} ore di aggiornamento con modalità di e-learning sulla piattaforma didattica, ha svolto e superato il test di verifica finale relativo al corso di aggiornamento ai fini IVASS. Il corso fornito da LEG Srl, con sede legale in viale Michelangelo 71 - 25015 Desenzano del Garda (BS), PI 04231050982, è rispondente ai dettati normativi contenuti nel Regolamento IVASS n. 40/2018. Il test di verifica, somministrato in modalità e-learning, è articolato in un questionario a scelta multipla e risposta singola.`,
   'Il candidato ha superato il test ed ha ricevuto l’attestato in formato digitale ai sensi dell’art. 90 del Regolamento IVASS n. 40/2018.',
@@ -31,8 +36,16 @@ export async function fillCertificate(template: Uint8Array, d: CertData): Promis
   if (!pos) throw new Error(`Modello sconosciuto: ${d.template}`);
   const doc = await PDFDocument.load(template);
   const [p1, p2] = doc.getPages();
-  const regular = await doc.embedFont(StandardFonts.Helvetica);
-  const italic = await doc.embedFont(StandardFonts.HelveticaOblique);
+  if (!p1 || !p2) throw new Error('Il modello deve contenere almeno due pagine');
+  doc.registerFontkit(fontkit);
+  const [regularBytes, italicBytes] = await Promise.all([
+    Deno.readFile(new URL('./fonts/NotoSans-Regular.ttf', import.meta.url)),
+    Deno.readFile(new URL('./fonts/NotoSans-Italic.ttf', import.meta.url)),
+  ]);
+  const [regular, italic] = await Promise.all([
+    doc.embedFont(regularBytes, { subset: true }),
+    doc.embedFont(italicBytes, { subset: true }),
+  ]);
   const black = rgb(0, 0, 0);
 
   const centered = (text: string, at: Pos) => {
@@ -44,7 +57,7 @@ export async function fillCertificate(template: Uint8Array, d: CertData): Promis
   centered(`CF: ${d.cf}`, pos.cf);
 
   // Verbale: testo giustificato come nell'originale.
-  const paragraphs = pos.verbale(d);
+  const paragraphs = d.confirmed ? verbaleConvalida(d) : pos.verbale(d);
   const size = 11.5, lead = 14.25, left = 30.1, width = 537;
   let y = 700.5;
   for (const para of paragraphs) {

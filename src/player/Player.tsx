@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { rememberCourse } from './CourseResume';
 import { Link, useParams } from 'react-router-dom';
-import { useAuth } from '../auth';
 import { supabase } from '../lib/supabase';
 import { Badge, btn, fmtDate, fmtHours, Message, ThemeToggle, type Enrollment } from '../ui';
 import { handleQuizClick, slideHTML, type Slide } from './slides';
@@ -53,18 +53,28 @@ function useHeartbeat(enrollmentId: string, lessonId: string | null, enabled: bo
 
   useEffect(() => {
     if (!enabled || !lessonId) return;
+    let pending = false;
+    const controller = new AbortController();
     const beat = async () => {
       const ok = document.visibilityState === 'visible' && Date.now() - lastActivity.current < idleMs;
       setActive(ok);
-      if (!ok) return;
-      const { data, error } = await supabase.rpc('heartbeat', { p_enrollment: enrollmentId, p_lesson: lessonId });
+      if (!ok || pending) return;
+      pending = true;
+      const { data, error } = await supabase.rpc('heartbeat', { p_enrollment: enrollmentId, p_lesson: lessonId })
+        .abortSignal(controller.signal);
+      pending = false;
+      if (controller.signal.aborted) return;
       if (error) cb.current.onError(error.message); else cb.current.onData(data);
     };
     beat();
     const t = setInterval(beat, HEARTBEAT_MS);
     const vis = () => document.visibilityState === 'visible' && beat();
     document.addEventListener('visibilitychange', vis);
-    return () => { clearInterval(t); document.removeEventListener('visibilitychange', vis); };
+    return () => {
+      controller.abort();
+      clearInterval(t);
+      document.removeEventListener('visibilitychange', vis);
+    };
   }, [enabled, enrollmentId, lessonId, idleMs]);
 
   return active;
@@ -72,7 +82,10 @@ function useHeartbeat(enrollmentId: string, lessonId: string | null, enabled: bo
 
 export default function Player() {
   const { id = '' } = useParams();
-  const { who } = useAuth();
+  return <CoursePlayer key={id} id={id} />;
+}
+
+function CoursePlayer({ id }: { id: string }) {
   const wide = useWide();
   const [course, setCourse] = useState<Course | null>(null);
   const [outline, setOutline] = useState<Outline[]>([]);
@@ -80,24 +93,47 @@ export default function Player() {
   const [current, setCurrent] = useState<Lesson | null>(null);
   const [slide, setSlide] = useState(0);
   const [index, setIndex] = useState(false);
+  const indexButton = useRef<HTMLButtonElement>(null);
+  const closeIndexButton = useRef<HTMLButtonElement>(null);
+  const closeIndex = () => {
+    setIndex(false);
+    indexButton.current?.focus();
+  };
+  useEffect(() => {
+    if (index) closeIndexButton.current?.focus();
+  }, [index]);
   const [intro, setIntro] = useState(false);
   const [error, setError] = useState('');
+  const slideRequest = useRef<AbortController | null>(null);
+  const [advancing, setAdvancing] = useState(false);
+  const lessonRequest = useRef<AbortController | null>(null);
+  useEffect(() => () => {
+    slideRequest.current?.abort();
+    lessonRequest.current?.abort();
+  }, []);
 
   const demo = !!course?.courses.is_demo;
-  const viewOnly = !!who?.impersonating && !demo; // "Entra come" su corso vero: si guarda soltanto
   const expired = !!course && course.status !== 'completato' && new Date(course.expires_at) < new Date();
 
   useEffect(() => {
+    const controller = new AbortController();
     (async () => {
       const { data: e, error } = await supabase.from('enrollments')
-        .select('*, courses(title, description, required_hours, is_demo, pass_threshold, quiz_questions_drawn, quiz_max_attempts, quiz_minutes_per_question)').eq('id', id).single();
+        .select('*, confirmed_hours, courses(title, description, required_hours, is_demo, pass_threshold, quiz_questions_drawn, quiz_max_attempts, quiz_minutes_per_question)').eq('id', id).abortSignal(controller.signal).single();
+      if (controller.signal.aborted) return;
       if (error) { setError('Corso non trovato.'); return; }
-      setCourse(e as Course);
-      const [{ data: cl }, { data: pr }] = await Promise.all([
+      const [lessons, activity] = await Promise.all([
         supabase.from('course_lessons')
-          .select('lessons(id, title, topic, position, min_seconds, modules(title, position))').eq('course_id', e.course_id),
-        supabase.from('lesson_progress').select('lesson_id, active_seconds, completed_at').eq('enrollment_id', id),
+          .select('lessons(id, title, topic, position, min_seconds, modules(title, position))').eq('course_id', e.course_id).abortSignal(controller.signal),
+        supabase.from('lesson_progress').select('lesson_id, active_seconds, completed_at').eq('enrollment_id', id).abortSignal(controller.signal),
       ]);
+      if (controller.signal.aborted) return;
+      if (lessons.error || activity.error) {
+        setError('Impossibile caricare le lezioni o i progressi. Ricarica la pagina.');
+        return;
+      }
+      const { data: cl } = lessons;
+      const { data: pr } = activity;
       type Row = { lessons: { id: string; title: string; topic: string | null; position: number; min_seconds: number; modules: { title: string; position: number } } | null };
       const list = ((cl ?? []) as unknown as Row[]).flatMap(({ lessons: l }) => l ? [{
         id: l.id, title: l.title, topic: l.topic, min_seconds: l.min_seconds, module: l.modules.title, mpos: l.modules.position, pos: l.position,
@@ -106,7 +142,12 @@ export default function Player() {
       setProgress(Object.fromEntries(((pr ?? []) as LessonProgress[]).map((p) => [p.lesson_id, p])));
       // Prima volta nel corso: si parte dall'introduzione.
       setIntro(!pr?.length);
+      setCourse(e as Course);
+      if (e.status !== 'completato' && new Date(e.expires_at).getTime() >= Date.now()) {
+        rememberCourse(e.user_id, e.id);
+      }
     })();
+    return () => controller.abort();
   }, [id]);
 
   // Sbloccate: tutte fino alla prima non completata (la stessa regola la applica il server).
@@ -115,10 +156,17 @@ export default function Player() {
   const allDone = outline.length > 0 && firstOpen === -1;
 
   const open = async (l: Outline) => {
+    lessonRequest.current?.abort();
+    const controller = new AbortController();
+    lessonRequest.current = controller;
     setError('');
     const { data, error } = await supabase.from('lessons')
-      .select('slides, narration, sources, audio_path, video_path, captions_path').eq('id', l.id).single();
+      .select('slides, narration, sources, audio_path, video_path, captions_path').eq('id', l.id).abortSignal(controller.signal).single();
+    if (controller.signal.aborted) return;
     if (error) { setError(error.message); return; }
+    slideRequest.current?.abort();
+    slideRequest.current = null;
+    setAdvancing(false);
     setCurrent({ ...l, ...(data as Omit<Lesson, keyof Outline>) });
     setSlide(0);
     scrollTo({ top: 0 });
@@ -129,7 +177,7 @@ export default function Player() {
     if (!current && outline.length) open(outline[unlockedUpTo]);
   }, [outline.length]);
 
-  const active = useHeartbeat(id, current?.id ?? null, !!current && !intro && !viewOnly && !demo && !expired,
+  const active = useHeartbeat(id, current?.id ?? null, !!current && !intro && !demo && !expired,
     (d) => {
       setProgress((p) => ({ ...p, [current!.id]: { ...(p[current!.id] ?? { lesson_id: current!.id, completed_at: null }), active_seconds: d.lesson_seconds } }));
       setCourse((c) => c && { ...c, active_seconds: d.total_seconds, status: c.status === 'assegnato' ? 'in_corso' : c.status });
@@ -151,16 +199,39 @@ export default function Player() {
     minutes: Math.round(current.min_seconds / 60), course: course?.courses.title ?? '',
   }), [current, slide, course?.courses.title]);
 
+  const nextSlide = async () => {
+    if (!current || intro || slideRequest.current || slide + 1 >= current.slides.length) return;
+    const next = slide + 1;
+    if (expired || progress[current.id]?.completed_at) {
+      setSlide(next);
+      return;
+    }
+    const controller = new AbortController();
+    slideRequest.current = controller;
+    setAdvancing(true);
+    const { error } = await supabase.rpc('record_lesson_slide', {
+      p_enrollment: id, p_lesson: current.id, p_slide: next + 1,
+    }).abortSignal(controller.signal);
+    if (controller.signal.aborted) return;
+    slideRequest.current = null;
+    setAdvancing(false);
+    if (error) setError(error.message);
+    else {
+      setError('');
+      setSlide(next);
+    }
+  };
+
   useEffect(() => {
     const key = (e: KeyboardEvent) => {
       if (!current || (e.target as HTMLElement).closest('input, textarea, select')) return;
-      if (e.key === 'ArrowRight') setSlide((s) => Math.min(s + 1, current.slides.length - 1));
-      if (e.key === 'ArrowLeft') setSlide((s) => Math.max(s - 1, 0));
-      if (e.key === 'Escape') setIndex(false);
+      if (e.key === 'ArrowRight') void nextSlide();
+      if (e.key === 'ArrowLeft' && !slideRequest.current && !intro) setSlide((s) => Math.max(s - 1, 0));
+      if (e.key === 'Escape' && index) closeIndex();
     };
     addEventListener('keydown', key);
     return () => removeEventListener('keydown', key);
-  }, [current]);
+  }, [current, slide, intro, expired, progress, index]);
 
   if (!course) return error ? <Message kind="error">{error}</Message> : null;
 
@@ -183,7 +254,9 @@ export default function Player() {
           <div className="order-last w-full min-w-0 sm:order-none sm:w-auto sm:flex-1">
             <p className="truncate font-semibold">{course.courses.title}{demo && <span className="ml-2 align-middle"><Badge tone="brand">Dimostrativo</Badge></span>}</p>
             <p className="text-xs text-ink-muted tabular-nums">
-              {done} di {outline.length} lezioni · {fmtHours(course.active_seconds)} di {course.courses.required_hours} h · scadenza {fmtDate(course.expires_at)}
+              {course.confirmed_hours != null
+                ? `${course.confirmed_hours} h convalidate · Test superato`
+                : `${done} di ${outline.length} lezioni · ${fmtHours(course.active_seconds)} di ${course.courses.required_hours} h · scadenza ${fmtDate(course.expires_at)}`}
             </p>
           </div>
           {allDone && (course.status === 'completato'
@@ -191,17 +264,17 @@ export default function Player() {
             : (hoursOk || demo) && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>)}
           <button className={btn.ghost} onClick={() => { setIntro(true); scrollTo({ top: 0 }); }}>Introduzione</button>
           <ThemeToggle className={`${btn.ghost} hidden sm:inline-block`} />
-          <button className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
+          <button ref={indexButton} className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
         </div>
         <div className="h-1 bg-surface" aria-hidden="true"><div className="h-full bg-brand" style={{ width: `${pct}%` }} /></div>
       </header>
 
-      {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={() => setIndex(false)} aria-hidden="true" />}
+      {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={closeIndex} aria-hidden="true" />}
       <aside id="indice" aria-label="Indice delle lezioni"
-             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'translate-x-0' : 'translate-x-full'}`}>
+             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'visible translate-x-0' : 'invisible translate-x-full'}`}>
         <div className="flex items-center justify-between border-b border-line p-4">
           <h2 className="font-semibold">Indice delle lezioni</h2>
-          <button className={btn.ghost} onClick={() => setIndex(false)}>Chiudi</button>
+          <button ref={closeIndexButton} className={btn.ghost} onClick={closeIndex}>Chiudi</button>
         </div>
         <div className="flex-1 overflow-y-auto p-3">
           {modules.map((m) => (
@@ -214,7 +287,7 @@ export default function Player() {
                   <li key={l.id}>
                     <button
                       disabled={i > unlockedUpTo}
-                      onClick={() => { open(l); setIndex(false); }}
+                      onClick={() => { open(l); closeIndex(); }}
                       aria-current={current?.id === l.id}
                       className={`flex w-full items-start gap-2 rounded-lg px-2 py-1.5 text-left text-sm disabled:cursor-not-allowed disabled:opacity-50 ${current?.id === l.id ? 'bg-brand-soft font-semibold text-brand-strong' : 'hover:bg-surface'}`}
                     >
@@ -232,11 +305,6 @@ export default function Player() {
       <section className="mx-auto max-w-5xl">
         {error && <Message kind="error">{error}</Message>}
         {expired && <Message kind="error">Il corso è scaduto il {fmtDate(course.expires_at)}: contatta l’amministratore per una proroga.</Message>}
-        {viewOnly && (
-          <p className="mb-4 rounded-xl bg-surface p-3 text-sm text-ink-muted">
-            Stai guardando il corso di un altro utente: ore e completamenti non vengono registrati.
-          </p>
-        )}
         {allDone && course.status !== 'completato' && !hoursOk && !demo && (
           <p className="mb-4 rounded-xl bg-surface p-3 text-sm text-ink-muted">
             Lezioni completate. Il test si sblocca a {course.courses.required_hours} ore di studio (ora {fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.
@@ -261,18 +329,18 @@ export default function Player() {
               dangerouslySetInnerHTML={{ __html: html }}
             />
             <div className="sticky bottom-0 z-10 -mx-4 mt-3 flex flex-wrap items-center gap-3 border-t border-line bg-card/95 px-4 py-3 backdrop-blur lg:static lg:mx-0 lg:border-0 lg:bg-transparent lg:p-0">
-              <button className={btn.ghost} disabled={slide === 0} onClick={() => setSlide(slide - 1)}>← Indietro</button>
+              <button className={btn.ghost} disabled={slide === 0 || advancing} onClick={() => setSlide(slide - 1)}>← Indietro</button>
               <span className="text-sm tabular-nums text-ink-muted">{slide + 1} / {current.slides.length}</span>
-              <button className={btn.ghost} disabled={lastSlide} onClick={() => setSlide(slide + 1)}>Avanti →</button>
+              <button className={btn.ghost} disabled={lastSlide || advancing} onClick={nextSlide}>Avanti →</button>
               <div className="ml-auto flex flex-wrap items-center gap-3">
                 {!demo && !p?.completed_at && (
                   <span className="text-sm tabular-nums text-ink-muted" aria-live="polite">
                     {timeOk ? 'Tempo minimo raggiunto' : `Tempo di studio ${mmss(seconds)} di ${mmss(current.min_seconds)}`}
-                    {!active && !viewOnly && ' · in pausa'}
+                    {!active && ' · in pausa'}
                   </span>
                 )}
                 {p?.completed_at ? <Badge tone="ok">Lezione completata</Badge> : (
-                  <button className={btn.primary} disabled={viewOnly || expired || !timeOk || !lastSlide} onClick={complete}
+                  <button className={btn.primary} disabled={expired || !timeOk || !lastSlide} onClick={complete}
                           title={!lastSlide ? 'Arriva all’ultima slide' : !timeOk ? 'Tempo minimo non ancora raggiunto' : undefined}>
                     Completa e prosegui
                   </button>

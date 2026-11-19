@@ -8,7 +8,7 @@ React + TypeScript + Tailwind, Supabase (Auth, Postgres con RLS, Storage, Edge F
 - `src/`: frontend (Vite).
 - `supabase/migrations/`: schema del database versionato, con RLS su tutte le tabelle.
 - `supabase/seed.sql`: configurazione, categorie e corsi iniziali (rieseguibile).
-- `supabase/functions/`: Edge Functions (`learning-impersonate` = "Entra come", `learning-create-user` = creazione account con password standard).
+- `supabase/functions/`: Edge Functions (`learning-impersonate` per "Entra come", `learning-create-user` per creare account con un link individuale di attivazione).
 - `tests/db/`: test di permessi per ruolo e impersonificazione su un Postgres locale.
 
 Il materiale originale dei corsi **non** va nel repository (`materiale/` è in `.gitignore`).
@@ -23,9 +23,9 @@ Frontend (`.env`, vedi `.env.example`):
 | `VITE_SUPABASE_ANON_KEY` | chiave pubblica (anon/publishable) |
 
 Secrets delle Edge Functions (`supabase secrets set ...`): `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY`
-sono forniti da Supabase. La password iniziale uguale per tutti i nuovi account si imposta come secret `DEFAULT_PASSWORD`
-oppure nel Vault del database (`select vault.create_secret('<password>', 'default_password');`):
-senza, `learning-create-user` risponde con errore.
+sono forniti da Supabase. Imposta `LEARNING_SITE_URL` all'origine pubblica di D-Academy per inviare il link di attivazione
+tramite Supabase Auth. Configura SMTP e autorizza la destinazione `/reimposta-password` in Auth.
+Se l'invio fallisce, l'utente può richiedere il link dalla pagina di recupero password.
 
 ## Sviluppo
 
@@ -52,13 +52,17 @@ supabase link --project-ref <ref>
 supabase db push                     # migrazioni
 psql "$DATABASE_URL" -f supabase/seed.sql
 supabase config push                 # auth: niente registrazioni pubbliche
-supabase secrets set DEFAULT_PASSWORD=...
-supabase functions deploy learning-impersonate learning-create-user
+supabase secrets set LEARNING_SITE_URL=https://elearning-ba8.pages.dev
+supabase functions deploy learning-impersonate learning-create-user learning-certificate
 npm run build                        # poi pubblica dist/ (Vercel, Netlify, …)
 ```
 
 Su Supabase imposta **Site URL** e **Redirect URLs** (Auth → URL Configuration) con il dominio di
 produzione e `/reimposta-password`, usati dall'email di recupero password.
+
+Per aggiornare un'installazione esistente, applica la migrazione e distribuisci le Edge Functions e il frontend nella stessa finestra.
+Individua gli account che usano ancora la password iniziale precedente, revoca le loro sessioni e invia loro un link di recupero.
+Dopo il rilascio puoi rimuovere il vecchio secret `DEFAULT_PASSWORD` o la voce corrispondente nel Vault.
 
 ## Configurazione senza toccare il codice
 
@@ -77,6 +81,12 @@ parametri del test (`quiz_*`, vuoti finché non vengono forniti).
 
 L'Admin apre una sessione con la Edge Function `learning-impersonate`; il frontend manda poi l'header
 `x-act-as`. Il database lo accetta solo se chi chiama è Admin **e** ha una sessione aperta, e
-calcola tutti i permessi sull'utente impersonato. Avanzamento ore, completamento lezioni, test e
-certificati sono rifiutati lato server durante l'impersonificazione. Ogni apertura, chiusura e
-scrittura finisce in `audit_impersonation`, leggibile solo dagli Admin.
+calcola i permessi sull'utente impersonato. Ore, completamenti, test e attestati sono associati
+all'iscrizione del corsista e rispettano le regole del corso. Le aperture, le chiusure, le modifiche
+alle iscrizioni, i tentativi e l'emissione degli attestati sono registrati in `audit_impersonation`,
+leggibile dagli Admin.
+
+In **Corsisti**, l'Admin può convalidare un'iscrizione e generare l'attestato intestato al corsista.
+La convalida registra chi l'ha autorizzata e lascia intatti ore, lezioni e tentativi del test.
+Il corso deve avere un modello di attestato configurato.
+La funzione `learning-certificate` include i font Noto Sans come file statici. Distribuiscila con la CLI Supabase e Docker per includerli nel bundle.

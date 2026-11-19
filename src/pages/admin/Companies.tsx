@@ -48,12 +48,12 @@ export default function Companies() {
     const form = e.currentTarget;
     const f = new FormData(form);
     try {
-      await callFn('learning-create-user', {
+      const { email_sent } = await callFn<{ email_sent: boolean }>('learning-create-user', {
         role: 'azienda', company_id: c.id,
         first_name: f.get('first_name'), last_name: f.get('last_name'), email: f.get('email'),
       });
       form.reset();
-      report(null, 'Accesso azienda creato con la password standard.');
+      report(null, email_sent ? 'Accesso azienda creato. Invio del link richiesto.' : 'Accesso azienda creato. Per impostare la password, usa “Password dimenticata?”.');
     } catch (err) {
       report({ message: (err as Error).message }, '');
     }
