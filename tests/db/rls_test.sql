@@ -504,4 +504,32 @@ select tests.ok((learning.submit_quiz((learning.start_quiz(:'e1') ->> 'attempt_i
 select tests.ok((select is_demo from learning.certificates where enrollment_id = :'e1'), 'corso dimostrativo: certificato di prova');
 rollback;
 
+begin;
+update learning.courses set certificate_template_path = 'ivass-30.pdf' where id = :'c30';
+insert into learning.quiz_attempts (enrollment_id, question_ids, deadline_at) values (:'e1', array[:q1::uuid], now() + interval '5 minutes') returning id as open_attempt \gset
+select tests.login(:az_a);
+set local role authenticated;
+select tests.fails(format('select learning.confirm_course_completion(%L)', :'e1'),
+  'convalida: azienda senza permesso');
+select tests.login(:admin, :cors_a);
+reset role;
+insert into learning.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
+set local role authenticated;
+select tests.fails(format('select learning.confirm_course_completion(%L)', :'e1'),
+  'convalida: riservata alla sessione Admin');
+select tests.login(:admin);
+select learning.confirm_course_completion(:'e1') as manual_certificate \gset
+select tests.ok(learning.confirm_course_completion(:'e1') = :'manual_certificate'::uuid,
+  'convalida: il reinvio restituisce lo stesso attestato');
+select tests.ok((select status = 'completato' and completed_at is not null and user_id = :cors_a
+  from learning.enrollments where id = :'e1'), 'convalida: completamento sull’iscrizione del corsista');
+select tests.ok((select confirmed_by = :admin and attempt_id is null and not is_demo
+  from learning.certificates where id = :'manual_certificate'), 'convalida: attestato reale senza tentativo fittizio');
+select tests.login(:cors_a);
+select tests.ok((select count(*) from learning.certificates where enrollment_id = :'e1') = 1,
+  'convalida: il corsista vede il suo attestato');
+select tests.fails(format('select learning.submit_quiz(%L, ''{}'')', :'open_attempt'),
+  'convalida: un tentativo aperto non può cambiare il risultato');
+rollback;
+
 \warn 'TUTTI I TEST SUPERATI'

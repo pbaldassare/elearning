@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../auth';
-import { callFn, supabase } from '../lib/supabase';
+import { callFn, downloadCertificate, supabase } from '../lib/supabase';
 import { useRows } from '../lib/useRows';
 import {
   Badge, btn, Empty, EnrollmentBadge, Field, fmtDate, inputCls, Message, PageTitle, Panel, Progress, Select,
@@ -32,6 +32,7 @@ export default function People() {
   const courses = useRows<{ id: string; title: string }>(() =>
     supabase.from('courses').select('id, title').eq('status', 'attivo').order('title'));
   const [msg, setMsg] = useState<{ kind: 'error' | 'success'; text: string } | null>(null);
+  const [pendingCertificate, setPendingCertificate] = useState<string | null>(null);
 
   const report = (error: { message: string } | null, ok: string) => {
     setMsg(error ? { kind: 'error', text: error.message } : { kind: 'success', text: ok });
@@ -62,6 +63,27 @@ export default function People() {
     const { error } = await supabase.from('enrollments')
       .update({ expires_at: new Date(from + days * 86400000).toISOString() }).eq('id', e.id);
     report(error, `Scadenza prorogata di ${days} giorni.`);
+  };
+
+  const certificate = async (person: Person, enrollment: Enrollment) => {
+    const title = enrollment.courses?.title ?? 'Corso';
+    const name = `${person.first_name} ${person.last_name}`;
+    const needsConfirmation = enrollment.status !== 'completato';
+    if (needsConfirmation && !confirm(`Confermi che ${name} ha completato «${title}» e superato il test? Verrà emesso l’attestato.`)) return;
+    setPendingCertificate(enrollment.id);
+    setMsg(null);
+    try {
+      if (needsConfirmation) {
+        const { error } = await supabase.rpc('confirm_course_completion', { p_enrollment: enrollment.id });
+        if (!report(error, 'Corso convalidato e attestato emesso.')) return;
+      }
+      await downloadCertificate(enrollment.id, `Attestato - ${title} - ${name}`);
+    } catch (error) {
+      const message = (error as Error).message;
+      report({ message: needsConfirmation ? `Attestato emesso. Download non riuscito: ${message}` : message }, '');
+    } finally {
+      setPendingCertificate(null);
+    }
   };
 
   const unassign = async (e: Enrollment) => {
@@ -126,6 +148,11 @@ export default function People() {
                         <EnrollmentBadge e={e} />
                         <Progress e={e} />
                         <span className="text-sm">Scadenza <strong>{fmtDate(e.expires_at)}</strong></span>
+                        {isAdmin && (
+                          <button className={btn.ghost} disabled={pendingCertificate !== null} onClick={() => certificate(p, e)}>
+                            {e.status === 'completato' ? 'Scarica attestato' : 'Convalida e genera attestato'}
+                          </button>
+                        )}
                         {isAdmin && e.status !== 'completato' && (
                           <span className="flex gap-2">
                             <button className={btn.ghost} onClick={() => extend(e, 30)}>Proroga 30 gg</button>

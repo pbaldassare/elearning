@@ -85,3 +85,7 @@ calcola i permessi sull'utente impersonato. Ore, completamenti, test e attestati
 all'iscrizione del corsista e rispettano le regole del corso. Le aperture, le chiusure, le modifiche
 alle iscrizioni, i tentativi e l'emissione degli attestati sono registrati in `audit_impersonation`,
 leggibile dagli Admin.
+
+In **Corsisti**, l'Admin può convalidare un'iscrizione e generare l'attestato intestato al corsista.
+La convalida registra chi l'ha autorizzata e lascia intatti ore, lezioni e tentativi del test.
+Il corso deve avere un modello di attestato configurato.
