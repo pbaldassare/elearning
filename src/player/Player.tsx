@@ -109,7 +109,7 @@ function CoursePlayer({ id }: { id: string }) {
     const controller = new AbortController();
     (async () => {
       const { data: e, error } = await supabase.from('enrollments')
-        .select('*, courses(title, description, required_hours, is_demo, pass_threshold, quiz_questions_drawn, quiz_max_attempts, quiz_minutes_per_question)').eq('id', id).abortSignal(controller.signal).single();
+        .select('*, confirmed_hours, courses(title, description, required_hours, is_demo, pass_threshold, quiz_questions_drawn, quiz_max_attempts, quiz_minutes_per_question)').eq('id', id).abortSignal(controller.signal).single();
       if (controller.signal.aborted) return;
       if (error) { setError('Corso non trovato.'); return; }
       const [lessons, activity] = await Promise.all([
@@ -241,7 +241,9 @@ function CoursePlayer({ id }: { id: string }) {
           <div className="order-last w-full min-w-0 sm:order-none sm:w-auto sm:flex-1">
             <p className="truncate font-semibold">{course.courses.title}{demo && <span className="ml-2 align-middle"><Badge tone="brand">Dimostrativo</Badge></span>}</p>
             <p className="text-xs text-ink-muted tabular-nums">
-              {done} di {outline.length} lezioni · {fmtHours(course.active_seconds)} di {course.courses.required_hours} h · scadenza {fmtDate(course.expires_at)}
+              {course.confirmed_hours != null
+                ? `${course.confirmed_hours} h convalidate · Test superato`
+                : `${done} di ${outline.length} lezioni · ${fmtHours(course.active_seconds)} di ${course.courses.required_hours} h · scadenza ${fmtDate(course.expires_at)}`}
             </p>
           </div>
           {allDone && (course.status === 'completato'

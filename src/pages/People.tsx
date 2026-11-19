@@ -22,7 +22,7 @@ export default function People() {
   const [q, setQ] = useState('');
   const people = useRows<Person>(() => {
     let query = supabase.from('profiles')
-      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name), enrollments(*, courses(title, required_hours))')
+      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name), enrollments(*, confirmed_hours, courses(title, required_hours))')
       .eq('role', 'corsista').order('last_name');
     if (company) query = query.eq('company_id', company);
     return query;

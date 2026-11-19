@@ -53,7 +53,7 @@ supabase db push                     # migrazioni
 psql "$DATABASE_URL" -f supabase/seed.sql
 supabase config push                 # auth: niente registrazioni pubbliche
 supabase secrets set LEARNING_SITE_URL=https://elearning-ba8.pages.dev
-supabase functions deploy learning-impersonate learning-create-user
+supabase functions deploy learning-impersonate learning-create-user learning-certificate
 npm run build                        # poi pubblica dist/ (Vercel, Netlify, …)
 ```
 

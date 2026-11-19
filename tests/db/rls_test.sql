@@ -525,6 +525,8 @@ select tests.ok((select status = 'completato' and completed_at is not null and u
   from learning.enrollments where id = :'e1'), 'convalida: completamento sull’iscrizione del corsista');
 select tests.ok((select confirmed_by = :admin and attempt_id is null and not is_demo
   from learning.certificates where id = :'manual_certificate'), 'convalida: attestato reale senza tentativo fittizio');
+select tests.ok((select confirmed_hours = 30 and active_seconds = 0 and attempts = 0
+  from learning.report_enrollments where id = :'e1'), 'convalida: il report mantiene distinti ore confermate e dati del player');
 select tests.login(:cors_a);
 select tests.ok((select count(*) from learning.certificates where enrollment_id = :'e1') = 1,
   'convalida: il corsista vede il suo attestato');

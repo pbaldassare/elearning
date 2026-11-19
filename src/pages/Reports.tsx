@@ -10,6 +10,7 @@ type Row = {
   company: string; course: string; status: string; expired: boolean;
   assigned_at: string; expires_at: string; completed_at: string | null;
   active_seconds: number; required_hours: number; lessons_done: number; lessons_total: number;
+  confirmed_hours: number | null;
   attempts: number; best_score: number | null; certificate_serial: number | null; last_access: string | null; is_demo: boolean;
 };
 
@@ -27,9 +28,11 @@ const cols: [string, (r: Row) => string][] = [
   ['Assegnato il', (r) => fmtDate(r.assigned_at)],
   ['Scadenza', (r) => fmtDate(r.expires_at)],
   ['Ore svolte', (r) => `${fmtHours(r.active_seconds)} / ${r.required_hours}`],
+  ['Ore convalidate', (r) => r.confirmed_hours == null ? '' : String(r.confirmed_hours)],
   ['Lezioni', (r) => `${r.lessons_done} / ${r.lessons_total}`],
   ['Tentativi test', (r) => String(r.attempts)],
   ['Miglior punteggio', (r) => (r.best_score == null ? '' : `${r.best_score.toLocaleString('it-IT')}%`)],
+  ['Esito convalida', (r) => r.confirmed_hours == null ? '' : 'Test superato'],
   ['Completato il', (r) => fmtDate(r.completed_at)],
   ['Attestato n.', (r) => (r.certificate_serial == null ? '' : String(r.certificate_serial))],
   ['Ultimo accesso', (r) => (r.last_access ? new Date(r.last_access).toLocaleString('it-IT') : '')],

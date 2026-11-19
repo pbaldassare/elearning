@@ -10,7 +10,7 @@ const daysLeft = (d: string) => Math.ceil((new Date(d).getTime() - Date.now()) /
 function MyCourses() {
   const { who } = useAuth();
   const list = useRows<Enrollment>(() =>
-    supabase.from('enrollments').select('*, courses(title, required_hours)')
+    supabase.from('enrollments').select('*, confirmed_hours, courses(title, required_hours)')
       .eq('user_id', who!.profile.id).order('assigned_at', { ascending: false }));
   return (
     <>

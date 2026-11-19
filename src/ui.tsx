@@ -122,6 +122,7 @@ export type Enrollment = {
   assigned_at: string;
   expires_at: string;
   active_seconds: number;
+  confirmed_hours?: number | null;
   courses: { title: string; required_hours: number } | null;
 };
 
@@ -132,15 +133,17 @@ export function EnrollmentBadge({ e }: { e: Pick<Enrollment, 'status' | 'expires
   return e.status === 'in_corso' ? <Badge tone="brand">In corso</Badge> : <Badge tone="muted">Da iniziare</Badge>;
 }
 
-export function Progress({ e }: { e: Pick<Enrollment, 'active_seconds' | 'courses'> }) {
+export function Progress({ e }: { e: Pick<Enrollment, 'active_seconds' | 'courses' | 'confirmed_hours'> }) {
   const req = Number(e.courses?.required_hours ?? 0) * 3600;
-  const pct = req ? Math.min(100, (e.active_seconds / req) * 100) : 0;
+  const pct = e.confirmed_hours != null ? 100 : req ? Math.min(100, (e.active_seconds / req) * 100) : 0;
   return (
     <div className="min-w-32">
       <div className="h-2 rounded-full bg-surface" role="progressbar" aria-valuenow={Math.round(pct)} aria-valuemin={0} aria-valuemax={100}>
         <div className="h-2 rounded-full bg-brand" style={{ width: `${pct}%` }} />
       </div>
-      <p className="mt-1 text-xs text-ink-muted">{fmtHours(e.active_seconds)} h di {e.courses?.required_hours} h</p>
+      <p className="mt-1 text-xs text-ink-muted">{e.confirmed_hours != null
+        ? `${e.confirmed_hours} h convalidate · Test superato`
+        : `${fmtHours(e.active_seconds)} h di ${e.courses?.required_hours} h`}</p>
     </div>
   );
 }
