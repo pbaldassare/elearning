@@ -81,6 +81,7 @@ parametri del test (`quiz_*`, vuoti finché non vengono forniti).
 
 L'Admin apre una sessione con la Edge Function `learning-impersonate`; il frontend manda poi l'header
 `x-act-as`. Il database lo accetta solo se chi chiama è Admin **e** ha una sessione aperta, e
-calcola tutti i permessi sull'utente impersonato. Avanzamento ore, completamento lezioni, test e
-certificati sono rifiutati lato server durante l'impersonificazione. Ogni apertura, chiusura e
-scrittura finisce in `audit_impersonation`, leggibile solo dagli Admin.
+calcola i permessi sull'utente impersonato. Ore, completamenti, test e attestati sono associati
+all'iscrizione del corsista e rispettano le regole del corso. Le aperture, le chiusure, le modifiche
+alle iscrizioni, i tentativi e l'emissione degli attestati sono registrati in `audit_impersonation`,
+leggibile dagli Admin.

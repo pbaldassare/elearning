@@ -362,8 +362,21 @@ begin;
 insert into learning.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
 select tests.login(:admin, :cors_a);
 set local role authenticated;
-select tests.fails(format('select learning.heartbeat(%L, %L)', :'e1', :'l1'), 'entra come: niente ore sul corso vero');
-select tests.fails(format('select learning.complete_lesson(%L, %L)', :'e1', :'l1'), 'entra come: niente completamenti sul corso vero');
+select tests.fails(format('select learning.complete_lesson(%L, %L)', :'e1', :'l1'), 'entra come: il tempo minimo resta obbligatorio');
+reset role;
+insert into learning.activity_heartbeats (enrollment_id, lesson_id, at)
+values (:'e1', :'l1', now() - interval '25 seconds');
+set local role authenticated;
+select tests.ok((learning.heartbeat(:'e1', :'l1') ->> 'lesson_seconds')::int = 25,
+  'entra come: tempo registrato sull’iscrizione del corsista');
+select learning.complete_lesson(:'e1', :'l1');
+select tests.ok((select completed_at is not null from learning.lesson_progress
+  where enrollment_id = :'e1' and lesson_id = :'l1'), 'entra come: lezione completata per il corsista');
+rollback;
+
+begin;
+insert into learning.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
+select tests.login(:admin, :cors_a);
 reset role;
 update learning.courses set is_demo = true where id = :'c30';
 set local role authenticated;
@@ -468,7 +481,21 @@ update learning.enrollments set active_seconds = 30 * 3600 where id = :'e1';
 insert into learning.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
 select tests.login(:admin, :cors_a);
 set local role authenticated;
-select tests.fails(format('select learning.start_quiz(%L)', :'e1'), 'entra come: niente test sul corso vero');
+select tests.ok((learning.submit_quiz((learning.start_quiz(:'e1') ->> 'attempt_id')::uuid,
+  jsonb_build_object(:q1, :'ok1', :q2, :'ok2')) ->> 'passed')::boolean, 'entra come: test reale superato');
+select tests.ok((select not is_demo from learning.certificates where enrollment_id = :'e1'),
+  'entra come: attestato reale sull’iscrizione del corsista');
+reset role;
+select tests.ok(exists (select 1 from learning.audit_impersonation
+  where admin_id = :admin and target_id = :cors_a and action = 'insert certificates'),
+  'entra come: generazione dell’attestato registrata');
+rollback;
+
+begin;
+insert into learning.lesson_progress (enrollment_id, lesson_id, completed_at)
+select :'e1', lesson_id, now() from learning_private.course_sequence(:'c30');
+insert into learning.impersonation_sessions (admin_id, target_id) values (:admin, :cors_a);
+select tests.login(:admin, :cors_a);
 reset role;
 update learning.courses set is_demo = true where id = :'c30';
 set local role authenticated;

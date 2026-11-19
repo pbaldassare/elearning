@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { useAuth } from '../auth';
 import { supabase } from '../lib/supabase';
 import { Badge, btn, fmtDate, fmtHours, Message, ThemeToggle, type Enrollment } from '../ui';
 import { handleQuizClick, slideHTML, type Slide } from './slides';
@@ -86,7 +85,6 @@ export default function Player() {
 }
 
 function CoursePlayer({ id }: { id: string }) {
-  const { who } = useAuth();
   const wide = useWide();
   const [course, setCourse] = useState<Course | null>(null);
   const [outline, setOutline] = useState<Outline[]>([]);
@@ -105,7 +103,6 @@ function CoursePlayer({ id }: { id: string }) {
   }, []);
 
   const demo = !!course?.courses.is_demo;
-  const viewOnly = !!who?.impersonating && !demo; // "Entra come" su corso vero: si guarda soltanto
   const expired = !!course && course.status !== 'completato' && new Date(course.expires_at) < new Date();
 
   useEffect(() => {
@@ -167,7 +164,7 @@ function CoursePlayer({ id }: { id: string }) {
     if (!current && outline.length) open(outline[unlockedUpTo]);
   }, [outline.length]);
 
-  const active = useHeartbeat(id, current?.id ?? null, !!current && !intro && !viewOnly && !demo && !expired,
+  const active = useHeartbeat(id, current?.id ?? null, !!current && !intro && !demo && !expired,
     (d) => {
       setProgress((p) => ({ ...p, [current!.id]: { ...(p[current!.id] ?? { lesson_id: current!.id, completed_at: null }), active_seconds: d.lesson_seconds } }));
       setCourse((c) => c && { ...c, active_seconds: d.total_seconds, status: c.status === 'assegnato' ? 'in_corso' : c.status });
@@ -192,7 +189,7 @@ function CoursePlayer({ id }: { id: string }) {
   const nextSlide = async () => {
     if (!current || intro || slideRequest.current || slide + 1 >= current.slides.length) return;
     const next = slide + 1;
-    if (viewOnly || expired || progress[current.id]?.completed_at) {
+    if (expired || progress[current.id]?.completed_at) {
       setSlide(next);
       return;
     }
@@ -221,7 +218,7 @@ function CoursePlayer({ id }: { id: string }) {
     };
     addEventListener('keydown', key);
     return () => removeEventListener('keydown', key);
-  }, [current, slide, intro, expired, viewOnly, progress]);
+  }, [current, slide, intro, expired, progress]);
 
   if (!course) return error ? <Message kind="error">{error}</Message> : null;
 
@@ -293,11 +290,6 @@ function CoursePlayer({ id }: { id: string }) {
       <section className="mx-auto max-w-5xl">
         {error && <Message kind="error">{error}</Message>}
         {expired && <Message kind="error">Il corso è scaduto il {fmtDate(course.expires_at)}: contatta l’amministratore per una proroga.</Message>}
-        {viewOnly && (
-          <p className="mb-4 rounded-xl bg-surface p-3 text-sm text-ink-muted">
-            Stai guardando il corso di un altro utente: ore e completamenti non vengono registrati.
-          </p>
-        )}
         {allDone && course.status !== 'completato' && !hoursOk && !demo && (
           <p className="mb-4 rounded-xl bg-surface p-3 text-sm text-ink-muted">
             Lezioni completate. Il test si sblocca a {course.courses.required_hours} ore di studio (ora {fmtHours(course.active_seconds)} h): puoi rivedere le lezioni.
@@ -329,11 +321,11 @@ function CoursePlayer({ id }: { id: string }) {
                 {!demo && !p?.completed_at && (
                   <span className="text-sm tabular-nums text-ink-muted" aria-live="polite">
                     {timeOk ? 'Tempo minimo raggiunto' : `Tempo di studio ${mmss(seconds)} di ${mmss(current.min_seconds)}`}
-                    {!active && !viewOnly && ' · in pausa'}
+                    {!active && ' · in pausa'}
                   </span>
                 )}
                 {p?.completed_at ? <Badge tone="ok">Lezione completata</Badge> : (
-                  <button className={btn.primary} disabled={viewOnly || expired || !timeOk || !lastSlide} onClick={complete}
+                  <button className={btn.primary} disabled={expired || !timeOk || !lastSlide} onClick={complete}
                           title={!lastSlide ? 'Arriva all’ultima slide' : !timeOk ? 'Tempo minimo non ancora raggiunto' : undefined}>
                     Completa e prosegui
                   </button>
