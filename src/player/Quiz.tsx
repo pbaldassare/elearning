@@ -104,14 +104,26 @@ export default function Quiz() {
   const back = <Link to={`/corso/${id}`} className="text-sm font-medium text-brand-strong">← Torna al corso</Link>;
 
   if (attempt) {
-    const done = Object.keys(answers).length;
+    const remaining = attempt.questions.filter((question) => !answers[question.id]).length;
     return (
       <div className="mx-auto max-w-3xl">
         <div className="sticky top-0 z-10 -mx-4 mb-6 flex flex-wrap items-center justify-between gap-2 border-b border-line bg-surface/95 px-4 py-3 backdrop-blur">
-          <span className="font-semibold">Test finale · {done} di {attempt.questions.length} risposte</span>
+          <div>
+            <h1 className="font-semibold">Test finale</h1>
+            <p className="text-sm text-ink-muted">{remaining === 0 ? 'Tutte le domande hanno una risposta'
+              : remaining === 1 ? '1 domanda senza risposta' : `${remaining} domande senza risposta`}</p>
+          </div>
           <span className={`font-mono text-lg tabular-nums ${left < 120_000 ? 'text-danger' : ''}`} role="timer" aria-label="Tempo rimasto">{mmss(left)}</span>
+          <div className="w-full text-sm" role="status">
+            {busy ? 'Invio in corso…' : retryAt !== null ? 'Connessione interrotta. Nuovo tentativo tra pochi secondi.' : ''}
+          </div>
         </div>
-        {error && <Message kind="error">{error}</Message>}
+        {error && (
+          <Message kind="error">
+            Impossibile consegnare il test. {error}
+            <button className={`${btn.ghost} ml-2`} disabled={busy} onClick={submit}>Riprova</button>
+          </Message>
+        )}
         <ol className="space-y-4">
           {attempt.questions.map((q, i) => (
             <li key={q.id}>
@@ -133,8 +145,8 @@ export default function Quiz() {
         </ol>
         <div className="mb-10 flex flex-wrap items-center gap-3">
           <button className={btn.primary} disabled={busy}
-                  onClick={() => (done === attempt.questions.length || confirm(`Hai risposto a ${done} domande su ${attempt.questions.length}. Consegnare comunque?`)) && submit()}>
-            Consegna il test
+                  onClick={() => (remaining === 0 || error || confirm(`Hai ancora ${remaining} risposte da dare. Consegnare comunque?`)) && submit()}>
+            {busy ? 'Invio in corso…' : 'Consegna il test'}
           </button>
           <span className="text-sm text-ink-muted">Allo scadere del tempo il test viene consegnato automaticamente.</span>
         </div>
@@ -149,6 +161,7 @@ export default function Quiz() {
       {error && <Message kind="error">{error}</Message>}
       {result && (
         <Panel>
+          <p role="status" className="mb-2 text-sm font-medium text-ink-muted">Test consegnato</p>
           <div className="mb-2 flex items-center gap-3">
             <span className="text-3xl font-bold tabular-nums">{result.score.toLocaleString('it-IT')}%</span>
             {result.passed ? <Badge tone="ok">Superato</Badge> : <Badge tone="bad">Non superato</Badge>}

@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useAuth, type Role } from './auth';
 import { btn, Card, fmtDate, Logo, Message, ThemeToggle, type Enrollment } from './ui';
@@ -14,6 +14,7 @@ import Content from './pages/admin/Content';
 import Companies from './pages/admin/Companies';
 import Audit from './pages/admin/Audit';
 import Player from './player/Player';
+import { CourseResume } from './player/CourseResume';
 import Quiz from './player/Quiz';
 import Questions from './pages/admin/Questions';
 import Reports from './pages/Reports';
@@ -37,22 +38,14 @@ const linkCls = ({ isActive }: { isActive: boolean }) =>
 function MySide({ userId }: { userId: string }) {
   const { pathname } = useLocation();
   const list = useRows<Enrollment>(() =>
-    supabase.from('enrollments').select('*, courses(title, required_hours)').eq('user_id', userId).order('expires_at'), [pathname]);
+    supabase.from('enrollments').select('*, courses(title, required_hours)').eq('user_id', userId).order('expires_at'), [pathname, userId]);
   const rows = list.rows ?? [];
   const open = rows.filter((e) => e.status !== 'completato');
   const next = open.find((e) => new Date(e.expires_at) >= new Date());
   const done = rows.length - open.length;
-  // Riprendi: il corso già iniziato (o, se nessuno, il primo da iniziare) non scaduto; il player riparte dalla prima lezione non completata.
-  const live = open.filter((e) => new Date(e.expires_at) >= new Date());
-  const resume = live.find((e) => e.status === 'in_corso') ?? live[0];
   return (
     <>
-      {resume && (
-        <Link to={`/corso/${resume.id}`} className="mt-4 block rounded-xl bg-brand-strong p-3 text-on-brand shadow-lift hover:brightness-110">
-          <span className="block text-xs font-bold uppercase tracking-wider opacity-80">{resume.status === 'in_corso' ? 'Riprendi da dove eri rimasto' : 'Inizia il corso'}</span>
-          <span className="mt-0.5 block truncate font-semibold">▶ {resume.courses?.title}</span>
-        </Link>
-      )}
+      <CourseResume rows={rows} userId={userId} className="mt-4 hidden lg:block" />
       <div className="mt-4 grid grid-cols-2 gap-2">
         {[[open.length, 'in corso'], [done, done === 1 ? 'completato' : 'completati']].map(([v, l]) => (
           <div key={l} className="rounded-xl bg-surface-2 p-3">
@@ -91,6 +84,15 @@ function Layout() {
   const { session, who, loading, actionError, profileError, refresh, signOut, stopImpersonation } = useAuth();
   const { pathname } = useLocation();
   const [menu, setMenu] = useState(false);
+  const menuButton = useRef<HTMLButtonElement>(null);
+  const closeMenuButton = useRef<HTMLButtonElement>(null);
+  const closeMenu = () => {
+    setMenu(false);
+    menuButton.current?.focus();
+  };
+  useEffect(() => {
+    if (menu) closeMenuButton.current?.focus();
+  }, [menu]);
   // Lezioni e test a schermo pieno: niente barra laterale, il player ha la sua intestazione.
   const focus = pathname.startsWith('/corso/');
   useEffect(() => setMenu(false), [pathname]);
@@ -134,12 +136,14 @@ function Layout() {
       {/* Barra laterale: fissa da desktop, a scomparsa (pulsante Menu) sul telefono. */}
       <div className="flex items-center justify-between border-b border-line bg-card px-4 py-3 lg:hidden print:hidden">
         <Link to="/" aria-label="D-Academy, home"><Logo /></Link>
-        <button className={btn.ghost} aria-expanded={menu} aria-controls="sidebar" onClick={() => setMenu(!menu)}>Menu</button>
+        <button ref={menuButton} className={btn.ghost} aria-expanded={menu} aria-controls="sidebar" onClick={() => setMenu(true)}>Menu</button>
       </div>
-      {menu && <div className="fixed inset-0 z-20 bg-black/40 lg:hidden" onClick={() => setMenu(false)} aria-hidden />}
+      {menu && <div className="fixed inset-0 z-20 bg-black/40 lg:hidden" onClick={closeMenu} aria-hidden />}
       <aside id="sidebar"
+             onKeyDown={(event) => { if (menu && event.key === 'Escape') closeMenu(); }}
              className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-card p-4 transition-transform lg:visible lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'visible translate-x-0' : 'invisible -translate-x-full'}`}>
         <Link to="/" aria-label="D-Academy, home" className="mb-6 px-3"><Logo /></Link>
+        <button ref={closeMenuButton} className={`${btn.ghost} mb-3 self-start lg:hidden`} onClick={closeMenu}>Chiudi menu</button>
         <nav className="flex-1 space-y-1 overflow-y-auto text-sm" aria-label="Principale">
           {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}
           {who.profile.role === 'corsista' && <MySide userId={who.profile.id} />}

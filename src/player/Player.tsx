@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { rememberCourse } from './CourseResume';
 import { Link, useParams } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { Badge, btn, fmtDate, fmtHours, Message, ThemeToggle, type Enrollment } from '../ui';
@@ -92,6 +93,15 @@ function CoursePlayer({ id }: { id: string }) {
   const [current, setCurrent] = useState<Lesson | null>(null);
   const [slide, setSlide] = useState(0);
   const [index, setIndex] = useState(false);
+  const indexButton = useRef<HTMLButtonElement>(null);
+  const closeIndexButton = useRef<HTMLButtonElement>(null);
+  const closeIndex = () => {
+    setIndex(false);
+    indexButton.current?.focus();
+  };
+  useEffect(() => {
+    if (index) closeIndexButton.current?.focus();
+  }, [index]);
   const [intro, setIntro] = useState(false);
   const [error, setError] = useState('');
   const slideRequest = useRef<AbortController | null>(null);
@@ -133,6 +143,9 @@ function CoursePlayer({ id }: { id: string }) {
       // Prima volta nel corso: si parte dall'introduzione.
       setIntro(!pr?.length);
       setCourse(e as Course);
+      if (e.status !== 'completato' && new Date(e.expires_at).getTime() >= Date.now()) {
+        rememberCourse(e.user_id, e.id);
+      }
     })();
     return () => controller.abort();
   }, [id]);
@@ -214,11 +227,11 @@ function CoursePlayer({ id }: { id: string }) {
       if (!current || (e.target as HTMLElement).closest('input, textarea, select')) return;
       if (e.key === 'ArrowRight') void nextSlide();
       if (e.key === 'ArrowLeft' && !slideRequest.current && !intro) setSlide((s) => Math.max(s - 1, 0));
-      if (e.key === 'Escape') setIndex(false);
+      if (e.key === 'Escape' && index) closeIndex();
     };
     addEventListener('keydown', key);
     return () => removeEventListener('keydown', key);
-  }, [current, slide, intro, expired, progress]);
+  }, [current, slide, intro, expired, progress, index]);
 
   if (!course) return error ? <Message kind="error">{error}</Message> : null;
 
@@ -251,17 +264,17 @@ function CoursePlayer({ id }: { id: string }) {
             : (hoursOk || demo) && <Link to={`/corso/${id}/test`} className={btn.primary}>Vai al test</Link>)}
           <button className={btn.ghost} onClick={() => { setIntro(true); scrollTo({ top: 0 }); }}>Introduzione</button>
           <ThemeToggle className={`${btn.ghost} hidden sm:inline-block`} />
-          <button className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
+          <button ref={indexButton} className={btn.ghost} aria-expanded={index} aria-controls="indice" onClick={() => setIndex(true)}>Indice<span className="hidden sm:inline"> lezioni</span></button>
         </div>
         <div className="h-1 bg-surface" aria-hidden="true"><div className="h-full bg-brand" style={{ width: `${pct}%` }} /></div>
       </header>
 
-      {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={() => setIndex(false)} aria-hidden="true" />}
+      {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={closeIndex} aria-hidden="true" />}
       <aside id="indice" aria-label="Indice delle lezioni"
              className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'visible translate-x-0' : 'invisible translate-x-full'}`}>
         <div className="flex items-center justify-between border-b border-line p-4">
           <h2 className="font-semibold">Indice delle lezioni</h2>
-          <button className={btn.ghost} onClick={() => setIndex(false)}>Chiudi</button>
+          <button ref={closeIndexButton} className={btn.ghost} onClick={closeIndex}>Chiudi</button>
         </div>
         <div className="flex-1 overflow-y-auto p-3">
           {modules.map((m) => (
@@ -274,7 +287,7 @@ function CoursePlayer({ id }: { id: string }) {
                   <li key={l.id}>
                     <button
                       disabled={i > unlockedUpTo}
-                      onClick={() => { open(l); setIndex(false); }}
+                      onClick={() => { open(l); closeIndex(); }}
                       aria-current={current?.id === l.id}
                       className={`flex w-full items-start gap-2 rounded-lg px-2 py-1.5 text-left text-sm disabled:cursor-not-allowed disabled:opacity-50 ${current?.id === l.id ? 'bg-brand-soft font-semibold text-brand-strong' : 'hover:bg-surface'}`}
                     >
