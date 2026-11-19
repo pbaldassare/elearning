@@ -258,7 +258,7 @@ function CoursePlayer({ id }: { id: string }) {
 
       {index && <div className="fixed inset-0 z-30 bg-black/40" onClick={() => setIndex(false)} aria-hidden="true" />}
       <aside id="indice" aria-label="Indice delle lezioni"
-             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'translate-x-0' : 'translate-x-full'}`}>
+             className={`fixed inset-y-0 right-0 z-40 flex w-full max-w-sm flex-col bg-card shadow-xl transition-transform ${index ? 'visible translate-x-0' : 'invisible translate-x-full'}`}>
         <div className="flex items-center justify-between border-b border-line p-4">
           <h2 className="font-semibold">Indice delle lezioni</h2>
           <button className={btn.ghost} onClick={() => setIndex(false)}>Chiudi</button>

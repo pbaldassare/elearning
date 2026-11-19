@@ -36,6 +36,15 @@ begin
   if nullif(btrim(course.certificate_template_path), '') is null then
     raise exception 'Configura il modello di attestato prima di convalidare il corso' using errcode = 'P0001';
   end if;
+  if course.certificate_template_path not in ('ivass-30.pdf', 'ivass-60.pdf', 'privacy.pdf') then
+    raise exception 'Il modello di attestato configurato non è supportato' using errcode = 'P0001';
+  end if;
+  if not exists (
+    select 1 from storage.objects
+    where bucket_id = 'learning-attestati' and name = course.certificate_template_path
+  ) then
+    raise exception 'Carica il modello PDF prima di convalidare il corso' using errcode = 'P0001';
+  end if;
 
   insert into learning.certificates (enrollment_id, confirmed_by, confirmed_hours, is_demo)
   select p_enrollment, auth.uid(), course.required_hours, course.is_demo or p.is_demo or co.is_demo

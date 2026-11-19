@@ -14,7 +14,7 @@ end $$;
 create schema auth;
 create schema storage;
 create table storage.buckets (id text primary key, name text, public boolean);
-create table storage.objects (bucket_id text references storage.buckets(id));
+create table storage.objects (bucket_id text references storage.buckets(id), name text not null);
 alter table storage.objects enable row level security;
 grant usage on schema auth to anon, authenticated, service_role;
 

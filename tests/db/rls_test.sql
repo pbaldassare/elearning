@@ -518,6 +518,13 @@ set local role authenticated;
 select tests.fails(format('select learning.confirm_course_completion(%L)', :'e1'),
   'convalida: riservata alla sessione Admin');
 select tests.login(:admin);
+select tests.fails(format('select learning.confirm_course_completion(%L)', :'e1'),
+  'convalida: il modello PDF deve essere presente nel bucket');
+select tests.ok((select status <> 'completato' from learning.enrollments where id = :'e1'),
+  'convalida: il modello mancante lascia invariato il corso');
+reset role;
+insert into storage.objects (bucket_id, name) values ('learning-attestati', 'ivass-30.pdf');
+set local role authenticated;
 select learning.confirm_course_completion(:'e1') as manual_certificate \gset
 select tests.ok(learning.confirm_course_completion(:'e1') = :'manual_certificate'::uuid,
   'convalida: il reinvio restituisce lo stesso attestato');
@@ -532,6 +539,23 @@ select tests.ok((select count(*) from learning.certificates where enrollment_id 
   'convalida: il corsista vede il suo attestato');
 select tests.fails(format('select learning.submit_quiz(%L, ''{}'')', :'open_attempt'),
   'convalida: un tentativo aperto non può cambiare il risultato');
+rollback;
+
+begin;
+update learning.courses set quiz_max_attempts = 1 where id = :'c30';
+insert into learning.lesson_progress (enrollment_id, lesson_id, completed_at)
+select :'e1', lesson_id, now() from learning_private.course_sequence(:'c30');
+update learning.enrollments set active_seconds = 30 * 3600 where id = :'e1';
+insert into learning.quiz_attempts (enrollment_id, question_ids, deadline_at)
+values (:'e1', array[:q1::uuid], now() - interval '5 minutes');
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.ok((learning.start_quiz(:'e1') -> 'expired_result' ->> 'course_reset')::boolean,
+  'ultimo tentativo scaduto: il client riceve il risultato del reset');
+select tests.ok((select cycle = 2 and active_seconds = 0 from learning.enrollments where id = :'e1'),
+  'ultimo tentativo scaduto: azzeramento e nuovo ciclo salvati');
+select tests.ok((select submitted_at is not null and score = 0
+  from learning.quiz_attempts where enrollment_id = :'e1'), 'ultimo tentativo scaduto: consegna registrata');
 rollback;
 
 \warn 'TUTTI I TEST SUPERATI'

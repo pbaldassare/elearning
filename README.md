@@ -89,3 +89,4 @@ leggibile dagli Admin.
 In **Corsisti**, l'Admin può convalidare un'iscrizione e generare l'attestato intestato al corsista.
 La convalida registra chi l'ha autorizzata e lascia intatti ore, lezioni e tentativi del test.
 Il corso deve avere un modello di attestato configurato.
+La funzione `learning-certificate` include i font Noto Sans come file statici. Distribuiscila con la CLI Supabase e Docker per includerli nel bundle.

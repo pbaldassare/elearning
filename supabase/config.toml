@@ -16,3 +16,4 @@ verify_jwt = true
 
 [functions.learning-certificate]
 verify_jwt = true
+static_files = ["./functions/learning-certificate/fonts/*"]

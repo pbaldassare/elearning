@@ -107,7 +107,7 @@ export default function Reports() {
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-2 print:hidden">
           <button className={btn.primary} disabled={!shown.length} onClick={() => downloadCsv(shown)}>Scarica CSV</button>
-          <button className={btn.ghost} disabled={!shown.length} onClick={() => window.print()}>Scarica PDF</button>
+          <button className={btn.ghost} disabled={!shown.length} onClick={() => window.print()}>Stampa / Salva come PDF</button>
           <span className="text-sm text-ink-muted">{shown.length} iscrizioni{demo ? ' (comprese le dimostrative)' : ''}</span>
         </div>
         <p className="hidden text-sm print:block">D-Academy · report del {new Date().toLocaleString('it-IT')} · {shown.length} iscrizioni</p>

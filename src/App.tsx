@@ -88,7 +88,7 @@ function MySide({ userId }: { userId: string }) {
 }
 
 function Layout() {
-  const { session, who, loading, actionError, signOut, stopImpersonation } = useAuth();
+  const { session, who, loading, actionError, profileError, refresh, signOut, stopImpersonation } = useAuth();
   const { pathname } = useLocation();
   const [menu, setMenu] = useState(false);
   // Lezioni e test a schermo pieno: niente barra laterale, il player ha la sua intestazione.
@@ -99,8 +99,12 @@ function Layout() {
   if (!session) return <Navigate to="/accedi" replace />;
   if (!who) {
     return (
-      <Card title="Account non configurato">
-        <p className="mb-4">Il tuo account non ha ancora un profilo attivo. Contatta l'amministratore.</p>
+      <Card title={profileError ? 'Impossibile caricare il profilo' : 'Account non configurato'}>
+        {profileError ? (
+          <button className={`${btn.primary} mb-4 mr-3`} onClick={refresh}>Riprova</button>
+        ) : (
+          <p className="mb-4">Il tuo account non ha ancora un profilo attivo. Contatta l'amministratore.</p>
+        )}
         {actionError && <Message kind="error">{actionError}</Message>}
         <button className="underline" onClick={signOut}>Esci</button>
       </Card>
@@ -134,7 +138,7 @@ function Layout() {
       </div>
       {menu && <div className="fixed inset-0 z-20 bg-black/40 lg:hidden" onClick={() => setMenu(false)} aria-hidden />}
       <aside id="sidebar"
-             className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-card p-4 transition-transform lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'translate-x-0' : '-translate-x-full'}`}>
+             className={`fixed inset-y-0 left-0 z-30 flex w-64 flex-col border-r border-line bg-card p-4 transition-transform lg:visible lg:sticky lg:top-0 lg:h-screen lg:translate-x-0 print:hidden ${menu ? 'visible translate-x-0' : 'invisible -translate-x-full'}`}>
         <Link to="/" aria-label="D-Academy, home" className="mb-6 px-3"><Logo /></Link>
         <nav className="flex-1 space-y-1 overflow-y-auto text-sm" aria-label="Principale">
           {nav[who.profile.role].map(([to, label]) => <NavLink key={to} to={to} end className={linkCls}>{label}</NavLink>)}

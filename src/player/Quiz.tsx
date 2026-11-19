@@ -46,6 +46,11 @@ export default function Quiz() {
     const { data, error } = await supabase.rpc('start_quiz', { p_enrollment: id });
     setBusy(false);
     if (error) { setError(error.message); return; }
+    if (data.expired_result) {
+      setResult(data.expired_result);
+      loadStatus();
+      return;
+    }
     submitted.current = false;
     setRetryAt(null);
     setNow(Date.now());
@@ -151,7 +156,7 @@ export default function Quiz() {
           <p className="text-ink-muted">{result.correct} risposte corrette su {result.total} · soglia {result.threshold}%</p>
           {result.passed && <p className="mt-3">Complimenti! L’attestato sarà disponibile nella pagina dei tuoi corsi.</p>}
           {!result.passed && !result.course_reset && <p className="mt-3">Tentativo {result.attempts_used} di {result.max_attempts}: puoi ripetere il test con nuove domande.</p>}
-          {result.course_reset && <p className="mt-3 font-medium text-danger">Hai esaurito i {result.max_attempts} tentativi: per legge il corso va ripetuto. Ore e lezioni ripartono da zero.</p>}
+          {result.course_reset && <p className="mt-3 font-medium text-danger">Hai esaurito i {result.max_attempts} tentativi. Torna al corso per ricominciare dalle lezioni.</p>}
           <ol className="mt-4 flex flex-wrap gap-1.5" aria-label="Esito per domanda">
             {result.results.map((r, i) => (
               <li key={r.question_id} className={`grid h-8 w-8 place-items-center rounded-lg text-sm font-semibold ${r.correct ? 'bg-success/10 text-success' : 'bg-danger/10 text-danger'}`}
