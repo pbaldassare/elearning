@@ -12,11 +12,16 @@ do $$ begin
 end $$;
 
 create schema auth;
+create schema storage;
+create table storage.buckets (id text primary key, name text, public boolean);
+create table storage.objects (bucket_id text references storage.buckets(id));
+alter table storage.objects enable row level security;
 grant usage on schema auth to anon, authenticated, service_role;
 
 create table auth.users (
   id uuid primary key default gen_random_uuid(),
-  email text unique
+  email text unique,
+  encrypted_password text
 );
 
 create function auth.uid() returns uuid language sql stable as $$

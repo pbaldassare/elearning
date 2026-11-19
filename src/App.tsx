@@ -1,7 +1,7 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, Navigate, NavLink, Outlet, Route, Routes, useLocation } from 'react-router-dom';
 import { useAuth, type Role } from './auth';
-import { btn, Card, fmtDate, Logo, ThemeToggle, type Enrollment } from './ui';
+import { btn, Card, fmtDate, Logo, Message, ThemeToggle, type Enrollment } from './ui';
 import { supabase } from './lib/supabase';
 import { useRows } from './lib/useRows';
 import Login from './pages/Login';
@@ -88,7 +88,7 @@ function MySide({ userId }: { userId: string }) {
 }
 
 function Layout() {
-  const { session, who, loading, signOut, stopImpersonation } = useAuth();
+  const { session, who, loading, actionError, signOut, stopImpersonation } = useAuth();
   const { pathname } = useLocation();
   const [menu, setMenu] = useState(false);
   // Lezioni e test a schermo pieno: niente barra laterale, il player ha la sua intestazione.
@@ -101,6 +101,7 @@ function Layout() {
     return (
       <Card title="Account non configurato">
         <p className="mb-4">Il tuo account non ha ancora un profilo attivo. Contatta l'amministratore.</p>
+        {actionError && <Message kind="error">{actionError}</Message>}
         <button className="underline" onClick={signOut}>Esci</button>
       </Card>
     );
@@ -116,7 +117,10 @@ function Layout() {
             <button className="rounded bg-white/15 px-3 py-1 hover:bg-white/25" onClick={stopImpersonation}>Esci da impersonificazione</button>
           </div>
         )}
-        <main className="px-4 pb-10 lg:px-8"><Outlet /></main>
+        <main className="px-4 pb-10 lg:px-8">
+          {actionError && <Message kind="error">{actionError}</Message>}
+          <Outlet />
+        </main>
       </>
     );
   }
@@ -153,6 +157,7 @@ function Layout() {
           </div>
         )}
         <main className="mx-auto max-w-6xl px-4 py-8 lg:px-8">
+          {actionError && <Message kind="error">{actionError}</Message>}
           <Outlet />
         </main>
       </div>

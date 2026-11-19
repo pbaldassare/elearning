@@ -44,9 +44,9 @@ export default function People() {
     const form = e.currentTarget;
     const f = Object.fromEntries(new FormData(form));
     try {
-      await callFn('learning-create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
+      const { email_sent } = await callFn<{ email_sent: boolean }>('learning-create-user', { ...f, role: 'corsista', is_demo: f.is_demo === 'on' });
       form.reset();
-      report(null, 'Corsista creato con la password standard.');
+      report(null, email_sent ? 'Corsista creato. Invio del link richiesto.' : 'Corsista creato. Per impostare la password, usa “Password dimenticata?”.');
     } catch (err) {
       report({ message: (err as Error).message }, '');
     }
@@ -181,7 +181,7 @@ export default function People() {
             </>
           )}
           <div className="sm:col-span-2">
-            <p className="mb-3 text-sm text-ink-muted">L’account viene creato con la password standard; il corsista potrà cambiarla dal profilo.</p>
+            <p className="mb-3 text-sm text-ink-muted">Il corsista imposta la propria password tramite un link individuale.</p>
             <button className={btn.primary}>Crea corsista</button>
           </div>
         </form>

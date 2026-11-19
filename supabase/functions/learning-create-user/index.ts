@@ -1,4 +1,4 @@
-// Crea un account (Azienda o Corsista) con la password standard (secret DEFAULT_PASSWORD o Vault).
+// Crea un account e invia il link individuale per impostare la password.
 // Admin: qualsiasi azienda, ruolo azienda o corsista. Azienda: solo corsisti propri.
 // Rispetta "Entra come": il ruolo è quello effettivo (whoami con l'header x-act-as).
 // Body: { role, company_id?, first_name, last_name, email, codice_fiscale?, is_demo? }
@@ -18,9 +18,6 @@ Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') return new Response('ok', { headers: cors });
 
   const db = createClient(url, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!, { db: { schema: 'learning' } });
-  // Secret della funzione oppure, in sua assenza, segreto "default_password" in Supabase Vault.
-  const password = Deno.env.get('DEFAULT_PASSWORD') ?? (await db.rpc('default_password')).data;
-  if (!password) return json({ error: 'Password standard non configurata (secret DEFAULT_PASSWORD o Vault default_password)' }, 500);
   const token = req.headers.get('Authorization')?.replace('Bearer ', '') ?? '';
   const { data: { user } } = await db.auth.getUser(token);
   if (!user) return json({ error: 'Non autenticato' }, 401);
@@ -53,6 +50,7 @@ Deno.serve(async (req) => {
     if (taken) return json({ error: 'Codice fiscale già registrato' }, 409);
   }
 
+  const password = `${crypto.randomUUID().replaceAll('-', '')}${crypto.randomUUID().replaceAll('-', '')}aA1!`;
   const { data: created, error: authError } = await db.auth.admin.createUser({ email, password, email_confirm: true });
   if (authError) {
     const dup = /already|registered|exists/i.test(authError.message);
@@ -75,6 +73,12 @@ Deno.serve(async (req) => {
     });
   }
 
-  // ponytail: email di benvenuto non inviata finché non si sceglie il provider (SMTP/Resend).
-  return json({ id: created.user.id, email_sent: false });
+  // Usa la configurazione Auth per il recapito. L’origine è una configurazione
+  // del server, così una richiesta non può indirizzare il link a un altro sito.
+  const siteUrl = Deno.env.get('LEARNING_SITE_URL');
+  const mailer = createClient(url, Deno.env.get('SUPABASE_ANON_KEY')!);
+  const delivery = siteUrl
+    ? await mailer.auth.resetPasswordForEmail(email, { redirectTo: `${siteUrl.replace(/\/+$/, '')}/reimposta-password` })
+    : null;
+  return json({ id: created.user.id, email_sent: delivery !== null && !delivery.error });
 });

@@ -34,6 +34,7 @@ export default function Quiz() {
   const [now, setNow] = useState(Date.now());
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
+  const [retryAt, setRetryAt] = useState<number | null>(null);
   const submitted = useRef(false);
 
   const loadStatus = () => supabase.rpc('quiz_status', { p_enrollment: id })
@@ -46,6 +47,8 @@ export default function Quiz() {
     setBusy(false);
     if (error) { setError(error.message); return; }
     submitted.current = false;
+    setRetryAt(null);
+    setNow(Date.now());
     setAttempt(data);
     setAnswers(saved(data.attempt_id));
     setResult(null);
@@ -54,11 +57,20 @@ export default function Quiz() {
   const submit = async () => {
     if (!attempt || submitted.current) return;
     submitted.current = true;
+    setError('');
     setBusy(true);
     const { data, error } = await supabase.rpc('submit_quiz', { p_attempt: attempt.attempt_id, p_answers: answers });
     setBusy(false);
-    if (error) { setError(error.message); submitted.current = false; return; }
-    sessionStorage.removeItem(`quiz:${attempt.attempt_id}`);
+    if (error) {
+      setError(error.message);
+      submitted.current = false;
+      const retry = Date.now() + 5000;
+      if (!error.code && retry < new Date(attempt.deadline_at).getTime() + 110_000) setRetryAt(retry);
+      else setRetryAt(null);
+      return;
+    }
+    setRetryAt(null);
+    try { sessionStorage.removeItem(`quiz:${attempt.attempt_id}`); } catch { /* archivio locale facoltativo */ }
     setResult(data);
     setAttempt(null);
     loadStatus();
@@ -72,6 +84,11 @@ export default function Quiz() {
     return () => clearInterval(t);
   }, [attempt]);
   useEffect(() => { if (attempt && left <= 0) submit(); }, [attempt, left <= 0]);
+  useEffect(() => {
+    if (retryAt === null || !attempt) return;
+    const retry = setTimeout(submit, Math.max(0, retryAt - Date.now()));
+    return () => clearTimeout(retry);
+  }, [retryAt, attempt]);
 
   const choose = (q: string, o: string) => {
     const next = { ...answers, [q]: o };
@@ -94,7 +111,7 @@ export default function Quiz() {
           {attempt.questions.map((q, i) => (
             <li key={q.id}>
               <Panel>
-                <fieldset>
+                <fieldset disabled={busy || left <= 0}>
                   <legend className="mb-3 font-semibold"><span className="text-brand-strong">{i + 1}.</span> {q.text}</legend>
                   <div className="space-y-2">
                     {q.options.map((o) => (

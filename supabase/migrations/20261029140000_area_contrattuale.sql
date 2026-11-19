@@ -2,9 +2,16 @@
 -- Le lezioni si spostano senza cambiare id: progressi, iscrizioni e domande restano collegati.
 do $$
 declare
-  lib uuid := (select id from learning.lesson_libraries where name = 'IVASS');
+  lib uuid;
   m_new uuid;
 begin
+  insert into learning.lesson_libraries (name) values ('IVASS') on conflict (name) do nothing;
+  select id into lib from learning.lesson_libraries where name = 'IVASS';
+  if exists (
+    select 1 from learning.modules where library_id = lib and title = 'Area contrattuale e prodotti'
+  ) then
+    return;
+  end if;
   update learning.modules set position = position + 10 where library_id = lib;
   update learning.modules set position = position - 9 where library_id = lib;
   insert into learning.modules (library_id, position, title) values (lib, 1, 'Area contrattuale e prodotti') returning id into m_new;

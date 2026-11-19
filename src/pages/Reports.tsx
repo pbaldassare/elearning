@@ -37,7 +37,10 @@ const cols: [string, (r: Row) => string][] = [
 
 // CSV per Excel italiano: separatore ";" e BOM per gli accenti.
 function downloadCsv(rows: Row[]) {
-  const cell = (v: string) => (/[";\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v);
+  const cell = (value: string) => {
+    const v = /^[\s\uFEFF]*[=+\-@]|^[\t\r\n]/.test(value) ? `'${value}` : value;
+    return /[";\r\n]/.test(v) ? `"${v.replace(/"/g, '""')}"` : v;
+  };
   const text = [cols.map(([h]) => h), ...rows.map((r) => cols.map(([, f]) => f(r)))].map((l) => l.map(cell).join(';')).join('\r\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob(['﻿' + text], { type: 'text/csv;charset=utf-8' }));
@@ -49,7 +52,22 @@ function downloadCsv(rows: Row[]) {
 export default function Reports() {
   const { who } = useAuth();
   const isAdmin = who?.profile.role === 'admin';
-  const { rows, error } = useRows<Row>(() => supabase.from('report_enrollments').select('*').order('last_name').order('first_name'));
+  const { rows, error } = useRows<Row>(async () => {
+    const all: Row[] = [];
+    const pageSize = 250;
+    let total: number | null = null;
+    while (total === null || all.length < total) {
+      const { data, error, count } = await supabase.from('report_enrollments')
+        .select('*', all.length === 0 ? { count: 'exact' } : {})
+        .order('last_name').order('first_name').order('id')
+        .range(all.length, all.length + pageSize - 1);
+      if (error) return { data: null, error };
+      total ??= count;
+      if (!data.length) break;
+      all.push(...data as Row[]);
+    }
+    return { data: all, error: null };
+  });
   const [company, setCompany] = useState('');
   const [course, setCourse] = useState('');
   const [q, setQ] = useState('');

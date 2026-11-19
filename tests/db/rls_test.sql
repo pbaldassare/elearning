@@ -58,7 +58,7 @@ insert into learning.enrollments (user_id, course_id)
 select :cors_a, id from learning.courses where title = 'IVASS 30 ore';
 
 insert into learning.modules (library_id, position, title)
-select id, 1, 'Area giuridica' from learning.lesson_libraries where name = 'IVASS';
+select id, 2, 'Area giuridica' from learning.lesson_libraries where name = 'IVASS';
 insert into learning.lessons (module_id, position, title, status)
 select id, 1, 'Lezione approvata', 'approvata' from learning.modules where title = 'Area giuridica';
 insert into learning.lessons (module_id, position, title)
@@ -108,6 +108,9 @@ select tests.ok((select array_agg(name) from learning.companies) = array['Aziend
 select tests.ok((select count(*) from learning.profiles) = 2, 'azienda A: vede sé e i propri corsisti');
 select tests.ok(not exists (select 1 from learning.profiles where id = :cors_b), 'azienda A: non vede corsisti di B');
 select tests.ok((select count(*) from learning.enrollments) = 1, 'azienda A: vede le iscrizioni dei propri corsisti');
+select tests.ok((select count(*) from learning.report_enrollments) = 1, 'report: rispetta il perimetro aziendale');
+select tests.fails(format('update learning.profiles set password_changed_at = now() where id = %L', :cors_a),
+  'azienda A: non può dichiarare il cambio password del corsista');
 select tests.ok((select array_agg(title) from learning.courses) = array['IVASS 30 ore'], 'azienda A: vede solo i corsi assegnati');
 select tests.ok((select count(*) from learning.audit_impersonation) = 0, 'azienda A: registro impersonificazione invisibile');
 select tests.ok((select count(*) from learning.questions) = 0, 'azienda A: banco domande invisibile');
@@ -176,6 +179,10 @@ select tests.login(:cors_a);
 set local role authenticated;
 select tests.ok((learning.whoami() ->> 'force_password_change')::boolean, 'interruttore attivo: cambio password richiesto');
 select learning.mark_password_changed();
+select tests.ok((learning.whoami() ->> 'force_password_change')::boolean, 'la chiamata da sola non sblocca il profilo');
+reset role;
+update auth.users set encrypted_password = 'test-hash' where id = :cors_a;
+set local role authenticated;
 select tests.ok(not (learning.whoami() ->> 'force_password_change')::boolean, 'dopo il cambio non è più richiesto');
 rollback;
 
@@ -185,6 +192,22 @@ select tests.ok((select learning.is_expired(e) from learning.enrollments e), 'is
 rollback;
 
 -- ---------------------------------------------------------------- "Entra come"
+
+begin;
+select tests.login(:admin);
+set local role authenticated;
+select tests.fails(format('select learning.set_impersonation(%L, %L)', :admin, :cors_a),
+  'entra come: la RPC di gestione è riservata al service role');
+set local role service_role;
+select learning.set_impersonation(:admin, :cors_a);
+select learning.set_impersonation(:admin, :az_a);
+select learning.set_impersonation(:admin, null);
+reset role;
+select tests.ok(not exists (select 1 from learning.impersonation_sessions where ended_at is null),
+  'entra come: la chiusura termina l’unica sessione corrente');
+select tests.ok((select count(*) from learning.audit_impersonation) = 4,
+  'entra come: apertura, sostituzione e chiusura sono registrate');
+rollback;
 
 begin;
 select tests.login(:admin, :cors_a);
@@ -310,6 +333,13 @@ insert into learning.activity_heartbeats (enrollment_id, lesson_id, at) values (
 set local role authenticated;
 select tests.ok((learning.heartbeat(:'e1', :'l1') ->> 'lesson_seconds')::int = 25, 'heartbeat: accredita il tempo dal precedente');
 select tests.ok((select status = 'in_corso' and active_seconds = 25 from learning.enrollments where id = :'e1'), 'heartbeat: ore sull''iscrizione, stato in corso');
+reset role;
+update learning.lessons set slides = '[{}, {}, {}]' where id = :'l1';
+set local role authenticated;
+select tests.fails(format('select learning.complete_lesson(%L, %L)', :'e1', :'l1'), 'player: non completa senza raggiungere l’ultima slide');
+select tests.fails(format('select learning.record_lesson_slide(%L, %L, 3)', :'e1', :'l1'), 'player: non salta una slide');
+select learning.record_lesson_slide(:'e1', :'l1', 2);
+select learning.record_lesson_slide(:'e1', :'l1', 3);
 select learning.complete_lesson(:'e1', :'l1');
 select tests.ok((learning.heartbeat(:'e1', :'l2') ->> 'total_seconds')::int = 25, 'player: completata la prima, si sblocca la seconda');
 rollback;
@@ -398,7 +428,8 @@ select learning.submit_quiz((:'quiz'::jsonb ->> 'attempt_id')::uuid, jsonb_build
 select tests.ok((:'res'::jsonb ->> 'passed')::boolean and (:'res'::jsonb ->> 'score')::numeric = 100, 'test: tutto giusto, superato');
 select tests.ok((select status = 'completato' from learning.enrollments where id = :'e1'), 'test superato: corso completato');
 select tests.ok((select count(*) from learning.certificates where enrollment_id = :'e1') = 1, 'test superato: certificato emesso');
-select tests.fails(format('select learning.submit_quiz(%L, ''{}'')', :'quiz'::jsonb ->> 'attempt_id'), 'test: non si consegna due volte');
+select tests.ok(learning.submit_quiz((:'quiz'::jsonb ->> 'attempt_id')::uuid, '{}') = :'res'::jsonb, 'test: un retry restituisce il primo esito');
+select tests.ok((select count(*) from learning.certificates where enrollment_id = :'e1') = 1, 'test: il retry non duplica il certificato');
 rollback;
 
 begin;
