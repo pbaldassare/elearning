@@ -10,11 +10,12 @@ import {
 
 type AssignedCourse = Enrollment & {
   courses: (NonNullable<Enrollment['courses']> & { certificate_template_path: string | null }) | null;
+  certificates: { serial: number; is_demo: boolean; confirmed_by: string | null }[];
 };
 
 type Person = {
   id: string; first_name: string; last_name: string; email: string; codice_fiscale: string;
-  company_id: string; is_demo: boolean; companies: { name: string } | null; enrollments: AssignedCourse[];
+  company_id: string; is_demo: boolean; companies: { name: string; is_demo: boolean } | null; enrollments: AssignedCourse[];
 };
 
 // Corsisti e assegnazioni. Admin: tutte le aziende. Azienda: solo i propri (lo garantisce la RLS).
@@ -26,7 +27,7 @@ export default function People() {
   const [q, setQ] = useState('');
   const people = useRows<Person>(() => {
     let query = supabase.from('profiles')
-      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name), enrollments(*, confirmed_hours, courses(title, required_hours, certificate_template_path))')
+      .select('id, first_name, last_name, email, codice_fiscale, company_id, is_demo, companies(name, is_demo), enrollments(*, confirmed_hours, courses(title, required_hours, certificate_template_path), certificates(serial, is_demo, confirmed_by))')
       .eq('role', 'corsista').order('last_name');
     if (company) query = query.eq('company_id', company);
     return query;
@@ -37,7 +38,7 @@ export default function People() {
     supabase.from('courses').select('id, title').eq('status', 'attivo').order('title'));
   const [msg, setMsg] = useState<{ kind: 'error' | 'success'; text: string } | null>(null);
   const [pendingCertificate, setPendingCertificate] = useState<string | null>(null);
-  const [confirmation, setConfirmation] = useState<{ person: Person; enrollment: AssignedCourse } | null>(null);
+  const [confirmation, setConfirmation] = useState<{ person: Person; enrollment: AssignedCourse; reissue?: boolean } | null>(null);
   const [confirmationError, setConfirmationError] = useState('');
   const dialog = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -77,16 +78,17 @@ export default function People() {
     report(error, `Scadenza prorogata di ${days} giorni.`);
   };
 
-  const certificate = async (person: Person, enrollment: Enrollment) => {
+  const certificate = async (person: Person, enrollment: Enrollment, reissue = false) => {
     const title = enrollment.courses?.title ?? 'Corso';
     const name = `${person.first_name} ${person.last_name}`;
-    const needsConfirmation = enrollment.status !== 'completato';
+    const needsConfirmation = reissue || enrollment.status !== 'completato';
     setPendingCertificate(enrollment.id);
     setConfirmationError('');
     setMsg(null);
     try {
       if (needsConfirmation) {
-        const { error } = await supabase.rpc('confirm_course_completion', { p_enrollment: enrollment.id });
+        const operation = reissue ? 'reissue_demo_certificate' : 'confirm_course_completion';
+        const { error } = await supabase.rpc(operation, { p_enrollment: enrollment.id });
         if (error) {
           setConfirmationError(error.message);
           return;
@@ -133,7 +135,9 @@ export default function People() {
               className="m-auto w-[calc(100%-2rem)] max-w-md rounded-2xl border border-line bg-card p-5 text-ink shadow-lift backdrop:bg-black/50">
         {confirmation && (
           <>
-            <h2 id="completion-title" className="text-lg font-semibold">Convalida corso e genera attestato</h2>
+            <h2 id="completion-title" className="text-lg font-semibold">
+              {confirmation.reissue ? 'Emetti un nuovo attestato' : 'Convalida corso e genera attestato'}
+            </h2>
             <dl className="my-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-sm">
               <dt className="text-ink-muted">Corsista</dt><dd>{confirmation.person.first_name} {confirmation.person.last_name}</dd>
               <dt className="text-ink-muted">Corso</dt><dd>{confirmation.enrollment.courses?.title}</dd>
@@ -141,12 +145,13 @@ export default function People() {
               <dt className="text-ink-muted">Modello PDF</dt><dd>{supportedTemplate ? template : 'Da configurare'}</dd>
             </dl>
             <p className="mb-4 text-sm">Conferma che il corsista ha completato la formazione e superato la verifica finale.</p>
+            {confirmation.reissue && <p className="mb-4 text-sm">Il profilo sarà attivato come reale. Il nuovo attestato avrà un numero diverso e quello di prova resterà nello storico.</p>}
             {confirmationError && <Message kind="error">{confirmationError}</Message>}
             <div className="flex flex-wrap justify-end gap-2">
               <button className={btn.ghost} autoFocus disabled={pendingCertificate !== null}
                       onClick={() => dialog.current?.close()}>Annulla</button>
               <button className={btn.primary} disabled={!supportedTemplate || pendingCertificate !== null}
-                      onClick={() => certificate(confirmation.person, confirmation.enrollment)}>
+                      onClick={() => certificate(confirmation.person, confirmation.enrollment, confirmation.reissue)}>
                 {pendingCertificate ? 'Convalida in corso…' : 'Conferma ed emetti'}
               </button>
             </div>
@@ -201,6 +206,19 @@ export default function People() {
                           }}>
                             {e.status === 'completato' ? 'Scarica attestato' : 'Convalida e genera attestato'}
                           </button>
+                        )}
+                        {isAdmin && e.status === 'completato' && p.companies?.is_demo === false &&
+                          e.certificates?.some((c) => c.is_demo && c.confirmed_by) &&
+                          !e.certificates.some((c) => !c.is_demo) && (
+                            <button className={btn.ghost} disabled={pendingCertificate !== null} onClick={() => {
+                              setConfirmationError('');
+                              setConfirmation({ person: p, enrollment: e, reissue: true });
+                            }}>Emetti nuovo attestato</button>
+                          )}
+                        {isAdmin && !!e.certificates?.some((c) => c.is_demo) && (
+                          <span className="text-xs text-ink-muted">
+                            Storico prova: {e.certificates.filter((c) => c.is_demo).map((c) => `n. ${c.serial}`).join(', ')}
+                          </span>
                         )}
                         {isAdmin && e.status !== 'completato' && (
                           <span className="flex gap-2">
