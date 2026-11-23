@@ -542,6 +542,31 @@ select tests.fails(format('select learning.submit_quiz(%L, ''{}'')', :'open_atte
 rollback;
 
 begin;
+update learning.courses set certificate_template_path = 'ivass-30.pdf' where id = :'c30';
+insert into storage.objects (bucket_id, name) values ('learning-attestati', 'ivass-30.pdf');
+select tests.login(:admin);
+update learning.profiles set is_demo = true where id = :cors_a;
+update learning.companies set is_demo = true where id = :comp_a;
+set local role authenticated;
+select learning.confirm_course_completion(:'e1') as original_demo \gset
+select tests.fails(format('select learning.reissue_demo_certificate(%L)', :'e1'), 'riemissione: azienda demo bloccata');
+reset role;
+update learning.companies set is_demo = false where id = :comp_a;
+select tests.login(:cors_a);
+set local role authenticated;
+select tests.fails(format('select learning.reissue_demo_certificate(%L)', :'e1'), 'riemissione: solo Admin');
+select tests.login(:admin);
+select learning.reissue_demo_certificate(:'e1') as reissued \gset
+select tests.ok(learning.reissue_demo_certificate(:'e1') = :'reissued'::uuid, 'riemissione: operazione idempotente');
+select tests.ok((select is_demo from learning.certificates where id = :'original_demo'), 'riemissione: prova conservata');
+select tests.ok((select not is_demo and replaces_demo_id = :'original_demo'::uuid and confirmed_hours = 30
+  from learning.certificates where id = :'reissued'), 'riemissione: nuovo attestato distinto e tracciato');
+select tests.ok((select not is_demo from learning.profiles where id = :cors_a), 'riemissione: profilo reale');
+select tests.ok((select learning.confirmed_hours(e) = 30 from learning.enrollments e where e.id = :'e1'),
+  'riemissione: riepilogo ore compatibile con lo storico');
+rollback;
+
+begin;
 update learning.courses set quiz_max_attempts = 1 where id = :'c30';
 insert into learning.lesson_progress (enrollment_id, lesson_id, completed_at)
 select :'e1', lesson_id, now() from learning_private.course_sequence(:'c30');
